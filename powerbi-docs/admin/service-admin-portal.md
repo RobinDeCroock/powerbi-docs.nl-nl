@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252482"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537499"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -43,8 +43,8 @@ De portal bevat negen tabbladen. De rest van dit artikel geeft informatie over e
 * [Tenantinstellingen](#tenant-settings)
 * [Capaciteitsinstellingen](#capacity-settings)
 * [Codes insluiten](#embed-codes)
-* [Organisatievisuals](#organizational-visuals)
-* [Gegevensstroomopslag (preview)](#dataflowStorage)
+* [Organisatievisuals](organizational-visuals.md#organizational-visuals)
+* [Gegevensstroomopslag (preview)](#dataflow-storage-preview)
 * [Werkruimten](#workspaces)
 * [Aangepaste huisstijl](#custom-branding)
 
@@ -386,55 +386,6 @@ De instelling **Delen in Teams** bevindt zich in het gedeelte **Tenantinstelling
 
 Meer informatie over [het delen van Power BI-inhoud in Teams](../collaborate-share/service-share-report-teams.md).
 
-
-## <a name="power-bi-visuals-settings"></a>Instellingen voor Power BI-visuals
-
-### <a name="add-and-use-power-bi-visuals"></a>Power BI-visuals toevoegen en gebruiken
-
-Gebruikers in de organisatie kunnen Power BI-visuals gebruiken en delen. [Meer informatie](../developer/visuals/power-bi-custom-visuals.md)
-
-> [!NOTE]
-> Deze instelling kan worden toegepast op de hele organisatie of kan worden beperkt tot specifieke groepen.
-
-Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van het **Groepsbeleid** om het gebruik van Power BI-visuals op de geïmplementeerde computers van een organisatie uit te schakelen.
-
-<table>
-<tr><th>Kenmerk</th><th>Waarde</th>
-</tr>
-<td>sleutel</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableCustomVisuals</td>
-</tr>
-</table>
-
-Met de waarde 1 (decimaal) schakelt u het gebruik van Power BI-visuals in Power BI in (dit is de standaardinstelling).
-
-Met de waarde 0 (decimaal) schakelt u het gebruik van Power BI-visuals in Power BI uit.
-
-### <a name="allow-only-certified-visuals"></a>Alleen gecertificeerde visuals toestaan
-
-Gebruikers in de organisatie die zijn gemachtigd om Power BI-visuals toe te voegen en te gebruiken, aangeduid met de instelling Power BI-visuals toevoegen en gebruiken, kunnen alleen [gecertificeerde Power BI-visuals](https://go.microsoft.com/fwlink/?linkid=2002010) gebruiken (niet-gecertificeerde visuals worden geblokkeerd en leveren een foutbericht op bij gebruik). 
-
-
-Power BI Desktop (vanaf de versie van maart 2019) ondersteunt het gebruik van het **Groepsbeleid** om het gebruik van niet-gecertificeerde Power BI-visuals op de geïmplementeerde computers van een organisatie uit te schakelen.
-
-<table>
-<tr><th>Kenmerk</th><th>Waarde</th>
-</tr>
-<td>sleutel</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableUncertifiedVisuals</td>
-</tr>
-</table>
-
-Met de waarde 1 (decimaal) schakelt u het gebruik van niet-gecertificeerde Power BI-visuals in Power BI in (dit is de standaardinstelling).
-
-Met de waarde 0 (decimaal) schakelt u het gebruik van niet-gecertificeerde Power BI-visuals in Power BI uit (met deze optie schakelt u alleen het gebruik van [gecertificeerde Power BI-visuals](https://go.microsoft.com/fwlink/?linkid=2002010) in).
-
 ## <a name="r-visuals-settings"></a>Instellingen voor R-visuals
 
 ### <a name="interact-with-and-share-r-visuals"></a>Interactie met visuele R-elementen en visuele R-elementen delen
@@ -540,67 +491,7 @@ Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw ten
 
 ![Codes invoegen binnen de Power Bi-beheerportal](media/service-admin-portal/embed-codes.png)
 
- ## <a name=""></a><a name="organizational-visuals">Organisatievisuals</a> 
-
-Via het tabblad **Organisatievisuals** kunt u Power BI-visuals binnen uw organisatie implementeren en beheren. Met organisatievisuals kunt u eenvoudig eigen visuals in uw organisatie implementeren. Auteurs van rapporten kunnen deze vervolgens detecteren en vanuit Power BI Desktop in hun rapporten importeren. [Meer informatie](../developer/visuals/power-bi-custom-visuals-organization.md)
-
-> [!WARNING]
-> Een aangepaste visual kan een code bevatten met beveiligings- of privacyrisico's. Wees er zeker van dat u de auteur en de bron van de aangepaste visual vertrouwt voordat u de visual in de opslagplaats van de organisatie implementeert.
-
-De volgende afbeelding toont alle Power BI-visuals die momenteel in de opslagplaats van de organisatie zijn geïmplementeerd.
-
-![Visual Organisatiebeheer](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
-
-### <a name="add-a-new-custom-visual"></a>Een nieuwe aangepaste visual toevoegen
-
-Volg deze stappen als u een nieuwe aangepaste visual aan de lijst wilt toevoegen. 
-
-1. Selecteer in het rechterdeelvenster de optie **Een aangepaste visual toevoegen**.
-
-    ![Formulier voor Power BI-visuals](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
-
-1. Vul het formulier **Aangepaste visual toevoegen** in:
-
-    * **Een PBIVIZ-bestand kiezen** (vereist): selecteer een aangepaste visual om te uploaden. Alleen versies van Power BI API-visuals worden ondersteund (lees hier wat dit betekent).
-
-    Voordat u een aangepaste visual uploadt, moet u controleren of de beveiliging en privacy van die visual past bij de normen van uw organisatie.
-
-    * **Naam van uw aangepaste visual** (vereist): geef een korte titel aan de visual zodat gebruikers van Power BI Desktop gemakkelijk begrijpen wat de visual doet.
-
-    * **Pictogram**: het pictogrambestand dat wordt weergegeven in de gebruikersinterface van Power BI Desktop.
-
-    * **Beschrijving**: een korte beschrijving van de visual zodat de gebruiker meer context heeft en weet waarvoor de visual is bedoeld.
-
-1. Selecteer **Toevoegen** om de uploadaanvraag te starten. U ziet het nieuwe item in de lijst als de aanvraag is geslaagd. Als de aanvraag is mislukt, ziet u de bijbehorende foutmelding
-
-### <a name="delete-a-custom-visual-from-the-list"></a>Een aangepaste visual verwijderen uit de lijst
-
-Als u een visual permanent wilt verwijderen, selecteert u het prullenbakpictogram voor de visual in de opslagplaats.
-
-> [!IMPORTANT]
-> Verwijderen kan niet ongedaan worden gemaakt. Wanneer de visual is verwijderd, wordt deze onmiddellijk niet meer weergegeven in bestaande rapporten. Zelfs als u dezelfde visual opnieuw uploadt, zal deze de vorige die u hebt verwijderd, niet vervangen. Gebruikers kunnen echter de nieuwe visual opnieuw importeren en het exemplaar in hun rapporten vervangen.
-
-### <a name="disable-a-custom-visual-in-the-list"></a>Een aangepaste visual uit de lijst verwijderen
-
-Als u de visual in de opslagplaats wilt uitschakelen, selecteert u het tandwielpictogram. In de sectie **Toegang** kunt u de aangepaste visual uitschakelen.
-
-Als de visual is uitgeschakeld, wordt deze niet meer weergegeven in bestaande rapporten en wordt het onderstaande foutbericht weergegeven.
-
-*Deze aangepaste visual is niet langer beschikbaar. Neem voor meer informatie contact op met uw beheerder.*
-
-Visuals met een bladwijzer werken echter nog steeds.
-
-Na elke update of wijziging door een beheerder, moeten gebruikers van Power BI Desktop de toepassing opnieuw starten of de browser in de Power BI-service vernieuwen om de updates te kunnen zien.
-
-### <a name="update-a-visual"></a>Een visual bijwerken
-
-Selecteer het tandwielpictogram als u de visual wilt bijwerken vanuit de zakelijke opslag. Blader naar een nieuwe versie van de visual en upload deze.
-
-Zorg ervoor dat de id van de visual ongewijzigd blijft. Het nieuwe bestand vervangt het vorige bestand voor alle rapporten in de hele organisatie. Vervang echter niet de vorige versie als de nieuwe versie van de visual een verbruiks- of gegevensstructuur van de vorige versie van de visual kan verbreken. In plaats daarvan moet u een nieuwe vermelding maken voor de nieuwe versie van de visual. Voeg bijvoorbeeld een nieuw versienummer (versie X.X) toe aan de titel van de nieuwe vermelde visual. Op deze manier is het duidelijk dat dit dezelfde visual is, alleen met een bijgewerkt versienummer, zodat bestaande rapporten hun functionaliteit niet verbreken. Zorg er weer voor dat de id van de visual ongewijzigd blijft. De volgende keer dat gebruikers toegang hebben tot de opslagplaats van de organisatie vanuit Power BI Desktop, kunnen ze de nieuwe versie importeren, waarbij wordt gevraagd om de huidige versie in hun rapport te vervangen.
-
-Ga naar [Veelgestelde vragen over Power BI-visuals voor bedrijven](../developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals) voor meer informatie
-
-## <a name=""></a><a name="dataflowStorage">Gegevensstroomopslag (preview)</a>
+## <a name="dataflow-storage-preview"></a>Gegevensstroomopslag (preview)
 
 Gegevens die worden gebruikt met Power BI worden standaard opgeslagen in de interne opslag die wordt geleverd door Power BI. Met de integratie van gegevensstromen en Azure Data Lake Storage Gen2 (ADLS Gen2) kunt u uw gegevensstromen opslaan in het Azure Data Lake Storage Gen2-account van uw organisatie. Ga naar [Integratie van gegevensstromen en Azure Data Lake (preview)](../transform-model/service-dataflows-azure-data-lake-integration.md) voor meer informatie.
 

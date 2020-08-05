@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252884"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411952"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Externe hulpprogramma's in Power BI Desktop gebruiken (preview)
 
@@ -42,8 +42,6 @@ Externe hulpprogramma's kunnen verbinding maken met de Power BI Desktop-gegevens
 * [Perspectieven](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular) voor het definiëren van specifieke weergaven van metagegevens van gegevenssets voor specifieke bedrijfsdomeinen
 
 Het beheren van metagegevensvertalingen met externe hulpprogramma's kan mogelijk zijn, maar wordt momenteel niet ondersteund in deze preview-versie. Als de landinstelling van de huidige gebruiker een vertaalde landinstelling is, werkt het bewerken van objecten in de lijst met velden niet naar behoren met de huidige versie van Power BI Desktop. 
-
-Er is een bekend probleem bij het samenstellen van rapporten voor modellen waarvoor berekeningsgroepen zijn gedefinieerd. Als de berekeningsgroep dynamische opmaak definieert, afhankelijk van de geselecteerde berekening/meting, is deze opmaak momenteel alleen beschikbaar in tabel-, matrix- en kaartvisualisaties.
 
 Alle metagegevens van de gegevensset [Objectmodel in tabelvorm](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) zijn alleen toegankelijk voor alleen-lezen, maar objecten die niet worden vermeld in de lijst die wordt beschreven in het artikel [Objectmodel in tabelvorm](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) worden nog niet ondersteund voor bewerking in de Power BI Desktop Analysis Services-instantie.
 
@@ -134,9 +132,9 @@ Bestanden op die opgegeven locatie met de extensie **.pbitool. json** worden doo
 
 Externe hulpprogramma's kunnen worden uitgeschakeld met **groepsbeleidsregels** of door het register te bewerken. Dit is vergelijkbaar met het proces voor het uitschakelen van **Aangepaste visuals**.
 
-    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
 
-    Registry value: ```EnableExternalTools```
+    Registry value: *EnableExternalTools*
 
 Met de waarde 1 (decimaal) schakelt u het gebruik van externe hulpprogramma's in Power BI in. Dit is de standaardwaarde.
 

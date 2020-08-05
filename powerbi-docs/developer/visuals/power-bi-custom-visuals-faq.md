@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0a66b0fc1a984e0905fba209ca59afb3a02696b2
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131319"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537798"
 ---
 # <a name="power-bi-visuals-faq"></a>Veelgestelde vragen over Power BI-visuals
 
@@ -24,7 +24,7 @@ Via de beheerportal kunt u Power BI-visuals voor uw organisatie beheren.
 
 ### <a name="how-can-the-admin-manage-organizational-power-bi-visuals"></a>Hoe kan de beheerder de Power BI-visuals van uw organisatie beheren?
 
-In de beheerportal, op het tabblad *Visuals van organisaties*, kan de beheerder [alle Power BI-visuals voor organisaties van het bedrijf](../../admin/service-admin-portal.md#organizational-visuals) zien en beheren. Dit omvat het toevoegen, uitschakelen, inschakelen en verwijderen van Power BI-visuals.
+In de beheerportal, op het tabblad *Visuals van organisaties*, kan de beheerder [alle Power BI-visuals voor organisaties van het bedrijf](../../admin/organizational-visuals.md#organizational-visuals) zien en beheren. Dit omvat het toevoegen, uitschakelen, inschakelen en verwijderen van Power BI-visuals.
 
 Gebruikers in de organisatie kunnen eenvoudig Power BI-visuals vinden en deze rechtstreeks importeren vanuit Power BI Desktop of de Power BI-service.
 

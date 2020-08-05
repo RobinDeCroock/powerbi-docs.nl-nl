@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 13bbf23c075fb1f58c2af71ae0a082d4e539d023
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252033"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537683"
 ---
 # <a name="power-bi-planned-maintenance"></a>Gepland onderhoud van Power BI
 
@@ -35,7 +35,7 @@ Als uw organisatie wordt beïnvloed, wordt u hiervan op de hoogte gesteld. Micro
 
 * Gebruikers moeten geopende browservensters vernieuwen.
 * Power BI-Mobiel-appgebruikers moeten controleren of ze de meest recente versie gebruiken en zich vervolgens weer aanmelden bij de app. Controleer de App Store van uw telefoon of controleer onze pagina [Power BI-Mobiel](https://powerbi.microsoft.com/mobile/).
-* Klanten die actief rapporten bijwerken of publiceren die organisatorische visuals gebruiken, lokaal of van OneDrive en SharePoint-locaties, moeten de visual opnieuw importeren via de visual store van de organisatie of een bijgewerkte PBIX downloaden voordat ze opnieuw worden gepubliceerd. Zie [Organisatievisuals](service-admin-portal.md#organization-visuals) voor meer informatie over aangepaste visuals voor organisaties.
+* Klanten die actief rapporten bijwerken of publiceren die organisatorische visuals gebruiken, lokaal of van OneDrive en SharePoint-locaties, moeten de visual opnieuw importeren via de visual store van de organisatie of een bijgewerkte PBIX downloaden voordat ze opnieuw worden gepubliceerd. Zie [Organisatievisuals](organizational-visuals.md) voor meer informatie over aangepaste visuals voor organisaties.
 * Als Excel-werkmappen die gebruikmaken van de functie Analyseren in Excel niet worden vernieuwd, moet u mogelijk de verbindingsreeks bijwerken of de ODC-verbinding voor die gegevensset opnieuw downloaden. Zie [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data) voor meer informatie.
 * Koppelingen naar Power BI Embedded in de inhoud kunnen mogelijk niet worden verbonden wanneer het onderhoud is voltooid. Een ingesloten koppeling in SharePoint of Teams kan bijvoorbeeld een gebruikersfout veroorzaken. Om dit probleem op te lossen, moet u de ingesloten koppeling opnieuw genereren in Power BI en vervolgens de locaties bijwerken waar ze worden gebruikt. Zie voor meer informatie over ingesloten koppelingen [Een rapportwebonderdeel insluiten in SharePoint Online](../collaborate-share/service-embed-report-spo.md) en [Samenwerken in Microsoft Teams met Power BI](../collaborate-share/service-collaborate-microsoft-teams.md).
 
