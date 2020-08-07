@@ -6,24 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/24/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e39d2fe11a58691b259784c292fec6e5ee6cb322
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253995"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478079"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Aanbevolen tabellen instellen in Power BI Desktop (preview-versie)
 
 In de galerie Gegevenstypen in Excel kunnen uw gebruikers gegevens uit *aanbevolen tabellen* in uw Power BI-gegevenssets vinden. In dit artikel leert u hoe u tabellen als *aanbevolen* tabellen in uw gegevenssets instelt. Met deze tags is het voor uw gebruikers eenvoudiger om zakelijke gegevens aan hun Excel-werkbladen toe te voegen. Dit zijn de basisstappen voor het instellen en delen van aanbevolen tabellen.
 
-1. U [promoveert of certificeert gegevenssets in Power BI](../connect-data/service-datasets-promote.md). 
 1. U identificeert aanbevolen tabellen in uw gegevenssets in Power BI Desktop (dit artikel)
 1. U slaat die gegevenssets met aanbevolen tabellen op in één van de nieuwe werkruimten. Auteurs van rapporten kunnen rapporten met die aanbevolen tabellen maken. 
 1. De rest van de organisatie kan verbinding maken met die aanbevolen tabellen, ook wel *gegevenstypen* genoemd in Excel, voor relevante en vernieuwbare gegevens. In het artikel [Toegang tot aanbevolen Power BI-tabellen in Excel (preview-versie)](service-excel-featured-tables.md) wordt het gebruiken van deze aanbevolen tabellen in Excel besproken.
+
+> [!NOTE]
+> U kunt [gegevenssets in Power BI promoveren of certificeren](../connect-data/service-datasets-promote.md). Dat wordt *goedkeuring* genoemd. In Excel krijgen tabellen in goedgekeurde gegevenssets in de galerie met gegevenstypen een hogere prioriteit. In Excel worden eerst aanbevolen tabellen in gecertificeerde gegevenssets vermeld, vervolgens tabellen in gepromoveerde gegevenssets. In Excel worden daarna aanbevolen tabellen in niet-goedgekeurde gegevenssets vermeld. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>De preview-functie Aanbevolen tabellen inschakelen
 
@@ -31,6 +33,8 @@ In de galerie Gegevenstypen in Excel kunnen uw gebruikers gegevens uit *aanbevol
 2. Schakel het selectievakje **Aanbevolen tabellen** in.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="De preview-optie Aanbevolen tabellen":::
+
+3. Start Power BI Desktop opnieuw.
 
 ## <a name="select-a-table"></a>Een tabel selecteren
 

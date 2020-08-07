@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 08/03/2020
 ms.author: kfollis
-ms.openlocfilehash: 34c46f97128d1229f46eeed254bdecee58a32aaf
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409462"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768396"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) is een leverancier die werkt met Chauncy Freels en helpt bij het onderhouden van deze lijst met webinars"
@@ -27,6 +27,10 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 ## <a name="featured-webinars"></a>Aanbevolen webinars
 
 Aan de slag met deze populaire on-demand webinars
+
+**De tevredenheid van gebruikers stimuleren met best practices voor het beheren van BI-inhoud**  
+door Nimrod Shalit  
+[Nu bekijken](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
 
 **Van inzicht tot actie: een gegevenscultuur aangedreven met Power BI**  
 door Arun Ulagaratchagan en Amir Netz  

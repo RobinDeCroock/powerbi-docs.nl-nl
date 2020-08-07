@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253992"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478033"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Samenwerken in Microsoft Teams met Power BI
 
-U hebt verschillende mogelijkheden om interactieve Power BI-inhoud te delen en hieraan samen te werken in Microsoft Teams-kanalen en -chats. 
+Naarmate verspreide werknemers en thuiswerkers meer en meer de norm worden, vertrouwen steeds meer organisaties op Microsoft Teams om werknemers op één lijn te houden. Power BI biedt verschillende mogelijkheden om interactieve Power BI-inhoud te delen en hieraan samen te werken in Microsoft Teams-kanalen en -chats. 
 
 - Met het **Power BI**-tabblad voor Microsoft Teams kunt u eenvoudig [interactieve rapporten insluiten in Microsoft Teams](service-embed-report-microsoft-teams.md)-kanalen en -chats. Op het **Power BI**-tabblad kunnen uw collega's de gegevens van uw team vinden en die gegevens via uw teamkanalen met elkaar bespreken. 
 - Wanneer u een koppeling naar uw rapporten, dashboards en apps in het Microsoft Teams-berichtvak plakt, wordt een [koppelingsvoorbeeld](service-teams-link-preview.md) gemaakt. Het koppelingsvoorbeeld toont informatie over de koppeling. 
@@ -34,17 +34,6 @@ Over het algemeen geldt dat Power BI in Microsoft Teams werkt als u de volgende 
 - Uw gebruikers over een Power BI Pro-licentie beschikken, of dat het rapport is ingesloten in een [Power BI Premium-capaciteit (EM of P SKU)](../admin/service-premium-what-is.md) met een Power BI-licentie.
 - Gebruikers zich hebben aangemeld bij de Power BI-service om hun Power BI-licentie te activeren.
 - Gebruikers voldoen aan de vereisten voor het gebruik van het **Power BI**-tabblad in Microsoft Teams.
-
-Als u het tabblad **Power BI** in Microsoft Teams wilt gebruiken, moet u ervoor zorgen dat:
-
-- Microsoft Teams het **Power BI**-tabblad bevat.
-- Als u een rapport wilt toevoegen aan Microsoft Teams met het **Power BI**-tabblad, moet u ten minste de rol Kijker hebben in de werkruimte die als host voor het rapport fungeert. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor informatie over de verschillende rollen.
-- Als gebruikers het rapport willen bekijken op het **Power BI**-tabblad in Microsoft Teams, moeten ze gemachtigd zijn om het rapport te bekijken.
-- Gebruikers moeten gebruikers van Microsoft Teams zijn met toegang tot kanalen en chats.
-
-Als u de functionaliteit **Delen met Teams** in Power BI wilt gebruiken, moet u deze instelling configureren:
-
-- Power BI-beheerders hebben de tenantinstelling **Delen met Teams** niet uitgeschakeld in de Power BI-beheerportal. Door deze instelling kunnen organisaties de knoppen **Delen met Teams** verbergen. Zie het artikel over de [Power BI-beheerportal](../admin/service-admin-portal.md#share-to-teams-tenant-setting) voor meer informatie.
 
 ## <a name="grant-access-to-reports"></a>Toegang verlenen tot rapporten
 

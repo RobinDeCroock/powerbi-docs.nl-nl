@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: e4514cae5f083ace75c9703999a177da033a844d
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 11150686d1ff922877081a672290069f85b1afc5
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532322"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411906"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>Trainingscatalogus voor functionele toepassingsconsultants
 
@@ -35,7 +35,8 @@ Uit onze taakanalyse blijkt dat alle functionele consultants begrip moeten hebbe
 | [Drie manieren waarop kunstmatige intelligentie (AI) business intelligence (BI) verandert](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI-OnDemand.html)  | Het is essentieel voor analisten om gegevens te onderzoeken en te visualiseren waarmee ze hun belanghebbenden kunnen helpen om snel en effectief inzichten te krijgen. Bedrijvenvereisten hebben zich zo ontwikkeld dat leidinggevenden in plaats van wat en wanneer er iets is gebeurd nu vragen waarom er iets is gebeurd, en wat er in de toekomst gaat gebeuren. Registreer u voor deze webinar om meer te weten te komen over drie mogelijkheden om inzicht te krijgen in gegevens die een mix bieden van AI en BI (business intelligence).   | Webinar       |                   |
 | [Benut de kracht van Power BI –tips en trucs door Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/6-22-2017-Unleash-the-Power-of-Power-BI-tips-and-tricks-by/td-p/161490) | Volg Philip Seamark als hij vertelt over bepaalde details van de grootste Power BI-implementatie in het zuidelijk halfrond, hoe er gebruik van wordt gemaakt en hoe deze voldoet aan hun BI-behoeften. In deze sessie worden diverse tips en trucs besproken om uw Power BI-rapporten te verbeteren.   | Webinar       | 53 min. 47 sec.       |
 | [Wat is Power BI?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview)  | Overzicht van Power BI   | Website       | 3 minuten om te lezen |
-## <a name="best-practices"></a>Best Practices<a name="best-practices"></a>
+| [DAX gebruiken in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/) | In dit leertraject maakt u kennis met Data Analysis Expressions (DAX) en doet u basisvaardigheden op die vereist zijn om gegevensmodellen te verbeteren met berekeningen.  | Een leertraject in uw eigen tempo, online en gratis | 4 uur 30 min. |
+## <a name="best-practices"></a>Best practices<a name="best-practices"></a>
 | Inhoud   | Beschrijving  | Indeling   | Lengte   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|-------------------|
 | [Power-tips, -trucs en -hulpmiddelen van de eigenaren van PowerBI.Tips](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-Tricks-Tips-and-Tools-from-the-owners-of-PowerBI-Tips/td-p/382848) | Power-tips, -trucs en -hulpmiddelen van de eigenaren van PowerBI.Tips In deze zeer speciale gebruikersgroepbijeenkomst delen de eigenaren van PowerBI.Tips en Power BI MVP's Seth Bauer en Mike Carlo hun enorme verzameling Power-trucs, -tips en -hulpmiddelen die ze de afgelopen 18 maanden op http://PowerBI.Tips hebben gepubliceerd met u. Demo's over het opnemen van hun themagenerator, het toevoegen van gegevenstypen in de query-editor en hun nieuwste aanbod Power BI-indelingen (en een rondleiding door hun nieuwste indeling, Cool Blue).  | Webinar | 1 uur 7 min. 40 sec. |

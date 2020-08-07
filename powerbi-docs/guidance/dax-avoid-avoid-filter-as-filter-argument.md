@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 6abcb77e3eb534e8b5d20c1d5567c117cbb97ffe
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 5120b1ec0ce1acbe746dabe2b11b5653a34a4603
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76161427"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537591"
 ---
 # <a name="dax-avoid-using-filter-as-a-filter-argument"></a>DAX: Het gebruik van FILTER voorkomen als filterargument
 
@@ -103,4 +103,6 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
 - [Filterfuncties (DAX)](/dax/filter-function-dax)
+- Leertraject: [DAX gebruiken in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

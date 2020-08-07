@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: ac5eb41aa248eeebf2cbfb6d53e327e2a3e83fdd
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215442"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537614"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX: Converteren van BLANK naar waarden voorkomen
 
@@ -79,4 +79,6 @@ Deze ontwerpmethode is efficiënt en biedt Power BI de mogelijkheid om rapporten
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
+- Leertraject: [DAX gebruiken in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: ade84d1523d79e4e233604905627e8e862278fa1
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74700703"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537407"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: Variabelen gebruiken om uw formules te verbeteren
 
@@ -113,5 +113,8 @@ RETURN
 
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
+- [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
 - [VAR](/dax/var-dax) DAX-artikel
+- Leertraject: [DAX gebruiken in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

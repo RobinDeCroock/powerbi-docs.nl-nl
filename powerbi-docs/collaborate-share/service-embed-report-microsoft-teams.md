@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252562"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478010"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Power BI-inhoud insluiten in Microsoft Teams
 
 U kunt eenvoudig interactieve Power BI-rapporten insluiten in kanalen en chats van Microsoft Teams. 
 
-Zie [Samenwerken in Microsoft Teams met Power BI](service-embed-report-microsoft-teams.md) voor achtergrondinformatie over hoe Power BI en Teams samenwerken, met inbegrip van vereisten waaraan u moet voldoen.
+## <a name="requirements"></a>Vereisten
+
+Als u het tabblad **Power BI** in Microsoft Teams wilt gebruiken, moet u ervoor zorgen dat:
+
+- Microsoft Teams het **Power BI**-tabblad bevat.
+- Als u een rapport wilt toevoegen aan Microsoft Teams met het **Power BI**-tabblad, moet u ten minste de rol Kijker hebben in de werkruimte die als host voor het rapport fungeert. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor informatie over de verschillende rollen.
+- Als gebruikers het rapport willen bekijken op het **Power BI**-tabblad in Microsoft Teams, moeten ze gemachtigd zijn om het rapport te bekijken.
+- Gebruikers moeten gebruikers van Microsoft Teams zijn met toegang tot kanalen en chats.
+
+Zie [Samenwerken in Microsoft Teams met Power BI](service-embed-report-microsoft-teams.md) voor achtergrondinformatie over de manier waarop Power BI en Teams samenwerken, met inbegrip van andere vereisten.
 
 ## <a name="embed-a-report-in-teams"></a>Een rapport insluiten in Teams
 

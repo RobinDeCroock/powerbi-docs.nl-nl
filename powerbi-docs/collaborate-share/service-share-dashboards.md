@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485576"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768497"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is de eenvoudigste manier om personen toegang te geven tot uw dashboards en rapporten in de Power BI-service. U kunt delen met personen binnen of buiten uw organisatie.
@@ -34,7 +34,7 @@ Het is niet mogelijk om rechtstreeks te *delen* vanuit Power BI Desktop. U [publ
 
 ## <a name="share-a-dashboard-or-report"></a>Een dashboard of rapport delen
 
-1. Selecteer **Delen** ![Deelpictogram](media/service-share-dashboards/power-bi-share-icon.png) in een lijst met dashboards of rapporten, of in een geopend dashboard of rapport.
+1. Selecteer **Delen** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: in een lijst met dashboards of rapporten, of in een geopend dashboard of rapport.
 
 2. Typ in het bovenste vak het volledige e-mailadres voor afzonderlijke personen, distributiegroepen of beveiligingsgroepen. U kunt niet delen met dynamische distributielijsten. 
    
@@ -67,7 +67,7 @@ Het is niet mogelijk om rechtstreeks te *delen* vanuit Power BI Desktop. U [publ
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Zien wie heeft er toegang tot een dashboard of rapport
 Soms moet u de personen zien met wie u inhoud hebt gedeeld en zien met wie zij die vervolgens hebben gedeeld.
 
-1. Selecteer **Delen** ![Deelpictogram](media/service-share-dashboards/power-bi-share-icon.png) in de lijst met dashboards en rapporten of in het dashboard of rapport zelf. 
+1. Selecteer **Delen** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: in de lijst met dashboards en rapporten of in het dashboard of rapport zelf. 
 2. Selecteer in het dialoogvenster **Dashboard delen** of **Rapport delen** de optie **Toegang**.
    
     ![Tabblad Toegang van het dialoogvenster Dashboard delen](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -110,7 +110,7 @@ Alleen de eigenaar van het dashboard of het rapport kan opnieuw delen in- en uit
 * Schakel het selectievakje **Ontvangers toestaan uw dashboard (of rapport) te delen** onderaan de uitnodiging uit voordat u deze verzendt.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>Als u het dashboard of rapport al hebt gedeeld
-1. Selecteer **Delen** ![Deelpictogram](media/service-share-dashboards/power-bi-share-icon.png) in de lijst met dashboards en rapporten of in het dashboard of rapport zelf. 
+1. Selecteer **Delen** :::image type="icon" source="../media/power-bi-share-icon.png" border="false"::: in de lijst met dashboards en rapporten of in het dashboard of rapport zelf. 
 2. Selecteer in het dialoogvenster **Dashboard delen** of **Rapport delen** de optie **Toegang**.
    
     ![Tabblad Toegang van het dialoogvenster Dashboard delen](media/service-share-dashboards/power-bi-share-dialog-access.png)

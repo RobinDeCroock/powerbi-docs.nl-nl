@@ -9,19 +9,25 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 6305a41188c4416b62d5432823bb30946e5e524d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253852"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478056"
 ---
 # <a name="share-directly-to-teams-from-the-power-bi-service"></a>Rechtstreeks delen met Teams vanuit de Power BI-service
 
 U kunt Power BI-dashboards, -rapporten en -visuals rechtstreeks met Microsoft Teams delen vanuit de Power BI-service. Gebruik de functie **Delen met Teams** om snel gesprekken te starten wanneer u rapporten en dashboards in de Power BI-service bekijkt.
 
-Zie [Samenwerken in Microsoft Teams met Power BI](service-collaborate-microsoft-teams.md) voor achtergrondinformatie over de manier waarop Power BI en Teams samenwerken, met inbegrip van vereisten waaraan u moet voldoen.
+## <a name="requirements"></a>Vereisten
+
+Als u de functionaliteit **Delen met Teams** in Power BI wilt gebruiken, moet u deze instelling configureren:
+
+- Power BI-beheerders hebben de tenantinstelling **Delen met Teams** niet uitgeschakeld in de Power BI-beheerportal. Door deze instelling kunnen organisaties de knoppen **Delen met Teams** verbergen. Zie het artikel over de [Power BI-beheerportal](../admin/service-admin-portal.md#share-to-teams-tenant-setting) voor meer informatie.
+
+Zie [Samenwerken in Microsoft Teams met Power BI](service-collaborate-microsoft-teams.md) voor achtergrondinformatie over de manier waarop Power BI en Teams samenwerken, met inbegrip van andere vereisten.
 
 ## <a name="share-power-bi-content-to-teams"></a>Power BI-inhoud delen met Teams
 

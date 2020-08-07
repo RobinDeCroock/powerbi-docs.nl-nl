@@ -1,6 +1,6 @@
 ---
 title: Visuals in Power BI
-description: Aangepaste visualisaties in Power BI
+description: In dit artikel worden aangepaste Power BI-visuals beschreven
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561634"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538005"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
 Power BI wordt geleverd met veel kant-en-klare Power BI-visuals. Deze visuals zijn beschikbaar in het visualisatiedeelvenster van zowel [Power BI Desktop](https://powerbi.microsoft.com/desktop/) als de [Power BI-service](https://app.powerbi.com) en kunnen worden gebruikt voor het maken en bewerken van Power BI-inhoud.
 
-![visualizations](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Schermopname van het Power BI-deelvenster Visualisaties zoals dit wordt weergegeven in Power BI Desktop en de Power BI-service.](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 Er zijn veel meer Power BI-visuals beschikbaar via de Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) of via Power BI. Deze visuals worden gemaakt door Microsoft en Microsoft-partners, en ze worden getest en gevalideerd door het AppSource-validatieteam.
 
@@ -38,6 +38,11 @@ Als u de standaard Power BI-visuals in het visualisatiedeelvenster wilt herstell
 ## <a name="appsource-power-bi-visuals"></a>AppSource-visuals in Power BI
 
 Microsoft en Communityleden hebben ten behoeve van het algemene belang Power BI-visuals bijgedragen en deze naar de [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) gepubliceerd. U kun deze visuals downloaden en toevoegen aan uw Power BI-rapporten. Deze Power BI-visuals zijn door Microsoft getest op functionaliteit en kwaliteit en goedgekeurd.
+
+>[!NOTE]
+>* Door Power BI-visuals te gebruiken die met onze SDK zijn gemaakt, kunt u gegevens importeren uit of verzenden naar externe of andere services buiten het geografische gebied, de jurisdictie of het nationale cloudexemplaar van uw Power BI-tenant.
+>* Gecertificeerde Power BI-visuals zijn visuals in AppSource die als aanvulling zijn getest om te controleren of de visual geen toegang heeft tot externe services of resources.
+>* Zodra Power BI-visuals vanuit AppSource zijn geïmporteerd, kunnen visuals zonder extra kennisgeving automatisch worden bijgewerkt.
 
 ### <a name="what-is-appsource"></a>Wat is AppSource?
 
@@ -74,10 +79,17 @@ Als u een webontwikkelaar bent en geïnteresseerd bent in het maken van uw eigen
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* Als u een ontwikkelaar bent, kunt u beginnen met de zelfstudie over [het ontwikkelen van een Power BI-visual](custom-visual-develop-tutorial.md).
+>[!div class="nextstepaction"]
+>[Een Power BI-visual ontwikkelen](custom-visual-develop-tutorial.md)
 
-* Meer informatie over hoe een [project met Power BI-visuals is gestructureerd](visual-project-structure.md).
+>[!div class="nextstepaction"]
+>[Projectstructuur van Power BI-visuals](visual-project-structure.md)
 
-* Verken de [richtlijnen voor Power BI-visuals](guidelines-powerbi-visuals.md).
+>[!div class="nextstepaction"]
+>[Richtlijnen voor Power BI-visuals](guidelines-powerbi-visuals.md)
 
-Hebt u nog vragen? Ga naar de pagina [Veelgestelde vragen over Power BI-visuals](power-bi-custom-visuals-faq.md) of de [Power BI-community](https://community.powerbi.com/).
+>[!div class="nextstepaction"]
+>[Veelgestelde vragen](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Power BI-community](https://community.powerbi.com/)

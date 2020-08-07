@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251780"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478125"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Zelfstudie: Van een Excel-werkmap naar een rapport in de Power BI-service naar Microsoft Teams
 Uw manager wil aan het eind van de dag een rapport bekijken over uw meest recente verkoop- en winstcijfers. De meest recente gegevens bevinden zich echter op verschillende systemen en in bestanden van derden op uw laptop. In het verleden duurde het uren om visuals en een rapport te maken, en u begint zich zorgen te maken.
@@ -204,8 +204,6 @@ U kunt ook rapporten en dashboards rechtstreeks delen met uw collega's in Micros
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Aan de slag met de Power BI-service](../fundamentals/service-get-started.md)
-* [Aan de slag met Power BI Desktop](../fundamentals/desktop-getting-started.md)
-* [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)
+* Nu u een basisrapport in de Power BI-service hebt gemaakt, gaan we verder met het maken van een rapport in Power BI Desktop. Probeer de zelfstudie [Aantrekkelijke rapporten van Excel-werkmappen maken in Power BI Desktop](desktop-excel-stunning-report.md).
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: edc2e40c219a8bbe1d57a5cfda774e7f9f87856d
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 8825cf687d3d6dd754e520f5e452b2483e3f179b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532621"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411860"
 ---
 # <a name="developer-learning-catalog"></a>Trainingscatalogus voor ontwikkelaars
 
@@ -27,13 +27,17 @@ De volgende catalogus reikt van de belangrijkste kennis tot specifieke domeinen,
 ## <a name="embedded"></a>Ingesloten<a name="embedded"></a>
 | Inhoud | Beschrijving | Indeling  | Lengte      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
-|[Onlinecursus: Power BI-ontwikkelaar in een dag](developer-online-course.md)|Een videocursus waarvan u als app-ontwikkelaar kunt profiteren van de technische kennis die vereist is om Power BI-inhoud in te sluiten. We raden u aan de video's te bekijken in de vastgelegde volgorde, beginnend bij video 1 en eindigend bij video 20.|YouTube-afspeellijst en zelfstudiekit|3 uur 20 min.|
 | [Aanbevolen procedures voor het beheren van Power BI Embedded-analyses voor implementaties met meerdere tenants](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html) | Power BI Embedded is een krachtige service waarmee u Power BI kunt white-labelen in uw eigen toepassingen. Bekijk deze webinar voor meer informatie over het beheren van Power BI Embedded-implementaties.   | Webinar       |                |
 | [Informatie over Power BI Embedded in 20 minuten](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Dit webinar geeft een inleiding tot Power BI Embedded. Aan het einde van dit webinar weten gebruikers wat Power BI Embedded is, weten ze wat de volgende stappen zijn om aan de slag te gaan met het product en weten ze waar ze hulp en meer informatie kunnen vinden. | Webinar       |                |
 | [Ontwikkelen met Power BI-insluiting, door Ted Pattison – update van april 2018](https://www.youtube.com/watch?v=swnGlrRy588)  | In deze webinar voor ontwikkelaars bespreekt Ted Pattison recente verbeteringen in het Power BI-insluitplatform en hoe deze kunnen worden benut door ISV's en bedrijfsontwikkelaars. | YouTube-video | 59 min. 49 sec.  |
 | [Power BI-insluiting versie 2 – het volledige verhaal](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | De webinar werd gepresenteerd op 10 augustus 2017 door Power BI-MVP Ted Pattison van Critical Path Training. De webinar gaat over ontwikkelen met behulp van de nieuwe Power BI-insluitingsfuncties die beschikbaar zijn via Power BI Premium.  | Webinar       | 1 uur 7 min. 23 sec. |
 | [Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | Met Power BI Embedded in Azure of Power BI-insluiting in Office kunt u rapporten, dashboards en tegels in een toepassing insluiten met behulp van App is eigenaar van gegevens.  | Documentatie |                |
 | [Informatie over Power BI Embedded in 20 minuten](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Dit webinar geeft een inleiding tot Power BI Embedded. Aan het einde van dit webinar weten gebruikers wat Power BI Embedded is, weten ze wat de volgende stappen zijn om aan de slag te gaan met het product en weten ze waar ze hulp en meer informatie kunnen vinden. | Webinar       |                |
+## <a name="dax"></a>DAX<a name="dax"></a>
+| Inhoud | Beschrijving | Indeling  | Lengte      |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|
+| [Praktische DAX voor Power BI, door Phil Seamark](https://www.youtube.com/watch?v=1fGfqzS37qs)                                                                                    | Phil Seamark neemt als uitbreiding op zijn boek een aantal best practices voor praktische DAX in Power BI door                                                                                                                                                                                                                 | YouTube-video | 59 min. 41 sec. |
+| [Creatieve DAX-oplossingen, door Philip Seamark](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/10-2-18-Webinar-Creative-DAX-solutions-by-Philip-Seamark/td-p/516250) | Wist u dat met de DAX-taal veel meer mogelijk is dan alleen het uitvoeren van een SUM van een kolom of het tellen van rijen in een tabel? DAX bevindt zich in de top van de snelste databases.  Volg Charles Sterling en Philip Seamark terwijl ze een aantal ongebruikelijke en creatieve scenario's verkennen waarvan u mogelijk niet had verwacht dat deze haalbaar zijn. | Webinar       | 58 min. 12 sec. |
 ## <a name="development"></a>Ontwikkeling<a name="development"></a>
 | Inhoud | Beschrijving | Indeling  | Lengte      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|-------------|

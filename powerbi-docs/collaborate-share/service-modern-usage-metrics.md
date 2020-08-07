@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953025"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478148"
 ---
-# <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>Metrische gegevens over gebruik controleren in de nieuwe werkruimte-ervaring
+# <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Metrische gebruiksgegevens controleren in de nieuwe werkruimte-ervaring (preview)
 
 Wanneer u weet hoe uw inhoud wordt gebruikt, kunt u de invloed ervan demonstreren en prioriteiten vaststellen voor uw inspanningen. De metrische gegevens over gebruik kunnen aantonen dat een van uw rapporten dagelijks wordt gebruikt door een enorm segment van de organisatie en ze kunnen aantonen dat een dashboard dat u hebt gemaakt helemaal niet wordt weergegeven. Dit type feedback is zeer waardevol bij uw inspanningen werk leidt.
 
@@ -81,7 +81,7 @@ Het verbeterde rapport met metrische gegevens over gebruik bevat de volgende rap
 
 | **Pagina** | **Meting** | **Beschrijving** |
 | --- | --- | --- |
-| Gebruik rapporteren | Report views | Er wordt een rapportweergave geregistreerd op het moment dat iemand een rapport opent. De definitie van een weergave verschilt van eerdere rapporten met metrische gegevens over gebruik. Het wijzigen van rapportpagina's wordt niet langer beschouwd als een extra weergave. |
+| Gebruik rapporteren | Report views | Er wordt een rapportweergave geregistreerd op het moment dat iemand een rapport opent. De definitie van een weergave verschilt van eerdere rapporten met metrische gegevens over gebruik. Het wijzigen van rapportpagina's wordt niet langer beschouwd als een extra weergave. Activiteiten zoals delen en vastmaken worden niet langer in aanmerking genomen bij metrische gebruiksgegevens.|
 | Gebruik rapporteren | Unique viewers | Een kijker is iemand die het rapport ten minste eenmaal heeft geopend tijdens de periode (op basis van het AAD-gebruikersaccount). |
 | Gebruik rapporteren | View trend | De weergavetrend weerspiegelt de wijzigingen in het aantal weergaven in de loop van de tijd. De eerste helft van de geselecteerde tijdsperiode wordt vergeleken met de tweede helft. |
 | Gebruik rapporteren | Date slicer | U kunt de tijdsperiode op de pagina Report usage wijzigen, bijvoorbeeld om de trends voor week-over-week-of tweewekelijks te berekenen. In de linkerbenedenhoek van de pagina Report usage kunt u de vroegste en de laatste datum bepalen waarvoor gebruiksgegevens beschikbaar zijn voor het geselecteerde rapport. |

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223928"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411975"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -73,7 +73,7 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Access-database
 * SQL Server Analysis Services-database
 * Oracle-database
-* IBM DB2-database
+* IBM Db2-database
 * IBM Informix-database (bèta)
 * IBM Netezza
 * MySQL-database
@@ -116,7 +116,7 @@ De categorie **Power Platform** biedt de volgende gegevensverbindingen:
 * Power BI-gegevenssets
 * Power BI-gegevensstromen
 * Common Data Service
-* Power Platform-gegevensstromen
+* Power Platform-gegevensstromen (bèta)
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Power Platform**.
 
@@ -133,6 +133,7 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
+* Azure Data Explorer (Kusto)
 * Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -171,21 +172,19 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Marketo (bèta)
 * Mixpanel (bèta)
 * Planview Enterprise One - PRM (bèta)
-* Planview Projectplace (bèta)
 * QuickBooks Online (bèta)
 * Smartsheet
 * SparkPost (bèta)
 * SweetIQ (bèta)
 * Planview Enterprise One - CMT (bèta)
 * Twilio (bèta)
-* tyGraph (bèta)
-* Webtrends (bèta)
 * Zendesk (bèta)
 * Asana (bèta)
 * Dynamics 365 Customer Insights (Bèta)
 * Emigo Data Source
 * Entersoft Business Suite (bèta)
-* FactSet Analytics (bèta)
+* FactSet Analytics
+* Palantir Foundry
 * Industrial App Store
 * Intune Data Warehouse (bèta)
 * Microsoft Graph Security (bèta)
@@ -218,7 +217,10 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Python-script
 * ODBC
 * OLE DB
+* Acterys: Automatisering en planning van modellen (bèta)
+* Automation Anywhere (bèta)
 * Solver
+* Cherwell (bèta)
 * Cognite Data Fusion (bèta)
 * FHIR
 * Information Grid (bèta)
@@ -233,6 +235,7 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Tenforce (Smart)List
 * TIBCO (R) Data Virtualization (bèta)
 * Vena (bèta)
+* Vessel Insight (bèta)
 * Workforce Dimensions (bèta)
 * Zucchetti HR Infinity (bèta)
 * Lege query
