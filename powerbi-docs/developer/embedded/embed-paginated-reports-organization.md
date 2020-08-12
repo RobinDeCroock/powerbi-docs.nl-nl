@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 2c27ccdc2e8703e532a105d0b833bcd5164d245e
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782846"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878743"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw organisatie
 
@@ -185,7 +185,7 @@ Vul bij de **AADAuthorityUrl**-informatie de URL in waarmee u inhoud in de tenan
 
 Voor het insluiten van inhoud met de tenant van uw organisatie, gebruikt u de URL - *https://login.microsoftonline.com/common/oauth2/authorize* .
 
-Voor het insluiten van inhoud met een gast, gebruikt u de URL ( *https://login.microsoftonline.com/report-owner-tenant-id* ), waar u *report-owner-tenant-id* vervangt door de tenant-id van de rapporteigenaar.
+Voor het insluiten van inhoud met een gast, gebruikt u de URL ( *`https://login.microsoftonline.com/report-owner-tenant-id`* ), waar u *report-owner-tenant-id* vervangt door de tenant-id van de rapporteigenaar.
 
 ### <a name="run-the-application"></a>De toepassing uitvoeren
 

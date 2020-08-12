@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 06/28/2020
+ms.date: 08/11/2020
 ms.author: painbar
-ms.openlocfilehash: 436ef20a54312f2e169c428cf1d2914bc47eafb0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782673"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091694"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
 U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. De presentatiemodus is handig voor het weergeven van Power BI tijdens vergaderingen, conferenties of op een specifieke projector op kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren.
@@ -73,4 +73,3 @@ Standaard bladert een diavoorstelling door pagina's, met een snelheid van één 
 ## <a name="next-steps"></a>Volgende stappen
 * [Dashboards en rapporten weergeven in de modus Volledig scherm van de Power BI-service](../end-user-focus.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 72e2744fc325f5e5b36f3abcf4a6d3d71767fbd4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227653"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878360"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
@@ -29,7 +29,7 @@ Power BI Pro is een afzonderlijke gebruikerslicentie waarmee gebruikers rapporte
 In dit artikel wordt uitgelegd hoe u Power BI Pro-gebruikerslicenties kunt kopen in het Microsoft 365-beheercentrum. Nadat u licenties hebt gekocht, kunt u deze toewijzen aan gebruikers in het Microsoft 365-beheercentrum of in de Azure-portal.
 
 > [!NOTE]
-> Vanaf 14 januari 2020 zijn mogelijkheden voor selfserviceaankopen, abonnementen en licentiebeheer voor Power Platform-producten (Power BI, Power Apps en Power Automate) beschikbaar voor klanten van de commerciële cloud. Zie [Veelgestelde vragen over aankopen via self-service](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) voor meer informatie. Zie [Mogelijkheden voor aanmelden en aankopen via een self-service in- of uitschakelen](/service-admin-disable-self-service.md) voor het in- of uitschakelen van mogelijkheden voor aankopen via self-service.
+> Vanaf 14 januari 2020 zijn mogelijkheden voor selfserviceaankopen, abonnementen en licentiebeheer voor Power Platform-producten (Power BI, Power Apps en Power Automate) beschikbaar voor klanten van de commerciële cloud. Zie [Veelgestelde vragen over aankopen via self-service](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) voor meer informatie. Zie [Mogelijkheden voor aanmelden en aankopen via een self-service in- of uitschakelen](/power-bi/admin/service-admin-disable-self-service) voor het in- of uitschakelen van mogelijkheden voor aankopen via self-service.
 
 ### <a name="prerequisites"></a>Vereisten
 

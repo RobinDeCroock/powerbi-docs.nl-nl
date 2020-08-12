@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: aed09a9cd26452a03363e8606e45938715595558
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f752544b48a8ba2fdce703475749e1a731089e7d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161670"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878428"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -55,7 +55,7 @@ Dit artikel bevat veelgestelde vragen over Power BI-beheer. Zie [Wat is Power BI
 
 ### <a name="using-powershell"></a>PowerShell gebruiken
 
-Voor sommige van de procedures in deze sectie zijn Windows PowerShell-scripts vereist. Als u niet bekend bent met PowerShell, is het raadzaam om eerst de handleiding [Aan de slag met Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=286814) door te nemen. Als u de scripts wilt uitvoeren, moet u eerst de meest recente 64-bits versie van [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/) installeren.
+Voor sommige van de procedures in deze sectie zijn Windows PowerShell-scripts vereist. Als u niet bekend bent met PowerShell, is het raadzaam om eerst de handleiding [Aan de slag met Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkID=286814) door te nemen. Als u de scripts wilt uitvoeren, moet u eerst de meest recente 64-bits versie van [Azure Active Directory PowerShell for Graph](/powershell/azure/active-directory/overview) installeren.
 
 ### <a name="how-do-users-sign-up-for-power-bi"></a>Hoe kunnen gebruikers zich registreren voor Power BI?
 

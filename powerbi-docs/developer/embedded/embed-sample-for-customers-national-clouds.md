@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 889f7359e0711ecafb44caa6cf98f8a4df6bb0fa
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 5815ba5036da543fb51319e8a2af287cf6ce4ce7
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83794039"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878653"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
@@ -116,7 +116,7 @@ Dit artikel bevat code die wordt gebruikt in het [App Owns Data-voorbeeld](https
 
 * Parameters van de Power BI-cloud voor China
 
-1. Overschrijf het bestand Cloud.config met inhoud van de [Power BI-cloud voor China](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
+1. Overschrijf het bestand Cloud.config met inhoud van de [Power BI-cloud voor China](https://github.com/microsoft/PowerBI-Developer-Samples/blob/master/.NET%20Framework/Embed%20for%20your%20organization/CloudConfigs/Power%20BI%20operated%20by%2021Vianet%20in%20China/Cloud.config).
 
 2. Werk applicationId (applicationId van systeemeigen app), workspaceId, de gebruiker (hoofdgebruiker) en het wachtwoord bij in het bestand Web.config.
 
@@ -143,7 +143,7 @@ Registreer uw toepassing met Azure AD om REST API-aanroepen te maken. Zie [Een A
 
 * Power BI-cloud voor China - ```https://app.powerbi.cn/apps```
 
-Als u het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData) hebt gedownload, gebruikt u de **applicationId** die u verkrijgt, zodat het voorbeeld kan worden geverifieerd voor Azure AD. Voor het configureren van het voorbeeld wijzigt u de **applicationId** in het bestand *web.config*.
+Als u het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData) hebt gedownload, gebruikt u de **applicationId** die u verkrijgt, zodat het voorbeeld kan worden geverifieerd voor Azure AD. Voor het configureren van het voorbeeld wijzigt u de **applicationId** in het bestand *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Stap 2: een toegangstoken ophalen uit Azure AD
 
@@ -309,7 +309,7 @@ var embedConfig = new TileEmbedConfig()
 
 U kunt JavaScript gebruiken om een dashboard te laden in een div-element op uw webpagina. Het voorbeeld maakt gebruik van een EmbedConfig/TileEmbedConfig-model en weergaven van een dashboard, de tegel of het rapport. Voor een volledig voorbeeld van het gebruik van de JavaScript API kunt u het [Voorbeeld van Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo) gebruiken.
 
-Een toepassingsvoorbeeld is beschikbaar in [Voorbeeld voor insluiten voor uw organisatie](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
+Een toepassingsvoorbeeld is beschikbaar in [Voorbeeld voor insluiten voor uw organisatie](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
 ### <a name="viewshomeembeddashboardcshtml"></a>Views\Home\EmbedDashboard.cshtml
 
@@ -436,7 +436,7 @@ Een toepassingsvoorbeeld is beschikbaar in [Voorbeeld voor insluiten voor uw org
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* Er is een voorbeeldtoepassing beschikbaar op GitHub die u kunt bekijken. De bovenstaande voorbeelden zijn gebaseerd op dat voorbeeld. Voor meer informatie raadpleegt u [Voorbeeld voor insluiten voor uw organisatie](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
+* Er is een voorbeeldtoepassing beschikbaar op GitHub die u kunt bekijken. De bovenstaande voorbeelden zijn gebaseerd op dat voorbeeld. Voor meer informatie raadpleegt u [Voorbeeld voor insluiten voor uw organisatie](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
 * Raadpleeg [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie over de JavaScript-API.
 

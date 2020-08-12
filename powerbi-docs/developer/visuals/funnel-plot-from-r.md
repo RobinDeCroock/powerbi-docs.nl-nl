@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354473"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878707"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Zelfstudie: Een trechtertekening bouwen van R-script naar R-visual
 In dit artikel wordt stap voor stap beschreven hoe u een trechtertekening bouwt met R-script in R visual.
@@ -75,7 +75,7 @@ Bewerk vervolgens het script om [dit script](https://github.com/microsoft/PowerB
 1. Verpak de visual opnieuw met de opdracht `pbiviz package` en probeer deze in Power BI te importeren.
 
 > [!NOTE]
-> Zie [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) en [broncode](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) om te downloaden.
+> Zie [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) en [broncode](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/) om te downloaden.
 
 ## <a name="make-r-based-visual-improvements"></a>Op R gebaseerde visuele verbeteringen aanbrengen
 
@@ -274,7 +274,7 @@ Aangezien deze visual op PNG gebaseerd is, reageert het niet op muisaanwijzing, 
 
 * Elke R Visual past de operator `unique` toe op de invoertabel. Als u wilt voorkomen dat identieke rijen worden verwijderd, moet u overwegen een extra invoerveld met een unieke id toe te voegen en deze te negeren in de R-code.   
 
-* Als u een Power BI-account hebt, gebruikt u de Power BI-service om een visual [direct](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual) te ontwikkelen in plaats van ze opnieuw te verpakken met de opdracht `pbiviz package`.
+* Als u een Power BI-account hebt, gebruikt u de Power BI-service om een visual [direct](/power-bi/developer/visuals/custom-visual-develop-tutorial/) te ontwikkelen in plaats van ze opnieuw te verpakken met de opdracht `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Galerie HTML-widgets
 Bekijk visuals in de galerie [HTML-widgets](http://gallery.htmlwidgets.org/) voor gebruik in uw volgende visual. Om het gemakkelijk te maken, hebben we een [projectopslagplaats](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) met meer dan 20 interactieve HTML-visuals om uit te kiezen!

@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380520"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878593"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Ondersteuning voor bladwijzers toevoegen voor Power BI-visuals
 
@@ -49,9 +49,9 @@ De visual moet de filterwaarden herstellen om de bijbehorende status van de visu
 
 Als uw visual samenwerkt met andere visuals met behulp van [Selectie](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), kunt u op twee manieren bladwijzers toevoegen:
 
-* Als de visual [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) nog niet heeft gebruikt, kunt u de methode `FilterManager.restoreSelectionIds` gebruiken.
+* Als de visual [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) nog niet heeft gebruikt, kunt u de methode `FilterManager.restoreSelectionIds` gebruiken.
 
-* Als de visual [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) al gebruikt om selecties te beheren, moet u de `applySelectionFromFilter`-methode gebruiken in het exemplaar van `InteractivityService`.
+* Als de visual [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) al gebruikt om selecties te beheren, moet u de `applySelectionFromFilter`-methode gebruiken in het exemplaar van `InteractivityService`.
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>ISelectionManager.registerOnSelectCallback gebruiken
 

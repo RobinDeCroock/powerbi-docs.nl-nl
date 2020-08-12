@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739179"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878567"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>wijzigingenlogboek voor API voor Power BI-visuals
 Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hier vermelde versies worden als stabiel beschouwd en worden niet meer gewijzigd.
@@ -91,7 +91,7 @@ Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hie
 
 ## <a name="api-v162"></a>API v1.6.2
 * Ondersteunt de **[bewerkingsmodus](./advanced-edit-mode.md)** om te kunnen overschakelen naar de bewerkingsmodus in een visual
-* Ondersteunt **[Interactieve (HTML) R Power BI-visuals](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** , op basis van HTML
+* Ondersteunt **[Interactieve (HTML) R Power BI-visuals](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** , op basis van HTML
 
 ## <a name="api-v150"></a>API v1.5.0
 * Ondersteunt **[Interacties toestaan](./visuals-interactions.md)** voor interactie tussen visuals
@@ -105,7 +105,7 @@ Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hie
 ## <a name="api-v120"></a>API v1.2.0
 * Voegt **colorPalette** toe voor het beheren van de kleuren die in uw visual worden gebruikt.
 * Ondersteunt **meervoudige selectie**: in selectionManager kan een matrix van `SelectionId` worden geaccepteerd.
-* Ondersteunt **[R-visuals](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)** met R-scripts
+* Ondersteunt **[R-visuals](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** met R-scripts
 
 ## <a name="api-v110"></a>API v1.1.0
 * Ondersteunt foutopsporing voor visuals in iFrame

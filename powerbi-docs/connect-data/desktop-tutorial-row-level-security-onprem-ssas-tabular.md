@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 972241228ca9fc669289d3c0efa0a357094f6f67
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286355"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878317"
 ---
 # <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Beveiliging op rijniveau implementeren met model in tabelvorm van Analysis Services
 
@@ -64,7 +64,7 @@ Voor de hier beschreven stappen is de relationele database AdventureworksDW2012 
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Taak 2: Het tabellaire model met feiten- en dimensietabellen maken
 
-Zodra de relationele datawarehouse is geïnstalleerd, moet u het tabellaire model definiëren. U kunt het model maken met behulp van [SQL Server Data Tools (SSDT)](/sql/ssdt/sql-server-data-tools). Zie [Create a New Tabular Model Project](/sql/analysis-services/lesson-1-create-a-new-tabular-model-project) (Een nieuw project voor een tabellaire model maken) voor meer informatie.
+Zodra de relationele datawarehouse is geïnstalleerd, moet u het tabellaire model definiëren. U kunt het model maken met behulp van [SQL Server Data Tools (SSDT)](/sql/ssdt/sql-server-data-tools). Zie [Create a New Tabular Model Project](/analysis-services/tutorial-tabular-1400/as-lesson-1-create-a-new-tabular-model-project) (Een nieuw project voor een tabellaire model maken) voor meer informatie.
 
 1. Importeer alle benodigde tabellen in het model zoals hieronder wordt weergegeven.
 
@@ -101,7 +101,7 @@ Zodra de relationele datawarehouse is geïnstalleerd, moet u het tabellaire mode
 
     Deze formule geeft aan dat alle kolommen worden omgezet naar `false`. Dit houdt in dat er geen query voor `DimUserSecurity`-tabelkolommen kan worden uitgevoerd.
 
-Nu moet u het model verwerken en implementeren. Zie [Implementeren](/sql/analysis-services/lesson-13-deploy) voor meer informatie.
+Nu moet u het model verwerken en implementeren. Zie [Implementeren](/analysis-services/tutorial-tabular-1200/lesson-13-deploy) voor meer informatie.
 
 ## <a name="task-3-add-data-sources-within-your-on-premises-data-gateway"></a>Taak 3: Gegevensbronnen toevoegen binnen uw on-premises gegevensgateway
 
@@ -164,9 +164,9 @@ Gefeliciteerd. In de Power BI-service wordt nu de dynamische beveiliging op rijn
 Bij deze taak wordt ervan uitgegaan dat u bekend bent met [SQL Server Profiler](/sql/tools/sql-server-profiler/sql-server-profiler), omdat u een SQL Server Profiler-tracering op uw tabellaire on-premises SSAS-exemplaar moet vastleggen.
 
 De sessie wordt geïnitialiseerd zodra de gebruiker, Rita, het dashboard opent in de Power BI-service. U kunt zien dat de rol **salesterritoryusers** onmiddellijk van kracht wordt met de effectieve gebruikersnaam als **<EffectiveUserName>rita@contoso.com</EffectiveUserName>**
-
+```
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>rita@contoso.com</EffectiveUserName></PropertyList>
-
+```
 Op basis van de aanvraag voor de effectieve gebruikersnaam wordt de aanvraag in Analysis Services omgezet naar de werkelijke referentie `contoso\rita` na het uitvoeren van de query op de lokale Active Directory. Als Analysis Services de referentie heeft ontvangen, retourneert Analysis Services de gegevens die de gebruiker mag bekijken en openen.
 
 Als er meer activiteit plaatsvindt in het dashboard, ziet u dat er in SQL Profiler een specifieke query wordt geretourneerd naar het tabellaire Analysis Services-model als een DAX-query. Als Rita bijvoorbeeld vanuit het dashboard naar het onderliggende rapport navigeert, wordt de volgende query uitgevoerd.
