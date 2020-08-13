@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: Gebruik uw eigen versleutelingssleutels
               href: service-encryption-byok.md
+            - name: Door de klant beheerde sleutels gebruiken
+              href: service-encryption-customer-managed-keys.md
             - name: Premium-capaciteit opnieuw opstarten
               href: service-admin-premium-restart.md
             - name: Gegevenssetconnectiviteit met het XMLA-eindpunt
