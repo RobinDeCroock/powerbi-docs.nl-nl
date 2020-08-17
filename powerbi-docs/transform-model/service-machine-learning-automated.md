@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/18/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3b4d7eb41e04a173f763dd09caf5fa94bfc444d4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232634"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878626"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Geautomatiseerde Machine Learning in Power BI
 
@@ -142,11 +142,15 @@ Door het ML-model toe te passen, worden twee nieuwe gegevensstroomentiteiten gem
 
 ![Query-editor](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
+U kunt ook elk gewenst Power BI AutoML-model toepassen op entiteiten in een willekeurige gegevensstroom in dezelfde werkruimte, met behulp van AI Insights in de PQO-functiebrowser. Op deze manier kunt u modellen die door anderen zijn gemaakt, gebruiken in dezelfde werkruimte, zonder u dat de eigenaar bent van de gegevensstroom die het model bevat. Met Power Query worden alle Power BI ML-modellen in de werkruimte gedetecteerd en weergegeven als dynamische Power Query-functies. U kunt deze functies aanroepen door ze te openen vanuit het lint in de Power Query-editor, of door de ML-functie rechtstreeks aan te roepen.Deze functionaliteit wordt momenteel alleen ondersteund voor Power BI-gegevensstromen en voor Power Query Online in de Power BI-service. Houd er rekening mee dat dit verschilt van het toepassen van ML-modellen binnen een gegevensstroom met behulp van de AutoML-wizard. Er wordt bij het gebruik van deze methode geen entiteit voor toelichtingen gemaakt, en tenzij u de eigenaar van de gegevensstroom bent, hebt u geen toegang tot modeltrainingsrapporten en kunt u het model niet opnieuw trainen. Als het bronmodel wordt bewerkt (toevoegen of verwijderen van invoervelden), of als het model of de brongegevensstroom worden verwijderd, wordt deze afhankelijke gegevensstroom onderbroken.
+
+![Een model toepassen met behulp van de PQO-functiebrowser](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
+
 Nadat u het model hebt toegepast, zorgt AutoML ervoor dat uw voorspellingen altijd actueel zijn wanneer de gegevensstroom wordt vernieuwd.
 
 Als u de inzichten en voorspellingen uit het ML-model wilt gebruiken in een Power BI-rapport, kunt u vanuit Power BI Desktop verbinding maken met de uitvoerentiteit met behulp van de connector **dataflows**.
 
-## <a name="binary-prediction-models"></a>Model van het type Binaire voorspelling
+## <a name="binary-prediction-models"></a>Binaire voorspellingsmodellen
 
 Modellen van het type Binaire voorspelling, formeel ook bekend als **binaire classificatiemodellen**, worden gebruikt om een gegevensset in twee groepen te classificeren. Ze worden gebruikt om gebeurtenissen te voorspellen die een binaire uitkomst kunnen hebben. Bijvoorbeeld of een verkoopkans wordt geconverteerd, of een account wordt opgezegd, of een factuur op tijd wordt betaald, of een transactie frauduleus is, enzovoort.
 
@@ -166,7 +170,7 @@ Het proces van het maken van een binair voorspellingsmodel bestaat uit dezelfde 
 
 Het binaire voorspellingsmodel produceert als uitvoer een waarschijnlijkheidsscore dat een record het doelresultaat bereikt. Het rapport bevat een slicer voor de waarschijnlijkheidsdrempel, die van invloed is op de manier waarop de scores boven en onder de drempel worden geïnterpreteerd.
 
-In het rapport worden de prestaties van het model beschreven in termen van _terecht positieven (True Positives), fout-positieven (False Positives), terecht negatieven (True Negatives) en fout-negatieven (False Negatives)_ . Terecht positieven en terecht negatieven zijn correct voorspelde resultaten voor de twee klassen in de resultaatgegevens. Fout-positieven zijn records waarvan is voorspeld dat ze het doelresultaat hebben, maar dat uiteindelijk niet hebben. Fout-negatieven zijn daarentegen records die het doelresultaat hadden, maar waarvan werd voorspeld dat ze dat niet zouden hebben.
+In het rapport worden de prestaties van het model beschreven in termen van _terecht positieven (True Positives), fout-positieven (False Positives), terecht negatieven (True Negatives) en fout-negatieven (False Negatives)_. Terecht positieven en terecht negatieven zijn correct voorspelde resultaten voor de twee klassen in de resultaatgegevens. Fout-positieven zijn records waarvan is voorspeld dat ze het doelresultaat hebben, maar dat uiteindelijk niet hebben. Fout-negatieven zijn daarentegen records die het doelresultaat hadden, maar waarvan werd voorspeld dat ze dat niet zouden hebben.
 
 Metingen, zoals Precisie en Terughalen, beschrijven het effect van de waarschijnlijkheidsdrempel op de voorspelde resultaten. U kunt de slicer met de waarschijnlijkheidsdrempel gebruiken om een drempel te selecteren die een compromis oplevert tussen Precisie en Terughalen.
 

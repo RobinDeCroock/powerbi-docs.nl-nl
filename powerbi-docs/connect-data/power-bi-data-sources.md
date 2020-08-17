@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/05/2020
 ms.author: davidi
-ms.openlocfilehash: 0bc6b844457f625d0287f2ec85f582a6ea874624
-ms.sourcegitcommit: 6d3a37eb636e1b71c7dcb9d1c3a9e495b78dec97
+ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84681854"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837561"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
@@ -94,7 +94,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | ODBC | Ja | Ja | Nee | Ja | Ja |
 | OLEDB | Ja | Ja | Nee | Ja | Ja |
 | Oracle | Ja | Ja | Ja | Ja | Ja |
-| Paxata | Ja | Ja | Nee | Ja | Nee |
+| Paxata <sup>8</sup> | Ja | Ja | Nee | Ja | Nee |
 | PDF | Ja | Ja | Nee | Ja | Nee <sup>4</sup> |
 | Planview Enterprise One - CTM | Ja | Ja | Nee | Nee | Nee |
 | Planview Enterprise One - PRM | Ja | Ja | Nee | Nee | Nee |
@@ -155,6 +155,8 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 
 <sup>7</sup> Power BI-service biedt geen ondersteuning voor OData-feeds waarvoor verificatie is vereist.
 
+<sup>8</sup> Paxata wordt ondersteund in de versie van Power BI Desktop die is geoptimaliseerd voor Power BI Report Server. Het wordt niet ondersteund in Power BI-rapporten die zijn gepubliceerd in Power BI Report Server. Zie [Power BI-rapportgegevensbronnen in Power BI Report Server](../report-server/data-sources.md) voor de lijst met ondersteunde gegevensbronnen.
+
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Eenmalige aanmelding (SSO) voor DirectQuery-bronnen
 
 Wanneer de optie voor eenmalige aanmelding is ingeschakeld en uw gebruikers toegang hebben tot rapporten die op de gegevensbron zijn gebouwd, verzendt Power BI hun geverifieerde Azure AD-referenties in de query's naar de onderliggende gegevensbron. Hierdoor kan Power BI rekening houden met de beveiligingsinstellingen die op het niveau van de gegevensbronnen zijn geconfigureerd.
@@ -180,3 +182,4 @@ De optie voor eenmalige aanmelding heeft effect op alle gegevenssets die gebruik
 [DirectQuery gebruiken in Power BI](desktop-directquery-about.md)  
 [SQL Server Analysis Services-livegegevens in Power BI](sql-server-analysis-services-tabular-data.md)  
 [Wat is een on-premises gegevensgateway?](service-gateway-onprem.md)  
+[Power BI-rapportgegevensbronnen in Power BI Report Server](../report-server/data-sources.md)

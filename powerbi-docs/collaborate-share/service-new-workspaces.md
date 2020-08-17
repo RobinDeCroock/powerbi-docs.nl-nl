@@ -6,20 +6,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/26/2020
+ms.date: 08/07/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 77de9608978379cee83236b0c362bd2d7d57d5c6
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 56dd9e07e7c0647e7f92cc5d701b260483e2fbdf
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120408"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049271"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
-*Werkruimten* zijn plekken waar u met collega’s kunt samenwerken om verzamelingen dashboards, rapporten, gegevenssets en gepagineerde rapporten te maken. De nieuwe werkruimte-ervaring helpt om de toegang tot inhoud beter te beheren. Dit artikel beschrijft de nieuwe werkruimten, en hoe deze verschillen van de klassieke werkruimten.  Net als de klassieke werkruimten gebruikt u de nieuwe werkruimten ook om apps te maken en distribueren. Klaar om een nieuwe werkruimte te maken? Lees [Werkruimten maken (nieuwe werkruimte-ervaring)](service-create-the-new-workspaces.md).
+*Werkruimten* zijn plekken waar u met collega’s kunt samenwerken om verzamelingen dashboards, rapporten, gegevenssets en gepagineerde rapporten te maken. De nieuwe werkruimte-ervaring helpt om de toegang tot inhoud beter te beheren. Dit artikel beschrijft de nieuwe werkruimten, en hoe deze verschillen van de klassieke werkruimten.  Net als de klassieke werkruimten gebruikt u de nieuwe werkruimten ook om apps te maken en distribueren. 
+
+Klaar om een nieuwe werkruimte te maken? Lees [Werkruimten maken (nieuwe werkruimte-ervaring)](service-create-the-new-workspaces.md).
 
 :::image type="content" source="media/service-new-workspaces/power-bi-workspace-opportunity.png" alt-text="Nieuwe werkruimte-ervaring voor Power BI":::
 
@@ -86,8 +88,10 @@ Als een van de nieuwe werkruimten een gedeelde capaciteit heeft, heeft iedereen 
 
 Wanneer de nieuwe werkruimte een Power BI Premium-capaciteit heeft, hebben gebruikers met de rol Kijker toegang tot de werkruimte, zelfs als ze geen Power BI Pro-licentie hebben. Als u echter een hogere rol toewijst aan deze gebruikers, zoals Beheerder, Lid of Inzender, wordt hen gevraagd om een Pro-proefversie te starten wanneer zij toegang proberen te krijgen tot de werkruimte. Als u wilt dat gebruikers zonder Pro-licenties de rol van Kijker gebruiken, moet u ervoor zorgen dat ze niet ook andere werkruimterollen hebben, hetzij afzonderlijk hetzij als onderdeel van een gebruikersgroep.
 
+Bij het publiceren van rapporten naar de nieuwe werkruimte-ervaring gelden strengere normen voor het afdwingen van bestaande licentieregels. Als u zonder een Pro-licentie iets probeert te publiceren vanuit Power BI Desktop of andere clienthulpprogramma's, krijgt u de fout 'Alleen gebruikers met Power BI Pro-licenties kunnen publiceren naar deze werkruimte'.
+
 > [!NOTE]
-> Bij het publiceren van rapporten naar de nieuwe werkruimte-ervaring gelden strengere normen voor het afdwingen van bestaande licentieregels. Als u zonder een Pro-licentie iets probeert te publiceren vanuit Power BI Desktop of andere clienthulpprogramma's, krijgt u de fout 'Alleen gebruikers met Power BI Pro-licenties kunnen publiceren naar deze werkruimte'.
+> Power BI voor de Amerikaanse overheid is niet beschikbaar als een gratis licentie. Zie [Klanten van Power BI voor de Amerikaanse overheid](../admin/service-govus-overview.md) voor informatie over licenties.
 
 ### <a name="guest-users"></a>Gastgebruikers
 
@@ -95,7 +99,9 @@ Wanneer de nieuwe werkruimte een Power BI Premium-capaciteit heeft, hebben gebru
 
 ### <a name="administering-new-workspace-experience-workspaces"></a>Werkruimten beheren in nieuwe werkruimte-ervaring
 
-Werkruimten in de nieuwe werkruimte-ervaring worden beheerd vanuit de beheerportal van Power BI. Power BI-beheerders bepalen wie in een organisatie werkruimten kunnen maken en apps kunnen distribueren. Beheerders kunnen de status van alle werkruimten in hun organisatie zien. Ze kunnen ook werkruimten beheren en herstellen. Meer informatie over het [beheren van de nieuwe werkruimten](../admin/service-admin-portal.md#create-the-new-workspaces) vindt u in het artikel over de beheerportal.
+Werkruimten in de nieuwe werkruimte-ervaring worden beheerd vanuit de beheerportal van Power BI. Power BI-beheerders bepalen wie in een organisatie werkruimten kunnen maken en apps kunnen distribueren. Lees meer over [het beheren van de mogelijkheden van gebruikers om werkruimten te maken](../admin/service-admin-portal.md#create-the-new-workspaces) in het artikel Beheerportal. 
+
+Beheerders kunnen ook de status van alle werkruimten in hun organisatie zien. Ze kunnen werkruimten beheren, herstellen en zelfs verwijderen. Lees meer over [het beheren van de werkruimten zelf](../admin/service-admin-portal.md#workspaces) in het artikel Beheerportal.
 
 ### <a name="auditing"></a>Controleren
 

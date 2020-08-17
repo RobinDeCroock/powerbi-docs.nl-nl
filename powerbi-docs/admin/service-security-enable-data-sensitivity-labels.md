@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034331"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049179"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels inschakelen in Power BI
 
@@ -24,7 +24,20 @@ Wanneer vertrouwelijkheidslabels zijn ingeschakeld:
 * Bepaalde gebruikers en beveiligingsgroepen in een organisatie kunnen [vertrouwelijkheidslabels classificeren en toepassen](./service-security-apply-data-sensitivity-labels.md) op hun Power BI-dashboards, -rapporten, -gegevenssets en -gegevensstromen.
 * Alle leden van de organisatie kunnen die labels zien.
 
-Voor het inschakelen van vertrouwelijkheidslabels is een Azure Information Protection-licentie vereist. Zie [Licenties](service-security-sensitivity-label-overview.md#licensing) voor meer informatie.
+Voor het inschakelen van vertrouwelijkheidslabels is een Azure Information Protection-licentie vereist. Zie [Licenties en vereisten](#licensing-and-requirements) voor meer details.
+
+## <a name="licensing-and-requirements"></a>Licenties en vereisten
+
+* Voor het toepassen en weergeven van Microsoft Information Protection-vertrouwelijkheidslabels in Power BI is een Azure Information Protection Premium P1- of Premium P2-licentie vereist. Azure Information Protection kan hetzij als zelfstandig product of via een van de Microsoft-licentiesuites worden aangeschaft. Zie [Prijzen voor Azure Information Protection](https://azure.microsoft.com/pricing/details/information-protection/) voor meer informatie.
+
+* Als gebruikers labels willen toepassen op Power BI-inhoud, moeten ze naast een van de bovenstaande Azure Information Protection-licenties ook over een Power BI Pro-licentie beschikken.
+
+* Office-apps hebben hun eigen [licentievereisten voor het weergeven en toepassen van vertrouwelijkheidslabels]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels ).
+
+* Voordat u vertrouwelijkheidslabels toepast op de tenant, moet u controleren of vertrouwelijkheidslabels zijn gedefinieerd en gepubliceerd voor relevante gebruikers en groepen. Zie [Vertrouwelijkheidslabels en bijbehorend beleid maken en configureren](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide) voor meer details.
+
+>[!NOTE]
+> Als uw organisatie gebruikmaakt van vertrouwelijkheidslabels van Azure Information Protection, moeten deze worden gemigreerd naar het Microsoft Information Protection Unified Labeling-platform om te kunnen worden gebruikt in Power BI. [Meer informatie over het migreren van vertrouwelijkheidslabels](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
 
 ## <a name="enable-sensitivity-labels"></a>Vertrouwelijkheidslabels inschakelen
 
@@ -52,9 +65,9 @@ Voer in de sectie **Information Protection** de volgende stappen uit:
 
 Power BI maakt gebruik van vertrouwelijkheidslabels voor Microsoft Information Protection. Als u dus een foutbericht krijgt wanneer u vertrouwelijkheidslabels inschakelt, kan dit een van de volgende redenen hebben:
 
-* U beschikt niet over een Azure Information Protection-[licentie](service-security-sensitivity-label-overview.md#licensing).
-* De vertrouwelijkheidslabels zijn niet gemigreerd naar de Microsoft Information Protection-versie die wordt ondersteund door Power BI. Krijg meer informatie over [het migreren van vertrouwelijkheidslabels](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels).
-* Er zijn geen Microsoft Information Protection-vertrouwelijkheidslabels gedefinieerd in de organisatie. Let op: een label moet onderdeel zijn van een gepubliceerd beleid om te kunnen worden gebruikt. [Krijg meer informatie over vertrouwelijkheidslabels](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels) of ga naar het [Microsoft-beveiligings- en compliancecentrum](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels) voor meer informatie over het definiëren van labels en het publiceren van beleidsregels voor uw organisatie.
+* U beschikt niet over een Azure Information Protection-[licentie](#licensing-and-requirements).
+* De vertrouwelijkheidslabels zijn niet [gemigreerd](#enable-sensitivity-labels) naar de Microsoft Information Protection-versie die wordt ondersteund in Power BI.
+* Er zijn geen Microsoft Information Protection-vertrouwelijkheidslabels [gedefinieerd in de organisatie](#enable-sensitivity-labels).
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

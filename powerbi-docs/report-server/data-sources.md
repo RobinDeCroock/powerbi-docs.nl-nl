@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/08/2020
+ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 166f72a717c99457e1d6b8e9a1f30535a9b4686f
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 00c00ca7bbd7ad3f901c98f44a2900f332e3616a
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80979840"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837607"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
-Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van de manier waarop de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services.
+Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van de manier waarop de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services. Sommige gegevensbronnen worden ondersteund in de versie van Power BI Desktop die is geoptimaliseerd voor Power BI Report Server, maar zijn niet geoptimaliseerd voor Power BI-rapporten die zijn gepubliceerd in Power BI Report Server. Bekijk de volgende lijst voor gegevensbronnen die op beide locaties worden ondersteund.
 
 Deze gegevensbronnen zijn specifiek voor Power BI-rapporten die in Power BI Report Server worden gebruikt. Zie [Data Sources Supported by Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) (Gegevensbronnen die worden ondersteund door Reporting Services) voor meer informatie over gegevensbronnen die worden ondersteund met gepagineerde rapporten (.rdl).
 
@@ -25,8 +25,6 @@ Deze gegevensbronnen zijn specifiek voor Power BI-rapporten die in Power BI Repo
 >  
 
 ## <a name="list-of-supported-data-sources"></a>Lijst met ondersteunde gegevensbronnen
-
-Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteunde lijst staan.
 
 | **Gegevensbron** | **In cache opgeslagen gegevens** | **Geplande vernieuwing** | **Live/DirectQuery** |
 | --- | --- | --- | --- |
@@ -38,11 +36,11 @@ Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteun
 | Access-database |Ja |Ja |Nee |
 | Active Directory |Ja |Ja |Nee |
 | Amazon Redshift |Ja |Nee |Nee |
-| Azure Blob-opslag |Ja |Ja |Nee |
+| Azure Blob Storage |Ja |Ja |Nee |
 | Azure Data Lake Store |Ja |Nee |Nee |
 | Azure HDInsight (HDFS) |Ja |Nee |Nee |
 | Azure HDInsight (Spark) |Ja |Nee |Nee |
-| Azure-tabelopslag |Ja |Ja |Nee |
+| Azure Table Storage |Ja |Ja |Nee |
 | Dynamics 365 (online) |Ja |Nee |Nee |
 | Facebook |Ja |Nee |Nee |
 | Map |Ja |Ja |Nee |
@@ -103,7 +101,7 @@ Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteun
 | Twilio (bèta) |Ja |Nee |Nee |
 | tyGraph (bèta) |Ja |Nee |Nee |
 | Vertica (bèta) |Ja |Nee |Nee |
-| Visual Studio Team Services-feed (bèta) |Ja |Nee |Nee |
+| Visual Studio-teamservices (bèta) |Ja |Nee |Nee |
 | Webtrends (bèta) |Ja |Nee |Nee |
 | Zendesk (bèta) |Ja |Nee |Nee |
 
@@ -116,7 +114,7 @@ Andere gegevensbronnen werken mogelijk ook, ondanks dat ze niet op de ondersteun
 
 Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OAuth voor modelvernieuwing. Sommige gegevensbronnen, zoals Excel of Access-databases, maken gebruik van een afzonderlijke stap zoals Bestand of Web om verbinding te maken met gegevens.
 
-| **Gegevensbron** | **Anonieme verificatie** | **Verificatie met sleutel** | **Gebruikersnaam en wachtwoord** | **Windows-verificatie** |
+| **Gegevensbron** | **Anonieme verificatie** | **Verificatie via een sleutel** | **Gebruikersnaam en wachtwoord** | **Windows-verificatie** |
 | --- | --- | --- | --- | --- |
 | SQL Server-database |Nee |Nee |Ja |Ja |
 | SQL Server Analysis Services |Nee |Nee |Ja |Ja |
@@ -125,11 +123,11 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | Azure SQL Data Warehouse |Nee |Nee |Ja |Nee |
 | Active Directory |Nee |Nee |Ja |Ja |
 | Amazon Redshift |Nee |Nee |Nee |Nee |
-| Azure Blob-opslag |Ja |Ja |Nee |Nee |
+| Azure Blob Storage |Ja |Ja |Nee |Nee |
 | Azure Data Lake Store |Nee |Nee |Nee |Nee |
 | Azure HDInsight (HDFS) |Nee |Nee |Nee |Nee |
 | Azure HDInsight (Spark) |Nee |Nee |Nee |Nee |
-| Azure-tabelopslag |Nee |Ja |Nee |Nee |
+| Azure Table Storage |Nee |Ja |Nee |Nee |
 | Dynamics 365 (online) |Nee |Nee |Nee |Nee |
 | Facebook |Nee |Nee |Nee |Nee |
 | Map |Nee |Nee |Nee |Ja |
@@ -186,7 +184,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | Twilio (bèta) |Nee |Nee |Nee |Nee |
 | tyGraph (bèta) |Nee |Nee |Nee |Nee |
 | Vertica (bèta) |Nee |Nee |Nee |Nee |
-| Visual Studio Team Services-feed (bèta) |Nee |Nee |Nee |Nee |
+| Visual Studio-teamservices (bèta) |Nee |Nee |Nee |Nee |
 | Webtrends (bèta) |Nee |Nee |Nee |Nee |
 | Zendesk (bèta) |Nee |Nee |Nee |Nee |
 
@@ -196,7 +194,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 
 Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OAuth voor DirectQuery.
 
-| **Gegevensbron** | **Anonieme verificatie** | **Verificatie met sleutel** | **Gebruikersnaam en wachtwoord** | **Windows-verificatie** | **Geïntegreerde Windows-verificatie** |
+| **Gegevensbron** | **Anonieme verificatie** | **Verificatie via een sleutel** | **Gebruikersnaam en wachtwoord** | **Windows-verificatie** | **Geïntegreerde Windows-verificatie** |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server-database |Nee |Nee |Ja |Ja |Ja |
 | SQL Server Analysis Services |Nee |Nee |Ja |Ja |Ja |
@@ -210,6 +208,7 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 ** SAP HANA biedt alleen ondersteuning voor DirectQuery met geïntegreerde Windows-verificatie wanneer er gebruik wordt gemaakt van een relationele database in het gepubliceerde Power BI Desktop-bestand (.pbix).
 
 ## <a name="next-steps"></a>Volgende stappen
-Nu u verbinding hebt met de gegevensbron, kunt u [een Power BI-rapport maken](quickstart-create-powerbi-report.md) op basis van de gegeven in die gegevensbron.
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+[Gegevensbronnen voor Power BI-rapporten[(../connect-data/power-bi-data-sources.md) in de Power BI-service Nu u verbinding hebt gemaakt met uw gegevensbron, kunt u [een Power BI-rapport maken](quickstart-create-powerbi-report.md) met behulp van de gegevens uit deze gegevensbron.
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

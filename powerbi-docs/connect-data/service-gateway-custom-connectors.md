@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 08/07/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: dea1198519f59a81c49e2f7a95a903c37bd4fb11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c171369cad8a311f91bd4b8542577cbd0c8e4657
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236615"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988700"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Aangepaste gegevensconnectoren gebruiken met de on-premises gegevensgateway
 
@@ -47,15 +47,16 @@ Wanneer deze optie is ingeschakeld, ziet u uw aangepaste connectors als beschikb
 * Zorg ervoor dat de map die u maakt toegankelijk is voor de gatewayservice voor de achtergrond. Normaal gesproken zijn mappen onder de map Windows of systeemmappen van uw gebruiker niet toegankelijk. In de on-premises gegevensgateway-app wordt een bericht weergegeven als de map niet toegankelijk is. Deze instructie is niet van toepassing op de on-premises gegevensgateway (persoonlijke modus).
 * In de code voor aangepaste connectoren moet een sectie TestConnection worden geïmplementeerd om deze te laten werken met de on-premises gegevensgateway. Deze sectie is niet vereist als u aangepaste connectors voor Power BI Desktop gebruikt. U kunt om deze reden een connector hebben die met Power BI Desktop werkt, maar niet met de gateway. Raadpleeg [deze documentatie](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support) voor meer informatie over het implementeren van een TestConnection-sectie.
 * OAuth voor aangepaste connectors via gateways wordt momenteel alleen ondersteund voor gatewaybeheerders, maar niet voor andere gegevensbrongebruikers.
+* Als de aangepaste connector zich op een netwerkstation bevindt, neemt u het volledige pad op in de on-premises gegevensgateway-app.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Manage your data source - Analysis Services](service-gateway-enterprise-manage-ssas.md) (Uw gegevensbron beheren - Analysis Services)  
 * [Manage your data source - SAP HANA](service-gateway-enterprise-manage-sap.md) (Uw gegevensbron beheren - SAP HANA)  
-* [Manage your data source - SQL Server](service-gateway-enterprise-manage-sql.md) (Gegevensbron beheren - SQL Server)  
+* [Manage your data source - SQL Server](service-gateway-enterprise-manage-sql.md) (Uw gegevensbron beheren - SQL Server)  
 * [Manage your data source - Oracle](service-gateway-onprem-manage-oracle.md) (Gegevensbron beheren - Oracle)  
 * [Uw gegevensbron beheren - importeren/geplande vernieuwing](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Proxyinstellingen configureren voor de on-premises gegevensgateway](/data-integration/gateway/service-gateway-proxy)
 * [Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI](service-gateway-sso-kerberos.md)  
 
-Nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.
+Hebt u nog vragen? Misschien dat de[Power Bi-community](https://community.powerbi.com/) het antwoord weet.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252056"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091590"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Verbinding maken met een Oracle-database met Power BI Desktop
 Om een Oracle-database te kunnen verbinden met Power BI Desktop, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. De Oracle-clientsoftware die u gebruikt, is afhankelijk van de door u geïnstalleerde versie van Power BI Desktop: 32-bits of 64-bits. Het is ook afhankelijk van uw Oracle Server-versie.
@@ -50,16 +50,20 @@ Nadat u het overeenkomende Oracle-clientstuurprogramma hebt geïnstalleerd, kunt
 2. Selecteer in het venster **Gegevens ophalen** dat wordt weergegeven de optie **Meer** (indien nodig), selecteer **Database** > **Oracle-database** en selecteer vervolgens **Verbinding maken**.
    
    ![Verbinding maken met Oracle-database](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. Geef in het dialoogvenster **Oracle-database** dat wordt weergegeven de naam van de **server** op en selecteer **OK**. Als een SID vereist is, kunt u die opgeven in de volgende indeling: *Servernaam/SID*, waar *SID* de unieke naam van de database is. Als de indeling *Servernaam/SID* niet werkt, gebruikt u *Servernaam/Servicenaam*, waarbij *Servicenaam* de alias is die u gebruikt om verbinding te maken.
+3. Geef in het dialoogvenster **Oracle-database** dat wordt weergegeven de naam van de **server** op en selecteer **OK**. Als een SID vereist is, kunt u die opgeven in de volgende indeling: *Servernaam/SID*, waar *SID* de unieke naam van de database is. Als de indeling *Servernaam/SID* niet werkt, gebruikt u *Servernaam/Servicenaam*, waarbij *Servicenaam* de alias is die u gebruikt om verbinding te maken.
 
 
    ![Oracle-servernaam invoeren](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
+   > [!NOTE]
+   > Als u gebruikmaakt van een lokale database, of van autonome databaseverbindingen, moet u de servernaam mogelijk tussen aanhalingstekens zetten om verbindingsfouten te voorkomen. 
       
-3. Als u gegevens wilt importeren met behulp van een systeemeigen databasequery, plaatst u uw query in het vak **SQL-instructie**. Dit vak wordt weergegeven wanneer u het gedeelte **Geavanceerde opties** van het dialoogvenster **Oracle-database** uitvouwt.
+4. Als u gegevens wilt importeren met behulp van een systeemeigen databasequery, plaatst u uw query in het vak **SQL-instructie**. Dit vak wordt weergegeven wanneer u het gedeelte **Geavanceerde opties** van het dialoogvenster **Oracle-database** uitvouwt.
    
    ![Geavanceerde opties uitvouwen](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
-4. Nadat u de Oracle-databasegegevens hebt ingevoerd in het dialoogvenster **Oracle-database** (inclusief eventuele optionele gegevens als een SID of een systeemeigen databasequery) selecteert u **OK** om verbinding te maken.
+
+
+5. Nadat u de Oracle-databasegegevens hebt ingevoerd in het dialoogvenster **Oracle-database** (inclusief eventuele optionele gegevens als een SID of een systeemeigen databasequery) selecteert u **OK** om verbinding te maken.
 5. Als de Oracle-database gebruikersreferenties vereist, voert u deze referenties in het dialoogvenster in als u er om wordt gevraagd.
 
 

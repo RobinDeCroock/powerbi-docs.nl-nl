@@ -119,7 +119,7 @@
       items:
         - name: Power BI-rapporten
           items:
-            - name: Automatische paginavernieuwing inschakelen (preview-versie)
+            - name: Automatisch paginaAutomatische paginavernieuwing inschakelen
               href: desktop-automatic-page-refresh.md
             - name: Rapportelementen beoordelen met prestatie-analyse
               href: desktop-performance-analyzer.md

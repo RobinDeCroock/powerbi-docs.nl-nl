@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/29/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d65b63238009c5a743d83a13d596f36aad4b2a3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281686"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878864"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Zelfstudie: Een machine learning-model bouwen in Power BI
 
@@ -154,6 +154,26 @@ Bij het toepassen van een binair voorspellingsmodel worden er vier kolommen toeg
 Zodra het vernieuwen van de gegevensstroom is voltooid, kunt u de entiteit **Online bezoekers verrijkte Aankoopintentievoorspelling** selecteren om de resultaten te bekijken.
 
 ![De resultaten bekijken](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
+
+U kunt ook een AutoML-model aanroepen in de werkruimte, rechtstreeks vanuit de Power Query-editor in uw gegevensstroom. Als u toegang wilt tot de AutoML-modellen, selecteert u de knop Bewerken voor de entiteit die u wilt opmaken met inzichten uit uw AutoML-model, zoals wordt weergegeven in de volgende afbeelding.
+
+![De entiteit bewerken](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-22.png)
+
+Als u de knop Bewerken selecteert, wordt de Power Query-editor geopend voor de entiteiten in uw gegevensstroom. Selecteer de knop AI Insights op het lint.
+
+![AI-inzichten](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-23.png)
+
+ Selecteer de map Power BI Machine Learning-modellen in het menu van het navigatiedeelvenster. Alle AutoML-modellen waar u toegang tot hebt, zijn hier vermeld als Power Query-functies. De invoerparameters voor het AutoML-model worden automatisch toegewezen als parameters van de bijbehorende Power Query-functie. Houd er rekening mee dat het automatisch toewijzen van parameters alleen wordt uitgevoerd als de naam en het gegevenstype van de parameter gelijk zijn.
+ 
+Als u een AutoML-model wilt aanroepen, kunt u vanuit het vervolgkeuzemenu een van de geselecteerde kolommen van de entiteit als invoer opgeven. U kunt ook een constante waarde opgeven die als invoer wordt gebruikt door het kolompictogram aan de linkerzijde van de het invoerdialoogvenster in te schakelen.
+
+![PQO-functiebrowser](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-24.png)
+
+Selecteer Toepassen om een voorbeeld van de uitvoer van het AutoML-model weer te geven als een nieuwe kolom in de entiteitstabel. U ziet de aanroep aan het model ook als een toegepaste stap voor de query.
+
+![Resultaten weergeven](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-25.png)
+
+Nadat u uw gegevensstroom hebt opgeslagen, wordt het model automatisch aangeroepen wanneer de gegevensstroom wordt vernieuwd voor nieuwe of bijgewerkte rijen in de entiteitstabel.
 
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>De beoordeelde uitvoer van het model gebruiken in een Power BI-rapport
 

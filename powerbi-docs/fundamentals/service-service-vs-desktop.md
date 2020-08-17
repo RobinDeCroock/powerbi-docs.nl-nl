@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214034"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988719"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop en de Power BI-service vergelijken
 
@@ -23,15 +23,17 @@ In een Venn-diagram waarin de Power BI Desktop en de Power BI-service worden ver
 
 ![Venn-diagram dat de relatie tussen Power BI Desktop en de Power BI-service weergeeft.](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** is een volledig hulpprogramma voor gegevensanalyse en het maken van rapporten dat u installeert voor gratis toepassing op uw lokale computer. Hierin is de Query-editor inbegrepen, waarmee u verbinding kunt maken met tal van gegevensbronnen en deze in een gegevensmodel kunt combineren (dit wordt vaak modellering genoemd). Vervolgens ontwerpt u een rapport op basis van dat gegevensmodel. In de [introductiehandleiding voor Power BI Desktop](desktop-getting-started.md) wordt het proces uitgelegd.
+**Power BI Desktop** is een volledig hulpprogramma voor gegevensanalyse en het maken van rapporten dat u gratis installeert op de lokale computer. Hierin is de Query-editor inbegrepen, waarmee u verbinding kunt maken met tal van gegevensbronnen en deze in een gegevensmodel kunt combineren (dit wordt vaak modellering genoemd). Vervolgens ontwerpt u een rapport op basis van dat gegevensmodel. In de [introductiehandleiding voor Power BI Desktop](desktop-getting-started.md) wordt het proces uitgelegd.
 
-De **Power BI-service** is een cloudgebaseerde service. Het biedt ondersteuning voor lichte rapportbewerkingen en samenwerking tussen teams en organisaties. In de Power BI-service kunt u ook verbinding maken met gegevensbronnen, maar modellering is dan beperkt. 
+De **Power BI-service** is een cloudgebaseerde service. Het biedt ondersteuning voor lichte rapportbewerkingen en samenwerking tussen teams en organisaties. In de Power BI-service kunt u ook verbinding maken met gegevensbronnen, maar modellering is dan beperkt.
 
-De meeste rapportontwerpers die aan business intelligence-projecten werken, gebruiken **Power BI Desktop** om rapporten te maken en gebruiken vervolgens de **Power BI-service** om hun rapporten naar anderen te distribueren.
+De meeste Power BI-rapportontwerpers die aan business intelligence-projecten werken, gebruiken **Power BI Desktop** om Power BI-rapporten te maken, en gebruiken vervolgens de **Power BI-service** om hun rapporten te distribueren en er samen aan te werken.
 
-## <a name="report-editing"></a>Rapporten bewerken
+De Power BI-service fungeert ook als host voor *gepagineerde rapporten* in werkruimten die worden ondersteund met een Power BI Premium-capaciteit. U maakt gepagineerde rapporten met Power BI Report Builder. Zie [Rapporten en gepagineerde rapporten in Power BI Premium vergelijken](../paginated-reports/paginated-reports-report-builder-power-bi.md#compare-power-bi-reports-and-paginated-reports) in het artikel: Wat zijn gepagineerde rapporten in Power BI Premium? voor meer informatie.
 
-In zowel de toepassing als de service maakt en bewerkt u *rapporten*. Een rapport kan een of meer pagina’s hebben, met visuals en verzamelingen met visuals. U kunt bladwijzers, knoppen, filters en drillthroughs toevoegen om de navigatie in uw rapporten te verbeteren.
+## <a name="editing-power-bi-reports"></a>Power BI-rapporten bewerken
+
+In zowel de toepassing als de service maakt en bewerkt u Power BI-*rapporten*. Een rapport kan een of meer pagina’s hebben, met visuals en verzamelingen met visuals. U kunt bladwijzers, knoppen, filters en drillthroughs toevoegen om de navigatie in uw rapporten te verbeteren.
 
 ![Schermopnamen van de Power BI Desktop en de Power BI-service met genummerde secties.](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -48,7 +50,6 @@ Deze video toont de rapporteditor in Power BI Desktop.
 ## <a name="working-in-the-power-bi-service"></a>Werken in de Power BI-service
 
 ### <a name="collaborating"></a>Samenwerken
-
 
 Nadat u uw rapporten hebt gemaakt, kunt u deze opslaan naar een *werkruimte* in de **Power BI-service**, waarin u en uw collega’s samenwerken. U bouwt *dashboards* bovenop die rapporten. Vervolgens deelt u die dashboards en rapporten met gebruikers van rapporten in en buiten uw organisatie. De gebruikers van uw rapporten bekijken ze in de Power BI-service in de *leesweergave*, niet de bewerkingsweergave. Ze hebben geen toegang tot alle functies die beschikbaar zijn voor de makers van rapporten.  U kunt ook uw gegevenssets delen en anderen hun eigen rapporten laten opstellen op basis daarvan. Lees meer over [samenwerken in de Power BI-service](../collaborate-share/service-new-workspaces.md).
 

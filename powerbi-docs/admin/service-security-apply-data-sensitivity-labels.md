@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035070"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049202"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels toepassen in Power BI
 
@@ -21,8 +21,8 @@ Vertrouwelijkheidslabels voor Microsoft Information Protection op uw rapporten, 
 
 Vertrouwelijkheidslabels toepassen in Power BI:
 * U moet over een Power BI Pro-licentie en machtigingen voor bewerken beschikken voor de inhoud die u van een label wilt voorzien.
-* U moet bij een beveiligingsgroep horen die machtigingen heeft om vertrouwelijkheidslabels toe te passen, zoals beschreven in het artikel [Vertrouwelijkheidslabels inschakelen in Power BI](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels).
-* Aan alle [vereisten](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi) en [licentievereisten](./service-security-data-protection-overview.md#licensing) moet zijn voldaan.
+* U moet bij een beveiligingsgroep horen die machtigingen heeft om vertrouwelijkheidslabels toe te passen, zoals beschreven in het artikel [Vertrouwelijkheidslabels inschakelen in Power BI](./service-security-enable-data-sensitivity-labels.md).
+* Er moet aan alle [licentievereisten en overige vereisten](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements) zijn voldaan.
 
 Zie [Vertrouwelijkheidslabels in Power BI](service-security-sensitivity-label-overview.md) voor meer informatie over vertrouwelijkheidslabels in Power BI.
 

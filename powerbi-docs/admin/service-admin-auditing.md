@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161716"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091613"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -318,6 +318,9 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Vernieuwing van Power BI-gegevensstroom aangevraagd               | RequestDataflowRefresh                      | Momenteel niet gebruikt                       |
 | Vernieuwing van Power BI-gegevensset aangevraagd                | RefreshDataset                              |                                          |
 | Power BI-werkruimten opgehaald                     | GetWorkspaces                               |                                          |
+| Vertrouwelijkheidslabel toegepast                         | SensitivityLabelApplied                     |                                          |
+| Vertrouwelijkheidslabel gewijzigd                         | SensitivityLabelChanged                     |                                          |
+| Vertrouwelijkheidslabel verwijderd                         | SensitivityLabelRemoved                     |                                          |
 | Locatie voor gegevensstroomopslag instellen voor een werkruimte     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Geplande vernieuwing van Power BI-gegevensstroom ingesteld        | SetScheduledRefreshOnDataflow               |                                          |
 | Geplande vernieuwing van Power BI-gegevensset ingesteld         | SetScheduledRefresh                         |                                          |

@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216715"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049294"
 ---
 # <a name="tenant-admin-settings-guidance"></a>Richtlijnen voor tenantbeheerdersinstellingen
 
@@ -39,9 +39,13 @@ Als u dit doet, raden wij u aan om de instelling **Help-informatie publiceren** 
 Deze URL's worden beschikbaar als koppelingen in het menu Help van Power BI.
 
 > [!NOTE]
-> Als u de URL voor **licentieaanvragen** opgeeft, voorkomt u dat individuele gebruikers zich kunnen aanmelden voor de Power BI Pro-proefversie van 60 dagen. In plaats daarvan worden ze omgeleid naar uw interne site met informatie over het verkrijgen van een licentie: gratis of Pro.
+> Door de URL voor de **Licentievereisten** op te geven voorkomt u dat individuele gebruikers een Power BI Pro-licentie kopen. In plaats hiervan worden ze naar uw interne site geleid met informatie over het verkrijgen van een licentie. De instelling **Gebruikers toestaan Power BI Pro uit te proberen** is standaard ingeschakeld, en zorgt voor een scheiding tussen de betaalde versie en de proefversie. Zie [Gebruikers toestaan Power BI Pro uit te proberen](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro) voor meer informatie over hoe deze instellingen werken.
+>
+>
 
 ![Schermopname van Power BI Desktop met de instellingen voor Help en ondersteuning.](media/admin-tenant-settings/publish-get-help-information.png)
+
+Zie [Instellingen voor Help en ondersteuning](../admin/service-admin-portal.md#help-and-support-settings) voor meer informatie.
 
 ## <a name="manage-risk"></a>beheer risico's.
 De instellingen voor het beheren van risico's kunnen u helpen bij het vaststellen van governancebeleid in uw Power BI-tenant. Houd er echter rekening mee dat governance-instellingen geen beveiligingsmaatregel zijn. Als u bijvoorbeeld de instelling **Gegevens exporteren** uitschakelt, verwijdert u de functie uit de Gebruikersinterface van Power BI en helpt het op deze manier Power BI-gebruikers om te werken in overeenstemming met het governancebeleid van uw organisatie, maar het voorkomt niet dat bepaalde gebruikers gegevens exporteren met behulp van andere opties. Vanuit beveiligingsoogpunt heeft een Power BI-gebruiker met leestoegang tot een gegevensset de toestemming om deze gegevensset op te vragen en kan de resultaten behouden, ongeacht de functies die beschikbaar zijn in de Power BI-gebruikersinterface.

@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
-ms.date: 06/06/2019
-ms.openlocfilehash: fea4e4927b009e30bc040593f9237cc49ff73956
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/04/2020
+ms.openlocfilehash: fe6ca733a5498c0e576ec30e6992ffbf26d54319
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921442"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837584"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Rapportgegevens in Power BI Report Builder
 
@@ -27,7 +27,10 @@ Informatie over [het maken van een ingesloten gegevensbron voor gepagineerde rap
   
 - **Gegevensverbinding.** Ook wel bekend als een *gegevensbron*. Een gegevensverbinding bevat een naam en verbindingseigenschappen die afhankelijk zijn van het verbindingstype. Standaard bevat een gegevensverbinding geen referenties. Een gegevensverbinding geeft niet aan welke gegevens er uit de externe gegevensbron moeten worden opgehaald. Daarvoor moet u een query opgeven bij het maken van een gegevensset.  
   
-- **Verbindingsreeks.** Een verbindingsreeks is een tekenreeksversie van de verbindingseigenschappen die nodig zijn om verbinding te maken met een gegevensbron. Verbindingseigenschappen verschillen op basis van het type gegevensverbinding.  
+- **Verbindingsreeks.** Een verbindingsreeks is een tekenreeksversie van de verbindingseigenschappen die nodig zijn om verbinding te maken met een gegevensbron. Verbindingseigenschappen verschillen op basis van het type gegevensverbinding. 
+
+    > [!NOTE]
+    > Verbindingsreeksen voor een gegevensbron kunnen niet gebaseerd zijn op een expressie.
   
 - **Ingesloten gegevensbron.** Ook wel bekend als een *rapportspecifieke gegevensbron*. Een gegevensbron die is gedefinieerd in een rapport en alleen door dat rapport wordt gebruikt.  
   

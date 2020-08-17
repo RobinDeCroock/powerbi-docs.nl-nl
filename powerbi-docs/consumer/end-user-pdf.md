@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768798"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837492"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
 
@@ -52,6 +52,7 @@ Zo eenvoudig werkt dat. U kunt het bestand downloaden en openen met een PDF-view
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden bij het werken met de functie **Exporteren naar PDF**.
 
+* De PDF omvat de gegevens en visualisaties die zichtbaar zijn op uw Power BI-canvas. Als de visual schuifbalken bevat, wordt de standaardversie van de visual opgenomen in de PDF, zonder schuifmogelijkheden.  
 * R- en Python-visuals worden momenteel niet ondersteund. Deze visuals zijn in de PDF leeg en er wordt een foutbericht weergegeven. 
 * Power BI-visuals die zijn gecertificeerd, worden ondersteund. Raadpleeg [Een Power BI-visual laten certificeren](../developer/visuals/power-bi-custom-visuals-certified.md) voor meer informatie over gecertificeerde Power BI-visuals, waaronder het laten certificeren van een Power BI-visual. Power BI-visuals die niet zijn gecertificeerd, worden niet ondersteund. Deze worden in de PDF met een foutbericht weergegeven.
 * De ESRI wordt niet ondersteund

@@ -1,39 +1,39 @@
 ---
 title: Power BI-beheerportal
-description: De beheerportal bevat opties voor het beheer van tenants van Power BI in uw organisatie. Dit bevat onder andere metrische gegevens over gebruik, toegang tot het Microsoft 365-beheercentrum en instellingen.
+description: Met de beheerportal kunt u instellingen voor de hele organisatie configureren voor Power BI. U kunt metrische gebruiksgegevens bekijken, tenantinstellingen configureren, werken met capaciteit, en werkruimten, organisatievisuals en aanbevolen inhoud weergeven.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 08/10/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537499"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049770"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
-Via de beheerportal kunt u een Power BI-*tenant* voor uw organisatie beheren. De portal bevat onder andere metrische gegevens over gebruik, toegang tot het Microsoft 365-beheercentrum en instellingen.
+De beheerportal stelt u in staat om de Power BI-instellingen voor uw organisatie te beheren. De portal bevat onder andere metrische gebruiksgegevens, en biedt toegang tot het Microsoft 365-beheercentrum en de tenantinstellingen.
 
-De volledige beheerportal is toegankelijk voor alle gebruikers die globale beheerder zijn of die de rol van Power BI-servicebeheerder hebben. Als u niet een van deze rollen heeft, ziet u in de portal alleen de optie **Capaciteitsinstellingen**. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
+De volledige beheerportal is toegankelijk voor globale beheerders en gebruikers met de rol Power BI-servicebeheerder. Als u niet een van deze rollen heeft, ziet u in de portal alleen de optie **Capaciteitsinstellingen**. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Toegang krijgen tot de beheerportal
 
-Als u toegang wilt krijgen tot de Power BI-beheerportal, moet uw account zijn ingesteld als **globale beheerder**, in Microsoft 365 of Azure AD (Active Directory), of moet de rol Power BI-servicebeheerder zijn toegewezen aan het account. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service. Ga op de volgende manier te werk om de Power BI-beheerportal te openen.
+U moet een globale beheerder of Power BI-servicebeheerder zijn om toegang te krijgen tot de Power BI-beheerportal. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service. Volg deze stappen om naar de Power BI-beheerportal te gaan:
 
-1. Selecteer het tandwielpictogram in de rechterbovenhoek van de Power BI-service.
+1. Meld u aan bij [Power BI](https://app.powerbi.com) met behulp van de referenties van uw beheerdersaccount.
 
-1. Selecteer **Beheerportal**.
+1. Selecteer in de paginakoptekst **Instellingen** > **Beheerportal**.
 
     ![Instellingen voor beheerportal](media/service-admin-portal/powerbi-admin-settings.png)
 
-De portal bevat negen tabbladen. De rest van dit artikel geeft informatie over elk van deze tabbladen.
+De beheerportal bevat verschillende secties. De rest van dit artikel biedt informatie over elk van deze secties.
 
 ![Navigatie door beheerportal](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,18 +44,20 @@ De portal bevat negen tabbladen. De rest van dit artikel geeft informatie over e
 * [Capaciteitsinstellingen](#capacity-settings)
 * [Codes insluiten](#embed-codes)
 * [Organisatievisuals](organizational-visuals.md#organizational-visuals)
-* [Gegevensstroomopslag (preview)](#dataflow-storage-preview)
+* [Azure-verbindingen (preview)](#azure-connections-preview)
 * [Werkruimten](#workspaces)
 * [Aangepaste huisstijl](#custom-branding)
+* [Metrische gegevens voor beveiliging](#protection-metrics)
+* [Aanbevolen inhoud](#featured-content)
 
 ## <a name="usage-metrics"></a>Metrische gegevens over gebruik
 
-Met de **Metrische gegevens over gebruik** kunt u het Power BI-gebruik voor uw organisatie bewaken. Daarnaast kunt u in het rapport zien welke gebruikers, en groepen, het actiefst zijn binnen Power BI voor uw organisatie. 
+Met de **Metrische gegevens over gebruik** kunt u het Power BI-gebruik voor uw organisatie bewaken. Ook wordt weergegeven welke gebruikers en groepen in uw organisatie het meest actief zijn in Power BI.
 
 > [!NOTE]
 > De eerste keer dat u het dashboard opent, of als u het dashboard weergeeft nadat u het lange tijd niet hebt gebruikt, ziet u waarschijnlijk een melding dat het dashboard wordt geladen.
 
-Zodra het dashboard wordt geladen, ziet u twee secties met tegels. De eerste sectie bevat gebruiksgegevens over individuele gebruikers, en de tweede sectie bevat vergelijkbare informatie over groepen in uw organisatie.
+Nadat het dashboard is geladen, ziet u twee secties met tegels. De eerste sectie bevat gebruiksgegevens voor individuele gebruikers, en de tweede sectie bevat vergelijkbare informatie voor groepen.
 
 Hier volgt een overzicht van wat u in elke tegel kunt zien:
 
@@ -63,11 +65,13 @@ Hier volgt een overzicht van wat u in elke tegel kunt zien:
   
     ![Unieke telling van dashboards, rapporten, gegevenssets](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* Het meest gebruikte dashboard qua het aantal gebruikers dat er toegang tot heeft. Als u bijvoorbeeld een dashboard hebt dat u met drie gebruikers hebt gedeeld, en u het dashboard ook hebt toegevoegd aan een inhoudspakket waarmee twee verschillende gebruikers verbinding hebben gemaakt, zou het aantal uitkomen op 6 (1 + 3 + 2).
+
+* Het meest gebruikte dashboard qua het aantal gebruikers dat er toegang tot heeft. Bijvoorbeeld: U hebt een dashboard dat u deelt met drie gebruikers. U hebt het dashboard ook toegevoegd aan een inhoudspakket waarmee twee verschillende gebruikers zijn verbonden. Het aantal dashboards is dan 6 (1 + 3 + 2).
   
     ![Meest gebruikte dashboards](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
-* De meest populaire inhoud waarmee gebruikers verbinding hebben gemaakt. Het betreft hier alle inhoud die de gebruikers kunnen bereiken via het proces Gegevens ophalen, zoals SaaS-inhoudspakketten, organisatie-inhoudspakketten, bestanden of databases.
+* De meest populaire inhoud waarmee gebruikers verbinding hebben gemaakt. Dit is alle inhoud die de gebruikers kunnen bereiken via het proces Gegevens ophalen, zoals SaaS-inhoudspakketten, organisatie-inhoudspakketten, bestanden of databases.
+
   
     ![Meest gebruikte pakketten](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
@@ -79,9 +83,9 @@ Hier volgt een overzicht van wat u in elke tegel kunt zien:
   
     ![Actiefste gebruikers - rapporten](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-De tweede sectie bevat hetzelfde type informatie, maar dan op basis van groepen. Hier kunt u zien welke groepen in uw organisatie het actiefst zijn en wat voor soort inhoud ze gebruiken.
+De tweede sectie bevat hetzelfde type informatie, maar dan op basis van groepen. In deze sectie ziet u welke groepen in uw organisatie het actiefst zijn en wat voor soort inhoud ze gebruiken.
 
-Aan de hand van deze informatie kunt u een goed beeld krijgen van hoe Power BI in uw organisatie wordt gebruikt. Daarnaast kunt u zien welke gebruikers en groepen zeer actief zijn in uw organisatie.
+Deze informatie biedt nuttige inzichten in hoe personen Power BI gebruiken in uw organisatie.
 
 ## <a name="control-usage-metrics"></a>Metrische gegevens over gebruik beheren
 
@@ -93,7 +97,7 @@ Zie [Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten b
 
 ### <a name="usage-metrics-for-content-creators"></a>Metrische gegevens over het gebruik voor makers van inhoud
 
-1. Selecteer in de beheerportal **Tenantinstellingen** > **Metrische gegevens over het gebruik voor makers van inhoud**.
+1. Selecteer in de beheerportal **Tenantinstellingen** > **Instellingen voor controle en gebruik** > **Metrische gegevens over het gebruik voor makers van inhoud**.
 
     ![Metrische gegevens over het gebruik in Tenantinstellingen in de beheerportal](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
@@ -101,10 +105,9 @@ Zie [Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten b
 
     ![Metrische gegevens over gebruik ingeschakeld](../collaborate-share/media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Gegevens per gebruiker in metrische gegevens over gebruik voor makers van inhoud
 
-### <a name="per-user-data-in-usage-metrics"></a>Metrische gegevens over gebruik per gebruiker
-
-Standaard wordt gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van gebruikers van inhoud worden in het metrische rapport opgenomen. Als u deze informatie niet voor een bepaalde gebruiker of voor geen enkele gebruiker wilt opnemen, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
+Gegevens per gebruiker zijn standaard ingeschakeld voor metrische gebruiksgegevens, en accountgegevens worden opgenomen in het metrische rapport. Als u geen accountgegevens wilt opnemen voor een bepaalde gebruiker of voor alle gebruikers, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
 
 ![Gebruiksgegevens per gebruiker](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -112,38 +115,38 @@ Standaard wordt gegevens per gebruiker ingeschakeld voor metrische gegevens over
 
 Bij het uitschakelen van metrische gegevens over gebruik voor de gehele organisatie kunnen beheerders ook een of beide van deze opties kiezen:
 
-- **Alle bestaande inhoud voor metrische gegevens over gebruik verwijderen** om alle bestaande rapporten en dashboardtegels te verwijderen die zijn gemaakt met behulp van de rapporten en gegevenssets voor metrische gegevens over gebruik. Deze optie verwijdert alle toegang tot metrische gegevens voor alle gebruikers in de organisatie die deze mogelijk al gebruiken. 
+- **Alle bestaande inhoud voor metrische gegevens over gebruik verwijderen** om alle bestaande rapporten en dashboardtegels te verwijderen die zijn gemaakt met behulp van de rapporten en gegevenssets voor metrische gegevens over gebruik. Deze optie verwijdert alle toegang tot metrische gegevens voor alle gebruikers in de organisatie die deze mogelijk al gebruiken.
 - **Alle bestaande gegevens per gebruiker verwijderen uit de huidige inhoud van metrische gegevens over gebruik** om alle toegang te verwijderen tot gegevens per gebruiker voor alle gebruikers in de organisatie die deze mogelijk al gebruiken. 
 
 Let op, want het verwijderen van bestaande metrische gegevens over gebruik en gegevens per gebruiker kan niet ongedaan worden gemaakt.
 
 ## <a name="users"></a>Gebruikers
 
-U beheert Power BI-gebruikers, -groepen en -beheerders in het Microsoft 365-beheercentrum. Het tabblad **Gebruikers** bevat een link naar het beheercentrum voor uw tenant.
+U beheert Power BI-gebruikers, -groepen en -beheerders in het Microsoft 365-beheercentrum. Het tabblad **Gebruikers** bevat een link naar het beheercentrum.
 
 ![Naar het Microsoft 365-beheercentrum gaan](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>Auditlogboeken
 
-U beheert Power BI-auditlogboeken in het Office 365-centrum voor beveiliging en naleving. Het tabblad **Auditlogboeken** bevat een link naar het centrum voor beveiliging en naleving voor uw tenant. [Meer informatie](service-admin-auditing.md)
+U beheert Power BI-auditlogboeken in het Office 365-centrum voor beveiliging en naleving. Het tabblad **Auditlogboeken** bevat een link naar het centrum voor beveiliging en naleving. Zie [Activiteiten van gebruikers bijhouden in Power BI](service-admin-auditing.md) voor meer informatie.
 
 Als u auditlogboeken wilt gebruiken, zorg dan dat de instelling [**Auditlogboeken maken voor het controleren van interne activiteiten en naleving**](#create-audit-logs-for-internal-activity-auditing-and-compliance) is ingeschakeld.
 
 ## <a name="tenant-settings"></a>Tenantinstellingen
 
-Via het tabblad **Tenantinstellingen** kunt u nauwkeurig bepalen welke functies aan uw organisatie ter beschikking worden gesteld. Als u zich zorgen maakt over gevoelige gegevens, zijn sommige van onze functies mogelijk niet geschikt voor uw organisatie, of misschien wilt u alleen een bepaalde functie beschikbaar stellen aan een specifieke groep.
+Met **Tenantinstellingen** kunt u nauwkeurig bepalen welke functies aan uw organisatie ter beschikking worden gesteld. Als u zich zorgen maakt over gevoelige gegevens, zijn sommige van onze functies mogelijk niet geschikt voor uw organisatie, of misschien wilt u alleen een bepaalde functie beschikbaar stellen aan een specifieke groep.
 
 > [!NOTE]
-> Tenant-instellingen die de beschikbaarheid van functies in de Power BI-gebruikersinterface beheren, kunnen helpen bij het vaststellen van governancebeleid, maar zijn geen beveiligingsmaatregel. De instelling **gegevens exporteren** beperkt bijvoorbeeld de machtigingen van een Power BI-gebruiker op een gegevensset niet. Power BI-gebruikers met leestoegang tot een gegevensset hebben de toestemming om deze gegevensset op te vragen en kunnen mogelijk de resultaten behouden zonder de functie **Gegevens exporteren** in de Power BI-gebruikersinterface te gebruiken.
+> Tenantinstellingen waarmee u de beschikbaarheid van functies in de Power BI-gebruikersinterface bepaalt, kunnen helpen bij het vaststellen van beheerbeleid, maar zijn geen beveiligingsmaatregel. De instelling **Gegevens exporteren** beperkt bijvoorbeeld niet de machtigingen van een Power BI-gebruiker voor een gegevensset. Power BI-gebruikers met leestoegang tot een gegevensset hebben de toestemming om deze gegevensset op te vragen en kunnen mogelijk de resultaten behouden zonder de functie **Gegevens exporteren** in de Power BI-gebruikersinterface te gebruiken.
 
 In de volgende afbeelding worden diverse instellingen op het tabblad **Tenantinstellingen** weergegeven.
 
 ![Tenantinstellingen](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> Het kan maximaal tien minuten duren voordat een instelling voor iedereen in uw tenant is gewijzigd.
+> Het duurt maximaal 15 minuten voordat een instelling voor iedereen in uw organisatie is gewijzigd.
 
-Instellingen kunnen drie statussen hebben:
+Instellingen hebben een van deze drie statussen:
 
 * **Uitgeschakeld voor de hele organisatie**: niemand in uw organisatie kan deze functie gebruiken.
 
@@ -153,13 +156,13 @@ Instellingen kunnen drie statussen hebben:
 
     ![Instelling 'Ingeschakeld voor iedereen'](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Ingeschakeld voor een subset van de organisatie**: een specifieke subset van gebruikers of groepen in uw organisatie kan deze functie gebruiken.
+* **Ingeschakeld voor een subset van de organisatie**: In plaats van de functie in te schakelen voor de hele organisatie, kunt u de instelling toepassen op **Specifieke beveiligingsgroepen** in uw organisatie die deze functie mogen gebruiken.
 
-    U kunt de functie inschakelen voor uw hele organisatie, met uitzondering van een specifieke groep gebruikers.
+    U kunt een functie ook inschakelen voor de hele organisatie **Met uitzondering van beveiligingsgroepen**.
 
     ![Instelling 'Ingeschakeld voor subset'](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    U kunt de functie ook alleen voor een specifieke groep gebruikers inschakelen en voor een andere groep gebruikers uitschakelen. Op deze manier kunt u ervoor zorgen dat bepaalde gebruikers geen toegang hebben tot de functie, zelfs niet als deel uitmaken van de groep die wel toegang heeft.
+    U kunt instellingen ook combineren om de functie alleen in te schakelen voor een specifieke groep gebruikers en uit te schakelen voor een andere groep gebruikers. Op deze manier kunt u ervoor zorgen dat bepaalde gebruikers geen toegang hebben tot de functie, zelfs niet als ze deel uitmaken van de groep die wel toegang heeft. De meest beperkende instelling voor een gebruiker is van toepassing.
 
     ![Instelling 'Ingeschakeld met uitzonderingen'](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
@@ -169,23 +172,47 @@ In de volgende secties ziet u een overzicht van de verschillende typen tenantins
 
 ### <a name="publish-get-help-information"></a>Help-informatie publiceren
 
-Gebruikers in de organisatie kunnen interne resources voor Help en ondersteuning vinden via het menu Help in Power BI. In het bijzonder veranderen deze parameters het gedrag van de menu-items ‘Learn’, ‘Community’ en ‘Hulp vragen’.
+Beheerders kunnen interne URL's opgeven om de bestemming van koppelingen in het Help-menu van Power BI te overschrijven, en voor licentie-upgrades. Als aangepaste URL's zijn ingesteld, worden gebruikers in de organisatie naar interne Help- en ondersteuningsresources geleid, in plaats van naar de standaardbestemmingen. De bestemmingen van de volgende resources kunnen worden aangepast:
 
-Als u een URL voor licentieaanvragen opgeeft, past u ook de doel-URL aan van de knop **Account upgraden**. Gebruikers zonder een Power BI Pro-licentie vinden deze knop in het dialoogvenster **Bijwerken naar Power BI Pro** en op de pagina **Persoonlijke opslag beheren**. Daarnaast beschikt Power BI niet langer over de knop **Pro gratis proberen** in dit dialoogvenster of op de opslagpagina. Dit zorgt ervoor dat Power BI uw gebruikers betrouwbaar door de processen begeleidt die in uw organisatie via uw oplossing voor licentiebeheer zijn gedefinieerd.
+* **Learn**. Deze koppeling uit het Help-menu leidt standaard naar een [lijst met al uw Power BI-leertrajecten en -modules](https://docs.microsoft.com/learn/browse/?products=power-bi). Als u deze koppeling wilt omleiden naar interne trainingsresources, stelt u een aangepaste URL in voor **Trainingsdocumentatie**.
 
-![Instelling 'Ingeschakeld met uitzonderingen'](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+* **Community**. Als u gebruikers vanuit het Help-menu naar een intern forum wilt leiden, in plaats van naar de [Power BI-community](https://community.powerbi.com/), stelt u een aangepaste URL in voor **Discussieforum**.
+
+* **Licentie-upgrades**. Gebruikers met een (gratis) Power BI-licentie kunnen de kans krijgen om hun account bij te werken naar Power BI Pro tijdens het gebruik van de service. Als u een interne URL opgeeft voor **Licentieaanvragen**, leidt u gebruikers om naar een interne aanvraag- en aankoopstroom, en voorkomt u selfservice-aankopen. Raadpleeg [Gebruikers toestaan Power BI Pro uit te proberen](#allow-users-to-try-power-bi-pro) als u wilt voorkomen dat gebruikers licenties kopen, maar het wel goed vindt dat gebruikers een proefversie van Power BI Pro starten.
+
+* **Hulp vragen**. Als u gebruikers vanuit het Help-menu naar een interne helpdesk wilt leiden, in plaats van naar [Power BI-ondersteuning](https://powerbi.microsoft.com/support/), stelt u een aangepaste URL in voor **Helpdesk**.
+
+![Help-informatie publiceren](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten
 
 Voor e-mail ingeschakelde beveiligingsgroepen ontvangen e-mailmeldingen als deze tenant wordt beïnvloed door een serviceonderbreking of incident. Meer informatie over [Meldingen over onderbrekingen van de service](service-interruption-notifications.md).
 
+### <a name="allow-users-to-try-power-bi-pro"></a>Gebruikers toestaan Power BI Pro uit te proberen
+
+De instelling **Gebruikers toestaan Power BI Pro uit te proberen** is standaard ingeschakeld, en biedt u meer controle over hoe gebruikers Power BI Pro-licenties verkrijgen. In scenario's waarin u selfservice-aankopen hebt geblokkeerd, stelt deze instelling gebruikers in staat om een proefversie van Power BI Pro te starten. De ervaring van eindgebruikers is afhankelijk van hoe u licentie-instellingen samenvoegt. In de onderstaande tabel ziet u hoe upgraden van (gratis) Power BI naar Power BI Pro wordt beïnvloed door verschillende instellingencombinaties:
+
+| Instelling voor selfservice-aankopen | Gebruiker toestaan Power BI Pro uit te proberen | Ervaring van de eindgebruiker |
+| ------ | ------ | ----- |
+| Ingeschakeld | Uitgeschakeld | Gebruiker kan een Pro-licentie kopen, maar geen proefversie starten |
+| Ingeschakeld | Ingeschakeld | Gebruiker kan een gratis proefversie van Pro starten, en kan upgraden naar een betaalde licentie |
+| Uitgeschakeld | Uitgeschakeld | Gebruiker wordt in een bericht gevraagd contact op te nemen met de IT-beheerder om een licentie aan te vragen |
+| Uitgeschakeld | Ingeschakeld | Gebruiker kan een proefversie van Pro starten, maar moet contact opnemen met de IT-beheerder om een betaalde licentie te krijgen |
+
+> [!NOTE]
+> U kunt een interne URL voor licentieaanvragen toevoegen in [Instellingen voor Help en ondersteuning](#help-and-support-settings). Als u de URL instelt, wordt de standaardaankoopervaring overschreven. Gebruikers die een licentie kunnen kopen in de scenario's die in de bovenstaande tabel zijn beschreven, worden omgeleid naar uw interne URL.
+
+![Gebruikersinterface-instellingen: Gebruikers toestaan Power BI Pro uit te proberen](media/service-admin-portal/allow-pro-trial.png)
+
+Zie [Selfservice-registratie en -aankopen in- of uitschakelen](service-admin-disable-self-service.md) voor meer informatie.
+
 ## <a name="workspace-settings"></a>Instellingen voor werkruimte
 
-In **Tenantinstellingen** in de beheerportal zijn er twee secties voor het beheren van werkruimten:
+In **Tenantinstellingen** in de beheerportal zijn drie secties voor het beheren van werkruimten:
 
-- Werkruimten maken (nieuwe werkruimte-ervaring).
-- Gegevenssets in werkruimten gebruiken.
-- Het maken van een klassieke werkruimte blokkeren.
+- [De nieuwe werkruimte-ervaringen maken](#create-the-new-workspaces).
+- [Gegevenssets in werkruimten gebruiken](#use-datasets-across-workspaces).
+- [Het maken van een klassieke werkruimte blokkeren](#block-classic-workspace-creation).
 
 ### <a name="create-the-new-workspaces"></a>Nieuwe werkruimten maken
 
@@ -337,7 +364,7 @@ Wanneer u aanbevolen inhoud hebt ingeschakeld, kunt u deze ook beheren in de Beh
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Inhoudspakketten en apps naar de volledige organisatie publiceren
 
-Beheerders gebruiken deze instelling om de bepalen welke gebruikers inhoudspakketten en apps naar de volledige organisatie mogen publiceren, in plaats van alleen naar specifieke groepen. Meer informatie over [het publiceren van apps](../collaborate-share/service-create-distribute-apps.md).
+Beheerders gebruiken deze instelling om te bepalen welke gebruikers inhoudspakketten en apps naar de volledige organisatie mogen publiceren, in plaats van naar specifieke groepen. Meer informatie over [het publiceren van apps](../collaborate-share/service-create-distribute-apps.md).
 
 De volgende afbeelding toont de optie **Mijn hele organisatie** bij het maken van een inhoudspakket.
 
@@ -491,26 +518,48 @@ Als beheerder kunt u de invoegcodes weergeven die worden gegenereerd voor uw ten
 
 ![Codes invoegen binnen de Power Bi-beheerportal](media/service-admin-portal/embed-codes.png)
 
-## <a name="dataflow-storage-preview"></a>Gegevensstroomopslag (preview)
+## <a name="organizational-visuals"></a>Organisatievisuals
+
+Alle beheerinstellingen voor Power BI-visuals, inclusief tenantinstellingen voor Power BI-visuals, worden beschreven in [Beheerinstellingen voor Power BI-visuals beheren](organizational-visuals.md).
+
+## <a name="azure-connections-preview"></a>Azure-verbindingen (preview)
+
+### <a name="tenant-level-storage-preview"></a>Opslag op tenantniveau (preview)
 
 Gegevens die worden gebruikt met Power BI worden standaard opgeslagen in de interne opslag die wordt geleverd door Power BI. Met de integratie van gegevensstromen en Azure Data Lake Storage Gen2 (ADLS Gen2) kunt u uw gegevensstromen opslaan in het Azure Data Lake Storage Gen2-account van uw organisatie. Ga naar [Integratie van gegevensstromen en Azure Data Lake (preview)](../transform-model/service-dataflows-azure-data-lake-integration.md) voor meer informatie.
 
+### <a name="workspace-level-storage-permissions-preview"></a>Opslagmachtigingen op werkruimteniveau (preview)
+
+Werkruimtebeheerders mogen standaard niet hun eigen opslagaccount verbinden. Met deze preview-functie kunt u een instelling inschakelen op basis waarvan is toegestaan dat werkruimtebeheerders hun eigen opslagaccount verbinden.
+
 ## <a name="workspaces"></a>Werkruimten
 
-Als beheerder kunt u alle werkruimten bekijken die aanwezig zijn in uw tenant. U kunt de lijst werkruimten sorteren en filteren en de details van elke werkruimte weergeven. De tabelkolommen komen overeen met de eigenschappen die worden geretourneerd door de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup**, klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace**. Zie [Werk organiseren in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) voor meer informatie.
+Als beheerder kunt u op het tabblad **Werkruimten** alle werkruimten bekijken die aanwezig zijn in uw tenant. Op dit tabblad kunt u deze acties uitvoeren:
 
-Beheerders kunnen ook werkruimten beheren en herstellen met behulp van de beheerportal of PowerShell-cmdlets. 
+- De lijst met werkruimten en de bijbehorende gegevens vernieuwen.
+- De gegevens over de werkruimten exporteren in een CSV-bestand. 
+- Details van een werkruimte bekijken, inclusief de id, de bijbehorende gebruikers en hun rollen, en de dashboards, rapporten en gegevenssets.
+- De lijst met personen die toegang hebben bewerken. Dit betekent dat u de werkruimte kunt verwijderen. U kunt uzelf als beheerder toevoegen aan een werkruimte, en vervolgens de werkruimte openen en verwijderen.
+- De velden Naam en Beschrijving bewerken.
 
 ![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
+
+Beheerders kunnen ook bepalen of gebruikers een werkruimte in de nieuwe werkruimte-ervaring, of een klassieke werkruimte kunnen maken. Zie [Instellingen voor werkruimte](#workspace-settings) in dit artikel voor meer informatie. 
+
+De tabelkolommen op het tabblad **Werkruimten** komen overeen met de eigenschappen die worden geretourneerd met de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup**, klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace**. Zie [Werk organiseren in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) voor meer informatie.
 
 Op het tabblad **Werkruimten** wordt de *status* voor elke werkruimte weergegeven. De volgende tabel bevat meer informatie over de betekenis van deze statussen.
 
 |Staat  |Beschrijving  |
 |---------|---------|
-| Actief | Een normale werkruimte. Er wordt geen informatie gegeven over het gebruik of de inhoud ervan, alleen dat de werkruimte zelf 'normaal' is. |
-| Zwevend | Een werkruimte zonder gebruiker met beheerdersrechten. |
-| Verwijderd | Een verwijderde werkruimte. We bewaren gedurende 90 dagen voldoende metagegevens om de werkruimte te herstellen indien gewenst. |
-| Verwijderen | Een werkruimte die wordt verwijderd, maar nog niet is verdwenen. Gebruikers kunnen hun eigen werkruimten verwijderen door items in Verwijderen en uiteindelijk Verwijderd te plaatsen. |
+| **Actief** | Een normale werkruimte. Er wordt geen informatie gegeven over het gebruik of de inhoud ervan, alleen dat de werkruimte zelf 'normaal' is. |
+| **Zwevend** | Een werkruimte zonder gebruiker met beheerdersrechten. |
+| **Verwijderd** | Een verwijderde werkruimte. We bewaren gedurende 90 dagen voldoende metagegevens om de werkruimte te herstellen indien gewenst. |
+| **Verwijderen** | Een werkruimte die wordt verwijderd, maar nog niet is verdwenen. Gebruikers kunnen hun eigen werkruimten verwijderen door items in Verwijderen en uiteindelijk Verwijderd te plaatsen. |
+
+Beheerders kunnen ook werkruimten beheren en herstellen met behulp van de beheerportal of PowerShell-cmdlets. 
+
+![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="custom-branding"></a>Aangepaste huisstijl
 
@@ -522,12 +571,14 @@ Als beheerder kunt u het uiterlijk van Power BI aanpassen voor uw hele organisat
 
 * **Voorbladafbeelding uploaden**: het beste resultaat krijgt u als u een voorbladafbeelding uploadt die is opgeslagen als een JPG- of PNG-bestand van maximaal 1 MB en ten minste 1920 x 160 pixels.
 
-* **Themakleur selecteren**: u kunt een thema selecteren op basis van een hexadecimale waarde, een RGB-waarde of uit het beschikbare palet.
+* **Themakleur selecteren**: U kunt een thema selecteren op basis van een hexadecimale waarde, een RGB-waarde of uit het beschikbare palet.
 
 
 Zie [Aangepaste huisstijl voor uw organisatie](https://aka.ms/orgBranding) voor meer informatie.
 
-![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
+## <a name="protection-metrics"></a>Metrische gegevens voor beveiliging
+
+Nadat u gegevensbeveiliging voor Power BI hebt ingeschakeld, zijn metrische gegevens voor gegevensbeveiliging zichtbaar in de beheerportal. In dit rapport wordt weergegeven hoe vertrouwelijkheidslabels u helpen uw inhoud te beveiligen.
 
 ## <a name="manage-featured-content"></a>Aanbevolen inhoud beheren
 
