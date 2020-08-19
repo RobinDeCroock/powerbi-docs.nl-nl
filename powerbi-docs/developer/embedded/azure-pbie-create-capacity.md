@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 5a84c67a2efd57376afc289f965da9dc5dafd3c6
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768607"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204837"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
@@ -56,7 +56,7 @@ Voordat u een Power BI Embedded-capaciteit maakt, moet u controleren of u zich t
 
     * **Locatie**: de locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](embedded-multi-geo.md).
 
-    * **Grootte**: de [A-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) die u nodig hebt. Zie [SKU-geheugen en rekenkracht](/embedded/embedded-capacity.md#sku-memory-and-computing-power) voor meer informatie.
+    * **Grootte**: de [A-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) die u nodig hebt. Zie [SKU-geheugen en rekenkracht](/power-bi/developer/embedded/embedded-capacity) voor meer informatie.
 
     * **Power BI-capaciteitsbeheerder**: een beheerder voor de capaciteit.
         >[!NOTE]
@@ -229,9 +229,10 @@ In de sjabloon is één Azure-resource gedefinieerd: [Microsoft.PowerBIDedicated
 
     * **Naam**: de naam van de capaciteit.
 
-    * **Locatie**: de locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](/embedded/embedded-multi-geo.md).
+    * **Locatie**: de locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+).
 
-    * **SKU**: de [A-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) die u nodig hebt. Zie [SKU-geheugen en rekenkracht](/embedded/embedded-capacity.md#sku-memory-and-computing-power) voor meer informatie.
+    * **SKU**: de [A-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) die u nodig hebt. Zie [SKU-geheugen en rekenkracht](/power-bi/developer/embedded/embedded-capacity) voor meer informatie.
 
     * **Admin**: een beheerder voor de capaciteit.
         >[!NOTE]

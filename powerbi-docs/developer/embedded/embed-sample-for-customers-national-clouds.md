@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 5815ba5036da543fb51319e8a2af287cf6ce4ce7
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 4087f3d09d509022cb4dd91caebae0f8038e203b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878653"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204291"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 Gebruik het Power BI-clientobject voor het ophalen van een verwijzing naar het item dat u wilt insluiten. U kunt dashboards, tegels of rapporten insluiten. Hier volgt een voorbeeld van hoe u een eerste dashboard, tegel of rapport ophaalt uit een bepaalde werkruimte.
 
-Een voorbeeld is beschikbaar in **Controllers\HomeController.cs** van het [App Owns Data-voorbeeld](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
+Een voorbeeld is beschikbaar in **Controllers\HomeController.cs** van het [App Owns Data-voorbeeld](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
 #### <a name="reports"></a>Rapporten
 
@@ -243,7 +243,7 @@ U kunt een insluittoken genereren met de JavaScript-API. Het insluittoken heeft 
 > [!IMPORTANT]
 > Omdat insluittokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluittokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.
 
-Een voorbeeld is beschikbaar in **Controllers\HomeController.cs** van het [Embedding for your organization-voorbeeld](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData).
+Een voorbeeld is beschikbaar in **Controllers\HomeController.cs** van het [Embedding for your organization-voorbeeld](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
 Er wordt een klasse wordt gemaakt voor **EmbedConfig** en **TileEmbedConfig**. Er is een voorbeeld beschikbaar in **Models\EmbedConfig.cs** en **Models\TileEmbedConfig.cs**.
 
