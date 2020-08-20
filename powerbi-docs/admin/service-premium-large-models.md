@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0169eba3e27b4014f9dbf20f88a10575caf903fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227264"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204328"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Ondersteuning voor grote modellen in Power BI Premium (preview-versie)
 
@@ -114,7 +114,6 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 Houd bij het gebruik van grote modellen rekening met de volgende beperkingen:
 
-- **Gebruik uw eigen BYOK-versleuteling**: gegevenssets die zijn ingeschakeld voor Premium-bestanden worden niet versleuteld door [BYOK](service-encryption-byok.md).
 - **Multi-Geo-ondersteuning**: gegevenssets die zijn ingeschakeld voor Premium-bestanden mislukken op capaciteiten waar [meerdere geografische gebieden](service-admin-premium-multi-geo.md) ook zijn ingeschakeld.
 
 - **Downloaden in Power BI Desktop**: als een gegevensset wordt opgeslagen in Premium-bestanden, mislukt [downloaden als een pbix-bestand](../create-reports/service-export-to-pbix.md).
@@ -144,9 +143,9 @@ De volgende lijst biedt regio’s waarin grote modellen in Power BI beschikbaar 
 |Europa - noord     | northeurope        |
 |VS - zuid-centraal     | southcentralus        |
 |Azië - zuidoost     | southeastasia        |
-|VK - zuid     | uksouth        |
-|VK - west     | ukwest        |
-|Europa - west     | westeurope        |
+|Verenigd Koninkrijk Zuid     | uksouth        |
+|Verenigd Koninkrijk West     | ukwest        |
+|Europa -west     | westeurope        |
 |VS - west     | westus        |
 |VS - west 2     | westus2        |
 
