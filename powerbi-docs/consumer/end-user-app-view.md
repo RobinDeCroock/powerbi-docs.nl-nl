@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: bfda795e02ef53188c5125bc2f0674e859ebd450
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878818"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578041"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 
@@ -35,7 +35,7 @@ Met de mobiele Power BI-app kunt u alleen een app via een directe koppeling inst
 
 ## <a name="apps-and-licenses"></a>Apps en licenties
 Niet alle Power BI-gebruikers kunnen apps bekijken en ermee werken. 
-- Als u een gratis licentie hebt, kunt u apps openen die met u zijn gedeeld en zijn opgeslagen in een werkruimte met Premium-capaciteit.
+- Als u een gratis licentie hebt, kunt u apps openen die met u zijn gedeeld en zijn opgeslagen in een werkruimte met Premium-capaciteit.  
 - Als u een Pro-licentie hebt, kunt u apps openen die met u zijn gedeeld.
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>De app downloaden via de marketplace voor Power BI-apps
@@ -47,7 +47,7 @@ U kunt apps zoeken en installeren via de marketplace voor Power BI-apps. In de m
 
 1. [Meld u aan bij de Power BI-service](./end-user-sign-in.md) als u zich nog niet hebt aangemeld. 
 
-1. Als u zich in Power BI bevindt, selecteert u **Apps > Apps verkrijgen**. 
+1. Nadat de Power BI-service is geopend, selecteert u **Apps > Apps ophalen**. 
 
     ![Apps ophalen  ](./media/end-user-app-view/power-bi-get-apps.png)
 
@@ -65,11 +65,14 @@ U kunt apps zoeken en installeren via de marketplace voor Power BI-apps. In de m
    Het zoekvak is gevoelig voor het tabblad wat openstaat. Alleen apps van het geselecteerde type worden geretourneerd. Als het tabblad **Alle apps** is geopend, worden zowel organisatie-apps als de sjabloon-apps geretourneerd. Dit kan verwarrend zijn wanneer een organisatie-app en een sjabloon-app dezelfde naam hebben. Houd er rekening mee dat de tegels voor sjabloon-apps in de rechterbovenhoek een pictogram van een winkeltas hebben.
 
 Wanneer u de gewenste app hebt gevonden, selecteert u **Nu downloaden** om deze te installeren.
+
+   ![schermopname met de knop Nu downloaden](./media/end-user-app-view/power-bi-get-it.png)
+
 * Als u een organisatie-app installeert, wordt deze direct toegevoegd aan uw lijst met apps.
 * Als u een sjabloon-app installeert, wordt u naar de aanbieding voor de sjabloon-app in AppSource geleid. Zie [een voorbeeld](end-user-app-marketing.md) van het downloaden en installeren van een voorbeeldsjabloon-app vanuit de marketplace voor Power BI-apps. De app is geïnstalleerd, samen met een werkruimte met dezelfde naam.
 
    > [!NOTE]
-   > Als u een gratis gebruikerslicentie gebruikt, kunt u apps downloaden, maar u kunt ze niet bekijken, tenzij u een upgrade uitvoert naar een Power BI Pro-account of als de app is opgeslagen in een gedeelde Premium-capaciteit. Zie [licenties voor consumenten](end-user-license.md) voor meer informatie.
+   > Als u een gratis gebruikerslicentie gebruikt, kunt u apps downloaden, maar u kunt ze niet bekijken, tenzij u een upgrade uitvoert naar een Power BI Pro-account of als de app is opgeslagen in een gedeelde Premium-capaciteit. Zie [licenties voor zakelijke gebruikers](end-user-license.md) voor meer informatie.
 
 ## <a name="install-an-app-from-a-direct-link"></a>Een app vanuit een directe koppeling installeren
 U kunt ook een organisatie-app installeren vanuit een directe koppeling in e-mail vanuit de ontwerpfunctie voor apps.  
@@ -112,9 +115,9 @@ De app wordt geopend. Elke app ziet er anders uit: verschillende indelingen, vis
 1. Het navigatiedeelvenster van de app.  Onder de naam van de app ziet u de lijst met rapportpagina's. Selecteer de naam van een rapport om het te openen. We hebben momenteel de pagina *Retourfrequentie* geopend. 
 1. Selecteer de pijl om het deelvenster **Filters** uit te vouwen.
 
-U kunt ook de bijbehorende werkruimte verkennen. [Meer informatie over werkruimten](end-user-workspaces.md)
+U kunt ook de bijbehorende werkruimte verkennen. [Meer informatie over werkruimten](end-user-workspaces.md) Selecteer **Power BI** (nummer 2) om terug te gaan naar **Start** en kies **Werkruimten**. 
 
-![Schermopname van de verkoop- en marketingwerkruimte met één rapport en één dataset. ](./media/end-user-app-view/power-bi-new-workspace.png)
+![Schermopname van de verkoop- en marketingwerkruimte met één rapport en één dataset. ](./media/end-user-app-view/power-bi-new-workspaces.png)
 
 ## <a name="update-an-app"></a>Een app bijwerken 
 
@@ -136,8 +139,8 @@ Van tijd tot tijd kunnen ontwerpers van apps nieuwe versies van hun apps uitbren
 
         ![Oude app-versie overschrijven](./media/end-user-app-view/power-bi-already-installed.png) 
 
-    > [!NOTE] 
-    > Als u een nieuwe versie installeert, worden alle wijzigingen die u in de rapporten en dashboards hebt aangebracht, mogelijk overschreven. Als u uw bijgewerkte rapporten en dashboards wilt bewaren, kunt u ze met een andere naam of op een andere locatie opslaan voordat u de installatie uitvoert. 
+     > [!NOTE] 
+     > Als u een nieuwe versie installeert, worden alle wijzigingen die u in de rapporten en dashboards hebt aangebracht, mogelijk overschreven. Als u uw bijgewerkte rapporten en dashboards wilt bewaren, kunt u ze met een andere naam of op een andere locatie opslaan voordat u de installatie uitvoert. 
 
     4. Nadat u de bijgewerkte versie hebt geïnstalleerd, selecteert u **App bijwerken** om het updateproces te voltooien. 
 

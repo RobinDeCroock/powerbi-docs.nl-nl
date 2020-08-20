@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091636"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204971"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -53,7 +53,10 @@ Tik op **Meer opties** (...) in de rechterbovenhoek van een tegel en tik vervolg
   
   Niet alle tegels kunnen als een rapport worden geopend. Tegels die worden gemaakt wanneer u een vraag stelt in het vak Q&A, openen bijvoorbeeld geen rapporten wanneer u erop tikt.
   
-## <a name="interact-with-reports"></a>Communiceren met rapporten
+## <a name="zoom-in-on-your-data"></a>Inzoomen op uw gegevens   
+Gebruik de knijpbeweging om in uw rapporten in te zoomen om ze in meer detail te bekijken. Doe uw vingers uit elkaar om weer uit te zoomen. Knijpen om in te zoomen wordt ondersteund op Android- en iOS-telefoons en -tablets.
+
+## <a name="interact-with-reports"></a>Werken met rapporten
 Nadat u een rapport hebt geopend in de app, kunt u ermee aan de slag gaan. U kunt allerlei acties uitvoeren op uw rapport en op de gegevens ervan. In de voettekst van het rapport vindt u acties die in het rapport kunnen worden uitgevoerd. Door te tikken of lang te tikken op de gegevens die in het rapport worden weergegeven, kunt u de gegevens bovendien segmenteren en analyseren.
 
 ### <a name="single-tap-versus-double-tap-interaction"></a>Interactie met één tik versus dubbeltikken

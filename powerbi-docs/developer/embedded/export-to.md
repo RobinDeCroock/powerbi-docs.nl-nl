@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: fd30b9df6fce484bffab430888260145bb374ce9
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091567"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160367"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -103,8 +103,7 @@ Een taak die het aantal gelijktijdige aanvragen overschrijdt, wordt niet beëind
 * Voor de openbare preview is het aantal Power BI-rapportpagina's dat per uur wordt geëxporteerd, beperkt tot 50 per capaciteit.
 * Geëxporteerde rapporten mogen de bestandsgrootte van 250 MB niet overschrijden.
 * Wanneer u exporteert naar PNG, worden gevoeligheidslabels niet ondersteund.
-* Een rapport met een vertrouwelijkheidslabel kan niet worden geëxporteerd naar een PDF- of een PPTX-bestand met behulp van een [service principal](embed-service-principal.md).
-* Er kunnen maximaal 30 pagina's worden opgenomen in een geëxporteerd rapport. Als het rapport meer pagina's bevat, retourneert de API een fout en wordt de exporttaak geannuleerd.
+* Er kunnen maximaal 50 pagina's worden opgenomen in een geëxporteerd rapport. Als het rapport meer pagina's bevat, retourneert de API een fout en wordt de exporttaak geannuleerd.
 * [Persoonlijke bladwijzers](../../consumer/end-user-bookmarks.md#personal-bookmarks) en [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) worden niet ondersteund.
 * De hieronder vermelde Power BI-visuals worden niet ondersteund. Wanneer u een rapport exporteert dat deze visuals bevat, worden de gedeelten van het rapport die deze visuals bevatten, niet weergegeven. In plaats hiervan ziet u een foutsymbool.
     * Niet-gecertificeerde visuals in Power BI

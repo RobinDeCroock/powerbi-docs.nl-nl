@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/22/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 01155e3ed4921a11f87acaeaf67f20772a4d01dd
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: d8b98afff55c830a1ce3fadd39c11b4cf98036a8
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252746"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578192"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Eerdere maandelijkse updates voor Power BI Desktop
 
@@ -37,6 +37,85 @@ De koppelingen naast de verschillende updates betekenen het volgende:
 U kunt ook de video **Meest recente updates** in dit artikel vanaf het begin bekijken, door te klikken op het pictogram **Afspelen** op de videoafbeelding onder de lijst met updates.
 
 In de volgende secties wordt aandacht besteed aan de updates van de afgelopen maanden voor **Power BI Desktop**.
+
+
+## <a name="july-2020-update-2835894661"></a>Update van juli 2020 (2.83.5894.661)
+
+Onze Power BI Desktop-updates van juli met nieuwe functies en mogelijkheden zijn wel wat vuurwerk, een zonnige picknick en een barbecue met de hele buurt waard. 
+
+U kunt de nieuwste versie van Power BI Desktop downloaden via het [Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=58494). Als u Windows 10 uitvoert, kunt u Power BI Desktop ook downloaden vanuit de [Microsoft Store](https://aka.ms/pbidesktopstore). De maandelijkse versies zijn hetzelfde, ongeacht de manier waarop u Power BI Desktop installeert. De versienummering kan echter wel verschillen. Zie [Power BI Desktop downloaden](desktop-get-the-desktop.md) voor meer informatie over het downloaden en installeren van Power BI Desktop. 
+
+> [!IMPORTANT]
+> Power BI Desktop wordt maandelijks bijgewerkt en uitgebracht, waarin de feedback van klanten en nieuwe functies zijn verwerkt. Alleen de meest recente versie van Power BI Desktop wordt ondersteund. Klanten die contact opnemen met de ondersteuning voor Power BI Desktop, wordt gevraagd om een upgrade naar de meest recente versie uit te voeren. U kunt de meest recente versie van Power BI Desktop ophalen uit de [Windows Store](https://aka.ms/pbidesktopstore) of als één uitvoerbaar bestand met alle ondersteunde talen die u [downloadt](https://www.microsoft.com/download/details.aspx?id=58494) en op uw computer installeert.
+
+De koppelingen naast elke functie in de Power BI Desktop-updatelijst worden als volgt geïnterpreteerd:
+
+* \[blog\]: De meeste functies worden beschreven in een gedeelte in de maandelijkse blogpost met updates.
+* \[video\]: Sommige functies bevatten een video waarin de functie wordt besproken en die wordt afgespeeld in een nieuw browsertabblad.
+* \[artikel\]: Sommige functies hebben een artikel dat meer informatie biedt.
+* De andere functies behoeven geen uitleg en hebben geen artikel of video nodig.
+
+U kunt ook de volledige [maandelijkse video met Power BI Desktop-updates](#power-bi-desktop-monthly-update-video) bekijken.
+
+De volgende updates zijn deze maand nieuw voor Power BI Desktop:
+
+
+### <a name="reporting"></a>Rapportage
+* Indeling van kleurovergang [[video]](https://youtu.be/BCNYMJKyjEo?t=15)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Gradient_legend) 
+* De mogelijkheid om de koptekstslicer te wijzigen [[video]](https://youtu.be/BCNYMJKyjEo?t=159)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Ability_to_further) 
+* Nieuw filterdeelvenster voor relatieve tijd is nu algemeen beschikbaar [[video]](https://youtu.be/BCNYMJKyjEo?t=195)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Relative_time_filter) 
+
+
+### <a name="analytics"></a>Analyse
+* Verbeteringen in Q&A [[video]](https://youtu.be/BCNYMJKyjEo?t=214)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Enhancements_to_QA) 
+
+
+### <a name="visuals"></a>Visuals
+* Azure Maps-visual (preview) [[video]](https://youtu.be/BCNYMJKyjEo?t=390)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Azure_Maps_visual)
+* Updates voor grafiek met meerdere assen door XViz [[video]](https://youtu.be/BCNYMJKyjEo?t=783)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Updates_to_Multi_Axis)
+
+
+### <a name="modeling"></a>Modellen maken
+* Ondersteuning voor financiële Excel-functies [[video]](https://youtu.be/BCNYMJKyjEo?t=812)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Support_for_Excel)
+* Modelweergave ingeschakeld voor Live Connect is nu algemeen beschikbaar [[video]](https://youtu.be/BCNYMJKyjEo?t=956)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Model_view_enabled)
+
+
+### <a name="data-preparation"></a>Gegevensvoorbereiding
+* Globale optie voor het uitschakelen van automatische type detectie [[video]](https://youtu.be/BCNYMJKyjEo?t=989)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Global_option_to) 
+
+
+### <a name="template-apps"></a>Sjabloon-apps
+* YouTube Analytics van MAQ Software [[video]](https://youtu.be/BCNYMJKyjEo?t=1035)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_YouTube_Analytics_by)
+
+
+### <a name="other-features"></a>Andere functies
+* Externe hulpprogramma's starten vanuit Power BI Desktop (preview) [[video]](https://youtu.be/BCNYMJKyjEo?t=1066)   [[artikel]](../create-reports/desktop-external-tools.md)   [[Blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Launch_external_tools) 
+
+
+Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
+
+Wellicht bent u ook geïnteresseerd in [wat er nieuw is in de Power BI-service](service-whats-new.md) en [wat er nieuw is in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
+
+> [!NOTE]
+> Bekijk de [gegevensbronnen die beschikbaar zijn voor Power BI Desktop](../connect-data/desktop-data-sources.md). Onze lijst blijft maar groeien, dus neem regelmatig even een kijkje.
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Maandelijkse video met Power BI Desktop-updates
+In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
+
+> [!VIDEO https://www.youtube.com/embed/BCNYMJKyjEo]
+
+Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop downloaden. Het is altijd raadzaam om de recentste versie van Power BI Desktop te gebruiken in plaats van een eerdere versie. Alle eerdere versies hebben de volgende beperkingen:
+
+* Eerdere versies van Power BI Desktop worden niet bijgewerkt; u moet altijd de recentste versie gebruiken voor toegang tot de nieuwste functies en updates.
+* Mogelijk kunt u met oudere versies van Power BI Desktop geen bestanden openen die zijn gemaakt met of die zijn opgeslagen in nieuwere versies van Power BI Desktop. 
+* Als u bij het laden van een rapport dat in een nieuwere versie van Power BI Desktop is opgeslagen, een waarschuwing te zien krijgt en u het rapport in de oudere versie opslaat, raakt u alle informatie kwijt met betrekking tot de nieuwe functies.
+* Alleen de Engelse versies van Power BI Desktop worden gearchiveerd.
+
+Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
+
+* [Power BI Desktop-versie van juli 2020 - 32 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-07.exe)
+* [Power BI Desktop-versie van juli 2020 - 64 bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-07_x64.exe)
 
 
 ## <a name="june-2020-update-2825858301"></a>Update van juni 2020 (2.82.5858.301)
@@ -121,9 +200,6 @@ Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen:
 
 * [Power BI Desktop-versie van juni 2020 - 32-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06.exe)
 * [Power BI Desktop-versie van juni 2020 - 64-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-06_x64.exe)
-
-
-
 
 
 
@@ -309,9 +385,6 @@ Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen:
 
 
 
-
-
-
 ## <a name="march-2020-update-2795768562"></a>Update van maart 2020 (2.79.5768.562)
 
 We vonden het fantastisch dat we onze Power BI Desktop van maart met u kunnen delen. 
@@ -404,11 +477,6 @@ Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen:
 
 
 
-
-
-
-
-
 ## <a name="february-2020-update-2785740642"></a>Update van februari 2020 (2.78.5740.642)
 
 We vonden onze updates van februari fantastisch en waren van mening dat onze nieuwe functies beter waren dan een hartvormig doosje chocolade. 
@@ -480,8 +548,8 @@ Als uw organisatie dat vereist, kunt u ook eerdere versies van Power BI Desktop 
 
 Als u deze oudere versie wilt downloaden, selecteert u de volgende koppelingen: 
 
-* [Power BI Desktop-versie van februari 2020 - 32-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02.exe)
-* [Power BI Desktop-versie van februari 2020 - 64-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-02_x64.exe)
+* [Power BI Desktop-versie van februari 2020 - 32-bits](https://download.microsoft.com/download/3/C/0/3C0A5D40-85C6-4959-BB51-3A2087B18BCA/PBIDesktopRS.msi)
+* [Power BI Desktop-versie van februari 2020 - 64-bits](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 ## <a name="december-2019-update-2765678661"></a>Update van december 2019 (2.76.5678.661)

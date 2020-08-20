@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1213d02926db3b1d356e7fefffb44bcc41b8ab96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227690"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204429"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -59,8 +59,10 @@ De workload Gegevenssets is standaard ingeschakeld en kan niet worden uitgeschak
 | **Maximum aantal in te stellen rijen met resultaten** | Het maximumaantal rijen dat in een DAX-query wordt geretourneerd. De standaardwaarde is ingesteld op -1 (onbeperkt) en het toegestane bereik ligt tussen 100.000 en 2.147.483.647. |
 | **Geheugenlimiet voor query's (%)** | Het maximale percentage van het beschikbare geheugen in de workload dat kan worden gebruikt voor het uitvoeren van een MDX- of DAX-query. De standaardwaarde is 0, wat betekent dat er automatisch een SKU-specifieke geheugenlimiet voor query's wordt toegepast. |
 | **Time-out van query (seconden)** | De maximale hoeveelheid tijd voordat een time-out optreedt voor de query. De standaardwaarde is 3600 seconden (1 uur). Met de waarde 0 wordt aangegeven dat er geen time-out zal optreden voor query's. |
-| **Pagina automatisch vernieuwen (preview-versie)** | In-/uitschakelen om toe te staan dat Premium-werkruimten rapporten kunnen bevatten waarvoor pagina's automatisch kunnen worden vernieuwd. |
+| **Pagina automatisch vernieuwen** | In-/uitschakelen om toe te staan dat Premium-werkruimten rapporten kunnen bevatten waarvoor pagina's automatisch kunnen worden vernieuwd op vaste intervallen. |
 | **Minimaal vernieuwingsinterval** | Als Pagina automatisch vernieuwen is ingeschakeld, is dit het minimale interval dat als interval voor het vernieuwen van pagina's is toegestaan. De standaardwaarde is vijf minuten en het toegestane minimum is één seconde. |
+| **Detectiemeting wijzigen** | In-/uitschakelen om toe te staan dat Premium-werkruimten rapporten kunnen bevatten waarvoor pagina's automatisch kunnen worden vernieuwd op basis van wijzigingsdetectie. |
+| **Minimaal uitvoeringsinterval** | Als de meting voor de wijzigingsdetectie is ingeschakeld, is er een minimaal uitvoeringsinterval dat is toegestaan voor het controleren van gegevenswijzigingen. De standaardwaarde is vijf minuten en het toegestane minimum is één seconde. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Maximum aantal in te stellen tussenliggende rijen

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/23/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252631"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160206"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop gebruiken
 Met Power BI Desktop kunt u geavanceerde query's, modellen en rapporten samenstellen die de gegevens visualiseren. Met Power BI Desktop kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service. Power BI Desktop is gratis te downloaden.
@@ -97,6 +97,9 @@ Vervolgens kunt gegevensmodellen of rapporten gaan maken en deze delen met ander
 
 ## <a name="minimum-requirements"></a>Minimale vereisten
 De volgende lijst bevat de minimale vereisten voor het uitvoeren van Power BI Desktop:
+
+> [!IMPORTANT]
+> Power BI Desktop wordt na 31 januari 2021 niet meer ondersteund in Windows 7. Na deze datum wordt Power BI Desktop voor de meest recente versie van Power BI Desktop alleen ondersteund in Windows 8 of nieuwere versies van Windows. 
 
 * Windows 7 / Windows Server 2008 R2 of hoger
 * .NET 4.5

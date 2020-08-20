@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739340"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512926"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Zelfstudie: Een Power BI-visual ontwikkelen
 
@@ -130,7 +130,7 @@ Nu moet u het pakket **pbiviz** installeren.
 4. Sluit alle browsers die u hebt geopend.
 
 > [!NOTE]
-> Als het certificaat niet wordt herkend, moet u de computer mogelijk opnieuw opstarten.
+> Als het certificaat niet wordt herkend, moet u de computer mogelijk opnieuw opstarten. Voor sommige browsers, zoals Firefox, moet u het zelfondertekende certificaat vertrouwen. Ga hiervoor naar de pagina van de webpakketserver (https://localhost:8080/webpack-dev-server) en accepteer het risico.
 
 ## <a name="creating-a-custom-visual"></a>Een aangepaste visual maken
 
@@ -601,7 +601,7 @@ Bewerk het bestand **capabilities.json** zo dat de toewijzingen voor de gegevens
 
 ### <a name="consume-data-in-the-visual-code"></a>Gegevens in de code van de visual gebruiken
 
-1. In **Visual Studio Code**  in het bestand **visual.ts**
+1. In **Visual Studio Code ** in het bestand **visual.ts**
 
     importeert u de interface `DataView` uit de module `powerbi`
 
@@ -619,7 +619,7 @@ Bewerk het bestand **capabilities.json** zo dat de toewijzingen voor de gegevens
 
     Deze instructie wijst *dataView* toe aan een variabele voor eenvoudige toegang en instrueert de variabele om te verwijzen naar het object *dataView*.
 
-2. Vervang in de **updatemethode** **.text(“Value”)** door het volgende.
+2. Vervang in de **updatemethode****.text(“Value”)** door het volgende.
 
     ```typescript
     .text(<string>dataView.single.value)
