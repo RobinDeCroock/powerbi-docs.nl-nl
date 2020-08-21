@@ -71,6 +71,8 @@
               items:
                 - name: Inleiding van Q&A
                   href: ../natural-language/q-and-a-intro.md
+                - name: Q&A-gegevensbronnen
+                  href: ../natural-language/q-and-a-data-sources.md
                 - name: Q&A-hulpprogramma - inleiding
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: Q&A-hulpprogramma - geavanceerd
