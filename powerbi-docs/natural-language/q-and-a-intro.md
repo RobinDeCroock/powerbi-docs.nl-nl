@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: de16ddbbaca69aea5283c7ab61c462493a6da1d0
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939655"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578100"
 ---
 # <a name="intro-to-power-bi-qa"></a>Inleiding tot Power BI Q&A
 
@@ -43,22 +43,20 @@ Wanneer u uw vraag typt, geeft Power BI Q&A relevante en contextuele suggesties 
 
 ![Q&A zinsaanvulling](media/qna-suggestion-phrase-completion.png)
 
-### <a name="redblue-underlines"></a>Rode/blauwe onderstrepingen
+### <a name="redblueorange-underlines"></a>Rode/blauwe/oranje onderstrepingen
 
 Q&A geeft woorden weer met onderstrepingen zodat u kunt zien welke woorden het systeem heeft begrepen of niet heeft herkend. Een ononderbroken blauwe onderstreping geeft aan dat het systeem het woord heeft gekoppeld aan een veld of waarde in het gegevensmodel. In het onderstaande voorbeeld ziet u dat Q&A het woord *EU Sales* heeft herkend.
 
 ![Q&A blauwe onderstreping](media/qna-blue-underline.png)
 
-Wanneer u een woord typt in Q&A, wordt er vaak een rode streep onder gezet. Een rode onderstreping kan een of twee mogelijke problemen aangeven. Het eerste type probleem wordt gecategoriseerd als *lage betrouwbaarheid*. Als u een vaag of dubbelzinnig woord typt, wordt het veld rood onderstreept. Een voorbeeld hiervan is het woord Verkoop. Meerdere velden kunnen het woord Verkoop bevatten. Het systeem gebruikt daarom een rode onderstreping om u te vragen het veld te kiezen dat u bedoelde. Een ander voorbeeld van lage betrouwbaarheid is als u het woord 'gebied' typt, maar de kolom die overeenkomt is 'Regio'. Power BI Q&A herkent woorden die hetzelfde betekenen, dankzij de integratie met Bing en Office. Q&A zet een rode onderstreping onder het woord, zodat u weet dat het geen rechtstreekse overeenkomst is.
+ Een oranje onderstreping geeft aan dat het woord/de woorden is/zijn gecategoriseerd als *lage betrouw baarheid*. Als u een vaag of dubbelzinnig woord typt, wordt het veld oranje onderstreept. Een voorbeeld hiervan is het woord Verkoop. Meerdere velden kunnen het woord Verkoop bevatten. Het systeem gebruikt daarom een oranje onderstreping om u te vragen het veld te kiezen dat u bedoelde. Een ander voorbeeld van lage betrouwbaarheid is als u het woord 'gebied' typt, maar de kolom die overeenkomt is 'Regio'. Power BI Q&A herkent woorden die hetzelfde betekenen, dankzij de integratie met Bing en Office en het interpreteren van gewijzigde namen vanuit een rapport als mogelijke suggesties. Q&A zet een oranje onderstreping onder het woord, zodat u weet dat het geen rechtstreekse overeenkomst is.
 
-![Q&A rode onderstreping Verkoop](media/qna-red-underline-sales.png)
-
-Het tweede type probleem doet zich voor wanneer Q&A het woord helemaal niet herkent. U kunt dit probleem tegenkomen wanneer u een domeinspecifieke term gebruikt die nergens in de gegevens wordt gebruikt, of wanneer de gegevensvelden een onjuiste naam hebben. Een voorbeeld is het gebruik van het woord 'Kosten', hoewel het nergens in de gegevens bestaat. Het woord staat in de woordenlijst, maar Q&A markeert deze term met een rode onderstreping.
+Een rode onderstreping betekent dat Q&A het woord helemaal niet herkent. U kunt dit probleem tegenkomen wanneer u een domeinspecifieke term gebruikt die nergens in de gegevens wordt gebruikt, of wanneer de gegevensvelden een onjuiste naam hebben. Een voorbeeld is het gebruik van het woord Kosten, hoewel het nergens in de gegevens bestaat. Het woord bevindt zich in de Engelse woordenlijst, maar Q&A markeert deze term met een rode onderstreping om aan te geven dat deze term niet met betrekking tot de gegevens is gevonden.
 
 ![Q&A rode onderstreping Verkoop](media/qna-red-underline-costs.png)
 
 > [!NOTE]
-> U kunt de blauwe/rode onderstrepingskleuren aanpassen in het Q&A-deelvenster **Visuele opmaak**. In het artikel [Q&A-hulpprogramma's](q-and-a-tooling-teach-q-and-a.md) wordt dieper ingegaan op *Q&A trainen*, waarmee u de termen definieert die Q&A niet heeft herkend.
+> U kunt de blauwe/rode/oranje onderstrepingskleuren aanpassen in het Q&A-deelvenster **Visuele opmaak**. In het artikel [Q&A-hulpprogramma's](q-and-a-tooling-teach-q-and-a.md) wordt dieper ingegaan op *Q&A trainen*, waarmee u de termen definieert die Q&A niet heeft herkend.
 
 ### <a name="visualization-results"></a>Visualisatieresultaten
 

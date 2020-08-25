@@ -1,24 +1,24 @@
 ---
 title: Gebruik de functie Analyseren om schommelingen in rapportvisuals te verklaren
-description: Eenvoudig inzichten verkrijgen in toenames of afnames in Power BI Desktop
+description: Eenvoudig inzichten verkrijgen in toenames of afnames in Power BI-service
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/23/2019
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 36f370adc68c6b6f8fc15261bfa107411043c65d
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162293"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168458"
 ---
-# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals-preview"></a>Gebruik de functie Analyseren om schommelingen in rapportvisuals te verklaren (preview)
+# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>Gebruik de functie Analyseren om schommelingen in rapportvisuals te verklaren
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 In rapportvisuals ziet u vaak een grote toename, gevolgd door flink afgenomen waarden. Vraagt u zich ook wel eens af waardoor deze schommelingen worden veroorzaakt? Met **Analyseren** in **de Power BI-service** kunt u met slechts enkele klikken de oorzaak van het probleem achterhalen.
 
@@ -26,7 +26,7 @@ Kijk eens naar de volgende visual. Hierin wordt *Totaal eenheden* per *Maand* en
 
 ![Visual met toenamen en afnamen](media/end-user-analyze-visuals/power-bi-line-chart.png)
 
-U kunt in Power BI-service vragen om toenames, afnames of ongewone distributies in visuals te verklaren en een snelle, geautomatiseerde, inzichtelijke analyse over uw gegevens te krijgen. Klik hiertoe met de rechtermuisknop op een gegevenspunt en selecteer **Analyseren > Leg de afname uit** (toename, als de vorige staaf lager is) of **Analyseren > Zoeken waar de distributie verschilt**. U krijgt het inzicht te zien in een gebruiksvriendelijk venster.
+U kunt in Power BI-service vragen om toenames, afnames of ongewone distributies in visuals te verklaren en een snelle, geautomatiseerde, inzichtelijke analyse over uw gegevens te krijgen. Klik met de rechtermuisknop op een gegevenspunt en selecteer **Analyseren > Leg de afname uit** (toename, als de vorige staaf lager is) of **Analyseren > Zoeken waar de distributie verschilt**. U krijgt het inzicht te zien in een gebruiksvriendelijk venster.
 
 ![Inzichten in een visual](media/end-user-analyze-visuals/power-bi-decrease.png)
 
@@ -37,7 +37,7 @@ De functie Analyseren is contextueel en gebaseerd op het gegevenspunt dat er onm
 
 ### <a name="which-factors-and-categories-are-chosen"></a>Welke factoren en categorieën worden gekozen?
 
-Na het bekijken van verschillende kolommen, worden de kolommen met de grootste verandering in de relatieve bijdrage geselecteerd en weergegeven. Bij elke kolom worden de waarden met de grootste verandering in de bijdrage benoemd in de beschrijving. Daarnaast worden de waarden benoemd met de grootste daadwerkelijke toename en afname.
+Na onderzoek van verschillende kolommen selecteert en toont Power BI de factoren die de grootste verandering in de relatieve bijdrage laten zien. Bij elke kolom worden de waarden met de grootste verandering in de bijdrage benoemd in de beschrijving. Daarnaast worden de waarden benoemd met de grootste daadwerkelijke toename en afname.
 
 Gebruik de schuifbalk om alle inzichten weer te geven die door Power BI zijn gegenereerd. De volgorde wordt zodanig gerangschikt dat de belangrijkste bijdrager als eerste wordt weergegeven. 
 
@@ -71,6 +71,8 @@ Voor elk geretourneerd inzicht kunnen er vier visuals worden weergegeven. Drie v
 
 ### <a name="the-scatter-plot"></a>Het spreidingsplot
 
+![Kleine schermopname met het geselecteerde spreidingsplotpictogram](media/end-user-analyze-visuals/power-bi-scatter-icon.png)
+
 In de visual met het spreidingsplot ziet u de waarde van de meting in de eerste periode (op de x-as) in combinatie met de waarde van de meting in de tweede periode (op de y-as) voor alle waarden in de kolom (*Staat* in dit geval). Gegevenspunten bevinden zich in de groene regio als ze zijn toegenomen en in de rode regio als ze zijn afgenomen. 
 
 De stippellijn is de best passende lijn door de punten. De gegevenspunten boven deze lijn zijn toenames boven de trend en de punten eronder afnames.  
@@ -81,17 +83,23 @@ De gegevensitems zonder waarde voor beide perioden worden niet weergegeven in he
 
 ### <a name="the-100-stacked-column-chart"></a>De 100% gestapelde kolomdiagram
 
+![Kleine schermopname met het geselecteerde kolomdiagrampictogram](media/end-user-analyze-visuals/power-bi-column-icon.png)
+
 Het 100% gestapelde kolomdiagram toont de waarde van de bijdrage aan het totaal (100%) voor het geselecteerde gegevenspunt en het vorige punt. Hierdoor kunnen de bijdragen van alle gegevenspunten met elkaar worden vergeleken. In dit voorbeeld wordt de feitelijke bijdrage voor de geselecteerde waarde voor Texas weergegeven in de knopinfo. Aangezien de lijst met staten lang is, kan door middel van knopinfo de details worden bekeken. In de knopinfo ziet u dat Texas met ongeveer hetzelfde percentage heeft bijgedragen tot Totaal eenheden (31% en 32%), maar dat het werkelijk aantal Totaal eenheden is gedaald van 89 tot 71. Langs de y-as wordt een percentage afgezet, geen totaal, en elke kolom geeft een percentage weer, geen waarde. 
 
 ![100% gestapelde kolomdiagram](media/end-user-analyze-visuals/power-bi-stacked.png)
 
 ### <a name="the-ribbon-chart"></a>De lintgrafiek
 
-In de visual met de lintgrafiek ziet u de waarde van de meting vóór en na een specifiek punt. Het is vooral handig bij het weergeven van de veranderingen in bijdragen wanneer de *volgorde* van de bijdragers verandert (bijvoorbeeld *LA* is gezakt van plaats twee naar elf).  En hoewel *TX* wordt voorgesteld door een breed lint aan de bovenkant, waarmee wordt aangegeven dat het vóór en na de belangrijkste bijdrager is, laat de afname zien dat de waarde van de bijdrage tijdens de geselecteerde periode en daarna is afgenomen.
+![Kleine schermopname met het geselecteerde lintgrafiekpictogram](media/end-user-analyze-visuals/power-bi-ribbon-icon.png)
+
+In de visual met de lintgrafiek ziet u de waarde van de meting vóór en na een specifiek punt. Het is vooral handig bij het weergeven van de veranderingen in bijdragen wanneer de *volgorde* van de inzenders verandert (bijvoorbeeld *LA* is gezakt van plaats twee naar elf).  En hoewel *TX* wordt voorgesteld door een breed lint aan de bovenkant, waarmee wordt aangegeven dat het vóór en na de belangrijkste bijdrager is, laat de afname zien dat de waarde van de bijdrage tijdens de geselecteerde periode en daarna is afgenomen.
 
 ![lintgrafiek](media/end-user-analyze-visuals/power-bi-ribbon-tooltip.png)
 
 ### <a name="the-waterfall-chart"></a>De watervalgrafiek
+
+![Kleine schermopname met het geselecteerde watervalgrafiekpictogram](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
 
 De vierde visual is een watervalgrafiek, met daarin de daadwerkelijke toename of afname in een bepaalde periode. Deze visual laat één belangrijke bijdrager zien tot de afname voor juni 2014 - in dit geval **Staat**. En het bijzondere van de invloed van **Staat** op het totale aantal eenheden is dat afnames in Louisiana, Texas en Colorado de belangrijkste rol hebben gespeeld.      
 
@@ -120,6 +128,6 @@ In de volgende lijst vindt u een aantal scenario's die momenteel niet worden ond
 
 ## <a name="next-steps"></a>Volgende stappen
 [Watervalgrafieken](../visuals/power-bi-visualization-waterfall-charts.md)    
-[Spreidingsdiagrammen](../visuals/power-bi-visualization-scatter.md)
-[Kolomdiagrammen](../visuals/power-bi-report-visualizations.md)
+[Spreidingsdiagrammen](../visuals/power-bi-visualization-scatter.md)    
+[Kolomdiagrammen](../visuals/power-bi-report-visualizations.md)    
 [Lintgrafieken](../visuals/desktop-ribbon-charts.md)

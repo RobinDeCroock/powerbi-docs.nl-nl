@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091694"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204492"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
 U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. De presentatiemodus is handig voor het weergeven van Power BI tijdens vergaderingen, conferenties of op een specifieke projector op kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren.
@@ -64,9 +64,24 @@ Wanneer u de knop **Afspelen** op de actiewerkbalk selecteert, begint de diavoor
 
  De controller toont de naam van de momenteel weergegeven weergave (pagina of bladwijzer en pagina). In de bovenstaande afbeelding zien we dat in het rapport **Verkoop**momenteel de blade **Azië en Stille Oceaan** wordt weergegeven op de pagina **Verkoopprestaties**.
 
+Standaard bladert een diavoorstelling door alleen pagina's met een snelheid van één pagina per 30 seconden. U kunt het standaardgedrag instellen in de [instellingen voor de diavoorstelling](#slideshow-settings).
+
+
+### <a name="auto-play-a-slideshow-on-startup"></a>Automatisch een diavoorstelling afspelen bij het opstarten
+
+U kunt de mobiele app van Power BI instellen om automatisch een diavoorstelling te starten wanneer de app wordt gestart. Dit is een handige optie voor het maken van een kioskachtige ervaring die een rapport laat zien zonder handmatige acties. Zie de [instellingen voor de diavoorstelling](#slideshow-settings) voor meer informatie over het instellen van een rapport voor automatisch afspelen.
+
 ### <a name="slideshow-settings"></a>Instellingen voor diavoorstelling
 
-Standaard bladert een diavoorstelling door pagina's, met een snelheid van één om de 30 seconden. U kunt deze standaardinstellingen wijzigen door te gaan naar **Instellingen > Opties**, zoals hieronder wordt geïllustreerd.
+Standaard bladert een diavoorstelling door alleen pagina's met een snelheid van één pagina per 30 seconden. U kunt dit standaardgedrag wijzigen via **Instellingen > Opties**, zoals hieronder wordt afgebeeld. U kunt automatisch afspelen ook inschakelen en een rapport kiezen dat u wilt afspelen.
+
+1. Selecteer het instellingenpictogram.
+
+1. Klik op het tabblad Opties.
+
+1. Wijzig desgewenst de standaardinstellingen voor wat de diashow zal doorlopen (pagina's, bladwijzers of beide) en hoe vaak de dia's zullen overgaan.
+
+1. Als u wilt dat het rapport automatisch begint met afspelen wanneer de app wordt gestart, schakelt u de wisselknop in en kiest u **Rapport selecteren**. U kunt zoeken naar rapporten waartoe u toegang hebt.
 
 ![Schermopname van instellingen voor diavoorstelling](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435876"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204933"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
 Voordat u uw Power BI-visual in Microsoft AppSource [publiceert](office-store.md), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren.
@@ -59,6 +59,9 @@ Het contextmenu is het snelmenu dat wordt weergegeven wanneer de gebruiker een v
 Met alle Power BI-visuals moet er een uniforme ervaring kunnen worden geboden in het contextmenu.
 Raadpleeg [dit artikel](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) voor meer informatie over het toevoegen van een contextmenu.
 
+>[!div class="mx-imgBorder"]
+>![Een schermopname van een visueel contextmenu in Power BI.](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>Commercieel logo
 In deze sectie worden de specificaties voor het toevoegen van commerciële logo's in Power BI-visuals beschreven. Commerciële logo’s zijn niet verplicht. Als ze wel worden toegevoegd, moeten deze richtlijnen worden gevolgd.
 
@@ -74,15 +77,15 @@ In deze sectie worden de specificaties voor het toevoegen van commerciële logo'
 Er zijn drie typen commerciële logo's:
 * **Logo**: een logo bestaat uit twee elementen die met elkaar zijn gecombineerd, een pictogram en een naam.
 
-    ![Microsoft-logo](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Een schermopname van het Microsoft-logo.](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **Symbool**: een grafische afbeelding zonder tekst.
 
-    ![Microsoft-symbool](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![Een schermopname van het Microsoft-symbool.](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **Logotype**: een logo zonder pictogram dat alleen uit tekst bestaat.
 
-    ![Microsoft-symbool](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![Een schermopname van het Microsoft-logo zonder pictogram.](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>Kleur commercieel logo
 
@@ -90,15 +93,15 @@ Wanneer u een commercieel logo gebruikt, moet de kleur van het logo grijs (hexad
 
 * **Logo**
 
-    ![Microsoft-symbool](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![Een schermopname van het Microsoft-logo in de kleur grijs.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **Symbool**: een grafische afbeelding zonder tekst.
 
-    ![Microsoft-symbool](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![Een schermopname van het Microsoft-symbool in de kleur grijs.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **Logotype**: een logo zonder pictogram dat alleen uit tekst bestaat.
 
-    ![Microsoft-symbool](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![Een schermopname van het Microsoft-logo zonder pictogram in de kleur grijs.](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * Als uw Power BI-visual een afbeelding bevat, kunt u aan een witte achtergrond met marges van 10 pixels uw logo toevoegen.
@@ -110,13 +113,13 @@ Een Power BI-visual vereist twee commerciële logo's, één voor grote tegels en
 
 In de volgende tabel worden de overwegingen met betrekking tot de afmetingen van Power BI-visuals beschreven.
 
-|  |Kleine Power BI-visual  |Grote Power BI-visual  |
+|Instellingen  |Kleine Power BI-visual  |Grote Power BI-visual  |
 |---------|---------|---------|
 |*Breedte van logo*    |Tot 240 pixels         |Meer dan 240 pixels         |
 |*Hoogte van logo*     |Tot 160 pixels         |Meer dan 160 pixels         |
 |*Afmeting van het begrenzingsvak*     |40 x 15 pixels         |101 x 30 pixels         |
-|*Voorbeeld van een commercieel logo*     |![Microsoft-symbool](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft-logo](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|*Voorbeeld van een begrenzingsvak*    |![voorbeeld van een klein logo](media/guidelines-powerbi-visuals/small-logo-box.png)         |![voorbeeld van een groot logo](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|*Voorbeeld van een commercieel logo*     |![Een schermopname van de kleine versie van het Microsoft Commercial-logo.](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Een schermopname van het Microsoft Commercial-logo.](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*Voorbeeld van een begrenzingsvak*    |![Een schermopname van de afmetingen van een klein logo.](media/guidelines-powerbi-visuals/small-logo-box.png)         |![Een schermopname van de afmetingen van een groot logo.](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>Gedrag van een commercieel logo
@@ -140,11 +143,11 @@ Commerciële logo's zijn alleen in de bewerkingsmodus toegestaan. Wanneer erop w
 
 * Vermijd een kleurrijk of zwart commercieel logo. Het commerciële logo moet grijs (hexadecimale kleurcode #C8C8C8) zijn.
 
-    ![Niet geautoriseerd kleurrijk logo](media/guidelines-powerbi-visuals/no-color-logo.png) ![Niet geautoriseerd zwart logo](media/guidelines-powerbi-visuals/black-logo.png)
+    ![Een schermopname van een niet-geautoriseerd kleurrijk Microsoft-logo.](media/guidelines-powerbi-visuals/no-color-logo.png) ![Een schermopname van een niet-geautoriseerd zwart Microsoft-logo.](media/guidelines-powerbi-visuals/black-logo.png)
 
 * Een commercieel logo met effecten zoals kleurovergangen of sterke schaduwen.
 
-    ![Niet-geautoriseerde logostijl](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![Een schermopname van een voorbeeld van een niet-geautoriseerde Microsoft-logostijl.](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
@@ -164,4 +167,7 @@ Voor meer informatie over Power BI-visuals gaat u naar [Veelgestelde vragen over
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Meer informatie over het publiceren van Power BI-visuals naar [Microsoft AppSource](office-store.md), waar anderen deze kunnen ontdekken en gebruiken.
+Meer informatie over het publiceren van Power BI-visuals naar Microsoft AppSource, waar anderen deze kunnen ontdekken en gebruiken.
+
+>[!div class="nextstepaction"]
+>[Power BI-visuals publiceren](office-store.md)
