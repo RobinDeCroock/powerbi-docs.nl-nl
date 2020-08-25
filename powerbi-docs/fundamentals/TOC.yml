@@ -15,6 +15,8 @@
           href: service-service-vs-desktop.md
     - name: Zelfstudies
       items:
+        - name: Aan de slag met Power BI Desktop
+          href: desktop-getting-started.md
         - name: Aan de slag met de Power BI-service
           href: service-get-started.md
     - name: Concepten
@@ -41,8 +43,6 @@
       items:
         - name: Power BI Desktop gebruiken
           href: desktop-get-the-desktop.md
-        - name: Aan de slag met Power BI Desktop
-          href: desktop-getting-started.md
     - name: Verwijzing
       items:
         - name: Ondersteunde talen en landen/regio's

@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 6178c9f157578110a09abf3fcbebccba54339f13
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866024"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578133"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Inleiding tot Q&A-hulpprogramma's om Power BI Q&A (preview) te trainen
 
@@ -42,6 +42,24 @@ Q&A-hulpprogramma is alleen beschikbaar in Power BI Desktop en ondersteunt momen
 
     ![Q&A Aan de slag](media/q-and-a-tooling-intro/qna-tooling-dialog.png)
 
+### <a name="field-synonyms"></a>Veldsynoniemen
+
+Selecteer **Veldsynoniemen** om alle tabellen en kolommen van het model weer te geven. Met deze weergave kunt u alternatieve namen aan de kolommen toevoegen om gebruikers te helpen. U kunt ook kiezen of een kolom of tabel wel of niet moet worden verborgen in Q&A.
+
+![Q&A-veldsynoniemen](media/q-and-a-tooling-intro/qna-tooling-field-synonyms-home.png)
+
+Klik op een van de tabellen om deze uit te breiden. U ziet dan een dialoogvenster dat vergelijkbaar is met het onderstaande.
+
+![Q&A-veldsynoniemen uitgebreid](media/q-and-a-tooling-intro/qna-tooling-field-synonyms-expanded.png)
+
+In het dialoogvenster worden alle kolommen en tabellen weergegeven met hun termen/synoniemen die gebruikers kunnen gebruiken wanneer ze vragen stellen over de gegevensset. U ziet alle termen snel op één plek en kunt of termen voor meerdere kolommen toevoegen of verwijderen. 
+
+- Termen toevoegen. Als u een veld hebt dat Verkoop heet, kunt u een term toevoegen als Omzet, zodat een gebruiker dit woord kan gebruiken in plaats van dat het nodig is om Verkoop te gebruiken. Klik op het teken Toevoegen om snel een nieuwe term toe te voegen
+
+- Opnemen in Q&A. Met deze optie kunt u een kolom of tabel weglaten in Q&A, wat betekent dat het niet wordt weergegeven en dat er geen resultaat kan worden weergegeven met deze kolom. U kunt bijvoorbeeld besluiten om een kolom niet op te namen als u met datums te maken hebt. Als er veel datumvelden zijn of refererende sleutels, kunt u beslissen om alle datumvelden op een na te verbergen, zodat de juiste datumkolom wordt gekozen wanneer een gebruiker een vraag met betrekking tot datums stelt.
+
+- Voorgestelde termen. Q&A raadt ook voorgestelde termen aan die zijn opgehaald uit onze suggestie-engine. Dit helpt u om snel termen/synoniemen toe te voegen. Als de suggesties niet worden toegevoegd, werken de suggesties nog wel, maar krijgt de gebruiker een oranje gestippelde lijn te zien die aangeeft dat Q&A een antwoord denkt te hebben, maar het niet zeker weet. Als het voorgestelde synoniem correct is, klikt u op het pictogram +, zodat de suggestie als synoniem kan worden gebruikt. Als de suggestie onjuist is, klikt u op de X. De term wordt dan verwijderd en niet gebruikt als term/synoniem en werkt niet in Q&A. De suggesties worden mogelijk gemaakt door het woordenboek van Office en zijn ook afkomstig van naamwijzigingen in een rapport
+
 ### <a name="review-questions"></a>Vragen beoordelen
 
 Selecteer **Vragen beoordelen** om een lijst weer te geven met gegevenssets die in de Power BI-service worden gebruikt voor uw tenant. Op de pagina **Vragen beoordelen** worden ook de eigenaar van de gegevensset, de werkruimte en de laatst vernieuwde datum weergegeven. Hier kunt u een gegevensset selecteren en zien welke vragen gebruikers hebben gesteld. In de gegevens worden ook woorden weergegeven die niet zijn herkend. Alle gegevens die hier worden weergegeven, zijn van de afgelopen 28 dagen.
@@ -62,7 +80,7 @@ Hier wordt alles wat u hebt opgeslagen in de sectie Q&A trainen weergegeven, zod
 
 ### <a name="suggest-questions"></a>Vragen voorstellen
 
-Ook wanneer u geen configuratie uitvoert, worden met de Q&A-visual een aantal vragen voorgesteld om aan de slag te gaan. Deze vragen worden automatisch gegenereerd op basis van uw gegevensmodel. In **Vragen voorstellen** kunt u de automatisch gegenereerde vragen overschrijven met uw eigen vragen. 
+Ook wanneer u geen configuratie uitvoert, worden met de Q&A-visual een aantal vragen voorgesteld om aan de slag te gaan. Deze vragen worden automatisch gegenereerd op basis van uw gegevensmodel. In **Vragen voorstellen** kunt u de automatisch gegenereerde vragen overschrijven met uw eigen vragen.
 
 Om te beginnen typt u de vraag in het tekstvak dat u wilt toevoegen. In de preview-sectie ziet u hoe het resultaat eruit komt te zien in de Q&A-visual. 
 
@@ -74,30 +92,12 @@ Selecteer de knop **Toevoegen** om deze vraag toe te voegen aan **Uw voorgesteld
  
 Zorg ervoor dat u **Opslaan** selecteert om uw lijst met voorgestelde vragen weer te geven in de Q&A-visual. 
 
+> [!NOTE]
+> De voorgestelde vragen worden weergegeven voor alle exemplaren van de Q&A-visual. Het is niet mogelijk om een afzonderlijke set suggesties te maken voor elke Q&A-visual.
+> 
+> 
 
 ## <a name="other-qa-settings"></a>Andere Q&A-instellingen
-
-### <a name="bulk-synonyms"></a>Bulksynoniemen
-
-Op het Power BI Desktop-tabblad **Modellen maken** vindt u meer opties voor het verbeteren van de Q&A-ervaring. 
-
-1. Selecteer Modelweergave in Power BI Desktop.
-
-2. Selecteer een veld of tabel om het deelvenster **Eigenschappen** weer te geven.  Dit deelvenster wordt weergegeven aan de rechterkant van het canvas en geeft verschillende Q&A-acties weer. Een optie is **Synoniemen**. In het vak **Synoniemen** kunt u snel alternatieven definiëren voor de tabel die, of het veld dat, u selecteert. U kunt ook synoniemen definiëren in de sectie **Q&A trainen** van het dialoogvenster Hulpprogramma, maar het gaat vaak sneller om hier synoniemen te definiëren voor veel velden in een tabel.
-
-    ![Q&A deelvenster Modellen maken synoniemen](media/q-and-a-tooling-intro/qna-modelling-pane-synonyms.png)
-
-3. Als u meerdere synoniemen voor één veld wilt definiëren, gebruikt u komma's om het volgende synoniem aan te geven.
-
-### <a name="hide-from-qa"></a>Verbergen voor Q&A
-
-U kunt ook velden en tabellen verbergen, zodat deze niet worden weergegeven in Q&A-resultaten. 
-
-1. Selecteer Modelweergave in Power BI Desktop.
-
-2. Selecteer een veld of tabel om het deelvenster **Eigenschappen** weer te geven en stel **Is verborgen** in op **Aan**.
-
-    Q&A respecteert die instellingen en zorgt ervoor dat het veld niet wordt herkend door Q&A. Het is bijvoorbeeld mogelijk dat u id-velden en refererende sleutels wilt verbergen om onnodige dubbele velden met dezelfde naam te voorkomen. Ook als u het veld verbergt, kunt u het nog steeds in Power BI Desktop gebruiken in visuals buiten Q&A.
 
 ### <a name="set-a-row-label"></a>Een rijlabel instellen
 

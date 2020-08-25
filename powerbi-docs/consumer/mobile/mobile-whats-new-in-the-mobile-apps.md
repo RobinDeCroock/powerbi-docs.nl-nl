@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f580891be69e0c5478474496be6a6414867e662d
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091659"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204868"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,23 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="august-2020"></a>Augustus 2020
+### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>We hebben de manier waarop u door uw inhoud navigeert verbeterd (iOS en Android)
+U kunt nu snel en eenvoudig naar uw inhoud navigeren met een **nieuwe navigatiestructuur** die beschikbaar is in het vervolgkeuzemenu in de header in rapporten, dashboards en apps. U ziet de locatiehiërarchie van uw inhoud in een oogopslag en u kunt eenvoudiger navigeren door de inhoudshiërarchie, onderliggende inhoud openen of snel teruggaan naar de startpagina. Als het item dat u bekijkt onderdeel is van een app, geeft de structuur de volledige inhoud van de app weer: gedeeltes, koppelingen en alle rapporten en dashboards. Als het item dat je bekijkt een rapport is, vindt u ook een lijst met alle zichtbare rapportpagina's. Het is nog nooit zo makkelijk geweest om van een pagina naar de andere te gaan! Bekijk het hier! 
+
+![Schermopname van de navigatiestructuur in de mobiele Power BI-app.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
+
+### <a name="share-from-power-bi-using-your-favorite-apps-ios-and-android"></a>Deel vanuit Power BI met uw favoriete apps (iOS en Android)
+U kunt nu koppelingen naar Power BI-inhoud delen met uw contactpersonen. Gebruik de nieuwe deelactie in de header om de koppeling te sturen met een samenwerkingsapp die op uw apparaat staat, bijvoorbeeld Microsoft Teams, een mail-app, enzovoort. De koppeling legt de huidige weergave vast, dus u kunt ook gefilterde rapportweergaven delen.
+
+![Schermopname van het pictogram Delen in de mobiele Power BI-app.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-share.png)
+
+### <a name="pinch-and-zoom-is-now-available-in-all-report-views---on-both-phones-and-tablets-ios-and-android"></a>Vegen en zoomen is nu beschikbaar in alle rapportweergaven, op zowel telefoons als tablets (iOS en Android)   
+We hebben het mogelijk gemaakt om in alle rapportweergaven te vegen om te zoomen, waardoor het makkelijker is om in en uit te zoomen op uw rapportinhoud. Dit is nu mogelijk op zowel uw telefoon als uw tablet.
+
+### <a name="auto-play-a-slideshow-on-startup-windows"></a>Automatisch een diavoorstelling afspelen bij het opstarten (Windows)
+U kunt een rapport kiezen dat automatisch wordt afgespeeld in een diavoorstelling wanneer de Power BI-app in Windows wordt gestart. Dit is handig om een kioskachtige ervaring te maken die een rapport laat zien zonder handmatige acties. [Meer informatie.](mobile-windows-10-app-presentation-mode.md#auto-play-a-slideshow-on-startup)
 
 ## <a name="july-2020"></a>Juli 2020
 ### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>De mobiele app van Power BI voor Windows ondersteunt nu huisstijlen van organisaties
@@ -173,7 +190,7 @@ Meer informatie over [de nieuwe look van Power BI - Mobiel](https://powerbi.micr
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Beveiligde toegang met Azure Active Directory-toepassingsproxy (AAD) (iOS en Android)
 
-We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI-toepassingen met Azure Active Directory-toepassingsproxy (AAD) te integreren. Met deze configuratie kunt u via een Power BI Mobile-app verbinding maken met een Report Server die binnen de bedrijfsgrenzen wordt gehost, zonder complexe on-premises configuratie te hoeven instellen. Lees meer over [de integratie van Power BI Mobile en Azure AD-toepassingsproxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Lees meer over het [configureren van Azure AD-toepassingsproxy en Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
+We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI-toepassingen met Azure Active Directory-toepassingsproxy (Azure AD) te integreren. Met deze configuratie kunt u via een Power BI Mobile-app verbinding maken met een Report Server die binnen de bedrijfsgrenzen wordt gehost, zonder complexe on-premises configuratie te hoeven instellen. Lees meer over [de integratie van Power BI Mobile en Azure AD-toepassingsproxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Lees meer over het [configureren van Azure AD-toepassingsproxy en Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Juli 2019
 
@@ -211,7 +228,7 @@ Eén keer tikken is nu algemeen beschikbaar. Dit is de standaardaanraakinteracti
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>Geavanceerde beveiliging voor voorwaardelijke toegang (iOS, Android)
 
-Voor een betere beveiliging hebben we AAD geïntegreerd met [nieuwe voorwaardelijke toegangsmogelijkheden op basis van app-beveiliging](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access), door de toegang tot Power BI te beperken wanneer er nog geen app-beleid is toegepast.
+Voor een betere beveiliging hebben we Azure AD geïntegreerd met [nieuwe voorwaardelijke toegangsmogelijkheden op basis van app-beveiliging](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access), door de toegang tot Power BI te beperken wanneer er nog geen app-beleid is toegepast.
 
 ### <a name="device-protection-ios"></a>Apparaatbeveiliging (iOS)
 
