@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 08/12/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0fdee37f682774e1dac2b1ac6a4fc7a6e8dabe91
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238083"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160481"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Gebruikers de mogelijkheid geven om visuals in een rapport aan te passen
 
@@ -41,6 +41,59 @@ Deze functie biedt niet alleen de mogelijkheid om nieuwe functies te verkennen. 
 - Al hun wijzigingen voor een rapport herstellen
 - Al hun wijzigingen voor een visual herstellen
 - Recente wijzigingen wissen
+
+## <a name="use-perspectives-for-a-more-focused-view"></a>Perspectieven gebruiken voor een meer gerichte weergave
+
+Voor ‘Visuals aanpassen’ kunt u **Perspectieven** gebruiken om een subset van een model te kiezen dat een meer gerichte weergave biedt. Het kiezen van een subset kan handig zijn wanneer u met een groot gegevensmodel werkt, omdat u zich dan kunt concentreren op een beheersbare subset van velden en rapportgebruikers niet overweldigt met de volledige verzameling velden in dat grote model. 
+
+![Visuals aanpassen](media/power-bi-personalize-visuals/power-bi-personalize-perspective-01.png)
+
+Houd de volgende overwegingen in gedachten wanneer u met perspectieven werkt:
+
+* Perspectieven zijn niet bedoeld om te worden gebruikt als beveiligingsmechanisme, maar zijn een hulpmiddel om eindgebruikers een betere ervaring te geven. Alle beveiliging voor een perspectief wordt overgenomen van het onderliggende model.
+
+* Perspectieven in zowel tabellaire modellen als multidimensionale modellen worden ondersteund. Voor perspectieven in multidimensionale modellen kunt u het perspectief echter alleen zodanig instellen dat dit hetzelfde is als de basiskubus voor het rapport.
+
+* Voordat u een perspectief uit een model verwijdert, moet u controleren of het perspectief niet wordt gebruikt in de ervaring ‘Visuals aanpassen’. 
+
+Om Perspectieven te kunnen gebruiken, moet u ‘Visuals aanpassen’ inschakelen voor het rapport. U moet ook ten minste één Perspectief maken dat de dimensies en metingen bevat die u eindgebruikers wilt laten gebruiken voor de ervaring ‘Visuals aanpassen’.
+
+Om het perspectief te maken, gebruikt u [Tabular Editor](https://tabulareditor.com/), wat u kunt downloaden op de volgende locatie: Tabular Editor-download
+
+Zodra u **Tabular Editor** hebt geïnstalleerd, opent u uw rapport in **Power BI Desktop** en opent u **Tabular Editor** via het tabblad **Externe hulpprogramma’s** op het lint, zoals weergegeven in de volgende afbeelding.
+
+![Tabular Editor op het lint Externe hulpprogramma’s](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
+
+In Tabular Editor klikt u met de rechtermuisknop op de map **Perspectieven** om een nieuw perspectief te maken.
+
+![Een nieuwe map Perspectieven maken in Tabular Editor](media/power-bi-personalize-visuals/power-bi-personalize-perspective-03.png)
+
+U kunt op de tekst dubbelklikken om de naam van het perspectief te wijzigen.
+
+![De naam van het perspectief wijzigen](media/power-bi-personalize-visuals/power-bi-personalize-perspective-04.png)
+
+Vervolgens voegt u velden aan het perspectief toe door de map **Tabellen** in Tabular Editor te openen en met de rechtermuisknop te klikken op de velden die u in het perspectief wilt weergeven.
+
+![Velden aan een perspectief toevoegen](media/power-bi-personalize-visuals/power-bi-personalize-perspective-05.png)
+
+Herhaal dat proces voor elk veld dat u aan het perspectief wilt toevoegen. U kunt in een perspectief geen dubbele velden toevoegen, dus voor velden die u al aan een perspectief hebt toegevoegd, is de optie om het toe te voegen uitgeschakeld.
+
+Nadat u alle gewenste velden hebt toegevoegd, moet u uw instellingen zowel in Tabular Editor als in Power BI Desktop opslaan.
+
+![Instellingen voor het opslaan van perspectieven in Tabular Editor en Power BI Desktop](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
+
+Zodra u het nieuwe perspectief in het model hebt opgeslagen en het Power BI Desktop-rapport hebt opgeslagen, navigeert u naar het deelvenster **Opmaak** voor de pagina, waar u een nieuwe sectie ziet voor **Visual aanpassen**.
+
+![Sectie ‘Visual aanpassen’ in het deelvenster Opmaak](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
+
+De selectie voor *Perspectief van rapportlezer* is aanvankelijk ingesteld op *Standaardvelden*. Zodra u de vervolgkeuzepijl hebt geselecteerd, ziet u de andere Perspectieven die u hebt gemaakt.
+
+![De vervolgkeuzepijl selecteren om uw andere perspectieven te zien](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
+
+Zodra u het Perspectief hebt ingesteld voor de rapportpagina, wordt de ervaring ‘Visuals aanpassen’ voor die pagina gefilterd op het geselecteerde Perspectief. U kunt de instellingen voor uw Perspectief op alle bestaande pagina’s in uw rapport toepassen door **Toepassen op alle pagina's** te selecteren.
+
+![‘Toepassen op alle pagina's’ selecteren om het perspectief op het hele rapport toe te passen](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
+
 
 ## <a name="turn-on-the-preview-feature"></a>De preview-functie inschakelen
 
