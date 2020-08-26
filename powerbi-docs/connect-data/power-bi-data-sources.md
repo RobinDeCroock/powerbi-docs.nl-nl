@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/05/2020
+ms.date: 08/21/2020
 ms.author: davidi
-ms.openlocfilehash: 6afc5dd36127390dd359d76fc8970d5ef6f7b590
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837561"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764946"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
@@ -35,7 +35,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Azure Blob Storage | Ja | Ja | Nee | Ja | Nee |
 | Azure Cosmos DB | Ja | Ja | Nee | Nee | Nee |
 | Azure Cost Management | Ja | Ja | Nee | Nee | Nee |
-| Azure Data Explorer (kusto) | Ja | Ja | Ja | Nee | Nee |
+| Azure Data Explorer (kusto) | Ja | Ja | Ja | Ja | Nee |
 | Azure Data Lake Storage Gen1 | Ja | Ja | Nee | Nee | Nee |
 | Azure Data Lake Storage Gen2 | Ja | Ja | Nee | Ja | Nee |
 | Azure DevOps | Ja | Ja | Nee | Nee | Nee |

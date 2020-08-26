@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f42ee7a0b3b1aaf562e3ab087ad9c07501707afc
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878389"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702623"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Veelgestelde vragen over Power BI voor Duitse Cloud-klanten
 Er is een versie van de **Power BI-service** beschikbaar voor de EU-/EFTA-klanten (Europese Unie/Europese Vrijhandelsovereenkomst), ook vaak Microsoft Cloud Deutschland (MCD) genoemd. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek voor EU-/EFTA-klanten en staat los en verschilt van de commerciële versie van de **Power BI-service** of Power BI-services die aan overheidsklanten worden geleverd.
@@ -53,6 +53,8 @@ De volgende vragen en antwoorden bieden belangrijke informatie voor Power BI Pro
    * Publiceren op internet
    * ArcGIS-kaarten van Esri
    * Power BI Embedded (afzonderlijke ISV-licentieverlening naar verbruik, zal in de toekomst worden aangeboden via [Microsoft Azure Duitsland](https://azure.microsoft.com/overview/clouds/germany/))
+   * Logboekregistratie van activiteiten
+
 7. **Waar vind ik de specifieke configuratiegegevens voor het gebruik en de integratie van de Power BI-service voor de Duitse cloud in mijn toepassingen?**
    
    We hebben onze [SaaS Embedding-voorbeelden voor ontwikkelaars](https://github.com/Microsoft/PowerBI-Developer-Samples) bijgewerkt met specifieke configuratiegegevens voor de Duitse en andere Power BI-clouds. Bekijk de map **Cloudconfiguraties** in de voorbeelden voor cloudspecifieke configuratie-eindpunten. De volgende tabel bevat verschillende configuratie-eindpunten voor de Power BI-service voor de Duitse cloud (en ter vergelijking van de openbare cloud).
