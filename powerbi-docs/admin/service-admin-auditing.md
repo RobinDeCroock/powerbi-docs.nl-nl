@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091613"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88802969"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -32,6 +32,10 @@ Weten wie welke actie uitvoert op een item in uw Power BI-tenant kan essentieel 
 
 
 ## <a name="use-the-activity-log"></a>Het activiteitenlogboek gebruiken
+
+> [!NOTE]
+> Activiteitenlogboek wordt niet ondersteund voor Microsoft Cloud Deutschland. Meer informatie over de servicebeperkingen voor de cloud voor Duitsland vindt u in [Veelgestelde vragen over klanten voor de Power BI-cloud voor DuitslandDuitse](service-govde-faq.md).
+
 
 Als Power BI-servicebeheerder kunt u het gebruik van alle Power BI-resources op tenantniveau analyseren door aangepaste rapporten te gebruiken op basis van het Power BI-activiteitenlogboek. U kunt de activiteiten downloaden met behulp van een REST API of PowerShell-cmdlet. U kunt ook de activiteitsgegeven filteren op datumbereik, gebruiker en type activiteit.
 
@@ -73,6 +77,8 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > Het kan tot 24 uur duren voordat alle gebeurtenissen worden weergegeven, hoewel alle gegevens normaal gesproken al veel eerder beschikbaar zijn.
 >
 >
+Zie [Admin - Activiteitgebeurtenissen ophalen](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) in de naslaginformatie voor Power BI REST API voor meer informatie over het gebruik van de Power BI REST API, inclusief voorbeelden van het ophalen van gebeurtenissen voor controle-activiteiten.
+
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
 U kunt de activiteitengebeurtenissen downloaden via de Power BI Management-cmdlets voor PowerShell. Met de cmdlet **Get-PowerBIActivityEvent** wordt de vervolgtoken automatisch voor u afgehandeld. De cmdlet **Get-PowerBIActivityEvent** gebruikt een StartDateTime- en een EndDateTime-parameter met dezelfde beperkingen als de REST API **ActivityEvents**. Met andere woorden, de begindatum en einddatum moeten verwijzen naar dezelfde datumwaarde omdat u de gegevens van de activiteit voor maar één dag tegelijk kunt ophalen.
@@ -113,7 +119,7 @@ U kunt de auditgegevens filteren op datumbereik, gebruiker, dashboard, rapport, 
 
 U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
 
-- U moet een globale beheerder zijn of u moet de rol Auditlogboeken of Auditlogboeken alleen-lezen in Exchange Online hebben voor toegang tot het auditlogboek. Standaard beschikken de rolgroepen Nalevingsbeheer en Organisatiebeheer over deze rollen op de pagina **Machtigingen** in het Exchange-beheercentrum.
+- U moet een globale beheerder zijn of u moet de rol Auditlogboeken of Auditlogboeken alleen-lezen in Exchange Online hebben voor toegang tot het auditlogboek. Standaard beschikken de rolgroepen Nalevingsbeheer en Organisatiebeheer over deze rollen op de pagina **Machtigingen** in het Exchange-beheercentrum. Zie [Vereisten voor zoeken in het auditlogboek](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log) voor meer informatie over de rollen waarmee auditlogboeken kunnen worden weergegeven.
 
     Als u niet-beheerdersaccounts toegang wilt geven tot de auditlogboeken, voegt u de gebruiker als lid van een van deze rolgroepen toe. Als u dit op een andere manier wilt doen, kunt u een aangepaste rolgroep maken in het Exchange-beheercentrum, de rollen Auditlogboeken of Auditlogboeken alleen-lezen aan deze groep toewijzen en vervolgens het niet-beheerdersaccount toewijzen aan de nieuwe rolgroep. Raadpleeg [Rolgroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups) voor meer informatie.
 

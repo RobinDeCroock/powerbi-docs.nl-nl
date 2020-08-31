@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837492"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702669"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
 
@@ -68,6 +68,7 @@ Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden bij he
 * Rapporten met een ongebruikelijk aangepast paginaformaat kunnen problemen ondervinden in scenario's waarbij wordt geëxporteerd. Voor het beste resultaat kunt u overwegen om een standaardpaginaformaat te gebruiken voor uw export.
 * Bij het exporteren naar PDF wordt in rapporten die thema's met aangepaste lettertypen gebruiken, het aangepaste lettertype vervangen door een standaardlettertype.
 * Hoewel we een consistente ervaring willen bieden, kunnen we niet garanderen dat het PDF-bestand dat uit de Power BI-service wordt geëxporteerd altijd overeenkomt met het PDF-bestand dat op basis van een lokaal Power BI Desktop-bestand wordt geëxporteerd.
+* Bij het exporteren naar PDF kan geen perfecte betrouwbaarheid worden gegaranceerd voor PBIX-rapporten.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een rapport afdrukken](end-user-print.md)

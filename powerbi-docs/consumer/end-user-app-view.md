@@ -10,12 +10,12 @@ ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: e737d8747f7d6d9b69eda2035df06abdddd9569f
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578041"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803084"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Apps installeren en gebruiken met dashboards en rapporten in Power BI
 
@@ -27,7 +27,7 @@ Nu u een [basiskennis van apps](end-user-apps.md) hebt, laten we u zien hoe u ap
 
 ## <a name="ways-to-get-a-new-app"></a>Manieren om een ​​nieuwe app te verkrijgen
 Er zijn verschillende manieren om een ​​nieuwe app te verkrijgen:
-* U kunt het downloaden via de app Marketplace van Power BI in Power BI.
+* U kunt het downloaden via de app Marketplace van Power BI in de Power BI-service.
 * U kunt een rechtstreekse koppeling naar een app gebruiken die u hebt ontvangen van de maker van de app. 
 * Een app-ontwerper in uw organisatie kan de app automatisch installeren in uw Power BI-account.
 
@@ -37,6 +37,8 @@ Met de mobiele Power BI-app kunt u alleen een app via een directe koppeling inst
 Niet alle Power BI-gebruikers kunnen apps bekijken en ermee werken. 
 - Als u een gratis licentie hebt, kunt u apps openen die met u zijn gedeeld en zijn opgeslagen in een werkruimte met Premium-capaciteit.  
 - Als u een Pro-licentie hebt, kunt u apps openen die met u zijn gedeeld.
+
+Als u geen apps kunt openen, neemt u contact op met de beheerder of de helpdesk. Raadpleeg [Power BI-licentieverlening](end-user-license.md) voor meer informatie over licenties.
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>De app downloaden via de marketplace voor Power BI-apps
 

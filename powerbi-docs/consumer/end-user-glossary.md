@@ -1,25 +1,26 @@
 ---
-title: Verklarende woordenlijst voor gebruikers van Power BI
-description: Power BI bevat veel nieuwe termen en bekende termen worden op nieuwe manieren gebruikt. Gebruik onze verklarende woordenlijst om vertrouwd te raken met de Power BI-terminologie.
+title: Verklarende woordenlijst voor zakelijke Power BI-gebruikers
+description: Power BI bevat veel nieuwe termen en bekende termen worden op nieuwe manieren gebruikt. Gebruik onze verklarende woordenlijst om vertrouwd te raken met de terminologie van de Power BI-service.
 services: power-bi
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 07/08/2020
+ms.topic: reference
+ms.date: 08/24/2020
+ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: f5ed2252836ecda364ca53904c2cccbae9f9b7e6
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215617"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803038"
 ---
-# <a name="glossary-for-power-bi-service"></a>Verklarende woordenlijst voor de Power BI-service    
+# <a name="glossary-for-business-users-of-the-power-bi-service"></a>Verklarende woordenlijst voor zakelijke gebruikers van de Power BI-service    
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
 
-Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbreekt er volgens u een term? Vraag ons dan de term toe te voegen. U kunt hiervoor de documentatiefeedbackknop onder aan dit artikel gebruiken.
+Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbreekt er volgens u een term? Vraag ons de term toe te voegen. U kunt hiervoor de documentatiefeedbackknop onder aan dit artikel gebruiken.
 
 ## <a name="a"></a>A
 

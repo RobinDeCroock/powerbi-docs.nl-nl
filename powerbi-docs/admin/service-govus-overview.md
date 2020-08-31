@@ -10,12 +10,12 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427134"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638768"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -86,7 +86,7 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |  |Controleren via Office 365 Security en het Compliance-beheercentrum|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Delen met externe gebruikers|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Gebruik metrische gegevens voor dashboards en rapporten|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Azure B2B tussen GCC en commerciële cloud|Beschikbaar|Beschikbaar|Beschikbaar|
+|  |Azure B2B Collaboration tussen GCC en commerciële cloud<sup>1</sup>|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |Rapport maken|Dashboards en rapporten maken en bekijken|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Geplande gegevensvernieuwing|Beschikbaar|Beschikbaar|Beschikbaar|
 |  |Vernieuwbare teamdashboards|Beschikbaar|Beschikbaar|Beschikbaar|
@@ -108,6 +108,8 @@ Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnemen
 |  |Geautomatiseerde Machine Learning|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Azure Cognitive Services|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
 |  |Azure Machine Learning|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
+
+<sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government en Global Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B Collaboration voor de Amerikaanse overheid.
 
 ## <a name="next-steps"></a>Volgende stappen
 

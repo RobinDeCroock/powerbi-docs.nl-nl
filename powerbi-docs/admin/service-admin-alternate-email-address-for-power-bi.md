@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 0cc691e8987bf45f6c3028a5006955db1da72b0b
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161692"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638791"
 ---
 # <a name="use-an-alternate-email-address"></a>Een ander e-mailadres gebruiken
 
@@ -23,7 +23,7 @@ Wanneer u zich registreert voor Power BI, geeft u een e-mailadres op. Power BI g
 In sommige gevallen hebt u liever dat deze e-mailberichten naar een ander e-mailadres worden gestuurd dan het adres waarmee u zich hebt geregistreerd. In dit artikel wordt uitgelegd hoe u in Microsoft 365 en PowerShell een ander adres opgeeft. In het artikel wordt ook uitgelegd hoe een e-mailadres wordt omgezet door Azure Active Directory (Azure AD).
 
 > [!NOTE]
-> Het opgeven van een ander adres heeft geen invloed op het e-mailadres dat door Power BI wordt gebruikt voor service-updates, nieuwsbrieven en andere commerciële berichten. Deze berichten worden altijd verzonden naar het e-mailadres waarmee u zich hebt geregistreerd voor Power BI.
+> Het opgeven van een ander adres heeft geen invloed op het e-mailadres dat door Power BI wordt gebruikt voor e-mailabonnemente, service-updates, nieuwsbrieven en andere commerciële berichten. Deze berichten worden altijd verzonden naar het e-mailadres waarmee u zich hebt geregistreerd voor Power BI.
 
 ## <a name="use-microsoft-365"></a>Microsoft 365 gebruiken
 

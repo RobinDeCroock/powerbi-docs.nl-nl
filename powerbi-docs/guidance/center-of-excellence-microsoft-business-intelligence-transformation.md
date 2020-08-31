@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162362"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638699"
 ---
 # <a name="microsofts-bi-transformation"></a>BI-transformatie van Microsoft
 
@@ -53,9 +53,9 @@ Aan de rand van de binnenste kern zijn onze analisten in de financiën-, verkoop
 
 **Starlight** is de naam die we geven aan ons unificatie- en analyseplatform voor interne gegevens, dat ondersteuning biedt aan financiën, verkoop, marketing en techniek. Het is bedoeld om een robuust, gedeeld en schaalbaar gegevensplatform te bieden. Het platform is volledig ontwikkeld door het Financiën-team en blijft momenteel functioneren met behulp van de nieuwste Microsoft-producten.
 
-De **KPI Lake** is geen Azure Data Lake. Het is in plaats daarvan een door Starlight mogelijk gemaakt model in tabelvorm dat wordt gehost in Azure IaaS met behulp van SQL Server Analysis Services van Microsoft. Het model in tabelvorm biedt gegevens afkomstig van meer dan 100 interne bronnen en definieert talrijke hiërarchieën en KPI's. Het is bedoeld om rapportage en analyses van bedrijfsprestaties mogelijk te maken voor Financiën-, Marketing- en Verkoop-teams. Zo kunt u actuele, nauwkeurige en goed presterende inzichten verkrijgen via uniforme modellen vanuit relevante bronnen.
+De **KPI Lake** is geen Azure Data Lake. Het is in plaats daarvan een door Starlight mogelijk gemaakt semantisch BI-model in tabelvorm dat wordt gehost in Azure IaaS met behulp van SQL Server Analysis Services van Microsoft. Het semantische BI-model biedt gegevens afkomstig van meer dan 100 interne bronnen en definieert talrijke hiërarchieën en KPI's. Het is bedoeld om rapportage en analyses van bedrijfsprestaties mogelijk te maken voor Financiën-, Marketing- en Verkoop-teams. Zo kunt u actuele, nauwkeurige en goed presterende inzichten verkrijgen via uniforme, semantische BI-modellen vanuit relevante bronnen.
 
-Toen het voor het eerst werd geïmplementeerd, was het een opwindende tijd omdat het model in tabelvorm heeft geleid tot onmiddellijke en meetbare voordelen. De eerste versie gecentraliseerde BI-platforms voor C + E-financiën en marketing. De afgelopen zes jaar is het vervolgens uitgebreid met de consolidatie van aanvullende oplossingen voor bedrijfsinzichten. Vandaag de dag blijft de ontwikkeling doorgaan, waardoor onze wereldwijde en commerciële bedrijfsevaluaties en de standaardrapportage en SSBI mogelijk worden gemaakt. De invoering ervan is met de factor 5 gestegen sinds de release, ruim hoger dan onze aanvankelijke verwachtingen.
+Toen het voor het eerst werd geïmplementeerd, was het een opwindende tijd omdat het semantische BI-model in tabelvorm heeft geleid tot onmiddellijke en meetbare voordelen. De eerste versie gecentraliseerde BI-platforms voor C + E-financiën en marketing. De afgelopen zes jaar is het vervolgens uitgebreid met de consolidatie van aanvullende oplossingen voor bedrijfsinzichten. Vandaag de dag blijft de ontwikkeling doorgaan, waardoor onze wereldwijde en commerciële bedrijfsevaluaties en de standaardrapportage en SSBI mogelijk worden gemaakt. De invoering ervan is met de factor 5 gestegen sinds de release, ruim hoger dan onze aanvankelijke verwachtingen.
 
 Hier volgt een samenvatting van de belangrijkste voordelen:
 
@@ -71,8 +71,8 @@ De **KPI Lake** is een uitstekend succesverhaal. Het wordt vaak aan onze klanten
 Het Starlight-platform beheert de gegevensstroom van verwerving tot verwerking en vervolgens helemaal tot aan de publicatie:
 
 1. De robuuste en flexibele gegevensintegratie vindt plaats op basis van een planning, waarbij gegevens van meer dan 100 verschillende onbewerkte bronnen worden geconsolideerd. Systemen voor brongegevens zijn onder meer relationele databases, Azure Data Lake Storage en Azure Synapse-databases. De onderwerpsgebieden zijn onder meer financiën, marketing, verkoop en techniek.
-2. Zodra de gegevens zijn klaargezet, worden ze in overeenstemming gebracht en verrijkt met hoofdgegevens en bedrijfslogica. De gegevens worden vervolgens geladen in datawarehousetabellen. Het model in tabelvorm wordt vervolgens vernieuwd.
-3. Analisten in het bedrijf gebruiken Excel en Power BI voor het leveren van inzichten en analyses vanuit het model in tabelvorm. Bovendien biedt het bedrijfseigenaren de mogelijkheid om voor metrische definities voor hun eigen bedrijf op te komen. Indien nodig, kan de schaal worden aangepast met behulp van Azure IaaS met taakverdeling.
+2. Zodra de gegevens zijn klaargezet, worden ze in overeenstemming gebracht en verrijkt met hoofdgegevens en bedrijfslogica. De gegevens worden vervolgens geladen in datawarehousetabellen. Het semantische BI-model in tabelvorm wordt vervolgens vernieuwd.
+3. Analisten in het bedrijf gebruiken Excel en Power BI voor het leveren van inzichten en analyses vanuit het semantische BI-model in tabelvorm. Bovendien biedt het bedrijfseigenaren de mogelijkheid om voor metrische definities voor hun eigen bedrijf op te komen. Indien nodig, kan de schaal worden aangepast met behulp van Azure IaaS met taakverdeling.
 
 ## <a name="deliver-success"></a>Zorgen voor succes
 
@@ -86,10 +86,16 @@ We nodigen u uit om de artikelen in deze COE-serie te lezen voor meer informatie
 
 ## <a name="next-steps"></a>Volgende stappen
 
-In de [volgende artikel in deze reeks](center-of-excellence-establish.md) leert u hoe bij Microsoft een COE ons heeft geholpen om een gestandaardiseerd analyse- en gegevensplatform te maken, waardoor we inzichten hebben verkregen uit onze gegevens.
-
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Een Center of Excellence instellen](center-of-excellence-establish.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
+
+In de [volgende artikel in deze reeks](center-of-excellence-establish.md) leert u hoe bij Microsoft een COE ons heeft geholpen om een gestandaardiseerd analyse- en gegevensplatform te maken, waardoor we inzichten hebben verkregen uit onze gegevens.
+
+### <a name="professional-services"></a>Professionele services
+
+Gecertificeerde Power BI-partners zijn beschikbaar om uw organisatie te helpen slagen met het instellen van een COE. Ze kunnen u een kosteneffectieve training of een audit van uw gegevens bieden. Als u een Power BI-partner wilt inschakelen, gaat u naar de [Power BI-partnerportal](https://powerbi.microsoft.com/partners/).
+
+U kunt ook contact opnemen met ervaren adviespartners. Ze kunnen u helpen bij het [beoordelen](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [evalueren](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) of [implementeren](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) van Power BI.
