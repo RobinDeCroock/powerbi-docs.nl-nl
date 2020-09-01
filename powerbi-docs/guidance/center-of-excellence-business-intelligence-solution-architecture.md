@@ -6,24 +6,31 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 81dda3c2bc3558ba68a16ee3f3070e748f76f15b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940100"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638642"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>BI-oplossingsarchitectuur in de COE (Center of Excellence)
 
 Dit artikel is gericht op IT-professionals en IT-beheerders. Meer informatie over de BI-oplossingsarchitectuur vindt u in de COE en de verschillende gebruikte technologieën. Voorbeelden van technologieën zijn Azure, Power BI en Excel. Samen kunnen ze worden gebruikt voor het leveren van een schaalbaar en gegevensgestuurd BI-platform in de cloud.
 
-Het ontwerpen van een robuust BI-platform is vergelijkbaar met het bouwen van een brug: een brug die getransformeerde en verrijkte brongegevens verbindt met gegevensgebruikers. Voor het ontwerp van een dergelijke complexe structuur is een technische instelling vereist, maar dit kan een van de meest creatieve en belonende IT-architecturen zijn die u zou kunnen ontwerpen.
+Het ontwerpen van een robuust BI-platform is vergelijkbaar met het bouwen van een brug: een brug die getransformeerde en verrijkte brongegevens verbindt met gegevensgebruikers. Voor het ontwerp van een dergelijke complexe structuur is een technische instelling vereist, maar dit kan een van de meest creatieve en belonende IT-architecturen zijn die u zou kunnen ontwerpen. In een grote organisatie kan een BI-oplossingsarchitectuur bestaan uit:
+
+- Gegevensbronnen
+- Gegevensopname
+- Big data-/gegevensvoorbereiding
+- Datawarehouse
+- Semantische BI-modellen (BISM)
+- Rapporten
+
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="Een diagram met de BI-platformarchitectuur, van gegevensbronnen tot gegevensopname, big data, opslag, datawarehouse, semantische BI-modellen, rapportage en machine learning.":::
 
 Het platform moet specifieke vereisten ondersteunen. In het bijzonder moet het schaalbaar zijn en voldoen aan de verwachtingen van gebruikers van zakelijke services en gegevens. Tegelijk moet het compleet zijn beveiligd. En het moet voldoende tolerant zijn om zich aan te passen aan veranderingen, omdat het een zekerheid is dat mettertijd nieuwe gegevens en onderwerpen online moeten worden gebracht.
-
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="Een afbeelding toont een diagram van een BI platformarchitectuur, van gegevensbronnen tot gegevensopname, big data, opslag, datawarehouse, rapportage en machine learning.":::
 
 ## <a name="frameworks"></a>Frameworks
 
@@ -40,7 +47,7 @@ Gegevensmodellen bieden u controle op de manier waarop gegevens worden gestructu
 Een BI-platform kan voorzien in drie verschillende typen modellen:
 
 - Bedrijfsmodellen
-- BI-modellen
+- Semantische BI-modellen (BISM)
 - ML-modellen (Machine Learning)
 
 ### <a name="enterprise-models"></a>Bedrijfsmodellen
@@ -51,17 +58,15 @@ Bedrijfsmodellen bieden een consistente en enkelvoudige gegevensbron voor rappor
 
 In een BI-platform in de cloud kunnen bedrijfsmodellen worden geïmplementeerd in een [Synapse SQL-pool in Azure Synapse](/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is#synapse-sql-pool-in-azure-synapse). De Synapse SQL-pool wordt vervolgens de enige versie van de waarheid waarop de organisatie kan rekenen voor snelle en robuuste inzichten.
 
-### <a name="bi-models"></a>BI-modellen
+### <a name="bi-semantic-models"></a>Semantische BI-modellen (BISM)
 
-**BI-modellen** vormen een semantische laag over bedrijfsmodellen. Ze zijn gemaakt en onderhouden door BI-ontwikkelaars en zakelijke gebruikers. BI-ontwikkelaars maken BI-basismodellen die gegevens putten uit bedrijfsmodellen. Zakelijke gebruikers kunnen onafhankelijke modellen op kleinere schaal maken of ze kunnen BI-basismodellen uitbreiden met afdelingsbronnen of externe bronnen. BI-modellen zijn doorgaans gericht op één onderwerpgebied en worden vaak op grote schaal gedeeld.
+**Semantische BI-modellen** vormen een semantische laag over bedrijfsmodellen. Ze zijn gemaakt en onderhouden door BI-ontwikkelaars en zakelijke gebruikers. BI-ontwikkelaars maken semantische BI-basismodellen die gegevens halen uit bedrijfsmodellen. Zakelijke gebruikers kunnen onafhankelijke modellen op kleinere schaal maken of ze kunnen semantische BI-basismodellen uitbreiden met afdelingsbronnen of externe bronnen. Semantische BI-modellen zijn doorgaans gericht op één onderwerpgebied en worden vaak op grote schaal gedeeld.
 
-Zakelijke mogelijkheden worden niet alleen door gegevens mogelijk gemaakt, maar ook door BI-modellen waarin concepten, relaties, regels en standaarden worden beschreven. Op deze manier vertegenwoordigen ze intuïtieve en eenvoudig te begrijpen structuren waarmee gegevensrelaties worden gedefinieerd en bedrijfsregels als berekeningen worden ingebouwd. Ze kunnen ook gedetailleerde machtigingen voor gegevens afdwingen, zodat de juiste mensen toegang hebben tot de juiste gegevens. Belangrijk is dat ze de queryprestaties versnellen, waardoor er uiterst responsieve, interactieve analyses worden geboden, zelfs van meer dan terabytes aan gegevens. Net als bij bedrijfsmodellen gebruiken BI-modellen naamconventies die consistentie garanderen.
+Zakelijke mogelijkheden worden niet alleen door gegevens mogelijk gemaakt, maar ook door semantische BI-modellen waarin concepten, relaties, regels en standaarden worden beschreven. Op deze manier vertegenwoordigen ze intuïtieve en eenvoudig te begrijpen structuren waarmee gegevensrelaties worden gedefinieerd en bedrijfsregels als berekeningen worden ingebouwd. Ze kunnen ook gedetailleerde machtigingen voor gegevens afdwingen, zodat de juiste mensen toegang hebben tot de juiste gegevens. Belangrijk is dat ze de queryprestaties versnellen, waardoor er uiterst responsieve, interactieve analyses worden geboden, zelfs van meer dan terabytes aan gegevens. Net als bij bedrijfsmodellen gebruiken semantische BI-modellen naamconventies die consistentie garanderen.
 
-In een BI-platform in de cloud kunnen BI-ontwikkelaars BI-modellen implementeren in [Azure Analysis Services](/azure/analysis-services/)- of [Power BI Premium-capaciteiten](../admin/service-premium-what-is.md#dedicated-capacities). U wordt aangeraden om deze te implementeren in Power BI wanneer deze wordt gebruikt als uw rapportage- en analyselaag. Deze producten ondersteunen verschillende opslagmodi, waardoor tabellen van gegevensmodellen hun gegevens in de cache kunnen opslaan of [DirectQuery](directquery-model-guidance.md) kunnen gebruiken. Dit is een technologie die query's doorgeeft aan de onderliggende gegevensbron. DirectQuery is een ideale opslagmodus wanneer modeltabellen uit grote hoeveelheden gegevens bestaan of wanneer er bijna realtime resultaten moeten worden geleverd. De twee opslagmodi kunnen worden gecombineerd: [Samengestelde modellen](composite-model-guidance.md) combineren tabellen die gebruikmaken van verschillende opslagmodi in één model.
+In een BI-platform in de cloud kunnen BI-ontwikkelaars semantische BI-modellen implementeren in [Azure Analysis Services](/azure/analysis-services/)- of [Power BI Premium-capaciteiten](../admin/service-premium-what-is.md#dedicated-capacities). U wordt aangeraden om deze te implementeren in Power BI wanneer deze wordt gebruikt als uw rapportage- en analyselaag. Deze producten ondersteunen verschillende opslagmodi, waardoor tabellen van gegevensmodellen hun gegevens in de cache kunnen opslaan of [DirectQuery](directquery-model-guidance.md) kunnen gebruiken. Dit is een technologie die query's doorgeeft aan de onderliggende gegevensbron. DirectQuery is een ideale opslagmodus wanneer modeltabellen uit grote hoeveelheden gegevens bestaan of wanneer er bijna realtime resultaten moeten worden geleverd. De twee opslagmodi kunnen worden gecombineerd: [Samengestelde modellen](composite-model-guidance.md) combineren tabellen die gebruikmaken van verschillende opslagmodi in één model.
 
-Voor veelvuldig opgevraagde modellen kan [Azure Load Balancer](/azure/load-balancer/load-balancer-overview) worden gebruikt om de querybelasting gelijkmatig te verdelen over modelreplica's. Daarnaast kunt u de schaal van uw toepassingen aanpassen en maximaal beschikbare BI-modellen maken.
-
-<!-- For more information on BI models, see [BI modeling and processing in the COE](https://TODO/).-->
+Voor veelvuldig opgevraagde modellen kan [Azure Load Balancer](/azure/load-balancer/load-balancer-overview) worden gebruikt om de querybelasting gelijkmatig te verdelen over modelreplica's. Daarnaast kunt u de schaal van uw toepassingen aanpassen en maximaal beschikbare semantische BI-modellen maken.
 
 ### <a name="machine-learning-models"></a>Machine Learning-modellen
 
@@ -134,7 +139,7 @@ Verfijnde gegevens worden vervolgens opgeslagen in een relationele database om e
 
 Op de rapportagelaag gebruiken bedrijfsservices bedrijfsgegevens die afkomstig zijn uit de datawarehouse. Ze kunnen ook rechtstreeks toegang krijgen tot gegevens in de data lake voor een ad-hoc analyse of voor taken ten aanzien van de gegevenswetenschap.
 
-Verfijnde machtigingen zijn op alle lagen doorgevoerd: in de data lake, bedrijfsmodellen en BI-modellen. De machtigingen zorgen ervoor dat gegevensgebruikers alleen de gegevens kunnen zien waartoe ze toegang hebben.
+Fijnmazige machtigingen zijn op alle lagen doorgevoerd: in de data lake, bedrijfsmodellen en semantische BI-modellen. De machtigingen zorgen ervoor dat gegevensgebruikers alleen de gegevens kunnen zien waartoe ze toegang hebben.
 
 Bij Microsoft maken we gebruik van Power BI-rapporten en -dashboards en [gepagineerde rapporten in Power BI](../paginated-reports/paginated-reports-report-builder-power-bi.md). Sommige rapporten en ad-hoc analyses worden uitgevoerd in Excel, met name bij financiële rapportage.
 
@@ -142,11 +147,11 @@ We publiceren gegevenswoordenboeken, die naslaginformatie over onze gegevensmode
 
 Patronen van gegevensverbruik variëren doorgaans op basis van de rol:
 
-- **Gegevensanalisten** maken rechtstreeks verbinding met de BI-basismodellen. Wanneer BI-basismodellen alle gegevens en logica bevatten die ze nodig hebben, gebruiken ze live-verbindingen om Power BI-rapporten en -dashboards te maken. Wanneer de modellen moeten worden uitgebreid met afdelingsgegevens, maken ze [samengestelde Power BI-modellen](composite-model-guidance.md). Als er rapporten nodig zijn in werkbladstijl, gebruiken ze Excel om rapporten te produceren op basis van BI-basismodellen of BI-modellen voor afdelingen.
-- **BI-ontwikkelaars** en auteurs van operationele rapporten maken rechtstreeks verbinding met bedrijfsmodellen. Ze gebruiken Power BI Desktop voor het maken van analyserapporten met een live-verbinding. Ze kunnen ook BI-rapporten van een operationeel type opstellen als gepagineerde Power BI-rapporten, systeemeigen SQL-query's schrijven om toegang te krijgen tot gegevens uit de Azure Synapse Analytics-bedrijfsmodellen (met behulp van T-SQL) of Power BI-modellen (met behulp van DAX of MDX).
+- **Gegevensanalisten** maken rechtstreeks verbinding met de semantische BI-basismodellen. Wanneer semantische BI-basismodellen alle gegevens en logica bevatten die ze nodig hebben, gebruiken ze live-verbindingen om Power BI-rapporten en -dashboards te maken. Wanneer de modellen moeten worden uitgebreid met afdelingsgegevens, maken ze [samengestelde Power BI-modellen](composite-model-guidance.md). Als er rapporten nodig zijn in werkbladstijl, gebruiken ze Excel om rapporten te produceren op basis van semantische BI-basismodellen of semantische BI-modellen voor afdelingen.
+- **BI-ontwikkelaars** en auteurs van operationele rapporten maken rechtstreeks verbinding met bedrijfsmodellen. Ze gebruiken Power BI Desktop voor het maken van analyserapporten met een live-verbinding. Ze kunnen ook BI-rapporten van een operationeel type opstellen als gepagineerde Power BI-rapporten, systeemeigen SQL-query's schrijven om toegang te krijgen tot gegevens uit de Azure Synapse Analytics-bedrijfsmodellen (met behulp van T-SQL) of semantische Power BI-modellen (met behulp van DAX of MDX).
 - **Gegevenswetenschappers** maken rechtstreeks verbinding met gegevens in de data lake. Ze maken gebruik van Azure Databricks en Python-notebooks voor het ontwikkelen van ML-modellen, die vaak experimenteel zijn en speciale vaardigheden vereisen voor productiegebruik.
 
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="Een afbeelding toont het gebruik van Azure Synapse Analytics met Power BI en Azure Machine Learning.":::
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="Een afbeelding toont het gebruik van Azure Synapse Analytics met Power BI, Excel en Azure Machine Learning.":::
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -155,3 +160,9 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 - [Enterprise BI in Azure met Synapse Analytics](/azure/architecture/reference-architectures/data/enterprise-bi-synapse)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
+
+### <a name="professional-services"></a>Professionele services
+
+Gecertificeerde Power BI-partners zijn beschikbaar om uw organisatie te helpen slagen met het instellen van een COE. Ze kunnen u een kosteneffectieve training of een audit van uw gegevens bieden. Als u een Power BI-partner wilt inschakelen, gaat u naar de [Power BI-partnerportal](https://powerbi.microsoft.com/partners/).
+
+U kunt ook contact opnemen met ervaren adviespartners. Ze kunnen u helpen bij het [beoordelen](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [evalueren](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) of [implementeren](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) van Power BI.

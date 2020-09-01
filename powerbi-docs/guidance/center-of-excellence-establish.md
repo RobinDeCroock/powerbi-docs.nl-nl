@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9aab2afd9e3b4b86844c045ceb0346d57baa3e18
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85940033"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638607"
 ---
 # <a name="establish-a-center-of-excellence"></a>Een Center of Excellence instellen
 
@@ -45,10 +45,10 @@ Bij Microsoft wordt het COE ook wel het BI-platform genoemd. Het platform heeft 
 
 Gedeelde capaciteiten zijn vereist om het BI-platform te maken en uit te voeren. Ze ondersteunen alle groepen van belanghebbenden die het platform financieren. Ze omvatten de volgende teams:
 
-- **Platformengineering:** We hebben het BI-platform ontworpen met een technisch uitgangspunt. In wezen bestaat het platform uit een reeks frameworks die ondersteuning biedt voor gegevensinvoer, de aanvulling van gegevens en de levering van de desbetreffende gegevens in gegevensmodellen die kunnen worden gebruikt door analisten. De engineers zijn verantwoordelijk voor het technische ontwerp en de implementatie van de kerncapaciteiten van het BI-platform. Ze ontwerpen en implementeren bijvoorbeeld de gegevenspijplijnen.
+- **Platformengineering:** We hebben het BI-platform ontworpen met een technisch uitgangspunt. In wezen bestaat het platform uit een reeks frameworks die ondersteuning biedt voor gegevensopname, de aanvulling van gegevens en de levering van de desbetreffende gegevens in semantische BI-modellen die kunnen worden gebruikt door analisten. De engineers zijn verantwoordelijk voor het technische ontwerp en de implementatie van de kerncapaciteiten van het BI-platform. Ze ontwerpen en implementeren bijvoorbeeld de gegevenspijplijnen.
 - **Infrastructuur en hosting:** IT-engineers zijn verantwoordelijk voor het inrichten en beheren van alle Azure-services.
 - **Ondersteuning en operations:** Dit team houdt het platform draaiende. De ondersteuning houdt zich bezig met de behoeften van gebruikers, zoals gegevensmachtigingen. Operations houdt het platform draaiende, zodat aan de Service Level Agreements (SLA's) wordt voldaan en vertragingen of fouten worden gecommuniceerd.
-- **Releasebeheer:** Technische programmamanagers (PM's) geven wijzigingen vrij. Wijzigingen kunnen variëren van updates voor het platformframework tot wijzigingsaanvragen voor gegevensmodellen. Zij vormden de laatste verdedigingslinie om ervoor te zorgen dat wijzigingen geen schade aanbrengen.
+- **Releasebeheer:** Technische programmamanagers (PM's) geven wijzigingen vrij. Wijzigingen kunnen variëren van updates voor het platformframework tot wijzigingsaanvragen voor semantische BI-modellen. Zij vormden de laatste verdedigingslinie om ervoor te zorgen dat wijzigingen geen schade aanbrengen.
 
 ### <a name="dedicated-deliveries"></a>Speciale leveringen
 
@@ -60,13 +60,22 @@ Bij Microsoft wordt het BI-platform geëxploiteerd door schaalbare teams van pro
 
 - **Programmabeheerders:** PM's zijn speciale resources. Een PM fungeert als primaire contactpersoon tussen het BI-team en de belanghebbenden. Het is hun taak om zakelijke vereisten voor belanghebbenden om te zetten naar een technische specificatie. En ze beheren de prioriteit van de producten en diensten die de belanghebbenden moeten leveren.
 - **Databaseleads:** Een databaselead is een speciale resource die verantwoordelijk is voor de onboarding van nieuwe gegevenssets in het datawarehouse. De onboarding van een gegevensset kan betrekking hebben op het instellen van de overeengekomen dimensies, het toevoegen van bedrijfslogica en aangepaste kenmerken, en standaardnamen en -indelingen.
-- **Analyseleads:** Een analyselead is een speciale resource die verantwoordelijk is voor het ontwerpen en ontwikkelen van gegevensmodellen. Ze streven ernaar een consistente architectuur toe te passen met behulp van een standaardnaamgeving en -indeling. Een belangrijk onderdeel van hun rol vormt het optimaliseren van de prestatie.
+- **Analyseleads:** Een analyselead is een speciale resource die verantwoordelijk is voor het ontwerpen en ontwikkelen van semantische BI-modellen. Ze streven ernaar een consistente architectuur toe te passen met behulp van een standaardnaamgeving en -indeling. Een belangrijk onderdeel van hun rol vormt het optimaliseren van de prestatie.
 - **Operations en infrastructuur:** Een gedeelde resource die verantwoordelijk is voor het beheer van taken en gegevenspijplijnen. Ze zijn ook verantwoordelijk voor het beheren van Azure-abonnementen, Power BI-capaciteiten, virtuele machines en gegevensgateways.
-- **Ondersteuning:** Een gedeelde resource die verantwoordelijk is voor het schrijven van documentatie, het organiseren van training, het communiceren van wijzigingen in gegevensmodellen en het beantwoorden van vragen van gebruikers.
+- **Ondersteuning:** Een gedeelde resource die verantwoordelijk is voor het schrijven van documentatie, het organiseren van training, het communiceren van wijzigingen in semantische BI-modellen en het beantwoorden van vragen van gebruikers.
 
 ## <a name="governance-and-compliance"></a>Governance en naleving
 
 Voor elke groep van belanghebbenden is er een PM-lead die toezicht op het programma houdt en zich bezighoudt met het bestuur. Het belangrijkste doel is om ervoor te zorgen dat de IT-investeringen bedrijfswaarde genereren en tot minder risico's leiden. Het stuurcomité komt regelmatig bijeen om de voortgang te beoordelen en de belangrijkste initiatieven goed te keuren.
+
+## <a name="grow-your-own-community"></a>Uw eigen community uitbreiden
+
+Zet een community binnen uw organisatie op en breid deze uit met behulp van de volgende activiteiten:
+
+- Regelmatig evenementen voor een 'spreekuur' met het BI-team houden, waarbij tijd met wordt vrijgemaakt zodat mensen vragen kunnen stellen, suggesties kunnen doorgeven, ideeën kunnen delen en zelfs klachten kunnen indienen.
+- Een Teams-kanaal opzetten voor ondersteuning en om iedereen aan te moedigen om vragen te stellen en te reageren op geplaatste vragen.
+- Informele gebruikersgroepen instellen en promoten en medewerkers aanmoedigen om presentaties te houden of deel te nemen.
+- Meer formele trainingsevenementen verzorgen voor specifieke producten en het BI-platform zelf. Overwegen om [Power BI Dashboard in a Day](https://powerbi.microsoft.com/diad/) beschikbaar te stellen, een gratis cursuspakket dat een uitstekende manier biedt om werknemers te laten kennismaken met Power BI.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -75,3 +84,11 @@ Bekijk de volgende bronnen voor meer informatie over dit artikel:
 - [BI-oplossingsarchitectuur in het COE](center-of-excellence-business-intelligence-solution-architecture.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
+
+In het [volgende artikel in deze reeks](center-of-excellence-business-intelligence-solution-architecture.md) krijgt u meer informatie over de BI-oplossingsarchitectuur in de COE en de verschillende gebruikte technologieën.
+
+### <a name="professional-services"></a>Professionele services
+
+Gecertificeerde Power BI-partners zijn beschikbaar om uw organisatie te helpen slagen met het instellen van een COE. Ze kunnen u een kosteneffectieve training of een audit van uw gegevens bieden. Als u een Power BI-partner wilt inschakelen, gaat u naar de [Power BI-partnerportal](https://powerbi.microsoft.com/partners/).
+
+U kunt ook contact opnemen met ervaren adviespartners. Ze kunnen u helpen bij het [beoordelen](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL), [evalueren](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL) of [implementeren](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) van Power BI.
