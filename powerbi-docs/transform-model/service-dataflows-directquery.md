@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 669f05c03bd7a42d5b44f6ca2fa1b4d58680f71b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237755"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937373"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>DirectQuery gebruiken met gegevensstromen in Power BI (preview)
 
@@ -48,8 +48,6 @@ Zodra u deze instelling hebt toegepast, moet u de gegevensstroom vernieuwen om d
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
 Er zijn enkele bekende beperkingen met betrekking tot DirectQuery en gegevensstromen. Deze worden uitgelegd in de volgende lijst.
-
-* DirectQuery voor gegevensstromen werkt niet als de previewversie van de functie **Verbeterde metagegevens** is ingeschakeld. Deze uitsluiting komt naar verwachting niet meer voor in een van de komende maandelijkse releases van Power BI Desktop.
 
 * Tijdens de previewperiode van deze functie, krijgen sommige klanten mogelijk te maken met time-outs of prestatieproblemen als ze DirectQuery met gegevensstromen gebruiken. Tijdens deze previewperiode krijgen deze problemen de nodige aandacht.
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866766"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937580"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Beperkingen van Power BI Q&A
 
@@ -75,7 +75,6 @@ Momenteel wordt er geen ondersteuning geboden voor het opnieuw definiëren van e
 
 ### <a name="statements-not-supported"></a>Instructies worden niet ondersteund
 
-- Het gebruik van metingen in voorwaarden wordt momenteel niet ondersteund. In plaats daarvan kunt u metingen omzetten in berekende kolommen om ze te laten werken.
 - Meerdere voorwaarden worden niet ondersteund. Als tijdelijke oplossing maakt u een berekende DAX-kolom waarin u een Boolean-instructie met meerdere voorwaarden evalueert. U kunt dan dat veld gebruiken.
 - Als u geen filtervoorwaarde opgeeft wanneer Q&A vraagt om een subset van gegevens, kunt u de definitie niet opslaan, ook niet als de hele instructie geen rode onderstrepingen heeft.
 

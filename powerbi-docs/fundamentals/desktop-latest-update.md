@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e24897b64a700f84cb7caf2458c72bbfa9b5c70b
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 42c21a99422e7a3c67cdb65b62d6c323f8c8aa0d
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160183"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092240"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Wat is er nieuw in Power BI Desktop?
 
@@ -91,7 +91,7 @@ In de volgende video wordt elk van deze updates beschreven. U kunt ook deze vide
 Wilt u meer te weten komen over Power BI met video's en andere pakkende inhoud? Bekijk de volgende reeks videobronnen en inhoud:
 
 -   [Power BI-kanaal](https://www.youtube.com/user/mspowerbi): een verzameling Power BI-video's op YouTube.
--   [Begeleide training voor Power BI](https://powerbi.microsoft.com/guided-learning/): een stapsgewijze rondleiding door Power BI, in hapklare brokken.
+-   [Begeleide training voor Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link): een stapsgewijze rondleiding door Power BI, in hapklare brokken.
 
 ## <a name="updates-for-previous-months"></a>Updates van eerdere maanden
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 189710c613c7d48f76ee0bb23a430ac4d9908c74
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 4188a5570dfe15658e13d3358f3e192ac842cbfb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792869"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937327"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
@@ -83,11 +83,11 @@ Zie [Aan de slag met Power BI Report Server](../report-server/get-started.md) vo
 
 **Volgende stappen**
 
-[Wat is Power BI Premium?](service-premium-what-is.md)
-[Releaseopmerkingen bij Power BI Premium](../service-premium-release-notes.md)
-[Technisch document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
-[Technisch document over het plannen van een Power BI Enterprise-implementatie](https://aka.ms/pbienterprisedeploy)
-[De verlengde Pro-proefversie activeren](../service-extended-pro-trial.md)
-[Veelgestelde vragen over Power BI Embedded](../developer/embedded/embedded-faq.md)
+* [Wat is Power BI Premium?](service-premium-what-is.md)
+* [Releaseopmerkingen bij Power BI Premium](../service-premium-release-notes.md)
+* [Technisch document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
+* [Een technisch document over een Power BI-implementatie voor de onderneming plannen](https://aka.ms/pbienterprisedeploy)
+* [De verlengde Pro-proefversie activeren](../service-extended-pro-trial.md)
+* [Veelgestelde vragen over Power BI Embedded](../developer/embedded/embedded-faq.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
