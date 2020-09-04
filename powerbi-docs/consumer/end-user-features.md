@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215897"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286769"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lijst met Power BI-functies voor *consumenten* en anderen met een gratis licentie
 
@@ -49,7 +49,7 @@ Elke Power BI-servicegebruiker heeft een gratis licentie of een Pro-licentie. *C
 
 - **Gratis licentie**: wordt doorgaans toegewezen aan *consumenten* in een organisatie (zie de eerste afbeelding hieronder). Wordt ook toegewezen aan iedereen die zich aanmeldt voor de Power BI-service als individuele gebruiker en de [Power BI-service in de zelfstandige modus wil proberen ](../fundamentals/service-self-service-signup-for-power-bi.md) (zie de tweede afbeelding hieronder). 
 
-    ![schermopname met Gratis gebruiker](media/end-user-features/power-bi-free-organization.png)
+    ![scherm met een Premium-gebruiker](media/end-user-features/power-bi-free-organization.png)
 
     Gebruikers die een gratis versie gebruiken en lid zijn van een organisatie die Premium-capaciteit heeft, krijgen de machtigingen van een supergebruiker. Zolang uw collega's met Pro gebruikmaken van werkruimten in Premium-capaciteit om inhoud te delen, kunnen gebruikers van een gratis versie inhoud van deze Pro-collega's bekijken en met hen samenwerken.  **Op deze manier wordt de gratis gebruiker een Power BI-*consument*, die inhoud kan ontvangen en delen om zakelijke beslissingen te nemen.** 
  
@@ -87,7 +87,7 @@ Functies met een ![oranje x](media/end-user-features/orange-x.png) zijn niet bes
 |Favoriet | ![oranje x](media/end-user-features/orange-x.png) | ![groene stip](media/end-user-license/power-bi-green-dot.png)  |
  |Bewerken, bijwerken, opnieuw delen, opnieuw publiceren |![oranje x](media/end-user-features/orange-x.png)  |![oranje x](media/end-user-features/orange-x.png)   |
  |Een nieuwe app maken |![oranje x](media/end-user-features/orange-x.png)  |![oranje x](media/end-user-features/orange-x.png)   |
- |Appsource: downloaden en openen | ![oranje x](media/end-user-features/orange-x.png)  |![oranje x](media/end-user-features/orange-x.png) | 
+ |AppSource: downloaden en openen | ![oranje x](media/end-user-features/orange-x.png)  |![oranje x](media/end-user-features/orange-x.png) | 
 |Zakelijke opslag: downloaden en openen|![oranje x](media/end-user-features/orange-x.png)  |![groene stip](media/end-user-license/power-bi-green-dot.png)  |
  |**App-werkruimten**
 | Werkruimte of inhoud maken, bewerken of verwijderen  | ![oranje x](media/end-user-features/orange-x.png)  |![oranje x](media/end-user-features/orange-x.png) |
@@ -129,7 +129,7 @@ Functies met een ![oranje x](media/end-user-features/orange-x.png) zijn niet bes
 | Bladwijzers weergeven die door anderen zijn gemaakt en uw eigen bladwijzers toevoegen  | ![oranje x](media/end-user-features/orange-x.png)|![groene stip](media/end-user-license/power-bi-green-dot.png)  |
 | Opmerkingen van anderen weergeven en erop reageren: nieuwe opmerkingen toevoegen  | ![oranje x](media/end-user-features/orange-x.png)|![groene stip](media/end-user-license/power-bi-green-dot.png)  |
 |Afmetingen van weergave aanpassen   | ![groene myw](media/end-user-features/green-mwo.png) | ![groene stip](media/end-user-license/power-bi-green-dot.png)  | 
-| Een kopie opslaan |![oranje x](media/end-user-features/orange-x.png) |![groene stip](media/end-user-license/power-bi-green-dot.png)*  
+| Een kopie opslaan |![oranje x](media/end-user-features/orange-x.png) |![oranje x](media/end-user-features/orange-x.png)  
 |Visual als afbeelding kopiëren* |
 | Rapportvisuals kruislings markeren en filteren   |![groene myw](media/end-user-features/green-mwo.png) |![groene stip](media/end-user-license/power-bi-green-dot.png)  |
 |  Inzoomen   |![groene myw](media/end-user-features/green-mwo.png)  |![groene stip](media/end-user-license/power-bi-green-dot.png)  |

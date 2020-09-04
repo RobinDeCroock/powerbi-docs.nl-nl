@@ -6,17 +6,17 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/19/2020
+ms.date: 08/30/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5f8b2fd4c999853e09852e69406968cad2fb9490
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216167"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286682"
 ---
-# <a name="dashboards-for-power-bi-service-consumers"></a>Dashboards voor gebruikers van de Power BI-service
+# <a name="dashboards-for-business-users-of-the-power-bi-service"></a>Dashboards voor zakelijke gebruikers van de Power BI-service
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
@@ -24,16 +24,16 @@ ms.locfileid: "86216167"
 
 Een Power BI-***dashboard*** bestaat uit één pagina, ook wel een canvas genoemd, die gebruikmaakt van visualisaties om een verhaal te vertellen. Aangezien het maar één pagina betreft, bevat een goed ontworpen dashboard alleen de belangrijkste elementen van dat verhaal.
 
-![Dashboard](media/end-user-dashboards/power-bi-dashboard2.png)
+![Schermopname van een dashboard](media/end-user-dashboards/power-bi-dashboard.png)
 
 De visuals die u op het dashboard ziet, worden *tegels* genoemd. Ze zijn door *rapportontwerpers* *vastgemaakt* aan het dashboard. Als u een tegel selecteert, gaat u meestal naar de rapportpagina waar de visual is gemaakt. Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door de [basisconcepten van Power BI](end-user-basic-concepts.md) te lezen
 
 > [!NOTE]
 > Dashboards kunnen [op mobiele apparaten worden bekeken en gedeeld](mobile/mobile-apps-view-dashboard.md).
 >
-> Voor het weergeven van een dashboard dat met u is gedeeld, hebt u Power BI Pro nodig.
+> Als u wilt dat collega's dashboards met u kunnen delen, moet u versie van Power BI 'Pro' of 'Premium' zijn. Raadpleeg [Power BI-licentietypen](end-user-license.md) voor meer informatie.
 
-De visualisaties op een dashboard zijn afkomstig uit rapporten en elk rapport is gebaseerd op één gegevensset. Een dashboard kan dan ook worden gezien als een ingang tot de onderliggende rapporten en gegevenssets. Als u een visualisatie selecteert, gaat u naar het rapport (en de gegevensset) die is gebruikt om de visualisatie te maken.
+De visualisaties op een dashboard zijn afkomstig uit rapporten en elk rapport is gebaseerd op één gegevensset. Een dashboard kan dan ook worden gezien als een ingang tot de onderliggende rapporten en gegevenssets. Als u een visualisatie selecteert, gaat u naar het rapport die is gebruikt om de visualisatie te maken.
 
 ![Diagram met de relatie tussen dashboards, rapporten en gegevenssets](media/end-user-dashboards/power-bi-diagram.png)
 
@@ -42,21 +42,22 @@ Dashboards zijn een fantastische manier om uw bedrijf te monitoren, te zoeken na
 
 Een dashboard is niet alleen een mooi plaatje; het is interactief en de tegels worden bijgewerkt wanneer de onderliggende gegevens wijzigen.
 
-## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Dashboards versus rapporten voor Power BI-***gebruikers***
-Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visualisaties zijn. Maar vanuit de optiek van een Power BI-*gebruiker* zijn er enkele belangrijke verschillen.
+## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>Dashboards versus rapporten voor ***zakelijke Power BI-gebruikers***
+Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visualisaties zijn. Maar vanuit de optiek van een *zakelijke Power BI-gebruiker* zijn er enkele belangrijke verschillen.
 
 | **Mogelijkheid** | **Dashboards** | **Rapporten** |
 | --- | --- | --- |
 | Pagina's |Eén pagina |Een of meer pagina's |
+|Het veld **Een vraag over uw gegevens stellen** (Power BI Q&A) bovenaan |bijna altijd | nee |
 | Gegevensbronnen |Een of meer rapporten en een of meer gegevenssets per dashboard |Eén gegevensset per rapport |
 | Filteren |U kunt niet filteren of segmenteren |Er zijn verschillende manieren voor filteren, markeren en segmenteren |
 | Waarschuwingen instellen |U kunt waarschuwingen aanmaken om u te e-mailen wanneer aan bepaalde voorwaarden is voldaan |Nee |
-| Aanbevolen |U kunt één dashboard instellen als uw aanbevolen dashboard |U kunt geen aanbevolen rapport aanmaken |
-| U kunt onderliggende tabellen en velden van de gegevensset bekijken |Aantal U kunt gegevens exporteren maar tabellen en velden niet in het dashboard zelf zien. |Ja. U kunt tabellen en velden en waarden van gegevenssets bekijken. |
+| Uitgelicht |U kunt één dashboard instellen als uw aanbevolen dashboard |U kunt geen aanbevolen rapport aanmaken |
+| U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar tabellen en velden niet in het dashboard zelf zien. |Ja. U kunt tabellen en velden en waarden van gegevenssets bekijken. |
 
 
-## <a name="dashboard-designers-and-dashboard-consumers"></a>Ontwerpers en gebruikers van dashboards
-Als Power BI-***gebruiker*** ontvangt u dashboards van *ontwerpers*. Uitgebreidere informatie over dashboards leest u in deze onderwerpen:
+## <a name="dashboard-designers-and-dashboard-business-users"></a>Dashboardontwerpers en zakelijke dashboardgebruikers
+Als ***zakelijke Power BI-gebruiker*** ontvangt u dashboards van *ontwerpers*. Uitgebreidere informatie over dashboards leest u in deze onderwerpen:
 
 * [Een dashboard weergeven](end-user-dashboard-open.md)
 * Meer informatie over [dashboardtegels](end-user-tiles.md) en wat er gebeurt als u een tegel selecteert.

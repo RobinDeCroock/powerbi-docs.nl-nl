@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229958"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937626"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Verbinding maken met metrische Power BI Premium-capaciteitsgegevens
 Bewaking van uw capaciteiten is essentieel voor het nemen van gefundeerde beslissingen over hoe u uw Premium-capaciteitsresources het beste kunt gebruiken. De Power BI Premium Capacity Metrics-app biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren.
@@ -63,6 +63,7 @@ Nadat u de app hebt geïnstalleerd en verbinding hebt gemaakt met de gegevensbro
 1. In het dialoogvenster dat wordt weergegeven, stelt u de UTC-offset in, dat wil zeggen, het verschil in uren tussen de UTC-tijd (Coordinated Universal Time) en de tijd op uw locatie. Klik of tik op **Volgende**.
   
    ![Dialoogvenster Power BI Premium Capacity Metrics-app - UTC instellen](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   **Opmerking: De indelingen voor halve uren moeten decimalen zijn (bijvoorbeeld 5,5, 2,5, enz.).**
 
 1. In het volgende dialoogvenster dat wordt weergegeven, hoeft u niets te doen. U kunt gewoon **Aanmelden** selecteren.
 

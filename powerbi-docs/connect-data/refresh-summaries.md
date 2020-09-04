@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7a1fabd1c61219d7f195253a4384accfd2521d24
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235999"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040219"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Vernieuwingsoverzichten in Power BI
 
@@ -60,6 +60,8 @@ De weergave Planning is erg handig om te bepalen of de geplande vernieuwingsgebe
 ![De weergave Planning](media/refresh-summaries/refresh-summaries-02.jpg)
 
 De kolom *Geboekte vernieuwingstijd (minuten)* is een berekening van het gemiddelde van maximaal 60 records voor elke bijbehorende gegevensset. De numerieke waarde voor elk tijdvak van 30 minuten is de som van de minuten die zijn berekend voor alle geplande vernieuwingen die volgens planning beginnen in het tijdvak **en** geplande vernieuwingen zijn ingesteld om te beginnen in het *vorige* tijdvak, maar waarvan de gemiddelde duur overloopt in het geselecteerde tijdvak.
+
+De kolom *Beschikbare vernieuwingstijd (minuten)* is een berekening van het aantal beschikbare minuten voor vernieuwingen in elk tijdsslot, minus de vernieuwing die al is ingepland voor dat tijdslot. Als uw P2-abonnement bijvoorbeeld 12 gelijktijdig uitgevoerde vernieuwingen biedt, hebt u 12 slots van 30 minuten, dus 12 vernieuwingen x 30 minuten per stuk = 360 beschikbare minuten voor vernieuwingen in dat tijdslot. Als u één vernieuwing hebt geboekt in dat slot die 20 minuten duurt, is uw *Beschikbare vernieuwingstijd (minuten)* in dat tijdslot 340 minuten (360 totale beschikbare minuten, min 20 geboekte minuten = 340 beschikbare minuten). 
 
 U kunt een tijdvak selecteren en vervolgens de bijbehorende knop **Details** selecteren om te zien welke geplande vernieuwingsgebeurtenissen onderdeel uitmaken van de geboekte vernieuwingstijd, de eigenaren daarvan en hoe lang het duurt voordat deze zijn voltooid.
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4321ed284a6db7b4ed021c51d9fa1abe6752b75a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348615"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092355"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Zelfstudie: Gegevens van een webpagina analyseren met Power BI Desktop
 
@@ -169,7 +169,7 @@ U kunt de weergave van een visualisatie wijzigen door deze te selecteren en verv
 
 1. Selecteer met de visualisatie geselecteerd het pictogram **Opmaak** en selecteer vervolgens **Gegevenskleuren** om de opties voor gegevenskleuren uit te vouwen.
 
-   ![Gegevens opmaken met kleuren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   ![Pictogram voor opmaak en selectie van gegevenskleuren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
 
 1. Schakel **Alles weergeven** in op **Aan** en selecteer vervolgens de vervolgkeuzelijst naast **West Germany** en kies de kleur geel.
 
@@ -179,7 +179,7 @@ U kunt de weergave van een visualisatie wijzigen door deze te selecteren en verv
 
 1. Wijzig de **Tekenkleur**in rood, de **Tekengrootte** in **12** en de **Lettertypefamilie** in **Segoe (Bold)** .
 
-   ![Gegevens opmaken met kleuren](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   ![Kleur, grootte en familie van lettertype](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
 De visualisatie van uw kaart ziet er nu als volgt uit:
 
@@ -201,7 +201,7 @@ Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegev
 
 ## <a name="see-also"></a>Zie ook
 
-* [Andere zelfstudies voor Power BI Desktop lezen](/power-bi/guided-learning/)
+* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Power BI Desktop-video's bekijken](../fundamentals/desktop-videos.md)
 * [Een bezoek brengen aan het Power BI-forum](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Het Power BI-blog lezen](https://go.microsoft.com/fwlink/?LinkID=519327)

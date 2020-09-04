@@ -6,24 +6,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/21/2020
+ms.date: 09/01/2020
 ms.author: maggies
-ms.openlocfilehash: bb769937e99cd3e936d7f5f3967e8f17b939242c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69aa11216624416f005dcb2e47d1b818204ae7ec
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236070"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286723"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Wijzig de verbindingsreeksen voor gegevensbronnen in Power BI-rapporten met PowerShell - Power BI Report Server
 
 
-U kunt verbindingsreeksen voor gegevensbronnen wijzigen in Power BI-rapporten in Power BI Report Server met behulp van API's in PowerShell. 
+U kunt de verbindingsreeks van gegevensbronnen wijzigen van Power BI-rapporten die worden gehost in Power BI Report Server door PowerShell te gebruiken om met de nodige API's te communiceren. 
 
 > [!NOTE]
 > Deze functionaliteit werkt momenteel alleen voor DirectQuery. Binnenkort is ondersteuning beschikbaar voor importeren en gegevens vernieuwen.
 
 1. Installeer de Power BI Report Server PowerShell-commandlets. Zoek de commandlets en installatie-instructies op [https://github.com/Microsoft/ReportingServicesTools](https://github.com/Microsoft/ReportingServicesTools). 
+
+    Installeer de module `ReportingServicesTools` rechtstreeks uit de [PowerShell Gallery](https://www.powershellgallery.com/packages/ReportingServicesTools/) met de volgende opdracht.
+
+    ```powershell
+    Install-Module ReportingServicesTools
+    ```
 
 2. Haal de bestaande gegevensbrongegevens op voor het Power BI-bestand via de PowerShell-commandlets:
 
@@ -70,4 +76,4 @@ U kunt verbindingsreeksen voor gegevensbronnen wijzigen in Power BI-rapporten in
 
 [Gegevensbronnen voor gepagineerde rapporten in Power BI Report Server](connect-data-sources.md) 
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

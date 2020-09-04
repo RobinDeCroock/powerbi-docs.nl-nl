@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/02/2020
+ms.date: 08/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939494"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092309"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in *Power BI Desktop* verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in Power BI Desktop importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via DirectQuery.
@@ -50,6 +50,8 @@ Het gebruik van DirectQuery is onderhevig aan de volgende beperkingen:
 - Als de query in **Query-editor** te complex is, treedt er een fout op. Om de fout te verhelpen, moet u de problematische stap in **Query-editor** verwijderen, of de gegevens *importeren* in plaats van DirectQuery te gebruiken. Bij multidimensionale bronnen, zoals SAP Business Warehouse, is er geen **Query-editor**.
 
 - Time intelligence-functies zijn niet beschikbaar in DirectQuery. Speciale behandeling van datumkolommen (jaar, kwartaal, maand of dag) wordt bijvoorbeeld niet ondersteund in de modus DirectQuery.
+
+- Berekende tabellen en berekende kolommen die verwijzen naar een DirectQuery-tabel vanuit een gegevensbron met SSO (eenmalige aanmelding) worden niet ondersteund in de Power BI-service.
 
 - Om de prestaties van query's die naar de onderliggende gegevensbron worden verzonden acceptabel te houden, worden er beperkingen opgelegd aan de DAX-expressies die zijn toegestaan in metingen.
 

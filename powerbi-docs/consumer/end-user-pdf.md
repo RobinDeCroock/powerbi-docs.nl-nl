@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702669"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040196"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
 
@@ -35,6 +35,8 @@ Selecteer in de Power BI-service een rapport om weer te geven op het canvas. U k
     Er wordt een pop-upvenster weergegeven waarin u de **huidige waarden** of de **standaardwaarden** kunt selecteren. Met **Huidige waarden** exporteert u het rapport in de huidige staat, inclusief de actieve wijzigingen die u in de slicer- en filterwaarden hebt aangebracht. De meeste gebruikers selecteren deze optie. U kunt ook **Standaardweergave** selecteren, waarmee u het rapport in de oorspronkelijke staat exporteert (zoals de *ontwerper* dit heeft gedeeld), en waarin geen wijzigingen worden weergegeven die u hebt aangebracht voor de oorspronkelijke staat.
     
     Daarnaast is er een selectievakje dat u waarmee u kunt bepalen of u de verborgen tabbladen van een rapport wilt exporteren. U schakelt dit selectievakje in als u alleen tabbladen van een rapport wilt exporteren die in uw browser worden weergegeven. Als u wilt dat ook alle verborgen tabbladen worden weergegeven als onderdeel van de export, laat u dit selectievakje uitgeschakeld. Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport. Nadat u de selecties hebt gemaakt, selecteert u **Exporteren** om door te gaan.
+    
+    U kunt er ook voor kiezen om alleen de huidige pagina te exporteren uit een rapport door de optie 'Alleen de huidige pagina exporteren' aan te vinken.  Standaard worden alle pagina's van uw rapport geëxporteerd, omdat deze optie is uitgeschakeld.
     
     Er wordt een voortgangsbalk weergegeven in de rechterbovenhoek. Het exporteren kan enkele minuten duren. U kunt tijdens het exporteren van het rapport in Power BI blijven werken.
 

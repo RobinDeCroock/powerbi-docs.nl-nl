@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/26/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162061"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937684"
 ---
 # <a name="what-are-bookmarks"></a>Wat zijn bladwijzers?
 
@@ -29,18 +29,24 @@ Er zijn vele toepassingen voor bladwijzers. Stel dat u een interessant inzicht o
 
 U kunt ook een verzameling bladwijzers maken, deze rangschikken in de gewenste volgorde en vervolgens de bladwijzers doorlopen in een presentatie om een reeks inzichten te markeren die een verhaal vertellen.  
 
-![Deelvenster Bladwijzers weergeven door het te selecteren op het lint.](media/end-user-bookmarks/power-bi-select-bookmark.png)
+![Deelvenster Bladwijzers weergeven door het te selecteren op het lint.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>Bladwijzers openen
-Als u het deelvenster Bladwijzers wilt openen, selecteert u **Bladwijzers** > **Meer bladwijzers weergeven** in de menubalk. Selecteer **Standaardinstelling herstellen** om terug te keren naar de oorspronkelijke gepubliceerde weergave van het rapport.
+Als u het deelvenster Bladwijzers wilt openen, selecteert u **Bladwijzers** > **Meer bladwijzers weergeven** in de menubalk. 
+
+![schermopname van rapportcanvas met het deelvenster Bladwijzers geopend.](media/end-user-bookmarks/power-bi-show-bookmarks.png)
+
+Selecteer het pictogram **opnieuw instellen** om terug te keren naar de oorspronkelijke gepubliceerde weergave van het rapport.
+
+![schermopname met het pictogram terugdraaien geselecteerd](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>Rapportbladwijzers
-Als de rapport*ontwerper* rapportbladwijzers heeft opgenomen, vindt u deze onder de kop **Rapportbladwijzers**. Deze rapportpagina heeft twee bladwijzers: B1 en B2. 
+Als de rapport*ontwerper* rapportbladwijzers heeft opgenomen, vindt u deze onder de kop **Rapportbladwijzers**. Deze rapportpagina heeft vier bladwijzers: B1, B2, VanArsdel YTD en All YTD. **All YTD** is momenteel geselecteerd.
 
 > [!NOTE]
 > U hebt Power BI Pro of Premium nodig om gedeelde rapporten weer te geven. 
 
-![Geef Rapportbladwijzers weer.](media/end-user-bookmarks/power-bi-report.png)
+![Geef Rapportbladwijzers weer.](media/end-user-bookmarks/power-bi-bookmark-list.png)
 
 Selecteer een bladwijzer om over te schakelen op die rapportweergave. 
 
@@ -48,7 +54,7 @@ Selecteer een bladwijzer om over te schakelen op die rapportweergave.
 
 ### <a name="personal-bookmarks"></a>Persoonlijke bladwijzers
 
-Wanneer u een bladwijzer maakt, worden de volgende elementen opgeslagen met de bladwijzer:
+Als u een rapport kunt bekijken, kunt u ook persoonlijke bladwijzers toevoegen.  Wanneer u een bladwijzer maakt, worden de volgende elementen opgeslagen met de bladwijzer:
 
 * De huidige pagina
 * Filters
@@ -59,15 +65,21 @@ Wanneer u een bladwijzer maakt, worden de volgende elementen opgeslagen met de b
 * Zichtbaarheid (van een object via het deelvenster **Selectie**)
 * De focus- of **Spotlight**-modus van een zichtbaar object
 
-Configureer een rapportpagina zoals u deze wilt weergeven in de bladwijzer. Zodra de rapportpagina en visuele elementen naar wens zijn gerangschikt, selecteert u **Toevoegen** in het deelvenster **Bladwijzers** om een bladwijzer toe te voegen. In dit voorbeeld hebben we enkele filters toegevoegd voor de regio en de datum. 
+Configureer een rapportpagina zoals u deze wilt weergeven in de bladwijzer. In dit voorbeeld geldt het volgende:
 
-![Voeg persoonlijke bladwijzers toe.](media/end-user-bookmarks/power-bi-bookmark-personal.png)
+1. We hebben het bestaande datumfilter in het deelvenster **Filters** gewijzigd,
+1. het bestaande regiofilter in het deelvenster **Filters** gewijzigd
+1.  en hebben gegevenspunten in het ringdiagram geselecteerd om het rapportcanvas kruislings te filteren en te markeren. 
+
+Zodra de rapportpagina en visuele elementen naar wens zijn gerangschikt, selecteert u **Toevoegen** in het deelvenster **Bladwijzers** om een bladwijzer toe te voegen. 
+
+![Voeg persoonlijke bladwijzers toe.](media/end-user-bookmarks/power-bi-personal.png)
 
 **Power BI** maakt een persoonlijke bladwijzer en geeft deze een algemene naam of een naam die u invoert. U kunt de *naam wijzigen* van een bladwijzer, een bladwijzer *verwijderen* of een bladwijzer *bijwerken* door het beletselteken naast de naam van de bladwijzer te selecteren en een bewerking te selecteren in het menu dat wordt weergegeven.
 
-Nadat u een bladwijzer hebt gemaakt, kunt u deze weergeven door eenvoudig de bladwijzer te selecteren in het deelvenster **Bladwijzers**. 
+Nadat u een bladwijzer hebt, kunt u deze weergeven door de bladwijzer in het deelvenster **Bladwijzers** te selecteren. 
 
-![Voeg persoonlijke bladwijzers toe.](media/end-user-bookmarks/power-bi-bookmark-west.png)
+![Geef een bepaalde bladwijzer weer door te selecteren.](media/end-user-bookmarks/power-bi-selected.png)
 
 
 <!--
@@ -91,7 +103,7 @@ In de **weergavemodus** moet u op enkele dingen letten:
 - De bladwijzerbalk bevat pijlen waarmee u naar de volgende of vorige bladwijzer kunt gaan.
 - U kunt de **Weergavemodus** afsluiten door **Afsluiten** te selecteren in het deelvenster **Bladwijzers** of door de **X** op de bladwijzerbalk te selecteren.
 
-![Diavoorstelling van bladwijzers](media/end-user-bookmarks/power-bi-slideshow.png)
+![Diavoorstelling van bladwijzers](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
 In de **weergavemodus** kunt u het deelvenster **Bladwijzers** sluiten (door te klikken op de X in dit deelvenster) om meer ruimte vrij te maken voor de presentatie. In de **Weergavemodus** zijn alle visuele elementen interactief en beschikbaar voor kruislingse markering, net zoals wanneer u er normaal mee werkt. 
 

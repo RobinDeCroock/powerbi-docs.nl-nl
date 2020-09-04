@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c70229a37a697fedba54cde1899073f20710f542
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6147bc0ee725eb7adc7e1edb637a22bb7dc66558
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161762"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040286"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Wijzigen hoe een diagram in een Power BI-rapport wordt gesorteerd
 
@@ -24,24 +24,24 @@ ms.locfileid: "86161762"
 > [!IMPORTANT]
 > **Dit artikel is bedoeld voor Power BI-gebruikers die niet beschikken over bewerkingsmachtigingen voor het rapport of de gegevensset en die alleen werken in de online versie van Power BI (de Power BI-service). Als u een *ontwerper* van rapporten bent, of een *beheerder* of *eigenaar*, bevat dit artikel mogelijk niet alle informatie die u nodig hebt. Lees in dat geval [Op kolom sorteren in Power BI Desktop](../create-reports/desktop-sort-by-column.md)** .
 
-U kunt in de Power BI-service de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen. Of u nu numerieke gegevens (zoals verkoopcijfers) of tekstgegevens (zoals provincienamen) gebruikt, u kunt uw visualisaties sorteren zoals u wilt. Power BI biedt veel flexibiliteit voor sorteren en snelle menu's die u kunt gebruiken. 
+U kunt in de Power BI-service de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen. Of u nu numerieke gegevens (zoals verkoopcijfers) of tekstgegevens (zoals provincienamen) gebruikt, u kunt uw visuals sorteren zoals u wilt. Power BI biedt veel flexibiliteit voor sorteren en snelle menu's die u kunt gebruiken. 
 
-Visuals op een dashboard kunnen niet worden gesorteerd. Maar in een Power BI-rapport kunt u de meeste visualisaties met één en soms twee velden tegelijk sorteren. Voor bepaalde typen visuals is sorteren niet beschikbaar: structuurkaarten, meters, kaarten, enzovoort. 
+Visuals op een dashboard kunnen niet worden gesorteerd. Maar in een Power BI-rapport kunt u de meeste visuals met één en soms twee velden tegelijk sorteren. Voor bepaalde typen visuals is sorteren niet beschikbaar: structuurkaarten, meters, kaarten, enzovoort. 
 
 ## <a name="get-started"></a>Aan de slag
 
-Open een rapport dat met u is gedeeld om aan de slag te gaan. Selecteer een visual (dat kan worden gesorteerd) en kies **Meer acties** (...).  Er zijn drie opties voor het sorteren: **Aflopend sorteren**, **Oplopend sorteren** en **Sorteren op**. 
+Open een rapport dat u hebt gemaakt of dat met u is gedeeld om aan de slag te gaan. Selecteer een visual (dat kan worden gesorteerd) en kies **Meer acties** (...).  Er zijn drie opties voor het sorteren: **Aflopend sorteren**, **Oplopend sorteren** en **Sorteren op**. 
     
 
-![Staafdiagram waar x-as alfabetisch is gesorteerd](media/end-user-change-sort/power-bi-more-actions.png)
+![Staafdiagram waar y-as alfabetisch is gesorteerd](media/end-user-change-sort/power-bi-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>Alfabetisch of numeriek sorteren
 
-U kunt u visuals alfabetisch sorteren op de tekstnamen van de categorieën in de visual, of op de numerieke waarden van elke categorie. Zo is dit diagram alfabetisch gesorteerd op de X-ascategorie **Winkelnaam**.
+U kunt u visuals alfabetisch sorteren op namen van categorieën in de visual, of op de numerieke waarden van elke categorie. Zo is dit diagram alfabetisch gesorteerd op de X-ascategorie **Winkelnaam**.
 
 ![Staafdiagram waar x-as alfabetisch is gesorteerd](media/end-user-change-sort/powerbi-sort-category.png)
 
-U kunt de sortering eenvoudig wijzigen van een categorie (winkelnaam) in een waarde (verkoop per vierkante meter). Selecteer **Meer acties** (...) en kies **Sorteren op**. Selecteer een numerieke waarde die wordt gebruikt in de visual.  In dit voorbeeld hebben we **Verkoop per vierkante meter** geselecteerd.
+Als u de sortering van een categorie wilt wijzigen (winkelnaam) naar een waarde (verkoop per vierkante meter), selecteert u **Meer acties** (...) en kiest u **Sorteren op**. Selecteer een numerieke waarde die wordt gebruikt in de visual.  In dit voorbeeld hebben we **Verkoop per vierkante meter** geselecteerd.
 
 ![Schermopname van het selecteren van de actie Sorteren op en vervolgens het selecteren van een waarde](media/end-user-change-sort/power-bi-sort-value.png)
 
@@ -55,14 +55,14 @@ Wijzig, indien nodig, de sorteervolgorde van oplopend in aflopend.  Selecteer op
 ## <a name="sorting-by-multiple-columns"></a>Op meerdere kolommen sorteren
 De gegevens in deze tabel worden gesorteerd op **Aantal klanten**.  We weten dit dankzij de kleine pijl onder het woord *Nummer*. De pijl wijst omlaag, wat betekent dat de kolom wordt gesorteerd in *aflopende* volgorde.
 
-![schermopname met de eerste kolom die wordt gebruikt voor sorteren](media/end-user-change-sort/power-bi-sort-first.png)
+![schermopname met de eerste kolom die wordt gebruikt voor sorteren](media/end-user-change-sort/power-bi-sort-column.png)
 
 
 Als u meer kolommen wilt toevoegen aan de sorteer volgorde, houdt u Shift ingedrukt en klikt u op de kolomkop die u wilt toevoegen als volgende in de sorteervolgorde. Als u bijvoorbeeld op **Aantal klanten** en vervolgens Shift indrukt en klikt op **Totale omzet**, wordt de tabel eerst gesorteerd op klanten en vervolgens op omzet. In het rode overzicht worden gebieden weergegeven waar de sorteervolgorde is gewijzigd.
 
 ![schermopname met de tweede kolom die wordt gebruikt voor sorteren](media/end-user-change-sort/power-bi-sort-second.png)
 
-Als u Shift indrukt en een tweede keer op dezelfde kolom klikt, wordt de sorteerrichting voor die kolom gewijzigd. Als u Shift indrukt en klikt u op een kolom die u eerder hebt toegevoegd aan de sorteervolgorde, wordt deze kolom ook verplaatst naar de achtergrond van de sorteervolgorde.
+Als u Shift indrukt en een tweede keer op dezelfde kolom klikt, wordt de sorteerrichting (oplopend, aflopend) voor die kolom gewijzigd. Als u Shift indrukt en klikt u op een kolom die u eerder hebt toegevoegd aan de sorteervolgorde, wordt deze kolom ook verplaatst naar de achtergrond van de sorteervolgorde.
 
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>Wijzigingen opslaan die u aan de sorteervolgorde hebt aangebracht
@@ -80,7 +80,7 @@ Af en toe wilt u de visual sorteren met behulp van een ander veld (Dat niet in d
 
 Alleen de persoon die het rapport heeft ontworpen, kan deze wijzigingen voor u aanbrengen. Contactinformatie voor de *ontwerper* vindt u door de naam van het rapport te selecteren in de balk met de koptekst.
 
-![Vervolgkeuzelijst met contactgegevens](media/end-user-change-sort/power-bi-contact.png)
+![Vervolgkeuzelijst met contactgegevens](media/end-user-change-sort/power-bi-header.png)
 
 Als u een *ontwerper* bent en beschikt over bewerkingsmachtigingen voor de inhoud, leest u [Sorteren op kolom in Power BI Desktop](../create-reports/desktop-sort-by-column.md) voor meer informatie over het bijwerken van de gegevensset en het inschakelen van dit type sortering.
 

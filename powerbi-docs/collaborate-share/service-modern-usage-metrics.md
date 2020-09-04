@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478148"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937534"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Metrische gebruiksgegevens controleren in de nieuwe werkruimte-ervaring (preview)
 
@@ -184,6 +184,10 @@ Wanneer u een kopie maakt van het alleen-lezen, vooraf samengestelde rapport, ma
 1. Het nieuwe rapport wordt opgeslagen op het tabblad Rapporten in de huidige werkruimte en wordt ook toegevoegd aan de inhoudslijst Recent.
 
     ![Het nieuwe rapport op het tabblad Rapporten](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-new-report.png)
+    
+> [!NOTE]
+> Wanneer u een kopie bewaart van het rapport van metrische gebruiksgegevens, wordt deze behandeld als een standaard Power BI-rapport. Het is toegankelijk voor alle gebruikers die weergavemachtigingen hebben in de werkruimte, inclusief gebruikers met de Viewer-rol.
+
 
 ### <a name="create-a-new-usage-report-in-power-bi-desktop"></a>Een nieuw gebruiksrapport maken in Power BI Desktop
 
@@ -242,7 +246,14 @@ Wanneer u in Excel verbinding maakt met de gebruiksgegevens, kunt u draaitabelle
 
 ## <a name="usage-metrics-in-national-clouds"></a>Metrische gegevens over gebruik in nationale clouds
 
-Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden hetzelfde niveau van beveiliging, privacy, naleving en transparantie als de algemene versie van Power BI, gecombineerd met een uniek model voor lokale voorschriften met betrekking tot het leveren van services, gegevensopslag, toegang en beheer. Vanwege dit unieke model voor lokale voorschriften zijn metrische gegevens over gebruik niet beschikbaar in nationale clouds. Zie [nationale clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie.
+Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden hetzelfde niveau van beveiliging, privacy, naleving en transparantie als de algemene versie van Power BI, gecombineerd met een uniek model voor lokale voorschriften met betrekking tot het leveren van services, gegevensopslag, toegang en beheer. Moderne metrische gebruiksgegevens zijn momenteel beschikbaar in de volgende nationale clouds: 
+
+- US Government Community Cloud
+- US Government Community Cloud High
+- US Department of Defense
+- China
+
+Zie [nationale clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

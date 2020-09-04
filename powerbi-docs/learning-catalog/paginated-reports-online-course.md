@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427492"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092286"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>De cursus Gepagineerde rapporten in Power BI in een dag
 
@@ -83,28 +83,29 @@ De [cursus van 24 video's](https://www.youtube.com/playlist?list=PL1N57mwBHtN1ic
 
 U kunt een zelfstudiekit downloaden en instellen, die bestaat uit een presentatie van de inhoud en acht praktijklabs:
 
-1. Gebruik [deze koppeling](https://aka.ms/priad-student) om de zelfstudiekit (.zip) lokaal te downloaden naar uw pc.
-1. Open de bestandseigenschappen en schakel het selectievakje Blokkering opheffen in (Windows markeert het bestand mogelijk niet-vertrouwd).
-1. Pak de bestandsinhoud uit naar een map in uw bestandssysteem. Het wordt aanbevolen een map te maken die gemakkelijk te vinden is, met als mogelijke naam **Training**. De labdocumenten verwijzen naar deze locatie als **&lt;CourseFolder&gt;** .
+1. Gebruik [deze koppeling](https://aka.ms/priad-student) om de zelfstudiekit (.zip) lokaal te downloaden naar uw pc (Windows 7 of later).
+1. Open de bestandseigenschappen van het zipbestand en schakel het selectievakje Blokkering opheffen in (Windows markeert het bestand mogelijk niet-vertrouwd).
+1. Maak een hoofdmap. We raden aan om deze een naam als "C:\Training" te geven. U moet deze locatie onthouden, omdat u tijdens de labs toegang nodig hebt tot de cursusbestanden. Alle labdocumenten verwijzen naar deze locatie als **&lt;CourseFolder&gt;** .
+1. Pak de inhoud van het bestand **PowerBIPRIAD-Student.zip** uit in uw hoofdmap.
+1. Op in de map **&lt;CourseFolder&gt;\PowerBIPRIAD** het bestand **ReadMe.txt** en volg de installatie-instructies.
 
-Zodra het bestand is uitgepakt, vindt u de map **PowerBIPRIAD**, waarin u de volgende mappen aantreft:
-
-- **Lab01A** (en alle andere labmappen). De labmappen bevatten het labdocument en labresources, eventueel met inbegrip van activa en oplossingsbestanden.
-- **MySolution**: In deze map worden uw oplossingsbestanden opgeslagen. Via de labinstructies krijgt u aanwijzingen wanneer u deze moet gebruiken.
-- **Presentatie**: Deze map bevat het bestand met een presentatie van de cursus, die beschikbaar is als PDF-document.
-
-### <a name="get-started-with-the-kit"></a>Aan de slag met de kit
-
-Het wordt aanbevolen de onlinecursus eerst te bekijken. U kunt teruggaan naar de presentatietheorie door het bestand **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** te openen. De presentatie bevat acht labdia's, die aangeven wanneer het tijd is om de theorie te oefenen. Deze bevat ook veel resourcekoppelingen waarmee u gerelateerde inhoud kunt vinden.
-
-Wanneer u klaar bent om met het eerste lab te beginnen, opent u het bestand **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf**. In dit document vindt u instructies voor het aanmelden bij de Power BI-service, het uploaden van een gegevensset en vervolgens het installeren van [Power BI Report Builder](https://aka.ms/pbireportbuilder).
+> [!TIP]
+> Het bestand **ReadMe.txt**, de labdocumenten en het presentatiebestand (PDF) zijn beschikbaar in het Engels en de volgende acht talen:
+> - Duits (de-DE)
+> - Spaans (es-ES)
+> - Frans (fr-FR)
+> - Italiaans (it-IT)
+> - Japans (ja-JP)
+> - Koreaans (ko-KR)
+> - Portugees (pt-BR)
+> - Chinees, vereenvoudigd (zh-CN)
 
 > [!NOTE]
 > U bent zelf verantwoordelijk voor het gebruik van uw eigen Power BI-account. Als u er nog geen hebt, raadpleegt u [Registreren voor Power BI als individu](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > U moet zich aanmelden bij Power BI om een Power BI Desktop-bestand te publiceren naar een werkruimte. De publicatie resulteert in een gegevensset die wordt gebruikt als rapportgegevensbron. U hebt geen Power BI Pro-licentie of een Power BI Premium-abonnement nodig om een gegevensset als rapportgegevensbron te gebruiken.
 >
-> Bij sommige labtaken moet u uw gepagineerde rapport naar een werkruimte publiceren. U kunt een gepagineerd rapport alleen openen wanneer dit is opgeslagen in een werkruimte op [toegewezen capaciteit](../admin/service-premium-what-is.md#dedicated-capacities), waarin de workload gepagineerde rapporten is ingeschakeld. Als u geen toegang hebt tot een geschikte werkruimte, wordt een koppeling weergegeven naar een video waarin de publicatie van het rapport wordt gedemonstreerd.
+> Bij sommige labtaken moet u uw gepagineerde rapport naar een werkruimte publiceren. U kunt een gepagineerd rapport alleen openen wanneer dit is opgeslagen in een werkruimte op [toegewezen capaciteit](../admin/service-premium-what-is.md#dedicated-capacities), waarin de workload gepagineerde rapporten is ingeschakeld. Als u geen toegang hebt tot een geschikte werkruimte, geeft het lab een koppeling weer naar een video waarin de publicatie van het rapport wordt gedemonstreerd.
 
 ## <a name="instructor-kit"></a>Kit voor docenten
 

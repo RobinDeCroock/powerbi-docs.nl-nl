@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160413"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040284"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
@@ -49,6 +49,8 @@ Er wordt een pop-upvenster weergegeven waarin u de **huidige waarden** of de **s
 ![Selecteer wat u wilt exporteren](media/end-user-powerpoint/power-bi-current-values.png)
  
 Daarnaast is er een selectievakje dat u uitgeschakeld kunt laten als u de verborgen tabbladen van een rapport wilt exporteren. U schakelt dit selectievakje in als u alleen tabbladen van een rapport wilt exporteren die in uw browser worden weergegeven. Als u wilt dat ook alle verborgen tabbladen worden weergegeven als onderdeel van de export, laat u dit selectievakje uitgeschakeld. Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport. Een voorbeeld van een verborgen tabblad is het tabblad Knopinfo. [Aangepaste knopinfo](../create-reports/desktop-tooltips.md) wordt gemaakt door rapport*ontwerpers* en wordt niet weergegeven als rapporttabblad in de Power BI-service voor *consumenten*. 
+
+U kunt er ook voor kiezen om alleen de huidige pagina te exporteren uit een rapport door de optie 'Alleen de huidige pagina exporteren' aan te vinken.  Standaard worden alle pagina's van uw rapport geëxporteerd, omdat deze optie is uitgeschakeld.
 
 Nadat u de selecties hebt gemaakt, selecteert u **Exporteren** om door te gaan. Er wordt een meldingsbanner in de rechterbovenhoek van het browservenster van de Power BI-service weergegeven die aangeeft dat het rapport naar PowerPoint wordt geëxporteerd. 
 

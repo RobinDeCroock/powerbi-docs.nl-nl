@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f7130b1565c85d8e18188c89c22dda3eda193018
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 9c5c430c09550ba9739c038aabb0dece5d88b1e1
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702623"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092332"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Veelgestelde vragen over Power BI voor Duitse Cloud-klanten
 Er is een versie van de **Power BI-service** beschikbaar voor de EU-/EFTA-klanten (Europese Unie/Europese Vrijhandelsovereenkomst), ook vaak Microsoft Cloud Deutschland (MCD) genoemd. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek voor EU-/EFTA-klanten en staat los en verschilt van de commerciële versie van de **Power BI-service** of Power BI-services die aan overheidsklanten worden geleverd.
@@ -65,7 +65,7 @@ De volgende vragen en antwoorden bieden belangrijke informatie voor Power BI Pro
 | Rechtstreeks aanmelden bij de Power BI-service |[https://app.powerbi.de/?noSignUpCheck=1](https://app.powerbi.de/?noSignUpCheck=1) |[https://app.powerbi.com/?noSignUpCheck=1](https://app.powerbi.com/?noSignUpCheck=1) |
 | Service-API |[https://api.powerbi.de/](https://api.powerbi.de/) |[https://api.powerbi.com/](https://api.powerbi.com/) |
 | Office-portal voor het beheren van gebruikerslicenties, servicestatus- en ondersteuningsaanvragen door beheerders |[https://portal.office.de/](https://portal.office.de/) |[https://portal.office.com/](https://portal.office.com/) |
-| URI van AAD-instantie |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
+| Verificatie-URI voor Azure Active Directory |[https://login.microsoftonline.de/common/oauth2/authorize/](https://login.microsoftonline.de/common/oauth2/authorize/) |[https://login.microsoftonline.com/common/oauth2/authorize/](https://login.microsoftonline.com/common/oauth2/authorize/) |
 | Resource-URI van de Power BI-service |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) | |
 | Bibliotheek met Power BI-visuals |[https://app.powerbi.de/visuals/](https://app.powerbi.de/visuals/) |[https://app.powerbi.com/visuals/](https://app.powerbi.com/visuals/) |
 | Een toepassing registreren voor Power BI (voor Embedded) |[https://app.powerbi.de/apps](https://app.powerbi.de/apps) |[https://app.powerbi.com/apps](https://app.powerbi.com/apps) |
@@ -75,6 +75,6 @@ De volgende vragen en antwoorden bieden belangrijke informatie voor Power BI Pro
 ## <a name="next-steps"></a>Volgende stappen
 Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgende resources voor meer informatie en trainingen, inclusief een artikel waarin wordt uitgelegd hoe zich voor de service kunt aanmelden:
 
-* [Begeleide training voor Power BI](../guided-learning/index.yml)
+* [Begeleide training voor Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Aan de slag met de Power BI-service](../fundamentals/service-get-started.md)
 * [Wat is Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)

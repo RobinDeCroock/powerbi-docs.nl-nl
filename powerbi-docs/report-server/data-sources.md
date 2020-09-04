@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
-ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
+ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88857799"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937557"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
-Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van de manier waarop de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services. Sommige gegevensbronnen worden ondersteund in de versie van Power BI Desktop die is geoptimaliseerd voor Power BI Report Server, maar zijn niet geoptimaliseerd voor Power BI-rapporten die zijn gepubliceerd in Power BI Report Server. Bekijk de volgende lijst voor gegevensbronnen die op beide locaties worden ondersteund.
+Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van de manier waarop de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services. Sommige gegevensbronnen zijn beschikbaar in Power BI Desktop en geoptimaliseerd voor Power BI Report Server, maar worden niet ondersteund wanneer ze worden gepubliceerd in Power BI Report Server.
 
 Deze gegevensbronnen zijn specifiek voor Power BI-rapporten die in Power BI Report Server worden gebruikt. Zie [Data Sources Supported by Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) (Gegevensbronnen die worden ondersteund door Reporting Services) voor meer informatie over gegevensbronnen die worden ondersteund met gepagineerde rapporten (.rdl).
 

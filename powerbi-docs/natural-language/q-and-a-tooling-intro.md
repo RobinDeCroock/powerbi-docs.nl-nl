@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: aaa31851f338832a8c4f4fffb38f12414c859610
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578133"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937465"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>Inleiding tot Q&A-hulpprogramma's om Power BI Q&A (preview) te trainen
 
@@ -80,6 +80,11 @@ Hier wordt alles wat u hebt opgeslagen in de sectie Q&A trainen weergegeven, zod
 
 ### <a name="suggest-questions"></a>Vragen voorstellen
 
+> [!NOTE]
+> De voorgestelde vragen worden weergegeven voor alle exemplaren van de Q&A-visual. Het is niet mogelijk om een afzonderlijke set suggesties te maken voor elke Q&A-visual.
+> 
+> 
+
 Ook wanneer u geen configuratie uitvoert, worden met de Q&A-visual een aantal vragen voorgesteld om aan de slag te gaan. Deze vragen worden automatisch gegenereerd op basis van uw gegevensmodel. In **Vragen voorstellen** kunt u de automatisch gegenereerde vragen overschrijven met uw eigen vragen.
 
 Om te beginnen typt u de vraag in het tekstvak dat u wilt toevoegen. In de preview-sectie ziet u hoe het resultaat eruit komt te zien in de Q&A-visual. 
@@ -91,11 +96,6 @@ Selecteer de knop **Toevoegen** om deze vraag toe te voegen aan **Uw voorgesteld
 :::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="Voorgestelde vragen opslaan":::
  
 Zorg ervoor dat u **Opslaan** selecteert om uw lijst met voorgestelde vragen weer te geven in de Q&A-visual. 
-
-> [!NOTE]
-> De voorgestelde vragen worden weergegeven voor alle exemplaren van de Q&A-visual. Het is niet mogelijk om een afzonderlijke set suggesties te maken voor elke Q&A-visual.
-> 
-> 
 
 ## <a name="other-qa-settings"></a>Andere Q&A-instellingen
 

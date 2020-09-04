@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952724"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937488"
 ---
 # <a name="analyze-in-excel"></a>In Excel analyseren
 Met **Analyseren in Excel**kunt u Power BI-gegevenssets overbrengen naar Excel, en ze daar weergeven en bewerken met behulp van draaitabellen, grafieken, slicers en andere Excel-functies. Als u **Analyseren in Excel** wilt gebruiken, moet u de functie eerst downloaden uit Power BI downloaden en installeren, en vervolgens een of meer gegevenssets selecteren voor gebruik in Excel. 
@@ -44,7 +44,7 @@ Nadat u zich hebt aangemeld en de Power BI-service wordt uitgevoerd in uw browse
 
 U kunt ook in de Power BI-service naar een gegevensset gaan die u wilt analyseren en het item **Meer opties** selecteren voor een gegevensset, rapport of ander Power BI-item. Selecteer in het menu dat wordt weergegeven de optie **Analyseren in Excel**, zoals deze wordt weergegeven in de volgende afbeelding.
 
-![In Excel analyseren](media/service-analyze-in-excel/analyze-excel-01.png)
+![Analyseren in Excel vanuit een gegevensset](media/service-analyze-in-excel/analyze-excel-01.png)
 
 In beide gevallen detecteert Power BI of u Analyseren in Excel hebt geïnstalleerd. Als dat niet het geval is, wordt u gevraagd de functie te downloaden. 
 
@@ -56,7 +56,7 @@ Wanneer u Downloaden selecteert, detecteert Power BI de versie van Excel die u h
 
 Wanneer het downloaden is voltooid, voert u het installatieprogramma (.msi) uit om Analyseren in Excel te installeren. De naam van het installatieproces is niet Analyseren in Excel, maar iets als **Microsoft Analysis Services OLE DB-provider** zoals wordt weergegeven in de volgende afbeelding.
 
-![Updates installeren](media/service-analyze-in-excel/analyze-excel-05.png)
+![Werkt de installatie van Analysis Services OLE DB-provider bij](media/service-analyze-in-excel/analyze-excel-05.png)
 
 Als het installeren is voltooid, kunt u een rapport selecteren in de Power BI-service (of een ander Power BI gegevenselement, zoals een gegevensset), en dit vervolgens analyseren in Excel.
 
@@ -81,6 +81,9 @@ Navigeer in het Power BI-service naar de gegevensset of het rapport dat u wilt a
 
     De bestandsnaam komt overeen met die van de gegevensset (of het rapport of een andere gegevensbron) waaruit deze is afgeleid. Als het rapport dus *Quarterly Report* heet, dan heet het gedownloade bestand **Quarterly Report.xlsx**.
 
+    >[!Note]
+    >Analyseren in Excel downloadt nu een Excel-bestand in plaats van een ODC-bestand. Hiermee wordt gegevensbescherming ingeschakeld voor gegevens die vanuit Power BI worden geëxporteerd. Het gedownloade Excel-bestand neemt het vertrouwelijkheidslabel over van de gegevensset die wordt geanalyseerd in Excel.
+
 3. Open het Excel-bestand.
 
     >[!NOTE]
@@ -90,7 +93,7 @@ Navigeer in het Power BI-service naar de gegevensset of het rapport dat u wilt a
     >
     >![Schermopname van de banner Inhoud inschakelen in Vertrouwd document](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
-## <a name="use-excel-to-analyze-the-data"></a>Excel-to-analyze-the-data gebruiken
+## <a name="use-excel-to-analyze-the-data"></a>Excel gebruiken om de gegevens te analyseren
 
 Zodra u bewerken en inhoud hebt ingeschakeld, ziet u in Excel een lege **draaitabel** en lijst met **velden** uit de Power BI-gegevensset, klaar om te worden geanalyseerd.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c01169a514b1231f93df21a23dc8992e92353070
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204492"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937603"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
 U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. De presentatiemodus is handig voor het weergeven van Power BI tijdens vergaderingen, conferenties of op een specifieke projector op kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren.
@@ -64,7 +64,7 @@ Wanneer u de knop **Afspelen** op de actiewerkbalk selecteert, begint de diavoor
 
  De controller toont de naam van de momenteel weergegeven weergave (pagina of bladwijzer en pagina). In de bovenstaande afbeelding zien we dat in het rapport **Verkoop**momenteel de blade **Azië en Stille Oceaan** wordt weergegeven op de pagina **Verkoopprestaties**.
 
-Standaard bladert een diavoorstelling door alleen pagina's met een snelheid van één pagina per 30 seconden. U kunt het standaardgedrag instellen in de [instellingen voor de diavoorstelling](#slideshow-settings).
+Standaard bladert een diavoorstelling door alleen pagina's met een snelheid van één pagina per 30 seconden. U kunt het standaardgedrag wijzigen in de [instellingen voor de diavoorstelling](#slideshow-settings).
 
 
 ### <a name="auto-play-a-slideshow-on-startup"></a>Automatisch een diavoorstelling afspelen bij het opstarten

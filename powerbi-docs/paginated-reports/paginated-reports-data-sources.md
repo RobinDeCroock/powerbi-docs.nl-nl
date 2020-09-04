@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/27/2020
-ms.openlocfilehash: d82026ddb3ae12d95aed94fc6f96f45b4861ec48
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: fda04d3241db68f1ca8da66d999bfca6cef9e8cf
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168415"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937442"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI
 
@@ -27,7 +27,7 @@ Gepagineerde rapporten bieden inherente ondersteuning voor de volgende lijst met
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | Basic, eenmalige aanmelding (SSO), OAuth2 | U kunt een Enterprise Gateway gebruiken met Azure SQL DB. U mag in deze scenario's echter voor verificatie geen Eenmalige aanmelding of oAuth2 gebruiken.   |
 | Beheerd exemplaar voor Azure SQL | Basic | via een openbaar eindpunt of een privé-eindpunt (privé-eindpunt moet worden gerouteerd via een Enterprise Gateway)  |
-| Azure Analysis Services | SSO, OAuth2 | De AAS-firewall moet worden uitgeschakeld of geconfigureerd om alle IP-bereiken in de BlackForest-regio toe te staan. Dit geldt alleen voor de BlackForest-regio. |
+| Azure Analysis Services | SSO, OAuth2 | De AAS-firewall moet worden uitgeschakeld of geconfigureerd om alle IP-bereiken in de BlackForest-regio toe te staan. Dit geldt alleen voor de BlackForest-regio.  SSO vanaf een externe tenant wordt niet ondersteund. |
 | Power BI-gegevensset | SSO | Premium Power BI-gegevenssets en andere Power BI-gegevenssets. Leesmachtiging vereist |
 | Premium-Power BI-gegevensset (XMLA) | SSO | Power BI-gegevenssets worden niet ondersteund als gegevensbron voor ingesloten gepagineerde rapporten.  |
 | Gegevens invoeren | N.v.t. | Gegevens zijn in het rapport ingesloten. |
