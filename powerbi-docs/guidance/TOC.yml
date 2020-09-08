@@ -118,6 +118,8 @@
               href: report-performance-troubleshoot.md
             - name: Best practices voor implementatiepijplijnen
               href: ../create-reports/deployment-pipelines-best-practices.md
+            - name: Toegang tot het Power BI-activiteitenlogboek
+              href: admin-activity-log.md
     - name: Migreren naar Power BI
       items:
         - name: Migratieoverzicht
