@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278808"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401951"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Organisatievisuals in Power BI
 
@@ -32,7 +32,7 @@ Raadpleeg het volgende artikel voor meer informatie over het gebruik van Power B
 
 ## <a name="administer-organizational-power-bi-visuals"></a>Power BI-visuals voor organisaties beheren
 
-Raadpleeg het volgende artikel voor meer informatie over het beheren en implementeren van Power BI-visuals in uw organisatie: [Meer informatie over de implementatie en het beheer van Power BI-visuals voor organisaties](https://go.microsoft.com/fwlink/?linkid=866790).
+Raadpleeg het volgende artikel voor meer informatie over het beheren en implementeren van Power BI-visuals in uw organisatie: [Meer informatie over de implementatie en het beheer van Power BI-visuals voor organisaties](../../admin/organizational-visuals.md).
 
 > [!WARNING]
 > Een Power BI-visual die vanuit een bestand wordt geïnstalleerd, kan code bevatten met beveiligings- of privacyrisico's. Ga na of u de auteur en de bron van het bestand van de Power BI-visual vertrouwt voordat u deze implementeert in de opslagplaats van de organisatie.

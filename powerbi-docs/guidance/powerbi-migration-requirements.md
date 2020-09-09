@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 29b821dc44f7eacb07f0df31100df2ff837c2189
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803173"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401974"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Vereisten voor migratie naar Power BI verzamelen
 
@@ -67,7 +67,7 @@ Verzamel gedetailleerde informatie met betrekking tot gegevens, zoals:
 - **Gegevensstructuur en opschoningsbehoeften:** Bepaal de gegevensstructuur voor elke vereiste gegevensbron en in welke mate [gegevensopschoningsactiviteiten](../transform-model/desktop-query-overview.md) nodig zijn.
 - **Gegevensintegratie:** Beoordeel hoe gegevensintegratie wordt verwerkt wanneer er meerdere gegevensbronnen zijn en hoe [relaties](../transform-model/desktop-create-and-manage-relationships.md) tussen elke modeltabel kunnen worden gedefinieerd. Identificeer specifieke gegevenselementen die nodig zijn om het model te vereenvoudigen en [de grootte te verkleinen](import-modeling-data-reduction.md).
 - **Aanvaardbare gegevenslatentie:** Bepaal de gegevenslatentiebehoeften voor elke gegevensbron. Dit is van invloed op beslissingen over welke [gegevensopslagmodus](../transform-model/desktop-storage-mode.md) er moet worden gebruikt. De gegevensvernieuwingsfrequentie voor importmodeltabellen is eveneens belangrijk om te weten.
-- **Gegevensvolume en schaalbaarheid:** Evalueer verwachtingen omtrent gegevensvolume, welke meespelen in beslissingen over [ondersteuning voor grote modellen](/admin/service-premium-large-models.md) en het ontwerpen van DirectQuery- of [samengestelde modellen](../transform-model/desktop-composite-models.md). Overwegingen met betrekking tot historische gegevensbehoeften zijn ook essentieel om te weten. Voor grotere gegevenssets is het noodzakelijk om de regels voor [incrementele gegevensvernieuwing](../admin/service-premium-incremental-refresh.md) te bepalen.
+- **Gegevensvolume en schaalbaarheid:** Evalueer verwachtingen omtrent gegevensvolume, welke meespelen in beslissingen over [ondersteuning voor grote modellen](../admin/service-premium-large-models.md) en het ontwerpen van DirectQuery- of [samengestelde modellen](../transform-model/desktop-composite-models.md). Overwegingen met betrekking tot historische gegevensbehoeften zijn ook essentieel om te weten. Voor grotere gegevenssets is het noodzakelijk om de regels voor [incrementele gegevensvernieuwing](../admin/service-premium-incremental-refresh.md) te bepalen.
 - **Berekeningen, KPI's en bedrijfsregels:** Beoordeel de behoeften voor metingen, KPI's en bedrijfsregels. Ze zijn mede bepalend voor waar de logica moet worden toegepast: in de gegevensset of het gegevensintegratieproces.
 - **Hoofdgegevens en gegevenscatalogus:** Bepaal of er zaken zijn met betrekking tot de hoofdgegevens die aandacht vereisen. Bepaal of integratie met een bedrijfsgegevenscatalogus in aanmerking komt voor het verbeteren van detecteerbaarheid, de toegang tot definities of het produceren van consistente terminologie die door de organisatie wordt geaccepteerd.
 - **Beveiliging en gegevensprivacy:** Bepaal of er specifieke aandachtspunten zijn op het gebied van beveiliging of gegevensprivacy, met inbegrip van [beveiliging op rijniveau](../admin/service-admin-rls.md).

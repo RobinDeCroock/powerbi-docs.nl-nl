@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 58eb9af4975c0afeb12a71a880711ddd73e64d50
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803304"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401997"
 ---
 # <a name="deploy-to-power-bi"></a>Implementeren in Power BI
 
@@ -87,7 +87,7 @@ De belangrijkste activiteiten tijdens een implementatie naar de productiewerkrui
 
 - **Wijzigingsbeheer:** Verschaf zo nodig goedkeuring voor implementatie en communiceer de implementatie naar de gebruikers via uw standaardprocedures voor wijzigingsbeheer. Er is mogelijk een goedgekeurd venster voor wijzigingsbeheer gedurende welke productie-implementaties zijn toegestaan. Normaal gesproken is dit van toepassing op IT-beheerde inhoud en veel minder vaak op selfservice inhoud.
 - **Plan voor terugdraaien:** Bij een migratie wordt uitgegaan van een migratie van een nieuwe oplossing die voor de eerste keer wordt uitgevoerd. Als er al inhoud bestaat, is het verstandig om een plan te maken om terug te gaan naar de vorige versie. Voor dit doel zijn vorige versies van de Power BI Desktop-bestanden (met SharePoint of OneDrive-versiebeheer) prima.
-- **Verbindingsreeksen en -parameters:** Wijzig de verbindingsreeksen voor de gegevensset als de gegevensbron verschilt tussen test en productie. [Parameterisering](/connect-data/service-parameters.md) kan voor dit doel effectief worden gebruikt.
+- **Verbindingsreeksen en -parameters:** Wijzig de verbindingsreeksen voor de gegevensset als de gegevensbron verschilt tussen test en productie. [Parameterisering](../connect-data/service-parameters.md) kan voor dit doel effectief worden gebruikt.
 - **Gegevens vernieuwen:** [Plan de gegevenssetvernieuwing](../connect-data/refresh-scheduled-refresh.md) voor eventuele geïmporteerde gegevenssets.
 - **Inhoud van werkruimte:** Publiceer gegevenssets en rapporten naar de productiewerkruimte en maak dashboards. [De implementatie van pijplijnen](../create-reports/deployment-pipelines-overview.md) kan de implementatie naar ontwikkelings-, test- en productiewerkruimten vereenvoudigen als uw inhoud is gepubliceerd naar een werkruimte met Premium-capaciteit.
 - **App:** Als apps deel uitmaken van uw strategie voor inhoudsdistributie, publiceert u een [app](../consumer/end-user-apps.md) met behulp van de inhoud uit de productiewerkruimte.
