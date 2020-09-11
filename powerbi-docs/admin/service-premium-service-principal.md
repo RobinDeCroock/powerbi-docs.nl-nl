@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c62ee84c919e5910d1c1c9e111f19c7b74889b04
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227207"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490348"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals
 
@@ -63,11 +63,11 @@ Als u wilt dat uw service-principal over de benodigde machtigingen beschikt om b
 
 1. Selecteer in de Power BI-service voor een werkruimte **Meer** > **Werkruimtetoegang**.
 
-    ![Instellingen voor werkruimte](media/service-premium-service-principal/workspace-access.png)
+    ![Instellingen voor werkruimtetoegang](media/service-premium-service-principal/workspace-access.png)
 
 2. Zoek op toepassingsnaam, voeg de service-principal als een **Beheerder** of **Lid** toe aan de werkruimte.
 
-    ![Werkruimtebeheerder](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
+    ![Het dialoogvenster Toegang](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
 
 ## <a name="connection-strings-for-the-xmla-endpoint"></a>Verbindingsreeksen voor het XMLA-eindpunt
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO en ADOMD
 
-Wanneer u verbinding maakt met clienttoepassingen en web-apps, bieden [AMO- en ADOMD-clientbibliotheken](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) versie 15.0.2 en hogere versies van installeerbare pakketten van NuGet, ondersteuning voor het gebruik van service-principals in verbindingsreeksen met de volgende syntaxis: `app:AppID` en wachtwoord of `cert:thumbprint`.
+Wanneer u verbinding maakt met clienttoepassingen en web-apps, bieden [AMO- en ADOMD-clientbibliotheken](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) versie 15.1.42.26 (juni 2020) en hogere versies van installeerbare pakketten van NuGet, ondersteuning voor het gebruik van service-principals in verbindingsreeksen met de volgende syntaxis: `app:AppID` en wachtwoord of `cert:thumbprint`.
 
 In het volgende voorbeeld worden `appID` en een `password` gebruikt voor het uitvoeren van een bewerking voor het vernieuwen van een modeldatabase:
 

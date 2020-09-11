@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227449"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443324"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Incrementeel vernieuwen in Power BI
 
@@ -26,12 +26,11 @@ Incrementele vernieuwing maakt zeer grote gegevenssets in Power BI mogelijk, met
 > * **Verbruik van resources is lager**: als er minder gegevens zijn om te vernieuwen, wordt het algemene verbruik van geheugen en andere resources verlaagd.
 
 > [!NOTE]
-> Incrementeel vernieuwen is nu beschikbaar voor Power BI Pro, Premium en gedeelde abonnementen en gegevenssets. 
+> Incrementeel vernieuwen is nu beschikbaar voor Power BI Pro, Premium en gedeelde abonnementen en gegevenssets.
 
 ## <a name="configure-incremental-refresh"></a>Incrementeel vernieuwen configureren
 
 Beleid voor incrementele vernieuwing wordt gedefinieerd in Power BI Desktop en toegepast zodra het beleid in de Power BI-service is gepubliceerd.
-
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Grote gegevenssets filteren in Power BI Desktop
 
@@ -99,18 +98,17 @@ In de koptekst wordt het volgende uitgelegd:
 
 #### <a name="refresh-ranges"></a>Bereiken vernieuwen
 
-In het volgende voorbeeld wordt vernieuwingsbeleid gedefinieerd voor het opslaan van in totaal vijf jaar aan gegevens plus de gegevens voor het huidige jaar tot aan de huidige datum, met incrementele vernieuwing van tien dagen aan gegevens. Met de eerste vernieuwingsbewerking worden historische gegevens geladen. De daaropvolgende vernieuwingen zijn incrementeel. Hiermee worden (indien gepland om dagelijks te worden uitgevoerd) de volgende bewerkingen uitgevoerd:
+In het volgende voorbeeld wordt vernieuwingsbeleid gedefinieerd voor het opslaan van in totaal vijf jaar aan gegevens plus de gegevens voor het huidige jaar tot aan de huidige datum, met incrementele vernieuwing van tien volledige dagen aan gegevens. Met de eerste vernieuwingsbewerking worden historische gegevens geladen. De daaropvolgende vernieuwingen zijn incrementeel. Hiermee worden (indien gepland om dagelijks te worden uitgevoerd) de volgende bewerkingen uitgevoerd:
 
 - Voeg een nieuwe dag aan gegevens toe.
 
-- Vernieuw tien dagen tot aan de huidige datum.
+- Vernieuw tien volledige dagen tot aan de huidige datum.
 
 - Verwijder kalenderjaren die ouder zijn dan vijf jaar voorafgaand aan de huidige datum. Als de huidige datum bijvoorbeeld 1 januari 2019 is, wordt het jaar 2013 verwijderd.
 
 De eerste vernieuwing in de Power BI-service kan langer duren omdat alle vijf volledige kalenderjaren moeten worden geïmporteerd. Daarop volgende vernieuwingen kunnen in een fractie van die tijd worden voltooid.
 
 ![Bereiken vernieuwen](media/service-premium-incremental-refresh/refresh-ranges.png)
-
 
 #### <a name="current-date"></a>Huidige datum
 
@@ -140,7 +138,7 @@ Incrementele vernieuwing van tien dagen is veel efficiënter dan volledige verni
 
 #### <a name="only-refresh-complete-periods"></a>Alleen volledige perioden vernieuwen
 
-Stel dat u hebt gepland dat vernieuwing elke ochtend om 4:00 uur wordt uitgevoerd. Als gegevens in die vier uur in het bronsysteem worden weergegeven, wilt u mogelijk dat hier geen rekening mee wordt gehouden. Some zakelijke metrische gegevens, zoals vaten per dag in de olie- en gasindustrie, zijn niet logisch bij gedeeltelijke dagen.
+Stel dat u hebt gepland dat vernieuwing elke ochtend om 4:00 uur wordt uitgevoerd. Als gegevens in die vier uur in het bronsysteem worden weergegeven, wilt u mogelijk dat hier geen rekening mee wordt gehouden. Sommige zakelijke metrische gegevens, zoals vaten per dag in de olie- en gasindustrie, zijn niet logisch bij gedeeltelijke dagen.
 
 Een ander voorbeeld is het vernieuwen van gegevens in een financieel systeem waar gegevens voor de vorige maand op de 12e kalenderdag van de maand worden goedgekeurd. U kunt het incrementele bereik instellen op 1 maand en de vernieuwing plannen op de twaalfde dag van de maand. Als u deze optie hebt ingeschakeld, worden bijvoorbeeld de gegevens van januari op 12 februari vernieuwd.
 

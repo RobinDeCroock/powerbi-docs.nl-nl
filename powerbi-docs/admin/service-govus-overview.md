@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2020
+ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
+ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638768"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89474795"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -33,6 +33,14 @@ Als u een nieuwe klant bent, moet u de geschiktheid van uw organisatie valideren
 > Als u Power BI al hebt geïmplementeerd in een commerciële omgeving en wilt migreren naar de cloud van de Amerikaanse overheid, moet u een nieuw Power BI Pro-abonnement toevoegen aan uw Microsoft 365 Government-abonnement. Repliceer vervolgens de commerciële gegevens naar de Power BI-service voor de Amerikaanse overheid, verwijder commerciële licentietoewijzingen van gebruikersaccounts en wijs vervolgens een Power BI Pro Government-licentie toe aan de gebruikersaccounts.
 >
 >
+### <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>Een Power BI Pro-abonnement voor overheidsklanten aanschaffen
+
+Nadat u Microsoft 365 hebt geïmplementeerd, kunt u een Power BI Pro-abonnement toevoegen. Volg de stapsgewijze instructies in [Uw Amerikaanse overheidsorganisatie registreren](service-govus-signup.md) om de Power BI Pro Government-service aan te schaffen. Schaf voldoende licenties aan voor alle gebruikers die Power BI nodig hebben, en wijs deze licenties vervolgens toe aan afzonderlijke gebruikersaccounts.
+
+> [!IMPORTANT]
+> Power BI voor de Amerikaanse overheid is niet beschikbaar als een *gratis* licentie. Aan elke gebruiker moet een *Pro*-licentie zijn toegewezen om toegang te krijgen tot de Government Community Cloud. Als aan een gebruikersaccount een gratis licentie is toegewezen, heeft de gebruiker alleen toegang tot de commerciële cloud en zal deze verificatie- en toegangsproblemen ondervinden. Als u Power BI Premium hebt aangeschaft, hoeft u geen Pro-licenties toe te wijzen om gebruikerstoegang in te schakelen.  Gebruikers in de organisatie hebben toegang tot rapporten die met hen zijn gedeeld, mits deze rapporten zijn gepubliceerd in een premium-capaciteit. Raadpleeg [Power BI-servicefuncties per licentietype](../fundamentals/service-features-license-type.md) om de verschillen tussen licentietypen te bekijken.
+>
+
 ## <a name="government-cloud-instances"></a>Cloud van de Amerikaanse overheid
 
 Microsoft 365 biedt verschillende omgevingen voor overheidsinstanties om te voldoen aan verschillende nalevingsvereisten. Raadpleeg voor meer informatie over elke omgeving:
@@ -53,14 +61,6 @@ De URL voor het verbinding maken met Power BI verschilt voor overheidsgebruikers
 
 Uw account is mogelijk ingesteld in meerdere clouds. Als uw account op deze manier is ingesteld, kunt u kiezen met welke cloud u verbinding wilt maken wanneer u zich aanmeldt bij Power BI Desktop.
 
-## <a name="buy-a-power-bi-pro-subscription-for-government-customers"></a>Een Power BI Pro-abonnement voor overheidsklanten aanschaffen
-
-Nadat u Microsoft 365 hebt geïmplementeerd, kunt u een Power BI Pro-abonnement toevoegen. Volg de stapsgewijze instructies in [Uw Amerikaanse overheidsorganisatie registreren](service-govus-signup.md) om de Power BI Pro Government-service aan te schaffen. Schaf voldoende licenties aan voor alle gebruikers die Power BI nodig hebben, en wijs deze licenties vervolgens toe aan afzonderlijke gebruikersaccounts.
-
-> [!IMPORTANT]
-> Power BI voor de Amerikaanse overheid is niet beschikbaar als een *gratis* licentie. Aan elke gebruiker moet een *Pro*-licentie zijn toegewezen om toegang te krijgen tot de Government Community Cloud. Als aan een gebruikersaccount een gratis licentie is toegewezen, heeft de gebruiker alleen toegang tot de commerciële cloud en zal deze verificatie- en toegangsproblemen ondervinden. Als u Power BI Premium hebt aangeschaft, hoeft u geen Pro-licenties toe te wijzen om gebruikerstoegang in te schakelen.  Gebruikers in de organisatie hebben toegang tot rapporten die met hen zijn gedeeld, mits deze rapporten zijn gepubliceerd in een premium-capaciteit. Raadpleeg [Power BI-servicefuncties per licentietype](../fundamentals/service-features-license-type.md) om de verschillen tussen licentietypen te bekijken.
->
-
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Azure Government en algemene Azure Cloud Services verbinden
 
 Azure wordt gedistribueerd over meerdere clouds. Standaard kunt u firewallregels inschakelen om een verbinding met een Cloud-specifiek exemplaar te openen, maar dit is anders over verschillende cloud-netwerken.  Als u wilt communiceren tussen services in de openbare cloud en services in de Government Community Cloud, moet u specifieke firewallregels configureren. Als u bijvoorbeeld toegang wilt krijgen tot openbare cloudexemplaren van een SQL-database vanuit uw Power BI-implementatie in de cloud, hebt u een firewallregel in de SQL-database nodig. Configureer specifieke firewallregels voor SQL-databases om verbindingen met de Azure Government Cloud toe te staan voor de volgende datacenters:
@@ -76,40 +76,31 @@ Raadpleeg [IP-firewallregels maken en beheren](https://docs.microsoft.com/azure/
 
 ## <a name="power-bi-feature-availability"></a>Beschikbaarheid van Power BI-functies
 
-Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnementen om te voldoen aan de vereisten van klanten in de Cloud. Raadpleeg de volgende tabel om te zien welke functies beschikbaar zijn in elke overheidsomgeving:
+Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnementen om te voldoen aan de vereisten van klanten in de Cloud. We streven ernaar om alle functies in overheidsclouds binnen 30 dagen na de algemene beschikbaarheid beschikbaar te maken. In sommige gevallen ligt het aan onderliggende afhankelijkheden dat we een functie niet beschikbaar kunnen maken.
 
-|Functie |   |GCC |GCC High |DoD|
-|------|------|------|------|------|
-|Beheer|Gratis licenties|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Limieten voor gegevensopslag instellen|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Active Directory Domain Services-groepen voor het delen en beheren van toegangsbeheer gebruiken|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Controleren via Office 365 Security en het Compliance-beheercentrum|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Delen met externe gebruikers|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gebruik metrische gegevens voor dashboards en rapporten|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Azure B2B Collaboration tussen GCC en commerciële cloud<sup>1</sup>|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|Rapport maken|Dashboards en rapporten maken en bekijken|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Geplande gegevensvernieuwing|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Vernieuwbare teamdashboards|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gepagineerde rapporten|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Sjabloon-apps|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|Verbinding maken met gegevens|Gegevens en rapporten uit Excel importeren|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gegevens uit CSV-bestanden importeren|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gegevens ophalen uit Power BI Desktop-bestanden|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Connectiviteit met CDS|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Azure Data Lake Storage Gen2-connector|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|Gegevensbeheer|Gegevensbeheer-gateway|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gegevensversleuteling in Azure SQL Database|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gegevensversleuteling in Blob Storage voor Power BI|Beschikbaar|Beschikbaar|Beschikbaar|
-|Integratie tussen verschillende producten|Insluiten in SharePoint online met het webonderdeel Power BI|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Insluiten in SharePoint online met het webonderdeel Embed|Beschikbaar|Beschikbaar|Beschikbaar|
-|  |Gegevensstromen en AI-functies|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Tabblad Power BI in Teams|Beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Geautomatiseerde Machine Learning|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Azure Cognitive Services|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
-|  |Azure Machine Learning|Niet beschikbaar|Niet beschikbaar|Niet beschikbaar|
+De volgende tabel bevat functies die niet beschikbaar zijn in een bepaalde overheidsomgeving en de verwachte beschikbaarheid van een geplande release:
 
-<sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government en Global Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B Collaboration voor de Amerikaanse overheid.
+|Functie |GCC |GCC High |DoD|
+|------|------|------|------|
+|[Azure B2B Collaboration tussen overheidscloud en commerciële cloud](service-admin-azure-ad-b2b.md)<sup>1</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
+|[Insluiten in SharePoint online met het webonderdeel Power BI](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![Beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
+|[Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen](../connect-data/power-bi-data-sources.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
+|[Tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
+|[Metrische gegevens van capaciteit](../admin/service-admin-premium-monitor-portal.md)|K3 2020 |K3 2020|K3 2020|
+|[Grote modellen](service-premium-large-models.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
+|[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/service-dataflows-enhanced-compute-engine.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
+|[Gegevensstromen - directe query](../transform-model/service-dataflows-directquery.md) | K4 2020 |K4 2020|![niet beschikbaar](../media/no.png)|
+|[Meldingen over onderbrekingen van de service](service-premium-large-models.md)|K4 2020 |K4 2020|K4 2020|
+|[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|K4 2020|K4 2020 |K4 2020|
+|[Sjabloon-apps](../connect-data/service-template-apps-overview.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
+|[Aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
+|[Genereren van QR-code](../create-reports/service-create-qr-code-for-tile.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
+
+<sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government en Global Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B Collaboration voor de Amerikaanse overheid
+
+<sup>2</sup> De Power BI-ervaring in Teams voor GCC is beperkt, werkt alleen voor klassieke werkruimten en bevat niet de uitgebreide functionaliteit die wordt beschreven in [Power BI-inhoud insluiten in Microsoft Teams](../collaborate-share/service-embed-report-microsoft-teams.md).
+
+<sup>3</sup> De functionaliteit voor sjabloon-apps en aangepaste visuals is bij vrijgave beperkt voor overheidsclouds. Meer informatie over specifieke beperkingen wordt gepubliceerd bij vrijgave.
 
 ## <a name="next-steps"></a>Volgende stappen
 

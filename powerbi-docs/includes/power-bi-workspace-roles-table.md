@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 07/24/2020
+ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87260229"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512802"
 ---
 |Mogelijkheid   | Beheerder  | Lid  | Inzender  | Lezer |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ ms.locfileid: "87260229"
 | Een item bekijken en ermee werken.<sup>5</sup> |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |
 | Gegevens lezen die zijn opgeslagen in gegevensstromen in de werkruimte | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-<sup>1</sup> Inzenders kunnen de metagegevens van de app bijwerken, maar geen nieuwe app publiceren of wijzigen die gemachtigd is voor de app, als de [Een werkruimtebeheerder deze machtiging delegeert aan Inzenders](../collaborate-share/service-create-the-new-workspaces.md#security-settings).
+<sup>1</sup> Inzenders kunnen de app [bijwerken die is gekoppeld aan de werkruimte](../collaborate-share/service-create-the-new-workspaces.md#allow-contributors-to-update-the-app) als de werkruimtebeheerder deze machtiging aan hen delegeert. Ze kunnen echter geen nieuwe app publiceren of wijzigen wie er toestemming voor heeft.
 
 <sup>2</sup> Inzenders en kijkers kunnen ook items in een werkruimte delen als ze machtigingen voor opnieuw delen hebben.
 

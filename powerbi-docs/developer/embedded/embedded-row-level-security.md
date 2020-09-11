@@ -1,5 +1,5 @@
 ---
-title: Beveiliging op rijniveau met ingesloten Power BI-inhoud
+title: Het gebruik van beveiliging op rijniveau met ingesloten Power BI-inhoud
 description: Meer informatie over de stappen die u moet uitvoeren voor het insluiten van Power BI-inhoud in uw toepassing
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: b412af6899b9299fc4fde8ea217569747a445e45
-ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84795134"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89402043"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -66,11 +66,11 @@ U doet dit als volgt:
 3. Voer in de tabel **Regio** deze DAX-expressie in: **[Regiomanager] = USERNAME()** .
 
     ![DAX-instructie voor RLS-regel](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
-4. Als u wilt controleren of de regels correct functioneren, selecteert u op het tabblad **Modellering** de optie **Als rollen weergeven**. Selecteer vervolgens de rol **Manager** die u hebt gemaakt, plus de rol **Andere gebruikers**. Voer **AndrewMa** in als gebruiker.
+4. Als u wilt controleren of de regels correct functioneren, selecteert u op het tabblad **Modellering** de optie **Als rollen weergeven**. Selecteer vervolgens de rol **Manager** die u hebt gemaakt, plus de rol **Andere gebruikers**. Voer **Andrew Ma** in als gebruiker.
 
     ![Dialoogvenster Als rollen weergeven](media/embedded-row-level-security/powerbi-embedded-new-role-view.png)
 
-    In de rapporten worden de gegevens weergegeven alsof u bent aangemeld als **AndrewMa**.
+    In de rapporten worden de gegevens weergegeven alsof u bent aangemeld als **Andrew Ma**.
 
 Door het filter toe te passen zoals we hier hebben gedaan, worden alle records in de tabellen **Regio**, **Winkel** en **Verkoop** gefilterd. Vanwege de filterrichting van de relaties tussen **Verkoop** en **Tijd**, worden de tabellen **Verkoop** en **Artikel**, en **Artikel** en **Tijd** echter niet gefilterd. Download voor meer informatie over kruisfiltering in twee richtingen het technische document over [Kruisfiltering in twee richtingen in SQL Server Analysis Services 2016 en Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 

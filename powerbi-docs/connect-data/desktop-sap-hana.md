@@ -1,6 +1,6 @@
 ---
-title: SAP HANA in Power BI Desktop gebruiken
-description: SAP HANA in Power BI Desktop gebruiken
+title: SAP HANA in Power BI gebruiken
+description: SAP HANA in Power BI gebruiken
 author: davidiseminger
 ms.reviewer: ''
 ms.custom: seodec18
@@ -10,14 +10,14 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3d78ded05d199676708c0000cab043226a47b166
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 69019abf60f2633bcb764b11c0ac3310911fab62
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222802"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401928"
 ---
-# <a name="connect-to-sap-hana-databases-in-power-bi-desktop"></a>Verbinding maken met SAP HANA-databases in Power BI Desktop
+# <a name="connect-to-sap-hana-databases-in-power-bi"></a>Verbinding maken met SAP HANA-databases in Power BI
 
 Met Power BI Desktop hebt u nu toegang tot *SAP HANA*-databases. Om SAP HANA te gebruiken moet u het SAP HANA ODBC-stuurprogramma hebben geïnstalleerd op de lokale clientcomputer. Anders werkt de gegevensverbinding tussen Power BI Desktop en SAP HANA niet goed. U kunt de SAP HANA-clienthulpprogramma's downloaden via [SAP-hulpprogramma's voor ontwikkelaars](https://tools.hana.ondemand.com/#hanatools), waar het benodigde ODBC-stuurprogramma te vinden is. U kunt dit ook ophalen via het [SAP Software Download Center](https://support.sap.com/en/my-support/software-downloads.html). Zoek in de Software-portal naar de *SAP HANA CLIENT* voor Windows-computers. Omdat de indeling van het SAP Software Download Center vaak verandert, is er geen specifiekere richtlijnen beschikbaar voor de navigatie op die site.
 
@@ -61,6 +61,7 @@ Er zijn ook enkele beperkingen voor het gebruik van SAP HANA. Deze worden hieron
 * SMALLDECIMAL wordt niet ondersteund.
 * VARBINARY wordt niet ondersteund.
 * Geldige datums liggen tussen 30-12-1899 en 31-12-9999.
+* SAP HANA vernieuwen met eenmalige aanmelding wordt momenteel niet ondersteund voor het vernieuwen van Excel-werkmappen op de huidige tijd. Als u de gegevens in Power BI wilt vernieuwen, kunt u een Power BI rapport gebruiken met eenmalige aanmelding van SAP HANA.
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -69,4 +70,4 @@ Raadpleeg de volgende resources voor meer informatie over DirectQuery en SAP HAN
 * [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
 * [DirectQuery in Power BI gebruiken](desktop-directquery-about.md)
 * [Power BI-gegevensbronnen](power-bi-data-sources.md)
-* [Versleuteling inschakelen voor SAP HANA](desktop-sap-hana-encryption.md)
+* [Versleuteling voor SAP HANA inschakelen](desktop-sap-hana-encryption.md)

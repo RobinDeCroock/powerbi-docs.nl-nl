@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88802969"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512051"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -108,6 +108,9 @@ $activities.Count
 $activities[0]
 
 ```
+
+> [!NOTE]
+> Er is een PowerShell-voorbeeld beschikbaar dat u helpt om gebeurtenissen in het Power BI-activiteitenlogboek te filteren en op te halen. Zie [Toegang tot het Power BI-activiteitenlogboek](../guidance/admin-activity-log.md) voor meer informatie.
 
 ## <a name="use-the-audit-log"></a>Het controlelogboek gebruiken
 
@@ -369,8 +372,8 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Wat is Power BI-beheer?](service-admin-administering-power-bi-in-your-organization.md)  
-
-[Power BI-beheerportal](service-admin-portal.md)  
-
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- [Wat is Power BI-beheer?](service-admin-administering-power-bi-in-your-organization.md)
+- [Power BI-beheerportal](service-admin-portal.md)
+- [Toegang tot het Power BI-activiteitenlogboek](../guidance/admin-activity-log.md)
+- Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
