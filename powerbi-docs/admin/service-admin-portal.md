@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490415"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642813"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -253,21 +253,9 @@ Als deze functie is ingeschakeld, worden nieuw gemaakte Office 365-groepen niet 
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Gastgebruikers van Azure Active Directory toegang tot Power BI geven
 
-Als u deze instelling inschakelt, hebben gastgebruikers van Azure Active Directory Business-to-Business (Azure AD B2B) toegang tot Power BI. Wanneer u deze instelling uitschakelt, ontvangen gastgebruikers een foutmelding als ze Power BI proberen te openen. Wanneer u deze instelling voor de hele organisatie uitschakelt, kunnen gebruikers ook geen gasten uitnodigen voor uw organisatie of machtigingen toewijzen aan individuele gastgebruikers. Gebruik de optie specifieke beveiligingsgroepen om te bepalen welke gastgebruikers toegang hebben tot Power BI.
+Als u deze instelling inschakelt, hebben gastgebruikers van Azure Active Directory Business-to-Business (Azure AD B2B) toegang tot Power BI. Wanneer u deze instelling uitschakelt, ontvangen gastgebruikers een foutmelding als ze Power BI proberen te openen. Wanneer u deze instelling voor de hele organisatie uitschakelt, kunnen gebruikers ook geen gasten uitnodigen voor uw organisatie. Gebruik de optie specifieke beveiligingsgroepen om te bepalen welke gastgebruikers toegang hebben tot Power BI.
 
 ![Gastgebruikers van Azure Active Directory toegang tot Power BI geven](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
-
-### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>Toestaan om machtigingen te verlenen aan bestaande gastgebruikers van Azure Active Directory
-
-Wanneer deze optie is ingeschakeld, kunnen gebruikers in uw organisatie via machtigingen of het delen van ervaringen in Power BI, toestemming verlenen aan individuele gastgebruikers. Als deze optie is uitgeschakeld voor een gebruiker, kunnen ze geen machtigingen aan gastgebruikers toewijzen of deze als gastgebruikers van Power BI uitnodigen.
-
-![Toestaan om machtigingen te verlenen aan bestaande gastgebruikers van Azure Active Directory](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
-
-
-> [!IMPORTANT]
->  Met deze instelling wordt niet voorkomen dat aan gastgebruikers in alle gevallen machtigingen worden toegewezen. De instelling voorkomt alleen dat er aan afzonderlijke gastgebruikers toegang wordt gegeven. Gastgebruikers kunnen nog steeds toegang krijgen via een gebruikersgroep, zoals beveiliging, Office 365-groepen of distributielijsten. 
-
-Wanneer een gebruiker die geen machtigingen aan gastgebruikers mag verlenen dit doet, wordt er een foutbericht weergegeven in de gebruikersinterface. Wanneer gebruikers machtigingen voor een item wijzigen, moeten gebruikers die niet is toegestaan machtigingen aan gasten te verlenen, alle eventuele gastgebruikers uit de toegangslijst verwijderen voordat ze machtigingen voor het item kunnen verlenen of wijzigen. 
 
 ### <a name="invite-external-users-to-your-organization"></a>Externe gebruikers uitnodigen voor uw organisatie 
 
@@ -279,8 +267,6 @@ De instelling **Externe gebruikers uitnodigen voor uw organisatie** helpt organi
 > Deze instelling heette vroeger 'Inhoud delen met externe gebruikers'. De gewijzigde naam weerspiegelt nauwkeuriger wat de instelling doet.
 
 Als een gebruiker externe gebruikers wil uitnodigen tot een organisatie, moet deze ook de rol van gastuitnodiger in Azure Active Directory hebben. Met deze instelling kan alleen de mogelijkheid worden beheerd om iemand via Power BI uit te nodigen. 
-
-Als de instelling **Toestaan om machtigingen te verlenen aan bestaande gastgebruikers van Azure Active Directory** voor een gebruiker is uitgeschakeld, kan deze ook geen externe gebruikers voor uw organisatie uitnodigen via Power BI.
 
 ### <a name="publish-to-web"></a>Publiceren op internet
 

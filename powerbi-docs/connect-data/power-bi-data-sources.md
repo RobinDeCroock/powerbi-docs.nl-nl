@@ -6,22 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2020
+ms.date: 09/11/2020
 ms.author: davidi
-ms.openlocfilehash: ae4d51d9a40044ae939f5cb2b0b15442697df5fd
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 926569e783dad7a97b91e2e5c1752401d21d6612
+ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764946"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90084048"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
 In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteund voor gegevenssets, inclusief informatie over DirectQuery en de on-premises gegevensgateway. Zie [Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen](../transform-model/service-dataflows-data-sources.md) voor meer informatie over gegevensstromen.
-
-> [!NOTE]
-> Voor veel gegevensconnectors in Power BI Desktop is Internet Explorer 10 (of nieuwer) vereist voor verificatie. 
-
 
 | Gegevensbron | Verbinding maken via Power BI Desktop | Verbinding maken en vernieuwen via de service | DirectQuery/liveverbinding | Gateway (ondersteund) | Gateway (vereist) |
 |---|---|---|---|---|---|---|---|
@@ -156,6 +152,11 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 <sup>7</sup> Power BI-service biedt geen ondersteuning voor OData-feeds waarvoor verificatie is vereist.
 
 <sup>8</sup> Paxata wordt ondersteund in de versie van Power BI Desktop die is geoptimaliseerd voor Power BI Report Server. Het wordt niet ondersteund in Power BI-rapporten die zijn gepubliceerd in Power BI Report Server. Zie [Power BI-rapportgegevensbronnen in Power BI Report Server](../report-server/data-sources.md) voor de lijst met ondersteunde gegevensbronnen.
+
+## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+
+- Voor veel gegevensconnectors in Power BI Desktop is Internet Explorer 10 (of nieuwer) vereist voor verificatie. 
+- Sommige gegevensbronnen zijn beschikbaar in Power BI Desktop en geoptimaliseerd voor Power BI Report Server, maar worden niet ondersteund wanneer ze worden gepubliceerd in Power BI Report Server. Zie [Power BI-rapportgegevensbronnen in Power BI Report Server](../report-server/data-sources.md) voor de lijst met ondersteunde gegevensbronnen.
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Eenmalige aanmelding (SSO) voor DirectQuery-bronnen
 

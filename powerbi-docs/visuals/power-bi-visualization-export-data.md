@@ -11,12 +11,12 @@ ms.topic: how-to
 ms.date: 05/20/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f4d1bb58093ed3c78330370d5a44a3f98ee4aae7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238955"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008923"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
@@ -268,7 +268,9 @@ De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Pow
   
   1. Ga naar de lokale map waar het bestand is opgeslagen, en selecteer het *.csv*-bestand.
 
-- Bij het exporteren naar *.CSV* worden bepaalde tekens voorafgegaan door het escape-teken **'** .
+- Bij het exporteren naar *.csv* worden bepaalde tekens voorafgegaan door het escapeteken **'** om scriptuitvoering te voorkomen bij opening in Excel. Dat gebeurt in de volgende situaties:
+  - De kolom is gedefinieerd als het type Tekst in het gegevensmodel **_en_**
+  - Het eerste teken van de tekst is een van de volgende tekens: **=, @, +,-**
 
 - Power BI-beheerders kunnen het exporteren van gegevens uitschakelen.
 

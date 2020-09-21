@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562439"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008791"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Een relatieve datumslicer en -filter in Power BI maken
 
@@ -45,9 +45,7 @@ Voor de eerste instelling in de *relatieve datumslicer* hebt u de volgende optie
 ![Schermopname van de relatieve configuratieopties, waarbij de eerste instelling is gemarkeerd.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * Laatste
-
 * Volgende
-
 * Deze
 
 Voor de tweede (middelste) instelling in de *relatieve datumslicer* kunt u een getal invoeren om het relatieve datumbereik te definiëren.
@@ -59,26 +57,19 @@ Met de derde instelling kunt u de datummeting kiezen. U hebt de volgende opties:
 ![Schermopname van de relatieve configuratieopties, waarbij de derde instelling is gemarkeerd.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 * Dagen
-
 * Weken
-
 * Weken (kalender)
-
 * Maanden
-
 * Maanden (kalender)
-
 * Jaren
-
 * Jaren (kalender)
 
 Als u **Maanden** in die lijst selecteert en voor de middelste instelling *2* invoert, gebeurt het volgende:
 
-* als het vandaag 20 juli is
+* Als het vandaag 20 juli is,
 
-* zullen de gegevens die zijn opgenomen in de visuals die door de slicer zijn beperkt de gegevens weergeven voor de vorige twee maanden
-
-* vanaf 21 mei tot 20 juli (de datum van vandaag)
+    - worden in visuals die door de slicer zijn beperkt, gegevens weergegeven voor de vorige twee maanden,
+    - vanaf 21 mei tot en met 20 juli (de datum van vandaag).
 
 Ter vergelijking: als u *Maanden (kalender)* hebt geselecteerd, geven de visuele elementen die worden beperkt gegevens weer van 1 mei tot en met 30 juni (de laatste twee volledige kalendermaanden).
 
@@ -100,10 +91,9 @@ Als u **Relatieve datumfilter** hebt geselecteerd, ziet u drie secties die u kun
 
 De volgende beperkingen en overwegingen zijn momenteel van toepassing op de **relatieve datumbereikslicer** en het relatieve datumbereikfilter.
 
+* Het gegevenstype voor het veld in de slicer moet een datum zijn en mag niet de standaard, tekst, zijn. Anders worden de relatieve opties niet weergegeven in de slicer.
 * Gegevensmodellen in **Power BI** bevatten geen informatie over de tijdzone. De modellen kunnen tijden opslaan, maar er is geen indicatie van de tijdzone waarin ze zich bevinden.
-
 * De slicer en het filter zijn altijd gebaseerd op de tijd in UTC. Als u een filter in een rapport instelt en het rapport naar een collega in een andere tijdzone stuurt, ziet u beide dezelfde gegevens. Tenzij u zich in de UTC-tijdzone bevindt, moeten u en uw collega rekening houden met de verschillen in tijd.
-
 * U kunt gegevens die in een lokale tijdzone zijn vastgelegd, omzetten naar UTC met behulp van de **Query-editor**.
 
 ## <a name="next-steps"></a>Volgende stappen

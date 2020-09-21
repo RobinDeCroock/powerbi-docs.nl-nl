@@ -347,6 +347,8 @@
               href: ../paginated-reports/paginated-reports-create-embedded-dataset.md
             - name: Een rapport maken met een gedeelde Power BI-gegevensset
               href: ../paginated-reports/report-builder-shared-datasets.md
+            - name: Down load de RDL voor een gepagineerd rapport
+              href: ../paginated-reports/paginated-reports-download-rdl.md
             - name: Parameters maken
               href: ../paginated-reports/paginated-reports-parameters.md
             - name: Rapportweergaven instellen

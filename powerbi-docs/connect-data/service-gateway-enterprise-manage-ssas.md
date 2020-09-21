@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2921ea9ff0e5e1fa6bc12c0ecd5dd047b703a937
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237622"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642304"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 
@@ -36,7 +36,7 @@ Zie [Een gegevensbron toevoegen](service-gateway-data-sources.md#add-a-data-sour
 Vul de gegevens voor de gegevensbron in, waaronder de **server** en de **database**. De gegevens die u invoert voor **Gebruikersnaam** en **Wachtwoord** worden door de gateway gebruikt om verbinding te maken met het Analysis Services-exemplaar.
 
 > [!NOTE]
-> Het Windows-account dat u invoert, moet serverbeheerdermachtigingen hebben voor het exemplaar waarmee u verbinding maakt. Als het wachtwoord van dit account zo is ingesteld dat dit verloopt, kunnen gebruikers een verbindingsfout krijgen als het wachtwoord voor de gegevensbron niet op tijd wordt bijgewerkt. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
+> Het Windows-account dat u invoert, moet lid zijn van de rol van serverbeheerder in het Analysis Services-exemplaar waarmee u verbinding maakt. Als het wachtwoord van dit account zo is ingesteld dat dit verloopt, kunnen gebruikers een verbindingsfout krijgen als het wachtwoord voor de gegevensbron niet op tijd wordt bijgewerkt. Zie [Versleutelde referenties opslaan in de cloud](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud) voor meer informatie over het opslaan van referenties.
 
 ![De gegevensbroninstellingen invullen](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 

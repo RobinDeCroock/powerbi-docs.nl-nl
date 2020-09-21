@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 09/09/2020
 ms.author: kfollis
-ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485479"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642266"
 ---
 # <a name="service-interruption-notifications"></a>Meldingen over onderbrekingen van de service
 
@@ -40,7 +40,7 @@ De e-mailmelding biedt informatie over de reden van het hoge resourcegebruik, wa
 
 * De gegevensset-id van de verantwoordelijke gegevensset
 * Het type bewerking
-* De CPU-tijd die is gekoppeld aan het hoge resourcegebruik
+* De CPU-tijd die is gekoppeld aan het hoge resourcegebruik. Hier volgt de [definitie van CPU-tijd](https://wikipedia.org/wiki/CPU_time) in Wikipedia.
 
 Er worden via Power BI ook e-mailmeldingen verzonden wanneer overbelasting in een Power BI Premium-capaciteit wordt gedetecteerd. In het e-mailbericht wordt de waarschijnlijke reden voor de overbelasting uitgelegd, welke bewerkingen verantwoordelijk waren voor die belasting in de afgelopen tien minuten en hoe hoog die belasting voor elke bewerking was. 
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214526"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642620"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Richtlijnen voor het DirectQuery-model in Power BI Desktop
 
@@ -127,7 +127,7 @@ Er zijn vele functionele en prestatiegerichte verbeteringen die kunnen worden be
 
 ## <a name="educate-users"></a>Gebruikers informeren
 
-Het is belangrijk om uw gebruikers erop te wijzen hoe ze efficiënt met rapporten kunnen werken op basis van DirectQuery-gegevenssets. Uw rapportauteurs moeten worden gewezen op de inhoud die wordt beschreven in [Rapportontwerpen optimaliseren](#optimize-report-designs section).
+Het is belangrijk om uw gebruikers erop te wijzen hoe ze efficiënt met rapporten kunnen werken op basis van DirectQuery-gegevenssets. Uw rapportauteurs moeten worden gewezen op de inhoud die wordt beschreven in de sectie [Rapportontwerpen optimaliseren](#optimize-report-designs).
 
 Het wordt aanbevolen uw rapportgebruikers te informeren over uw rapporten die op DirectQuery-gegevenssets zijn gebaseerd. Het kan voor hun handig zijn om de algemene gegevensarchitectuur te kennen, inclusief eventuele relevante beperkingen dit in dit artikel worden beschreven. Laat ze weten dat ze kunnen verwachten dat vernieuwingssnelheden en interactieve filtering soms wat traag kunnen worden. Wanneer rapportgebruikers begrijpen waarom verslechtering van gegevens optreedt, is de kans kleiner dat ze hun vertrouwen in de rapporten en gegevens verliezen.
 

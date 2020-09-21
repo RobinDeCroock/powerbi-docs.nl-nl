@@ -6,19 +6,19 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 5522d84cab235270a2eb368be02cfa0fb4e5eaa9
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/09/2020
+ms.openlocfilehash: 3994a5cdad4d80c87d4153ffe57af685d7a21d36
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557136"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008578"
 ---
 # <a name="introduction-to-deployment-pipelines-preview"></a>Inleiding tot implementatiepijplijnen (preview-versie)
 
 Tegenwoordig vormt analyse een belangrijk onderdeel van het besluitvormingsproces in vrijwel elke organisatie. Het groeiende gebruik van Power BI als hulpprogramma voor analyse betekent dat het meer gegevens moet kunnen verwerken en aantrekkelijk en gebruiksvriendelijk moet zijn. Bovenal moet Power BI altijd beschikbaar en betrouwbaar zijn. Om aan deze vereisten te voldoen, moeten BI-ontwikkelaars effectief kunnen samenwerken.
 
-Implementatiepijplijnen is een efficiënt en herbruikbaar hulpprogramma waarmee BI-ontwikkelaars in een onderneming met Premium-capaciteit de levenscyclus van organisatie-inhoud kunnen beheren. Zo kunnen zij Power BI-inhoud, zoals rapporten, dashboards en gegevenssets, ontwikkelen en testen voordat de inhoud beschikbaar wordt gesteld aan eindgebruikers.
+Met het hulpprogramma voor implementatiepijplijnen kunnen BI-auteurs de levenscyclus van organisatie-inhoud beheren. Het hulpprogramma is efficiënt en opnieuw te gebruiken voor auteurs in een onderneming met Premium-capaciteit. Met het hulpprogramma kunnen auteurs Power BI-inhoud ontwikkelen en testen voordat deze inhoud wordt gebruikt door gebruikers. De inhoudstypen zijn onder meer rapporten, dashboards en gegevenssets.
 
 Het hulpprogramma is ontworpen als een pijplijn met drie fasen:
 
@@ -28,7 +28,7 @@ Het hulpprogramma is ontworpen als een pijplijn met drie fasen:
 
 * **<a name="test"></a>Test**
 
-    Nadat de inhoud is geüpload en alle wijzigingen zijn aangebracht in de ontwikkelingsfase, kan de inhoud naar deze fase worden verplaatst om te worden getest. Hier volgen drie voorbeelden van wat u kunt doen in de testomgeving:
+    U bent klaar voor de testfase als u alle wijzigingen hebt aangebracht in uw inhoud. U uploadt de gewijzigde inhoud zodat deze naar deze testfase kan worden verplaatst. Hier volgen drie voorbeelden van wat u kunt doen in de testomgeving:
 
     * Inhoud delen met testers en revisoren
 

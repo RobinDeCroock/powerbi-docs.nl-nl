@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216556"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642652"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -180,7 +180,7 @@ U moet [een van deze personen](https://docs.microsoft.com/office365/admin/admin-
 - [Gedeelde en gecertificeerde gegevenssets](../connect-data/service-datasets-share.md).
 - Rapporten die direct of via een organisatie-inhoudspakket met u worden gedeeld.
 - Rapporten in een werkruimte waarvan u geen lid bent met machtigingen voor bewerken.
-- R-visuals worden momenteel niet ondersteund in **Publiceren op internet**-rapporten.
+- R- en Python-visuals worden momenteel niet ondersteund in **Publiceren op internet**-rapporten.
 - Exporteren van gegevens uit de visuals in een rapport dat is gepubliceerd op internet.
 - ArcGIS Maps for Power BI-visuals.
 - Rapporten met DAX-metingen op rapportniveau.

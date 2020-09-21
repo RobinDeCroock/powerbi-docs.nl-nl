@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: de5ab7b75967e752615bf7415c81ba7bb18c1a80
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364049"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008555"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -205,7 +205,7 @@ Omdat de beperkingen van geheugen en tijd per query veel hoger zijn in Premium c
 
 ## <a name="incremental-refresh"></a>Incrementeel vernieuwen
 
-Incrementeel vernieuwen vormt een onlosmakelijk onderdeel van het hebben en onderhouden van grote gegevenssets in Power BI Premium. Incrementeel vernieuwen heeft veel voordelen: vernieuwen vindt bijvoorbeeld sneller plaats omdat er alleen gegevens worden vernieuwd die gewijzigd moeten worden. Vernieuwen is betrouwbaarder, omdat het niet nodig is om langdurige verbindingen met vluchtige gegevensbronnen te onderhouden. Het verbruik van resources is lager, omdat het algemene verbruik van geheugen en andere resources wordt verlaagd als er minder gegevens zijn om te vernieuwen. Beleid voor incrementele vernieuwing wordt gedefinieerd in **Power BI Desktop** en toegepast zodra het beleid wordt gepubliceerd naar een werkruimte in een Premium-capaciteit. 
+Incrementeel vernieuwen vormt een onlosmakelijk onderdeel van het hebben en onderhouden van grote gegevenssets in Power BI Premium en Power BI Pro. Incrementeel vernieuwen heeft veel voordelen: vernieuwen vindt bijvoorbeeld sneller plaats omdat er alleen gegevens worden vernieuwd die gewijzigd moeten worden. Vernieuwen is betrouwbaarder, omdat het niet nodig is om langdurige verbindingen met vluchtige gegevensbronnen te onderhouden. Het verbruik van resources is lager, omdat het algemene verbruik van geheugen en andere resources wordt verlaagd als er minder gegevens zijn om te vernieuwen. Beleid voor incrementele vernieuwing wordt gedefinieerd in **Power BI Desktop** en toegepast zodra het beleid wordt gepubliceerd naar een werkruimte in een Premium-capaciteit. 
 
 ![Details vernieuwen](media/service-premium-incremental-refresh/refresh-details.png)
 

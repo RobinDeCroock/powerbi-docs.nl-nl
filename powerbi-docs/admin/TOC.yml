@@ -80,7 +80,9 @@
           href: desktop-admin-sign-in-form.md
         - name: Gegevensbescherming
           items:
-            - name: Vertrouwelijkheidslabels in Power BI
+            - name: Gegevensbeveiliging in Power BI
+              href: service-security-data-protection-overview.md
+            - name: Overzicht Vertrouwelijkheidslabel
               href: service-security-sensitivity-label-overview.md
             - name: Vertrouwelijkheidslabels inschakelen
               href: service-security-enable-data-sensitivity-labels.md
