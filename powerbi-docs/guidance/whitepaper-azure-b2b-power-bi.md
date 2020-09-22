@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 2783f434e2bb1d6d45ed1a9442c60da7b09e7ae4
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782788"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965369"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B
 
@@ -31,7 +31,7 @@ ms.locfileid: "85782788"
 
 Power BI geeft organisaties een weer gave van hun bedrijf van 360 graden en biedt iedereen in deze organisaties de mogelijkheid om intelligente beslissingen te nemen met behulp van gegevens. Veel van deze organisaties hebben sterke en vertrouwde relaties met externe partners, clients en contract ANTEN. Deze organisaties moeten veilige toegang bieden tot Power BI Dash boards en rapporten voor gebruikers in deze externe partners.
 
-Power BI integreert met [Azure Active Directory Business-to-Business (Azure AD B2B)](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b) voor een veilige distributie van Power bi-inhoud naar gast gebruikers buiten de organisatie, terwijl de controle blijft behouden en de toegang tot interne gegevens wordt geregeld.
+Power BI integreert met [Azure Active Directory Business-to-Business (Azure AD B2B)](/azure/active-directory/b2b/what-is-b2b) voor een veilige distributie van Power bi-inhoud naar gast gebruikers buiten de organisatie, terwijl de controle blijft behouden en de toegang tot interne gegevens wordt geregeld.
 
 In dit technisch document worden alle details besproken die u nodig hebt om de integratie van Power BI met Azure Active Directory B2B te begrijpen. We hebben de meest voorkomende gebruiks situatie, het instellen, het licentie niveau en de beveiliging op rijniveau.
 
@@ -64,7 +64,7 @@ Zodra de externe gebruiker is uitgenodigd om toegang te krijgen tot contoso-bron
 
 Contoso werkt met een toeleverancier om betrouw baarheid van radiatoren uit te voeren. De onderaannemer heeft een team van 10 personen die toegang nodig hebben tot gegevens in de Power BI omgeving van contoso. De contoso Azure AD-beheerder is betrokken bij het uitnodigen van alle gebruikers en het afhandelen van toevoegingen/wijzigingen als personeel bij de toeleveranciers wijziging. De Azure AD-beheerder maakt een beveiligings groep voor alle werk nemers bij de onderaannemer. Met behulp van de beveiligings groep kunnen mede werkers van Contoso eenvoudig toegang tot rapporten beheren en ervoor zorgen dat alle vereiste uitbestedings personeel toegang heeft tot alle vereiste rapporten, Dash boards en Power BI apps. De Azure AD-beheerder kan er ook voor zorgen dat er geen deel uitmaakt van het uitnodigings proces door de uitnodigingen van de uitnodiging te delegeren aan een betrouw bare werk nemer bij Contoso of bij de toeleverancier.
 
-Sommige organisaties hebben meer controle over wanneer externe gebruikers worden toegevoegd, hebben veel gebruikers in een externe organisatie of veel externe organisaties nodig. In deze gevallen kan gepland delen worden gebruikt voor het beheren van de schaal van delen, het afdwingen van organisatie beleid en zelfs voor het delegeren van rechten aan vertrouwde personen om externe gebruikers uit te nodigen en te beheren. Azure AD B2B ondersteunt geplande uitnodigingen die rechtstreeks [vanuit het Azure portal door een IT-beheerder](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)kunnen worden verzonden of via [Power shell met behulp van de API voor uitnodigingen van de uitnodigings beheerder](https://docs.microsoft.com/azure/active-directory/b2b/customize-invitation-api) waarbij een set gebruikers in één actie kan worden uitgenodigd. Met behulp van de geplande methode voor uitnodigingen kan de organisatie bepalen wie gebruikers kan uitnodigen en goedkeurings processen kan implementeren. Dankzij geavanceerde mogelijkheden van Azure AD, zoals dynamische groepen, kunt u het lidmaatschap van de beveiligings groep eenvoudig automatisch onderhouden.
+Sommige organisaties hebben meer controle over wanneer externe gebruikers worden toegevoegd, hebben veel gebruikers in een externe organisatie of veel externe organisaties nodig. In deze gevallen kan gepland delen worden gebruikt voor het beheren van de schaal van delen, het afdwingen van organisatie beleid en zelfs voor het delegeren van rechten aan vertrouwde personen om externe gebruikers uit te nodigen en te beheren. Azure AD B2B ondersteunt geplande uitnodigingen die rechtstreeks [vanuit het Azure portal door een IT-beheerder](/azure/active-directory/b2b/add-users-administrator)kunnen worden verzonden of via [Power shell met behulp van de API voor uitnodigingen van de uitnodigings beheerder](/azure/active-directory/b2b/customize-invitation-api) waarbij een set gebruikers in één actie kan worden uitgenodigd. Met behulp van de geplande methode voor uitnodigingen kan de organisatie bepalen wie gebruikers kan uitnodigen en goedkeurings processen kan implementeren. Dankzij geavanceerde mogelijkheden van Azure AD, zoals dynamische groepen, kunt u het lidmaatschap van de beveiligings groep eenvoudig automatisch onderhouden.
 
 
 ![Bepalen welke gasten inhoud kunnen zien](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_02.png)
@@ -80,7 +80,7 @@ Sommige organisaties hebben meer controle over wanneer externe gebruikers worden
 
 Contoso heeft een set rapporten en dash boards die ze nodig hebben om te delen met een of meer leveranciers. Om ervoor te zorgen dat alle vereiste externe gebruikers toegang hebben tot deze inhoud, wordt het verpakt als een Power BI-app. De externe gebruikers worden direct toegevoegd aan de app-toegangs lijst of via beveiligings groepen. Iemand bij Contoso verzendt vervolgens de app-URL naar alle externe gebruikers, bijvoorbeeld in een e-mail bericht. Wanneer de externe gebruikers de koppeling openen, zien ze alle inhoud in één eenvoudig te navigeren ervaring.
 
-Door een Power BI-app te gebruiken, kunt u eenvoudig een BI-portal voor de leveranciers van Contoso maken. Een enkele toegangs lijst beheert de toegang tot alle vereiste inhoud waarbij de verspilde tijd wordt gereduceerd en de machtigingen op item niveau worden ingesteld. Azure AD B2B houdt beveiligings toegang met de systeem eigen identiteit van de leverancier, zodat gebruikers geen aanvullende aanmeldings referenties nodig hebben. Als geplande uitnodigingen met beveiligings groepen worden gebruikt, is het beheer van toegang tot de app vereenvoudigd. Lidmaatschap van beveiligings groepen hand matig of met [dynamische groepen](https://docs.microsoft.com/azure/active-directory/b2b/use-dynamic-groups), zodat alle externe gebruikers van een leverancier automatisch worden toegevoegd aan de juiste beveiligings groep.
+Door een Power BI-app te gebruiken, kunt u eenvoudig een BI-portal voor de leveranciers van Contoso maken. Een enkele toegangs lijst beheert de toegang tot alle vereiste inhoud waarbij de verspilde tijd wordt gereduceerd en de machtigingen op item niveau worden ingesteld. Azure AD B2B houdt beveiligings toegang met de systeem eigen identiteit van de leverancier, zodat gebruikers geen aanvullende aanmeldings referenties nodig hebben. Als geplande uitnodigingen met beveiligings groepen worden gebruikt, is het beheer van toegang tot de app vereenvoudigd. Lidmaatschap van beveiligings groepen hand matig of met [dynamische groepen](/azure/active-directory/b2b/use-dynamic-groups), zodat alle externe gebruikers van een leverancier automatisch worden toegevoegd aan de juiste beveiligings groep.
 
 
 ![Inhoud beheren met AAD](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_03.png)
@@ -157,13 +157,13 @@ Drie benaderingen worden vaak gebruikt voor het distribueren van koppelingen naa
 
 De tweede aanpak is afhankelijk van de cross-organisatie bewerking en het beheer van de mogelijkheden van Power BI-inhoud. De bovenliggende organisatie staat gebruikers van de dochter ondernemingen toe om toegang te krijgen tot de Power BI en om te bepalen wat ze via toestemming kunnen openen. Hiermee krijgt u toegang tot Power BI thuis waar de gebruiker van de dochter onderneming een uitgebreide lijst met inhoud ziet die wordt gedeeld in de Tenant van de bovenliggende organisatie. De URL naar de Power BI omgeving van de bovenliggende organisaties wordt dan toegewezen aan de gebruikers van de dochter ondernemingen.
 
-De laatste benadering maakt gebruik van een Power BI-app die in de Power BI Tenant is gemaakt voor elke dochter onderneming. De Power BI-app bevat een dash board met [tegels die zijn geconfigureerd met de optie externe koppeling](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile#hyperlink). Wanneer de gebruiker op de tegel drukt, worden deze naar het juiste rapport, dash board of de relevante app in de Power BI van de bovenliggende organisatie geleid. Deze benadering heeft het toegevoegde voor deel dat de app automatisch kan worden geïnstalleerd voor alle gebruikers in de dochter maatschappij en is beschikbaar voor de apps wanneer ze zich aanmelden bij hun eigen Power BI-omgeving. Een extra voor deel van deze benadering is dat het goed werkt met de mobiele apps van Power BI die de koppeling zelf kunnen openen. U kunt dit ook combi neren met de tweede benadering om gemakkelijker te scha kelen tussen Power BI omgevingen.
+De laatste benadering maakt gebruik van een Power BI-app die in de Power BI Tenant is gemaakt voor elke dochter onderneming. De Power BI-app bevat een dash board met [tegels die zijn geconfigureerd met de optie externe koppeling](../create-reports/service-dashboard-edit-tile.md#hyperlink). Wanneer de gebruiker op de tegel drukt, worden deze naar het juiste rapport, dash board of de relevante app in de Power BI van de bovenliggende organisatie geleid. Deze benadering heeft het toegevoegde voor deel dat de app automatisch kan worden geïnstalleerd voor alle gebruikers in de dochter maatschappij en is beschikbaar voor de apps wanneer ze zich aanmelden bij hun eigen Power BI-omgeving. Een extra voor deel van deze benadering is dat het goed werkt met de mobiele apps van Power BI die de koppeling zelf kunnen openen. U kunt dit ook combi neren met de tweede benadering om gemakkelijker te scha kelen tussen Power BI omgevingen.
 
 #### <a name="allowing-subsidiary-users-to-access-data-sources-hosted-by-the-parent-organization"></a>Toegang van dochter gebruikers tot gegevens bronnen die worden gehost door de bovenliggende organisatie
 
 Vaak moeten analisten van een dochter maatschappij hun eigen analyse maken met gegevens die door de bovenliggende organisatie worden verstrekt. In dit geval worden meestal gegevens bronnen in de Cloud gebruikt om de uitdaging te verhelpen.
 
-De eerste benadering maakt gebruik van [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) om een Data Warehouse van een onderneming te bouwen dat de behoeften van analisten in de moeder maatschappij en haar dochter ondernemingen vormt, zoals wordt weer gegeven in de volgende afbeelding. Contoso kan de gegevens hosten en mogelijkheden zoals beveiliging op rijniveau gebruiken om ervoor te zorgen dat gebruikers in elke dochter maatschappij alleen toegang hebben tot hun gegevens. Analisten in elke organisatie hebben toegang tot het Data Warehouse via Power BI Desktop en kunnen resulterende analyses publiceren naar hun respectieve Power BI tenants.
+De eerste benadering maakt gebruik van [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) om een Data Warehouse van een onderneming te bouwen dat de behoeften van analisten in de moeder maatschappij en haar dochter ondernemingen vormt, zoals wordt weer gegeven in de volgende afbeelding. Contoso kan de gegevens hosten en mogelijkheden zoals beveiliging op rijniveau gebruiken om ervoor te zorgen dat gebruikers in elke dochter maatschappij alleen toegang hebben tot hun gegevens. Analisten in elke organisatie hebben toegang tot het Data Warehouse via Power BI Desktop en kunnen resulterende analyses publiceren naar hun respectieve Power BI tenants.
 
 ![Hoe delen met Power BI tenants plaatsvindt](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_07.png)
 
@@ -257,7 +257,7 @@ De integratie van Power BI met Azure AD B2B biedt contoso een naadloze, soepele 
     > [!NOTE]
     > Als u gast gebruikers wilt uitnodigen vanuit de Azure Portal, moet u een beheerder zijn voor de Azure Active Directory van uw Tenant.
 
-    Als contoso veel gast gebruikers wil uitnodigen, kunnen ze dit doen met behulp van Power shell. De Azure AD-beheerder van Contoso slaat de e-mail adressen van alle gast gebruikers op in een CSV-bestand. Hier vindt u [Azure Active Directory B2B-samenwerkings code en Power shell](https://docs.microsoft.com/azure/active-directory/b2b/code-samples) -voor beelden en instructies.
+    Als contoso veel gast gebruikers wil uitnodigen, kunnen ze dit doen met behulp van Power shell. De Azure AD-beheerder van Contoso slaat de e-mail adressen van alle gast gebruikers op in een CSV-bestand. Hier vindt u [Azure Active Directory B2B-samenwerkings code en Power shell](/azure/active-directory/b2b/code-samples) -voor beelden en instructies.
 
     Gast gebruikers ontvangen na de uitnodiging een e-mail met de uitnodiging.
 
@@ -267,7 +267,7 @@ De integratie van Power BI met Azure AD B2B biedt contoso een naadloze, soepele 
     Zodra de gast gebruikers op de koppeling klikken, hebben ze toegang tot inhoud in de contoso Azure AD-Tenant.
 
     > [!NOTE]
-    > Het is mogelijk om de indeling van het e-mail bericht te wijzigen met behulp van de Azure AD-huismerk functie, zoals [hier](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-invitation-email)wordt beschreven.
+    > Het is mogelijk om de indeling van het e-mail bericht te wijzigen met behulp van de Azure AD-huismerk functie, zoals [hier](/azure/active-directory/active-directory-b2b-invitation-email)wordt beschreven.
 
 
     **Ad hoc-uitnodigingen**
@@ -336,7 +336,7 @@ Het is belang rijk om te herkennen dat het Azure AD-account wordt gebruikt of wo
 Contoso kan een van de drie benaderingen kiezen om gast gebruikers van haar leveranciers en partner organisaties toegang te geven tot Power BIe inhoud.
 
 > [!NOTE]
-> _De gratis laag van Azure AD B2B's is voldoende om Power bi te gebruiken met Azure AD B2B. Voor sommige geavanceerde functies van Azure AD B2B, zoals dynamische groepen, zijn extra licenties vereist. Raadpleeg de Azure AD B2B-documentatie voor aanvullende informatie:_[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance)
+> _De gratis laag van Azure AD B2B's is voldoende om Power bi te gebruiken met Azure AD B2B. Voor sommige geavanceerde functies van Azure AD B2B, zoals dynamische groepen, zijn extra licenties vereist. Raadpleeg de Azure AD B2B-documentatie voor aanvullende informatie:_[_https://docs.microsoft.com/azure/active-directory/b2b/licensing-guidance_](/azure/active-directory/b2b/licensing-guidance)
 
 ### <a name="approach-1-contoso-uses-power-bi-premium"></a>Methode 1: contoso maakt gebruik van Power BI Premium
 
@@ -463,7 +463,7 @@ Voor externe gebruikers kan dit ingewik kelder zijn omdat de externe gebruikers 
 
 ![Gebruikers namen toewijzen](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_40.png)
 
-Deze methode is nauw keurig als contoso alleen een aantal gebruikers heeft of als contoso alle externe gebruikers aan één intern account kan toewijzen. Voor complexere scenario's waarbij elke gebruiker hun eigen referenties nodig heeft, is er een geavanceerdere benadering waarbij [aangepaste AD-kenmerken](https://technet.microsoft.com/library/cc961737.aspx) worden gebruikt om de toewijzing uit te voeren zoals beschreven in [uw gegevens bron beheren-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/). Hierdoor kan de Contoso-beheerder een toewijzing definiëren voor elke gebruiker in uw Azure AD (ook externe B2B-gebruikers).  Deze kenmerken kunnen worden ingesteld via het AD-object model met behulp van scripts of code, zodat Contoso de toewijzing van de uitnodiging of een geplande uitgebracht volledig kan automatiseren.
+Deze methode is nauw keurig als contoso alleen een aantal gebruikers heeft of als contoso alle externe gebruikers aan één intern account kan toewijzen. Voor complexere scenario's waarbij elke gebruiker hun eigen referenties nodig heeft, is er een geavanceerdere benadering waarbij [aangepaste AD-kenmerken](/previous-versions/windows/it-pro/windows-2000-server/cc961737(v=technet.10)) worden gebruikt om de toewijzing uit te voeren zoals beschreven in [uw gegevens bron beheren-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/). Hierdoor kan de Contoso-beheerder een toewijzing definiëren voor elke gebruiker in uw Azure AD (ook externe B2B-gebruikers).  Deze kenmerken kunnen worden ingesteld via het AD-object model met behulp van scripts of code, zodat Contoso de toewijzing van de uitnodiging of een geplande uitgebracht volledig kan automatiseren.
 
 ## <a name="enabling-external-users-to-edit-and-manage-content-within-power-bi"></a>Externe gebruikers in staat stellen om inhoud te bewerken en te beheren in Power BI
 
@@ -490,8 +490,8 @@ Gast gebruikers krijgen de alleen-lezen standaard ervaring en kunnen inhoud bewe
 
 Als u deze gebruikers wilt helpen bij het aanmelden bij Power BI, geeft u de URL van de Tenant. Volg deze stap om de tenant-URL te zoeken.
 
-1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) vervolgens **over Power bi**.
-2. Zoek naar de waarde naast **Tenant-URL**. Dit is de Tenant-URL die u met uw gast gebruikers kunt delen.
+1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) vervolgens  **over Power bi**.
+2. Zoek naar de waarde naast  **Tenant-URL**. Dit is de Tenant-URL die u met uw gast gebruikers kunt delen.
 
     ![Tenant-URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
@@ -525,7 +525,7 @@ Wanneer u Azure AD B2B-delen gebruikt, beheert de Azure Active Directory-beheerd
 
 Meer informatie over de instellingen kunt u vinden op:
 
-[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations)
+[https://docs.microsoft.com/azure/active-directory/b2b/delegate-invitations](/azure/active-directory/b2b/delegate-invitations)
 
 > [!NOTE]
 > De machtigingen van de gast gebruikers zijn standaard ingesteld op Ja, dus gast gebruikers in Power BI hebben een beperkte ervaring met betrekking tot het delen van bestanden waarbij de keuze van personen kiezen UIs niet voor die gebruikers werken. Het is belang rijk dat u werkt met uw Azure AD-beheerder om deze in te stellen op Nee, zoals hieronder wordt weer gegeven om te zorgen voor een goede ervaring. * *
@@ -542,13 +542,13 @@ Power BI-beheerders kunnen extern delen voor Power BI beheren door de Power BI b
 - Beheerders, de rol van de gast-uitnodiging en leden kunnen uitnodigen
 - Alle gebruikers, inclusief gasten, kunnen uitnodigen
 
-Meer informatie over deze beleids regels vindt u in [gemachtigde uitnodigingen voor Azure Active Directory B2B-samen werking](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-delegate-invitations).
+Meer informatie over deze beleids regels vindt u in [gemachtigde uitnodigingen voor Azure Active Directory B2B-samen werking](/azure/active-directory/active-directory-b2b-delegate-invitations).
 
 Alle Power BI acties door externe gebruikers worden ook [gecontroleerd in onze controle Portal](https://powerbi.microsoft.com/documentation/powerbi-admin-auditing/).
 
 ### <a name="conditional-access-policies-for-guest-users"></a>Beleid voor voorwaardelijke toegang voor gast gebruikers
 
-Contoso kan beleid voor voorwaardelijke toegang afdwingen voor gast gebruikers die toegang hebben tot inhoud van de contoso-Tenant. Gedetailleerde instructies vindt u in [voorwaardelijke toegang voor B2B-samenwerkings gebruikers](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions).
+Contoso kan beleid voor voorwaardelijke toegang afdwingen voor gast gebruikers die toegang hebben tot inhoud van de contoso-Tenant. Gedetailleerde instructies vindt u in [voorwaardelijke toegang voor B2B-samenwerkings gebruikers](/azure/active-directory/active-directory-b2b-mfa-instructions).
 
 ## <a name="common-alternative-approaches"></a>Algemene alternatieve benaderingen
 
@@ -576,7 +576,7 @@ Redenen om dit alternatief niet te kiezen:
 
 ### <a name="alternative-option-2-create-a-custom-power-bi-embedded-application-using-custom-authentication"></a>Alternatieve optie 2: een aangepaste Power BI Embedded-toepassing maken met aangepaste verificatie
 
-Een andere optie voor contoso is het maken van een eigen aangepaste embedded Power BI toepassing met aangepaste verificatie ([' app is eigenaar van gegevens '](https://docs.microsoft.com/power-bi/developer/embedded/embed-sample-for-customers)). Veel organisaties hebben geen tijd of bronnen om een aangepaste toepassing te maken om Power BI inhoud naar hun externe partners te distribueren, maar dit is de beste benadering en verdient een ernstige overweging.
+Een andere optie voor contoso is het maken van een eigen aangepaste embedded Power BI toepassing met aangepaste verificatie ([' app is eigenaar van gegevens '](../developer/embedded/embed-sample-for-customers.md)). Veel organisaties hebben geen tijd of bronnen om een aangepaste toepassing te maken om Power BI inhoud naar hun externe partners te distribueren, maar dit is de beste benadering en verdient een ernstige overweging.
 
 Vaak hebben organisaties bestaande partner portals die de toegang tot alle bronnen van de organisatie voor partners centraliseren, isolatie bieden van interne organisatie bronnen en gestroomlijnde ervaringen bieden voor partners om veel partners en hun individuele gebruikers te ondersteunen.
 
@@ -612,11 +612,11 @@ Redenen om dit alternatief niet te kiezen:
 
 De eind gebruiker moet altijd door de toestemmings ervaring klikken om toegang te krijgen tot inhoud.
 
-Als u veel gast gebruikers uitnodigt, raden we u aan om dit te delegeren van uw basis-Azure AD-beheerders door [een gebruiker toe te voegen aan de rol van gast-uitnodiging in de resource organisatie](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-add-guest-to-role). Deze gebruiker kan andere gebruikers in de partner organisatie uitnodigen door gebruik te maken van de aanmeldings GEBRUIKERSINTERFACE, Power shell-scripts of Api's. Dit vermindert de beheer last van uw Azure AD-beheerders om nodigingen uit te nodigen voor gebruikers bij de partner organisatie.
+Als u veel gast gebruikers uitnodigt, raden we u aan om dit te delegeren van uw basis-Azure AD-beheerders door [een gebruiker toe te voegen aan de rol van gast-uitnodiging in de resource organisatie](/azure/active-directory/active-directory-b2b-add-guest-to-role). Deze gebruiker kan andere gebruikers in de partner organisatie uitnodigen door gebruik te maken van de aanmeldings GEBRUIKERSINTERFACE, Power shell-scripts of Api's. Dit vermindert de beheer last van uw Azure AD-beheerders om nodigingen uit te nodigen voor gebruikers bij de partner organisatie.
 
 **Kan contoso multi-factor Authentication afdwingen voor gast gebruikers als de partners geen multi-factor Authentication hebben?**
 
-Ja. Zie [voorwaardelijke toegang voor B2B-samenwerkings gebruikers](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-mfa-instructions)voor meer informatie.
+Ja. Zie [voorwaardelijke toegang voor B2B-samenwerkings gebruikers](/azure/active-directory/active-directory-b2b-mfa-instructions)voor meer informatie.
 
 **Hoe werkt B2B-samen werking wanneer de genodigde partner Federatie gebruikt om hun eigen on-premises verificatie toe te voegen?**
 

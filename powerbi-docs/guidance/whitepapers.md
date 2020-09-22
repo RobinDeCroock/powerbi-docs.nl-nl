@@ -8,18 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/03/2020
 ms.author: maggies
-ms.openlocfilehash: 529be27d10a5ac1a352473be14e6e7184493bdf9
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: e514bf77900031af2f32bdad5717e82b33a88623
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336792"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965282"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
 Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hier vindt u een lijst met beschikbare technische documenten voor Power BI.
 
-| Technisch document | Beschrijving | Datum |
+| Technisch document | Description | Date |
 | --- | --- | --- |
 | [Een Power BI Enterprise-implementatie plannen](https://aka.ms/PBIEnterpriseDeploymentWP) |Dit bijgewerkte technische technisch document bevat een overzicht van de overwegingen en aanbevolen procedures voor een goed presterende en veilige organisatie Power BI-implementatie. | Juni 2020 |
 | [Power BI en gegevensstromen](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| In dit technisch document worden gegevensstromen gedetailleerd beschreven, en worden de mogelijkheden en initiatieven beschreven achter de functies en functionaliteit van gegevensstromen. | November 2018 |
@@ -30,11 +30,11 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 | [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](../guidance/whitepaper-azure-b2b-power-bi.md)|Dit document geeft een overzicht van het distribueren van inhoud naar gebruikers buiten de organisatie met behulp van de integratie van AAD B2B (Azure Active Directory Business-to-business).| Maart 2019 |
 | [Geavanceerde analyses met Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Hierin worden de geavanceerde analytische mogelijkheden van Power BI beschreven, waaronder voorspellende analyses, aangepaste visualisaties, R-integratie en expressies voor gegevensanalyse. | Februari 2017 |
 | [Filteren in twee richtingen](../transform-model/desktop-bidirectional-filtering.md) |Hierin wordt het kruislings filteren in twee richtingen in Power BI Desktop uitgelegd (het technische document geldt ook voor SQL Server Analysis Services 2016, beide hebben hetzelfde gedrag). | Juli 2018 |
-| [DirectQuery in SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |DirectQuery is voor SQL Server 2016 opnieuw ontworpen voor sterk verbeterde snelheid en prestaties, maar het is nu wel complexer geworden om te begrijpen en te implementeren. | Januari 2017 |
+| [DirectQuery in SQL Server 2016 Analysis Services](/archive/blogs/analysisservices/directquery-in-sql-server-2016-analysis-services-whitepaper) |DirectQuery is voor SQL Server 2016 opnieuw ontworpen voor sterk verbeterde snelheid en prestaties, maar het is nu wel complexer geworden om te begrijpen en te implementeren. | Januari 2017 |
 | [Power BI en SAP BW](https://aka.ms/powerbiandsapbw)| In dit document wordt beschreven hoe SAP-klanten profijt kunnen hebben door Power BI te koppelen aan hun bestaande SAP Business Warehouse (BW)-systemen. Bijgewerkt in november 2019.| November 2019 |
 | [Het tabellarische model van BI Semantic beveiligen](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |In dit artikel wordt het beveiligingsmodel voor tabellarische BI Semantic en Power BI geïntroduceerd. U leert rollen maken, dynamische beveiliging implementeren, imitatie-instellingen configureren, rollen beheren en een methode kiezen om verbinding te maken met modellen die geschikt is voor uw netwerkbeveiligingscontext. | April 2016 |
 | [Power BI en AVG](https://aka.ms/power-bi-gdpr-whitepaper)| Deze koppeling voert u naar de lijst met technische documenten op de Service Trust Portal, waaronder het technische document over Microsoft Power BI en de AVG. | April 2018 |
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
