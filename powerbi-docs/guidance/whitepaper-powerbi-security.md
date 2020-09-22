@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: a80870963cf045730fff18413884d9871354b169
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792916"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965331"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -45,7 +45,7 @@ Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web 
 
 ![Het WFE en het Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en voor het downloaden van bestanden. Power BI gebruikt de geografische, dichtstbijzijnde WFE om efficiënt de benodigde statische inhoud en bestanden naar gebruikers te distribueren, met uitzonde ring van Power BI visuals die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)**.
+Power BI maakt gebruik van Azure Active Directory (**AAD**) voor accountverificatie en beheer. Power BI maakt ook gebruik van **Azure Traffic Manager (ATM)** om gebruikers verkeer naar het dichtstbijzijnde Data Center te sturen, zoals bepaald door de DNS-record van de client die probeert verbinding te maken, voor het verificatie proces en om statische inhoud en bestanden te downloaden. Power BI gebruikt de geografische, dichtstbijzijnde WFE om efficiënt de benodigde statische inhoud en bestanden naar gebruikers te distribueren, met uitzonde ring van Power BI visuals die worden geleverd met behulp van de **Azure Content Delivery Network (CDN)**.
 
 ### <a name="the-wfe-cluster"></a>Het cluster WFE
 
@@ -53,7 +53,7 @@ Het cluster **WFE** beheert het eerste verbindings- en verificatieproces voor Po
 
 ![Het cluster WEF](media/whitepaper-powerbi-security/powerbi-security-whitepaper_02.png)
 
-Wanneer gebruikers verbinding maken met de Power BI-service, kan de DNS-service van de client communiceren met de **Azure Traffic Manager** om het dichtstbijzijnde datacentrum met een Power BI-implementatie te vinden. Zie [Performance traffic routing method for Azure Traffic Manager](https://azure.microsoft.com/documentation/articles/traffic-manager-routing-methods/#performance-traffic-routing-method) (Prestaties verkeersrouteringsmethode voor Azure Traffic Manager) voor meer informatie over dit proces.
+Wanneer gebruikers verbinding maken met de Power BI-service, kan de DNS-service van de client communiceren met de **Azure Traffic Manager** om het dichtstbijzijnde datacentrum met een Power BI-implementatie te vinden. Zie [Performance traffic routing method for Azure Traffic Manager](/azure/traffic-manager/traffic-manager-routing-methods#performance-traffic-routing-method) (Prestaties verkeersrouteringsmethode voor Azure Traffic Manager) voor meer informatie over dit proces.
 
 Het cluster WFE dat zich het dichtst bij de gebruiker bevindt, beheert de aanmeldings- en verificatievolgorde (die verderop in dit artikel wordt beschreven) en levert een AAD-token aan de gebruiker zodra de verificatie geslaagd is. De ASP.NET-component binnen het cluster WFE parseert de aanvraag om te bepalen tot welke organisatie de gebruiker behoort en raadpleegt vervolgens de Power BI **Global Service**. De Global Service is een individuele Azure-tabel die wordt gedeeld tussen alle WFE- en back-endclusters wereldwijd. Hiermee worden gebruikers en klantorganisaties toegewezen aan het datacenter waar zich hun Power BI-tenant bevindt. Het WFE geeft aan de browser door in welk back-endcluster de tenant van de organisatie zich bevindt. Wanneer een gebruiker is geverifieerd, vinden de hierop volgende clientinteracties rechtstreeks plaats met het back-endcluster. De WFE is geen intermediator meer voor deze aanvragen.
 
@@ -227,19 +227,19 @@ Voor gegevensbronnen in de cloud versleutelt de gegevensverplaatsingsrol versleu
 
     a. Analysis Services on-premises en DirectQuery - Niets wordt opgeslagen in de Power BI-service.
 
-    b. ETL - Versleuteld in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
+    b. ETL - Versleuteld in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
 
-    c. Push data v1 - Versleuteld opgeslagen in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden. Push data v1 zijn stopgezet vanaf 2016. 
+    c. Push data v1 - Versleuteld opgeslagen in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden. Push data v1 zijn stopgezet vanaf 2016. 
 
     d. Push data v2 - Versleuteld opgeslagen in Azure SQL.
 
-Bij Power BI wordt gebruikgemaakt van versleuteling aan de clientzijde en Cipher Block Chaining (CBC) met een geavanceerde versleutelingsnorm (AES) om de Azure Blob-opslag te versleutelen. U kunt [hier](https://azure.microsoft.com/documentation/articles/storage-client-side-encryption/) meer lezen over versleuteling aan de clientzijde.
+Bij Power BI wordt gebruikgemaakt van versleuteling aan de clientzijde en Cipher Block Chaining (CBC) met een geavanceerde versleutelingsnorm (AES) om de Azure Blob-opslag te versleutelen. U kunt [hier](/azure/storage/common/storage-client-side-encryption) meer lezen over versleuteling aan de clientzijde.
 
 Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
 * Bij data-at-rest in Azure SQL maakt Power BI gebruik van dbcc, TDE en constante controlesommen voor pagina's. Dit is onderdeel van het systeemeigen SQL-aanbod.
 
-* Bij data-at-rest in Azure Blob-opslag maakt Power BI gebruik van versleuteling aan de clientzijde en HTTPS voor het overdragen van gegevens naar de opslag. Er wordt ook gebruikgemaakt van integriteitscontroles bij het ophalen van gegevens. U leest [hier](https://azure.microsoft.com/documentation/articles/storage-security-guide/) meer over de Azure Blob-opslagbeveiliging.
+* Bij data-at-rest in Azure Blob-opslag maakt Power BI gebruik van versleuteling aan de clientzijde en HTTPS voor het overdragen van gegevens naar de opslag. Er wordt ook gebruikgemaakt van integriteitscontroles bij het ophalen van gegevens. U leest [hier](/azure/storage/blobs/security-recommendations) meer over de Azure Blob-opslagbeveiliging.
 
 #### <a name="reports"></a>Rapporten
 
@@ -268,7 +268,7 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
 4. Originele Power BI Desktop- (.pbix) of Excel-bestanden (.xlsx) die zijn gepubliceerd naar Power BI
 
-    Soms wordt er een kopie of een schaduwkopie van de xlsx- of pbix-bestanden opgeslagen in de Azure Blob-opslag van Power BI. Als dit gebeurt, worden de gegevens versleuteld. Bij al deze rapporten die zijn opgeslagen in de Power BI-service in Azure Blob-opslag wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
+    Soms wordt er een kopie of een schaduwkopie van de xlsx- of pbix-bestanden opgeslagen in de Azure Blob-opslag van Power BI. Als dit gebeurt, worden de gegevens versleuteld. Bij al deze rapporten die zijn opgeslagen in de Power BI-service in Azure Blob-opslag wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Dashboards en dashboardtegels
 
@@ -385,7 +385,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 * **SQL Server Analysis Services en Power BI:** Voor organisaties die gebruikmaken van on-premises SQL Server Analysis Services, biedt Power BI de Power BI on-premises gegevens gateway (een **Gateway**, waarnaar wordt verwezen in vorige gedeelten).  De Power BI on-premises gegevensgateway kan beveiliging op rolniveau op gegevensbronnen (RLS) afdwingen. Zie **Gebruikersverificatie voor gegevensbronnen** eerder in dit document voor meer informatie over RLS. Zie [on-premises gegevens gateway](../connect-data/service-gateway-onprem.md)voor meer informatie over gateways.
 
-  Bovendien kunnen organisaties Kerberos gebruiken voor de **eenmalige aanmelding** (SSO) en naadloos vanuit Power BI verbinding maken met on-premises gegevensbronnen, zoals SQL Server, SAP HANA en Teradata. Zie [**Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data) voor meer informatie en de specifieke configuratievereisten.
+  Bovendien kunnen organisaties Kerberos gebruiken voor de **eenmalige aanmelding** (SSO) en naadloos vanuit Power BI verbinding maken met on-premises gegevensbronnen, zoals SQL Server, SAP HANA en Teradata. Zie [**Kerberos gebruiken voor eenmalige aanmelding (SSO) bij on-premises gegevensbronnen vanuit Power BI**](../connect-data/service-gateway-sso-overview.md) voor meer informatie en de specifieke configuratievereisten.
 
 * **Niet-domein verbindingen**: voor gegevens verbindingen die geen lid zijn van een domein en niet geschikt zijn voor beveiliging op rollen niveau, moet de gebruiker referenties opgeven tijdens de verbindings reeks, die Power bi vervolgens door gegeven aan de gegevens bron om de verbinding tot stand te brengen. Als er voldoende machtigingen zijn, worden de gegevens vanuit de gegevensbron in de Power BI-service geladen.
 
@@ -469,7 +469,7 @@ De volgende vragen zijn algemene beveiligingsvragen en -antwoorden voor Power BI
 
 **Hoe behandelen micro soft verbindingen voor klanten die Power BI Premium-abonnementen hebben? Zijn deze verbindingen anders dan die welke zijn ingesteld voor de niet-Premium Power BI-service?**
 
-* Met de verbindingen voor klanten met Power BI Premium-abonnementen wordt een autorisatieproces van [Azure Business-to-Business (B2B)](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) geïmplementeerd waarbij Azure Active Directory (AD) wordt gebruikt voor toegangsbeheer en autorisatie. Verbindingen met Power BI Premium-resources van Power BI Premium-abonnees worden met Power BI net zo afgehandeld als voor elke andere Azure AD-gebruiker.
+* Met de verbindingen voor klanten met Power BI Premium-abonnementen wordt een autorisatieproces van [Azure Business-to-Business (B2B)](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b) geïmplementeerd waarbij Azure Active Directory (AD) wordt gebruikt voor toegangsbeheer en autorisatie. Verbindingen met Power BI Premium-resources van Power BI Premium-abonnees worden met Power BI net zo afgehandeld als voor elke andere Azure AD-gebruiker.
 
 ## <a name="conclusion"></a>Conclusie
 
@@ -486,7 +486,7 @@ We stellen uw feedback op prijs. We horen graag of u suggesties hebt voor verbet
 Raadpleeg de volgende resources voor meer informatie over Power BI.
 
 - [Groepen in Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
-- [Aan de slag met Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
+- [Getting Started with Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664) (Aan de slag met Power BI Desktop)
 - [Overzicht van de REST API voor Power BI](/rest/api/power-bi/)
 - [Naslag voor API van Power BI](/rest/api/power-bi/)
 - [On-premises data gateway](../connect-data/service-gateway-onprem.md) (On-premises gegevensgateway)
