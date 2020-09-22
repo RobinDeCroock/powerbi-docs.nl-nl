@@ -137,7 +137,7 @@
             - name: Apps installeren en gebruiken
               href: end-user-app-view.md
             - name: Verbinding maken met services
-              href: end-user-connect-to-services.md
+              href: ../connect-data/service-connect-to-services.md
             - name: Een voorbeeld-app ophalen uit de app-marketplace
               href: end-user-app-marketing.md
         - name: Vragen stellen over uw gegevens
@@ -153,6 +153,6 @@
         - name: Veelgestelde vragen
           href: end-user-faq.md
         - name: Ondersteunde browsers
-          href: end-user-browsers.md
+          href: ../fundamentals/power-bi-browsers.md
         - name: Typen voor Snelle inzichten
           href: end-user-insight-types.md
