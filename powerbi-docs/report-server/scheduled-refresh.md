@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75837620"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861769"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
 Met behulp van geplande vernieuwing van Power BI-rapporten kunt u ervoor zorgen dat de gegevens voor een rapport up-to-date blijven.
@@ -57,9 +57,9 @@ Naast de bovenstaande lijst zijn er specifieke scenario's met gegevensbronnen in
 ### <a name="memory-limits"></a>Geheugenlimieten
 De traditionele werkbelasting voor een rapportserver is vergelijkbaar met een webtoepassing. De mogelijkheid om rapporten te laden met geïmporteerde gegevens of DirectQuery en de mogelijkheid om geplande vernieuwing uit te voeren, zijn afhankelijk van een gehost Analysis Services-exemplaar, naast de rapportserver uiteraard. Dit kan onverwachte geheugendruk op de server veroorzaken. Plan de implementatie van uw server daarom in de wetenschap dat niet alleen de rapportserver geheugen verbruikt, maar ook Analysis Services.
 
-Zie [Monitor an Analysis Services Instance](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance) (Een Analysis Services-exemplaar bewaken) voor informatie over het bewaken van een Analysis Services-exemplaar.
+Zie [Monitor an Analysis Services Instance](/sql/analysis-services/instances/monitor-an-analysis-services-instance) (Een Analysis Services-exemplaar bewaken) voor informatie over het bewaken van een Analysis Services-exemplaar.
 
-Zie [Geheugeneigenschappen](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties) voor informatie over geheugeninstellingen in Analysis Services.
+Zie [Geheugeneigenschappen](/sql/analysis-services/server-properties/memory-properties) voor informatie over geheugeninstellingen in Analysis Services.
 
 ### <a name="data-model-size-limit"></a>De limiet van de grootte van het gegevensmodel
 Het gegevensmodel dat tijdens een geplande vernieuwing in de interne Analysis Services-engine is geladen, heeft een maximale grootte van 2000 MB (2 GB). Deze maximale grootte kan niet worden geconfigureerd. Als uw gegevensmodel groter wordt dan 2 GB, ontvangt u de volgende fout bij het vernieuwen: 'De lengte van het resultaat overschrijdt de lengtelimiet (2 GB) van het grote doeltype'. In dat geval raden we u aan het model te hosten in een Analysis Services-exemplaar en een liveverbinding met het model in het rapport te gebruiken.

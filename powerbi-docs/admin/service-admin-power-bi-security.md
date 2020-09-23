@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034155"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857054"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 
@@ -61,10 +61,10 @@ Een uitzondering vormt verbindingen met **SQL Server Analysis Services** met beh
 
 ## <a name="enforcing-tls-version-usage"></a>Gebruik van TLS-versie afdwingen
 
-Netwerk- en TLS-beheerders kunnen afdwingen dat de huidige TLS (Transport Layer Security) moet worden gebruikt voor alle beveiligde communicatie in het netwerk. Windows biedt ondersteuning voor TLS-versies boven de Microsoft Schannel Provider, zoals wordt [beschreven in het artikel over TLS Schannel SSP](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
+Netwerk- en TLS-beheerders kunnen afdwingen dat de huidige TLS (Transport Layer Security) moet worden gebruikt voor alle beveiligde communicatie in het netwerk. Windows biedt ondersteuning voor TLS-versies boven de Microsoft Schannel Provider, zoals wordt [beschreven in het artikel over TLS Schannel SSP](/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
 
-De beheerder kan dit afdwingen door registersleutels in te stellen. Afdwingen wordt beschreven in het [artikel over het beheren van SSL-protocollen in AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). 
+De beheerder kan dit afdwingen door registersleutels in te stellen. Afdwingen wordt beschreven in het [artikel over het beheren van SSL-protocollen in AD FS](/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). 
 
 In **Power BI Desktop** worden de instellingen voor registersleutels gerespecteerd die in dit artikel beschreven staan, en alleen gemaakte verbindingen die de toegestane TLS-versie gebruiken, gebaseerd op deze registerinstellingen.
 
-Zie het artikel [TLS-registerinstellingen](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings) voor meer informatie over het instellen van deze registersleutels.
+Zie het artikel [TLS-registerinstellingen](/windows-server/security/tls/tls-registry-settings) voor meer informatie over het instellen van deze registersleutels.

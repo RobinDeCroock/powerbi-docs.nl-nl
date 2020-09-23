@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74698688"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861792"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Problemen met geplande vernieuwing oplossen in Power BI Report Server
 In dit artikel worden de hulpmiddelen beschreven die beschikbaar zijn voor het oplossen van problemen met geplande vernieuwing in Power BI Report Server.
@@ -35,9 +35,9 @@ Geheugendruk kan optreden wanneer rapporten meer geheugen vereisen voor verwerki
 
 Als u regelmatig geheugendruk vaststelt, kan het zinvol zijn om te kijken naar een uitgeschaalde implementatie van de rapportserver om de belasting van resources te verdelen. U kunt ook opgeven dat een bepaalde rapportserver moet worden gebruikt om gegevens te vernieuwen, via de instelling `IsDataModelRefreshService` in het bestand rsreportserver.config. Met deze instelling kunt u een of meer servers definiëren als de front-endserver voor het afhandelen van rapporten op aanvraag, en een andere set servers voor alleen geplande vernieuwing.
 
-Zie [Monitor an Analysis Services Instance](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance) (Een Analysis Services-exemplaar bewaken) voor informatie over het bewaken van een Analysis Services-exemplaar.
+Zie [Monitor an Analysis Services Instance](/sql/analysis-services/instances/monitor-an-analysis-services-instance) (Een Analysis Services-exemplaar bewaken) voor informatie over het bewaken van een Analysis Services-exemplaar.
 
-Zie [Geheugeneigenschappen](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties) voor informatie over geheugeninstellingen in Analysis Services.
+Zie [Geheugeneigenschappen](/sql/analysis-services/server-properties/memory-properties) voor informatie over geheugeninstellingen in Analysis Services.
 
 ### <a name="kerberos-configuration"></a>Kerberos-configuratie
 Om verbinding te maken met een gegevensbron via Windows-referenties, kan het nodig zijn om beperkte Kerberos-overdracht te configureren. Zie [Configure Kerberos to use Power BI reports](configure-kerberos-powerbi-reports.md) (Kerberos configureren om Power BI-rapporten te gebruiken) voor meer informatie over het configureren van beperkte Kerberos-overdracht.
@@ -180,7 +180,7 @@ De volgende instellingen worden opnieuw ingesteld wanneer het Analysis Services-
 ### <a name="profiling-the-local-analysis-services-process"></a>Lokaal Analysis Services-proces profileren
 U kunt voor diagnostische doeleinden een trace van SQL Profiler uitvoeren op het lokale Analysis Services-proces. Ga als volgt te werk om verbinding te maken met het lokale exemplaar van Analysis Services.
 
-SQL Server Profiler Trace is opgenomen in de [download van SQL Server Management Studio (SSMS)](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms).
+SQL Server Profiler Trace is opgenomen in de [download van SQL Server Management Studio (SSMS)](/sql/ssms/download-sql-server-management-studio-ssms).
 
 1. Start **SQL Server Profiler** als beheerder.
 2. Selecteer de knop **New Trace**.
@@ -188,7 +188,6 @@ SQL Server Profiler Trace is opgenomen in de [download van SQL Server Management
 4. Selecteer in het dialoogvenster **Trace properties** de gebeurtenissen die u wilt vastleggen en selecteer **Run**.
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>Pagina's in het geheugen vergrendelen
-Als u een Power BI-rapport niet kunt weergeven, kan het helpen om de bevoegdheid **Pagina's in het geheugen vergrendelen** toe te wijzen aan het servicesaccount waaronder Power BI Report Server wordt uitgevoerd. Zie [Windows privileges assigned to the Analysis Services service account](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv) (Windows-bevoegdheden die zijn toegewezen aan het serviceaccount van Analysis Services) voor meer informatie over het configureren van **Pagina's in het geheugen vergrendelen**.
+Als u een Power BI-rapport niet kunt weergeven, kan het helpen om de bevoegdheid **Pagina's in het geheugen vergrendelen** toe te wijzen aan het servicesaccount waaronder Power BI Report Server wordt uitgevoerd. Zie [Windows privileges assigned to the Analysis Services service account](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv) (Windows-bevoegdheden die zijn toegewezen aan het serviceaccount van Analysis Services) voor meer informatie over het configureren van **Pagina's in het geheugen vergrendelen**.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

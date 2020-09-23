@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: b414457c15155053ff6d316d1147536ec9ca5a8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393774"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856640"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 U kunt koppelingen gebruiken om rechtstreeks toegang te krijgen tot specifieke items in Power BI: Rapport, Dashboard en Tegel.
@@ -100,7 +100,7 @@ https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes h
 
 Koppelingen in Power BI werken net zo in de mobiele apps als in de Power BI-service.
 
-Als u aan uw rapport een koppeling wilt toevoegen die naar een ander Power BI-item verwijst, kunt u gewoon de URL van dat item kopiëren in de adresbalk van de browser. Lees meer over het [toevoegen van een hyperlink aan een tekstvak in een rapport](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
+Als u aan uw rapport een koppeling wilt toevoegen die naar een ander Power BI-item verwijst, kunt u gewoon de URL van dat item kopiëren in de adresbalk van de browser. Lees meer over het [toevoegen van een hyperlink aan een tekstvak in een rapport](../../create-reports/service-add-hyperlink-to-text-box.md).
 
 ## <a name="use-report-url-with-filter"></a>Rapport-URL met filter gebruiken
 Power BI - Mobiel-apps ondersteunen, net als Power BI-service, rapport-URL’s die een parameter voor een filterquery bevatten. U kunt een rapport in de Power BI - Mobiel-app openen en deze filteren op een specifieke status. Deze URL opent bijvoorbeeld het verkooprapport en filtert dit op Gebied
@@ -109,7 +109,7 @@ Power BI - Mobiel-apps ondersteunen, net als Power BI-service, rapport-URL’s d
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-Lees meer over [het opstellen van queryparameters om rapporten te filteren](https://docs.microsoft.com/power-bi/service-url-filters).
+Lees meer over [het opstellen van queryparameters om rapporten te filteren](../../collaborate-share/service-url-filters.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmplementeerd. Vergeet dus niet op andere functies te stemmen die u graag in de mobiele Power BI-apps zou willen zien. 
@@ -118,4 +118,3 @@ Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmp
 * Volg @MSPowerBI op Twitter
 * Deelnemen aan conversaties in de [Power BI-community](https://community.powerbi.com/)
 * [Wat is Power BI?](../../fundamentals/power-bi-overview.md)
-

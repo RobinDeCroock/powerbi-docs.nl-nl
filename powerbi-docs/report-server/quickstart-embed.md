@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4f6382b78a02750c76987de4fa911eb8c7d33b50
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 9e639c4a22cc4e01c04374289026a7006f33143b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411998"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861861"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Een Power BI Report Server-rapport insluiten met behulp van een iFrame in SharePoint Server
 
@@ -24,7 +24,7 @@ In dit artikel leert u hoe u een Power BI Report Server-rapport insluit met behu
 ## <a name="prerequisites"></a>Vereisten
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) moet zijn geïnstalleerd en geconfigureerd.
 * [De voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop](install-powerbi-desktop.md) moet zijn geïnstalleerd.
-* Er moet een [SharePoint 2013-, 2016- of 2019-omgeving](https://docs.microsoft.com/sharepoint/install/install) zijn geïnstalleerd en geconfigureerd.
+* Er moet een [SharePoint 2013-, 2016- of 2019-omgeving](/sharepoint/install/install) zijn geïnstalleerd en geconfigureerd.
 * Internet Explorer 11 wordt alleen ondersteund als de documentmodus is ingesteld op de modus IE11 (Edge) of bij het gebruik van SharePoint Online. U kunt andere ondersteunde browsers gebruiken met SharePoint on-premises en SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>De Power BI-rapport-URL maken
@@ -101,4 +101,4 @@ Zodra u de URL hebt, kunt u een iFrame binnen een SharePoint-pagina maken om het
 - [Maak een Power BI-rapport voor Power BI Report Server](quickstart-create-powerbi-report.md).  
 - [Maak een gepagineerd rapport voor Power BI Report Server](quickstart-create-paginated-report.md).  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/). 
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 941bd2adc63a06089ddf4fb79752557b8c688f71
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263000"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856801"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Aan de slag met de mobiele Power BI-app op Android-apparaten
 De Android-app voor Microsoft Power BI biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. 
@@ -112,7 +112,7 @@ Hier volgen enkele dingen die u in de Android-apparaat-app voor Power BI kunt do
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Rapporten en KPI's op de Power BI Report Server- en Reporting Services-webportal
 * [Rapporten en KPI's op de webportal weergeven](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) in de mobiele Power BI-app voor Android-apparaten.
-* [KPI's op de webportal](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services) maken.
+* [KPI's op de webportal](/sql/reporting-services/working-with-kpis-in-reporting-services) maken.
 * [Rapporten in Power BI Desktop maken en deze publiceren op de Power BI Report Server](../../report-server/quickstart-create-powerbi-report.md)-webportal
 
 ### <a name="see-also"></a>Zie ook

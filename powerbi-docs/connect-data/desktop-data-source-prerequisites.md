@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 373249061f39c40ec3a78ba9541575721bd60022
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293600"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859630"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Vereisten voor Power BI-gegevensbronnen
 Voor elke gegevensprovider ondersteunt Power BI een specifieke providerversie voor objecten. Zie [Gegevensbronnen](desktop-data-sources.md) voor meer informatie over de beschikbare gegevensbronnen voor Power BI. In de volgende tabel worden deze vereisten beschreven.
@@ -22,9 +22,9 @@ Voor elke gegevensprovider ondersteunt Power BI een specifieke providerversie vo
 | Gegevensbron | Provider | Minimaal vereiste providerversie | Minimaal vereiste gegevensbronversie | Ondersteunde gegevensbronobjecten | Downloadkoppeling |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net (ingebouwd in .Net Framework) |.Net Framework 3.5 (uitsluitend) |SQL Server 2005+ |Tabellen/weergaven, scalaire functies, tabelfuncties |Opgenomen in .NET Framework 3.5 en hoger |
-| Toegang |Microsoft Access-database-engine (ACE) |ACE 2010 SP1 |Geen beperking |Tabellen/weergaven |[Downloadkoppeling](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
-| Excel (uitsluitend XLS-bestanden) (zie opmerking 1) |Microsoft Access-database-engine (ACE) |ACE 2010 SP1 |Geen beperking |Tabellen, bladen |[Downloadkoppeling](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
-| Oracle (zie opmerking 2) |ODP.NET |ODAC 11.2 Release 5 (11.2.0.3.20) |9.x+ |Tabellen/weergaven |[Downloadkoppeling](https://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
+| Toegang |Microsoft Access-database-engine (ACE) |ACE 2010 SP1 |Geen beperking |Tabellen/weergaven |[Downloadkoppeling](./desktop-access-database-errors.md) |
+| Excel (uitsluitend XLS-bestanden) (zie opmerking 1) |Microsoft Access-database-engine (ACE) |ACE 2010 SP1 |Geen beperking |Tabellen, bladen |[Downloadkoppeling](./desktop-access-database-errors.md) |
+| Oracle (zie opmerking 2) |ODP.NET |ODAC 11.2 Release 5 (11.2.0.3.20) |9.x+ |Tabellen/weergaven |[Downloadkoppeling](./desktop-connect-oracle-database.md) |
 | | System.Data.OracleClient (ingebouwd in .Net Framework) |.NET Framework 3.5 |9.x+ |Tabellen/weergaven |Opgenomen in .NET Framework 3.5 en hoger |
 | IBM DB2 |ADO.Net-client van IBM (onderdeel van het stuurprogrammapakket voor de IBM-gegevensserver) |10.1 |9.1+ |Tabellen/weergaven |[Downloadkoppeling](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |Connector/Net |6.6.5 |5.1 |Tabellen/weergaven, scalaire functies |[Downloadkoppeling](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
@@ -38,5 +38,4 @@ Voor elke gegevensprovider ondersteunt Power BI een specifieke providerversie vo
 >[!NOTE]
 >Voor de Oracle-providers is ook Oracle-clientsoftware (versie 8.1.7+) vereist.
 > 
-> 
-
+>

@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 5696807957d6facc62a92923dcfc888bcab2154b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cb2a5ede49acb218450174bbf77388be5c504617
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238002"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861723"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Een upgrade uitvoeren voor Power BI Report Server
 
@@ -30,7 +30,7 @@ Voordat u een upgrade uitvoert van een rapportserver, is het raadzaam de volgend
 
 ### <a name="backing-up-the-encryption-keys"></a>Een back-up van uw versleutelingsleutels maken
 
-U moet een back-up van de versleutelingssleutels maken wanneer u voor het eerst een installatie van de rapportserver configureert. U moet ook steeds een back-up van de sleutels maken wanneer u de identiteit van de serviceaccounts of de naam van de computer wijzigt. Zie [Back-ups van Reporting Services-versleutelingssleutels maken en herstellen](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys) voor meer informatie.
+U moet een back-up van de versleutelingssleutels maken wanneer u voor het eerst een installatie van de rapportserver configureert. U moet ook steeds een back-up van de sleutels maken wanneer u de identiteit van de serviceaccounts of de naam van de computer wijzigt. Zie [Back-ups van Reporting Services-versleutelingssleutels maken en herstellen](/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys) voor meer informatie.
 
 ### <a name="backing-up-the-report-server-databases"></a>Back-ups van de rapportserverdatabases maken
 
@@ -40,7 +40,7 @@ Omdat een rapportserver is een staatloze server is, worden alle toepassingsgegev
 * Gebruik het eenvoudig herstelmodel om een back-up van de database **reportservertempdb** te maken.
 * U kunt voor elke database verschillend back-upschema's gebruiken. De enige reden om een back-up te maken van de database **reportservertempdb** is om te voorkomen dat u deze in het geval van een hardwarefout opnieuw moet maken. In het geval van een hardwarefout is het niet nodig om de gegevens in **reportservertempdb** te herstellen, maar hebt u wel de tabelstructuur nodig. Als u **reportservertempdb** kwijtraakt, kunt u de database alleen herstellen door de rapportserverdatabase opnieuw te maken. Als u de database **reportservertempdb** opnieuw maakt, is het belangrijk dat deze dezelfde naam heeft als de primaire rapportserverdatabase.
 
-Zie [Een back-up van SQL Server-databases maken en deze terugzetten](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases) voor meer informatie over het maken van back-ups en het terugzetten van relationele SQL Server-databases.
+Zie [Een back-up van SQL Server-databases maken en deze terugzetten](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases) voor meer informatie over het maken van back-ups en het terugzetten van relationele SQL Server-databases.
 
 ### <a name="backing-up-the-configuration-files"></a>Een back-up van de configuratiebestanden maken
 
@@ -80,13 +80,13 @@ Nadat de upgrade voor de rapportserver is uitgevoerd, wilt u ervoor zorgen dat d
 
 * [Administratoroverzicht](admin-handbook-overview.md)  
 * [Install Power BI Desktop optimized for Power BI Report Server](install-powerbi-desktop.md) (Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren)  
-* [Een installatie van Reporting Services verifiëren](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-* [Het serviceaccount van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-* [De URL's van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-* [Configure a report server database connection](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (De verbinding van een rapportserverdatabase configureren)  
-* [Een rapportserver initialiseren](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-* [SSL-verbindingen voor een rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-* [Windows-serviceaccounts en machtigingen configureren](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
+* [Een installatie van Reporting Services verifiëren](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+* [Het serviceaccount van de rapportserver configureren](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+* [De URL's van de rapportserver configureren](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+* [Configure a report server database connection](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (De verbinding van een rapportserverdatabase configureren)  
+* [Een rapportserver initialiseren](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+* [SSL-verbindingen voor een rapportserver configureren](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+* [Windows-serviceaccounts en machtigingen configureren](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 * [Browser support for Power BI Report Server](browser-support.md) (Browserondersteuning voor Power BI Report Server)
 
 Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

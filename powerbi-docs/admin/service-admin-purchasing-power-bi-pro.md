@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 8c5daa2e63b874f1811c3819c60785bdbe93918c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878360"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856917"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
@@ -29,7 +29,7 @@ Power BI Pro is een afzonderlijke gebruikerslicentie waarmee gebruikers rapporte
 In dit artikel wordt uitgelegd hoe u Power BI Pro-gebruikerslicenties kunt kopen in het Microsoft 365-beheercentrum. Nadat u licenties hebt gekocht, kunt u deze toewijzen aan gebruikers in het Microsoft 365-beheercentrum of in de Azure-portal.
 
 > [!NOTE]
-> Vanaf 14 januari 2020 zijn mogelijkheden voor selfserviceaankopen, abonnementen en licentiebeheer voor Power Platform-producten (Power BI, Power Apps en Power Automate) beschikbaar voor klanten van de commerciële cloud. Zie [Veelgestelde vragen over aankopen via self-service](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) voor meer informatie. Zie [Mogelijkheden voor aanmelden en aankopen via een self-service in- of uitschakelen](/power-bi/admin/service-admin-disable-self-service) voor het in- of uitschakelen van mogelijkheden voor aankopen via self-service.
+> Vanaf 14 januari 2020 zijn mogelijkheden voor selfserviceaankopen, abonnementen en licentiebeheer voor Power Platform-producten (Power BI, Power Apps en Power Automate) beschikbaar voor klanten van de commerciële cloud. Zie [Veelgestelde vragen over aankopen via self-service](/microsoft-365/commerce/subscriptions/self-service-purchase-faq) voor meer informatie. Zie [Mogelijkheden voor aanmelden en aankopen via een self-service in- of uitschakelen](./service-admin-disable-self-service.md) voor het in- of uitschakelen van mogelijkheden voor aankopen via self-service.
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -40,7 +40,7 @@ Als u licenties wilt toewijzen in Azure Portal, moet u eigenaar zijn van het Azu
 ### <a name="purchase-licenses-in-microsoft-365"></a>Licenties kopen in Microsoft 365
 
 > [!NOTE]
-> Als u meestal licenties koopt via een volumelicentieovereenkomst, zoals een Enterprise Agreement en een factuur wilt ontvangen in plaats van te kopen met een creditcard of bankrekening, moet u de order anders indienen. Werk samen met uw Microsoft Reseller of ga door het Volume Licensing Service Center om licenties toe te voegen of te verwijderen. Zie [Abonnementslicenties](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide) voor meer informatie.
+> Als u meestal licenties koopt via een volumelicentieovereenkomst, zoals een Enterprise Agreement en een factuur wilt ontvangen in plaats van te kopen met een creditcard of bankrekening, moet u de order anders indienen. Werk samen met uw Microsoft Reseller of ga door het Volume Licensing Service Center om licenties toe te voegen of te verwijderen. Zie [Abonnementslicenties](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide) voor meer informatie.
 
 Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft 365-beheercentrum:
 

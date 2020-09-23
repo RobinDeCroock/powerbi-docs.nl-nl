@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/3/2019
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05db20b2f83f10409339fad949874fc1076a6b98
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 06b117a271671092a94aa8e7994269344b444178
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83285964"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859607"
 ---
 # <a name="trusted-third-party-connectors"></a>Vertrouwde externe connectoren
 
@@ -24,7 +24,7 @@ In Power BI wordt u aangeraden het niveau van uw 'beveiliging van gegevensextens
 
 De ontwikkelaar van een bepaalde connector kan deze ondertekenen met een certificaat en u de informatie verstrekken die u nodig hebt om deze veilig te laden zonder uw beveiligingsinstellingen te verlagen.
 
-[Hier](https://docs.microsoft.com/power-bi/desktop-connector-extensibility) vindt u meer informatie over de beveiligingsinstellingen.
+[Hier](./desktop-connector-extensibility.md) vindt u meer informatie over de beveiligingsinstellingen.
 
 ## <a name="using-the-registry-to-trust-third-party-connectors"></a>Het register gebruiken om connectoren van derden te vertrouwen
 
@@ -46,4 +46,4 @@ Als u de instructies op de juiste manier hebt gevolgd en de juiste vingerafdruk 
 
 ## <a name="how-to-sign-connectors"></a>Connectoren ondertekenen
 
-Als u een connector hebt die u of een ontwikkelaar moet ondertekenen, kunt u hierover meer lezen in de Power Query-documenten [hier](https://docs.microsoft.com/power-query/handlingconnectorsigning).
+Als u een connector hebt die u of een ontwikkelaar moet ondertekenen, kunt u hierover meer lezen in de Power Query-documenten [hier](/power-query/handlingconnectorsigning).

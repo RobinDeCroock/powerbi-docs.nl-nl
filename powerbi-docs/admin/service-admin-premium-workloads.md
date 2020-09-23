@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 8e8f1c143f65b1974364a8a1c9c55e132a4131c4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204429"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857031"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -198,7 +198,7 @@ Maximaliseer de beschikbare resources van uw capaciteit door workloads alleen in
 
 ### <a name="rest-api"></a>REST API
 
-Workloads kunnen worden ingeschakeld en aan een capaciteit worden toegewezen met behulp van de REST API's voor [capaciteiten](https://docs.microsoft.com/rest/api/power-bi/capacities).
+Workloads kunnen worden ingeschakeld en aan een capaciteit worden toegewezen met behulp van de REST API's voor [capaciteiten](/rest/api/power-bi/capacities).
 
 ## <a name="monitoring-workloads"></a>Workloads bewaken
 

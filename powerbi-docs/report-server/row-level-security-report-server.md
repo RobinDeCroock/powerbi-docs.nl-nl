@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/22/2019
-ms.openlocfilehash: ba0cf6b450720e0564b5d476f57d91a4f070391c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238071"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861838"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Beveiliging op rijniveau (RLS) in Power BI Report Server
 
@@ -31,7 +31,7 @@ Het beveiligingsfilter op rijniveau gebruikt standaard filters in één richting
 
     ![Beveiligingsfilter toepassen](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Schakel dit selectievakje in wanneer u [dynamische beveiliging op rijniveau](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) implementeert op basis van gebruikersnaam of aanmeldings-id. 
+Schakel dit selectievakje in wanneer u [dynamische beveiliging op rijniveau](/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters) implementeert op basis van gebruikersnaam of aanmeldings-id. 
 
 Zie voor meer informatie [Kruislings filteren in twee richtingen met DirectQuery in Power BI Desktop](../transform-model/desktop-bidirectional-filtering.md) en het technisch document [Het semantische BI-model in tabelvorm beveiligen](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
@@ -122,4 +122,3 @@ Ja, als u al bestaande rollen hebt gedefinieerd en leden hebt toegewezen in Powe
 [Handboek voor beheerders](admin-handbook-overview.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459595"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859239"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -32,7 +32,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
             - Er is een probleem opgelost waarbij het vernieuwen is mislukt als fuzzy matching is gebruikt bij het samenvoegen van query's.
     - *Versie: 1.8.7450.37410 (Build 15.0.1103.227), uitgebracht: 27 mei 2020*
          - Functies
-            -  Ondersteuning toegevoegd voor de grootte van de verbindingsgroep van de catalogus (zie[MaxCatalogConnectionPoolSizePerProcess-instelling](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service) voor meer informatie).
+            -  Ondersteuning toegevoegd voor de grootte van de verbindingsgroep van de catalogus (zie[MaxCatalogConnectionPoolSizePerProcess-instelling](/sql/reporting-services/report-server/rsreportserver-config-configuration-file#bkmk_service) voor meer informatie).
             -  Verbeterd gedrag bij het bekijken van een rapport tijdens een vernieuwingsbewerking.
         - Beveiligingsupdates
         - Opgeloste fouten
@@ -65,7 +65,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
            -  Oplossing voor Power BI-rapporten die niet kunnen worden geüpload voor bepaalde gegevensbronnen
            -  Oplossing voor de downloadlocatie voor de Power BI Report Server Desktop-koppeling in de portal
            -  Oplossing voor de weergave van DynamicImageDPI voor Excel
-           -  Oplossing voor het gebruik van een onjuiste threadcultuur voor Oracle-verbindingen in bepaalde scenario’s met meerdere gebruikers (zie [UseInstalledUICulture-documentatie](https://docs.microsoft.com/power-bi/report-server/connect-data-sources) voor meer informatie)
+           -  Oplossing voor het gebruik van een onjuiste threadcultuur voor Oracle-verbindingen in bepaalde scenario’s met meerdere gebruikers (zie [UseInstalledUICulture-documentatie](./connect-data-sources.md) voor meer informatie)
            -  Oplossing voor fouten bij het insluiten van rapporten, die worden veroorzaakt door de CustomHeaders-standaardwaarde
            -  Oplossing voor het onjuist genereren van SQL-parameternamen in bepaalde gevallen
     - *Versie: 1.6.7327.3007 (Build 15.0.1102.759), uitgebracht: 23 januari 2020*
@@ -351,7 +351,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
 
     - *Build 14.0.600.305, uitgebracht: 19 september 2017*  
         - Opgeloste fouten
-            - Update naar de nieuwste [webbesturingselement voor Bing Kaarten](https://msdn.microsoft.com/library/mt712542.aspx)
+            - Update naar de nieuwste [webbesturingselement voor Bing Kaarten](/bingmaps/v8-web-control/)
 
     - *Build 14.0.600.301, uitgebracht: 11 juli 2017*
         - Opgeloste fouten
@@ -373,6 +373,6 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

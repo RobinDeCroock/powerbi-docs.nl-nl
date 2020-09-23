@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: c26d169a4c8ef876d1fe92e4967b07c982f510db
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952611"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856870"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>PowerShell-cmdlets, REST-API's en .NET SDK-clientbibliotheek voor het beheer van Power BI
 Met Power BI kunnen beheerders algemene taken uitvoeren met PowerShell-cmdlets. Verder biedt het REST-API's en een .NET Client-bibliotheek voor het ontwikkelen van beheerdersoplossingen. Dit onderwerp bevat een lijst met cmdlets met de bijbehorende API's en het REST API-eindpunt. Raadpleeg voor meer informatie:
 
-- PowerShell [downloaden](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) en [documentatie](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
-- REST API-[documentatie](https://docs.microsoft.com/rest/api/power-bi/admin)
+- PowerShell [downloaden](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) en [documentatie](/powershell/power-bi/overview?view=powerbi-ps)
+- REST API-[documentatie](/rest/api/power-bi/admin)
 - [Downloaden](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) vanuit .NET Client-bibliotheek
 
 > De onderstaande cmdlets moeten worden aangeroepen met `-Scope Organization` om voor beheerstaken te kunnen gebruiken op basis van de tenant.

@@ -10,12 +10,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 04/28/2020
 LocalizationGroup: Data from databases
-ms.openlocfilehash: ffdb18927d5b92ecd10eb4b9e3a3b8fcd921dea2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 038d18639639fa13250e44da141314e9a94fe412
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230560"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861907"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database met DirectQuery
 
@@ -29,7 +29,7 @@ Met DirectQuery worden query’s teruggestuurd naar Azure SQL Database wanneer u
 **Opmerkingen:**
 
 * Geef de volledige servernaam op wanneer u verbinding maakt (zie hieronder voor meer informatie).
-* Zorg dat de firewallregels voor de database zijn ingesteld op "[Toegang tot Azure-services toestaan](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)".
+* Zorg dat de firewallregels voor de database zijn ingesteld op "[Toegang tot Azure-services toestaan](/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)".
 * Voor elke actie, zoals het selecteren van een kolom of het toevoegen van een filter, wordt er een query teruggestuurd naar de database.
 * Tegels worden om het uur vernieuwd (vernieuwen hoeft niet te worden gepland). U kunt aanpassen hoe vaak gegevens in Geavanceerde instellingen moeten worden vernieuwen wanneer u verbinding maakt.
 * V&A is niet beschikbaar voor DirectQuery-gegevenssets.

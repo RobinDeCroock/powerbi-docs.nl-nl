@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/16/2020
-ms.openlocfilehash: a6c668ad08b3b56eeb92919f37b021a77100ceee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 049f6f563c9ac6e7494b0680b69e0df8909304d4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239030"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861884"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
@@ -93,9 +93,9 @@ Er is geen SQL Server Database Engine-server nodig tijdens de installatie. U heb
 
 ## <a name="configure-your-report-server"></a>Uw rapportserver configureren
 
-Nadat u **Configure Report Server** hebt geselecteerd tijdens de installatie, ziet u het scherm van Reporting Services Configuration Manager. Zie [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) voor meer informatie.
+Nadat u **Configure Report Server** hebt geselecteerd tijdens de installatie, ziet u het scherm van Reporting Services Configuration Manager. Zie [Reporting Services Configuration Manager](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) voor meer informatie.
 
-U maakt een [rapportserverdatabase](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) om de eerste configuratie van Reporting Services te voltooien. Voor deze stap hebt u een server met een SQL Server-database nodig.
+U maakt een [rapportserverdatabase](/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) om de eerste configuratie van Reporting Services te voltooien. Voor deze stap hebt u een server met een SQL Server-database nodig.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Een database maken op een andere server
 
@@ -109,7 +109,7 @@ U kunt deze fout omzeilen door het serviceaccount te wijzigen in Network Service
 
 ![Serviceaccount van rapportserver configureren](media/install-report-server/pbireportserver-configure-account.png)
 
-Zie [Configure the Report Server Service Account (SSRS Configuration Manager)](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Report Server Service Account (SSRS Configuration Manager) configureren) voor meer informatie.
+Zie [Configure the Report Server Service Account (SSRS Configuration Manager)](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Report Server Service Account (SSRS Configuration Manager) configureren) voor meer informatie.
 
 ## <a name="windows-service"></a>Windows-service
 
@@ -143,23 +143,23 @@ Open de TCP-poort die u hebt geconfigureerd voor uw webservice-URL en webportal-
 
 ## <a name="additional-configuration"></a>Aanvullende configuratie
 
-* Als u integratie met de Power BI-service wilt configureren zodat u rapportitems kunt vastmaken aan een Power BI-dashboard, leest u [Power BI Report Server Integration (Configuration Manager)](https://docs.microsoft.com/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager) (Power BI Report Server-integratie (Configuration Manager)).
-* Zie [E-Mail settings](https://docs.microsoft.com/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) (E-mailinstellingen) en [E-Mail delivery in a report server](https://docs.microsoft.com/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services) (E-mailbezorging op een rapportserver) om e-mail te configureren voor de verwerking van abonnementen.
-* Als u de webportal zo wilt configureren dat u vanaf een computer met rapportserver rapporten kunt weergeven en beheren, raadpleegt u [Configure a firewall for report server access](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) (Een firewall configureren voor toegang tot Report Server) en [Configure a report server for remote administration](https://docs.microsoft.com/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration) (Een rapportserver configureren voor extern beheer).
-* Raadpleeg de [pagina met geavanceerde servereigenschappen](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services) voor informatie over het instellen van systeemeigenschappen voor de rapportserver in SQL Server Management Studio. Tenzij anders opgegeven, zijn de opties van toepassing op zowel Power BI Report Server als op SQL Server Reporting Services.
+* Als u integratie met de Power BI-service wilt configureren zodat u rapportitems kunt vastmaken aan een Power BI-dashboard, leest u [Power BI Report Server Integration (Configuration Manager)](/sql/reporting-services/install-windows/power-bi-report-server-integration-configuration-manager) (Power BI Report Server-integratie (Configuration Manager)).
+* Zie [E-Mail settings](/sql/reporting-services/install-windows/e-mail-settings-reporting-services-native-mode-configuration-manager) (E-mailinstellingen) en [E-Mail delivery in a report server](/sql/reporting-services/subscriptions/e-mail-delivery-in-reporting-services) (E-mailbezorging op een rapportserver) om e-mail te configureren voor de verwerking van abonnementen.
+* Als u de webportal zo wilt configureren dat u vanaf een computer met rapportserver rapporten kunt weergeven en beheren, raadpleegt u [Configure a firewall for report server access](/sql/reporting-services/report-server/configure-a-firewall-for-report-server-access) (Een firewall configureren voor toegang tot Report Server) en [Configure a report server for remote administration](/sql/reporting-services/report-server/configure-a-report-server-for-remote-administration) (Een rapportserver configureren voor extern beheer).
+* Raadpleeg de [pagina met geavanceerde servereigenschappen](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services) voor informatie over het instellen van systeemeigenschappen voor de rapportserver in SQL Server Management Studio. Tenzij anders opgegeven, zijn de opties van toepassing op zowel Power BI Report Server als op SQL Server Reporting Services.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 [Administratoroverzicht](admin-handbook-overview.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
 [Install Power BI Desktop optimized for Power BI Report Server](install-powerbi-desktop.md) (Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren)  
-[Een installatie van Reporting Services verifiëren](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-[Het serviceaccount van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-[De URL's van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-[Configure a report server database connection](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (De verbinding van een rapportserverdatabase configureren)  
-[Een rapportserver initialiseren](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-[SSL-verbindingen voor een rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-[Windows-serviceaccounts en machtigingen configureren](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
+[Een installatie van Reporting Services verifiëren](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+[Het serviceaccount van de rapportserver configureren](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+[De URL's van de rapportserver configureren](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+[Configure a report server database connection](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (De verbinding van een rapportserverdatabase configureren)  
+[Een rapportserver initialiseren](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+[SSL-verbindingen voor een rapportserver configureren](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+[Windows-serviceaccounts en machtigingen configureren](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 [Browser support for Power BI Report Server](browser-support.md) (Browserondersteuning voor Power BI Report Server)
 
 Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

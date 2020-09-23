@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238900"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861700"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)
 
@@ -26,7 +26,7 @@ Er zijn enkele vereisten voor het maken van gegevensstromen vanuit CDM-mappen, z
 
 * Een beheerder moet het ADLS Gen2 -opslagaccount in Power BI koppelen voordat het kan worden gebruikt. Zie [Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag](service-dataflows-connect-azure-data-lake-storage-gen2.md) voor meer informatie over het koppelen van een ADLS Gen2-account aan Power BI.
 * Het maken van gegevensstromen vanuit CDM-mappen is *alleen* beschikbaar in de [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md). 
-* Om een CDM-map toe te voegen aan Power BI, moet de gebruiker die de map toevoegt [autorisatie voor de CDM-map en de bijbehorende bestanden](https://go.microsoft.com/fwlink/?linkid=2029121) hebben.
+* Om een CDM-map toe te voegen aan Power BI, moet de gebruiker die de map toevoegt [autorisatie voor de CDM-map en de bijbehorende bestanden](./service-dataflows-azure-data-lake-integration.md) hebben.
 * Aan u moeten lees- en uitvoermachtigingen zijn verleend voor alle bestanden en mappen in de CDM-map om deze te kunnen toevoegen aan Power BI.
 
 In de volgende secties wordt beschreven hoe u een gegevensstroom vanuit een CDM-map kunt maken.
@@ -86,7 +86,7 @@ Klanten van **Power BI Desktop** hebben geen toegang tot gegevensstromen die zij
 
   ![Fout bij openen van gegevensstroom](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-Om dit probleem op te lossen, moeten aan Ben leesmachtigingen voor de CDM-map en de bijbehorende bestanden worden verleend. Meer informatie over het verlenen van toegang tot de CDM-map vindt u in [dit artikel](https://go.microsoft.com/fwlink/?linkid=2029121).
+Om dit probleem op te lossen, moeten aan Ben leesmachtigingen voor de CDM-map en de bijbehorende bestanden worden verleend. Meer informatie over het verlenen van toegang tot de CDM-map vindt u in [dit artikel](./service-dataflows-azure-data-lake-integration.md).
 
 
 ## <a name="next-steps"></a>Volgende stappen
@@ -107,13 +107,13 @@ Raadpleeg de volgende artikelen voor algemene informatie over gegevensstromen:
 * [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 Raadpleeg de volgende artikelen voor informatie over Azure-opslag:
-* [Azure Storage-beveiligingshandleiding](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage-beveiligingshandleiding](/azure/storage/common/storage-security-guide)
 * [Geplande vernieuwing configureren](../connect-data/refresh-scheduled-refresh.md)
 * [Aan de slag met GitHub-voorbeelden uit Azure Data Services](https://aka.ms/cdmadstutorial)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM-mappen](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Bestandsdefinitie van CDM-model](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)
+* [CDM-mappen](/common-data-model/data-lake)
+* [Bestandsdefinitie van CDM-model](/common-data-model/model-json)
 
 U kunt altijd [vragen stellen in de Power BI-community](https://community.powerbi.com/).

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.openlocfilehash: 2bc2e026acf0f895796158408afa6449c93ce254
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9e2c44bdcbeabc28a95bd62bf6ba6763ae61442
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236185"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859055"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>Web Application Proxy en Active Directory Federated Services gebruiken - Power BI Report Server
 
@@ -40,7 +40,7 @@ U moet er zeker van zijn dat u een geldige SPN (Service Principal Name) hebt. Me
 
 De SPN is een unieke id voor een service die Kerberos-verificatie gebruikt. Zorg ervoor dat er een geschikte HTTP-SPN aanwezig is voor de rapportserver.
 
-Zie [Een Service Principal Name (SPN) voor een rapportserver registreren](https://docs.microsoft.com/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server) voor meer informatie over het configureren van de juiste Service Principal Name (SPN) voor de rapportserver.
+Zie [Een Service Principal Name (SPN) voor een rapportserver registreren](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server) voor meer informatie over het configureren van de juiste Service Principal Name (SPN) voor de rapportserver.
 
 ### <a name="enabling-negotiate-authentication"></a>Negotiate-verificatie inschakelen
 
@@ -56,11 +56,11 @@ Het verificatietype van de rapportserver moet als RSWindowsNegotiate worden geco
 </AuthenticationTypes>
 ```
 
-Zie [Een Reporting Services-configuratiebestand wijzigen](https://docs.microsoft.com/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) en [Windows-verificatie op een rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server) voor meer informatie.
+Zie [Een Reporting Services-configuratiebestand wijzigen](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config) en [Windows-verificatie op een rapportserver configureren](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server) voor meer informatie.
 
 ## <a name="2-configure-active-directory-federation-services-ad-fs"></a>2. Active Directory Federation Services (AD FS) configureren
 
-U moet AD FS op een Windows 2016-server binnen uw omgeving configureren. De configuratie kan via Serverbeheer worden gedaan door onder Beheren Functies en onderdelen toevoegen te selecteren. Zie [Active Directory Federation Services](https://docs.microsoft.com/windows-server/identity/active-directory-federation-services) voor meer informatie.
+U moet AD FS op een Windows 2016-server binnen uw omgeving configureren. De configuratie kan via Serverbeheer worden gedaan door onder Beheren Functies en onderdelen toevoegen te selecteren. Zie [Active Directory Federation Services](/windows-server/identity/active-directory-federation-services) voor meer informatie.
 
 Voer op de AD FS-server de volgende stappen uit met behulp van AD FS-beheer-app.
 
@@ -93,7 +93,7 @@ Voer op de AD FS-server de volgende stappen uit met behulp van AD FS-beheer-app.
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3. WAP (Web Application Proxy) configureren
 
-Schakel de Windows-rol webtoepassingsproxy in op een server in uw omgeving. Dit moet op een Windows 2016-server gebeuren. Zie voor meer informatie [Webtoepassingsproxy in Windows Server 2016](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) en [Toepassingen publiceren met behulp van AD FS-verificatie](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication).
+Schakel de Windows-rol webtoepassingsproxy in op een server in uw omgeving. Dit moet op een Windows 2016-server gebeuren. Zie voor meer informatie [Webtoepassingsproxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) en [Toepassingen publiceren met behulp van AD FS-verificatie](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication).
 
 ### <a name="configure-constrained-delegation"></a>Beperkte delegering configureren
 
@@ -174,4 +174,3 @@ U kunt vervolgens toegang krijgen tot de openbare WAP-URL, bijvoorbeeld `https:/
 *[Wat is Power BI Report Server?](get-started.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239062"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861815"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Relaties maken en beheren in Power BI Desktop
 Wanneer u meerdere tabellen importeert, gaat u waarschijnlijk analyses uitvoeren met gegevens uit de tabellen. Relaties tussen deze tabellen zijn nodig om nauwkeurig resultaten te berekenen en de juiste gegevens in uw rapporten weer te geven. Met Power BI Desktop is het maken van deze relaties eenvoudig. In de meeste gevallen hoeft u niets te doen. De functie Autodetectie doet het voor u. In sommige gevallen moet u echter mogelijk zelf relaties maken of moet u enkele wijzigingen in een relatie aanbrengen. Hoe dan ook is het belangrijk om relaties in Power BI Desktop te begrijpen en te weten hoe u ze maakt en bewerkt.
@@ -45,7 +45,7 @@ Als deze fout optreedt, zijn er verschillende manieren om het probleem te verhel
 * Gebruik **Dubbele waarden verwijderen** om een kolom met unieke waarden te maken. Het nadeel van deze benadering is dat er mogelijk informatie verloren gaat bij het verwijderen van dubbele rijen. Vaak wordt een sleutel (rij) met een goede reden gedupliceerd.
 * Voeg een tussenliggende tabel op basis van de lijst afzonderlijke sleutelwaarden toe aan het model. Deze tabel wordt dan gekoppeld aan beide oorspronkelijke kolommen in de relatie.
 
-Zie dit [blogbericht](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) voor meer informatie.
+Zie dit [blogbericht](/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message) voor meer informatie.
 
 
 ## <a name="edit-a-relationship"></a>Een relatie bewerken
@@ -65,7 +65,7 @@ De optie **Kardinaliteit** kan een van de volgende instellingen hebben:
 
 **Een-op-veel (1:*)** : in een een-op-veel-relatie heeft de kolom in de ene tabel slechts één exemplaar van een bepaalde waarde en kan de andere, gerelateerde tabel meer dan een exemplaar van een waarde hebben.
 
-**Veel-op-veel (\*:\*)** : bij samengestelde modellen kunt u een veel-op-veel-relatie tussen tabellen tot stand brengen, waardoor de vereisten voor unieke waarden in tabellen niet meer gelden. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Relaties met een veel-op-veel-kardinaliteit](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships) voor meer informatie. 
+**Veel-op-veel (\*:\*)** : bij samengestelde modellen kunt u een veel-op-veel-relatie tussen tabellen tot stand brengen, waardoor de vereisten voor unieke waarden in tabellen niet meer gelden. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Relaties met een veel-op-veel-kardinaliteit](./desktop-many-to-many-relationships.md) voor meer informatie. 
 
 Zie [Inzicht in extra opties](#understanding-additional-options) voor meer informatie over wanneer de kardinaliteit moet worden gewijzigd.
 
@@ -358,4 +358,3 @@ We kunnen de actieve relatie wijzigen en **SubmittedBy** in plaats van **OpenedB
 Soms heeft uw model meerdere tabellen en complexe relaties tussen deze tabellen. De weergave **Relatie** in Power BI Desktop bevat alle relaties in het model, de bijbehorende richting en de kardinaliteit in een eenvoudig en aanpasbaar diagram. 
 
 Zie [Werken met de relatieweergave in Power BI Desktop](desktop-relationship-view.md) voor meer informatie.
-

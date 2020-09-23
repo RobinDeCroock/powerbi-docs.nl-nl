@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204583"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856824"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI
 
@@ -39,7 +39,7 @@ BYOK is alleen van toepassing op gegevenssets. Push-gegevenssets, Excel-bestande
 ```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
 
 > [!NOTE]
-> Voor deze cmdlet is Power BI-beheermodule v 1.0.840 vereist. U kunt zien welke versie u hebt door Get-InstalledModule -Name MicrosoftPowerBIMgmt uit te voeren. Installeer de nieuwste versie door Install-Module -Name MicrosoftPowerBIMgmt uit te voeren. Meer informatie over de Power BI-cmdlet en de bijbehorende parameters vindt u in de [Power BI PowerShell-cmdletmodule](https://docs.microsoft.com/powershell/power-bi/overview).
+> Voor deze cmdlet is Power BI-beheermodule v 1.0.840 vereist. U kunt zien welke versie u hebt door Get-InstalledModule -Name MicrosoftPowerBIMgmt uit te voeren. Installeer de nieuwste versie door Install-Module -Name MicrosoftPowerBIMgmt uit te voeren. Meer informatie over de Power BI-cmdlet en de bijbehorende parameters vindt u in de [Power BI PowerShell-cmdletmodule](/powershell/power-bi/overview).
 
 ## <a name="configure-azure-key-vault"></a>Azure Key Vault configureren
 
@@ -193,7 +193,7 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Power BI PowerShell-cmdletmodule](https://docs.microsoft.com/powershell/power-bi/overview) 
+* [Power BI PowerShell-cmdletmodule](/powershell/power-bi/overview) 
 
 * [Manieren om uw werk te delen in Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 
@@ -202,4 +202,3 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
 * [Insluiten met webonderdeel Rapport in SharePoint Online](../collaborate-share/service-embed-report-spo.md)
 
 * [Publiceren op internet vanuit Power BI](../collaborate-share/service-publish-to-web.md)
-

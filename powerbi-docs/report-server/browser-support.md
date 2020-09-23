@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874294"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859269"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Browserondersteuning voor Power BI Report Server
 Meer informatie over welke browserversies worden ondersteund voor het beheren en weergeven van Power BI Report Server en de besturingselementen van de rapportviewer.
@@ -91,12 +91,12 @@ Your browser does not support scripts or has been configured to not allow script
  Als u ervoor kiest om het rapport zonder scriptondersteuning voor weer te geven, wordt het rapport weergegeven in HTML-code zonder rapportviewerfunctionaliteit zoals de rapportwerkbalk en de documentstructuur.
 
 > [!NOTE]
-> De rapportwerkbalk maakt deel uit van de HTML-viewercomponent. Standaard verschijnt de werkbalk boven aan elk rapport dat in een browservenster wordt weergegeven. De rapportviewer biedt functies waaronder de mogelijkheid om het rapport te doorzoeken op informatie, naar een bepaalde pagina te scrollen en de paginagrootte aan te passen voor weergavedoeleinden. Zie [HTML-viewer en de rapportwerkbalk](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar) voor meer informatie over de rapportwerkbalk of HTML-Viewer.
+> De rapportwerkbalk maakt deel uit van de HTML-viewercomponent. Standaard verschijnt de werkbalk boven aan elk rapport dat in een browservenster wordt weergegeven. De rapportviewer biedt functies waaronder de mogelijkheid om het rapport te doorzoeken op informatie, naar een bepaalde pagina te scrollen en de paginagrootte aan te passen voor weergavedoeleinden. Zie [HTML-viewer en de rapportwerkbalk](/sql/reporting-services/html-viewer-and-the-report-toolbar) voor meer informatie over de rapportwerkbalk of HTML-Viewer.
 > 
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Browserondersteuning voor webserverbesturingselementen voor rapportviewer in Visual Studio
-Het webserverbesturingselement voor rapportviewer wordt gebruikt om de rapportfunctionaliteit in een ASP.NET-webtoepassing te bouwen. Zie [Rapportservices integreren met behulp van het besturingselement van de rapportviewer - Aan de slag](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) voor meer informatie over het verkrijgen van het besturingselement van de rapportviewer.
+Het webserverbesturingselement voor rapportviewer wordt gebruikt om de rapportfunctionaliteit in een ASP.NET-webtoepassing te bouwen. Zie [Rapportservices integreren met behulp van het besturingselement van de rapportviewer - Aan de slag](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) voor meer informatie over het verkrijgen van het besturingselement van de rapportviewer.
 
 Gebruik een browser waarbij scriptondersteuning is ingeschakeld. Als de browser geen scripts kan uitvoeren, kunt u het rapport niet weergeven.
 
@@ -114,7 +114,6 @@ Gebruik een browser waarbij scriptondersteuning is ingeschakeld. Als de browser 
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Install Power BI Report Server](install-report-server.md) (Power BI Report Server installeren)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216506"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859170"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Kerberos configureren om Power BI-rapporten te gebruiken
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -71,7 +71,7 @@ We moeten controleren of RSWindowsNegotiate wordt vermeld en of deze bovenaan st
 
 Als u het configuratiebestand hebt moeten wijzigen, moet u de rapportserver stoppen en starten om ervoor te zorgen dat de wijzigingen van kracht worden.
 
-Raadpleeg voor meer informatie [Windows-verificatie configureren op de rapportserver](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
+Raadpleeg voor meer informatie [Windows-verificatie configureren op de rapportserver](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="spns-for-the-report-server-service-account"></a>SPN's voor het serviceaccount van de rapportserver
 Vervolgens moeten we controleren of de rapportserver geldige SPN's beschikbaar heeft. Dit is gebaseerd op het serviceaccount dat is geconfigureerd voor de rapportserver.
@@ -218,4 +218,3 @@ Hoewel deze configuratie in de meeste gevallen werkt, kan er met Kerberos een an
 [Power BI Report Server installeren](install-report-server.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

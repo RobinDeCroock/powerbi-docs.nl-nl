@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236085"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859032"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Een geplande vernieuwing van uw Power BI-rapport configureren
 Om de gegevens in uw Power BI-rapport in de Power BI Report Server te vernieuwen, moet u een gepland vernieuwingsschema maken. U maakt dit plan in het gedeelte *Beheren* van een Power BI-rapport op de rapportserver.
@@ -21,7 +21,7 @@ Om de gegevens in uw Power BI-rapport in de Power BI Report Server te vernieuwen
 ![Geslaagde geplande vernieuwing van een Power BI-rapport](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>Referenties voor gegevensbron configureren
-U hebt de benodigde machtigingen nodig voor het maken van een gepland vernieuwingsschema. Machtigingen worden gedefinieerd in de roldefinities voor de rapportserver. Zie [Roldefinities: vooraf gedefinieerde rollen](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles) in de SQL Server Reporting Services-documentatie voor meer informatie.
+U hebt de benodigde machtigingen nodig voor het maken van een gepland vernieuwingsschema. Machtigingen worden gedefinieerd in de roldefinities voor de rapportserver. Zie [Roldefinities: vooraf gedefinieerde rollen](/sql/reporting-services/security/role-definitions-predefined-roles) in de SQL Server Reporting Services-documentatie voor meer informatie.
 
 Voordat u een vernieuwingsschema inplant, moet u de referenties instellen voor **elke gegevensbron** die wordt gebruikt in uw Power BI-rapport.
 
@@ -86,9 +86,8 @@ U bekijkt de status van een gepland vernieuwingsschema in de webportal.
 De webpagina moet worden vernieuwd om de huidige status te bekijken. De status verandert niet automatisch.
 
 ## <a name="next-steps"></a>Volgende stappen
-Zie [Schema’s maken, wijzigen en verwijderen](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules) voor meer informatie over het maken en wijzigen van schema's.
+Zie [Schema’s maken, wijzigen en verwijderen](/sql/reporting-services/subscriptions/create-modify-and-delete-schedules) voor meer informatie over het maken en wijzigen van schema's.
 
 Zie [Problemen oplossen met geplande vernieuwing in Power BI Report Server](scheduled-refresh-troubleshoot.md) voor meer informatie over het oplossen van problemen met de geplande vernieuwing.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

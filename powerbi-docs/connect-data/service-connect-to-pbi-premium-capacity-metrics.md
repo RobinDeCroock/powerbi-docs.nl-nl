@@ -8,19 +8,19 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937626"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861953"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Verbinding maken met metrische Power BI Premium-capaciteitsgegevens
 Bewaking van uw capaciteiten is essentieel voor het nemen van gefundeerde beslissingen over hoe u uw Premium-capaciteitsresources het beste kunt gebruiken. De Power BI Premium Capacity Metrics-app biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren.
 
 ![Rapport Power BI Premium Capacity Metrics-app](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
 
-In dit artikel leest u hoe u de app moet installeren en hoe u verbinding maakt met de gegevensbronnen. Zie [Premium-capaciteiten bewaken met de app](../service-admin-premium-monitor-capacity.md) en de blogpost [Premium-capaciteit bewaken met de app](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/) voor informatie over de inhoud van het rapport en hoe u deze kunt gebruiken.
+In dit artikel leest u hoe u de app moet installeren en hoe u verbinding maakt met de gegevensbronnen. Zie [Premium-capaciteiten bewaken met de app](../admin/service-admin-premium-monitor-capacity.md) en de blogpost [Premium-capaciteit bewaken met de app](https://powerbi.microsoft.com/blog/premium-capacity-metrics-app-new-health-center-with-kpis-to-explore-relevant-metrics-and-steps-to-mitigate-issues/) voor informatie over de inhoud van het rapport en hoe u deze kunt gebruiken.
 
 Nadat u de app hebt geïnstalleerd en verbinding hebt gemaakt met de gegevensbronnen, kunt u het rapport aanpassen aan uw behoeften. Vervolgens kunt u de app distribueren naar collega's in uw organisatie.
 

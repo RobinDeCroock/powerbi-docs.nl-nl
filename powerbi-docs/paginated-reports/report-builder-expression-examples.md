@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921143"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859516"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Voorbeelden van expressies in Power BI Report Builder
 Expressies worden vaak gebruikt in gepagineerde rapporten van Power BI Report Builder voor het beheren van inhoud en de weergave van rapporten. Expressies worden geschreven in Microsoft Visual Basic en kunnen gebruikmaken van ingebouwde functies, aangepaste code, rapport- en groepsvariabelen en door de gebruiker gedefinieerde variabelen. Expressies beginnen met een gelijkteken (=).   
@@ -38,7 +38,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
  Veel expressies in een rapport bevatten functies. U kunt gegevens opmaken, logica toepassen en metagegevens van rapporten openen met behulp van deze functies. U kunt expressies schrijven die gebruikmaken van functies uit de Microsoft Visual Basic-runtime-bibliotheek en van de naamruimten `xref:System.Convert` en `xref:System.Math`. U kunt verwijzingen naar functies in aangepaste code toevoegen. U kunt ook de klassen van de Microsoft .NET Framework gebruiken, met inbegrip van `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic-functies  
- U kunt Visual Basic-functies gebruiken om de gegevens te bewerken die in tekstvakken worden weergegeven of die voor parameters, eigenschappen of andere elementen van het rapport worden gebruikt. Deze sectie bevat voorbeelden waarin sommige van deze functies worden gedemonstreerd. Zie [Visual Basic Runtime Library-leden](https://go.microsoft.com/fwlink/?LinkId=198941) op MSDN voor meer informatie.  
+ U kunt Visual Basic-functies gebruiken om de gegevens te bewerken die in tekstvakken worden weergegeven of die voor parameters, eigenschappen of andere elementen van het rapport worden gebruikt. Deze sectie bevat voorbeelden waarin sommige van deze functies worden gedemonstreerd. Zie [Visual Basic Runtime Library-leden](/dotnet/visual-basic/language-reference/runtime-library-members) op MSDN voor meer informatie.  
   
  Het .NET Framework biedt veel mogelijkheden voor aangepaste notaties, bijvoorbeeld voor specifieke datumnotaties. Zie [Typen notaties](/dotnet/standard/base-types/formatting-types) voor meer informatie.  
   
@@ -517,4 +517,3 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-  
