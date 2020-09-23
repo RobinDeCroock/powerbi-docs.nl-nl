@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803038"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860849"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Verklarende woordenlijst voor zakelijke gebruikers van de Power BI-service    
 In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
@@ -97,7 +97,7 @@ Inhoud voor de Power BI-service bestaat over het algemeen uit dashboards, rappor
 De inhoudsopgave van een app.
 
 **inhoudspakket**    
- Een verzameling vooraf verpakte gegevenssets, rapporten en dashboards. Deze worden vervangen door **apps**. Krijg informatie [over de nieuwe werkruimte-ervaring](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+ Een verzameling vooraf verpakte gegevenssets, rapporten en dashboards. Deze worden vervangen door **apps**. Krijg informatie [over de nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md). 
 
 **content view (inhoudsweergave)**
 

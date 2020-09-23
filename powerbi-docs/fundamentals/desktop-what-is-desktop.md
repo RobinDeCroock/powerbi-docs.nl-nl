@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252723"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860780"
 ---
 # <a name="what-is-power-bi-desktop"></a>Wat is Power BI Desktop?
 
@@ -66,7 +66,7 @@ Verbinding maken met gegevens:
 
 ## <a name="transform-and-clean-data-create-a-model"></a>Gegevens transformeren en opschonen, en een model maken
 
-In Power BI Desktop kunt u gegevens opschonen en transformeren met behulp van de ingebouwde [Power Query-editor](https://docs.microsoft.com/power-bi/desktop-query-overview). Met Power Query-editor kunt u wijzigingen aanbrengen in uw gegevens. Zo kunt u het gegevenstype wijzigen, kolommen verwijderen of gegevens uit meerdere bronnen combineren. U kunt dit proces vergelijken met beeldhouwen: u kunt beginnen met een groot blok klei, of gegevens en vervolgens kleine delen afschaven of juist toevoegen, totdat de gewenste vorm ontstaat. 
+In Power BI Desktop kunt u gegevens opschonen en transformeren met behulp van de ingebouwde [Power Query-editor](../transform-model/desktop-query-overview.md). Met Power Query-editor kunt u wijzigingen aanbrengen in uw gegevens. Zo kunt u het gegevenstype wijzigen, kolommen verwijderen of gegevens uit meerdere bronnen combineren. U kunt dit proces vergelijken met beeldhouwen: u kunt beginnen met een groot blok klei, of gegevens en vervolgens kleine delen afschaven of juist toevoegen, totdat de gewenste vorm ontstaat. 
 
 U start Power Query-editor als volgt:
 
@@ -134,4 +134,3 @@ Als u aan de slag wilt met Power BI Desktop moet u eerst de toepassing downloade
 
 * [Power BI Desktop downloaden vanuit de Windows Store](https://aka.ms/pbidesktopstore)
 * [Power BI Desktop downloaden via het web](https://www.microsoft.com/download/details.aspx?id=58494)
-

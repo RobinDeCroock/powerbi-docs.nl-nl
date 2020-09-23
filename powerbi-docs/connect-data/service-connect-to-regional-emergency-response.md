@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229670"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860734"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>Verbinding maken met het Regional Emergency Response Dashboard
-Het Regional Emergency Response Dashboard is het rapportageonderdeel van de [Regional Emergency Response-oplossing voor Microsoft Power Platform](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview). Beheerders van regionale organisaties kunnen het dashboard weergeven in hun Power BI-tenant, zodat ze snel belangrijke (metrische) gegevens kunnen weergeven aan de hand waarvan ze efficiënt beslissingen kunnen nemen.
+Het Regional Emergency Response Dashboard is het rapportageonderdeel van de [Regional Emergency Response-oplossing voor Microsoft Power Platform](/powerapps/sample-apps/regional-emergency-response/overview). Beheerders van regionale organisaties kunnen het dashboard weergeven in hun Power BI-tenant, zodat ze snel belangrijke (metrische) gegevens kunnen weergeven aan de hand waarvan ze efficiënt beslissingen kunnen nemen.
 
 ![Rapport Regional Emergency Response Dashboard-app](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 In dit artikel leest u hoe u de Regional Emergency Response-app installeert met behulp van de sjabloon-app Regional Emergency Response Dashboard en hoe u verbinding maakt met de gegevensbronnen.
 
-Zie [Inzichten verkrijgen](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights) voor gedetailleerde informatie over wat er in het dashboard wordt weergegeven.
+Zie [Inzichten verkrijgen](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights) voor gedetailleerde informatie over wat er in het dashboard wordt weergegeven.
 
 Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de gegevensbronnen, kunt u het rapport aanpassen aan uw behoeften. Vervolgens kunt u deze als app distribueren naar collega's in uw organisatie.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u deze sjabloon-app installeert, moet u eerst de [Regional Emergency Response-oplossing](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy) installeren en instellen. Als u deze oplossing installeert, worden de gegevensbronverwijzingen gemaakt die nodig zijn om de app te vullen met gegevens.
+Voordat u deze sjabloon-app installeert, moet u eerst de [Regional Emergency Response-oplossing](/powerapps/sample-apps/regional-emergency-response/deploy) installeren en instellen. Als u deze oplossing installeert, worden de gegevensbronverwijzingen gemaakt die nodig zijn om de app te vullen met gegevens.
 
-Let bij het installeren van de Regional Emergency Response-oplossing op de [URL van uw Common Data Service-omgevingsinstantie](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard). U hebt deze nodig om de sjabloon-app te verbinden met de gegevens.
+Let bij het installeren van de Regional Emergency Response-oplossing op de [URL van uw Common Data Service-omgevingsinstantie](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard). U hebt deze nodig om de sjabloon-app te verbinden met de gegevens.
 
 ## <a name="install-the-app"></a>De app installeren
 
@@ -62,7 +62,7 @@ Let bij het installeren van de Regional Emergency Response-oplossing op de [URL 
 
    ![De Regional Emergency Response Dashboard-app - koppeling voor koppelen van uw gegevens](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. Typ in het weergegeven dialoogvenster de [URL van uw Common Data Service-omgevingsinstantie](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Bijvoorbeeld: https://[mijnomgeving].crm.dynamics.com. Klik op **Volgende** als u klaar bent.
+1. Typ in het weergegeven dialoogvenster de [URL van uw Common Data Service-omgevingsinstantie](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Bijvoorbeeld: https://[mijnomgeving].crm.dynamics.com. Klik op **Volgende** als u klaar bent.
 
    ![Het dialoogvenster met de URL van de Regional Emergency Response Dashboard-app](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ Wanneer het vernieuwen van gegevens is voltooid, [stelt u een vernieuwingsschema
 
 ## <a name="customize-and-share"></a>Aanpassen en delen
 
-Zie [De app aanpassen en delen](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie. Zorg ervoor dat u de [rapportdisclaimers](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) controleert voordat u de app publiceert of distribueert.
+Zie [De app aanpassen en delen](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie. Zorg ervoor dat u de [rapportdisclaimers](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer) controleert voordat u de app publiceert of distribueert.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Inzicht krijgen in de Regional Emergency Response Dashboard](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Inzicht krijgen in de Regional Emergency Response Dashboard](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 * [Wat zijn Power BI-sjabloon-apps?](../connect-data/service-template-apps-overview.md)
 * [Sjabloon-apps in uw organisatie installeren en distribueren](../connect-data/service-template-apps-install-distribute.md)

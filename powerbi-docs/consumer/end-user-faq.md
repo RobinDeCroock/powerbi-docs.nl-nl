@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c8db048f9ae74871840df96e63c60510ce800318
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443301"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860918"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 
@@ -100,7 +100,7 @@ Hier vindt u een volledige lijst met [regio's en talen die worden ondersteund do
 
 Hier vindt u meer informatie over beveiliging, privacy en compliance in Power BI:
 
-* Dit technische document over [Power BI-beveiliging](https://go.microsoft.com/fwlink/?LinkId=829185)
+* Dit technische document over [Power BI-beveiliging](../guidance/whitepaper-powerbi-security.md)
 
 * Dit artikel over [ondersteuning voor Power BI-beveiliging](../admin/service-admin-power-bi-security.md)
 

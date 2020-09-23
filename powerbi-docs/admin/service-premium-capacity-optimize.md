@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4d03419105244b7fddafea3b26b69e4f4f5f874c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ae52e9eb2d018e68f7b84bc412797c25825a8871
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134077"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854846"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium-capaciteiten optimaliseren
 
@@ -186,7 +186,7 @@ In de modellaag:
 
 - Door een Power Query op queryontwerpen uit te voeren, kunt u complexe transformaties minimaliseren of verwijderen, met name transformaties waarbij verschillende gegevensbronnen worden samengevoegd (voor datawarehouses wordt dit tijdens de ETL-fase (extraheren, transformeren, laden) bereikt). Bovendien kunt u, door de juiste privacyniveaus voor gegevensbronnen in te stellen, voorkomen dat Power BI volledige resultaten moet laden om een gecombineerd resultaat van meerdere query's te produceren.
 - Welke gegevens worden geladen, wordt door de modelstructuur bepaald. Dit heeft direct invloed op de grootte van het model. Deze structuur kan worden ontworpen om het laden van onnodige gegevens te voorkomen door kolommen te verwijderen, rijen te verwijderen (met name historische gegevens) of samengevatte gegevens te laden (ten koste van het laden van gedetailleerde gegevens). U kunt de grootte aanzienlijk verminderen door kolommen met een hoge kardinaliteit (zoals tekstkolommen) te verwijderen die niet erg efficiënt kunnen worden opgeslagen of gecomprimeerd.
-- De prestaties van modelquery's kunnen worden verbeterd door eendirectionele relaties te configureren, tenzij er een dwingende reden is om bidirectionele filters toe te staan. U kunt in plaats van bidirectionele filters ook de functie [CROSSFILTER](https://docs.microsoft.com/dax/crossfilter-function) gebruiken.
+- De prestaties van modelquery's kunnen worden verbeterd door eendirectionele relaties te configureren, tenzij er een dwingende reden is om bidirectionele filters toe te staan. U kunt in plaats van bidirectionele filters ook de functie [CROSSFILTER](/dax/crossfilter-function) gebruiken.
 - Met aggregatietabellen kunt u snel reacties van query's krijgen door vooraf samengevatte gegevens te laden. Hierdoor neemt echter wel de modelgrootte toe en duurt het langer om gegevens te vernieuwen. Over het algemeen moeten aggregatietabellen voor heel grote modellen of voor samengestelde modelontwerpen worden gereserveerd.
 - Door berekende tabellen en kolommen neemt de modelgrootte toe en duurt het langer om gegevens te vernieuwen. Over het algemeen zijn een kleinere opslaggrootte en snellere vernieuwingen mogelijk door gegevens te materialiseren of te berekenen in de gegevensbron. Als dit niet mogelijk is, kunt u Power Query gebruiken voor aangepaste kolommen voor betere compressie van de opslag.
 - Mogelijk bestaat er een kans om DAX-expressies af te stemmen voor metingen en RLS-regels, mogelijk door logica te herschrijven om dure formules te vermijden

@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/06/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cd3a0a8974636d6962fe23a7ffe272e47e487754
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 97501fe6e5a3e12e1b6773ce1b3fd67b503bf0f1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230409"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860297"
 ---
 # <a name="connect-to-the-crisis-communication-presence-report"></a>Verbinding maken met Aanwezigheidsrapport voor Crisis Communication
 
@@ -23,15 +23,15 @@ Deze Power BI-app is het rapport/dashboard-artefact in de Microsoft Power Platfo
 
 Op het dashboard wordt weergegeven dat managers voor noodsituaties gegevens van hun zorgsystemen aggregeren om tijdige, juiste beslissingen te kunnen nemen.
 
-In dit artikel leest u hoe u de app installeert en hoe u verbinding maakt met de gegevensbronnen. Zie [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app) voor meer informatie over de app Crisis Communication
+In dit artikel leest u hoe u de app installeert en hoe u verbinding maakt met de gegevensbronnen. Zie [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app) voor meer informatie over de app Crisis Communication
 
 Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de gegevensbronnen, kunt u het rapport aanpassen aan uw behoeften. Vervolgens kunt u deze als app distribueren naar collega's in uw organisatie.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u deze sjabloon-app installeert, moet u eerst het [Crisis Communication-voorbeeld](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app) installeren en instellen. Als u deze oplossing installeert, worden de gegevensbronverwijzingen gemaakt die nodig zijn om de app te vullen met gegevens.
+Voordat u deze sjabloon-app installeert, moet u eerst het [Crisis Communication-voorbeeld](/powerapps/maker/canvas-apps/sample-crisis-communication-app) installeren en instellen. Als u deze oplossing installeert, worden de gegevensbronverwijzingen gemaakt die nodig zijn om de app te vullen met gegevens.
 
-Let bij het installeren van het Crisis Communication-voorbeeld op het [SharePoint-lijstmappad van CI_Employee Status en de lijst-id](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi).
+Let bij het installeren van het Crisis Communication-voorbeeld op het [SharePoint-lijstmappad van CI_Employee Status en de lijst-id](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi).
 
 ## <a name="install-the-app"></a>De app installeren
 
@@ -68,7 +68,7 @@ Let bij het installeren van het Crisis Communication-voorbeeld op het [SharePoin
    ![De koppeling Uw gegevens verbinden van de rapport-app Aanwezigheidsrapport voor Crisis Communication op de App-pagina](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-connect-data.png)
 
 1. Ga als volgt te werk in het dialoogvenster:
-   1. Voer in het veld SharePoint_Folder uw [CI_Employee Status van het SharePoint-lijstpad](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi) in.
+   1. Voer in het veld SharePoint_Folder uw [CI_Employee Status van het SharePoint-lijstpad](/powerapps/maker/canvas-apps/sample-crisis-communication-app#monitor-office-absences-with-power-bi) in.
    1. Voer in het veld List_ID de lijst-id in die u hebt verkregen via de lijstinstellingen. Klik op **Volgende** als u klaar bent.
 
    ![URL-dialoogvenster van de app Aanwezigheidsrapport voor Crisis Communication](media/service-connect-to-crisis-communication-presence-report/service-crisis-communication-presence-report-app-url-dialog.png)
@@ -102,7 +102,7 @@ Wanneer het vernieuwen van gegevens is voltooid, [stelt u een vernieuwingsschema
 Zie [De app aanpassen en delen](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie. Zorg ervoor dat u de [rapportdisclaimers](../create-reports/sample-covid-19-us.md#disclaimers) controleert voordat u de app publiceert of distribueert.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 * [Wat zijn Power BI-sjabloon-apps?](../connect-data/service-template-apps-overview.md)
 * [Sjabloon-apps in uw organisatie installeren en distribueren](../connect-data/service-template-apps-install-distribute.md)

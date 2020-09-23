@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 695663ad6f3a9fbdce88e56b5db01b09e83c9384
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 2500ba94a6ad387e9944fb29f865b391ea4c0711
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092263"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860941"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tips voor hulp bij uw vragen over Power BI
 Raakt u ooit gefrustreerd bij het gebruik van Power BI of krijgt u geen antwoorden op uw vragen over Power BI wanneer u ze nodig hebt, dat wil zeggen ‘precies op tijd’? 
@@ -44,7 +44,7 @@ Passen video's beter bij uw manier van leren? Power BI heeft twee sets waarin u 
 ## <a name="6-attend-training"></a>6 Volg een training
 De trainingsmogelijkheden waaruit u kunt kiezen, zijn bijna eindeloos; van individuele training in de praktijk tot korte video's.
 
-*[Microsoft Learn voor Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+*[Microsoft Learn voor Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Gratis Power BI-webinars](webinars.md), live en on-demand, op de Power BI-site
 
 U vindt aanvullende opties online, zoals:

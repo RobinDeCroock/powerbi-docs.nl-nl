@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5c4c7b08f69bd91fc8a4e6ab13a05878936225d
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160206"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860205"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop gebruiken
 Met Power BI Desktop kunt u geavanceerde query's, modellen en rapporten samenstellen die de gegevens visualiseren. Met Power BI Desktop kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service. Power BI Desktop is gratis te downloaden.
@@ -38,7 +38,7 @@ Er zijn een aantal manieren om toegang te krijgen tot de meest recente versie va
 
    - Open een browser en ga rechtstreeks naar de [pagina Power BI Desktop](https://aka.ms/pbidesktopstore) van de Microsoft Store.
 
-    - Selecteer in de [Power BI-service](https://docs.microsoft.com/power-bi/service-get-started) het pictogram **Downloaden** in de rechterbovenhoek en selecteer **Power BI Desktop**.
+    - Selecteer in de [Power BI-service](./service-get-started.md) het pictogram **Downloaden** in de rechterbovenhoek en selecteer **Power BI Desktop**.
 
       ![Schermopname van Microsoft Store waarin de optie Power BI Desktop downloaden wordt weergegeven.](media/desktop-get-the-desktop/getpbid_downloads.png)
 
@@ -203,4 +203,4 @@ Nadat u Power BI Desktop hebt geïnstalleerd, kunt u het volgende materiaal raad
 * [Gegevensbronnen in Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Verbinding maken met gegevens in Power BI Desktop](../connect-data/desktop-connect-to-data.md)
 * [Gegevens vormgeven en combineren in Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Algemene querytaken in Power BI Desktop](../transform-model/desktop-common-query-tasks.md)   
+* [Algemene querytaken in Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

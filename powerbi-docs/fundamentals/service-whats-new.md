@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252769"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860159"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
 
-- De opmerkingen bij de release met [wat er nieuw is in de business intelligence van oktober 2018](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) van de Microsoft Business Applications-groep: De meest recente updates voor onze zakelijke toepassingen.
+- De opmerkingen bij de release met [wat er nieuw is in de business intelligence van oktober 2018](/business-applications-release-notes/October18/intelligence-platform/planned-features) van de Microsoft Business Applications-groep: De meest recente updates voor onze zakelijke toepassingen.
 - [What's new in Power BI Desktop](desktop-latest-update.md) (Wat is er nieuw in Power BI Desktop)  
 - [Wat is er nieuw in de mobiele apps voor Power BI](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI-teamblog](https://powerbi.microsoft.com/blog/)
@@ -189,7 +189,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 *    Power BI-rapporten delen en aan uw favorieten toevoegen.
 *    Ondersteuning voor eenmalige aanmelding (SSO) met OAuth2 en DirectQuery voor Azure SQL Database en datawarehouse.
 *    Audits binnen regio's: auditlogboeken worden nu opgeslagen in dezelfde Microsoft 365-regio als hun tenant.
-*    Algemene beschikbaarheid van [Webonderdeel Power BI-rapport](https://go.microsoft.com/fwlink/p/?LinkId=825698) voor SharePoint Online.
+*    Algemene beschikbaarheid van [Webonderdeel Power BI-rapport](../collaborate-share/service-embed-report-spo.md) voor SharePoint Online.
 *    Beheerder kan het bekijken van Power BI-visuals uitschakelen voor alle gebruikers in een tenant.
 *    Ondersteuning bij geplande vernieuwing van Azure Analysis Services (AAS).
 
@@ -200,7 +200,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Door AI gegenereerde aanbevelingen voor apps.
 * Updates voor de gebruikersinterface in dashboardtegels.
 * Ondersteuning voor e-mailabonnementen voor apps. 
-* Gedetailleerde controle voor de beheerder over [publiceren op internet](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings).
+* Gedetailleerde controle voor de beheerder over [publiceren op internet](../admin/service-admin-portal.md#export-and-sharing-settings).
 
 ### <a name="september-2017"></a>September 2017
 * Deel in de Premium-capaciteit dashboards met gebruikers die geen Power BI Pro-licentie hebben.
@@ -646,7 +646,7 @@ Bekijk de [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 * Met de service-update van deze week kunt u bij het maken van nieuwe rapporten nu kiezen uit meerdere paginaformaten en uw eigen paginaformaat definiëren. Hiermee bepaalt u de grootte en hoogte-breedteverhouding van elke pagina in het rapport.
 * We hebben extra ondersteuning voor visuele opmaak toegevoegd voor afbeeldingen en bellendiagrammen. U kunt het aspect vergrendelen terwijl u afbeeldingen aanpast om vervorming van het beeld te voorkomen. U kunt ook de bellen van het spreidingsdiagram configureren zodat ze al dan niet worden gevuld.
 * Momenteel verzendt Power BI uitnodigingen voor delen naar een ander e-mailadres. Wanneer een dashboard met u wordt gedeeld, wordt de koppeling met de uitnodiging voor delen naar zowel uw oorspronkelijke e-mailadres als uw alternatieve e-mailadres (als u dit hebt geconfigureerd) verzonden.
-* Power BI is beschikbaar voor alle klanten, inclusief die op de Dedicated on Multitenant (DonMT) Microsoft 365-architectuur. U gaat Power BI gebruiken als een gedeelde service in de modus voor meerdere tenants. In de meeste gevallen kunt u zich registreren voor Power BI via het volgende eenvoudige proces voor [aanmelden via self-service](https://powerbi.microsoft.com/) – voer uw zakelijke e-mailadres, uw naam en wachtwoord in en u kunt aan de slag. Als u de tenantbeheerder bent, kunt u licenties toewijzen aan uw gebruikers met behulp van de instructies [hier](https://go.microsoft.com/fwlink/?LinkId=627174).
+* Power BI is beschikbaar voor alle klanten, inclusief die op de Dedicated on Multitenant (DonMT) Microsoft 365-architectuur. U gaat Power BI gebruiken als een gedeelde service in de modus voor meerdere tenants. In de meeste gevallen kunt u zich registreren voor Power BI via het volgende eenvoudige proces voor [aanmelden via self-service](https://powerbi.microsoft.com/) – voer uw zakelijke e-mailadres, uw naam en wachtwoord in en u kunt aan de slag. Als u de tenantbeheerder bent, kunt u licenties toewijzen aan uw gebruikers met behulp van de instructies [hier](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 * Met auditlogboeken van Azure kunt u de gegevens uit de operationele logboeken voor het bedieningsvlak in uw Azure-abonnement bekijken. Met het inhoudspakket Power BI auditlogboeken van Azure kunt u de schat aan informatie in deze logboeken eenvoudig analyseren en visualiseren. Via het inhoudspakket kunt u verbinding maken met uw gegevens en beginnen met het ontdekken van inzichten met de kant-en-klare dashboards en rapporten. Lees onze [blog](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) en [online documentatie](../connect-data/service-connect-to-services.md) voor meer informatie.
 
 [Zie onze blog voor meer informatie](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).
@@ -708,7 +708,7 @@ Bekijk de [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 * [Hele Excel-bestanden importeren](../connect-data/service-excel-workbook-files.md): u kunt een opgeslagen Excel-werkmap in OneDrive voor Bedrijven in Power BI opnemen en de volledige werkmap op exact dezelfde manier als in Excel Online bekijken.
 * [CSV-bestanden importeren](../connect-data/service-get-data-from-files.md): net zoals een Excel- of een Power BI Desktop-bestand kan ook een door komma's gescheiden tekstbestand (CSV) dienen als gegevensset voor uw Power BI-dashboards en -rapporten.
 * Excel-, Power BI Desktop- en CSV-bestanden vervangen: u kunt een bijgewerkte versie van een bestand uploaden naar Power BI, waarbij de bestaande gegevensset wordt vervangen. De rapporten en dashboards die met deze gegevensset zijn verbonden, gebruiken nu automatisch de nieuwe versie.
-* Microsoft kondigt met trots aan dat de Power BI-update van deze week nu tracking van werkitems biedt met het [Visual Studio Online-inhoudspakket](https://powerbi.microsoft.com/blog/monitoring-your-visual-studio-online-work-items-with-power-bi/). Deze update bevat een nieuw dashboard en rapport en een bijgewerkte gegevensset die inzicht bieden in uw werkitems, als aanvulling op de belangrijke metrische gegevens over uw Git-opslagplaats, pull-aanvragen en inhoud van versiecontrole die in de eerste versie zijn opgenomen. Zie de [Help-pagina bij het Visual Studio Online-inhoudspakket voor Power BI](../connect-data/service-connect-to-quickbooks-online.md) voor meer informatie over hoe u aan de slag kunt gaan.
+* Microsoft kondigt met trots aan dat de Power BI-update van deze week nu tracking van werkitems biedt met het [Visual Studio Online-inhoudspakket](https://powerbi.microsoft.com/blog/monitoring-your-visual-studio-online-work-items-with-power-bi/). Deze update bevat een nieuw dashboard en rapport en een bijgewerkte gegevensset die inzicht bieden in uw werkitems, als aanvulling op de belangrijke metrische gegevens over uw Git-opslagplaats, pull-aanvragen en inhoud van versiecontrole die in de eerste versie zijn opgenomen. Zie de [Help-pagina bij het Visual Studio Online-inhoudspakket voor Power BI](../connect-data/service-connect-to-services.md) voor meer informatie over hoe u aan de slag kunt gaan.
 
 **14 juli 2015**
 
@@ -743,7 +743,7 @@ Bekijk de [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 
 **28 mei 2015**
 
-* Verkrijg snel inzicht in uw QuickBooks Online-account met ons [inhoudspakket](https://powerbi.microsoft.com/blog/get-quick-insights-into-your-quickbooks-online-account-data). Zie [documentatie](../connect-data/service-connect-to-quickbooks-online.md) van het QuickBooks Online-inhoudspakket voor Power BI voor meer informatie over hoe u verbinding kunt maken en aan de slag kunt gaan.
+* Verkrijg snel inzicht in uw QuickBooks Online-account met ons [inhoudspakket](https://powerbi.microsoft.com/blog/get-quick-insights-into-your-quickbooks-online-account-data). Zie [documentatie](../connect-data/service-connect-to-services.md) van het QuickBooks Online-inhoudspakket voor Power BI voor meer informatie over hoe u verbinding kunt maken en aan de slag kunt gaan.
 
 **13 mei 2015**
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204868"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860228"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -23,7 +23,7 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 * [What's new in the Power BI service](../../fundamentals/service-whats-new.md) (Wat is er nieuw in de Power BI-service)
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="august-2020"></a>Augustus 2020
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>We hebben de manier waarop u door uw inhoud navigeert verbeterd (iOS en Android)
@@ -153,19 +153,19 @@ De mobiele Power BI-app ondersteunt nu bladwijzers die in Power BI zijn gemaakt.
 
 ### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>Android-ondersteuning voor externe configuratie van de toegangsinstellingen van de rapportserver
 
-Er is Android-ondersteuning toegevoegd voor de externe configuratie van de toegangsinstellingen van de rapport server van de mobiele Power BI-app. IT-beheerders kunnen nu het MDM-hulpprogramma van hun organisatie gebruiken om deze instellingen op zowel iOS- als Android-apparaten op afstand te configureren. Zie [Toegang via mobiele Power BI-apps tot rapportserver op afstand configureren](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote) voor meer informatie.
+Er is Android-ondersteuning toegevoegd voor de externe configuratie van de toegangsinstellingen van de rapport server van de mobiele Power BI-app. IT-beheerders kunnen nu het MDM-hulpprogramma van hun organisatie gebruiken om deze instellingen op zowel iOS- als Android-apparaten op afstand te configureren. Zie [Toegang via mobiele Power BI-apps tot rapportserver op afstand configureren](../../report-server/configure-powerbi-mobile-apps-remote.md) voor meer informatie.
 
 ### <a name="cross-report-drillthrough"></a>Drillthrough voor verschillende rapporten
 
 Deze maand hebben we ondersteuning toegevoegd voor drillthrough voor verschillende rapporten. U kunt nu op een gegevenspunt tikken om een drilldownbewerking uit te voeren voor toegang tot andere rapporten en rapportpagina's. Wanneer u een drilldownbewerking naar een doelpagina uitvoert, wordt de inhoud op die pagina gefilterd op basis van de drillthrough-instellingen.
 
 > [!NOTE]
-> Drillthrough voor meerdere rapporten is alleen beschikbaar als deze functie tijdens het maken van het rapport is ingeschakeld. [Meer informatie over drillthrough voor meerdere rapporten](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through).
+> Drillthrough voor meerdere rapporten is alleen beschikbaar als deze functie tijdens het maken van het rapport is ingeschakeld. [Meer informatie over drillthrough voor meerdere rapporten](../../create-reports/desktop-cross-report-drill-through.md).
 
 
 ### <a name="data-sensitivity-labels"></a>Gevoeligheidslabels voor gegevens
 
-U kunt nu gevoeligheidslabels zien die eigenaren van inhoud hebben ingesteld in rapporten, dashboards, gegevenssets en gegevensstromen om de gevoeligheid van hun gegevens te classificeren. Gevoeligheidslabels bepalen hoe inhoud met andere gebruikers kan worden gedeeld. [Meer informatie over gevoeligheidslabels voor gegevens in Power BI](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview).
+U kunt nu gevoeligheidslabels zien die eigenaren van inhoud hebben ingesteld in rapporten, dashboards, gegevenssets en gegevensstromen om de gevoeligheid van hun gegevens te classificeren. Gevoeligheidslabels bepalen hoe inhoud met andere gebruikers kan worden gedeeld. [Meer informatie over gevoeligheidslabels voor gegevens in Power BI](../../admin/service-security-data-protection-overview.md).
 
 ### <a name="support-for-custom-app-navigation-windows"></a>Ondersteuning voor aangepaste navigatie in apps (Windows)
 
@@ -190,7 +190,7 @@ Meer informatie over [de nieuwe look van Power BI - Mobiel](https://powerbi.micr
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Beveiligde toegang met Azure Active Directory-toepassingsproxy (AAD) (iOS en Android)
 
-We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI-toepassingen met Azure Active Directory-toepassingsproxy (Azure AD) te integreren. Met deze configuratie kunt u via een Power BI Mobile-app verbinding maken met een Report Server die binnen de bedrijfsgrenzen wordt gehost, zonder complexe on-premises configuratie te hoeven instellen. Lees meer over [de integratie van Power BI Mobile en Azure AD-toepassingsproxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Lees meer over het [configureren van Azure AD-toepassingsproxy en Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
+We zijn partner geworden met het Azure Active Directory-team om mobiele Power BI-toepassingen met Azure Active Directory-toepassingsproxy (Azure AD) te integreren. Met deze configuratie kunt u via een Power BI Mobile-app verbinding maken met een Report Server die binnen de bedrijfsgrenzen wordt gehost, zonder complexe on-premises configuratie te hoeven instellen. Lees meer over [de integratie van Power BI Mobile en Azure AD-toepassingsproxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Lees meer over het [configureren van Azure AD-toepassingsproxy en Power BI](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
 ## <a name="july-2019"></a>Juli 2019
 
@@ -228,11 +228,11 @@ Eén keer tikken is nu algemeen beschikbaar. Dit is de standaardaanraakinteracti
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>Geavanceerde beveiliging voor voorwaardelijke toegang (iOS, Android)
 
-Voor een betere beveiliging hebben we Azure AD geïntegreerd met [nieuwe voorwaardelijke toegangsmogelijkheden op basis van app-beveiliging](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access), door de toegang tot Power BI te beperken wanneer er nog geen app-beleid is toegepast.
+Voor een betere beveiliging hebben we Azure AD geïntegreerd met [nieuwe voorwaardelijke toegangsmogelijkheden op basis van app-beveiliging](/azure/active-directory/conditional-access/app-protection-based-conditional-access), door de toegang tot Power BI te beperken wanneer er nog geen app-beleid is toegepast.
 
 ### <a name="device-protection-ios"></a>Apparaatbeveiliging (iOS)
 
-Gebruikers kunnen ingebouwde apparaatbeveiliging gebruiken om Power BI te beveiligen door om een Face ID, Touch ID of wachtwoordcode te vragen voor toegang tot Power BI. Dit kan door gebruikers worden beheerd in de app-instellingen, maar ook door beheerders in Intune en andere MDM-hulpprogramma's. [Meer informatie](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+Gebruikers kunnen ingebouwde apparaatbeveiliging gebruiken om Power BI te beveiligen door om een Face ID, Touch ID of wachtwoordcode te vragen voor toegang tot Power BI. Dit kan door gebruikers worden beheerd in de app-instellingen, maar ook door beheerders in Intune en andere MDM-hulpprogramma's. [Meer informatie](./mobile-native-secure-access.md).
 
 ### <a name="one-page-report-slideshow-windows"></a>Diavoorstelling van rapporten van één pagina (Windows)
 
@@ -274,7 +274,7 @@ We hebben de interactie met rapporten gewijzigd: u hoeft nu slechts eenmaal op e
 ![Interactie met één keer tikken](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Bestaande gebruikers zullen dit gedrag in de app-instellingen moeten inschakelen. Zie het artikel [Rapportinteractie met één keer tikken configureren](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) voor meer informatie.
+> Bestaande gebruikers zullen dit gedrag in de app-instellingen moeten inschakelen. Zie het artikel [Rapportinteractie met één keer tikken configureren](./mobile-app-interaction-settings.md) voor meer informatie.
 
 ## <a name="january---february-2019"></a>Januari - februari 2019
  
@@ -304,11 +304,11 @@ Verbeterde presentatiemodus voor Surface Hub en Windows 10-apparaten.  Profiteer
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>De staande rapportindeling in tablets (iOS en Android)
 
-De telefoonrapportindeling, indien aanwezig, wordt nu gebruikt voor het weergeven van rapporten op tablets in de staande modus. Lees meer over [hoe u een telefoonindeling maakt in Power BI-service of Desktop](https://docs.microsoft.com/power-bi/desktop-create-phone-report/).
+De telefoonrapportindeling, indien aanwezig, wordt nu gebruikt voor het weergeven van rapporten op tablets in de staande modus. Lees meer over [hoe u een telefoonindeling maakt in Power BI-service of Desktop](/power-bi/desktop-create-phone-report/).
 
 ### <a name="supporting-report-query-string"></a>Ondersteuning voor rapportquerytekenreeksen 
 
-Als u een rapportkoppeling in de mobiele app opent waarin een querytekenreeks is opgenomen, wordt de koppeling eerst gefilterd op basis van de voorwaarden in de querytekenreeks. Meer informatie over [hoe u een rapport-URL met een querytekenreeks maakt](https://docs.microsoft.com/power-bi/service-url-filters/).  
+Als u een rapportkoppeling in de mobiele app opent waarin een querytekenreeks is opgenomen, wordt de koppeling eerst gefilterd op basis van de voorwaarden in de querytekenreeks. Meer informatie over [hoe u een rapport-URL met een querytekenreeks maakt](/power-bi/service-url-filters/).  
 
 ### <a name="shared-credentials-now-in-android"></a>Gedeelde referenties (nu in Android)
 

@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363957"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854076"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -138,11 +138,11 @@ Wanneer een geplande vernieuwing of vernieuwing op aanvraag in Power BI wordt ge
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Onderdrukkingen in de TMSL-opdracht Vernieuwen
 
-Met onderdrukkingen in de [opdracht Vernieuwen (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) kunnen gebruikers een andere partitiequerydefinitie of gegevensbrondefinitie voor de vernieuwingsbewerking kiezen. Momenteel worden **onderdrukkingen niet ondersteund** in Power BI Premium. De fout 'De out-of-line-binding is niet toegestaan in Power BI Premium. Zie XMLA-lees/schrijf-ondersteuning in de productdocumentatie voor meer informatie." wordt geretourneerd.
+Met onderdrukkingen in de [opdracht Vernieuwen (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) kunnen gebruikers een andere partitiequerydefinitie of gegevensbrondefinitie voor de vernieuwingsbewerking kiezen. Momenteel worden **onderdrukkingen niet ondersteund** in Power BI Premium. De fout 'De out-of-line-binding is niet toegestaan in Power BI Premium. Zie XMLA-lees/schrijf-ondersteuning in de productdocumentatie voor meer informatie." wordt geretourneerd.
 
 ## <a name="see-also"></a>Zie ook
 
 [Gegevenssetconnectiviteit met het XMLA-eindpunt](service-premium-connect-tools.md)   
 [Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals](service-premium-service-principal.md)   
 [Problemen met Analyseren in Excel oplossen](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Tabular model solution deployment](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current) (Implementatie van oplossingen met tabellaire modellen)
+[Tabular model solution deployment](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current) (Implementatie van oplossingen met tabellaire modellen)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cfe184b1f2bd34796dea8982117e3ba90561fa31
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: fb5807dd0a5bfa5d3223a8c436da475c51d8d8a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459687"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860619"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Realtimestreaming van Power BI laat u gegevens streamen en dashboards in real time bijwerken. Elke visual of dashboard dat is gemaakt in Power BI, kan voor realtimegegevens en visuals weergeven en bijwerken. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook metrische gebruiksgegevens van services en vele andere apparaten waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -85,7 +85,7 @@ Als de vlag *defaultMode* wordt ingesteld op *pushStreaming*, is de gegevensset 
 > [!NOTE]
 > Wanneer u gegevenssets gebruikt met de vlag *defaultMode* ingesteld op *pushStreaming*, en een aanvraag de beperking van 15 kB voor een **streaming**gegevensset overschrijdt, maar kleiner is dan de limiet van 16 MB voor een **push**-gegevensset, kan de aanvraag worden uitgevoerd en worden de gegevens in de pushgegevensset bijgewerkt. Het streamen van gegevens naar tegels mislukt dan echter tijdelijk.
 
-Nadat er een gegevensset is gemaakt, gebruikt u de REST-API's om gegevens te pushen met behulp van de API [**PostRows**](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows).
+Nadat er een gegevensset is gemaakt, gebruikt u de REST-API's om gegevens te pushen met behulp van de API [**PostRows**](/rest/api/power-bi/pushdatasets/datasets_postrows).
 
 Alle aanvragen naar REST-API's zijn beveiligd met **Azure AD OAuth**.
 
@@ -154,7 +154,7 @@ In de volgende secties worden deze twee opties uitvoeriger besproken.
 
 ![Schermopname van het dialoogvenster Nieuwe streaminggegevensset met de items Power BI REST API voor verbinding.](media/service-real-time-streaming/real-time-streaming_5.png)
 
-Als u wilt dat Power BI de gegevens opslaat die worden verzonden via deze gegevensstroom, schakelt u de optie *Analyse van historische gegevens* in. U kunt dan rapportages en analyses uitvoeren op de verzamelde gegevens. [Meer informatie over de API](https://docs.microsoft.com/rest/api/power-bi/).
+Als u wilt dat Power BI de gegevens opslaat die worden verzonden via deze gegevensstroom, schakelt u de optie *Analyse van historische gegevens* in. U kunt dan rapportages en analyses uitvoeren op de verzamelde gegevens. [Meer informatie over de API](/rest/api/power-bi/).
 
 Als u de gegevensstroom hebt gemaakt, ontvangt u de URL voor het eindpunt van de REST-API. Deze URL kan door uw toepassing via *POST*-aanvragen worden aangeroepen om uw gegevens te pushen naar de **streaming**-gegevensset van Power BI die u hebt gemaakt.
 
@@ -244,5 +244,5 @@ Meer informatie over het automatisch vernieuwen van pagina's vindt u in het arti
 ## <a name="next-steps"></a>Volgende stappen
 Hier volgen enkele koppelingen naar Engelstalige informatiebronnen die handig kunnen zijn bij het werken met realtimestreaming in Power BI:
 
-* [Overview of Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
+* [Overview of Power BI REST API](/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)

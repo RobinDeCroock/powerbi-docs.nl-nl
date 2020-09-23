@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: af737472b85dcfa05935aefa9ddd7a6fcbb746f2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214373"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859975"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -206,7 +206,7 @@ Bij het ontwerpen van rapporten kunt u knopinfo gebruiken om voor elk element in
 
 #### <a name="azure-active-directory-application-proxy-support"></a>Ondersteuning van Azure Active Directory-toepassingsproxy
 
-Met de Azure Active Directory-toepassingsproxy hoeft u niet meer uw eigen webtoepassingsproxy te beheren om veilige toegang via het web of mobiele apps toe te staan. Zie [Externe toegang tot on-premises toepassingen via de toepassingsproxy van Azure Active Directory](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) voor meer informatie.
+Met de Azure Active Directory-toepassingsproxy hoeft u niet meer uw eigen webtoepassingsproxy te beheren om veilige toegang via het web of mobiele apps toe te staan. Zie [Externe toegang tot on-premises toepassingen via de toepassingsproxy van Azure Active Directory](/azure/active-directory/manage-apps/application-proxy) voor meer informatie.
 
 #### <a name="custom-headers"></a>Aangepaste headers
 
@@ -572,7 +572,7 @@ Wanneer u in een bepaalde categorie op één visual inzoomt, kunnen daarbij alle
 
 #### <a name="export-to-accessible-pdf"></a>Exporteren naar toegankelijke PDF
 
-Wanneer u een gepagineerd (RDL) rapport naar PDF exporteert, kunt u nu een toegankelijk/getagd PDF-bestand gebruiken. Het is groter, maar met schermlezers en andere ondersteunende technologieën is het eenvoudiger te lezen en kan hierin gemakkelijker worden genavigeerd. U kunt de toegankelijke PDF inschakelen door de apparaatgegevensinstelling **AccessiblePDF** in te stellen op **Waar**. Zie [PDF-apparaatgegevensinstellingen](https://docs.microsoft.com/sql/reporting-services/pdf-device-information-settings) en [Apparaatgegevensinstellingen wijzigen](https://docs.microsoft.com/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
+Wanneer u een gepagineerd (RDL) rapport naar PDF exporteert, kunt u nu een toegankelijk/getagd PDF-bestand gebruiken. Het is groter, maar met schermlezers en andere ondersteunende technologieën is het eenvoudiger te lezen en kan hierin gemakkelijker worden genavigeerd. U kunt de toegankelijke PDF inschakelen door de apparaatgegevensinstelling **AccessiblePDF** in te stellen op **Waar**. Zie [PDF-apparaatgegevensinstellingen](/sql/reporting-services/pdf-device-information-settings) en [Apparaatgegevensinstellingen wijzigen](/sql/reporting-services/customize-rendering-extension-parameters-in-rsreportserver-config#changing-device-information-settings).
 
 ### <a name="other-improvements"></a>Andere verbeteringen
 
@@ -639,7 +639,7 @@ Er is een nieuwe afzonderlijke API voor grote bestanden, die wordt bijgewerkt in
 
 ### <a name="sql-server-analysis-services-ssas-and-the-power-bi-report-server-memory-footprint"></a>SQL Server Analysis Services (SSAS) en het geheugengebruik van Power BI Report Server
 
-Power BI Report Server fungeert intern nu als host voor SQL Server Analysis Services (SSAS). Dit is niet specifiek voor geplande vernieuwing. Door SSAS te hosten, kunt u het geheugengebruik van de rapportserver aanzienlijk uitbreiden. Het configuratiebestand AS.ini is beschikbaar op de serverknooppunten. Als u bekend bent met SSAS, kunt u dus de instellingen bijwerken, inclusief de maximale geheugenlimiet en schijfopslag in de cache enzovoort. Zie [Servereigenschappen in Analysis Services](https://docs.microsoft.com/sql/analysis-services/server-properties/server-properties-in-analysis-services) voor meer informatie.
+Power BI Report Server fungeert intern nu als host voor SQL Server Analysis Services (SSAS). Dit is niet specifiek voor geplande vernieuwing. Door SSAS te hosten, kunt u het geheugengebruik van de rapportserver aanzienlijk uitbreiden. Het configuratiebestand AS.ini is beschikbaar op de serverknooppunten. Als u bekend bent met SSAS, kunt u dus de instellingen bijwerken, inclusief de maximale geheugenlimiet en schijfopslag in de cache enzovoort. Zie [Servereigenschappen in Analysis Services](/sql/analysis-services/server-properties/server-properties-in-analysis-services) voor meer informatie.
 
 ### <a name="viewing-and-interacting-with-excel-workbooks"></a>Excel-werkmappen weergeven en ermee werken
 

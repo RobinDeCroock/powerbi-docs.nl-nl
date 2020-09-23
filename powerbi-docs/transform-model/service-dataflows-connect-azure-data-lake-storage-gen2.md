@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: ee24e4aaa54fdbc60c631dc319caf6b1465aed28
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385947"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859814"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag
 
@@ -46,13 +46,13 @@ Voordat u Power BI met een Azure Data Lake Storage Gen2-account kunt configurere
 2. Het opslagaccount moet worden gemaakt in dezelfde AAD-tenant als uw Power BI-tenant.
 3. Het opslagaccount moet worden gemaakt in dezelfde regio als uw Power BI-tenant. Zie het artikel [Waar bevindt mijn Power BI-tenant zich?](../admin/service-admin-where-is-my-tenant-located.md) om te bepalen waar uw Power BI-tenant zich bevindt.
 4. Voor het opslagaccount moet de functionaliteit *Hiërarchische naamruimte* zijn ingeschakeld.
-5. Als het opslagaccount niet door de huidige gebruiker is gemaakt, controleert u of de machtiging [Eigenaar van de opslagblobgegevens](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) en [Eigenaar](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) aan de huidige gebruiker is toegewezen. (Aangezien de eigenaar niet over een machtiging op gegevensniveau beschikt, is de eigenaar van de blobgegevens vereist.)
+5. Als het opslagaccount niet door de huidige gebruiker is gemaakt, controleert u of de machtiging [Eigenaar van de opslagblobgegevens](/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) en [Eigenaar](/azure/role-based-access-control/built-in-roles#owner) aan de huidige gebruiker is toegewezen. (Aangezien de eigenaar niet over een machtiging op gegevensniveau beschikt, is de eigenaar van de blobgegevens vereist.)
 
 In de volgende secties wordt dieper ingegaan op de stappen die nodig zijn voor het configureren van uw account voor Azure Data Lake Storage Gen2.
 
 ### <a name="create-the-storage-account"></a>Het opslagaccount maken
 
-Volg de stappen in het artikel [Een Azure Data Lake Storage Gen2-opslagaccount maken](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account).
+Volg de stappen in het artikel [Een Azure Data Lake Storage Gen2-opslagaccount maken](/azure/storage/blobs/data-lake-storage-quickstart-create-account).
 
 1. Zorg ervoor dat u dezelfde locatie als uw Power BI-tenant selecteert en stel uw opslag in als **StorageV2 (algemeen gebruik v2)**
 2. Zorg ervoor dat u de functionaliteit voor hiërarchische naamruimte inschakelt
@@ -62,7 +62,7 @@ Volg de stappen in het artikel [Een Azure Data Lake Storage Gen2-opslagaccount m
 
 Vervolgens moet u de Power BI-service de rollen Lezer en Gegevenstoegang verlenen in het door u gemaakte opslagaccount. Dit zijn ingebouwde rollen, dus de stappen zijn eenvoudig. 
 
-Volg de stappen in [Assign a built-in RBAC role](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) (Een ingebouwde RBAC-rol toewijzen).
+Volg de stappen in [Assign a built-in RBAC role](/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) (Een ingebouwde RBAC-rol toewijzen).
 
 Selecteer in het venster **Roltoewijzing toevoegen** de rol **Lezer en gegevenstoegang**. Gebruik vervolgens de zoekfunctie om de **Power BI-service** te zoeken.
 Herhaal dezelfde stappen voor de rol **Eigenaar van opslagblobgegevens** en wijs de rol toe aan zowel de **Power BI-service** als **Power BI Premium**.
@@ -155,11 +155,11 @@ Raadpleeg de volgende artikelen voor algemene informatie over gegevensstromen:
 * [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 Raadpleeg de volgende artikelen voor informatie over Azure-opslag:
-* [Azure Storage-beveiligingshandleiding](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage-beveiligingshandleiding](/azure/storage/common/storage-security-guide)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM-mappen](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Bestandsdefinitie van CDM-model](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)
+* [CDM-mappen](/common-data-model/data-lake)
+* [Bestandsdefinitie van CDM-model](/common-data-model/model-json)
 
 U kunt altijd [vragen stellen in de Power BI-community](https://community.powerbi.com/).

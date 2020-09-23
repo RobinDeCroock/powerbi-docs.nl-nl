@@ -8,27 +8,27 @@ ms.topic: how-to
 ms.date: 05/13/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e10f2144e987f8fdc7ea9dbfd18d4581889ae8bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230130"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854225"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Verbinding maken met het Ondersteuningsdashboard voor Hospital Emergency Response
 De sjabloon-app Ondersteuningsdashboard voor Hospital Emergency Response is het rapportageonderdeel van de [Microsoft Power Platform-oplossing voor noodsituaties in de gezondheidszorg](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). Op het dashboard wordt weergegeven dat managers voor noodsituaties gegevens van hun zorgsystemen aggregeren om tijdige, juiste beslissingen te kunnen nemen.
 
 ![App-rapport Ondersteuningsdashboard voor Hospital Emergency Response](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-report.png)
 
-In dit artikel leest u hoe u de app installeert en hoe u verbinding maakt met de gegevensbronnen. Raadpleeg [Ondersteuningsdashboard voor Hospital Emergency Response](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard) voor meer informatie over het gebruik van het rapport dat u in deze app te zien krijgt.
+In dit artikel leest u hoe u de app installeert en hoe u verbinding maakt met de gegevensbronnen. Raadpleeg [Ondersteuningsdashboard voor Hospital Emergency Response](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard) voor meer informatie over het gebruik van het rapport dat u in deze app te zien krijgt.
 
 Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de gegevensbronnen, kunt u het rapport aanpassen aan uw behoeften. Vervolgens kunt u deze als app distribueren naar collega's in uw organisatie.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u deze sjabloon-app installeert, moet u eerst de [Microsoft Power Platform-oplossing Hospital Emergency Response](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure) installeren en instellen. Als u deze oplossing installeert, worden de gegevensbronverwijzingen gemaakt die nodig zijn om de app te vullen met gegevens.
+Voordat u deze sjabloon-app installeert, moet u eerst de [Microsoft Power Platform-oplossing Hospital Emergency Response](/powerapps/sample-apps/emergency-response/deploy-configure) installeren en instellen. Als u deze oplossing installeert, worden de gegevensbronverwijzingen gemaakt die nodig zijn om de app te vullen met gegevens.
 
-Let bij het installeren van de Microsoft Power Platform-oplossing Hospital Emergency Response op de [URL van uw Common Data Service-omgevingsinstantie](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). U hebt deze nodig om de sjabloon-app te verbinden met de gegevens.
+Let bij het installeren van de Microsoft Power Platform-oplossing Hospital Emergency Response op de [URL van uw Common Data Service-omgevingsinstantie](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). U hebt deze nodig om de sjabloon-app te verbinden met de gegevens.
 
 ## <a name="install-the-app"></a>De app installeren
 
@@ -66,7 +66,7 @@ Let bij het installeren van de Microsoft Power Platform-oplossing Hospital Emerg
 
 1. Ga als volgt te werk in het dialoogvenster:
    1. Voer in het veld Organisatienaam de naam van uw organisatie in, bijvoorbeeld Contoso Health Systems. Dit veld is optioneel. Deze naam wordt linksboven in het dashboard weergegeven.
-   1. Typ in het veld CDS_base_solution de [URL van uw Common Data Service-omgevingsinstantie](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Bijvoorbeeld: https://[mijnomgeving].crm.dynamics.com. Klik op **Volgende** als u klaar bent.
+   1. Typ in het veld CDS_base_solution de [URL van uw Common Data Service-omgevingsinstantie](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard). Bijvoorbeeld: https://[mijnomgeving].crm.dynamics.com. Klik op **Volgende** als u klaar bent.
 
    ![URL-dialoogvenster van de app Ondersteuningsdashboard voor Hospital Emergency Response](media/service-connect-to-health-emergency-response/service-health-emergency-response-app-url-dialog.png)
 
@@ -99,8 +99,8 @@ Wanneer het vernieuwen van gegevens is voltooid, [stelt u een vernieuwingsschema
 Zie [De app aanpassen en delen](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie. Zorg ervoor dat u de [rapportdisclaimers](../create-reports/sample-covid-19-us.md#disclaimers) controleert voordat u de app publiceert of distribueert.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Informatie over het Hospital Emergency Response-rapport](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
-* [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app)
+* [Informatie over het Hospital Emergency Response-rapport](/powerapps/sample-apps/emergency-response/deploy-configure#view-the-power-bi-dashboard)
+* [De voorbeeldsjabloon Crisis Communication instellen en leren kennen in Power Apps](/powerapps/maker/canvas-apps/sample-crisis-communication-app)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 * [Wat zijn Power BI-sjabloon-apps?](../connect-data/service-template-apps-overview.md)
 * [Sjabloon-apps in uw organisatie installeren en distribueren](../connect-data/service-template-apps-install-distribute.md)

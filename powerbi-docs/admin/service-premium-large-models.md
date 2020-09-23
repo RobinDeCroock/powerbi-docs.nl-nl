@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 4f0a34f990613ab57a95d1f299392d77c7c1f625
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204328"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854662"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Ondersteuning voor grote modellen in Power BI Premium (preview-versie)
 
@@ -94,7 +94,7 @@ U moet rekening houden met de gevolgen van het verwijderen van grote modellen. O
 
 ## <a name="checking-dataset-size"></a>De grootte van gegevenssets controleren
 
-Nadat u historische gegevens hebt geladen, kunt u [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) gebruiken via het [XMLA-eindpunt](service-premium-connect-tools.md) om de geschatte grootte van de gegevensset in het venster met modeleigenschappen te controleren.
+Nadat u historische gegevens hebt geladen, kunt u [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms) gebruiken via het [XMLA-eindpunt](service-premium-connect-tools.md) om de geschatte grootte van de gegevensset in het venster met modeleigenschappen te controleren.
 
 ![Geschatte grootte van gegevenssets](media/service-premium-large-models/estimated-dataset-size.png)
 
@@ -122,7 +122,7 @@ Houd bij het gebruik van grote modellen rekening met de volgende beperkingen:
 
 ## <a name="availability-in-regions"></a>Beschikbaarheid in regio’s
 
-Grote modellen in Power BI zijn alleen beschikbaar in bepaalde Azure-regio’s die ondersteuning bieden voor [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers).
+Grote modellen in Power BI zijn alleen beschikbaar in bepaalde Azure-regio’s die ondersteuning bieden voor [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers).
 
 De volgende lijst biedt regio’s waarin grote modellen in Power BI beschikbaar zijn. Regio's die niet in de volgende lijst staan, worden niet ondersteund voor grote modellen:
 
@@ -155,7 +155,7 @@ De volgende lijst biedt regio’s waarin grote modellen in Power BI beschikbaar 
 
 De volgende koppelingen bevatten informatie die nuttig kan zijn voor het werken met grote modellen:
 
-* [Azure Premium Files Storage](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)
+* [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers)
 * [Multi-Geo-ondersteuning voor Power BI Premium configureren](service-admin-premium-multi-geo.md)
 * [Uw eigen versleutelingssleutels gebruiken voor Power BI](service-encryption-byok.md)
 * [Hoe capaciteiten functioneren](service-premium-what-is.md#how-capacities-function)

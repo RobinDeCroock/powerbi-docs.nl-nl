@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ae57fb5a3d2ff38a29e0c1e3c24af23582af43a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222247"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860021"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>Voorwaardelijke opmaak in tabellen gebruiken 
 
@@ -181,9 +181,9 @@ Er zijn enkele overwegingen voor het werken met voorwaardelijke tabelopmaak:
 
 - Voorwaardelijke opmaak wordt alleen toegepast op de waarden van tabel- en matrixvisuals en is niet van toepassing op subtotalen, eindtotalen en de rij **Totaal**. 
 - Tabellen zonder groepering worden weergegeven als één rij die geen ondersteuning biedt voor voorwaardelijke opmaak.
-- U kunt geen opmaak met kleurovergangen toepassen met automatische maximale en minimale waarden (en ook geen op regels gebaseerde opmaak met percentageregels) als uw gegevens *NaN*-waarden bevatten. NaN betekent 'geen getal', meestal veroorzaakt door een fout met delen door nul. U kunt de [DIVIDE () DAX-functie](https://docs.microsoft.com/dax/divide-function-dax) gebruiken om deze fouten te voorkomen.
+- U kunt geen opmaak met kleurovergangen toepassen met automatische maximale en minimale waarden (en ook geen op regels gebaseerde opmaak met percentageregels) als uw gegevens *NaN*-waarden bevatten. NaN betekent 'geen getal', meestal veroorzaakt door een fout met delen door nul. U kunt de [DIVIDE () DAX-functie](/dax/divide-function-dax) gebruiken om deze fouten te voorkomen.
 - Voor voorwaardelijke opmaak moet een aggregatie of meting worden toegepast op de waarde. Daarom ziet u 'eerste' of 'laatste' in het voorbeeld **Kleuren met waarde**. Als u een rapport maakt op basis van een multidimensionale kubus van Analysis Service, kunt u geen kenmerk voor voorwaardelijke opmaak gebruiken, tenzij de eigenaar van de kubus een meting heeft gebouwd waarmee de waarde wordt aangeleverd.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Zie [Tips en trucs voor het gebruik van kleuren in Power BI](../visuals/service-tips-and-tricks-for-color-formatting.md) voor meer informatie over kleuropmaak  
+Zie [Tips en trucs voor het gebruik van kleuren in Power BI](../visuals/service-tips-and-tricks-for-color-formatting.md) voor meer informatie over kleuropmaak

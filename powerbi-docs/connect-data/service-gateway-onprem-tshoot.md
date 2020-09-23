@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236200"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860688"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Problemen met gateways oplossen - Power BI
 
@@ -60,7 +60,7 @@ Er kan geen verbinding worden gemaakt met de opgegeven gegevensbron. Controleer 
 
 Onder **Details weergeven** ziet u de foutcode **DM_GWPipeline_Gateway_DataSourceAccessError**.
 
-Als het onderliggende foutbericht op de volgende melding lijkt, betekent dit dat het account dat u voor de gegevensbron gebruikt geen serverbeheerder is voor het betreffende Analysis Services-exemplaar. Zie [Grant server admin rights to an Analysis Services instance](https://docs.microsoft.com/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance) (Serverbeheerdersrechten aan een Analysis Services-exemplaar verlenen) voor meer informatie.
+Als het onderliggende foutbericht op de volgende melding lijkt, betekent dit dat het account dat u voor de gegevensbron gebruikt geen serverbeheerder is voor het betreffende Analysis Services-exemplaar. Zie [Grant server admin rights to an Analysis Services instance](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance) (Serverbeheerdersrechten aan een Analysis Services-exemplaar verlenen) voor meer informatie.
 
     The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
 

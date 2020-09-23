@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427721"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853972"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service
 
@@ -38,7 +38,7 @@ Hier volgen de vereisten voor het maken van het gepagineerde rapport:
 
 - Installeer [Power BI Report Builder vanuit het Microsoft Downloadcentrum](https://aka.ms/pbireportbuilder). 
 
-- Volg de snelstart [Een Azure SQL-voorbeelddatabase in Azure Portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Kopieer de waarde uit het vak **Servernaam** op het tabblad **Overzicht** en sla deze op. Onthoud de gebruikersnaam en het wachtwoord dat u hebt gemaakt in Azure.
+- Volg de snelstart [Een Azure SQL-voorbeelddatabase in Azure Portal](/azure/sql-database/sql-database-get-started-portal). Kopieer de waarde uit het vak **Servernaam** op het tabblad **Overzicht** en sla deze op. Onthoud de gebruikersnaam en het wachtwoord dat u hebt gemaakt in Azure.
 
 Hier volgen de vereisten voor het uploaden van uw gepagineerde rapport naar de Power BI-service:
 

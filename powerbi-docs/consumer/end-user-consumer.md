@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24f507a2457793590b6b123c0f4c9cb68dea4102
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161739"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860964"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>De Power BI-service voor consumenten
 
@@ -62,6 +62,5 @@ Dat betekent niet dat u uw wijzigingen niet kunt opslaan: dat kunt u wel. Maar d
 ## <a name="next-steps"></a>Volgende stappen
 
 [Volg een rondleiding door de Power BI-service voor gebruikers](end-user-reading-view.md)    
-[Training voor de Power BI-service voor gebruikers](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
-[Terminologie en concepten voor Power BI *-consumenten*](end-user-basic-concepts.md)    
-
+[Training voor de Power BI-service voor gebruikers](/learn/paths/consume-data-with-power-bi/)    
+[Terminologie en concepten voor Power BI *-consumenten*](end-user-basic-concepts.md)

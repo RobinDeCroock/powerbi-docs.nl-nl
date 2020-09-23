@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f095eb351797c228bb5f6e9b70c741ca078e7f67
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221678"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859906"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Tekenreeksen met aangepaste indeling gebruiken in Power BI Desktop
 
@@ -68,7 +68,7 @@ In de volgende tabel worden ondersteunde **tijdsymbolen** weergegeven:
 | _ss_ | 00-59 (seconde van de minuut, met voorloopnul) |
 
 
-Bekijk desgewenst een [voorbeeld](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) van het opmaken van tekenreeksen met aangepaste waarden.
+Bekijk desgewenst een [voorbeeld](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example) van het opmaken van tekenreeksen met aangepaste waarden.
 
 Een door de gebruiker gedefinieerde expressie voor opmaak van getallen kan bestaan uit een tot drie secties, van elkaar gescheiden door puntkomma's. Als u puntkomma's in de expressie opneemt met niets ertussen, wordt de ontbrekende sectie niet weergegeven (bijvoorbeeld &quot;&quot;). Als er geen puntkomma wordt opgegeven, wordt de indeling met een positief getal gebruikt.
 
@@ -151,7 +151,7 @@ De volgende tabel bevat de tekens die u kunt gebruiken voor het maken van **door
 ## <a name="next-steps"></a>Volgende stappen
 Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 
-* [Tekenreeksen in VBA-indeling](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Tekenreeksen in VBA-indeling](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
 * [Metingen in Power BI Desktop](../transform-model/desktop-measures.md)
 * [Gegevenstypen in Power BI Desktop](../connect-data/desktop-data-types.md)
 * [Voorwaardelijke opmaak in tabellen](desktop-conditional-table-formatting.md)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b749ad07dd2feb9f8a3bdf776108571add9102bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1cf289e4f556fb3f92806dad1343797824f0888e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240014"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859998"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>Incrementeel vernieuwen gebruiken met Power BI-gegevensstromen
 
@@ -163,4 +163,4 @@ U kunt de volgende artikelen lezen voor meer informatie over Power Query en gepl
 * [Geplande vernieuwing configureren](../connect-data/refresh-scheduled-refresh.md)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a10370647a6079fc0d58307d30ffdc3f427e9f81
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3aa107dca6e4d1764bf8355eb0c79a8e113ee910
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231460"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860642"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>Eenmalige aanmelding van Kerberos gebruiken voor SSO in SAP BW met CommonCryptoLib (sapcrypto.dll)
 
@@ -95,7 +95,7 @@ Als u het rapport niet kunt vernieuwen in de Power BI-service, kunt u gatewaytra
 
 1. Reproduceer het probleem.
 
-2. Open de [gateway-app](https://docs.microsoft.com/data-integration/gateway/service-gateway-app) en selecteer **Logboeken exporteren** op het tabblad **Diagnostische gegevens**.
+2. Open de [gateway-app](/data-integration/gateway/service-gateway-app) en selecteer **Logboeken exporteren** op het tabblad **Diagnostische gegevens**.
 
       ![Gatewaylogboeken exporteren](media/service-gateway-sso-kerberos/export-gateway-logs.png)
 

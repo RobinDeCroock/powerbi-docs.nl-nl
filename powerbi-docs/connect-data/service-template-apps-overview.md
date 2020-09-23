@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235644"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860573"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Wat zijn Power BI-sjabloon-apps?
 
@@ -49,7 +49,7 @@ Het algemene proces om een sjabloon-app te ontwikkelen en in te dienen omvat mee
 
 Voor het maken van de sjabloon-app hebt u machtigingen nodig om er eentje te maken. Zie de Power BI-beheerderportal en Instellingen voor sjabloon-apps voor meer informatie. 
 
-Voor het publiceren van een sjabloon-app naar de Power BI-service en AppSource moet u voldoen aan de vereisten voor [het worden van een Partnercentrum-uitgever](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Voor het publiceren van een sjabloon-app naar de Power BI-service en AppSource moet u voldoen aan de vereisten voor [het worden van een Partnercentrum-uitgever](/azure/marketplace/become-publisher).
  
 ## <a name="high-level-steps"></a>Stappen op hoog niveau
 
@@ -67,7 +67,7 @@ Hier volgen de stappen op hoog niveau.
 
 6. Promoveer de test-app naar de pre-productiefase om de app voor validatie in te dienen bij AppSource en om deze buiten uw eigen tenant te testen. 
 
-7. Dien de inhoud in bij het [Partnercentrum](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) voor publicatie. 
+7. Dien de inhoud in bij het [Partnercentrum](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) voor publicatie. 
 
 8. Zorg ervoor dat uw aanbieding 'Live' gaat in AppSource en in de productiefase wordt geplaatst in Power BI.
 
@@ -77,9 +77,9 @@ Hier volgen de stappen op hoog niveau.
 
 Voor het maken van de sjabloon-app hebt u machtigingen nodig om er eentje te maken. Zie de Power BI-[beheerderportal en Instellingen voor sjabloon-apps](../admin/service-admin-portal.md#template-apps-settings) voor meer informatie.
 
-Voor het publiceren van een sjabloon-app naar de Power BI-service en AppSource moet u voldoen aan de vereisten voor [het worden van een Partnercentrum-uitgever](https://docs.microsoft.com/azure/marketplace/become-publisher).
+Voor het publiceren van een sjabloon-app naar de Power BI-service en AppSource moet u voldoen aan de vereisten voor [het worden van een Partnercentrum-uitgever](/azure/marketplace/become-publisher).
  > [!NOTE] 
- > Indieningen van sjabloon-apps worden beheerd in [Partnercentrum](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Gebruik hetzelfde Microsoft Developer Center-registratieaccount om u aan te melden. U mag maar één Microsoft-account hebben voor uw AppSource-aanbiedingen. Accounts mogen niet specifiek zijn voor afzonderlijke services of aanbiedingen.
+ > Indieningen van sjabloon-apps worden beheerd in [Partnercentrum](/azure/marketplace/partner-center-portal/create-power-bi-app-offer). Gebruik hetzelfde Microsoft Developer Center-registratieaccount om u aan te melden. U mag maar één Microsoft-account hebben voor uw AppSource-aanbiedingen. Accounts mogen niet specifiek zijn voor afzonderlijke services of aanbiedingen.
 
 ## <a name="tips"></a>Tips 
 

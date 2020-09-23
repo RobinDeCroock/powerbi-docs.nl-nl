@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 5705b0eaa861b01c7f04f4da9f85985af5f3934e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235633"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860527"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Een sjabloon-app bijwerken, verwijderen en ophalen
 
@@ -46,7 +46,7 @@ Als u wijzigingen in Power BI Desktop hebt aangebracht, begint u bij stap (1). A
 
    De koppeling is nu live. **Houd er rekening mee dat de knop App promoveren in de preproductiefase grijs wordt weergegeven**. Dit is om te voorkomen dat de liveproductiekoppeling per ongeluk wordt overschreven met de huidige app-versie voordat de nieuwe app-versie is gevalideerd en goedgekeurd in de Cloud Partner-portal.
 
-1. Dien uw koppeling nogmaals in bij de Cloud Partner-portal (CPP) door de stappen te volgen bij de [Update voor Power BI-app-aanbieding](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer). U moet de aanbieding opnieuw **publiceren** in de Cloud Partner-portal en deze laten valideren en goedkeuren.
+1. Dien uw koppeling nogmaals in bij de Cloud Partner-portal (CPP) door de stappen te volgen bij de [Update voor Power BI-app-aanbieding](/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer). U moet de aanbieding opnieuw **publiceren** in de Cloud Partner-portal en deze laten valideren en goedkeuren.
 
    Wanneer uw aanbieding is goedgekeurd, wordt de knop App promoveren weer actief. 
 1. Promoveer uw app naar de productiefase.
@@ -84,4 +84,4 @@ Als u een app-versie verwijdert, wordt de app-URL ook verwijderd en werkt deze n
 
 Zie hoe uw klanten werken met uw sjabloon-app in [Install, customize, and distribute template apps in your organization](service-template-apps-install-distribute.md) (Sjabloon-apps in uw organisatie installeren, aanpassen en distribueren).
 
-Zie de [aanbieding voor Power BI-toepassing](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) voor meer informatie over het distribueren van uw app.
+Zie de [aanbieding voor Power BI-toepassing](/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) voor meer informatie over het distribueren van uw app.

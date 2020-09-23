@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921235"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859699"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginering in gepagineerde Power BI-rapporten
 
@@ -34,7 +34,7 @@ ms.locfileid: "78921235"
   
  Standaard is de paginagrootte 8,5 x 11 inch, maar u kunt deze grootte wijzigen in het deelvenster **Rapporteigenschappen** of dialoogvenster **Pagina-instelling**, of door de eigenschappen PageHeight en PageWidth te wijzigen in het deelvenster **Eigenschappen**. De paginagrootte kan niet worden vergroot of verkleind om ruimte aan de inhoud van de hoofdtekst van het rapport te bieden. Als u wilt dat het rapport op één pagina wordt weergegeven, moet alle inhoud in de hoofdtekst van het rapport op de fysieke pagina passen. Als de inhoud niet past en u de indeling met harde pagina-einden gebruikt, zijn voor het rapport extra pagina's nodig. Als de hoofdtekst van het rapport zich voorbij de rechterrand van de fysieke pagina bevindt, wordt er horizontaal een pagina-einde ingevoegd. Als de hoofdtekst van het rapport zich voorbij de onderrand van de fysieke pagina bevindt, wordt er verticaal een pagina-einde ingevoegd.  
   
- Als u de fysieke paginagrootte wilt overschrijven die in het rapport is gedefinieerd, kunt u de fysieke paginagrootte opgeven met behulp van de instellingen van Apparaatgegevens voor de specifieke renderer die u gebruikt om het rapport te exporteren. Zie [Device Information Settings for Rendering Extensions](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017) (Instellingen van Apparaatgegevens voor renderers) in the SQL Server Reporting Services-documentatie voor een volledige lijst.  
+ Als u de fysieke paginagrootte wilt overschrijven die in het rapport is gedefinieerd, kunt u de fysieke paginagrootte opgeven met behulp van de instellingen van Apparaatgegevens voor de specifieke renderer die u gebruikt om het rapport te exporteren. Zie [Device Information Settings for Rendering Extensions](/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services) (Instellingen van Apparaatgegevens voor renderers) in the SQL Server Reporting Services-documentatie voor een volledige lijst.  
   
 ### <a name="margins"></a>Marges
 
@@ -77,13 +77,13 @@ ms.locfileid: "78921235"
   
  U kunt constanten en eenvoudige of complexe expressies gebruiken om de waarde van de eigenschappen Disabled en ResetPageNumber in te stellen. U kunt echter geen expressie gebruiken bij de eigenschap BreakLocation. Zie [Expressies in Power BI Report Builder](report-builder-expressions.md) voor meer informatie over het schrijven en gebruiken van expressies.  
   
- U kunt in het rapport expressies schrijven die verwijzen naar de huidige paginanamen of paginanummers met de collectie **Globals**. Zie [Built-in Globals and Users References](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017) (Ingebouwde globale variabelen en gebruikersnaslag) in de documentatie voor Report Builder en Reporting Services voor meer informatie.
+ U kunt in het rapport expressies schrijven die verwijzen naar de huidige paginanamen of paginanummers met de collectie **Globals**. Zie [Built-in Globals and Users References](/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder) (Ingebouwde globale variabelen en gebruikersnaslag) in de documentatie voor Report Builder en Reporting Services voor meer informatie.
   
 ### <a name="naming-excel-worksheet-tabs"></a>Tabbladen van Excel-werkbladen een naam geven
 
  Deze eigenschappen zijn handig wanneer u rapporten naar Excel-werkmappen exporteert. Gebruik de eigenschap InitialPage om een standaardnaam voor de naam van het werkbladtabblad op te geven wanneer u het rapport exporteert, en gebruik pagina-einden en de eigenschap PageName om voor elk werkblad verschillende namen op te geven. Elke nieuwe rapportpagina, die door een pagina-einde wordt gedefinieerd, wordt geëxporteerd naar een ander werkblad met de naam van de eigenschap PageName. Als PageName leeg is, maar het rapport een initiële paginanaam heeft, gebruiken alle werkbladen in de Excel-werkmap dezelfde naam, namelijk de initiële paginanaam.  
   
- Zie [Exporteren naar Microsoft Excel](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) in de documentatie voor Report Builder en Reporting Services voor meer informatie over hoe deze eigenschappen werken wanneer rapporten naar Excel worden geëxporteerd.  
+ Zie [Exporteren naar Microsoft Excel](/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs) in de documentatie voor Report Builder en Reporting Services voor meer informatie over hoe deze eigenschappen werken wanneer rapporten naar Excel worden geëxporteerd.  
   
 ## <a name="next-steps"></a>Volgende stappen
 

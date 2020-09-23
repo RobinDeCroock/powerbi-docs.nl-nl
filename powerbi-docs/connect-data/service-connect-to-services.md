@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236257"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860711"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Verbinding maken met de services die u gebruikt met Power BI
 Met Power BI kunt u verbinding maken met een aantal services die u gebruikt om uw bedrijf te runnen, zoals Salesforce, Microsoft Dynamics en Google Analytics. In Power BI worden eerst uw referenties gebruikt om verbinding te maken met de service. Vervolgens wordt een Power BI-*werkruimte* met een dashboard en een reeks Power BI-rapporten gemaakt, waarop automatisch uw gegevens worden getoond en die een visueel overzicht geven van uw bedrijf.
 
 >[!IMPORTANT]
->Service-inhoudspakketten worden vervangen door [Sjabloon-apps](https://docs.microsoft.com/power-bi/service-template-apps-overview). Vanaf 25 september 2019 is een aantal inhoudspakketten al afgeschaft. Elk verouderde inhoudspakket dat u hebt geïnstalleerd, blijft in uw account, maar er wordt geen documentatie of ondersteuning beschikbaar gesteld en het is niet mogelijk om het opnieuw te installeren.
+>Service-inhoudspakketten worden vervangen door [Sjabloon-apps](./service-template-apps-overview.md). Vanaf 25 september 2019 is een aantal inhoudspakketten al afgeschaft. Elk verouderde inhoudspakket dat u hebt geïnstalleerd, blijft in uw account, maar er wordt geen documentatie of ondersteuning beschikbaar gesteld en het is niet mogelijk om het opnieuw te installeren.
 
 Meld u aan bij Power BI om alle [services waarmee u verbinding kunt maken](https://app.powerbi.com/getdata/services) (Engelstalig) weer te geven. 
 

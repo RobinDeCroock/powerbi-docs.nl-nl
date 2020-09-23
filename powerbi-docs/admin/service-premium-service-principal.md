@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490348"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854616"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals
 
@@ -40,14 +40,14 @@ Schrijfbewerkingen kunnen alleen worden uitgevoerd als voor de **workload Gegeve
 
 Service-principals worden in Azure Portal gemaakt als een app registratie of met behulp van PowerShell. Wanneer u de service-principal maakt, moet u ervoor zorgen dat u de app-naam, de toepassing-id (client), de map-id (tenant) en het clientgeheim afzonderlijk kopieert en opslaat. Voor stappen voor het maken van een service-principal, zie:
 
-[Service-principal maken - Azure Portal](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[Service-principal maken - PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[Service-principal maken - Azure Portal](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[Service-principal maken - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>Een Azure AD-beveiligingsgroep maken
 
 Service-principals hebben standaard toegang tot alle tenantinstellingen waarvoor ze zijn ingeschakeld. Afhankelijk van uw beheerdersinstellingen kan dit toegang geven tot specifieke beveiligingsgroepen of de hele organisatie.
 
-Als u de toegang van de service-principal wilt beperken tot specifieke tenantinstellingen, kunt u alleen toegang geven tot specifieke beveiligingsgroepen. U kunt ook een toegewezen beveiligingsgroep voor service-principals maken en deze uitsluiten van de gewenste tenantinstellingen. Zie [Een basisgroep maken en leden toevoegen met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) als u wilt weten welke stappen er moeten worden genomen om een beveiligingsgroep te maken en een service-principal toe te voegen.
+Als u de toegang van de service-principal wilt beperken tot specifieke tenantinstellingen, kunt u alleen toegang geven tot specifieke beveiligingsgroepen. U kunt ook een toegewezen beveiligingsgroep voor service-principals maken en deze uitsluiten van de gewenste tenantinstellingen. Zie [Een basisgroep maken en leden toevoegen met Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) als u wilt weten welke stappen er moeten worden genomen om een beveiligingsgroep te maken en een service-principal toe te voegen.
 
 ## <a name="enable-service-principals"></a>Service-principals inschakelen
 
@@ -59,7 +59,7 @@ Ga naar de Power BI-**beheerportal** > **Tenantinstellingen** en vouw daar **Toe
 
 ## <a name="workspace-access"></a>Toegang tot werkruimte
 
-Als u wilt dat uw service-principal over de benodigde machtigingen beschikt om bewerkingen op Premium-werkruimten en -gegevenssets uit te voeren, moet u de service-principal als Lid of Beheerder toevoegen. Het gebruik van werkruimtetoegang in de Power BI-service wordt hier beschreven, maar u kunt ook de [REST API Groepsgebruiker toevoegen](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) gebruiken.
+Als u wilt dat uw service-principal over de benodigde machtigingen beschikt om bewerkingen op Premium-werkruimten en -gegevenssets uit te voeren, moet u de service-principal als Lid of Beheerder toevoegen. Het gebruik van werkruimtetoegang in de Power BI-service wordt hier beschreven, maar u kunt ook de [REST API Groepsgebruiker toevoegen](/rest/api/power-bi/groups/addgroupuser) gebruiken.
 
 1. Selecteer in de Power BI-service voor een werkruimte **Meer** > **Werkruimtetoegang**.
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO en ADOMD
 
-Wanneer u verbinding maakt met clienttoepassingen en web-apps, bieden [AMO- en ADOMD-clientbibliotheken](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) versie 15.1.42.26 (juni 2020) en hogere versies van installeerbare pakketten van NuGet, ondersteuning voor het gebruik van service-principals in verbindingsreeksen met de volgende syntaxis: `app:AppID` en wachtwoord of `cert:thumbprint`.
+Wanneer u verbinding maakt met clienttoepassingen en web-apps, bieden [AMO- en ADOMD-clientbibliotheken](/azure/analysis-services/analysis-services-data-providers) versie 15.1.42.26 (juni 2020) en hogere versies van installeerbare pakketten van NuGet, ondersteuning voor het gebruik van service-principals in verbindingsreeksen met de volgende syntaxis: `app:AppID` en wachtwoord of `cert:thumbprint`.
 
 In het volgende voorbeeld worden `appID` en een `password` gebruikt voor het uitvoeren van een bewerking voor het vernieuwen van een modeldatabase:
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>Volgende stappen
 
 [Gegevenssetconnectiviteit met het XMLA-eindpunt](service-premium-connect-tools.md)  
-[Azure Automation](https://docs.microsoft.com/azure/automation)  
-[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/)  
-[Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/)
+[Azure Automation](/azure/automation)  
+[Azure Logic Apps](/azure/logic-apps/)  
+[Power BI REST API's](/rest/api/power-bi/)

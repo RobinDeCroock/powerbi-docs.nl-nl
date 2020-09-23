@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: cea54821c7a2a31d8ee362559e29a3f79fa40b6c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 598b41362cb510f8e5bbc60c7ca263c57fa0403e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231537"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859791"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>SSO met Kerberos vanuit Power BI-service naar on-premises gegevensbronnen configureren
 
@@ -59,7 +59,7 @@ Bepaal eerst of er al een SPN is gemaakt voor het domeinaccount dat wordt gebrui
 
 4. Als het tabblad **Delegering** in het dialoogvenster **Eigenschappen** wordt weergegeven, is er al een SPN gemaakt en kunt u direct doorgaan naar [Beslissen over het type beperkte Kerberos-delegering dat moet worden gebruikt](#decide-on-the-type-of-kerberos-constrained-delegation-to-use).
 
-5. Als het dialoogvenster **Eigenschappen** geen tabblad **Delegering** bevat, kunt u handmatig een SPN maken voor het account om dit in te schakelen. Gebruik het [setspn-hulpprogramma](https://technet.microsoft.com/library/cc731241.aspx) dat standaard deel uitmaakt van Windows (u moet domeinbeheerdersrechten hebben om de SPN te maken).
+5. Als het dialoogvenster **Eigenschappen** geen tabblad **Delegering** bevat, kunt u handmatig een SPN maken voor het account om dit in te schakelen. Gebruik het [setspn-hulpprogramma](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11)) dat standaard deel uitmaakt van Windows (u moet domeinbeheerdersrechten hebben om de SPN te maken).
 
    Stel dat het gatewayserviceaccount de naam **Contoso\GatewaySvc** heeft en dat de gatewayservice wordt uitgevoerd op een computer met de naam **MyGatewayMachine**. Voer de volgende opdracht uit om de SPN in te stellen voor het gatewayserviceaccount:
 

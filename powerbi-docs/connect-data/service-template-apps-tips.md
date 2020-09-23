@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: f5c8f763b1f02d055d39c62ef2e2902b6efca439
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235540"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860274"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
@@ -124,15 +124,15 @@ We raden aan om voorbeeldgegevens van goede kwaliteit te verzamelen voordat u de
 Sjabloon-apps kunnen worden gepubliceerd op AppSource. Volg deze richtlijnen voordat u een app indient bij AppSource:
 
 * Maak een sjabloon-app met interessante voorbeeldgegevens, zodat de gebruiker die de app installeert kan zien wat de app allemaal kan (apps met lege rapporten en dashboards worden niet worden goedgekeurd).
-Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet niet om het selectievakje voor statische apps in te schakelen. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+Sjabloon-apps ondersteunen alleen apps met alleen voorbeeldgegevens. Vergeet niet om het selectievakje voor statische apps in te schakelen. [Meer informatie](./service-template-apps-create.md#define-the-properties-of-the-template-app)
 * Voeg instructies voor het validatieteam toe, met inbegrip van de referenties en parameters die nodig zijn om verbinding te maken met gegevens.
-* De app moet een app-pictogram in Power BI en in uw CPP-aanbieding bevatten. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Startpagina is geconfigureerd. [Meer informatie](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Volg de documentatie in [Partnercentrum -> Power BI-app aanbieden](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+* De app moet een app-pictogram in Power BI en in uw CPP-aanbieding bevatten. [Meer informatie](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* Startpagina is geconfigureerd. [Meer informatie](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* Volg de documentatie in [Partnercentrum -> Power BI-app aanbieden](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 * Als uw app een dashboard heeft, zorg er dan voor dat het dashboard niet leeg is.
 * Installeer de app met behulp van de app-koppeling voordat u de app aanbiedt voor publicatie en controleer of u verbinding kunt maken met de gegevensset en of de app op de juiste manier werkt.
 * Voordat u een PBIX-bestand uploadt naar de werkruimte van de sjabloon, moet u eventuele overbodige verbindingen eerst verbreken.
-* Volg de [aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) voor Power BI om maximale indruk te maken op uw gebruikers en om de app goedgekeurd te krijgen voor distributie.
+* Volg de [aanbevolen procedures voor het ontwerpen van rapporten en visuele elementen](../visuals/power-bi-report-visualizations.md) voor Power BI om maximale indruk te maken op uw gebruikers en om de app goedgekeurd te krijgen voor distributie.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="create-a-download-link-for-the-app"></a>Een downloadkoppeling voor de app maken

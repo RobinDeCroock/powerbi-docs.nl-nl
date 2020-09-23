@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 772a9c0d171c2391a137f2e8a97f262f59df5cfe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 38aee727245cd7a33aefe1ee64a8a5be8b062cd7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231372"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859768"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>SAML (Security Assertion Markup Language) gebruiken voor SSO bij on-premises gegevensbronnen vanuit Power BI
 
@@ -26,7 +26,7 @@ Momenteel wordt SAP HANA met SAML ondersteund. Zie [SAML SSO voor BI-Platform vo
 
 We ondersteunen extra gegevensbronnen (inclusief SAP HANA) met [Kerberos](service-gateway-sso-kerberos.md).
 
-Het is raadzaam om voor SAP HANA versleuteling in te schakelen voordat u een SAML SSO-verbinding tot stand brengt. Configureer de HANA-server zo dat deze versleutelde verbindingen accepteert om versleuteling in te schakelen en configureer de gateway om versleuteling te gebruiken tijdens de communicatie met uw HANA-server. Omdat het HANA ODBC-stuurprogramma standaard geen SAML-asserties versleutelt, wordt de ondertekende SAML-assertie *onversleuteld* van de gateway naar de HANA-server verzonden en is deze kwetsbaar voor onderschepping en hergebruik door derde partijen. Zie [Versleuteling inschakelen voor SAP HANA](/power-bi/desktop-sap-hana-encryption) voor instructies voor het inschakelen van versleuteling voor HANA met behulp van de OpenSSL-bibliotheek.
+Het is raadzaam om voor SAP HANA versleuteling in te schakelen voordat u een SAML SSO-verbinding tot stand brengt. Configureer de HANA-server zo dat deze versleutelde verbindingen accepteert om versleuteling in te schakelen en configureer de gateway om versleuteling te gebruiken tijdens de communicatie met uw HANA-server. Omdat het HANA ODBC-stuurprogramma standaard geen SAML-asserties versleutelt, wordt de ondertekende SAML-assertie *onversleuteld* van de gateway naar de HANA-server verzonden en is deze kwetsbaar voor onderschepping en hergebruik door derde partijen. Zie [Versleuteling inschakelen voor SAP HANA](./desktop-sap-hana-encryption.md) voor instructies voor het inschakelen van versleuteling voor HANA met behulp van de OpenSSL-bibliotheek.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>De gateway en de gegevensbron configureren
 

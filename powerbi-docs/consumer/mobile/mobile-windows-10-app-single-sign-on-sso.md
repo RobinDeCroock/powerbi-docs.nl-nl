@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: f62237e0aa0ac31d63fee4b980db2991206ddf4d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4202d2c7e4c87f8085a04af9922cf7cc6c55fbfd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240328"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860182"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Eenmalige aanmelding in de mobiele Windows-app voor Power BI
 
@@ -24,7 +24,7 @@ Omdat de Power BI-app voor Windows is geïntegreerd in Azure Active Directory, k
 Eenmalige aanmelding is alleen ingeschakeld voor Windows-apparaten die worden beheerd door Windows Azure Active Directory.
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="sign-in-with-sso"></a>Aanmelden met SSO
 
@@ -38,4 +38,3 @@ Als u zich niet wilt aanmelden bij Power BI met uw huidige referenties van de ac
 
 - [Aan de slag met de mobiele Power BI-app voor Windows 10](mobile-windows-10-phone-app-get-started.md)
 - Vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

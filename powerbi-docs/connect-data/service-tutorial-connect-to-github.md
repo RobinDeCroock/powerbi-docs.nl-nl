@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332309"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860550"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Zelfstudie: Verbinding maken met een GitHub-opslagplaats met Power BI
 In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten. U maakt verbinding met de *opslagplaats* voor openbare Power BI-inhoud en kunt antwoorden zien op vragen als de volgende: Hoeveel mensen dragen bij aan de openbare Power BI-inhoud? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En andere vragen. 
@@ -39,7 +39,7 @@ Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden vo
 
 Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u dit nog niet hebt. 
 
-- Meld u aan voor een [GitHub-account](https://docs.microsoft.com/contribute/get-started-setup-github).
+- Meld u aan voor een [GitHub-account](/contribute/get-started-setup-github).
 
 
 ## <a name="how-to-connect"></a>Verbinding maken
@@ -139,5 +139,3 @@ In deze zelfstudie hebt u verbinding gemaakt met een openbare GitHub-opslagplaat
  
 > [!div class="nextstepaction"]
 > [Verbinding maken met de onlineservices die u gebruikt](service-connect-to-services.md)
-
-
