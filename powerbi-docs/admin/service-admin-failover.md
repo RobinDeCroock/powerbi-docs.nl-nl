@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782338"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857422"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -55,7 +55,7 @@ Er wordt een melding geplaatst op de Power BI-ondersteuningspagina ([https://pow
 
 Het duur ongeveer 15 minuten voordat Power BI weer operationeel is nadat is vastgesteld dat een er failover vereist is. De tijd die nodig is om te bepalen dat er een failover vereist is, is afhankelijk van het scenario dat is verbroken. 
 
-Zodra er een failover is uitgevoerd, wordt in Power BI Azure gebruikgemaakt van Azure Storage-geo-replicatie om de failover uit te voeren. Dergelijke replicaties hebben meestal een terugkeerpunt van 15 minuten. Voor [Azure Storage wordt deze periode echter niet gegarandeerd](https://docs.microsoft.com/azure/storage/common/storage-redundancy) via een SLA, waardoor er voor Power BI ook geen tijdsbestek kan worden gegarandeerd. 
+Zodra er een failover is uitgevoerd, wordt in Power BI Azure gebruikgemaakt van Azure Storage-geo-replicatie om de failover uit te voeren. Dergelijke replicaties hebben meestal een terugkeerpunt van 15 minuten. Voor [Azure Storage wordt deze periode echter niet gegarandeerd](/azure/storage/common/storage-redundancy) via een SLA, waardoor er voor Power BI ook geen tijdsbestek kan worden gegarandeerd. 
 
 ## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>Wat gebeurt er met werkruimten en rapporten als mijn Premium-capaciteit niet meer beschikbaar is? 
 

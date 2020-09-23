@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401997"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965000"
 ---
 # <a name="deploy-to-power-bi"></a>Implementeren in Power BI
 
@@ -100,7 +100,7 @@ De belangrijkste activiteiten tijdens een implementatie naar de productiewerkrui
 - **Rapport- en dashboardinstellingen:** De instellingen voor elk rapport en dashboard moeten worden bijgewerkt en geverifieerd. De belangrijkste instellingen zijn onder andere:
   - Beschrijving
   - Contactpersoon of -groep
-  - [Vertrouwelijkheidslabel](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [Vertrouwelijkheidslabel](../admin/service-security-apply-data-sensitivity-labels.md)
   - [Aanbevolen inhoud](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **Abonnementen:** Stel zo nodig rapportabonnementen in.
 
@@ -136,7 +136,7 @@ Op een bepaald moment moeten de rapporten die naar Power BI zijn gemigreerd, op 
 
 ## <a name="monitor-the-solution"></a>De oplossing bewaken
 
-Gebeurtenissen in het [activiteitenlogboek van Power BI](../admin/service-admin-auditing.md) kunnen worden gebruikt om inzicht te krijgen in gebruikspatronen van de nieuwe oplossing (of het [uitvoeringslogboek](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15) voor inhoud die is geïmplementeerd op Power BI Report Server). Door het activiteitenlogboek te analyseren, kunt u achterhalen of het werkelijke gebruik afwijkt van de verwachtingen. Ook kan worden vastgesteld of de oplossing adequaat wordt ondersteund.
+Gebeurtenissen in het [activiteitenlogboek van Power BI](../admin/service-admin-auditing.md) kunnen worden gebruikt om inzicht te krijgen in gebruikspatronen van de nieuwe oplossing (of het [uitvoeringslogboek](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view) voor inhoud die is geïmplementeerd op Power BI Report Server). Door het activiteitenlogboek te analyseren, kunt u achterhalen of het werkelijke gebruik afwijkt van de verwachtingen. Ook kan worden vastgesteld of de oplossing adequaat wordt ondersteund.
 
 Hier volgen enkele vragen die beantwoord kunnen worden door het activiteitenlogboek te bekijken:
 

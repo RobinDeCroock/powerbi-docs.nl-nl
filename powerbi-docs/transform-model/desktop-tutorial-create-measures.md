@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 91b0bba3b8e3fc221a05e6ccb2de1ec9b888d1ef
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 61eb4fc54966545858a7ebc85044696064027acd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349305"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858388"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Zelfstudie: Uw eigen metingen maken in Power BI Desktop
 Met behulp van metingen kunt u in Power BI Desktop zeer krachtige gegevensanalyseoplossingen maken. Metingen helpen u bij het uitvoeren van berekeningen op gegevens tijdens het werken met rapporten. Deze zelfstudie bevat uitleg over metingen en een stapsgewijze procedure voor het maken van een aantal basismetingen in Power BI Desktop.
@@ -245,4 +245,4 @@ Metingen bieden u de mogelijkheid om nuttige inzichten uit uw gegevens te halen.
   
 - Zie [Standaard DAX-bewerkingen in Power BI Desktop](desktop-quickstart-learn-dax-basics.md) voor meer informatie over DAX-formules en geavanceerde metingen. Dit artikel is voornamelijk gericht op de grondbeginselen van DAX, zoals de syntaxis en functies. Daarnaast gaan we iets dieper in op het begrip context.
   
-- Voeg [Naslaginformatie over Data Analysis Expressions (DAX)](https://docs.microsoft.com/dax/index) toe aan uw favorieten. In deze referentie vindt u gedetailleerde informatie over de syntaxis, operators en meer dan 200 functies van DAX.
+- Voeg [Naslaginformatie over Data Analysis Expressions (DAX)](/dax/index) toe aan uw favorieten. In deze referentie vindt u gedetailleerde informatie over de syntaxis, operators en meer dan 200 functies van DAX.

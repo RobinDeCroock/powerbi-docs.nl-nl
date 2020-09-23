@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512051"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857698"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -77,7 +77,7 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > Het kan tot 24 uur duren voordat alle gebeurtenissen worden weergegeven, hoewel alle gegevens normaal gesproken al veel eerder beschikbaar zijn.
 >
 >
-Zie [Admin - Activiteitgebeurtenissen ophalen](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) in de naslaginformatie voor Power BI REST API voor meer informatie over het gebruik van de Power BI REST API, inclusief voorbeelden van het ophalen van gebeurtenissen voor controle-activiteiten.
+Zie [Admin - Activiteitgebeurtenissen ophalen](/rest/api/power-bi/admin/getactivityevents) in de naslaginformatie voor Power BI REST API voor meer informatie over het gebruik van de Power BI REST API, inclusief voorbeelden van het ophalen van gebeurtenissen voor controle-activiteiten.
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
@@ -122,7 +122,7 @@ U kunt de auditgegevens filteren op datumbereik, gebruiker, dashboard, rapport, 
 
 U moet aan deze vereisten voldoen voor toegang tot de auditlogboeken:
 
-- U moet een globale beheerder zijn of u moet de rol Auditlogboeken of Auditlogboeken alleen-lezen in Exchange Online hebben voor toegang tot het auditlogboek. Standaard beschikken de rolgroepen Nalevingsbeheer en Organisatiebeheer over deze rollen op de pagina **Machtigingen** in het Exchange-beheercentrum. Zie [Vereisten voor zoeken in het auditlogboek](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log) voor meer informatie over de rollen waarmee auditlogboeken kunnen worden weergegeven.
+- U moet een globale beheerder zijn of u moet de rol Auditlogboeken of Auditlogboeken alleen-lezen in Exchange Online hebben voor toegang tot het auditlogboek. Standaard beschikken de rolgroepen Nalevingsbeheer en Organisatiebeheer over deze rollen op de pagina **Machtigingen** in het Exchange-beheercentrum. Zie [Vereisten voor zoeken in het auditlogboek](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log) voor meer informatie over de rollen waarmee auditlogboeken kunnen worden weergegeven.
 
     Als u niet-beheerdersaccounts toegang wilt geven tot de auditlogboeken, voegt u de gebruiker als lid van een van deze rolgroepen toe. Als u dit op een andere manier wilt doen, kunt u een aangepaste rolgroep maken in het Exchange-beheercentrum, de rollen Auditlogboeken of Auditlogboeken alleen-lezen aan deze groep toewijzen en vervolgens het niet-beheerdersaccount toewijzen aan de nieuwe rolgroep. Raadpleeg [Rolgroepen beheren in Exchange Online](/Exchange/permissions-exo/role-groups) voor meer informatie.
 

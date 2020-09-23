@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: b77543a7601cf4f8522c333137802e71ce41a41c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091590"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858365"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>Verbinding maken met een Oracle-database met Power BI Desktop
 Om een Oracle-database te kunnen verbinden met Power BI Desktop, moet de juiste Oracle-clientsoftware worden geïnstalleerd op de computer waarop Power BI Desktop wordt uitgevoerd. De Oracle-clientsoftware die u gebruikt, is afhankelijk van de door u geïnstalleerde versie van Power BI Desktop: 32-bits of 64-bits. Het is ook afhankelijk van uw Oracle Server-versie.
@@ -24,7 +24,7 @@ Ondersteunde Oracle-versies:
 - Oracle Data Access Client-software (ODAC) 11.2 en hoger
 
 > [!NOTE]
-> Als u een Oracle-database voor Power BI Desktop, On Premises Data Gateway of Power BI Report Server configureert, raadpleegt u de informatie in het artikel [Oracle Connection Type](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) (Oracle-verbindingstype). 
+> Als u een Oracle-database voor Power BI Desktop, On Premises Data Gateway of Power BI Report Server configureert, raadpleegt u de informatie in het artikel [Oracle Connection Type](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) (Oracle-verbindingstype). 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>Bepalen welke versie van Power BI Desktop is geïnstalleerd
@@ -89,4 +89,4 @@ Als u Power BI Desktop vanuit de Microsoft Store hebt gedownload, kunt u wegens 
 
 Als u de foutmelding *Objectverwijzing is niet ingesteld* in de Power BI Gateway ziet wanneer u verbinding maakt met een Oracle-database, volgt u de instructies in [Uw gegevensbron beheren - Oracle](service-gateway-onprem-manage-oracle.md).
 
-Als u Power BI Report Server gebruikt, raadpleegt u de richtlijnen in het artikel [Oracle Connection Type](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) (Oracle-verbindingstype).
+Als u Power BI Report Server gebruikt, raadpleegt u de richtlijnen in het artikel [Oracle Connection Type](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15) (Oracle-verbindingstype).

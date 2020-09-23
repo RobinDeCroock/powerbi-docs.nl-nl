@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161371"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857606"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers
 
@@ -151,7 +151,7 @@ Toegestane gasten hebben de tenant-URL nodig om zich te kunnen aanmelden bij Pow
 
 * Er bestaan Azure Active Directory-instellingen waardoor gastgebruikers mogelijk minder acties kunnen uitvoeren in uw totale organisatie. Deze instellingen zijn ook van toepassing op uw Power BI-omgeving. De instellingen worden in de volgende documentatie besproken:
   * [Instellingen voor externe samenwerking beheren](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-  * [Uitnodigingen aan B2B-gebruikers van specifieke organisaties toestaan of blokkeren](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+  * [Uitnodigingen aan B2B-gebruikers van specifieke organisaties toestaan of blokkeren](/azure/active-directory/b2b/allow-deny-list)
   * [Voorwaardelijke toegang gebruiken om toegang toe te staan of te blokkeren](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
 
 * U kunt inhoud vanuit een overheidscloud, zoals GCC, delen naar een externe commerciële cloudgebruiker. De gastgebruiker kan echter geen eigen licentie gebruiken. De inhoud moet in de capaciteit zijn toegewezen aan Premium om toegang mogelijk te maken. U kunt ook een Power BI Pro-licentie toewijzen aan het gastaccount.
@@ -162,6 +162,6 @@ Toegestane gasten hebben de tenant-URL nodig om zich te kunnen aanmelden bij Pow
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Raadpleeg de volgende whitepaper voor meer informatie, zoals informatie over hoe beveiliging op rijniveau werkt: [Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers](https://aka.ms/powerbi-b2b-whitepaper).
+Raadpleeg de volgende whitepaper voor meer informatie, zoals informatie over hoe beveiliging op rijniveau werkt: [Power BI-inhoud met Azure AD B2B distribueren naar externe gastgebruikers](../guidance/whitepaper-azure-b2b-power-bi.md).
 
 Zie [Wat is B2B-samenwerking van Azure AD?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/) voor informatie over Azure AD B2B.

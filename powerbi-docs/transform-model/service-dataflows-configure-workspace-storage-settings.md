@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ad3684bbf285ff85fa3dec6b0cdc807dc05eca05
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239765"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857905"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Gegevensstroominstellingen voor werkruimten configureren (preview)
 
@@ -128,13 +128,13 @@ Raadpleeg de volgende artikelen voor algemene informatie over gegevensstromen:
 
 Raadpleeg de volgende artikelen voor informatie over Azure-opslag:
 
-* [Azure Storage-beveiligingshandleiding](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage-beveiligingshandleiding](/azure/storage/common/storage-security-guide)
 * [Aan de slag met GitHub-voorbeelden uit Azure Data Services](https://aka.ms/cdmadstutorial)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
 
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM-mappen](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Bestandsdefinitie van CDM-model](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)
+* [CDM-mappen](/common-data-model/data-lake)
+* [Bestandsdefinitie van CDM-model](/common-data-model/model-json)
 
 U kunt altijd [vragen stellen in de Power BI-community](https://community.powerbi.com/).

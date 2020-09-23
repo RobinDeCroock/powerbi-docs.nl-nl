@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: 4b112c3522a35f86f74481a79f3fff919a0e9e33
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87544720"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857744"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Beheerinstellingen voor Power BI-visuals beheren
 
@@ -64,7 +64,7 @@ Volg de onderstaande instructies om gebruikers in uw organisatie de mogelijkheid
 
 ![Visuals uit een bestand of AppSource](media/organizational-visuals/tenant-settings.png)
 
-Wijzigingen in de gebruikersinterface van tenantinstellingen zijn alleen van toepassing op de Power BI-service. Als u gebruikers in uw organisatie wilt toestaan .pbiviz-bestanden te uploaden en visuals uit AppSource toe te voegen aan hun deelvenster Visualisaties in Power BI Desktop, gebruikt u [Azure AD-groepsbeleid](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy).
+Wijzigingen in de gebruikersinterface van tenantinstellingen zijn alleen van toepassing op de Power BI-service. Als u gebruikers in uw organisatie wilt toestaan .pbiviz-bestanden te uploaden en visuals uit AppSource toe te voegen aan hun deelvenster Visualisaties in Power BI Desktop, gebruikt u [Azure AD-groepsbeleid](/azure/active-directory-domain-services/manage-group-policy).
 
 |Sleutel  |Waardenaam  |Waarde  |
 |---------|---------|---------|
@@ -83,7 +83,7 @@ Wanneer deze instelling is ingeschakeld, worden alleen [gecertificeerde Power BI
 
 ![gecertificeerde visuals](media/organizational-visuals/certified-visuals.png)
 
-Wijzigingen in de gebruikersinterface van tenantinstellingen zijn alleen van toepassing op de Power BI-service. Voor het beheren van de tenantinstelling voor gecertificeerde visuals in Power BI Desktop gebruikt u [Azure AD-groepsbeleid](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy).
+Wijzigingen in de gebruikersinterface van tenantinstellingen zijn alleen van toepassing op de Power BI-service. Voor het beheren van de tenantinstelling voor gecertificeerde visuals in Power BI Desktop gebruikt u [Azure AD-groepsbeleid](/azure/active-directory-domain-services/manage-group-policy).
 
 |Sleutel  |Waardenaam  |Waarde  |
 |---------|---------|---------|

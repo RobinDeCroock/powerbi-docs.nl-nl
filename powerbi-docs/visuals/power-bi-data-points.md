@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97bccec3ec0e92ebfcc6b9251cf5c17f176fbed1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240136"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857721"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype toepassen
 
@@ -41,7 +41,7 @@ Voor elke strategie zijn er standaardinstellingen op basis van de vorm en het ty
 ## <a name="statistics"></a>Statistieken
 Bepaalde modellen kunnen statistieken verstrekken over het aantal waarden voor bepaalde kolommen. Wanneer deze gegevens aanwezig zijn, gebruiken we die gegevens voor een betere verdeling over meerdere hiërarchieën, als een visual het aantal waarden voor een strategie niet expliciet overschrijft.
 
-Zie [Wat is nieuw in Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) voor meer informatie
+Zie [Wat is nieuw in Analysis Services](/sql/analysis-services/what-s-new-in-analysis-services) voor meer informatie
 
 ## <a name="dynamic-limits"></a>Dynamische limieten
 Naast de bovenstaande strategieën maken visuals met twee hiërarchieën van groeperende kolommen (as en legenda of categorie en reeks) gebruik van een aanvullende strategie met de naam *dynamische limieten*.  Dynamische limieten zijn ontworpen voor een betere balans van gegevenspunten. 
@@ -50,7 +50,7 @@ Dynamische limieten bieden een betere selectie van punten voor sparse gegevens d
 
 Dynamische limieten worden automatisch toegepast wanneer de server het volgende kan afhandelen, zoals hieronder aangegeven:
 
-* In Power BI Desktop met On-premises SSAS-versie 2016 of hoger [ waarbij gebruik wordt gemaakt van de SuperDax-mogelijkheden van de server](https://blogs.msdn.microsoft.com/analysisservices/2015/09/02/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3/)
+* In Power BI Desktop met On-premises SSAS-versie 2016 of hoger [ waarbij gebruik wordt gemaakt van de SuperDax-mogelijkheden van de server](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)
 
 * In Desktop- en Power BI-service wanneer een geïmporteerd model, DirectQuery, live verbinding maken met de service of live verbinding maken met AS PaaS wordt gebruikt. 
 
@@ -132,7 +132,7 @@ Geen strategie voor gegevensreductie
 - Waarden: Virtualisatie met behulp van een venster van 200 rijen tegelijk
 
 ### <a name="scatter-chart-high-density"></a>Spreidingsdiagrammen (high-density)
-Zie [High-density spreiding](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
+Zie [High-density spreiding](./desktop-high-density-scatter-charts.md)
 
 ### <a name="pie"></a>Cirkeldiagram
 - Maximum aantal punten: 3500

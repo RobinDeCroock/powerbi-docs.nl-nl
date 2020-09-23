@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: preetikr
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9f434d27a11d171509645594a6f7f67e62c16faa
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 5d7fbe9e302c7b1460bc285af140a50304c468da
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409301"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858526"
 ---
 # <a name="connect-to-the-microsoft-graph-security-api-in-power-bi-desktop"></a>Verbinding maken met de Microsoft Graph Security-API in Power BI Desktop
 
-Gebruik de Microsoft Graph Security Power BI-connector van Power BI Desktop om verbinding te maken met de [Microsoft Graph Security-API](https://aka.ms/graphsecuritydocs). Vervolgens kunt u dashboards en rapporten maken om inzicht te krijgen in uw [beveiligingswaarschuwingen](https://docs.microsoft.com/graph/api/resources/alert?view=graph-rest-1.0) en [beveiligingsscore](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta).
+Gebruik de Microsoft Graph Security Power BI-connector van Power BI Desktop om verbinding te maken met de [Microsoft Graph Security-API](/graph/security-concept-overview). Vervolgens kunt u dashboards en rapporten maken om inzicht te krijgen in uw [beveiligingswaarschuwingen](/graph/api/resources/alert?view=graph-rest-1.0) en [beveiligingsscore](/graph/api/resources/securescores?view=graph-rest-beta).
 
-De Microsoft Graph Security-API koppelt [meerdere beveiligingsoplossingen](https://aka.ms/graphsecurityalerts) van Microsoft en haar ecosysteempartners om correlatie van waarschuwingen gemakkelijker te maken. Deze combinatie biedt toegang tot uitgebreide contextuele informatie en vereenvoudigt automatisering. Hiermee kunnen organisaties snel inzicht verkrijgen en handelen in meerdere beveiligingsproducten, en tegelijkertijd kosten en complexiteit reduceren.
+De Microsoft Graph Security-API koppelt [meerdere beveiligingsoplossingen](/graph/api/resources/security-api-overview#alerts) van Microsoft en haar ecosysteempartners om correlatie van waarschuwingen gemakkelijker te maken. Deze combinatie biedt toegang tot uitgebreide contextuele informatie en vereenvoudigt automatisering. Hiermee kunnen organisaties snel inzicht verkrijgen en handelen in meerdere beveiligingsproducten, en tegelijkertijd kosten en complexiteit reduceren.
 
 ## <a name="prerequisites-to-use-the-microsoft-graph-security-connector"></a>Vereisten om de Microsoft Graph Security-connector te gebruiken
 
-Voor het gebruik van de Microsoft Graph Security-connector moet u *expliciet* toestemming verkrijgen van de tenantbeheerder van Azure Active Directory (Azure AD). Zie [verificatievereisten voor Microsoft Graph Security](https://aka.ms/graphsecurityauth).
+Voor het gebruik van de Microsoft Graph Security-connector moet u *expliciet* toestemming verkrijgen van de tenantbeheerder van Azure Active Directory (Azure AD). Zie [verificatievereisten voor Microsoft Graph Security](/graph/security-authorization).
 Voor toestemming zijn de toepassings-ID en de naam van de connector vereist. Deze wordt hier vermeld en is beschikbaar in [Azure Portal](https://portal.azure.com):
 
 | Eigenschap | Value |
@@ -37,11 +37,11 @@ Voor toestemming zijn de toepassings-ID en de naam van de connector vereist. Dez
 
 Uw Microsoft Azure Active Directory-tenantbeheerder kan een van de volgende methoden gebruiken om toestemming te verlenen voor de connector:
 
-* [Toestemming verlenen voor Azure AD-toepassingen](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)
+* [Toestemming verlenen voor Azure AD-toepassingen](/azure/active-directory/develop/v2-permissions-and-consent)
 
-* Reageren op een aanvraag die door uw logische app wordt verzonden tijdens de uitvoering via de [ervaring voor toepassingstoestemming](https://docs.microsoft.com/azure/active-directory/develop/application-consent-experience)
+* Reageren op een aanvraag die door uw logische app wordt verzonden tijdens de uitvoering via de [ervaring voor toepassingstoestemming](/azure/active-directory/develop/application-consent-experience)
    
-Aan het gebruikersaccount dat wordt gebruikt voor aanmelden bij de Microsoft Graph Security-connector moet de rol Azure AD-beveiligingslezer zijn toegewezen, **indien** de gebruiker geen lid is van de rol *Beveiligingsbeheerder*. Zie [Assign Azure AD roles to users](https://docs.microsoft.com/graph/security-authorization#assign-azure-ad-roles-to-users) (Azure AD-rollen toewijzen aan gebruikers).
+Aan het gebruikersaccount dat wordt gebruikt voor aanmelden bij de Microsoft Graph Security-connector moet de rol Azure AD-beveiligingslezer zijn toegewezen, **indien** de gebruiker geen lid is van de rol *Beveiligingsbeheerder*. Zie [Assign Azure AD roles to users](/graph/security-authorization#assign-azure-ad-roles-to-users) (Azure AD-rollen toewijzen aan gebruikers).
 
 ## <a name="using-the-microsoft-graph-security-connector"></a>De Microsoft Graph-Security-connector gebruiken
 
@@ -69,13 +69,13 @@ Volg deze stappen voor het gebruik van de connector:
 
     ![Het dialoogvenster U bent momenteel aangemeld](media/desktop-connect-graph-security/SignedIn.PNG)
     
-8. Nadat u verbinding hebt gemaakt, worden in het venster **Navigator** waarschuwingen, beveiligingsscores en andere entiteiten weergegeven die beschikbaar zijn in de [Microsoft Graph Security-API](https://aka.ms/graphsecuritydocs) voor de versie die u in stap 4 hebt geselecteerd. Selecteer een of meer entiteiten die u wilt importeren en gebruiken in Power BI Desktop. Selecteer **Laden** om de resultaatweergave te openen die wordt weergegeven na de stap 9.
+8. Nadat u verbinding hebt gemaakt, worden in het venster **Navigator** waarschuwingen, beveiligingsscores en andere entiteiten weergegeven die beschikbaar zijn in de [Microsoft Graph Security-API](/graph/security-concept-overview) voor de versie die u in stap 4 hebt geselecteerd. Selecteer een of meer entiteiten die u wilt importeren en gebruiken in Power BI Desktop. Selecteer **Laden** om de resultaatweergave te openen die wordt weergegeven na de stap 9.
 
     ![Dialoogvenster Navigator](media/desktop-connect-graph-security/NavTable.PNG)
     
-9. Als u een geavanceerde query wilt gebruiken met de Microsoft Graph Security-API, selecteert u de **Aangepaste Microsoft Graph Security-URL opgeven om resultaten te filteren**. Gebruik deze functie om met de vereiste machtigingen een [OData.Feed](https://docs.microsoft.com/power-bi/desktop-connect-odata)-query te verzenden naar de Microsoft Graph Security-API.
+9. Als u een geavanceerde query wilt gebruiken met de Microsoft Graph Security-API, selecteert u de **Aangepaste Microsoft Graph Security-URL opgeven om resultaten te filteren**. Gebruik deze functie om met de vereiste machtigingen een [OData.Feed](./desktop-connect-odata.md)-query te verzenden naar de Microsoft Graph Security-API.
 
-   In het volgende voorbeeld wordt de `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri* gebruikt. Zie [OData system query options](https://docs.microsoft.com/graph/query-parameters) (Opties voor OData-systeemquery's) voor meer informatie over het bouwen van query's voor het filteren, ordenen of ophalen van de recentste gegevens.
+   In het volgende voorbeeld wordt de `https://graph.microsoft.com/v1.0/security/alerts?$filter=Severity eq 'High'` *serviceUri* gebruikt. Zie [OData system query options](/graph/query-parameters) (Opties voor OData-systeemquery's) voor meer informatie over het bouwen van query's voor het filteren, ordenen of ophalen van de recentste gegevens.
 
    ![OdataFeed-voorbeeld](media/desktop-connect-graph-security/ODataFeed.PNG)
     

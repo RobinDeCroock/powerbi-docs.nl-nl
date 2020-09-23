@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 308e34e5bf70a9999939c99667075b2e468b4df4
-ms.sourcegitcommit: eff98b49e794c7c07670dcfb871f43cb06ed9d3a
+ms.openlocfilehash: 60bb1ef7421d4ebcedd49d2e973cf245edec0381
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85095619"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965019"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Richtlijnen voor beveiliging op rijniveau (RLS) in Power BI Desktop
 
@@ -54,9 +54,9 @@ Let op: Als een rapportgebruiker aan beide rollen wordt toegewezen, zien zij all
 Beveiliging op rijniveau werkt door automatisch filters toe te passen op elke DAX-query. Deze filters kunnen een negatieve invloed hebben op de queryprestaties. Een efficiënte beveiliging op rijniveau staat of valt dus met een goed modelontwerp. Het is belangrijk om de richtlijnen voor het ontwerpen van een model te volgen, zoals beschreven in de volgende artikelen:
 
 - [Meer informatie over stervormige schema's en het belang daarvan voor Power BI](star-schema.md)
-- Alle artikelen over richtlijnen voor relaties vindt u in [Documentatie voor Power BI-richtlijnen](https://docs.microsoft.com/power-bi/guidance/)
+- Alle artikelen over richtlijnen voor relaties vindt u in [Documentatie voor Power BI-richtlijnen](./index.yml)
 
-Over het algemeen is het vaak efficiënter om filters voor beveiliging op rijniveau af te dwingen voor dimensietabellen dan voor feitentabellen. Zorg ook voor goed ontworpen relaties zodat filters voor beveiliging op rijniveau worden doorgegeven aan andere modeltabellen. Vermijd daarom het gebruik van de DAX-functie [LOOKUPVALUE](https://docs.microsoft.com/dax/lookupvalue-function-dax) als hetzelfde resultaat kan worden verkregen met modelrelaties.
+Over het algemeen is het vaak efficiënter om filters voor beveiliging op rijniveau af te dwingen voor dimensietabellen dan voor feitentabellen. Zorg ook voor goed ontworpen relaties zodat filters voor beveiliging op rijniveau worden doorgegeven aan andere modeltabellen. Vermijd daarom het gebruik van de DAX-functie [LOOKUPVALUE](/dax/lookupvalue-function-dax) als hetzelfde resultaat kan worden verkregen met modelrelaties.
 
 Wanneer beveiliging op rijniveau wordt afgedwongen in DirectQuery-tabellen en er relaties zijn met andere DirectQuery-tabellen, moet u ervoor zorgen dat u de brondatabase optimaliseert. Dit kan inhouden dat u de juiste indexen moet ontwerpen of persistent berekende kolommen moet gebruiken. Zie [Richtlijnen voor het DirectQuery-model in Power BI Desktop](directquery-model-guidance.md) voor meer informatie.
 
@@ -74,7 +74,7 @@ Leden kunnen gebruikersaccounts of beveiligingsgroepen zijn. U wordt aangeraden 
 
 Test elke rol om ervoor te zorgen dat het model correct wordt gefilterd. U kunt dit eenvoudig doen met behulp van de opdracht **Weergeven als** opdracht op het linttabblad **Model maken**.
 
-Wanneer het model dynamische regels bevat met de DAX-functie [USERNAME](https://docs.microsoft.com/dax/username-function-dax), moet u testen op verwachte _en onverwachte_ waarden. Bij het insluiten van Power BI-inhoud, met name als de [app eigenaar is van gegevens](../developer/embedded/embedding.md#embedding-for-your-customers), kan de app-logica elke waarde doorgeven als effectieve gebruikersnaam voor een identiteit. Indien mogelijk, moet u ervoor zorgen dat onbedoelde of schadelijke waarden resulteren in filters die geen rijen retourneren.
+Wanneer het model dynamische regels bevat met de DAX-functie [USERNAME](/dax/username-function-dax), moet u testen op verwachte _en onverwachte_ waarden. Bij het insluiten van Power BI-inhoud, met name als de [app eigenaar is van gegevens](../developer/embedded/embedding.md#embedding-for-your-customers), kan de app-logica elke waarde doorgeven als effectieve gebruikersnaam voor een identiteit. Indien mogelijk, moet u ervoor zorgen dat onbedoelde of schadelijke waarden resulteren in filters die geen rijen retourneren.
 
 Bekijk een voorbeeld waarin Power BI is ingesloten, waarbij de functierol van de gebruiker door de app wordt doorgegeven als de effectieve gebruikersnaam: Deze is 'Manager' of 'Worker'. Managers kunnen alle rijen zien, maar medewerkers kunnen alleen rijen zien waarin het **Type** van de kolomwaarde 'Internal' (intern) is.
 
@@ -142,7 +142,7 @@ Elk van de drie modelrelaties wordt beschreven in de volgende tabel:
 
 |Relatie|Beschrijving|
 |---------|---------|
-|![Stroomdiagramafsluiter 1.](media/common/icon-01-red-30x30.png)|Er is een veel-op-veel-relatie tussen de tabellen **Salesperson** en **Sales**. De regel voor beveiliging op rijniveau filtert de kolom **EmailAddress** van de verborgen tabel **Salesperson** met behulp van de DAX-functie [USERNAME](https://docs.microsoft.com/dax/username-function-dax). De waarde van de kolom **Region** (voor de rapportgebruiker) wordt doorgevoerd in de tabel **Sales**.|
+|![Stroomdiagramafsluiter 1.](media/common/icon-01-red-30x30.png)|Er is een veel-op-veel-relatie tussen de tabellen **Salesperson** en **Sales**. De regel voor beveiliging op rijniveau filtert de kolom **EmailAddress** van de verborgen tabel **Salesperson** met behulp van de DAX-functie [USERNAME](/dax/username-function-dax). De waarde van de kolom **Region** (voor de rapportgebruiker) wordt doorgevoerd in de tabel **Sales**.|
 |![Stroomdiagramafsluiter 2.](media/common/icon-02-red-30x30.png)|Er is een een-op-veel-relatie tussen de tabellen **Date** en **Sales**.|
 |![Stroomdiagramafsluiter 3.](media/common/icon-03-red-30x30.png)|Er is een een-op-veel-relatie tussen de tabellen **Date** en **SalesRevenueSummary**.|
 
@@ -163,7 +163,7 @@ DIVIDE(
 
 Vermijd het gebruik van beveiliging op rijniveau als dat zinvol is. Als u slechts een klein aantal vereenvoudigde beveiliging op rijniveau hebt waarmee statische filters worden toegepast, kunt u overwegen om in plaats daarvan meerdere gegevenssets te publiceren. Geen van de gegevenssets definiëren rollen, omdat elke gegevensset gegevens bevat voor een specifieke doelgroep van rapportgebruikers met dezelfde gegevensmachtigingen. Maak vervolgens één werkruimte per doelgroep en wijs toegangsmachtigingen toe aan de werkruimte of app.
 
-Bijvoorbeeld, een bedrijf met slechts twee verkoopregio's besluit _voor elke verkoopregio_ een gegevensset te publiceren in verschillende werkruimten. Beveiliging op rijniveau wordt niet afgedwongen voor de gegevenssets. Ze gebruiken echter [queryparameters](https://docs.microsoft.com/power-query/power-query-query-parameters) om brongegevens te filteren. Op deze manier wordt in elke werkruimte hetzelfde model gepubliceerd. Alleen de parameterwaarden verschillen per gegevensset. Verkopers krijgen slechts toegang tot één van de werkruimten (of gepubliceerde apps) toegewezen.
+Bijvoorbeeld, een bedrijf met slechts twee verkoopregio's besluit _voor elke verkoopregio_ een gegevensset te publiceren in verschillende werkruimten. Beveiliging op rijniveau wordt niet afgedwongen voor de gegevenssets. Ze gebruiken echter [queryparameters](/power-query/power-query-query-parameters) om brongegevens te filteren. Op deze manier wordt in elke werkruimte hetzelfde model gepubliceerd. Alleen de parameterwaarden verschillen per gegevensset. Verkopers krijgen slechts toegang tot één van de werkruimten (of gepubliceerde apps) toegewezen.
 
 Het vermijden van beveiliging op rijniveau biedt verschillende voordelen:
 
@@ -191,7 +191,7 @@ Als er onverwachte resultaten worden gegenereerd door beveiliging op rijniveau, 
 Wanneer een specifieke gebruiker geen gegevens kan zien, is de UPN mogelijk niet opgeslagen of onjuist ingevoerd. Dit kan abrupt gebeuren omdat het gebruikersaccount is gewijzigd als gevolg van een naamswijziging.
 
 > [!TIP]
-> Voeg voor testdoeleinden een meting toe die de DAX-functie [USERNAME](https://docs.microsoft.com/dax/username-function-dax) retourneert. U kunt deze bijvoorbeeld 'Wie ben ik' noemen. Vervolgens voegt u de meting toe aan een kaartvisual in een rapport en publiceert u deze naar Power BI.
+> Voeg voor testdoeleinden een meting toe die de DAX-functie [USERNAME](/dax/username-function-dax) retourneert. U kunt deze bijvoorbeeld 'Wie ben ik' noemen. Vervolgens voegt u de meting toe aan een kaartvisual in een rapport en publiceert u deze naar Power BI.
 
 Wanneer specifieke gebruikers alle gegevens kunnen zien, is het mogelijk dat ze rechtstreeks toegang hebben tot rapporten in de werkruimte en ze de eigenaar van de gegevensset zijn. Beveiliging op rijniveau wordt alleen afgedwongen in de volgende gevallen:
 

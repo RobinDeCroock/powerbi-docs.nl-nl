@@ -10,18 +10,18 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 53606f52752bcc6f7c790b5e2cccaf26f0d10006
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224702"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858481"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Visuals en rapporten maken met de Azure Cost Management-connector in Power BI Desktop
 
 U kunt de Azure Cost Management-connector voor Power BI Desktop gebruiken om krachtige, aangepaste visualisaties en rapporten te maken die u een beter inzicht geven in uw uitgaven voor Azure. De Azure Cost Management-connector ondersteunt momenteel klanten met een [Microsoft-klantovereenkomst](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) of een [Enterprise Agreement (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/).  
 
-Met de Azure Cost Management-connector gebruikt u OAuth 2.0 voor verificatie met Azure en identificeert u gebruikers die de connector gaan gebruiken. Tokens die in dit proces worden gegenereerd, zijn geldig voor een specifieke periode. Power BI behoudt het token voor de volgende aanmelding. OAuth 2.0 is een standaard voor het proces dat achter de schermen wordt uitgevoerd om ervoor te zorgen dat deze machtigingen veilig worden verwerkt. Als u verbinding wilt maken, moet u een [ondernemingsbeheerder](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles)-account gebruiken voor Enterprise Agreements of een [eigenaar van een factureringsaccount](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) zijn voor Microsoft-klantovereenkomsten. 
+Met de Azure Cost Management-connector gebruikt u OAuth 2.0 voor verificatie met Azure en identificeert u gebruikers die de connector gaan gebruiken. Tokens die in dit proces worden gegenereerd, zijn geldig voor een specifieke periode. Power BI behoudt het token voor de volgende aanmelding. OAuth 2.0 is een standaard voor het proces dat achter de schermen wordt uitgevoerd om ervoor te zorgen dat deze machtigingen veilig worden verwerkt. Als u verbinding wilt maken, moet u een [ondernemingsbeheerder](/azure/billing/billing-understand-ea-roles)-account gebruiken voor Enterprise Agreements of een [eigenaar van een factureringsaccount](/azure/billing/billing-understand-mca-roles) zijn voor Microsoft-klantovereenkomsten. 
 
 > [!NOTE]
 > Deze connector vervangt de vorige connectors [Azure Consumption Insights en Azure Cost Management (bèta)](desktop-connect-azure-consumption-insights.md). Rapporten die zijn gemaakt met de eerdere connector moeten opnieuw worden gemaakt met behulp van deze connector.
@@ -108,4 +108,4 @@ U kunt via Power BI Desktop verbinding maken met allerlei gegevensbronnen. Raadp
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
-* [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
+* [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)
