@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034423"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858620"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Verbinding met Azure Consumption Insights-gegevens maken in Power BI Desktop
 
@@ -178,7 +178,7 @@ In dit stadium zal het merendeel van uw oorspronkelijke visuals, tabellen en det
 Azure wordt geleverd met de [**Azure Consumption and Insights (ACI) API**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/). Hiermee kunt u uw eigen aangepaste oplossingen maken voor verzameling, rapportage en visualisatie van het Azure-verbruik met de ACI API.
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>Namen en gebruiksgegevens toewijzen tussen de portal, de connector en de API
-De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de API en de connector, maar zijn niet altijd identiek. De volgende tabel bevat een toewijzing ter verduidelijking. Ook wordt aangegeven of de kolom verouderd is. Zie de [data dictionary voor Azure-facturering](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail) voor meer informatie en definities van termen.
+De kolommen en namen van detailgegevens in Azure Portal zijn vergelijkbaar in de API en de connector, maar zijn niet altijd identiek. De volgende tabel bevat een toewijzing ter verduidelijking. Ook wordt aangegeven of de kolom verouderd is. Zie de [data dictionary voor Azure-facturering](/azure/billing/billing-enterprise-api-usage-detail) voor meer informatie en definities van termen.
 
 | Kolomnaam ACI-connector / inhoudspakket | Kolomnaam ACI API | Kolomnaam EA | Verouderd / aanwezig voor achterwaartse compatibiliteit |
 | --- | --- | --- | --- |
@@ -238,4 +238,4 @@ U kunt via Power BI Desktop verbinding maken met allerlei gegevensbronnen. Raadp
 * [Data Sources in Power BI Desktop](desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
 * [Connect to Excel workbooks in Power BI Desktop](desktop-connect-excel.md) (Verbinding maken met Excel-werkmappen in Power BI Desktop)   
-* [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
+* [Enter data directly into Power BI Desktop](desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)

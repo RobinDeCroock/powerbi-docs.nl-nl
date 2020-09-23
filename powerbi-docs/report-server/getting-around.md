@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: 35cbfd905db3d6d8464add0fe0e67060c41c9d0a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a42ffc2610021ec1f9b77fb5e950253ff8196e61
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239397"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858779"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Inhoud beheren in de webportal 
 De webportal van Power BI Report Server is een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten weer te geven, op te slaan en te beheren.
@@ -63,10 +63,9 @@ Met Power BI Report Server hebt u gedetailleerde controle over de items die u op
     ![Een eigenschap selecteren](media/getting-around/report-server-web-portal-manage-properties.png)
 3. Selecteer **Toepassen**.
 
-Meer informatie over het [werken met abonnementen in de webportal](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal).
+Meer informatie over het [werken met abonnementen in de webportal](/sql/reporting-services/working-with-subscriptions-web-portal).
 
 ## <a name="next-steps"></a>Volgende stappen
 [Wat is Power BI Report Server?](get-started.md)
 
 Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

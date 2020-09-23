@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2add0d99ac9b8aab7ad60f51a89df5910b9ce8af
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286148"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965352"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Zelfstudie: Facebook-gegevens analyseren met Power BI Desktop
 
@@ -114,7 +114,7 @@ Nadat de gegevenstransformaties tot nu toe zijn toegepast, moeten uw **Toegepast
    ![Toegepaste stappen](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >**Toegepaste stappen** hebben onderliggende formules die zijn geschreven in de [formuletaal M van Power Query](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language). Als u de formules wilt bekijken en bewerken, selecteert u **Geavanceerde editor** in de groep **Query** van het tabblad **Start** van het lint. 
+   >**Toegepaste stappen** hebben onderliggende formules die zijn geschreven in de [formuletaal M van Power Query](/powerquery-m/quick-tour-of-the-power-query-m-formula-language). Als u de formules wilt bekijken en bewerken, selecteert u **Geavanceerde editor** in de groep **Query** van het tabblad **Start** van het lint. 
 
 ### <a name="import-the-transformed-data"></a>De getransformeerde gegevens importeren
 
@@ -251,7 +251,6 @@ Zoals u ziet, is het zeer eenvoudig om visualisaties in uw rapport aan te passen
 Power BI Desktop biedt een naadloze complete ervaring voor het ophalen van gegevens uit een breed scala aan gegevensbronnen en het vormgeven van deze gegevens om te voldoen aan uw analysebehoeften. Zo kunt u deze gegevens op uitgebreide en interactieve manieren visualiseren. Wanneer uw rapport klaar is, kunt u [het uploaden naar de Power BI-service](../create-reports/desktop-upload-desktop-files.md) en op basis van dit rapport dashboards maken die u kunt delen met andere Power BI-gebruikers.
 
 ## <a name="next-steps"></a>Volgende stappen
-* [Andere zelfstudies voor Power BI Desktop lezen](https://go.microsoft.com/fwlink/?LinkID=521937)
-* [Power BI Desktop-video's bekijken](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Microsoft Learn for Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Een bezoek brengen aan het Power BI-forum](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Het Power BI-blog lezen](https://go.microsoft.com/fwlink/?LinkID=519327)

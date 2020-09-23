@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 8ba43290e0e076963a61a7211ad99e99636ebb2e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214158"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853374"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>Snelle metingen gebruiken voor algemene berekeningen
 U kunt *snelle metingen* gebruiken om snel en eenvoudig algemene, krachtige berekeningen uit te voeren. Met een snelle meting wordt achter de schermen een reeks DAX-opdrachten (Data Analysis Expressions; expressies voor gegevensanalyse) uitgevoerd; vervolgens worden de resultaten weergegeven die u in uw rapport kunt gebruiken. U hoeft de DAX-opdracht niet te schrijven, dit gebeurt automatisch op basis van de informatie die u in een dialoogvenster invoert. Er zijn veel beschikbare categorieën voor berekeningen en manieren om elke berekening naar wens aan te passen. Bovendien kunt u de DAX bekijken die door de snelle meting wordt uitgevoerd en zo uw eigen kennis van DAX uitbreiden.
@@ -131,8 +131,7 @@ Er zijn enkele beperkingen en overwegingen waar u rekening mee moet houden.
 > Voor DAX-instructies voor snelle metingen worden alleen komma's als scheidingstekens voor argumenten gebruikt. Als u in een taalversie van Power BI Desktop werkt die komma's als decimaaltekens gebruikt, werken snelle metingen niet goed.
 
 ### <a name="time-intelligence-and-quick-measures"></a>Time intelligence en snelle metingen
-U kunt uw eigen aangepaste datumlabels gebruiken met snelle metingen met time intelligence. Als u een extern tabellair model gebruikt, is het essentieel dat tijdens het maken van het model de primaire datumkolom in de tabel als datumtabel is gemarkeerd, zoals beschreven in [Specify Mark as Date Table for use with time-intelligence](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) (Als datumtabel markeren opgeven voor gebruik met time intelligence). Als u uw eigen datumtabel importeert, moet u deze als datumtabel markeren, zoals beschreven in [Datumtabellen instellen en gebruiken in Power BI Desktop](desktop-date-tables.md).
+U kunt uw eigen aangepaste datumlabels gebruiken met snelle metingen met time intelligence. Als u een extern tabellair model gebruikt, is het essentieel dat tijdens het maken van het model de primaire datumkolom in de tabel als datumtabel is gemarkeerd, zoals beschreven in [Specify Mark as Date Table for use with time-intelligence](/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) (Als datumtabel markeren opgeven voor gebruik met time intelligence). Als u uw eigen datumtabel importeert, moet u deze als datumtabel markeren, zoals beschreven in [Datumtabellen instellen en gebruiken in Power BI Desktop](desktop-date-tables.md).
 
 ### <a name="additional-information-and-examples"></a>Aanvullende informatie en voorbeelden
 Hebt u een idee voor een nieuwe snelle meting? Mooi! Controleer de pagina [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906) en dien uw ideeën en DAX-formules voor snelle metingen in die u in Power BI Desktop wilt zien. We overwegen deze bij een toekomstige release aan de lijst met snelle metingen toe te voegen.
-

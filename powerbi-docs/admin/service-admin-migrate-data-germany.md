@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: aa05ffa7ba07ea1daf162f8ebb2baa3d18f64b29
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dadfd405eb13acd9b1db757e6123278fbfcfeef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75256351"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857204"
 ---
 # <a name="migrate-your-subscription-to-the-new-go-local-german-regions"></a>Uw abonnement migreren naar de nieuwe Duitse 'Kies voor lokaal'-regio's
 
-Als u een bestaande Microsoft Cloud Duitsland-klant (Microsoft Cloud Deutschland) bent, kunt u binnenkort Power BI-gebruikers verplaatsen naar nieuwe Duitse 'Kies voor lokaal'-regio's. Als u de migratie wilt starten, moet u eerst [kiezen voor een door Microsoft ondersteunde migratie](https://aka.ms/office365germanymoveoptin) naar onze nieuwe Duitse regio's voor datacenters.
+Als u een bestaande Microsoft Cloud Duitsland-klant (Microsoft Cloud Deutschland) bent, kunt u binnenkort Power BI-gebruikers verplaatsen naar nieuwe Duitse 'Kies voor lokaal'-regio's. Als u de migratie wilt starten, moet u eerst [kiezen voor een door Microsoft ondersteunde migratie](/microsoft-365/enterprise/ms-cloud-germany-migration-opt-in) naar onze nieuwe Duitse regio's voor datacenters.
 
 Als uw organisatie zich hiervoor opgeeft, zal de migratie ergens in 2020 van start gaan. Uw belangrijkste klantgegevens en abonnementen worden naar de nieuwe Duitse 'Kies voor lokaal'-regio's gemigreerd.
 

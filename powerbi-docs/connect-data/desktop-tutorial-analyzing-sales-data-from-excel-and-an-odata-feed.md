@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c0fb194c3585af9ce3011f5cb2a4e6b57b5092ed
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 0401fecc91aef03c0b9e0767bfb241cd701ff50b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092401"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853742"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>Zelfstudie: Verkoopgegevens uit Excel en een OData-feed analyseren
 
@@ -172,7 +172,7 @@ Selecteer uw query's in de lijst **Query's** aan de linkerkant van Power Query-e
 ![Toegepaste stappen voor query voor producten](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/products-query-applied-steps.png) &nbsp;&nbsp; ![Toegepaste stappen voor query voor orders](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orders-query-applied-steps.png)
 
 >[!TIP]
->Toegepaste stappen hebben onderliggende formules die zijn geschreven in de *Power Query-taal*, ook wel bekend als de [M-taal](https://docs.microsoft.com/powerquery-m/power-query-m-reference). Als u de formules wilt bekijken en bewerken, selecteert u **Geavanceerde editor** in de groep **Query** van het tabblad **Start** van het lint.
+>Toegepaste stappen hebben onderliggende formules die zijn geschreven in de *Power Query-taal*, ook wel bekend als de [M-taal](/powerquery-m/power-query-m-reference). Als u de formules wilt bekijken en bewerken, selecteert u **Geavanceerde editor** in de groep **Query** van het tabblad **Start** van het lint.
 
 ## <a name="import-the-transformed-queries"></a>De getransformeerde query's importeren
 
@@ -272,7 +272,7 @@ In het voltooide rapport worden gegevens van het Excel-bestand *Products.xlsx* s
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-* [Power BI Desktop-video's bekijken](/power-bi/fundamentals/desktop-videos)
+* [Microsoft Learn for Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [Power BI Desktop-video's bekijken](../fundamentals/desktop-videos.md)
 * [Een bezoek brengen aan het Power BI-forum](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [Het Power BI-blog lezen](https://go.microsoft.com/fwlink/?LinkID=519327)

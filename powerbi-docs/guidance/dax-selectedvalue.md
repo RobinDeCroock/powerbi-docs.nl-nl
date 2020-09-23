@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/20/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 70f28bd916f2c8d9c6ce40e61cd7f4c90a7726f8
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 3f80a4bf4d7b220192c81e9c567d676e60f5baf0
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537430"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965052"
 ---
 # <a name="dax-use-selectedvalue-instead-of-values"></a>DAX: SELECTEDVALUE gebruiken in plaats van VALUES
 
@@ -58,6 +58,6 @@ IF(
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
-- Leertraject: [DAX gebruiken in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- Leertraject: [DAX gebruiken in Power BI Desktop](/learn/paths/dax-power-bi/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

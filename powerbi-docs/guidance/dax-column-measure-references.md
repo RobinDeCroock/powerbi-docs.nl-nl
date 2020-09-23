@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a98ee3ff33d21dd599ddfb11166a6870ad30e6e5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: d3a7c39d659dacb8a44728518e239cd481ba951d
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537568"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965227"
 ---
 # <a name="dax-column-and-measure-references"></a>DAX: Verwijzingen naar kolommen en metingen
 
@@ -67,6 +67,6 @@ Waarom?
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
-- Leertraject: [DAX gebruiken in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- Leertraject: [DAX gebruiken in Power BI Desktop](/learn/paths/dax-power-bi/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

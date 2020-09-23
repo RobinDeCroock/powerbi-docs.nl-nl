@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0d09fd8c931a92828d11b5813e57e0691c848dc0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214136"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853604"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Queryoverzicht in Power BI Desktop
 Met Power BI Desktop kunt u verbinding maken met de wereld van gegevens, overtuigende en gefundeerde rapporten maken en uw resultaten delen met anderen, die verder kunnen bouwen op uw werk en hun business intelligence-activiteiten kunnen uitbreiden.
@@ -81,7 +81,7 @@ Het tabblad **Transformeren** biedt toegang tot algemene taken voor gegevenstran
 
 ![Schermopname van Power BI Desktop met de knop Start.](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-Zie voor meer informatie over het transformeren van gegevens, inclusief voorbeelden, [Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data).
+Zie voor meer informatie over het transformeren van gegevens, inclusief voorbeelden, [Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md).
 
 Het tabblad **Kolom toevoegen** bevat aanvullende taken die zijn gekoppeld aan het toevoegen van een kolom, het opmaken van kolomgegevens en het toevoegen van aangepaste kolommen. De volgende afbeelding toont het tabblad **Kolom toevoegen**.  
 
@@ -145,4 +145,4 @@ U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende b
 * [Gegevensbronnen in Power BI Desktop](../connect-data/desktop-data-sources.md)
 * [Verbinding maken met gegevens in Power BI Desktop](../connect-data/desktop-connect-to-data.md)
 * [Zelfstudie: Gegevens vormgeven en combineren met Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Algemene querytaken uitvoeren in Power BI Desktop](desktop-common-query-tasks.md)   
+* [Algemene querytaken uitvoeren in Power BI Desktop](desktop-common-query-tasks.md)

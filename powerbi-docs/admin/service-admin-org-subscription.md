@@ -10,12 +10,12 @@ ms.date: 05/13/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 8f5fd85887a7866513c06c984c5207527400a67c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99d1f9543625ab564db305b50b196b1e6fcdebef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228216"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857238"
 ---
 # <a name="get-a-power-bi-service-subscription-for-your-organization"></a>Een Power BI service-abonnement voor uw organisatie verkrijgen
 
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft
 
 8. Ga naar **Facturering** > **Producten en services** en zoek **Power BI Pro** om uw aankoop te verifiëren.
 
-Zie [Power BI in uw organisatie](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) voor meer informatie over hoe uw organisatie de Power BI-service kan beheren en aanschaffen.
+Zie [Power BI in uw organisatie](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) voor meer informatie over hoe uw organisatie de Power BI-service kan beheren en aanschaffen.
 
 ## <a name="more-ways-to-get-power-bi-for-your-organization"></a>Meer manieren om Power BI voor uw organisatie te kopen
 
@@ -98,4 +98,4 @@ Het account dat u hebt gemaakt, heeft nu de rol van globale beheerder van een ni
 
 - [Gebruikerslicenties weergeven en beheren](service-admin-manage-licenses.md)
 - [Registratie en kopen via self-service in- of uitschakelen](service-admin-disable-self-service.md)
-- [Documentatie voor zakelijke abonnementen en facturering](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)
+- [Documentatie voor zakelijke abonnementen en facturering](/microsoft-365/commerce/?view=o365-worldwide)

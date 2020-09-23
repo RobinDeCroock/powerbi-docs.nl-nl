@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4d1b969e82ef4f6a911f7adc79bf0d9308e7560
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a3659a2d39faad1d975a5e3c989cb40e800deb76
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240119"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853489"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen
 
@@ -186,4 +186,4 @@ U kunt de volgende artikelen lezen voor meer informatie over Power Query en gepl
 * [Geplande vernieuwing configureren](../connect-data/refresh-scheduled-refresh.md)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)

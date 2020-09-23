@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 6e2fe331fa274305447266321893204dddcc3148
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0efa26a6ef3e47272d1434fab453a17ad9823c8c
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537453"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965442"
 ---
 # <a name="dax-sample-model"></a>DAX-voorbeeldmodel
 
@@ -50,6 +50,6 @@ U kunt het Power BI Desktop-voorbeeldmodel [hier](https://aka.ms/dax-docs-sample
 Bekijk de volgende bronnen voor meer informatie over dit artikel:
 
 - [Naslaginformatie voor Data Analysis Expressions (DAX)](/dax/)
-- Leertraject: [DAX gebruiken in Power BI Desktop](https://docs.microsoft.com/learn/paths/dax-power-bi/)
+- Leertraject: [DAX gebruiken in Power BI Desktop](/learn/paths/dax-power-bi/)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com)

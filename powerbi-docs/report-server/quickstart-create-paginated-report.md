@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236310"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853535"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Een gepagineerd rapport maken voor Power BI Report Server
 In dit artikel ziet u hoe u met een paar eenvoudige stappen een gepagineerd rapport voor Power BI Report Server maakt.
@@ -60,7 +60,7 @@ Op de eerste pagina in de wizard Grafieken, **Een gegevensset kiezen**, kunt u e
    
     ![Wizard Grafiek: Een gegevensset kiezen](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     Moet u een gegevensset maken? Zie [Een gedeelde of ingesloten gegevensset maken](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
+     Moet u een gegevensset maken? Zie [Een gedeelde of ingesloten gegevensset maken](/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs).
 2. Kiest een type diagram. In dit geval kiest u een staafdiagram.
    
     ![Wizard Grafiek: Grafiektype](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
@@ -81,7 +81,7 @@ U bevindt zich nu in de weergave voor het ontwerpen van rapporten. Zoals u ziet,
 
 U kunt het diagram dat u zojuist hebt gemaakt, wijzigen door de indeling, waarden, legenda... eigenlijk vrijwel alles aan te passen.
 
-En u kunt diverse andere visualisaties toevoegen: meters, tabellen, matrices, kaarten en meer. U kunt kop- en voetteksten toevoegen voor meerdere pagina's. Zie de [zelfstudies voor Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials) om het zelf te proberen.
+En u kunt diverse andere visualisaties toevoegen: meters, tabellen, matrices, kaarten en meer. U kunt kop- en voetteksten toevoegen voor meerdere pagina's. Zie de [zelfstudies voor Report Builder](/sql/reporting-services/report-builder-tutorials) om het zelf te proberen.
 
 ![De ontwerpweergave van Report Builder](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
@@ -96,8 +96,7 @@ Wanneer uw rapport klaar is, slaat u het op in Power BI Report Server.
 ## <a name="next-steps"></a>Volgende stappen
 Er zijn meer dan genoeg goede bronnen voor het ontwerpen van rapporten in Report Builder en in Report Designer in SQL Server Data Tools. De zelfstudies over Report Builder vormen een goed startpunt.
 
-* [Zelfstudies over Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
+* [Zelfstudies over Report Builder](/sql/reporting-services/report-builder-tutorials)
 * [Wat is Power BI Report Server?](get-started.md)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

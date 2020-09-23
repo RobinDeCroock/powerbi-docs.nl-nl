@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9271bc6d3ee102ed7d1b52dec2100a5cba88e568
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5ee81b9aa594e6a101d85e4f90c14c7e653edf6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239807"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853292"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integratie van gegevensstromen en Azure Data Lake (preview)
 
@@ -45,7 +45,7 @@ Het model.json- of metagegevensbestand in de vorige afbeelding biedt verwijzinge
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>Power BI organiseert CDM-mappen in de data lake
 
-Met Power BI-gegevensstromen en de integratie met ADLS Gen2 kan Power BI gegevens in een data lake produceren. Als gegevensproducent moet Power BI een CDM-map maken voor elke gegevensstroom die het model.json-bestand en de bijbehorende gegevensbestanden bevat. Power BI slaat de gegevens geïsoleerd van andere gegevensproducenten op in de data lake met behulp van *bestandssystemen*. Meer informatie over het Azure Data Lake Storage Gen2-bestandssysteem en hiërarchische naamruimte vindt u in [het artikel over dit onderwerp](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace).
+Met Power BI-gegevensstromen en de integratie met ADLS Gen2 kan Power BI gegevens in een data lake produceren. Als gegevensproducent moet Power BI een CDM-map maken voor elke gegevensstroom die het model.json-bestand en de bijbehorende gegevensbestanden bevat. Power BI slaat de gegevens geïsoleerd van andere gegevensproducenten op in de data lake met behulp van *bestandssystemen*. Meer informatie over het Azure Data Lake Storage Gen2-bestandssysteem en hiërarchische naamruimte vindt u in [het artikel over dit onderwerp](/azure/storage/data-lake-storage/namespace).
 
 Power BI maakt gebruik van submappen voor ondubbelzinnigheid, en voor verbeterde organisatie van de gegevens wanneer deze worden gepresenteerd in de **Power BI-service**. De naam en de structuur van de map vertegenwoordigen werkruimten (mappen) en gegevensstromen (CDM-mappen). Het volgende diagram toont hoe een data lake dat wordt gedeeld door Power BI en andere gegevensproducenten kunnen worden gestructureerd. Elke service, in dit geval Dynamics 365, Dynamics for Finance and Operation en Power BI, maakt en beheert zijn eigen bestandssysteem. Afhankelijk van de ervaring in elke service, worden submappen gemaakt om CDM-mappen in het bestandssysteem beter te organiseren. 
 
@@ -61,12 +61,12 @@ Om CDM-mappen in het Power BI-bestandssysteem te maken en te beheren, zijn lees-
 
 Het delen van CDM-mappen met gebruikers van gegevens, zoals gebruikers of services die nodig zijn om de gegevens te lezen, is vereenvoudigd met Active Directory OAuth Bearer-tokens en POSIX ACL's. Beheerders beschikken hiermee over de mogelijkheid om te controleren wie de CDM-map hebben geopend. De enige actie die vereist is, is het verlenen van toegang aan een Active Directory-object van uw keuze (zoals een gebruikersgroep of service) tot de CDM-map. Het wordt aanbevolen dat alle toegang tot de CDM-map voor elke andere identiteit dan de gegevensproducent als alleen-lezen wordt verleend. Hiermee wordt de integriteit beschermd van de gegevens die door de producent worden gegenereerd.
 
-Voor het toevoegen van CDM-mappen aan Power BI, moet de gebruiker die de CDM-map toevoegt ACL's voor *leestoegang* hebben in zowel de CDM-map zelf en alle bestanden of mappen die de CDM-map bevat. Daarnaast zijn ACL's voor *uitvoer*toegang nodig in zowel de CDM-map zelf als alle bestanden of mappen die de CDM-map bevat. Het wordt aanbevolen dat u de artikelen [Access control lists on files and directory](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) (Toegangsbeheerlijsten voor bestanden en mappen) en [Best practices for using Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) (Aanbevolen procedures voor het gebruik van Azure Data Lake Storage Gen2) beide leest voor meer informatie.
+Voor het toevoegen van CDM-mappen aan Power BI, moet de gebruiker die de CDM-map toevoegt ACL's voor *leestoegang* hebben in zowel de CDM-map zelf en alle bestanden of mappen die de CDM-map bevat. Daarnaast zijn ACL's voor *uitvoer*toegang nodig in zowel de CDM-map zelf als alle bestanden of mappen die de CDM-map bevat. Het wordt aanbevolen dat u de artikelen [Access control lists on files and directory](/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) (Toegangsbeheerlijsten voor bestanden en mappen) en [Best practices for using Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-best-practices) (Aanbevolen procedures voor het gebruik van Azure Data Lake Storage Gen2) beide leest voor meer informatie.
 
 
 ### <a name="alternative-forms-of-authorization"></a>Alternatieve vormen van autorisatie
 
-Personen of services buiten Power BI kunnen ook gebruikmaken van alternatieve vormen van autorisatie. Deze alternatieve toestemmingshouders krijgen toegang tot *alle* resources in het account, volledige toegang tot alle resources in de lake en kunnen niet worden beperkt tot bestandssystemen of CDM-mappen. Deze alternatieven lijken mogelijk een eenvoudige manier om toegang te verlenen, maar ze beperken de mogelijkheid om specifieke resources in de data lake te delen en bieden gebruikers geen mogelijkheid te controleren wie toegang tot de opslag heeft verkregen. Volledige details van de beschikbare autorisatieschema's vindt u in het artikel [Toegangsbeheer in Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+Personen of services buiten Power BI kunnen ook gebruikmaken van alternatieve vormen van autorisatie. Deze alternatieve toestemmingshouders krijgen toegang tot *alle* resources in het account, volledige toegang tot alle resources in de lake en kunnen niet worden beperkt tot bestandssystemen of CDM-mappen. Deze alternatieven lijken mogelijk een eenvoudige manier om toegang te verlenen, maar ze beperken de mogelijkheid om specifieke resources in de data lake te delen en bieden gebruikers geen mogelijkheid te controleren wie toegang tot de opslag heeft verkregen. Volledige details van de beschikbare autorisatieschema's vindt u in het artikel [Toegangsbeheer in Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-access-control
 ).
 
 
@@ -88,12 +88,12 @@ Raadpleeg de volgende artikelen voor algemene informatie over gegevensstromen:
 * [Resources voor ontwikkelaars voor Power BI-gegevensstromen](service-dataflows-developer-resources.md)
 
 Raadpleeg de volgende artikelen voor informatie over Azure-opslag:
-* [Azure Storage-beveiligingshandleiding](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure Storage-beveiligingshandleiding](/azure/storage/common/storage-security-guide)
 * [Aan de slag met GitHub-voorbeelden uit Azure Data Services](https://aka.ms/cdmadstutorial)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM-mappen](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Bestandsdefinitie van CDM-model](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)
+* [CDM-mappen](/common-data-model/data-lake)
+* [Bestandsdefinitie van CDM-model](/common-data-model/model-json)
 
 U kunt altijd [vragen stellen in de Power BI-community](https://community.powerbi.com/).

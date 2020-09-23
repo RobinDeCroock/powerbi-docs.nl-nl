@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224859"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858687"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>Verbinding maken met tabellaire Analysis Services-gegevens in Power BI Desktop
 Er zijn twee manieren om met Power BI Desktop verbinding te maken met en gegevens op te halen uit tabellaire SQL Server Analysis Services-modellen: U kunt ze verkennen met behulp van een liveverbinding of items selecteren en importeren in Power BI Desktop.
@@ -81,7 +81,7 @@ Als u ervoor kiest items te selecteren en gegevens op te halen, importeert u tab
 **Antwoord**: Ja. Afhankelijk van de functies die in het tabellaire model worden gebruikt, kan de ervaring in Power BI Desktop veranderen. Voorbeelden zijn:
 * Mogelijk ziet u de metingen in het model samen gegroepeerd bovenaan het deelvenster **Velden**, in plaats van in tabellen naast kolommen. U kunt ze nog steeds als normaal gebruiken. Het is nu eenvoudiger om ze op deze manier te vinden.
 
-* Als in het tabellaire model berekeningsgroepen zijn gedefinieerd, kunt u deze alleen gebruiken in combinatie met modelmetingen en niet met impliciete metingen die u maakt door numerieke velden toe te voegen aan een visual. Op het model was mogelijk ook handmatig de vlag **DiscourageImplicitMeasures** ingesteld. Deze heeft hetzelfde effect. Zie [Berekeningsgroepen in Analysis Services](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits) voor meer informatie.
+* Als in het tabellaire model berekeningsgroepen zijn gedefinieerd, kunt u deze alleen gebruiken in combinatie met modelmetingen en niet met impliciete metingen die u maakt door numerieke velden toe te voegen aan een visual. Op het model was mogelijk ook handmatig de vlag **DiscourageImplicitMeasures** ingesteld. Deze heeft hetzelfde effect. Zie [Berekeningsgroepen in Analysis Services](/analysis-services/tabular-models/calculation-groups#benefits) voor meer informatie.
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>De naam van de server wijzigen na de initiële verbinding
 Het kan voorkomen dat u een Power BI Desktop-bestand met een liveverbinding voor verkenning hebt gemaakt, maar de verbinding later wilt configureren voor een andere server. Stel, u hebt een Power BI Desktop-bestand gemaakt voor een verbinding met een ontwikkelaarsserver en u wilt, voordat u het model publiceert naar de Power BI-service, de server wijzigen in de productieserver.
@@ -97,4 +97,3 @@ De servernaam wijzigen:
 De volgende lijst bevat alle bekende problemen bij het verbinden met SQL Server Analysis Services (SSAS) of Azure Analysis Services: 
 
 * **Fout: Kan het modelschema niet laden**: Deze fout treedt doorgaans op wanneer de gebruiker die verbinding maakt met Analysis Services geen toegang heeft tot de database/model.
-

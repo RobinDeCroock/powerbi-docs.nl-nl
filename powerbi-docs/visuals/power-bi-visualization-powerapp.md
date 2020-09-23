@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233208"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858917"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport
 
@@ -32,8 +32,8 @@ In deze zelfstudie leert u het volgende:
 ## <a name="prerequisites"></a>Vereisten
 
 * [Google Chrome](https://www.google.com/chrome/browser/)- of [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge)-browser
-* Een [Power BI-abonnement](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi) waarin het [voorbeeld van een verkoopkansanalyse](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample) is geïnstalleerd
-* Begrip van hoe u [apps maakt in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch) en hoe u [Power BI-rapporten bewerkt](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* Een [Power BI-abonnement](../fundamentals/service-self-service-signup-for-power-bi.md) waarin het [voorbeeld van een verkoopkansanalyse](../create-reports/sample-opportunity-analysis.md#get-the-content-pack-for-this-sample) is geïnstalleerd
+* Begrip van hoe u [apps maakt in Power Apps](/powerapps/maker/canvas-apps/data-platform-create-app-scratch) en hoe u [Power BI-rapporten bewerkt](../create-reports/service-the-report-editor-take-a-tour.md)
 
 
 
@@ -105,8 +105,8 @@ Het aantal verkoopkansen uit de app komt overeen met het aantal in de linkerbove
 Als u het voorbeeld van een verkoopanalyse niet meer wilt gebruiken, kunt u het dashboard, het rapport en de gegevensset verwijderen.
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
-Zie [Power Apps Visual voor Power BI voor informatie over het oplossen van problemen](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
+Zie [Power Apps Visual voor Power BI voor informatie over het oplossen van problemen](/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Q&A-visual](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
+[Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport](/powerapps/maker/canvas-apps/powerapps-custom-visual)

@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161468"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857284"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Power BI-licenties voor gebruikers in uw organisatie
 
@@ -27,7 +27,7 @@ In dit artikel besteden we aandacht aan de aankoopservice en licenties per gebru
 
 ## <a name="who-can-purchase-and-assign-licenses"></a>Wie kan licenties kopen en toewijzen?
 
-De rol van beheerder moet aan u zijn toegewezen om licenties voor uw organisatie aan te schaffen of toe te wijzen. Beheerdersrollen worden toegewezen met behulp van het Azure Active Directory-beheercentrum of het Microsoft 365-beheercentrum. In de volgende tabel ziet u welke rol is vereist om taken met betrekking tot aanschaffen en licenties uit te voeren. Zie [Beheerdersrollen weergeven en toewijzen in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) voor meer informatie over beheerdersrollen in Azure Active Directory. Zie [Informatie over beheerdersrollen](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) voor meer informatie over beheerdersrollen in Microsoft 365, inclusief best practices.
+De rol van beheerder moet aan u zijn toegewezen om licenties voor uw organisatie aan te schaffen of toe te wijzen. Beheerdersrollen worden toegewezen met behulp van het Azure Active Directory-beheercentrum of het Microsoft 365-beheercentrum. In de volgende tabel ziet u welke rol is vereist om taken met betrekking tot aanschaffen en licenties uit te voeren. Zie [Beheerdersrollen weergeven en toewijzen in Azure Active Directory](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) voor meer informatie over beheerdersrollen in Azure Active Directory. Zie [Informatie over beheerdersrollen](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) voor meer informatie over beheerdersrollen in Microsoft 365, inclusief best practices.
 
 | Wie kan services en licenties aanschaffen? | Wie kan gebruikerslicenties beheren? |
 | --------------- | --------------- |

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221760"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853788"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Power BI-rapporten optimaliseren voor de mobiele app
 Mobiele gebruikers kunnen elke Power BI-rapportpagina weergeven in de stand liggend. Ontwerpers van rapporten kunnen echter een extra weergave maken die is geoptimaliseerd voor mobiele apparaten en wordt weergegeven in de staande stand. Deze ontwerpoptie, die beschikbaar is in zowel Power BI Desktop als in de Power BI-service, stelt auteurs in staat om alleen die visuele elementen te selecteren en opnieuw in te delen die van belang zijn voor mobiele gebruikers.
@@ -120,5 +120,5 @@ Als u slechts enkele pagina's optimaliseert, worden de lezers gewaarschuwd om ov
 ## <a name="next-steps"></a>Volgende stappen
 * [Een telefoonweergave van een dashboard maken in Power BI](service-create-dashboard-mobile-phone-view.md).
 * [Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven](../consumer/mobile/mobile-apps-view-phone-report.md).
-* [Power BI-documentatie over het maken van rapporten en dashboards](https://docs.microsoft.com/power-bi/create-reports/).
+* [Power BI-documentatie over het maken van rapporten en dashboards](./index.yml).
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).
