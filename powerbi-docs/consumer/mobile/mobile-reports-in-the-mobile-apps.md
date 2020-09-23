@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204971"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855950"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -23,7 +23,7 @@ Van toepassing op:
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Een Power BI-rapport is een interactieve weergave van uw gegevens met visuele elementen die verschillende bevindingen en inzichten van die gegevens vertegenwoordigen. Rapporten weergeven in de mobiele Power BI-apps is de derde stap in een proces dat uit drie stappen bestaat:
 
@@ -134,13 +134,13 @@ Bijvoorbeeld:
 
 **Bladwijzers** wordt alleen weergegeven als er [bladwijzers](mobile-reports-in-the-mobile-apps.md#bookmarks) in het rapport zijn ingesteld. Zowel persoonlijke bladwijzers die u in Power BI-service kunt definiëren als bladwijzers die door de maker van het rapport zijn gedefinieerd, worden weergegeven. Als een van de bladwijzers als de standaardbladwijzer is gedefinieerd, wordt het rapport in die weergave geopend wanneer het wordt geladen.
 
-**Aantekeningen maken en delen** is mogelijk uitgeschakeld als er in uw organisatie een [Intune-beveiligingsbeleidsregel](https://docs.microsoft.com/intune/app-protection-policies) is waarmee delen vanuit een mobiele Power BI-app is verboden.
+**Aantekeningen maken en delen** is mogelijk uitgeschakeld als er in uw organisatie een [Intune-beveiligingsbeleidsregel](/intune/app-protection-policies) is waarmee delen vanuit een mobiele Power BI-app is verboden.
 
 **Uitnodigen** is alleen ingeschakeld als u gemachtigd bent om het rapport te delen met anderen. U hebt alleen toestemming als u de eigenaar van het rapport bent of als de eigenaar u de machtiging heeft verleend om het opnieuw te delen.
 
-**Filteren op huidige locatie** is ingeschakeld als de auteur van het rapport het rapport heeft gecategoriseerd met geografische gegevens. Lees meer over het [identificeren van geografische gegevens in een rapport](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering) voor meer informatie.
+**Filteren op huidige locatie** is ingeschakeld als de auteur van het rapport het rapport heeft gecategoriseerd met geografische gegevens. Lees meer over het [identificeren van geografische gegevens in een rapport](../../transform-model/desktop-mobile-geofiltering.md) voor meer informatie.
 
-**Scannen om het rapport te filteren op streepjescode** is alleen ingeschakeld als de gegevensset in het rapport is getagd als **Streepjescode**. Lees meer over het [taggen van streepjescodes in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) voor meer informatie.
+**Scannen om het rapport te filteren op streepjescode** is alleen ingeschakeld als de gegevensset in het rapport is getagd als **Streepjescode**. Lees meer over het [taggen van streepjescodes in Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md) voor meer informatie.
 
 ### <a name="bookmarks"></a>Bladwijzers
 
@@ -154,7 +154,7 @@ Wanneer een bladwijzerweergave van een rapport is geopend, wordt de naam van de 
 
 ![bladwijzerweergave](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
-[Lees meer over bladwijzers in de Power BI-service](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+[Lees meer over bladwijzers in de Power BI-service](../end-user-bookmarks.md).
 
 ## <a name="configure-your-experience-with-reports"></a>Uw ervaring met rapporten configureren
 De mobiele Power BI-app heeft een aantal instellingen waarmee u uw rapportervaring kunt beheren. U kunt momenteel het volgende configureren

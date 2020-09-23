@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
 ms.author: painbar
-ms.openlocfilehash: ee2ce1161f5afbdc39520a0102d3289f00792207
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 553beb5f30625ce416ea778ba6b5fde63526065c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240204"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856457"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Favorieten maken en bekijken in de mobiele Power BI-apps
 Van toepassing op:
@@ -23,7 +23,7 @@ Van toepassing op:
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Meer informatie over het maken en bekijken van uw favoriete Power BI-dashboards, -rapporten en -apps, samen met uw favoriete KPI's en rapporten van on-premises Power BI Report Server en Reporting Services in de mobiele apps.
 
@@ -76,4 +76,3 @@ U kunt uw favoriete Power BI Report Server- en Reporting Server-rapporten en -KP
 ## <a name="next-steps"></a>Volgende stappen
 * [Favoriete dashboards in de Power BI-service](../end-user-favorite.md) 
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

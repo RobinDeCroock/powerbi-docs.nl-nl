@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411952"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855283"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Externe hulpprogramma's in Power BI Desktop gebruiken (preview)
 
@@ -37,13 +37,13 @@ In de volgende secties worden de bewerkingen beschreven die worden ondersteund d
 
 Externe hulpprogramma's kunnen verbinding maken met de Power BI Desktop-gegevensset (Analysis Services-model) om de volgende objecten te bewerken. Het bewerken van een Power BI Desktop-sjabloonbestand (PBIT) wordt niet ondersteund.
 
-* [Metingen](https://docs.microsoft.com/analysis-services/tabular-models/measures-ssas-tabular) voor berekeningen
-* [Berekeningsgroepen](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups) voor hergebruik van berekeningen in complexe modellen
-* [Perspectieven](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular) voor het definiëren van specifieke weergaven van metagegevens van gegevenssets voor specifieke bedrijfsdomeinen
+* [Metingen](/analysis-services/tabular-models/measures-ssas-tabular) voor berekeningen
+* [Berekeningsgroepen](/analysis-services/tabular-models/calculation-groups) voor hergebruik van berekeningen in complexe modellen
+* [Perspectieven](/analysis-services/tabular-models/perspectives-ssas-tabular) voor het definiëren van specifieke weergaven van metagegevens van gegevenssets voor specifieke bedrijfsdomeinen
 
 Het beheren van metagegevensvertalingen met externe hulpprogramma's kan mogelijk zijn, maar wordt momenteel niet ondersteund in deze preview-versie. Als de landinstelling van de huidige gebruiker een vertaalde landinstelling is, werkt het bewerken van objecten in de lijst met velden niet naar behoren met de huidige versie van Power BI Desktop. 
 
-Alle metagegevens van de gegevensset [Objectmodel in tabelvorm](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) zijn alleen toegankelijk voor alleen-lezen, maar objecten die niet worden vermeld in de lijst die wordt beschreven in het artikel [Objectmodel in tabelvorm](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) worden nog niet ondersteund voor bewerking in de Power BI Desktop Analysis Services-instantie.
+Alle metagegevens van de gegevensset [Objectmodel in tabelvorm](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) zijn alleen toegankelijk voor alleen-lezen, maar objecten die niet worden vermeld in de lijst die wordt beschreven in het artikel [Objectmodel in tabelvorm](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) worden nog niet ondersteund voor bewerking in de Power BI Desktop Analysis Services-instantie.
 
 
 ## <a name="featured-external-tools"></a>Aanbevolen externe hulpprogramma's
@@ -147,5 +147,3 @@ Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 
 * [Analyseren gebruiken voor meerdere rapporten in Power BI-rapporten](desktop-cross-report-drill-through.md)
 * [Slicers Power BI Desktop gebruiken](../visuals/power-bi-visualization-slicers.md)
-
-

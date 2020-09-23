@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 5cd0dd3b91109e63e5481e2f5e5516fd9ecd245c
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: cd9295e26de50714a15afb672814893317fb8e3b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385970"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861401"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Een rapport van de Power BI-service downloaden naar Power BI Desktop (preview)
       
@@ -30,7 +30,7 @@ U kunt alleen rapporten downloaden die [zijn gemaakt met een Power BI Desktop-ve
 
 Volg deze stappen om het .pbix-bestand te downloaden:
 
-1. Open in de Power BI-service het rapport dat u wilt downloaden in de [Bewerkweergave](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view).
+1. Open in de Power BI-service het rapport dat u wilt downloaden in de [Bewerkweergave](./service-interact-with-a-report-in-editing-view.md).
 
 2. Selecteer **Bestand > Rapport downloaden** in het bovenste navigatievenster.
    

@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231069"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861493"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Problemen met Power BI gateway (persoonlijke modus) oplossen
 
@@ -31,7 +31,7 @@ Er kunnen zich allerlei problemen voordoen als de gatewayversie verouderd is. He
 ## <a name="installation"></a>Installatie
 **Gateway (persoonlijke modus) werkt in 64 bitsversies:** Als uw computer een 32 bitsversie is, kunt u de gateway (persoonlijke modus) niet installeren. Uw besturingssysteem moet de 64 bitsversie zijn. Installeer een 64 bitsversie van Windows of installeer de gateway (persoonlijke modus) op een 64 bitscomputer.
 
-**Het installeren van de gateway (persoonlijke modus) als een service mislukt, ook al bent u een lokale beheerder voor de computer:** De installatie kan mislukken als de gebruiker zich in de lokale groep Administrators van de computer bevindt, maar het groepsbeleid niet toestaat dat een gebruiker met deze naam zich aanmeldt als een service. Zorg ervoor dat het volgens het groepsbeleid is toegestaan dat een gebruiker zich aanmeldt als een service. Er wordt gewerkt aan een oplossing voor dit probleem. Zie [Het recht om aan te melden als een service toevoegen aan een account](https://technet.microsoft.com/library/cc739424.aspx) voor meer informatie.
+**Het installeren van de gateway (persoonlijke modus) als een service mislukt, ook al bent u een lokale beheerder voor de computer:** De installatie kan mislukken als de gebruiker zich in de lokale groep Administrators van de computer bevindt, maar het groepsbeleid niet toestaat dat een gebruiker met deze naam zich aanmeldt als een service. Zorg ervoor dat het volgens het groepsbeleid is toegestaan dat een gebruiker zich aanmeldt als een service. Er wordt gewerkt aan een oplossing voor dit probleem. Zie [Het recht om aan te melden als een service toevoegen aan een account](/previous-versions/windows/it-pro/windows-server-2003/cc739424(v=ws.10)) voor meer informatie.
 
 **Time-out van bewerking:** Dit bericht wordt vaak weergegeven als de computer (fysieke of virtuele machine) waarop u de gateway (persoonlijke modus) installeert, een processor met één kern heeft. Sluit alle toepassingen af, beëindig alle niet-essentiële processen en voer de installatie vervolgens opnieuw uit.
 

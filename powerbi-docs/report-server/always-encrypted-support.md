@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
-ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710201"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861240"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Always Encrypted bij Power BI Report Server
 
-In dit artikel wordt Always Encrypted-ondersteuning voor Power BI Report Server beschreven bij het gebruik van de gegevensbrontypen Microsoft SQL Server en Microsoft Azure SQL Database. Zie het artikel [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) voor meer informatie over de mogelijkheden van Always Encrypted in SQL Server.
+In dit artikel wordt Always Encrypted-ondersteuning voor Power BI Report Server beschreven bij het gebruik van de gegevensbrontypen Microsoft SQL Server en Microsoft Azure SQL Database. Zie het artikel [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) voor meer informatie over de mogelijkheden van Always Encrypted in SQL Server.
 
 ## <a name="always-encrypted-user-isolation"></a>Always Encrypted-gebruikersisolatie
 
@@ -37,8 +37,8 @@ Op dit moment wordt in Power BI Report Server de toegang tot Always Encrypted-ko
 
 Het account waarvoor toegang tot het certificaat is vereist, is het serviceaccount. Dit certificaat moet zijn opgeslagen in het certificaatarchief op de lokale computer. Raadpleeg voor meer informatie:
 
-- [Het serviceaccount van de rapportserver configureren](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configuration Manager)
-- De sectie [Certificaten beschikbaar maken voor toepassingen en gebruikers](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) in het SQL Server-artikel 'Hoofdsleutels van kolommen voor Always Encrypted maken en opslaan.'
+- [Het serviceaccount van de rapportserver configureren](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configuration Manager)
+- De sectie [Certificaten beschikbaar maken voor toepassingen en gebruikers](/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users) in het SQL Server-artikel 'Hoofdsleutels van kolommen voor Always Encrypted maken en opslaan.'
 
 ### <a name="column-encryption-strategy"></a>Strategie voor kolomversleuteling
 
@@ -51,7 +51,7 @@ In Power BI Report Server kan de kolomversleutelingsstrategie *deterministisch* 
 |Kan worden gebruikt als een aggregatieveld, met uitzondering van COUNT en DISTINCT. | Nee, behalve voor COUNT en DISTINCT | Nee |
 |Kan worden gebruikt als rapportparameter | Ja | Nee |
 
-Lees meer over [deterministische versus willekeurige versleuteling](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
+Lees meer over [deterministische versus willekeurige versleuteling](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption).
 
 ### <a name="parameter-usage"></a>Parametergebruik
 
@@ -73,7 +73,7 @@ Het gebruik van parameters is alleen van toepassing op deterministische versleut
 | --- | --- | --- | --- | --- | --- |
 | int | Ja | Ja | COUNT, DISTINCT | Ja, als geheel getal |   |
 | float | Ja | Ja | COUNT, DISTINCT | Ja, als drijvend getal |   |
-| nvarchar | Ja | Ja | COUNT, DISTINCT | Ja, als tekst | Deterministische versleuteling moet een kolomsortering gebruiken met een binary2-sorteervolgorde voor tekenkolommen. Zie het SQL Server-artikel [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) voor meer informatie.  |
+| nvarchar | Ja | Ja | COUNT, DISTINCT | Ja, als tekst | Deterministische versleuteling moet een kolomsortering gebruiken met een binary2-sorteervolgorde voor tekenkolommen. Zie het SQL Server-artikel [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) voor meer informatie.  |
 | varchar | Ja | Ja | COUNT, DISTINCT | Nee |   |
 | decimal | Ja | Ja | COUNT, DISTINCT | Nee |   |
 | numeriek | Ja | Ja | COUNT, DISTINCT | Nee |   |
@@ -86,11 +86,10 @@ Momenteel zijn de enige ondersteunde aggregaties voor deterministische Always En
 
 ## <a name="always-encrypted-in-connection-strings"></a>Always Encrypted in verbindingsreeksen
 
-U moet Always Encrypted in de verbindingsreeks inschakelen voor een SQL Server-gegevensbron. Meer informatie over het inschakelen van [Always Encrypted in toepassingsquery's](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries).
+U moet Always Encrypted in de verbindingsreeks inschakelen voor een SQL Server-gegevensbron. Meer informatie over het inschakelen van [Always Encrypted in toepassingsquery's](/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries).
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) in SQL Server en Azure SQL Database
+[Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) in SQL Server en Azure SQL Database
 
 Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
-

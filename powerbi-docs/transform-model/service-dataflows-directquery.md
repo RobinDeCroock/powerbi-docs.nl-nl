@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 76c42c52ba877b3e6477a2baee11aef4a531161c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937373"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861562"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>DirectQuery gebruiken met gegevensstromen in Power BI (preview)
 
@@ -70,7 +70,7 @@ De volgende artikelen zijn nuttig voor aanvullende informatie en scenario's bij 
 * [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)
 * [Meer informatie over het Common Data Model-schema en entiteiten op GitHub](https://github.com/Microsoft/CDM) (Engelstalig)
 
 Gerelateerde artikelen over Power BI Desktop:

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2c12a2eb919dcef3b9decde9a15f799d78dc18e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 492b41192f3ab423ff8dacf73aac9ff49b9d15d9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220466"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856226"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>Meldingen ontvangen in de Power BI - Mobiel-apps
 Van toepassing op:
@@ -23,7 +23,7 @@ Van toepassing op:
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Via Meldingen ontvangt u informatie met betrekking tot uw Power BI-ervaring rechtstreeks in de Power BI-service of op uw mobiele apparaat. Wanneer u Meldingen opent, ziet u een sequentiële feed met berichten over [waarschuwingen die u hebt ingesteld](mobile-set-data-alerts-in-the-mobile-apps.md), nieuwe dashboards die met u zijn gedeeld, wijzigingen in uw groepsruimte, informatie over Power BI-gebeurtenissen en -vergaderingen en meer.
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227712"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855076"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics-app
 
@@ -342,10 +342,9 @@ Als u scenario twee wilt diagnosticeren, moet u eerst bepalen of de beperking he
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Wat is Power BI Premium?](service-premium-what-is.md)
-* [Releaseopmerkingen bij Power BI Premium](../service-premium-release-notes.md)
 * [Technisch document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 * [Een technisch document over een Power BI-implementatie voor de onderneming plannen](https://aka.ms/pbienterprisedeploy)
-* [De verlengde Pro-proefversie activeren](../service-extended-pro-trial.md)
+* [De verlengde Pro-proefversie activeren](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Veelgestelde vragen over Power BI Embedded](../developer/embedded/embedded-faq.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

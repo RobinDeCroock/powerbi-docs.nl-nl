@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f80c683e3e9134bff8d3c24d4f64d43da405aa36
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: d4b23039d8516375e98233254c92b2f7bbeb648d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83307446"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861608"
 ---
 # <a name="dataflows-best-practice"></a>Aanbevolen procedure voor gegevensstromen
 
@@ -74,9 +74,9 @@ Dit artikel biedt informatie over aanbevolen procedures voor gegevensstromen. De
 * [Gegevensstromen gebruiken met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
 
 Voor informatie over CDM-ontwikkeling en zelfstudiebronnen, raadpleegt u:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM-mappen](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Bestandsdefinitie van CDM-model](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)
+* [CDM-mappen](/common-data-model/data-lake)
+* [Bestandsdefinitie van CDM-model](/common-data-model/model-json)
 
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:

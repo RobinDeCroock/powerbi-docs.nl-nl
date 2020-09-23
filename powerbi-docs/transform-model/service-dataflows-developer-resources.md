@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2987d17510d8bbe5681c78df7d86d839c45b5ef9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3fea12fcc9d87c796f3da7bb0df040211db90f70
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240052"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861539"
 ---
 # <a name="developer-resources-for-power-bi-dataflows"></a>Resources voor ontwikkelaars voor Power BI-gegevensstromen
 
@@ -28,7 +28,7 @@ De volgende resources voor ontwikkelaars zijn beschikbaar voor Power BI-gegevens
 
 | Resource voor gegevensstroom | Description |
 | --- | --- |
-| [REST API-verwijzing voor Power BI-gegevensstroom](https://go.microsoft.com/fwlink/?linkid=2047629)    | Een volledige verwijzingshandleiding voor de gegevensstroom REST API.|
+| [REST API-verwijzing voor Power BI-gegevensstroom](/rest/api/power-bi/dataflows)    | Een volledige verwijzingshandleiding voor de gegevensstroom REST API.|
 
 
 ## <a name="next-steps"></a>Volgende stappen
@@ -41,9 +41,9 @@ Dit artikel biedt informatie over resources voor ontwikkelaars voor gegevensstro
 * [Gegevensstromen gebruiken met on-premises gegevensbronnen](service-dataflows-on-premises-gateways.md)
 
 Voor informatie over CDM-ontwikkeling en zelfstudiebronnen, raadpleegt u:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM-mappen](https://go.microsoft.com/fwlink/?linkid=2045304)
-* [Bestandsdefinitie van CDM-model](https://go.microsoft.com/fwlink/?linkid=2045521)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)
+* [CDM-mappen](/common-data-model/data-lake)
+* [Bestandsdefinitie van CDM-model](/common-data-model/model-json)
 
 
 U kunt de volgende artikelen lezen voor meer informatie over Power Query en geplande vernieuwing:

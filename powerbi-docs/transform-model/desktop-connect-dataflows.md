@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 193463978e3c4d80980a15e154dbeef05aa1a2a0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238907"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861079"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Verbinding maken met gegevens die zijn gemaakt met Power Platform-gegevensstromen in Power BI Desktop
 In **Power BI Desktop** kunt u verbinding maken met gegevens die zijn gemaakt door **Power Platform-gegevensstromen**, zoals met elke andere gegevensbron in Power BI Desktop.
@@ -47,7 +47,7 @@ De meeste gegevensstromen bevinden zich in de Power BI-service-tenant. Gebruiker
 
     ![Fout bij openen van gegevensstroom](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-Om dit probleem op te lossen, moeten aan Ben leesmachtigingen voor de CDM-map en de bijbehorende bestanden worden verleend. Meer informatie over het verlenen van toegang tot de CDM-map vindt u in [dit artikel](https://go.microsoft.com/fwlink/?linkid=2029121).
+Om dit probleem op te lossen, moeten aan Ben leesmachtigingen voor de CDM-map en de bijbehorende bestanden worden verleend. Meer informatie over het verlenen van toegang tot de CDM-map vindt u in [dit artikel](./service-dataflows-azure-data-lake-integration.md).
 
 
 
@@ -72,4 +72,4 @@ Er zijn ook artikelen over **Power BI Desktop** die u misschien nuttig vindt:
 
 * [Data Sources in Power BI Desktop](../connect-data/desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Shape and Combine Data with Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
-* [Enter data directly into Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)   
+* [Enter data directly into Power BI Desktop](../connect-data/desktop-enter-data-directly-into-desktop.md) (Rechtstreeks gegevens in Power BI Desktop invoeren)

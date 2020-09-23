@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9a6db74384a9fa47d13eb36b0e64cb926600a191
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84b3fafa3ae5e12a96b4e1117ee74baf94dba597
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219669"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861424"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Inleiding tot dashboardtegels voor Power BI-ontwerpers
 
@@ -42,7 +42,7 @@ Er zijn veel verschillende manieren om een tegel toe te voegen (vastmaken) aan e
 * [Een ander dashboard](service-pin-tile-to-another-dashboard.md)
 * [Excel-werkmap in OneDrive voor Bedrijven](service-dashboard-pin-tile-from-excel.md)
 * [Quick Insights (Snelle inzichten)](service-insights.md)
-* [Een gepagineerd on-premises rapport in Power BI Report Server of in SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+* [Een gepagineerd on-premises rapport in Power BI Report Server of in SQL Server Reporting Services](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 U kunt zelfstandige tegels voor afbeeldingen, tekstvakken, video's, streaminggegevens en webinhoud rechtstreeks op het dashboard maken met behulp van het besturingselement [Tegel toevoegen](service-dashboard-add-widget.md).
 

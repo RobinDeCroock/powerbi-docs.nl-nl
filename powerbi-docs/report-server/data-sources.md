@@ -8,17 +8,17 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 08294e1320e603131beb0ca332b0f85ee51ea8bb
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937557"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861194"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
 Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van de manier waarop de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services. Sommige gegevensbronnen zijn beschikbaar in Power BI Desktop en geoptimaliseerd voor Power BI Report Server, maar worden niet ondersteund wanneer ze worden gepubliceerd in Power BI Report Server.
 
-Deze gegevensbronnen zijn specifiek voor Power BI-rapporten die in Power BI Report Server worden gebruikt. Zie [Data Sources Supported by Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) (Gegevensbronnen die worden ondersteund door Reporting Services) voor meer informatie over gegevensbronnen die worden ondersteund met gepagineerde rapporten (.rdl).
+Deze gegevensbronnen zijn specifiek voor Power BI-rapporten die in Power BI Report Server worden gebruikt. Zie [Data Sources Supported by Reporting Services](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) (Gegevensbronnen die worden ondersteund door Reporting Services) voor meer informatie over gegevensbronnen die worden ondersteund met gepagineerde rapporten (.rdl).
 
 > [!IMPORTANT]
 > Alle gegevensbronnen in een Power BI Desktop-rapport moeten het configureren van een geplande vernieuwing ondersteunen.

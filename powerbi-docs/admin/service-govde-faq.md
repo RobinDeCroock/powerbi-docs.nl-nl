@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d1ecee28e1364e3d5d0356bc2f23f2f865ce1c4
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 5fcffd39e9a341478657b63770201ad722b8c291
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008532"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855122"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Veelgestelde vragen over Power BI voor Duitse Cloud-klanten
 Er is een versie van de **Power BI-service** beschikbaar voor de EU-/EFTA-klanten (Europese Unie/Europese Vrijhandelsovereenkomst), ook vaak Microsoft Cloud Deutschland (MCD) genoemd. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek voor EU-/EFTA-klanten en staat los en verschilt van de commerciële versie van de **Power BI-service** of Power BI-services die aan overheidsklanten worden geleverd.
@@ -75,6 +75,6 @@ De volgende vragen en antwoorden bieden belangrijke informatie voor Power BI Pro
 ## <a name="next-steps"></a>Volgende stappen
 Er zijn veel verschillende dingen die u met Power BI kunt doen. Bekijk de volgende resources voor meer informatie en trainingen, inclusief een artikel waarin wordt uitgelegd hoe zich voor de service kunt aanmelden:
 
-* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [Microsoft Learn for Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [Aan de slag met de Power BI-service](../fundamentals/service-get-started.md)
 * [Wat is Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)

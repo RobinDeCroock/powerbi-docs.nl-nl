@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557274"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861309"
 ---
 # <a name="create-key-influencers-visualizations"></a>Visualisaties Belangrijkste beïnvloeders gebruiken
 
@@ -241,7 +241,7 @@ In topsegmenten voor numerieke doelen worden groepen weergegeven waarin de huize
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Een metrische waarde analyseren die een meting of een samenvatte kolom is
 
-In het geval van een meting of een samengevatte kolom wordt de analyse standaard ingesteld op het **Type doorlopende analyse** dat [hierboven](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric) wordt beschreven. Dit kan niet worden gewijzigd. Het grootste verschil tussen het analyseren van een meting/samengevatte kolom en een niet-samengevatte, numerieke kolom is het niveau waarop de analyse wordt uitgevoerd.
+In het geval van een meting of een samengevatte kolom wordt de analyse standaard ingesteld op het **Type doorlopende analyse** dat [hierboven](#analyze-a-metric-that-is-numeric) wordt beschreven. Dit kan niet worden gewijzigd. Het grootste verschil tussen het analyseren van een meting/samengevatte kolom en een niet-samengevatte, numerieke kolom is het niveau waarop de analyse wordt uitgevoerd.
 
 In het geval van niet-samengevatte kolommen, wordt de analyse altijd uitgevoerd op tabelniveau. In het bovenstaande voorbeeld van de woningprijs hebben we de metrische waarde **Woningprijs** geanalyseerd om te zien wat invloed heeft op prijsverhogingen/-verlagingen van een woningprijs. De analyse wordt automatisch uitgevoerd op tabelniveau. Onze tabel heeft een unieke id voor elk huis, zodat de analyse op huisniveau wordt uitgevoerd.
 
@@ -255,7 +255,7 @@ Metingen en samengevatte kolommen worden automatisch geanalyseerd op het niveau 
 
 Deze analyse is zeer beknopt en het is dus moeilijk voor het regressiemodel om patronen te vinden in de gegevens waaruit het kan leren. We moeten de analyse uitvoeren op een gedetailleerder niveau om betere resultaten te krijgen. Als we de woningprijs op huisniveau willen analyseren, moeten we het veld **Id** expliciet aan de analyse toevoegen. Maar we willen niet dat het huis-id als beïnvloeder beschouwd. Het is niet nuttig om te weten dat met de toename van het huis-id de prijs van een huis toeneemt. Hier komt de veldoptie **Uitbreiden met** goed van pas. U kunt **Uitbreiden met** gebruiken om velden toe te voegen die u wilt gebruiken voor het instellen van het niveau van de analyse zonder dat u op zoek bent naar nieuwe beïnvloeders.
 
-Bekijk hoe de visual eruit ziet als u de **id** hebt toegevoegd aan **Uitbreiden met.** Wanneer u het niveau hebt gedefinieerd waarop de meting moet worden geëvalueerd, is het interpreteren van de beïnvloeders precies hetzelfde als voor [niet-samengevatte, numerieke kolommen.](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)
+Bekijk hoe de visual eruit ziet als u de **id** hebt toegevoegd aan **Uitbreiden met.** Wanneer u het niveau hebt gedefinieerd waarop de meting moet worden geëvalueerd, is het interpreteren van de beïnvloeders precies hetzelfde als voor [niet-samengevatte, numerieke kolommen.](#analyze-a-metric-that-is-numeric)
 
 ![Tabel met metingen](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

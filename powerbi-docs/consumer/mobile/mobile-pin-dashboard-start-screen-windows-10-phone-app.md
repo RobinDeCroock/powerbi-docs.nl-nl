@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/25/2020
 ms.author: painbar
-ms.openlocfilehash: f72117dfab77893dd48be7e939c07a1a8c2bea90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f8f9ed1a9f2ba0e1f3c41eded45f32b8ef220f00
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219845"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855812"
 ---
 # <a name="pin-a-dashboard-to-your-windows-10-start-screen-from-the-power-bi-mobile-app"></a>Een dashboard vastmaken aan het Windows 10-startscherm vanuit de mobiele Power BI-app
 U kunt Power BI-dashboards vastmaken aan het Windows-startscherm vanuit de mobiele Power BI-app voor Windows 10. Wanneer u op de tegel in het startscherm tikt, wordt het dashboard geopend in de mobiele Power BI-app voor Windows 10.
@@ -20,7 +20,7 @@ U kunt Power BI-dashboards vastmaken aan het Windows-startscherm vanuit de mobie
 ![Windows-tegel](./media/mobile-pin-dashboard-start-screen-windows-10-phone-app/power-bi-windows-10-pin-start-screen.png)
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="pin-a-dashboard-to-your-start-screen-as-a-tile"></a>Een dashboard aan uw startscherm vastmaken als tegel
 1. Open een dashboard.

@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.date: 09/15/2020
+ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220855"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855554"
 ---
-# <a name="deployment-pipelines-best-practices-preview"></a>Aanbevolen procedures voor implementatiepijplijnen (preview)
+# <a name="deployment-pipelines-best-practices"></a>Best practices voor implementatiepijplijnen
 
 Dit artikel bevat richtlijnen voor BI-makers die hun inhoud gedurende de hele levenscyclus beheren. Het richt zich op het gebruik van implementatiepijplijnen als beheerprogramma voor levenscycli van BI-inhoud.
 
@@ -79,7 +79,7 @@ Een productiedatabase moet altijd stabiel en beschikbaar zijn. U kunt deze datab
 
 ### <a name="use-parameters-in-your-model"></a>Parameters gebruiken in uw model
 
-U kunt gegevensbronnen van gegevenssets niet bewerken in de Power BI-service. We raden u daarom aan om [parameters](https://docs.microsoft.com/power-query/power-query-query-parameters) te gebruiken om verbindingsgegevens, zoals namen van exemplaren en databases, op te slaan, in plaats van een statische verbindingsreeks te gebruiken. Op deze manier kunt u de verbindingen in een later stadium beheren via de webportal van de Power BI-service, of [met behulp van API’s](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup).
+U kunt gegevensbronnen van gegevenssets niet bewerken in de Power BI-service. We raden u daarom aan om [parameters](/power-query/power-query-query-parameters) te gebruiken om verbindingsgegevens, zoals namen van exemplaren en databases, op te slaan, in plaats van een statische verbindingsreeks te gebruiken. Op deze manier kunt u de verbindingen in een later stadium beheren via de webportal van de Power BI-service, of [met behulp van API’s](/rest/api/power-bi/datasets/updateparametersingroup).
 
 In de implementatiepijplijnen kunt u parameterregels configureren om specifieke waarden in te stellen voor de ontwikkelings-, test- en productiefasen.
 

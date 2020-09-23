@@ -8,15 +8,15 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 06/26/2020
 ms.author: maggies
-ms.openlocfilehash: 531c0ab2bb797e1ad5aaa4d974e51963f7c3e2ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: fcf0a286487922fcfc217b4d293aa731ad1564a6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485387"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861217"
 ---
 # <a name="paginated-report-data-sources--in-power-bi-report-server"></a>Gegevensbronnen voor gepagineerde rapporten in Power BI Report Server
-Gepagineerde rapporten van Reporting Services in Power BI Report Server ondersteunen dezelfde gegevensbronnen die worden ondersteund in SQL Server Reporting Services. Zie de lijst met [gegevensbronnen die worden ondersteund door Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Gepagineerde rapporten van Reporting Services in Power BI Report Server ondersteunen dezelfde gegevensbronnen die worden ondersteund in SQL Server Reporting Services. Zie de lijst met [gegevensbronnen die worden ondersteund door Reporting Services](/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 ## <a name="connect-to-oracle-data-sources-with-useinstalleduiculture"></a>Verbinding maken met Oracle-gegevensbronnen met behulp van UseInstalledUICulture
 

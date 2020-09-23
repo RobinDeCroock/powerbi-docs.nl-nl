@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 773533fee8fc4fada0cc33d9a6d2188118135797
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73859781"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861171"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Overzicht van het ontwikkelaarshandboek voor Power BI Report Server
 
@@ -29,15 +29,15 @@ U kunt elk rapport in Power BI Report Server insluiten in een iFrame door de par
 
 ### <a name="report-viewer-control"></a>Besturingselement van de rapportviewer
 
-Voor gepagineerde rapporten kunt u profiteren van het besturingselement van de rapportviewer. Hiermee kunt u het besturingselement binnen een .NET Windows- of webtoepassing plaatsen. Zie [Get started with the Report Viewer Control](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) (Aan de slag met het besturingselement van de rapportviewer) voor meer informatie.
+Voor gepagineerde rapporten kunt u profiteren van het besturingselement van de rapportviewer. Hiermee kunt u het besturingselement binnen een .NET Windows- of webtoepassing plaatsen. Zie [Get started with the Report Viewer Control](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) (Aan de slag met het besturingselement van de rapportviewer) voor meer informatie.
 
 ## <a name="apis"></a>API's
 
 U hebt verschillende API-opties voor interactie met Power BI Report Server. Deze techniek omvat het volgende.
 
 * [REST-API's](rest-api.md)
-* [URL-toegang](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
-* [WMI-provider](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+* [URL-toegang](/sql/reporting-services/url-access-ssrs)
+* [WMI-provider](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 U kunt ook de [open source-hulpprogramma’s van PowerShell](https://github.com/Microsoft/ReportingServicesTools) gebruiken om de rapportserver te beheren.
 
@@ -55,14 +55,14 @@ U kunt verschillende typen extensies bouwen.
 * Extensies voor het weergeven van gepagineerde rapporten
 * Extensies voor beveiliging
 
-Zie [Extension library](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library) (Extensiebibliotheek) voor meer informatie.
+Zie [Extension library](/sql/reporting-services/extensions/reporting-services-extension-library) (Extensiebibliotheek) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Get started with the Report Viewer Control](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) (Aan de slag met het besturingselement van de rapportviewer)  
-[Building Applications Using the Web Service and the .NET Framework](https://docs.microsoft.com/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework) (Toepassingen bouwen met behulp van de webservice en .NET Framework)  
-[URL-toegang](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)  
-[Extensiebibliotheek](https://docs.microsoft.com/sql/reporting-services/extensions/reporting-services-extension-library)  
-[WMI-provider](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
+[Get started with the Report Viewer Control](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started) (Aan de slag met het besturingselement van de rapportviewer)  
+[Building Applications Using the Web Service and the .NET Framework](/sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework) (Toepassingen bouwen met behulp van de webservice en .NET Framework)  
+[URL-toegang](/sql/reporting-services/url-access-ssrs)  
+[Extensiebibliotheek](/sql/reporting-services/extensions/reporting-services-extension-library)  
+[WMI-provider](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
 Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

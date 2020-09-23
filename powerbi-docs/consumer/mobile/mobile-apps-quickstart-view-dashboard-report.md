@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: e3b0fba18250853eec7eef85b5cfc9161290bacb
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84685289"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856146"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Snelstart: dashboards en rapporten verkennen in de mobiele Power BI-apps
 In deze quickstart volgt u een korte rondleiding door de mobiele Power BI-app en maakt u kennis met een voorbeelddashboard en -rapport. De Power BI-app for iOS wordt weergegeven, maar u kunt gemakkelijk op een ander apparaat meedoen.
@@ -25,7 +25,7 @@ Van toepassing op:
 | iPhone | iPad | Android | Windows 10 |
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Een dashboard is een verzamelplek voor de levenscyclus en processen van uw bedrijf. Het is een overzicht, één plaats waarop u de huidige status van het bedrijf in de gaten kunt houden. Rapporten zijn interactieve weergaven van uw gegevens met visuals die verschillende bevindingen en inzichten van die gegevens aangeven. 
 
@@ -112,4 +112,3 @@ In deze quickstart hebt u kennisgemaakt met een voorbeelddashboard en -rapport o
 
 > [!div class="nextstepaction"]
 > [Quickstart: navigeren in de Power BI-service](../end-user-experience.md)
-

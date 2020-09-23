@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 7a08b41f7307881a75573cadbeca984840300032
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264883"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856180"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -87,7 +87,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
 ## <a name="tiles-in-the-windows-10-mobile-app"></a>Tegels in de mobiele app voor Windows 10
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 1. Open een [dashboard in de mobiele Power BI-app](mobile-apps-view-dashboard.md) voor Windows 10.
 2. Tik op de drie verticale puntjes op de tegel. Hier kunt u het volgende doen: 

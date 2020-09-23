@@ -9,12 +9,12 @@ ms.date: 03/11/2020
 ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: a0d65cb61d671f5779fa8281ad8be3153211a4a6
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5f581a9b08afc8d9d8c3a36ed765c5d211d7876b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347258"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856410"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Wat zijn de mobiele Power BI-apps?
 Power BI biedt een set mobiele apps voor iOS-, Android- en Windows 10 Mobile-apparaten. In de mobiele apps kunt u verbinding maken met en interactief werken met uw gegevens in de cloud en on-premises. 
@@ -38,7 +38,7 @@ U maakt rapporten in Power BI Desktop. U maakt dashboards en bekijkt dashboards 
 | [![Windows-apparaten](./media/mobile-apps-for-mobile-devices/win-10-logo-50-px.png)](../../fundamentals/desktop-getting-started.md) |De mobiele Power BI-app voor Windows 10 werkt op elk Windows 10-apparaat, waaronder Windows 10-telefoons. In combinatie met veel functies van de overige mobiele apps biedt de mobiele Power BI-app voor Windows 10 speciale functionaliteit. Met de mobiele Power BI-app kunt u bijvoorbeeld [een Power BI-dashboard vastmaken aan het startscherm in Windows 10](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). Bovendien kunt u [Power BI in presentatiemodus uitvoeren op Surface Hub](mobile-windows-10-app-presentation-mode.md) en in de mobiele Power BI-app voor Windows 10. <br/>Aan de slag met de [mobiele Power BI-app voor Windows 10-apparaten](mobile-windows-10-phone-app-get-started.md). |||
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="enterprise-support-for-the-power-bi-mobile-apps"></a>Ondersteuning voor ondernemingen voor de mobiele Power BI-apps
 Organisaties kunnen Microsoft Intune gebruiken voor het beheer van apparaten en toepassingen, waaronder de mobiele Power BI-apps voor Android en iOS.

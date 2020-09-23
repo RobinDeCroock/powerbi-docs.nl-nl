@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 9ced88289b2170d503a8394d5b83175659178e85
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239574"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861378"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Subrapporten in gepagineerde Power BI-rapporten
 
@@ -74,7 +74,7 @@ Nu u beide rapporten hebt opgeslagen in dezelfde Premium-werkruimte, kunt u het 
   
  U kunt een subrapport in de hoofdtekst van het rapport of in een gegevensgebied plaatsen. Als u een subrapport in een gegevensgebied plaatst, wordt het subrapport herhaald met elk exemplaar van de groep of rij in het gegevensgebied. U kunt een waarde van de groep of rij doorgeven aan het subrapport. Gebruik in de eigenschapswaarde van het subrapport een veldexpressie voor het veld met de waarde die u wilt doorgeven aan de subrapportparameter.  
   
- Zie [Een subrapport en parameters toevoegen](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs) in de SQL Server Reporting Services-documentatie voor meer informatie over het werken met parameters en subrapporten.  
+ Zie [Een subrapport en parameters toevoegen](/sql/reporting-services/report-design/add-a-subreport-and-parameters-report-builder-and-ssrs) in de SQL Server Reporting Services-documentatie voor meer informatie over het werken met parameters en subrapporten.  
 
 ## <a name="preview-paginated-reports-in-report-builder"></a>Voorbeeldweergave van gepagineerde rapporten in Report Builder
 

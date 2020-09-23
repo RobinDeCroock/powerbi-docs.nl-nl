@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 9ebc5857248b2d8c764262e2f27559c1960e1884
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: ba582003008e1355156b189b5753f4e4c0a8353c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263313"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861470"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Aan de slag met de mobiele Power BI-app voor Windows 10
 Met de mobiele app van Power BI voor Windows 10 wordt uw tablet of telefoon voorzien van Power BI. U beschikt over de nieuwste, mobiele toegang via aanraking tot uw bedrijfsgegevens. U kunt uw bedrijfsdashboards vanaf elke locatie en rechtstreeks op uw [Windows-startscherm](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) bekijken en gebruiken.
@@ -30,7 +30,7 @@ U gebruikt deze dashboards en rapporten vervolgens, verkent de gegevens en deelt
   Uw apparaat moet voorzien zijn van Windows 10. De app kan worden uitgevoerd op apparaten met ten minste 3 GB RAM en 8 GB interne opslag.
 
   >[!NOTE]
-  >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+  >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
    
 * Ontdek [wat er nieuw is in de mobiele Power BI-apps](mobile-whats-new-in-the-mobile-apps.md).
 

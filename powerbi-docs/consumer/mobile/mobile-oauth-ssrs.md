@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.openlocfilehash: 1e45e3292499d0eb827b6b03c63ab839a520da97
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f9d54df0369b28eafc08a0e4f84599aac66c299e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220259"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856088"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>OAuth gebruiken om verbinding te maken met Power BI Report Server en SSRS
 
@@ -72,7 +72,7 @@ Zie [Een Reporting Services-configuratiebestand wijzigen](/sql/reporting-service
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Configuratie van ADFS (Active Directory Federation Services)
 
-ADFS moet op een Windows 2016-server binnen uw omgeving worden geconfigureerd. De configuratie kan via Serverbeheer worden gedaan door onder Beheren Functies en onderdelen toevoegen te selecteren. Zie [Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services) voor meer informatie.
+ADFS moet op een Windows 2016-server binnen uw omgeving worden geconfigureerd. De configuratie kan via Serverbeheer worden gedaan door onder Beheren Functies en onderdelen toevoegen te selecteren. Zie [Active Directory Federation Services](/windows-server/identity/active-directory-federation-services) voor meer informatie.
 
 ### <a name="create-an-application-group"></a>Een toepassingsgroep maken
 
@@ -136,7 +136,7 @@ Wanneer dit is voltooid, zouden de eigenschappen van uw toepassingsgroep er als 
 
 ## <a name="web-application-proxy-wap-configuration"></a>Configuratie van WAP (webtoepassingsproxy)
 
-Schakel de Windows-rol webtoepassingsproxy in op een server in uw omgeving. Dit moet op een Windows 2016-server gebeuren. Zie voor meer informatie [Webtoepassingsproxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) en [Toepassingen publiceren met behulp van AD FS-verificatie](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
+Schakel de Windows-rol webtoepassingsproxy in op een server in uw omgeving. Dit moet op een Windows 2016-server gebeuren. Zie voor meer informatie [Webtoepassingsproxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) en [Toepassingen publiceren met behulp van AD FS-verificatie](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
 
 ### <a name="constrained-delegation-configuration"></a>Configuratie van beperkte delegatie
 
@@ -228,7 +228,7 @@ Nadat u **Aanmelden** hebt geselecteerd, ziet u de onderdelen van uw Reporting S
 
 ## <a name="multi-factor-authentication"></a>Meervoudige verificatie
 
-U kunt meervoudige verificatie inschakelen om extra beveiliging voor uw omgeving mogelijk te maken. Zie [AD FS 2016 en Azure MFA configureren](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa) voor meer informatie.
+U kunt meervoudige verificatie inschakelen om extra beveiliging voor uw omgeving mogelijk te maken. Zie [AD FS 2016 en Azure MFA configureren](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa) voor meer informatie.
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
@@ -245,8 +245,8 @@ Als de aanmelding lukt wanneer u Fiddler gebruikt, is er mogelijk een certificaa
 [Een Service Principal Name (SPN) voor een rapportserver registreren](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)  
 [Een Reporting Services-configuratiebestand wijzigen](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)  
 [Windows-verificatie op een rapportserver configureren](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)  
-[Active Directory Federation Services](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services)  
-[Webtoepassingsproxy in Windows Server 2016](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server)  
-[Toepassingen publiceren met behulp van AD FS-verificatie](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
-[AD FS 2016 en Azure MFA configureren](https://technet.microsoft.com/windows-server-docs/identity/ad-fs/operations/configure-ad-fs-2016-and-azure-mfa)  
+[Active Directory Federation Services](/windows-server/identity/active-directory-federation-services)  
+[Webtoepassingsproxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server)  
+[Toepassingen publiceren met behulp van AD FS-verificatie](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app)  
+[AD FS 2016 en Azure MFA configureren](/windows-server/identity/ad-fs/operations/configure-ad-fs-and-azure-mfa)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

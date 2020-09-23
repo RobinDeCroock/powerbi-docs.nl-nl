@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
-ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
+ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89474795"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855099"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -27,7 +27,7 @@ Voordat u een abonnement op Power BI voor de Amerikaanse overheid krijgt en lice
 
 ### <a name="enroll-in-a-microsoft-365-government-plan"></a>Inschrijven voor een Microsoft 365 Government-abonnement
 
-Als u een nieuwe klant bent, moet u de geschiktheid van uw organisatie valideren voordat u zich kunt aanmelden voor een Microsoft 365 Government-abonnement.  Begin door het [geschiktheidsformulier voor Microsoft 365 voor Government](https://www.microsoft.com/microsoft-365/government/eligibility-validation) in te vullen om te kijken of u wel in aanmerking komt. Raadpleeg de [Microsoft 365 US Government Service-beschrijvingen](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) om er zeker van te zijn dat u het juiste abonnement voor uw organisatie selecteert.
+Als u een nieuwe klant bent, moet u de geschiktheid van uw organisatie valideren voordat u zich kunt aanmelden voor een Microsoft 365 Government-abonnement.  Begin door het [geschiktheidsformulier voor Microsoft 365 voor Government](https://www.microsoft.com/microsoft-365/government/eligibility-validation) in te vullen om te kijken of u wel in aanmerking komt. Raadpleeg de [Microsoft 365 US Government Service-beschrijvingen](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) om er zeker van te zijn dat u het juiste abonnement voor uw organisatie selecteert.
 
 > [!NOTE]
 > Als u Power BI al hebt geïmplementeerd in een commerciële omgeving en wilt migreren naar de cloud van de Amerikaanse overheid, moet u een nieuw Power BI Pro-abonnement toevoegen aan uw Microsoft 365 Government-abonnement. Repliceer vervolgens de commerciële gegevens naar de Power BI-service voor de Amerikaanse overheid, verwijder commerciële licentietoewijzingen van gebruikersaccounts en wijs vervolgens een Power BI Pro Government-licentie toe aan de gebruikersaccounts.
@@ -45,11 +45,11 @@ Nadat u Microsoft 365 hebt geïmplementeerd, kunt u een Power BI Pro-abonnement 
 
 Microsoft 365 biedt verschillende omgevingen voor overheidsinstanties om te voldoen aan verschillende nalevingsvereisten. Raadpleeg voor meer informatie over elke omgeving:
 
-* [Microsoft 365 Government Community Cloud (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) is ontworpen voor federale, staats- en lokale overheden.
+* [Microsoft 365 Government Community Cloud (GCC)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) is ontworpen voor federale, staats- en lokale overheden.
 
-* [Microsoft 365 GCC High (Government Community High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is ontworpen voor federale agentschappen, de defensie-industrie, luchtvaart en andere organisaties die niet-geclassificeerde informatie hebben. Deze omgeving is geschikt voor nationale beveiligingsorganisaties en bedrijven met internationaal verkeer in ITAR-gegevens (International Traffic in Arms Regulations) of ingrijpende DFARS-vereisten (Defense Federal Acquisition Regulations Supplement).
+* [Microsoft 365 GCC High (Government Community High)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is ontworpen voor federale agentschappen, de defensie-industrie, luchtvaart en andere organisaties die niet-geclassificeerde informatie hebben. Deze omgeving is geschikt voor nationale beveiligingsorganisaties en bedrijven met internationaal verkeer in ITAR-gegevens (International Traffic in Arms Regulations) of ingrijpende DFARS-vereisten (Defense Federal Acquisition Regulations Supplement).
 
-* De [Microsoft 365 DoD-omgeving](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is uitsluitend ontworpen voor het Amerikaanse ministerie van defensie.
+* De [Microsoft 365 DoD-omgeving](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is uitsluitend ontworpen voor het Amerikaanse ministerie van defensie.
 
 ## <a name="connect-to-power-bi-for-us-government"></a>Verbinding maken met Power BI voor de Amerikaanse overheid
 
@@ -72,7 +72,7 @@ Azure wordt gedistribueerd over meerdere clouds. Standaard kunt u firewallregels
 
 In de openbare cloud zijn de IP-ruimten beschikbaar. Als u de IP-adresbereiken voor de cloud van de Amerikaanse overheids wilt ophalen, downloadt u het bestand [Azure IP-bereiken en servicetags – Cloud van de Amerikaanse overheid](https://www.microsoft.com/download/details.aspx?id=57063).
 
-Raadpleeg [IP-firewallregels maken en beheren](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) als u firewalls wilt instellen voor SQL-databases.
+Raadpleeg [IP-firewallregels maken en beheren](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) als u firewalls wilt instellen voor SQL-databases.
 
 ## <a name="power-bi-feature-availability"></a>Beschikbaarheid van Power BI-functies
 
@@ -83,7 +83,7 @@ De volgende tabel bevat functies die niet beschikbaar zijn in een bepaalde overh
 |Functie |GCC |GCC High |DoD|
 |------|------|------|------|
 |[Azure B2B Collaboration tussen overheidscloud en commerciële cloud](service-admin-azure-ad-b2b.md)<sup>1</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
-|[Insluiten in SharePoint online met het webonderdeel Power BI](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![Beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
+|[Insluiten in SharePoint online met het webonderdeel Power BI](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![Beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen](../connect-data/power-bi-data-sources.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Metrische gegevens van capaciteit](../admin/service-admin-premium-monitor-portal.md)|K3 2020 |K3 2020|K3 2020|
@@ -96,7 +96,7 @@ De volgende tabel bevat functies die niet beschikbaar zijn in een bepaalde overh
 |[Aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
 |[Genereren van QR-code](../create-reports/service-create-qr-code-for-tile.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 
-<sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government en Global Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B Collaboration voor de Amerikaanse overheid
+<sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government en Global Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B Collaboration voor de Amerikaanse overheid
 
 <sup>2</sup> De Power BI-ervaring in Teams voor GCC is beperkt, werkt alleen voor klassieke werkruimten en bevat niet de uitgebreide functionaliteit die wordt beschreven in [Power BI-inhoud insluiten in Microsoft Teams](../collaborate-share/service-embed-report-microsoft-teams.md).
 
@@ -105,6 +105,6 @@ De volgende tabel bevat functies die niet beschikbaar zijn in een bepaalde overh
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Registreren voor Power BI voor de Amerikaanse overheid](service-govus-signup.md)
-* [Microsoft Power Apps US Government](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
-* [Power Automate voor de Amerikaanse overheid](https://docs.microsoft.com/power-automate/us-govt)
+* [Microsoft Power Apps US Government](/power-platform/admin/powerapps-us-government)
+* [Power Automate voor de Amerikaanse overheid](/power-automate/us-govt)
 * [Demo van Power BI voor de Amerikaanse overheid](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/09/2019
 ms.author: painbar
-ms.openlocfilehash: b719dc72d9137ac1c3ffc3eee4669ad6bd61fc9f
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 3b7f578040a49438ccca89fd9112a3ca5079a20a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034239"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856019"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Gegevens offline weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -23,7 +23,7 @@ Van toepassing op:
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
 
 >[!NOTE]
->Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](https://go.microsoft.com/fwlink/?linkid=2121400)
+>Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Een voordeel van het weergeven van Power BI in een mobiele app in plaats van een mobiele browser is dat u uw gegevens zelfs kunt zien wanneer u niet met een netwerk bent verbonden. 
 

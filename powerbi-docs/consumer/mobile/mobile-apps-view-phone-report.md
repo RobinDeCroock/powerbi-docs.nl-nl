@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220282"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856135"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Voor uw telefoon geoptimaliseerde Power BI-rapporten weergeven
 
@@ -115,7 +115,7 @@ Er zijn een paar verschillende doorklikmogelijkheden:
 
 ## <a name="drill-through-from-a-value"></a>Inzoomen op basis van een waarde
 Zoom op een rapportpagina via verbonden waarden in op andere rapportpagina’s. Als u vanaf een andere rapportpagina op een gegevenspunt inzoomt, worden de waarden van het gegevenspunt gebruikt om op de ingezoomde pagina te filteren of zullen deze waarden worden weergegeven in de context van de geselecteerde gegevens.
-Ontwerpers van rapporten kunnen [inzoomen definiëren](https://docs.microsoft.com/power-bi/desktop-drillthrough) wanneer ze het rapport maken.
+Ontwerpers van rapporten kunnen [inzoomen definiëren](../../create-reports/desktop-drillthrough.md) wanneer ze het rapport maken.
 
 1. Tik lang op een gegevenspunt (tik en houd het item ingedrukt) in een visual.
 2. Er wordt knopinfo weergegeven en als er een doorklikmogelijkheid is gedefinieerd, toont de voettekst van de knopinfo een pijl voor detailweergave.

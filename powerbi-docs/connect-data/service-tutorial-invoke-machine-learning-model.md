@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cb41d7d9d1e85957ebf02ce2742d3e32670d0cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281709"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861010"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)
 
@@ -31,11 +31,11 @@ In deze zelfstudie worden de volgende acties uitgelegd:
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Een Azure ML-model maken en publiceren
 
-Volg de instructies bij [stap 1 van de zelfstudie: Een Machine Learning Studio-werkruimte (klassiek) maken](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) om een **Machine Learning**-werkruimte te maken.
+Volg de instructies bij [stap 1 van de zelfstudie: Een Machine Learning Studio-werkruimte (klassiek) maken](/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) om een **Machine Learning**-werkruimte te maken.
 
-U kunt deze stappen toepassen op al uw huidige Azure ML-modellen of -gegevenssets. Als u nog geen gepubliceerd model hebt, kunt u er binnen enkele minuten een maken met behulp van de instructies in [Create your first data science experiment in Azure Machine Learning Studio (classic)](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment) (Uw eerste gegevenswetenschappelijke experiment maken in Azure Machine Learning Studio (klassiek)). U maakt dan een Azure ML-model voor een prijsvoorspelling voor auto's.
+U kunt deze stappen toepassen op al uw huidige Azure ML-modellen of -gegevenssets. Als u nog geen gepubliceerd model hebt, kunt u er binnen enkele minuten een maken met behulp van de instructies in [Create your first data science experiment in Azure Machine Learning Studio (classic)](/azure/machine-learning/studio/create-experiment) (Uw eerste gegevenswetenschappelijke experiment maken in Azure Machine Learning Studio (klassiek)). U maakt dan een Azure ML-model voor een prijsvoorspelling voor auto's.
 
-Volg de stappen in [Deploy an Azure Machine Learning Studio (classic) web service](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy) (Een Azure Machine Learning Studio-webservice (klassiek) implementeren) om het Azure ML-model als webservice te implementeren.
+Volg de stappen in [Deploy an Azure Machine Learning Studio (classic) web service](/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy) (Een Azure Machine Learning Studio-webservice (klassiek) implementeren) om het Azure ML-model als webservice te implementeren.
 
 ## <a name="grant-a-power-bi-user-access"></a>Een Power BI-gebruiker toegang verlenen
 

@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 05/14/2020
-ms.openlocfilehash: 03197d7d6b976615f13d9f482c1ba4d4c1ae2abd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90061cec87bae4b65d347617dacc2863052a07ce
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239457"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861148"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>De rapportserver configureren om Excel-werkmappen te hosten met Office Online Server (OOS)
 
-Naast het bekijken van Power BI-rapporten in de webportal, kan Power BI Report Server Excel-werkmappen hosten met behulp van [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server-overview) (OOS). Uw rapportserver wordt één locatie voor het publiceren en bekijken van selfservice-inhoud van Microsoft BI.
+Naast het bekijken van Power BI-rapporten in de webportal, kan Power BI Report Server Excel-werkmappen hosten met behulp van [Office Online Server](/officeonlineserver/office-online-server-overview) (OOS). Uw rapportserver wordt één locatie voor het publiceren en bekijken van selfservice-inhoud van Microsoft BI.
 
 ![Excel-rapporten weergegeven via de webportal van de rapportserver](media/excel-oos/excel-in-pbirs.png)
 
@@ -187,6 +187,6 @@ Nadat u de detectie-URL hebt ingevoerd en **Toepassen** hebt geselecteerd, moet 
 [Administratoroverzicht](admin-handbook-overview.md)  
 [Power BI Report Server installeren](install-report-server.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

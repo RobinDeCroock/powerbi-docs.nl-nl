@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fd0f9db041fb4862831630249e847c63572263b0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2ac06bb288077a15a7227e2eb439762bc182e1a8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240259"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861654"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Gegevensstromen maken en gebruiken in Power BI
 
@@ -77,7 +77,7 @@ Als u de code wilt weergeven die bij elke stap in Query-Editor wordt gemaakt, of
 
 Gegevensstroomentiteiten bevatten nieuwe hulpmiddelen waarmee u uw zakelijke gegevens eenvoudig kunt toewijzen aan het Common Data Model (het gestandaardiseerde schema van Microsoft), het model kunt verrijken met gegevens van Microsoft en derden en zo op een vereenvoudigde manier toegang kunt krijgen tot machine learning. Deze nieuwe mogelijkheden kunnen worden gebruikt om intelligente en toepasbare inzichten te bieden van uw zakelijke gegevens. Nadat u eventuele transformaties hebt voltooid in de stap Query's bewerken, kunt u kolommen uit de gegevensbrontabellen toewijzen aan velden van standaardentiteiten zoals gedefinieerd door het Common Data Model. Standaardentiteiten hebben een bekend schema dat is gedefinieerd door het Common Data Model.
 
-Meer informatie over deze benadering en over het Common Data Model vindt u in het artikel [Wat is het Common Data Model?](https://docs.microsoft.com/powerapps/common-data-model/overview)
+Meer informatie over deze benadering en over het Common Data Model vindt u in het artikel [Wat is het Common Data Model?](/powerapps/common-data-model/overview)
 
 Als u het Common Data Model wilt gebruiken met uw gegevensstroom, klikt u op de transformatie **Toewijzen aan standaardentiteit** in het dialoogvenster **Query's bewerken**. In het scherm **Entiteiten toewijzen** dat verschijnt, kunt u de standaardentiteit selecteren waaraan u wilt toewijzen.
 
@@ -175,7 +175,7 @@ In dit artikel wordt beschreven hoe u uw eigen **gegevensstroom** kunt maken, ev
 * [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:
-* [Overzicht van Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Overzicht van Common Data Model](/powerapps/common-data-model/overview)
 * [Meer informatie over het Common Data Model-schema en entiteiten op GitHub](https://github.com/Microsoft/CDM) (Engelstalig)
 
 Gerelateerde artikelen over Power BI Desktop:

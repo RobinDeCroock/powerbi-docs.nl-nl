@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4c19965def178d4260527032820c4109c4fe235f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281571"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861033"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Zelfstudie: Cognitive Services gebruiken in Power BI
 
-Power BI biedt toegang tot een set functies van Azure Cognitive Services om uw gegevens op te maken tijdens de selfservice voor gegevensvoorbereiding voor gegevensstromen. De services die momenteel worden ondersteund zijn [Sentimentanalyse](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [Sleuteltermextractie](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [Taaldetectie](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) en [Afbeeldingen taggen](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images). De transformaties worden uitgevoerd in de Power BI-service en daarvoor is geen Azure Cognitive Services-abonnement nodig. Deze functie vereist Power BI Premium.
+Power BI biedt toegang tot een set functies van Azure Cognitive Services om uw gegevens op te maken tijdens de selfservice voor gegevensvoorbereiding voor gegevensstromen. De services die momenteel worden ondersteund zijn [Sentimentanalyse](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [Sleuteltermextractie](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [Taaldetectie](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) en [Afbeeldingen taggen](/azure/cognitive-services/computer-vision/concept-tagging-images). De transformaties worden uitgevoerd in de Power BI-service en daarvoor is geen Azure Cognitive Services-abonnement nodig. Deze functie vereist Power BI Premium.
 
 Cognitive Services-transformaties worden ondersteund in de [Selfservice voor gegevensvoorbereiding voor gegevensstromen](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/). Gebruik de onderstaande stapsgewijze voorbeelden voor tekstanalyses en afbeeldingen taggen om aan de slag te gaan.
 
@@ -174,7 +174,7 @@ Als de query niet meer nodig is, verwijdert u deze door met de rechtermuisknop t
 
 In deze zelfstudie hebt u sentimentbeoordeling en functies om afbeeldingen te taggen toegepast in een Power BI-gegevensstroom. Voor meer informatie over Cognitive Services in Power BI leest u de volgende artikelen.
 
-* [Cognitive Services in Azure](https://docs.microsoft.com/azure/cognitive-services/)
+* [Cognitive Services in Azure](/azure/cognitive-services/)
 * Aan de slag [met selfservice gegevensvoorbereiding op gegevensstromen](../transform-model/service-dataflows-overview.md)
 * Meer informatie over [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/)
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8372a588c57ef3c0cbe910165c5293993e98897c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227422"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854961"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
 
@@ -26,7 +26,7 @@ Power BI Premium-werkruimten en -gegevenssets op compatibiliteitsniveau 1500 en 
 
 ## <a name="whats-an-xmla-endpoint"></a>Wat is een XMLA-eindpunt?
 
-Power BI Premium maakt gebruik van het XMLA-protocol ([XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current)) voor communicatie tussen clienttoepassingen en de engine waarmee uw Power BI-werkruimten en -gegevenssets wordt beheerd. Deze communicatie verloopt via wat vaak wordt aangeduid als XMLA-eindpunten. XMLA is hetzelfde communicatieprotocol dat wordt gebruikt door de Microsoft Analysis Services-engine, waarmee achter de schermen de semantische modellering, governance, levensduur en het gegevensbeheer van Power BI wordt uitgevoerd.
+Power BI Premium maakt gebruik van het XMLA-protocol ([XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current)) voor communicatie tussen clienttoepassingen en de engine waarmee uw Power BI-werkruimten en -gegevenssets wordt beheerd. Deze communicatie verloopt via wat vaak wordt aangeduid als XMLA-eindpunten. XMLA is hetzelfde communicatieprotocol dat wordt gebruikt door de Microsoft Analysis Services-engine, waarmee achter de schermen de semantische modellering, governance, levensduur en het gegevensbeheer van Power BI wordt uitgevoerd.
 
 Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de **workload van gegevenssets** in een capaciteit. Met alleen-lezen bewerkingen kunnen toepassingen en hulpprogramma's voor gegevensvisualisatie query's uitvoeren op modelgegevens, metagegevens, gebeurtenissen en schema's van gegevenssets. *Lees- en schrijf*bewerkingen met het eindpunt kunnen worden geconfigureerd door aanvullende opties voor beheer, governance, geavanceerde semantische modellering, foutopsporing en controle van gegevenssets op te geven. Als lezen/schrijven is ingeschakeld, hebben Power BI Premium-gegevenssets meer pariteit met hulpprogramma's en processen voor modellering van tabellen op ondernemingsniveau van Azure Analysis Services en SQL Server Analysis Services.
 
@@ -37,17 +37,17 @@ Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de
 
 Dit zijn enkele van de meestvoorkomende hulpprogramma's die worden gebruikt met Azure Analysis Services en SQL Server Analysis Services, en nu worden ondersteund door Power BI Premium-gegevenssets:
 
-**Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT**, is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.6 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](https://docs.microsoft.com/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (Hulpprogramma's voor Analysis Services) voor meer informatie.
+**Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT**, is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.6 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (Hulpprogramma's voor Analysis Services) voor meer informatie.
 
-**SQL Server Management Studio (SSMS)**  : ondersteunt DAX-, MDX- en XMLA-query's. Voer specifieke vernieuwingsbewerkingen en scripts voor metagegevens van gegevenssets uit met behulp van de [Tabular Model Scripting Language](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL, tabellaire modelscripttaal). Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor het uitvoeren van scripts voor metagegevens is lezen-schrijven vereist. SSMS-versie 18.4 of hoger is vereist. Klik  [hier](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) om SSMS te downloaden.
+**SQL Server Management Studio (SSMS)**  : ondersteunt DAX-, MDX- en XMLA-query's. Voer specifieke vernieuwingsbewerkingen en scripts voor metagegevens van gegevenssets uit met behulp van de [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL, tabellaire modelscripttaal). Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor het uitvoeren van scripts voor metagegevens is lezen-schrijven vereist. SSMS-versie 18.4 of hoger is vereist. Klik  [hier](/sql/ssms/download-sql-server-management-studio-ssms) om SSMS te downloaden.
 
-**SQL Server Profiler** : dit hulpprogramma, dat samen met SSMS wordt geïnstalleerd, voorziet in het bijhouden en opsporen van fouten in gegevenssetgebeurtenissen. Hoewel Profiler officieel is afgeschaft voor SQL Server, wordt het nog steeds opgenomen in SSMS en ondersteund voor Analysis Services en Power BI Premium. XMLA alleen-lezen is vereist. Zie  [SQL Server Profiler voor Analysis Services](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current) (Engelstalig) voor meer informatie.
+**SQL Server Profiler** : dit hulpprogramma, dat samen met SSMS wordt geïnstalleerd, voorziet in het bijhouden en opsporen van fouten in gegevenssetgebeurtenissen. Hoewel Profiler officieel is afgeschaft voor SQL Server, wordt het nog steeds opgenomen in SSMS en ondersteund voor Analysis Services en Power BI Premium. XMLA alleen-lezen is vereist. Zie  [SQL Server Profiler voor Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current) (Engelstalig) voor meer informatie.
 
-**Implementatiewizard van Analysis Services** : dit hulpprogramma, dat wordt geïnstalleerd met SSMS, voorziet in de implementatie van in Visual Studio geschreven projecten met tabellaire modellen in Analysis Services- en Power BI Premium-werkruimten. Het kan interactief worden uitgevoerd of automatisch via de opdrachtregel. XMLA lezen/schrijven is vereist. Zie de [implementatiewizard van Analysis Services](https://docs.microsoft.com/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current) (Engelstalig) voor meer informatie.
+**Implementatiewizard van Analysis Services** : dit hulpprogramma, dat wordt geïnstalleerd met SSMS, voorziet in de implementatie van in Visual Studio geschreven projecten met tabellaire modellen in Analysis Services- en Power BI Premium-werkruimten. Het kan interactief worden uitgevoerd of automatisch via de opdrachtregel. XMLA lezen/schrijven is vereist. Zie de [implementatiewizard van Analysis Services](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current) (Engelstalig) voor meer informatie.
 
-**PowerShell-cmdlets** : Analysis Services-cmdlets kunnen worden gebruikt voor het automatiseren van beheertaken voor gegevenssets, zoals vernieuwingsbewerkingen. XMLA lezen/schrijven is vereist. Versie **21.1.18221** of hoger van de [PowerShell-module SqlServer](https://www.powershellgallery.com/packages/SqlServer/) is vereist. Azure Analysis Services-cmdlets in de module Az.AnalysisServices worden niet ondersteund voor Power BI Premium. Zie [Analysis Services PowerShell Reference](https://docs.microsoft.com/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current) (naslaginformatie over PowerShell voor Analysis Services) voor meer informatie.
+**PowerShell-cmdlets** : Analysis Services-cmdlets kunnen worden gebruikt voor het automatiseren van beheertaken voor gegevenssets, zoals vernieuwingsbewerkingen. XMLA lezen/schrijven is vereist. Versie **21.1.18221** of hoger van de [PowerShell-module SqlServer](https://www.powershellgallery.com/packages/SqlServer/) is vereist. Azure Analysis Services-cmdlets in de module Az.AnalysisServices worden niet ondersteund voor Power BI Premium. Zie [Analysis Services PowerShell Reference](/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current) (naslaginformatie over PowerShell voor Analysis Services) voor meer informatie.
 
-**Power BI Report Builder** : een hulpprogramma voor het maken van gepagineerde rapporten. Maak een rapportdefinitie die aangeeft welke gegevens er moeten worden opgehaald, waar deze moeten worden opgehaald en hoe deze moeten worden weergegeven. U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service. XMLA alleen-lezen is vereist. Zie  [Power BI Report Builder](https://docs.microsoft.com/power-bi/report-builder-power-bi) voor meer informatie.
+**Power BI Report Builder** : een hulpprogramma voor het maken van gepagineerde rapporten. Maak een rapportdefinitie die aangeeft welke gegevens er moeten worden opgehaald, waar deze moeten worden opgehaald en hoe deze moeten worden weergegeven. U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service. XMLA alleen-lezen is vereist. Zie  [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md) voor meer informatie.
 
 **Tabular Editor**: een opensource-hulpprogramma voor het maken, onderhouden en beheren van tabellaire modellen met behulp van een eenvoudige intuïtieve editor. In een hiërarchische weergave worden alle objecten in het tabellaire model weergegeven. Objecten zijn onderverdeeld in weergavemappen met ondersteuning voor meervoudige selectie en bewerking van eigenschappen en markering van DAX-syntaxis. Voor het uitvoeren van querybewerkingen is XMLA alleen-lezen vereist. Voor metagegevensbewerkingen is lezen/schrijven vereist. Zie [tabulareditor.github.io](https://tabulareditor.github.io/) voor meer informatie.
 
@@ -61,17 +61,17 @@ Dit zijn enkele van de meestvoorkomende hulpprogramma's die worden gebruikt met 
 
 ### <a name="client-libraries"></a>Clientbibliotheken
 
-Clienttoepassingen communiceren niet rechtstreeks met het XMLA-eindpunt. In plaats daarvan worden *clientbibliotheken* gebruikt als abstractielaag. Dit zijn dezelfde clientbibliotheken die door toepassingen worden gebruikt om verbinding te maken met Azure Analysis Services en SQL Server Analysis Services. Met Microsoft-toepassingen zoals Excel, SQL Server Management Studio (SSMS) en de extensies van Analysis Services-projecten voor Visual Studio worden alle drie clientbibliotheken geïnstalleerd en worden ze samen met de reguliere toepassings- en extensie-updates bijgewerkt. Ontwikkelaars kunnen de clientbibliotheken ook gebruiken om aangepaste toepassingen te bouwen. In sommige gevallen, met name bij toepassingen en hulpprogramma's van derden, moet u mogelijk nieuwere versies van de clientbibliotheken installeren als deze niet samen met de toepassing worden geïnstalleerd. Clientbibliotheken worden maandelijks bijgewerkt. Zie  [Clientbibliotheken om verbinding te maken met Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) voor meer informatie.
+Clienttoepassingen communiceren niet rechtstreeks met het XMLA-eindpunt. In plaats daarvan worden *clientbibliotheken* gebruikt als abstractielaag. Dit zijn dezelfde clientbibliotheken die door toepassingen worden gebruikt om verbinding te maken met Azure Analysis Services en SQL Server Analysis Services. Met Microsoft-toepassingen zoals Excel, SQL Server Management Studio (SSMS) en de extensies van Analysis Services-projecten voor Visual Studio worden alle drie clientbibliotheken geïnstalleerd en worden ze samen met de reguliere toepassings- en extensie-updates bijgewerkt. Ontwikkelaars kunnen de clientbibliotheken ook gebruiken om aangepaste toepassingen te bouwen. In sommige gevallen, met name bij toepassingen en hulpprogramma's van derden, moet u mogelijk nieuwere versies van de clientbibliotheken installeren als deze niet samen met de toepassing worden geïnstalleerd. Clientbibliotheken worden maandelijks bijgewerkt. Zie  [Clientbibliotheken om verbinding te maken met Analysis Services](/azure/analysis-services/analysis-services-data-providers) voor meer informatie.
 
 ## <a name="supported-write-operations"></a>Ondersteunde schrijfbewerkingen
 
 Metagegevens van de gegevensset worden weergegeven via de clientbibliotheken op basis van het tabellaire objectmodel (TOM) voor ontwikkelaars om aangepaste toepassingen te bouwen. Hierdoor kunnen Visual Studio en hulpprogramma van de opensource-community, zoals Tabular Editor, aanvullende gegevensmodellerings- en implementatiemogelijkheden bieden die worden ondersteund door de Analysis Services-engine, maar nog niet in Power BI Desktop. De aanvullende functionaliteit voor gegevensmodellering omvat onder meer:
 
-- [Berekeningsgroepen](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current) voor hergebruik van berekeningen en vereenvoudigd verbruik van complexe modellen.
+- [Berekeningsgroepen](/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current) voor hergebruik van berekeningen en vereenvoudigd verbruik van complexe modellen.
 
-- [Vertalingen van metagegevens](https://docs.microsoft.com/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current) voor het ondersteunen van rapporten en gegevenssets in meerdere talen.
+- [Vertalingen van metagegevens](/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current) voor het ondersteunen van rapporten en gegevenssets in meerdere talen.
 
-- [Perspectieven](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current) voor het definiëren van specifieke weergaven van metagegevens van gegevenssets voor specifieke bedrijfsdomeinen.
+- [Perspectieven](/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current) voor het definiëren van specifieke weergaven van metagegevens van gegevenssets voor specifieke bedrijfsdomeinen.
 
 Beveiliging op objectniveau (OLS) wordt nog niet ondersteund in Power BI Premium-gegevenssets.
 
@@ -149,7 +149,7 @@ Bij toegang via het XMLA-eindpunt wordt het ingestelde lidmaatschap van de bevei
 
 Werkruimte-inzenders en hoger hebben schrijftoegang tot de gegevensset en zijn daarom gelijk aan Analysis Services-databasebeheerders. Ze kunnen nieuwe gegevenssets implementeren vanuit Visual Studio en TMSL-scripts uitvoeren in SSMS.
 
-Bewerkingen waarvoor machtigingen als Analysis Services-serverbeheerder (in plaats van databasebeheerder) nodig zijn, zoals traceringen op serverniveau en gebruikersimitatie met behulp van de eigenschap [EffectiveUserName](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) van de verbindingsreeks worden op dit moment niet ondersteund in Power BI Premium.
+Bewerkingen waarvoor machtigingen als Analysis Services-serverbeheerder (in plaats van databasebeheerder) nodig zijn, zoals traceringen op serverniveau en gebruikersimitatie met behulp van de eigenschap [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) van de verbindingsreeks worden op dit moment niet ondersteund in Power BI Premium.
 
 Andere gebruikers met de [samenstellingsmachtiging](../connect-data/service-datasets-build-permissions.md) voor een gegevensset, zijn gelijk aan Analysis Services-databaselezers. Zij kunnen verbinding maken met en bladeren in gegevenssets voor gegevensverbruik en -visualisatie. Regels voor beveiliging op rijniveau (RLS) worden nageleefd en de metagegevens van de interne gegevensset worden niet weergeven.
 
@@ -210,17 +210,17 @@ Wanneer de verbinding is gemaakt, wordt de werkruimte weergegeven als een Analys
 
 ![SSMS](media/service-premium-connect-tools/xmla-endpoint-ssms.png)
 
-Zie [Create Analysis Services scripts](https://docs.microsoft.com/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current) en [Tabular Model Scripting Language (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) voor meer informatie over het uitvoeren van scripts voor metagegevens met behulp van SSMS.
+Zie [Create Analysis Services scripts](/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current) en [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) voor meer informatie over het uitvoeren van scripts voor metagegevens met behulp van SSMS.
 
 ## <a name="dataset-refresh"></a>Gegevensset vernieuwen
 
-Het XMLA-eindpunt biedt uitgebreide mogelijkheden voor vernieuwing met SSMS, automatisering met PowerShell, [Azure Automation](https://docs.microsoft.com/azure/automation/automation-intro) en [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview) met TOM. U kunt bijvoorbeeld bepaalde historische partities met [incrementele vernieuwing](service-premium-incremental-refresh.md) vernieuwen zonder alle historische gegevens opnieuw te hoeven laden.
+Het XMLA-eindpunt biedt uitgebreide mogelijkheden voor vernieuwing met SSMS, automatisering met PowerShell, [Azure Automation](/azure/automation/automation-intro) en [Azure Functions](/azure/azure-functions/functions-overview) met TOM. U kunt bijvoorbeeld bepaalde historische partities met [incrementele vernieuwing](service-premium-incremental-refresh.md) vernieuwen zonder alle historische gegevens opnieuw te hoeven laden.
 
 In tegenstelling tot het configureren van vernieuwingen in de Power BI-service, is het aantal vernieuwingen via het XMLA-eindpunt niet beperkt tot 48 vernieuwingen per dag en wordt de [time-out voor geplande vernieuwingen](../connect-data/refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout) niet opgelegd.
 
 ## <a name="dynamic-management-views-dmv"></a>Dynamische beheerweergaven (DMV's)
 
-Analysis Services-[DMV's](https://docs.microsoft.com/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) bieden inzicht in de metagegevens, de herkomst en het resourcegebruik van gegevenssets. DMV's die beschikbaar zijn voor het uitvoeren van query's in Power BI via het XMLA-eind punt, zijn beperkt tot, ten hoogste, die waarvoor databasebeheerdersmachtigingen vereist zijn. Sommige DMV's zijn bijvoorbeeld niet toegankelijk omdat daarvoor beheerdersmachtigingen voor de Analysis Services-server nodig zijn.
+Analysis Services-[DMV's](/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) bieden inzicht in de metagegevens, de herkomst en het resourcegebruik van gegevenssets. DMV's die beschikbaar zijn voor het uitvoeren van query's in Power BI via het XMLA-eind punt, zijn beperkt tot, ten hoogste, die waarvoor databasebeheerdersmachtigingen vereist zijn. Sommige DMV's zijn bijvoorbeeld niet toegankelijk omdat daarvoor beheerdersmachtigingen voor de Analysis Services-server nodig zijn.
 
 ## <a name="power-bi-desktop-authored-datasets"></a>In Power BI Desktop gemaakte gegevenssets
 
@@ -233,7 +233,7 @@ Voor XMLA-schrijfbewerkingen op gegevenssets die zijn gemaakt in Power BI Deskto
 
 ### <a name="data-source-declaration"></a>Gegevensbrondeclaratie
 
-Wanneer u verbinding maakt met gegevensbronnen en query's op gegevens uitvoert, maakt Power BI Desktop gebruik van Power Query M-expressies als inline gegevensbrondeclaraties. Inline Power Query M-gegevensbrondeclaratie wordt wel ondersteund in Power BI Premium-werkruimten, maar niet in Azure Analysis Services of SQL Server Analysis Services. In plaats daarvan worden metagegevens in Analysis Services-hulpprogramma's voor gegevensmodellering gemaakt met behulp van *gestructureerde* en/of *provider*-gegevensbrondeclaraties. Met het XML-eindpunt in Power BI Premium worden ook gestructureerde en provider-gegevensbronnen ondersteund, maar niet als onderdeel van inline Power Query M-gegevensbrondeclaraties in Power BI Desktop-modellen. Zie [Inzicht in providers](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource#understanding-providers) voor meer informatie.
+Wanneer u verbinding maakt met gegevensbronnen en query's op gegevens uitvoert, maakt Power BI Desktop gebruik van Power Query M-expressies als inline gegevensbrondeclaraties. Inline Power Query M-gegevensbrondeclaratie wordt wel ondersteund in Power BI Premium-werkruimten, maar niet in Azure Analysis Services of SQL Server Analysis Services. In plaats daarvan worden metagegevens in Analysis Services-hulpprogramma's voor gegevensmodellering gemaakt met behulp van *gestructureerde* en/of *provider*-gegevensbrondeclaraties. Met het XML-eindpunt in Power BI Premium worden ook gestructureerde en provider-gegevensbronnen ondersteund, maar niet als onderdeel van inline Power Query M-gegevensbrondeclaraties in Power BI Desktop-modellen. Zie [Inzicht in providers](/azure/analysis-services/analysis-services-datasource#understanding-providers) voor meer informatie.
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>Power BI Desktop in de LiveConnect-modus
 
@@ -269,7 +269,3 @@ Zie  [Power BI controleren](service-admin-auditing.md) voor meer informatie.
 ## <a name="see-also"></a>Zie ook
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-
-
-
-

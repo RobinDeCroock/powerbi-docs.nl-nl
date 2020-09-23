@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 172bc4cb677ffb4df5719e3c77f12ad10160c247
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213810"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861263"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Beheeroverzicht voor Power BI Report Server
 Dit artikel bevat het beheeroverzicht voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren. In dit artikel maakt u kennis met concepten van planning, implementatie en beheer van uw Power BI Report Server, met koppelingen naar meer informatie.
@@ -38,17 +38,16 @@ Er is geen in-place upgrade voor SQL Server Reporting Services. Als u over een b
 ## <a name="configuring-your-report-server"></a>Uw rapportserver configureren
 Er zijn veel opties beschikbaar om uw rapportserver te configureren. Wilt u SSL gebruiken? Configureert u een e-mailserver? Wilt u een integratie met de Power BI-service om u visualisaties vast te maken?
 
-Het merendeel van uw configuratie wordt uitgevoerd binnen Report Server Configuration Manager. Bekijk de documentatie over [configuratiebeheer](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) voor meer informatie.
+Het merendeel van uw configuratie wordt uitgevoerd binnen Report Server Configuration Manager. Bekijk de documentatie over [configuratiebeheer](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) voor meer informatie.
 
 ## <a name="security"></a>Beveiliging
-Beveiliging en bescherming zijn belangrijk voor elke organisatie. Meer informatie over verificatie, autorisatie, rollen en machtigingen vindt u in de [beveiligings](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)documentatie.
+Beveiliging en bescherming zijn belangrijk voor elke organisatie. Meer informatie over verificatie, autorisatie, rollen en machtigingen vindt u in de [beveiligings](/sql/reporting-services/security/reporting-services-security-and-protection)documentatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI Report Server installeren](install-report-server.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
 [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
-[SQL Server Data Tools (SSDT) downloaden](https://go.microsoft.com/fwlink/?LinkID=616714)
+[SQL Server Data Tools (SSDT) downloaden](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

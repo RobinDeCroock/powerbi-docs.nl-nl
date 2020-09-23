@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18d94702cad6f770aaf078f1d692c96d48ce50ac
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229038"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855398"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Aangepaste kolommen toevoegen in Power BI Desktop
 
-In Power BI Desktop kunt u eenvoudig een nieuwe aangepaste kolom met gegevens aan uw model toevoegen door Queryeditor te gebruiken. Met Queryeditor maakt u de aangepaste kolom en wijzigt u de naam van deze kolom voor het maken van [PowerQuery M-formulequery's](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language) om uw aangepaste kolom te definiëren. PowerQuery M-formulequery's beschikken over een [uitgebreide naslag met functiebeschrijvingen](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference). 
+In Power BI Desktop kunt u eenvoudig een nieuwe aangepaste kolom met gegevens aan uw model toevoegen door Queryeditor te gebruiken. Met Queryeditor maakt u de aangepaste kolom en wijzigt u de naam van deze kolom voor het maken van [PowerQuery M-formulequery's](/powerquery-m/quick-tour-of-the-power-query-m-formula-language) om uw aangepaste kolom te definiëren. PowerQuery M-formulequery's beschikken over een [uitgebreide naslag met functiebeschrijvingen](/powerquery-m/power-query-m-function-reference). 
 
 Wanneer u een aangepaste kolom maakt in Queryeditor, wordt deze door Power BI Desktop toegevoegd als een **toegepaste stap** in de **queryinstellingen** van de query. Deze kan op elk gewenst moment worden gewijzigd, verplaatst of aangepast.
 
@@ -49,7 +49,7 @@ Het venster **Aangepaste kolom toevoegen** bevat de volgende items:
 
 - De oorspronkelijke naam van de aangepaste kolom in het vak **Nieuwe kolomnaam**. U kunt de naam van deze kolom wijzigen.
 
-- [PowerQuery M-formulequery's](https://docs.microsoft.com/powerquery-m/power-query-m-function-reference) in het vak **Formule voor aangepaste kolom**. U maakt deze query's door de formule samen te stellen waarmee uw nieuwe aangepaste kolom is gedefinieerd. 
+- [PowerQuery M-formulequery's](/powerquery-m/power-query-m-function-reference) in het vak **Formule voor aangepaste kolom**. U maakt deze query's door de formule samen te stellen waarmee uw nieuwe aangepaste kolom is gedefinieerd. 
 
    ![De pagina Aangepaste kolom toevoegen](media/desktop-add-custom-column/add-custom-column_03.png)
 
@@ -95,4 +95,3 @@ Nadat u de query hebt gemaakt, kunt u met de **geavanceerde editor** ook een sta
 - U kunt een aangepaste kolom op andere manieren maken, bijvoorbeeld door een kolom te maken op basis van voorbeelden die u aan Queryeditor opgeeft. Zie [Een kolom uit een voorbeeld toevoegen in Power BI Desktop](desktop-add-column-from-example.md) voor meer informatie.
 
 - Zie [Power Query M function reference](/powerquery-m/power-query-m-function-reference) (Naslag met beschrijvingen van Power Query M-functies) voor naslaginformatie over Power Query M.
-
