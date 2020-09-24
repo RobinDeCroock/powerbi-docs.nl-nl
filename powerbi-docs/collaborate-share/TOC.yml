@@ -51,7 +51,9 @@
           items:
             - name: Samenwerken in Teams
               href: service-collaborate-microsoft-teams.md
-            - name: Rapporten insluiten in Teams
+            - name: De Power BI-app toevoegen aan Teams
+              href: service-microsoft-teams-app.md
+            - name: Rapporten insluiten in Teams-tabbladen
               href: service-embed-report-microsoft-teams.md
             - name: Rechtstreeks delen in Teams
               href: service-share-report-teams.md

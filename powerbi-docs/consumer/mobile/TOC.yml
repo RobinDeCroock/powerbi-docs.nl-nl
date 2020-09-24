@@ -28,7 +28,9 @@
           href: mobile-apps-data-in-real-world-context.md
         - name: Gegevens offline weergeven in de mobiele apps
           href: mobile-apps-offline-data.md
-        - name: De app Power BI for Mixed Reality (preview)
+        - name: Power BI voor HoloLens 2
+          href: mobile-hololens2-app.md
+        - name: Power BI voor HoloLens (1e gen)
           href: mobile-mixed-reality-app.md
     - name: Procedures
       items:
