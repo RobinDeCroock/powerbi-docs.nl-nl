@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084025"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854363"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Privékoppelingen voor toegang tot Power BI
 
@@ -158,7 +158,7 @@ De volgende stap bestaat uit het maken van een virtueel netwerk en uit het maken
     |Grootte | Laat de standaardwaarde **Standard DS1 v2** staan |
     |BEHEERDERSACCOUNT ||
     |Gebruikersnaam |Voer een gebruikersnaam naar keuze in |
-    |Wachtwoord | Voer een wachtwoord naar keuze in. Het wachtwoord moet minstens 12 tekens lang zijn en moet voldoen aan de [gedefinieerde complexiteitsvereisten](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm) |
+    |Wachtwoord | Voer een wachtwoord naar keuze in. Het wachtwoord moet minstens 12 tekens lang zijn en moet voldoen aan de [gedefinieerde complexiteitsvereisten](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm) |
     |Wachtwoord bevestigen | Voer het wachtwoord opnieuw in |
     |REGELS VOOR BINNENKOMENDE POORT ||
     |Openbare poorten voor inkomend verkeer | Laat de standaardwaarde **Geen** staan |
@@ -284,6 +284,7 @@ Er zijn enkele overwegingen voor het werken met privékoppelingen in Power BI:
 * Er is geen enkel gebruik van externe afbeeldingen of thema's mogelijk bij gebruik van een omgeving met privékoppelingen en er kunnen gevolgen zijn voor aangepaste visuals
 * Exporteerservices, zoals Exporteren naar PDF, het exporteren naar Excel vanuit een rapport en andere exporteerservices, werken niet bij gebruik van een omgeving met privékoppelingen
 * SQL Server Reporting Services-rapporten, voorheen bekend als RDL-bestanden (bestanden met de indeling *.rdl), worden niet weergegeven in omgevingen met privékoppelingen
+* Als internettoegang is uitgeschakeld en als de gegevensset of gegevensstroom verbinding maakt met een Power BI-gegevensset of -gegevensstroom als gegevensbron, mislukt de verbinding
 
 
 ## <a name="next-steps"></a>Volgende stappen

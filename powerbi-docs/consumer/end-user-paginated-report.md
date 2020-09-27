@@ -6,15 +6,15 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008900"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860320"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Gepagineerde rapporten in de Power BI-service
 
@@ -36,7 +36,7 @@ Met dit eenvoudige gepagineerde rapport wordt de winst per jaar gegenereerd zodr
 
 ![Eenvoudig rapport met één parameter](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-In vergelijking met gepagineerde rapporten zijn Power BI-rapporten veel interactiever. Met Power BI-rapporten is ad-hocrapportage mogelijk en worden veel meer visualtypen ondersteund, zoals Power BI-visuals.
+In vergelijking met gepagineerde rapporten zijn Power BI-rapporten veel interactiever. Met Power BI-rapporten is ad-hocrapportage mogelijk en worden veel meer visualtypen ondersteund, zoals aangepaste visuals.
 
 ## <a name="identify-a-paginated-report"></a>Een gepagineerd rapport identificeren
 
@@ -78,7 +78,7 @@ Sommige gepagineerde rapporten kunnen heel veel pagina's hebben.  Gebruik de bes
 ### <a name="export-the-paginated-report"></a>Het gepagineerde rapport exporteren
 Voor het exporteren van gepagineerde rapporten zijn vele opties beschikbaar, zoals PDF, Word, XML, PowerPoint, Excel en meer. Wanneer u een rapport exporteert, wordt geprobeerd zoveel mogelijk opmaak te behouden. Zo behouden gepagineerde rapporten die naar Excel, Word, PowerPoint, MHTML of PDF worden geëxporteerd, de 'pixelperfecte' opmaak. 
 
-![een nieuwe verkooporder](./media/end-user-paginated-report/power-bi-exporting.png)
+![Schermopname met een geëxporteerd gepagineerd rapport.](./media/end-user-paginated-report/power-bi-exporting.png)
 
 ![vier verschillende exporttypen](./media/end-user-paginated-report/power-bi-four.png)
 
@@ -98,4 +98,4 @@ Wanneer u zich op een gepagineerd rapport abonneert, ontvangt u van Power BI een
 ## <a name="next-steps"></a>Volgende stappen
 - [Power BI-rapporten](end-user-reports.md)
 - [Gepagineerde rapporten in Power BI: Veelgestelde vragen](../paginated-reports/paginated-reports-faq.md)
-- Hebt u nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.
+- Nog vragen? Misschien dat de [Power BI-community](https://community.powerbi.com/) het antwoord weet.

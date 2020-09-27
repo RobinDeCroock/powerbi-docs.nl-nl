@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 8e8411ea29436a5ee19802d2a970b760062fe59e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008747"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763983"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Typen inzichten die door Power BI worden ondersteund
 
@@ -77,7 +77,7 @@ Hiermee worden periodieke patronen in Time Series-gegevens gedetecteerd, zoals w
 ![Voorbeeld van seizoensgebondenheid](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>Onveranderlijk deel
-Markeert gevallen waarbij voor een continue variabele er een correlatie bestaat tussen het aandeel van de waarde van een onderliggend item in relatie tot de totale waarde van een bovenliggend item. Het inzicht Onveranderlijk deel is van toepassing op de context van een meting, een dimensie, en een andere datum/tijddimensie. Het inzicht wordt geactiveerd wanneer een bepaalde dimensiewaarde, bijvoorbeeld ‘de regio noordoost’ een stabiel percentage heeft voor de algehele verkoop in deze datum/tijddimensie.
+Markeert gevallen waarbij voor een continue variabele er een correlatie bestaat tussen het aandeel van de waarde van een onderliggend item in relatie tot de totale waarde van een bovenliggend item. Het inzicht Onveranderlijk deel is van toepassing op de context van een meting, een dimensie, en een andere datum/tijddimensie. Het inzicht wordt geactiveerd wanneer een bepaalde dimensiewaarde, bijvoorbeeld regio oost, een stabiel percentage heeft voor de algehele verkoop in deze datum/tijddimensie.
 
 Het inzicht Onveranderlijk deel is gelijk aan het inzicht Lage afwijking, omdat beide verwant zijn aan een gebrek aan afwijkingen in een waarde, in de loop van de tijd. Het inzicht Onveranderlijk deel meet echter het gebrek aan afwijking in het **algehele percentage** in de loop van de tijd, terwijl het inzicht Lage afwijking het gebrek aan afwijking meet van de absolute metingswaarden in een dimensie.
 

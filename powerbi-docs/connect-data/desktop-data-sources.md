@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160390"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020039"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -95,12 +95,13 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Denodo
 * Dremio
 * Exasol
-* Indexima (bèta)
+* Indexima
 * InterSystems IRIS (bèta)
 * Jethro (bèta)
 * Kyligence
 * Linkar PICK Style/MultiValue Databases (Beta)
 * MarkLogic
+* MariaDB (bèta)
 
 > [!NOTE]
 > Sommige databaseconnectors moet u eerst inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens **Voorbeeldfuncties** en de connector in te schakelen. Als u geen van de hierboven genoemde connectors ziet en ze wel wilt gebruiken, controleert u de instellingen voor **Voorbeeldfuncties**. Houd er ook rekening mee dat een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, beperkte ondersteuning en functionaliteit heeft en niet dient te worden gebruikt in een productieomgeving.
@@ -127,7 +128,7 @@ In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Power P
 De categorie **Azure** biedt de volgende gegevensverbindingen:
 
 * Azure SQL-database
-* Azure SQL Data Warehouse
+* Azure Synapse Analytics (SQL DW)
 * Microsoft Azure Analysis Services-database
 * Azure Database for PostgreSQL
 * Azure Blob Storage
@@ -139,9 +140,9 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Azure Data Explorer (Kusto)
 * Azure Cost Management
 * Azure Time Series Insights (Bèta)
+* Azure Databricks
 
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
@@ -194,8 +195,10 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * TeamDesk (bèta)
 * Webtrends Analytics (bèta)
 * Witivio (bèta)
-* Workplace Analytics (bèta)
 * Zoho Creator (bèta)
+* Workplace Analytics (bèta)
+* Hexagon PPM Smart API
+
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
 
@@ -217,29 +220,27 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Python-script
 * ODBC
 * OLE DB
+* Acterys: Automatisering en planning van modellen (bèta)
+* Automation Anywhere (bèta)
 * Solver
+* Cherwell (bèta)
+* Cognite Data Fusion (bèta)
 * FHIR
 * Information Grid (bèta)
 * Jamf Pro (bèta)
+* MicroStrategie voor Power BI
 * Paxata
 * QubolePresto (bèta)
 * Roamler (bèta)
 * Short Cuts Business Insights (bèta)
 * Siteimprove
+* SurveyMonkey (bèta)
 * Tenforce (Smart)List
 * TIBCO (R) Data Virtualization (bèta)
-* Vessel Insight (bèta)
-* Workforce Dimensions (bèta)
-* Zucchetti HR Infinity (bèta)
-* Cognite Data Fusion (bèta)
-* MicroStrategie voor Power BI
-* SurveyMonkey (bèta)
 * Vena (bèta)
-* Acterys: Automatisering en planning van modellen (bèta)
-* Automation Anywhere (bèta)
-* Cherwell (bèta)
+* Zucchetti HR Infinity (bèta)
+* Vessel Insight (bèta)
 * Lege query
-
 
 
 
@@ -288,7 +289,7 @@ Deze sectie bevat enkele voorbeelden van veelgebruikte gegevensbronnen. Dit PBID
 
 Dit PBIDS-bestand bevat *geen* verificatie-informatie en tabel- en schema-informatie.  
 
-De volgende codefragmenten tonen enkele algemene voorbeelden voor PBIDS-bestanden. Ze zijn echter niet volledig of allesomvattend. Voor andere gegevensbronnen kunt u verwijzen naar de [DSR-indeling (Data Source Reference) voor protocol- en adresgegevens ](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
+De volgende codefragmenten tonen enkele algemene voorbeelden voor PBIDS-bestanden. Ze zijn echter niet volledig of allesomvattend. Voor andere gegevensbronnen kunt u verwijzen naar de [DSR-indeling (Data Source Reference) voor protocol- en adresgegevens ](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
 
 Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en bevatten niet alle ondersteunde connectors in DSR-indeling. Beheerders of organisaties kunnen hun eigen gegevensbronnen definiëren aan de hand van deze voorbeelden, zodat ze hun eigen gegevensbronbestanden kunnen maken en ondersteunen.
 

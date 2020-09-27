@@ -1,28 +1,28 @@
 ---
-title: Visuals in een rapport aanpassen
+title: Visuals in een rapport personaliseren (preview)
 description: Maak uw eigen weergave van een rapport maken zonder het te bewerken.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a731feb822fcda8fd6478094f8393faa34b6b2bf
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 8fc61a1aee263b40afb8ae95f365477b4104ca71
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537338"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763297"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Visuals in een rapport aanpassen
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 Het is moeilijk om één visual te maken die voldoet aan de vereisten van iedereen. Maar wanneer een collega een rapport met u deelt, kunt u zelf wijzigingen aanbrengen in de visuals, zonder dat u uw collega hoeft te vragen om ze voor u te wijzigen. 
 
-Misschien wilt u elementen op de as omwisselen, het type visual wijzigen of iets toevoegen aan de knopinfo. Met de functie **Deze visual aanpassen** kunt u de wijzigingen zelf aanbrengen. Als u klaar bent met aanpassen, slaat u deze op als bladwijzer zodat u er later naar kunt terugkeren. U hebt zelfs geen bewerkingsmachtiging voor het rapport nodig.
+Misschien wilt u elementen op de as omwisselen, het type visual wijzigen of iets toevoegen aan de knopinfo. Met de functie **Deze visual aanpassen** kunt u de wijzigingen zelf aanbrengen. Als u klaar bent met aanpassen, slaat u de visual op als [bladwijzer](end-user-bookmarks.md) zodat u er later naar kunt terugkeren. U hebt zelfs geen bewerkingsmachtiging voor het rapport nodig.
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize.png" alt-text="Een visual aanpassen":::
  
@@ -44,10 +44,12 @@ Deze functie biedt niet alleen de mogelijkheid om nieuwe functies te verkennen. 
 - Al uw wijzigingen in een visual herstellen
 - Uw recente wijzigingen wissen
 
+> [!IMPORTANT]
+> De mogelijkheid om een visual aan de persoonlijke voorkeur aan te passen, is een preview-functie die moet worden ingeschakeld door de *rapportontwerper*. Als u het pictogram **Persoonlijk instellingen voor deze visual opgeven** ![pictogram Persoonlijk instellingen voor deze visual opgeven](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) niet ziet, is deze functie niet voor het huidige rapport ingeschakeld. 
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Visuals aanpassen in de Power BI-service
 
-Door een visual aan te passen, kunnen u uw gegevens op verschillende manieren verkennen zonder de leesweergave van het rapport te verlaten. In de volgende voorbeelden ziet u verschillende manieren waarop u een visualisatie kunt aanpassen om deze aan uw wensen te laten voldoen. 
+Door een visual aan de persoonlijke voorkeur aan te passen, kunt u uw gegevens op verschillende manieren verkennen zonder de [leesweergave van het rapport](end-user-reading-view.md) te verlaten. In de volgende voorbeelden ziet u verschillende manieren waarop u een visualisatie kunt aanpassen om deze aan uw wensen te laten voldoen. 
 
 1. Open een rapport in de leesweergave in de Power BI-service.
 

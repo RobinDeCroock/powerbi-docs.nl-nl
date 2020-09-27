@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/15/2020
+ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557159"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855357"
 ---
-# <a name="deployment-pipelines-troubleshooting-preview"></a>Problemen met implementatiepijplijnen oplossen (preview)
+# <a name="deployment-pipelines-troubleshooting"></a>Problemen met implementatiepijplijnen oplossen
 
 Gebruik dit artikel om problemen in implementatiepijplijnen op te lossen.
 
@@ -39,6 +39,13 @@ Als niet aan de volgende voorwaarden is voldaan, wordt de knop Implementatiepijp
 * Een werkruimte kan slechts worden toegewezen aan één pijplijn
 
 * U bent een beheerder van een nieuwe werkruimte
+
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>Waarom zie ik de tag voor de pijplijnfase niet in mijn werkruimte?
+
+Bij implementatiepijplijnen wordt een tag voor de pijplijnfase weergegeven in werkruimten die aan een pijplijn zijn toegewezen. Tags voor de *ontwikkelingsfase* en de *testfase* zijn altijd zichtbaar. U ziet echter alleen de tag voor *Productie* als u [toegang hebt tot de pijplijn](deployment-pipelines-process.md#user-with-pipeline-access) of als u een [beheerder van een werkruimte](deployment-pipelines-process.md#workspace-admin) bent.
+
+> [!div class="mx-imgBorder"]
+> ![Schermopname van de productietag in een werkruimte voor een productiepijplijn.](media/deployment-pipelines-troubleshooting/production-tag.png)
 
 ## <a name="licensing"></a>Licentieverlening
 
@@ -112,7 +119,7 @@ Er ontbreken waarden in de gegevenssetregels. Dit kan gebeuren als de gegevensse
 
 ![Een schermopname van de ongeldige regelfout die wordt weergegeven wanneer een implementatie mislukt vanwege verbroken koppelingen.](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-Wanneer een eerder geslaagde implementatie mislukt vanwege beschadigde koppelingen, wordt er een waarschuwing weergegeven. U kunt klikken op **Regels configureren** om naar het deelvenster Implementatie-instellingen te gaan, waar de mislukte gegevensset is gemarkeerd. Wanneer u op de gegevensset klikt, worden de beschadigde regels gemarkeerd.
+Wanneer een eerder geslaagde implementatie mislukt vanwege beschadigde koppelingen, wordt er een waarschuwing weergegeven. U kunt **Regels configureren** selecteren om naar het deelvenster met de implementatie-instellingen te gaan, waar de mislukte gegevensset is gemarkeerd. Wanneer u de gegevensset selecteert, worden de beschadigde regels gemarkeerd.
 
 Voor een geslaagde implementatie corrigeert of verwijdert u de beschadigde regels en voert u de implementatie opnieuw uit.
 
@@ -120,9 +127,9 @@ Voor een geslaagde implementatie corrigeert of verwijdert u de beschadigde regel
 
 U kunt de verbinding met de gegevensbron niet wijzigen in de Power BI-service.
 
-Als u de gegevensbron wilt wijzigen in de test- of productiefasen, kunt u [gegevenssetregels](deployment-pipelines-get-started.md#step-4---create-dataset-rules) of [API's](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) gebruiken. Gegevenssetregels worden van kracht na de volgende implementatie.
+Als u de gegevensbron wilt wijzigen in de test- of productiefasen, kunt u [gegevenssetregels](deployment-pipelines-get-started.md#step-4---create-dataset-rules) of [API's](/rest/api/power-bi/datasets/updateparametersingroup) gebruiken. Gegevenssetregels worden van kracht na de volgende implementatie.
 
-### <a name="i-fixed-a-bug-in-production-but-now-i-cant-click-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>Ik heb een bug in productie opgelost, maar ik kan nu niet klikken op de knop Implementeren in vorige fase. Waarom wordt deze knop grijs weergegeven?
+### <a name="i-fixed-a-bug-in-production-but-now-i-cant-select-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>Ik heb een bug in productie opgelost, maar ik kan de knop Implementeren in vorige fase niet selecteren. Waarom wordt deze knop grijs weergegeven?
 
 U kunt alleen achterwaarts implementeren in een lege fase. Als u inhoud in de testfase hebt, kunt u niet achterwaarts implementeren vanuit productie.
 

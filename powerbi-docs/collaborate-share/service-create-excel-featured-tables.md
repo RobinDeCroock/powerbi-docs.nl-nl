@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/30/2020
+ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478079"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811846"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Aanbevolen tabellen instellen in Power BI Desktop (preview-versie)
 
@@ -66,19 +66,13 @@ In de galerie Gegevenstypen in Excel kunnen uw gebruikers gegevens uit *aanbevol
 
 Dit zijn de beperkingen voor de oorspronkelijke preview-versie.
 
-- Aanbevolen tabellen in Power BI-gegevenssets die gebruikmaken van de volgende mogelijkheden, worden niet weergegeven in Excel: 
+- Aanbevolen tabellen in Power BI-gegevenssets die gebruikmaken van de volgende mogelijkheden, worden niet weergegeven in Excel:
 
-    - Gegevenssets met beveiliging op rijniveau
-    - Gegevenssets waarvoor Microsoft Information Protection is ingeschakeld
     - DirectQuery-gegevenssets
     - Gegevenssets met een liveverbinding
 
-- In Excel worden alleen gegevens in kolommen en berekende kolommen uit de aanbevolen tabel weergegeven. Het volgende is niet beschikbaar in de oorspronkelijke preview:
-
-    - Metingen die zijn gedefinieerd voor de functietabel.
-    - Metingen die zijn gedefinieerd voor gerelateerde tabellen, en impliciete metingen die worden berekend op basis van relaties.
-
-- In Excel worden alleen aanbevolen tabellen weergegeven die zijn opgeslagen in de nieuwe Power BI-werkruimten. Aanbevolen tabellen die zijn opgeslagen in de klassieke werkruimten, of in Mijn werkruimte, worden niet weergegeven als gegevenstypen in Excel. U kunt [klassieke werkruimten bijwerken naar de nieuwe werkruimten](service-upgrade-workspaces.md) in Power BI.
+- In Excel worden alleen gegevens in kolommen en berekende kolommen uit de aanbevolen tabel weergegeven. Metingen die zijn gedefinieerd voor gerelateerde tabellen, en impliciete metingen die worden berekend op basis van relaties, worden niet in de initiële preview opgegeven.
+- In Excel worden alleen aanbevolen tabellen weergegeven die zijn opgeslagen in de nieuwe Power BI-werkruimten. Aanbevolen tabellen die zijn opgeslagen in de klassieke werkruimten, worden niet als gegevenstypen in Excel weergegeven. U kunt [klassieke werkruimten bijwerken naar de nieuwe werkruimten](service-upgrade-workspaces.md) in Power BI.
 - Zie [Overwegingen en beperkingen](service-excel-featured-tables.md#considerations-and-limitations) in het artikel Toegang tot aanbevolen Power BI-tabellen in Excel voor andere Excel-overwegingen.
 
 ## <a name="next-steps"></a>Volgende stappen

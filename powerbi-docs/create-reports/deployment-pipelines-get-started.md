@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557251"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855753"
 ---
-# <a name="get-started-with-deployment-pipelines-preview"></a>Aan de slag gaan met implementatiepijplijnen (preview)
+# <a name="get-started-with-deployment-pipelines"></a>Aan de slag gaan met implementatiepijplijnen
 
 In dit artikel wordt u stapsgewijs door de basisinstellingen geleid die zijn vereist bij het gebruik van implementatiepijplijnen.
 
@@ -35,13 +36,31 @@ U hebt toegang tot de functie voor implementatiepijplijnen als aan de volgende v
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>Stap 1: een implementatiepijplijn maken
 
-Ga als volgt te werk om een implementatiepijplijn te maken:
-
-1. Ga naar de Power BI-service en selecteer in het navigatiedeelvenster de optie **Implementatiepijplijnen**. Klik vervolgens op **Pijplijn maken**.
-
-2. Voer in het dialoogvenster *Een implementatiepijplijn maken* een naam en beschrijving in voor de pijplijn, en klik op **Maken**.
+U kunt een pijplijn maken vanaf het tabblad Implementatiepijplijnen of vanuit een werkruimte.
 
 Nadat de pijplijn is gemaakt, kunt u deze delen met andere gebruikers of de pijplijn verwijderen. Als u een pijplijn deelt met anderen, krijgen de gebruikers met wie u de pijplijn deelt, [toegang tot de pijplijn](deployment-pipelines-process.md#user-with-pipeline-access). Gebruikers die toegang tot de pijplijn hebben, kunnen deze bekijken, delen, bewerken en verwijderen.
+
+### <a name="create-a-pipeline-from-the-deployment-pipelines-tab"></a>Een pijplijn maken op het tabblad Implementatiepijplijnen
+
+Ga als volgt te werk als u een pijplijn wilt maken op het tabblad Implementatiepijplijnen:
+
+1. Ga naar de Power BI-service en selecteer in het navigatiedeelvenster de optie **Implementatiepijplijnen**. Selecteer vervolgens **Pijplijn maken**.
+
+2. Voer in het dialoogvenster *Een implementatiepijplijn maken* een naam en beschrijving in voor de pijplijn, en selecteer **Maken**.
+
+### <a name="create-a-pipeline-from-a-workspace"></a>Een pijplijn maken vanuit een werkruimte
+
+U kunt een pijplijn maken vanuit een bestaande werkruimte, mits u de beheerder bent van een [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md).
+
+1. Selecteer in de werkruimte **Een pijplijn maken**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Een schermopname van de knop Een pijplijn maken in een werkruimte.](media/deployment-pipelines-get-started/workspace-deploy.png)
+
+2. Voer in het dialoogvenster *Een implementatiepijplijn maken* een naam en beschrijving in voor de pijplijn, en selecteer **Maken**.
+
+>[!NOTE]
+>Als de werkruimte niet is toegewezen aan de Premium-capaciteit van uw organisatie, ontvangt u een melding om [deze toe te wijzen aan een capaciteit](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>Stap 2: een werkruimte toewijzen aan een implementatiepijplijn
 
@@ -51,9 +70,12 @@ U kunt één werkruimte toewijzen aan een implementatiepijplijn. In de implement
 
 Volg deze stappen om een werkruimte toe te wijzen aan een implementatiepijplijn:
 
-1. Klik in de zojuist gemaakte implementatiepijplijn op **Een werkruimte toewijzen**.
+1. Selecteer in de zojuist gemaakte implementatiepijplijn de optie **Een werkruimte toewijzen**.
 
 2. Selecteer in de vervolgkeuzelijst *De werkruimte kiezen* de werkruimte waaraan u de pijplijn wilt toewijzen.
+
+    >[!NOTE]
+    >Als u een pijplijn maakt vanuit een werkruimte, kunt u deze fase overslaan als de werkruimte al is geselecteerd.
 
 3. Selecteer de fase waaraan u de werkruimte wilt toewijzen.
 
@@ -82,13 +104,13 @@ Nadat de implementatie is voltooid, vernieuwt u de gegevensset. Zie [Inhoud impl
 
 ### <a name="deploying-all-content"></a>Alle inhoud implementeren
 
-Selecteer de fase vanwaaruit u wilt implementeren, en klik op de implementatieknop. Tijdens het implementatieproces wordt in de doelfase een duplicaat van de werkruimte gemaakt. Deze werkruimte bevat alle inhoud die in de huidige fase aanwezig is.
+Selecteer de fase vanwaaruit u wilt implementeren en selecteer de implementatieknop. Tijdens het implementatieproces wordt in de doelfase een duplicaat van de werkruimte gemaakt. Deze werkruimte bevat alle inhoud die in de huidige fase aanwezig is.
 
 [![Een schermopname met de knop implementeren voor de ontwikkelings- en testfases in een implementatiepijplijn.](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>Selectieve implementatie
 
-Als u alleen specifieke items wilt implementeren, klikt u op de koppeling **Meer weergeven**, en selecteert u de items die u wilt implementeren. Wanneer u op de knop Implementeren klikt, worden alleen de geselecteerde items geïmplementeerd in de volgende fase.
+Als u alleen specifieke items wilt implementeren, selecteert u de koppeling **Meer weergeven**, en selecteert u vervolgens de items die u wilt implementeren. Wanneer u op de knop Implementeren klikt, worden alleen de geselecteerde items geïmplementeerd in de volgende fase.
 
 Aangezien dashboards, rapporten en gegevenssets zijn gerelateerd en onderlinge afhankelijkheden hebben, kunt u de knop Gerelateerde selecteren gebruiken om te controleren van welke items deze items allemaal afhankelijk zijn. Voorbeeld: als u een rapport wilt implementeren in de volgende fase, en u klikt op de knop Gerelateerde selecteren, wordt de gegevensset gemarkeerd waaraan het rapport is gekoppeld, en worden beide tegelijkertijd geïmplementeerd zodat de verbinding met het rapport niet wordt verbroken.
 
@@ -119,7 +141,7 @@ Gegevenssetregels worden gedefinieerd in gegevensbronnen en parameters, in elke 
 
 ### <a name="create-a-dataset-rule"></a>Een gegevenssetregel maken
 
-1. Klik in de pijplijnfase waarvoor u een gegevenssetregel wilt maken, op **Implementatie-instellingen**.
+1. Selecteer in de pijplijnfase waarvoor u een gegevenssetregel wilt maken de optie **Implementatie-instellingen**.
 
     ![Een schermopname van de knop implementatie-instellingen, bevindt zich in de rechterbovenhoek van elke fase van de implementatiepijplijn.](media/deployment-pipelines-get-started/deployment-settings.png)
 
@@ -127,7 +149,7 @@ Gegevenssetregels worden gedefinieerd in gegevensbronnen en parameters, in elke 
 
     [![Een schermopname van het selecteren van een gegevensset voor het maken van een regel voor de gegevensset.](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
-3. Selecteer het type regel dat u wilt maken, vouw de lijst uit en klik op **Regel toevoegen**.
+3. Selecteer het type regel dat u wilt maken, vouw de lijst uit en selecteer **Regel toevoegen**.
 
      [![Een schermopname van het selecteren van een gegevensbronregel en het klikken op de optie regel toevoegen.](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
@@ -139,7 +161,7 @@ Er zijn twee typen regels die u kunt maken:
 
     1. Selecteer uit een lijst.
 
-    2. Klik op **Andere** en voeg handmatig de nieuwe gegevensbron toe. U kunt alleen wijzigen in een gegevensbron van hetzelfde type.
+    2. Selecteer **Andere** en voeg handmatig de nieuwe gegevensbron toe. U kunt alleen wijzigen in een gegevensbron van hetzelfde type.
 
 * **Parameterregels**: selecteer een parameter in de lijst met parameters (de huidige waarde wordt weergegeven). Wijzig de waarde in de waarde die u na elke implementatie wilt doorvoeren.
 
@@ -153,7 +175,7 @@ Er zijn twee typen regels die u kunt maken:
 
 * Als de gegevensbron of parameters die zijn gedefinieerd in een regel, worden gewijzigd of verwijderd uit de brongegevensset, is de regel ongeldig en mislukt de implementatie.
 
-* Er kunnen geen parameterregels worden gedefinieerd voor parameters van het type *Alle* of *Binair*. Raadpleeg de [parameterbeperkingen voor het bijwerken van gegevenssets](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters) voor meer informatie.
+* Er kunnen geen parameterregels worden gedefinieerd voor parameters van het type *Alle* of *Binair*. Raadpleeg de [parameterbeperkingen voor het bijwerken van gegevenssets](/rest/api/power-bi/datasets/updateparameters) voor meer informatie.
 
 * Gegevensbronregels kunnen alleen worden gedefinieerd voor de volgende gegevensbronnen:
     * Azure Analysis Services
@@ -172,7 +194,7 @@ Er zijn twee typen regels die u kunt maken:
 
 Zodra een pijplijnfase inhoud bevat, kunt u deze implementeren in de volgende fase. Het implementeren van inhoud in een andere fase wordt doorgaans gedaan nadat u een aantal acties in de pijplijn hebt uitgevoerd. Bijvoorbeeld nadat u ontwikkelingswijzigingen in inhoud hebt aangebracht in de ontwikkelingsfase, of nadat u inhoud hebt getest in de testfase. Een typische werkstroom voor het verplaatsen van inhoud van de ene fase naar de andere, is van ontwikkeling naar test, en vervolgens van test naar productie. In de sectie [Inhoud implementeren in een bestaande werkruimte](deployment-pipelines-process.md#deploy-content-to-an-existing-workspace) krijgt u meer informatie over dit proces.
 
-Als u inhoud wilt implementeren in de volgende fase van de implementatiepijplijn, klikt u op de knop Implementeren onder aan de fase.
+Als u inhoud wilt implementeren in de volgende fase van de implementatiepijplijn, selecteert u de implementatieknop onder aan de fase.
 
 Bij het controleren van de test- en productiefasekaarten ziet u de tijd van de laatste implementatie. Deze tijd geeft aan wanneer voor het laatst inhoud is geïmplementeerd in de fase.
 

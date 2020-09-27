@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768396"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020016"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) is een leverancier die werkt met Chauncy Freels en helpt bij het onderhouden van deze lijst met webinars"
@@ -22,11 +22,23 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
+**Snel aan de slag met Power BI**  
+door Miguel Martinez, Microsoft  
+[Registreer u voor de uitzending van 5 november 2020 van 18:00 tot 19:00 uur UTC](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [Komende webinars van de Power BI-community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Aanbevolen webinars
 
 Aan de slag met deze populaire on-demand webinars
+
+**Uw gegevens in realtime bewaken met Microsoft Power BI**  
+door Miguel Martinez en Peter Myers  
+[Nu bekijken](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Schaalbare BI-oplossingen bouwen met Power BI en Snowflake**  
+door Chris Webb, Craig Collier en Chris Holliday  
+[Nu bekijken](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
 
 **De tevredenheid van gebruikers stimuleren met best practices voor het beheren van BI-inhoud**  
 door Nimrod Shalit  

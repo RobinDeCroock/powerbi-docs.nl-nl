@@ -1,22 +1,22 @@
 ---
-title: De app Power BI for Mixed Reality (preview)
+title: Power BI voor HoloLens (eerste generatie)
 description: Bekijk uw dashboards en rapporten in de app Power BI for Mixed Reality (preview) in een virtuele omgeving of in uw fysieke omgeving.
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 99e9c407a92d126ddc4c6f4822106cfa6458dbac
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b0288bf3980ac54b960160f011531f3667d8edff
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79205913"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005509"
 ---
-# <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
-Bekijk uw dashboards en rapporten in de app Power BI for Mixed Reality (preview) in een virtuele omgeving of plaats deze op specifieke locaties in uw fysieke omgeving. 
+# <a name="power-bi-for-hololens-1st-gen"></a>Power BI voor HoloLens (eerste generatie)
+Bekijk uw dashboards en rapporten in de app Power BI-app voor HoloLens in een virtuele omgeving of plaats deze op specifieke locaties in uw fysieke omgeving. 
 
 [Download de Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab)-app uit de Windows store: in de Windows Store heeft de app de naam Power BI - Mobiel. U kunt met uw dashboards en rapporten werken in een virtuele omgeving en vervolgens de exemplaren selecteren die u wilt plaatsen. 
 

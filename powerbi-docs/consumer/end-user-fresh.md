@@ -7,15 +7,15 @@ ms.reviewer: mihart
 ms.custom: ''
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 09/15/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 73affb07b137ee60fe00f7d344759ec2de1bcb85
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c3ae3974b411ccd7f1be175910878cdeb0bc5c40
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215903"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763174"
 ---
 # <a name="your-content-is-up-to-date"></a>Uw inhoud is up-to-date
 
@@ -23,7 +23,7 @@ ms.locfileid: "86215903"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Als *consument* werkt u met inhoud die is gemaakt door *ontwerpers* en met u is gedeeld. U vraagt zich misschien af of die inhoud is bijgewerkt, of misschien wilt u alleen weten wanneer die inhoud voor het laatst is vernieuwd. Het geeft u zelfvertrouwen als u weet dat u met de nieuwste inhoud werkt.  
+Als *zakelijke gebruiker* werkt u met inhoud die is gemaakt door *ontwerpers* en die met u is gedeeld. U vraagt zich misschien af of die inhoud is bijgewerkt, of misschien wilt u alleen weten wanneer die inhoud voor het laatst is vernieuwd. Het geeft u zelfvertrouwen als u weet dat u met de nieuwste inhoud werkt.  
  
 ![Power BI-dashboard](media/end-user-fresh/power-bi-dashboards.png)
 
@@ -38,7 +38,7 @@ Neem contact op met de ontwerper als u vragen hebt over de actualiteit van gegev
 
 De naam van de eigenaar kunt u vinden via de titelbalk van dashboards en rapporten. Selecteer de naam van het rapport of dashboard om aanvullende gegevens weer te geven, zoals de **eigenaar**.
 
-![Eigenaar van Power BI-dashboard](media/end-user-fresh/power-bi-owner.png)
+![Eigenaar van Power BI-dashboard](media/end-user-fresh/power-bi-designer.png)
 
 
 ### <a name="apps"></a>Apps
@@ -47,19 +47,19 @@ In het app-scherm ziet u zowel de naam van de ontwerper als de datum waarop de a
 
 1. Selecteer **Apps** in het navigatievenster.
 
-    ![navigatievenster](media/end-user-fresh/power-bi-nav-app.png)
+    ![navigatievenster](media/end-user-fresh/power-bi-nav-apps.png)
 
 
 
 2. Beweeg de aanwijzer over de app om de titel, de datum van bijwerken en de naam van de ontwerper weer te geven. 
 
-    ![twee apps, waarvan een geselecteerd](media/end-user-fresh/power-bi-app.png)
+    ![twee apps, waarvan een geselecteerd](media/end-user-fresh/power-bi-apps.png)
 
 
 ### <a name="shared-with-me"></a>Gedeeld met mij
 Op het scherm **Gedeeld met mij** ziet u de naam van de eigenaar van de inhoud, evenals de datum waarop de inhoud het laatst met u is gedeeld.
 
-![het scherm Gedeeld met mij met Datum gewijzigd en Eigenaar](media/end-user-fresh/power-bi-share.png) 
+![het scherm Gedeeld met mij met Datum gewijzigd en Eigenaar](media/end-user-fresh/power-bi-shared.png) 
 
 
 ## <a name="how-to-look-up-the-last-refresh-date"></a>De datum van laatste vernieuwing vinden
@@ -70,20 +70,20 @@ Voor dashboardtegels bekijkt u de tegel in de focusmodus om het tijdstempel van 
 
 1. Selecteer op de dashboardtegel **Meer opties** (...) en kies **Openen in de focusmodus**.
 
-    ![menu dat verschijnt na het selecteren van het beletselteken](media/end-user-fresh/power-bi-focus-mode.png)
+    ![menu dat verschijnt na het selecteren van het beletselteken](media/end-user-fresh/power-bi-fresh-focus.png)
 
 2. In de rechterbovenhoek wordt de datum van de laatste vernieuwing weergegeven. Als u deze niet ziet, vouwt u uw browser uit om deze te verbreden. 
 
-    ![breed browser met de laatste vernieuwing](media/end-user-fresh/power-bi-last-refresh2.png)
+    ![breed browser met de laatste vernieuwing](media/end-user-fresh/power-bi-last-refresh.png)
 
 ### <a name="dashboards-and-reports"></a>Dashboards en rapporten
-Een andere manier om de datum van de laatste vernieuwing te vinden is via **Gerelateerde items weergeven**.  **Gerelateerde items weergeven** is beschikbaar via **Meer opties** (...) in de bovenste menubalk van Power BI.
+Een andere manier om de datum van de laatste vernieuwing te vinden is via **Gerelateerde inhoud raadplegen**.  **Gerelateerde inhoud raadplegen** is beschikbaar via **Meer acties** (...) in de bovenste menubalk van Power BI.
 
-![Gerelateerde items selecteren vanuit het menu](media/end-user-fresh/power-bi-view-related-dropdown.png)
+![Gerelateerde inhoud raadplegen selecteren vanuit het menu](media/end-user-fresh/power-bi-see-related.png)
 
 Op het deelvenster **Gerelateerde inhoud** wordt informatie over de laatste vernieuwing van de onderliggende gegevensset van het dashboard of rapport weergegeven.
 
-![Power BI-dashboard](media/end-user-fresh/power-bi-refresh.png)
+![Schermopname van het deelvenster Gerelateerde inhoud](media/end-user-fresh/power-bi-see-related-screen.png)
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Wat er gebeurt als een app door de ontwerper wordt verwijderd
 

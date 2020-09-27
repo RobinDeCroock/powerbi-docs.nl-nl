@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 09/19/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4c44e7d0ff21f49887a069e0a83686aafecc2f24
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 600b8d1447d50a1647097d94df9077299f00cccf
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537269"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860379"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Afdrukken via de Power BI-service
 
@@ -49,9 +49,9 @@ Experimenteer met de instellingen van uw specifieke browser totdat u het gewenst
 
 ## <a name="print-a-dashboard"></a>Een dashboard afdrukken
 1. Open het dashboard dat u wilt afdrukken.
-2. Selecteer in de linkerbovenhoek Exporteren en kies **Deze pagina afdrukken**.
+2. Selecteer in de linkerbovenhoek **Bestand** en kies **Deze pagina afdrukken**.
    
-    ![Optie Dashboard afdrukken](./media/end-user-print/power-bi-dashboard-print.png)
+    ![Optie Dashboard afdrukken](./media/end-user-print/power-bi-dashboard-print-options.png)
 
 3. Het venster Afdrukken voor uw browser wordt geopend. Kies de instellingen. Als de breedte van uw dashboard bijvoorbeeld groter is dan de hoogte, kunt u ervoor kiezen de afdrukstand in **Liggend** te wijzigen. Selecteer **Afdrukken**.
    
@@ -62,11 +62,13 @@ Experimenteer met de instellingen van uw specifieke browser totdat u het gewenst
 
 3. [Open de tegel in de focusmodus](end-user-focus.md) door de muisaanwijzer te bewegen om **Meer opties** (...) weer te geven en **Openen in focusmodus** of het focuspictogram ![pictogram Focus](./media/end-user-print/power-bi-focus-icon.png) te kiezen.
    
-    ![Menu met weglatingstekens](./media/end-user-print/power-bi-menu-options.png)
+    ![Menu met weglatingstekens](./media/end-user-print/power-bi-focus-tile.png)
 
 4. Beweeg de muisaanwijzer over de tegel om het menu Opties weer te geven.
    
-    ![Menu met opties voor volledig scherm](./media/end-user-print/menu-options-new.png)
+    ![Menu met opties voor volledig scherm](./media/end-user-print/power-bi-menu-option.png)
+
+    ![modus volledig scherm](./media/end-user-print/power-bi-focus.png)
 
 4. Selecteer het pictogram voor afdrukken ![afdrukpictogram](./media/end-user-print/print-icon.png).     
 
@@ -83,9 +85,9 @@ Experimenteer met de instellingen van uw specifieke browser totdat u het gewenst
 ## <a name="print-a-report-page"></a>Een rapportpagina afdrukken
 Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 
-1. Open het rapport en selecteer **Exporteren** > **Afdrukken** om de huidige rapportpagina af te drukken.
+1. Open het rapport en selecteer **Bestand** > **Deze pagina afdrukken** om de huidige rapportpagina af te drukken.
    
-    ![Menu Bestand in Power BI](./media/end-user-print/power-bi-report-print.png)
+    ![Menu Bestand in Power BI](./media/end-user-print/power-bi-print-report.png)
 2. Het venster Afdrukken voor uw browser wordt geopend.
 
 3. Volg de afdrukstappen bij **Een dashboard afdrukken** hierboven.
@@ -95,9 +97,12 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 ## <a name="print-a-report-visual"></a>Een rapportvisual afdrukken
 1. [Open de visual in de focusmodus](end-user-focus.md) door de muisaanwijzer over de tegel te bewegen en in de rechterbovenhoek het focuspictogram ![Focuspictogram](./media/end-user-print/power-bi-focus-icon.png) te selecteren.
 
-2. Selecteer in de linkerbovenhoek **Exporteren** > **Afdrukken** om de visual af te drukken.
 
-    ![Menu Bestand in Power BI](./media/end-user-print/power-bi-report-print.png)
+    ![Visuals openen in de modus Focus](./media/end-user-print/power-bi-visual-focus.png)
+
+2. Selecteer in de linkerbovenhoek **Bestand** > **Deze pagina afdrukken** om de visual af te drukken.
+
+    ![Schermopname van het menu Bestand in Power BI](./media/end-user-print/power-bi-visual-print.png)
 
 
 3. Volg de afdrukstappen bij **Een dashboard afdrukken** hierboven.
@@ -107,7 +112,7 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 * V: Ik kan niet alle rapportpagina's in een keer afdrukken.    
 * A: Dat klopt. Rapportpagina's kunnen alleen pagina voor pagina worden afgedrukt.
 * V: Ik kan niet afdrukken naar PDF.    
-* A: Deze optie wordt alleen weergegeven als u het PDF-stuurprogramma al hebt geconfigureerd in de browser.    
+* A: Deze optie wordt alleen weergegeven als u het PDF-stuurprogramma al hebt geconfigureerd in uw browser.    
 * V: Wat wordt weergegeven wanneer ik **Afdrukken** selecteer, komt niet overeen met wat ik hier zie.    
 * A: De afdrukschermen kunnen per browser en softwareversie verschillen.
 * V: Mijn afdruk is niet goed geschaald.  Mijn dashboard past niet op de pagina. Andere vragen over schalen en de afdrukstand.    
@@ -118,4 +123,4 @@ Rapporten kunnen alleen pagina voor pagina worden afgedrukt.
 ## <a name="next-steps"></a>Volgende stappen
 [Dashboards en rapporten delen met collega's en anderen](../collaborate-share/service-share-dashboards.md)
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

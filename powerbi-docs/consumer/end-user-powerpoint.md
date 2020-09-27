@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/01/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040284"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90764282"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
@@ -26,8 +26,8 @@ Met de Power BI-service (app.powerbi.com) kunt u uw rapport publiceren naar Micr
 
 * Elke pagina in het Power BI-rapport wordt een afzonderlijke dia in PowerPoint.
 * Elke pagina in het Power BI-rapport wordt geëxporteerd als één afbeelding met een hoge resolutie in PowerPoint.
-* U kunt de instellingen voor filters en slicers die u hebt toegevoegd aan het rapport behouden.
-* In PowerPoint wordt een koppeling met het Power BI-rapport gemaakt.
+* De instellingen voor filters en slicers die u aan het rapport hebt toegevoegd, kunt u behouden.
+* In PowerPoint wordt een koppeling naar het Power BI-rapport gemaakt.
 
 Het ophalen van uw **Power BI-rapport** dat is geëxporteerd naar **PowerPoint** gaat snel. Voer de stappen uit die in de volgende sectie worden beschreven.
 
@@ -48,9 +48,9 @@ Er wordt een pop-upvenster weergegeven waarin u de **huidige waarden** of de **s
 
 ![Selecteer wat u wilt exporteren](media/end-user-powerpoint/power-bi-current-values.png)
  
-Daarnaast is er een selectievakje dat u uitgeschakeld kunt laten als u de verborgen tabbladen van een rapport wilt exporteren. U schakelt dit selectievakje in als u alleen tabbladen van een rapport wilt exporteren die in uw browser worden weergegeven. Als u wilt dat ook alle verborgen tabbladen worden weergegeven als onderdeel van de export, laat u dit selectievakje uitgeschakeld. Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport. Een voorbeeld van een verborgen tabblad is het tabblad Knopinfo. [Aangepaste knopinfo](../create-reports/desktop-tooltips.md) wordt gemaakt door rapport*ontwerpers* en wordt niet weergegeven als rapporttabblad in de Power BI-service voor *consumenten*. 
+Daarnaast is er een selectievakje dat u uitgeschakeld kunt laten als u de verborgen tabbladen van een rapport wilt exporteren. U schakelt dit selectievakje in als u alleen tabbladen van een rapport wilt exporteren die in uw browser worden weergegeven. Als u wilt dat ook alle verborgen tabbladen worden weergegeven als onderdeel van de export, laat u dit selectievakje uitgeschakeld. Als het selectievakje grijs wordt weergegeven, zijn er geen verborgen tabbladen in het rapport. Een voorbeeld van een verborgen tabblad is het tabblad Knopinfo. [Aangepaste knopinfo](../create-reports/desktop-tooltips.md) wordt gemaakt door *ontwerpers* van rapporten en wordt niet weergegeven als rapporttabblad in de Power BI-service voor *zakelijke gebruikers*. 
 
-U kunt er ook voor kiezen om alleen de huidige pagina te exporteren uit een rapport door de optie 'Alleen de huidige pagina exporteren' aan te vinken.  Standaard worden alle pagina's van uw rapport geëxporteerd, omdat deze optie is uitgeschakeld.
+U kunt er ook voor kiezen om alleen de huidige pagina vanuit een rapport te exporteren door de optie **Alleen de huidige pagina exporteren** aan te vinken.  Standaard worden alle pagina's van uw rapport geëxporteerd, omdat deze optie is uitgeschakeld.
 
 Nadat u de selecties hebt gemaakt, selecteert u **Exporteren** om door te gaan. Er wordt een meldingsbanner in de rechterbovenhoek van het browservenster van de Power BI-service weergegeven die aangeeft dat het rapport naar PowerPoint wordt geëxporteerd. 
 
@@ -76,7 +76,7 @@ Bij het openen van het PowerPoint-bestand dat door Power BI is geëxporteerd, zi
 
 
 3. Elke rapportpagina is een afzonderlijke dia, zoals wordt weergegeven in het navigatievenster. 
-4. Uw gepubliceerde rapport wordt gerenderd in de taal die is geselecteerd in uw instellingen voor Power BI. Anders wordt de taal bepaald door de landinstelling van uw browser. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**. Raadpleeg [Ondersteunde talen en landen of regio's voor Power BI](../fundamentals/supported-languages-countries-regions.md) voor informatie over landinstellingen.
+4. Uw gepubliceerde rapport wordt gerenderd in de taal die is geselecteerd in uw instellingen voor Power BI. Anders wordt de taal bepaald door de landinstelling van uw browser. Als u uw taalvoorkeur in de browser wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**. Raadpleeg [Ondersteunde talen en landen of regio's voor Power BI](../fundamentals/supported-languages-countries-regions.md) voor informatie over landinstellingen.
 
 
 Wanneer u een afzonderlijke dia weergeeft, ziet u dat elke rapportpagina een onafhankelijke afbeelding is. Schuiven in PowerPoint is niet beschikbaar omdat elke dia een statische afbeelding is.
@@ -110,8 +110,8 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanne
     - Rapporten die langer dan een uur duren om te verwerken. 
     - Rapportpagina's melden die langer duren dan 6 minuten om te laden. 
 
-* Als het menu-item **Exporteren naar PowerPoint** niet beschikbaar is in de Power BI-service, heeft uw tenantbeheerder de functie waarschijnlijk uitgeschakeld. Neem contact op met uw tenantbeheerder voor meer informatie.
-* De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het exportbestand van PowerPoint. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.
+* Als het menu-item **Exporteren naar PowerPoint** niet beschikbaar is in de Power BI-service, heeft uw tenantbeheerder of de eigenaar van het rapport de functie waarschijnlijk uitgeschakeld. Neem contact op met uw tenantbeheerder of de eigenaar voor meer informatie.
+* De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het exportbestand van PowerPoint. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u in de browser het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.
 
 
 

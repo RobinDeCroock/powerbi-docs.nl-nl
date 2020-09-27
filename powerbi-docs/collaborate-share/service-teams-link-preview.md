@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: 06bd8271904b9c44de6c71e287f0560c54f6d031
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253846"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964779"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>Een voorbeeld krijgen van een Power BI-koppeling in Microsoft Teams
 
@@ -27,7 +27,7 @@ Wanneer u een koppeling naar uw rapporten, dashboards en apps in het Microsoft T
 
 Voor de service voor koppelingsvoorbeelden moeten uw gebruikers zich aanmelden. Als u zich wilt afmelden, selecteert u het pictogram **Power BI** onder aan het berichtvak. Selecteer vervolgens **Afmelden**.
 
-Zie [Samenwerken in Microsoft Teams met Power BI](service-collaborate-microsoft-teams.md) voor achtergrondinformatie over de manier waarop Power BI en Teams samenwerken, met inbegrip van vereisten waaraan u moet voldoen.
+Zie [Samenwerken in Microsoft Teams met Power BI](service-collaborate-microsoft-teams.md) voor achtergrondinformatie over de manier waarop Power BI en Microsoft Teams samenwerken, inclusief de vereisten waaraan u moet voldoen.
 
 ## <a name="get-a-link-preview"></a>Een koppelingsvoorbeeld verkrijgen
 

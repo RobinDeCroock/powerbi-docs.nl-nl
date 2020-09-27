@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 91b19fd5e357f4ab020b72b259ab5053c36af8f7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238433"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91019890"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Gegevenssets en rapporten van Power BI Desktop publiceren
 Als u een Power BI Desktop-bestand publiceert naar de Power BI-service, publiceert u de gegevens in het model naar uw Power BI-werkruimte. Dit geldt ook voor rapporten die u in de **rapportweergave** hebt gemaakt. U ziet een nieuwe gegevensset met dezelfde naam (en eventuele rapporten) in uw werkruimtenavigator.
@@ -30,8 +30,8 @@ Het publiceren vanuit Power BI Desktop heeft hetzelfde effect als **Gegevens oph
    ![De knop Publiceren](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 
 
-2. Meld u aan bij Power BI.
-3. Selecteer het doel.
+2. Meld u aan bij Power BI als u nog niet bent aangemeld.
+3. Selecteer het doel. Vanaf de release van september 2020 kunt u in de lijst met beschikbare werk ruimten zoeken naar de werkruimte waarin u wilt publiceren. In het zoekvak kunt u uw werkruimten filteren. Selecteer de werkruimte en klik vervolgens op de knop **Selecteren** om de werkruimte te publiceren.
 
    ![Publicatiebestemming selecteren](media/desktop-upload-desktop-files/pbid_publish_select_destination.png)
 
@@ -58,3 +58,13 @@ Dit proces is erg eenvoudig, maar u mag een paar dingen niet vergeten:
 > [!NOTE]
 > Sommige gegevensverbindingen in Power BI-rapporten kunnen koppelingen naar gegevens bevatten, in plaats van de gegevens in op te nemen in de gegevensset die in de Power BI-service wordt geïmporteerd. Zo worden met DirectQuery-verbindingen koppelingen naar gegevens gemaakt als er een update of interactie plaatsvindt, in plaats van de gegevens zelf te importeren. Als gekoppelde gegevensbronnen in uw rapport zich on-premises bevinden, hebt u mogelijk een gateway nodig om toegang tot die gegevensbronnen te kunnen krijgen vanuit Power BI. Zie [Wat is een on-premises gegevensgateway](../connect-data/service-gateway-onprem.md) voor meer informatie.
 > 
+
+## <a name="next-steps"></a>Volgende stappen
+
+U kunt allerlei handelingen uitvoeren met Power BI Desktop. Bekijk de volgende bronnen voor meer informatie over de vele mogelijkheden:
+
+* [Wat is Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
+* [Query-overzicht met Power BI Desktop](../transform-model/desktop-query-overview.md)
+* [Gegevenstypen in Power BI Desktop](../connect-data/desktop-data-types.md)
+* [Zelfstudie: gegevens vormgeven en combineren in Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
+* [Algemene querytaken in Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

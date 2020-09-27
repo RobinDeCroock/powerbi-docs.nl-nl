@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937488"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020062"
 ---
 # <a name="analyze-in-excel"></a>In Excel analyseren
 Met **Analyseren in Excel**kunt u Power BI-gegevenssets overbrengen naar Excel, en ze daar weergeven en bewerken met behulp van draaitabellen, grafieken, slicers en andere Excel-functies. Als u **Analyseren in Excel** wilt gebruiken, moet u de functie eerst downloaden uit Power BI downloaden en installeren, en vervolgens een of meer gegevenssets selecteren voor gebruik in Excel. 
@@ -92,6 +92,15 @@ Navigeer in het Power BI-service naar de gegevensset of het rapport dat u wilt a
     >![Schermopname van de banner Bewerken inschakelen in Beveiligde weergave](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
     >
     >![Schermopname van de banner Inhoud inschakelen in Vertrouwd document](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
+
+Wanneer u Excel gebruikt voor het analyseren van Power BI met behulp van een draaitabel, wordt de overname van vertrouwelijkheidslabels naar Excel uitgebreid. Wanneer u een draaitabel in Excel maakt en er een vertrouwelijkheidslabel is toegepast op een Power BI-gegevensset, wordt het label automatisch toegepast op het Excel-bestand. 
+
+Als het label van de gegevensset vervolgens wordt gewijzigd in een meer beperkend label, wordt het label dat op het Excel-bestand is toegepast, automatisch bijgewerkt nadat de gegevens zijn vernieuwd. Als de gegevensset wordt gewijzigd en minder beperkend wordt, wordt het label niet overgenomen of bijgewerkt.
+
+Vertrouwelijkheidslabels in Excel die handmatig zijn ingesteld, worden niet automatisch overschreven met het label van de gegevensset. Als een Excel-bestand een handmatig ingesteld vertrouwelijkheidslabel heeft, wordt een beleidstip weergegeven met de aanbeveling het label bij te werken. 
+
+Zie [Vertrouwelijkheidslabels toepassen in Power BI](../admin/service-security-apply-data-sensitivity-labels.md) voor meer informatie.
+
 
 ## <a name="use-excel-to-analyze-the-data"></a>Excel gebruiken om de gegevens te analyseren
 
@@ -177,4 +186,4 @@ Wellicht bent u ook geïnteresseerd in de volgende artikelen:
 * [Slicers Power BI Desktop gebruiken](../visuals/power-bi-visualization-slicers.md)
 * [Probleemoplossing analyseren in Excel](desktop-troubleshooting-analyze-in-excel.md)
 * [Toegang tot aanbevolen Power BI-tabellen in Excel (preview)](service-excel-featured-tables.md)
-
+* [Vertrouwelijkheidslabels toepassen in Power BI](../admin/service-security-apply-data-sensitivity-labels.md)

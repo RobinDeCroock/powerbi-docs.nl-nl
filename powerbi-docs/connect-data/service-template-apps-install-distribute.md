@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235692"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763758"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Sjabloon-apps in uw organisatie installeren en distribueren
 
@@ -75,13 +75,9 @@ Als u een sjabloon-app wilt installeren, aanpassen en distribueren, hebt u het v
 
    ![De koppeling Uw gegevens koppelen in de GitHub-app](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    Hiermee opent u het dialoogvenster met parameters, waar u de gegevensbron van de voorbeeldgegevens in uw eigen gegevensbron kunt wijzigen (zie [bekende beperkingen](service-template-apps-overview.md#known-limitations)), gevolgd door het dialoogvenster met de verificatiemethode. Mogelijk moet u de waarden in deze dialoogvensters opnieuw definiëren. Raadpleeg de documentatie van de sjabloon-app die u wilt installeren voor meer informatie.
 
-    
-    Hiermee opent u een dialoogvenster of een reeks dialoogvensters waarin u de gegevensbron van de voorbeeldgegevens kunt wijzigen in uw eigen gegevensbron. Over het algemeen betekent dit dat u parameters van de gegevensset en referenties van de gegevensbron opnieuw definieert. Raadpleeg [Bekende beperkingen](service-template-apps-overview.md#known-limitations).
-    
-    In het onderstaande voorbeeld zijn twee dialoogvensters betrokken bij het maken van verbinding met gegevens.
-
-   ![Verbinding maken met gegevensdialoogvensters](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![Schermopname van de dialoogvensters om verbinding te maken met gegevens.](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     Wanneer u klaar bent met het invullen van de verbindingsdialoogvensters, wordt het verbindingsproces gestart. Met een banner wordt aangegeven dat de gegevens worden vernieuwd en dat u in de tussentijd naar voorbeeldgegevens kijkt.
 
@@ -110,11 +106,11 @@ Van tijd tot tijd brengen makers van sjabloon-apps nieuwe versies van hun sjablo
 
 Als u de app oorspronkelijk hebt gedownload vanaf AppSource, krijgt u op twee manieren bericht wanneer een nieuwe versie van de sjabloon-app beschikbaar wordt:
 * Er wordt een banner voor updates weergegeven in de Power BI-service om u te laten weten dat er een nieuwe app-versie beschikbaar is.
-  ![Updatemelding van sjabloon-app](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![Meldingenbanner voor een update van de sjabloon-app](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * U ontvangt een melding in het deelvenster Meldingen van Power BI.
 
 
-  ![Updatemelding van sjabloon-app](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![Meldingsvenster voor een update van de sjabloon-app](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >Als u de app oorspronkelijk hebt ontvangen via een directe koppeling in plaats van via AppSource, is de enige manier om te weten te komen of een nieuwe versie beschikbaar is, door contact op te nemen met de maker van de sjabloon-app.

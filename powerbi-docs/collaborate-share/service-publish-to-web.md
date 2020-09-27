@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/08/2020
+ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642652"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858848"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -183,6 +183,7 @@ U moet [een van deze personen](https://docs.microsoft.com/office365/admin/admin-
 - R- en Python-visuals worden momenteel niet ondersteund in **Publiceren op internet**-rapporten.
 - Exporteren van gegevens uit de visuals in een rapport dat is gepubliceerd op internet.
 - ArcGIS Maps for Power BI-visuals.
+- Q&A voor Power BI-visuals.
 - Rapporten met DAX-metingen op rapportniveau.
 - Gegevensquerymodellen voor eenmalige aanmelding.
 - Beveiligde vertrouwelijke of eigendomsinformatie.

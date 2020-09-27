@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/21/2020
+ms.openlocfilehash: 0abaf886806ea783bb478f47d020daeea7829da5
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478010"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965120"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>Power BI-inhoud insluiten in Microsoft Teams
 
@@ -30,9 +30,9 @@ Als u het tabblad **Power BI** in Microsoft Teams wilt gebruiken, moet u ervoor 
 - Als gebruikers het rapport willen bekijken op het **Power BI**-tabblad in Microsoft Teams, moeten ze gemachtigd zijn om het rapport te bekijken.
 - Gebruikers moeten gebruikers van Microsoft Teams zijn met toegang tot kanalen en chats.
 
-Zie [Samenwerken in Microsoft Teams met Power BI](service-embed-report-microsoft-teams.md) voor achtergrondinformatie over de manier waarop Power BI en Teams samenwerken, met inbegrip van andere vereisten.
+Zie [Samenwerken in Microsoft Teams met Power BI](service-embed-report-microsoft-teams.md) voor achtergrondinformatie over de manier waarop Power BI en Microsoft Teams samenwerken, inclusief andere vereisten.
 
-## <a name="embed-a-report-in-teams"></a>Een rapport insluiten in Teams
+## <a name="embed-a-report-in-microsoft-teams"></a>Een rapport insluiten in Microsoft Teams
 
 Volg deze stappen als u uw rapport wilt insluiten in een Microsoft Teams-kanaal of -chat.
 
@@ -74,6 +74,7 @@ Wanneer u een tabblad voor een Power BI-rapport toevoegt aan Microsoft Teams, wo
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 
+- Wanneer u in Microsoft Teams gegevens exporteert vanuit een visueel element in een Power BI-rapport, wordt het automatisch opgeslagen in de map Downloads. Het is een Excel-bestand met de naam data (*n*).xlsx, waarbij *n* het aantal malen aangeeft dat u gegevens naar dezelfde map hebt geëxporteerd.
 - U kunt geen Power BI-dashboards insluiten in het **Power BI**-tabblad voor Microsoft Teams.
 - [URL-filters](service-url-filters.md) worden niet ondersteund voor het **Power BI**-tabblad voor Microsoft Teams.
 - In nationale clouds is het nieuwe **Power BI**-tabblad niet beschikbaar. Er is mogelijk een oudere versie beschikbaar die geen ondersteuning biedt voor de nieuwe werkruimte of rapporten in Power BI-apps.

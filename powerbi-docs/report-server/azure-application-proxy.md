@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364072"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861286"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Een Power BI Report Server configureren met Azure-toepassingsproxy
 
-In dit artikel wordt besproken hoe u Azure Active Directory-toepassingsproxy kunt gebruiken om verbinding te maken met Power BI Report Server en SQL Server Reporting Services (SSRS) 2016 en hoger. Via deze integratie hebben gebruikers die zich buiten het bedrijfsnetwerk bevinden toegang tot hun Power BI Report Server- en Reporting Services-rapporten vanuit hun clientbrowser en worden ze beschermd door verificatie vooraf door Azure Active Directory (AD). Zie [Azure Active Directory-toepassingsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) voor meer informatie over externe toegang tot on-premises toepassingen.
+In dit artikel wordt besproken hoe u Azure Active Directory-toepassingsproxy kunt gebruiken om verbinding te maken met Power BI Report Server en SQL Server Reporting Services (SSRS) 2016 en hoger. Via deze integratie hebben gebruikers die zich buiten het bedrijfsnetwerk bevinden toegang tot hun Power BI Report Server- en Reporting Services-rapporten vanuit hun clientbrowser en worden ze beschermd door verificatie vooraf door Azure Active Directory (AD). Zie [Azure Active Directory-toepassingsproxy](/azure/active-directory/manage-apps/application-proxy) voor meer informatie over externe toegang tot on-premises toepassingen.
 
 ## <a name="environment-details"></a>Omgevingsdetails
 
@@ -125,7 +125,7 @@ Met deze stappen kunt u Power BI Report Server configureren voor het gebruik van
 
 ## <a name="configure-azure-application-proxy-connector"></a>Azure Application Proxy Connector configureren
 
-Raadpleeg het artikel over [configuratie met betrekking tot de Application Proxy Connector](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)
+Raadpleeg het artikel over [configuratie met betrekking tot de Application Proxy Connector](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad)
 
 We hebben de Application Proxy Connector geïnstalleerd op Power BI Report Server, maar u kunt deze configureren op een afzonderlijke server en ervoor zorgen dat delegatie correct is ingesteld.
 
@@ -150,14 +150,14 @@ Voor de configuratie van KCD herhaalt u de volgende stappen voor elke connectorc
 
 Nu kunt u Azure AD-toepassingsproxy gaan configureren.
 
-Publiceer Power BI Report Server via een toepassingsproxy met de volgende instellingen. Zie [Toepassingen publiceren met Azure AD-toepassingsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad) voor stapsgewijze instructies voor het publiceren van een toepassing via een toepassingsproxy.
+Publiceer Power BI Report Server via een toepassingsproxy met de volgende instellingen. Zie [Toepassingen publiceren met Azure AD-toepassingsproxy](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad) voor stapsgewijze instructies voor het publiceren van een toepassing via een toepassingsproxy.
 
 - **Interne URL**: Voer de URL naar de rapportserver in waartoe de connector in het bedrijfsnetwerk toegang heeft. Zorg dat deze URL bereikbaar is vanaf de server waarop de connector is geïnstalleerd. Een best practice is het gebruik van een domein op het hoogste niveau, zoals `https://servername/`, om problemen te voorkomen met subpaden die zijn gepubliceerd via toepassingsproxy. Gebruik bijvoorbeeld `https://servername/` en niet `https://servername/reports/` of `https://servername/reportserver/`. We hebben onze omgeving geconfigureerd met `https://pbirsazureapp.eastus.cloudapp.azure.com/`.
 
     > [!NOTE]
-    > U kunt het beste een beveiligde HTTPS-verbinding met de rapportserver gebruiken. Zie [SSL-verbindingen configureren op een rapportserver in de native modus](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017) voor meer informatie over hoe u dit doet.
+    > U kunt het beste een beveiligde HTTPS-verbinding met de rapportserver gebruiken. Zie [SSL-verbindingen configureren op een rapportserver in de native modus](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server) voor meer informatie over de procedures.
 
-- **Externe URL**: Voer de openbare URL in waarmee de mobiele Power BI-app verbinding maakt. Als er een aangepast domein wordt gebruikt, kan het er bijvoorbeeld uitzien als `https://reports.contoso.com`. Als u een aangepast domein wilt gebruiken, uploadt u een certificaat voor het domein en laat u een DNS-record naar het standaarddomein msappproxy.net voor uw toepassing wijzen. Zie [Aangepaste domeinen configureren met Azure AD-toepassingsproxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-custom-domain) voor gedetailleerde stappen.
+- **Externe URL**: Voer de openbare URL in waarmee de mobiele Power BI-app verbinding maakt. Als er een aangepast domein wordt gebruikt, kan het er bijvoorbeeld uitzien als `https://reports.contoso.com`. Als u een aangepast domein wilt gebruiken, uploadt u een certificaat voor het domein en laat u een DNS-record naar het standaarddomein msappproxy.net voor uw toepassing wijzen. Zie [Aangepaste domeinen configureren met Azure AD-toepassingsproxy](/azure/active-directory/manage-apps/application-proxy-configure-custom-domain) voor gedetailleerde stappen.
 
 We hebben de externe URL voor onze omgeving geconfigureerd als `https://pbirsazureapp-umacontoso2410.msappproxy.net/`.
 
@@ -184,7 +184,7 @@ Nadat de app is gepubliceerd, configureert u de instellingen voor eenmalige aanm
     - Probeer een rapport uit te voeren of een testverbinding met de gegevensbron tot stand te brengen, zodat er een Kerberos-ticket wordt gemaakt.
     - Nadat het rapport is gemaakt of een testverbinding tot stand is gebracht, opent u de opdrachtprompt en voert u de volgende opdracht uit: `klist`. In de sectie met resultaten ziet u een ticket met `http/` SPN. Als dit hetzelfde is als de SPN die u hebt geconfigureerd met Power BI Report Server, gebruikt u deze SPN in deze sectie.
 
-1. Kies de **Gedelegeerde aanmeldingsidentiteit** voor de connector die u namens uw gebruikers wilt gebruiken. Zie [Werken met verschillende on-premises en cloud-identiteiten](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities) voor meer informatie.
+1. Kies de **Gedelegeerde aanmeldingsidentiteit** voor de connector die u namens uw gebruikers wilt gebruiken. Zie [Werken met verschillende on-premises en cloud-identiteiten](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities) voor meer informatie.
 
     U kunt het beste de principal-naam van de gebruiker gebruiken. In ons voorbeeld hebben we deze geconfigureerd om te werken met de optie **Principal-naam van gebruiker**:
 
@@ -216,7 +216,7 @@ U voltooit het instellen van uw toepassing door naar de sectie **Gebruikers en g
 1. Eerst moeten we het aangepaste domein configureren dat we in de aanmelding willen gaan gebruiken en vervolgens moeten we ervoor zorgen dat het wordt geverifieerd
 2. In dit geval hebben we een domein met de naam umacontoso.com aangeschaft en de DNS-zone met de vermeldingen geconfigureerd. U kunt ook proberen het domein `onmicrosoft.com` te gebruiken en dit te synchroniseren met on-premises AD.
 
-    Zie het artikel [Zelfstudie: Een bestaande aangepaste DNS-naam toewijzen aan Azure App Service](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain) voor meer informatie.
+    Zie het artikel [Zelfstudie: Een bestaande aangepaste DNS-naam toewijzen aan Azure App Service](/Azure/app-service/app-service-web-tutorial-custom-domain) voor meer informatie.
 
 1. Wanneer de DNS-vermelding voor het aangepaste domein is geverifieerd, zou de status moeten worden weergegeven als **Geverifieerd**, overeenkomstig het domein in de portal.
 
@@ -295,8 +295,6 @@ Voordat de mobiele Power BI-app verbinding kan maken met en toegang kan krijgen 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Externe toegang tot Power BI - Mobiel met Azure AD-toepassingsproxy inschakelen](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+[Externe toegang tot Power BI - Mobiel met Azure AD-toepassingsproxy inschakelen](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-
-                

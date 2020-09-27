@@ -1,6 +1,6 @@
 ---
 title: Samenwerken in Microsoft Teams met Power BI
-description: U kunt eenvoudig interactieve Power BI-inhoud delen en hieraan samenwerken in Microsoft Teams-kanalen en -chats.
+description: Naarmate verspreide werknemers meer en meer de norm worden, vertrouwen steeds meer organisaties op Microsoft Teams om werken op afstand mogelijk te maken en werknemers op één lijn te houden.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,23 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/15/2020
+ms.openlocfilehash: d0510a3c8caf2e07034b9410d4338431670833e5
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478033"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005486"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Samenwerken in Microsoft Teams met Power BI
 
-Naarmate verspreide werknemers en thuiswerkers meer en meer de norm worden, vertrouwen steeds meer organisaties op Microsoft Teams om werknemers op één lijn te houden. Power BI biedt verschillende mogelijkheden om interactieve Power BI-inhoud te delen en hieraan samen te werken in Microsoft Teams-kanalen en -chats. 
+Naarmate verspreide werknemers meer en meer de norm worden, vertrouwen steeds meer organisaties op Microsoft Teams om werken op afstand mogelijk te maken en werknemers op één lijn te houden. In dit artikel worden opties beschreven om interactieve Power BI-inhoud te delen en hieraan samen te werken in Microsoft Teams-kanalen en -chats. 
 
-- Met het **Power BI**-tabblad voor Microsoft Teams kunt u eenvoudig [interactieve rapporten insluiten in Microsoft Teams](service-embed-report-microsoft-teams.md)-kanalen en -chats. Op het **Power BI**-tabblad kunnen uw collega's de gegevens van uw team vinden en die gegevens via uw teamkanalen met elkaar bespreken. 
+- Met het tabblad **Power BI** voor Microsoft Teams kunt u [interactieve rapporten insluiten in Microsoft Teams-kanalen en -chats](service-embed-report-microsoft-teams.md). Op het Power BI-tabblad kunnen uw collega's de gegevens van uw team vinden en die gegevens via uw teamkanalen met elkaar bespreken. 
 - Wanneer u een koppeling naar uw rapporten, dashboards en apps in het Microsoft Teams-berichtvak plakt, wordt een [koppelingsvoorbeeld](service-teams-link-preview.md) gemaakt. Het koppelingsvoorbeeld toont informatie over de koppeling. 
-- Gebruik [Delen met Teams](service-share-report-teams.md) wanneer u rapporten en dashboards in de Power BI-service bekijkt om snel gesprekken in Teams te starten.
+- Gebruik [Delen met Microsoft Teams](service-share-report-teams.md) wanneer u rapporten en dashboards in de Power BI-service bekijkt om snel gesprekken in Microsoft Teams te starten.
+- Gebruik de [Power BI-app in Microsoft Teams](service-microsoft-teams-app.md) om de ervaring van uw Power BI-basisservice in Microsoft Teams onder te brengen.
  
-:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Schermopname van een Power BI-rapport dat in een Teams-kanaal is ingesloten.":::
+:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="Schermopname van een Power BI-rapport dat in een Microsoft Teams-kanaal is ingesloten.":::
 
 ## <a name="requirements"></a>Vereisten
 
@@ -56,10 +57,19 @@ Eén manier om ervoor te zorgen dat iedereen in een team toegang heeft tot rappo
 - Eenmalige aanmelding wordt niet ondersteund voor de service voor koppelingsvoorbeelden.
 - Koppelingsvoorbeelden werken niet in chat- of privé-kanalen voor vergaderingen.
 
+## <a name="microsoft-power-platform-in-microsoft-teams"></a>Microsoft Power Platform in Microsoft Teams
+
+De overige Microsoft Power Platform-apps worden ook geïntegreerd met Microsoft Teams.
+
+- [Power Platform-beheerervaring](/power-platform/admin/about-teams-environment)
+- [Power Automate](/power-automate/teams/overview)
+- [Power Apps](/powerapps/teams/overview)
+- [Power Virtual Agents](/power-virtual-agents/)
+
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Power BI-inhoud insluiten in Microsoft Teams](service-embed-report-microsoft-teams.md)
 - [Een voorbeeld krijgen van een Power BI-koppeling in Microsoft Teams](service-teams-link-preview.md)
-- [Rechtstreeks delen met Teams vanuit de Power BI-service](service-share-report-teams.md)
+- [Rechtstreeks delen met Microsoft Teams vanuit de Power BI-service](service-share-report-teams.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

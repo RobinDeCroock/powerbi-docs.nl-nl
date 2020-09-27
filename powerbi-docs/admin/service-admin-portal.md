@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642813"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857951"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -116,7 +116,7 @@ Gegevens per gebruiker zijn standaard ingeschakeld voor metrische gebruiksgegeve
 Bij het uitschakelen van metrische gegevens over gebruik voor de gehele organisatie kunnen beheerders ook een of beide van deze opties kiezen:
 
 - **Alle bestaande inhoud voor metrische gegevens over gebruik verwijderen** om alle bestaande rapporten en dashboardtegels te verwijderen die zijn gemaakt met behulp van de rapporten en gegevenssets voor metrische gegevens over gebruik. Deze optie verwijdert alle toegang tot metrische gegevens voor alle gebruikers in de organisatie die deze mogelijk al gebruiken.
-- **Alle bestaande gegevens per gebruiker verwijderen uit de huidige inhoud van metrische gegevens over gebruik** om alle toegang te verwijderen tot gegevens per gebruiker voor alle gebruikers in de organisatie die deze mogelijk al gebruiken. 
+- **Verwijder alle bestaande gegevens per gebruiker uit de huidige inhoud van metrische gegevens over gebruik** om alle toegang tot gegevens per gebruiker te verwijderen voor alle gebruikers in de organisatie die deze mogelijk al gebruiken.
 
 Let op, want het verwijderen van bestaande metrische gegevens over gebruik en gegevens per gebruiker kan niet ongedaan worden gemaakt.
 
@@ -156,7 +156,7 @@ Instellingen hebben een van deze drie statussen:
 
     ![Instelling 'Ingeschakeld voor iedereen'](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Ingeschakeld voor een subset van de organisatie**: In plaats van de functie in te schakelen voor de hele organisatie, kunt u de instelling toepassen op **Specifieke beveiligingsgroepen** in uw organisatie die deze functie mogen gebruiken.
+* **Ingeschakeld voor een subset van de organisatie**: Specifieke beveiligingsgroepen in uw organisatie mogen deze functie gebruiken.
 
     U kunt een functie ook inschakelen voor de hele organisatie **Met uitzondering van beveiligingsgroepen**.
 
@@ -172,9 +172,11 @@ In de volgende secties ziet u een overzicht van de verschillende typen tenantins
 
 ### <a name="publish-get-help-information"></a>Help-informatie publiceren
 
+![Help-informatie publiceren](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+
 Beheerders kunnen interne URL's opgeven om de bestemming van koppelingen in het Help-menu van Power BI te overschrijven, en voor licentie-upgrades. Als aangepaste URL's zijn ingesteld, worden gebruikers in de organisatie naar interne Help- en ondersteuningsresources geleid, in plaats van naar de standaardbestemmingen. De bestemmingen van de volgende resources kunnen worden aangepast:
 
-* **Learn**. Deze koppeling uit het Help-menu leidt standaard naar een [lijst met al uw Power BI-leertrajecten en -modules](https://docs.microsoft.com/learn/browse/?products=power-bi). Als u deze koppeling wilt omleiden naar interne trainingsresources, stelt u een aangepaste URL in voor **Trainingsdocumentatie**.
+* **Learn**. Deze koppeling uit het Help-menu leidt standaard naar een [lijst met al uw Power BI-leertrajecten en -modules](/learn/browse/?products=power-bi). Als u deze koppeling wilt omleiden naar interne trainingsresources, stelt u een aangepaste URL in voor **Trainingsdocumentatie**.
 
 * **Community**. Als u gebruikers vanuit het Help-menu naar een intern forum wilt leiden, in plaats van naar de [Power BI-community](https://community.powerbi.com/), stelt u een aangepaste URL in voor **Discussieforum**.
 
@@ -182,17 +184,17 @@ Beheerders kunnen interne URL's opgeven om de bestemming van koppelingen in het 
 
 * **Hulp vragen**. Als u gebruikers vanuit het Help-menu naar een interne helpdesk wilt leiden, in plaats van naar [Power BI-ondersteuning](https://powerbi.microsoft.com/support/), stelt u een aangepaste URL in voor **Helpdesk**.
 
-![Help-informatie publiceren](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
-
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten
 
 Voor e-mail ingeschakelde beveiligingsgroepen ontvangen e-mailmeldingen als deze tenant wordt beïnvloed door een serviceonderbreking of incident. Meer informatie over [Meldingen over onderbrekingen van de service](service-interruption-notifications.md).
 
 ### <a name="allow-users-to-try-power-bi-pro"></a>Gebruikers toestaan Power BI Pro uit te proberen
 
-De instelling **Gebruikers toestaan Power BI Pro uit te proberen** is standaard ingeschakeld, en biedt u meer controle over hoe gebruikers Power BI Pro-licenties verkrijgen. In scenario's waarin u selfservice-aankopen hebt geblokkeerd, stelt deze instelling gebruikers in staat om een proefversie van Power BI Pro te starten. De ervaring van eindgebruikers is afhankelijk van hoe u licentie-instellingen samenvoegt. In de onderstaande tabel ziet u hoe upgraden van (gratis) Power BI naar Power BI Pro wordt beïnvloed door verschillende instellingencombinaties:
+![Gebruikersinterface-instellingen: Gebruikers toestaan Power BI Pro uit te proberen](media/service-admin-portal/allow-pro-trial.png)
 
-| Instelling voor selfservice-aankopen | Gebruiker toestaan Power BI Pro uit te proberen | Ervaring van de eindgebruiker |
+De instelling om **gebruikers toe te staan Power BI Pro te gebruiken** is standaard ingeschakeld. Met deze instelling wordt de controle vergroot over hoe gebruikers Power BI Pro-licenties kunnen verkrijgen. In scenario's waarin u selfservice-aankopen hebt geblokkeerd, stelt deze instelling gebruikers in staat om een proefversie van Power BI Pro te starten. De ervaring van eindgebruikers is afhankelijk van hoe u licentie-instellingen samenvoegt. In de onderstaande tabel ziet u hoe upgraden van (gratis) Power BI naar Power BI Pro wordt beïnvloed door verschillende instellingencombinaties:
+
+| Instelling voor selfservice-aankopen | Gebruiker toestaan Power BI Pro uit te proberen | Ervaring voor de eindgebruiker |
 | ------ | ------ | ----- |
 | Ingeschakeld | Uitgeschakeld | Gebruiker kan een Pro-licentie kopen, maar geen proefversie starten |
 | Ingeschakeld | Ingeschakeld | Gebruiker kan een gratis proefversie van Pro starten, en kan upgraden naar een betaalde licentie |
@@ -200,9 +202,7 @@ De instelling **Gebruikers toestaan Power BI Pro uit te proberen** is standaard 
 | Uitgeschakeld | Ingeschakeld | Gebruiker kan een proefversie van Pro starten, maar moet contact opnemen met de IT-beheerder om een betaalde licentie te krijgen |
 
 > [!NOTE]
-> U kunt een interne URL voor licentieaanvragen toevoegen in [Instellingen voor Help en ondersteuning](#help-and-support-settings). Als u de URL instelt, wordt de standaardaankoopervaring overschreven. Gebruikers die een licentie kunnen kopen in de scenario's die in de bovenstaande tabel zijn beschreven, worden omgeleid naar uw interne URL.
-
-![Gebruikersinterface-instellingen: Gebruikers toestaan Power BI Pro uit te proberen](media/service-admin-portal/allow-pro-trial.png)
+> U kunt een interne URL voor licentieaanvragen toevoegen in [Instellingen voor Help en ondersteuning](#help-and-support-settings). Als u de URL instelt, wordt de standaard-selfserviceaankoopervaring overschreven. De aanmelding wordt niet omgeleid voor proefversie van een Power BI Pro-licentie. Gebruikers die een licentie kunnen kopen in de scenario's die in de bovenstaande tabel zijn beschreven, worden omgeleid naar uw interne URL.
 
 Zie [Selfservice-registratie en -aankopen in- of uitschakelen](service-admin-disable-self-service.md) voor meer informatie.
 
@@ -216,7 +216,7 @@ In **Tenantinstellingen** in de beheerportal zijn drie secties voor het beheren 
 
 ### <a name="create-the-new-workspaces"></a>Nieuwe werkruimten maken
 
-Werkruimten zijn plaatsen waar gebruikers kunnen samenwerken aan dashboards, rapporten en andere inhoud. Beheerders gebruiken de instelling **Werkruimten maken (nieuwe werkruimte-ervaring)** om aan te geven welke gebruikers in de organisatie werkruimten mogen maken. Beheerders kunnen iedereen of niemand binnen de organisatie toestemming geven om werkruimten te maken. Ze kunnen het maken van werkruimten ook beperken tot leden van specifieke beveiligingsgroepen. Meer informatie over [werkruimten](../collaborate-share/service-new-workspaces.md).
+Werkruimten zijn plaatsen waar gebruikers samenwerken aan dashboards, rapporten en andere inhoud. Beheerders gebruiken de instelling **Werkruimten maken (nieuwe werkruimte-ervaring)** om aan te geven welke gebruikers in de organisatie werkruimten mogen maken. Beheerders kunnen iedereen of niemand binnen de organisatie toestemming geven om werkruimten te maken. Ze kunnen het maken van werkruimten ook beperken tot leden van specifieke beveiligingsgroepen. Meer informatie over [werkruimten](../collaborate-share/service-new-workspaces.md).
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Werkruimten maken (nieuwe werkruimte-ervaring)":::
 
@@ -253,13 +253,13 @@ Als deze functie is ingeschakeld, worden nieuw gemaakte Office 365-groepen niet 
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>Gastgebruikers van Azure Active Directory toegang tot Power BI geven
 
-Als u deze instelling inschakelt, hebben gastgebruikers van Azure Active Directory Business-to-Business (Azure AD B2B) toegang tot Power BI. Wanneer u deze instelling uitschakelt, ontvangen gastgebruikers een foutmelding als ze Power BI proberen te openen. Wanneer u deze instelling voor de hele organisatie uitschakelt, kunnen gebruikers ook geen gasten uitnodigen voor uw organisatie. Gebruik de optie specifieke beveiligingsgroepen om te bepalen welke gastgebruikers toegang hebben tot Power BI.
+Als u deze instelling inschakelt, hebben gastgebruikers van Azure Active Directory Business-to-Business (Azure AD B2B) toegang tot Power BI. Als u deze instelling uitschakelt, ontvangen gastgebruikers een foutmelding als ze Power BI willen openen. Als u deze instelling voor de hele organisatie uitschakelt, kunnen gebruikers ook geen gasten voor uw organisatie uitnodigen. Gebruik de optie specifieke beveiligingsgroepen om te bepalen welke gastgebruikers toegang hebben tot Power BI.
 
 ![Gastgebruikers van Azure Active Directory toegang tot Power BI geven](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
 ### <a name="invite-external-users-to-your-organization"></a>Externe gebruikers uitnodigen voor uw organisatie 
 
-De instelling **Externe gebruikers uitnodigen voor uw organisatie** helpt organisaties om te kiezen of nieuwe externe gebruikers voor de organisatie kunnen worden uitgenodigd via delen en het verlenen van machtigingen in Power BI. Als deze instelling is uitgeschakeld en een externe gebruiker nog geen gastgebruiker in de organisatie is, kan deze niet via Power BI worden toegevoegd aan de organisatie. 
+De instelling **Externe gebruikers uitnodigen voor uw organisatie** helpt organisaties om te kiezen of nieuwe externe gebruikers voor de organisatie kunnen worden uitgenodigd via delen en het verlenen van machtigingen in Power BI. Als deze instelling is uitgeschakeld, kan een externe gebruiker die nog geen gastgebruiker in de organisatie is, niet via Power BI aan de organisatie worden toegevoegd.
 
 ![Externe gebruikers uitnodigen voor uw organisatie](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
 
@@ -298,7 +298,7 @@ Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van 
 
 ### <a name="export-data"></a>Gegevens exporteren
 
-Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. Hiermee worden analyseren in Excel, exporteren naar CSV, het downloaden van gegevenssets (PBIX) en de functies van Power BI Service Live Connect bediend. Meer informatie over [het exporteren van gegevens vanaf een tegel of visual](../visuals/power-bi-visualization-export-data.md).
+Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. Met deze instelling kunnen het analyseren in Excel, het exporteren naar CSV, het downloaden van gegevenssets (PBIX) en de functies van Power BI Service Live Connect worden geregeld. Meer informatie over [het exporteren van gegevens vanaf een tegel of visual](../visuals/power-bi-visualization-export-data.md).
 
 >[!NOTE]
 > Vóór de introductie van de instelling voor exporteren naar Excel werd met deze instelling ook het exporteren van gegevens naar Excel-bestanden beheerd. Zie de [opmerking onder Exporteren naar Excel](#export-to-excel) voor meer informatie.
@@ -488,19 +488,19 @@ Drie instellingen bepalen wie de mogelijkheid heeft om sjabloon-apps te publicer
 
 Gebruikers in de organisatie kunnen werkruimten voor sjabloon-apps maken. U bepaalt welke gebruikers sjabloon-apps mogen publiceren of distribueren aan clients buiten uw organisatie via [AppSource](https://appsource.microsoft.com) of andere distributiemethoden.
 
-![Instelling voor Sjabloon-apps maken in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+![Instelling voor de publicatiesjabloon-apps zijn ingeschakeld voor de hele organisatie](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
 ### <a name="install-template-apps-listed-on-appsource"></a>Sjabloon-apps installeren die in AppSource worden vermeld
 
 Gebruikers in de organisatie kunnen **alleen** vanuit [AppSource](https://appsource.microsoft.com) sjabloon-apps downloaden en installeren. U bepaalt welke specifieke gebruikers of beveiligingsgroepen sjabloon-apps mogen installeren vanuit AppSource.
 
-![Instelling voor Sjabloon-apps installeren in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+![Instelling voor het installeren van sjabloon-apps](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>Sjabloon-apps installeren die niet in AppSource worden vermeld
 
 U bepaalt welke gebruikers in de organisatie sjabloon-apps mogen downloaden en installeren die **niet in [ AppSource](https://appsource.microsoft.com) worden vermeld**.
 
-![Instelling voor Sjabloon-apps installeren in de Power BI-beheerportal](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
+![Sjabloon-apps installeren die niet in de AppSource-instelling worden vermeld](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>Capaciteitsinstellingen
 

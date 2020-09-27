@@ -6,30 +6,30 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: reference
-ms.date: 09/01/2020
+ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 9ab371844f4c746bfcb4c993dec0b32237e5c26a
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286769"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763063"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lijst met Power BI-functies voor *consumenten* en anderen met een gratis licentie
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-Als *consument* gebruikt u de Power BI-service om rapporten en dashboards te verkennen om zakelijke beslissingen te nemen. Deze rapporten en dashboards worden gemaakt door *ontwerpers*  die een Power BI *Pro*-licentie hebben. Pro-gebruikers hebben de mogelijkheid om inhoud te delen met hun collega's en om te bepalen wat hun collega's wel en niet met die inhoud kunnen doen. Soms delen ontwerpers inhoud door u koppelingen te sturen. Andere keren wordt de inhoud automatisch geïnstalleerd en weergegeven in Power BI onder **Apps** of **Gedeeld met mij**.
+Als *zakelijke gebruiker* gebruikt u de Power BI-service om rapporten en dashboards te verkennen om zakelijke beslissingen te nemen. Deze rapporten en dashboards worden gemaakt door *ontwerpers*  die een Power BI *Pro*-licentie hebben. Pro-gebruikers hebben de mogelijkheid om inhoud te delen met hun collega's en om te bepalen wat hun collega's wel en niet met die inhoud kunnen doen. Soms delen ontwerpers inhoud door u koppelingen te sturen. Andere keren wordt de inhoud automatisch geïnstalleerd en weergegeven in Power BI onder **Apps** of **Gedeeld met mij**.
 
-Er zijn veel verschillende manieren waarop ontwerpers inhoud kunnen delen. Dit artikel is echter bedoeld voor Power BI-*consumenten*, en daarom wordt alleen beschreven hoe consumenten inhoud kunnen ontvangen en ermee kunnen werken. Zie [Manieren om uw werk te delen in Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md) voor meer informatie over andere manieren om inhoud te delen.
+Er zijn veel verschillende manieren waarop ontwerpers inhoud kunnen delen. Dit artikel is echter bedoeld voor *zakelijke gebruikers* van Power BI en daarom wordt alleen beschreven hoe *zakelijke gebruikers* inhoud kunnen ontvangen en ermee kunnen werken. Zie [Manieren om uw werk te delen in Power BI](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md) voor meer informatie over andere manieren om inhoud te delen.
 
 ![Navigatiedeelvenster van Power BI](media/end-user-features/power-bi-share.png)
 
 In het [vorige artikel](end-user-license.md) hebt u geleerd dat het afhankelijk is van drie factoren wat u met dashboards, rapporten en apps (inhoud) in de Power BI-service kunt doen: uw licenties, uw rollen en machtigingen en de locatie waar inhoud is opgeslagen.
 
-In dit artikel leest u welke functies in de Power BI-service beschikbaar zijn voor *consumenten* zoals u. Per definitie gebruiken *consumenten* een gratis licentie om in de Power BI-service (niet in Power BI Desktop) te werken en zijn ze lid van organisaties die over Premium-capaciteit beschikken.
+In dit artikel leest u welke functies in de Power BI-service beschikbaar zijn voor *zakelijke gebruikers* als u. Per definitie hebben *zakelijke gebruikers* een gratis licentie om in de Power BI-service (niet in Power BI Desktop) te werken en zijn ze lid van organisaties met inhoud in Premium-capaciteit.
 
 <art>
 
@@ -37,21 +37,21 @@ In dit artikel leest u welke functies in de Power BI-service beschikbaar zijn vo
 We gaan eerst enkele Power BI-concepten nader onder de loep nemen voordat we de lijst gaan bekijken. Dit is maar een beknopt overzicht. Als u meer informatie nodig hebt, gaat u naar [Licenties voor consumenten](end-user-license.md) of [Basisconcepten van Power BI](end-user-basic-concepts.md).
 
 ### <a name="workspaces-and-roles"></a>Werkruimten en rollen
-Er zijn twee typen werkruimten: **Mijn werkruimte** en app-werkruimten. Alleen u hebt toegang tot uw **Mijn werkruimte**. Om te kunnen samenwerken en delen, moet *ontwerpers* van de inhoud, die over Pro-licenties beschikken, een app-werkruimte gebruiken. 
+Er zijn twee typen werkruimten: **Mijn werkruimte** en app-werkruimten. Alleen u hebt toegang tot uw eigen **Mijn werkruimte**. Om te kunnen samenwerken en delen, moet *ontwerpers* van de inhoud, die over Pro-licenties beschikken, een app-werkruimte gebruiken. 
 
-In app-werkruimten worden *rollen* toegewezen door de ontwerpers om te beheren wie wat kan doen in die werkruimte. Aan *consumenten* wordt de rol van **kijker** toegewezen. 
+In app-werkruimten worden *rollen* toegewezen door de ontwerpers om te beheren wie wat kan doen in die werkruimte. *Zakelijke gebruikers* wordt vaak de rol **Viewer** toegewezen. 
 
 ### <a name="premium-capacity"></a>Premium-capaciteit
 Wanneer een organisatie een abonnement voor Premium-capaciteit heeft, kunnen beheerders en Pro-gebruikers werkruimten toewijzen aan *toegewezen capaciteit*. Een werkruimte in een toegewezen capaciteit is een ruimte waarin Pro-gebruikers kunnen delen en samenwerken met gebruikers die een gratis licentie hebben; deze gebruikers hebben dus geen Pro-licenties nodig. Binnen deze werkruimten hebben gratis gebruikers verhoogde machtigingen nodig. (Zie de lijst hieronder.) 
 
 ### <a name="licenses"></a>Licenties 
-Elke Power BI-servicegebruiker heeft een gratis licentie of een Pro-licentie. *Consumenten* hebben gratis licenties.
+Elke Power BI-servicegebruiker heeft een gratis licentie of een Pro-licentie. *Zakelijke gebruikers* hebben gratis licenties.
 
-- **Gratis licentie**: wordt doorgaans toegewezen aan *consumenten* in een organisatie (zie de eerste afbeelding hieronder). Wordt ook toegewezen aan iedereen die zich aanmeldt voor de Power BI-service als individuele gebruiker en de [Power BI-service in de zelfstandige modus wil proberen ](../fundamentals/service-self-service-signup-for-power-bi.md) (zie de tweede afbeelding hieronder). 
+- **Gratis licentie**: wordt doorgaans toegewezen aan *zakelijke gebruikers* in een organisatie (zie de eerste afbeelding hieronder). Wordt ook toegewezen aan iedereen die zich aanmeldt voor de Power BI-service als individuele gebruiker en de [Power BI-service in de zelfstandige modus wil proberen ](../fundamentals/service-self-service-signup-for-power-bi.md) (zie de tweede afbeelding hieronder). 
 
     ![scherm met een Premium-gebruiker](media/end-user-features/power-bi-free-organization.png)
 
-    Gebruikers die een gratis versie gebruiken en lid zijn van een organisatie die Premium-capaciteit heeft, krijgen de machtigingen van een supergebruiker. Zolang uw collega's met Pro gebruikmaken van werkruimten in Premium-capaciteit om inhoud te delen, kunnen gebruikers van een gratis versie inhoud van deze Pro-collega's bekijken en met hen samenwerken.  **Op deze manier wordt de gratis gebruiker een Power BI-*consument*, die inhoud kan ontvangen en delen om zakelijke beslissingen te nemen.** 
+    Gebruikers die een gratis versie gebruiken en lid zijn van een organisatie die Premium-capaciteit heeft, krijgen de machtigingen van een supergebruiker. Zolang uw collega's met Pro gebruikmaken van werkruimten in Premium-capaciteit om inhoud te delen, kunnen gebruikers van een gratis versie inhoud van deze Pro-collega's bekijken en met hen samenwerken.  **Op deze manier krijgt de gratis gebruiker de mogelijkheid om inhoud te gebruiken die door anderen is gemaakt. Net als hun collega's, waaronder Pro-gebruikers, kan de zakelijke gebruiker dezelfde dashboards, rapporten en apps ontvangen, delen en eraan werken om zakelijke beslissingen te nemen.** 
  
     ![schermopname met Gratis gebruiker](media/end-user-features/power-bi-free-user.png)
 
@@ -59,15 +59,15 @@ Elke Power BI-servicegebruiker heeft een gratis licentie of een Pro-licentie. *C
    
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>Lijst met Power BI-functies voor *consumenten* en gebruikers van een gratis versie
-In de volgende grafiek ziet u welke taken kunnen worden uitgevoerd door een *consument* die met inhoud in Premium-capaciteit en in gedeelde capaciteit werkt.    
+In de volgende grafiek ziet u welke taken kunnen worden uitgevoerd door een *zakelijke gebruiker* die met inhoud in Premium-capaciteit werkt.    
 
 De eerste kolom vertegenwoordigt een gebruiker van een gratis versie die werkt met inhoud in **Mijn werkruimte**. Deze gebruiker kan niet samenwerken met collega's in de Power BI-service. Collega's kunnen inhoud niet rechtstreeks delen met deze gebruiker en deze gebruiker kan niets delen dat zich in **Mijn werkruimte** bevindt. 
 
-De tweede kolom vertegenwoordigt een *consument*.  Een consument:
+De tweede kolom vertegenwoordigt een *zakelijke gebruiker*.  Een zakelijke gebruiker:
 
 - heeft een gratis gebruikerslicentie
 - maakt deel uit van een organisatie met een abonnement voor Premium-capaciteit
-- krijgt inhoud (apps, dashboards, rapporten) van Pro-gebruikers die deze inhoud delen met behulp van app-werkruimten in toegewezen capaciteit.
+- krijgt inhoud (apps, dashboards, rapporten) van Pro-gebruikers die deze inhoud delen met behulp van app-werkruimten in toegewezen Premium-capaciteit.
 - krijgt de rol van **kijker** voor deze app-werkruimten toegewezen. 
 
 ### <a name="legend"></a>Legenda
@@ -79,7 +79,7 @@ Functies met een ![oranje x](media/end-user-features/orange-x.png) zijn niet bes
 
 ### <a name="feature-list"></a>Lijst met functies
 
-|Functies   | Scenario 1: Een gebruiker van een gratis versie van Power BI heeft geen toegang tot inhoud die op toegewezen capaciteit wordt gehost.    | Scenario 2: Power BI gratis gebruiker met **kijker**machtigingen voor inhoud die is opgeslagen in toegewezen capaciteit. Deze persoon is een Power BI-*consument*. |
+|Functies   | Scenario 1: Een gebruiker van een gratis versie van Power BI heeft geen toegang tot inhoud die op toegewezen capaciteit wordt gehost.    | Scenario 2: Power BI gratis gebruiker met **kijker**machtigingen voor inhoud die is opgeslagen in toegewezen capaciteit. Deze persoon is een *zakelijke gebruiker* van Power BI. |
 |---|---|---|
 |**Apps** 
 |Wordt automatisch geïnstalleerd | ![oranje x](media/end-user-features/orange-x.png) | ![groene stip](media/end-user-license/power-bi-green-dot.png)*| 
@@ -170,8 +170,6 @@ Functies met een ![oranje x](media/end-user-features/orange-x.png) zijn niet bes
 | Visuals: aanwijzen om details en knopinfo weer te geven  |![groene myw](media/end-user-features/green-mwo.png)  |![groene stip](media/end-user-license/power-bi-green-dot.png) |
 
 
-1. Alleen beschikbaar vanuit de inhoudsweergave **Gedeeld met mij**. 
-
 
 ## <a name="next-steps"></a>Volgende stappen
-[Power BI voor *consumenten*](end-user-consumer.md)    
+[Power BI voor *zakelijke gebruikers*](end-user-consumer.md)    

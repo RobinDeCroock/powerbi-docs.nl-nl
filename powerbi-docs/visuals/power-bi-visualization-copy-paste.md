@@ -6,15 +6,15 @@ ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/13/2020
+ms.date: 09/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5791f2428c13bca9a6e2df02e7739623bb51fc96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233274"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763109"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Een rapportvisualisatie kopiëren en plakken
 
@@ -23,7 +23,7 @@ ms.locfileid: "85233274"
 In dit artikel worden twee verschillende manieren besproken om een visual te kopiëren en plakken. 
 * een visual in een rapport kopiëren en deze op een andere rapportpagina plakken (hiervoor moeten machtigingen voor het rapport worden bewerkt)
 
-* een afbeelding uit een visual in Power BI kopiëren naar het klembord en in andere toepassingen plakken
+* een afbeelding van een visual van Power BI naar het klembord kopiëren en in een andere toepassing plakken (beschikbaar in de Power BI-service en in Power BI - Mobiel, niet beschikbaar in Power BI Desktop)
 
 ## <a name="copy-and-paste-within-the-same-report"></a>Kopiëren en plakken binnen hetzelfde rapport
 Visuals in Power BI-rapporten kunnen worden gekopieerd van de ene pagina in het rapport naar dezelfde pagina of naar een andere pagina in hetzelfde rapport. 
@@ -41,7 +41,7 @@ Visualisaties in *dashboards* kunnen niet worden gekopieerd en in Power BI-rappo
 
 ## <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>Een visual als afbeelding naar uw klembord kopiëren
 
-Hebt u ooit een afbeelding uit een Power BI-rapport of dashboard willen delen? Nu kunt u de visual kopiëren en plakken in een willekeurige andere toepassing die plakken ondersteunt. 
+Hebt u ooit een afbeelding uit een Power BI-rapport of dashboard willen delen? Nu kunt u de visual van de Power BI-service of Power BI - Mobiel kopiëren en in een willekeurige andere toepassing plakken (als plakken wordt ondersteund). 
 
 Wanneer u een statische afbeelding van een visual kopieert, krijgt u een kopie van de visual, voorzien van de metagegevens. Dit omvat:
 * terugkoppeling naar het Power BI-rapport of dashboard
@@ -52,7 +52,7 @@ Wanneer u een statische afbeelding van een visual kopieert, krijgt u een kopie v
 
 ### <a name="copy-from-a-dashboard-tile"></a>Kopiëren vanaf een dashboardtegel
 
-1. Navigeer naar het dashboard vanaf waar u inhoud wilt kopiëren.
+1. Open de Power BI-service en ga naar het dashboard waarvan af u inhoud wilt kopiëren.
 
 2. In de rechterbovenhoek van de visual selecteert u **Meer opties(...)** en kiest u **Visual als afbeelding kopiëren**. 
 
@@ -64,15 +64,15 @@ Wanneer u een statische afbeelding van een visual kopieert, krijgt u een kopie v
 
 4. Wanneer uw visual gereed is, plakt u deze in een andere toepassing met **Ctrl + V** of door met de rechtermuisknop op Plakken te klikken. In de onderstaande schermopname is de visual in Microsoft Word geplakt. 
 
-    ![visual die in Outlook is geplakt](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
+    ![visual die in Word is geplakt](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>Kopiëren vanuit een rapportvisual 
 
-1. Navigeer naar het rapport van waaruit u inhoud wilt kopiëren.
+1. Open de Power BI-service en ga naar het rapport waarvan uit u wilt kopiëren.
 
 2. In de rechterbovenhoek van de visual selecteert u het pictogram voor **Visual als afbeelding kopiëren**. 
 
-    ![Weergaven van het pictogram Visual als afbeelding kopiëren](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
+    ![Schermopname met pictogram Visual als afbeelding kopiëren](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
 3. Wanneer het dialoogvenster **De visual is gereed om te kopiëren** wordt weergegeven, selecteert u **Naar het klembord kopiëren**.
 
@@ -95,7 +95,7 @@ Wanneer u een statische afbeelding van een visual kopieert, krijgt u een kopie v
 Als u de eigenaar bent van de inhoud of een beheerder van de tenant bent, kunt u zelf bepalen of een visual als een afbeelding kan worden gekopieerd vanuit een rapport of dashboard.
 
 #### <a name="disable-copy-as-an-image-for-a-specific-visual"></a>Het kopiëren van een afbeelding voor een specifieke visual uitschakelen
-Als u niet wilt dat gebruikers een specifieke visual kunnen kopiëren, kunt u het kopieerpictogram bij die visual verwijderen.
+Als u niet wilt dat gebruikers een specifieke visual kunnen kopiëren, kunt u het kopieerpictogram bij die visual verwijderen in de Power BI-service.    
 1. Selecteer het pictogram met de verfroller om het opmaakvenster te openen. 
 
 1. Open de kaart **Opmaak van de visual**.
@@ -129,6 +129,8 @@ Als u de eigenaar bent van de inhoud of een beheerder van de tenant bent, kunt u
    ![kopiëren niet beschikbaar](media/power-bi-visualization-copy-paste/power-bi-copy-grey.png)
 
 
+V: Ik zie de optie Als afbeelding kopiëren niet    
+A: Als u Power BI Desktop gebruikt, is deze functie nog niet beschikbaar    
 V: Waarom is het kopieerpictogram uitgeschakeld bij een visual?    
 A: Momenteel worden systeemeigen Power BI-visuals en gecertificeerde visuals ondersteund. Er is beperkte ondersteuning voor bepaalde visuals, inclusief: 
 - ESRI en andere kaartvisuals 

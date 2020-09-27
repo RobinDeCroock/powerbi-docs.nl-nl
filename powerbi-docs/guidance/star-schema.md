@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273449"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965471"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Meer informatie over stervormige schema's en het belang daarvan voor Power BI
 
@@ -65,7 +65,7 @@ Er kunnen vele aanvullende concepten zijn die betrekking hebben op het ontwerp v
 
 In een stervormig schemaontwerp is een **meting** een kolom in een feitentabel waarin de samen te vatten waarden worden opgeslagen.
 
-In een Power BI-model wordt een **meting** op een andere, maar wel vergelijkbare manier gedefinieerd. Het is een formule die wordt geschreven in [Data Analysis Expressions (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) waarmee u een samenvatting kunt maken. Voor expressies voor metingen worden vaak DAX-aggregatiefuncties gebruikt zoals SUM, MIN, MAX, AVERAGE, enzovoort om een scalair waarderesultaat te produceren tijdens de query (de waarden worden nooit opgeslagen in het model). Expressies voor metingen kunnen eenvoudige aggregaties met een kolom zijn tot uitgekiende formules waarmee context- en/of relatiedoorgifte worden overschreven. Lees het artikel [DAX basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) (Basisbeginselen van DAX in Power BI Desktop) voor meer informatie.
+In een Power BI-model wordt een **meting** op een andere, maar wel vergelijkbare manier gedefinieerd. Het is een formule die wordt geschreven in [Data Analysis Expressions (DAX)](/dax/data-analysis-expressions-dax-reference) waarmee u een samenvatting kunt maken. Voor expressies voor metingen worden vaak DAX-aggregatiefuncties gebruikt zoals SUM, MIN, MAX, AVERAGE, enzovoort om een scalair waarderesultaat te produceren tijdens de query (de waarden worden nooit opgeslagen in het model). Expressies voor metingen kunnen eenvoudige aggregaties met een kolom zijn tot uitgekiende formules waarmee context- en/of relatiedoorgifte worden overschreven. Lees het artikel [DAX basics in Power BI Desktop](../transform-model/desktop-quickstart-learn-dax-basics.md) (Basisbeginselen van DAX in Power BI Desktop) voor meer informatie.
 
 Belangrijk: Power BI-modellen bieden ondersteuning voor een tweede methode om een samenvatting te maken. Elke kolom kan met behulp van een visual in een rapport of een Q&A worden samengevat, met name numerieke kolommen. Deze kolommen worden _impliciete metingen_ genoemd. Ze zijn handig voor u als modelontwerper, omdat u in veel gevallen niet zelf metingen hoeft te maken. De kolom **Verkoophoeveelheid** van de reseller Adventure Works kan bijvoorbeeld op verschillende manieren worden samengevat (som, aantal, gemiddelde, mediaanwaarde, min, max, enzovoort), zonder een meting te hoeven maken voor elk mogelijke aggregatietype.
 
@@ -73,7 +73,7 @@ Belangrijk: Power BI-modellen bieden ondersteuning voor een tweede methode om ee
 
 Er zijn voor u echter drie aantrekkelijke redenen om metingen te maken, zelfs voor eenvoudige samenvattingen op kolomniveau:
 
-- Wanneer u weet dat uw rapportauteurs query's op het model gaan uitvoeren met behulp van [Multidimensional Expressions (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), moet het model _expliciete metingen_ bevatten. Expliciete metingen worden gedefinieerd met behulp van DAX. Deze ontwerpmethode is vooral handig wanneer een query op een Power BI-gegevensset wordt uitgevoerd met behulp van MDX, omdat met MDX geen kolomwaarden kunnen worden samengevat. MDX wordt vooral gebruikt bij het uitvoeren van [Analyseren in Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel), omdat u met draaitabellen MDX-query’s krijgt).
+- Wanneer u weet dat uw rapportauteurs query's op het model gaan uitvoeren met behulp van [Multidimensional Expressions (MDX)](/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query), moet het model _expliciete metingen_ bevatten. Expliciete metingen worden gedefinieerd met behulp van DAX. Deze ontwerpmethode is vooral handig wanneer een query op een Power BI-gegevensset wordt uitgevoerd met behulp van MDX, omdat met MDX geen kolomwaarden kunnen worden samengevat. MDX wordt vooral gebruikt bij het uitvoeren van [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md), omdat u met draaitabellen MDX-query’s krijgt).
 - Wanneer u weet dat uw rapportauteurs gepagineerde Power BI-rapporten gaan maken met behulp van de MDX-queryontwerpfunctie, moet het model expliciete metingen bevatten. Alleen de MDX-queryontwerpfunctie ondersteunt [serveraggregaties](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Als de rapportauteurs dus metingen nodig hebben die zijn geëvalueerd door Power BI (in plaats van de engine voor gepagineerde rapporten), moeten ze de MDX-queryontwerpfunctie gebruiken.
 - Als u ervoor wilt zorgen dat uw rapportauteurs kolommen alleen op specifieke manieren kunnen samenvatten. De kolom **Eenheidsprijs** (die een tarief per eenheid vertegenwoordigt) voor de verkoop bij de reseller kan bijvoorbeeld worden samengevat, maar alleen door specifieke aggregatiefuncties te gebruiken. De waarden in deze kolom mogen nooit worden opgeteld, maar kunnen wel worden gebruikt om een samenvatting te maken met behulp van andere aggregatiefuncties, zoals min, max en gemiddelde. In dit geval kan de modelleerder de kolom **Eenheidsprijs** verbergen en metingen maken voor alle toepasselijke aggregatiefuncties.
 
@@ -83,7 +83,7 @@ Deze ontwerpmethode werkt goed voor rapporten die in de Power BI-service en voor
 
 Een **surrogaatsleutel** is een unieke id die u aan een tabel toevoegt om het maken van modellen met een stervormig schema te ondersteunen. Per definitie worden deze sleutels niet gedefinieerd of opgeslagen in de brongegevens. Over het algemeen worden surrogaatsleutels toegevoegd aan relationele dimensietabellen van datawarehouses om een unieke id te bieden voor elke rij in de dimensietabel.
 
-Power BI-modelrelaties zijn gebaseerd op één unieke kolom in één tabel, waardoor filters voor één kolom in een andere tabel worden doorgegeven. Wanneer een dimensietabel in uw model niet één unieke kolom bevat, moet u een unieke id toevoegen die het 'één'-deel van een relatie wordt. In Power BI Desktop kunt u eenvoudig voldoen aan deze vereiste door een [Power BI-indexkolom](https://docs.microsoft.com/powerquery-m/table-addindexcolumn) te maken.
+Power BI-modelrelaties zijn gebaseerd op één unieke kolom in één tabel, waardoor filters voor één kolom in een andere tabel worden doorgegeven. Wanneer een dimensietabel in uw model niet één unieke kolom bevat, moet u een unieke id toevoegen die het 'één'-deel van een relatie wordt. In Power BI Desktop kunt u eenvoudig voldoen aan deze vereiste door een [Power BI-indexkolom](/powerquery-m/table-addindexcolumn) te maken.
 
 ![Een indexkolom maken in de Power Query-werkbalk](media/star-schema/toolbar-index.png)
 
@@ -150,12 +150,12 @@ In een Power BI-model kan dit ontwerp worden geïmiteerd door meerdere relaties 
 
 ![Voorbeeld van één rollenspeldimensie en relaties](media/star-schema/relationships.png)
 
-De enige manier om een inactieve relatie te gebruiken, is door een DAX-expressie te definiëren waarvoor de [functie USERELATIONSHIP](https://docs.microsoft.com/dax/userelationship-function-dax) wordt gebruikt. In ons voorbeeld moet de modelontwikkelaar metingen instellen om de analyse van de verkoop van een reseller op verzenddatum en bezorgdatum in te schakelen. Dit kan een lastige klus zijn, met name wanneer in de resellertabel vele metingen worden gedefinieerd. Ook ontstaat hierdoor een chaos in het deelvenster **Velden**, met een overvloed aan metingen. Er zijn meer beperkingen:
+De enige manier om een inactieve relatie te gebruiken, is door een DAX-expressie te definiëren waarvoor de [functie USERELATIONSHIP](/dax/userelationship-function-dax) wordt gebruikt. In ons voorbeeld moet de modelontwikkelaar metingen instellen om de analyse van de verkoop van een reseller op verzenddatum en bezorgdatum in te schakelen. Dit kan een lastige klus zijn, met name wanneer in de resellertabel vele metingen worden gedefinieerd. Ook ontstaat hierdoor een chaos in het deelvenster **Velden**, met een overvloed aan metingen. Er zijn meer beperkingen:
 
 - Wanneer rapportauteurs niet op het definiëren van metingen maar op het samenvatten van kolommen vertrouwen, kunnen ze geen samenvatting voor de inactieve relaties krijgen zonder een meting op rapportniveau te schrijven. Metingen op rapportniveau kunnen alleen worden gedefinieerd wanneer rapporten in Power BI Desktop worden geschreven.
 - Met maar één actief relatiepad tussen de verkoop op datum en de verkoop op reseller, is het niet mogelijk om de verkoop op reseller gelijktijdig te filteren op verschillende datumtypen. U kunt bijvoorbeeld geen visual produceren waarin de verkoop op orderdatum wordt uitgezet op basis van verzonden verkoop.
 
-Als u deze beperkingen wilt vermijden, is het een algemene Power BI-modelleringstechniek om voor elke rollenspelinstantie een dimensietabel te maken. Doorgaans maakt u de extra dimensietabellen als [berekende tabellen](https://docs.microsoft.com/dax/calculatetable-function-dax) met behulp van DAX. Met behulp van berekende tabellen kan het model de tabellen **Datum**, **Verzenddatum** en **Bezorgdatum** bevatten, elk met één actieve relatie met hun respectieve kolommen over de verkoop per reseller.
+Als u deze beperkingen wilt vermijden, is het een algemene Power BI-modelleringstechniek om voor elke rollenspelinstantie een dimensietabel te maken. Doorgaans maakt u de extra dimensietabellen als [berekende tabellen](/dax/calculatetable-function-dax) met behulp van DAX. Met behulp van berekende tabellen kan het model de tabellen **Datum**, **Verzenddatum** en **Bezorgdatum** bevatten, elk met één actieve relatie met hun respectieve kolommen over de verkoop per reseller.
 
 ![Voorbeeld van rollenspeldimensies en relaties](media/star-schema/relationships2.png)
 
@@ -174,7 +174,7 @@ Een **restdimensie** is handig wanneer er vele dimensies bestaan, die met name d
 
 De ontwerpdoelstelling van een restdimensie is het grote aantal 'kleine' dimensies samen te voegen in één dimensie om zowel de opslaggrootte van het model te verkleinen als de chaos op het deelvenster **Velden** te verminderen door minder modeltabellen weer te geven.
 
-Een restdimensietabel is doorgaans het Cartesisch product van alle leden van een dimensiekenmerk, met de kolom met een surrogaatsleutel. De surrogaatsleutel biedt een unieke verwijzing naar elke rij in de tabel. U kunt de dimensie in een datawarehouse bouwen, of u bouwt deze met behulp van Power Query om een query te maken waarmee een [volledige outer join van query's](https://docs.microsoft.com/powerquery-m/table-join) wordt uitgevoerd en waarmee vervolgens een surrogaatsleutel (indexkolom) wordt toegevoegd.
+Een restdimensietabel is doorgaans het Cartesisch product van alle leden van een dimensiekenmerk, met de kolom met een surrogaatsleutel. De surrogaatsleutel biedt een unieke verwijzing naar elke rij in de tabel. U kunt de dimensie in een datawarehouse bouwen, of u bouwt deze met behulp van Power Query om een query te maken waarmee een [volledige outer join van query's](/powerquery-m/table-join) wordt uitgevoerd en waarmee vervolgens een surrogaatsleutel (indexkolom) wordt toegevoegd.
 
 ![Voorbeeld van een restdimensie](media/star-schema/junk-dimension.png)
 
@@ -216,5 +216,3 @@ Raadpleeg de volgende artikelen voor meer informatie over stervormig schemaontwe
 - [Richtlijnen voor actieve versus inactieve relaties](relationships-active-inactive.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)
-
-

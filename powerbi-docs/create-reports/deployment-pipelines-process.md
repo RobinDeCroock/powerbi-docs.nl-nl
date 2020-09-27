@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 06/25/2020
-ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.custom: contperfq1
+ms.date: 09/22/2020
+ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
+ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220878"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91024030"
 ---
-# <a name="understand-the-deployment-process-preview"></a>Uitleg over het implementatieproces (preview)
+# <a name="understand-the-deployment-process"></a>Uitleg over het implementatieproces
 
 Met het implementatieproces kunt u inhoud van de ene pijplijnfase klonen naar een andere. Meestal is dit van ontwikkeling naar test, of van test naar productie.
 
@@ -90,7 +91,7 @@ Implementatiepijplijnen bieden geen ondersteuning voor de volgende items:
 
 * Rapporten die zijn gebaseerd op niet-ondersteunde gegevenssets
 
-* De werkruimte kan geen sjabloon-app gebruiken
+* [Werkruimtes voor sjabloon-app](../connect-data/service-template-apps-create.md#create-the-template-workspace)
 
 * Gepagineerde rapporten
 
@@ -137,14 +138,60 @@ De volgende eigenschappen van items worden niet gekopieerd tijdens de implementa
 De volgende eigenschappen van gegevenssets worden niet gekopieerd tijdens de implementatie:
 
 * Roltoewijzing
-    
+
 * Vernieuwingsschema
-    
+
 * Gegevensbronreferenties
-    
+
 * Cache-instellingen voor query's (kunnen worden overgenomen van de capaciteit)
-    
+
 * Goedkeuringsinstellingen
+
+## <a name="incremental-refresh"></a>Incrementeel vernieuwen
+
+Implementatiepijplijnen ondersteunen [incrementeel vernieuwen](../admin/service-premium-incremental-refresh.md), een functie waarmee grote gegevenssets sneller en betrouwbaarder kunnen worden vernieuwd, en met een lager verbruik.
+
+Met implementatiepijplijnen kunt u gegevensset met incrementeel vernieuwen bijwerken en zowel gegevens als partities behouden. Wanneer u de gegevensset implementeert, wordt het beleid ook gekopieerd.
+
+### <a name="activating-incremental-refresh-in-a-pipeline"></a>Incrementeel vernieuwen in een pijplijn activeren
+
+Als u incrementeel vernieuwen wilt inschakelen, [schakelt u het in Power BI Desktop in](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh) en publiceert u vervolgens uw gegevensset. Nadat de publicatie is het beleid voor incrementeel vernieuwen in de hele de pijplijn vergelijkbaar en kan het alleen worden geschreven in Power BI Desktop.
+
+Als de pijplijn is geconfigureerd met incrementeel vernieuwen, wordt u aangeraden de volgende stroom te gebruiken:
+
+1. Wijzigingen aanbrengen in uw PBIX-bestand in Power BI Desktop. Als u lange wachttijden wilt voorkomen, kunt u wijzigingen aanbrengen met behulp van een sample van uw gegevens.
+
+2. Uw PBIX-bestand uploaden naar de *ontwikkelingsfase*.
+
+3. Uw inhoud implementeren in de *testfase*. Na de implementatie worden de aangebrachte wijzigingen toegepast op de volledige gegevensset die u gebruikt.
+
+4. Controleer de wijzigingen die u in de *testfase* hebt aangebracht en implementeer ze na de controle in de *productiefase*.
+
+### <a name="usage-examples"></a>Gebruiksvoorbeelden
+
+Hieronder ziet u enkele voorbeelden van hoe u incrementeel vernieuwen kunt integreren met implementatiepijplijnen.
+
+* [Maak een nieuwe pijplijn](deployment-pipelines-get-started.md#step-1---create-a-deployment-pipeline) en verbindt deze met een werkruimte met een gegevensset waarvoor incrementeel vernieuwen is ingeschakeld.
+
+* Schakel incrementeel vernieuwen in een gegevensset in die zich al in een *ontwikkelingswerkruimte* bevindt.  
+
+* Maak een pijplijn vanuit een productiewerkruimte die een gegevensset bevat waarvoor incrementeel vernieuwen wordt gebruikt. Dit wordt gedaan door de werkruimte toe te wijzen aan de *productiefase* van een nieuwe pijplijn en met behulp van [achterwaartse implementatie](deployment-pipelines-get-started.md#backwards-deployment) te implementeren in de *testfase*. Vervolgens implementeert u de werkruimte in de *ontwikkelingsfase*.
+
+* Publiceer een gegevensset die incrementeel vernieuwen gebruikt voor een werkruimte die deel uitmaakt van een bestaande pijplijn.
+
+### <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+
+Voor incrementeel vernieuwen bieden implementatiepijplijnen alleen ondersteuning voor gegevenssets die gebruikmaken van [verbeterde metagegevens](../connect-data/desktop-enhanced-dataset-metadata.md). Vanaf de release van Power BI Desktop van september 2020 implementeren alle gegevenssets die zijn gemaakt of gewijzigd met Power BI Desktop, automatisch verbeterde metagegevens van de gegevensset.
+
+Wanneer een gegevensset opnieuw wordt gepubliceerd naar een actieve pijplijn waarvoor incrementeel vernieuwen is ingeschakeld, zullen de volgende wijzigingen tot een mislukte implementatie leiden vanwege een mogelijk verlies aan gegevens:
+
+* Opnieuw publiceren van een gegevensset waarvoor geen incrementeel vernieuwen is gebruikt, om een gegevensset te vervangen waarvoor incrementeel vernieuwen is ingeschakeld.
+
+* Het wijzigen van de naam van een tabel waarvoor incrementeel vernieuwen is ingeschakeld.
+
+* Het wijzigen van de naam van niet-berekende kolommen in een tabel waarvoor incrementeel vernieuwen is ingeschakeld.
+
+Andere wijzigingen, zoals het toevoegen van een kolom, het verwijderen van een kolom en het wijzigen van de naam van een berekende kolom, zijn toegestaan. Als de wijzigingen echter van invloed zijn op de weergave, moet u vernieuwen voordat de wijziging zichtbaar is.
 
 ## <a name="deploying-power-bi-apps"></a>Power BI-apps implementeren
 
@@ -170,9 +217,9 @@ Pijplijnmachtigingen en werkruimtemachtigingen worden afzonderlijk verleend en b
 Gebruikers met pijplijntoegang beschikken over de volgende machtigingen:
 
 * De pijplijn weergeven
-    
+
 * De pijplijn delen met anderen
-    
+
 * De pijplijn bewerken en verwijderen
 
 >[!NOTE]
@@ -202,9 +249,9 @@ Werkruimtebijdragers die *pijplijntoegang* hebben, kunnen ook het volgende doen:
 Werkruimteleden die *pijplijntoegang* hebben, kunnen ook het volgende doen:
 
 * Inhoud van de werkruimte weergegeven
-    
+
 * Fasen vergelijken
-    
+
 * Rapporten en dashboards implementeren
 
 * Werkruimten verwijderen
@@ -222,7 +269,7 @@ Werkruimtebeheerders met *pijplijntoegang* kunnen acties voor *werkruimteleden* 
 Eigenaars van gegevenssets die lid of beheerder van de werkruimte zijn, kunnen ook het volgende doen:
 
 * Gegevenssets bijwerken
-    
+
 * Regels configureren
 
 >[!NOTE]
@@ -244,13 +291,11 @@ In deze sectie worden de meeste beperkingen in implementatiepijplijnen vermeld.
 
 ### <a name="dataset-limitations"></a>Beperkingen van gegevensset
 
-* Gegevenssets die zijn geconfigureerd met [incrementeel vernieuwen](../admin/service-premium-incremental-refresh.md), kunnen niet worden geïmplementeerd.
-
 * Er kunnen geen gegevenssets worden geïmplementeerd die gebruikmaken van realtime verbinding.
 
 * Als de doel-dataset tijdens de implementatie gebruikmaakt van een [live-verbinding](../connect-data/desktop-report-lifecycle-datasets.md), moet de bron-gegevensset ook deze verbindingsmodus gebruiken.
 
-* Na de implementatie wordt het downloaden van een gegevensset (vanuit het stadium war het naar is geïmplementeerd) niet ondersteund.
+* Na de implementatie wordt het downloaden van een gegevensset (vanuit de fase waarnaar deze is geïmplementeerd) niet meer ondersteund.
 
 * Zie [Beperkingen voor gegevenssetregels](deployment-pipelines-get-started.md#dataset-rule-limitations) voor een lijst met beperkingen voor gegevenssetregels.
 

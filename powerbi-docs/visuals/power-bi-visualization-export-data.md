@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008923"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861585"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
@@ -228,7 +228,7 @@ Let op: als de instellingen van de Power BI-beheerportal conflicteren met de rap
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Power BI-service, met inbegrip van Power BI Pro en Premium.
 
-- Als u gegevens wilt exporteren uit een visual, moet u beschikken over een [machtiging voor bouwen voor de onderliggende gegevensset](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
+- Als u gegevens wilt exporteren uit een visual, moet u beschikken over een [machtiging voor bouwen voor de onderliggende gegevensset](../connect-data/service-datasets-build-permissions.md).
 
 -  Het maximum aantal rijen dat in **Power BI Desktop** en de **Power BI-service** kan worden geëxporteerd van een **rapport in de importmodus** naar een *.csv*-bestand is 30.000.
 
@@ -268,8 +268,8 @@ De beperkingen en overwegingen zijn van toepassing op Power BI Desktop en de Pow
   
   1. Ga naar de lokale map waar het bestand is opgeslagen, en selecteer het *.csv*-bestand.
 
-- Bij het exporteren naar *.csv* worden bepaalde tekens voorafgegaan door het escapeteken **'** om scriptuitvoering te voorkomen bij opening in Excel. Dat gebeurt in de volgende situaties:
-  - De kolom is gedefinieerd als het type Tekst in het gegevensmodel **_en_**
+- Bij het exporteren naar een *CSV-bestand* worden bepaalde tekens voorafgegaan door een **'** om uitvoering van het script te voorkomen dit in Excel wordt geopend. Dat gebeurt in de volgende situaties:
+  - De kolom in het gegevensmodel als type Tekst is gedefinieerd **_en_**
   - Het eerste teken van de tekst is een van de volgende tekens: **=, @, +,-**
 
 - Power BI-beheerders kunnen het exporteren van gegevens uitschakelen.
