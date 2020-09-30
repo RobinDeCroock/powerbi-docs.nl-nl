@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2268cb86ec60e2b461c66cca6034fd47a30c2e38
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: acfe54479ae02b950dcc8521807add7c06071207
+ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019970"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91224182"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Wat is er nieuw in Power BI Desktop?
 
@@ -97,7 +97,7 @@ Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.micros
 ### <a name="power-bi-desktop-monthly-update-video"></a>Maandelijkse video met Power BI Desktop-updates
 In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
 
-> [!VIDEO https://www.youtube.com/embed/TPsV7N4bZZg]
+> [!VIDEO https://www.youtube.com/embed/gPGy18Yo0Go]
 
 ## <a name="more-videos"></a>Meer video's
 
