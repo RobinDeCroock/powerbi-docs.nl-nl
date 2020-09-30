@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9125c87f96641852a16410d3f8287c714816fb4b
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965369"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528385"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B
 
@@ -535,7 +535,7 @@ Meer informatie over de instellingen kunt u vinden op:
 
 ### <a name="control-guest-invites"></a>Bezoekers verzoeken controleren
 
-Power BI-beheerders kunnen extern delen voor Power BI beheren door de Power BI beheer portal te bezoeken. Tenant beheerders kunnen ook extern delen beheren met verschillende Azure AD-beleids regels.  Met deze beleids regels kunnen Tenant beheerders
+Power BI-beheerders kunnen extern delen voor Power BI beheren door de Power BI beheer portal te bezoeken. Beheerders kunnen ook extern delen beheren met verschillende Azure AD-beleids regels.  Met deze beleids regels kunnen beheerders het volgende doen:
 
 - Uitnodigingen uitschakelen door eind gebruikers
 - Alleen beheerders en gebruikers in de rol van de gast-uitnodiging kunnen uitnodigen
