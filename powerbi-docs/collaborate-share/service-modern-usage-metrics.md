@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 467061dfe7ee3cdf62c08dd60c4325eee96d431c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 0555f6c46ef864ed89d3d364420a14a2ff18ab84
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763638"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136092"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Metrische gebruiksgegevens controleren in de nieuwe werkruimte-ervaring (preview)
 
@@ -363,7 +363,7 @@ Als u problemen vermoedt met gegevensconsistentie of het vernieuwen van gegevens
 
     ![URL voor gegevensset van rapport voor metrische gegevens over het gebruik](media/service-modern-usage-metrics/power-bi-usage-metrics-url.png)
 
-1. Ga in uw browser naar [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup) en selecteer de knop **Proberen**.
+1. Ga in uw browser naar [https://docs.microsoft.com/rest/api/power-bi/datasets/deletedatasetingroup](/rest/api/power-bi/datasets/deletedatasetingroup) en selecteer de knop **Proberen**.
 
     ![Gegevensset verwijderen - Proberen](media/service-modern-usage-metrics/power-bi-delete-dataset-try-it.png)
 

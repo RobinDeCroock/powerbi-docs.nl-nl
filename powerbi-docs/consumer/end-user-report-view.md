@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/27/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b20577dbd3c26a837310059ba665a47b624024b5
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 290af971972bf3ece31283b22cedbf824e9f8c1e
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536326"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526910"
 ---
 # <a name="change-the-display-of-a-report-page"></a>De weergave van een rapportpagina wijzigen
 
@@ -28,7 +28,7 @@ Mensen geven rapporten weer op verschillende apparaten met verschillende schermg
 
 ## <a name="explore-the-view-menu"></a>Het menu Weergave verkennen
 
-![Schermopname van de opties in de vervolgkeuzelijst Weergave.](media/end-user-report-view/power-bi-viewmenu.png)
+![Schermopname van de opties in de vervolgkeuzelijst Weergave.](media/end-user-report-view/power-bi-menu-view.png)
 
 
 De opties in het menu **Weergave** bieden u flexibiliteit om rapportpagina’s weer te geven met de door u gekozen afmetingen en breedte:

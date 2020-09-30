@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277428"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525933"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Rapporten scheiden van modellen in Power BI Desktop
 
@@ -37,7 +37,7 @@ Het is zinvol om de ontwikkeling van modellen en rapporten te scheiden in afzond
 - Gegevensmodelleurs en rapportauteurs zijn verschillende personen.
 - Het is duidelijk dat een model de bron is voor meerdere rapporten, nu of in de toekomst.
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Er zijn drie PBIX-bestanden. Het eerste bevat alleen een model. De andere twee bevatten alleen rapporten en ze maken live verbinding met het model dat wordt gehost in de Power BI-service. De rapporten worden ontwikkeld door verschillende personen." border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Eén bestand bevat een model en rapport die zijn ontwikkeld door dezelfde persoon." border="true":::
 
 Gegevensmodelleurs kunnen de ervaring voor het ontwerpen van Power BI Desktop-rapporten nog steeds gebruiken om hun modelontwerpen te testen en te valideren. Maar ze moeten het rapport direct na publicatie naar de Power BI-service uit de werkruimte verwijderen. Bovendien moeten ze niet vergeten het rapport te verwijderen steeds wanneer ze de gegevensset opnieuw publiceren en overschrijven.
 
@@ -56,7 +56,7 @@ Het toevoegen van nieuwe tabellen, kolommen, hiërarchieën, hiërarchieniveaus 
 
 Als u wijzigingen aan uw modellen moet aanbrengen die tot fouten leiden, wordt het volgende aanbevolen:
 
-- [Bekijk gerelateerde inhoud voor de gegevensset](../consumer/end-user-related.md#view-related-content-for-a-dataset) in de Power BI-service.
+- [Bekijk gerelateerde inhoud voor de gegevensset](../consumer/end-user-related.md) in de Power BI-service.
 - Verken de weergave [Gegevensherkomst](../collaborate-share/service-data-lineage.md) in de Power BI-service.
 
 Met beide opties kunt u snel gerelateerde rapporten en dashboards identificeren. De weergave Gegevensherkomst is waarschijnlijk de beste keuze, omdat hierin gemakkelijk de contactpersoon voor elk gerelateerd artefact te zien is. Dit is in feite een hyperlink waarmee een e-mailbericht wordt geopend dat is geadresseerd aan de contactpersoon.
