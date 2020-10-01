@@ -1,22 +1,22 @@
 ---
-title: Power BI Premium-capaciteiten implementeren en beheren
+title: Power BI Premium capaciteit implementeren en beheren
 description: Inzicht in de mogelijkheden van Power BI Premium en meer informatie over het ontwerpen, implementeren, bewaken en oplossen van problemen met schaal bare oplossingen.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: db5f123f0ab0eba373aca97fd975645cd38b4cd9
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e24b9949eeaaf488f88677fc1171fae5ece5d383
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349420"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600375"
 ---
-# <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium-capaciteiten implementeren en beheren
+# <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium capaciteit implementeren en beheren
 
 We hebben het Power BI Premiume Witboek buiten gebruik gesteld om actuele informatie in afzonderlijke artikelen te kunnen leveren. Gebruik de volgende tabel om inhoud van het Witboek te vinden. 
 
