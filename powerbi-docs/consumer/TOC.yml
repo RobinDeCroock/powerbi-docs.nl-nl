@@ -100,8 +100,6 @@
               href: end-user-copy-paste.md
             - name: Inzoomen op een visualisatie
               href: end-user-drill.md
-            - name: Interactie met ArcGIS-kaarten
-              href: ../visuals/power-bi-visualizations-arcgis.md
         - name: Algemene taken
           items:
             - name: Gegevens exporteren naar Excel

@@ -259,8 +259,6 @@
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
             - name: Interactief werken met ArcGIS-kaarten in Power BI-visuals
               href: ../visuals/power-bi-visualizations-arcgis.md
-            - name: ArcGIS Maps for Power BI-visuals maken
-              href: ../visuals/power-bi-visualization-arcgis.md
             - name: Eenvoudige vlakdiagrammen
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: Kaartvisuals maken (tegels met grote getallen)
