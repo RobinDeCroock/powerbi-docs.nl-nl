@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d12e64b98e2282e4446565ebd17a6222ba6276d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 09ac807b6823c8d9e8c0b44ad941365eb3ffb766
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226660"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526439"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -135,7 +135,7 @@ Hier vindt u enkele algemene zaken waarmee u rekening moet houden wanneer u Nieu
 Wanneer u koppelingen aan uw app-navigatie toevoegt en de optie Inhoudsgebied selecteert:
 * Zorg ervoor dat de koppeling kan worden ingesloten. Sommige services zorgen ervoor dat hun inhoud niet kan worden ingesloten in sites van derden, zoals Power BI.
 * Het insluiten van inhoud van de Power BI-service, zoals rapporten of dashboards, in andere werkruimten wordt niet ondersteund. 
-* Gebruik de systeemeigen insluitings-URL om vanaf de on-premises implementatie Power BI Report Server-inhoud in te sluiten. Gebruik de stappen in het gedeelte over [het maken van de Power BI Report Server-URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) om de URL te verkrijgen. Let erop dat de reguliere verificatieregels van toepassing zijn. Er is dus een VPN-verbinding met de on-premises server vereist om de inhoud weer te geven. 
+* Gebruik de systeemeigen insluitings-URL om vanaf de on-premises implementatie Power BI Report Server-inhoud in te sluiten. Gebruik de stappen in het gedeelte over [het maken van de Power BI Report Server-URL](../report-server/quickstart-embed.md#create-the-power-bi-report-url) om de URL te verkrijgen. Let erop dat de reguliere verificatieregels van toepassing zijn. Er is dus een VPN-verbinding met de on-premises server vereist om de inhoud weer te geven. 
 * Bovenaan de ingesloten inhoud wordt een beveiligingswaarschuwing weergegeven om aan te geven dat de inhoud zich niet in Power BI bevindt.
 
 ## <a name="automatically-install-apps-for-end-users"></a>Automatisch apps voor eindgebruikers installeren
@@ -144,12 +144,12 @@ Als een beheerder machtigingen aan u toekent, kunt u de apps automatisch install
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>Automatisch een app naar eindgebruikers pushen
 Nadat de beheerder u machtigingen heeft verleend, hebt u een nieuwe optie om **de app automatisch te installeren**. Wanneer u het selectievakje inschakelt en **App publiceren** (of **App bijwerken** selecteert voor bestaande apps), wordt de app naar alle gebruikers of groepen gepusht die zijn gedefinieerd in de sectie **Machtigingen** van de app op het tabblad **Toegang**.
 
-![Het pushen van apps inschakelen](media/service-create-distribute-apps//power-bi-apps-access.png)
+![Schermopname die de optie Power BI Publisch-app laat zien met App installeren automatisch geselecteerd.](media/service-create-distribute-apps//power-bi-apps-access.png)
 
 ### <a name="how-users-get-the-apps-that-you-push-to-them"></a>Hoe krijgen gebruikers de apps die u naar ze pusht?
 Nadat u een app hebt gepusht, wordt deze automatisch weergegeven in hun lijst met apps. Zodoende kunt u de apps cureren die specifieke gebruikers of gebruikersrollen in uw organisatie paraat moeten hebben.
 
-![Het pushen van apps inschakelen](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+![Schermopname met Power BI-apps met uw gepubliceerde app inbegrepen.](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
 ### <a name="considerations-for-automatically-installing-apps"></a>Overwegingen voor het automatisch installeren van apps
 Hier volgt een aantal zaken waarmee u rekening moet houden wanneer u apps naar eindgebruikers pusht:
@@ -215,5 +215,5 @@ Houd rekening met het volgende bij het publiceren van dashboards:
 * [Een werkruimte maken](service-create-workspaces.md)
 * [Apps in Power BI installeren en gebruiken](../consumer/end-user-apps.md)
 * [Power BI-apps voor externe services](../connect-data/service-connect-to-services.md)
-* [Power BI-beheerportal](https://docs.microsoft.com/power-bi/service-admin-portal)
+* [Power BI-beheerportal](../admin/service-admin-portal.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

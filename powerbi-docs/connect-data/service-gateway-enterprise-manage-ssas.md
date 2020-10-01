@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642304"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375299"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Uw gegevensbron beheren - Analysis Services
 
@@ -219,7 +219,9 @@ EffectiveUserName kan alleen worden gebruikt met een Analysis Services-server di
 
 U weet mogelijk niet wat uw UPN is en u bent mogelijk geen domeinbeheerder. Gebruik de volgende opdracht vanaf uw computer om de UPN voor uw account op te vragen.
 
-    whoami /upn
+```dos
+whoami /upn
+```
 
 Het resultaat ziet eruit als een e-mailadres, maar dit is de UPN voor uw domeinaccount. Als u een Analysis Services-gegevensbron gebruikt voor liveverbindingen en de UPN niet overeenkomt met het e-mailadres waarmee u zich aanmeldt bij Power BI, kan het nuttig zijn te kijken naar het [toewijzen van gebruikersnamen](#map-user-names-for-analysis-services-data-sources).
 
@@ -235,7 +237,7 @@ De cloudservices kennen alleen accounts binnen Azure AD. Het maakt niet uit of u
 
 - U kunt het hulpprogramma [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) gebruiken om lokale accounts te synchroniseren met uw Azure AD-tenant.
 
-   Het hulpprogramma Azure AD Connect biedt opties voor directorysynchronisatie en het instellen van verificatie. Opties zijn onder meer wachtwoord-hashsynchronisatie, pass-through-verificatie en federatie. Als u geen tenantbeheerder of lokale domeinbeheerder bent, moet u contact opnemen met uw IT-beheerder voor hulp bij de configuratie.
+   Het hulpprogramma Azure AD Connect biedt opties voor directorysynchronisatie en het instellen van verificatie. Opties zijn onder meer wachtwoord-hashsynchronisatie, pass-through-verificatie en federatie. Als u geen beheerder of lokale domeinbeheerder bent, moet u contact opnemen met uw IT-beheerder voor hulp bij de configuratie.
 
    Door gebruik te maken van Azure AD Connect weet u zeker dat de UPN overeenkomt tussen Azure AD en uw lokale Active Directory Domain Services-exemplaar.
 
