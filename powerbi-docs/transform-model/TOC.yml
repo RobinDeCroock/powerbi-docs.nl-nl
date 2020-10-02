@@ -35,6 +35,22 @@
           href: desktop-bidirectional-filtering.md
         - name: Werken met multidimensionale modellen in Power BI
           href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: Gegevensstromen
+      items:
+        - name: Inleiding op gegevensstromen
+          href: dataflows/dataflows-introduction-self-service.md
+        - name: Een gegevensstroom maken
+          href: dataflows/dataflows-create.md
+        - name: Een gegevensstroom configureren en gebruiken
+          href: dataflows/dataflows-configure-consume.md
+        - name: Gegevensstromen en Azure Data Lake Gen2
+          href: dataflows/dataflows-azure-data-lake-storage-integration.md
+        - name: Premium-functies van gegevensstromen
+          href: dataflows/dataflows-premium-features.md
+        - name: Machine Learning en Cognitive Services gebruiken met gegevensstromen
+          href: dataflows/dataflows-machine-learning-integration.md
+        - name: Beperkingen en overwegingen van gegevensstromen
+          href: dataflows/dataflows-features-limitations.md
     - name: Procedures
       items:
         - name: Algemene querytaken uitvoeren
