@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965331"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635695"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -171,12 +171,11 @@ Een query voor een gegevensset voor importeren bestaat uit een verzameling DAX-q
 
 In de volgende tabel worden Power BI-gegevens beschreven op basis van het querytype dat wordt gebruikt. Een **X** geeft aan dat er Power BI-gegevens aanwezig zijn wanneer u het bijbehorende querytype gebruikt.
 
-
-|  |Importeren  |DirectQuery  |Live Connect  |
-|---------|---------|---------|---------|
-|Schema     |     X    |    X     |         |
-|Rijgegevens     |    X     |         |         |
-|Plaatsen van visuele gegevens in het cachegeheugen     |    X     |     X    |    X     |
+|                         | Importeren   | DirectQuery | Live Connect  |
+|-------------------------|----------|-------------|---------------|
+|**Schema**               | X        | X           |               |
+|**Rijgegevens**             | X        |             |               |
+|**Plaatsen van visuele gegevens in het cachegeheugen** | X        | X           | X             |
 
 Het verschil tussen een DirectQuery en andere query's bepaalt hoe de Power BI-service data-at-rest verwerkt en of de query zelf is versleuteld. De volgende gedeelten bevatten een beschrijving van data-at-rest en van gegevens die worden verplaatst. Hierin worden de versleuteling, de locatie en het proces voor het verwerken van gegevens uitgelegd.
 
