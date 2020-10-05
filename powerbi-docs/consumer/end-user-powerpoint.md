@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764282"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527436"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
@@ -110,7 +110,7 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanne
     - Rapporten die langer dan een uur duren om te verwerken. 
     - Rapportpagina's melden die langer duren dan 6 minuten om te laden. 
 
-* Als het menu-item **Exporteren naar PowerPoint** niet beschikbaar is in de Power BI-service, heeft uw tenantbeheerder of de eigenaar van het rapport de functie waarschijnlijk uitgeschakeld. Neem contact op met uw tenantbeheerder of de eigenaar voor meer informatie.
+* Als het menu-item **Exporteren naar PowerPoint** niet beschikbaar is in de Power BI-service, heeft uw Power BI-beheerder of de eigenaar van het rapport de functie waarschijnlijk uitgeschakeld. Neem contact op met uw beheerder of de eigenaar voor meer informatie.
 * De Power BI-service gebruikt uw taalinstelling voor Power BI als taal voor het exportbestand van PowerPoint. Als u uw taalvoorkeur wilt bekijken of instellen, selecteert u in de browser het tandwielpictogram ![Tandwielpictogram](media/end-user-powerpoint/power-bi-settings-icon.png) > **Instellingen** > **Algemeen** > **Taal**.
 
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857422"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374218"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -74,4 +74,8 @@ Als de Power BI-oplossing die in uw organisatie wordt gebruikt op een van de vol
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>Werken gateways in de failover-modus?
 
-Nee. Gegevens die nodig zijn vanuit on-premises gegevensbronnen (alle rapporten en dashboards op basis van DirectQuery en liveverbindingen) werken niet tijdens een failover. De configuratie van de gateway wordt echter niet gewijzigd: Wanneer het exemplaar van Power BI in de oorspronkelijke staat terugkeert, herkrijgen de gateways weer hun normale functies.
+Nee. Gegevens die nodig zijn vanuit on-premises gegevensbronnen (alle rapporten en dashboards op basis van DirectQuery en liveverbindingen) werken niet tijdens een failover. De configuratie van de gateway wordt echter niet gewijzigd. Wanneer het exemplaar van Power BI in de oorspronkelijke staat terugkeert, herkrijgen de gateways weer hun normale functies.
+
+In het geval van een uitzonderlijke ramp in een primaire regio die ervoor zorgt dat deze niet weer online komt, zijn in de primaire regio waarvoor de failover is uitgevoerd lees- en schrijfbewerkingen mogelijk en kunnen klanten de gateways opnieuw implementeren en configureren op basis van de nieuwe regio.
+
+Klanten kunnen ervoor kiezen om een nieuwe gateway op een andere computer te installeren of hun bestaande gateway over te nemen. Het moet eenvoudiger zijn om de bestaande gateway over te nemen, omdat alle gegevensbronnen die aan de oude gateway zijn gekoppeld, worden overgedragen naar de nieuwe.

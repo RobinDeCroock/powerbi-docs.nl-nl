@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278256"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136253"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Richtlijnen voor een-op-een-relaties
 
@@ -131,13 +131,13 @@ In ons voorbeeld kunnen auteurs van rapporten het veld **Category** vinden in de
 
 ![In het deelvenster velden wordt het veld Category weergegeven binnen een weergavemap met de naam Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Als u nog steeds een ‘intra-island’ een-op-een-relatie in uw model wilt, moet u er, waar mogelijk, voor zorgen dat de gerelateerde tabellen overeenkomende rijen bevatten. Aangezien een ‘intra-island’ een-op-een-relatie is geëvalueerd als een [sterke relatie](../transform-model/desktop-relationships-understand.md#strong-relationships), kunnen problemen met de gegevensintegriteit in uw rapportvisuals optreden als lege waarden. (U ziet een voorbeeld van een lege groepering in de eerste tabelvisual in dit artikel.)
+Als u nog steeds een ‘intra-island’ een-op-een-relatie in uw model wilt, moet u er, waar mogelijk, voor zorgen dat de gerelateerde tabellen overeenkomende rijen bevatten. Aangezien een intra-eiland-een-op-een-relatie is geëvalueerd als een [reguliere relatie](../transform-model/desktop-relationships-understand.md#regular-relationships), kunnen problemen met de gegevensintegriteit in uw rapportvisuals optreden als lege waarden. (U ziet een voorbeeld van een lege groepering in de eerste tabelvisual in dit artikel.)
 
 ### <a name="inter-island-one-to-one-relationship"></a>‘Inter-island’ een-op-een-relatie
 
-Als er een _‘inter-island’_ een-op-een-relatie tussen tabellen bestaat, is geen alternatief modelontwerp beschikbaar, tenzij u de gegevens in uw gegevensbronnen vooraf samenvoegt. In Power BI wordt de een-op-een-modelrelatie geëvalueerd als een [zwakker relatie](../transform-model/desktop-relationships-understand.md#weak-relationships). Zorg er daarom voor dat de gerelateerde tabellen overeenkomende rijen bevatten, aangezien niet-overeenkomende rijden worden geëlimineerd in de queryresultaten.
+Als er een _‘inter-island’_ een-op-een-relatie tussen tabellen bestaat, is geen alternatief modelontwerp beschikbaar, tenzij u de gegevens in uw gegevensbronnen vooraf samenvoegt. In Power BI wordt de een-op-een-modelrelatie geëvalueerd als een [beperkte relatie](../transform-model/desktop-relationships-understand.md#limited-relationships). Zorg er daarom voor dat de gerelateerde tabellen overeenkomende rijen bevatten, aangezien niet-overeenkomende rijden worden geëlimineerd in de queryresultaten.
 
-Laten we eens kijken wat er gebeurt wanneer velden uit beide tabellen worden toegevoegd aan een tabelvisual, en er een zwakke relatie tussen de tabellen bestaat.
+Laten we eens kijken wat er gebeurt wanneer velden uit beide tabellen worden toegevoegd aan een tabelvisual, en er een beperkte relatie tussen de tabellen bestaat.
 
 ![Een tabelvisual bevat vier kolommen: SKU, Product, Color en Category. De tabel heeft slechts twee rijen.](media/relationships-one-to-one/product-to-product-category-table-visual-weak-relationship.png)
 

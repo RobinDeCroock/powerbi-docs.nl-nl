@@ -1,20 +1,20 @@
 ---
 title: Rapporten in de Power BI-service
-description: Rapporten in de Power BI-service voor consumenten
+description: Rapporten in de Power BI-service voor zakelijke gebruikers
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/28/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: bc0ef9854afdb95a00502ea6755dc36db6c8fbf4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536211"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528063"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "87536211"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Een Power BI-rapport biedt vanuit meerdere invalshoeken inzicht in een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u mogelijk de rol hebben voor het *ontwerpen* van rapporten. U kunt ook iemand zijn die rapporten *consumeert* of gebruikt. Dit artikel is bedoeld voor *gebruikers*.
+Een Power BI-rapport biedt vanuit meerdere invalshoeken inzicht in een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u mogelijk de rol hebben voor het *ontwerpen* van rapporten. U kunt ook een zakelijke gebruiker zijn die rapporten *verbruikt* of gebruikt. Dit artikel is gericht op *zakelijke gebruikers*.
 
 ![Schermopname van een rapportpagina.](./media/end-user-reports/power-bi-report.png)
 
@@ -32,7 +32,7 @@ C. Het deelvenster *Filters* toont ons één filter dat wordt toegepast op alle 
 D. De Power BI-banner geeft de naam van het rapport en de datum waarop het rapport het laatst is bijgewerkt weer. Selecteer de pijl om een menu te openen dat ook de naam van de rapporteigenaar weergeeft.    
 E. De actiebalk bevat acties die u kunt uitvoeren in dit rapport.  U kunt bijvoorbeeld een opmerking toevoegen, een bladwijzer bekijken of gegevens uit het rapport exporteren.  Selecteer **Meer opties** (...) om een lijst aanvullende rapportfunctionaliteit weer te geven.    
 
-Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door [Basisconcepten voor consumenten van de Power BI-service](end-user-basic-concepts.md) te lezen. Rapporten kunnen worden weergegeven, gedeeld en gebruikt om aantekeningen te maken op mobiele apparaten. Raadpleeg [Rapporten verkennen in de mobiele Power BI-apps](mobile/mobile-reports-in-the-mobile-apps.md) voor meer informatie.
+Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door [Basisconcepten voor zakelijke gebruikers van de Power BI-service](end-user-basic-concepts.md) te lezen. Rapporten kunnen worden weergegeven, gedeeld en gebruikt om aantekeningen te maken op mobiele apparaten. Raadpleeg [Rapporten verkennen in de mobiele Power BI-apps](mobile/mobile-reports-in-the-mobile-apps.md) voor meer informatie.
 
 ## <a name="advantages-of-reports"></a>Voordelen van rapporten
 
@@ -68,14 +68,14 @@ Dat betekent niet dat u uw wijzigingen niet kunt opslaan. Dat kunt u wel, maar d
 <!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
 | Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
-## <a name="report-designers-and-report-consumers"></a>Ontwerpers en verbruikers van rapporten
+## <a name="report-designers-and-report-users"></a>Ontwerpers en gebruikers van rapporten
 
 Afhankelijk van uw rol bent u mogelijk een *ontwerper*, iemand die rapporten maakt voor uw eigen gebruik of om te delen met collega's. U wilt mogelijk meer informatie over het maken en delen van rapporten.
 
-Of misschien bent u een *verbruiker*, iemand die rapporten van anderen ontvangt. U wilt mogelijk meer informatie over het begrijpen en communiceren met de rapporten. Raadpleeg de volgende koppelingen als u een *verbruiker* van een rapport bent:
+Of misschien bent u een *zakelijke gebruiker*, iemand die rapporten van anderen ontvangt. U wilt mogelijk meer informatie over het begrijpen en communiceren met de rapporten. Raadpleeg de volgende koppelingen als u een *zakelijke gebruiker* van een rapport bent:
 
 * Begin met een [rondleiding door de Power BI-service](end-user-basic-concepts.md), zodat u weet waar u rapporten en hulpprogramma's voor rapporten kunt vinden.
-* Meer informatie over hoe u [een rapport opent](end-user-report-open.md) en alle [interacties die voor consumenten beschikbaar zijn](end-user-reading-view.md).
+* Meer informatie over hoe u [een rapport opent](end-user-report-open.md) en alle [interacties die voor zakelijke gebruikers beschikbaar zijn](end-user-reading-view.md).
 * Raak vertrouwd met rapporten door het bekijken van een van onze [voorbeelden](../create-reports/sample-tutorial-connect-to-the-samples.md).  
 * Raadpleeg *Gerelateerde inhoud weergeven in de Power BI-service* om te kijken welke gegevensset door het rapport wordt gebruikt en welke dashboards visuals uit het rapport weergeven ([pins](end-user-related.md)).
 

@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: ab2d0a0678fb5ff251e65d42784f02c1fb8c0cea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 09/28/2020
+ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219604"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526347"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Parameters maken voor gepagineerde rapporten in de Power BI-service
 
-In dit artikel leert u hoe u parameters kunt maken voor gepagineerde rapporten in de Power BI-service.  Een rapportparameter biedt een manier om rapportgegevens te kiezen en de presentatie van een rapport te variëren. U kunt een standaardwaarde en een lijst met beschikbare waarden bieden, en de lezers van uw rapport kunnen de selectie wijzigen.  
+In dit artikel leert u hoe u parameters kunt maken voor gepagineerde rapporten in de Power BI-service.  Een rapportparameter biedt een manier om rapportgegevens te kiezen en de presentatie van een rapport te variëren. U kunt een standaardwaarde en een lijst met beschikbare waarden opgeven. Uw rapportlezers kunnen de selectie wijzigen. Ze kunnen ook in de tekstvakken van de parameter typen om te zoeken naar waarden. Zie [Parameters weergeven voor gepagineerde rapporten](../consumer/paginated-reports-view-parameters.md) om te zien hoe uw zakelijke gebruikers met parameters omgaan in de Power BI-service.  
 
 In de volgende afbeelding ziet u de Ontwerpweergave in Power BI Report Builder voor een rapport met de parameters @BuyingGroup, @Customer, @FromDate en @ToDate. 
   
@@ -64,7 +64,7 @@ In de volgende afbeelding ziet u de Ontwerpweergave in Power BI Report Builder v
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
-- Als u een Power BI-gegevensset of Analysis Services-model gebruikt als uw gegevensbron, kunt u niet meer dan 1000 parameterwaarden doorgeven in één aanvraag vanwege de DAX-beperkingen. 
+- Als u een Power BI-gegevensset of Analysis Services-model gebruikt als uw gegevensbron, kunt u niet meer dan 1000 parameterwaarden doorgeven in één aanvraag. DAX beperkt parameters tot 1000 waarden. 
 
  
 ## <a name="next-steps"></a>Volgende stappen

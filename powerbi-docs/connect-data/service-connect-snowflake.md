@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: gepopell
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3ff8a504a9043c28d9064ad186005200165c232e
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 950868252bb1002a31cb0868308d2337e03d03e9
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485752"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375207"
 ---
 # <a name="connect-to-snowflake-in-power-bi-service"></a>Verbinding maken met Snowflake in Power BI-service
 
@@ -38,7 +38,7 @@ Om SSO in te schakelen, moet een globale beheerder de instelling inschakelen in 
 1. Selecteer **Instellingen** uit het menu bovenaan de pagina en selecteer vervolgens **Beheerportal**.
 1. Selecteer **Tenantinstellingen** en ga vervolgens naar **Instellingen voor integratie**.
 
-   ![Tenantbeheerdersinstelling voor Snowflake-SSO](media/service-connect-snowflake/snowflake-sso-tenant.png)
+   ![Tenantinstelling voor Snowflake-SSO](media/service-connect-snowflake/snowflake-sso-tenant.png)
 
 4. Vouw **SSO voor Snowflake** uit, zet de instelling op **Ingeschakeld** en selecteer **Toepassen**.
 

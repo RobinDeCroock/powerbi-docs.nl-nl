@@ -6,15 +6,15 @@ ms.reviewer: Mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8784de7e13932d8cd9c33d706a0c49d6f6cc024c
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537223"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375276"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Tips voor het stellen van vragen met de Q&A-functie van Power BI
 
@@ -67,7 +67,7 @@ In de onderstaande lijst wordt de tegenwoordige tijd gebruikt, maar aanwezig tij
 |  |  |
 |**Eerste N**     |     (volgorde, rangschikking): bovenste, onderste, hoogste, laagste, eerste, laatste, volgende, vroegste, nieuwste, oudste, laatste, meest recente            |
 |        |         |
-|**Typen visuals**     |  alle typen visuals zijn systeemeigen Power BI-visuals.  Opties die beschikbaar zijn in het deelvenster Visualisaties, kunt u opnemen in uw vraag.  De uitzondering op deze regel zijn [Power BI-visuals](../developer/visuals/power-bi-custom-visuals.md) die u handmatig hebt toegevoegd aan het deelvenster Visualisaties.  |
+|**Typen visuals**     |  alle typen visuals zijn systeemeigen Power BI-visuals.  Opties die beschikbaar zijn in het deelvenster Visualisaties, kunt u opnemen in uw vraag.  De uitzondering op deze regel is [Aangepaste Power BI-visuals](../developer/visuals/power-bi-custom-visuals.md) die u handmatig hebt toegevoegd aan het deelvenster Visualisaties.  |
 |  |  Voorbeeld: gebieden per maand weergeven en het verkooptotaal weergeven als staafdiagram               |
 |        |         |
 |**Wh (relatie, gekwalificeerd)**  | wanneer, waar, welke, wie, wiens, hoeveel, hoeveel keer, hoe vaak, hoe frequent, bedrag, aantal, hoeveelheid, hoelang, wat                |

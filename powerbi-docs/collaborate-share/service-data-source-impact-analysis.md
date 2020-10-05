@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/20/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 2c9834310179d8936cda8b769e3b7e3f80d328e6
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253971"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526214"
 ---
 # <a name="data-source-impact-analysis"></a>Impactanalyse van de gegevensbron
 
@@ -42,6 +42,17 @@ Het zijpaneel voor de impactanalyse wordt geopend.
  
 * **Samenvatting van de impact**: Hierin ziet u het aantal mogelijk betrokken werkruimten, gegevensstromen en gegevenssets. Dit aantal is inclusief werkruimten waartoe u geen toegang hebt.
 * **Gebruiksanalyse**: Hierin ziet u voor elke werkruimte de namen van de betrokken gegevensstromen en gegevenssets. U kunt de impact op een specifieke werkruimte nog verder verkennen door op de naam van de werkruimte te klikken om de werkruimte te openen. Wanneer u zich in de betrokken werkruimte bevindt, gebruikt u [impactanalyse van de gegevensset](service-dataset-impact-analysis.md) om de gebruiksgegevens te zien over verbonden rapporten en dashboards.
+
+## <a name="notify-contacts"></a>Contactpersonen informeren
+
+Als u een wijziging in een gegevensbron hebt aangebracht of als u overweegt om een wijziging aan te brengen, kunt u contact opnemen met de relevante gebruikers om hen hiervan op de hoogte te stellen. Wanneer u contactpersonen informeert, wordt een e-mailbericht naar de [lijsten met contactpersonen](service-create-the-new-workspaces.md#create-a-contact-list) van alle betrokken werkruimten verzonden (in het geval van klassieke werkruimten wordt het e-mailbericht verzonden naar de werkruimtebeheerders). Uw naam wordt in de e-mail vermeld, zodat de contactpersonen u kunnen vinden en u via een nieuwe e-mailconversatie een antwoord kunnen sturen. 
+
+1. Klik op **Contactpersonen informeren** in het zijpaneel met de impactanalyse. Het dialoogvenster Contactpersonen informeren wordt weergegeven.
+
+   ![Schermopname van het dialoogvenster Contactpersonen informeren over de gegevensbron.](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
+
+1. Typ in het tekstvak enkele details over de wijziging.
+1. Als u klaar ben met het bericht, klikt u op **Verzenden**.
 
 ## <a name="privacy"></a>Privacy
 

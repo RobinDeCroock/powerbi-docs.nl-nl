@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e95b51d5d50900b8e09de8f5bf62bf31d5578ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec4bd8788d3c0421118a8e96287b36497683c4b2
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860205"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136138"
 ---
 # <a name="get-power-bi-desktop"></a>Power BI Desktop gebruiken
 Met Power BI Desktop kunt u geavanceerde query's, modellen en rapporten samenstellen die de gegevens visualiseren. Met Power BI Desktop kunt u gegevensmodellen bouwen, rapporten maken en uw werk delen door dit te publiceren naar de Power BI-service. Power BI Desktop is gratis te downloaden.
@@ -105,9 +105,12 @@ De volgende lijst bevat de minimale vereisten voor het uitvoeren van Power BI De
 * .NET 4.5
 * Internet Explorer 10 of hoger
 * Werkgeheugen (RAM): ten minste 1 GB beschikbaar, 1,5 GB of meer aanbevolen.
-* Weergave: ten minste 1440x900 of 1600x900 (16:9) aanbevolen. Lagere resoluties zoals 1024x768 of 1280x800 worden niet aanbevolen aangezien bepaalde besturingselementen (bijvoorbeeld om het opstartscherm te sluiten) buiten die resoluties worden weergegeven.
+* Weergave: Ten minste 1440x900 of 1600x900 (16:9) vereist. Lagere resoluties zoals 1024x768 of 1280x800 worden niet ondersteund aangezien bepaalde besturingselementen (bijvoorbeeld om het opstartscherm te sluiten) buiten die resoluties worden weergegeven.
 * Beeldscherminstellingen van Windows: Als uw beeldscherminstellingen zo zijn geconfigureerd dat de grootte van tekst, apps en andere items wordt gewijzigd naar meer dan 100%, ziet u mogelijk bepaalde dialoogvensters niet waarmee u moet werken om door te gaan met het gebruik van Power BI Desktop. Als u dit probleem ondervindt, controleert u uw beeldscherminstellingen in Windows door te gaan naar **Instellingen** > **Systeem** > **Beeldscherm** en met de schuifregelaar de weergave weer in te stellen op 100%.
-* CPU: 1 GHz (gigahertz) of snellere 32- of 64-bits x86-processor aanbevolen.
+* CPU: 64-bits (x64) processor van 1 gigahertz (GHz) aanbevolen.
+
+> [!NOTE]
+> U kunt het beste een clientversie van Windows, zoals Windows 10, gebruiken in plaats van Windows Server. Power BI Desktop biedt bijvoorbeeld geen ondersteuning voor het gebruik van Verbeterde beveiliging van Internet Explorer, omdat hierdoor Power BI Desktop niet kan worden aangemeld bij de Power BI-service.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

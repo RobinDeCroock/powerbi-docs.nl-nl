@@ -8,14 +8,15 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861953"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375230"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>Verbinding maken met metrische Power BI Premium-capaciteitsgegevens
+
 Bewaking van uw capaciteiten is essentieel voor het nemen van gefundeerde beslissingen over hoe u uw Premium-capaciteitsresources het beste kunt gebruiken. De Power BI Premium Capacity Metrics-app biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren.
 
 ![Rapport Power BI Premium Capacity Metrics-app](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
@@ -25,7 +26,7 @@ In dit artikel leest u hoe u de app moet installeren en hoe u verbinding maakt m
 Nadat u de app hebt geïnstalleerd en verbinding hebt gemaakt met de gegevensbronnen, kunt u het rapport aanpassen aan uw behoeften. Vervolgens kunt u de app distribueren naar collega's in uw organisatie.
 
 > [!NOTE]
-> Voor het installeren van sjabloon-apps zijn [machtigingen](./service-template-apps-install-distribute.md#prerequisites) vereist. Neem contact op met de tenantbeheerder als u niet voldoende machtigingen hebt.
+> Voor het installeren van sjabloon-apps zijn [machtigingen](./service-template-apps-install-distribute.md#prerequisites) vereist. Neem contact op met de Power BI-beheerder als u niet over voldoende machtigingen beschikt.
 
 ## <a name="install-the-app"></a>De app installeren
 
@@ -83,7 +84,7 @@ Nadat u de app hebt geïnstalleerd en verbinding hebt gemaakt met de gegevensbro
 
 Als u de app wilt aanpassen, klikt u op het potloodpictogram in de rechterbovenhoek.
 
- ![Het Microsoft-aanmeldingsscherm](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
+ ![Pictogram bewerken](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
 
 Zie [De app aanpassen en delen](./service-template-apps-install-distribute.md#customize-and-share-the-app) voor meer informatie.
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: c989dad575f10a6ed4f6b25ed80368315087c1c2
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642341"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528293"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Beperkingen van Power BI Q&A
 
@@ -53,7 +53,7 @@ In het nieuwe dialoogvenster voor hulpprogramma's kunnen gebruikers de natuurlij
 
 In de beoordelingsvragen worden vragen die zijn gesteld voor uw gegevensmodel maar 28 dagen bewaard. Wanneer u de nieuwe functie voor beoordelingsvragen gebruikt, ziet u mogelijk dat sommige vragen niet worden vastgelegd. Deze worden standaard niet vastgelegd, omdat de engine voor natuurlijke taal een reeks stappen voor het opschonen van gegevens uitvoert om ervoor te zorgen dat niet alle toetsaanslagen van een gebruiker worden vastgelegd of weergegeven.
 
-Tenantbeheerders kunnen de instellingen voor tenantbeheerders gebruiken om de mogelijkheid om vragen op te slaan te beheren. Machtigingen zijn gebaseerd op beveiligingsgroepen. 
+Power BI-beheerders kunnen de tenantinstellingen gebruiken om de mogelijkheid om vragen op te slaan te beheren. Machtigingen zijn gebaseerd op beveiligingsgroepen. 
 
 Gebruikers kunnen er ook voor zorgen dat hun vragen niet worden vastgelegd door **Instellingen** > **Algemeen** te selecteren en de selectie van **Q&A toestaan om mijn uiting te registreren** op te heffen. 
 

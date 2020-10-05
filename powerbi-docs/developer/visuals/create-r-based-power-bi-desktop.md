@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: a3cb8d6ae8d8b872d00b3b4ce1aad13105f3b1e4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232824"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527764"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Zelfstudie: Power BI-visual maken met behulp van R
 
@@ -78,7 +78,7 @@ Wanneer u `pbiviz` gebruikt voor het maken van een R-visual op basis van de sjab
 
 1. Selecteer in Power BI Desktop het pictogram **Visueel R-scriptelement**:
 
-   ![R-visual in het deelvenster Visualisaties](./media/create-r-based-power-bi-desktop/r-script-icon.png)
+   ![Schermopname van het visuele besturingselement R-script in het Power BI-bureaublad.](./media/create-r-based-power-bi-desktop/r-script-icon.png)
 
 1. Plak deze R-code in de **R-script-editor**:
 
@@ -94,7 +94,7 @@ Wanneer u `pbiviz` gebruikt voor het maken van een R-visual op basis van de sjab
 
 1. Selecteer het pictogram **Script uitvoeren** om het resultaat te zien.
 
-    ![R-visual in het deelvenster Visualisaties](./media/create-r-based-power-bi-desktop/run-r-script.png)
+    ![Schermopname van het resultaat van het uitvoeren van het script, een lijntekening.](./media/create-r-based-power-bi-desktop/run-r-script.png)
 
 1. Wanneer uw R-script klaar is, kopieert u het naar het bestand `script.r` in het visuele project dat u in een van de eerdere stappen hebt gemaakt.
 
@@ -176,7 +176,7 @@ Met deze procedure kan uw visual het `corrplot`-pakket gebruiken.
 
 Het resultaat van het gebruik van het `corrplot`-pakket ziet er als volgt uit:
 
-![R-visual in het deelvenster Visualisaties](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
+![Schermopname van het deelvenster visualisatie met vier ovalen die door corrplot zijn gemaakt.](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
 
 ## <a name="adding-a-static-property-to-the-property-pane"></a>Een statische eigenschap toevoegen aan het eigenschappenvenster
 

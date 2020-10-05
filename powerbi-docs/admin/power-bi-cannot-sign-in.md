@@ -1,5 +1,5 @@
 ---
-title: Kan geen contact opnemen met Power BI-ondersteuning
+title: Opties om contact op te nemen met Power BI-ondersteuning om problemen met aanmelden op te lossen
 description: Tijdelijke oplossingen voor het maken van een Power BI-case als een gebruiker zich niet kan aanmelden
 author: kfollis
 ms.author: kfollis
@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/12/2019
-ms.openlocfilehash: ec9848f71aa8ba69089de5222dfa9f63703f43c5
-ms.sourcegitcommit: 6ba7cc9afaf91229f717374bc0c12f0b8201d15e
+ms.date: 09/25/2020
+ms.openlocfilehash: 00e1586b0b02167ee953ccd91237c71b0bb7c40d
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/16/2020
-ms.locfileid: "83438011"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374678"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Problemen met aanmelden in Power BI oplossen
 
-In dit artikel wordt beschreven hoe beheerders contact kunnen opnemen met de ondersteuning voor aanmeldingsproblemen met Power BI. Als u een Power BI-gebruiker bent met aanmeldingsproblemen, moet u eerst het interne ondersteuningsteam van uw organisatie benaderen voor hulp.
+In dit artikel wordt beschreven hoe beheerders contact kunnen opnemen met de ondersteuning voor aanmeldingsproblemen met Power BI. Als u een Power BI-gebruiker bent met aanmeldingsproblemen, moet u eerst de hulp inroepen van het interne ondersteuningsteam van uw organisatie.
 
-Als u echter een **tenantbeheerder** voor uw organisatie bent en u zich nog steeds niet kunt aanmelden bij Power BI, dan gaat u verder met de onderstaande informatie.
+Als u echter **beheerder** bent voor uw organisatie en u zich nog steeds niet kunt aanmelden bij Power BI, dan gaat u verder met de onderstaande informatie.
 
 ## <a name="contact-microsoft-support"></a>Contact opnemen met Microsoft Ondersteuning
 
@@ -34,7 +34,7 @@ Als u geen ticket kunt maken via een van deze pagina's, kunt u telefonisch conta
 * Voor klanten in Europa, het Midden-Oosten en Azië (EMEA): +44-844-800-2400
 * Voor klanten in India: +1-800-419-5666
 
-U kunt ook [Microsoft Premier Support](https://support.microsoft.com/premier) aanschaffen om contact op te nemen met Microsoft-ondersteuning. Als u weet dat uw organisatie Microsoft Premier Support heeft aangeschaft en u nog steeds geen case kunt maken via een Power BI-kanaal of Office-ondersteuning, dan kunt u telefonisch contact opnemen met Premier Support:
+U kunt ook [Microsoft Premier Support](https://support.microsoft.com/premier) aanschaffen om contact op te nemen met Microsoft-ondersteuning. Als u weet dat uw organisatie Microsoft Premier Support heeft aangeschaft, dan kunt u telefonisch contact opnemen met Premier Support:
 
 * Voor klanten in de Verenigde Staten (VS) en de rest van Amerika: +1-800-936-3100
 * Voor klanten in Europa, het Midden-Oosten en Azië (EMEA): +44-844-800-8338

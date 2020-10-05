@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: e8a5d3b4bf8200e6e990c1bced2920383398b6cf
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 29dad4db6843f0895ea9de791992b3f70ce57e66
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857077"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524737"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>Registreren voor Power BI met een nieuwe proefversie van Microsoft 365
 
@@ -35,7 +35,7 @@ Als u **Office 365 E5** selecteert, bevat uw proefversie ook Power BI Pro. De pr
 
     Als u een nieuw e-mailadres nodig hebt, helpt Microsoft u met stapsgewijze instructies om er een te maken. Eerst moet u een nieuw account maken. Selecteer **Account instellen**.
 
-    ![Kiezen om u te registreren voor een nieuw account](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
+    ![U kunt ervoor kiezen om u te registreren voor een nieuw account.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-email.png)
 
 2. Voer details over het nieuwe account in.
 
@@ -43,7 +43,7 @@ Als u **Office 365 E5** selecteert, bevat uw proefversie ook Power BI Pro. De pr
 
 3. Maak een nieuw e-mailadres en wachtwoord. Maak een nieuwe aanmeldingsnaam die eruitziet als you@yourcompany.onmicrosoft.com. Dit zijn de aanmeldingsgegevens die u gebruikt voor uw nieuwe werk- of schoolaccount en voor Power BI.
 
-    ![Kiezen om u te registreren voor een nieuw account](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
+    ![Schermopname met de opties voor Uw zakelijke identiteit maken.](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-create-account.png)
 
 4. Dat is alles.  U hebt nu een e-mailadres dat u kunt gebruiken om u te registreren voor Power BI. Doorgaan om [u als zelfstandige gebruiker te registreren voor de Power BI-service](../fundamentals/service-self-service-signup-for-power-bi.md)
 

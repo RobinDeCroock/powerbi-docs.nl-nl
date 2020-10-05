@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5fcffd39e9a341478657b63770201ad722b8c291
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 97164fe1db72cac28096b1fde5130cfccec29be2
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855122"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374796"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Veelgestelde vragen over Power BI voor Duitse Cloud-klanten
 Er is een versie van de **Power BI-service** beschikbaar voor de EU-/EFTA-klanten (Europese Unie/Europese Vrijhandelsovereenkomst), ook vaak Microsoft Cloud Deutschland (MCD) genoemd. De versie van de **Power BI-service** die in dit artikel wordt besproken, is specifiek voor EU-/EFTA-klanten en staat los en verschilt van de commerciële versie van de **Power BI-service** of Power BI-services die aan overheidsklanten worden geleverd.
@@ -34,7 +34,7 @@ De volgende vragen en antwoorden bieden belangrijke informatie voor Power BI Pro
    De [startpagina van de Power BI-service voor de Duits cloud](https://powerbi.microsoft.com/power-bi-germany/) bevat uitgebreide informatie, inclusief informatie over de prijzen. Deze pagina bevat tevens een koppeling waarmee u zich kunt registreren voor een proefabonnement van 30 dagen op de **Power BI Pro-service** met 25 gebruikerslicenties. Als u zich registreert voor het proefabonnement, beschikt u over de optie om indien nodig extra licenties te kopen of toe te voegen. We bieden speciale prijzen voor EA (Enterprise Agreement), overheidsinstellingen en non-profitorganisaties. Neem contact op met uw Microsoft-vertegenwoordiger voor meer informatie.
 3. **Ik beschik als onderdeel van Azure Duitsland- en/of Office 365 Germany-abonnementen over een Duitse Cloud-tenant. Kan ik de bestaande tenant gebruiken om mij aan te melden voor Power BI Duitsland?**
    
-   Ja. Als onderdeel van het aanmeldingsproces beschikt u over de optie om u aan te melden met een bestaand tenantbeheerderaccount voor de Duitse cloud en de Power BI Pro-servicelicenties toe te voegen aan uw bestaande tenant in de Duitse cloud. Houd er rekening mee dat de Cloud-tenants en -gebruikersaccounts voor Duitsland verschillen van de Power BI-service voor de Duitse cloud.
+   Ja. Als onderdeel van het aanmeldingsproces beschikt u over de optie om u aan te melden met een bestaand beheerdersaccount voor de Duitse cloud en de Power BI Pro-servicelicenties toe te voegen aan uw bestaande tenant in de Duitse cloud. Houd er rekening mee dat de Cloud-tenants en -gebruikersaccounts voor Duitsland verschillen van de Power BI-service voor de Duitse cloud.
 4. **Bevat de Power BI-service voor de Duitse cloud een gratis service?**
    
    Nee. We kunnen geld geen gratis licentieversies in de Power BI-service voor de Duitse cloud. Als u de gratis versie van Power BI echter voldoet aan uw bedrijfsbehoeften, kunt u zich het beste aanmelden voor de [gratis versie van Power BI in de openbare cloud](https://powerbi.microsoft.com/get-started/).

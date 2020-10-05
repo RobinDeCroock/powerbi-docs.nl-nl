@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 38c14aa33504e7a3bb21cf68c6466a829d0653a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238870"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526255"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken uitvoeren in Power BI Desktop
 
@@ -87,7 +87,7 @@ In dit voorbeeld groeperen we rijen in een gegevensset met inschrijvingen voor e
 
 Laten we eens kijken hoeveel Instanties elke staat heeft. (Instanties kunnen onder meer schooldistricten en andere onderwijsinstituten, zoals regionale serviceregio's, bevatten.) Selecteer de kolom **Instantie-ID - NCES-toegewezen \[District\] Laatste beschikbare jaar** en selecteer vervolgens de knop **Groeperen op** op het tabblad **Transformeren** of het tabblad **Start** van het lint. (**Groeperen op** is beschikbaar op beide tabbladen.)
 
-![Dialoogvenster Groeperen op, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+![Schermopname van het groeperen van rijen in een tabel.](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
 Het dialoogvenster **Groeperen op** wordt weergegeven. Wanneer de Power Query-editor rijen groepeert, wordt er een nieuwe kolom gemaakt waarin de resultaten van **Groeperen op** worden opgenomen. U kunt de **Groeperen op**-bewerking op verschillende manieren aanpassen:
 
@@ -98,7 +98,7 @@ Het dialoogvenster **Groeperen op** wordt weergegeven. Wanneer de Power Query-ed
 
 Selecteer de knop **Groepering toevoegen** of **Aggregatie toevoegen** om meer groeperingen of aggregaties toe te voegen aan een **Groeperen op**-bewerking. Als u een groepering of aggregatie wilt verwijderen, selecteert u het pictogram met het weglatingsteken ( **...** ) aan de rechterkant van de rij en vervolgens **Verwijderen**. Probeer de **Groeperen op**-bewerking uit te proberen met behulp van de standaardwaarden om te zien wat er gebeurt.
 
-![Dialoogvenster Groeperen op, Power Query-editor, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+![Schermopname van het dialoogvenster Groeperen op met de opties Groepering toevoegen en Aggregatie toevoegen uitgelicht.](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
 Wanneer we **OK** selecteren, wordt de **Groeperen op**-bewerking door Query uitgevoerd en worden de resultaten weergegeven. En wat blijkt: Ohio, Texas, Illinois en Californië hebben nu elk meer dan duizend instanties!
 

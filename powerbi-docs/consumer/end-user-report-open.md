@@ -6,22 +6,22 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/25/2020
 ms.author: mihart
-ms.openlocfilehash: 2d55c7dbf0b57d9414436c57e314a22837efeba2
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: d70bc80f7cea3fcff7a25446dd0f73a3c96ee461
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536464"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527515"
 ---
-# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Een rapport weergeven in de Power BI-service voor *gebruikers*
+# <a name="view-a-report-in-the-power-bi-service-for-business-users"></a>Een rapport weergeven in de Power BI-service voor *zakelijke gebruikers*
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Een rapport bestaat uit een of meer pagina's met visuals. Rapporten worden gemaakt door Power BI-*ontwerpers* en [gedeeld met *gebruikers*, rechtstreeks](end-user-shared-with-me.md) of als onderdeel van een [app](end-user-apps.md). 
+Een rapport bestaat uit een of meer pagina's met visuals. Rapporten worden gemaakt door Power BI-*ontwerpers* en [gedeeld met *zakelijke gebruikers*, rechtstreeks](end-user-shared-with-me.md) of als onderdeel van een [app](end-user-apps.md). Als u een rapport wilt openen, hebt u een Power BI Pro-licentie nodig of moet het rapport deel uitmaken van een werkruimte die is opgeslagen in aan Premium toegewezen capaciteit.
 
 U kunt een rapport op veel verschillende manieren openen. We laten u twee van deze manieren zien: openen vanaf Home en openen vanaf een dashboard. 
 
@@ -31,7 +31,7 @@ U kunt een rapport op veel verschillende manieren openen. We laten u twee van de
 ## <a name="open-a-report-from-power-bi-home"></a>Een rapport openen vanuit Power BI Home
 We gaan eerst een rapport openen dat rechtstreeks met u is gedeeld en vervolgens een rapport dat is gedeeld als onderdeel van een app.
 
-   ![Startpagina](./media/end-user-report-open/power-bi-home-canvas.png)
+   ![Schermopname van het startcanvas van de Power BI-service met pijlen die naar rapporten wijzen.](./media/end-user-report-open/power-bi-home.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Een rapport openen dat met u is gedeeld
 Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen via een koppeling per e-mail of door het automatisch aan uw Power BI-inhoud toe te voegen. Rapporten die op deze manier worden gedeeld, worden weergegeven in de container **Gedeeld met mij** in het navigatievenster en in de sectie **Gedeeld met mij** van uw startcanvas.
@@ -40,7 +40,7 @@ Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen v
 
 2. Selecteer **Start** op het navigatievenster om uw startcanvas weer te geven.  
 
-   ![Startcanvas](./media/end-user-report-open/power-bi-select-home-new.png)
+   ![Startcanvas](./media/end-user-report-open/power-bi-open-home.png)
    
 3. Schuif omlaag totdat u **Gedeeld met mij** ziet. Zoek het ![rapportpictogram](./media/end-user-report-open/power-bi-report-icon.png). In deze schermopname zien we één dashboard en één rapport. Het rapport heet *Voorbeeld van verkoop en marketing*. 
    
@@ -52,19 +52,21 @@ Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen v
 
 5. Aan de linkerkant ziet u een reeks tabbladen.  Elk tabblad vertegenwoordigt een *pagina* van het rapport. Op dit moment is de pagina *Groeikansen* geopend. Selecteer het tabblad *Categorie Jaar tot nu toe* om in plaats daarvan die rapportpagina te openen. 
 
-   ![tabbladen met rapportpagina’s](./media/end-user-report-open/power-bi-ytd.png)
+   ![Schermopname van de tabbladen van de rapportpagina.](./media/end-user-report-open/power-bi-report-open.png)
 
-6. Bekijk het venster **Filters** langs de rechterzijde. Filters die zijn toegepast op deze rapportpagina of op het hele rapport, worden hier weergegeven.
+6. Vouw het deelvenster **Filters** uit langs de rechterzijde. Filters die zijn toegepast op deze rapportpagina of op het hele rapport, worden hier weergegeven.
 
-7. Als u met de muis over een rapportvisual beweegt, worden verschillende pictogrammen en **Meer opties** (...) weergegeven. Als u deze filters toegepast wilt zien op een bepaalde visual, selecteert u het filterpictogram. Hier hebben we het filterpictogram geselecteerd voor het lijndiagram *Totaalaantal eenheden door lopende periode en regio*.
+   ![Power BI-service met filters uitgevouwen](./media/end-user-report-open/power-bi-filters.png)
 
-   ![tabbladen met rapportpagina’s](./media/end-user-report-open/power-bi-visual-filters.png)
+7. Als u met de muis over een rapportvisual beweegt, worden verschillende pictogrammen en **Meer opties** (...) weergegeven. Als u deze filters toegepast wilt zien op een bepaalde visual, selecteert u het filterpictogram. Hier hebben we het filterpictogram geselecteerd voor het lijndiagram *Totaalaantal eenheden per maand en fabrikant*.
 
-6. Op dit moment zien we de hele rapportpagina. Als u de weergave (het zoomniveau) van de pagina wilt wijzigen, selecteert u de vervolgkeuzeoptie Weergeven in de rechterbovenhoek en kiest u **Ware grootte**.
+   ![Schermopname met filters voor de geselecteerde visual.](./media/end-user-report-open/power-bi-visual-filter.png)
 
-   ![in-/uitzoomen wijzigen](./media/end-user-report-open/power-bi-fit-new.png)
+6. Op dit moment zien we de hele rapportpagina. Als u de weergave (het zoomniveau) van de pagina wilt wijzigen, selecteert u de vervolgkeuzeoptie Weergeven in de rechterbovenhoek en kiest u **Ware grootte** en schakelt u vervolgens over op **Aan breedte aanpassen**.
 
-   ![aan pagina aanpassen](./media/end-user-report-open/power-bi-actual.png)
+   ![in-/uitzoomen wijzigen](./media/end-user-report-open/power-bi-view-actual.png)
+
+   ![Weergave wijzigen in Aan breedte aanpassen](./media/end-user-report-open/power-bi-width.png)
 
 U kunt op vele manieren communiceren met een rapport om inzichten te ontdekken en zakelijke beslissingen te nemen.  Gebruik de inhoudsopgave aan de linkerkant om andere artikelen over Power BI-rapporten te lezen. 
 
@@ -82,7 +84,7 @@ U kunt de app openen vanuit uw app-container of vanuit de Startpagina.
 
 7. Schuif omlaag totdat u **Mijn apps** ziet.
 
-   ![Startpagina](./media/end-user-report-open/power-bi-app.png)
+   ![Schermopname van de sectie Mijn apps van de Power BI-startpagina.](./media/end-user-report-open/power-bi-apps.png)
 
 8. Selecteer uw nieuwe *Verkoop en marketing*-app om die te openen. Afhankelijk van de opties die de app-*ontwerper* heeft ingesteld, wordt met de app een dashboard of een rapport geopend. Als u deze app opent, wordt er een dashboard weergegeven.  
 
@@ -92,11 +94,11 @@ Rapporten kunnen worden geopend vanaf een dashboard. De meeste [tegels](end-user
 
 1. Selecteer een tegel in het dashboard. In dit voorbeeld hebben we de kolomgrafiektegel *Totaal aantal eenheden JTH...* geselecteerd.
 
-    ![Dashboard waarin tegel is geselecteerd](./media/end-user-report-open/power-bi-dashboard.png)
+    ![Dashboard waarin tegel is geselecteerd](./media/end-user-report-open/power-bi-dashboards.png)
 
 2.  Het bijbehorende rapport wordt geopend. U ziet dat we op de pagina *Categorie JTH* zijn. Dit is de rapportpagina die de kolomgrafiek bevat die we in het dashboard hebben geselecteerd.
 
-    ![Rapport dat is geopend in de leesweergave](./media/end-user-report-open/power-bi-report-tabs.png)
+    ![Rapport dat is geopend in de leesweergave](./media/end-user-report-open/power-bi-report-tab.png)
 
 > [!NOTE]
 > Niet alle tegels leiden naar een rapport. Als u een tegel selecteert die is [gemaakt met V&A](end-user-q-and-a.md), wordt het scherm V&A geopend. Als u een tegel selecteert die [is gemaakt met de dashboardwidget **Tegel toevoegen**](../create-reports/service-dashboard-add-widget.md), kunnen er verschillende dingen gebeuren: er kan een video worden afgespeeld, er kan een website worden geopend, enzovoort.  

@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860665"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375000"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
@@ -21,7 +21,7 @@ Met Power BI-*sjabloon-apps* kunnen Power BI-partners Power BI-apps maken met we
 
 Als u Power BI-rapporten en -dashboards kunt maken, kunt u een *sjabloon-app-bouwer* worden die analytische inhoud maakt en verpakt in een *app*. Vervolgens kunt u uw app implementeren naar andere Power BI-tenants via elk beschikbaar platform, zoals AppSource, of de app gebruiken in uw eigen webservice. Als maker kunt u een beveiligd analysepakket voor distributie maken.
 
-Power BI-tenantbeheerders beheren en bepalen wie er binnen hun organisatie sjabloon-apps kan maken en wie deze kan installeren. Gemachtigde gebruikers kunnen uw sjabloon-app installeren en deze vervolgens wijzigen en distribueren naar de Power BI-gebruikers in hun organisatie.
+Power BI-beheerders beheren en bepalen wie er binnen de betreffende organisatie sjabloon-apps kan maken en wie deze kan installeren. Gemachtigde gebruikers kunnen uw sjabloon-app installeren en deze vervolgens wijzigen en distribueren naar de Power BI-gebruikers in hun organisatie.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -163,7 +163,7 @@ De verschillende fasen worden hieronder besproken:
 
     ![Pictogram voor Publicatiebeheer](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. Selecteer **Koppeling ophalen** als u de test-app hebt gemaakt in de sectie **De testsjabloon-app maken** hierboven (waardoor de gele stip naast **Testen** al is gevuld).
+2. Selecteer **Koppeling ophalen** als u de test-app hebt gemaakt in de sectie **De eigenschappen van de sjabloon-app definiëren** hierboven (waardoor de gele stip naast **Testen** al is gevuld).
 
     Als u de app nog niet hebt gemaakt, selecteert u **App maken**. Hierdoor gaat u terug naar het proces voor het maken van de sjabloon-app.
 

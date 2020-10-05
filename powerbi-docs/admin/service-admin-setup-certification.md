@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41247a6dbee2ba6c4c5181a4646df735e43f8b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 11079e2ab1578cfe5db352e7e3286d491bdfca2c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227543"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374908"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>Certificering van gegevenssets en gegevensstromen instellen (preview)
 
 Uw organisatie kan gegevenssets en gegevensstromen certificeren die de gezaghebbende bronnen voor essentiële informatie zijn.
 
-Als Power BI-tenantbeheerder bent u verantwoordelijk voor het instellen van het certificeringsproces voor uw organisatie. Dit betekent:
+Als Power BI-beheerder bent u verantwoordelijk voor het instellen van het certificeringsproces voor uw organisatie. Dit betekent:
 * Certificering inschakelen voor uw tenant.
 * Een lijst met groepen en gebruikers definiëren die gemachtigd zijn om gegevenssets en gegevensstromen te certificeren.
 * Voor gegevenssets de URL van het beleid voor gegevenscertificering van de organisatie verstrekken, indien aanwezig.

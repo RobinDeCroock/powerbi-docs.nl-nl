@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 25a0ddaaf72e185d795d819e8c2cb990d2823ed2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229791"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527741"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Verbinding maken met Project Web App via Power BI
 Microsoft Project Web App is een flexibele onlineoplossing voor Project Portfolio Management (PPM) en dagelijkse werkzaamheden. Met Project Web App kunnen organisaties meteen aan de slag, projectportfolio-investeringen prioriteren en de beoogde bedrijfswaarde leveren. Met het Project Web App-inhoudspakket voor Power BI kunt u inzichten ontlenen aan Power Web App om projecten, portfolio's en resources te beheren.
@@ -29,7 +29,7 @@ Maak verbinding met de [Project Web App-sjabloon-app](https://appsource.microsof
 
 2. Selecteer **Ophalen** in het vak **Services**.
    
-   ![AppSource](media/service-connect-to-project-online/AppSource.png)
+   ![Schermopname van het venster AppSource met vijf beschikbare apps.](media/service-connect-to-project-online/AppSource.png)
 3. Selecteer in AppSource het tabblad **Apps** en zoek/selecteer **Microsoft Project Web App**.
    
 4. U krijgt de vraag **Wilt u deze Power BI-app installeren?** Selecteer **Installeren**. 

@@ -11,12 +11,12 @@ ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763937"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527931"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>Licenties en abonnementen voor *zakelijke gebruikers*
 
@@ -36,7 +36,7 @@ In dit artikel worden de mogelijkheden van elk licentietype beschreven en leest 
 
 ## <a name="licenses"></a>Licenties
 
-Elke gebruiker van de Power BI-service heeft een *gratis* licentie, of een *Pro*-licentie. Als u een *zakelijke gebruiker* van Power BI bent, gebruikt u waarschijnlijk een licentie die wordt beheerd door de beheerder van uw Power BI-tenant.
+Elke gebruiker van de Power BI-service heeft een *gratis* licentie, of een *Pro*-licentie. Als u een *zakelijke gebruiker* van Power BI bent, gebruikt u waarschijnlijk een licentie die wordt beheerd door uw Power BI-beheerder.
 
 Het is mogelijk om meer dan één licentie tegelijkertijd te gebruiken.  De service biedt altijd een ervaring die vergelijkbaar is met de meest tolerante licentie die u momenteel hebt.
 

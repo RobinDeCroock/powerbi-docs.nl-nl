@@ -1,23 +1,23 @@
 ---
 title: Meldingen over onderbrekingen van de service
-description: Meer informatie over het ontvangen van e-mailmeldingen wanneer een Power BI-service is onderbroken of gedegradeerd.
+description: Meer informatie over het ontvangen van e-mailmeldingen wanneer een Power BI-service is onderbroken of uitgevallen.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/09/2020
+ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642266"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374862"
 ---
 # <a name="service-interruption-notifications"></a>Meldingen over onderbrekingen van de service
 
-Het is essentieel om inzicht te hebben in de beschikbaarheid van uw bedrijfskritische zakelijke toepassingen. Power BI biedt meldingen over incidenten zodat u optioneel e-mails kunt ontvangen bij onderbreking of degradatie van een service. Hoewel deze incidenten zelden voorkomen dankzij de Service Level Agreement (SLA) van 99,9 procent van Power BI, vinden we het belangrijk om u op de hoogte te houden. In de volgende schermopname ziet u het type e-mailbericht dat u ontvangt als u meldingen inschakelt:
+Het is belangrijk om inzicht te hebben in de beschikbaarheid van uw bedrijfskritische zakelijke toepassingen. Power BI biedt meldingen over incidenten zodat u optioneel e-mails kunt ontvangen bij onderbreking of degradatie van een service. Hoewel deze incidenten zelden voorkomen dankzij de Service Level Agreement (SLA) van 99,9 procent van Power BI, vinden we het belangrijk om u op de hoogte te houden. In de volgende schermopname ziet u het type e-mailbericht dat u ontvangt als u meldingen inschakelt:
 
 ![E-mailmelding over een probleem met vernieuwen](media/service-interruption-notifications/refresh-notification-email.png)
 
@@ -27,7 +27,7 @@ Op dit moment verzenden we e-mails voor de volgende _betrouwbaarheidsscenario's:
 - Betrouwbaarheid van model vernieuwen
 - Betrouwbaarheid van query vernieuwen
 
-Er worden meldingen verzonden wanneer er een _lange vertraging_ is bij bewerkingen zoals het openen van rapporten, het vernieuwen van gegevenssets of het uitvoeren van query’s. Wanneer een incident is opgelost, ontvangt u een vervolgmail.
+Er worden meldingen verzonden wanneer er een _langdurige vertraging_ is bij bewerkingen zoals het openen van rapporten, het vernieuwen van gegevenssets of het uitvoeren van query’s. Wanneer een incident is opgelost, ontvangt u een vervolgmail.
 
 > [!NOTE]
 > Deze functie is momenteel alleen beschikbaar voor toegewezen capaciteit in Power BI Premium. Deze functie is niet beschikbaar voor gedeelde of ingesloten capaciteit.
@@ -36,16 +36,15 @@ Er worden meldingen verzonden wanneer er een _lange vertraging_ is bij bewerking
 
 Als er lange perioden van hoog resourcegebruik zijn in een Power BI Premium-capaciteit, wat effect kan hebben op de betrouwbaarheid, wordt er een e-mailmelding verzonden. Voorbeelden van deze effecten zijn langdurige vertragingen bij bewerkingen zoals het openen van een rapport, het vernieuwen van een gegevensset en het uitvoeren van query's. 
 
-De e-mailmelding biedt informatie over de reden van het hoge resourcegebruik, waaronder:
+De e-mailmelding biedt informatie over de reden van het hoge resourcegebruik, waaronder de volgende gegevens:
 
 * De gegevensset-id van de verantwoordelijke gegevensset
 * Het type bewerking
 * De CPU-tijd die is gekoppeld aan het hoge resourcegebruik. Hier volgt de [definitie van CPU-tijd](https://wikipedia.org/wiki/CPU_time) in Wikipedia.
 
-Er worden via Power BI ook e-mailmeldingen verzonden wanneer overbelasting in een Power BI Premium-capaciteit wordt gedetecteerd. In het e-mailbericht wordt de waarschijnlijke reden voor de overbelasting uitgelegd, welke bewerkingen verantwoordelijk waren voor die belasting in de afgelopen tien minuten en hoe hoog die belasting voor elke bewerking was. 
+Er worden via Power BI ook e-mailmeldingen verzonden wanneer overbelasting in een Power BI Premium-capaciteit wordt gedetecteerd. In het e-mailbericht wordt de waarschijnlijke reden voor de overbelasting uitgelegd, welke bewerkingen verantwoordelijk waren voor die belasting in de afgelopen tien minuten en hoe hoog die belasting voor elke bewerking was.
 
-
-Als u meer dan één Premium-capaciteit hebt, bevat het e-mailbericht informatie over deze capaciteiten tijdens de periode van overbelasting. U kunt overwegen de werkruimten met resource-intensieve items te verplaatsen naar capaciteiten met de minste belasting.
+Als u meer dan één Premium-capaciteit hebt, is in het e-mailbericht informatie opgenomen over deze capaciteiten tijdens de periode van overbelasting. Met deze informatie kunt u overwegen de werkruimten met resource-intensieve items naar capaciteiten met de minste belasting te verplaatsen.
 
 E-mailmeldingen over overbelasting worden alleen verzonden wanneer er een drempelwaarde voor overbelasting is geactiveerd. U ontvangt geen tweede e-mail wanneer de belasting van die Premium-capaciteit weer daalt naar niet-overbelaste niveaus.
 
@@ -56,7 +55,7 @@ In de volgende afbeelding ziet u een voorbeeld van een e-mailmelding:
 
 ## <a name="enable-notifications"></a>Meldingen inschakelen
 
-Een Power BI-tenantbeheerder schakelt meldingen in de beheerportal in:
+Een Power BI-beheerder schakelt meldingen in de beheerportal in:
 
 1. Identificeer of maak een beveiligingsgroep met e-mail die meldingen moet ontvangen.
 
@@ -68,6 +67,10 @@ Een Power BI-tenantbeheerder schakelt meldingen in de beheerportal in:
 
 > [!NOTE]
 > Vanuit Power BI worden meldingen verzonden vanuit het account no-reply-powerbi@microsoft.com. Zorg ervoor dat dit account wordt toegevoegd aan de lijst met veilige afzenders zodat meldingen niet eindigen in een map voor ongewenste e-mail.
+
+## <a name="service-health-in-microsoft-365"></a>Servicestatus in Microsoft 365
+
+In dit artikel wordt beschreven hoe u servicemeldingen ontvangt via Power BI. U kunt ook de status van de Power BI-service bewaken via Microsoft 365. Meld u aan om e-mailmeldingen over de servicestatus van Microsoft 365 te ontvangen. Meer informatie vindt u in [De servicestatus van Microsoft 365 controleren](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health).
 
 ## <a name="next-steps"></a>Volgende stappen
 

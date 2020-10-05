@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 528fc40427a1cb242d9154028d1a7c6617c8a14e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 840e4dc92164de2ebfd1bdef6bee941124f6e906
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279680"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136207"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Richtlijnen voor samengestelde modellen in Power BI Desktop
 
@@ -54,8 +54,8 @@ In een samengesteld model kunt u de opslagmodus voor elke tabel configureren (me
 Er zijn verschillende scenario's mogelijk waarin Power BI een query uitvoert op een samengesteld model:
 
 - **Alleen query's op een of meer import- of dual-tabellen**: Alle gegevens worden opgehaald uit de modelcache. Dit biedt de snelst mogelijke prestaties. Dit scenario is gebruikelijk voor dimensietypetabellen die worden bevraagd met behulp van filters of slicervisualisaties.
-- **Query's op een of meer dual- of DirectQuery-tabellen uit dezelfde bron**: Alle gegevens worden opgehaald door een of meer native query's te verzenden naar de DirectQuery-bron. Dit biedt de snelst mogelijke prestaties, met name wanneer de juiste indexen bestaan voor de brontabellen. Dit scenario is gebruikelijk voor query's waarbij dual-dimensietypetabellen en DirectQuery-feitentabellen worden gekoppeld. Deze query's zijn _intra-eiland_ en dus worden alle een-op-een- of een-op-veel-relaties geëvalueerd als [sterke relaties](../transform-model/desktop-relationships-understand.md#strong-relationships).
-- **Alle overige query's**: Deze query's omvatten relaties tussen eilanden. De reden hiervoor is dat een importtabel is gekoppeld aan een DirectQuery-tabel of een dual-tabel aan een DirectQuery-tabel vanuit een andere bron. In het laatste geval gedraagt de tabel zich als een importtabel. Alle relaties worden geëvalueerd als [zwakke relaties](../transform-model/desktop-relationships-understand.md#weak-relationships). Het betekent ook dat groeperingen die worden toegepast op niet-DirectQuery-tabellen, als een virtuele tabel moeten worden verzonden naar de DirectQuery-bron. In dit geval kan de native query inefficiënt zijn, met name voor grote groepeersets. Bovendien bestaat de kans dat er gevoelige gegevens worden blootgesteld in de native query.
+- **Query's op een of meer dual- of DirectQuery-tabellen uit dezelfde bron**: Alle gegevens worden opgehaald door een of meer native query's te verzenden naar de DirectQuery-bron. Dit biedt de snelst mogelijke prestaties, met name wanneer de juiste indexen bestaan voor de brontabellen. Dit scenario is gebruikelijk voor query's waarbij dual-dimensietypetabellen en DirectQuery-feitentabellen worden gekoppeld. Deze query's zijn _intra-eiland_ en dus worden alle een-op-een- of een-op-veel-relaties geëvalueerd als [reguliere relaties](../transform-model/desktop-relationships-understand.md#regular-relationships).
+- **Alle overige query's**: Deze query's omvatten relaties tussen eilanden. De reden hiervoor is dat een importtabel is gekoppeld aan een DirectQuery-tabel of een dual-tabel aan een DirectQuery-tabel vanuit een andere bron. In het laatste geval gedraagt de tabel zich als een importtabel. Alle relaties worden geëvalueerd als [beperkte relaties](../transform-model/desktop-relationships-understand.md#limited-relationships). Het betekent ook dat groeperingen die worden toegepast op niet-DirectQuery-tabellen, als een virtuele tabel moeten worden verzonden naar de DirectQuery-bron. In dit geval kan de native query inefficiënt zijn, met name voor grote groepeersets. Bovendien bestaat de kans dat er gevoelige gegevens worden blootgesteld in de native query.
 
 Kort samengevat, adviseren wij het volgende:
 
@@ -63,7 +63,7 @@ Kort samengevat, adviseren wij het volgende:
 - Stel de opslagmodus in op **DirectQuery** wanneer een tabel een feitentabel is waarin grote hoeveelheden gegevens worden opgeslagen, of wanneer bijna realtime resultaten vereist zijn.
 - Stel de opslagmodus in op **Dual** wanneer een tabel een dimensietypetabel is en deze tegelijk wordt bevraagd met **DirectQuery**-feitentabellen op basis van dezelfde bron.
 - Configureer de juiste vernieuwingsfrequenties om de modelcache voor dual-tabellen (en eventuele afhankelijke berekende tabellen) synchroon te houden met de brondatabase(s).
-- Streef ernaar om de integriteit van gegevens te garanderen tussen gegevensbronnen (inclusief de modelcache): zwakke relaties elimineren rijen wanneer gerelateerde kolomwaarden niet overeenkomen.
+- Streef ernaar om de integriteit van gegevens te garanderen tussen gegevensbronnen (inclusief de modelcache): beperkte relaties elimineren rijen wanneer gerelateerde kolomwaarden niet overeenkomen
 - Optimaliseer DirectQuery-gegevensbronnen met de juiste indexen voor efficiënte samenvoegingen, filters en groeperingen.
 - Laad geen gevoelige gegevens in import- of dual-tabellen als er het risico bestaat dat een native query wordt onderschept. Zie Gevolgen voor de beveiliging in het artikel [Samengestelde modellen in Power BI Desktop gebruiken](../transform-model/desktop-composite-models.md#security-implications) voor meer informatie.
 

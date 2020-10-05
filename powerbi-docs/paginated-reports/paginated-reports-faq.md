@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216676"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526669"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -76,7 +76,7 @@ Standaardgeheugenruimte in elke Premium-SKU voor gepagineerde rapporten:
 - **P2/A5**: standaard 20%; minimaal 5%
 - **P3/A6**: standaard 20%; minimaal 2,5%
 
-Power BI-tenantbeheerders kunnen het maximale standaardgeheugenpercentage wijzigen in de beheerportal. Zie het workloadgedeelte **Gepagineerde rapporten** onder **Power BI Premium** op het tabblad **Capaciteitsinstellingen**.
+Power BI-beheerders kunnen het maximale standaardgeheugenpercentage wijzigen in de beheerportal. Zie het workloadgedeelte **Gepagineerde rapporten** onder **Power BI Premium** op het tabblad **Capaciteitsinstellingen**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Tabblad Capaciteitsinstellingen voor gepagineerde rapporten":::
 
