@@ -91,9 +91,9 @@
         - name: API's
           items:
             - name: Azure Resource Manager REST-API's
-              href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+              href: /rest/api/power-bi-embedded/
             - name: Power BI REST-API's
-              href: 'https://docs.microsoft.com/rest/api/power-bi/'
+              href: /rest/api/power-bi/
         - name: Power BI-bibliotheken
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
         - name: Aangepaste indelingen insluiten in een app

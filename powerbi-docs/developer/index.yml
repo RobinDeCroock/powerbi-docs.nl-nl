@@ -13,12 +13,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 57dbd3c64265ba532167db806d714054767bc506
-  ms.sourcegitcommit: 52f365af6ea5359e39d4d4547f1d61e5e0d08c5f
+  ms.openlocfilehash: a4ff9cfe0cb12dbbbd6df79a69f5637609957920
+  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 06/16/2020
-  ms.locfileid: "84795042"
+  ms.lasthandoff: 10/06/2020
+  ms.locfileid: "91748489"
 highlightedContent:
   items:
   - title: Ingesloten analyses met Power BI
@@ -83,13 +83,13 @@ additionalContent:
   - items:
     - title: Power BI REST-API's
       summary: De Power BI REST API's bieden service-eindpunten voor insluiten, beheer en gebruikersresources.
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - title: Azure Resource Manager REST API's
       summary: Een API die voorziet in een set RESTful-webservices waarmee u toegewezen capaciteiten voor Power BI kunt maken, ophalen, bijwerken en verwijderen.
-      url: https://docs.microsoft.com/rest/api/power-bi-embedded/
+      url: /rest/api/power-bi-embedded/
     - title: Power Platform-documentatie
       summary: Ontdek hoe Power BI, Power Apps, Power Automate en Power Virtual Agents samenwerken om elkaar te verbeteren.
-      url: https://docs.microsoft.com/power-platform/
+      url: /power-platform/
     - title: Power BI-ontwikkelaarscentrum
       summary: Bouw met Power BI.
       url: https://powerbi.microsoft.com/developers/
