@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 3f7bf1ebb51e7f9e5916e16280a2e10d7339df73
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: d66f11bdbb9de10f77b7841958d9ef08c358ef7e
+  ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80516256"
+  ms.lasthandoff: 10/06/2020
+  ms.locfileid: "91746028"
 landingContent:
 - title: Aan de slag
   linkLists:
@@ -60,7 +60,7 @@ landingContent:
     - text: Aanbevolen procedures voor de prestaties
       url: embedded-performance-best-practices.md
     - text: Power BI-machtigingen
-      url: power-bi-permissions.md
+      url: /azure/active-directory/develop/v2-permissions-and-consent
     - text: Vragen en antwoorden
       url: qanda.md
     - text: Problemen oplossen met uw ingesloten toepassing
@@ -70,9 +70,9 @@ landingContent:
   - linkListType: reference
     links:
     - text: Power BI REST-API's
-      url: https://docs.microsoft.com/rest/api/power-bi/
+      url: /rest/api/power-bi/
     - text: Naslag voor REST-API voor Power BI
-      url: https://docs.microsoft.com/power-bi/developer/automation/rest-api-reference
+      url: ../automation/rest-api-reference.md
     - text: Ontwikkelaarscentrum
       url: https://powerbi.microsoft.com/developers/
     - text: Power BI-bibliotheken
