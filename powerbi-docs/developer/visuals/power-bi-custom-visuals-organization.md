@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401951"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749225"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Organisatievisuals in Power BI
 
@@ -49,7 +49,7 @@ Beheerder:
 
 Eindgebruiker:
 
-* Power BI-visuals voor organisaties zijn persoonlijke visuals die uit de organisatieopslagplaats zijn geïmporteerd. Evenmin als persoonlijke visuals kunnen ze niet worden [geëxporteerd naar PowerPoint](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) of worden weergegeven in ontvangen e-mails als een gebruiker zich [abonneert op rapportpagina's](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe). Alleen [gecertificeerde Power BI-visuals](power-bi-custom-visuals-certified.md) die rechtstreeks zijn geïmporteerd vanuit de marketplace ondersteunen deze functies.
+* Power BI-visuals voor organisaties zijn persoonlijke visuals die uit de organisatieopslagplaats zijn geïmporteerd. Evenmin als persoonlijke visuals kunnen ze niet worden [geëxporteerd naar PowerPoint](../../consumer/end-user-powerpoint.md) of worden weergegeven in ontvangen e-mails als een gebruiker zich [abonneert op rapportpagina's](../../consumer/end-user-subscribe.md). Alleen [gecertificeerde Power BI-visuals](power-bi-custom-visuals-certified.md) die rechtstreeks zijn geïmporteerd vanuit de marketplace ondersteunen deze functies.
 
 * De Visio-visual, PowerApps-visual, Map box-visual en GlobeMap-visual uit de AppSource-marketplace worden niet weergegeven als ze worden geïmplementeerd via de opslagplaats van de organisatie.
 

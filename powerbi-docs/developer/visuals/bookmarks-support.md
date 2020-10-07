@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878593"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748995"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Ondersteuning voor bladwijzers toevoegen voor Power BI-visuals
 
 Met bladwijzers in Power BI rapporten kan de geconfigureerde weergave van een rapportpagina, selectiestatus en filterstatus van de visual worden vastgelegd. Hiervoor is wel een extra actie vereist wat Power BI-visuals betreft, om ondersteuning te bieden voor bladwijzers en op de juiste manier op wijzigingen te reageren.
 
-Zie [Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks) voor meer informatie over bladwijzers.
+Zie [Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI](../../create-reports/desktop-bookmarks.md) voor meer informatie over bladwijzers.
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Ondersteuning voor bladwijzers in rapporten in uw visual
 

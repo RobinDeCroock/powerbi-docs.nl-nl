@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495798"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748788"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Logboekregistratie van diagnostische gegevens voor Power BI Embedded in Azure
 
-Met [diagnostische logboeken voor Azure-resources](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs) kunt u veel gebeurtenissen uit uw capaciteit vastleggen en een hulpprogramma voor analyse gebruiken om deze gegevens te transformeren in inzichten in het gedrag van de resource.
+Met [diagnostische logboeken voor Azure-resources](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs) kunt u veel gebeurtenissen uit uw capaciteit vastleggen en een hulpprogramma voor analyse gebruiken om deze gegevens te transformeren in inzichten in het gedrag van de resource.
 
 Het gebruik van diagnostische gegevens is handig in een aantal scenario's, bijvoorbeeld:
 
@@ -36,12 +36,12 @@ Het gebruik van diagnostische gegevens is handig in een aantal scenario's, bijvo
 
     * **Naam**. Voer een naam in voor de diagnostische instelling die moet worden gemaakt.
 
-    * **Archiveren in een opslagaccount**. Voor deze optie moet u verbinding maken met een bestaand opslagaccount. Zie [Een opslagaccount maken](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account) en volg de instructies om een opslagaccount te maken. Selecteer vervolgens uw opslagaccount door terug te keren naar deze pagina in de portal. Het kan enkele minuten duren voordat nieuwe opslagaccounts worden weergegeven in de vervolgkeuzelijst. Logboekbestanden worden opgeslagen in de JSON-indeling.
-    * **Streamen naar een Event Hub**. Voor deze optie moet u verbinding maken met een bestaande Event Hub-naamruimte en Event Hub. Zie [Create an Event Hubs namespace and an event hub using the Azure portal](https://docs.microsoft.com/azure/event-hubs/event-hubs-create) (Een Event Hub-naamruimte en een Event Hub maken met behulp van de Azure-portal) voor meer informatie.
-    * **Verzenden naar Log Analytics**. Voor deze optie moet u een bestaande werkruimte gebruiken of een nieuwe Log Analytics-werkruimte maken door de stappen te volgen in [Een nieuwe werkruimte maken](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) in de portal. Hiervoor wordt gebruikgemaakt van [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview), dat ingebouwde analysefunctionaliteit, dashboards en mogelijkheden voor meldingen biedt. U kunt Log Analytics gebruiken om meer gegevens van andere resources te koppelen en zo een volledig beeld te krijgen van de gegevens in alle resources van uw toepassing. Log Analytics kan ook in slechts één klik worden gekoppeld aan [Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi).
-    Zie [Logboeken weergeven in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity) voor meer informatie over het weergeven van logboeken in Log Analytics.
+    * **Archiveren in een opslagaccount**. Voor deze optie moet u verbinding maken met een bestaand opslagaccount. Zie [Een opslagaccount maken](/azure/storage/common/storage-create-storage-account) en volg de instructies om een opslagaccount te maken. Selecteer vervolgens uw opslagaccount door terug te keren naar deze pagina in de portal. Het kan enkele minuten duren voordat nieuwe opslagaccounts worden weergegeven in de vervolgkeuzelijst. Logboekbestanden worden opgeslagen in de JSON-indeling.
+    * **Streamen naar een Event Hub**. Voor deze optie moet u verbinding maken met een bestaande Event Hub-naamruimte en Event Hub. Zie [Create an Event Hubs namespace and an event hub using the Azure portal](/azure/event-hubs/event-hubs-create) (Een Event Hub-naamruimte en een Event Hub maken met behulp van de Azure-portal) voor meer informatie.
+    * **Verzenden naar Log Analytics**. Voor deze optie moet u een bestaande werkruimte gebruiken of een nieuwe Log Analytics-werkruimte maken door de stappen te volgen in [Een nieuwe werkruimte maken](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace) in de portal. Hiervoor wordt gebruikgemaakt van [Azure Log Analytics](/azure/log-analytics/log-analytics-overview), dat ingebouwde analysefunctionaliteit, dashboards en mogelijkheden voor meldingen biedt. U kunt Log Analytics gebruiken om meer gegevens van andere resources te koppelen en zo een volledig beeld te krijgen van de gegevens in alle resources van uw toepassing. Log Analytics kan ook in slechts één klik worden gekoppeld aan [Power BI](/azure/log-analytics/log-analytics-powerbi).
+    Zie [Logboeken weergeven in Log Analytics](/azure/log-analytics/log-analytics-activity) voor meer informatie over het weergeven van logboeken in Log Analytics.
     * **Engine**. Selecteer deze optie om de set met [Engine-gebeurtenissen](#whats-logged) weer te geven die hieronder worden vermeld.
-    * **AllMetrics**. Selecteer deze optie om uitgebreide gegevens in [Metrische gegevens](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics) op te slaan. Als u wilt archiveren in een opslagaccount, kunt u de bewaarperiode voor de diagnostische logboeken selecteren. Logboeken worden automatisch verwijderd als de bewaarperiode is verlopen.
+    * **AllMetrics**. Selecteer deze optie om uitgebreide gegevens in [Metrische gegevens](/azure/analysis-services/analysis-services-monitor#server-metrics) op te slaan. Als u wilt archiveren in een opslagaccount, kunt u de bewaarperiode voor de diagnostische logboeken selecteren. Logboeken worden automatisch verwijderd als de bewaarperiode is verlopen.
 
 3. Selecteer **Opslaan**.
 
@@ -87,11 +87,11 @@ U kunt deze parameters combineren om meerdere uitvoeropties in te schakelen.
 
 ### <a name="rest-api"></a>REST API
 
-Leer hoe u [diagnostische instellingen kunt wijzigen met behulp van de Azure Monitor REST API](https://docs.microsoft.com/rest/api/monitor/). 
+Leer hoe u [diagnostische instellingen kunt wijzigen met behulp van de Azure Monitor REST API](/rest/api/monitor/). 
 
 ### <a name="resource-manager-template"></a>Resource Manager-sjabloon
 
-Leer hoe u [diagnostische instellingen kunt inschakelen tijdens het maken van een resource met behulp van een Resource Manager-sjabloon](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
+Leer hoe u [diagnostische instellingen kunt inschakelen tijdens het maken van een resource met behulp van een Resource Manager-sjabloon](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template).
 
 ## <a name="whats-logged"></a>Wat wordt er geregistreerd?
 
@@ -174,11 +174,11 @@ Selecteer bij **Type** de optie **AzureDiagnostics**. Selecteer vervolgens **Toe
 
 Selecteer **EventClass\_s** of een van de gebeurtenisnamen. Vervolgens wordt er een Log Analytics-query gemaakt. Vergeet niet om uw query's op te slaan, zodat u ze later opnieuw kunt gebruiken.
 
-Ga ook naar [Log Analytics](https://docs.microsoft.com/azure/log-analytics/). Op de website hiervan vindt u uitgebreide queryfunctionaliteit, dashboards en mogelijkheden voor meldingen over verzamelde gegevens.
+Ga ook naar [Log Analytics](/azure/log-analytics/). Op de website hiervan vindt u uitgebreide queryfunctionaliteit, dashboards en mogelijkheden voor meldingen over verzamelde gegevens.
 
 ### <a name="queries"></a>Query's
 
-Er zijn honderden query's die u kunt gebruiken. Hier ziet u een paar query's waarmee u direct aan de slag kunt gaan. Zie [Understanding log searches in Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search) (Informatie over zoekopdrachten in logboeken in Log Analytics) voor meer informatie over het gebruik van de nieuwe querytaal voor Zoeken in logboeken.
+Er zijn honderden query's die u kunt gebruiken. Hier ziet u een paar query's waarmee u direct aan de slag kunt gaan. Zie [Understanding log searches in Log Analytics](/azure/log-analytics/log-analytics-log-search) (Informatie over zoekopdrachten in logboeken in Log Analytics) voor meer informatie over het gebruik van de nieuwe querytaal voor Zoeken in logboeken.
 
 * Query-uitvoer die in minder dan vijf minuten (300.000 milliseconden) werd geretourneerd.
 
@@ -206,7 +206,7 @@ Er zijn honderden query's die u kunt gebruiken. Hier ziet u een paar query's waa
 Lees meer informatie over logboekregistratie van diagnostische gegevens in Azure-resources.
 
 > [!div class="nextstepaction"]
-> [Logboekregistratie van diagnostische gegevens in Azure-resources](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Logboekregistratie van diagnostische gegevens in Azure-resources](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting)

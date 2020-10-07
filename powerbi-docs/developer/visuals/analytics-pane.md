@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239900"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749018"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Het deelvenster Analyse in Power BI-visuals
 
-In november 2018 is het deelvenster **Analyse** geïntroduceerd voor [native visuals](https://docs.microsoft.com/power-bi/desktop-analytics-pane).
+In november 2018 is het deelvenster **Analyse** geïntroduceerd voor [native visuals](../../transform-model/desktop-analytics-pane.md).
 In dit artikel leest u hoe Power BI-visuals met API versie 2.5.0 hun eigenschappen in het deelvenster **Analyse** kunnen presenteren en beheren.
 
 ![Het deelvenster Analyse](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>Het deelvenster Analyse beheren
 
-Net zoals u eigenschappen in het [deelvenster **Opmaak**](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options) zou beheren, zo beheert u ook het deelvenster **Analyse** door het definiëren van een object in het bestand *capabilities.json* van de visual.
+Net zoals u eigenschappen in het [deelvenster **Opmaak**](./custom-visual-develop-tutorial-format-options.md) zou beheren, zo beheert u ook het deelvenster **Analyse** door het definiëren van een object in het bestand *capabilities.json* van de visual.
 
 Voor het deelvenster **Analyse** gelden de volgende verschillen:
 

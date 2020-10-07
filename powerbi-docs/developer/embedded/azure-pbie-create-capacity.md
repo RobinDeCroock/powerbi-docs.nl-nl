@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528362"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748857"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
@@ -26,11 +26,11 @@ Voor deze snelstartgids hebt u heet volgende nodig:
 
 * **Azure-abonnement:** ga naar [Gratis proefversie van Azure](https://azure.microsoft.com/free/) om een account te maken.
 
-* **Azure Active Directory:** Uw abonnement moet zijn gekoppeld aan een Azure Active Directory-tenant (Azure AD). Bovendien ***moet u zijn aangemeld bij Azure met een account in deze tenant***. Microsoft-accounts worden niet ondersteund. Zie [Verificatie en gebruikersmachtigingen](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users) voor meer informatie.
+* **Azure Active Directory:** Uw abonnement moet zijn gekoppeld aan een Azure Active Directory-tenant (Azure AD). Bovendien ***moet u zijn aangemeld bij Azure met een account in deze tenant***. Microsoft-accounts worden niet ondersteund. Zie [Verificatie en gebruikersmachtigingen](/azure/analysis-services/analysis-services-manage-users) voor meer informatie.
 
 * **Power BI-tenant:** ten minste één account in uw Azure AD-tenant moet zijn geregistreerd voor Power BI.
 
-* **Resourcegroep:** gebruik een resourcegroep die u al hebt of [maak een nieuwe](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
+* **Resourcegroep:** gebruik een resourcegroep die u al hebt of [maak een nieuwe](/azure/azure-resource-manager/resource-group-overview).
 
 ## <a name="create-a-capacity"></a>Een capaciteit maken
 
@@ -50,13 +50,13 @@ Voordat u een Power BI Embedded-capaciteit maakt, moet u controleren of u zich t
 
     * **Abonnement**: het abonnement waarvoor u de capaciteit wilt maken.
 
-    * **Resourcegroep**: de resourcegroep die deze nieuwe capaciteit bevat. Kies een bestaande resourcegroep of maak een nieuwe. Zie [Overzicht van Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) voor meer informatie.
+    * **Resourcegroep**: de resourcegroep die deze nieuwe capaciteit bevat. Kies een bestaande resourcegroep of maak een nieuwe. Zie [Overzicht van Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview) voor meer informatie.
 
     * **Resourcenaam**: de resourcenaam van de capaciteit.
 
     * **Locatie**: de locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](embedded-multi-geo.md).
 
-    * **Grootte**: de [A-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) die u nodig hebt. Zie [SKU-geheugen en rekenkracht](/power-bi/developer/embedded/embedded-capacity) voor meer informatie.
+    * **Grootte**: de [A-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) die u nodig hebt. Zie [SKU-geheugen en rekenkracht](./embedded-capacity.md) voor meer informatie.
 
     * **Power BI-capaciteitsbeheerder**: een beheerder voor de capaciteit.
         >[!NOTE]
@@ -114,7 +114,7 @@ Voor opdrachten voor de Power BI Embedded-capaciteit is versie 2.3.1 of later va
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Een capaciteit maken met Azure CLI
 
-Gebruik de opdracht [az Power BI embedded-capacity create](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) om een capaciteit te maken.
+Gebruik de opdracht [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) om een capaciteit te maken.
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -126,7 +126,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Een capaciteit verwijderen met Azure CLI
 
-Gebruik de opdracht [az powerbi embedded-capacity delete](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) om een capaciteit te verwijderen met Azure CLI.
+Gebruik de opdracht [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) om een capaciteit te verwijderen met Azure CLI.
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -135,13 +135,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Uw capaciteit beheren met Azure CLI
 
-In [az powerbi](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) kunt u alle Power BI Embedded Azure CLI-opdrachten zien.
+In [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) kunt u alle Power BI Embedded Azure CLI-opdrachten zien.
 
 # <a name="arm-template"></a>[ARM-sjabloon](#tab/ARM-template)
 
 ### <a name="use-resource-manager-template"></a>Resource Manager-sjabloon gebruiken
 
-[Resource Manager-sjabloon](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview) is een JavaScript Object Notation-bestand (JSON) dat de infrastructuur en configuratie van uw project definieert. De sjabloon gebruikt een declaratieve syntaxis. Dit is een syntaxis waarmee u kunt aangeven wat u wilt implementeren zonder hiervoor de nodige reeks programmeeropdrachten te hoeven maken. Als u meer wilt weten over het ontwikkelen van Resource Manager-sjablonen, raadpleegt u de [Resource Manager-documentatie](https://docs.microsoft.com/azure/azure-resource-manager/) en het [referentiemateriaal over sjablonen](https://docs.microsoft.com/azure/templates/).
+[Resource Manager-sjabloon](/azure/azure-resource-manager/templates/overview) is een JavaScript Object Notation-bestand (JSON) dat de infrastructuur en configuratie van uw project definieert. De sjabloon gebruikt een declaratieve syntaxis. Dit is een syntaxis waarmee u kunt aangeven wat u wilt implementeren zonder hiervoor de nodige reeks programmeeropdrachten te hoeven maken. Als u meer wilt weten over het ontwikkelen van Resource Manager-sjablonen, raadpleegt u de [Resource Manager-documentatie](/azure/azure-resource-manager/) en het [referentiemateriaal over sjablonen](/azure/templates/).
 
 Als u nog geen Azure-abonnement hebt, maakt u een [gratis account](https://azure.microsoft.com/free/) voordat u begint.
 
@@ -209,7 +209,7 @@ De sjabloon die in deze quickstart wordt gebruikt, komt uit [Azure-quickstartsja
 }
 ```
 
-In de sjabloon is één Azure-resource gedefinieerd: [Microsoft.PowerBIDedicated/capacities Az](https://docs.microsoft.com/azure/templates/microsoft.powerbidedicated/allversions) - Een Power BI Embedded-capaciteit maken.
+In de sjabloon is één Azure-resource gedefinieerd: [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - Een Power BI Embedded-capaciteit maken.
 
 ### <a name="deploy-the-template"></a>De sjabloon implementeren
 
@@ -223,16 +223,16 @@ In de sjabloon is één Azure-resource gedefinieerd: [Microsoft.PowerBIDedicated
 
     * **Abonnement**: het abonnement waarvoor u de capaciteit wilt maken.
 
-    * **Resourcegroep**: de resourcegroep die deze nieuwe capaciteit bevat. Kies een bestaande resourcegroep of maak een nieuwe. Zie [Overzicht van Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) voor meer informatie.
+    * **Resourcegroep**: de resourcegroep die deze nieuwe capaciteit bevat. Kies een bestaande resourcegroep of maak een nieuwe. Zie [Overzicht van Azure Resource Manager](/azure/azure-resource-manager/resource-group-overview) voor meer informatie.
 
     * **Regio**: de regio waarvan de capaciteit deel uitmaakt.
 
     * **Naam**: de naam van de capaciteit.
 
-    * **Locatie**: de locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+    * **Locatie**: de locatie waar Power BI voor uw tenant wordt gehost. Uw standaardlocatie is uw basisregio. U kunt de regio wijzigen met behulp van [Multi-Geo-opties](./embedded-multi-geo.md
 ).
 
-    * **SKU**: de [A-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) die u nodig hebt. Zie [SKU-geheugen en rekenkracht](/power-bi/developer/embedded/embedded-capacity) voor meer informatie.
+    * **SKU**: de [A-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios) die u nodig hebt. Zie [SKU-geheugen en rekenkracht](./embedded-capacity.md) voor meer informatie.
 
     * **Admin**: een beheerder voor de capaciteit.
         >[!NOTE]

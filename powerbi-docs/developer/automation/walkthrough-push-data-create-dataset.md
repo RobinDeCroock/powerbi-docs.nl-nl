@@ -8,23 +8,23 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 8860a06355f201c463e97d81021a8e5476ac98c8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: d782ee1d7a3fd137624054ee9e2bca0247ddb5ea
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354979"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748880"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Stap 3: Een gegevensset maken in Power BI
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
-In **stap 2** van Gegevens naar een gegevensset pushen, [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md), hebt u een token opgehaald voor verificatie bij **Azure AD**. In deze stap gebruikt u de token om de bewerking [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) aan te roepen.
+In **stap 2** van Gegevens naar een gegevensset pushen, [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md), hebt u een token opgehaald voor verificatie bij **Azure AD**. In deze stap gebruikt u de token om de bewerking [PostDataset](/rest/api/power-bi/pushdatasets) aan te roepen.
 
 Als u een REST-resource aanroept, gebruikt u een URL die de resource zoekt en verzendt u een JSON-tekenreeks (JavaScript Object Notation), waarin de gegevensset wordt beschreven, naar de resource van de Power BI-service. Een REST-resource geeft het deel van de Power BI-service aan waarmee u wilt werken. Als u gegevens naar de gegevensset wilt pushen, is de doelresource een **gegevensset**. De URL waarmee een gegevensset wordt geïdentificeerd is `https://api.PowerBI.com/v1.0/myorg/datasets`. Als u de gegevens binnen een groep pusht, is de URL `https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets`.
 
 Als u een REST-bewerking voor Power BI wilt verifiëren, voegt u de token die u hebt gekregen in [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md) toe aan een aanvraagheader:
 
-Wanneer u de bewerking [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) aanroept, wordt een nieuwe gegevensset gemaakt. 
+Wanneer u de bewerking [PostDataset](/rest/api/power-bi/pushdatasets) aanroept, wordt een nieuwe gegevensset gemaakt. 
 
 ![gegevensset maken](media/walkthrough-push-data-create-dataset/powerbi-developer-create-dataset.png)
 
@@ -229,11 +229,10 @@ namespace walkthrough_push_data
 ## <a name="next-steps"></a>Volgende stappen
 * [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md)  
 * [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)  
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)  
-[PostDatasetInGroup](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)  
+[PostDatasetInGroup](/rest/api/power-bi/pushdatasets/datasets_postdatasetingroup)  
 * [Gegevens pushen naar een Power BI-dashboard](walkthrough-push-data.md)  
 * [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
-* [Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Naslag voor REST-API voor Power BI](/rest/api/power-bi/)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

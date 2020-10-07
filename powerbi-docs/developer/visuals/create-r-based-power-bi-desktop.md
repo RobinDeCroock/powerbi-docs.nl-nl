@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527764"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749316"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Zelfstudie: Power BI-visual maken met behulp van R
 
@@ -31,9 +31,9 @@ In deze zelfstudie leert u het volgende:
 ## <a name="prerequisites"></a>Vereisten
 
 * Een **Power BI Pro**-account. [Meld u aan voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
-* De R-engine. U kunt deze gratis downloaden vanaf verschillende locaties, waaronder de [downloadpagina van Revolution Open](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/). Zie [Power BI-visuals maken met R](../../desktop-r-visuals.md) voor meer informatie.
+* De R-engine. U kunt deze gratis downloaden vanaf verschillende locaties, waaronder de [downloadpagina van Revolution Open](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/). Zie [Power BI-visuals maken met R](../../create-reports/desktop-r-visuals.md) voor meer informatie.
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md).
-* [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) versie 4 of hoger voor Windows-gebruikers OF [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) voor Mac OS X-gebruikers.
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) versie 4 of hoger voor Windows-gebruikers OF [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) voor Mac OS X-gebruikers.
 
 ## <a name="getting-started"></a>Aan de slag
 
@@ -283,6 +283,6 @@ De uiteindelijke visual lijkt op het volgende voorbeeld:
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Zie [Met R gemaakte Power BI-visuals gebruiken in Power BI](../../desktop-r-powered-custom-visuals.md) voor meer informatie over visuals die zijn gemaakt met behulp van R.
+Zie [Met R gemaakte Power BI-visuals gebruiken in Power BI](../../create-reports/desktop-r-powered-custom-visuals.md) voor meer informatie over visuals die zijn gemaakt met behulp van R.
 
-Zie [Power BI-visuals maken met R](../../desktop-r-visuals.md) voor meer informatie over R-visuals in Power BI Desktop.
+Zie [Power BI-visuals maken met R](../../create-reports/desktop-r-visuals.md) voor meer informatie over R-visuals in Power BI Desktop.

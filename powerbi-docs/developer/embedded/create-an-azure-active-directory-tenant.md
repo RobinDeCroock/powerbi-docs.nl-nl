@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: f592b7927d713e343f1d3ad11453cbbacc17fffd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354933"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748765"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Een Azure Active Directory-tenant maken voor gebruik met Power BI
 
@@ -27,7 +27,7 @@ Uw organisatie heeft mogelijk al een Azure AD-tenant die u voor uw toepassing ku
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Een Azure Active Directory-tenant maken
 
-Als u Power BI in uw aangepaste toepassing wilt integreren, moet u een toepassing definiëren in Azure AD waarvoor een Azure AD-directory nodig is. Deze directory is uw *tenant*. Als uw organisatie nog geen tenant heeft, omdat deze niet Power BI of Microsoft 365 gebruikt, [moet u een ontwikkelingsomgeving instellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). U moet er ook een maken als u uw toepassing niet wilt combineren met de tenant van uw organisatie om zaken apart te houden. Of misschien wilt u een tenant alleen maken voor testdoeleinden.
+Als u Power BI in uw aangepaste toepassing wilt integreren, moet u een toepassing definiëren in Azure AD waarvoor een Azure AD-directory nodig is. Deze directory is uw *tenant*. Als uw organisatie nog geen tenant heeft, omdat deze niet Power BI of Microsoft 365 gebruikt, [moet u een ontwikkelingsomgeving instellen](/azure/active-directory/develop/active-directory-howto-tenant). U moet er ook een maken als u uw toepassing niet wilt combineren met de tenant van uw organisatie om zaken apart te houden. Of misschien wilt u een tenant alleen maken voor testdoeleinden.
 
 Ga als volgt te werk om een nieuwe Azure AD-tenant te maken:
 
@@ -93,8 +93,8 @@ Nu u een directory hebt, gaan we ten minste twee gebruikers maken. Een is de glo
 
 Nu u een Azure AD-tenant hebt, kunt u deze tenant gebruiken om items in Power BI te testen. U kunt ook Power BI-dashboards en -rapporten in uw toepassing insluiten. Zie [Power BI-dashboards, -rapporten en -tegels insluiten](embed-sample-for-customers.md) voor meer informatie.
 
-[Wat is een Azure Active-directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+[Wat is een Azure Active-directory?](/azure/active-directory/active-directory-whatis) 
  
-[Snelstart: Een ontwikkelaarsomgeving instellen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[Snelstart: Een ontwikkelaarsomgeving instellen](/azure/active-directory/develop/active-directory-howto-tenant)  
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

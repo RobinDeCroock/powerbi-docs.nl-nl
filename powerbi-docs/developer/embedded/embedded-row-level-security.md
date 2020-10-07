@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402043"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748903"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -78,7 +78,7 @@ Door het filter toe te passen zoals we hier hebben gedaan, worden alle records i
 
 Nu de rollen in Power BI Desktop zijn geconfigureerd, moet u nog wat werk verrichten in de toepassing om voordeel van de rollen te hebben.
 
-Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om een gebruiker toegang te geven tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. U kunt de identiteiten doorgeven via de API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+Gebruikers worden geverifieerd en geautoriseerd door de toepassing, en insluittokens worden gebruikt om een gebruiker toegang te geven tot een specifiek Power BI Embedded-rapport. Power BI Embedded bevat geen specifieke informatie over de identiteit van de gebruiker. Voor de juiste werking van RLS moet u aanvullende contextgegevens bij insluittokens doorgeven in de vorm van identiteiten. U kunt de identiteiten doorgeven via de API [Embed Token](/rest/api/power-bi/embedtoken).
 
 Met de API wordt een lijst identiteiten geaccepteerd met vermelding van de relevante gegevenssets. Voor de juiste werking van RLS moet u de onderstaande stukken doorgeven als onderdeel van de identiteit.
 
@@ -134,7 +134,7 @@ Beveiliging op rijniveau kan worden gebruikt voor liveverbindingen van Analysis 
 De effectieve identiteit die wordt opgegeven voor de eigenschap voor de gebruikersnaam, moet een Windows-gebruiker zijn met machtigingen voor de Analysis Services-server.
 
 >[!NOTE]
-> Wanneer u de service-principal gebruikt met een [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview)-gegevensbron, moet de service-principal zelf machtigingen hebben voor Azure Analysis Services. Het gebruik van een beveiligingsgroep die de service-principal voor dit doel bevat, werkt niet.
+> Wanneer u de service-principal gebruikt met een [Azure Analysis Services](/azure/analysis-services/analysis-services-overview)-gegevensbron, moet de service-principal zelf machtigingen hebben voor Azure Analysis Services. Het gebruik van een beveiligingsgroep die de service-principal voor dit doel bevat, werkt niet.
 
 ### <a name="on-premises-data-gateway-configuration"></a>Configuratie van on-premises gegevensgateway
 
@@ -195,7 +195,7 @@ Als u de REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens to
 
 Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Embedded-toepassing.
 
-1. Maak een Azure Analysis Services-database. Meld u vervolgens aan bij uw Azure Analysis Services-server via [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+1. Maak een Azure Analysis Services-database. Meld u vervolgens aan bij uw Azure Analysis Services-server via [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
 
     ![Een Azure Analysis Services-database maken](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -245,7 +245,7 @@ Wanneer u een beslissing neemt over filters in uw rapport, kunt u **beveiliging 
 
 * [Rollen configureren in een Power BI-rapport](../../create-reports/desktop-rls.md).
 * Rollen configureren op gegevensbronniveau (alleen met een Analysis Services-liveverbinding).
-* Programmatisch via een [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) met `EffectiveIdentity`. Wanneer u een insluittoken gebruikt, wordt het werkelijke filter doorgegeven via het insluittoken voor een specifieke sessie.
+* Programmatisch via een [Insluittoken](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) met `EffectiveIdentity`. Wanneer u een insluittoken gebruikt, wordt het werkelijke filter doorgegeven via het insluittoken voor een specifieke sessie.
 
 [JavaScript-filters](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) worden gebruikt om de gebruiker een beperkte, gerichte of gefilterde weergave van de gegevens te geven. De gebruiker heeft echter nog steeds toegang tot de tabellen, kolommen en metingen van het modelschema en mogelijk ook tot de gegevens daarin. Beperkte gegevenstoegang kan alleen worden gerealiseerd met RLS en niet via filter-API's aan de clientzijde.
 
@@ -261,7 +261,7 @@ Het kan worden gebruikt om de weergave van elke gebruiker in Azure SQL te behere
 
 Dergelijke problemen met effectieve identiteit zijn rechtstreeks van toepassing op RLS-regels in de Azure SQL Server. Power BI Embedded maakt gebruikt van het opgegeven toegangstoken wanneer het query's uitvoert op gegevens uit de Azure SQL Server. De UPN van de gebruiker (voor wie de toegangstoken is opgegeven) is toegankelijk als gevolg van de functie USER_NAME() SQL.
 
-De identiteit op basis van tokens werk allen voor DirectQuery-modellen in een toegewezen capaciteit, verbonden met een Azure SQL Database die is geconfigureerd voor AAD-verificatie ([meer informatie over AAD-verificatie voor Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins)). Als u een identiteit op basis van tokens wilt gebruiken, moet de gegevensbron van de gegevensset zo zijn geconfigureerd dat de OAuth2-referenties van de gebruikers worden gebruikt.
+De identiteit op basis van tokens werk allen voor DirectQuery-modellen in een toegewezen capaciteit, verbonden met een Azure SQL Database die is geconfigureerd voor AAD-verificatie ([meer informatie over AAD-verificatie voor Azure SQL Database](/azure/sql-database/sql-database-manage-logins)). Als u een identiteit op basis van tokens wilt gebruiken, moet de gegevensbron van de gegevensset zo zijn geconfigureerd dat de OAuth2-referenties van de gebruikers worden gebruikt.
 
    ![Azure SQL-server configureren](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -322,11 +322,11 @@ De waarde die wordt opgegeven in de id-blob moet een geldig toegangstoken zijn v
 
 Klanten die beveiliging op rijniveau (RLS) met een on-premises SSAS-gegevensbron (SQL Server Analysis Services) met een live-verbinding configureren, profiteren van de nieuwe [service-principal](embed-service-principal.md)-mogelijkheid om gebruikers en hun toegang tot gegevens in SSAS te beheren wanneer zij integreren met **Power BI Embedded**.
 
-Met [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/)kunt u de effectieve identiteit voor on-premises live-SSAS-verbindingen voor een insluittoken opgeven met behulp van een [service-principal-object](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
+Met [Power BI REST API's](/rest/api/power-bi/)kunt u de effectieve identiteit voor on-premises live-SSAS-verbindingen voor een insluittoken opgeven met behulp van een [service-principal-object](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
 
 Tot nu toe moest de hoofdgebruiker die het insluittoken genereert een gatewaybeheerder zijn om de effectieve identiteit voor on-premises live-SSAS-verbindingen op te geven. Nu hoeft de gebruiker geen gatewaybeheerder meer te zijn: de gatewaybeheerder kan de gebruiker een toegewezen machtiging voor die gegevensbron geven, zodat de gebruiker de effectieve identiteit kan overschrijven wanneer het insluittoken wordt gegenereerd. Dankzij deze nieuwe mogelijkheid is insluiten met een service-principal voor een live-SSAS-verbinding mogelijk.
 
-Voor het inschakelen van dit scenario gebruikt de gatewaybeheerder de [Add Datasource User Rest API](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) om de service-principal de *ReadOverrideEffectiveIdentity*-machtiging te verlenen voor Power BI Embedded.
+Voor het inschakelen van dit scenario gebruikt de gatewaybeheerder de [Add Datasource User Rest API](/rest/api/power-bi/gateways/adddatasourceuser) om de service-principal de *ReadOverrideEffectiveIdentity*-machtiging te verlenen voor Power BI Embedded.
 
 U kunt deze machtiging niet instellen via de beheerportal. Deze machtiging kan alleen worden ingesteld met de API. In de beheerportal ziet u een indicatie voor gebruikers en SPN’s met dergelijke machtigingen.
 

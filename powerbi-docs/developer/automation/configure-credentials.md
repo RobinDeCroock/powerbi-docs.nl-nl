@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034055"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748949"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Referenties via een programma configureren voor Power BI
 
@@ -25,7 +25,7 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
 
 ## <a name="update-credentials-flow-for-data-sources"></a>Referentiestroom bijwerken voor gegevensbronnen
 
-1. Roep [Get Datasources](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasourcesingroup) (Gegevensbronnen ophalen ) aan om de gegevensbronnen van de gegevensset te detecteren. De antwoordtekst voor elke gegevensbron bevat type, verbindingsgegevens, gateway en gegevensbron-id.
+1. Roep [Get Datasources](/rest/api/power-bi/datasets/getdatasourcesingroup) (Gegevensbronnen ophalen ) aan om de gegevensbronnen van de gegevensset te detecteren. De antwoordtekst voor elke gegevensbron bevat type, verbindingsgegevens, gateway en gegevensbron-id.
 
     ```csharp
     // Select a datasource
@@ -33,7 +33,7 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
     var datasource = datasources.First();
     ```
 
-2. Bouw een referentietekenreeks volgens de [voorbeelden voor datasource bijwerken](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource), afhankelijk van het type referenties.
+2. Bouw een referentietekenreeks volgens de [voorbeelden voor datasource bijwerken](/rest/api/power-bi/gateways/updatedatasource), afhankelijk van het type referenties.
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -50,9 +50,9 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
     ---
 
     >[!NOTE]
-    >Als u cloudgegevensbronnen gebruikt, moet u niet de volgende stappen in deze sectie gebruiken. Stel de referenties in met behulp van de gateway-id en gegevensbron-id die u in stap 1 hebt verkregen door [Update Data Source](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Gegevensbron bijwerken) aan te roepen. 
+    >Als u cloudgegevensbronnen gebruikt, moet u niet de volgende stappen in deze sectie gebruiken. Stel de referenties in met behulp van de gateway-id en gegevensbron-id die u in stap 1 hebt verkregen door [Update Data Source](/rest/api/power-bi/gateways/updatedatasource) (Gegevensbron bijwerken) aan te roepen. 
 
-3. Roep [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) (Gateway ophalen) aan om de openbare sleutel van de gateway op te halen.
+3. Roep [Get Gateway](/rest/api/power-bi/gateways/getgateways) (Gateway ophalen) aan om de openbare sleutel van de gateway op te halen.
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
@@ -104,7 +104,7 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
 
     ---
 
-6. Roep [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (Gegevensbron bijwerken) aan om referenties in te stellen.
+6. Roep [Update Datasource](/rest/api/power-bi/gateways/updatedatasource) (Gegevensbron bijwerken) aan om referenties in te stellen.
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);
@@ -114,7 +114,7 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
 
 1. Installeer de [on-premises gegevensgateway](https://powerbi.microsoft.com/gateway/) op uw computer.
 
-2. Roep [Get Gateways](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) (Gateways ophalen) aan om de id en openbare sleutel van de gateway op te halen.
+2. Roep [Get Gateways](/rest/api/power-bi/gateways/getgateways) (Gateways ophalen) aan om de id en openbare sleutel van de gateway op te halen.
 
     ```csharp
     // Select a gateway
@@ -134,7 +134,7 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
             dataSourceName: "my sql datasource");
     ```
 
-5. Roep de API [Create Datasource ](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) (Gegevensbron maken) aan.
+5. Roep de API [Create Datasource ](/rest/api/power-bi/gateways/createdatasource) (Gegevensbron maken) aan.
 
     ```csharp
     pbiClient.Gateways.CreateDatasource(gateway.Id, request);
@@ -142,7 +142,7 @@ Volg de stappen in dit artikel voor het configureren van referenties via een pro
 
 ## <a name="credential-types"></a>Referentietypen
 
-Als u [Gegevensbron maken](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) of [Gegevensbron bijwerken](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) aanroept onder een **on-premises bedrijfsgateway** met de [REST API van Power BI](https://docs.microsoft.com/rest/api/power-bi/), moet de waarde voor de referenties worden versleuteld met de openbare sleutel van de gateway.
+Als u [Gegevensbron maken](/rest/api/power-bi/gateways/createdatasource) of [Gegevensbron bijwerken](/rest/api/power-bi/gateways/updatedatasource) aanroept onder een **on-premises bedrijfsgateway** met de [REST API van Power BI](/rest/api/power-bi/), moet de waarde voor de referenties worden versleuteld met de openbare sleutel van de gateway.
 
 >[!NOTE]
 >In .NET SDK v3 kunnen ook de voorbeelden voor .NET SDK v2 worden uitgevoerd die u hieronder ziet.
@@ -233,6 +233,6 @@ Dit probleem betekent dat de gegevensset niet is gebonden aan een gateway. Bij h
 
 Nadat u de gegevensset hebt gemaakt, wordt een automatische binding gemaakt tussen de gegevensset en een geschikte gateway, die overeenkomende gegevensbronnen voor alle verbindingen bevat. Als er geen dergelijke gateway is of meerdere geschikt gateways zijn, mislukt de automatische binding.
 
-Als u gebruikmaakt van on-premises gegevenssets, maakt u de ontbrekende on-premises gegevensbronnen en verbindt u de gegevensset handmatig aan een gateway met [Bind To Gateway](https://docs.microsoft.com/rest/api/power-bi/datasets/bindtogateway) (Aan gateway verbinden).
+Als u gebruikmaakt van on-premises gegevenssets, maakt u de ontbrekende on-premises gegevensbronnen en verbindt u de gegevensset handmatig aan een gateway met [Bind To Gateway](/rest/api/power-bi/datasets/bindtogateway) (Aan gateway verbinden).
 
-Als u gateways wilt detecteren die geschikt zijn voor binding, gebruikt u [Discover Gateways](https://docs.microsoft.com/rest/api/power-bi/datasets/discovergateways) (Gateway detecteren).
+Als u gateways wilt detecteren die geschikt zijn voor binding, gebruikt u [Discover Gateways](/rest/api/power-bi/datasets/discovergateways) (Gateway detecteren).
