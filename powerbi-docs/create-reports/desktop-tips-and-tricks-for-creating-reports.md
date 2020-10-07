@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953002"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633533"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -44,7 +44,9 @@ We gebruiken hier een voorbeeld van een eenvoudige tabel met temperaturen en de 
 ## <a name="reference-lines-in-your-report"></a>Referentielijnen in uw rapport
 U kunt een berekende kolom in Power BI Desktop gebruiken om een referentielijn te definiëren. Bepaal welke tabel en kolom waar u een referentielijn wilt maken. Selecteer in het lint 'Nieuwe kolom' en typ in de formulebalk de volgende formule:
 
-    Target Value = 100
+```console
+Target Value = 100
+```
 
 Deze berekende kolom retourneert de waarde 100, ongeacht waar deze wordt gebruikt. De nieuwe kolom wordt weergegeven in de veldenlijst. Voeg de berekende kolom Doelwaarde toe aan een lijndiagram om weer te geven hoe een reeks zich verhoudt tot die specifieke referentielijn. 
 
@@ -66,7 +68,9 @@ Een andere manier is te zorgen dat velden correct worden gegeocodeerd door de ge
 ## <a name="better-geocoding-with-more-specific-locations"></a>Betere geocodering met specifiekere locaties
 Soms is zelfs het instellen van de gegevenscategorieën onvoldoende om correcte kaarten te maken. Maak met de query-editor in Power BI Desktop een specifiekere locatie, zoals een adres. Gebruik de functie Kolom toevoegen om een aangepaste kolom te maken. Maak de gewenste locatie vervolgens als volgt: 
 
-    = [Field1] & " " & [Field2]
+```console
+= [Field1] & " " & [Field2]
+```
 
 Vervolgens kunt u het resulterende veld gebruiken in kaartvisualisaties. Dit is zeer nuttig wanneer u straatadressen afleidt van velden voor een bezorgadres die veel in gegevenssets worden gebruikt. Houd er wel rekening mee dat deze samenvoeging alleen werkt met tekstvelden. Indien nodig dient u een huisnummer eerst te converteren naar een tekstgegevenstype, voordat u dit gebruikt om een adres te vormen.
 
@@ -77,11 +81,13 @@ Eenvoudigste histogrammen: bepaal welke query het veld bevat dat u wilt gebruike
 
 Buckets definiëren om een histogram te maken: bepaal welke query het veld bevat dat u wilt gebruiken om een histogram te maken. Gebruik de optie 'Verwijzing' voor de query om een nieuwe query te maken en geef deze de naam 'FieldName'. Definieer vervolgens de buckets met behulp van een regel. Gebruik de optie Aangepaste kolom toevoegen op het lint Kolom toevoegen en maak een aangepaste regel. Een eenvoudige bucket-regel kan er bijvoorbeeld als volgt uitzien:
 
-    if([FieldName] \< 2) then "\<2 min" else
-    if([FieldName] \< 5) then "\<5 min" else
-    if([FieldName] \< 10) then "\<10 min" else
-    if([FieldName] \< 30) then "\<30 min" else
-    "longer")
+```console
+if([FieldName] \< 2) then "\<2 min" else
+if([FieldName] \< 5) then "\<5 min" else
+if([FieldName] \< 10) then "\<10 min" else
+if([FieldName] \< 30) then "\<30 min" else
+"longer")
+```
 
 Zorg dat het gegevenstype een getal is voor de resulterende cumulatieve kolom. U kunt nu de techniek voor Groeperen op gebruiken die wordt beschreven bij het Eenvoudigste histogram om het histogram te maken. Deze optie kan meer gegevenspunten verwerken, maar u kunt nog steeds niet eenvoudiger door visualisaties bladeren.
 

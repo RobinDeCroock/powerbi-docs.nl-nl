@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86300994"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633694"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -60,10 +60,10 @@ Gebruikers die het ingesloten rapport willen bekijken, hebben een Power BI Pro-l
 
 U kunt de gebruikerservaring aanpassen met behulp van de invoerinstellingen van de insluitings-URL. In het verstrekte iFrame kunt u de **src**-instellingen van de URL bijwerken.
 
-| Eigenschap  | Beschrijving  |  |  |  |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | Met de queryreeksparameter **pageName** kunt u instellen welke pagina van het rapport u wilt openen. U vindt deze waarde aan het einde van de rapport-URL wanneer u een rapport bekijkt in de Power BI-service, zoals hieronder wordt weergegeven. |  |  |  |
-| URL-filters  | U kunt [URL-filters](service-url-filters.md) gebruiken in de insluitings-URL die u hebt ontvangen in de Power BI-gebruikersinterface om de ingesloten inhoud te filteren. Op deze manier kunt u integraties bouwen met slechts weinig programmacode en alleen basiskennis van HTML en JavaScript.  |  |  |  |
+| Eigenschap  | Beschrijving  |
+|-----------|--------------|
+| pageName  | Met de queryreeksparameter **pageName** kunt u instellen welke pagina van het rapport u wilt openen. U vindt deze waarde aan het einde van de rapport-URL wanneer u een rapport bekijkt in de Power BI-service, zoals hieronder wordt weergegeven. |
+| URL-filters  | U kunt [URL-filters](service-url-filters.md) gebruiken in de insluitings-URL die u hebt ontvangen in de Power BI-gebruikersinterface om de ingesloten inhoud te filteren. Op deze manier kunt u integraties bouwen met slechts weinig programmacode en alleen basiskennis van HTML en JavaScript.  |
 
 ## <a name="set-which-page-opens-for-an-embedded-report"></a>Instellen welke pagina van een ingesloten rapport wordt geopend 
 

@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e8f1c143f65b1974364a8a1c9c55e132a4131c4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857031"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632843"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -24,13 +24,12 @@ In dit artikel wordt het inschakelen en configureren van workloads voor Power BI
 
 Queryworkloads zijn geoptimaliseerd voor en beperkt door de resources die voor uw Premium-capaciteit-SKU zijn vastgesteld. Premium-capaciteiten bieden bovendien ondersteuning voor extra workloads die de resources van uw capaciteit kunnen gebruiken. De standaardgeheugenwaarden voor deze workloads zijn gebaseerd op de capaciteitsknooppunten die voor uw SKU beschikbaar zijn. De maximale geheugeninstellingen zijn niet cumulatief. Het geheugen tot de opgegeven maximumwaarde wordt dynamisch toegewezen voor AI en gegevensstromen, maar statisch voor gepagineerde rapporten.
 
-|                   | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
-|-------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
-| AI                | Niet ondersteund               | Standaard 40%, minimaal 40%  | Standaard 20%; minimaal 20%  | standaard 20%; minimaal 8%  | standaard 20%; minimaal 4%  | standaard 20%; minimaal 2%   |
-| Gegevenssets          | Standaard 100%; minimaal 67% | Standaard 100%; minimaal 40% | Standaard 100%; minimaal 20% | Standaard 100%; minimaal 8% | Standaard 100%; minimaal 4% | Standaard 100%; minimaal 2%  |
-| Gegevensstromen         | Standaard 40%, minimaal 40%  | Standaard 24%, minimaal 24%  | Standaard 20%, minimaal 12%  | standaard 20%; minimaal 5%  | Standaard 20%, minimaal 3%  | standaard 20%; minimaal 2%   |
-| Gepagineerde rapporten | Niet ondersteund               | Niet ondersteund               | Niet ondersteund               | standaard 20%; minimaal 10% | standaard 20%; minimaal 5%  | standaard 20%; minimaal 2,5% |
-|                   |                           |                           |                           |                          |                          |                           |
+|                       | EM1 / A1                  | EM2 / A2                  | EM3 / A3                  | P1 / A4                  | P2 / A5                  | P3 / A6                   |
+|-----------------------|---------------------------|---------------------------|---------------------------|--------------------------|--------------------------|---------------------------|
+| **AI**                | Niet ondersteund               | Standaard 40%, minimaal 40%  | Standaard 20%; minimaal 20%  | standaard 20%; minimaal 8%  | standaard 20%; minimaal 4%  | standaard 20%; minimaal 2%   |
+| **Gegevenssets**          | Standaard 100%; minimaal 67% | Standaard 100%; minimaal 40% | Standaard 100%; minimaal 20% | Standaard 100%; minimaal 8% | Standaard 100%; minimaal 4% | Standaard 100%; minimaal 2%  |
+| **Gegevensstromen**         | Standaard 40%, minimaal 40%  | Standaard 24%, minimaal 24%  | Standaard 20%, minimaal 12%  | standaard 20%; minimaal 5%  | Standaard 20%, minimaal 3%  | standaard 20%; minimaal 2%   |
+| **Gepagineerde rapporten** | Niet ondersteund               | Niet ondersteund               | Niet ondersteund               | standaard 20%; minimaal 10% | standaard 20%; minimaal 5%  | standaard 20%; minimaal 2,5% |
 
 ## <a name="workload-settings"></a>Workloadinstellingen
 
@@ -81,10 +80,9 @@ Als u een bestaande gegevensset hebt die groter is dan de grootte die u voor dez
 
 Ter bescherming van de prestaties van het systeem, wordt er een extra SKU-specifiek hard plafond toegepast als maximale grootte voor offline gegevenssets, ongeacht de geconfigureerde waarde. Dit harde plafond is niet van toepassing op Power BI-gegevenssets die zijn geoptimaliseerd voor een grote gegevensomvang. Zie [Grote modellen in Power BI Premium](service-premium-large-models.md) voor meer informatie.
 
-|                                           | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
-|-------------------------------------------|----------|----------|----------|---------|---------|---------|
-| Hard plafond voor maximale grootte van offline gegevenssets | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
-|                                           |          |          |          |         |         |         |
+|                                               | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |
+|-----------------------------------------------|----------|----------|----------|---------|---------|---------|
+| **Hard plafond voor maximale grootte van offline gegevenssets** | 3 GB     | 5 GB     | 6 GB     | 10 GB   | 10 GB   | 10 GB   |
 
 #### <a name="max-result-row-set-count"></a>Maximum aantal in te stellen rijen met resultaten
 
@@ -104,10 +102,9 @@ Houd er rekening mee dat bewerkingen voor het vernieuwen van gegevens ook DAX-qu
 
 De standaardinstelling is 0, wat betekent dat de volgende SKU-specifieke geheugenlimiet voor query's automatisch wordt toegepast.
 
-|                              | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |   
-|------------------------------|----------|----------|----------|---------|---------|---------|
-| Automatische geheugenlimiet voor query's | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
-|                              |          |          |          |         |         |         |
+|                                  | EM1 / A1 | EM2 / A2 | EM3 / A3 | P1 / A4 | P2 / A5 | P3 / A6 |
+|----------------------------------|----------|----------|----------|---------|---------|---------|
+| **Automatische geheugenlimiet voor query's** | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 
 Als waarborging van de prestaties van het systeem wordt een hard plafond van 10 GB afgedwongen voor alle query's die worden uitgevoerd door Power BI-rapporten, ongeacht de geheugenlimiet voor query's die door de gebruiker is geconfigureerd. Dit harde plafond geldt niet voor query's die worden uitgevoerd door hulpprogramma's die gebruikmaken van het Analysis Services-protocol (ook wel XMLA genoemd). Gebruikers moeten overwegen om de query of de berekeningen ervan te vereenvoudigen als de query te geheugenintensief is.
 

@@ -10,17 +10,19 @@ ms.date: 05/08/2020
 ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: acce77e3c3e41ec5b711a6a1c79628b2a47cd47f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 49af2febbecb5061c4acb9ee20c3b707e3b81dff
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485847"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634890"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 Mogelijk wordt er een fout weergegeven wanneer u een gegevensset probeert te configureren voor een geplande vernieuwing.
 
-        You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
+```output
+You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
+```
 
 Dit gebeurt wanneer de gegevensbron die u hebt gebruikt in Power BI Desktop de vernieuwingsbewerking niet ondersteunt. U moet de gegevensbron zoeken die u gebruikt en aan de hand van de lijst met ondersteunde gegevensbronnen in [Gegevens vernieuwen in Power BI](refresh-data.md) controleren of de gegevensbron wordt ondersteund. 
 

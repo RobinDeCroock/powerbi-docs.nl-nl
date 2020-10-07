@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 1e2426b12bf6205e5ed2fc6cfb0540c67740df7d
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813618"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635212"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capaciteit en SKU's in Power BI Embedded-analyses
 
@@ -68,10 +68,9 @@ De onderstaande tabel bevat een overzicht van de functies, de capaciteit die nod
 
 In deze tabel verwijst een aangepaste app naar een web-app die is gemaakt met behulp van ingesloten analyses. Wanneer u als een ontwikkelaar iets insluit in een aangepaste web-app (met behulp van de JavaScript- of .NET-SDK's, of de REST-API's), hebt u de mogelijkheid om de UX te beheren en aan te passen. Deze mogelijkheid is niet beschikbaar wanneer u andere insluitingsopties gebruikt, zoals de Power BI-service en Power BI Mobile.
 
-
-|         |         |         |
-|---------|---------|---------|
-|**Scenario**</br><p></p>|**Azure**</br>(A-SKU)|**Office**</br>(P- en EM-SKU's)|
+| Scenario | Azure   | Office          |
+|----------|---------|-----------------|
+|          | (A-SKU) | (P- en EM-SKU's) |
 |[Insluiten voor uw klanten](embed-sample-for-customers.md)</br>(app is eigenaar van gegevens)     |✔        |✔        |
 |[Insluiten voor uw organisatie](embed-sample-for-your-organization.md)</br>(gebruiker is eigenaar van gegevens)     |✖        |✔         |
 |Microsoft 365-apps</br>(eerder bekend als Office 365-apps)<ul><li>[Insluiten in Teams](../../collaborate-share/service-embed-report-microsoft-teams.md)</li><li>[Insluiten in SharePoint](../../collaborate-share/service-embed-report-spo.md)</li></ul>     |✖        |✔        |

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 978a257ccd5916f14bc3dfa6916f9315b755c12e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860251"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634798"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
 U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. De presentatiemodus is handig voor het weergeven van Power BI tijdens vergaderingen, conferenties of op een specifieke projector op kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren.
@@ -36,8 +36,8 @@ In de mobiele Power BI-app tikt u op het pictogram voor **volledig scherm** om d
 
 Via de werkbalk kunt u tikken op de opties om de volgende acties uitvoeren:
 
-|||
-|-|-|
+| Pictogram | Bewerking |
+|------|--------|
 |![pictogram Terug](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|**Ga terug** naar de vorige pagina. Houd uw vinger lang op het pictogram en het padvenster wordt weergegeven. Hierin kunt u naar de map navigeren waar het rapport of het dashboard in staat.|
 |![Pagineringspictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|**Schakelen tussen pagina's** om naar een andere pagina van het rapport in uw presentatie te gaan.|
 |![Bladwijzerpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**Pas een bladwijzer toe** om de specifieke weergave van uw gegevens te presenteren die door de bladwijzer worden vastgelegd. U kunt zowel persoonlijke als rapportbladwijzers toepassen.|

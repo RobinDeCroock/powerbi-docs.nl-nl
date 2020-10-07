@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b0b2ae2ca98b7dd3b9940319fc68a7effba4782
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349765"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635189"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Rondleiding door de rapporteditor in Power BI
 
@@ -122,9 +122,14 @@ Met het deelvenster Analyse in de Power BI-service kunt u dynamische referentiel
 ## <a name="5-the-fields-pane"></a>5. Het deelvenster Velden
 In het deelvenster Velden worden de tabellen, mappen en velden in uw gegevens weergegeven die u kunt gebruiken om visualisaties te maken.
 
-|  |  |
-| --- | --- |
-| ![Het deelvenster Velden](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png) |<ul><li>Sleep een veld naar de pagina om een nieuwe visualisatie te starten.  U kunt ook een veld naar een bestaande visualisatie slepen om het veld toe te voegen aan die visualisatie.<br><br></li> <li>Wanneer u een selectievakje naast een veld inschakelt, voegt Power BI dat veld toe aan de actieve (of nieuwe) visualisatie. En het programma beslist ook in welke bucket dat veld moet worden geplaatst.  Moet het veld bijvoorbeeld worden gebruikt als een legenda, as of waarde? Power BI maakt een inschatting en u kunt het indien nodig verplaatsen van die bucket naar een andere. <br><br></li><li>In beide gevallen wordt elk geselecteerde veld toegevoegd aan het deelvenster Visualisaties in de rapporteditor.</li></ul> |
+:::row:::
+    :::column:::
+        ![Het deelvenster Velden](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png)
+    :::column-end:::
+    :::column:::
+        <ul><li>Sleep een veld naar de pagina om een nieuwe visualisatie te starten.  U kunt ook een veld naar een bestaande visualisatie slepen om het veld toe te voegen aan die visualisatie.<br><br></li> <li>Wanneer u een selectievakje naast een veld inschakelt, voegt Power BI dat veld toe aan de actieve (of nieuwe) visualisatie. En het programma beslist ook in welke bucket dat veld moet worden geplaatst.  Moet het veld bijvoorbeeld worden gebruikt als een legenda, as of waarde? Power BI maakt een inschatting en u kunt het indien nodig verplaatsen van die bucket naar een andere. <br><br></li><li>In beide gevallen wordt elk geselecteerde veld toegevoegd aan het deelvenster Visualisaties in de rapporteditor.</li></ul>
+    :::column-end:::
+:::row-end:::
 
 In Power BI Desktop hebt u ook opties om velden weer te geven of te verbergen, berekeningen toe te voegen, enzovoort.
 

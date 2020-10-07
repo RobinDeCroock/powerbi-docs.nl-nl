@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859170"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634959"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Kerberos configureren om Power BI-rapporten te gebruiken
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,17 @@ U moet in het bijzonder beperkte delegering configureren. U hebt Kerberos wel ge
 ## <a name="error-running-report"></a>Fout bij het uitvoeren van rapport
 Als de rapportserver niet juist is geconfigureerd, ontvangt u mogelijk de volgende fout.
 
-    Something went wrong.
+```output
+Something went wrong.
 
-    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+```
 
 In de technische details ziet u het volgende bericht.
 
-    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```output
+We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```
 
 ![Schermopname van Power BI Reports met foutbericht over verbindingsproblemen met de Analysis Services-server.](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
  
@@ -91,7 +95,9 @@ Als de rapportserver is geconfigureerd om een domeingebruikersaccount te gebruik
 
 Het wordt aanbevolen om twee SPN's maken. Een met de NetBIOS-naam en de andere met de volledig gekwalificeerde domeinnaam (FQDN). De SPN heeft de volgende indeling.
 
-    <Service>/<Host>:<port>
+```console
+<Service>/<Host>:<port>
+```
 
 Power BI Report Server gebruikt een service van HTTP. Voor HTTP-SPN's vermeldt u geen poort. Hier zijn we geïnteresseerd in de service HTTP. De host van de SPN is de naam die u in een URL gebruikt. Dit is meestal de computernaam. Als u zich achter een load balancer bevindt, kan dit een virtuele naam zijn.
 
@@ -119,13 +125,17 @@ We kunnen het hulpprogramma SetSPN gebruiken om de SPN-naam toe te voegen. We vo
 
 Het plaatsen van de SPN op een computeraccount voor de FQDN-naam- en NetBIOS SPN, zou er als volgt uitzien als we een virtuele URL van contosoreports zouden gebruiken.
 
-      Setspn -a HTTP/contosoreports.contoso.com ContosoRS
-      Setspn -a HTTP/contosoreports ContosoRS
+```console
+Setspn -a HTTP/contosoreports.contoso.com ContosoRS
+Setspn -a HTTP/contosoreports ContosoRS
+```
 
 Het plaatsen van de SPN op een domeingebruikersaccount, voor zowel de FQDN als NetBIOS SPN, zou er als volgt uitzien als u de computernaam voor de host van de SPN zou gebruiken.
 
-      Setspn -a HTTP/ContosoRS.contoso.com RSService
-      Setspn -a HTTP/ContosoRS RSService
+```console
+Setspn -a HTTP/ContosoRS.contoso.com RSService
+Setspn -a HTTP/ContosoRS RSService
+```
 
 ## <a name="spns-for-the-analysis-services-service"></a>SPN's voor de Analysis Services-service
 De SPN's voor Analysis Services zijn vergelijkbaar met wat we hebben gedaan met de Power BI Report Server. De indeling van de SPN verschilt enigszins als u een benoemd exemplaar hebt.
@@ -146,13 +156,17 @@ We kunnen het hulpprogramma SetSPN gebruiken om de SPN-naam toe te voegen. In di
 
 Als u de SPN op een computeraccount voor de FQDN-naam- en NetBIOS SPN plaatst, zou dit er als volgt uitzien.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```
 
 Als u de SPN op een domeingebruikersaccount voor de FQDN-naam- en NetBIOS SPN plaatst, zou dit er als volgt uitzien.
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
-    Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
+Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```
 
 ## <a name="spns-for-the-sql-browser-service"></a>SPN's voor de SQL Browser-service
 Als u een benoemd Analysis Services-exemplaar hebt, moet u er ook voor zorgen dat u een SPN voor de browserservice hebt. Dit is uniek voor Analysis Services.
@@ -164,8 +178,10 @@ U hoeft niets op te geven voor de exemplaarnaam of poort.
 
 Een voorbeeld van een Analysis Services-SPN zou er als volgt uitzien.
 
-    MSOLAPDisco.3/ContosoAS.contoso.com
-    MSOLAPDisco.3/ContosoAS
+```console
+MSOLAPDisco.3/ContosoAS.contoso.com
+MSOLAPDisco.3/ContosoAS
+```
 
 Het plaatsen van de SPN is ook vergelijkbaar met wat werd genoemd met Power BI Report Server. Het verschil is hier is dat SQL Browser altijd wordt uitgevoerd onder het lokale systeemaccount. Dit betekent dat de SPN-namen altijd op het computeraccount komen. 
 
@@ -174,8 +190,10 @@ We kunnen het hulpprogramma SetSPN gebruiken om de SPN-naam toe te voegen. In di
 
 Het plaatsen van de SPN op het computeraccount voor de FQDN-naam- en NetBIOS SPN, zou er als volgt uitzien.
 
-    Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```
 
 Raadpleeg voor meer informatie [Een SPN voor de SQL Server Browser-service is vereist](https://support.microsoft.com/kb/950599).
 

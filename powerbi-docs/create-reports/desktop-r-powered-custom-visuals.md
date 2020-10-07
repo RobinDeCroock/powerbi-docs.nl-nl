@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7abbfce4254359c95efe1ef91511672b0aa98be6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e4e65c26c9d1b5598ecf6b523649dc70722b7d79
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229369"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634982"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Met R gemaakte Power BI-visuals gebruiken in Power BI
 
@@ -125,20 +125,25 @@ Het Power BI-team werkt actief aan oplossingen voor deze problemen voordat ze zi
 
 3. Installeer R-pakketten handmatig, met behulp van een R-console. De stappen voor deze methode luiden als volgt:
 
-   a.  Download het installatiescript voor de met R gemaakte visual en sla dat bestand op een lokaal station op.
+   a. Download het installatiescript voor de met R gemaakte visual en sla dat bestand op een lokaal station op.
 
-   b.  Voer de volgende opdrachtregel uit vanuit de R-console:
+   b. Voer de volgende opdrachtregel uit vanuit de R-console:
 
-       source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```console
+      source("C:/Users/david/Downloads/ScriptInstallPackagesForForecastWithWorkarounds.R")
+      ```
 
    Typische standaardlocaties voor installatie zijn de volgende:
 
+   ```console
        c:\Program Files\R\R-3.3.x\bin\x64\Rterm.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\x64\Rgui.exe (for CRAN-R)
        c:\Program Files\R\R-3.3.x\bin\R.exe (for CRAN-R)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\R.exe (for MRO)
        c:\Program Files\Microsoft\MRO-3.3.x\bin\x64\Rgui.exe (for MRO)
        c:\Program Files\RStudio\bin\rstudio.exe (for RStudio)
+   ```
+
 4. Als de vorige stappen niet werken, probeert u het volgende:
 
    a. Gebruik **R Studio** en voer stap 3 b. uit, zoals hierboven beschreven (voer de scriptopdrachtregel uit vanuit de R-console).
