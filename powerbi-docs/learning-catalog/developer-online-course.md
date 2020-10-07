@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/01/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 82f9ffaeb98610dd9ae5986031638c5086749937
-ms.sourcegitcommit: 7fba2caf3bd7ed93a7ecb6a6b9ba2da26de27395
+ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "84467028"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527879"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Cursus Power BI-ontwikkelaar in een dag
 
@@ -85,7 +85,7 @@ Voor het voltooien van de labs hebt u een Windows-PC (Windows 7 of hoger) en de 
 
 - De nieuwste versie van [Power BI Desktop downloaden](../fundamentals/desktop-get-the-desktop.md).
 - Visual Studio 2015 of hoger. Hiervoor wordt [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) aanbevolen. U kunt de editie **Community** gebruiken. Dit is gratis en geschikt voor leerscenario's. Hierop moet de **ASP.NET- en webontwikkelworkload** zijn geïnstalleerd.
-- Een webbrowser [ondersteund door Power BI](../power-bi-browsers.md). Microsoft Edge wordt aangeraden.
+- Een webbrowser [ondersteund door Power BI](../fundamentals/power-bi-browsers.md). Microsoft Edge wordt aangeraden.
 
 Volg deze stappen om aan alles te installeren:
 
@@ -106,7 +106,7 @@ Het wordt aanbevolen de onlinecursus eerst te bekijken. U kunt teruggaan naar de
 Wanneer u klaar bent om met het eerste lab te beginnen, opent u het bestand **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf**. In dit document vindt u instructies voor het aanmelden bij de Power BI-service, het uploaden van een gegevensset en het voorbereiden van een Power BI-rapport.
 
 > [!NOTE]
-> U bent zelf verantwoordelijk voor het gebruik van uw eigen Power BI-account. Als u er nog geen hebt, raadpleegt u [Registreren voor Power BI als individu](../service-self-service-signup-for-power-bi.md).
+> U bent zelf verantwoordelijk voor het gebruik van uw eigen Power BI-account. Als u er nog geen hebt, raadpleegt u [Registreren voor Power BI als individu](../fundamentals/service-self-service-signup-for-power-bi.md).
 >
 > Uw account moet een Power BI Pro-licentie hebben of u kunt nog steeds een Power BI Pro-proeflicentie accepteren: een aanbieding die slechts eenmalig kan worden geaccepteerd. Ook mag uw account de gratis insluittokens die beschikbaar zijn als deel van de Power BI Pro-licentie niet hebben uitgeput.
 >

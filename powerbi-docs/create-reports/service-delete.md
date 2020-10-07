@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ff31548801f372fa1e20949e5c109cc9214f55e1
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: b2263a1eddfdbc51f0e345443f7bbb75b11da6e7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264474"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632727"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel leert u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte verwijdert in de Power BI-service.
@@ -28,7 +28,7 @@ Dashboards kunnen worden verwijderd. Als u het dashboard verwijdert, worden de o
 
 ### <a name="to-delete-a-dashboard"></a>Ga als volgt te werk om een dashboard te verwijderen
 1. Selecteer in uw werkruimte het tabblad **Dashboards**.
-2. Zoek het dashboard dat u wilt verwijderen en selecteer het verwijderpictogram ![Verwijderpictogram](media/service-delete/power-bi-delete-icon.png).
+2. Zoek het dashboard dat u wilt verwijderen en selecteer het verwijderpictogram :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::.
 
     ![Video](media/service-delete/power-bi-delete-dash.gif)
 
@@ -37,7 +37,7 @@ Geen zorgen, als u een rapport verwijdert, wordt de gegevensset waarop het rappo
 
 ### <a name="to-delete-a-report"></a>Ga als volgt te werk om een rapport te verwijderen
 1. Selecteer in uw werkruimte het tabblad **Rapporten**.
-2. Zoek het rapport dat u wilt verwijderen en selecteer het verwijderpictogram   ![Verwijderpictogram](media/service-delete/power-bi-delete-icon.png).   
+2. Zoek het rapport dat u wilt verwijderen en selecteer het verwijderpictogram :::image type="icon" source="media/service-delete/power-bi-delete-icon.png" border="false":::.   
 
     ![Tabblad Rapporten van een werkruimte](media/service-delete/power-bi-delete-reportnew.png)
 3. Bevestig de verwijdering.
@@ -56,7 +56,7 @@ Als de werkmap is opgeslagen in OneDrive voor Bedrijven, wordt deze niet verwijd
 
 ### <a name="to-delete-a-workbook"></a>Ga als volgt te werk om een werkmap te verwijderen
 1. Selecteer in uw werkruimte het tabblad **Werkmappen**.
-2. Zoek de werkmap die u wilt verwijderen en selecteer het verwijderpictogram ![Verwijderpictogram](media/service-delete/power-bi-delete-report2.png) .
+2. Zoek de werkmap die u wilt verwijderen en selecteer het verwijderpictogram :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::.
 
     ![Tabblad Werkmappen](media/service-delete/power-bi-delete-workbooknew.png)
 3. Bevestig de verwijdering.
@@ -111,7 +111,7 @@ Als u geen lid meer wilt zijn van een werkruimte, kunt u deze ***verlaten***. De
 
 2. Selecteer in de rechterbovenhoek **Meer opties** (...) en kies **Werkruimte verlaten** > **Verlaten**.
 
-      ![Werkruimte verlaten](media/service-delete/power-bi-leave-workspace.png)
+      :::image type="icon" source="media/service-delete/power-bi-leave-workspace.png" border="false":::
 
    > [!NOTE]
    > De opties die worden weergegeven in de vervolgkeuzelijst zijn afhankelijk van uw rol in de werkruimte: Beheerder of Lid.
@@ -125,7 +125,7 @@ Apps kunnen eenvoudig worden verwijderd op de pagina met uw app-lijst. Maar alle
 Als u een app verwijdert van de pagina met uw app-lijst, wordt de app niet verwijderd voor andere leden.
 
 1. Selecteer in het navigatievenster **Apps** om de pagina met de app-lijst te openen.
-2. Beweeg de muisaanwijzer over de app die u wilt verwijderen en selecteer het pictogram Verwijderen ![Prullenbakpictogram](media/service-delete/power-bi-delete-report2.png)  .
+2. Houd de muis boven de app die u wilt verwijderen en selecteer het verwijderpictogram :::image type="icon" source="media/service-delete/power-bi-delete-report2.png" border="false":::.
 
    ![Apps selecteren](media/service-delete/power-bi-delete-app.png)
 

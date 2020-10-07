@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526347"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600487"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Parameters maken voor gepagineerde rapporten in de Power BI-service
 
@@ -62,11 +62,6 @@ In de volgende afbeelding ziet u de Ontwerpweergave in Power BI Report Builder v
   
 9. Selecteer **OK**. 
 
-## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-
-- Als u een Power BI-gegevensset of Analysis Services-model gebruikt als uw gegevensbron, kunt u niet meer dan 1000 parameterwaarden doorgeven in één aanvraag. DAX beperkt parameters tot 1000 waarden. 
-
- 
 ## <a name="next-steps"></a>Volgende stappen
 
 Zie [Parameters weergeven voor gepagineerde rapporten](../consumer/paginated-reports-view-parameters.md) om te zien hoe de parameters eruit zien in de Power BI-service.

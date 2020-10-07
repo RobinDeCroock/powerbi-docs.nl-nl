@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: df9405dcf65eb39095f711edbcaf2a35e4a1f6aa
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215137"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136230"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>Richtlijnen voor actieve versus inactieve relaties
 
@@ -114,7 +114,7 @@ Het modelontwerp biedt ondersteuning voor het produceren van het volgende rappor
 
 De rapportpagina is gefilterd op het kwartaal 2019 Q4. De tabelvisual is gegroepeerd op maand en er worden verschillende verkoopstatistieken weergegeven. De metingen **Orders** en **Orders Shipped** retourneren verschillende resultaten. Ze gebruiken beide dezelfde samenvattingslogica (aantal rijen van de tabel **Sales**), maar gebruiken een andere filterdoorgifte voor de tabel **Date**.
 
-U ziet dat de slicer kwartaal een leeg item bevat. Dit sliceritem wordt weergegeven als gevolg van [tabeluitbreiding](../transform-model/desktop-relationships-understand.md#strong-relationships). Elke rij in de tabel **Verkoop** heeft een orderdatum, maar sommige rijen hebben een lege waarde bij verzenddatum. Dit komt omdat deze orders nog moeten worden verzonden. Tabeluitbreiding houdt ook rekening met niet-actieve relaties. Daarom kunnen lege waarden worden weergegeven als gevolg van lege waarden aan de 'veel'-zijde van de relatie of vanwege problemen met de gegevensintegriteit.
+U ziet dat de slicer kwartaal een leeg item bevat. Dit sliceritem wordt weergegeven als gevolg van [tabeluitbreiding](../transform-model/desktop-relationships-understand.md#regular-relationships). Elke rij in de tabel **Verkoop** heeft een orderdatum, maar sommige rijen hebben een lege waarde bij verzenddatum. Dit komt omdat deze orders nog moeten worden verzonden. Tabeluitbreiding houdt ook rekening met niet-actieve relaties. Daarom kunnen lege waarden worden weergegeven als gevolg van lege waarden aan de 'veel'-zijde van de relatie of vanwege problemen met de gegevensintegriteit.
 
 ## <a name="recommendations"></a>Aanbevelingen
 

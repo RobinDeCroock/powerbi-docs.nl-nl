@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/19/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 706e4221c131f1743ff00bb9a7b6c0812394cbb8
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: 2e482c6efd60352721e1788a7929128af1b8cf89
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782424"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633625"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Verbinding maken met GitHub via Power BI
 In dit artikel wordt uitgelegd hoe u uw gegevens ophaalt uit uw GitHub-account met een Power BI-sjabloon-app. De sjabloon-app genereert een werkruimte met een dashboard, een set rapporten en een gegevensset waarmee u uw GitHub-gegevens kunt verkennen. De GitHub-app voor Power BI maakt het mogelijk om inzicht te verkrijgen in een GitHub-opslagplaats (ook wel een repository of repo genoemd) met gegevens van bijdragen, problemen, pull-aanvragen en actieve gebruikers.
@@ -125,7 +125,9 @@ U kunt de eigenaar en opslagplaats vaststellen door te kijken naar de opslagplaa
 
 Het eerste deel, 'Azure', is de eigenaar en het tweede deel, 'azure-sdk-for-php', is de opslagplaats zelf.  Deze twee items komen ook terug in de URL van de opslagplaats:
 
-    <https://github.com/Azure/azure-sdk-for-php> .
+```console
+<https://github.com/Azure/azure-sdk-for-php> .
+```
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 Indien nodig kunt u uw GitHub-referenties controleren.  

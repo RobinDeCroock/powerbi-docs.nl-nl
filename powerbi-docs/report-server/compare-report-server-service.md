@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 07/28/2020
-ms.openlocfilehash: 18629f38db7d8b88c47d4a1af3a5c3f6512433b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 02d5b30f4e3f769e3c20cc7faa8b051e8114e5c5
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859147"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599974"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparing Power BI Report Server and the Power BI service (Power BI Report Server vergelijken met de Power BI-service)
 
@@ -43,7 +43,7 @@ Power BI Report Server en de Power BI-service hebben veel overeenkomsten en een 
 | In Excel analyseren | Nee | Ja | [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) 
 | Gepagineerde rapporten | Ja | Ja | [Gepagineerde rapporten zijn beschikbaar in de Power BI-service](../paginated-reports/paginated-reports-report-builder-power-bi.md) in preview in een Premium-capaciteit (Engelstalig) |
 | Power BI - Mobiel-apps | Ja | Ja | [Overzicht van mobiele Power BI-apps](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
-| ARC GIS-kaarten | Nee | Ja | [ArcGIS-kaarten in de Power BI-service en Power BI Desktop, door Esri](../visuals/power-bi-visualization-arcgis.md) |
+| ARC GIS-kaarten | Nee | Ja | [ArcGIS-kaarten in de Power BI-service en Power BI Desktop, door Esri](../visuals/power-bi-visualizations-arcgis.md) |
 | E-mailabonnementen voor Power BI-rapporten | Nee | Ja | [Uzelf of anderen abonneren](../collaborate-share/service-report-subscribe.md) op een rapport of dashboard in de Power BI-service |
 | E-mailabonnementen voor gepagineerde rapporten | Ja | Ja | [Uzelf en anderen abonneren op gepagineerde rapporten in de Power BI-service](../consumer/paginated-reports-subscriptions.md)<br><br>[E-maillevering in Reporting Services](/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | Gegevensmeldingen | Nee | Ja | [Gegevensmeldingen in de Power BI-service](../create-reports/service-set-data-alerts.md)

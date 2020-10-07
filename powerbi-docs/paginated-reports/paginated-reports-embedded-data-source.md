@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: 37ab82de16e45f86f2d2aba5113ba4efe6fc383c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: e44b81120ef5eb1d2a384aae4f2d149525c3b7b4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859676"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632498"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Een ingesloten gegevensbron voor gepagineerde rapporten maken in de Power BI-service
 
@@ -41,30 +41,30 @@ Zie [Rapportgegevens in Power BI Report Builder](report-builder-data.md) voor me
 
 1. Selecteer **Nieuw** > **Gegevensbron** op de werkbalk in het deelvenster Rapportgegevens. Het dialoogvenster **Eigenschappen van gegevensbron** wordt geopend.
 
-    ![Nieuwe gegevensbron](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
+   ![Nieuwe gegevensbron](media/paginated-reports-embedded-data-source/power-bi-paginated-new-data-source.png)
   
-2.  Typ in het tekstvak **Naam** een naam voor de gegevensbron of accepteer de standaardwaarde.  
+1. Typ in het tekstvak **Naam** een naam voor de gegevensbron of accepteer de standaardwaarde.  
   
-3.  Selecteer **Een ingesloten verbinding in mijn rapport gebruiken**.  
+1. Selecteer **Een ingesloten verbinding in mijn rapport gebruiken**.  
   
-1.  Selecteer een type gegevensbron in de lijst **Verbindingstype selecteren**. 
+1. Selecteer een type gegevensbron in de lijst **Verbindingstype selecteren**. 
 
-1.  Geef op een van de volgende manieren een verbindingsreeks op:  
+1. Geef op een van de volgende manieren een verbindingsreeks op:  
   
-    -   Typ de verbindingsreeks rechtstreeks in het tekstvak **Verbindingsreeks**. 
+   - Typ de verbindingsreeks rechtstreeks in het tekstvak **Verbindingsreeks**. 
   
-     -   Selecteer **Bouwen** om het dialoogvenster **Verbindingseigenschappen** te openen voor de gegevensbron die u hebt gekozen in stap 2.  
+   - Selecteer **Bouwen** om het dialoogvenster **Verbindingseigenschappen** te openen voor de gegevensbron die u hebt gekozen in stap 2.  
   
-        Vul de velden in het dialoogvenster **Verbindingseigenschappen** in op basis van het type gegevensbron. Voorbeelden van eigenschappen van de verbinding zijn het type van de gegevensbron, de naam van de gegevensbron en de te gebruiken referenties. Nadat u waarden hebt opgegeven in dit dialoogvenster, selecteert u **Verbinding testen** om te controleren of de gegevensbron beschikbaar is en of de opgegeven referenties juist zijn.  
+     Vul de velden in het dialoogvenster **Verbindingseigenschappen** in op basis van het type gegevensbron. Voorbeelden van eigenschappen van de verbinding zijn het type van de gegevensbron, de naam van de gegevensbron en de te gebruiken referenties. Nadat u waarden hebt opgegeven in dit dialoogvenster, selecteert u **Verbinding testen** om te controleren of de gegevensbron beschikbaar is en of de opgegeven referenties juist zijn.  
   
-4.  Selecteer **Referenties**.  
+1. Selecteer **Referenties**.  
   
-     Geef de referenties op die u wilt gebruiken voor deze gegevensbron. De eigenaar van de gegevensbron kiest welke typen referenties worden ondersteund. Zie [Specify Credential and Connection Information for Report Data Sources](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources) (Referentie en verbindingsgegevens opgeven voor rapportgegevensbronnen) voor meer informatie.
+   Geef de referenties op die u wilt gebruiken voor deze gegevensbron. De eigenaar van de gegevensbron kiest welke typen referenties worden ondersteund. Zie [Specify Credential and Connection Information for Report Data Sources](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources) (Referentie en verbindingsgegevens opgeven voor rapportgegevensbronnen) voor meer informatie.
   
-5.  Selecteer **OK**.  
+1. Selecteer **OK**.  
   
-     De gegevensbron wordt weergegeven in het deelvenster Rapportgegevens.  
-     
+   De gegevensbron wordt weergegeven in het deelvenster Rapportgegevens.
+
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
 Voor gepagineerde rapporten die verbinding maken met Power BI-gegevenssets worden de regels voor gedeelde gegevenssets in Power BI gebruikt, met een aantal kleine wijzigingen.  Als u wilt dat gebruikers gepagineerde rapporten goed kunnen weergeven met behulp van Power BI-gegevenssets en om ervoor te zorgen dat beveiliging op rijniveau (RLS) is ingeschakeld en wordt afgedwongen voor uw kijkers, dan moet u deze regels volgen:

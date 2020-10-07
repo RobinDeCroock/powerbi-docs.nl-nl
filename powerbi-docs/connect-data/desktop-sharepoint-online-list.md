@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222684"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598656"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>Een rapport maken op een SharePoint-lijst
 
@@ -30,7 +30,7 @@ Bekijk deze zelfstudievideo van vijf minuten of schuif omlaag voor stapsgewijze 
 2. Open Power BI Desktop en selecteer op het tabblad Start van het lint de optie **Gegevens ophalen** > **Meer**.
 3. Selecteer **Online Services** en selecteer vervolgens **SharePoint Online-lijst**.  
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="Screenshot shows the Get Data dialog box with Online Services selected." width="350"/>
 
 4. Selecteer **Verbinding maken**.
 4. Zoek het adres (ook wel een URL genoemd) van de SharePoint Online-site die uw lijst bevat.  U kunt vanaf een pagina in SharePoint Online het adres van de site doorgaans ophalen door **Start** te selecteren in het navigatiedeelvenster of het pictogram voor de site bovenaan. Vervolgens kopieert u het adres uit de adresbalk van uw webbrowser.
@@ -52,7 +52,7 @@ Bekijk deze zelfstudievideo van vijf minuten of schuif omlaag voor stapsgewijze 
 
 9. Schakel aan de linkerkant van de Navigator het selectievakje in naast de SharePoint-lijst waarmee u verbinding wilt maken.
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="Screenshot shows the Navigator page with BudgetRequests selected." width="450"/>
 
 10. Selecteer **Laden**.  Power BI laadt uw lijstgegevens in een nieuw rapport.
 
