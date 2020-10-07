@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78aac3b12abc0e055094078c59f39911a026e797
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e794ecc67f7873efb1ee5750f55aefb3d93b40b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238496"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600324"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
@@ -46,7 +46,7 @@ U kunt de rapportpagina ook een naam geven zodat het bedoeling duidelijk is. Sel
 
 Van hieruit kunt u ongeacht welke visuele elementen maken die u wilt hebben weergegeven in uw knopinfo. In de volgende afbeelding staan twee kaarten en een gegroepeerd staafdiagram op de knopinfopagina, samen met een achtergrondkleur voor de pagina zelf, en de achtergronden voor alle visuele elementen, zodat deze het gewenste uiterlijk krijgt.
 
-![Rapportknopinfo van Power BI Desktop](media/desktop-tooltips/desktop-tooltips_06.png)
+![Schermafbeelding van knopinfo voor een aangepast rapport.](media/desktop-tooltips/desktop-tooltips_06.png)
 
 Er zijn meer stappen die u moet uitvoeren voordat de knopinfo rapportpagina gereed is om te werken als knopinfo. U moet enkele configuraties instellen voor de knopinfopagina, zoals beschreven in de volgende sectie. 
 

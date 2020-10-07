@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040219"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600460"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Vernieuwingsoverzichten in Power BI
 
@@ -53,11 +53,11 @@ Met de informatie in het geëxporteerde bestand kunt u de capaciteit, duur en fo
 
 U kunt de weergave **Planning** selecteren door te klikken op **Planning** in Vernieuwingsoverzichten. In de weergave Planning worden de planningsgegevens voor de week weergegeven, opgesplitst in tijdvakken van 30 minuten. 
 
-![De weergave Planning](media/refresh-summaries/refresh-summaries-02a.jpg)
+![Schermafbeelding met een close-up van het tabblad Planning van de pagina Schema vernieuwen.](media/refresh-summaries/refresh-summaries-02a.jpg)
 
 De weergave Planning is erg handig om te bepalen of de geplande vernieuwingsgebeurtenissen op de juiste manier zijn verdeeld, zodat alle vernieuwingen zonder overlapping kunnen worden uitgevoerd, of dat u geplande vernieuwingsgebeurtenissen hebt die te lang duren en voor resourceconflicten zorgen. Als u dergelijke resourceconflicten aantreft, moet u de vernieuwingsplanningen aanpassen om conflicten of overlappingen te voorkomen, zodat uw geplande vernieuwingen goed kunnen worden uitgevoerd. 
 
-![De weergave Planning](media/refresh-summaries/refresh-summaries-02.jpg)
+![Schermafbeelding van het tabblad Planning van de pagina Schema vernieuwen.](media/refresh-summaries/refresh-summaries-02.jpg)
 
 De kolom *Geboekte vernieuwingstijd (minuten)* is een berekening van het gemiddelde van maximaal 60 records voor elke bijbehorende gegevensset. De numerieke waarde voor elk tijdvak van 30 minuten is de som van de minuten die zijn berekend voor alle geplande vernieuwingen die volgens planning beginnen in het tijdvak **en** geplande vernieuwingen zijn ingesteld om te beginnen in het *vorige* tijdvak, maar waarvan de gemiddelde duur overloopt in het geselecteerde tijdvak.
 
@@ -67,7 +67,7 @@ U kunt een tijdvak selecteren en vervolgens de bijbehorende knop **Details** sel
 
 We bekijken een voorbeeld om te zien hoe dit werkt. Het volgende dialoogvenster wordt weergegeven wanneer we het tijdvak van 20:30 uur selecteren voor zondag, en op **Details** klikken.
 
-![De weergave Planning](media/refresh-summaries/refresh-summaries-04.jpg)
+![Schermafbeelding met details voor de vernieuwingsbewerkingen van een geselecteerde tijd.](media/refresh-summaries/refresh-summaries-04.jpg)
 
 Er zijn drie geplande vernieuwingsgebeurtenissen die in dit tijdvak optreden. 
 
