@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: ee79a2f74714322e6ff7b4ec965060b7c9291060
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237438"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748121"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -84,7 +84,7 @@ U moet uw Power BI-visual compileren met `pbiviz package`. Als u uw eigen builds
 
 ### <a name="source-code-requirements"></a>Broncodevereisten
 
-Controleer of u de lijst met [extra certificeringsbeleid voor Power BI-visuals](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) hebt gevolgd. Als uw indiening niet aan deze richtlijnen voldoet, bevat het e-mailbericht van het Partnercentrum de beleidsnummers die in deze koppeling worden weer gegeven.
+Controleer of u de lijst met [extra certificeringsbeleid voor Power BI-visuals](/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification) hebt gevolgd. Als uw indiening niet aan deze richtlijnen voldoet, bevat het e-mailbericht van het Partnercentrum de beleidsnummers die in deze koppeling worden weer gegeven.
 
 Volg de onderstaande codevereisten om ervoor te zorgen dat uw code in overeenstemming is met het certificeringsbeleid van Power BI.  
 

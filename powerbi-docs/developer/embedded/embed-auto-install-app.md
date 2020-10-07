@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236924"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748650"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Power BI-apps automatisch installeren wanneer u ze insluit voor uw organisatie
 
@@ -29,7 +29,7 @@ Als u de automatische installatie van apps voor uw gebruikers wilt toestaan, moe
 
 ![Inhoud maken door apps te registreren](media/embed-auto-install-app/register-app-create-content.png)
 
-Vervolgens moet u de app-id opgeven in de insluitings-URL. Voor het opgeven van de app-id moet de app-ontwikkelaar de app eerst installeren en vervolgens een van de ondersteunde [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)-aanroepen ([Rapporten ophalen](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) of [Dashboards ophalen](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards)) gebruiken. Vervolgens moet de app-ontwikkelaar de insluitings-URL uit het REST API-antwoord halen. De app-id wordt in de URL weergegeven als de inhoud afkomstig is uit een app.  Als u de insluitings-URL hebt, kunt u deze gebruiken om inhoud regelmatig in te sluiten.
+Vervolgens moet u de app-id opgeven in de insluitings-URL. Voor het opgeven van de app-id moet de app-ontwikkelaar de app eerst installeren en vervolgens een van de ondersteunde [Power BI REST API](/rest/api/power-bi/)-aanroepen ([Rapporten ophalen](/rest/api/power-bi/reports/getreports) of [Dashboards ophalen](/rest/api/power-bi/dashboards/getdashboards)) gebruiken. Vervolgens moet de app-ontwikkelaar de insluitings-URL uit het REST API-antwoord halen. De app-id wordt in de URL weergegeven als de inhoud afkomstig is uit een app.  Als u de insluitings-URL hebt, kunt u deze gebruiken om inhoud regelmatig in te sluiten.
 
 ## <a name="secure-embed"></a>Beveiligd insluiten
 

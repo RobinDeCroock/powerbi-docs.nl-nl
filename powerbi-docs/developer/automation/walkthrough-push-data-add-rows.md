@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355025"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748374"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Stap 5: Rijen toevoegen aan een Power BI-tabel
 
 Dit artikel maakt deel uit van een stapsgewijze uitleg van hoe u [gegevens naar een gegevensset pusht](walkthrough-push-data.md).
 
-In **stap 4** van Gegevens naar een gegevensset pushen, [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md), hebt u de bewerking [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) en Newtonsoft.Json gebruikt om een gegevensset-id op te halen. In deze stap gebruikt u de gegevensset-id met de bewerking [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) om rijen toe te voegen aan een **Power BI**-gegevensset. 
+In **stap 4** van Gegevens naar een gegevensset pushen, [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md), hebt u de bewerking [Gegevenssets ophalen](/rest/api/power-bi/datasets/getdatasets) en Newtonsoft.Json gebruikt om een gegevensset-id op te halen. In deze stap gebruikt u de gegevensset-id met de bewerking [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) om rijen toe te voegen aan een **Power BI**-gegevensset. 
 
-Wanneer u de bewerking [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) aanroept, voegt u rijen toe aan een gegevensset.
+Wanneer u de bewerking [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) aanroept, voegt u rijen toe aan een gegevensset.
 
 ![rijen toevoegen](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -105,9 +105,7 @@ Voeg deze code toe in Program.cs.
     #endregion
 ```
 
-Hieronder ziet u de [volledige code](#code).
-
-<a name="code"/>
+Hieronder ziet u de volledige code.
 
 ## <a name="complete-code-listing"></a>Volledige vermelding van de code
 
@@ -315,5 +313,5 @@ Hoewel de bovenstaande code **_//Get the first id_** bevat, moet de gegevensset 
 ## <a name="next-steps"></a>Volgende stappen
 [Gegevens pushen naar een Power BI-dashboard](walkthrough-push-data.md)  
 [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
-[Naslag voor REST-API voor Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
+[Naslag voor REST-API voor Power BI](/rest/api/power-bi/)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

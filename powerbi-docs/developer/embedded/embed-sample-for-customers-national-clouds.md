@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c0927eb46177726c4277b2fa697003d7f0fdc56
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402020"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747569"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
 Informatie over het insluiten van analytische inhoud binnen uw bedrijfsprocestoepassingen voor de nationale cloud. U kunt de Power BI .NET SDK met de Power BI JavaScript-API gebruiken om rapporten, dashboards of tegels in uw webtoepassingen in te sluiten.
 
-Power BI ondersteunt ook [nationale clouds](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud).
+Power BI ondersteunt ook [nationale clouds](/azure/active-directory/develop/authentication-national-cloud).
 
 De verschillende nationale clouds zijn:
 
@@ -43,7 +43,7 @@ Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als
 > [!NOTE]
 > Wilt u liever een dashboard insluiten voor uw organisatie? Bekijk dan [Een dashboard integreren in een app voor uw organisatie](embed-sample-for-your-organization.md).
 
-Als u een dashboard wilt integreren in een web-app, gebruikt u de **Power BI** API en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een dashboard. Vervolgens kunt u het dashboard laden met een insluittoken. De **Power BI**-API biedt programmatische toegang tot specifieke **Power BI**-resources. Zie [Power BI REST-API](https://docs.microsoft.com/rest/api/power-bi/), [Power BI .NET-SDK] en [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
+Als u een dashboard wilt integreren in een web-app, gebruikt u de **Power BI** API en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een dashboard. Vervolgens kunt u het dashboard laden met een insluittoken. De **Power BI**-API biedt programmatische toegang tot specifieke **Power BI**-resources. Zie [Power BI REST-API](/rest/api/power-bi/), [Power BI .NET-SDK] en [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
 
 ## <a name="download-the-sample"></a>Het voorbeeld downloaden
 
@@ -238,10 +238,10 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Het insluittoken maken
 
-U kunt een insluittoken genereren met de JavaScript-API. Het insluittoken heeft alleen betrekking op het item dat u insluit. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [Insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
+U kunt een insluittoken genereren met de JavaScript-API. Het insluittoken heeft alleen betrekking op het item dat u insluit. Dit betekent dat u een nieuw insluittoken moet maken voor elk stukje Power BI-inhoud dat u wilt insluiten. Zie [Insluittoken](/rest/api/power-bi/embedtoken) voor meer informatie, onder andere over welk **accessLevel** u moet gebruiken.
 
 > [!IMPORTANT]
-> Omdat insluittokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluittokens genereren. Er moet een [capaciteit moet worden aangeschaft](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.
+> Omdat insluittokens alleen voor ontwikkelingstesten zijn bedoeld, kan een Power BI-masteraccount een onbeperkt aantal insluittokens genereren. Er moet een [capaciteit moet worden aangeschaft](./embedded-faq.md#technical) voor insluitingsscenario's voor de productie. Het aantal te genereren insluitingstokens is onbeperkt wanneer een capaciteit is aangeschaft.
 
 Een voorbeeld is beschikbaar in **Controllers\HomeController.cs** van het [Embedding for your organization-voorbeeld](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
@@ -440,7 +440,7 @@ Een toepassingsvoorbeeld is beschikbaar in [Voorbeeld voor insluiten voor uw org
 
 * Raadpleeg [Power BI JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie over de JavaScript-API.
 
-* Raadpleeg [Veelgestelde vragen over de Power BI-cloud voor Duitsland](https://docs.microsoft.com/power-bi/service-govde-faq) voor meer informatie over de Power BI-cloud voor Duitsland
+* Raadpleeg [Veelgestelde vragen over de Power BI-cloud voor Duitsland](../../admin/service-govde-faq.md) voor meer informatie over de Power BI-cloud voor Duitsland
 
 * [Inhoud van Power BI-werkruimteverzameling migreren naar Power BI](migrate-from-powerbi-embedded.md)
 

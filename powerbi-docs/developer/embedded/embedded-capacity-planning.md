@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145131"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746741"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Capaciteitsplanning in ingesloten Power BI-analyse
 
@@ -42,7 +42,7 @@ Houd bij de uitvoering van het hulpprogramma rekening met de bestaande belasting
 Hier volgen enkele voorbeelden van hoe u het planningsprogramma kunt gebruiken.
 
 * Capaciteitsbeheerders krijgen meer inzicht in het aantal gebruikers dat met hun capaciteit in een bepaald tijdsbestek kan worden verwerkt.
-* Rapportontwerpers krijgen inzicht in het effect van gebruikersbelasting, zoals gemeten met de [Performance Analyzer](https://docs.microsoft.com/power-bi/desktop-performance-analyzer) op het bureaublad van Power BI.
+* Rapportontwerpers krijgen inzicht in het effect van gebruikersbelasting, zoals gemeten met de [Performance Analyzer](../../create-reports/desktop-performance-analyzer.md) op het bureaublad van Power BI.
 * U kunt de rendering in realtime in uw browser volgen.
 * Met SQL Server Profiler kunt u [verbinding maken met de XMLA-eindpunten](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) van de gemeten capaciteit, om te zien welke query's er worden uitgevoerd.
 * De effecten van de belastingtests worden weergegeven op de pagina Gegevenssets van de Premium-app die metrische gegevens van de capaciteit genereert. Capaciteitsbeheerders kunnen dit hulpprogramma gebruiken om belasting te genereren en te zien hoe deze belasting wordt weergegeven.

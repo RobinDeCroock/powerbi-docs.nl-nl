@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
-ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
+ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86092234"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746626"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -46,7 +46,7 @@ Als u echter besluit de omgeving handmatig in te stellen, kunt u hieronder doorg
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Een toepassing registreren in Azure Active Directory (Azure AD)
 
-[Registreer uw toepassing](register-app.md) bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/). Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en [machtigingen opgeven voor Power BI REST-resources](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent). Afhankelijk van of u een hoofdaccount of [service-principal](embed-service-principal.md) wilt gebruiken, wordt bepaald op welke manier u een toepassing gaat registreren.
+[Registreer uw toepassing](register-app.md) bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](/rest/api/power-bi/). Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en [machtigingen opgeven voor Power BI REST-resources](/azure/active-directory/develop/v2-permissions-and-consent). Afhankelijk van of u een hoofdaccount of [service-principal](embed-service-principal.md) wilt gebruiken, wordt bepaald op welke manier u een toepassing gaat registreren.
 
 Welk type toepassing u in Azure registreert, is afhankelijk van de gekozen methode.
 
@@ -62,7 +62,7 @@ Als u rapporten, dashboards of tegels voor uw klanten insluit, moet u uw inhoud 
 
 ### <a name="create-and-publish-your-reports"></a>Rapporten maken en publiceren
 
-U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten vervolgens publiceren naar een werkruimte. U kunt deze taak op twee manieren uitvoeren: Als eindgebruiker kunt u rapporten publiceren naar een traditionele werkruimte met een hoofdaccount (Power BI Pro-licentie). Als u een service-principal gebruikt, kunt u rapporten naar de nieuwe werkruimten publiceren met behulp van de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+U kunt de rapporten en gegevenssets maken met Power BI Desktop en de rapporten vervolgens publiceren naar een werkruimte. U kunt deze taak op twee manieren uitvoeren: Als eindgebruiker kunt u rapporten publiceren naar een traditionele werkruimte met een hoofdaccount (Power BI Pro-licentie). Als u een service-principal gebruikt, kunt u rapporten naar de nieuwe werkruimten publiceren met behulp van de [Power BI REST API's](/rest/api/power-bi/imports/postimportingroup).
 
 Volg de onderstaande stappen om uw PBIX-rapport naar uw Power BI-werkruimte te publiceren.
 
@@ -224,11 +224,11 @@ Vul bij de informatie over de **tenant** uw Azure-tenant-id in. U kunt deze info
 
 ## <a name="embed-content-within-your-application"></a>Inhoud in uw toepassing insluiten
 
-Hoewel de stappen voor het insluiten van uw inhoud worden uitgevoerd met de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/), worden de voorbeeldcodes die worden beschreven in dit artikel gemaakt met de **.NET SDK**.
+Hoewel de stappen voor het insluiten van uw inhoud worden uitgevoerd met de [Power BI REST API's](/rest/api/power-bi/), worden de voorbeeldcodes die worden beschreven in dit artikel gemaakt met de **.NET SDK**.
 
-Als u voor uw klanten inhoud in uw toepassing wilt insluiten, is een **toegangstoken** vereist voor uw hoofdaccount of [service-principal](embed-service-principal.md) van **Azure AD**. U moet een [Azure Active Directory-toegangstoken ophalen](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) voor uw Power BI-toepassing voordat u de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/) kunt aanroepen.
+Als u voor uw klanten inhoud in uw toepassing wilt insluiten, is een **toegangstoken** vereist voor uw hoofdaccount of [service-principal](embed-service-principal.md) van **Azure AD**. U moet een [Azure Active Directory-toegangstoken ophalen](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) voor uw Power BI-toepassing voordat u de [Power BI REST API's](/rest/api/power-bi/) kunt aanroepen.
 
-Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/). U maakt het **Power BI-clientobject** door het AccessToken te verpakken met het object ***Microsoft.Rest.TokenCredentials***.
+Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST-API's](/rest/api/power-bi/). U maakt het **Power BI-clientobject** door het AccessToken te verpakken met het object ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -269,11 +269,11 @@ Genereer een insluittoken dat kan worden gebruikt vanuit de JavaScript-API. Er z
 **API's voor het genereren van een insluittoken voor een specifiek item**
 
 Het insluittoken dat met deze API's wordt gemaakt, heeft alleen betrekking op het item dat u insluit. Steeds wanneer u een Power BI-item (zoals een rapport, dashboard of tegel) insluit met deze API's, moet u hiervoor een nieuw insluittoken maken.
-* [Dashboards GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [Datasets GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [Tiles GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+* [Dashboards GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [Datasets GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [Reports GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [Tiles GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
 Voorbeelden van het maken van een insluittoken voor een rapport, dashboard of tegel vindt u in de volgende bestanden in de [voorbeeldtoepassing](https://github.com/Microsoft/PowerBI-Developer-Samples).
 * Services\EmbedService.cs
@@ -300,7 +300,7 @@ var embedConfig = new EmbedConfig()
 
 **API voor het genereren van een insluittoken voor meerdere items**<a id="multiEmbedToken"></a>
 
-Met de API voor [het genereren van een insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) genereert u een token dat kan worden gebruikt voor het insluiten van meerdere items.
+Met de API voor [het genereren van een insluittoken](/rest/api/power-bi/embedtoken/generatetoken) genereert u een token dat kan worden gebruikt voor het insluiten van meerdere items.
 
 Het kan ook worden gebruikt voor het dynamisch selecteren van een gegevensset tijdens het insluiten van een rapport. Zie [dynamische binding](embed-dynamic-binding.md) voor meer informatie over dit gebruik van de API.
 
@@ -414,7 +414,7 @@ Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource 
 > [!NOTE]
 > Bij A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud.
 
-In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
+In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](./embedded-faq.md#which-solution-should-i-choose).
 
 | Capaciteitsknooppunten | Totaal aantal v-cores | v-cores voor back-end | RAM (GB) | v-cores voor front-end | DirectQuery/liveverbinding (per sec) | Model voor parallelle vernieuwing |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 
 Voor het ontwikkelen van tests kunt u insluittokens als proef gebruiken met een Pro-licentie. Gebruik een toegewezen capaciteit om items in te sluiten in een productieomgeving.
 
-Het aantal insluittokens als proef dat een Power BI-service-principal of hoofdaccount kan genereren, is beperkt. Gebruik de API [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) om het percentage van het huidige ingesloten gebruik te controleren. Het gebruiksbedrag wordt weergegeven per service-principal of hoofd account.
+Het aantal insluittokens als proef dat een Power BI-service-principal of hoofdaccount kan genereren, is beperkt. Gebruik de API [Beschikbare functies](/rest/api/power-bi/availablefeatures/getavailablefeatures) om het percentage van het huidige ingesloten gebruik te controleren. Het gebruiksbedrag wordt weergegeven per service-principal of hoofd account.
 
 Als de insluittokens opraken tijdens het testen, moet u een Power BI Embedded of Premium-[capaciteit aanschaffen](embedded-capacity.md). Met een toegewezen capaciteit kunt u een onbeperkt aantal insluitingstokens genereren.
 
@@ -441,7 +441,7 @@ Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw werkruimte toewijzen aan d
 
 Alle werkruimten die Power BI-resources bevatten die betrekking hebben op de ingesloten inhoud (inclusief gegevenssets, rapporten en dashboards), moeten worden toegewezen aan toegewezen capaciteiten. Als bijvoorbeeld een ingesloten rapport en de gegevensset die hieraan is gekoppeld, zich in verschillende werkruimten bevinden, moeten beide werkruimten zijn toegewezen aan toegewezen capaciteiten.
 
-Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen met behulp van een [service-principal](embed-service-principal.md), gebruikt u de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md) gebruiken.
+Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen met behulp van een [service-principal](embed-service-principal.md), gebruikt u de [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md) gebruiken.
 
 Volg de onderstaande stappen om een toegewezen capaciteit aan een werkruimte toe te wijzen met behulp van een **hoofdaccount**.
 

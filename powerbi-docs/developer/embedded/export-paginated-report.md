@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 2b4715a388250e00cced8a0164a7dcf687887d8a
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86556883"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748167"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Gepagineerd rapport exporteren naar een bestand (preview)
 
@@ -38,9 +38,9 @@ U kunt de exportfunctie op verschillende manieren gebruiken. Hieronder vindt u e
 
 ## <a name="using-the-api"></a>De API gebruiken
 
-De API is asynchroon. Wanneer de API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) is aangeroepen, wordt een exporttaak geactiveerd. Nadat de exporttaak is geactiveerd, gebruikt u [polling](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) om de taak bij te houden totdat deze is voltooid.
+De API is asynchroon. Wanneer de API [exportToFile](/rest/api/power-bi/reports/exporttofile) is aangeroepen, wordt een exporttaak geactiveerd. Nadat de exporttaak is geactiveerd, gebruikt u [polling](/rest/api/power-bi/reports/getexporttofilestatus) om de taak bij te houden totdat deze is voltooid.
 
-Wanneer het exporteren is voltooid, retourneert de polling-API-aanroep een [Power BI-URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) om het bestand op te halen. De URL is 24 uur beschikbaar.
+Wanneer het exporteren is voltooid, retourneert de polling-API-aanroep een [Power BI-URL](/rest/api/power-bi/reports/getfileofexporttofile) om het bestand op te halen. De URL is 24 uur beschikbaar.
 
 ## <a name="supported-features"></a>Ondersteunde functies
 

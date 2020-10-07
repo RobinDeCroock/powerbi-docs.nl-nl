@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b2638c3fdb483f45b6f4b3f9363f42ee36e57f0b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276002"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747753"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 
@@ -28,7 +28,7 @@ In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op
 
 ## <a name="concepts-and-terminology"></a>Concepten en terminologie
 
-**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
+**[AAD](/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
 
 **AAD-app**: een app-identiteit in AAD. Een AAD-app is vereist voor verificatie.
 
@@ -131,17 +131,17 @@ Er zijn twee primaire benaderingen voor het beheren van tenantgegevens.
 
 Als de opslag van de SaaS-app een afzonderlijke database per tenant gebruikt, is het logisch om ook gegevenssets met één tenant in Power BI te gebruiken, waarbij de verbindingsreeks voor elke gegevensset verwijst naar de bijbehorende database.
 
-Als de opslag van de SaaS-app één database voor alle tenants gebruikt, is het eenvoudiger om tenants te scheiden per werkruimte. U kunt de databaseverbinding voor de Power BI-gegevensset configureren met een geparameteriseerde databasequery die alleen gegevens van de relevante tenant ophaalt. U kunt de verbinding bijwerken met [Power BI Desktop](../../transform-model/desktop-query-overview.md) of met de [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) met [parameters](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) voor de query.
+Als de opslag van de SaaS-app één database voor alle tenants gebruikt, is het eenvoudiger om tenants te scheiden per werkruimte. U kunt de databaseverbinding voor de Power BI-gegevensset configureren met een geparameteriseerde databasequery die alleen gegevens van de relevante tenant ophaalt. U kunt de verbinding bijwerken met [Power BI Desktop](../../transform-model/desktop-query-overview.md) of met de [API](/rest/api/power-bi/datasets/updatedatasourcesingroup) met [parameters](/rest/api/power-bi/datasets/updateparametersingroup) voor de query.
 
 ### <a name="data-isolation"></a>Gegevensisolatie
 
-Gegevens worden in dit tenancymodel gescheiden op werkruimteniveau. Dankzij een eenvoudige toewijzing tussen een werkruimte en een tenant voorkomt u dat gebruikers van de ene tenant inhoud van een andere tenant kunnen zien. Wanneer u één *hoofdgebruiker* hebt, moet u toegang hebben tot alle verschillende werkruimten. Welke gegevens een eindgebruiker kan zien, wordt gedefinieerd tijdens het [genereren van een insluitingstoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken). Dit proces vindt uitsluitend aan de back-end plaats en is niet zichtbaar of bewerkbaar voor gebruikers.
+Gegevens worden in dit tenancymodel gescheiden op werkruimteniveau. Dankzij een eenvoudige toewijzing tussen een werkruimte en een tenant voorkomt u dat gebruikers van de ene tenant inhoud van een andere tenant kunnen zien. Wanneer u één *hoofdgebruiker* hebt, moet u toegang hebben tot alle verschillende werkruimten. Welke gegevens een eindgebruiker kan zien, wordt gedefinieerd tijdens het [genereren van een insluitingstoken](/rest/api/power-bi/embedtoken). Dit proces vindt uitsluitend aan de back-end plaats en is niet zichtbaar of bewerkbaar voor gebruikers.
 
 Voor extra isolatie kan een app-ontwikkelaar een *hoofdgebruiker* of een app per werkruimte definiëren in plaats van één *hoofdgebruiker* of een app met toegang tot meerdere werkruimten. Op deze manier kunt u ervoor zorgen dat er in geval van een menselijke fout of lek van referentiegegevens geen gegevens van meerdere klanten openbaar worden gemaakt.
 
 ### <a name="scalability"></a>Schaalbaarheid
 
-Een voordeel van dit model is dat u, door de gegevens te scheiden in meerdere gegevenssets voor elke tenant, niet wordt beperkt door de [limiet van een gegevensset](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (op dit moment 10 GB in een capaciteit). Wanneer de capaciteit overbelast is, kan deze ongebruikte gegevenssets buitensluiten om geheugen vrij te maken voor actieve gegevenssets. Deze taak is niet mogelijk wanneer u één grote gegevensset hebt. Wanneer u meerdere gegevenssets gebruikt, kunt u tenants indien nodig ook verdelen over meerdere Power BI-capaciteiten.
+Een voordeel van dit model is dat u, door de gegevens te scheiden in meerdere gegevenssets voor elke tenant, niet wordt beperkt door de [limiet van een gegevensset](../../admin/service-premium-what-is.md) (op dit moment 10 GB in een capaciteit). Wanneer de capaciteit overbelast is, kan deze ongebruikte gegevenssets buitensluiten om geheugen vrij te maken voor actieve gegevenssets. Deze taak is niet mogelijk wanneer u één grote gegevensset hebt. Wanneer u meerdere gegevenssets gebruikt, kunt u tenants indien nodig ook verdelen over meerdere Power BI-capaciteiten.
 
 Ondanks deze voordelen is het belangrijk om rekening te houden met de schaal die de SaaS-app in de toekomst mogelijk bereikt. U kunt bijvoorbeeld te maken krijgen met beperkingen voor het aantal artefacten dat u kunt beheren. Lees het gedeelte over [implementatiebeperkingen](#summary-comparison-of-the-different-approaches) verderop in dit artikel voor meer informatie. De gebruikte capaciteit-SKU beperkt de hoeveelheid geheugen die gegevenssets nodig hebben, hoeveel vernieuwingen er tegelijkertijd kunnen worden uitgevoerd en de maximale frequentie van gegevensvernieuwingen. Het is raadzaam om tests uit te voeren wanneer u honderden of duizenden gegevenssets beheert. We raden ook aan rekening te houden met het gemiddelde en piekvolume van gebruik, evenals specifieke tenants met grote gegevenssets of afwijkende gebruikspatronen die anders worden beheerd dan andere tenants.
 
@@ -155,7 +155,7 @@ Met isolatie op basis van Power BI-werkruimte moet een app-ontwikkelaar mogelijk
    * niet-geplande aanpassingen voor specifieke tenants
    * frequentie van vernieuwingen van de gegevensset
 
-Het maken van een werkruimte voor een nieuwe tenant is bijvoorbeeld een veelvoorkomende taak die moet worden geautomatiseerd. Met de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) kunt u zorgen voor [volledige automatisering bij het maken van werkruimten](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/).
+Het maken van een werkruimte voor een nieuwe tenant is bijvoorbeeld een veelvoorkomende taak die moet worden geautomatiseerd. Met de [Power BI REST API](/rest/api/power-bi/) kunt u zorgen voor [volledige automatisering bij het maken van werkruimten](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/).
 
 ### <a name="multi-geo-needs"></a>Multi-Geo-behoeften
 
@@ -222,15 +222,15 @@ Wanneer eindgebruikers rapporten bewerken of maken, kunnen ze de gegevensset voo
 > [!Important]
 > De volgende analyse is gebaseerd op de huidige status van het product. We introduceren maandelijks nieuwe functies en mogelijkheden die een oplossing vormen voor huidige beperkingen of zwakke plekken. Lees onze maandelijkse blogposts om op de hoogte te blijven van al het nieuws en raadpleeg dit artikel opnieuw om te zien hoe de nieuwe functies de aanbevelingen voor het tenancymodel beïnvloeden.
 
-| Evaluatiecriteria | Op basis van werkruimte   | Op basis van beveiliging op rijniveau  |  |  |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---|---|
-| Gegevensarchitectuur  | Eenvoudigst wanneer elke tenant een afzonderlijke database heeft  | Eenvoudigst wanneer de gegevens voor alle tenants worden opgeslagen in één datawarehouse   |  |  |
-| Gegevensisolatie  | Goed. Elke tenant heeft een toegewezen gegevensset.  | Gemiddeld. Alle gegevens bevinden zich in dezelfde gedeelde gegevensset, maar worden beheerd door middel van toegangsbeheer.  |  |  |
-| Schaalbaarheid  | Gemiddeld. Het verdelen van gegevens over meerdere gegevenssets maakt optimalisatie mogelijk.  | Laagst. Beperkt door de limieten van gegevenssets.  |  |  |
-| Multi-Geo-behoeften  | Geschikt wanneer de meeste tenants zich alleen in één regio bevinden.  | Niet aanbevolen. Hierbij moet de volledige gegevensset in meerdere regio's worden opgeslagen.  |  |  |
-| Automatisering en operationele complexiteit  | Goede automatisering voor de afzonderlijke tenant.   Ingewikkeld om veel artefacten op schaal te beheren.  | Eenvoudig om Power BI-artefacten te beheren maar ingewikkeld om beveiliging op rijniveau op schaal te beheren.  |  |  |
-| Cost  | Laag tot gemiddeld. Gebruik kan worden geoptimaliseerd om kosten per tenant te beperken.  Kosten kunnen toenemen wanneer regelmatige vernieuwingen vereist zijn.  | Gemiddeld tot hoog bij gebruik van de importmodus.  Laag tot gemiddeld bij gebruik van DirectQuery.  |  |  |
-| Inhoud aanpassen en ontwerpen  | Geschikt. Op grote schaal kunnen limieten worden bereikt.  | Alleen inhoud genereren in ingesloten iFrame.  |  |  |
+| Evaluatiecriteria | Op basis van werkruimte   | Op basis van beveiliging op rijniveau  |
+|---------------------|-------------------|---------------------------|
+| Gegevensarchitectuur  | Eenvoudigst wanneer elke tenant een afzonderlijke database heeft  | Eenvoudigst wanneer de gegevens voor alle tenants worden opgeslagen in één datawarehouse   |
+| Gegevensisolatie  | Goed. Elke tenant heeft een toegewezen gegevensset.  | Gemiddeld. Alle gegevens bevinden zich in dezelfde gedeelde gegevensset, maar worden beheerd door middel van toegangsbeheer.  |
+| Schaalbaarheid  | Gemiddeld. Het verdelen van gegevens over meerdere gegevenssets maakt optimalisatie mogelijk.  | Laagst. Beperkt door de limieten van gegevenssets.  |
+| Multi-Geo-behoeften  | Geschikt wanneer de meeste tenants zich alleen in één regio bevinden.  | Niet aanbevolen. Hierbij moet de volledige gegevensset in meerdere regio's worden opgeslagen.  |
+| Automatisering en operationele complexiteit  | Goede automatisering voor de afzonderlijke tenant.   Ingewikkeld om veel artefacten op schaal te beheren.  | Eenvoudig om Power BI-artefacten te beheren maar ingewikkeld om beveiliging op rijniveau op schaal te beheren.  |
+| Cost  | Laag tot gemiddeld. Gebruik kan worden geoptimaliseerd om kosten per tenant te beperken.  Kosten kunnen toenemen wanneer regelmatige vernieuwingen vereist zijn.  | Gemiddeld tot hoog bij gebruik van de importmodus.  Laag tot gemiddeld bij gebruik van DirectQuery.  |
+| Inhoud aanpassen en ontwerpen  | Geschikt. Op grote schaal kunnen limieten worden bereikt.  | Alleen inhoud genereren in ingesloten iFrame.  |
 
 ## <a name="deployment-considerations-and-limitations"></a>Overwegingen en beperkingen voor implementatie
 

@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487827"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746212"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Ingesloten analyses met Power BI
 
@@ -43,7 +43,7 @@ Er zijn twee hoofdscenario's voor het insluiten van Power BI-inhoud:
  
 - Inhoud insluiten voor uw gebruikers en klanten zonder dat een Power BI-licentie is vereist. 
 
-U kunt beide scenario’s uitvoeren met de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/).
+U kunt beide scenario’s uitvoeren met de [Power BI REST API](/rest/api/power-bi/).
 
 Voor klanten en gebruikers zonder een Power Bi-licentie kunt u met dezelfde API dashboards en rapporten insluiten in uw aangepaste toepassing voor zowel uw organisatie als uw klanten. Uw klanten zien de gegevens die met de toepassing worden beheerd. De Power BI-gebruikers in uw organisatie hebben daarnaast aanvullende opties om *hun gegevens* rechtstreeks in Power BI of in de context van de ingesloten toepassing weer te geven. U kunt profiteren van de JavaScript- en REST-API's voor uw behoeften bij het insluiten van inhoud.
 
@@ -53,7 +53,7 @@ Zie het [Insluitvoorbeeld voor JavaScript](https://microsoft.github.io/PowerBI-J
 
 **Met het insluiten van inhoud voor uw organisatie** kunt u Power BI-service uitbreiden. Voor dit type insluiting moeten de gebruikers van uw toepassing zich aanmelden bij de Power BI-service om de inhoud weer te geven. Als iemand in uw organisatie zich heeft aangemeld, heeft hij alleen toegang tot zijn eigen dashboards en rapporten of de dashboards en rapporten die met hem zijn gedeeld in de Power BI-service.
 
-Voorbeelden van insluitingen voor uw organisatie zijn interne toepassingen, zoals [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams-integratie (hiervoor moet u beheerdersrechten hebben)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) en [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
+Voorbeelden van insluitingen voor uw organisatie zijn interne toepassingen, zoals [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Microsoft Teams-integratie (hiervoor moet u beheerdersrechten hebben)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) en [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard).
 
 Zie voor informatie over insluiten voor uw organisatie [Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie](embed-sample-for-your-organization.md).
 

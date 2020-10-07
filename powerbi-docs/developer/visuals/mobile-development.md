@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 38e6ac3be143381304f1fdfc8e1427b91f398a9a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196624"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747523"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Mobiel-vriendelijke Power BI-visuals maken
 Het mobiele verbruik speelt een belangrijke rol in Power BI. Een van de sterke punten is dat het altijd en overal verbinding houdt met uw gegevens.
 
 Als ontwikkelaar die Power BI-visuals maakt, moet u de unieke beperkingen van elk mobiel apparaat zoveel mogelijk oplossen, zodat u zoveel mogelijk gebruikers bereikt en de beste mobiele ervaring biedt.
 
-Gebruik de [Power BI-app voor Windows, iOS en Android](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices) waarmee uw zakelijke gebruikers onderweg een uitgebreid overzicht van hun gegevens paraat hebben.
+Gebruik de [Power BI-app voor Windows, iOS en Android](../../consumer/mobile/mobile-apps-for-mobile-devices.md) waarmee uw zakelijke gebruikers onderweg een uitgebreid overzicht van hun gegevens paraat hebben.
 
 ## <a name="requirements"></a>Vereisten
 
@@ -63,7 +63,7 @@ Het volgende wordt aangemerkt als optioneel en wordt gebruikt om een betere eind
   Dezelfde instellingen kunnen ook worden toegepast op de visuals in desktopbrowsers, en desgewenst worden overschreven om de visual aan te passen aan kleinere schermen.
 
   > [!NOTE]
-  > Als u een visual in de modus **Focus** wilt optimaliseren, moet u rekening houden met de staande en liggende stand van de schermformaat. Zie [Inhoud weergeven in de modus Focus](/power-bi/consumer/end-user-focus).
+  > Als u een visual in de modus **Focus** wilt optimaliseren, moet u rekening houden met de staande en liggende stand van de schermformaat. Zie [Inhoud weergeven in de modus Focus](../../consumer/end-user-focus.md).
 
 - Interactief
 
@@ -74,9 +74,9 @@ Het volgende wordt aangemerkt als optioneel en wordt gebruikt om een betere eind
   Een visual moet een beschrijvende fout bevatten als deze niet op het mobiele apparaat kan worden weergegeven.
 
 ## <a name="supported-browsers-and-devices"></a>Ondersteunde browsers en apparaten
-De Power BI-visual moet worden weergegeven op alle apparaten die Power BI-apps ondersteunen. Zie [Ondersteunde browsers voor Power BI](/power-bi/power-bi-browsers) en [Mobiele Power BI-apps](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices) voor meer informatie.
+De Power BI-visual moet worden weergegeven op alle apparaten die Power BI-apps ondersteunen. Zie [Ondersteunde browsers voor Power BI](../../fundamentals/power-bi-browsers.md) en [Mobiele Power BI-apps](../../consumer/mobile/mobile-apps-for-mobile-devices.md) voor meer informatie.
 
 Bij het testen op de nieuwste modellen van Windows-, iOS-en Android-apparaten moet de ontwikkelaar over de meeste van deze kwaliteitsaspecten nadenken.
 
 ## <a name="next-steps"></a>Volgende stappen
-Als u aan de slag wilt gaan, raadpleegt u [Zelfstudie: Een Power BI-visual ontwikkelen](/power-bi/developer/visuals/custom-visual-develop-tutorial).
+Als u aan de slag wilt gaan, raadpleegt u [Zelfstudie: Een Power BI-visual ontwikkelen](./custom-visual-develop-tutorial.md).

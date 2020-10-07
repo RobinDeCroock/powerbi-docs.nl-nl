@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: e32b33a7e913772215fad63ddea7987d199420fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355048"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746603"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Een Azure AD-toegangstoken ophalen voor uw Power BI-toepassing
 
-In dit artikel wordt uitgelegd hoe u gebruikers kunt verifiëren in uw Power BI-toepassing en een toegangstoken kunt ophalen voor gebruik met de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/).
+In dit artikel wordt uitgelegd hoe u gebruikers kunt verifiëren in uw Power BI-toepassing en een toegangstoken kunt ophalen voor gebruik met de [Power BI REST API](/rest/api/power-bi/).
 
-Voordat uw app de REST API kan aanroepen, moet u een **verificatietoegangstoken** ophalen voor Azure Active Directory (Azure AD). Uw app gebruikt een token om toegang te krijgen tot Power BI-dashboards, -tegels en -rapporten. Zie [Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code) (Toegang tot Azure Active Directory-webtoepassingen autoriseren met de OAuth 2.0-stroom voor codetoewijzing) voor meer informatie.
+Voordat uw app de REST API kan aanroepen, moet u een **verificatietoegangstoken** ophalen voor Azure Active Directory (Azure AD). Uw app gebruikt een token om toegang te krijgen tot Power BI-dashboards, -tegels en -rapporten. Zie [Authorize access to Azure Active Directory web applications using the OAuth 2.0 code grant flow](/azure/active-directory/develop/v1-protocols-oauth-code) (Toegang tot Azure Active Directory-webtoepassingen autoriseren met de OAuth 2.0-stroom voor codetoewijzing) voor meer informatie.
 
 Afhankelijk van hoe u inhoud insluit, wordt het toegangstoken op een andere manier opgehaald. In dit artikel komen twee verschillende benaderingen aan bod.
 
@@ -55,7 +55,7 @@ var @params = new NameValueCollection
 
 Nadat u de querytekenreeks hebt gemaakt, stuurt u deze naar **Azure AD** om een **autorisatiecode** te verkrijgen.  Hieronder staat een volledige C#-methode voor het maken van een querytekenreeks met een **autorisatiecode** en het sturen hiervan naar **Azure AD**. Vervolgens gebruikt u de **autorisatiecode** om een **toegangstoken** op te halen.
 
-Binnen redirect.aspx.cs wordt vervolgens [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) aangeroepen om het token te genereren.
+Binnen redirect.aspx.cs wordt vervolgens [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) aangeroepen om het token te genereren.
 
 #### <a name="get-authorization-code"></a>Autorisatiecode verkrijgen
 

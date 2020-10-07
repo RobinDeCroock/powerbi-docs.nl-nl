@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 5c364713ec7e0328e8278694985950266734c91d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e9989bb7a34a89cb6244a2378d6660a5079fc82
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238393"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748098"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Slicers synchroniseren in Power BI-visuals
 
-Gebruik API-versie 1.13.0 of hoger in uw aangepaste slicervisual om de functie [Slicers synchroniseren](https://docs.microsoft.com/power-bi/desktop-slicers) te ondersteunen.
+Gebruik API-versie 1.13.0 of hoger in uw aangepaste slicervisual om de functie [Slicers synchroniseren](../../visuals/power-bi-visualization-slicers.md) te ondersteunen.
 
 Daarnaast moet u de optie inschakelen in het bestand *capabilities.json*, zoals weergegeven in de volgende code:
 

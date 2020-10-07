@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: fe1eb36a63d504497f15bef8316e96d120439793
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145113"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746189"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -51,7 +51,7 @@ Er zijn misschien enkele situaties waarin een ISV (meestal groot), naast insluit
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>Hoeveel insluitingstokens kan ik maken?
 
-Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten. Met een Power BI-hoofdaccount of [service-principal](embed-service-principal.md) kunt u dus maar een beperkt aantal tokens genereren. U moet [een capaciteit aanschaffen](#technical) voor het insluiten van items in een productieomgeving. Wanneer u een capaciteit aanschaft, kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluittokens in procenten aangegeven.
+Insluitingstokens met een PRO-licentie zijn bedoeld voor ontwikkelingstesten. Met een Power BI-hoofdaccount of [service-principal](embed-service-principal.md) kunt u dus maar een beperkt aantal tokens genereren. U moet [een capaciteit aanschaffen](#technical) voor het insluiten van items in een productieomgeving. Wanneer u een capaciteit aanschaft, kunt u een onbeperkt aantal insluitingstokens genereren. Ga naar [Beschikbare functies](/rest/api/power-bi/availablefeatures) om de waarde voor het gebruik te controleren. Hiermee wordt het huidige gebruik van insluittokens in procenten aangegeven.
 
 ## <a name="technical"></a>Technisch
 
@@ -69,7 +69,7 @@ Raadpleeg het artikel [Capaciteit en SKU's voor ingesloten analyse van Power BI]
 
 * De [Power BI-beheerportal](../../admin/service-admin-portal.md#power-bi-embedded) gebruiken.
 
-* De [metrische app](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity) in Power BI downloaden.
+* De [metrische app](../../admin/service-admin-premium-monitor-capacity.md) in Power BI downloaden.
 
 * [Logboekregistratie van diagnostische gegevens in Azure](azure-pbie-diag-logs.md) gebruiken.
 
@@ -79,7 +79,7 @@ Hoewel er op dit moment nog geen functie voor automatisch schalen is, zijn alle 
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>Waarom wordt een capaciteit bij het maken/schalen/hervatten in de status onderbroken geplaatst?
 
-Het inrichten van een capaciteit (schalen/hervatten/maken) mislukt mogelijk. U kunt de API voor het ophalen van details gebruiken om de ProvisioningState van een capaciteit te controleren: [Capaciteiten - Details ophalen](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails).
+Het inrichten van een capaciteit (schalen/hervatten/maken) mislukt mogelijk. U kunt de API voor het ophalen van details gebruiken om de ProvisioningState van een capaciteit te controleren: [Capaciteiten - Details ophalen](/rest/api/power-bi-embedded/capacities/getdetails).
 
 ### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>Kan ik Power BI Embedded-capaciteiten alleen maken in een specifieke regio?
 
@@ -89,7 +89,7 @@ Met de functie [Meerdere geografische gebieden (preview)](embedded-multi-geo.md)
 
 Wanneer machtigingen voor een werkruimte, app of artefact aan een gebruiker worden toegekend, zijn deze machtigingen mogelijk niet direct beschikbaar via API-aanroepen.
 Dit kan ertoe leiden dat een artefact in een GET-API-antwoord ontbreekt of dat er zich een fout voordoet wanneer de gebruiker het artefact probeert te gebruiken.
-De gebruiker kan dit probleem oplossen door de [refreshUserPermissions-API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) aan te roepen. Hierdoor worden de machtigingen van de gebruiker bijgewerkt.
+De gebruiker kan dit probleem oplossen door de [refreshUserPermissions-API](/rest/api/power-bi/users/refreshuserpermissions) aan te roepen. Hierdoor worden de machtigingen van de gebruiker bijgewerkt.
 
 
 ### <a name="how-can-i-find-my-pbi-tenant-region"></a>Waar kan ik zien wat mijn PBI-tenantregio is?
@@ -114,8 +114,8 @@ Voor Power BI moet u zich aanmelden met een organisatieaccount. Het aanmelden vo
 
 Ja, er zijn Powershell-cmdlets en REST API's voor Azure Resource Manager die u kunt gebruiken om PBIE-resources te maken en te beheren.
 
-* [REST API's](https://docs.microsoft.com/rest/api/power-bi-embedded/) 
-* [PowerShell-cmdlets](https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/)
+* [REST API's](/rest/api/power-bi-embedded/) 
+* [PowerShell-cmdlets](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>Wat is de rol van de toegewezen PBI Embedded-capaciteit in een PBI Embedded-oplossing?
 
@@ -145,7 +145,7 @@ Power BI Embedded blijft Azure AD gebruiken voor de verificatie van de hoofdgebr
 
 U kunt uw bestaande directory gebruiken als u al een Azure AD-tenant hebt. Ook kunt u een nieuwe Azure AD-tenant maken voor uw de beveiliging van de inhoud van uw ingesloten toepassingen.
 
-Als u een AAD-token wilt ophalen, kunt u één van de [Azure Active Directory-verificatiebibliotheken](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries) gebruiken. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
+Als u een AAD-token wilt ophalen, kunt u één van de [Azure Active Directory-verificatiebibliotheken](/azure/active-directory/develop/active-directory-authentication-libraries) gebruiken. Er zijn clientbibliotheken beschikbaar voor meerdere platformen.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Mijn toepassing gebruikt al AAD voor verificatie van de gebruiker. Hoe kunnen we deze identiteit gebruiken bij de verificatie bij Power BI in een scenario waarin de gebruiker eigenaar is van de gegevens?
 
@@ -194,7 +194,7 @@ Nadat u de [service-principal](embed-service-principal.md) voor gebruik met Powe
 
 Service-principals nemen de machtigingen voor alle instellingen van de Power BI-tenant over van hun beveiligingsgroep. Als u deze machtigingen wilt beperken, maakt u een specifieke beveiligingsgroep voor service-principals en voegt u deze toe aan de lijst **Behalve specifieke beveiligingsgroepen** voor de desbetreffende, ingeschakelde Power BI-instellingen.
 
-Deze situatie is belangrijk wanneer u de service-principal als **beheerder** aan de nieuwe werkruimte toevoegt. U kunt deze taak beheren via de [API's](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) of met de Power BI-service.
+Deze situatie is belangrijk wanneer u de service-principal als **beheerder** aan de nieuwe werkruimte toevoegt. U kunt deze taak beheren via de [API's](/rest/api/power-bi/groups/addgroupuser) of met de Power BI-service.
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Wanneer moet ik een toepassings-id gebruiken en wanneer de object-id van een service-principal?
 
@@ -283,7 +283,7 @@ De **Power BI-werkruimteverzameling** (**Power BI Embedded** versie 1) is een op
     > [!Note]
     > U kunt de **Power BI-werkruimteverzameling** blijven gebruiken terwijl u daarnaast een **Power BI Embedded**-oplossing bouwt. Zodra u klaar bent, kunt u uw klant naar de nieuwe **Power BI Embedded**-oplossing verplaatsen en de **Power BI-werkruimteverzameling** buiten gebruik stellen.
 
-Zie [Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded) voor meer informatie.
+Zie [Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded](./migrate-from-powerbi-embedded.md) voor meer informatie.
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Wordt de Power BI-werkruimteverzameling afgeschaft?
 
@@ -327,11 +327,11 @@ Als u met de ervaring **Insluiten voor uw organisatie** werkt, moet u het bestan
 
 ### <a name="how-can-i-edit-my-registered-application"></a>Hoe kan ik mijn geregistreerde toepassing bewerken?
 
-Voor meer informatie over hoe u geregistreerde Azure AD-toepassingen kunt bewerken, raadpleegt u [Quickstart: Update an application in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) (Quickstart: Een toepassing in Azure Active Directory bijwerken).
+Voor meer informatie over hoe u geregistreerde Azure AD-toepassingen kunt bewerken, raadpleegt u [Quickstart: Update an application in Azure Active Directory](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app) (Quickstart: Een toepassing in Azure Active Directory bijwerken).
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>How kan ik mijn Power BI-gebruikersprofiel of -gegevens bewerken?
 
-U kunt [hier](https://docs.microsoft.com/power-bi/service-basic-concepts) leren hoe u uw Power BI-gegevens bewerkt.
+U kunt [hier](../../fundamentals/service-basic-concepts.md) leren hoe u uw Power BI-gegevens bewerkt.
 
 Zie [Problemen oplossen met uw ingesloten toepassing](embedded-troubleshoot.md) voor meer informatie.
 

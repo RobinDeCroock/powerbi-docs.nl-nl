@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299567"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746672"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI Embedded
 
@@ -53,7 +53,7 @@ Als u rapporten met dezelfde filters, bladwijzers en slicers insluit, kunt u de 
 Wanneer u meerdere rapporten in hetzelfde iframe insluit, moet u niet voor elk rapport een nieuw iframe genereren. Gebruik in plaats daarvan `powerbi.embed(element, config)` met een andere configuratie om het nieuwe rapport in te sluiten.
 
 > [!NOTE]
-> Wanneer u schakelt tussen rapporten bij het insluiten van inhoud voor uw klanten (ook wel bekend als een 'app is eigenaar van de gegevens'-scenario genoemd), is het gebruik van een insluittoken met machtigingen vereist voor alle rapporten en gegevenssets. Zie [token-API genereren](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) voor meer informatie.
+> Wanneer u schakelt tussen rapporten bij het insluiten van inhoud voor uw klanten (ook wel bekend als een 'app is eigenaar van de gegevens'-scenario genoemd), is het gebruik van een insluittoken met machtigingen vereist voor alle rapporten en gegevenssets. Zie [token-API genereren](/rest/api/power-bi/embedtoken/generatetoken) voor meer informatie.
 
 ## <a name="query-caching"></a>Query's in cache opslaan
 

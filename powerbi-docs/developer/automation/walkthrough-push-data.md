@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 932e458c90b248e01a88d45a849838cff27f6dcb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488195"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746695"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
 
@@ -33,14 +33,14 @@ Het volgende gedeelte bevat een algemene bespreking van Power BI API-bewerkingen
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Power BI API-bewerkingen om gegevens te pushen
 
-Met de REST-API voor Power BI kunt u gegevensbronnen pushen naar Power BI. Wanneer een app rijen toevoegt aan een gegevensset, worden dashboardtegels automatisch bijgewerkt met de nieuwe gegevens. Gebruik de bewerkingen [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) en [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) om gegevens te pushen. Als u een gegevensset zoekt, gebruikt u de bewerking [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). U kunt een groeps-id doorvoeren om met een groep te werken voor elk van deze bewerkingen. Gebruik de bewerking [Groepen ophalen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) om een lijst met groeps-id's op te halen.
+Met de REST-API voor Power BI kunt u gegevensbronnen pushen naar Power BI. Wanneer een app rijen toevoegt aan een gegevensset, worden dashboardtegels automatisch bijgewerkt met de nieuwe gegevens. Gebruik de bewerkingen [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset) en [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) om gegevens te pushen. Als u een gegevensset zoekt, gebruikt u de bewerking [Gegevenssets ophalen](/rest/api/power-bi/datasets/getdatasets). U kunt een groeps-id doorvoeren om met een groep te werken voor elk van deze bewerkingen. Gebruik de bewerking [Groepen ophalen](/rest/api/power-bi/groups/getgroups) om een lijst met groeps-id's op te halen.
 
 Met de volgende bewerkingen kunt u gegevens naar een gegevensset pushen:
 
-* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
-* [Gegevenssets ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
-* [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
-* [Groepen ophalen](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
+* [PostDataset](/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Gegevenssets ophalen](/rest/api/power-bi/datasets/getdatasets)
+* [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Groepen ophalen](/rest/api/power-bi/groups/getgroups)
 
 U maakt u een gegevensset in Power BI door een JSON-tekenreeks (JavaScript Object Notation) door te geven aan de Power BI-service. Zie [Inleiding tot JSON](https://json.org/) voor meer informatie over JSON.
 
@@ -48,54 +48,58 @@ De JSON-tekenreeks voor een gegevensset heeft de volgende indeling:
 
 **JSON-object voor Power BI-gegevensset**
 
-    {"name": "dataset_name", "tables":
-        [{"name": "", "columns":
-            [{ "name": "column_name1", "dataType": "data_type"},
-             { "name": "column_name2", "dataType": "data_type"},
-             { ... }
-            ]
-          }
+```json
+{"name": "dataset_name", "tables":
+    [{"name": "", "columns":
+        [{ "name": "column_name1", "dataType": "data_type"},
+         { "name": "column_name2", "dataType": "data_type"},
+         { ... }
         ]
-    }
+      }
+    ]
+}
+```
 
 Voor de voorbeeldgegevensset Sales Marketing moet u een JSON-tekenreeks doorgeven zoals hieronder wordt weergegeven. In dit voorbeeld is **SalesMarketing** de naam van de gegevensset en **Product** is de naam van de tabel. Nadat u de tabel hebt gedefinieerd, definieert u het tabelschema. Voor de gegevensset **SalesMarketing** bevat het tabelschema de volgende kolommen: ProductID, Manufacturer, Category, Segment, Product en IsCompete.
 
 **Voorbeeld van JSON-object voor gegevensset**
 
-    {
-        "name": "SalesMarketing",
-        "tables": [
+```json
+{
+    "name": "SalesMarketing",
+    "tables": [
+        {
+            "name": "Product",
+            "columns": [
+            {
+                "name": "ProductID",
+                "dataType": "int"
+            },
+            {
+                "name": "Manufacturer",
+                "dataType": "string"
+            },
+            {
+                "name": "Category",
+                "dataType": "string"
+            },
+            {
+                "name": "Segment",
+                "dataType": "string"
+            },
             {
                 "name": "Product",
-                "columns": [
-                {
-                    "name": "ProductID",
-                    "dataType": "int"
-                },
-                {
-                    "name": "Manufacturer",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Category",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Segment",
-                    "dataType": "string"
-                },
-                {
-                    "name": "Product",
-                    "dataType": "string"
-                },
-                {
-                    "name": "IsCompete",
-                    "dataType": "bool"
-                }
-                ]
+                "dataType": "string"
+            },
+            {
+                "name": "IsCompete",
+                "dataType": "bool"
             }
-        ]
-    }
+            ]
+        }
+    ]
+}
+```
 
 Voor een Power BI-tabelschema kunt u de volgende gegevenstypen gebruiken.
 
