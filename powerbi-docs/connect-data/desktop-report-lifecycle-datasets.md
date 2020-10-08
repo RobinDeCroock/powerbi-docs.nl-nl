@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f56acb7859b04f77ca403725740cb7ce472ccb7d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223051"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598787"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 
@@ -32,7 +32,7 @@ Eén uitdaging waar de populariteit van Power BI toe leidt is de proliferatie va
 
 Stel dat Anna een bedrijfsanalist in uw team is. Anna is bekwaam bij het maken van goede gegevensmodellen, vaak gegevenssets genoemd. Dankzij haar expertise kan Anna een gegevensset en rapport maken, en dat rapport vervolgens delen in de Power BI-service.
 
-![Publiceren naar de Power BI-service](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
+![Schermafbeelding geeft de knop Publiceren weer voor de Power BI-service.](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
 Iedereen houdt van Anna’s rapport en gegevensset. Op dit punt zouden de problemen beginnen. Iedereen in Anna's team zou proberen *een eigen versie* van die gegevensset te maken en zijn of haar eigen rapporten met het team te delen. Opeens zou er een groot aantal rapporten van verschillende gegevenssets in de werkruimte van uw team in de Power BI-service zijn. Welk ervan was het meest recent? Waren de gegevenssets hetzelfde, of alleen bijna hetzelfde? Wat waren de verschillen? Met de functie Live-verbinding met Power BI-service kan dat allemaal ten goede veranderen. In de volgende sectie ziet u hoe anderen de gepubliceerde gegevensset van Anna voor hun eigen rapporten in hun eigen werkruimten kunnen gebruiken, en hoe iedereen dezelfde solide, goedgekeurde, gepubliceerde gegevensset kan gebruiken om eigen unieke rapporten samen te stellen.
 

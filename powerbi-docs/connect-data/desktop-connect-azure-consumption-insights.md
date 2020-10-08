@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858620"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632590"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Verbinding met Azure Consumption Insights-gegevens maken in Power BI Desktop
 
@@ -110,9 +110,7 @@ Of in **Query-editor**:
 1. Klik met de rechter muisknop in het linkerdeelvenster **Query's** 
 2. Selecteer **Nieuwe query > Lege query** in het menu dat wordt weer gegeven
 
-Type in de **formulebalk**:
-
-    = MicrosoftAzureConsumptionInsights.Contents
+Typ in de **formule balk**: *= MicrosoftAzureConsumptionInsights. Contents*.
 
 In de volgende afbeelding ziet u een verzameling voorbeelden weergegeven.
 
@@ -141,12 +139,14 @@ In de eerste stap maakt u gebruik van de **Azure Consumption Insights**-connecto
 ### <a name="step-2-create-a-query-in-advanced-editor"></a>Stap 2: een query maken met Geavanceerde editor
 In **Query-editor** selecteert u **Geavanceerde editor** in de sectie **Query** van het lint **Start**. In het venster **Geavanceerde editor** dat wordt weergegeven, voert u de volgende query in:
 
-    let    
-        enrollmentNumber = "100",
-        optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
-        data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
-    in     
-        data
+```console
+let    
+    enrollmentNumber = "100",
+    optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
+    data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
+in     
+    data
+```
 
 ![Schermopname van het dialoogvenster voor het maken van een query in Geavanceerde editor.](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 

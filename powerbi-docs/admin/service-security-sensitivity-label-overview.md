@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 00089c6ba2b2af5a6334fac07fd3991f5201cb44
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 04be21e368c74029e1e720a02b92d00448282138
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854202"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374371"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels in Power BI
 
@@ -38,7 +38,7 @@ Het [rapport met metrische gegevens over beveiliging](service-security-data-prot
 
 Vertrouwelijkheidslabels zijn **niet** van invloed op de toegang tot inhoud in Power BI: de toegang tot inhoud in Power BI wordt uitsluitend beheerd via Power BI-machtigingen. Hoewel de labels zichtbaar zijn, worden de bijbehorende versleutelingsinstellingen (geconfigureerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/)) niet toegepast. Ze worden alleen toegepast op gegevens die Power BI verlaten vanwege een export naar Excel-, PowerPoint- of PDF-bestanden, of een van de andere ondersteunde exportpaden.
 
-Vertrouwelijkheidslabels en bestandsversleuteling **worden niet** toegepast op niet-ondersteunde exportpaden. De Power BI-tenantbeheerder kan het exporteren van niet-ondersteunde exportpaden blokkeren:
+Vertrouwelijkheidslabels en bestandsversleuteling **worden niet** toegepast op niet-ondersteunde exportpaden. De Power BI-beheerder kan het exporteren van niet-ondersteunde exportpaden blokkeren:
 
 >[!NOTE]
 > Gebruikers aan wie toegangsrechten voor een rapport worden verleend, krijgen toegang tot de hele onderliggende gegevensset, tenzij de toegang wordt beperkt door [beveiliging op rijniveau (RLS)](./service-admin-rls.md). Ontwerpers van rapporten kunnen rapporten classificeren en labelen met behulp van vertrouwelijkheidslabels. Als het vertrouwelijkheidslabel beveiligingsinstellingen heeft, worden deze beveiligingsinstellingen door Power BI toegepast bij het exporteren van rapportgegevens naar Excel-, PowerPoint- of PDF-bestanden. Alleen geautoriseerde gebruikers kunnen beveiligde bestanden openen.
@@ -83,7 +83,7 @@ Een gebruiker die een bestand uit Power BI exporteert, beschikt over machtiginge
 
 Vertrouwelijkheidslabels en beveiliging worden niet toegepast wanneer gegevens worden geëxporteerd naar CSV- of PBIX-bestanden, of een ander exportpad.
 
-Bij het toepassen van een vertrouwelijkheidslabel en beveiliging op een geëxporteerd bestand wordt geen markering van inhoud toegevoegd aan het bestand. Als het label echter is geconfigureerd voor het toepassen van inhoudsmarkeringen, worden de markeringen automatisch toegepast door de Azure Information Protection Unified labeling-client wanneer het bestand wordt geopend in Office-bureaublad-apps. De inhoudsmarkeringen worden niet automatisch toegepast wanneer u ingebouwde labels gebruikt voor desktop-, mobiele of web-apps. Zie [Wanneer Office-apps inhoud markeren en versleutelen](/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption) voor meer details.
+Bij het toepassen van een vertrouwelijkheidslabel en beveiliging op een geëxporteerd bestand wordt geen markering van inhoud toegevoegd aan het bestand. Als het label echter is geconfigureerd voor het toepassen van inhoudsmarkeringen, worden de markeringen automatisch toegepast door de Azure Information Protection Unified labeling-client wanneer het bestand wordt geopend in Office-bureaublad-apps. De inhoudsmarkeringen worden niet automatisch toegepast wanneer u ingebouwde labels gebruikt voor desktop-, mobiele of web-apps. Zie [Wanneer Office-apps inhoud markeren en versleutelen](/microsoft-365/compliance/sensitivity-labels-office-apps#when-office-apps-apply-content-marking-and-encryption) voor meer details.
 
 Het exporteren mislukt als een label niet kan worden toegepast wanneer gegevens naar een bestand worden geëxporteerd. Als u wilt controleren of het exporteren is mislukt omdat het label niet kan worden toegepast, klikt u op de naam van het rapport of het dashboard in het midden van de titelbalk en kijkt u of de tekst Vertrouwelijkheidslabel kan niet worden geladen in de info-vervolgkeuzelijst wordt weergegeven. Dit kan gebeuren als gevolg van een tijdelijk systeemprobleem of als het toegepaste label niet is gepubliceerd of verwijderd door de beveiligingsbeheerder.
 
@@ -139,8 +139,8 @@ De volgende lijst biedt een aantal beperkingen van vertrouwelijkheidslabels in P
 * Vertrouwelijkheidslabels kunnen alleen worden toegepast op dashboards, rapporten, gegevenssets en gegevensstromen. Ze zijn momenteel niet beschikbaar voor [gepagineerde rapporten](../paginated-reports/report-builder-power-bi.md) en werkmappen.
 * Vertrouwelijkheidslabels op Power BI-assets zijn zichtbaar in de werkruimtelijst en de weergaven Herkomst, Favorieten, Recente items en Apps; labels zijn momenteel niet zichtbaar in de weergave Gedeeld met mij. Houd er echter rekening mee dat een label dat op een Power BI-asset is toegepast, zelfs als dit niet zichtbaar is, permanent worden toegevoegd aan de gegevens die naar Excel-, PowerPoint- en PDF-bestanden worden geëxporteerd.
 * Vertrouwelijkheidslabels voor gegevens worden niet ondersteund voor sjabloon-apps. Gevoeligheidslabels die door de maker van de sjabloon-app zijn ingesteld, worden verwijderd wanneer de app wordt uitgepakt en geïnstalleerd, en gevoeligheidslabels die door gebruikers van de app aan artefacten in een geïnstalleerde sjabloon-app zijn toegevoegd, gaan verloren (opnieuw ingesteld op niets) wanneer de app wordt bijgewerkt.
-* Power BI biedt geen ondersteuning voor vertrouwelijkheidslabels van de beveiligingstypen [Niet doorsturen](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions), [Door de gebruiker gedefinieerd](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions) en [HYOK](/azure/information-protection/configure-adrms-restrictions). De beveiligingstypen Niet doorsturen en Door de gebruiker gedefinieerd verwijzen naar labels die zijn gedefinieerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/).
-* Het wordt niet aanbevolen om gebruikers toe te staan bovenliggende labels toe te passen in Power BI (een label wordt alleen als een bovenliggend label beschouwd als het sublabels heeft). Als een bovenliggend label wordt toegepast op inhoud, mislukt het exporteren van gegevens uit deze inhoud naar een bestand (Excel, PowerPoint en PDF). Zie [Sublabels (labels groeperen)](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels).
+* Power BI biedt geen ondersteuning voor vertrouwelijkheidslabels van de beveiligingstypen [Niet doorsturen](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions), [Door de gebruiker gedefinieerd](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions) en [HYOK](/azure/information-protection/configure-adrms-restrictions). De beveiligingstypen Niet doorsturen en Door de gebruiker gedefinieerd verwijzen naar labels die zijn gedefinieerd in het [Microsoft 365-beveiligingscentrum](https://security.microsoft.com/) of het [Microsoft 365-compliancecentrum](https://compliance.microsoft.com/).
+* Het wordt niet aanbevolen om gebruikers toe te staan bovenliggende labels toe te passen in Power BI (een label wordt alleen als een bovenliggend label beschouwd als het sublabels heeft). Als een bovenliggend label wordt toegepast op inhoud, mislukt het exporteren van gegevens uit deze inhoud naar een bestand (Excel, PowerPoint en PDF). Zie [Sublabels (labels groeperen)](/microsoft-365/compliance/sensitivity-labels#sublabels-grouping-labels).
 
 ## <a name="next-steps"></a>Volgende stappen
 

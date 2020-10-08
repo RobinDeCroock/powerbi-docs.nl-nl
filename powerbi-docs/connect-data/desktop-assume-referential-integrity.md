@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034354"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599889"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>De instelling Referentiële integriteit aannemen toepassen in Power BI Desktop
 Als u via **DirectQuery** verbinding maakt met een gegevensbron, kunt u de selectie **Referentiële integriteit aannemen** gebruiken om efficiëntere query's voor uw gegevensbron uit te voeren. Voor deze functie gelden enkele vereisten van de onderliggende gegevens en de functie is alleen beschikbaar wanneer u **DirectQuery** gebruikt.
@@ -39,7 +39,7 @@ In het volgende voorbeeld wordt het gedrag van **Referentiële integriteit aanne
    ![Schermopname van de tabellen Orders en Producten.](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. In de volgende afbeelding ziet u dat er geen referentiële integriteit bestaat tussen **Orders[DepotID]** en **Depots[DepotID]** , omdat **DepotID** *Null* is voor sommige *Orders*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
    
-   ![Schermopname van de tabellen Orders en Producten.](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Schermopname van de tabellen Orders en Depots.](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. Tot slot: er bestaat geen referentiële integriteit tussen **Orders[CustomerID]** en **Customers[CustID]** in de volgende tabellen; **CustomerID** bevat enkele waarden (in dit geval *CustX*) die niet voorkomen in de tabel *Klanten*. Daarom moet **Referentiële integriteit aannemen** *niet* worden ingesteld.
    
    ![Schermopname van de tabellen Orders en Klanten.](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)

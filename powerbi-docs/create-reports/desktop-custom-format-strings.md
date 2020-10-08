@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859906"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600565"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Tekenreeksen met aangepaste indeling gebruiken in Power BI Desktop
 
 Met tekenreeksen met een aangepaste indeling in **Power BI Desktop** kunt u aanpassen hoe velden worden weergegeven in visuals en ervoor zorgen dat uw rapporten er precies zo uitzien als u wilt.
 
-![Tekenreeksen met een aangepaste indeling gebruiken](media/desktop-custom-format-strings/custom-format-strings-01.png)
+![Schermafbeelding toont Power BI Desktop met een aangepaste indeling geselecteerd. ](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
 ## <a name="how-to-use-custom-format-strings"></a>Het gebruik van tekenreeksen met een aangepaste indeling
@@ -31,7 +31,7 @@ Als u tekenreeksen met een aangepaste indeling wilt maken, selecteert u het veld
 
 Zodra u **Aangepast** hebt geselecteerd in de vervolgkeuzelijst **Indeling**, kunt u een keuze maken uit de lijst met veelgebruikte indelingen voor tekenreeksen. 
 
-![Tekenreeksen met een aangepaste indeling gebruiken](media/desktop-custom-format-strings/custom-format-strings-03.png)
+![Schermopname geeft details weer van de aangepaste indeling.](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
 
 ## <a name="supported-custom-format-syntax"></a>Ondersteunde syntaxis voor aangepaste indelingen

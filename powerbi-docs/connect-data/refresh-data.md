@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c5be2a9fa87b55d0a1b98e284ec4b6b7e1dd9c0c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219730"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633372"
 ---
 # <a name="data-refresh-in-power-bi"></a>Gegevens vernieuwen in Power BI
 
@@ -284,7 +284,8 @@ In de meeste gevallen kunnen Power BI-gegevenssets met dynamische gegevensbronne
  
 Als u wilt bepalen of uw dynamische gegevensbron kan worden vernieuwd, opent u het dialoogvenster **Instellingen voor gegevensbron** in **Power Query-editor** en selecteert u vervolgens **Gegevensbronnen in het huidige bestand**. Zoek in het venster dat wordt weergegeven naar het volgende waarschuwingsbericht, zoals wordt weergegeven in de volgende afbeelding:
  
-    Some data sources may not be listed because of hand-authored queries.
+> [!NOTE]
+> Sommige gegevensbronnen kunnen niet in een lijst worden opgenomen vanwege handmatig opgestelde query's.
 
 ![Indicator van dynamische gegevensbron](media/refresh-data/dynamic-data-source.png)
 

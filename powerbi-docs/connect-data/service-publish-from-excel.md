@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 108c7cea815475c98a7529a53b9a177ff5fbf405
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234362"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600149"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>Vanuit Microsoft Excel publiceren naar Power BI
 U kunt uw Excel-werkmappen met Microsoft Excel 2016 of hoger direct naar uw [Power BI](https://powerbi.microsoft.com)-werkruimte publiceren, waar u interactieve rapporten en dashboards op basis van uw werkmapgegevens kunt maken. Vervolgens kunt u uw inzichten delen met anderen in uw organisatie.
@@ -44,11 +44,11 @@ Excel biedt ondersteuning voor het publiceren van lokale Excel-bestanden. Ze hoe
 
 Wanneer u **Publiceren** selecteert, kunt u de werkruimte selecteren waarnaar u wilt publiceren. Als uw Excel-bestand zich in OneDrive voor bedrijven bevindt, kunt u alleen publiceren naar *Mijn werkruimte*. Als uw Excel-bestand zich op een lokaal station bevindt, kunt u publiceren naar *Mijn werkruimte* of een gedeelde werkruimte waartoe u toegang hebt.
 
-![Publiceren naar Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
+![Schermafbeelding die Publiceren naar Power BI weergeeft met Mijn werkruimte geselecteerd.](media/service-publish-from-excel/pbi_choose_workspace.png)
 
 Twee opties voor het overbrengen van uw werkmap naar Power BI.
 
-![Publiceren naar Power BI](media/service-publish-from-excel/pbi_uploadexport3.png)
+![Schermafbeelding die Publiceren weergeeft met Mijn werkruimte geselecteerd.](media/service-publish-from-excel/pbi_uploadexport3.png)
 
 Na publicatie wordt de inhoud van de werkmap geïmporteerd in Power BI, los van het lokale bestand. Als u het bestand in Power BI wilt bijwerken, moet u de bijgewerkte versie opnieuw publiceren. U kunt de gegevens ook vernieuwen door een geplande vernieuwing te configureren voor de werkmap of de gegevensset in Power BI.
 

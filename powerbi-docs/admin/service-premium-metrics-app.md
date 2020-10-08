@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855076"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633141"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics-app
 
@@ -61,7 +61,7 @@ Voor meer informatie over de KPI van het actieve geheugen, klikt u op de knop **
 
 Er worden twee scenario's uitgelegd, die u op de rapportpagina kunt weergeven door **Scenario 1** of **Scenario 2** op de pagina te selecteren. 
 
-![De detailpagina van het actieve geheugen](media/service-premium-metrics-app/premium-metrics-app-03.png)
+![Schermafbeelding van de detailpagina van het actieve geheugen.](media/service-premium-metrics-app/premium-metrics-app-03.png)
 
 De probleemoplossingshandleidingen die bij de scenario's behoren, bieden gedetailleerde uitleg over wat de metrische gegevens betekenen, zodat u beter inzicht krijgt in de status van de capaciteit en wat u kunt doen om problemen te verhelpen. 
 
@@ -116,7 +116,7 @@ U kunt de volgende stappen uitvoeren om problemen met scenario 1 op te lossen:
 
 Als u wilt bepalen of de capaciteit voldoende geheugen beschikbaar heeft om de toebedeelde werkbelastingen te voltooien, kunt u visueel element **A: Percentages gebruikt geheugen** boven aan de pagina raadplegen. Hiermee wordt het geheugen aangegeven dat door gegevenssets wordt gebruikt die actief worden verwerkt en dus niet kunnen worden verwijderd. De zwarte stippellijn geeft de trends aan. In een capaciteit met een hoge geheugenbelasting wordt in hetzelfde visuele element de trendlijn voor het geheugen (zwarte stippellijn) in opwaartse richting getoond. Dit betekent dat mogelijk extra gegevenssets op dat moment niet in het geheugen kunnen worden geladen. De trendlijn, de zwarte stippellijn, toont de trend van de toename op basis van de zeven dagen aan gegevens. 
 
-![De detailpagina van het actieve geheugen](media/service-premium-metrics-app/premium-metrics-app-07.png)
+![Schermafbeelding van de detailpagina van het actieve geheugen voor scenario twee.](media/service-premium-metrics-app/premium-metrics-app-07.png)
 
 #### <a name="diagnosing-scenario-two"></a>Diagnose van scenario 2
 
@@ -267,7 +267,7 @@ Als er onvoldoende geheugen beschikbaar is voor het laden van een gegevensset vo
 
 Voor het diagnosticeren van scenario 1, moet u eerst bepalen of beperking wordt veroorzaakt door onvoldoende geheugen. Hiertoe voert u de volgende stappen uit:
 
-1.    Selecteer de bewuste gegevensset in **tabel A** door erop te klikken: 
+1. Selecteer de bewuste gegevensset in **tabel A** door erop te klikken: 
 
     ![Tabel A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -310,7 +310,7 @@ Power BI beperkt het aantal vernieuwingen dat gelijktijdig kan optreden voor toe
 
 Als u scenario twee wilt diagnosticeren, moet u eerst bepalen of de beperking het gevolg is van het uitvoeren van maximale gelijktijdigheid voor vernieuwingen. Hiertoe voert u de volgende stappen uit:
 
-1.    Selecteer de bewuste gegevensset in **tabel A** door erop te klikken: 
+1. Selecteer de bewuste gegevensset in **tabel A** door erop te klikken: 
 
     ![Tabel A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 

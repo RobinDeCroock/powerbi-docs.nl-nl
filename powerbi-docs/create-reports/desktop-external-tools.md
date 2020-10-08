@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47b5df4c07f21282b14bae8bdfd63e5c271d53a6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855283"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635143"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Externe hulpprogramma's in Power BI Desktop gebruiken (preview)
 
@@ -132,9 +132,9 @@ Bestanden op die opgegeven locatie met de extensie **.pbitool. json** worden doo
 
 Externe hulpprogramma's kunnen worden uitgeschakeld met **groepsbeleidsregels** of door het register te bewerken. Dit is vergelijkbaar met het proces voor het uitschakelen van **Aangepaste visuals**.
 
-    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
+* Registersleutel: *Software\Policies\Microsoft\Power BI Desktop\\*
 
-    Registry value: *EnableExternalTools*
+* Registerwaarde: *EnableExternalTools*
 
 Met de waarde 1 (decimaal) schakelt u het gebruik van externe hulpprogramma's in Power BI in. Dit is de standaardwaarde.
 

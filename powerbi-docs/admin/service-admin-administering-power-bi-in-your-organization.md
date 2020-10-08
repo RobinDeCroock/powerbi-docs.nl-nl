@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
-ms.date: 05/29/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bd003bd8662a60a67b2bc13f228d165859b38e5c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857583"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374655"
 ---
 # <a name="what-is-power-bi-administration"></a>Wat is Power BI-beheer?
 
@@ -25,7 +25,7 @@ Power BI-beheer is het beheer van de instellingen voor de hele organisatie die b
 
 ## <a name="administrator-roles-related-to-power-bi"></a>Beheerdersrollen die betrekking hebben op Power BI
 
-Er zijn verschillende rollen die samenwerken om Power BI voor uw organisatie te beheren. De meeste beheerdersrollen worden toegewezen in het Microsoft 365-beheercentrum of met PowerShell. De beheerdersrollen Power BI Premium-capaciteit en Power BI-ingesloten capaciteit worden toegewezen wanneer de capaciteit wordt gemaakt. Zie [Over beheerdersrollen](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide) voor meer informatie over elk van de beheerdersrollen. Zie [Beheerdersrollen toewijzen](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) voor meer informatie over het toewijzen van beheerdersrollen.
+Er zijn verschillende rollen die samenwerken om Power BI voor uw organisatie te beheren. De meeste beheerdersrollen worden toegewezen in het Microsoft 365-beheercentrum of met PowerShell. De beheerdersrollen Power BI Premium-capaciteit en Power BI-ingesloten capaciteit worden toegewezen wanneer de capaciteit wordt gemaakt. Zie [Over beheerdersrollen](/microsoft-365/admin/add-users/about-admin-roles) voor meer informatie over elk van de beheerdersrollen. Zie [Beheerdersrollen toewijzen](/microsoft-365/admin/add-users/assign-admin-roles) voor meer informatie over het toewijzen van beheerdersrollen.
 
 | **Type beheerder** | **Beheerscope** | **Power BI-taken** |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ Power BI-beheerders werken meestal in de Power BI-beheerportal. U moet echter be
 | | Gegevensclassificatie en -tracering |
 | | DLP-beleid (preventie van gegevensverlies) |
 | | Informatiegovernance |
-| [Azure Active Directory (AAD) in Azure Portal](https://aad.portal.azure.com) | Voorwaardelijke toegang tot Power BI-resources configureren |
+| [Azure Active Directory in Azure Portal](https://aad.portal.azure.com) | Voorwaardelijke toegang tot Power BI-resources configureren |
 | | Power BI Embedded-capaciteit inrichten |
 | [PowerShell-cmdlets](/powershell/power-bi/overview) | Werkruimten en andere aspecten van Power BI beheren via scripts |
 | [API's en SDK voor beheer](service-admin-reference.md) | Aangepaste beheerhulpprogramma's bouwen. In Power BI Desktop kunnen deze API's bijvoorbeeld worden gebruikt om rapporten te maken op basis van gegevens met betrekking tot beheer. |
@@ -78,7 +78,7 @@ Power BI-beheerders werken meestal in de Power BI-beheerportal. U moet echter be
 Nu u de basisprincipes van Power BI-beheer kent, kunt u deze artikelen raadplegen om meer te weten te komen:
 
 - [De Power BI-beheerportal gebruiken](service-admin-portal.md)
-- [Richtlijnen voor tenantbeheerdersinstellingen](../guidance/admin-tenant-settings.md)
+- [Richtlijnen voor tenantinstellingen](../guidance/admin-tenant-settings.md)
 - [PowerShell-cmdlets gebruiken](/powershell/power-bi/overview)
 - [Veelgestelde vragen over Power BI-beheer](service-admin-faq.md)
 - [Power BI-licenties voor gebruikers in uw organisatie](service-admin-licensing-organization.md)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224068"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632440"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>Webpaginagegevens ophalen door voorbeelden te geven
 
@@ -36,7 +36,9 @@ Voer onder **Van web** de URL in van de webpagina waarvan u gegevens wilt extrah
 
 Als u het voorbeeld in het artikel wilt volgen, kunt u de [URL van de Microsoft Store](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) gebruiken die we in dit artikel gebruiken:
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![Dialoogvenster Web](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ Wanneer u **OK** selecteert, wordt het dialoogvenster **Navigator** geopend, waa
 
 In dit voorbeeld extraheren we de *naam* en de *prijs* voor alle games op de pagina. We kunnen dit doen door voor elke kolom een aantal voorbeelden van de pagina op te geven. Terwijl u voorbeelden invoert, extraheert *Power Query* met behulp van slimme algoritmen voor gegevensextractie gegevens die passen bij het patroon van de voorbeeldregels.
 
-![Gegevens met voorbeeld](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![Schermafbeelding geeft gegevens van internet weer.](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > Waardesuggesties bevatten alleen waarden die maximaal 128 tekens lang zijn.
 
 Als u tevreden bent met de gegevens die van de webpagina zijn geëxtraheerd, selecteert u **OK** om naar Power Query-editor te gaan. U kunt meer transformaties toepassen of de gegevens vormgeven, zoals het combineren van deze gegevens met andere gegevensbronnen.
 
-![Gegevens met voorbeeld](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![Schermafbeelding geeft gegevens in de Power Query-editor weer die zijn geëxtraheerd van internet.](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 Hier kunt u visuals maken of de webpaginagegevens op een andere manier gebruiken tijdens het maken van uw Power BI Desktop-rapporten.
 

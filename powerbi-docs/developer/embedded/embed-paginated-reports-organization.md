@@ -1,6 +1,6 @@
 ---
 title: Gepagineerde Power BI-rapporten insluiten in uw app voor uw organisatie
-description: Informatie over het integreren of insluiten van een gepagineerd Power BI-rapport in een app met behulp van de Power BI-API's.
+description: In deze zelfstudie krijgt u informatie over het integreren of insluiten van een gepagineerd Power BI-rapport in een app met behulp van de Power BI-API's.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878743"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747615"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw organisatie
 
 In **Power BI** kunt u gepagineerde rapporten insluiten in een toepassing voor uw organisatie met behulp van het scenario *gebruiker is eigenaar van gegevens*.
 
 Gepagineerde rapporten zijn rapporten die zijn ontworpen voor afdrukken van hoge kwaliteit. Normaal gesproken bevatten deze rapporten een groot aantal gegevens, die op een manier worden weergegeven die past op afgedrukte pagina's.
-Zie [Wat zijn gepagineerde rapporten in Power BI Premium?](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi) voor meer informatie over hoe Power BI gepagineerde rapporten ondersteunt.
+Zie [Wat zijn gepagineerde rapporten in Power BI Premium?](../../paginated-reports/paginated-reports-report-builder-power-bi.md) voor meer informatie over hoe Power BI gepagineerde rapporten ondersteunt.
 
 Uw toepassing kan met **gegevens waarvan de gebruiker eigenaar is** de Power BI-service uitbreiden voor gebruik met ingesloten analyse. In deze zelfstudie leert u hoe u een gepagineerd rapport in een toepassing integreert.
 

@@ -1,6 +1,6 @@
 ---
 title: Subrapporten in gepagineerde Power BI-rapporten
-description: In dit artikel vindt u informatie over ondersteunde gegevensbronnen voor gepagineerde rapporten in de Power BI-service en hoe u verbinding maakt met Azure SQL Database-gegevensbronnen.
+description: In dit artikel leert u meer over ondersteunde gegevensbronnen voor gepagineerde rapporten in de Power BI-service.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: fbe60bab0d1c8d95cec1a3fda1d4b23fe919ea31
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861378"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746580"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Subrapporten in gepagineerde Power BI-rapporten
 
@@ -33,7 +33,7 @@ In Power BI Report Builder kunt u werken met gepagineerde rapporten op uw comput
 
 Nadat u zich hebt aangemeld, ziet u de optie **Power BI-service** in Power BI Report Builder voor de opties **Openen** en **Opslaan als** in het menu **Bestand**. Wanneer u de optie **Power BI-service** selecteert om een rapport op te slaan, maakt u een live verbinding tussen Power BI Report Builder en de Power BI-service. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Openen via de Power BI-service":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Aanmelden bij Power BI":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Een gepagineerd rapport opslaan in de Power BI-service
 
@@ -48,7 +48,7 @@ Voordat u een subrapport aan een hoofdrapport kunt toevoegen, maakt u eerst de t
 
 3. Selecteer in het dialoogvenster **Opslaan als** een Power BI Premium-werkruimte waar u uw gepagineerde rapporten kunt opslaan.  Premium-werkruimten hebben een diamantpictogram ![Premium-diamantpictogram](media/subreports/report-builder-premium-diamond.png) naast de naam van de werkruimte.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Opslaan als in de Power BI-service":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Aanmelden bij Power BI":::
 
 4. Selecteer **Opslaan**.
 
@@ -58,7 +58,7 @@ Nu u beide rapporten hebt opgeslagen in dezelfde Premium-werkruimte, kunt u het 
 
 1. Selecteer in het lint **Invoegen** de knop **Subrapport** of klik met de rechtermuisknop op het canvas van het rapport en selecteer **Invoegen** > **Subrapport**.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Een subrapport invoegen in een rapport":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Aanmelden bij Power BI":::
 
     Het dialoogvenster **Eigenschappen van subrapport** wordt geopend.  
 
