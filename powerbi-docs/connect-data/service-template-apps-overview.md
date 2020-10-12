@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c647f376502e2575b9eef46e9e2a72d5d76e8053
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860573"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635166"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Wat zijn Power BI-sjabloon-apps?
 
@@ -29,10 +29,20 @@ U dient een sjabloon-app in bij het Partnercentrum. De apps worden vervolgens op
 
 Met Power BI-sjabloon-apps kunnen gebruikers van Power BI Pro of Power BI Premium direct inzichten krijgen, via vooraf verpakte dashboards en rapporten die kunnen worden verbonden met livegegevensbronnen. Veel Power BI-apps zijn al beschikbaar in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services).
 
-|  |
-|     :---:      |
-| [![Web-app Microsoft Project](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Web-app Microsoft 365 Usage Analytics](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![Web-app Dynamic 365 Business Central - Sales](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Web-app Microsoft Forms Pro Customer Satisfaction](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
-|  |
+:::row:::
+    :::column:::
+        [![Microsoft Project-web-app](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp)
+    :::column-end:::
+    :::column:::
+        [![Microsoft 365 Usage Analytics-web-app](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
+    :::column-end:::
+    :::column:::
+        [![Dynamic 365 Business Central - Sales-web-app](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales)
+    :::column-end:::
+    :::column:::
+        [![Microsoft Forms Pro Customer Satisfaction-web-app](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction)
+    :::column-end:::
+:::row-end:::
 
 ## <a name="process"></a>Proces
 Het algemene proces om een sjabloon-app te ontwikkelen en in te dienen omvat meerdere fasen. In sommige fasen is het mogelijk dat er meerdere activiteiten tegelijkertijd moeten worden uitgevoerd.

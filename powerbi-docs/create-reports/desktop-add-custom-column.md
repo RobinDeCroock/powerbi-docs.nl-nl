@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2074094f910efa36d449d8f54ada097d253bb2dd
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855398"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598915"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Aangepaste kolommen toevoegen in Power BI Desktop
 
@@ -22,7 +22,7 @@ In Power BI Desktop kunt u eenvoudig een nieuwe aangepaste kolom met gegevens aa
 
 Wanneer u een aangepaste kolom maakt in Queryeditor, wordt deze door Power BI Desktop toegevoegd als een **toegepaste stap** in de **queryinstellingen** van de query. Deze kan op elk gewenst moment worden gewijzigd, verplaatst of aangepast.
 
-![De pagina Aangepaste kolom toevoegen](media/desktop-add-custom-column/add-custom-column_01.png)
+![Schermopname van het dialoogvenster Aangepaste kolom toevoegen.](media/desktop-add-custom-column/add-custom-column_01.png)
 
 ## <a name="use-query-editor-to-add-a-custom-column"></a>Queryeditor gebruiken om een aangepaste kolom toe te voegen
 
@@ -51,7 +51,7 @@ Het venster **Aangepaste kolom toevoegen** bevat de volgende items:
 
 - [PowerQuery M-formulequery's](/powerquery-m/power-query-m-function-reference) in het vak **Formule voor aangepaste kolom**. U maakt deze query's door de formule samen te stellen waarmee uw nieuwe aangepaste kolom is gedefinieerd. 
 
-   ![De pagina Aangepaste kolom toevoegen](media/desktop-add-custom-column/add-custom-column_03.png)
+   ![Schermopname van het dialoogvenster Aangepaste kolom toevoegen met beschikbare kolommen waaruit u kunt kiezen.](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>Formules maken voor de aangepaste kolom
 

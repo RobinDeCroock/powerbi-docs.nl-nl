@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/03/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857951"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600259"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -237,7 +237,7 @@ In de beheerportal bepaalt u ook welke gebruikers machtigingen krijgen om apps n
 
 Beheerders kunnen bepalen welke gebruikers in de organisatie gegevenssets kunnen gebruiken in verschillende werkruimten. Als deze instelling is ingeschakeld, hebben gebruikers nog steeds de vereiste machtiging voor het maken van een specifieke gegevensset nodig.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Gegevenssets in werkruimten gebruiken":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Werkruimten maken (nieuwe werkruimte-ervaring)":::
 
 Zie [Inleiding tot gegevenssets in werkruimten](../connect-data/service-datasets-across-workspaces.md) voor meer informatie.
 
@@ -270,7 +270,7 @@ Als een gebruiker externe gebruikers wil uitnodigen tot een organisatie, moet de
 
 ### <a name="publish-to-web"></a>Publiceren op internet
 
-Als beheerder van een Power BI-tenant krijgt u met de instelling **Publiceren op internet** opties waarvoor gebruikers invoegcodes kunnen maken voor het publiceren van rapporten op internet. Met deze functionaliteit wordt het rapport en de gegevens die het bevat, beschikbaar voor iedereen op internet. Meer informatie over [publiceren op internet](../collaborate-share/service-publish-to-web.md).
+Als Power BI-beheerder krijgt u met de instelling **Publiceren op internet** opties waarmee gebruikers invoegcodes kunnen maken voor het publiceren van rapporten op internet. Met deze functionaliteit wordt het rapport en de gegevens die het bevat, beschikbaar voor iedereen op internet. Meer informatie over [publiceren op internet](../collaborate-share/service-publish-to-web.md).
 
 > [!NOTE]
 > Alleen Power BI-beheerders kunnen iemand machtigen verlenen voor het maken van nieuwe invoegcodes voor publiceren op internet. Organisaties kunnen bestaande invoegcodes hebben. Zie de sectie [Invoegcodes](service-admin-portal.md#embed-codes) van de beheerportal om momenteel gepubliceerde rapporten te bekijken.
@@ -319,7 +319,7 @@ Gebruikers in de organisatie kunnen de gegevens van een visualisatie exporteren 
 ![Instelling voor exporteren naar Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
 >[!IMPORTANT]
-> Vóór de introductie van de instelling voor exporteren naar Excel werd het exporteren naar een Excel-bestand geregeld via de instelling Gegevens exporteren. De eerste keer dat tenantbeheerders de instelling Exporteren naar Excel bekijken (bij tenants die vóór de introductie van de instelling Exporteren naar Excel al bestonden), zien ze dat er *niet-toegepaste wijzigingen* zijn. Ze moeten deze wijzigingen toepassen om de nieuwe instelling van kracht te laten worden. Als dit niet gebeurt, wordt het exporteren naar Excel-bestanden blijvend geregeld door de instelling Gegevens exporteren.
+> Vóór de introductie van de instelling voor exporteren naar Excel werd het exporteren naar een Excel-bestand geregeld via de instelling Gegevens exporteren. De eerste keer dat Power BI-beheerders de instelling Exporteren naar Excel bekijken (bij tenants die vóór de introductie van de instelling Exporteren naar Excel al bestonden), zien ze dat er *niet-toegepaste wijzigingen* zijn. Ze moeten deze wijzigingen toepassen om de nieuwe instelling van kracht te laten worden. Als dit niet gebeurt, wordt het exporteren naar Excel-bestanden blijvend geregeld door de instelling Gegevens exporteren.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Rapporten als PowerPoint-presentaties of PDF-documenten exporteren
 
@@ -393,7 +393,7 @@ Gebruikers in de organisatie kunnen Excel gebruiken voor het weergeven van on-pr
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI gebruiken
 
-Gebruikers in de organisatie kunnen de visualisatie ArcGIS Maps for Power BI, die is geleverd door Esri, gebruiken. [Meer informatie](../visuals/power-bi-visualization-arcgis.md)
+Gebruikers in de organisatie kunnen de visualisatie ArcGIS Maps for Power BI, die is geleverd door Esri, gebruiken. [Meer informatie](../visuals/power-bi-visualizations-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Algemene zoekopdrachten voor Power BI gebruiken (preview-versie)
 
@@ -401,9 +401,9 @@ Gebruikers in de organisatie kunnen externe-zoekopdrachtfuncties gebruiken waarb
 
 ## <a name="featured-tables-settings"></a>Instellingen voor de aanbevolen tabellen
 
-Onder **Tenant-instellingen** kunt u met behulp van de instelling **Verbindingen met aanbevolen tabellen toestaan** de Power BI-beheerder laten controleren wie in de organisatie uitgelichte tabellen kan gebruiken in de galerie Gegevenstypen van Excel. 
+Onder **Tenant-instellingen** kunnen Power BI-beheerders met behulp van de instelling **Verbindingen met aanbevolen tabellen toestaan** beheren wie in de organisatie aanbevolen tabellen kan gebruiken in de galerie Gegevenstypen van Excel. 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Alle verbindingen met uitgelichte tabellen":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Werkruimten maken (nieuwe werkruimte-ervaring)":::
 
 Verbindingen met aanbevolen tabellen worden ook uitgeschakeld als de instelling **Gegevens exporteren** is ingesteld op **Uitgeschakeld**.
 
@@ -586,7 +586,7 @@ Nadat u gegevensbeveiliging voor Power BI hebt ingeschakeld, zijn metrische gege
 
 ## <a name="manage-featured-content"></a>Aanbevolen inhoud beheren
 
-Als tenantbeheerder kunt u alle rapporten, dashboards en apps beheren die nu worden weergegeven in de sectie Aanbevolen op de Power BI-startpagina in uw organisatie.
+Als Power BI-beheerder kunt u alle rapporten, dashboards en apps beheren die nu worden weergegeven in de sectie Aanbevolen op de Power BI-startpagina in uw organisatie.
 
 - Selecteer **Aanbevolen inhoud** in de Beheerportal.
 

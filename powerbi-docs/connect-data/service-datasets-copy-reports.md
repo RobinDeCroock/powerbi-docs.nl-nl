@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236800"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633203"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Rapporten kopiëren uit andere werkruimten
 
@@ -82,7 +82,7 @@ Wanneer u een rapport in één werkruimte hebt dat is gebaseerd op een gegevenss
 
 1. Selecteer in de lijstweergave Rapporten **Gerelateerde items weergeven**.
 
-    ![pictogram Gerelateerde items weergeven](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
+    ![Schermopname van het pictogram Gerelateerde items weergeven onder Acties.](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
 1. Het dialoogvenster **Gerelateerde inhoud** geeft alle verwante items weer. In deze lijst ziet de gegevensset er net zo uit als de andere. U weet niet of deze zich in een andere werkruimte bevindt. Dit is een bekend probleem.
  
@@ -98,7 +98,7 @@ Het kan gebeuren dat u een rapport en de bijbehorende gedeelde gegevensset niet 
 
 2. In de lijst met gegevenssets ziet u dat er bij de gedeelde gegevenssets geen pictogram **Verwijderen** staat. Vernieuw de pagina of ga naar een andere pagina en keer hier weer terug. De gegevensset is nu verdwenen. Als dat niet zo is, selecteert u **Gerelateerde items weergeven**. Het is mogelijk dat de gegevensset is gerelateerd aan een andere tabel in uw werkruimte.
 
-    ![pictogram Gerelateerde items weergeven](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![Schermopname van een gegevensset met de optie Gerelateerde items weergeven om te controleren op gerelateerde tabellen.](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > Het verwijderen van de gedeelde gegevensset in deze werkruimte, betekent niet dat de gegevensset wordt verwijderd. Alleen de verwijzing naar de gegevensset wordt verwijderd.

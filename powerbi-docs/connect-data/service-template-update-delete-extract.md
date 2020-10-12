@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860527"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634936"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Een sjabloon-app bijwerken, verwijderen en ophalen
 
@@ -23,11 +23,11 @@ Nu uw app in productie is, kunt u opnieuw beginnen in de testfase, zonder de app
 Als u wijzigingen in Power BI Desktop hebt aangebracht, begint u bij stap (1). Als u geen wijzigingen in Power BI Desktop hebt aangebracht, begint u bij stap (4).
 
 1. Upload de bijgewerkte gegevensset en overschrijf de bestaande gegevensset. **Zorg ervoor dat u exact dezelfde naam gebruikt voor de gegevensset**. Als u een andere naam gebruikt, wordt er een nieuwe gegevensset gemaakt voor gebruikers die de app bijwerken.
-![gegevensset overschrijven](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+![Schermopname van Een sjabloon-app bijwerken in Power BI met Gegevensset geselecteerd.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
 1. Importeer het PBIX-bestand van uw computer.
-![gegevensset overschrijven](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+![Schermopname van de pagina Gegevens ophalen met Ophalen uitgelicht onder Bestanden.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
 1. Bevestig de overschrijving.
-![gegevensset overschrijven](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
+![Schermopname van het bevestigingsbericht 'Er bestaat al een gegevensset met dezelfde naam' en de optie om deze te vervangen.](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. Selecteer **App maken** in het deelvenster **Publicatiebeheer**.
 1. Ga terug via het proces voor het maken van een app.
@@ -64,7 +64,8 @@ Terugschakelen naar de vorige versie van een sjabloon-app is nu gemakkelijker da
 
 1. Druk in het deelvenster Publicatiebeheer op **(...)** en vervolgens op **Extraheren**.
 
-    ![versie van sjabloon-app extraheren](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![versie van sjabloon-app extraheren](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
+    ![Schermopname van het deelvenster Publicatiebeheer met Uitpakken geselecteerd in een menu.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png)
+    ![Schermopname van het bevestigingsbericht 'Deze app uitpakken'.](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. Voer in het dialoogvenster de naam voor de geëxtraheerde werkruimte in. er wordt een nieuwe werkruimte toegevoegd.
 
 Versiebeheer voor uw nieuwe werkruimte wordt opnieuw ingesteld en u kunt doorgaan met het ontwikkelen en distribueren van de sjabloon-app vanuit de onlangs geëxtraheerde werkruimte.
@@ -74,8 +75,8 @@ Een werkruimte voor de sjabloon is de bron van een actief gedistribueerde sjablo
 Als u een app-versie verwijdert, wordt de app-URL ook verwijderd en werkt deze niet meer.
 
 1. Selecteer in het deelvenster Publicatiebeheer het beletselteken **(...)** en vervolgens **Verwijderen**.
- ![Versie van sjabloon-app verwijderen](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
- ![Versie van sjabloon-app verwijderen](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+ ![Schermopname van het deelvenster Publicatiebeheer met Verwijderen geselecteerd in een menu.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
+ ![Schermopname van het bevestigingsbericht 'Deze app verwijderen'.](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >Zorg ervoor dat u niet de app-versie verwijdert die wordt gebruikt door klanten of **AppSource**, anders werkt deze niet meer.

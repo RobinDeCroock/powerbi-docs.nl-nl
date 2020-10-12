@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364095"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634729"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 
@@ -53,11 +53,11 @@ Ga als volgt te werk om beschikbare ingebouwde rapportthema’s te selecteren:
 
 1. Selecteer de vervolgkeuzeknop **Thema** **Thema wisselen** op het lint **Weergave**.
 
-   ![Een rapportthema selecteren](media/desktop-report-themes/report-themes-02.png)
+   ![Schermopname van het lint Weergave geselecteerd, dat een aantal thema's biedt.](media/desktop-report-themes/report-themes-02.png)
 
 2. Selecteer een van de opgenomen thema's in de vervolgkeuzelijst.
 
-   ![Een rapportthema selecteren](media/desktop-report-themes/report-themes-03.png)
+   ![Schermopname van uitgevouwen Power BI-thema's zodat u een selectie kunt maken.](media/desktop-report-themes/report-themes-03.png)
 
    Het rapportthema wordt nu toegepast op het rapport.
 
@@ -600,7 +600,9 @@ Booleaanse waarden zijn true of false. Tekenreeksen moeten tussen dubbele aanhal
 
 Voor kleuren wordt de volgende indeling gebruikt, waarbij in het volgende voorbeeld uw aangepaste hexadecimale code de tijdelijke aanduiding FFFFFF vervangt:
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 Een opsomming, die meestal wordt gebruikt voor opmaakopties voor vervolgkeuzemenu's, betekent dat het kan worden ingesteld op elke van de opties die u in het deelvenster ziet, bijvoorbeeld 'RightCenter' voor een legendapositie of 'Data value, percent of total' voor een taartgrafiek. De opsommingsopties worden weergegeven onder de eigenschappenlijst.
 

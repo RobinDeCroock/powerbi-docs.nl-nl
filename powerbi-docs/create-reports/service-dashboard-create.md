@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219569"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633418"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Een Power BI-dashboard maken op basis van een rapport
 U hebt [Inleiding tot dashboards in Power BI](service-dashboards.md) gelezen en u wilt nu uw eigen dashboard maken. Er zijn veel verschillende manieren om een dashboard te maken. U kunt bijvoorbeeld een dashboard maken op basis van een rapport, helemaal vanaf het begin, op basis van een gegevensset of door een bestaand dashboard te dupliceren.  
@@ -27,7 +27,7 @@ Nadat u dit artikel hebt voltooid, hebt u kennis van:
 - Tegels vastmaken 
 - Navigeren tussen een dashboard en een rapport 
  
-![Dashboard](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![Schermopname van een Power BI-dashboard met een aantal visualisaties.](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
 > Dashboards zijn een functie van de Power BI-service, niet van Power BI Desktop. Hoewel u geen dashboards maakt in de mobiele Power BI-apps, kunt u ze in deze apps wel [weergeven en delen](../consumer/mobile/mobile-apps-view-dashboard.md).
@@ -59,7 +59,7 @@ We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om het
     ![Venster OneDrive voor Bedrijven](media/service-dashboard-create/power-bi-import.png)
 8. Wanneer het bericht wordt weergegeven dat het importeren is voltooid, selecteert u de **x** om het bericht te sluiten.
 
-   ![Het bericht Geslaagd](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![Schermopname van het bericht Geslaagd met de X uitgelicht.](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
 > Wist u dat? U kunt het navigatievenster versmallen door het pictogram met de drie regels te selecteren boven aan het ![pictogram Navigatievenster weergeven of verbergen](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Hierdoor krijgt u meer ruimte voor het rapport zelf.
@@ -77,17 +77,17 @@ We gaan een van de Power BI-voorbeeldgegevenssets importeren en gebruiken om het
     ![De muisaanwijzer over een tegel bewegen](media/service-dashboard-create/power-bi-hover.png)
 4. Omdat we een nieuw dashboard maken, selecteert u de optie **Nieuw dashboard** en geeft u het een naam.
 
-    ![Dialoogvenster Aan dashboard vastmaken](media/service-dashboard-create/power-bi-pin-tile.png)
+    ![Schermopname van het venster Vastmaken aan dashboard.](media/service-dashboard-create/power-bi-pin-tile.png)
 5. Wanneer u **Vastmaken** selecteert, wordt het nieuwe dashboard in de huidige werkruimte gemaakt. Wanneer het bericht **Aan dashboard vastgemaakt** wordt weergegeven, selecteert u **Naar dashboard gaan**. Als u wordt gevraagd of u het rapport wilt opslaan, kiest u **Opslaan**.
 
-    ![Het bericht Geslaagd](media/service-dashboard-create/power-bi-pin-success.png)
+    ![Schermopname van het bericht Geslaagd met de optie Naar het dashboard gaan uitgelicht.](media/service-dashboard-create/power-bi-pin-success.png)
 
     Het nieuwe dashboard wordt in Power BI geopend. Het dashboard bevat één tegel: de visualisatie die u zojuist hebt vastgemaakt.
 
    ![Dashboard met één tegel](media/service-dashboard-create/power-bi-pinned.png)
 7. Selecteer de tegel om naar het rapport terug te gaan. Maak nog een paar tegels vast aan het nieuwe dashboard. Wanneer het venster **Aan dashboard vastmaken** verschijnt, selecteert u **Bestaand dashboard**.  
 
-   ![Dialoogvenster Aan dashboard vastmaken](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![Schermopname van het venster Vastmaken aan dashboard met de optie Bestaand dashboard uitgelicht.](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>Een volledige rapportpagina aan het dashboard vastmaken
 U kunt [een hele rapportpagina vastmaken als *live-tegel*](service-dashboard-pin-live-tile-from-report.md) in plaats van één visueel element per keer vast te maken. Aan de slag.
@@ -102,11 +102,11 @@ U kunt [een hele rapportpagina vastmaken als *live-tegel*](service-dashboard-pin
 
 3. Wanneer het venster **Aan dashboard vastmaken** verschijnt, selecteert u **Bestaand dashboard**.
 
-   ![Dialoogvenster Aan dashboard vastmaken](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![Schermopname van het venster Vastmaken aan dashboard met de optie Bestaand dashboard geselecteerd en de knop Live vastmaken.](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. Wanneer het bericht verschijnt dat de bewerking is voltooid, selecteert u **Naar dashboard gaan**. Hier ziet u de tegels uit het rapport die u hebt vastgemaakt. In het onderstaande voorbeeld hebben we twee tegels van pagina één van het rapport vastgemaakt en één livetegel, wat pagina twee van het rapport is.
 
-   ![Dashboard](media/service-dashboard-create/power-bi-dashboard.png)
+   ![Schermopname van een Power BI-dashboard met de visualisaties uit dit artikel.](media/service-dashboard-create/power-bi-dashboard.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 Gefeliciteerd, u hebt uw eerste dashboard gemaakt! Nu u een dashboard hebt, kunt u er nog veel meer mee doen. Volg een van de voorgestelde artikelen hieronder of ga zelf aan de slag met verkennen: 

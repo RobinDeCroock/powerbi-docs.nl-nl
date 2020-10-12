@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234710"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633487"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Q&A gebruiken om uw gegevens te verkennen te verkennen en visuals te maken
 
@@ -33,7 +33,7 @@ In de Power BI-service (app.powerbi.com) bevat een dashboard tegels die zijn vas
 
 Het vak met Q&A-vragen bevindt zich in de linkerbovenhoek van het dashboard. Hier typt u uw vraag in natuurlijke taal in. Ziet u het Q&A-vak niet? Zie [Aandachtspunten en probleemoplossing](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting) in het artikel **Q&A voor gebruikers**.  Q&A herkent de woorden die u typt en zoekt uit waar (in welke gegevensset) het antwoord kan worden gevonden. Ook helpt Q&A u uw vraag te formuleren door middel van automatisch aanvullen, anders formuleren en andere tekstuele en visuele hulpmiddelen.
 
-![Het Q&A-vraagvak](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![Schermopname van een Power BI-dashboard met een optie om een vraag te stellen over uw gegevens.](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 Het antwoord op uw vraag wordt weergegeven als een interactieve visualisatie en wordt bijgewerkt als u de vraag wijzigt.
 
@@ -87,7 +87,7 @@ Als u Q&A wilt gebruiken in rapporten, moet u over bewerkingsmachtigingen beschi
 
 2. Een vak met Q&A-vragen wordt op het rapportcanvas weergegeven. In het onderstaande voorbeeld wordt het vragenvak weergegeven boven op een andere visualisatie. Dat is prima, maar mogelijk is het beter om een lege pagina aan het rapport toe te voegen voordat u een vraag stelt.
 
-    ![Het Q&A-vraagvak](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![Schermopname van een canvas met het Q&A-vragenvak in een visualisatie.](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. Plaats de cursor in het vraagvak. Terwijl u typt, geeft Q&A suggesties om u te helpen met het stellen van uw vraag.
 

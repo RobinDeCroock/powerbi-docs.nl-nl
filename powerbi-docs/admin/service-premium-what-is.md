@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854685"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599012"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -30,7 +30,7 @@ Met Power BI Premium kunt u toegewezen en geavanceerde resources voor uw organis
 > * Gegevens delen met iedereen zonder een licentie per gebruiker te hoeven aanschaffen
 
 
-![Beheerportal](media/service-premium-what-is/premium-admin-portal.png) 
+![Schermopname van de Power BI-beheerportal.](media/service-premium-what-is/premium-admin-portal.png) 
 
 In dit artikel worden belangrijke functies van Power BI Premium beschreven. In voorkomende gevallen worden koppelingen geboden naar aanvullende artikelen met meer gedetailleerde informatie. Raadpleeg de sectie _Vergelijking van Power BI-functies_ van [Power BI-prijzen](https://powerbi.microsoft.com/pricing/) voor meer informatie over Power BI Pro en Power BI Premium.
 
@@ -139,11 +139,11 @@ Globale beheerders en Power BI-servicebeheerders kunnen Premium-capaciteiten mak
 
 Wanneer capaciteiten zijn gemaakt, worden de meeste beheertaken uitgevoerd in de [beheerportal](service-admin-portal.md).
 
-![Beheerportal](media/service-premium-what-is/premium-admin-portal.png)
+![Schermopname van de Power BI-beheerportal met Mijn werkruimte geselecteerd.](media/service-premium-what-is/premium-admin-portal.png)
 
 Capaciteitsbeheerders kunnen werkruimten toewijzen aan de capaciteit, gebruikersmachtigingen beheren en andere beheerders toewijzen. Capaciteitsbeheerders kunnen ook workloads configureren door geheugentoewijzingen aan te passen, en, indien nodig, een capaciteit opnieuw opstarten door bewerkingen opnieuw in te stellen voor het geval dat een capaciteit overbelast raakt.
 
-![Beheerportal](media/service-premium-what-is/premium-admin-portal-mgmt.png)
+![Schermopname van Capaciteitsbeheer in de Power BI-beheerportal.](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
 Capaciteitsbeheerders kunnen ook controleren of een capaciteit probleemloos werkt. Ze kunnen het functioneren van capaciteiten rechtstreeks in de beheerportal of via de app Power BI Premium Capacity Metrics controleren.
 
@@ -155,7 +155,7 @@ De controle van Premium-capaciteiten biedt beheerders inzicht in de prestaties v
 
 Wanneer u een controle uitvoert in de portal, biedt dit een snelle weergave met metrische gegevens op hoog niveau van de afgelopen zeven dagen, waarin wordt aangegeven welke belastingen zijn opgelegd, welke resources door uw capaciteit zijn gebruikt, welke gemiddelden dit oplevert. 
 
-![Beheerportal](media/service-premium-what-is/premium-admin-portal-health.png)
+![Schermopname van Capaciteitsstatus in de Power BI-beheerportal.](media/service-premium-what-is/premium-admin-portal-health.png)
 
 De app **Power BI Premium Capacity Metrics** biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren. De app biedt een dashboard op hoog niveau en meer gedetailleerde rapporten.
 

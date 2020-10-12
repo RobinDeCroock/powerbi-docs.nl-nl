@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 07/15/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860688"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634637"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Problemen met gateways oplossen - Power BI
 
@@ -32,9 +32,11 @@ Aan het einde van de configuratie wordt de Power BI-service opnieuw aangeroepen 
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Fout: Kan geen verbinding maken. Details: 'Ongeldige verbindingsreferenties'
 
-Onder **Details weergeven** wordt het foutbericht weergegeven dat van de gegevensbron is ontvangen. Voor SQL Server ziet dit er ongeveer als volgt uit:
+Onder **Details weergeven** wordt het foutbericht weergegeven dat van de gegevensbron is ontvangen. Voor SQL Server ziet u een bericht zoals het volgende:
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 Controleer of u de juiste gebruikersnaam en het juiste wachtwoord gebruikt. Controleer ook of deze referenties verbinding kunnen maken met de gegevensbron. Zorg ervoor dat het gebruikte account overeenkomt met de verificatiemethode.
 
@@ -44,7 +46,9 @@ Er kan wel verbinding worden gemaakt met de server, maar niet met de opgegeven d
 
 Onder **Details weergeven** wordt het foutbericht weergegeven dat van de gegevensbron is ontvangen. Voor SQL Server ziet dit er ongeveer als volgt uit:
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Fout: Kan geen verbinding maken. Details: 'Onbekende fout in de gegevensgateway'
 
@@ -62,11 +66,15 @@ Onder **Details weergeven** ziet u de foutcode **DM_GWPipeline_Gateway_DataSourc
 
 Als het onderliggende foutbericht op de volgende melding lijkt, betekent dit dat het account dat u voor de gegevensbron gebruikt geen serverbeheerder is voor het betreffende Analysis Services-exemplaar. Zie [Grant server admin rights to an Analysis Services instance](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance) (Serverbeheerdersrechten aan een Analysis Services-exemplaar verlenen) voor meer informatie.
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 Als het onderliggende foutbericht op de volgende melding lijkt, kan dit betekenen dat het directorykenmerk [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU) ontbreekt voor het serviceaccount voor Analysis Services.
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 Het TGGAU-kenmerk is ingeschakeld voor domeinen met toegang die compatibel is met oudere versies dan Windows 2000. Voor de meeste nieuw gemaakte domeinen is dit kenmerk niet standaard ingeschakeld. Zie [Sommige toepassingen en API's moeten toegang hebben tot de gegevens op account-objecten](https://support.microsoft.com/kb/331951) voor meer informatie.
 
@@ -75,13 +83,17 @@ Voer de volgende stappen uit om te controleren of het kenmerk is ingeschakeld.
 1. Maak verbinding met de Analysis Services-computer in SQL Server Management Studio. Neem in de geavanceerde verbindingseigenschappen EffectiveUserName op voor de betrokken gebruiker en kijk of de fout nog steeds optreedt.
 2. U kunt het Active Directory-hulpprogramma dsacls gebruiken om te controleren of het kenmerk wordt weergegeven. Dit hulpprogramma bevindt zich op een domeincontroller. U moet weten wat de onderscheidende domeinnaam voor het account is en die naam aan het hulpprogramma doorgeven.
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     Het resultaat zou op het volgende moeten lijken:
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 Als u dit probleem wilt oplossen, moet u TGGAU inschakelen voor het account dat wordt gebruikt voor de Windows-service Analysis Services.
 
@@ -139,7 +151,9 @@ Voer de volgende stappen uit om de effectieve gebruikersnaam te bevestigen.
 1. U vindt de effectieve gebruikersnaam in de [gatewaylogboeken](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
 2. Wanneer u de waarde hebt achterhaald die wordt doorgegeven, controleert u of deze juist is. Als dit uw gebruiker is, kunt u de volgende opdracht uitvoeren vanaf de opdrachtprompt om de UPN te zien. De UPN ziet eruit als een e-mailadres.
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 Eventueel kunt u nagaan wat Power BI ophaalt uit Azure Active Directory.
 
@@ -147,10 +161,13 @@ Eventueel kunt u nagaan wat Power BI ophaalt uit Azure Active Directory.
 2. Selecteer in de rechterbovenhoek **Aanmelden**.
 3. Voer de volgende query uit. Er wordt nu een vrij groot JSON-antwoord weergegeven.
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. Zoek hierin naar **UserPrincipalName**.
 
-Als uw Azure Active Directory-UPN niet overeenkomt met uw lokale Active Directory-UPN, kunt u de functie [Gebruikersnamen toewijzen](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) gebruiken om deze te vervangen door een geldige waarde. U kunt ook contact opnemen met uw tenantbeheerder of lokale Active Directory Domain Services-beheerder om uw UPN te wijzigen.
+Als uw Azure Active Directory-UPN niet overeenkomt met uw lokale Active Directory-UPN, kunt u de functie [Gebruikersnamen toewijzen](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources) gebruiken om deze te vervangen door een geldige waarde. U kunt ook contact opnemen met uw Power BI-beheerder of lokale Active Directory-beheerder om uw UPN te wijzigen.
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -192,11 +209,11 @@ Fout 1033 wordt weergegeven wanneer uw externe id die is geconfigureerd in SAP H
 
 * Voor SAP HANA is vereist dat de geïmiteerde gebruiker het kenmerk sAMAccountName in Active Directory Domain Services (gebruikersalias) gebruikt. Als dit kenmerk niet juist is, ziet u de fout 1033.
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+    ![Kenmerkeditor](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
 * In de logboeken ziet u de sAMAccountName (alias) en niet de UPN. Dit is de alias die wordt gevolgd door het domein (alias@doimain.com).
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+    ![Accountgegevens in logboeken](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
 ```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">

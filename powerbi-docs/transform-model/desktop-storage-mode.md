@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b3e661e8581f07ea9e19f295c30f29e5331754e7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83331366"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528155"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>Opslagmodus in Power BI Desktop beheren
 
@@ -78,7 +78,7 @@ Stel dat alle tabellen in dit model in eerste instantie zijn ingesteld op **Dire
 
 ![Waarschuwingsvenster voor opslagmodus](media/desktop-storage-mode/storage-mode-05.png)
 
-U kunt de dimensietabellen (**Klant**, **Geografie** en **Datum**) instellen op **Dual** om het aantal zwakke relaties in de gegevensset te verminderen en de prestaties te verbeteren. Zwakke relaties bestaan doorgaans uit ten minste één DirectQuery-tabel waarin samenvoeglogica niet naar de bronsystemen kan worden gepusht. Omdat Dual-tabellen kunnen fungeren als DirectQuery- of Import-tabellen, wordt deze situatie vermeden.
+U kunt de dimensietabellen (**Klant**, **Geografie** en **Datum**) instellen op **Dual** om het aantal beperkte relaties in de gegevensset te verminderen en de prestaties te verbeteren. Beperkte relaties bestaan doorgaans uit ten minste één DirectQuery-tabel waarin samenvoeglogica niet naar de bronsystemen kan worden gepusht. Omdat Dual-tabellen kunnen fungeren als DirectQuery- of Import-tabellen, wordt deze situatie vermeden.
 
 De doorgiftelogica is namelijk ontworpen om u te helpen met modellen die veel tabellen bevatten. Stel dat u een model hebt met 50 tabellen en dat alleen bepaalde feitentabellen (met transacties) in de cache moeten worden opgeslagen. Met de logica in Power BI Desktop worden berekend wat de minimale set met dimensietabellen is die moet worden ingesteld op **Dual**, zodat u dit niet hoeft te doen.
 
@@ -118,15 +118,15 @@ Met query's die verwijzen naar Dual-tabellen worden gegevens uit de cache gereto
 
 Als we verdergaan met het vorige voorbeeld, verwijst de volgende query alleen naar een kolom uit de tabel **Date**, die is ingesteld als **Dual**. De query moet daarom een hit geven uit de cache:
 
-![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode-06.png)
+![Schermopname met tekst van query die naar de tabel Datum verwijst.](media/desktop-storage-mode/storage-mode-06.png)
 
 De volgende query verwijst alleen naar een kolom uit de tabel **Sales**, die in de modus **DirectQuery** staat. De query moet daarom *geen hit* opleveren uit de cache:
 
-![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode-07.png)
+![Schermopname met tekst van query die naar de tabel Verkoop verwijst.](media/desktop-storage-mode/storage-mode-07.png)
 
 De volgende query is interessant omdat hierin beide kolommen worden gecombineerd. Deze query levert geen hit op uit de cache. In eerste instantie verwacht u dat er **CalendarYear**-waarden worden opgehaald uit de cache en **SalesAmount**-waarden uit de bron en dat de resultaten vervolgens worden gecombineerd. Deze aanpak is echter minder efficiënt dan het verzenden van de bewerking SUM/GROUP BY naar het bronsysteem. Als de bewerking naar de bron wordt gepusht, zal het aantal geretourneerde rijen waarschijnlijk veel lager zijn: 
 
-![Script voor diagnose van opslagmodus](media/desktop-storage-mode/storage-mode-08.png)
+![Schermopname met tekst van query die naar zowel de tabel Datum als de tabel Verkoop verwijst.](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Dit gedrag verschilt van [veel-op-veel-relaties in Power BI Desktop](desktop-many-to-many-relationships.md) waarbij tabellen die wel en tabellen die niet in de cache zijn opgeslagen, worden gecombineerd.

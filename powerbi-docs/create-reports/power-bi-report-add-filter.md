@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bf7fad8195f28303ae0ab73fb957db87861755e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf81ec873b822fbb1604378aa508b3ffeb408511
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237384"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635833"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Een filter toevoegen aan een rapport in Power BI
 
@@ -77,7 +77,7 @@ In deze procedure wordt overigens het voorbeeld Retail Analysis gebruikt. U kunt
    
     Het visuele element wordt overeenkomstig het nieuwe filter gewijzigd. Als u het rapport met het filter opslaat, zien lezers van het rapport de gefilterde visualisatie en kunnen ze met het filter werken in de leesweergave door waarden te selecteren of te wissen.
      
-    ![De gefilterde visualisatie](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    ![Schermopname van een staafdiagram dat de gefilterde waarden weergeeft.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
     
     Wanneer u het filter gebruikt voor een veld dat wordt gebruikt in de visual, waarbij het veld wordt geaggregeerd (bijvoorbeeld een som, gemiddelde of aantal), filtert u op de *geaggregeerde* waarde in elk gegevenspunt. Dus betekent het vragen om te filteren op de visual hierboven waar **Verkoop dit jaar > 500000** dat u alleen het gegevenspunt **13 - Charleston Fashion Direct** in het resultaat ziet. Filters op [modelmetingen](../transform-model/desktop-measures.md) zijn altijd van toepassing op de geaggregeerde waarde van het gegevenspunt.
 
@@ -95,7 +95,7 @@ Nu gaan we een nieuw veld aan de visualisatie toevoegen, als een filter op het n
 
     De visualisatie zelf wordt nu gefilterd om alleen de verkopen van de gefilterde managers voor de opgegeven winkels van dit jaar te laten zien.
      
-    ![De gefilterde visualisatie](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![Schermopname van een staafdiagram dat de gefilterde waarden op basis van het nieuwe veld weergeeft.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Als u het rapport met dit filter opslaat, kunnen lezers van het rapport werken met het filter **District Manager** in de leesweergave door waarden te selecteren of te wissen.
     

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878707"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747707"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Zelfstudie: Een trechtertekening bouwen van R-script naar R-visual
 In dit artikel wordt stap voor stap beschreven hoe u een trechtertekening bouwt met R-script in R visual.
@@ -66,11 +66,11 @@ Bewerk vervolgens het script om [dit script](https://github.com/microsoft/PowerB
 
 1. Bewerk *capabilities.json* en vervang de tekenreeks `Values` door `dataset`. Hiermee vervangt u de naam van Rol in de sjabloon, zoals in de R-code.
 
-   ![voor versus na](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![Schermopname van een diff-vergelijking van de wijziging in het JSON-bestand.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. *(optioneel)* Bewerk *dependencies.json* en voeg een sectie toe voor elk R-pakket dat vereist is voor het R-script. Hiermee wordt Power BI gevraagd deze pakketten automatisch te importeren wanneer de visual voor de eerste keer wordt geladen.
 
-   ![voor versus na](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![Schermopname van een diff-vergelijking waarbij inhoud is toegevoegd aan de cranPackages-items.](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. Verpak de visual opnieuw met de opdracht `pbiviz package` en probeer deze in Power BI te importeren.
 
@@ -119,7 +119,7 @@ De visual is nog niet gebruiksvriendelijk omdat de gebruiker de volgorde van kol
 
 1. Voeg mogelijkheden toe voor de gebruiker om kleuren en grootte van visuele elementen te beheren, inclusief interne parameters uit de gebruikersinterface.
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![Schermopname van twee versies van het deelvenster Hulpprogramma's met opties toegevoegd aan de versie aan de rechterkant.](./media/funnel-plot/diagram-two.PNG)
 
 1. Bewerk *capabilities.json* en werk de sectie `objects` bij. Hier definiëren we namen, knopinfo en typen van elke parameter en beslissen we ook over de verdeling van parameters in groepen (drie groepen in dit geval).
 
@@ -274,7 +274,7 @@ Aangezien deze visual op PNG gebaseerd is, reageert het niet op muisaanwijzing, 
 
 * Elke R Visual past de operator `unique` toe op de invoertabel. Als u wilt voorkomen dat identieke rijen worden verwijderd, moet u overwegen een extra invoerveld met een unieke id toe te voegen en deze te negeren in de R-code.   
 
-* Als u een Power BI-account hebt, gebruikt u de Power BI-service om een visual [direct](/power-bi/developer/visuals/custom-visual-develop-tutorial/) te ontwikkelen in plaats van ze opnieuw te verpakken met de opdracht `pbiviz package`.
+* Als u een Power BI-account hebt, gebruikt u de Power BI-service om een visual [direct](./custom-visual-develop-tutorial.md) te ontwikkelen in plaats van ze opnieuw te verpakken met de opdracht `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Galerie HTML-widgets
 Bekijk visuals in de galerie [HTML-widgets](http://gallery.htmlwidgets.org/) voor gebruik in uw volgende visual. Om het gemakkelijk te maken, hebben we een [projectopslagplaats](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) met meer dan 20 interactieve HTML-visuals om uit te kiezen!
@@ -291,15 +291,15 @@ Bekijk visuals in de galerie [HTML-widgets](http://gallery.htmlwidgets.org/) voo
 1. Wijzig metagegevens in *pbiviz.json*, vooral het veld `guid`.
 1. Verpak opnieuw en blijf de visual aanpassen zoals gewenst. 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![Schermopname van zes widgets die eerder in dit artikel zijn besproken.](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![Schermopname van zes andere widgets die eerder in dit artikel zijn besproken.](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > Niet alle widgets in dit project worden ondersteund door de service.
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Zie voor meer informatie aanvullende zelfstudies over [Power BI-visuals](./custom-visual-develop-tutorial.md) en [R-visuals](/power-bi/visuals/service-r-visuals).
+Zie voor meer informatie aanvullende zelfstudies over [Power BI-visuals](./custom-visual-develop-tutorial.md) en [R-visuals](../../visuals/service-r-visuals.md).
 
 Bekijk hoe u visuals kunt [ontwikkelen en verzenden](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) naar de [Office Store (galerie)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI) of voor andere voorbeelden de showcase [R-script bekijken](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)

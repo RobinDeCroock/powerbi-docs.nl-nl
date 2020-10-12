@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 40de850663f49a26c1d8ae290d88821bbab8c822
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 13223b2ba9d5b50654c952da6b2517717103a724
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229472"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600225"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Power BI-rapporten ontwerpen met het oog op toegankelijkheid
 U kunt aantrekkelijke rapporten ontwerpen en maken waarbij ook aan toegankelijkheid wordt gedacht. Wanneer u een rapport samenstelt, ongeacht uw doelgroep, moet u uw rapporten zo maken dat ze door zoveel mogelijk mensen kunnen worden gebruikt, zonder dat u ze hoeft aan te passen aan een soort speciaal ontwerp.
@@ -72,11 +72,11 @@ In het algemeen is elk object in Power BI met toetsenbordnavigatie ook geschikt 
 
 Power BI biedt ondersteuning voor hoge contrasten in rapporten. Als u gebruikmaakt van de modus voor hoog contrast in Windows, detecteert Power BI Desktop automatisch welk thema voor hoge contrasten in Windows wordt gebruikt. Deze instellingen worden vervolgens ook toegepast op uw rapporten. De kleuren in hoog contrast blijven zichtbaar in het rapport wanneer het via de Power BI-service of elders wordt gepubliceerd.
 
-![Windows-instellingen voor hoge contrasten](media/desktop-accessibility/accessibility-05b.png)
+![Schermopname van een rapport in Windows-instellingen voor hoge contrasten.](media/desktop-accessibility/accessibility-05b.png)
 
 De Power BI-service probeert ook de instellingen voor hoge contrasten te detecteren die voor Windows zijn ingesteld, maar hoe effectief en nauwkeurig deze detectie verloopt, is afhankelijk van welke browser wordt gebruikt voor de Power BI-service. Als u het thema handmatig wilt instellen in de Power BI-service, selecteert u **V > Kleuren met hoog contrast**. Selecteer vervolgens het thema dat u wilt toepassen op het rapport.
 
-![Focus voor toegankelijkheidsnavigatie](media/desktop-accessibility/accessibility-creating-reports-02.png)
+![Schermopname van hoe u een thema van kleuren met hoog contrast selecteert.](media/desktop-accessibility/accessibility-creating-reports-02.png)
 
 ### <a name="focus-mode"></a>Focusmodus
 Als een rapportgebruiker naar een visual in een dashboard kijkt, kan hij de visual uitbreiden om meer van zijn scherm te vullen door naar het contextmenu van de visual te navigeren en **In focusmodus openen** te selecteren.

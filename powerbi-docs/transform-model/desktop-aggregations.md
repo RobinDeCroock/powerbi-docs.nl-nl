@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4ee0db7cae34f9592824e4f315255ff4fcff077b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339784"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600342"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Aggregaties in Power BI Desktop gebruiken
 
@@ -53,7 +53,7 @@ De vervolgkeuzelijst **Samenvatting** in het dialoogvenster **Aggregaties behere
 - Sum
 - Aantal tabelrijen
 
-![Dialoogvenster Aggregaties beheren](media/desktop-aggregations/aggregations_07.jpg)
+![Schermopname van het dialoogvenster Aggregaties beheren.](media/desktop-aggregations/aggregations_07.jpg)
 
 In dit op relaties gebaseerde aggregatievoorbeeld zijn de GroupBy-vermeldingen optioneel. Op DISTINCTCOUNT na zijn ze niet van invloed op aggregatiegedrag en zijn ze voornamelijk bedoeld voor de leesbaarheid. Zonder de GroupBy-vermeldingen worden de aggregaties nog steeds geraakt op basis van de relaties. Dit wijkt af van het [big data-voorbeeld](#aggregation-based-on-groupby-columns) verderop in dit artikel, waarbij de GroupBy-vermeldingen vereist zijn.
 
@@ -144,11 +144,11 @@ Als u de gerelateerde dimensietabellen instelt op Dual, kunnen ze fungeren als I
 
 Zie het artikel [Opslagmodus beheren in Power BI Desktop](desktop-storage-mode.md) voor meer informatie over de opslagmodus Dual.
 
-### <a name="strong-vs-weak-relationships"></a>Sterke versus zwakke relaties
+### <a name="regular-vs-limited-relationships"></a>Reguliere vs. beperkte relaties
 
-Voor aggregatietreffers op basis van relaties zijn sterke relaties vereist.
+Voor aggregatietreffers op basis van relaties zijn reguliere relaties vereist.
 
-Sterke relaties bevatten onder andere de volgende opslagmoduscombinaties, waarbij beide tabellen afkomstig zijn uit één bron:
+Reguliere relaties bevatten onder andere de volgende opslagmoduscombinaties, waarbij beide tabellen afkomstig zijn uit één bron:
 
 | Tabel aan de *veel*-zijden | Tabel aan de *1*-zijde |
 | ------------- |----------------------| 
@@ -156,7 +156,7 @@ Sterke relaties bevatten onder andere de volgende opslagmoduscombinaties, waarbi
 | Importeren        | Importeren of Dual       | 
 | DirectQuery   | DirectQuery of Dual  | 
 
-Een relatie tussen *meerdere bronnen* wordt alleen als sterk beschouwd als beide tabellen worden ingesteld op Import. Veel-op-veel-relaties worden altijd als zwak beschouwd.
+Een relatie tussen *meerdere bronnen* wordt alleen als regulier beschouwd als beide tabellen worden ingesteld op Import. Veel-op-veel-relaties worden altijd als beperkt beschouwd.
 
 Voor aggregatietreffers gebaseerd op *meerdere bronnen* die niet afhankelijk zijn van relaties, raadpleegt u [Aggregaties op basis van GroupBy-kolommen](#aggregation-based-on-groupby-columns). 
 
@@ -244,11 +244,11 @@ De volgende query raakt de aggregatie, omdat de aggregatietabel **CalendarMonth*
 
 De volgende query raakt de aggregatie niet, omdat de aggregatietabel **CalendarDay** niet dekt.
 
-![Queryvoorbeeld dat de aggregatie niet dekt](media/desktop-aggregations/aggregations-code_10.jpg)
+![Schermopname van tekst van een query die CalendarDay bevat.](media/desktop-aggregations/aggregations-code_10.jpg)
 
 De volgende time-intelligencequery raakt de aggregatie niet, omdat de functie DATESYTD een tabel met **CalendarDay**-waarden genereert en de aggregatietabel **CalendarDay** niet dekt.
 
-![Queryvoorbeeld dat de aggregatie niet dekt](media/desktop-aggregations/aggregations-code_11.jpg)
+![Schermopname van tekst van een query die de functie DATESYTD bevat.](media/desktop-aggregations/aggregations-code_11.jpg)
 
 ## <a name="aggregation-precedence"></a>Aggregatieprioriteit
 
@@ -271,7 +271,7 @@ Het dialoogvenster **Aggregaties beheren** voor **Driver Activity Agg2** stelt h
 
 De tabel die is opgegeven in de kolom **Tabel met details** is **Driver Activity** en niet **Driver Activity Agg**, omdat ketenaggregaties niet zijn toegestaan.
 
-![Dialoogvenster Aggregaties beheren](media/desktop-aggregations/aggregations_14.jpg)
+![Schermopname van het dialoogvenster Aggregaties beheren met Prioriteit uitgelicht.](media/desktop-aggregations/aggregations_14.jpg)
 
 In de volgende tabel ziet u de aggregaties voor de tabel **Driver Activity Agg2**.
 

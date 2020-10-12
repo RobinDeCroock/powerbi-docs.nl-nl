@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168458"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635879"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>Gebruik de functie Analyseren om schommelingen in rapportvisuals te verklaren
 
@@ -50,7 +50,7 @@ Vervolgens worden de gegevens met machine-learningalgoritmen geanalyseerd en wor
 
 Als u de kleine pictogrammen onder aan de waterval selecteert, kunt u ervoor kiezen of in de inzichten een spreidingsdiagram, een gestapeld kolomdiagram of lintdiagram wordt weergegeven.
 
-![drie visuals met inzichten](media/end-user-analyze-visuals/power-bi-options.png)
+![Schermopname van de pictogrammen onderaan de visual.](media/end-user-analyze-visuals/power-bi-options.png)
 
 Gebruik de pictogrammen met *duim omhoog* of *duim omlaag* boven aan de pagina om feedback te geven over de visual en de functie.  
 
@@ -59,7 +59,7 @@ Gebruik de pictogrammen met *duim omhoog* of *duim omlaag* boven aan de pagina o
 
 U kunt inzichten gebruiken als uw rapport in lees- of bewerkweergave is. U kunt er dan gegevens mee analyseren en visuals mee maken die u makkelijk aan uw rapporten kunt toevoegen. Als u het rapport in de bewerkweergave hebt geopend, ziet u een pictogram met plusteken naast de duimpictogrammen. Selecteer het pluspictogram om het inzicht aan uw rapport toe te voegen als een nieuwe visual. 
 
-![drie visuals met inzichten](media/end-user-analyze-visuals/power-bi-add-visual.png)
+![Schermopname van het pluspictogram dat wordt gebruikt om het inzicht toe te voegen.](media/end-user-analyze-visuals/power-bi-add-visual.png)
 
 ## <a name="details-of-the-results-returned"></a>Details van de geretourneerde resultaten
 

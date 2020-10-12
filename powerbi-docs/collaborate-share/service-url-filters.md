@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437243"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632996"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Een rapport filteren door queryreeksparameters in de URL te gebruiken
 
@@ -64,7 +64,7 @@ En we zien op onze visualisatiekaart boven dat we winkels in North Carolina hebb
 ?filter=Store/Territory eq 'NC'
 ```
 
-![Schermopname van URL met filter.](media/service-url-filters/power-bi-filter-urls7.png)
+![Schermopname van URL met filter voor North Carolina.](media/service-url-filters/power-bi-filter-urls7.png)
 
 Nu is het rapport gefilterd op North Carolina. Alle visualisaties op het rapport bevatten alleen gegevens voor North Carolina.
 
@@ -155,10 +155,10 @@ Voor speciale tekens en spaties in tabel- en kolomnamen is aanvullende opmaak ve
 |**[Column]**     |  [ is 0x005B ] is 0x005D       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | + is 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![Schermopname van visualisatie van tabel met speciale tekens.](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![Schermopname van tabelvisual die speciale tekens voor Unicode weergeeft.](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Schermopname van visualisatie van tabel met speciale tekens.](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![Schermopname van tabelvisual die speciale tekens voor codering voor Power BI weergeeft.](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>Speciale tekens in waarden
 
@@ -172,11 +172,11 @@ Bijvoorbeeld:
 
 - `?filter=Table/Name eq 'Lee''s Summit'` wordt:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="De Summit van Lee":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Naam is O'Brien":::
 
 - De operator `in` ondersteunt deze escape-tekens ook: `?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` wordt:
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="De Summit van Lee of O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Naam is O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>DAX gebruiken om op meerdere waarden te filteren
 

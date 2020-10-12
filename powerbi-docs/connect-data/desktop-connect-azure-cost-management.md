@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/14/2019
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858481"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599875"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Visuals en rapporten maken met de Azure Cost Management-connector in Power BI Desktop
 
@@ -25,6 +25,10 @@ Met de Azure Cost Management-connector gebruikt u OAuth 2.0 voor verificatie met
 
 > [!NOTE]
 > Deze connector vervangt de vorige connectors [Azure Consumption Insights en Azure Cost Management (bèta)](desktop-connect-azure-consumption-insights.md). Rapporten die zijn gemaakt met de eerdere connector moeten opnieuw worden gemaakt met behulp van deze connector.
+
+> [!NOTE]
+> De Azure Cost Management-connector voor Power BI Desktop biedt geen ondersteuning voor verbinding met overheids-clouds. 
+
 
 ## <a name="connect-using-azure-cost-management"></a>Verbinding maken met behulp van Azure Cost Management
 
@@ -46,11 +50,11 @@ Als u verbinding wilt maken met een **Microsoft klantovereenkomst**account, kunt
 1.  Navigeer in de [Azure-portal](https://portal.azure.com/) naar **Cost Management en facturering**.
 2.  Selecteer uw factureringsprofiel. 
 3.  Selecteer in het menu bij **Instellingen** de optie **Eigenschappen** in de zijbalk.
-4.  Kopieer de **id**  bij **Factureringsprofiel**. 
-5.  Selecteer voor **Bereik kiezen** **Factureringsprofiel-id** en plak hier de factureringsprofiel-id uit de vorige stap. 
+4.  Kopieer de **id ** bij **Factureringsprofiel**. 
+5.  Selecteer voor **Bereik kiezen****Factureringsprofiel-id** en plak hier de factureringsprofiel-id uit de vorige stap. 
 6.  Voer het aantal maanden in en selecteer **OK**.
 
-    ![Facturerings-id ophalen](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
+    ![Schermopname van de Azure Cost Management-eigenschappen met een bereik van Factureringsprofiel-id.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
 7.  Meld u aan met uw Azure-gebruikersaccount en -wachtwoord als u hierom wordt gevraagd. 
 
@@ -62,10 +66,10 @@ Als u verbinding wilt maken met een Enterprise Agreement-account (EA), kunt u uw
 1.  Navigeer in de [Azure-portal](https://portal.azure.com/) naar **Cost Management en facturering**.
 2.  Selecteer uw factureringsaccount.
 3.  Kopieer in het menu **Overzicht** de **factureringsprofiel-id**.
-4.  Selecteer voor **Bereik kiezen** **Inschrijvingsnummer** en plak hier de factureringsaccount-id uit de vorige stap. 
+4.  Selecteer voor **Bereik kiezen****Inschrijvingsnummer** en plak hier de factureringsaccount-id uit de vorige stap. 
 5.  Voer het aantal maanden in en selecteer vervolgens **OK**.
 
-    ![Facturerings-id ophalen](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
+    ![Schermopname van de Azure Cost Management-eigenschappen met een bereik van Inschrijvingsnummer.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
 6.  Meld u aan met uw Azure-gebruikersaccount en -wachtwoord als u hierom wordt gevraagd. 
 
@@ -82,18 +86,18 @@ Nadat uw verificatie is geslaagd, wordt het venster **Navigator** weergegeven wa
 | **Budgetten** | Budgetgegevens aan de hand waarvan u de daadwerkelijke kosten of het daadwerkelijke gebruik kunt bekijken en met de bestaande budgetdoelen kunt vergelijken. |
 | **Kosten** | Een samenvatting op maandniveau van uw Azure-verbruik, Marketplace-kosten en afzonderlijk gefactureerde kosten. Alleen Microsoft-gebruikersovereenkomst. |
 | **Kredietpartijen** | Informatie over de aankoop van Azure-kredietpartijen voor het opgegeven factureringsprofiel. Alleen Microsoft-gebruikersovereenkomst. |
-| **PriceSheets** | Van toepassing zijnde tarieven per meter voor het opgegeven factureringsprofiel of de opgegeven EA-inschrijving. |
+| **Prijzenoverzichten** | Toepasselijke metertarieven voor het verstrekte factureringsprofiel of de verstrekte EA-inschrijving. |
 | **RI-kosten** | De kosten van uw gereserveerde instanties gedurende de afgelopen 24 maanden. |
 | **RI-aanbevelingen (gedeeld)** | Aanbevelingen voor de aanschaf van gereserveerde instanties op basis van alle gebruikstrends voor uw abonnement gedurende de afgelopen 7, 30 of 60 dagen. |
-| **RI-aanbevelingen (enkel)** | Aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor één abonnement gedurende de afgelopen 7, 30 of 60 dagen. |
-| **Gebruiksgegevens voor gereserveerde instanties** | Gebruiksgegevens van uw huidige gereserveerde instanties gedurende de afgelopen maand. |
-| **Overzicht gebruik gereserveerde instanties** | Percentage voor dagelijks Azure reserveringsgebruik. |
+| **RI-aanbevelingen (enkelvoudig)** | Aanbevelingen voor de aanschaf van gereserveerde instanties op basis van uw gebruikstrends voor één abonnement gedurende de afgelopen 7, 30 of 60 dagen. |
+| **Gegevens over RI-gebruik** | Gebruiksgegevens van uw huidige gereserveerde instanties gedurende de afgelopen maand. |
+| **Overzicht van het gebruik van RI** | Percentage dagelijks reserveringsgebruik van Azure |
 | **Gebruiksgegevens** | Een specificatie van de gebruikte hoeveelheden en de geschatte kosten voor de opgegeven factureringsprofiel-id bij de EA-inschrijving. |
-| **Gebruiksgegevens afgeschreven** | Een specificatie van de gebruikte hoeveelheden en de geschatte afgeschreven kosten voor het opgegeven factureringsprofiel bij de EA-inschrijving. |
+| **Details van afgeschreven gebruik** | Een specificatie van de gebruikte hoeveelheden en de geschatte afgeschreven kosten voor het opgegeven factureringsprofiel bij de EA-inschrijving. |
 
 U kunt een tabel selecteren om een voorbeeldvenster weer te geven. U kunt een of meer tabellen selecteren door de betreffende selectievakjes in te schakelen en vervolgens **Laden** te selecteren.
 
-![Facturerings-id ophalen](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
+![Schermopname van het dialoogvenster Navigator.](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
 
 Wanneer u **Laden** selecteert, worden de gegevens in Power BI Desktop geladen. 
 

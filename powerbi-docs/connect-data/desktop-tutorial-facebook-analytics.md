@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965352"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600478"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>Zelfstudie: Facebook-gegevens analyseren met Power BI Desktop
 
@@ -128,7 +128,7 @@ Wanneer u tevreden bent met de gegevens, selecteert u **Sluiten en toepassen** >
    
    Zodra de gegevens zijn geladen, worden deze in de weergave **Rapport** weergegeven als een nieuwe query in het deelvenster **Velden**.
    
-   ![Nieuwe query](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   ![Schermopname van de beschikbare velden voor een query genaamd Query1.](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>De gegevens in rapportvisualisaties gebruiken 
 
@@ -138,7 +138,7 @@ Nu u de gegevens van de Facebook-pagina hebt geïmporteerd, kunt u snel en eenvo
 
 1. Selecteer in de weergave **Rapport** van Power BI Desktop **bericht** in het deelvenster **Velden** of sleep dit veld naar het rapportcanvas. Er wordt een tabel met alle berichten weergegeven op het canvas. 
    
-   ![Nieuwe query](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   ![Schermopname van de weergave Rapport met een berichtenlijst.](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
 2. Selecteer met deze tabel geselecteerd ook **Aantal opmerkingen** in het deelvenster **Velden** of sleep het veld naar de tabel. 
    

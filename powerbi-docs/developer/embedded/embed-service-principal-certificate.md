@@ -9,23 +9,23 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231840"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749179"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Power BI-inhoud met service-principal en een certificaat insluiten
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 >[!NOTE]
->We raden u aan uw back-endservices te beveiligen met behulp van certificaten, in plaats van geheime sleutels. [Meer informatie over het verkrijgen van toegangstokens van Azure AD met behulp van geheime sleutels of certificaten](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>We raden u aan uw back-endservices te beveiligen met behulp van certificaten, in plaats van geheime sleutels. [Meer informatie over het verkrijgen van toegangstokens van Azure AD met behulp van geheime sleutels of certificaten](/azure/architecture/multitenant-identity/client-assertion).
 
 ## <a name="certificate-based-authentication"></a>Verificatie op basis van certificaat
 
-Met verificatie op basis van certificaten kunt u worden geverifieerd door Azure Active Directory (Azure AD) met een clientcertificaat op een Windows-, Android- of iOS-apparaat of in een [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts).
+Met verificatie op basis van certificaten kunt u worden geverifieerd door Azure Active Directory (Azure AD) met een clientcertificaat op een Windows-, Android- of iOS-apparaat of in een [Azure Key Vault](/azure/key-vault/basic-concepts).
 
 Met behulp van deze verificatiemethode kunt u certificaten beheren vanaf een centrale plaats, met behulp van de CA, voor rotatie of intrekking.
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een service-principal en een certificaat met ing
 
 U kunt een certificaat aanschaffen bij een vertrouwde *certificeringsinstantie* of zelf een certificaat genereren.
 
-In deze sectie wordt beschreven hoe u een certificaat maakt met [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/create-certificate) en het *.cer*-bestand downloadt dat de openbare sleutel bevat.
+In deze sectie wordt beschreven hoe u een certificaat maakt met [Azure Key Vault](/azure/key-vault/create-certificate) en het *.cer*-bestand downloadt dat de openbare sleutel bevat.
 
 1. Meld u aan bij [Microsoft Azure](https://ms.portal.azure.com/#allservices).
 
@@ -63,11 +63,11 @@ In deze sectie wordt beschreven hoe u een certificaat maakt met [Azure Key Vault
 
 4. Klik op **Certificaten**.
 
-    ![certificaten](media/embed-service-principal-certificate/certificates.png)
+    ![Schermopname van de pagina Sleutelkluizen met Certificaten uitgelicht.](media/embed-service-principal-certificate/certificates.png)
 
 5. Klik op **Genereren/importeren**.
 
-    ![genereren](media/embed-service-principal-certificate/generate.png)
+    ![Schermopname van het deelvenster Certificaat met Genereren/Importeren uitgelicht.](media/embed-service-principal-certificate/generate.png)
 
 6. Configureer de velden **Een certificaat maken** als volgt:
 
@@ -107,7 +107,7 @@ In deze sectie wordt beschreven hoe u een certificaat maakt met [Azure Key Vault
 
 1. Klik in uw Azure AD-toepassing op het tabblad **Certificaten en geheimen**.
 
-     ![toepassings-id](media/embed-service-principal/certificates-and-secrets.png)
+     ![Schermopname van het deelvenster Certificaten en geheimen voor een app in de Azure-portal.](media/embed-service-principal/certificates-and-secrets.png)
 
 2. Klik op **Certificaat uploaden** en upload het bestand *. CER* dat u hebt gemaakt en gedownload in de [eerste stap](#step-1---create-a-certificate) van deze zelfstudie. Het *.cer*-bestand bevat de openbare sleutel.
 
@@ -175,7 +175,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 ## <a name="configure-visual-studio-to-use-msi"></a>Visual Studio configureren om MSI te gebruiken
 
-Bij het maken van uw ingesloten oplossing kan het handig zijn om Visual Studio te configureren om Managed Service Identity (MSI) te gebruiken. [MSI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) is een functie waarmee u uw Azure AD-identiteit kunt beheren. Eenmaal geconfigureerd, kan deze in Visual Studio worden geverifieerd met uw Azure Key Vault.
+Bij het maken van uw ingesloten oplossing kan het handig zijn om Visual Studio te configureren om Managed Service Identity (MSI) te gebruiken. [MSI](/azure/active-directory/managed-identities-azure-resources/overview) is een functie waarmee u uw Azure AD-identiteit kunt beheren. Eenmaal geconfigureerd, kan deze in Visual Studio worden geverifieerd met uw Azure Key Vault.
 
 1. Open uw project in Visual Studio.
 
@@ -200,7 +200,7 @@ Bij het maken van uw ingesloten oplossing kan het handig zijn om Visual Studio t
 >[Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Toepassings- en service-principal-objecten in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Toepassings- en service-principal-objecten in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[Beveiliging op rijniveau met on-premises gegevensgateway met service-principal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

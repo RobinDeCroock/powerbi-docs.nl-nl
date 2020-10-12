@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218718"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635074"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
 
@@ -46,7 +46,7 @@ In dit voorbeeld wordt een kaarttegel gebruikt van het voorbeelddashboard voor r
 
 1. Selecteer eerst **+ Waarschuwingsregel toevoegen**. Controleer vervolgens of de schuifregelaar **Actief** is ingesteld op **Aan** en geef uw waarschuwing een titel. Titels helpen u de meldingen makkelijk te herkennen.
 
-   ![Venster Waarschuwingen beheren](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![Schermopname van het venster Waarschuwingen beheren met Waarschuwingsregel toevoegen, Waarschuwing voor alle winkels en Titel van de waarschuwing uitgelicht.](media/service-set-data-alerts/powerbi-alert-title.png)
 
 1. Schuif omlaag en voer de details van de melding in.  In dit voorbeeld maakt u een waarschuwing die u eenmaal per dag informeert als het totale aantal winkels de honderd overschrijdt.
 
@@ -93,7 +93,7 @@ U kunt meldingen op diverse manieren beheren:
 
     Alle waarschuwingen die u voor die tegel hebt ingesteld, worden weergegeven in Power BI.
 
-    ![Venster Waarschuwingen beheren](media/service-set-data-alerts/powerbi-see-alerts.png)
+    ![Schermopname van het venster Waarschuwingen beheren.](media/service-set-data-alerts/powerbi-see-alerts.png)
 
 1. Als u een tegel wilt wijzigen, selecteert u de pijl links van de naam van de melding.
 

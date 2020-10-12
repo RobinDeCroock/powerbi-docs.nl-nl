@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861010"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600406"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)
 
@@ -45,7 +45,7 @@ In de volgende stappen gaan we ervan uit dat u medebeheerder bent van het Azure-
 
 Meld u aan bij de [Azure-portal](https://portal.azure.com) en ga naar de pagina **Abonnementen**. U vindt deze pagina via de lijst **Alle services** in het navigatievenster.
 
-![Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
+![Schermopname van de Azure-portal met Abonnementen geselecteerd.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
 Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)** . Selecteer vervolgens **Roltoewijzing toevoegen**, selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
 
@@ -95,7 +95,7 @@ Op het volgende scherm wordt u gevraagd verbinding te maken met een gegevensbron
 
 Power Query Editor geeft een voorbeeld weer van de gegevens uit het CSV-bestand. Selecteer **Tabel transformeren** in de lintopdracht en selecteer vervolgens **De eerste rij als veldnamen gebruiken**.  Hiermee wordt de querystap _Headers met verhoogd niveau_ toegevoegd aan het paneel **Toegepaste stappen** aan de rechterkant. U kunt de query ook een meer toepasselijke naam geven, bijvoorbeeld _Autoprijzen_. Dit doet u in het paneel aan de rechterkant.
 
-![Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
+![Schermopname van Power Query-editor met een voorbeeld van de gegevens.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
 In onze brongegevensset zijn onbekende waarden ingesteld als '?'.  We kunnen dit opschonen door '?' te vervangen door '0', om toekomstige fouten te voorkomen.  Selecteer de kolommen *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* en *price* door op de naam te klikken in de kolomkoppen. Klik vervolgens op 'Kolommen transformeren' en selecteer 'Waarden vervangen'.  Vervang '?' door '0'.
 

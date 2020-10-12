@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239140"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632521"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>Inzichten in Power BI Desktop toepassen om te ontdekken waar distributies verschillen (preview)
 
@@ -110,18 +110,20 @@ Na het onderzoeken van verschillende kolommen en de waarden in die kolommen, wor
 
 Het is niet per se zo dat alle kolommen in het model binnen de beschikbare tijd worden onderzocht. U hebt dus niet de garantie dat de kolommen en waarden met de grootste invloed worden weergegeven. Er worden echter verschillende methoden toegepast om ervoor te zorgen dat de kolommen die waarschijnlijk interessante gegevens bevatten als eerste worden onderzocht. Stel bijvoorbeeld dat, na het onderzoeken van alle kolommen, wordt bepaald dat de volgende kolommen/waarden de grootste invloed hebben op de verdeling (van de meeste naar de minste invloed):
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 De kolommen zouden als volgt worden uitgevoerd:
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* Subcategorie: Toerfietsen, Mountainbikes, Racefietsen (slechts drie vermeld, met de tekst "...onder andere" om aan te geven dat meer dan drie een aanzienlijke impact hebben) 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* Kanaal = Direct (alleen Direct wordt vermeld, als de impact daarvan veel groter was dan Winkel)
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 In de volgende lijst vindt u een aantal scenario's voor **inzichten** die worden ondersteund:
@@ -143,8 +145,8 @@ Daarnaast worden de volgende modeltypen en gegevensbronnen niet voor inzichten o
 Lees de volgende artikelen voor meer informatie over **Power BI Desktop** en hoe u aan de slag kunt.
 
 * [Wat is Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
-* [Queryoverzicht met Power BI Desktop](../transform-model/desktop-query-overview.md)
-* [Gegevensbronnen in Power BI Desktop](../connect-data/desktop-data-sources.md)
+* [Query Overview with Power BI Desktop](../transform-model/desktop-query-overview.md) (Queryoverzicht met Power BI Desktop)
+* [Data Sources in Power BI Desktop](../connect-data/desktop-data-sources.md) (Gegevensbronnen in Power BI Desktop)
 * [Connect to Data in Power BI Desktop](../connect-data/desktop-connect-to-data.md) (Verbinding maken met gegevens in Power BI Desktop)
-* [Gegevens vormgeven en combineren met Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md)
-* [Algemene querytaken in Power BI Desktop](../transform-model/desktop-common-query-tasks.md)   
+* [Shape and Combine Data with Power BI Desktop](../connect-data/desktop-shape-and-combine-data.md) (Gegevens vormgeven en combineren met Power BI Desktop)
+* [Common Query Tasks in Power BI Desktop](../transform-model/desktop-common-query-tasks.md) (Algemene querytaken in Power BI Desktop)   

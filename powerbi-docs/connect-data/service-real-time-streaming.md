@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fb5807dd0a5bfa5d3223a8c436da475c51d8d8a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec0c4cf9e719615489cbba5929f329e6f4f58826
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860619"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634522"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Realtimestreaming van Power BI laat u gegevens streamen en dashboards in real time bijwerken. Elke visual of dashboard dat is gemaakt in Power BI, kan voor realtimegegevens en visuals weergeven en bijwerken. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook metrische gebruiksgegevens van services en vele andere apparaten waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -52,7 +52,7 @@ De enige manier om een streaminggegevensset te visualiseren, is door het toevoeg
 In de praktijk zijn streaminggegevenssets en de bijbehorende visuele elementen het meest geschikt voor situaties waarin het essentieel is om de vertraging tussen het pushen en visualiseren van de gegevens zoveel mogelijk te beperken. Bovendien wordt het aanbevolen om de gegevens te pushen in een indeling die als zodanig kan worden weergegeven, dus zonder dat extra aggregaties nodig zijn. Voorbeelden van dergelijke gegevens zijn temperaturen en vooraf berekende gemiddelden.
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub-streaminggegevensset
-In het geval van een **PubNub**-streaminggegevensset gebruikt de Power BI-webclient de PubNub-SDK om een bestaande PubNub-gegevensstroom te lezen. Er worden geen gegevens opgeslagen door de Power BI-service. Omdat deze aanroep rechtstreeks vanuit de webclient wordt gedaan, moet u verkeer naar PubNub in de whitelist opnemen als u tot dusver alleen uitgaand verkeer van uw netwerk toestaat. Raadpleeg de instructies in het ondersteuningsartikel over het [in de whitelist opnemen van uitgaand verkeer voor PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
+In het geval van een **PubNub**-streaminggegevensset gebruikt de Power BI-webclient de PubNub-SDK om een bestaande PubNub-gegevensstroom te lezen. Er worden geen gegevens opgeslagen door de Power BI-service. Omdat deze aanroep rechtstreeks vanuit de webclient wordt gedaan, moet u verkeer naar PubNub in de whitelist opnemen als u tot dusver alleen goedgekeurd uitgaand verkeer van uw netwerk toestaat. Raadpleeg de instructies in het ondersteuningsartikel over het [goedkeuren van uitgaand verkeer voor PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
 
 Net als een **streaminggegevensset** heeft de **PubNub-streaminggegevensset** geen onderliggende database in Power BI en kunt u dus geen visuele rapportelementen maken op basis van de gegevens die via de stream binnenkomen. U kunt dus evenmin voordeel hebben van rapportfunctionaliteit zoals filters, Power BI-visuals enzovoort. Dit betekent dat ook de **PubNub-streaminggegevensset** alleen kan worden gevisualiseerd door een tegel toe te voegen aan het dashboard, en een PubNub-gegevensstroom als de bron te configureren.
 
@@ -183,12 +183,9 @@ In dit voorbeeld gebruiken we een vrij toegankelijke stream van **PubNub**. Dit 
 2. Als u nog geen bronnen voor streaminggegevens hebt, selecteert u de koppeling **gegevens beheren** (net boven de knop **Volgende**) en selecteert u daarna **+ Streaminggegevens toevoegen** via de koppeling rechtsboven in het venster. Selecteer **PubNub** en selecteer vervolgens **Volgende**.
 3. Geef een naam op voor de gegevensset, plak de volgende waarden in het venster dat wordt weergegeven en selecteer ten slotte **Volgende**:
    
-   *Subsleutel:*
-   
-       sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe
-   *Kanaalnaam:*
-   
-       pubnub-sensor-network
+   **Subsleutel:** *sub-c-5f1b7c8e-fbee-11e3-aa40-02ee2ddab7fe*
+
+   **Kanaal:** *pubnub-sensor-network*
    
    ![Schermopname van het dialoogvenster Nieuwe streaminggegevens waarin wordt getoond hoe u een gegevensset en -vermeldingen kunt maken in de velden Subsleutel en Kanaalnaam.](media/service-real-time-streaming/real-time-streaming_8.png)
 4. In het volgende venster kunt u de standaardinstellingen laten staan (deze worden automatisch ingevuld). Selecteer vervolgens **Maken**.

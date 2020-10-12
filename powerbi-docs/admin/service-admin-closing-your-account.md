@@ -6,19 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/09/2019
+ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: d5028e4aaa1bbb864f14c3f3cdb58d136275e5fc
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 076a1a65e275d58b54e340e30083d1c2a19ebbbf
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161233"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374406"
 ---
 # <a name="close-your-power-bi-account"></a>Uw Power BI-account beëindigen
 
-Als u Power BI niet meer wilt gebruiken, kunt u een verzoek indienen om uw Power BI-account te sluiten.  Nadat u uw account hebt gesloten, kunt u zich niet meer aanmelden bij Power BI. Bovendien worden, overeenkomstig het gegevensretentiebeleid in de servicevoorwaarden van Power BI, alle klantgegevens verwijderd die u hebt geüpload of gemaakt. Deze gegevens blijven dus niet behouden.
+Als u Power BI niet meer wilt gebruiken, kunt u een verzoek indienen om uw Power BI-account te sluiten.  Nadat u uw account hebt gesloten, kunt u zich niet meer aanmelden bij Power BI. Bovendien worden, overeenkomstig het gegevensretentiebeleid in de [serviceovereenkomst van Power BI](https://azure.microsoft.com/support/legal/subscription-agreement/), alle klantgegevens verwijderd die u hebt geüpload of gemaakt.
 
 ## <a name="individual-power-bi-users"></a>Individuele Power BI-gebruikers
 
@@ -26,7 +26,7 @@ Als u zich als individu hebt geregistreerd voor Power BI, kunt u uw account slui
 
 1. Selecteer in Power BI rechtsboven het tandwielpictogram en selecteer vervolgens **Instellingen**.
 
-    ![Schermopname van de rechterbovenhoek van de gebruikersinterface met het tandwielpictogram en de optie Instellingen.](media/service-admin-closing-your-account/close-account-settings.png)
+    ![Schermopname van de rechterbovenhoek van de gebruikersinterface met het tandwielpictogram en de optie Instellingen uitgelicht.](media/service-admin-closing-your-account/close-account-settings.png)
 
 1. Selecteer **Account sluiten** op het tabblad **Algemeen**.
 
@@ -44,9 +44,9 @@ Als u zich als individu hebt geregistreerd voor Power BI, kunt u uw account slui
 
     ![Schermopname van het bevestigingsvenster dat uw account is gesloten.](media/service-admin-closing-your-account/close-account-settings-5.png)
 
-## <a name="managed-tenant-users"></a>Beheerde tenantgebruikers
+## <a name="managed-users"></a>Beheerde gebruikers
 
-Als u door uw organisatie bent geregistreerd voor Power BI, neemt u contact op met de tenantbeheerder. Vraag de beheerder om de licentie voor uw account in te trekken.
+Als u door uw organisatie bent geregistreerd voor Power BI, neemt u contact op met de beheerder. Vraag de beheerder om de licentie voor uw account in te trekken.
 
 ![Schermopname van het item Beheerd account sluiten.](media/service-admin-closing-your-account/close-account-managed.png)
 

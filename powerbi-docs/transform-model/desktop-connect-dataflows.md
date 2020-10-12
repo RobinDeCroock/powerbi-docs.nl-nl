@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 66e94ed2af0b9dc9cf3600594fc6679bd7261b12
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 24635df4a07f0f73a701fcb9d30b5db3ef678666
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861079"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668454"
 ---
 # <a name="connect-to-data-created-by-power-platform-dataflows-in-power-bi-desktop"></a>Verbinding maken met gegevens die zijn gemaakt met Power Platform-gegevensstromen in Power BI Desktop
 In **Power BI Desktop** kunt u verbinding maken met gegevens die zijn gemaakt door **Power Platform-gegevensstromen**, zoals met elke andere gegevensbron in Power BI Desktop.
@@ -37,7 +37,7 @@ U kunt de prestaties van gegevensopname voor gegevensstromen verbeteren. Als de 
 
 Op deze manier wordt de verwerking van grote aantallen gegevens online uitgevoerd in gegevensstromen, in plaats van lokaal in het actieve exemplaar van **Power BI Desktop**. Met deze aanpak kunnen in Power BI Desktop kleinere aantallen gegevens worden opgenomen, en blijft het werken met gegevensstromen responsief en snel.
 
-## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
+## <a name="additional-considerations"></a>Aanvullende overwegingen
 
 De meeste gegevensstromen bevinden zich in de Power BI-service-tenant. Gebruikers van **Power BI Desktop** hebben echter geen toegang tot gegevensstromen die zijn opgeslagen in het Azure Data Lake Storage Gen2-account, tenzij ze eigenaar zijn van de gegevensstroom of ze expliciet geautoriseerd zijn voor de CDM-map van de gegevensstroom. Kijk eens naar de volgende situatie:
 
@@ -45,28 +45,21 @@ De meeste gegevensstromen bevinden zich in de Power BI-service-tenant. Gebruiker
 2.  Ben, die ook lid is van de werkruimte die Anna heeft gemaakt, wil Power BI Desktop en de gegevensstroomconnector gebruiken om gegevens op te halen uit de gegevensstroom die Anna heeft gemaakt.
 3.  Ben krijgt een foutmelding omdat hij niet als geautoriseerde gebruiker is toegevoegd aan de CDM-map van de gegevensstroom in de data lake.
 
-    ![Fout bij openen van gegevensstroom](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
-
-Om dit probleem op te lossen, moeten aan Ben leesmachtigingen voor de CDM-map en de bijbehorende bestanden worden verleend. Meer informatie over het verlenen van toegang tot de CDM-map vindt u in [dit artikel](./service-dataflows-azure-data-lake-integration.md).
+Om dit probleem op te lossen, moeten aan Ben leesmachtigingen voor de CDM-map en de bijbehorende bestanden worden verleend. Meer informatie over het verlenen van toegang tot de CDM-map vindt u in [Een gegevensstroom configureren en gebruiken](dataflows/dataflows-configure-consume.md).
 
 
 
 
 ## <a name="next-steps"></a>Volgende stappen
-U kunt allerlei interessante dingen doen met Power Platform-gegevensstromen. Bekijk de volgende resources voor meer informatie:
+U kunt allerlei interessante dingen doen met gegevensstromen. Bekijk de volgende resources voor meer informatie:
 
-* [Self-service data prep with dataflows](service-dataflows-overview.md) (Selfservice voor gegevensvoorbereiding met gegevensstromen)
-* [Gegevensstromen maken en gebruiken in Power BI](service-dataflows-create-use.md)
-* [Berekende entiteiten gebruiken in Power BI Premium (preview)](service-dataflows-computed-entities-premium.md)
-* [Gegevensstromen gebruiken met on-premises gegevensbronnen (preview)](service-dataflows-on-premises-gateways.md)
-* [Resources voor ontwikkelaars voor Power Platform-gegevensstromen (preview)](service-dataflows-developer-resources.md)
+* [Inleiding tot gegevensstromen en selfservice voor gegevensvoorbereiding](dataflows/dataflows-introduction-self-service.md)
+* [Een gegevensstroom maken](dataflows/dataflows-create.md)
+* [Een gegevensstroom configureren en gebruiken](dataflows/dataflows-configure-consume.md)
+* [Gegevensstroomopslag configureren voor gebruik van Azure Data Lake Gen 2](dataflows/dataflows-azure-data-lake-storage-integration.md)
+* [Premium-functies van gegevensstromen](dataflows/dataflows-premium-features.md)
+* [AI met gegevensstromen](dataflows/dataflows-machine-learning-integration.md)
 
-Raadpleeg de volgende artikelen voor meer informatie over integratie met Azure Data Lake Storage Gen2:
-
-* [Integratie van gegevensstromen en Azure Data Lake (preview)](service-dataflows-azure-data-lake-integration.md)
-* [Gegevensstroominstellingen voor werkruimten configureren (preview)](service-dataflows-configure-workspace-storage-settings.md)
-* [Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)](service-dataflows-add-cdm-folder.md)
-* [Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag (preview)](service-dataflows-connect-azure-data-lake-storage-gen2.md)
 
 Er zijn ook artikelen over **Power BI Desktop** die u misschien nuttig vindt:
 

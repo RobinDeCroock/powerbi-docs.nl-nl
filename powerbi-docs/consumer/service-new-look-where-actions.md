@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: c184fa19c2d94690f8609871babf5b60b2855b99
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 13792dbefbb459f4a3bb428b5965c6c56eff4b8c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538051"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600099"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Het nieuwe uiterlijk: Waar zijn de acties gebleven?
 
@@ -38,17 +38,17 @@ Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het b
 | Aan breedte aanpassen | Weergeven > Aan breedte aanpassen | Menubalk Weergeven (rechterkant) > Aan breedte aanpassen |
 | Werkelijke grootte | Weergeven > Werkelijke grootte | Menubalk Weergeven (rechterkant) > Werkelijke grootte |
 | Kleuren met hoog contrast | Weergeven > Kleuren met hoog contrast | Menubalk Weergeven (rechterkant) > Kleuren met hoog contrast |
-| Deelvenster Bladwijzers | Weergeven > Deelvenster Bladwijzers |  Menubalk Bladwijzers > Meer bladwijzers weergeven |
-| Vernieuwen | Vernieuwen | Menubalk Meer opties (...) > Vernieuwen |
+| Deelvenster Bladwijzers | Weergeven > Deelvenster Bladwijzers |  Menubalk Bladwijzers (rechterkant) > Meer bladwijzers weergeven |
+| Vernieuwen | Vernieuwen | Menubalk (rechterkant) > Vernieuwen |
 | Een live-pagina vastmaken | Een live-pagina vastmaken | Menubalk Meer opties (...) > Een live-pagina vastmaken |
 | Standaardinstelling herstellen | Standaardinstelling herstellen | Standaardinstelling herstellen |
 | Opmerkingen | Opmerkingen | Opmerkingen |
 | Gerelateerde items weergeven | Gerelateerde items weergeven | Menubalk Meer opties (...) > Gerelateerde items weergeven |
 | Favoriet | Favoriet | Favoriet |
 | Abonneren | Abonneren |Abonneren |
-| Delen | Delen | Delen |
-| QR-code genereren | Menubalk Meer opties (...) > QR-code genereren | Menubalk Meer opties (...) > QR-code genereren |
-| In Excel analyseren | Menubalk Meer opties (...) > In Excel analyseren | Menubalk Meer opties (...) > In Excel analyseren |
+| Delen | Delen | Delen > Rapport |
+| QR-code genereren | Menubalk Meer opties (...) > QR-code genereren | Delen > QR-code genereren |
+| In Excel analyseren | Menubalk Meer opties (...) > In Excel analyseren | Exporteren > Analyseren in Excel |
 | Modus volledig scherm | Modus volledig scherm | Weergave bovenste balk (rechterkant) > Volledig scherm |
 
 ## <a name="dashboard-actions-in-the-new-look"></a>Dashboardacties in het nieuwe uiterlijk

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856824"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374885"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI
 
@@ -67,7 +67,7 @@ Bij de instructies in deze sectie wordt ervan uitgegaan dat u beschikt over basi
 
 1. Selecteer onder **sleutelmachtigingen** de opties **Sleutel uitpakken** en **Sleutel verpakken**.
 
-    ![Onderdelen van PBIX-bestanden](media/service-encryption-byok/service-principal.png)
+    ![PBIX-bestand, service-principal selecteren en cryptografische bewerkingen](media/service-encryption-byok/service-principal.png)
 
 1. Selecteer **OK** en vervolgens **Opslaan**.
 
@@ -80,7 +80,7 @@ Bij de instructies in deze sectie wordt ervan uitgegaan dat u beschikt over basi
 
 1. Selecteer RSA als **Sleuteltype** en 4096 als **Grootte van RSA-sleutel**.
 
-    ![Onderdelen van PBIX-bestanden](media/service-encryption-byok/create-rsa-key.png)
+    ![Een sleutel maken met sleuteltype en -grootte gemarkeerd](media/service-encryption-byok/create-rsa-key.png)
 
 1. Selecteer **Maken**.
 
@@ -90,7 +90,7 @@ Bij de instructies in deze sectie wordt ervan uitgegaan dat u beschikt over basi
 
 1. Controleer of **Sleutel verpakken** en **Sleutel uitpakken** beide zijn geselecteerd. Kopieer de te gebruiken **Sleutel-id** bij het inschakelen van BYOK in Power BI.
 
-    ![Onderdelen van PBIX-bestanden](media/service-encryption-byok/key-properties.png)
+    ![Eigenschappen met sleutel-id en toegestane bewerkingen gemarkeerd](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>De optie Voorlopig verwijderen
 
@@ -114,7 +114,7 @@ Let op de volgende aandachtspunten voordat u BYOK inschakelt:
 
 ### <a name="enable-byok"></a>BYOK inschakelen
 
-Om BYOK in te schakelen moet u een tenantbeheerder van de Power BI-service zijn en zijn aangemeld met behulp van de cmdlet `Connect-PowerBIServiceAccount`. Gebruik vervolgens [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) om BYOK in te schakelen, zoals weergegeven in het volgende voorbeeld:
+Om BYOK te kunnen inschakelen, moet u een Power BI-beheerder zijn en zich hebben aangemeld met de cmdlet `Connect-PowerBIServiceAccount`. Gebruik vervolgens [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) om BYOK in te schakelen, zoals weergegeven in het volgende voorbeeld:
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
