@@ -1,16 +1,16 @@
 - name: Power BI verkennen (../consumer)
-  href: 'https://docs.microsoft.com/learn/modules/explore-power-bi-service'
+  href: /learn/modules/explore-power-bi-service
 - name: Gegevens analyseren in Power BI (../consumer)
-  href: 'https://docs.microsoft.com/learn/modules/analyze-data-power-bi'
+  href: /learn/modules/analyze-data-power-bi
 - name: Beginnen met bouwen met Power BI
-  href: 'https://docs.microsoft.com/learn/modules/get-started-with-power-bi'
+  href: /learn/modules/get-started-with-power-bi
 - name: Gegevens ophalen
-  href: 'https://docs.microsoft.com/learn/modules/get-data-power-bi'
+  href: /learn/modules/get-data-power-bi
 - name: Gegevens modelleren
-  href: 'https://docs.microsoft.com/learn/modules/model-data-power-bi'
+  href: /learn/modules/model-data-power-bi
 - name: Visuals gebruiken
-  href: 'https://docs.microsoft.com/learn/modules/visuals-in-power-bi'
+  href: /learn/modules/visuals-in-power-bi
 - name: Gegevens verkennen
-  href: 'https://docs.microsoft.com/learn/modules/explore-data-power-bi'
+  href: /learn/modules/explore-data-power-bi
 - name: Publiceren en delen
   href: 'https://docs.microsoft.com/learn/modules/publish-share-power-bi'
