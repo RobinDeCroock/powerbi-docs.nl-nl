@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7f36ada69f1ee98c7392d05eb169947c600774e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221649"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635764"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Lintgrafieken maken in Power BI
 
@@ -24,7 +24,7 @@ ms.locfileid: "85221649"
 
 U kunt lintgrafieken maken om gegevens te visualiseren en snel te ontdekken welke gegevenscategorie de hoogste rang heeft (hoogste waarde). In lintgrafieken kunnen wijzigingen in de rang goed worden weergegeven, waarbij voor elke periode de hoogste rang (waarde) altijd bovenaan wordt weergegeven. 
 
-![lintgrafiek](media/desktop-ribbon-charts/ribbon-charts-01.png)
+![Schermopname toont een lintgrafiek met gegevens voor audio, mobiele telefoons en andere categorieën die worden weergegeven per jaar en kwartaal.](media/desktop-ribbon-charts/ribbon-charts-01.png)
 
 > [!NOTE]
 > Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit. Zie [Rapporten delen](../collaborate-share/service-share-reports.md) voor meer informatie.
@@ -57,12 +57,12 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 3. Het lintdiagram toont de positie van elke maand. U ziet hoe de positie in de tijd verandert. De categorie Start gaat bijvoorbeeld van tweede naar vijfde van februari naar maart.
 
-    ![lintgrafiek](media/desktop-ribbon-charts/power-bi-ribbon.png)
+    ![Schermopname van de lintgrafiek die u hebt gemaakt met enkele gegevens gemarkeerd.](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>Een lintgrafiek opmaken
 Als u een lintgrafiek maakt, hebt u de beschikking over opmaakopties in de sectie **Opmaken** van het deelvenster **Visualisaties**. De opmaakopties voor lintgrafieken zijn soortgelijk als die voor een gestapelde kolomdiagram. Voor linten zijn er daarnaast aanvullende opmaakopties beschikbaar.
 
-![lintsjabloon in het deelvenster Visualisatie](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
+![Schermopname van het pictogram geselecteerd en het gebied Linten uitgevouwen.](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 Met deze opmaakopties voor lintgrafieken kunt u de volgende aanpassingen maken.
 
@@ -77,7 +77,7 @@ Omdat het lintdiagram geen Y-as-labels bevat, kunt u eventueel gegevenslabels to
 
 opmaakopties instellen voor uw gegevenslabels. In dit voorbeeld hebben we de tekstkleur op wit en de weergave-eenheden op duizenden ingesteld.
 
-![lintsjabloon in het deelvenster Visualisatie](media/desktop-ribbon-charts/power-bi-data-labels.png)
+![Schermopname van de definitieve opgemaakte lintgrafiek.](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 

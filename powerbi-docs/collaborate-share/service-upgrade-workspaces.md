@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 09/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 432c526479465da5d22e17172582c7f1d2cceb0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225286"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633050"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Een upgraden uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI
 
@@ -27,7 +27,7 @@ In dit artikel wordt uitgelegd hoe u een klassieke werkruimte bijwerkt of *migre
 
 Mogelijk moet u wel rekening houden met bepaalde wijzigingen in uw werkruimte. Inhoudspakketten worden bijvoorbeeld niet ondersteund in de nieuwe werkruimte-ervaring. Zie de sectie [Overwegingen en beperkingen voor de upgrade](#upgrade-considerations-and-limitations) verderop in dit artikel.
 
-## <a name="things-to-do-after-upgrading"></a>Wat u moet doen na de upgrade
+## <a name="things-to-plan-before-upgrading"></a>Dingen die u moet plannen voordat u een upgrade uitvoert
 
 U moet een aantal dingen doen *na* de upgrade. U kunt deze het beste plannen *voordat* u de upgrade uitvoert:
 - Bekijk de toegangslijst en zorg ervoor dat u op de hoogte bent van de [machtigingen na de upgrade](#permissions-after-upgrade).
@@ -52,7 +52,7 @@ Elke werkruimtebeheerder kan de werkruimte upgraden. Voor klassieke werkruimten 
 
 2. Tijdens de upgrade ziet u het bericht dat de **upgrade wordt uitgevoerd**. Meestal duurt het nog geen minuut om uw werkruimte bij te werken.
 
-1. Nadat de upgrade is voltooid, wordt een dialoogvenster weergegeven dat de upgrade is **geslaagd**. U wordt aangeraden [Werk organiseren in de nieuwe werkruimten in Power BI](service-new-workspaces.md) te lezen, zodat u op de hoogte bent van de verschillen tussen nieuwe werkruimten en klassieke werkruimten.
+1. Nadat de upgrade is voltooid, wordt een dialoogvenster weergegeven dat de upgrade is **geslaagd**. U ziet uw nieuwe werkruimte-ervaring met dezelfde naam en inhoud. U wordt aangeraden [Werk organiseren in de nieuwe werkruimten in Power BI](service-new-workspaces.md) te lezen, zodat u op de hoogte bent van de verschillen tussen nieuwe werkruimten en klassieke werkruimten.
 
 ### <a name="impact-on-other-workspace-users"></a>Gevolgen voor andere gebruikers van de werkruimte
 
@@ -62,6 +62,7 @@ Gebruikers die de werkruimte actief gebruiken, wordt gevraagd hun browser te ver
 
 ## <a name="upgrade-considerations-and-limitations"></a>Overwegingen en beperkingen voor de upgrade
 
+- Na de upgrade wordt de inhoud van de klassieke werkruimte weergegeven in de nieuwe werkruimte. Hij wordt ook vermeld in **Gedeeld met mij**.
 - De URL's en id's van uw werkruimte, de inhoud van de werkruimte en de app die vanuit de werkruimte wordt gepubliceerd, blijven hetzelfde. Inhoud van inhoudspakketten die in uw werkruimte zijn geïnstalleerd, wordt afzonderlijk afgehandeld. Zie [Inhoudspakketten tijdens de upgrade](#content-packs-during-upgrade) in dit artikel voor meer informatie.
 - Inhoudspakketten worden niet ondersteund in de nieuwe werkruimte-ervaring. Lees de secties over [gepubliceerde inhoudspakketten](#published-content-packs) of [geïnstalleerde inhoudspakketten](#installed-content-packs) voor meer informatie over hoe deze worden afgehandeld tijdens de upgrade. Het is raadzaam om inhoudspakketten die in uw werkruimte zijn geïnstalleerd of gepubliceerd te verwijderen voordat u de upgrade uitvoert.
 - De Microsoft 365-groep voor uw klassieke werkruimte wordt niet beïnvloed door de upgrade van de werkruimte in Power BI. Alle teams, SharePoint-sites, postvakken of andere resources die worden beheerd door Microsoft 365, worden niet gewijzigd. Ze blijven intact wanneer u de upgrade van uw Power BI-werkruimte uitvoert. Ook de Microsoft 365-groep blijft hetzelfde.
@@ -111,7 +112,7 @@ De nieuwe werkruimte-ervaring bevat functies die niet beschikbaar zijn in de kla
 
 1. Selecteer **Instellingen** in de menubalk boven aan de lijst met werkruimte-inhoud om de instellingen voor de werkruimte weer te geven.
 
-    ![Instellingen voor werkruimte](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![Schermopname van het selecteren van Instellingen in de menubalk.](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. Onder **Geavanceerd**, bij **Lijst met contactpersonen**, is de Microsoft 365-groep geconfigureerd waarmee de upgrade van de werkruimte is uitgevoerd. U kunt meer gebruikers of groepen toevoegen aan de lijst met contactpersonen of overschakelen naar werkruimtebeheerders.
 
@@ -119,11 +120,11 @@ De nieuwe werkruimte-ervaring bevat functies die niet beschikbaar zijn in de kla
 
 ### <a name="the-workspace-onedrive"></a>De werkruimte OneDrive 
 
-Na de upgrade is de werkruimte **OneDrive-** verbonden met de SharePoint-documentbibliotheek van de Microsoft 365-groep. Deze documentbibliotheek wordt weergegeven als de optie **OneDrive** onder **> Gegevens ophalen > Bestanden**. Houd er rekening mee dat gebruikers van de werkruimte alleen zijn gemachtigd voor deze documentbibliotheek als ze lid zijn van de Microsoft 365-groep.
+Na de upgrade is de werkruimte **OneDrive-** verbonden met de SharePoint-documentbibliotheek van de Microsoft 365-groep. Deze documentbibliotheek wordt weergegeven als de optie **OneDrive** onder **> Gegevens ophalen > Bestanden**. Mogelijk zijn niet alle gebruikers van de werkruimte gemachtigd voor deze documentbibliotheek als ze geen lid zijn van de Microsoft 365-groep.
 
 ## <a name="content-packs-during-upgrade"></a>Inhoudspakketten tijdens de upgrade
 
-De nieuwe werkruimte-ervaring biedt geen ondersteuning voor inhoudspakketten. Gebruik in plaats daarvan apps en gedeelde gegevenssets voor het distribueren van inhoud in de werkruimte. U kunt het beste gepubliceerde of geïnstalleerde inhoudspakketten uit de werkruimte verwijderen voordat u de upgrade uitvoert. Als er echter inhoudspakketten zijn gepubliceerd of geïnstalleerd wanneer u een upgrade uitvoert, wordt geprobeerd de inhoud te behouden, zoals hieronder wordt beschreven.  Er is geen manier om het inhoudspakket of de koppeling van inhoud aan het inhoudspakket te herstellen na de upgrade.
+De nieuwe werkruimte-ervaring biedt geen ondersteuning voor inhoudspakketten. Gebruik in plaats daarvan apps en gedeelde gegevenssets voor het distribueren van inhoud in de werkruimte. U kunt het beste gepubliceerde of geïnstalleerde inhoudspakketten uit de werkruimte verwijderen voordat u de upgrade uitvoert. Als er echter inhoudspakketten zijn gepubliceerd of geïnstalleerd wanneer u een upgrade uitvoert, wordt geprobeerd de inhoud te behouden, zoals verderop in dit artikel wordt beschreven.  Er is geen manier om het inhoudspakket of de koppeling van inhoud aan het inhoudspakket te herstellen na de upgrade.
 
 ### <a name="published-content-packs"></a>Gepubliceerde inhoudspakketten
 
@@ -148,7 +149,7 @@ Om te kunnen terugkeren, moet u een eigenaar zijn van de Microsoft 365-groep waa
 
 1. Selecteer in de lijst Inhoud van de werkruimte **Meer opties** ( **...** ) > **Instellingen voor werkruimte**.
 
-    ![Instellingen voor werkruimte](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![Schermopname van het selecteren van Meer opties (...) > Instellingen voor werkruimte.](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. Vouw **Geavanceerd** uit en selecteer **Terugkeren naar klassiek**. Als deze optie niet beschikbaar is, raadpleegt u [Overwegingen voor terugkeer naar klassiek](#considerations-for-switching-back-to-classic) in dit artikel.
 
@@ -202,10 +203,10 @@ De werkruimte-upgradefunctie biedt geen hulpprogramma's voor bulksgewijze of pro
    
 ## <a name="known-issues"></a>Bekende problemen
 
-Er zijn een aantal bekende problemen waarmee u te maken kunt krijgen:
-- Nadat gebruikers een upgrade hebben uitgevoerd, zien ze mogelijk een dialoogvenster met de waarschuwing 'Failure to load model' (Kan model niet laden). Dit bericht wordt onbedoeld weergegeven en kan worden genegeerd. 
-- Nadat de upgrade is uitgevoerd, zijn een aantal namen van werkruimten gewijzigd. Wanneer dit zich voordoet, is de werkruimtenaam teruggezet naar een eerdere naam voor de werkruimte of wordt de werkruimtenaam leeg. U kunt dit probleem oplossen door de naam van de werkruimte te wijzigen in de gewenste naam.
-- Nadat een werkruimte met een geïnstalleerd inhoudspakket is geüpgraded, ziet u mogelijk extra dashboards in de werkruimte die vóór de upgrade niet zichtbaar waren. Dit gebeurt in een aantal gevallen wanneer een inhoudspakket niet recent is bijgewerkt. U kunt deze dashboards veilig verwijderen.
+Er zijn een aantal bekende problemen waarmee u te maken kunt krijgen na het uitvoeren van de upgrade:
+- Mogelijk wordt het waarschuwingsdialoogvenster Fout bij het laden van model weergegeven. Dit bericht wordt onbedoeld weergegeven en kan worden genegeerd. 
+- De namen van een aantal werkruimten zijn anders na het uitvoeren van de upgrade. Wanneer dit zich voordoet, is de werkruimtenaam teruggezet naar een eerdere naam voor de werkruimte of is de werkruimtenaam leeg. U kunt dit probleem oplossen door de naam van de werkruimte te wijzigen in de gewenste naam.
+- In een werkruimte die een geïnstalleerd inhoudspakket had, ziet u mogelijk extra dashboards die niet zichtbaar waren vóór het uitvoeren van de upgrade. In dit geval is een inhoudspakket mogelijk niet recent bijgewerkt. U kunt deze dashboards veilig verwijderen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

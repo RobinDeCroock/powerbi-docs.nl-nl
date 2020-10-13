@@ -1,6 +1,6 @@
 ---
 title: URL-parameters in gepagineerde rapporten - Power BI Report Builder
-description: In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van Power BI Report Builder, de eigenschappen die u kunt instellen, en nog veel meer beschreven.
+description: Informatie over het verzenden van opdrachten naar gepagineerde rapporten in Power BI door een parameter toe te voegen aan een URL, die u kunt opnemen in een e-mailbericht of op een webpagina.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859400"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747477"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>URL-parameters in gepagineerde rapporten in Power BI
 

@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276370"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747546"
 ---
 # <a name="create-an-ssl-certificate"></a>Een SSL-certificaat maken
 
 In dit artikel wordt beschreven hoe u SSL-certificaten (Secure Sockets Layer) voor Power BI-visuals genereert en installeert.
 
-Voor de procedures in Windows, macOS X en Linux moet u het Power BI Visual Tools-pakket **pbiviz** geïnstalleerd hebben. Zie [De ontwikkelomgeving instellen](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment) voor meer informatie. 
+Voor de procedures in Windows, macOS X en Linux moet u het Power BI Visual Tools-pakket **pbiviz** geïnstalleerd hebben. Zie [De ontwikkelomgeving instellen](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment) voor meer informatie. 
 
 ## <a name="create-a-certificate-on-windows"></a>Een certificaat maken in Windows
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 In Windows 7 moet het hulpprogramma OpenSSL beschikbaar zijn vanaf de opdrachtregel in `pbiviz`. Als u OpenSSL wilt installeren, gaat u naar [OpenSSL](https://www.openssl.org) of [OpenSSL Binaries](https://wiki.openssl.org/index.php/Binaries).
 
-Zie [Een certificaat maken en installeren in Windows](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows) voor meer informatie en instructies voor het installeren van een certificaat.
+Zie [Een certificaat maken en installeren in Windows](./custom-visual-develop-tutorial.md#windows) voor meer informatie en instructies voor het installeren van een certificaat.
 
 ## <a name="create-a-certificate-on-macos-x"></a>Een certificaat maken in macOS X
 
@@ -58,7 +58,7 @@ Nadat u het hulpprogramma OpenSSL hebt geïnstalleerd, voert u de volgende opdra
 pbiviz --install-cert
 ```
 
-Zie [Een certificaat maken en installeren in OS X](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx) voor meer informatie en instructies.
+Zie [Een certificaat maken en installeren in OS X](./custom-visual-develop-tutorial.md#osx) voor meer informatie en instructies.
 
 ## <a name="create-a-certificate-on-linux"></a>Een certificaat maken in Linux
 
@@ -184,7 +184,7 @@ Als voor uw PFX-certificaatbestand een wachtwoordzin is vereist, gaat u als volg
    \PowerBI-visuals-tools\config.json
    ```
    
-1. Geef in de sectie `server` de wachtwoordzin op door de tijdelijke aanduiding \<UW WACHTWOORDZIN> te vervangen:
+1. Geef in de sectie `server` de wachtwoordzin op door de tijdelijke aanduiding \<YOUR PASSPHRASE> te vervangen:
 
     ```cmd
     "server":{

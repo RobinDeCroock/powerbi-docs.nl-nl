@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
-ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75221770"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668316"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Zelfstudie: vragen stellen over uw gegevens met de virtuele Q&A-analist in de Power BI iOS-apps
 
@@ -92,13 +92,13 @@ Als u de zelfstudie hebt voltooid, kunt u het dashboard, het rapport en de gegev
 
 3. Klik op het tabblad Dashboards en klik vervolgens op de prullenbak op de regel van het voorbeeld van een verkoopkansanalyse.
 
-    ![Het pictogram Verwijderen selecteren](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
+    ![Schermopname van Power BI-werkruimte met een geselecteerd dashboard en het pictogram Verwijderen gemarkeerd.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
     Selecteer nu het tabblad Rapporten en doe hetzelfde.
 
 4. Selecteer nu het tabblad Gegevenssets, klik op **Meer opties** (...) en kies **Verwijderen**.
 
-    ![Het pictogram Verwijderen selecteren](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
+    ![Schermopname van Power BI-werkruimte met een gegevensset geselecteerd en Verwijderen geselecteerd in het menu Meer opties.](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 

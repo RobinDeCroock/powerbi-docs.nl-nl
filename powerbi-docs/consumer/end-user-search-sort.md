@@ -7,17 +7,17 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/09/2020
+ms.date: 10/01/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 799cbe00274e14709e6987df1f9c4abe664f9b55
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 1fbfa8a85ada8512aff54526407799a00fbfa891
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536257"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780339"
 ---
-# <a name="navigation-for-power-bi-consumers-global-search"></a>Navigatie voor Power BI-consumenten: algemene zoekopdracht
+# <a name="navigation-for-power-bi-business-users-global-search"></a>Navigatie voor zakelijke Power BI-gebruikers: algemene zoekopdracht
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
@@ -31,7 +31,7 @@ Wanneer u de Power BI-service voor het eerst gebruikt, is de inhoud nog te overz
 
  Typ in het zoekveld de volledige of gedeeltelijke naam van een dashboard, rapport, werkmap, werkruimte, app of eigenaar. Power BI doorzoekt al uw inhoud. 
 
- ![een rapport zoeken](./media/end-user-search-sort/power-bi-search-field.png) 
+ ![Schermopname van het zoekveld met het woord Inkoop ingevoerd.](./media/end-user-search-sort/power-bi-search-field.png) 
 
  In sommige gebieden van Power BI, zoals werkruimten, zijn twee verschillende zoekvelden beschikbaar. Met het zoekveld in de menubalk doorzoekt u al uw inhoud, terwijl het zoekveld op het canvas in de werkruimte alleen bedoeld is om te zoeken in die werkruimte.
 
@@ -39,24 +39,27 @@ Wanneer u de Power BI-service voor het eerst gebruikt, is de inhoud nog te overz
 
 ## <a name="sorting-content-lists"></a>Inhoudslijsten sorteren
 
-Als u nog niet veel inhoud hebt, is sorteren waarschijnlijk niet nodig.  Maar wanneer u lange lijsten met dashboards en rapporten hebt, kunt u met sorteren snel vinden wat u nodig hebt. Deze inhoudslijst **Gedeeld met mij** bevat bijvoorbeeld 257 items. 
+Als u nog niet veel inhoud hebt, is sorteren waarschijnlijk niet nodig.  Maar wanneer u lange lijsten met dashboards en rapporten hebt, kunt u met sorteren snel vinden wat u nodig hebt. Deze inhoudslijst **Gedeeld met mij** bevat bijvoorbeeld 70 items. 
 
-![inhoudslijst Gedeeld met mij](./media/end-user-search-sort/power-bi-all-shared.png)
+![inhoudslijst Gedeeld met mij](./media/end-user-search-sort/power-bi-a-to-z.png)
 
-Op dit moment wordt deze inhoudslijst alfabetisch gesorteerd op naam, van A tot Z. Als u de sorteercriteria wilt wijzigen, selecteert u de pijl rechts van **Naam (A-Z)** .
+Op dit moment wordt deze inhoudslijst alfabetisch gesorteerd op naam, van Z tot A. Als u de sorteercriteria wilt wijzigen, selecteert u de pijl rechts van **Naam (A-Z)** .
 
-![Vervolgkeuzelijst Sorteren](./media/end-user-search-sort/power-bi-sort-date.png)
+![Vervolgkeuzelijst Sorteren](./media/end-user-search-sort/power-bi-sort-z-to-a.png)
 
 
-Sorteren is ook beschikbaar in werkruimten. In dit voorbeeld is de inhoud gesorteerd op **Vernieuwd**. Als u sorteercriteria wilt instellen voor werkruimten, selecteert u kolomkoppen en selecteert u vervolgens de gewenste koptekst eenmaal en selecteert u de kop opnieuw om de sorteerrichting te wijzigen. 
+Sorteren is ook beschikbaar in werkruimten. In dit voorbeeld is de inhoud gesorteerd op **Vernieuwd**. Als u sorteercriteria wilt instellen voor werkruimten, selecteert u kolomkoppen en selecteert u deze opnieuw om de sorteerrichting te wijzigen. 
 
-![een rapport zoeken](./media/end-user-search-sort/power-bi-workspace-sort.png)
+
+![een rapport zoeken](./media/end-user-search-sort/power-bi-refreshed.png)
 
 Niet alle kolommen kunnen worden gesorteerd. Beweeg de muisaanwijzer over de kolomkoppen om te zien welke kolommen kunnen worden gesorteerd.
 
+## <a name="filtering-content-lists"></a>Inhoudslijsten filteren
+Een andere manier om snel inhoud te vinden, is door gebruik te maken van de inhoudslijst **Filters**. Geef de filters weer door **Filters** in de rechterbovenhoek te selecteren. Welke filters beschikbaar zijn, is afhankelijk van uw locatie in de Power BI-service.  Het onderstaande voorbeeld heeft betrekking op een **recente** inhoudslijst.  Hiermee kunt u de lijst filteren op inhoudstype.  In een **Gedeeld met mij**-inhoudslijst bevatten de beschikbare **filters** zowel Eigenaar als Inhoudstype.
 
-## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-* Voor gegevenssets is **sorteren op** eigenaar niet beschikbaar.
+![Schermopname van filter op inhoudslijst.](./media/end-user-search-sort/power-bi-sort-filters.png)
+
 
 ## <a name="next-steps"></a>Volgende stappen
 [Visuals sorteren in rapporten](end-user-change-sort.md)

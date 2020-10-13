@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264929"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634407"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>De virtuele Q&A-analist in iOS-apps - Power BI
 
@@ -52,7 +52,7 @@ Wanneer u klaar bent met het voltooien van de vereisten, kunt u de virtuele Q&A-
 4. Tik op **op** in de trefwoorden en tik vervolgens op **item** in de lijst met suggesties > **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Omzet per item](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Tik op **als** in de trefwoorden en tik vervolgens op het pictogram Kolomdiagram ![pictogram Kolomdiagram](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) en tik op **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+5. Tik op **als** in de trefwoorden en tik vervolgens op het pictogram Kolomdiagram :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false":::, tik vervolgens op **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Tik lang op de weergegeven grafiek en tik vervolgens op **Expand**.
 
     ![Schermopname van een kolomdiagram met de muisaanwijzer gericht op Uitvouwen.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ Wanneer u klaar bent met het voltooien van de vereisten, kunt u de virtuele Q&A-
 10. Kies **op** in de trefwoorden, tik op **tijd** in de lijst met suggesties bovenaan > **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
      ![Schermopname van een grafiek met de hoogste omzet per gemiddeld bedrag per eenheid op tijd.](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. Typ **als**, kies het pictogram voor een lijndiagram ![pictogram Diagram](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) in de lijst met suggesties > **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+11. Typ **als**, kies het pictogram voor een lijndiagram :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: uit de lijst met suggesties > **Verzenden** ![pictogram Verzenden](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Schermopname van een kolom- en lijndiagram met de muisaanwijzer van de kolom naar de lijndiagram gericht](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

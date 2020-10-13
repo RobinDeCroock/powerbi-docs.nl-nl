@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3e34a736148a5d962c1f2d56782d38f31c15b9b6
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049420"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525306"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Zelfstudie: Meldingen instellen in Power BI-dashboards
 
@@ -86,7 +86,7 @@ Als u zich niet hebt geregistreerd voor Power BI, kunt u zich hier [aanmelden vo
    
 1. Selecteer in het venster **Waarschuwingen beheren** de optie **+ Waarschuwingsregel toevoegen**.  Zorg ervoor dat de schuifregelaar staat ingesteld op **Aan** en geef uw waarschuwing een titel. Titels helpen u de meldingen makkelijk te herkennen.
    
-   ![Venster Waarschuwingen beheren](media/end-user-alerts/power-bi-alert-manage.png)
+   ![Venster Waarschuwingsregel toevoegen](media/end-user-alerts/power-bi-alert-manage.png)
 4. Schuif omlaag en voer de details van de melding in.  In dit voorbeeld maken we een melding die ons eenmaal per dag waarschuwt zodra ons marktaandeel 40 of hoger is. Waarschuwingen worden weergegeven in het [Meldingencentrum](end-user-notification-center.md). We zorgen er ook voor dat Power BI een e-mail stuurt.
    
    ![Venster Waarschuwingen beheren, drempel instellen](media/end-user-alerts/power-bi-manage-alert-detail.png)
@@ -142,7 +142,7 @@ U kunt meldingen op diverse manieren beheren: vanaf de dashboardtegel zelf, vanu
 
 ## <a name="tips-and-troubleshooting"></a>Tips en problemen oplossen 
 
-* Als u geen melding voor een meter, KPI of kaart kunt instellen, neemt u contact op met de tenantbeheerder of IT-helpdesk voor hulp. Soms worden meldingen uitgeschakeld of zijn deze niet beschikbaar voor uw dashboard of voor specifieke typen dashboardtegels.
+* Als u geen melding voor een meter, KPI of kaart kunt instellen, neemt u contact op met uw Power BI-beheerder of IT-helpdesk voor hulp. Soms worden meldingen uitgeschakeld of zijn deze niet beschikbaar voor uw dashboard of voor specifieke typen dashboardtegels.
 * Meldingen werken alleen voor gegevens die zijn vernieuwd. Ze werken niet met statische gegevens. De meeste voorbeelden van Microsoft zijn statisch. 
 * Voor de mogelijkheid om gedeelde inhoud te ontvangen en weer te geven is een Power BI Pro- of Power BI Premium-licentie vereist. Lees [Welke licentie heb ik?](end-user-license.md) voor meer informatie.
 * Waarschuwingen kunnen worden ingesteld voor visuals die zijn gemaakt op basis van streaminggegevenssets die van een rapport zijn vastgemaakt aan een dashboard. Er kunnen geen waarschuwingen worden ingesteld voor streamingtegels die rechtstreeks op het dashboard zijn gemaakt met **Tegel toevoegen** > **Aangepaste streaminggegevens**.

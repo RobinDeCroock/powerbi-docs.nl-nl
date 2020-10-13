@@ -9,18 +9,18 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 3f44353fc562793037d80a2aa7f0a1d42d207bc6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859837"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634039"
 ---
 # <a name="what-is-power-bi-report-server"></a>Wat is Power BI Report Server?
 
 Power BI Report Server is een on-premises rapportserver met een webportal waarin u rapporten en KPI's kunt weergeven en beheren. De server bevat de hulpprogramma's om Power BI-rapporten, gepagineerde rapporten, mobiele rapporten en KPI's te maken. Uw gebruikers hebben op verschillende manieren toegang tot deze rapporten: ze kunnen ze in een webbrowser of op een mobiel apparaat bekijken of als een e-mailbericht in hun Postvak IN.
 
-![De webportal van Power BI Report Server](media/get-started/power-bi-report-server-overview.png)
+![Schermopname van de webportal van Power BI Report Server.](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Power BI Report Server vergelijken 
 Power BI Report Server lijkt op zowel SQL Server Reporting Services als de online Power BI-service, maar er zijn verschillen. Net als de Power BI-service host Power BI Report Server Power BI-rapporten (PBIX), Excel-bestanden en gepagineerde rapporten (RDL). Power BI Report Server wordt net als Reporting Services on-premises uitgevoerd. De functies van Power BI Report Server zijn een uitbreiding op de functies van Reporting Services: alles wat u kunt doen in Reporting Services, kunt u doen met Power BI Report Server. Daarnaast biedt het ondersteuning voor Power BI-rapporten. Zie [Comparing Power BI Report Server and the Power BI service](compare-report-server-service.md) (Power BI Report Server vergelijken met de Power BI-service) voor meer informatie.
@@ -36,7 +36,7 @@ Als u Power BI-rapporten publiceert naar Power BI Report Server, hebt u ook een 
 ## <a name="web-portal"></a>Webportal
 Het toegangspunt voor Power BI Report Server is een veilige webportal die u in een moderne browser kunt bekijken. Hier hebt u toegang tot al uw rapporten en KPI's. De inhoud op de webportal is in een traditionele mappenhiërarchie gerangschikt. In uw mappen wordt inhoud per type gegroepeerd: Power BI-rapporten, mobiele rapporten, gepagineerde rapporten, KPI's en Excel-werkmappen. Gedeelde gegevenssets en gedeelde gegevensbronnen staan in hun eigen mappen en kunnen worden gebruikt als bouwstenen voor uw rapporten. U kunt uw favorieten taggen, zodat u ze in één map kunt bekijken. En u kunt KPI's rechtstreeks in de webportal maken. 
 
-![De webportal van Power BI Report Server](media/get-started/web-portal.png)
+![Foto van een laptop met de webportal van Power BI Report Server.](media/get-started/web-portal.png)
 
 Afhankelijk van uw machtigingen kunt de inhoud van de webportal beheren. U kunt rapportverwerking inplannen, rapporten op aanvraag openen en u abonneren op gepubliceerde rapporten. U kunt ook uw eigen aangepaste [huisstijl](/sql/reporting-services/branding-the-web-portal) toepassen op uw webportal. 
 

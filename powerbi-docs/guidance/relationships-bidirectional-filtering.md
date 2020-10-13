@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215148"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668615"
 ---
 # <a name="bi-directional-relationship-guidance"></a>Richtlijnen voor bidirectionele relaties
 
@@ -77,7 +77,7 @@ Wanneer rapportgebruikers segmenteren op Australië, wilt u de slicer **Product*
 
 In de slicer **Product** wordt nu één item vermeld: T-shirt. Dit item vertegenwoordigt het enige product dat is verkocht aan Australische klanten.
 
-![Diagram met de rapportpagina met drie visuals. De details worden in de volgende alinea beschreven.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![Diagram met de rapportpagina met drie visuals en Product gemarkeerd. De details worden in de volgende alinea beschreven.](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 We raden u aan om te overwegen of dit ontwerp geschikt is voor uw rapportgebruikers. Sommige rapportgebruikers vinden deze ervaring verwarrend. Ze begrijpen niet waarom sliceritems dynamisch verschijnen of verdwijnen wanneer ze met andere slicers werken.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239201"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633258"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Uw gegevens verkennen in de mobiele Power BI-app op uw Apple Watch
 Met de Power BI-app voor Apple Watch kunt u KPIs en kaarttitels uit uw Power BI-dashboards weergeven op uw horloge. KPI's en kaarttegels zijn het meest geschikt om een heartbeat-meting op het kleine scherm weer te geven. U kunt een dashboard vernieuwen vanaf uw iPhone of via de Watch.
@@ -24,16 +24,16 @@ De Power BI-app voor Apple Watch is gebundeld in de Power BI-app voor iOS. Wanne
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>De Power BI-app op de Apple Watch gebruiken
 U kunt de Power BI-app voor de Apple Watch openen via het beginscherm of door rechtstreeks op de Power BI-widget (indien geconfigureerd) op het scherm van het horloge te tikken.
 
-![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
+![Foto van een Apple Watch met de app Power BI.](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
 
 De Power BI-app voor de Apple Watch bestaat uit twee delen.
 
 * Met het **indexscherm** kunt u snel een overzicht weergeven van alle KPI's en kaarttegels op de gesynchroniseerde dashboards.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
+  ![Foto van een Apple Watch met het indexscherm.](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * De **focustegel**: klik op een tegel in het indexscherm voor een gedetailleerde weergave van een specifieke tegel.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
+  ![Foto van een Apple Watch waarop een tegel wordt weergegeven.](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>Een dashboard vernieuwen via uw Apple Watch
 U kunt een gesynchroniseerd dashboard rechtstreeks vanaf uw horloge synchroniseren.
@@ -75,7 +75,7 @@ Gezien de beperkte ruimte op het scherm van de Apple Watch kunt u de titel van d
 
 * Ga op uw iPhone naar de beheer-app voor de Apple Watch, selecteer Power BI, ga naar het veld met de widgetnaam en typ een nieuw naam.
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
+  ![Foto van een iPhone met de app My Watch geopend en het pictogram Power BI zichtbaar.](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
 
 > [!NOTE]
 > Als u de naam niet wijzigt, wordt de naam door Power BI-widget afgekort tot het aantal tekens dat in de beperkte ruimte op het scherm past. 

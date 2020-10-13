@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237529"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634660"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-rapporten en -dashboards
 
@@ -157,7 +157,7 @@ Als u de waarde in één cel wilt kopiëren, gaat u als volgt te werk:
 
 1. Selecteer **Kopiëren** > **Waarde kopiëren**.
 
-    ![kopieeropties](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![In de schermopname is Kopiëren geselecteerd met de optie Waarde kopiëren geselecteerd.](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     Als u de onopgemaakte celwaarde naar uw klembord hebt gekopieerd, kunt u deze in een andere toepassing plakken.
 
@@ -169,7 +169,7 @@ Als u meer dan één cel wilt kopiëren, gaat u als volgt te werk:
 
 1. Selecteer **Kopiëren** > **Selectie kopiëren**.
 
-    ![kopieeropties](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![In de schermopname is Kopiëren geselecteerd met de optie Selectie kopiëren geselecteerd.](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>De kolombreedte van een tabel aanpassen
 

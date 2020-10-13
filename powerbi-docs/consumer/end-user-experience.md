@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 49ed6bd0ae8021936c327aede83d0e6a8539179a
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b9b299207a95091244d1f9ff7ab5f7a0d5460fc8
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216146"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634109"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Quickstart: navigeren in de Power BI-service
 
@@ -47,12 +47,12 @@ Open om te beginnen de Power BI-service (app.powerbi.com) en ga naar **Start**.
 
 1. Nadat de app is geïnstalleerd, selecteert u in het navigatievenster **Apps**. 
 
-   ![De Power BI-service voor de eerste keer openen](./media/end-user-experience/power-bi-home-steps.png)
+   ![Schermopname van het Power BI-startscherm met een welkomstbericht.](./media/end-user-experience/power-bi-home-steps.png)
 
 
 2. Selecteer op het scherm **Apps** de app **Voorbeeld van verkoop en marketing**.
 
-    ![De Power BI-service voor de eerste keer openen](./media/end-user-experience/power-bi-sample-app.png)
+    ![Schermopname van het venster Apps van Power BI met een app met de naam Voorbeeld van verkoop en marketing.](./media/end-user-experience/power-bi-sample-app.png)
 
 2. Selecteer **App verkennen**.
 

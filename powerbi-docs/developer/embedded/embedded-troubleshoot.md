@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485686"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749064"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -75,27 +75,27 @@ Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. He
 
 Mogelijk is er een Fiddler-opname nodig om het probleem nader te onderzoeken. Er kunnen verschillende redenen zijn voor een 403-fout.
 
-* De gebruiker heeft de hoeveelheid insluitingstokens overschreden die voor een gedeelde capaciteit kan worden gegenereerd. Schaf Azure-capaciteit aan als u insluitingstokens wilt genereren, en wijs de werkruimte vervolgens toe aan die capaciteit. Zie [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
+* De gebruiker heeft de hoeveelheid insluitingstokens overschreden die voor een gedeelde capaciteit kan worden gegenereerd. Schaf Azure-capaciteit aan als u insluitingstokens wilt genereren, en wijs de werkruimte vervolgens toe aan die capaciteit. Zie [Create Power BI Embedded capacity in the Azure portal](/azure/power-bi-embedded/create-capacity) (Power BI Embedded-capaciteit maken in Azure Portal).
 * Het Azure AD-verificatietoken is verlopen.
 * De geverifieerde gebruiker is geen lid van de groep (werkruimte).
 * De geverifieerde gebruiker is geen beheerder van de groep (werkruimte).
-* De geverifieerde gebruiker heeft geen machtigingen. Machtigingen kunnen met behulp van de [refreshUserPermissions-API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) worden bijgewerkt
+* De geverifieerde gebruiker heeft geen machtigingen. Machtigingen kunnen met behulp van de [refreshUserPermissions-API](/rest/api/power-bi/users/refreshuserpermissions) worden bijgewerkt
 * De autorisatie-header wordt mogelijk niet correct vermeld. Controleer deze op spelfouten.
 
 De back-end van de toepassing moet het verificatietoken mogelijk vernieuwen voordat GenerateToken wordt aangeroepen.
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>Verificatie
 
@@ -113,13 +113,13 @@ U lost dit probleem op door 'oauth2/authorize/' aan het einde van de autoriteit-
 
 Als u Power BI Embedded en Azure AD Direct-verificatie gebruikt en u bij het aanmelden berichten ontvangt als ***fout: unauthorized_client, error_description:AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: U hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***, komt dit doordat directe verificatie sinds 14 juni 2018 standaard is uitgeschakeld.
 
-Er is een manier om dit weer in te schakelen met behulp van [Azure AD-beleid](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt tot de organisatie of een [service-principal](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Er is een manier om dit weer in te schakelen met behulp van [Azure AD-beleid](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt tot de organisatie of een [service-principal](/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Het wordt aanbevolen dit beleid alleen per app in te schakelen.
 
 Als u dit beleid wilt kunnen maken, moet u een **globale beheerder** zijn voor de map waar u het beleid maakt en dit kunnen toewijzen. Hier volgt een voorbeeldscript voor het maken van het beleid en het toewijzen ervan aan de serviceprovider voor deze toepassing:
 
-1. Installeer de [previewversie van de Azure AD PowerShell-module](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Installeer de [previewversie van de Azure AD PowerShell-module](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Voer de volgende PowerShell-opdrachten per regel uit (zorg ervoor dat de variabele $sp niet meer dan één toepassing als resultaat heeft).
 
@@ -153,7 +153,7 @@ GenerateToken kan om enkele verschillende redenen mislukken wanneer de effectiev
 
 Voer de onderstaande stappen uit om te controleren wat de reden is.
 
-* Voer [Gegevensset ophalen](https://docs.microsoft.com/rest/api/power-bi/datasets) uit. Staat de eigenschap IsEffectiveIdentityRequired in gesteld op true (waar)?
+* Voer [Gegevensset ophalen](/rest/api/power-bi/datasets) uit. Staat de eigenschap IsEffectiveIdentityRequired in gesteld op true (waar)?
 * Voor elke EffectiveIdentity moet een gebruikersnaam worden opgegeven.
 * Staat IsEffectiveIdentityRolesRequired in gestel op true (waar) en er dus een rol is vereist.
 * DatasetId is verplicht voor elke EffectiveIdentity.
@@ -270,37 +270,43 @@ Als u met de ervaring **Insluiten voor uw klanten** werkt, moet u het bestand *P
 
 Als u **Machtigingen verlenen** selecteert (de stap Machtigingen verlenen), krijgt u de volgende fout:
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 U lost dit op door het pop-upvenster te sluiten, enkele seconden te wachten en het vervolgens opnieuw te proberen. Mogelijk moet u deze actie een aantal keer herhalen. Een tijdsinterval zorgt ervoor dat het registratieproces voor de toepassing door het probleem niet kan worden voltooid voordat dit beschikbaar is voor externe API's.
 
 De volgende foutmelding wordt weergegeven wanneer u de voorbeeld-app uitvoert:
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 Deze fout treedt op omdat de enige waarde die niet in de voorbeeldtoepassing wordt ingevoerd uw gebruikerswachtwoord is. Open het Web.config-bestand in de oplossing en vul in het veld pbiPassword het wachtwoord van uw gebruiker in.
 
 Als u de foutmelding AADSTS50079 ziet, moet de gebruiker meervoudige verificatie gebruiken.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+U moet een AAD-account gebruiken waarvoor MFA niet is ingeschakeld.
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>De voorbeeldtoepassing Insluiten voor uw organisatie gebruiken
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Insluiten gebruiken voor de voorbeeldtoepassing van uw organisatie
 
 Als u met de ervaring **Insluiten voor uw organisatie** werkt, moet u het bestand *PowerBI-Developer-Samples.zip* opslaan en uitpakken. Open vervolgens de map *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* en voer het bestand *pbi-saas-embed-report.sln* uit.
 
 Wanneer u de voorbeeld-app **Insluiten voor uw organisatie** uitvoert, krijgt u de volgende fout:
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 Deze fout treedt op omdat de omleidings-URL die is opgegeven voor de webservertoepassing afwijkt van de URL van het voorbeeld. Als u de voorbeeldtoepassing wilt registreren, gebruikt u `https://localhost:13526/` als de omleidings-URL.
 
-Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde Azure AD-toepassing bijwerkt](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), zodat de toepassing toegang kan geven tot de web-API's.
+Als u de geregistreerde toepassing wilt bewerken, moet u leren hoe u de [geregistreerde Azure AD-toepassing bijwerkt](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), zodat de toepassing toegang kan geven tot de web-API's.
 
-Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw [Power BI-gegevens](https://docs.microsoft.com/power-bi/service-basic-concepts) moet bewerken.
+Als u uw Power BI-gebruikersprofiel of -gegevens wilt bewerken, leert u hoe u uw [Power BI-gegevens](../../fundamentals/service-basic-concepts.md) moet bewerken.
 
-Als u de foutmelding AADSTS50079 ziet, moet de gebruiker meervoudige verificatie gebruiken.
+Als de volgende fout wordt weergegeven: AADSTS50079: de gebruiker dient de meervoudige verificatie te gebruiken.
 
-    Need to use an AAD account that doesn't have MFA enabled.
+U moet een AAD-account gebruiken waarvoor MFA niet is ingeschakeld.
 
 Zie [Veelgestelde vragen over Power BI Embedded](embedded-faq.md) voor meer informatie.
 

@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: a0fdc83db8d24f4733d3eb8402a4ea9ccce15869
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 71fb659ba102e139c7a1679b0c58c07c47a38bf0
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860596"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668661"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Gegevensmeldingen instellen in de mobiele Power BI-apps
 Van toepassing op:
 
-| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Android-tablet](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android-telefoon](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android-tablet](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10-apparaat](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhones |iPads |Android-telefoons |Android-tablets |Windows 10-apparaten |
 
@@ -38,7 +38,7 @@ U kunt waarschuwingen instellen voor tegels als u over de Power BI Pro-licentie 
 1. Tik op een getal- of metertegel in een dashboard om deze te openen in de focusmodus.  
    
    ![Schermopname van een dashboard met de metertegel in de focusmodus.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. Tik op het belpictogram ![Belpictogram](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) om een waarschuwing toe te voegen.  
+2. Tik op het belpictogram :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png" border="false"::: om een melding toe te voegen.  
 3. Tik op **Meldingsregel toevoegen**.
    
    ![Schermopname van de waarschuwingsregel zonder ingestelde waarschuwingen.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
@@ -62,9 +62,9 @@ U kunt afzonderlijke meldingen beheren op uw mobiele apparaat of [alle meldingen
 
 1. Tik in een dashboard op een getal- of metertegel met een melding.  
    
-   ![Schermopname van het dashboard met de nummertegel die een waarschuwing bevat.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![Schermopname van het dashboard van een iPhone of iPad met de nummertegel die een waarschuwing bevat.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. Tik op het belpictogram ![Belpictogram](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
+2. Tik op het belpictogram :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png" border="false":::.  
 3. Tik op de naam van de melding om deze te bewerken, tik op de schuifregelaar om e-mailmeldingen uit te schakelen of tik op de prullenbak om de melding te verwijderen.
    
     ![Schermopname van een waarschuwing, wijzend naar de naam van de waarschuwing, prullenbak voor verwijdering van de waarschuwing en schuifregelaar om de waarschuwing uit te schakelen.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
@@ -72,9 +72,9 @@ U kunt afzonderlijke meldingen beheren op uw mobiele apparaat of [alle meldingen
 ## <a name="data-alerts-on-an-android-device"></a>Gegevensmeldingen op een Android-apparaat
 ### <a name="set-an-alert-on-an-android-device"></a>Een melding instellen op een Android-apparaat
 1. Tik in een Power BI-dashboard op een getal- of metertegel om deze te openen.  
-2. Tik op het belpictogram ![Belpictogram](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) om een waarschuwing toe te voegen.  
+2. Tik op het belpictogram :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png" border="false"::: om een melding toe te voegen.  
    
-   ![Schermopname van het dashboard met de nummertegel die een waarschuwing bevat.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![Schermopname van het dashboard van een Android-apparaat met de nummertegel die een waarschuwing bevat.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. Tik op het plusteken (+).
    
    ![Schermopname van Waarschuwingen beheren met een aanwijzer naar het pluspictogram.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
@@ -95,7 +95,7 @@ U kunt afzonderlijke meldingen beheren op uw mobiele apparaat of [alle meldingen
 U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldingen beheren in de Power BI-service](../../create-reports/service-set-data-alerts.md).
 
 1. Tik in een dashboard op een kaart- of metertegel met een melding.  
-2. Tik op het effen belpictogram ![Belpictogram](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
+2. Tik op het effen belpictogram :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png" border="false":::.  
 3. Tik op de melding om een waarde te wijzigen of om de melding uit te schakelen.
    
     ![Schermopname van de tegel Waarschuwing beheren met het pluspictogram om een waarschuwing toe te voegen.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
@@ -109,9 +109,9 @@ U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldi
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>Gegevensmeldingen instellen op een Windows-apparaat
 1. Tik op een getal- of metertegel in een dashboard om deze te openen.  
-2. Tik op het belpictogram ![Belpictogram](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) om een waarschuwing toe te voegen.  
+2. Tik op het belpictogram :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png" border="false"::: om een melding toe te voegen.  
    
-   ![Schermopname van het dashboard met de nummertegel die een waarschuwing bevat.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![Schermopname van het dashboard van een Windows-apparaat met de nummertegel die een waarschuwing bevat.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. Tik op het plusteken (+).
    
    ![Schermopname van Waarschuwingen beheren zonder ingestelde waarschuwingen.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
@@ -134,7 +134,7 @@ U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldi
 U kunt afzonderlijke meldingen beheren in de mobiele Power BI-app of [alle meldingen beheren in de Power BI-service](../../create-reports/service-set-data-alerts.md).
 
 1. Tik in een dashboard op een kaart- of metertegel met een melding.  
-2. Tik op het belpictogram ![Belpictogram](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
+2. Tik op het belpictogram :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png" border="false":::.  
    
    ![Schermopname van het dashboard met de nummertegel die een waarschuwing bevat.](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. Tik op de melding om een waarde te wijzigen of om de melding uit te schakelen.
@@ -153,10 +153,10 @@ Gegevensbronnen worden vaak zo ingesteld dat ze dagelijks worden vernieuwd. Soms
 2. Als de melding zo is ingesteld dat u een e-mail ontvangt, vindt u iets soortgelijks als hieronder in uw Postvak IN.
    
    ![Schermopname van een e-mailmelding met de waarschuwing.](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI voegt een bericht toe aan uw [meldingencentrum](mobile-apps-notification-center.md) en voegt een gele punt toe aan het klokpictogram ![klokpictogram](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) op de titelbalk (iOS en Android) of aan de algemene navigatieknop ![algemene navigatieknop](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (Windows 10-apparaten).
+3. Power BI voegt een bericht toe aan uw [Meldingencentrum](mobile-apps-notification-center.md) en voegt een gele punt toe aan het klokpictogram :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: op de titelbalk (iOS en Android) of aan de algemene navigatieknop ![algemene navigatieknop](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (Windows 10-apparaten).
 
 
-4. Tik op het klokpictogram ![klokpictogram](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) of de algemene navigatieknop ![algemene navigatieknop](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) om [uw **meldingencentrum** te openen](mobile-apps-notification-center.md) en details van de melding te zien.
+4. Tik op het klokpictogram :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: of de algemene navigatieknop ![algemene navigatieknop](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) voor het [openen van uw **Meldingencentrum**](mobile-apps-notification-center.md) en details van de melding te zien.
    
      
 

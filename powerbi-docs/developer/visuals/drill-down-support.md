@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240083"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635925"
 ---
 # <a name="add-drill-down-support"></a>Ondersteuning voor inzoomen toevoegen
 
@@ -26,7 +26,9 @@ Lees [hier](./../../consumer/end-user-drill.md) meer over de Power BI-inzoomfunc
 
 Als u inzoomen in uw visual wilt ondersteunen, voegt u een nieuw veld toe aan `capabilities.json` met de naam 'drill-down'. Dit veld heeft één eigenschap:
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > De inzoomfunctie dataRole moet van het type `Grouping` zijn.
@@ -222,11 +224,11 @@ Voorbeeldgegevens voorbereiden om de visual te testen:
 
 Hiërarchie creëren in Power BI Desktop:
 
-![Een nieuwe hiërarchie maken](media/drill-down-support/create-new-hierarchy.png)
+![Schermopname van de Power BI Desktop met Nieuwe hiërarchie geselecteerd in een contextmenu.](media/drill-down-support/create-new-hierarchy.png)
 
 Alle categoriekolommen (H1, H2 en H3) gebruiken in de nieuwe hiërarchie:
 
-![Een nieuwe hiërarchie maken](media/drill-down-support/new-hierarchy.png)
+![Schermopname van categoriekolommen die u aan de nieuwe hiërarchie kunt toevoegen.](media/drill-down-support/new-hierarchy.png)
 
 Na deze stappen wordt de volgende visual weergegeven:
 
@@ -305,11 +307,11 @@ De tekst van de functiecallback `forEach` wijzigen in:
 
 Gegevens toepassen op de visual:
 
-![De visual met gegevens](media/drill-down-support/dev-visual-drilldown-data.png)
+![Schermopname van de hiërarchie met H2 gemarkeerd.](media/drill-down-support/dev-visual-drilldown-data.png)
 
 In de laatste stap ziet u een visual met selecties en een contextmenu:
 
-![De visual met inzoomondersteuning](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![Animatie van het selecteren van Inzoomen en Uitzoomen in het contextmenu van de visual.](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>Inzoomondersteuning toevoegen voor de weergavetoewijzing van matrixgegevens
 
@@ -389,7 +391,7 @@ De volgende gegevensweergavetoewijzingen toepassen op de visual:
 
 Gegevens toepassen op de visual:
 
-![De visual met gegevens](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![Schermopname van de Matrixhiërarchie met de hiërarchie van kolommen en rijen, en de leden die zijn geselecteerd.](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 Vereiste interfaces importeren om de weergavetoewijzingen van matrixgegevens te verwerken:
 
@@ -614,7 +616,7 @@ public update(options: VisualUpdateOptions) {
 
 In de laatste stap ziet u een visual met een contextmenu:
 
-![De visual met inzoomondersteuning](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![Animatie van een contextmenu voor de visual met opties om in- en uit te zoomen.](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>Volgende stappen
 

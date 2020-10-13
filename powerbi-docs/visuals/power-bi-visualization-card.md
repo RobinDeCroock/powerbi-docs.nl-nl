@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237514"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526813"
 ---
 # <a name="create-card-visualizations"></a>Kaartvisualisaties maken
 
@@ -102,7 +102,8 @@ Het deelvenster Opmaak is beschikbaar wanneer u interactief met de kaart in een 
 5. Probeer de andere opmaakopties om uw kaart geheel naar wens te maken. 
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-Als u het vak Vraag niet wordt weergegeven, neemt u contact op met de beheerder van uw systeem of tenant.    
+
+Als u het vak Vraag niet wordt weergegeven, neemt u contact op met de beheerder van Power BI.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md)

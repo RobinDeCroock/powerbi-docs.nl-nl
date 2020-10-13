@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 86453ff7a192a9c79f1c9eda97529b661c7512d3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537706"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526876"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
 
@@ -142,7 +142,7 @@ In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te g
 Met shape-kaarten kunt u op een kaart regio's met elkaar vergelijken met behulp van een kleur. Een shape-kaart kan geen nauwkeurige geografische locaties van gegevenspunten op een kaart weergeven. Het belangrijkste doel ervan is om relatieve vergelijkingen van regio's aan te geven op een kaart door verschillende kleuren te gebruiken.
 
 ### <a name="matrix"></a>Matrix
-![matrix](media/end-user-visual-type/matrix.png)
+![Schermopname van een gegevensmatrix met jaren en kwartalen voor omzet en JTD-omzet.](media/end-user-visual-type/matrix.png)
 
 De matrixvisualisatie is een type tabelvisualisatie (Zie 'Tabel' hieronder) die ondersteuning biedt voor een indeling met interval. Rapportontwerpers nemen vaak matrices op in rapporten en dashboards waarmee gebruikers een of meer element (rijen, kolommen, cellen) in de matrix kunnen selecteren voor het kruislings markeren van andere visuele elementen op een rapportpagina.  
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/07/2020
 ms.author: painbar
-ms.openlocfilehash: 634252979129353ac628c574acb23bb184782ffa
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a32ac9b1631a23502d9752ed9f96355fa36b90da
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220006"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668592"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-passcode-or-biometric-data"></a>De Power BI-app beveiligen met Face ID, Touch ID of biometrische gegevens 
 
@@ -48,7 +48,7 @@ Wanneer deze instelling is ingeschakeld, wordt u elke keer dat u de app start of
 
 In de onderstaande afbeelding ziet u het vingerafdrukverificatiescherm.
 
-![Face ID voor de Power BI-app voor iOS](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
+![Schermopname van een bericht op een Android-telefoon dat extra identificatie vereist is.](./media/mobile-native-secure-access/mobile-android-native-secured-fingerprint-id.png)
 
 >[!NOTE]
 >Als u de instelling Biometrische verificatie vereisen van de mobiele app wilt gebruiken, moet u eerst biometrie op uw Android-apparaat instellen. Als uw apparaat geen biometrie ondersteunt, kunt u de toegang tot uw Power BI-gegevens niet beveiligen met behulp van deze instelling voor de mobiele app.

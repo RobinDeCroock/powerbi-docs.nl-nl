@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856146"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668500"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Snelstart: dashboards en rapporten verkennen in de mobiele Power BI-apps
 In deze quickstart volgt u een korte rondleiding door de mobiele Power BI-app en maakt u kennis met een voorbeelddashboard en -rapport. De Power BI-app for iOS wordt weergegeven, maar u kunt gemakkelijk op een ander apparaat meedoen.
@@ -68,7 +68,7 @@ Zodra u ervoor hebt gezorgd dat u aan de vereisten voldoet en het voorbeeld van 
 
 10. Veeg omhoog om de werkbalk aan de onderkant weer te geven en tik op **Meer opties...** .
 
-    ![Tikken op het potlood](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
+    ![Schermopname van de locatie van het besturingselement Meer opties in de rechterbenedenhoek.](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 
 
 11. Schuif omlaag in de lijst en selecteer **Aantekening**.

@@ -1,6 +1,6 @@
 ---
 title: Paginering in gepagineerde Power BI-rapporten
-description: In dit artikel vindt u informatie over ondersteunde gegevensbronnen voor gepagineerde rapporten in de Power BI-service en hoe u verbinding maakt met Azure SQL Database-gegevensbronnen.
+description: Meer informatie over gepagineerde rapporten in de Power BI-service en de regels voor het bepalen van de paginering om een rapport te ontwerpen dat geoptimaliseerd is voor de renderer die u wilt gebruiken.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 87dc2541dd8fd91f22c1e89ce146be10eca14db9
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859699"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780121"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginering in gepagineerde Power BI-rapporten
 

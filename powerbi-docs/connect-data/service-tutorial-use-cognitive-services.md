@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861033"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600360"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Zelfstudie: Cognitive Services gebruiken in Power BI
 
@@ -46,39 +46,39 @@ Volg de stappen in deze sectie om de tekstanalyse voor de zelfstudie te voltooie
 
 Navigeer allereerst naar een Power BI-werkruimte met Premium-capaciteit en maak een nieuwe gegevensstroom met de knop **Maken** in de rechterbovenhoek van het scherm.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
+![Schermopname toont de Power BI-werkruimte waarin Maken, en vervolgens Dashboard, is geselecteerd.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_01.png)
 
 Het dialoogvenster gegevensstroom geeft de opties om een nieuwe gegevensstroom te maken weer, selecteer **Nieuwe entiteiten toevoegen**. Kies vervolgens **Tekst/CSV** in het menu van gegevensbronnen.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
+![Schermopname toont Een gegevensbron kiezen, inclusief Tekst/CSV.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_02.png)
 
 Plak deze URL in het URL-veld [https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv](https://pbiaitutorials.blob.core.windows.net/textanalytics/FabrikamComments.csv) en klik op **Volgende**.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
+![Schermopname toont Verbinding maken met gegevensbron waarin u de URL opgeeft.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
 De gegevens zijn nu klaar voor tekstanalyse en we kunnen Sentimentscore en Sleuteltermextractie gebruiken op de kolom met opmerkingen van klanten.
 
 Selecteer **AI-inzichten** in de Power Query-editor
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
+![Schermopname toont Query's bewerken met Alle inzichten geselecteerd.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_04.png)
 
 Vouw de map **Cognitive Services** uit en selecteer de functie die u wilt gebruiken. In dit voorbeeld wordt het sentiment van de kolom met opmerkingen beoordeeld, maar u kunt dezelfde stappen uitvoeren om Taaldetectie en Sleuteltermextractie te proberen.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_05.png)
+![Schermopname toont Functie aanroepen met een functie geselecteerd.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_05.png)
 
 Nadat een functie is geselecteerd, worden de vereiste en optionele velden weergegeven. Selecteer de kolom beoordelingen als tekstinvoer om het sentiment van de voorbeeldbeoordelingen te beoordelen. Cultuurgegevens zijn optionele invoer en vereisen een ISO-indeling. Voer bijvoorbeeld 'en' in als u wilt dat de tekst als Engelse tekst wordt behandeld. Als het veld leeg is, detecteert Power BI eerst de taal van de invoerwaarde voordat het sentiment wordt beoordeeld.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
+![Schermopname toont het dialoogvenster Functie aanroepen met het vervolgkeuzemenu Tekst.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_06.png)
 
 Selecteer nu **Aanroepen** om de functie uit te voeren. Er wordt een nieuwe kolom met de sentimentscore voor elke rij toegevoegd aan de tabel. U kunt teruggaan naar **AI-inzichten** om op dezelfde manier sleuteltermen van de beoordelingstekst te extraheren.
 
 Nadat u klaar bent met de transformaties, wijzigt u de naam van de query in 'Opmerkingen van klanten' en selecteert u **Gereed**.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
+![Schermopname toont Query's bewerken met Naam gemarkeerd.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_07.png)
 
 **Bewaar** vervolgens de gegevensstroom en noem deze Fabrikam. Selecteer de knop **Nu vernieuwen** die verschijnt nadat u de gegevensstroom hebt opgeslagen.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
+![Schermopname toont de knop Opslaan.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_08.png)
 
 Nadat de gegevensstroom is opgeslagen en vernieuwd, kunt u deze gebruiken in een Power BI-rapport.
 
@@ -88,15 +88,15 @@ Open Power BI Desktop. Selecteer in het lint Start **Gegevens ophalen**.
 
 Navigeer naar **Power BI-gegevensstromen (bèta)** in de sectie Power BI en selecteer **verbinding maken**.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
+![Schermopname toont het deelvenster Gegevens ophalen met Power BI-gegevensstromen geselecteerd.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_09.png)
 
 Aangezien dit een preview-functie is, vraagt de connector u om de voorwaarden van de preview te accepteren. Nadat u deze hebt geaccepteerd, meldt u zich aan met uw organisatieaccount.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
+![Schermopname toont een aanmeldingsbericht voor uw organisatieaccount.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_10.png)
 
 Selecteer de gegevensstroom die u zojuist hebt gemaakt. Navigeer naar de tabel Opmerkingen van klanten en klik op **Laden**.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
+![Schermopname toont de Navigator waarin de tabel met opmerkingen van klanten is geselecteerd.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_11.png)
 
 Nu de gegevens zijn geladen, kunt u beginnen aan een rapport.
 
@@ -104,15 +104,15 @@ Nu de gegevens zijn geladen, kunt u beginnen aan een rapport.
 
 Navigeer naar de Power BI-werkruimte met de Premium-capaciteit. Maak een nieuwe gegevensstroom met de knop **Maken** in de rechterbovenhoek van het scherm.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
+![Schermopname toont de Power BI-werkruimte waarin Maken, en vervolgens Gegevensstroom, is geselecteerd.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_12.png)
 
 Selecteer **Nieuwe entiteiten toevoegen**.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
+![Schermopname toont een optie om nieuwe entiteiten toe te voegen om een werkstroom te gaan maken.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_13.png)
 
 Als u wordt gevraagd om een gegevensbron te kiezen, selecteert u **Lege query**.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
+![Schermopname toont Een gegevensbron kiezen, inclusief Lege query.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_14.png)
 
 Kopieer de onderstaande query in de query-editor en klik op volgende. U kunt de onderstaande URL-paden vervangen door andere afbeeldingen, of u kunt meer rijen toevoegen. De functie *Web.Contents* importeert de afbeeldings-URL als binair bestand. Als u een gegevensbron met afbeeldingen hebt die zijn opgeslagen als binair bestand, kunt u die ook rechtstreeks gebruiken.
 
@@ -126,43 +126,43 @@ in
   Source
 ```
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
+![Schermopname toont Verbinding maken met gegevensbron, met uw query en een knop Volgende.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_15.png)
 
 Wanneer u om referenties wordt gevraagd, selecteert u *anoniem*.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
+![Schermopname toont Query's bewerken, waarin u referenties kunt opgeven.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_16.png)
 
 U ziet de volgende afbeelding.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_17.png)
+![Schermopname toont het dialoogvenster Referenties opgeven, waarin u het soort verificatie kunt opgeven.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_17.png)
 
 U wordt voor elke afzonderlijke webpagina om referenties gevraagd.
 
 Selecteer **AI-inzichten** in de query-editor.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
+![Schermopname toont Query's bewerken met Alle inzichten geselecteerd en een waarschuwing.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_18.png)
 
 Meldt u vervolgens aan met uw **organisatieaccount**.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
+![Schermopname toont het dialoogvenster Referenties opgeven, waarin u een organisatieaccount kunt opgeven.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
 Selecteer de functie Afbeeldingen taggen, voer _[Binary]_ in het kolomveld in en '_en_' in het veld cultuurgegevens. 
 
 > [!NOTE]
 > U kunt momenteel geen kolom kiezen met een vervolgkeuzelijst. Dat willen we tijdens de beperkte preview zo snel mogelijk oplossen.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_20.png)
+![Schermopname toont Functie aanroepen met de functie TagImages geselecteerd.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_20.png)
 
 Verwijder in de functie-editor de aanhalingstekens rond de naam van de kolom. 
 
 > [!NOTE]
 > De aanhalingstekens verwijderen is een tijdelijke oplossing. We willen dit probleem zo snel mogelijk tijdens de preview oplossen.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_21.png)
+![Schermopname toont de functie-editor waarin Afbeelding is gemarkeerd zonder aanhalingstekens.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_21.png)
 
 De functie retourneert een record met zowel de tags in een door komma's gescheiden indeling en een json-record. Selecteer de uitvouwknop om één of beide kolommen toe te voegen aan de tabel.
 
-![Een gegevensstroom maken](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
+![Schermopname van de knop Uitvouwen, met twee pijlen die tegenovergestelde kanten op wijzen.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_22.png)
 
 Selecteer **Gereed** en sla de gegevensstroom op. Nadat u de gegevensstroom hebt vernieuwd, kunt u er verbinding mee maken vanuit Power BI Desktop met behulp van gegevensstroomconnectors. (Raadpleeg de stappen op pagina 5 van dit document).
 

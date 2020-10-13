@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 92bccc80c36fdf6de0972dd67b33a4f1f9c85c0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eac2f6d1bcb79ccf25f69eb79b73ae884898ec58
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240153"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748673"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Een Azure AD-toepassing registeren om bij Power BI te gebruiken
 
 Informatie over het registreren van een toepassing in Azure Active Directory (Azure AD) voor gebruik met ingesloten Power BI-inhoud.
 
-U kunt uw toepassing registreren bij Azure AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/). Nadat u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
+U kunt uw toepassing registreren bij Azure AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](/rest/api/power-bi/). Nadat u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
 
 > [!IMPORTANT]
 > Voordat u een Power BI-app registreert, hebt u een [Azure Active Directory-tenant en een organisatiegebruiker](create-an-azure-active-directory-tenant.md) nodig. Als u zich nog niet hebt geregistreerd voor Power BI met een gebruiker in uw tenant, wordt de registratie van de app niet voltooid.
@@ -54,7 +54,7 @@ Ga als volgt te werk om uw toepassing te registreren met het Power BI App-hulppr
 
 5. Als u **Webtoepassing aan de serverzijde** als toepassingstype hebt geselecteerd, voert u nu een waarde in voor **Startpagina-URL** en **Omleidings-URL**. De **Omleidings-URL**werkt in combinatie met elke geldige URL en moet overeenkomen met de toepassing die u hebt gemaakt. Als u **Systeemeigen** hebt geselecteerd, gaat u verder naar stap 6.
 
-6. Kies de API's van Power BI die voor uw toepassing nodig zijn. Zie [Machtigingen en toestemming in het eindpunt van Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent) voor meer informatie over machtigingen voor Power BI-toegang. Selecteer vervolgens **Registreren**.
+6. Kies de API's van Power BI die voor uw toepassing nodig zijn. Zie [Machtigingen en toestemming in het eindpunt van Microsoft identity platform](/azure/active-directory/develop/v2-permissions-and-consent) voor meer informatie over machtigingen voor Power BI-toegang. Selecteer vervolgens **Registreren**.
 
     ![API's kiezen om te registreren](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -86,7 +86,7 @@ Uw andere optie voor het registreren van uw toepassing is dit rechtstreeks in Az
 
 5. Volg de aanwijzingen en maak een nieuwe toepassing.
 
-   Zie [App registreren bij Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app) voor meer informatie over het registreren van toepassingen in Azure Active Directory.
+   Zie [App registreren bij Azure Active Directory](/azure/active-directory/develop/quickstart-v2-register-an-app) voor meer informatie over het registreren van toepassingen in Azure Active Directory.
 
 ## <a name="how-to-get-the-application-id"></a>De toepassings-id verkrijgen
 
@@ -94,7 +94,7 @@ Wanneer u een toepassing registreert, ontvangt u een [toepassings-id](embed-samp
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>De id van het service-principal-object ophalen
 
-Wanneer u de [API's van Power BI](https://docs.microsoft.com/rest/api/power-bi/) gebruikt, moet u bewerkingen definiëren met behulp van de [object-id van de service-principal](embed-service-principal.md) als u naar de service-principal verwijst, bijvoorbeeld wanneer u een service-principal als beheerder aan een werkruimte toewijst.
+Wanneer u de [API's van Power BI](/rest/api/power-bi/) gebruikt, moet u bewerkingen definiëren met behulp van de [object-id van de service-principal](embed-service-principal.md) als u naar de service-principal verwijst, bijvoorbeeld wanneer u een service-principal als beheerder aan een werkruimte toewijst.
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>Machtigingen toepassen op uw toepassing in Azure AD
 
@@ -120,7 +120,7 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
 
 ### <a name="applying-permissions-programmatically"></a>Machtigingen via een programma toepassen
 
-1. U moet de bestaande service-principals (gebruikers) ophalen in uw tenant. Zie [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta) voor informatie over hoe u dit kunt doen.
+1. U moet de bestaande service-principals (gebruikers) ophalen in uw tenant. Zie [servicePrincipal](/graph/api/resources/serviceprincipal?view=graph-rest-beta) voor informatie over hoe u dit kunt doen.
 
     U roept de API *Get servicePrincipal* zonder {ID} aan. Alle service-principals worden dan opgehaald in de tenant.
 
@@ -141,11 +141,11 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
 
 4. App-machtiging verlenen aan de API van Power BI
 
-   Als u gebruikmaakt van een bestaande tenant en geen machtigingen namens alle tenant-gebruikers wilt verlenen, kunt u machtigingen verlenen aan een specifieke gebruiker door de waarde **contentType** te vervangen door **Principal**.
+   Als u gebruikmaakt van een bestaande tenant en geen machtigingen namens alle tenant-gebruikers wilt verlenen, kunt u machtigingen verlenen aan een specifieke gebruiker door de waarde **consentType** te vervangen door **Principal**.
 
    De waarde van **consentType** kan **AllPrincipals** of **Principal** zijn.
 
-   * **AllPrincipals** kan alleen worden gebruikt door tenantbeheerders om alle gebruikers in de tenant machtigingen te verlenen.
+   * **AllPrincipals** kan alleen worden gebruikt door een Power BI-beheerder om alle gebruikers in de tenant machtigingen te verlenen.
    * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}* .
 
      U moet *Machtigingen verlenen* voor het hoofdaccount om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Dit is niet mogelijk bij niet-interactieve aanmelding.
@@ -164,18 +164,18 @@ U moet hiervoor zijn aangemeld bij het *hoofd*account, dat wordt gebruikt voor i
      }
      ```
 
-    De **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* is niet universeel maar is afhankelijk van de tenant. Deze waarde is de objectId van de toepassing Power BI Service in de AAD-tenant (Azure Active Directory).
+    De **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* is niet universeel, maar is afhankelijk van de tenant. Deze waarde is de objectId van de toepassing Power BI Service in Azure Active Directory.
 
     De gebruiker kan deze waarde snel verkrijgen in de Azure-portal:
     1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
 
     2. In het zoekvak zoeken naar Power BI Service
 
-5. App-machtigingen verlenen aan Azure Active Directory (AAD)
+5. App-machtigingen verlenen aan Azure Active Directory
 
    De waarde van **consentType** kan **AllPrincipals** of **Principal** zijn.
 
-   * **AllPrincipals** kan alleen worden gebruikt door een tenantbeheerder om aan alle gebruikers in de tenant machtigingen te verlenen.
+   * **AllPrincipals** kan alleen worden gebruikt door een Power BI-beheerder om aan alle gebruikers in de tenant machtigingen te verlenen.
    * **Principal** wordt gebruikt om machtigingen te verlenen aan een specifieke gebruiker. In dit geval moet er een extra eigenschap worden toegevoegd aan de aanvraagbody: *principalId={User_ObjectId}* .
 
    U moet *Machtigingen verlenen* voor het hoofdaccount om te voorkomen dat om toestemming wordt gevraagd door Azure AD. Dit is niet mogelijk bij niet-interactieve aanmelding.

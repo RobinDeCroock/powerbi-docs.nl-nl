@@ -1,6 +1,6 @@
 ---
 title: Slicers in Power BI
-description: Een Power BI-slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport.
+description: Een Power BI-slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport dat u ontwerpt.
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/07/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: de466c4e299a3467f66b7b769303e1eadd7ee5b0
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: 1f68ed28a57f5dd52d447d48ea231e468dd5d02a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409623"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747730"
 ---
 # <a name="slicers-in-power-bi"></a>Slicers in Power BI
 

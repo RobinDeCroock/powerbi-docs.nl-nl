@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814009"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600525"
 ---
 # <a name="visualization-types-in-power-bi"></a>Typen visualisaties in Power BI
 ## <a name="power-bi-visualizations"></a>Visualisaties in Power BI
@@ -113,7 +113,7 @@ Zie [Tips en trucs voor visuele kaarten](power-bi-map-tips-and-tricks.md) voor m
 ### <a name="maps-arcgis-maps"></a>Kaarten: ArcGIS-kaarten
 ![ArcGis-kaart](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Zie [ArcGIS-kaarten in Power BI](power-bi-visualization-arcgis.md) voor meer informatie.
+Zie [ArcGIS-kaarten in Power BI](power-bi-visualizations-arcgis.md) voor meer informatie.
 
 ### <a name="maps-filled-maps-choropleth"></a>Kaarten: Choropletenkaarten
 ![choropletenkaart](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,7 +133,7 @@ Zie [Shape-kaarten in Power BI](desktop-shape-map.md) voor meer informatie.
 
 
 ### <a name="matrix"></a>Matrix
-![matrix](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![schermopname van matrixvisual](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >Een tabel biedt ondersteuning voor twee dimensies, maar met een matrix kunnen gegevens gemakkelijker worden weergegeven in verschillende dimensies, omdat deze een indeling met interval ondersteunt. In de matrix worden de gegevens automatisch samengevoegd en kunt u inzoomen op gegevens. 
@@ -232,7 +232,7 @@ Wanneer u query's in natuurlijke taal typt met Power BI Q&A, kunt u het type vis
 
 '***verkoop per staat als treemap***'
 
-Als uw dashboard geen veld voor Q&A bevat, is het mogelijk uitgeschakeld door de tenantbeheerder. 
+Als uw dashboard geen veld voor Q&A bevat, is het mogelijk uitgeschakeld door de Power BI-beheerder. 
 
 ![Q&A-vragenvak met het visualisatietype opgegeven](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

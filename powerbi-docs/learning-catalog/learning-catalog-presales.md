@@ -1,17 +1,17 @@
 ---
 title: Trainingscatalogus voor presales van partners
-description: Zoeken naar alle trainingsopties voor Power Apps
+description: Zoek alle trainingsopties voor Power Apps voor pre-sales experts, van de meest basale tot de meest geavanceerde.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 4225a8a7cc0da8c84b326fc2a2c9c082fd3fb3e6
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: bdc42b263e274983e5bcf85dde4d733c94d5d82d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526104"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747684"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>Trainingscatalogus voor presales van partners
 

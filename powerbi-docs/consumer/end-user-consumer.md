@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860964"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633970"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>De Power BI-service voor consumenten
 
@@ -24,17 +24,17 @@ Alles draait tegenwoordig om gegevens en zakelijke beslissingen worden niet meer
  
 Ze sturen u allerlei soorten rapporten, spreadsheets, e-mailberichten met grafieken en zelfs afgedrukte hand-outs. Naarmate de hoeveelheid gegevens toeneemt, zal het steeds moeilijker worden om snel de informatie te vinden die u nodig hebt, en u bent bang dat u wellicht niet over de meest recente informatie beschikt.  
  
-![Power BI-dashboard](media/end-user-consumer/power-bi-consumer-pipes.png)
+![Diagram van een consument die gegevens ontvangt in indelingen met gelabelde rapporten, grafieken, e-mails en spreadsheets.](media/end-user-consumer/power-bi-consumer-pipes.png)
 
 ## <a name="the-power-bi-service-for-consumers"></a>De Power BI-service voor *gebruikers*
 
 Met Power BI wordt uw werk niet alleen eenvoudiger, maar kunt u ook meteen meer indruk achterlaten. Al die gegevens worden omgezet in diagrammen en grafieken, waarmee uw gegevens worden gevisualiseerd. In plaats van lange lijsten of tabellen met nummers en woorden, zien uw gegevensinzichten er ***prachtig*** uit: kleurrijke en aantrekkelijke visuals waarmee verhalen over de inzichten in uw gegevens worden verteld. 
 
-![Power BI-dashboard](media/end-user-consumer/power-bi-consumer-examples.png)
+![Schermopname van een Power BI-rapport met verschillende soorten grafieken.](media/end-user-consumer/power-bi-consumer-examples.png)
  
 Open gewoon de Power BI-service in een browser of op een mobiel apparaat. U en uw collega's werken vanaf dezelfde vertrouwde dashboards en rapporten die bovendien automatisch worden bijgewerkt en vernieuwd. U werkt dus altijd met de meest actuele inhoud.   
 
-![Power BI-dashboard](media/end-user-consumer/power-bi-funnel.png)
+![Diagram met gegevens in verschillende indelingen die worden samengevoegd in Power BI en worden weergegeven op een computerscherm en op een draagbaar apparaat.](media/end-user-consumer/power-bi-funnel.png)
 
 Omdat de inhoud niet statisch is, kunt u hier induiken om trends, inzichten en andere business intelligence te zoeken. Deel de inhoud op in fragmenten en segmenten en stel zelfs vragen in uw eigen bewoording. Of doe het rustig aan en laat uw gegevens zelf interessante inzichten voor u vinden; ontvang meldingen wanneer gegevens worden gewijzigd en krijg e-mailrapporten volgens een door u ingestelde planning. Al uw gegevens via de cloud of on-premises binnen handbereik vanaf elk apparaat, wanneer u maar wilt. En dat is nog maar het begin van wat er allemaal met Power BI mogelijk is. 
 
@@ -56,7 +56,7 @@ U kunt uw gegevens niet schaden.  Power BI is een fantastische plek om te verken
  
 Dat betekent niet dat u uw wijzigingen niet kunt opslaan: dat kunt u wel. Maar deze wijzigingen zijn alleen van invloed op uw weergave van de inhoud. En om terug te keren naar de oorspronkelijke standaardweergave is eenvoudig: u hoeft slecht te klikken op een knop.  
 
-![Power BI-dashboard](media/end-user-consumer/power-bi-reset.png)
+![Schermopname van de knop Standaardinstelling herstellen.](media/end-user-consumer/power-bi-reset.png)
 
 
 ## <a name="next-steps"></a>Volgende stappen

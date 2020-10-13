@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238153"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632889"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Spreidingsdiagrammen, bellendiagrammen en eendimensionale puntdiagrammen in Power BI
 
@@ -143,7 +143,7 @@ Nu gaan we een derde dimensie toevoegen.
 
         a. Wijzig het veld **Totaal afw.perc. verkoop** in **Brutomarge van vorig jaar%**
 
-        ![Schermopname van het bellendiagram waaraan de lijn voor de mediaan is toegevoegd.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![Schermopname van de Details met Brutomarge van vorig jaar% is geselecteerd.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         b. Voeg **symmetrie-arcering** toe vanuit het deelvenster Analyse. We zien aan de arcering dat Kousen (de groene bel in het roze gearceerde gebied) de enige categorie is waarin de brutomarge de voorkeur heeft boven de verkoop per vierkante meter. 
 
@@ -151,7 +151,7 @@ Nu gaan we een derde dimensie toevoegen.
 
     - Ga verder met het verkennen van het deelvenster Analyse om interessante inzichten uit uw gegevens te krijgen. 
 
-        ![Schermopname van de bellengrafiek, waaraan symmetrie-arcering is toegevoegd.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![Schermopname van het deelvenster Analyse.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Een eendimensionaal puntdiagram maken
 

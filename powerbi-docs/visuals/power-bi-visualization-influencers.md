@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a8a38790b606fa5f700f2b9389ebad5338919d28
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861309"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635281"
 ---
 # <a name="create-key-influencers-visualizations"></a>Visualisaties Belangrijkste beïnvloeders gebruiken
 
@@ -231,13 +231,13 @@ Ten slotte kijken we, in het geval van metingen, naar het gemiddelde jaar waarin
 -   In het spreidingsdiagram in het rechterdeelvenster wordt de gemiddelde huizenprijs voor elke afzonderlijke waarde in de tabel weergegeven
 -   De waarde in de bel geeft aan met hoeveel dollar de gemiddelde huizenprijs stijgt (in dit geval $ 1.350) als het gemiddelde jaar met de standaarddeviatie toeneemt (in dit geval 30 jaar)
 
-![Beïnvloeders voor numerieke doelmetingen](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![Schermopname van de belangrijkste beïnvloeders voor huizenprijzen met beïnvloeders aan de linkerkant en het spreidingsdiagram aan de rechterkant.](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
 ## <a name="interpret-the-results-top-segments"></a>Interpreteer de resultaten: Topsegmenten
 
 In topsegmenten voor numerieke doelen worden groepen weergegeven waarin de huizenprijzen gemiddeld hoger zijn dan in de algehele gegevensset. Hieronder zien we bijvoorbeeld dat **Segment 1** uit huizen bestaat waarbij **GarageCars** (het aantal auto's dat in de garage past) hoger is dan 2 en de **RoofStyle** (het daktype) Hip is. Huizen met die specifieke kenmerken hebben een gemiddelde prijs van $ 355.000, tegenover het algehele gemiddelde in de gegevens van $ 180.000.
 
-![Beïnvloeders voor numerieke doelmetingen](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![Schermopname van de topsegmenten voor huizenprijzen.](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Een metrische waarde analyseren die een meting of een samenvatte kolom is
 
@@ -245,19 +245,19 @@ In het geval van een meting of een samengevatte kolom wordt de analyse standaard
 
 In het geval van niet-samengevatte kolommen, wordt de analyse altijd uitgevoerd op tabelniveau. In het bovenstaande voorbeeld van de woningprijs hebben we de metrische waarde **Woningprijs** geanalyseerd om te zien wat invloed heeft op prijsverhogingen/-verlagingen van een woningprijs. De analyse wordt automatisch uitgevoerd op tabelniveau. Onze tabel heeft een unieke id voor elk huis, zodat de analyse op huisniveau wordt uitgevoerd.
 
-![Tabel met metingen](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+![Schermopname van de analyse op tabelniveau voor het voorbeeld van de woningprijs.](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
 
 Voor metingen en samengevatte kolommen weet u niet meteen op welk niveau u wilt analyseren. Als de **woningprijs** als **gemiddelde** is vermeld, moeten we overwegen op welk niveau we willen dat deze gemiddelde woningprijs wordt berekend. Is dit de gemiddelde woningprijs op buurtniveau? Of misschien op regionaal niveau?
 
 Metingen en samengevatte kolommen worden automatisch geanalyseerd op het niveau van de gebruikte velden **Uitleggen door**. Stel dat we in de volgende drie velden voor **Uitleggen door** zijn geïnteresseerd: **Keukenkwaliteit**, **Gebouwtype** en **Airconditioning**. **De gemiddelde woningprijs** wordt berekend voor elke unieke combinatie van deze drie velden. Het is vaak handig om naar een tabelweergave over te schakelen om te kijken naar de gegevens die worden geëvalueerd.
 
-![Tabel met metingen](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+![Schermopname van de drie kolommen en de gemiddelde woningprijs.](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
 Deze analyse is zeer beknopt en het is dus moeilijk voor het regressiemodel om patronen te vinden in de gegevens waaruit het kan leren. We moeten de analyse uitvoeren op een gedetailleerder niveau om betere resultaten te krijgen. Als we de woningprijs op huisniveau willen analyseren, moeten we het veld **Id** expliciet aan de analyse toevoegen. Maar we willen niet dat het huis-id als beïnvloeder beschouwd. Het is niet nuttig om te weten dat met de toename van het huis-id de prijs van een huis toeneemt. Hier komt de veldoptie **Uitbreiden met** goed van pas. U kunt **Uitbreiden met** gebruiken om velden toe te voegen die u wilt gebruiken voor het instellen van het niveau van de analyse zonder dat u op zoek bent naar nieuwe beïnvloeders.
 
 Bekijk hoe de visual eruit ziet als u de **id** hebt toegevoegd aan **Uitbreiden met.** Wanneer u het niveau hebt gedefinieerd waarop de meting moet worden geëvalueerd, is het interpreteren van de beïnvloeders precies hetzelfde als voor [niet-samengevatte, numerieke kolommen.](#analyze-a-metric-that-is-numeric)
 
-![Tabel met metingen](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+![Schermopname van de visualisatie van de woningprijs die afhankelijk is van de drie kolommen die in deze sectie worden besproken.](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
 Bekijk de volgende zelfstudie als u meer wilt weten over de manier waarop u metingen kunt analyseren met de visualisatie van belangrijke beïnvloeders.
 

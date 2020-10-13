@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5656e4b708cb52519b6dee25a8142b3c49af6532
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854042"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668431"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Een dashboard of rapport delen via de mobiele Power BI-apps
 Van toepassing op:
@@ -61,7 +61,7 @@ U kunt het delen alleen opheffen als u de eigenaar van het dashboard of rapport 
  
 2. Typ de e-mailadressen en een bericht bij de uitnodiging voor uw dashboard. Anders wordt een standaardbericht verzonden door Power BI. Laat **Ontvangers toestaan dit dashboard te delen** geselecteerd om ontvangers toe te staan uw dashboard te delen. Als deze optie is ingeschakeld, kunnen uw collega's de e-mail met uw uitnodiging doorsturen naar anderen in uw organisatie, via de browser of via de mobiele apps.
    
-3. Tik op het **verzendpictogram**![Verzendpictogram](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png) in de rechterbovenhoek om de e-mail te verzenden.
+3. Tik op het verzendpictogram **Verzenden** :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png" border="false"::: in de rechterbovenhoek om de e-mail te verzenden.
    
     Ontvangers krijgen een e-mailbericht met een rechtstreekse koppeling naar het dashboard of rapport. De uitnodiging verloopt na één maand. Wanneer ze de koppeling openen in de Power BI-service of in de mobiele Power BI-app, wordt het dashboard toegevoegd aan het gedeelte **Gedeeld met mij** van hun Power BI-account. U krijgt als volgt toegang tot het gedeelte Gedeeld met mij:
    * Tik in de mobiele Power BI-app op **Meer opties** (...) op de navigatiebalk en kies ![Gedeeld met mij](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Gedeeld met mij**.
@@ -90,7 +90,7 @@ U kunt het delen alleen opheffen als u de eigenaar van het dashboard of rapport 
 
 2. Typ de e-mailadressen en een bericht bij de uitnodiging. Anders wordt een standaardbericht verzonden door Power BI. Laat **Ontvangers toestaan dit dashboard te delen** geselecteerd om ontvangers toe te staan uw dashboard te delen. Als deze optie is ingeschakeld, kunnen uw collega's uw dashboard of rapport delen met anderen in uw organisatie, via de browser of via de mobiele apps.
    
-3. Tik op het **verzendpictogram**![Verzendpictogram](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
+3. Tik op het pictogram **Verzenden** :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png" border="false":::
    
     Ontvangers krijgen een e-mailbericht met een rechtstreekse koppeling naar het dashboard of rapport. De uitnodiging verloopt na één maand. Wanneer ze de koppeling openen in de Power BI-service of in de mobiele Power BI-app, wordt het dashboard toegevoegd aan het gedeelte **Gedeeld met mij** van hun Power BI-account. U krijgt als volgt toegang tot het gedeelte Gedeeld met mij:
    

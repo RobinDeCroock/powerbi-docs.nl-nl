@@ -1,20 +1,20 @@
 ---
-title: De gegevens weergeven die zijn gebruikt voor het maken van de visual
-description: In dit document wordt uitgelegd hoe Power BI-gebruikers de gegevens kunnen zien die zijn gebruikt om een visual te maken.
+title: De gegevens weergeven die zijn gebruikt voor het maken van de rapportvisual
+description: In dit document wordt uitgelegd hoe zakelijke Power BI-gebruikers de gegevens kunnen zien die zijn gebruikt om een rapportvisual te maken.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/28/2020
+ms.date: 10/6/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536234"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780211"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Gegevens weergeven met Power BI
 
@@ -37,7 +37,11 @@ Als u de onderliggende gegevens op een dashboard wilt bekijken, gebruikt u [Expo
 
 4. Als u de afdrukstand wilt wijzigen, selecteert u verticale indeling ![indelingspictogram](media/end-user-show-data/power-bi-vertical-icon-new.png) in de rechterbovenhoek van de visualisatie.
    
-   ![Visual en gegevens horizontaal weergeven](./media/end-user-show-data/power-bi-horizontal.png)
+   ![Visual en gegevens horizontaal weergeven](./media/end-user-show-data/power-bi-show-horizontal.png)
+
+Als u naar het rapport wilt terugkeren, selecteert u **Terug naar rapport** linksboven. 
+
+   ![Schermopname van de koppeling voor Terug naar rapport.](./media/end-user-show-data/power-bi-back.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 [Visuals in Power BI-rapporten](../visuals/power-bi-report-visualizations.md)    

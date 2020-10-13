@@ -1,21 +1,21 @@
 ---
 title: Power BI voor klanten uit de Amerikaanse overheid - Overzicht
-description: Amerikaanse overheidsklanten kunnen een Power BI Pro-abonnement toevoegen aan hun Microsoft 365 Government-abonnement. Meer informatie over het registreren en controleren van de beschikbaarheid van functies in deze servicebeschrijving.
+description: Amerikaanse overheidsklanten kunnen een Power BI Pro-abonnement toevoegen aan hun Microsoft 365 Government-abonnement. Meer informatie over het registreren, verbinden en controleren van de beschikbaarheid van functies in deze servicebeschrijving.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2020
+ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855099"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524622"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -51,7 +51,8 @@ Microsoft 365 biedt verschillende omgevingen voor overheidsinstanties om te vold
 
 * De [Microsoft 365 DoD-omgeving](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) is uitsluitend ontworpen voor het Amerikaanse ministerie van defensie.
 
-## <a name="connect-to-power-bi-for-us-government"></a>Verbinding maken met Power BI voor de Amerikaanse overheid
+
+## <a name="sign-in-to-power-bi-for-us-government"></a>Aanmelden bij Power BI voor de Amerikaanse overheid
 
 De URL voor het verbinding maken met Power BI verschilt voor overheidsgebruikers en commerciële gebruikers. Als u zich wilt aanmelden bij Power BI, gebruikt u de volgende URL's:
 
@@ -61,6 +62,38 @@ De URL voor het verbinding maken met Power BI verschilt voor overheidsgebruikers
 
 Uw account is mogelijk ingesteld in meerdere clouds. Als uw account op deze manier is ingesteld, kunt u kiezen met welke cloud u verbinding wilt maken wanneer u zich aanmeldt bij Power BI Desktop.
 
+## <a name="allow-connections-to-power-bi"></a>Verbindingen met Power BI toestaan
+
+Als u de Power BI-service wilt gebruiken, moet u verbindingen met de vereiste eindpunten op internet toestaan. Deze doelen moeten bereikbaar zijn om communicatie mogelijk te maken tussen uw eigen netwerk, Power BI en andere afhankelijke services.
+
+In de onderstaande tabel worden de vereiste eindpunten weergegeven die u aan de acceptatielijst moet toevoegen om verbinding te kunnen maken met de Power BI-service voor algemeen gebruik van de website. Deze eindpunten zijn uniek voor de cloud van de Amerikaanse overheid. Voor de Power BI-service is alleen vereist dat TCP-poort 443 is geopend voor de vermelde eindpunten. De eindpunten voor het ophalen van gegevens, dashboard- en rapportintegratie, Power BI-visuals en andere optionele services zijn niet uniek voor de cloud van de Amerikaanse overheid. Zie [Power BI-URL's toevoegen aan uw acceptatielijst](power-bi-whitelist-urls.md) om deze URL's ook toe te voegen aan de acceptatielijst.
+
+Verificatie, identiteit en beheer van Power BI is afhankelijk van de verbinding met Microsoft 365-services. U moet ook verbinding maken met Microsoft 365 om auditlogboeken weer te geven. Zie integratie van Microsoft 365 in de onderstaande tabel om de eindpunten voor deze services te identificeren.
+
+### <a name="power-bi-urls-for-general-site-usage"></a>Power BI-URL's voor algemeen gebruik van de website
+
+|  Doel | Doel |
+| ---- | ----- |
+| Back-end API's | **GCC**: api.powerbigov.us |
+| | **GCC-High**: api.high.powerbigov.us |
+| | **DoD**: api.mil.powerbi.gov.us |
+| Back-end API's | **GCC**: *analysis.usgovcloudapi.net |
+| | **GCC High**: *.high.analysis.usgovcloudapi.net |
+| | **DoD**: *.mil.analysis.usgovcloudapi.net |
+| Back-end API's | **All**: *.pbidedicated.usgovcloudapi.net |
+| Content Delivery Network (CDN) | **GCC**: gov.content.powerapps.us |
+| | **GCC High**: high.content.powerapps.us |
+| | **DoD**: mil.content.powerapps.us |
+| Integratie van Microsoft 365 | **GCC**: [Wereldwijde eindpunten](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [Amerikaanse overheid GCC High-eindpunten](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [Amerikaanse Government DOD-eindpunten](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Portal |**GCC**: *.powerbigov.us |
+| | **GCC-High**: *.high.powerbigov.us |
+| | **DoD**: *.mil.powerbigov.us |
+| Telemetrie naar service | **All**: dc.services.visualstudio.us |
+| Informatieve berichten (optioneel) | **All**: dynmsg.modpim.com |
+| NPS-enquêtes (optioneel) | **All**: nps.onyx.azure.net |
+
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Azure Government en algemene Azure Cloud Services verbinden
 
 Azure wordt gedistribueerd over meerdere clouds. Standaard kunt u firewallregels inschakelen om een verbinding met een Cloud-specifiek exemplaar te openen, maar dit is anders over verschillende cloud-netwerken.  Als u wilt communiceren tussen services in de openbare cloud en services in de Government Community Cloud, moet u specifieke firewallregels configureren. Als u bijvoorbeeld toegang wilt krijgen tot openbare cloudexemplaren van een SQL-database vanuit uw Power BI-implementatie in de cloud, hebt u een firewallregel in de SQL-database nodig. Configureer specifieke firewallregels voor SQL-databases om verbindingen met de Azure Government Cloud toe te staan voor de volgende datacenters:
@@ -69,8 +102,12 @@ Azure wordt gedistribueerd over meerdere clouds. Standaard kunt u firewallregels
 * USGov Virginia
 * USGov Texas
 * USGov Arizona
+* US DoD East
+* US DoD Central
 
-In de openbare cloud zijn de IP-ruimten beschikbaar. Als u de IP-adresbereiken voor de cloud van de Amerikaanse overheids wilt ophalen, downloadt u het bestand [Azure IP-bereiken en servicetags – Cloud van de Amerikaanse overheid](https://www.microsoft.com/download/details.aspx?id=57063).
+Als u de IP-adresbereiken voor de cloud van de Amerikaanse overheids wilt ophalen, downloadt u het bestand [Azure IP-bereiken en servicetags – Cloud van de Amerikaanse overheid](https://www.microsoft.com/download/details.aspx?id=57063). bereiken worden weergegeven voor zowel Power BI als Power Query.
+
+Zie [Documentatie van Azure Government](https://docs.microsoft.com/azure/azure-government/) voor meer informatie over Microsoft Azure Government-cloudservices.
 
 Raadpleeg [IP-firewallregels maken en beheren](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) als u firewalls wilt instellen voor SQL-databases.
 
@@ -78,12 +115,12 @@ Raadpleeg [IP-firewallregels maken en beheren](/azure/sql-database/sql-database-
 
 Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnementen om te voldoen aan de vereisten van klanten in de Cloud. We streven ernaar om alle functies in overheidsclouds binnen 30 dagen na de algemene beschikbaarheid beschikbaar te maken. In sommige gevallen ligt het aan onderliggende afhankelijkheden dat we een functie niet beschikbaar kunnen maken.
 
-De volgende tabel bevat functies die niet beschikbaar zijn in een bepaalde overheidsomgeving en de verwachte beschikbaarheid van een geplande release:
+De volgende tabel bevat een lijst met functies die niet beschikbaar zijn in een bepaalde overheidsomgeving. We voegen geschatte beschikbaarheid toe als de release is gepland:
 
 |Functie |GCC |GCC High |DoD|
 |------|------|------|------|
 |[Azure B2B Collaboration tussen overheidscloud en commerciële cloud](service-admin-azure-ad-b2b.md)<sup>1</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
-|[Insluiten in SharePoint online met het webonderdeel Power BI](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![Beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
+|[Insluiten in SharePoint online met het webonderdeel Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![Beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen](../connect-data/power-bi-data-sources.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Metrische gegevens van capaciteit](../admin/service-admin-premium-monitor-portal.md)|K3 2020 |K3 2020|K3 2020|

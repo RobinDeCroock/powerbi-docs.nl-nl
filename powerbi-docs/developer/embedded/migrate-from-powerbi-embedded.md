@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 6b8d02984fdd6af467b0df5acb6c1455a6e93172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221041"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749041"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
 
@@ -48,7 +48,7 @@ Er zijn enkele dingen die u moet doen om inhoud voor te bereiden op een migratie
    * Wilt u een afzonderlijke tenant voor uw toepassing gebruiken?
    * Wilt u voor elke klant een andere tenant gebruiken?
 
-     Als u een nieuwe tenant voor uw toepassing wilt maken, of een voor elke klant, bekijk dan [Een Azure Active Directory-tenant maken](create-an-azure-active-directory-tenant.md) of [Een Azure Active Directory-tenant verkrijgen](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant) voor meer informatie.
+     Als u een nieuwe tenant voor uw toepassing wilt maken, of een voor elke klant, bekijk dan [Een Azure Active Directory-tenant maken](create-an-azure-active-directory-tenant.md) of [Een Azure Active Directory-tenant verkrijgen](/azure/active-directory/develop/active-directory-howto-tenant) voor meer informatie.
 2. Maak een gebruiker binnen deze nieuwe tenant die gaat fungeren als het ‘masteraccount’ van uw toepassing. Dit account moet zich aanmelden voor Power BI en moet beschikken over een Power BI Pro-licentie.
 
 ## <a name="accounts-within-azure-ad"></a>Accounts in Azure AD
@@ -58,7 +58,7 @@ De volgende accounts moet binnen uw tenant aanwezig zijn.
 > [!NOTE]
 > Deze accounts moeten over Power BI Pro-licenties beschikken om werkruimten te kunnen gebruiken.
 
-1. Een beheerder van de tenant.
+1. Een Power BI-beheerder.
 
     Het wordt aanbevolen dat deze gebruiker lid is van alle werkruimten die worden gemaakt voor het insluiten van inhoud.
 
@@ -168,7 +168,7 @@ U kunt niet alleen inhoud migreren van de Power BI-werkruimteverzameling, maar o
 ## <a name="rebuild-your-application"></a>Uw toepassing opnieuw bouwen
 
 1. U moet uw toepassing wijzigen met de Power BI REST-API's en de rapportlocatie in powerbi.com.
-2. Maak uw AuthN/AuthZ-verificatie opnieuw met behulp van het *masteraccount* voor uw toepassing. U een [insluittoken](https://docs.microsoft.com/rest/api/power-bi/embedtoken) gebruiker om deze gebruiker te machtigen om te handelen namens andere gebruikers.
+2. Maak uw AuthN/AuthZ-verificatie opnieuw met behulp van het *masteraccount* voor uw toepassing. U een [insluittoken](/rest/api/power-bi/embedtoken) gebruiker om deze gebruiker te machtigen om te handelen namens andere gebruikers.
 3. Sluit uw rapporten uit powerbi.com in uw toepassing in.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Uw gebruikers toewijzen aan een Power BI-gebruiker
@@ -180,7 +180,7 @@ In uw toepassing wijst u gebruikers die u in de toepassing naar beheert toe aan 
 Wanneer u klaar bent voor de productie, moet u het volgende te doen.
 
 * Als u een afzonderlijke tenant voor ontwikkeling gebruikt, moet u ervoor zorgen dat de werkruimten, dashboards en rapporten beschikbaar zijn in uw productieomgeving. Bovendien moet u de toepassing maken voor uw productietenant in Azure AD en de juiste app-machtigingen toewijzen, zoals aangegeven in stap 1.
-* Koop de capaciteit die past bij uw behoeften. Bekijk het [technisch document over capaciteitsplanning voor Power BI Embedded-analyses](https://aka.ms/pbiewhitepaper) voor meer inzicht in de hoeveelheid en het type capaciteit dat u nodig hebt. U kunt [capaciteit kopen](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) in Azure.
+* Koop de capaciteit die past bij uw behoeften. Bekijk het [technisch document over capaciteitsplanning voor Power BI Embedded-analyses](./embedded-capacity-planning.md) voor meer inzicht in de hoeveelheid en het type capaciteit dat u nodig hebt. U kunt [capaciteit kopen](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) in Azure.
 * Bewerk de werkruimte en wijs deze toe aan een Premium-capaciteit onder Geavanceerd.
 
     ![Premium-capaciteit](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
@@ -204,7 +204,7 @@ Het is aan te raden om op te ruimen in Azure.
 [Git-opslagplaats voor JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Git-opslagplaats voor Power BI C#](https://github.com/Microsoft/PowerBI-CSharp)  
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[Technisch document over analysecapaciteitsplanning voor Power BI-werkruimteverzameling](https://aka.ms/pbiewhitepaper)  
+[Technisch document over analysecapaciteitsplanning voor Power BI-werkruimteverzameling](./embedded-capacity-planning.md)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

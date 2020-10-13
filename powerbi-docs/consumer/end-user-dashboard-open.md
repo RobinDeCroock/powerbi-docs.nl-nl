@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286797"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633947"
 ---
 # <a name="view-a-dashboard"></a>Een dashboard weergeven
 
@@ -31,14 +31,11 @@ U hebt een Power BI Pro- of Power BI Premium-licentie nodig om een dashboard te 
 
 ## <a name="open-a-dashboard"></a>Een dashboard openen
 
+Dashboards kunnen worden geopend vanaf veel locaties in de Power BI-service.
 
+![dashboardpictogram](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![dashboardpictogram](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Dashboards kunnen worden geopend vanaf veel locaties in de Power BI-service. <br> Kijk of dit dashboardpictogram wordt weergegeven. Zodra u hebt een dashboard <br>dashboard, open het door het te selecteren en het dashboard verspreid zich over uw Power BI-canvas. |
-|                    |          |
-
-
+Kijk of dit dashboardpictogram wordt weergegeven. Nadat u een dashboard hebt geïdentificeerd, opent u het dashboard door het te selecteren, waarna het dashboard uw Power BI-canvas vult.
 
 U kunt dashboards vinden in alle containers in het navigatievenster. 
 

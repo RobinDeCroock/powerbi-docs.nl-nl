@@ -1,17 +1,17 @@
 ---
 title: Trainingscatalogus voor functionele toepassingsconsultants
-description: Zoeken naar alle trainingsopties voor Power Apps
+description: Zoek alle trainingsopties voor Power Apps voor implementatie-experts voor een zakelijk domein, van de meest basale tot de meest geavanceerde.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 3ebfa0e13293f65d5399aafb7071d4eaad63cc6f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: d31cdab393535609e8e12de97b2b784f55a3d9a2
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527787"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749202"
 ---
 # <a name="functional-application-consultant-learning-catalog"></a>Trainingscatalogus voor functionele toepassingsconsultants
 

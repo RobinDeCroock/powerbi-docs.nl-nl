@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380803"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635948"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informatie over toewijzing van gegevensweergaven in Power BI-visuals
 
@@ -337,14 +337,13 @@ Dit is de toewijzing van de gegevensweergave:
 
 De categorische gegevensweergave kan als volgt worden gevisualiseerd:
 
-| Categorisch |  |  | | | |
-|-----|-----|------|------|------|------|
-| | Jaar | 2013 | 2014 | 2015 | 2016 |
-| Land | | |
-| VS | | x | x | 650 | 350 |
-| Canada | | x | 630 | 490 | x |
-| Mexico | | 645 | x | x | x |
-| VK | | x | x | 831 | x |
+| Land | 2013 | 2014 | 2015 | 2016 |
+|---------|------|------|------|------|
+| VS | x | x | 650 | 350 |
+| Canada | x | 630 | 490 | x |
+| Mexico | 645 | x | x | x |
+| VK | x | x | 831 | x |
+
 
 Power BI produceert deze als de categorische gegevensweergave. Het is de set met categorieën.
 
@@ -545,7 +544,7 @@ U kunt de tabelgegevensweergave als volgt visualiseren:
 
 Voorbeeld van gegevens:
 
-| Land| Jaar | Verkoop |
+| Land| Year | Sales |
 |-----|-----|------|
 | VS | 2016 | 100 |
 | VS | 2015 | 50 |

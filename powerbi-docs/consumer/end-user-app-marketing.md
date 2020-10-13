@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88205114"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635810"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>De voorbeeld-app Verkoop en Marketing installeren en gebruiken in de Power BI-service
 
@@ -53,11 +53,11 @@ Nu u een [basaal begrip hebt over het verkrijgen van Power BI-inhoud](end-user-a
 
 6. Kies of u uw eigen gegevens wilt verbinden, met voorbeeldgegevens wilt verkennen of uw nieuwe app wilt aanpassen en delen. Omdat we een voorbeeldapp van Microsoft hebben geselecteerd, gaan we de app eerst verkennen. 
 
-    ![Verkennen met sample-gegevens](./media/end-user-app-marketing/power-bi-explore-app.png)
+    ![Schermopname laat zien hoe u aan de slag gaat met uw nieuwe app met de optie Verkennen met voorbeeldgegevens gemarkeerd.](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  Uw nieuwe app wordt geopend met een dashboard. De app-*ontwerper* heeft mogelijk ingesteld dat de app in plaats daarvan met een rapport wordt geopend.  
 
-    ![Verkennen met sample-gegevens](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![Schermopname van een dashboard voor uw app.](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 

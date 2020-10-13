@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/22/2020
+ms.date: 10/5/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 59ea8bf0ffa3b4b871c26758fd7433525e1eecd3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0b6ccdf2e5caad141ef0c33ae70b9c2f2b604462
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537936"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780156"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>De dashboards en rapporten weergeven die met mij zijn gedeeld
 
@@ -22,9 +22,9 @@ ms.locfileid: "87537936"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Wanneer een collega inhoud met u deelt via de knop **Delen**, wordt deze inhoud weergegeven in de container **Gedeeld met mij**. Het dashboard of rapport is alleen beschikbaar vanuit **Gedeeld met mij** en niet vanuit **Apps**.
+Wanneer een collega een dashboard of rapport met u deelt, wordt de inhoud daarvan weergegeven in de container **Gedeeld met mij**. Wanneer een collega een app met u deelt, wordt de app weergegeven in de container **Apps**.   
 
-![Deelpictogram](./media/end-user-shared-with-me/power-bi-share-dashboard.png)
+![Deelpictogram](./media/end-user-shared-with-me/power-bi-shared-with-me.png)
 
 Kijk hoe Amanda de inhoudslijst **Gedeeld met mij** uitlegt en demonstreert hoe u naar de lijst navigeert en deze filtert. Volg vervolgens de stapsgewijze instructies onder de video om het zelf te proberen. Als u met u gedeelde dashboards wilt weergeven, moet u beschikken over een Power BI Pro-licentie. Lees [Wat is Power BI Premium?](../admin/service-premium-what-is.md) voor meer informatie.
     
@@ -37,24 +37,10 @@ Kijk hoe Amanda de inhoudslijst **Gedeeld met mij** uitlegt en demonstreert hoe 
 
 ## <a name="interact-with-shared-content"></a>Interactie met gedeelde inhoud
 
-U krijgt opties om met het gedeelde dashboard en de rapporten te communiceren, afhankelijk van de machtigingen die de *ontwerper* u heeft gegeven. Hierbij zijn de mogelijkheden inbegrepen om kopieën van het dashboard te maken, het rapport [in leesweergave](end-user-reading-view.md) te openen en opnieuw te delen met andere collega's.
-
-![Container Gedeeld met mij](./media/end-user-shared-with-me/power-bi-shared.png)
-
-### <a name="actions-available-from-the-shared-with-me-container"></a>Acties die beschikbaar zijn via de container **Gedeeld met mij**
-Welke acties voor u beschikbaar zijn, is afhankelijk van de instellingen die worden toegewezen door de *ontwerper* van de inhoud. U kunt onder andere het volgende kiezen:
-* Selecteer het sterpictogram om [een dashboard of rapport toe te voegen aan de favorieten](end-user-favorite.md) ![sterpictogram](./media/end-user-shared-with-me/power-bi-star-icon.png).
-* Een dashboard of rapport verwijderen  ![pictogram van de prullenbak](./media/end-user-shared-with-me/power-bi-delete-icon.png).
-* Sommige dashboards en rapporten kunnen opnieuw worden gedeeld  ![Deelpictogram](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [Het rapport openen in Excel](end-user-export.md) ![pictogram voor exporteren naar Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
-* [Bekijk inzichten](end-user-insights.md) die Power BI in de gegevens vindt ![pictogram voor inzichten](./media/end-user-shared-with-me/power-bi-insights.png).
-  
-  > [!NOTE]
-  > Voor informatie over EGRC-classificaties selecteert u de **classificatieknop** of [gaat u naar Classificatie van dashboardgegevens](../create-reports/service-data-classification.md).
-  > 
+U krijgt opties om met het gedeelde dashboard en de rapporten te communiceren, afhankelijk van de machtigingen die de *ontwerper* u heeft gegeven. Hierbij zijn de mogelijkheden inbegrepen om kopieën van het dashboard te maken, te abonneren, het rapport [in leesweergave](end-user-reading-view.md) te openen en opnieuw te delen met andere collega's. Selecteer een dashboard of rapport om het te openen.
 
 
-## <a name="search-and-sort-shared-dashboards"></a>Gedeelde dashboards zoeken en sorteren
-Als uw lijst inhoud lang wordt, zijn er verschillende mogelijkheden om te vinden wat u zoekt. U kunt het zoekveld gebruiken, sorteren op datum en een selectie maken uit de kolom **Eigenaar**.    
+## <a name="search-and-sort-shared-dashboards-and-reports"></a>Gedeelde dashboards en rapporten zoeken en sorteren
+Als uw inhoudslijst **Gedeeld met mij** te lang wordt, zijn er verschillende mogelijkheden om te vinden wat u zoekt. U kunt het zoekveld gebruiken (1), u kunt sorteren op een van de kolommen (2) of u kunt het deelvenster Filters gebruiken. Open het deelvenster Filters door **Filters** in de rechterbovenhoek te selecteren.    
 
-![dashboards: eigenaars en zoeken](./media/end-user-shared-with-me/power-bi-sort.png)
+![dashboards: eigenaars en zoeken](./media/end-user-shared-with-me/power-bi-filter.png)

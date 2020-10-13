@@ -1,17 +1,17 @@
 ---
 title: Trainingscatalogus voor consumenten
-description: Zoeken naar alle trainingsopties voor Power BI
+description: Zoek alle trainingsopties voor Power BI voor consumenten die gebruikmaken van rapporten en dashboards, van de meest basale tot de meest geavanceerde.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 51ccaa55eba6a03aa7b41780aaf859f134d2ddae
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 4a4190dd8a1f17c1a49eca09e6c673a102ae0924
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532736"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749409"
 ---
 # <a name="consumers-learning-catalog"></a>Trainingscatalogus voor consumenten
 
@@ -22,6 +22,6 @@ De volgende catalogus reikt van de belangrijkste kennis tot specifieke domeinen,
 ## <a name="get-started"></a>Aan de slag<a name="get-started"></a>
 | Inhoud  | Beschrijving  | Indeling| Lengte  |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------------|
-| [Gegevens gebruiken met Power BI](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/) | Wilt u bedrijfsbeslissingen maken die door gegevens worden ondersteund? Lees hoe u dit doet in Power BI. Leer met Power BI te werken om deze inhoud te beoordelen en te gebruiken bij het nemen van zakelijke beslissingen. | Een leertraject in uw eigen tempo, online en gratis | 2 uur 9 min.  |
+| [Gegevens gebruiken met Power BI](/learn/paths/consume-data-with-power-bi/) | Wilt u bedrijfsbeslissingen maken die door gegevens worden ondersteund? Lees hoe u dit doet in Power BI. Leer met Power BI te werken om deze inhoud te beoordelen en te gebruiken bij het nemen van zakelijke beslissingen. | Een leertraject in uw eigen tempo, online en gratis | 2 uur 9 min.  |
 | [YouTube-kanaal voor Microsoft Power BI](https://www.youtube.com/user/mspowerbi/videos) | YouTube-kanaal met inhoud van het Power BI-productteam van Microsoft  | Video's  |            |
-| [Wat is Power BI?](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview) | Overzicht van Power BI | Website  | 3 minuten om te lezen |
+| [Wat is Power BI?](../fundamentals/power-bi-overview.md) | Overzicht van Power BI | Website  | 3 minuten om te lezen |

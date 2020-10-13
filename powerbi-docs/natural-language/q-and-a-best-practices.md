@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240441"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635787"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>Best practices om Q&A in Power BI te optimaliseren
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Nog nuttiger is het wanneer uw gegevens antwoorden. Dit is wat u met Q&A in Power BI kunt doen.
@@ -116,11 +116,11 @@ Als u meerdere kolommen hebt die als een afzonderlijke eenheid binnen een groter
 
 **Actie vereist**
 
-![Meerdere tabellen voor Q&A gebruiken](media/q-and-a-best-practices/desktop-qna-09.png)
+![Schermopname van tabel Leveranciers die contactgegevens bevat.](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **Gereed voor Q&A**
 
-![Meerdere tabellen voor Q&A gebruiken](media/q-and-a-best-practices/desktop-qna-10.png)
+![Schermopname van twee tabellen, één voor Leveranciers en één voor Contactpersonen.](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>Draaien om eigenschappenverzamelingen te elimineren
 
@@ -134,7 +134,7 @@ Neem bijvoorbeeld een tabel *KlantenDemografie* met de kolommen Klant-id, Eigens
 
 **Gereed voor Q&A**
 
-![Meerdere tabellen voor Q&A gebruiken](media/q-and-a-best-practices/desktop-qna-12.png)
+![Schermopname van vier kolommen met de eigenschappen Leeftijd, Burgerlijke staat, Plaats en Geslacht als kolommen met waarden voor verschillende klanten.](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>Samenvoegen om partitioneren te elimineren
 
@@ -148,7 +148,7 @@ Kijk op dezelfde manier eens naar een gedraaide waardenkolom: een tabel *BookTou
 
 **Gereed voor Q&A**
 
-![Meerdere tabellen voor Q&A gebruiken](media/q-and-a-best-practices/desktop-qna-14.png)
+![Schermopname van twee tabellen, één met boek- en auteursinformatie voor rondleidingen en één met steden waar de rondleidingen plaatsvinden.](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>Opgemaakte kolommen splitsen
 
@@ -160,7 +160,7 @@ Als de bron van waaruit u uw gegevens wilt importeren opgemaakte kolommen bevat,
 
 **Gereed voor Q&A**
 
-![Meerdere tabellen voor Q&A gebruiken](media/q-and-a-best-practices/desktop-qna-16.png)
+![Schermopname van een tabel met klanten, een volledige adresregel en drie regels die het adres onderverdelen in straat, plaats en land.](media/q-and-a-best-practices/desktop-qna-16.png)
 
 Als u soortgelijke kolommen hebt met de volledige naam van een persoon, moet u kolommen toevoegen met **Voornaam** en **Achternaam**, voor het geval iemand vragen stelt met betrekking tot gedeelten van namen. 
 
@@ -175,7 +175,7 @@ Als in een soortgelijke situatie de bron van waaruit u uw gegevens wilt importer
 
 **Gereed voor Q&A**
 
-![Meerdere tabellen voor Q&A gebruiken](media/q-and-a-best-practices/desktop-qna-18.png)
+![Schermopname van twee tabellen, één met een naam en genre, en één met de componist.](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Denormaliseren om inactieve relaties te elimineren
 

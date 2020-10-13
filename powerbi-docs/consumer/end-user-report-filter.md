@@ -1,21 +1,21 @@
 ---
 title: Rondleiding maken door het deelvenster Rapportfilters
-description: Een rapportfilter toevoegen aan een rapport in de Power BI-service voor gebruikers
+description: Een filter toevoegen aan een rapport in de Power BI-service voor zakelijke gebruikers
 author: mihart
 ms.reviewer: mihart
 ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a6b9dc88c63e430d5f5f24136d34f294d9648b4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: fb283858d9e6fe016e382f4c662de6b66bce0258
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536487"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600697"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Rondleiding door het deelvenster Filters van het rapport
 
@@ -25,17 +25,21 @@ ms.locfileid: "87536487"
 
 In dit artikel wordt het rapportvenster **Filters** in Power BI-service besproken. Gebruik de filters om nieuwe inzichten in uw gegevens te ontdekken.
 
-Er zijn veel verschillende manieren om gegevens te filteren in Power BI. Zie [Over filters en markeren in Power BI-rapporten](../create-reports/power-bi-reports-filters-and-highlighting.md) voor meer informatie over filters.
+Er zijn veel verschillende manieren om gegevens te filteren in Power BI. In dit artikel wordt uitgelegd hoe u het deelvenster **Filters** gebruikt.  U kunt ook filteren door gegevenspunten in een rapportvisual te selecteren om de andere visuals op de pagina te filteren. Dit wordt **kruislingse filtering** en **kruislingse markering** genoemd. Raadpleeg [Filters en markeringen in Power BI-rapporten](../create-reports/power-bi-reports-filters-and-highlighting.md) voor meer informatie over kruislingse filtering en kruislingse markering.
 
-![Schermopname van een rapport in de browser, met een pijl die wijst naar de optie Filters.](media/end-user-report-filter/power-bi-report.png)
+![Schermopname van een rapport in de browser, met een pijl die wijst naar de optie Filters.](media/end-user-report-filter/power-bi-reports.png)
 
 ## <a name="working-with-the-report-filters-pane"></a>Het deelvenster Filters van het rapport gebruiken
 
 Als een collega een rapport met u deelt, bekijk dan het deelvenster **Filters**. Het wordt soms samengevouwen aan de rechterzijde van het rapport. Selecteer het om het uit te breiden.
 
-![Schermopname van het rapport met een uitgevouwen deelvenster Filters.](media/end-user-report-filter/power-bi-expand-filter-pane.png)
+![Schermopname van het rapport met een uitgevouwen deelvenster Filters.](media/end-user-report-filter/power-bi-expand-filters-pane.png)
 
-Het deelvenster **Filters** bevat filters die de rapport*ontwerper* aan het rapport heeft toegevoegd. *Gebruikers* als uzelf kunnen de bestaande filters gebruiken en wijzigingen opslaan, maar geen nieuwe filters aan het rapport toevoegen. In de bovenstaande schermopname heeft de ontwerper bijvoorbeeld drie filters op paginaniveau toegevoegd: **Segment is Alle**, **Jaar is 2014** en **Regio is Centraal**. U kunt deze filters gebruiken en wijzigen, maar u kunt geen vierde filter op paginaniveau toevoegen.
+Het deelvenster **Filters** bevat filters die de rapport*ontwerper* aan het rapport heeft toegevoegd. *Zakelijke gebruikers* als uzelf kunnen de bestaande filters gebruiken en wijzigingen opslaan, maar geen nieuwe filters aan het rapport toevoegen. In de bovenstaande schermopname heeft de ontwerper bijvoorbeeld drie filters op paginaniveau toegevoegd: **Segment is Alle**, **Jaar is 2014** en **Regio is Centraal**. U kunt deze filters gebruiken en wijzigen, maar u kunt geen vierde filter op paginaniveau toevoegen.
+
+Sommige filters zijn gearceerd, en andere niet. Als een filter is gearceerd, betekent dit dat er een filter is toegepast en dat sommige gegevens worden uitgesloten. De filterkaart **Regio** is bijvoorbeeld gearceerd. Wanneer u de kaart uitvouwt, ziet u dat alleen **Centraal** is geselecteerd in de vervolgkeuzelijst. Omdat Regio zich onder de koptekst **Filters op deze pagina** bevindt, worden in alle visuals op deze pagina de regio’s **West** en **Oost** uitgesloten.
+
+![Schermopname van de filter Regio uitgevouwen, en met de optie Centraal weergegeven met een vinkje.](media/end-user-report-filter/power-bi-filter-region.png)
 
 Rapporten in de Power BI-service houden alle wijzigingen bij die u in het deelvenster **Filters** maakt. De service past deze wijzigingen toe op de mobiele versie van het rapport. 
 
@@ -54,19 +58,19 @@ Als er wijzigingen zijn die u wilt opslaan, kunt u ook een persoonlijke bladwijz
 
 Het venster **Filters** toont en beheert verschillende typen rapportfilters: rapport, rapportpagina en visual.
 
-In dit voorbeeld hebben we een visual met drie filters geselecteerd. De rapportagepagina heeft ook filters; deze staan onder de kop **Filters op deze pagina**. Het gehele rapport heeft bovendien een filter voor **Datum**.
+In dit voorbeeld hebben we een visual met drie filters geselecteerd: **Fabrikant**, **Maand** en **Totaal aantal eenheden**. De rapportagepagina heeft ook filters; deze staan onder de kop **Filters op deze pagina**. En het hele rapport heeft een filter voor **Datum**, weergegeven onder **Filters op alle pagina's**.
 
-![Schermopname van een rapport met een visualisatie en markering van de bijbehorende filters.](media/end-user-report-filter/power-bi-filters-pane.png)
+![Schermopname van een rapport met een visualisatie en markering van de bijbehorende filters.](media/end-user-report-filter/power-bi-filter-pane.png)
 
-Naast sommige filters staat **(Alle)** . **(Alle)**  betekent dat alle waarden in het filter worden opgenomen. In de bovenstaande schermopname informeert **Segment (Alle)** dat deze rapportpagina gegevens bevat over alle productsegmenten. 
+Naast sommige filters staat **(Alle)**. **(Alle) ** betekent dat alle waarden in het filter worden opgenomen. In de bovenstaande schermopname informeert **Segment (Alle)** dat deze rapportpagina gegevens bevat over alle productsegmenten. 
 
-Iedereen die dit rapport bekijkt, kan met deze filters werken.
+Iedereen met machtigingen om dit rapport weer te geven, kan met deze filters werken.
 
 ### <a name="view-only-those-filters-applied-to-a-visual"></a>Alleen filters weergeven die zijn toegepast op een visual
 
-Ga met de muisaanwijzer over de visual om het filterpictogram ![Schermopname van het filterpictogram](media/end-user-report-filter/power-bi-filter-icon.png) weer te geven en beter zicht te krijgen op de filters die op een specifieke visual zijn toegepast. Selecteer dat filterpictogram om een pop-upvenster weer te geven met alle filters, slicers, enz. die invloed hebben op die visual. De filters in de pop-up zijn dezelfde filters die worden weergegeven in het venster **Filters**, plus aanvullende filters die van invloed zijn op de geselecteerde visual.
+Ga met de muisaanwijzer over de visual om het filterpictogram ![Schermopname van het filterpictogram](media/end-user-report-filter/power-bi-filter-icon.png) weer te geven en beter zicht te krijgen op de filters die van invloed zijn op een specifieke visual. Selecteer dat filterpictogram om een pop-upvenster weer te geven met alle filters, slicers, enz. die invloed hebben op die visual. De filters in de pop-up zijn dezelfde filters die worden weergegeven in het deelvenster **Filters**, plus eventuele aanvullende filters die van invloed zijn op de geselecteerde visual.
 
-![Schermopname van een lijst filters met pijlen die wijzen naar de posities van deze filters in het deelvenster Filters.](media/end-user-report-filter/power-bi-hover-filters.png)
+![Schermopname van een lijst filters met pijlen die wijzen naar de posities van deze filters in het deelvenster Filters.](media/end-user-report-filter/power-bi-filters-hover.png)
 
 Dit zijn de typen filters die in deze weergave kunnen worden weergegeven:
 
@@ -81,12 +85,12 @@ Dit zijn de typen filters die in deze weergave kunnen worden weergegeven:
 - Opname-/uitsluitingsfilters
 - Filters die via een URL zijn doorgegeven
 
-In dit voorbeeld:
-1. Met **Inbegrepen** wordt aangegeven dat het visuele element is gefilterd. Dit betekent dat de staten Utah, Colorado en Texas zijn geselecteerd in een van de andere visuals op deze rapportpagina. In dit geval is het de kaart. Door de selectie van die drie staten worden de gegevens van alle andere staten niet weergegeven in het geselecteerde staafdiagram.  
+In dit voorbeeld geldt het volgende:
+1. Met **Inbegrepen** wordt aangegeven dat het visuele element is gefilterd. Dit betekent dat de staten Alabama en Texas zijn geselecteerd in een van de andere visuals op deze rapportpagina. In dit geval is het de kaartvisual. Door de selectie van deze twee staten worden de gegevens van alle andere staten niet weergegeven in het geselecteerde staafdiagram.  
 
-1. **Datum** is een filter dat wordt toegepast op alle pagina's in dit rapport,
+1. **Datum** is een filter dat wordt toegepast op alle pagina's in dit rapport.
 
-1. **Regio is Centraal** en **Jaar is 2014** zijn filters die zijn toegepast op deze rapport pagina en
+1. **Regio is Centraal** en **Jaar is 2014** zijn filters die zijn toegepast op deze rapportpagina.
 
 4. **Fabrikant is VanArsdel, Natura, Aliqui of Pirum** is een filter dat wordt toegepast op de visual.
 
@@ -95,19 +99,19 @@ In dit voorbeeld:
 
 Soms kan een filter een lange lijst waarden hebben. Gebruik het zoekvak om de gewenste waarde te zoeken en selecteren.
 
-![Schermopname van hoe u kunt zoeken in een filter.](media/end-user-report-filter/power-bi-search.png)
+![Schermopname van hoe u kunt zoeken in een filter.](media/end-user-report-filter/power-bi-search-filter.png)
 
 ### <a name="display-filter-details"></a>Filtergegevens weergeven
 
-Bekijk de beschikbare waarden en tellingen om een filter te begrijpen.  Bekijk de details van het filter door de pijl naast de naam van het filter aan te wijzen en te selecteren.
+Als u een filter wilt begrijpen, vouwt u dit uit en bekijkt u de beschikbare waarden en tellingen.  Als u het filter wilt uitvouwen, selecteert u de pijl naast de filternaam.
   
-![Schermopname van een filter dat aangeeft dat de regio West is geselecteerd.](media/end-user-report-filter/power-bi-filter-expand.png)
+![Schermopname van een filter dat aangeeft dat de regio West is geselecteerd.](media/end-user-report-filter/power-bi-filters-expand.png)
 
 ### <a name="change-filter-selections"></a>Filterselecties wijzigen
 
 Een manier om te zoeken naar inzichten in gegevens, is door de filters te gebruiken. U kunt filterselecties wijzigen via de vervolgkeuzelijst naast de veldnaam.  Afhankelijk van het filter en type gegevens dat Power BI filtert, variëren uw opties van eenvoudige selecties in een lijst tot het identificeren van datum- of cijferbereiken. In het geavanceerde filter hieronder hebben we het filter **Total Units YTD** in de treemap gewijzigd naar 2000 tot 3000. U ziet dat door deze wijziging Pirum uit de treemap wordt verwijderd.
   
-![Schermopname van een rapport en de bijbehorende filters, waarin de visual treemap is geselecteerd.](media/end-user-report-filter/power-bi-treemap-filters.png)
+![Schermopname van een rapport en de bijbehorende filters, waarin de visual treemap is geselecteerd.](media/end-user-report-filter/power-bi-treemap-filter.png)
 
 > [!TIP]
 > Houd de CTRL-toets ingedrukt om meer dan één filterwaarde per keer te selecteren. De meeste filters ondersteunen meervoudige selectie.
@@ -122,7 +126,7 @@ Selecteer **Standaardinstelling herstellen** in de bovenste menubalk als u alle 
 
 Als u een filter wilt herstellen naar (Alle), wist u het filter door de gum naast de naam van het filter te selecteren.
 
-![Schermopname van het gumpictogram.](media/end-user-report-filter/power-bi-eraser.png)
+![Schermopname van het gumpictogram.](media/end-user-report-filter/power-bi-erase.png)
   
 <!--  too much detail for consumers
 

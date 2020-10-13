@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/5/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e0aa8c5845c7f87f15e9b152bcaa20094e83ade
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 148fe66039cb273d4ee20521762d5720252c7492
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237790"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635718"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Watervalgrafieken in Power BI
 
@@ -96,7 +96,7 @@ Breid de grafiek iets uit om te zien welke staten per maand het meeste bijdragen
 
 1.  Selecteer **Winkel** > **Gebied**. Hierdoor wordt **Gebied** toegevoegd aan de bucket **Uitsplitsing**.
 
-    ![Toont Store in groep Uitsplitsing](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
+    ![Schermopname van het toevoegen van Gebied aan Uitsplitsing.](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
     Power BI gebruikt de waarde in **Uitsplitsing** om extra gegevens aan de visualisatie toe te voegen. Hiermee worden de vijf inzenders toegevoegd die het meest bijdragen aan de toename of afname per boekmaand. Dit betekent bijvoorbeeld dat februari nu zes gegevenspunten bevat in plaats van slechts één.  
 

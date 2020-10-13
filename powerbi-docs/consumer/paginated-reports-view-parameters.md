@@ -7,17 +7,17 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 12/03/2019
-ms.openlocfilehash: 97d116e233395368ddf86b86811f1a3ee72a43c4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/28/2020
+ms.openlocfilehash: 37ec4b9f38287b893469de2bcf152a6aba9886ad
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538074"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528224"
 ---
 # <a name="view-parameters-for-paginated-reports-in-the-power-bi-service"></a>Parameters voor gepagineerde rapporten in de Power BI-service weergeven
 
-In dit artikel leert u hoe u de parameters voor gepagineerde rapporten in de Power BI-service gebruikt.  Met een rapportparameter kunt u rapportgegevens filteren. Parameters bieden een lijst met beschikbare waarden, waarvan u er een of meer kunt kiezen. Soms hebben parameters een standaardwaarde, en soms moet u een waarde kiezen voordat u het rapport kunt weergeven.  
+In dit artikel leert u hoe u de parameters voor gepagineerde rapporten in de Power BI-service gebruikt.  Met een rapportparameter kunt u rapportgegevens filteren. Parameters bieden een lijst met beschikbare waarden. U kunt een of meer waarden kiezen of in een parametertekstvak typen om te zoeken naar waarden. Soms hebben parameters een standaardwaarde, en soms moet u een waarde kiezen voordat u het rapport kunt weergeven.  
 
 Wanneer u een rapport met parameters weergeeft, wordt elke parameter weergegeven op de werkbalk van de rapportviewer zodat u interactief waarden kunt opgeven. In de volgende illustratie ziet u het parametergebied voor een rapport met parameters voor de **inkoopgroep**, **locatie**, **begindatum** en **einddatum**.  
 

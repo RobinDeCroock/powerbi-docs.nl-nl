@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 05/12/2020
-ms.openlocfilehash: e7b1e33322e0c1174b05a4e7b3617b5d3f7a18e8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231217"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746787"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
 
@@ -24,21 +24,21 @@ In dit artikel wordt de service-principal-verificatie met een *toepassings-id* e
 
 >[!NOTE]
 >We raden u aan uw backend-services te beveiligen met behulp van certificaten, in plaats van geheime sleutels.
->* [Meer informatie over het verkrijgen van toegangstokens van Azure AD met behulp van geheime sleutels of certificaten](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion).
+>* [Meer informatie over het verkrijgen van toegangstokens van Azure AD met behulp van geheime sleutels of certificaten](/azure/architecture/multitenant-identity/client-assertion).
 >* [Power BI-inhoud met service-principal en een certificaat insluiten](embed-service-principal-certificate.md).
 
 ## <a name="method"></a>Methode
 
 Voer de volgende stappen uit om een service-principal en een toepassings-id met ingesloten analyses te gebruiken:
 
-1. Maak een [Azure AD-app](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-application-management).
+1. Maak een [Azure AD-app](/azure/active-directory/manage-apps/what-is-application-management).
 
     1. Maak het geheim van de Azure AD-app.
     
     2. Haal de *toepassings-id* en het *toepassingsgeheim* van de app op.
 
     >[!NOTE]
-    >Deze stappen worden beschreven in **stap 1**. Zie het artikel [Een Azure AD-app maken](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal) voor meer informatie over het maken van een Azure AD-app.
+    >Deze stappen worden beschreven in **stap 1**. Zie het artikel [Een Azure AD-app maken](/azure/active-directory/develop/howto-create-service-principal-portal) voor meer informatie over het maken van een Azure AD-app.
 
 2. Maak een Azure AD-beveiligingsgroep.
 
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om een service-principal en een toepassings-id met 
 
 Maak een Azure AD-app met behulp van een van deze methoden:
 * De app maken in de [Microsoft Azure-portal](https://portal.azure.com/#allservices)
-* Maak de app met behulp van [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
+* Maak de app met behulp van [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Een Azure AD-app maken in de Microsoft Azure-portal
 
@@ -63,7 +63,7 @@ Maak een Azure AD-app met behulp van een van deze methoden:
 
 7. Klik op de tab **Certificaten en geheimen**.
 
-     ![toepassings-id](media/embed-service-principal/certificates-and-secrets.png)
+     ![Schermopname van het deelvenster Certificaten en geheimen voor een app in Azure Portal.](media/embed-service-principal/certificates-and-secrets.png)
 
 
 8. Klik op **Nieuw clientgeheim**
@@ -81,7 +81,7 @@ Maak een Azure AD-app met behulp van een van deze methoden:
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>Een Azure AD-app maken met PowerShell
 
-Deze sectie bevat een voorbeeldscript voor het maken van een nieuwe Azure AD-app met [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+Deze sectie bevat een voorbeeldscript voor het maken van een nieuwe Azure AD-app met [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
 ```powershell
 # The app ID - $app.appid
@@ -111,7 +111,7 @@ U kunt op twee manieren een Azure AD-beveiligingsgroep maken:
 
 ### <a name="create-a-security-group-manually"></a>Handmatig een beveiligingsgroep maken
 
-Als u handmatig een Azure-beveiligingsgroep wilt maken, volgt u de instructies in het artikel [Een basisgroep maken en leden toevoegen met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
+Als u handmatig een Azure-beveiligingsgroep wilt maken, volgt u de instructies in het artikel [Een basisgroep maken en leden toevoegen met Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
 
 ### <a name="create-a-security-group-using-powershell"></a>Een beveiligingsgroep maken met PowerShell
 
@@ -121,7 +121,7 @@ Hieronder volgt een voorbeeldscript voor het maken van een nieuwe beveiligingsgr
 >Als u toegang tot service-principals wilt inschakelen voor de hele organisatie, slaat u deze stap over.
 
 ```powershell
-# Required to sign in as a tenant admin
+# Required to sign in as admin
 Connect-AzureAD
 
 # Create an Azure AD security group
@@ -149,7 +149,7 @@ Voeg de beveiligingsgroep die u in Azure AD hebt gemaakt, toe aan de sectie Spec
 Als u uw Azure AD-app toegang wilt verlenen tot artefacten zoals rapporten, dashboards en gegevenssets in de Power BI-service, voegt u de entiteit van de service-principal toe als lid of beheerder aan uw werkruimte.
 
 >[!NOTE]
->Deze sectie bevat instructies voor de gebruikersinterface. U kunt ook een service-principal aan een werkruimte toevoegen met behulp van de [API Groups - Add Group User](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) (Groepen - Groepsgebruiker toevoegen).
+>Deze sectie bevat instructies voor de gebruikersinterface. U kunt ook een service-principal aan een werkruimte toevoegen met behulp van de [API Groups - Add Group User](/rest/api/power-bi/groups/addgroupuser) (Groepen - Groepsgebruiker toevoegen).
 
 1. Ga naar de werkruimte waarvoor u toegang wilt inschakelen, en selecteer in het menu **More** de optie **Workspace access**.
 
@@ -179,7 +179,7 @@ Als de inhoud is ingesloten, bent u klaar voor de [overgang naar de productieomg
 >[Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Toepassings- en service-principal-objecten in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Toepassings- en service-principal-objecten in Azure Active Directory](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[Beveiliging op rijniveau met on-premises gegevensgateway met service-principal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

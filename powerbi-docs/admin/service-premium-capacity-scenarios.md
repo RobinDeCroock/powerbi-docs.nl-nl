@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1bc11d94162ab2c6ed62de0825acd6e94db30291
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952657"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599383"
 ---
 # <a name="premium-capacity-scenarios"></a>Scenario's voor Premium-capaciteit
 
@@ -53,53 +53,53 @@ Om dit te onderzoeken, kan de Power BI-beheerder zoeken naar:
 
 - Weinig beschikbaar geheugen op het moment dat de gegevens worden vernieuwd wanneer het beschikbare geheugen kleiner is dan 2x de grootte van de gegevensset die moet worden vernieuwd.
 - Gegevenssets die niet worden vernieuwd en zich niet in het geheugen bevinden voordat ze worden vernieuwd, maar interactief verkeer begonnen te vertonen tijdens drukke vernieuwingstijden. Om te zien welke gegevenssets op een bepaald moment in het geheugen zijn geladen, kan een Power BI beheerder het gegevenssetgebied van het tabblad **Gegevenssets** in de app bekijken. De beheerder kan vervolgens kruislings filteren op een bepaalde tijd door te klikken op een van de balken in **Aantal gegevenssets dat per uur wordt geladen**. Een lokale piek, die in de onderstaande afbeelding wordt weergegeven, geeft een tijdstip aan waarop meerdere gegevenssets in het geheugen zijn geladen, waardoor de start van geplande vernieuwingen vertraging kan oplopen.
-- Er vinden meer gegevenssetverwijderingen plaats op het moment dat gegevensvernieuwingen zijn gepland om te starten. Verwijderingen kunnen erop wijzen dat er een hoge geheugenbelasting is ontstaan doordat er te veel verschillende interactieve rapporten zijn ontvangen vóór het moment van vernieuwen. De visual **Verwijderingen en geheugenverbruik van gegevenssets per uur** kan duidelijk wijzen op pieken in verwijderingen.
+- Er vinden meer gegevenssetverwijderingen plaats op het moment dat gegevensvernieuwingen zijn gepland om te starten. Verwijderingen kunnen erop wijzen dat er een hoge geheugenbelasting is ontstaan doordat er te veel verschillende interactieve rapporten zijn ontvangen vóór het vernieuwen. De visual **Verwijderingen en geheugenverbruik van gegevenssets per uur** kan duidelijk wijzen op pieken in verwijderingen.
 
-Op de volgende afbeelding wordt een lokale piek in geladen gegevenssets weergegeven, dat het vertraagd starten van vernieuwingen door interactieve query's veronderstelt. Als u een periode in de visual **Aantal gegevenssets dat per uur wordt geladen** selecteert, wordt de visual **Grootten gegevenssets** kruislings gefilterd.
+Op de volgende afbeelding wordt een lokale piek in geladen gegevenssets weergegeven, dat het vertraagd starten van vernieuwingen door interactieve query's veronderstelt. Als u een periode selecteert in de visual **Aantal gegevenssets dat per uur wordt geladen**, wordt de visual **Grootten gegevenssets** kruislings gefilterd.
 
 ![Een lokale piek in geladen gegevenssets veronderstelt het vertraagd starten van vernieuwingen door interactieve query's](media/service-premium-capacity-scenarios/hourly-loaded-dataset-counts.png)
 
 De Power BI-beheerder kan proberen het probleem op te lossen door stappen uit te voeren om ervoor te zorgen dat er voldoende geheugen beschikbaar is voor het vernieuwen van gegevens, te beginnen met:
 
 - Contact opnemen met eigenaren van gegevenssets en vragen om schema's voor het vernieuwen van gegevens.
-- Het verminderen van het laden van gegevenssetquery's door onnodige dashboards of dashboardtegels te verwijderen, met name degenen die beveiliging op rijniveau afdwingen.
+- Het verminderen van het laden van gegevenssetquery's door onnodige dashboards of dashboardtegels te verwijderen, met name inhoud die beveiliging op rijniveau afdwingt.
 - Het vernieuwen van gegevens versnellen door Power Query-logica te optimaliseren. De modellering van berekende kolommen of tabellen verbeteren. De grootte van gegevenssets verminderen of grotere gegevenssets configureren voor het incrementeel vernieuwen van gegevens.
 
 ## <a name="identifying-slow-responding-datasets"></a>Gegevenssets die langzaam reageren identificeren
 
-In dit scenario is een onderzoek gestart toen gebruikers erover klaagden dat het te lang duurde om bepaalde rapporten te openen en dat deze soms niet meer reageren.
+In dit scenario is een onderzoek gestart toen gebruikers erover klaagden dat het te lang duurde om bepaalde rapporten te openen. Soms reageerden de rapporten ook niet meer.
 
 In de app kan de Power BI-beheerder de visual **Queryduur** gebruiken om te bepalen welke gegevenssets het slechtst presteren door gegevenssets aflopend te sorteren op **Gemiddelde duur**. In deze visual worden ook de queryaantallen voor de gegevensset weergegeven, zodat u kunt zien hoe vaak de gegevenssets worden opgevraagd.
 
 ![Slechtst presterende gegevenssets](media/service-premium-capacity-scenarios/worst-performing-datasets.png)
 
-De beheerder kan verwijzen naar de visual **Queryduurdistributie**, waarin een algemene verdeling van de verzamelde queryprestaties wordt weergegeven (< = 30 ms, 0-100 ms) voor de gefilterde periode. Over het algemeen worden query's die een seconde of minder duren als reactief beschouwd door de meeste gebruikers. Query's die langer duren, worden over het algemeen beschouwd als slecht presterend.
+De beheerder kan verwijzen naar de visual **Queryduurdistributie**, waarin een algemene verdeling van de verzamelde queryprestaties wordt weergegeven (< = 30 ms, 0-100 ms) voor de gefilterde periode. Over het algemeen worden query's die een seconde of minder duren, door de meeste gebruikers als responsief beschouwd. Query's die langer duren, scheppen een beeld van slechte prestaties.
 
 Met de visual **Queryduurdistributies per uur** kan de Power BI-beheerder perioden van één uur vaststellen waarin de capaciteitsprestaties als slecht zijn waargenomen. Hoe groter de staafsegmenten die de duur van query's van meer dan één seconde aangeven, hoe groter het risico is dat gebruikers slechte prestaties zullen krijgen.
 
 De visual is interactief en wanneer een segment van de balk wordt geselecteerd, wordt de bijbehorende visual **Queryduur** van de tabel op de rapportpagina kruislings gefilterd om de gegevenssets weer te geven die het vertegenwoordigt. Met dit kruislings filteren kan de Power BI-beheerder gemakkelijk bepalen welke gegevenssets langzaam reageren.
 
-Op de volgende afbeelding ziet u een visual die is gefilterd op **Queryduurdistributies per uur**, waarmee de aandacht wordt gericht op de slechtst presterende gegevenssets in een interval van één uur. 
+Op de volgende afbeelding ziet u een visual die is gefilterd op **Queryduurdistributies per uur**, waarmee de aandacht wordt gericht op de slechtst presterende gegevenssets in een interval van één uur.
 
 ![Visual gefilterd op Queryduurdistributies per uur toont de slechtst presterende gegevenssets](media/service-premium-capacity-scenarios/hourly-query-duration-distributions.png)
 
-Zodra de slecht presterende gegevensset in een specifieke periode van één uur wordt geïdentificeerd, kan de Power BI-beheerder onderzoeken of de slechte prestaties worden veroorzaakt door overbelaste capaciteit of door een slecht ontworpen gegevensset of rapport. Ze kunnen de visual **Querywachttijden** raadplegen en gegevenssets sorteren op de aflopende gemiddelde wachttijd voor query's. Als een groot percentage van de query's aan het wachten is, is een grote vraag naar de gegevensset waarschijnlijk de oorzaak van de te veel wachtende query's. Als de gemiddelde wachttijd voor query's aanzienlijk is (> 100 ms), loont het mogelijk de moeite om de gegevensset en het rapport te controleren om te zien of er optimalisaties kunnen worden uitgevoerd. Bijvoorbeeld minder visuals op bepaalde rapportpagina's of de optimalisatie van een DAX-expressie.
+Nadat de slecht presterende gegevensset in een specifieke periode van één uur is geïdentificeerd, kan de Power BI-beheerder onderzoeken of de slechte prestaties worden veroorzaakt door overbelaste capaciteit of door een slecht ontworpen gegevensset of rapport. Ze kunnen de visual **Querywachttijden** raadplegen en gegevenssets sorteren op de aflopende gemiddelde wachttijd voor query's. Als een groot percentage van de query's aan het wachten is, is een grote vraag naar de gegevensset waarschijnlijk de oorzaak van de te veel wachtende query's. Als de gemiddelde wachttijd voor query's aanzienlijk is (> 100 ms), loont het mogelijk de moeite om de gegevensset en het rapport te controleren om te zien of er optimalisaties kunnen worden uitgevoerd. Bijvoorbeeld minder visuals op bepaalde rapportpagina's of de optimalisatie van een DAX-expressie.
 
 ![De visual Querywachttijden helpt om slecht presterende gegevenssets te identificeren](media/service-premium-capacity-scenarios/query-wait-times.png)
 
 Er zijn verschillende mogelijke redenen voor het toenemen van de wachttijd van query's in gegevenssets:
 
 - Een suboptimaal modelontwerp, meetexpressies of zelfs rapportontwerp: alle omstandigheden die kunnen bijdragen aan langdurige query's die veel CPU verbruiken. Hierdoor worden nieuwe query's gedwongen te wachten totdat CPU-threads beschikbaar zijn en kan er een opstopping komen (denk aan een file), wat doorgaans wordt gezien tijdens de piekuren op kantoor. De pagina **Wachten op query** is de belangrijkste informatiebron voor het bepalen of gegevenssets een hoge gemiddelde wachttijd hebben.
-- Een groot aantal gelijktijdige capaciteitsgebruikers (honderden tot duizenden) die hetzelfde rapport of dezelfde gegevensset gebruiken. Zelfs goed ontworpen gegevenssets kunnen slecht presteren als een gelijktijdigheidsdrempel is overschreden. Dit wordt doorgaans aangegeven doordat één gegevensset een aanzienlijk hogere waarde voor queryaantallen weergeeft dan andere gegevenssets weergeven (bijvoorbeeld 300.000 query's voor één gegevensset vergeleken met < 30.000 query's voor alle andere gegevenssets). Op een bepaald moment wacht de query totdat deze gegevensset wordt gespreid, wat te zien is in de visual **Queryduur**.
-- Veel ongelijksoortige gegevenssets worden gelijktijdig geraadpleegd, waardoor thrashing plaatsvindt als gegevenssets regelmatig naar en uit het geheugen worden gehaald. Dit leidt er toe dat gebruikers trage prestaties ondervinden wanneer de gegevensset in het geheugen wordt geladen. Ter bevestiging kan de Power BI-beheerder de visual **Verwijderingen en geheugenverbruik van gegevenssets per uur** raadplegen. Dit kan aangeven dat een groot aantal gegevenssets dat in het geheugen is geladen herhaaldelijk wordt verwijderd.
+- Een groot aantal gelijktijdige capaciteitsgebruikers (honderden tot duizenden) die hetzelfde rapport of dezelfde gegevensset gebruiken. Zelfs goed ontworpen gegevenssets kunnen slecht presteren als een gelijktijdigheidsdrempel is overschreden. Dit prestatieprobleem wordt aangegeven door één gegevensset met een aanzienlijk hogere waarde voor queryaantallen dan andere gegevenssets. Zo ziet u mogelijk 300.000 query's voor één gegevensset vergeleken met < 30.000 query's voor alle andere gegevenssets. Op een bepaald moment wacht de query totdat deze gegevensset wordt gespreid, wat te zien is in de visual **Queryduur**.
+- Veel ongelijksoortige gegevenssets worden gelijktijdig geraadpleegd, waardoor thrashing plaatsvindt als gegevenssets regelmatig naar en uit het geheugen worden gehaald. Deze situatie leidt er toe dat gebruikers trage prestaties ondervinden wanneer de gegevensset in het geheugen wordt geladen. Ter bevestiging kan de Power BI-beheerder de visual **Verwijderingen en geheugenverbruik van gegevenssets per uur** raadplegen. Dit kan aangeven dat een groot aantal gegevenssets dat in het geheugen is geladen herhaaldelijk wordt verwijderd.
 
 ## <a name="identifying-causes-for-sporadically-slow-responding-datasets"></a>Oorzaken identificeren voor gegevenssets die sporadisch langzaam reageren
 
-In dit scenario is een onderzoek gestart toen gebruikers meldden dat visuals van rapporten soms traag reageerden of niet reageerden, maar ze op andere momenten voldoende responsief waren.
+In dit scenario is een onderzoek gestart toen gebruikers meldden dat visuals van rapporten soms traag reageerden of niet reageerden. Op andere momenten was de reactietijd van de visuals van het rapport acceptabel.
 
 Binnen de app is de sectie **Queryduur** gebruikt om de verantwoordelijke gegevensset op de volgende manier te vinden:
 
-- In de visual **Queryduur** heeft de beheerder gegevensset per gegevensset gefilterd (beginnend bij de meest opgevraagde gegevenssets) en de kruislings gefilterde balken in de visual **Queryverdelingen per uur** onderzocht.
+- In de visual Queryduur heeft de beheerder gegevensset per gegevensset gefilterd (beginnend bij de meest opgevraagde gegevenssets) en de kruislings gefilterde balken in de visual **Queryverdelingen per uur** onderzocht.
 - Als een balk van één uur aanzienlijke wijzigingen in de verhouding tussen alle queryduurgroepen versus andere balken van één uur voor die gegevensset vertoont (bijvoorbeeld de verhouding tussen de kleuren drastisch wijzigt), betekent dit dat deze gegevensset een sporadische wijziging in prestaties vertoonde.
 - De balk van één uur die een irreguliere hoeveelheid slecht presterende query's vertoonde, gaf een periode aan waarin deze gegevensset werd beïnvloed door een ruiseffect, veroorzaakt door activiteiten van andere gegevenssets.
 
@@ -152,6 +152,6 @@ Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk B
 > [!div class="nextstepaction"]
 > [Capaciteiten bewaken in de beheerportal](service-admin-premium-monitor-portal.md)   
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
 ||||||

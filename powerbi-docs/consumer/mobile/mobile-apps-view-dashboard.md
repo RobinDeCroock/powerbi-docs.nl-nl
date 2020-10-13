@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
-ms.openlocfilehash: db889c945a7ea6f674bcc95e8ccf2c2075d56094
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 5add474500754405acb959577a0a7eb2e50a148b
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091709"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668638"
 ---
 # <a name="view-dashboards-in-the-power-bi-mobile-apps"></a>Dashboards weergeven in de mobiele Power BI-apps
 Van toepassing op:
@@ -44,12 +44,12 @@ Hier ziet u een Power BI-dashboard in de Power BI-service:
    
     ![Tik op dashboard](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
    
-   * De gele sterren ![Favorietsterren](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
-   * De notatie ![Gegevensclassificatie](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) (in dit geval 'MBI') onder elke dashboardnaam geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../create-reports/service-data-classification.md).
+   * De gele sterren ![Favorietster](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
+   * De notatie onder elke dashboardnaam (in dit geval MBI) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../create-reports/service-data-classification.md).
    
    Standaard zien Power BI-dashboards er enigszins anders uit op uw iPhone. Alle tegels hebben dezelfde grootte en ze zijn achter elkaar van boven naar beneden gesorteerd.
    
-    ![Staande dashboardweergave](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
+    ![Schermopname van een iPhone met verschillende Power BI-tegels van dezelfde grootte.](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-portrait.png)
    
    > [!TIP]
    > Als u de eigenaar van het dashboard bent, kunt u in de Power BI-service [een weergave maken van het dashboard voor telefoons](../../create-reports/service-create-dashboard-mobile-phone-view.md) in de staande modus. 
@@ -62,12 +62,12 @@ Hier ziet u een Power BI-dashboard in de Power BI-service:
 3. Veeg omhoog en omlaag om alle tegels in het dashboard te bekijken. U kunt:
    
    * [Tikken op een tegel](mobile-tiles-in-the-mobile-apps.md) om deze te openen in de focusmodus en ermee te communiceren.
-   * Tikken op de ![Favorietster](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) om de tegel [toe te voegen aan uw favorieten](mobile-apps-favorites.md).
+   * Tikken op de ![Niet favoriet-ster](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) om de tegel [toe te voegen aan uw favorieten](mobile-apps-favorites.md).
    * Tikken op **Uitnodigen** ![uitnodigingspictogram](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) om [een collega uit te nodigen](mobile-share-dashboard-from-the-mobile-apps.md) om uw dashboard weer te geven.
    * [Het dashboard met uw Apple Watch synchroniseren](mobile-apple-watch.md).
 4. Om terug te gaan naar de lijst met dashboards tikt u op de pijl naast de titel van het dashboard. Tik vervolgens op **Mijn werkruimte**.
    
-   ![Navigatie](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
+   ![Schermopname van een Power BI-dashboard met tegels van verschillende grootte die zijn ingedeeld zoals ontworpen.](./media/mobile-apps-view-dashboard/power-bi-iphone-breadcrumb.png)
 
 ### <a name="view-dashboards-in-landscape-mode-in-your-iphone"></a>Dashboards weergeven inliggende modus op uw iPhone
 U kunt uw telefoon kantelen om het dashboard liggend weer te geven. De indeling van het dashboard verandert van een reeks met tegels in een weergave van het gehele dashboard. U ziet alle tegels in het dashboard zoals ze in de Power BI-service worden weergegeven.
@@ -82,13 +82,13 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
    Moet u [de iPad-app eerst downloaden](https://go.microsoft.com/fwlink/?LinkId=522062) via de App Store van Apple?
 2. Tik op **Dashboards** aan de bovenkant van de app.  
    
-   ![Startpagina met dashboards](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
+   ![Schermopname van een iPad-scherm met Mijn werkruimte en DASHBOARDS geselecteerd.](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
    
    * De gele sterren ![Favorietster](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
-   * De notatie ![Gegevensclassificatie](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) (in dit geval 'MBI') onder elke dashboardnaam geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../create-reports/service-data-classification.md).
+   * De notatie onder elke dashboardnaam (in dit geval MBI) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png" border="false"::: geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../create-reports/service-data-classification.md).
 3. U kunt een dashboard delen vanuit uw werkruimte. Tik op het beletselteken ( **...** ) in de rechterbenedenhoek van de dashboardtegel en tik op **Anderen uitnodigen**.
    
-   ![Uitnodigingspictogram](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
+   ![Schermopname van het geselecteerde beletselteken, waarop Anderen uitnodigen wordt weergegeven.](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. U kunt ook op een dashboard tikken om het te openen en de tegels in dit dashboard te bekijken. In het dashboard kunt u:
    
    * [Tikken op een tegel om te communiceren](mobile-tiles-in-the-mobile-apps.md) met de tegel.
@@ -97,7 +97,7 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
    * [Aantekeningen toevoegen aan en een momentopname delen van](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) een tegel.
 5. Als u terug wilt gaan naar Mijn werkruimte, tikt u op de naam van het dashboard in de linkerbovenhoek. Tik vervolgens op **Mijn werkruimte**.
    
-   ![Navigatie](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
+   ![Schermopname van het breadcrumb-menu op een iPad met Mijn werkruimte gemarkeerd.](./media/mobile-apps-view-dashboard/power-bi-dashboard-breadcrumb.png)
 
 ## <a name="view-dashboards-on-your-android-phone"></a>Dashboards weergeven op uw Android-telefoon
 1. Open de Power BI-app op uw Android-telefoon en meld u aan.
@@ -105,15 +105,15 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
    Moet u [ de Android-app eerst downloaden](https://go.microsoft.com/fwlink/?LinkID=544867)?
 2. Tik op een dashboard om het te openen.   
    
-   ![Startpagina met dashboards](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
+   ![Schermopname van een Android-telefoonscherm met Mijn werkruimte en DASHBOARDS geselecteerd.](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
     Gele sterren ![Favorietster](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
 
-    De notatie ![Gegevensclassificatie](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) (in dit geval 'MBI') onder een dashboardnaam geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../create-reports/service-data-classification.md).
+    Een notatie onder een dashboardnaam (in dit geval MBI) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../create-reports/service-data-classification.md).
 
     Power BI-dashboards zien er enigszins anders uit op uw Android-telefoon. Alle tegels hebben dezelfde breedte en ze zijn achter elkaar van boven naar beneden gesorteerd.
 
-    ![Staande dashboardweergave](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
+    ![Schermopname van een Android-telefoon met verschillende tegels van dezelfde grootte.](./media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
     Als u de eigenaar van het dashboard bent, kunt u in de Power BI-service [een weergave maken van het dashboard voor telefoons](../../create-reports/service-create-dashboard-mobile-phone-view.md) in de staande modus. 
 
@@ -129,10 +129,10 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
    Moet u [ de Android-app eerst downloaden](https://go.microsoft.com/fwlink/?LinkID=544867)?
 2. Tik op een dashboard om het te openen.   
    
-   ![Startpagina met dashboards](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
+   ![Schermopname van een Android-tabletscherm met Mijn werkruimte en DASHBOARDS geselecteerd.](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * De gele sterren ![Favorietster](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) geven aan welke dashboards zijn opgeslagen in uw favorieten. 
-   * De notatie ![Gegevensclassificatie](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) (in dit geval 'MBI') onder elke dashboardnaam geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../create-reports/service-data-classification.md).
+   * De notatie onder elke dashboardnaam (in dit geval MBI) :::image type="icon" source="././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png" border="false"::: geeft aan hoe de gegevens in elk dashboard worden geclassificeerd. Lees meer over [gegevensclassificatie in Power BI](../../create-reports/service-data-classification.md).
 3. U kunt op het dashboard op de verticale knop **Meer opties** (...) naast de naam van een collega tikken om deze uit te nodigen, te vernieuwen of informatie over het dashboard op te halen:
    
    ![Beletseltekenmenu](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
@@ -141,7 +141,7 @@ Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u h
    Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u het ‘knijpgebaar’ gebruiken. U kunt pannen om te navigeren. U kunt nog steeds [tikken op een tegel](mobile-tiles-in-the-mobile-apps.md) om deze te openen in de focusmodus en te communiceren met uw gegevens.
 5. Als u wilt teruggaan naar de startpagina met dashboards, tikt u op de naam van het dashboard om het navigatiepad te openen. Tik vervolgens op **Mijn werkruimte**:
    
-    ![Navigatie](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
+    ![Schermopname van het breadcrumb-menu op een Android-tablet met Mijn werkruimte gemarkeerd.](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     Als u wilt in- en uitzoomen op verschillende gebieden van uw dashboard, kunt u het ‘knijpgebaar’ gebruiken. U kunt pannen om te navigeren. U kunt nog steeds [tikken op een tegel](mobile-tiles-in-the-mobile-apps.md) om deze te openen in de focusmodus en te communiceren met uw gegevens.
 

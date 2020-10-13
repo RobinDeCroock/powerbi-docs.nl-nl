@@ -1,6 +1,6 @@
 ---
 title: Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
-description: Power BI-rapporten kunnen verbinding maken met verschillende gegevensbronnen. Afhankelijk van de manier waarop de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar.
+description: Met behulp van geplande vernieuwing van Power BI-rapporten kunt u ervoor zorgen dat de gegevens voor een rapport met ingesloten model up-to-date blijven.
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 710df5f4159f49884d9eee1044b2c077c7edcb88
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861769"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749087"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Geplande vernieuwing van Power BI-rapporten in Power BI Report Server
 Met behulp van geplande vernieuwing van Power BI-rapporten kunt u ervoor zorgen dat de gegevens voor een rapport up-to-date blijven.
@@ -24,7 +24,7 @@ Geplande vernieuwing is specifiek voor Power BI-rapporten met een ingesloten mod
 
 Geplande vernieuwing kunt u configureren in de beheersectie van een rapport. Zie [Een geplande vernieuwing van uw Power BI-rapport configureren](configure-scheduled-refresh.md) voor meer informatie over het configureren van geplande vernieuwing.
 
-## <a name="how-this-works"></a>Hoe dit werkt
+## <a name="how-this-works"></a>Hoe het werkt
 Er zijn verschillende onderdelen betrokken bij het gebruik van geplande vernieuwing voor uw Power BI-rapporten.
 
 * SQL Server Agent fungeert als een timer voor het genereren van geplande gebeurtenissen.
@@ -67,4 +67,4 @@ Het gegevensmodel dat tijdens een geplande vernieuwing in de interne Analysis Se
 ## <a name="next-steps"></a>Volgende stappen
 [Geplande vernieuwing van een Power BI-rapport configureren](configure-scheduled-refresh.md).
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

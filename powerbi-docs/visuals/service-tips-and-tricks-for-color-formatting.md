@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354611"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633832"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips en trucs voor het gebruik van kleuren in Power BI
 
@@ -130,15 +130,15 @@ Wanneer de schuifregelaar **Afwijken** is ingeschakeld, kunt u de kleuren afzond
 ## <a name="add-color-to-table-rows"></a>Kleur toevoegen aan tabelrijen
 Tabellen en matrices bieden allerlei opties voor kleuropmaak. 
 
-![standaardtabel](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![Schermopname van een tabel met afwisselend witte en grijze rijen.](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 Een van de snelste manieren om kleur toe te passen op een tabel of matrix is door het tabblad Opmaak te openen en **Stijl** te selecteren.  In de onderstaande afbeelding hebben we **Vetgedrukte koptekst met opvallende rijen** geselecteerd.
 
-![standaardtabel](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![Schermopname van de stijloptie Vetgedrukte koptekst met opvallende rijen die de koprij zwart en de andere rijen licht- en donkergroen maakt.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 Experimenteer met andere opties voor kleuropmaak. In deze afbeelding hebben we de achtergrondkleur onder **Kolomkoppen** gewijzigd en de **Achtergrondkleur** en **Alternatieve achtergrondkleur** voor de **Waarden** (rijen) gewijzigd.
 
-![standaardtabel](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![Schermopname van waardeselecties voor Achtergrondkleur en Alternatieve achtergrondkleur.](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>Hoe kunt u iets ongedaan maken in Power BI?
 Net als in veel andere services en software van Microsoft, biedt Power BI een eenvoudige manier om de laatst uitgevoerde opdracht ongedaan te maken. Laten we bijvoorbeeld zeggen dat u de kleur van een gegevenspunt of een reeks gegevenspunten wijzigt en dat de weergegeven kleur in de visualisatie u niet bevalt. U weet niet precies welke kleur het eerder was, maar u weet wel dat u die kleur terug wilt!
@@ -149,7 +149,7 @@ Als u alle wijzigingen die u hebt aangebracht op een opmaakkaart ongedaan wilt m
 
 ![Opmaakkaart met onderaan Standaardinstelling herstellen](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>Feedback
+## <a name="give-us-your-feedback"></a>Stuur ons uw feedback
 Hebt u een tip die u wilt delen? Stuur de tip naar ons en we zullen kijken of we deze kunnen toevoegen.
 
 ## <a name="next-steps"></a>Volgende stappen

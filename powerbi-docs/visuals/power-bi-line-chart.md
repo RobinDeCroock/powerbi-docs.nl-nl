@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274185"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634591"
 ---
 # <a name="line-charts-in-power-bi"></a>Lijndiagrammen in Power BI
 
@@ -67,11 +67,11 @@ Het totaalaantal eenheden voor alle regio’s staat nu in één enkele lijn in h
 ### <a name="use-two-y-axes"></a>Twee Y-assen gebruiken
 Wat als u de totale verkoop en het totaalaantal eenheden in één diagram wilt bekijken? De verkoopcijfers zijn veel hoger dan de eenheidsnummers, waardoor het lijndiagram eigenlijk onbruikbaar wordt. De rode lijn voor het totaalaantal eenheden lijkt de hele tijd rond nul te liggen.
 
-   ![sterk uiteenlopende waarden](media/power-bi-line-charts/power-bi-diverging.png)
+   ![Schermopname laat zien hoe één y-as het totale aantal eenheden weergeeft als in wezen plat en een onbruikbare vergelijking met de verkoopcijfers.](media/power-bi-line-charts/power-bi-diverging.png)
 
 Om sterk uiteenlopende waarden in één diagram weer te geven, gebruikt u een combinatiegrafiek. Meer informatie over combinatiegrafieken vindt u in [Combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md). In het onderstaande voorbeeld kunnen we de verkoop en het totaalaantal eenheden samen in één diagram weergeven door een tweede Y-as toe te voegen. 
 
-   ![sterk uiteenlopende waarden](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![Schermopname toont de verkoopwaarden als staafdiagram met de y-as aan de linkerkant en de totale eenheden als een lijn met de y-as aan de rechterkant.](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>Markeren en kruislings filteren
 Zie [Een filter aan een rapport toevoegen](../create-reports/power-bi-report-add-filter.md) voor meer informatie over het gebruik van het deelvenster Filters.

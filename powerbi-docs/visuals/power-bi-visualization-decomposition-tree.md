@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239848"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632820"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Visuals van een uitgevouwen structuur in Power BI maken en weergeven
 
@@ -53,7 +53,7 @@ Wanneer u de meting naar het veldbereik hebt gesleept, wordt de visual bijgewerk
 
 De volgende stap is het inbrengen van een of meer dimensies waarop u wilt inzoomen. Voeg deze velden toe aan de bucket **Uitleg door**. U ziet dat er een plusteken naast het hoofdknooppunt wordt weergegeven. Als u de + selecteert, kunt u kiezen op welk veld u wilt inzoomen (u kunt in een willekeurige volgorde inzoomen op de velden).
 
-![Menu Uitgevouwen structuur](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![Schermopname van het geselecteerde pluspictogram met opties uit de lijst Uitleg door.](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 Als u **Afwijking van prognose** selecteert, heeft dit tot gevolg dat de structuur wordt uitgevouwen en dat de meting wordt opgesplitst in de waarden van de kolom. Dit proces kan worden herhaald door een ander knooppunt te kiezen om op in te zoomen.
 
@@ -61,7 +61,7 @@ Als u **Afwijking van prognose** selecteert, heeft dit tot gevolg dat de structu
 
 Als u een knooppunt uit het laatste niveau selecteert, worden de gegevens kruislings gefilterd. Als u een knooppunt van een eerder niveau selecteert, wordt het pad gewijzigd.
 
-![Menu Uitgevouwen structuur](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![Animatie van het selecteren van een knooppunt van een eerder niveau en hoe dat de weergave verandert om de onderliggende knooppunten weer te geven.](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 Door interactie met andere visuals wordt de uitgevouwen structuur kruislings gefilterd. De volgorde van de knooppunten binnen niveaus wordt hierdoor mogelijk gewijzigd.
 In het onderstaande voorbeeld is de structuur kruislings gefilterd met Ubisoft. Het pad wordt bijgewerkt en de verkoop van Xbox verplaatst van de eerste naar de tweede plek, omdat deze is ingehaald door PlayStation. 
@@ -70,7 +70,7 @@ Als de we structuur vervolgens kruislings filteren met Nintendo, is het verkoopv
 
 Ondanks dat het pad verdwijnt, blijven de bestaande niveaus (in dit geval Gamegenre) vastgemaakt in de structuur. Door het knooppunt Nintendo te selecteren, wordt de structuur daarom automatisch uitgebreid naar Gamegenre.
 
-![Menu Uitgevouwen structuur](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![Animatie van het selecteren van kruisfilters dat bepaalt welke knooppunten worden weergegeven.](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>AI-splitsingen
@@ -132,11 +132,11 @@ Als u een ander knooppunt in de structuur selecteert, wordt de AI-splitsing hele
 
 AI-niveaus worden ook opnieuw berekend wanneer u de uitgevouwen structuur kruislings filtert met een andere visual. In het onderstaande voorbeeld ziet u dat het percentage naleveringen het hoogste is voor Plant #0477.
 
-![Uitgevouwen structuur kruislings filteren](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![Schermopname van de Analyse hoofdoorzaak met alle maanden geselecteerd.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 Maar als we in het staafdiagram de optie **april** selecteren, wordt de hoogste waarde gewijzigd in **Producttype is Geavanceerd chirurgisch**. In dit geval zijn niet alleen de knooppunten opnieuw gerangschikt, maar is een compleet andere kolom gekozen. 
 
-![Uitgevouwen structuur kruislings filteren](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![Schermopname van de Analyse hoofdoorzaak met alleen de maand april geselecteerd.](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 Als u wilt dat AI-niveaus zich gedragen als niet-AI-niveaus, selecteert u de gloeilamp om het gedrag te herstellen naar het standaardgedrag. 
 

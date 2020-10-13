@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337114"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748834"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten
 
@@ -57,7 +57,7 @@ Voordat u een gepagineerd rapport importeert of uploadt om in te sluiten, moet d
 * **Power BI Premium**: voor het insluiten van een gepagineerd rapport is *P*-SKU vereist. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../../admin/service-premium-what-is.md) voor meer informatie over dit abonnement
 * **Azure Power BI Embedded**: u kunt toegewezen capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Voor het insluiten van gepagineerde rapporten hebt u minimaal een *A4*-abonnement nodig. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
-In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose).
+In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](./embedded-faq.md#which-solution-should-i-choose).
 
 | Capaciteitsknooppunten | Totaal aantal v-cores | v-cores voor back-end | RAM (GB) | v-cores voor front-end | 
 | --- | --- | --- | --- | --- |
@@ -70,13 +70,13 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 
 Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit.
 
-Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen met behulp van een [service-principal](embed-service-principal.md), gebruikt u de [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md) gebruiken.
+Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen met behulp van een [service-principal](embed-service-principal.md), gebruikt u de [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md) gebruiken.
 
 ### <a name="create-and-upload-your-paginated-reports"></a>Gepagineerde rapporten maken en uploaden
 
 U kunt uw gepagineerde rapport maken met behulp van [Power BI Report Builder](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder) en vervolgens [het rapport uploaden naar de service](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service).
 
-U kunt gepagineerde rapporten importeren in de nieuwe werkruimten met behulp van de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup).
+U kunt gepagineerde rapporten importeren in de nieuwe werkruimten met behulp van de [Power BI REST API's](/rest/api/power-bi/imports/postimportingroup).
 
 ## <a name="embed-content-using-the-sample-application"></a>Inhoud met behulp van de voorbeeldtoepassing insluiten
 
@@ -119,7 +119,7 @@ Ga als volgt te werk om de **applicationId** op te halen:
 
 3. Selecteer de toepassing waarvoor de **applicationID** nodig is.
 
-    ![App kiezen](media/embed-paginated-reports-for-customers/display-name.png)
+    ![Schermopname van de weergavenamen van toepassingen waarvan er één is geselecteerd waarvoor de toepassings-id is vereist.](media/embed-paginated-reports-for-customers/display-name.png)
 
 4. U ziet een **toepassings-id** die wordt vermeld als een GUID. Gebruik deze **Toepassings-id** als de **applicationId** voor de toepassing.
 
@@ -171,7 +171,7 @@ Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
 3. Selecteer de toepassing die de **ApplicationSecret** moet gebruiken.
 
-    ![App kiezen](media/embed-paginated-reports-for-customers/display-name-2.png)
+    ![Schermopname van de weergavenamen van toepassingen waarvan er één is geselecteerd die het toepassingsgeheim nodig heeft.](media/embed-paginated-reports-for-customers/display-name-2.png)
 
 4. Selecteer **Certificaten en geheimen** onder **Beheren**.
 
@@ -201,11 +201,11 @@ Vul bij de informatie over de **tenant** uw Azure zure-tenant-id in. U kunt deze
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>Gepagineerde Power BI-rapporten insluiten in uw app
 
-Hoewel de stappen voor het insluiten van uw gepagineerde Power BI-rapporten worden uitgevoerd met de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/), wordt de voorbeeldcode die wordt beschreven in dit artikel gemaakt met de **.NET SDK**.
+Hoewel de stappen voor het insluiten van uw gepagineerde Power BI-rapporten worden uitgevoerd met de [Power BI REST API's](/rest/api/power-bi/), wordt de voorbeeldcode die wordt beschreven in dit artikel gemaakt met de **.NET SDK**.
 
-Als u gepagineerde Power BI-rapporten voor uw klanten wilt insluiten in uw app, moet u een **Azure Active Directory**-[service-principal](embed-service-principal.md) hebben en zorgen dat u over een [Azure Active Directory-toegangstoken](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) beschikt voor uw Power BI-app, voordat u de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/) kunt aanroepen.
+Als u gepagineerde Power BI-rapporten voor uw klanten wilt insluiten in uw app, moet u een **Azure Active Directory**-[service-principal](embed-service-principal.md) hebben en zorgen dat u over een [Azure Active Directory-toegangstoken](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) beschikt voor uw Power BI-app, voordat u de [Power BI REST API's](/rest/api/power-bi/) kunt aanroepen.
 
-Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/). U maakt het **Power BI-clientobject** door het AccessToken te verpakken met het object ***Microsoft.Rest.TokenCredentials***.
+Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST API's](/rest/api/power-bi/). U maakt het **Power BI-clientobject** door het AccessToken te verpakken met het object ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Het insluittoken maken
 
-Genereer een insluittoken dat kan worden gebruikt vanuit de JavaScript API. Gebruik de API [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) om een ingesloten token te maken voor het insluiten van gepagineerde Power BI-rapporten.
+Genereer een insluittoken dat kan worden gebruikt vanuit de JavaScript API. Gebruik de API [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) om een ingesloten token te maken voor het insluiten van gepagineerde Power BI-rapporten.
 
 Een voorbeeld van het maken van een insluittoken is beschikbaar in het bestand  *Services\EmbedService.cs* in de [voorbeeld-app](https://github.com/Microsoft/PowerBI-Developer-Samples).
 

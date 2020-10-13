@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136253"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668408"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Richtlijnen voor een-op-een-relaties
 
@@ -82,7 +82,7 @@ U ziet dat de tabel **Product Category** geen rij bevat voor de product-SKU CL-0
 
 In het deelvenster **Velden** kunnen auteurs van rapporten productgerelateerde velden in twee tabellen vinden: **Product** en **Product Category**.
 
-![In het deelvenster Velden ziet u beide tabellen uitgevouwen, en de kolommen worden weergegeven als velden.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
+![In het deelvenster Velden ziet u beide tabellen uitgevouwen, en de kolommen worden weergegeven als velden met Product en Product Category gemarkeerd.](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
 
 Laten we eens kijken wat er gebeurt als velden uit beide tabellen worden toegevoegd aan een tabelvisual. In dit voorbeeld is de kolom **SKU** afkomstig uit de tabel **Product**.
 
@@ -112,7 +112,7 @@ De volgende stappen vertegenwoordigen een methode voor het samenvoegen en modell
 
     In ons voorbeeld zien de auteurs van rapporten nu één tabel met de naam **Product** in het deelvenster **Velden**. Deze tabel bevat alle productgerelateerde velden.
 
-    ![In het deelvenster Velden ziet u beide tabellen uitgevouwen, en de kolommen worden weergegeven als velden.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
+    ![In het deelvenster Velden ziet u beide tabellen uitgevouwen, en de kolommen worden weergegeven als velden met Product gemarkeerd.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **Ontbrekende waarden vervangen**: Als de tweede query niet-overeenkomende rijen bevat, worden null-waarden weergegeven in de afgeleide kolommen. U kunt deze null-waarden vervangen door een tokenwaarde, indien dit van toepassing is. Het vervangen van ontbrekende waarden is met name belangrijk wanneer auteurs van rapporten filteren of groeperen op de kolomwaarden, omdat er lege waarden kunnen worden weergegeven in rapportvisuals.
 
     In de volgende tabelvisual ziet u dat de categorie voor product-SKU LC-02 nu _[Undefined]_ is. Null-categorieën in de query zijn vervangen door deze tokentekstwaarde.
@@ -123,7 +123,7 @@ De volgende stappen vertegenwoordigen een methode voor het samenvoegen en modell
 
     In ons voorbeeld kunnen auteurs van rapporten nu een hiërarchie gebruiken die twee niveaus heeft: **Category** en **Product**.
 
-    ![In het deelvenster Velden ziet u beide tabellen uitgevouwen, en de kolommen worden weergegeven als velden.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
+    ![In het deelvenster Velden ziet u beide tabellen uitgevouwen, en de kolommen worden weergegeven als velden met Products gemarkeerd.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
 Als u wilt weten hoe afzonderlijke tabellen kunnen helpen om uw velden te organiseren, raden we nog steeds aan om alles samen te voegen in één tabel. U kunt uw velden nog steeds ordenen, maar in plaats hiervan met behulp van _mappen weergeven_.
 

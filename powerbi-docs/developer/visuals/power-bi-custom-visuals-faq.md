@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537798"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747914"
 ---
 # <a name="power-bi-visuals-faq"></a>Veelgestelde vragen over Power BI-visuals
 
@@ -32,9 +32,9 @@ Nadat de beheerder een nieuwe versie van een Power BI-visual voor organisaties h
 
 Gebruikers kunnen de Power BI-visuals voor organisaties vinden in de ingebouwde zakelijke opslag van Power BI Desktop en de Power BI-service op het tabblad *Mijn organisatie*. 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Als een beheerder een Power BI-visual uploadt vanuit de openbare marketplace naar een zakelijke opslag, wordt de visual dan automatisch bijgewerkt nadat een leverancier de visual in de openbare marketplace heeft bijgewerkt?
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Als een beheerder een Power BI-visual uploadt vanuit de openbare marketplace naar een zakelijke opslag met behulp van *Visual toevoegen > vanuit AppSource*, wordt de visual dan automatisch bijgewerkt nadat een leverancier de visual in de openbare marketplace heeft bijgewerkt?
 
-Nee, er zijn geen automatische updates vanuit de openbare marketplace. Het is de verantwoordelijkheid van de beheerder om de versie van de Power BI-visuals voor organisaties desgewenst bij te werken.
+Ja, de visual wordt automatisch bijgewerkt vanuit de openbare marketplace. Als de visual is gecertificeerd, blijft de certificering behouden, met inbegrip van aanvullende functies zoals exporteren naar PDF of PowerPoint.
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>Is er een manier om de zakelijke opslag uit te schakelen?
 
@@ -135,7 +135,7 @@ IAP-visuals bieden optionele aankopen in de app om te kunnen profiteren van geav
 
 ### <a name="what-is-changing-in-the-submission-process"></a>Hoe verandert het indieningsproces?
 
-Het indieningsproces voor Power BI IAP-visuals uit de marketplace is hetzelfde als voor gratis Power BI-visuals. U kunt een Power BI-visual verzenden om deze te laten certificeren met behulp van [Partnercentrum](https://docs.microsoft.com/partner-center/).
+Het indieningsproces voor Power BI IAP-visuals uit de marketplace is hetzelfde als voor gratis Power BI-visuals. U kunt een Power BI-visual verzenden om deze te laten certificeren met behulp van [Partnercentrum](/partner-center/).
 
 
 Ga voor het registreren van uw Power BI-visual naar het tabblad *Productinstallatie* en schakel het selectievakje *Mijn product vereist de aanschaf van een service* in.

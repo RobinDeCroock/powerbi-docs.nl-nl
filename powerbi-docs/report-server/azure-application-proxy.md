@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861286"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634223"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Een Power BI Report Server configureren met Azure-toepassingsproxy
 
@@ -201,7 +201,7 @@ U voltooit het instellen van uw toepassing door naar de sectie **Gebruikers en g
     - Een nieuwe omleidings-URL maken en deze configureren met **Type** = **Web** en **Omleidings-URI** = `https://pbirsazureapp-umacontoso2410.msappproxy.net/`
     - In de sectie **Geavanceerde instellingen** stelt u de **URL voor afmelden** in op `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`
 
-    ![Verificatie-instellingen](media/azure-application-proxy/azure-report-server-authentication-1.png)
+    ![Schermopname van het deelvenster Power BI Report Server-verificatie met de instellingen voor Omleidings-URI en Geavanceerd.](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
 1. Ga als volgt verder met de configuratie van de sectie **Verificatie** van de app-registratie voor de Power BI Report Server-toepassing voor **Impliciete toekenning**, **Standaardclienttype** en **Ondersteunde accounttypen**:
 
@@ -209,7 +209,7 @@ U voltooit het instellen van uw toepassing door naar de sectie **Gebruikers en g
     - Stel **Standaardclienttype** in op **Nee**.
     - Stel **Ondersteunde accounttypen** in op **Alleen accounts in deze organisatieadreslijst (alleen UmaContoso - één tenant)** .
 
-    ![Verificatie-instellingen](media/azure-application-proxy/azure-report-server-authentication-2.png)
+    ![Schermopname van het deelvenster Power BI Report Server-verificatie met de instellingen zoals beschreven.](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
 1. Wanneer de eenmalige aanmelding is ingesteld en de URL `https://pbirsazureapp-umacontoso2410.msappproxy.net` werkt, moeten we ervoor zorgen dat het account waarmee we ons aanmelden, wordt gesynchroniseerd met het account waarvoor de machtigingen zijn opgegeven in Power BI Report Server.
 

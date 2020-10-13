@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856180"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668546"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -57,7 +57,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
     ![Schermopname van een dialoogvenster met de toestemming voor Power BI om koppelingen via een interne browser te openen.](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Nadat u de koppeling hebt geopend in de Power BI-app, kunt u de koppeling kopiëren en deze openen in een browservenster.
-7. [Open het rapport](mobile-reports-in-the-mobile-apps.md) ![pictogram Rapport openen](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) waarop de tegel is gebaseerd.
+7. [Open het rapport](mobile-reports-in-the-mobile-apps.md) ![pictogram Rapport openen in iOS](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) waarop de tegel is gebaseerd.
 8. Als u de focusmodus wilt verlaten, tikt u op de naam van de tegel en vervolgens op de naam van het dashboard of op **Mijn werkruimte**.
    
     ![Schermopname van een dashboard met aanwijzingen naar Mijn werkruimte en een voorbeeld van een analyse van de verkoopkansen.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -72,7 +72,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
    * Tik op de grafiek om de staaf in een lijn-, staaf-, kolom- of bellendiagram te verplaatsen, of om de waarden voor een bepaald punt in de visualisatie te bekijken.  
    * Tik op het potloodpictogram ![potloodpictogram](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) om [aantekeningen te maken op een tegel](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) en vervolgens op het ![pictogram Momentopname delen](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) om [de tegel met anderen te delen](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
-   * Tik op het ![pictogram Rapport openen](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) om [het rapport weer te geven](mobile-reports-in-the-mobile-apps.md) in de mobiele app.
+   * Tik op het pictogram Rapport openen ![pictogram Rapport openen in Android.](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) om [het rapport te bekijken](mobile-reports-in-the-mobile-apps.md) in de mobiele app.
 3. Soms heeft de maker van het dashboard een koppeling toegevoegd aan een tegel. Als u in dat geval op het verticale beletselteken ( **...** ) tikt, ziet u **Koppeling openen** ![ pictogram Koppeling openen](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![Schermopname van een dashboard met het verticale beletselteken wijzend naar Koppeling openen.](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)

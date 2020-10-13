@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: f7e88a09f2b48bcfe53256f0da976378a5d87e2c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221375"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635258"
 ---
 # <a name="configure-report-interaction-settings"></a>Interactie-instellingen ten aanzien van rapporten configureren
 
@@ -21,13 +21,12 @@ ms.locfileid: "85221375"
 
 De mobiele Power BI-app heeft een aantal configureerbare interactie-instellingen waarmee u kunt bepalen hoe u met uw gegevens omgaat en hoe sommige elementen in de mobiele app van Power BI zich gedragen. In de volgende tabel ziet u de instellingen voor de interactie die momenteel beschikbaar zijn en de apparaten die deze hebben.
 
-|| Android-telefoon | iPhone | Android-tablet  | iPad |
-|-|:-:|:-:|:-:|:-:|
+| Instelling | Android-telefoon | iPhone | Android-tablet  | iPad |
+|---------|:-:|:-:|:-:|:-:|
 | [Interactie van tikken versus dubbeltikken op rapportvisuals](#single-tap) |✔|✔|||
 | [Meervoudige selectie versus enkelvoudige selectie van gegevenspunten in rapportvisuals](#multi-select) |✔|✔|✔|✔|
 | [Gedokte versus dynamische rapportvoettekst](#docked-report-footer) |✔|✔|||
 | [Rapporten vernieuwen via een knop versus de actie Slepen om te vernieuwen](#report-refresh) |✔||||
-|
 
 Als u de interactie-instellingen wilt weergeven, tikt u op uw profielafbeelding om het [zijpaneel](./mobile-apps-home-page.md#header) te openen, kiest u **Instellingen** en gaat u naar de sectie **Interactie**.
 

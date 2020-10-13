@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239936"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635235"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>Q&A trainen om inzicht te krijgen in vragen en termen in Power BI Q&A
 
@@ -61,7 +61,7 @@ Q&A detecteert automatisch wanneer een niet herkend woord een zelfstandig naamwo
 
 U vult het vakje in met de term uit uw gegevens.
 
-![Q&A trainen synoniem prompt](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![Schermopname van een deel van het Q&A-vak met het woord Omzet en de prompt Omzet die verwijst naar een tekstvak.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 Als u iets anders dan een veld uit het gegevensmodel opgeeft, krijgt u mogelijk ongewenste resultaten.
 
@@ -73,7 +73,7 @@ Soms wilt u termen definiëren die als voorwaarde dienen voor de onderliggende g
 
 U vult het vakje in met de voorwaarde.
 
-![Q&A trainen synoniem prompt](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![Schermopname van een deel van het Q&A-vak met de woorden Fantastische uitgevers en de prompt Uitgevers die naast een tekstvak staan met de woorden Fantastisch.](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 Enkele voorwaarden die u kunt definiëren zijn:
 

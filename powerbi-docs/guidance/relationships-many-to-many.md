@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216701"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668523"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Richtlijnen voor veel-op-veel-relaties
 
@@ -48,7 +48,7 @@ Het modeldiagram is zodanig gewijzigd dat de tabelrijen worden weergegeven om aa
 > [!NOTE]
 > Het is niet mogelijk om tabelrijen weer te geven in het Power BI Desktop-modeldiagram. Het wordt wel gedaan in dit artikel om duidelijke voorbeelden te kunnen geven.
 
-![Diagram met het model dat nu de tabelrijen bevat. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![Diagram met het model dat nu de tabelrijen bevat. De rijgegevens voor de vier tabellen worden beschreven in de volgende alinea.](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 De rijgegevens voor de vier tabellen worden beschreven in de volgende lijst:
 
@@ -137,7 +137,7 @@ De relatiekardinaliteit is ingesteld op veel-op-veel om ondersteuning te bieden 
 
 Nu gaan we de tabelrijen bekijken. In de tabel **Fulfillment** ziet u dat orderregels kunnen worden geleverd via meerdere zendingen. (Het ontbreken van een orderregel betekent dat de order nog moet worden geleverd.)
 
-![Diagram met het model dat nu de tabelrijen bevat. De rijgegevens worden in de volgende alinea beschreven.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![Diagram met het model dat nu de tabelrijen bevat. De rijgegevens voor de twee tabellen worden beschreven in de volgende alinea.](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 De rijgegevens voor de twee tabellen worden beschreven in de volgende lijst:
 
@@ -161,7 +161,7 @@ Het resultaat in de visual klopt. Het nut van het model is echter beperkt: u kun
 
 ### <a name="relate-many-to-many-facts-guidance"></a>Richtlijnen voor het relateren van veel-op-veel-feiten
 
-Over het algemeen is het niet aan te raden om twee feitentabellen rechtstreeks te relateren via veel-op-veel-kardinaliteit. De belangrijkste reden hiervoor is dat het model geen flexibiliteit biedt in de manieren waarop u het rapport kunt filteren of groeperen. In het voorbeeld is het alleen mogelijk om visuals te filteren of te groeperen op de kolom **OrderID** van de tabel **Order**. Een andere reden heeft betrekking op de kwaliteit van uw gegevens. Als er integriteitsproblemen zijn met uw gegevens, worden er tijdens het uitvoeren van query's mogelijk rijen weggelaten door de aard van de _zwakke relatie_. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
+Over het algemeen is het niet aan te raden om twee feitentabellen rechtstreeks te relateren via veel-op-veel-kardinaliteit. De belangrijkste reden hiervoor is dat het model geen flexibiliteit biedt in de manieren waarop u het rapport kunt filteren of groeperen. In het voorbeeld is het alleen mogelijk om visuals te filteren of te groeperen op de kolom **OrderID** van de tabel **Order**. Een andere reden heeft betrekking op de kwaliteit van uw gegevens. Als er integriteitsproblemen zijn met uw gegevens, worden er tijdens het uitvoeren van query's mogelijk rijen weggelaten vanwege de aard van de _beperkte relatie_. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
 
 In plaats van feitentabellen te relateren, is het raadzaam om de ontwerpprincipes van [stervormige schema's](star-schema.md) te volgen. Dit doet u door dimensietabellen toe te voegen. De dimensietabellen zijn dan via een-op-veel-relaties gerelateerd aan de feitentabellen. Deze ontwerpbenadering is robuust vanwege de flexibele rapportageopties. U kunt filteren of groeperen met behulp van een van de dimensiekolommen en u kunt elke gerelateerde feitentabel samenvatten.
 
@@ -184,7 +184,7 @@ Het toepassen van de ontwerpprincipes van het stervormige schema biedt de volgen
 - Uw rapportvisuals zijn te _filteren of te groeperen_ op elke zichtbare kolom van de dimensietabellen
 - In uw rapportvisuals zijn alle zichtbare kolommen van de feitentabellen _samen te vatten_
 - Filters die worden toegepast op de tabellen **OrderLine**, **OrderDate** of **Product** worden doorgegeven aan beide feitentabellen
-- Alle relaties zijn een-op-veel en elke relatie is een _sterke relatie_. Problemen met gegevensintegriteit worden niet gemaskeerd. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
+- Alle relaties zijn een-op-veel en elke relatie is een _normale relatie_. Problemen met gegevensintegriteit worden niet gemaskeerd. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie.
 
 ## <a name="relate-higher-grain-facts"></a>Nauwkeurigere feiten relateren
 
@@ -228,7 +228,7 @@ IF(
 
 In de volgende matrixvisual is nu gebruikgemaakt van de meting **Target Quantity**. U ziet dat alle maandelijkse doelaantallen leeg zijn.
 
-![Diagram met een matrixvisual waarin het doelaantal van het jaar 2020 wordt weergegeven als 270.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![Diagram met een matrixvisual waarin het doelaantal van het jaar 2020 wordt weergegeven als 270, met lege maandelijkse waarden.](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>Nauwkeuriger relateren (geen datums)
 

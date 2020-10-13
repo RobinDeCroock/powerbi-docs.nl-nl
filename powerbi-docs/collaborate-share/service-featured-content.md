@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226040"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374931"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Inhoud aanbevelen op de Power BI-startpagina van collega's
 
@@ -24,7 +24,7 @@ U kunt dashboards, rapporten en apps gebruiken, zodat ze worden weergegeven in d
 
 ## <a name="who-can-feature-content"></a>Wie kan inhoud aanbevelen op de startpagina
 
-Het is aan uw Power BI-tenantbeheerder om de mogelijkheid om inhoud aan te bevelen, in te schakelen op uw tenant. De beheerder kiest ook wie inhoud kan aanbevelen. Zie het artikel over de [beheerportal](../admin/service-admin-portal.md#featured-content) voor meer informatie.
+Het is aan uw Power BI-beheerder om de mogelijkheid om inhoud aan te bevelen, in te schakelen op uw tenant. De beheerder kiest ook wie inhoud kan aanbevelen. Zie het artikel over de [beheerportal](../admin/service-admin-portal.md#featured-content) voor meer informatie.
 
 Als u deel uitmaakt van de selecte groep in uw organisatie met deze verantwoordelijkheid, moet u een Power BI Pro-licentie hebben. Als u dashboards en rapporten wilt aanbevelen, moet u de rol Beheerder, Lid of Inzender hebben in de werkruimte. Als u de app zelf wilt aanbevelen, moet u de rol Beheerder of Lid hebben in de werkruimte. Raadpleeg [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor meer informatie.
 
@@ -38,13 +38,13 @@ De procedure voor het aanbevelen van een dashboard of rapport is vergelijkbaar.
 
 1. In de lijst **Dashboards** of **Rapporten** voor een werkruimte, selecteert u het pictogram **Instellingen**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Pictogram Rapportinstellingen":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Aanbevolen inhoud op de Power BI-startpagina":::
 
 2. Controleer in het deelvenster **Instellingen** de naam of wijzig deze. Voeg een **Beschrijving** toe en upload een **Momentopname** als u dat wilt. Deze zijn handig omdat ze uw gebruikers helpen bij het vinden van uw inhoud.
 
 3. Selecteer **Aanbevolen**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Instellingen voor aanbevolen inhoud":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Aanbevolen inhoud op de Power BI-startpagina":::
 
 4. Selecteer **Opslaan**.
 

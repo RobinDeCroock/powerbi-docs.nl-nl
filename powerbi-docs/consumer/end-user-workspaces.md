@@ -10,12 +10,12 @@ ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e1da5cc99cbc12b9cbcc41544569f8f0ede9590
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237309"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634016"
 ---
 # <a name="collaborate-in-workspaces"></a>Samenwerken in werkruimten
 
@@ -25,7 +25,7 @@ ms.locfileid: "85237309"
 
  U kunt uw werkruimten bekijken via **Start** in Power BI of door **Werkruimte** of **Mijn werkruimte** te selecteren in het navigatiedeelvenster links.
 
- ![navigatiedeelvenster met twee typen werkruimten](media/end-user-workspaces/power-bi-home.png)
+ ![Schermopname van navigatiedeelvenster met twee typen werkruimten](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>Soorten werkruimten
 Alle inhoud waarvan u de eigenaar bent en die u maakt, wordt opgeslagen in **Mijn werkruimte**. Deze werkruimte kunt u beschouwen als een persoonlijke sandbox of persoonlijk werkgebied voor uw eigen inhoud. Bij veel Power BI-*consumenten* blijft **Mijn werkruimte** leeg omdat het maken van nieuwe inhoud niet een van de taken is. Zoals de naam al zegt, verbruiken *consumenten* gegevens die door anderen zijn gemaakt, en gebruiken ze deze gegevens om zakelijke beslissingen te nemen. Als u wel inhoud maakt, kunt u [de Power BI-artikelen voorontwerpers](../create-reports/index.yml) raadplegen.
@@ -34,7 +34,7 @@ Alle inhoud waarvan u de eigenaar bent en die u maakt, wordt opgeslagen in **Mij
 
 De onderstaande werkruimte over de vijgenverkoop bevat drie rapporten en één dashboard. 
 
-![navigatiedeelvenster met twee typen werkruimten](media/end-user-workspaces/power-bi-app-workspace.png)
+![Schermopname laat zien hoe een werkruimte wordt weergegeven onder het menu-item Werkruimten en dat rapporten en een dashboard bevat.](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>Rollen in de werkruimten
 

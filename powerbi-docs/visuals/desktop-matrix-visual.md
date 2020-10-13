@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e96431aaa17b1ae79d940d768a7e160e402c0af3
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354703"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635856"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -207,7 +207,7 @@ Uw matrix of tabel bevat mogelijk inhoud die u in andere toepassingen wilt gebru
 
 Als u een kolom of meting hebt die website-URL's bevat, kunt u voorwaardelijke opmaak gebruiken om deze URL's toe te passen op velden als actieve koppelingen. U vindt deze optie onder de kaart **Voorwaardelijke opmaak** in het opmaakvenster.
 
-![Kaart Filters die aangeeft welke rijen zijn gekozen](media/desktop-matrix-visual/power-bi-web-url.png)
+![Schermopname van het opmaakpictogram dat gekoppeld is aan de web-URL.](media/desktop-matrix-visual/power-bi-web-url.png)
 
 Zet **Web-URL** op Aan en selecteer een veld dat u wilt gebruiken als de URL voor de kolom. Eenmaal toegepast, worden de waarden in dat veld (kolom) actieve koppelingen. Beweeg de muisaanwijzer om de koppeling te zien en selecteer de koppeling om naar die pagina te gaan. 
 

@@ -1,17 +1,17 @@
 ---
 title: Trainingscatalogus voor oplossingsarchitecten
-description: Zoeken naar alle trainingsopties voor Power Apps
+description: Zoek alle trainingsopties voor Power Apps voor oplossingsarchitecten, van de meest basale tot de meest geavanceerde.
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 4a14dd303307413b354d2cf2441347f275497bfa
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: c75e3d45199173ce949bb876e9755c44c8bd06a5
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532092"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749340"
 ---
 # <a name="solution-architects-learning-catalog"></a>Trainingscatalogus voor oplossingsarchitecten
 
