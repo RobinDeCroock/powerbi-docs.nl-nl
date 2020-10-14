@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 02/13/2020
+ms.date: 09/29/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 55b08d608e30b8a1f4b06319f1de835a12f7ca77
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 87bb15829936c452999872f95f49f35c2b60af77
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234817"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525652"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Hyperlinks (URL's) toevoegen aan een tabel of matrix
 In dit onderwerp leert u hoe u hyperlinks (URL's) toevoegt aan een tabel. U gebruikt Power BI Desktop om hyperlinks (URL's) toe te voegen aan een gegevensset. U kunt deze hyperlinks toevoegen aan uw rapporttabellen en matrices in Power BI Desktop of de Power BI-service. Vervolgens kunt u de URL of een koppelingspictogram weergeven, of een andere kolom opmaken als koppelingstekst.
@@ -136,7 +136,6 @@ URL's moeten beginnen met een van de volgende voorvoegsels:
 - http
 - https
 - -mailto
-- file
 - ftp
 - news
 - telnet
@@ -150,4 +149,4 @@ A: Nee. U kunt een koppelingspictogram gebruiken. Als u aangepaste tekst nodig h
 
 [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

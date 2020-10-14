@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2500ba94a6ad387e9944fb29f865b391ea4c0711
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: f5cb17187770c8c0b37c48a495c6844c462e83ec
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860941"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525616"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 tips voor hulp bij uw vragen over Power BI
 Raakt u ooit gefrustreerd bij het gebruik van Power BI of krijgt u geen antwoorden op uw vragen over Power BI wanneer u ze nodig hebt, dat wil zeggen ‘precies op tijd’? 
@@ -49,7 +49,7 @@ De trainingsmogelijkheden waaruit u kunt kiezen, zijn bijna eindeloos; van indiv
 
 U vindt aanvullende opties online, zoals:
 
-* **edX.org** biedt een gratis cursus [Gegevens analyseren en visualiseren met Power BI](https://www.edx.org/course/analyzing-visualizing-data-power-bi-microsoft-dat207x-4).
+* **edX.org** biedt een gratis cursus [Gegevens analyseren en visualiseren met Power BI](https://www.edx.org/course/data-analysis-in-power-bi).
 * **Lynda.com** biedt cursussen aan zoals [Power BI Pro Essential Training](https://www.lynda.com/Power-BI-tutorials/Power-BI-Pro-Essential-Training/485820-2.html).
 * Zoek naar individuele **Dashboard in één dag** trainingssessies.
 
