@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/25/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 214ef5072808decc4c153a28cf231e070c20508d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a7a3e0382b80d46ddb41b3f5677763a1a08bf26d
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524714"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981545"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Mobiele apps configureren met Microsoft Intune
 
@@ -58,8 +58,8 @@ Als u beveiligingsbeleid voor apps wilt maken en toewijzen voor de Power BI-app,
 Beheerde apps zijn apps die door het ondersteuningsteam van het bedrijf kunnen worden ingesteld om de bedrijfsgegevens te beveiligen die toegankelijk zijn in de app. Wanneer u bedrijfsgegevens in een beheerde app op uw apparaat opent, merkt u wellicht dat de app iets anders werkt dan u verwacht. Zo kunt u beveiligde bedrijfsgegevens mogelijk niet kopiëren en plakken of op bepaalde locaties opslaan.
 
 Raadpleeg de stappen in de volgende artikelen voor meer informatie over hoe uw eindgebruikers de Power BI-app op hun apparaat kunnen gebruiken:
-- [Beheerde apps op uw iOS-apparaat gebruiken](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
-- [Beheerde apps op uw Android-apparaat gebruiken](https://docs.microsoft.com/intune-user-help/use-managed-apps-on-your-device-android)
+- [Beheerde apps op uw iOS-apparaat gebruiken](/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [Beheerde apps op uw Android-apparaat gebruiken](/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## <a name="next-steps"></a>Volgende stappen
 
@@ -67,4 +67,4 @@ Raadpleeg de stappen in de volgende artikelen voor meer informatie over hoe uw e
 
 [Power BI-apps voor mobiele apparaten](../consumer/mobile/mobile-apps-for-mobile-devices.md)  
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)  
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
