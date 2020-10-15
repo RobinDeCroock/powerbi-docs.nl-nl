@@ -10,8 +10,8 @@
     - name: Zelfstudies
       expanded: true
       items:
-        - name: Een Power BI-visual ontwikkelen
-          href: custom-visual-develop-tutorial.md
+        - name: 'Zelfstudie: Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen'
+          href: develop-circle-card.md
         - name: React-visuals maken
           href: create-react-visual.md
         - name: Een staafdiagram maken
@@ -54,6 +54,8 @@
           href: power-bi-custom-visuals-certified.md
         - name: Power BI-visuals publiceren naar AppSource
           href: office-store.md
+        - name: Uw omgeving instellen voor het ontwikkelen van een Power BI-visual
+          href: environment-setup.md
         - name: Met R gemaakte visuals maken
           href: create-r-based-power-bi-desktop.md
         - name: Uw Power BI-visual testen
