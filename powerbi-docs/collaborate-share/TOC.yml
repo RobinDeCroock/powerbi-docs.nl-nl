@@ -26,11 +26,13 @@
             - name: Meld u aan voor de nieuwe vormgeving voor werkruimten
               href: service-workspaces-new-look.md
             - name: Klassieke werkruimten upgraden
-              href: ../collaborate-share/service-upgrade-workspaces.md
+              href: service-upgrade-workspaces.md
             - name: Klassieke werkruimten maken
               href: service-create-workspaces.md
             - name: Apps uit werkruimten publiceren
               href: service-create-distribute-apps.md
+            - name: Bestanden opslaan in OneDrive voor een werkruimte
+              href: service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Gegevensopslag in werkruimten beheren
               href: ../admin/service-admin-manage-your-data-storage-in-power-bi.md
             - name: Gegevensherkomst
@@ -41,8 +43,6 @@
               href: service-data-source-impact-analysis.md
             - name: Vertrouwelijkheidslabels voor gegevens toepassen
               href: ../admin/service-security-apply-data-sensitivity-labels.md
-            - name: Verbinding maken met de bestanden in de OneDrive van uw groep
-              href: ../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md
             - name: Samenwerken in een klassieke werkruimte
               href: service-collaborate-power-bi-workspace.md
             - name: Uw groep beheren in Power BI en Microsoft 365
