@@ -3,18 +3,18 @@ title: Taken voor Power BI Premium-werkruimte en -gegevenssets automatiseren met
 description: Lees hoe service-principals kunnen worden gebruikt voor het automatiseren van beheertaken voor Power BI Premium-werkruimten en -gegevenssets.
 author: minewiskan
 ms.author: owend
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-premium
+ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/04/2020
+ms.date: 10/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5cc4c40f4ef3269fe5e8a5e2a2ba5a4879320aeb
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5e07cafc5c507d090d56a0d973e2c02aa873c3e2
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598771"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116495"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals
 

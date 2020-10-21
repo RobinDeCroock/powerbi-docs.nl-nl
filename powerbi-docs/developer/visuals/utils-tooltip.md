@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 67470ec405806f44fdb483e857d222ad4ff05a45
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379163"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197628"
 ---
 # <a name="tooltip-utils"></a>Hulpmiddelen voor hulpprogramma's
 Dit artikel helpt u bij het installeren, importeren en gebruiken van hulpmiddelen voor knopinfo. Dit hulpmiddel is handig voor het aanpassen van de knopinfo in Power BI-visuals.
@@ -29,7 +29,7 @@ Als u het pakket wilt gebruiken, moet u beschikken over het volgende:
 U kunt het pakket installeren door de volgende opdracht uit te voeren in de map met uw huidige visual:
 
 ```bash
-npm install powerbi-visuals-utils-colorutils --save
+npm install powerbi-visuals-utils-tooltiputils --save
 ```
 Met deze opdracht wordt het pakket geïnstalleerd en wordt een pakket als een afhankelijkheid toegevoegd aan uw ```package.json```
 

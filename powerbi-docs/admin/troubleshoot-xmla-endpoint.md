@@ -3,19 +3,19 @@ title: Problemen met connectiviteit van XMLA-eindpunten in Power BI Premium oplo
 description: Hierin wordt beschreven hoe u problemen met connectiviteit van het XMLA-eindpunt in Power BI Premium oplost.
 author: minewiskan
 ms.author: owend
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/28/2020
+ms.date: 10/14/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854076"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116564"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -79,7 +79,7 @@ Als Power BI uw nieuwe gegevensset niet aan de referenties van de gegevensbron k
 
 Als u de verwerkingsfout wilt voorkomen, stelt u **Implementatieopties** > **Verwerkingsopties** in op **Niet verwerken**, zoals wordt weergegeven in de volgende afbeelding. In Visual Studio worden vervolgens alleen metagegevens geïmplementeerd. U kunt vervolgens de referenties voor de gegevensbron configureren en op **Nu vernieuwen** klikken voor de gegevensset in de Power BI-gebruikersinterface. Zie de sectie [Een gegevensset vernieuwen](#refreshing-a-dataset) verderop in dit artikel voor informatie over het oplossen van verwerkingsproblemen.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Optie Niet verwerken":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Modelimplementatiefout":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Nieuw project op basis van een bestaande gegevensset
 
@@ -128,13 +128,13 @@ Power BI retourneert de volgende fout als u een vernieuwing uitvoert via het XML
 
 Imitatie-instellingen die u kunt definiëren voor gegevensbronnen van providers zijn niet relevant voor Power BI. Power BI gebruikt een ander mechanisme op basis van de instellingen van de gegevensset om referenties voor gegevensbronnen te beheren. Daarom moet u **Serviceaccount** selecteren als u een providergegevensbron maakt.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Serviceaccount imiteren":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Modelimplementatiefout":::
 
 ### <a name="fine-grained-processing"></a>Verfijnde verwerking
 
 Wanneer een geplande vernieuwing of vernieuwing op aanvraag in Power BI wordt geactiveerd, wordt doorgaans de gehele gegevensset vernieuwd. In veel gevallen is het efficiënter om selectieve vernieuwingen uit te voeren. U kunt verfijnde verwerkingstaken uitvoeren in SQL Server Management Studio (SSMS), zoals hieronder wordt weergegeven, of met behulp van hulpprogramma's of scripts van derden.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Tabellen verwerken in SSMS":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Modelimplementatiefout":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Onderdrukkingen in de TMSL-opdracht Vernieuwen
 

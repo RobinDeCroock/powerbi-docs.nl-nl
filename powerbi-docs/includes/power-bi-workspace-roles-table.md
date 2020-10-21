@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512802"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983721"
 ---
 |Mogelijkheid   | Beheerder  | Lid  | Inzender  | Lezer |
 |---|---|---|---|---|
@@ -42,6 +42,6 @@ ms.locfileid: "89512802"
 
 <sup>3</sup> Als u een rapport wilt kopiëren en een rapport wilt maken in een andere werkruimte op basis van een gegevensset in deze werkruimte, hebt u [een machtiging nodig voor het maken van de gegevensset](../connect-data/service-datasets-build-permissions.md). Voor gegevenssets in deze werkruimte hebben de personen met de rollen Beheerder, Lid en Inzender automatisch een Samenstellingsmachtiging via hun werkruimterol.
 
-<sup>4</sup> Houd er rekening mee dat u ook machtigingen nodig hebt voor de gateway. Deze machtigingen worden elders beheerd, onafhankelijk van werkruimterollen en -machtigingen. Zie [Een on-premises gateway beheren](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage) voor meer informatie.
+<sup>4</sup> Houd er rekening mee dat u ook machtigingen nodig hebt voor de gateway. Deze machtigingen worden elders beheerd, onafhankelijk van werkruimterollen en -machtigingen. Zie [Een on-premises gateway beheren](/data-integration/gateway/service-gateway-manage) voor meer informatie.
 
 <sup>5</sup> Zelfs als u geen Power BI Pro-licentie hebt, kunt u items in de Power BI-service bekijken en ermee werken als de items zich in een werkruimte in een Premium-capaciteit bevinden.

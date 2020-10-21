@@ -8,12 +8,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 35a62923ba69520c1197e7bb80114a22ec1d9a20
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f239622d8b6012913298212790f7f9aa8c3115a5
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214087"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197651"
 ---
 # <a name="use-cascading-parameters-in-paginated-reports"></a>Trapsgewijze parameters in gepagineerde rapporten gebruiken
 
@@ -128,7 +128,7 @@ U kunt de trapsgewijze parameters als volgt ontwikkelen:
 >
 > Opgeslagen procedures zijn over het algemeen een betere ontwerpbenadering. De reden hiervoor is dat de query-plannen worden opgeslagen in de cache om sneller te kunnen worden uitgevoerd. In dat geval kunt u zo nodig meer geavanceerde logica ontwikkelen. Ze worden momenteel echter niet ondersteund voor gateway-relationele gegevensbronnen, dit zijn SQL Server, Oracle en Teradata.
 >
-> Ten slotte moet u er altijd voor zorgen dat er geschikte indexen bestaan om het efficiënt ophalen van gegevens te ondersteunen. Als dat niet het geval is, kunnen de rapportparameters slechts langzaam worden gevuld. De database kan worden overbelast. Zie [SQL Server index-architectuur en ontwerphandleiding](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017) voor meer informatie over het indexeren van SQL Server.
+> Ten slotte moet u er altijd voor zorgen dat er geschikte indexen bestaan om het efficiënt ophalen van gegevens te ondersteunen. Als dat niet het geval is, kunnen de rapportparameters slechts langzaam worden gevuld. De database kan worden overbelast. Zie [SQL Server index-architectuur en ontwerphandleiding](/sql/relational-databases/sql-server-index-design-guide) voor meer informatie over het indexeren van SQL Server.
 
 ### <a name="filter-by-a-grouping-column"></a>Filteren op een groepeerkolom
 
@@ -220,7 +220,7 @@ U kunt de trapsgewijze parameters als volgt ontwikkelen:
 > [!TIP]
 > U kunt dit ontwerp verbeteren zodat u meer controle hebt over uw rapportgebruikers. Hiermee kunnen ze hun eigen patroon-vergelijkingswaarde definiëren. Met de zoekwaarde "rood%" wordt bijvoorbeeld gefilterd op resellers met namen die _beginnen_ met de tekens "rood".
 >
-> Zie [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql?view=sql-server-ver15#using-the--wildcard-character) voor meer informatie.
+> Zie [LIKE (Transact-SQL)](/sql/t-sql/language-elements/like-transact-sql#using-the--wildcard-character) voor meer informatie.
 
 Hier kunt u de rapportgebruikers de mogelijkheid geven hun eigen patroon te definiëren.
 

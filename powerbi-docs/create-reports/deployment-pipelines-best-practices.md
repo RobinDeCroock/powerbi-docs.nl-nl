@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855554"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116472"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Best practices voor implementatiepijplijnen
 
@@ -103,7 +103,7 @@ U kunt Power BI Desktop beschouwen als uw lokale ontwikkelomgeving. Met Power BI
 
 ### <a name="version-control-for-pbix-files"></a>Versiebeheer voor PBIX-bestanden
 
-Gebruik [automatische synchronisatie van Power BI met OneDrive](../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md) om de versiegeschiedenis van uw rapporten en gegevenssets te beheren. Hierdoor blijven uw bestanden bijgewerkt met de nieuwste versie. U kunt dan ook oudere versies ophalen, indien nodig.
+Gebruik [automatische synchronisatie van Power BI met OneDrive](../collaborate-share/service-connect-to-files-in-app-workspace-onedrive-for-business.md) om de versiegeschiedenis van uw rapporten en gegevenssets te beheren. Hierdoor blijven uw bestanden bijgewerkt met de nieuwste versie. U kunt dan ook oudere versies ophalen, indien nodig.
 
 >[!NOTE]
 >Gebruik automatische synchronisatie met OneDrive (of een andere opslagplaats) alleen met de PBIX-bestanden in de ontwikkelingsfase van implementatiepijplijnen. Synchroniseer geen PBIX-bestanden in de test- en productiefasen van implementatiepijplijnen. Dit veroorzaakt problemen bij het implementeren van inhoud in de hele pijplijn.
