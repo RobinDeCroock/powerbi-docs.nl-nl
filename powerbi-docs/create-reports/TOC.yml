@@ -217,7 +217,7 @@
               href: service-aggregates.md
             - name: Een QR-code voor een rapport maken
               href: service-create-qr-code-for-report.md
-            - name: Consumenten visuals laten aanpassen (preview)
+            - name: Gebruikers visuals laten aanpassen
               href: power-bi-personalize-visuals.md
             - name: Een rapport exporteren naar Power BI Desktop (preview)
               href: service-export-to-pbix.md

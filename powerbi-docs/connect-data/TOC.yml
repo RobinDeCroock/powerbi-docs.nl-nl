@@ -62,6 +62,8 @@
           items:
             - name: Verbinding maken met gegevensbronnen
               href: desktop-data-sources.md
+            - name: Dynamische M-queryparameters gebruiken
+              href: desktop-dynamic-m-query-parameters.md
             - name: Een rapport maken op een SharePoint-lijst
               href: desktop-sharepoint-online-list.md
             - name: Verbinding maken met LinkedIn Sales Navigator
