@@ -1,21 +1,21 @@
 ---
-title: Visualtypen in Power BI voor consumenten
+title: Visualtypen in Power BI voor zakelijke gebruikers
 description: Visualtypen in Power BI-service
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/24/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526876"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830652"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
 
@@ -25,18 +25,20 @@ Visuals (ook wel *grafieken* en *visualisaties* genoemd) zijn afbeeldingen van u
 
 De visuele elementen die op deze pagina worden beschreven, zijn de visuals die zijn verpakt met Power BI. Dit zijn de visualtypes die u het vaakst tegenkomt. Op deze pagina vindt u een kort overzicht van deze vooraf verpakte visuals. Raadpleeg de documentatie van de [Power BI-rapport*ontwerper* over visualtypen](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor uitgebreide informatie over alle visuals.
 
-Visuals die niet automatisch worden meegeleverd met Power BI worden aangeduid als *aangepaste visuals*. Aangepaste visuals kunnen worden geïmporteerd in Power BI van externe websites, zoals Microsoft AppSource of van interne bronnen zoals de opslag in uw organisatie. Voor het importeren van aangepaste visuals hebt u bewerkingsmachtigingen voor het rapport nodig. Ga naar [Visuals in Power BI](../developer/visuals/power-bi-custom-visuals.md) voor meer informatie over deze visuals voor invoegtoepassingen.
+Visuals die niet automatisch worden meegeleverd met Power BI worden aangeduid als *aangepaste visuals*. Aangepaste visuals kunnen worden geïmporteerd in Power BI van externe websites, zoals Microsoft AppSource of van interne bronnen zoals de opslag in uw organisatie. Voor het importeren van aangepaste visuals hebt u bewerkingsmachtigingen voor het rapport nodig. Ga naar [Aangepaste visuals in Power BI](../developer/visuals/power-bi-custom-visuals.md) voor meer informatie over deze visuals voor invoegtoepassingen.
 
 
 
 ## <a name="list-of-visuals-available-in-power-bi"></a>Lijst van visuals die beschikbaar zijn in Power BI
 Al deze visuals kunnen worden gevonden in Power BI-dashboards en -rapporten en zijn [opgegeven in Q&A](end-user-q-and-a.md). Zie [Interactie met visuals in rapporten, dashboards en apps](end-user-visualizations.md) voor meer informatie over de interactie met visuals
 
+## <a name="a"></a>A
 ### <a name="area-charts-basic-layered-and-stacked"></a>Vlakdiagrammen: eenvoudig (lagen) en gestapeld
 ![vlakdiagram](media/end-user-visual-type/basic-area-map-small.png)
 
 Het eenvoudige vlakdiagram is gebaseerd op het lijndiagram waarbij het gebied tussen de as en de lijn wordt gevuld. Vlakdiagrammen benadrukken de mate van wijzigingen in de loop van de tijd en kunnen worden gebruikt om de aandacht te vestigen op de totale waarde voor een trend. Gegevens die bijvoorbeeld de winst in de loop van de tijd voorstellen, kunnen worden afgezet in een vlakdiagram om de totale winst te benadrukken.
 
+## <a name="b"></a>B
 ### <a name="bar-and-column-charts"></a>Staaf- en kolomdiagrammen
 ![kolomdiagram](media/end-user-visual-type/pbi-nancy-viz-bar.png)
 
@@ -44,6 +46,7 @@ Het eenvoudige vlakdiagram is gebaseerd op het lijndiagram waarbij het gebied tu
 
 Staafdiagrammen zijn de standaard als u een specifieke waarde over verschillende categorieën wilt weergeven.
 
+## <a name="c"></a>C
 ### <a name="cards-single-number"></a>Kaarten: één getal
 ![kaart met één getal](media/end-user-visual-type/pbi-nancy-viz-card.png)
 
@@ -67,7 +70,7 @@ In de volgende gevallen komen combinatiegrafieken goed van pas:
 - Als u wilt controleren of één meting voldoet aan het doel dat is gedefinieerd via een andere meting
 - Als u ruimte op het canvas wilt besparen.
 
-
+## <a name="d"></a>D    
 ### <a name="decomposition-tree"></a>Uitgevouwen structuur
 ![uitgevouwen structuur](media/end-user-visual-type/power-bi-decomposition.png)
 
@@ -78,6 +81,7 @@ Met de visual van een uitgevouwen structuur kunt u gegevens in meerdere dimensie
 
 Ringdiagrammen lijken op cirkeldiagrammen.  Ze geven het verband weer tussen delen en het geheel. Het enige verschil is dat het midden leeg is, waardoor er ruimte is voor een label of pictogram.
 
+## <a name="f"></a>F
 ### <a name="funnel-charts"></a>Trechterdiagrammen
 ![trechterdiagram](media/end-user-visual-type/pbi-nancy-viz-funnel.png)
 
@@ -86,7 +90,7 @@ Trechters helpen bij het visualiseren van een proces dat bestaat uit fasen en wa
 Bijvoorbeeld verkoopactiviteiten waarbij de klanten in bepaalde fasen worden bijgehouden: Lead > Gekwalificeerde Lead > Potentiële klant > Contract > Sluiten. De vorm van de trechter brengt de status van het proces dat u bijhoudt in één oogopslag over.
 Elke fase van de trechter vertegenwoordigt een percentage van het totaal. In de meeste gevallen heeft een trechterdiagram dus de vorm een trechter. De eerste fase is het grootst en elke latere fase is kleiner dan de vorige. Een trechter in de vorm van een peer is ook nuttig. Hiermee kunt u een probleem in het proces identificeren. Maar normaal gesproken is de eerste fase (de startfase) het grootst.
 
-
+## <a name="g"></a>G
 ### <a name="gauge-charts"></a>Meterdiagrammen
 ![meterdiagram](media/end-user-visual-type/gauge-m.png)
 
@@ -100,6 +104,7 @@ Radiale meters zijn een uitstekende keuze om:
 - de status van één meting weer te geven
 - informatie weer te geven die snel kan worden gelezen en begrepen
 
+## <a name="k"></a>K
  ### <a name="key-influencers-chart"></a>Grafiek met belangrijkste beïnvloeders
 ![belangrijkste beïnvloeder](media/end-user-visual-type/power-bi-influencer.png)
 
@@ -116,11 +121,13 @@ KPI's zijn een prima keuze:
 - voor het meten van voortgang (waarmee loop ik voor of achter?)
 - voor het meten van de afstand tot een doel (hoe ver loop ik voor of achter?)
 
+## <a name="l"></a>L
 ### <a name="line-charts"></a>Lijndiagrammen
 ![lijndiagram](media/end-user-visual-type/pbi-nancy-viz-line.png)
 
 Lijndiagrammen benadrukken de algehele vorm van een volledige reeks waarden, meestal in de loop van de tijd.
 
+## <a name="m"></a>M
 ### <a name="maps-basic-maps"></a>Kaarten: basiskaarten
 ![basiskaart](media/end-user-visual-type/pbi-nancy-viz-map.png)
 
@@ -146,6 +153,7 @@ Met shape-kaarten kunt u op een kaart regio's met elkaar vergelijken met behulp 
 
 De matrixvisualisatie is een type tabelvisualisatie (Zie 'Tabel' hieronder) die ondersteuning biedt voor een indeling met interval. Rapportontwerpers nemen vaak matrices op in rapporten en dashboards waarmee gebruikers een of meer element (rijen, kolommen, cellen) in de matrix kunnen selecteren voor het kruislings markeren van andere visuele elementen op een rapportpagina.  
 
+## <a name="p"></a>P
 ### <a name="pie-charts"></a>Cirkeldiagrammen
 ![cirkeldiagram](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
@@ -154,8 +162,9 @@ Cirkeldiagrammen geven het verband weer tussen delen en het geheel.
 ### <a name="power-apps-visual"></a>Power Apps-visual
 ![Power Apps-visual](media/end-user-visual-type/power-bi-powerapps-visual.png)
 
-Rapportontwerpers kunnen een Power-app maken en deze insluiten in een Power BI-rapport. Gebruikers kunnen met deze visual werken in het Power BI-rapport. 
+Rapportontwerpers kunnen een Power-app maken en deze insluiten in een Power BI-rapport. *Zakelijke gebruikers* kunnen met deze visual werken in het Power BI-rapport. 
 
+## <a name="q"></a>Q
 ### <a name="qa-visual"></a>Q&A - visual
 ![Q&A-visuals](media/end-user-visual-type/power-bi-q-and-a.png)
 
@@ -164,13 +173,14 @@ Rapportontwerpers kunnen een Power-app maken en deze insluiten in een Power BI-r
 
 Zie [Q&A-visual in Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor meer informatie.
 
+## <a name="r"></a>R
 ### <a name="ribbon-chart"></a>Lintgrafiek
 ![lintgrafiek](media/end-user-visual-type/power-bi-ribbon.png)
 
 Lintgrafieken geven aan welke gegevenscategorie de hoogste rang (hoogste waarde) heeft. In lintgrafieken kunnen wijzigingen in de rang goed worden weergegeven, waarbij voor elke periode de hoogste rang (waarde) altijd bovenaan wordt weergegeven.
 
+## <a name="s"></a>S
 ### <a name="scatter-bubble-and-dot-plot-charts"></a>Spreidings-, bellen- en eendimensionale puntdiagrammen
-
 
 Een spreidingsdiagram heeft altijd twee waardeassen, waarbij een reeks numerieke gegevens op een horizontale as en een andere reeks numerieke waarden op de verticale as wordt weergegeven. In het diagram worden punten weergegeven op het snijpunt van een numerieke x- en y-waarde, waarbij deze waarden in één gegevenspunt worden gecombineerd. Deze gegevenspunten kunnen, afhankelijk van de gegevens, gelijkmatig of ongelijkmatig over de horizontale as zijn verdeeld.
 
@@ -202,12 +212,18 @@ In de volgende gevallen komen slicers goed van pas:
 - als u wilt filteren op kolommen die niet nodig zijn en verborgen zitten in de gegevenstabellen;
 - als u meer gerichte rapporten wilt maken door slicers naast belangrijke visuele elementen te zetten.
 
+
+### <a name="smart-narrative"></a>Slim verhaal
+![slim verhaal](media/end-user-visual-type/power-bi-smart-narrative.png)
+
+Met de functie Slim verhaal voegt u tekst toe aan rapporten om trends, en belangrijke gegevens te benadrukken, en om uitleg en context toe te voegen. De tekst helpt gebruikers om inzicht te krijgen in de gegevens en de belangrijke bevindingen snel te identificeren.
+
 ### <a name="standalone-images"></a>Zelfstandige afbeeldingen
 ![zelfstandige afbeelding](media/end-user-visual-type/pbi-nancy-viz-image.png)
 
 Een zelfstandige afbeelding is een afbeelding die is toegevoegd aan een rapport of dashboard. 
 
-
+## <a name="t"></a>T
 ### <a name="tables"></a>Tabellen
 ![tabeldiagram](media/end-user-visual-type/table-type.png)
 
@@ -231,6 +247,7 @@ In de volgende gevallen komen structuurkaarten goed van pas:
 - wanneer u kenmerken wilt weergeven met grootte- en kleurcoderingen;
 - wanneer u patronen, uitbijters, de belangrijkste bijdragers en uitzonderingen wilt identificeren.
 
+## <a name="w"></a>W
 ### <a name="waterfall-charts"></a>Watervalgrafieken
 ![watervalgrafiek](media/end-user-visual-type/waterfall-small.png)
 

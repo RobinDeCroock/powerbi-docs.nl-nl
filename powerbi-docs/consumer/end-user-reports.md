@@ -6,23 +6,25 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/28/2020
+ms.date: 10/09/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 871f807d18017343b4b23eee4d59833c196cf2f0
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 4ee852e18056fc6db0288066f5b2074eba784487
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528063"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983437"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yyn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Een Power BI-rapport biedt vanuit meerdere invalshoeken inzicht in een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u mogelijk de rol hebben voor het *ontwerpen* van rapporten. U kunt ook een zakelijke gebruiker zijn die rapporten *verbruikt* of gebruikt. Dit artikel is gericht op *zakelijke gebruikers*.
+Een Power BI-rapport biedt vanuit meerdere invalshoeken inzicht in een gegevensset, met visualisaties die andere bevindingen en inzichten uit die gegevensset weergeven.  Een rapport kan één visualisatie of pagina's vol visualisaties bevatten. Afhankelijk van uw functie kunt u mogelijk de rol hebben voor het *ontwerpen* van rapporten. U kunt ook een *zakelijke gebruiker* zijn die rapporten *verbruikt* of gebruikt. Dit artikel is gericht op *zakelijke gebruikers*.
+
+## <a name="the-parts-of-a-report"></a>De onderdelen van een rapport
 
 ![Schermopname van een rapportpagina.](./media/end-user-reports/power-bi-report.png)
 
@@ -36,14 +38,14 @@ Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door [Basisc
 
 ## <a name="advantages-of-reports"></a>Voordelen van rapporten
 
-Een rapport in Power BI is gebaseerd op één gegevensset. Rapport*ontwerpers* maken de visualisaties in een rapport die een brok informatie vertegenwoordigen. De visuele elementen zijn niet statisch.  Ze worden bijgewerkt zodra de onderliggende gegevens veranderen. U kunt interacties met de visuele elementen en filters aangaan terwijl u in de gegevens duikt om in inzichten te ontdekken en antwoorden te zoeken. Net als een dashboard is een rapport erg interactief, met veel aanpassingsmogelijkheden.
+Een rapport in Power BI is gebaseerd op één gegevensset. Rapport*ontwerpers* maken de visuals in een rapport die blokken gegevens vertegenwoordigen. De visuele elementen zijn niet statisch.  Ze worden bijgewerkt zodra de onderliggende gegevens veranderen. U kunt interacties met de visuele elementen en filters aangaan terwijl u in de gegevens duikt om in inzichten te ontdekken en antwoorden te zoeken. Net als een dashboard, maar dan in grotere mate, is een rapport erg interactief, met veel aanpassingsmogelijkheden. Wat u allemaal met een rapport kunt doen, is afhankelijk van de rol en de machtigingen die zijn toegewezen door de *ontwerper* van het rapport.
 
 ### <a name="safely-interact-with-content"></a>Veilig omgaan met inhoud
 
 U kunt de rapporten niet kapot maken wanneer u uw inhoudt verkent en interacties toepast, zoals filteren, slicen, abonneren en exporteren. Uw werk heeft geen invloed op de onderliggende gegevensset of het oorspronkelijk gedeelde inhoud. Dit geldt voor dashboards, rapporten en apps.
 
 > [!NOTE]
-> Denk eraan dat u uw gegevens niet kunt schaden. Power BI is een fantastische plek om te verkennen en te experimenteren zonder dat u zich zorgen hoeft te maken dat u iets verkeerd doet.
+> Denk eraan dat u uw gegevens niet kunt schaden. De Power BI-service is een fantastische plek om dingen te verkennen en te experimenteren zonder dat u zich zorgen hoeft te maken dat u iets verkeerd doet.
 
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Sla uw wijzigingen op of stel de standaardinstellingen opnieuw in
 

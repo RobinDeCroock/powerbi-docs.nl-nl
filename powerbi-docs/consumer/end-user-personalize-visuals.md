@@ -1,20 +1,20 @@
 ---
-title: Visuals in een rapport personaliseren (preview)
+title: Visuals in een rapport aanpassen
 description: Maak uw eigen weergave van een rapport maken zonder het te bewerken.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/13/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc682e867b65ba9da2b2eee87f52d7fd5d0961c
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528115"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256736"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Visuals in een rapport aanpassen
 
@@ -45,7 +45,7 @@ Deze functie biedt niet alleen de mogelijkheid om nieuwe functies te verkennen. 
 - Uw recente wijzigingen wissen
 
 > [!IMPORTANT]
-> De mogelijkheid om een visual aan de persoonlijke voorkeur aan te passen, is een preview-functie die moet worden ingeschakeld door de *rapportontwerper*. Als u het pictogram **Persoonlijk instellingen voor deze visual opgeven** ![pictogram Persoonlijk instellingen voor deze visual opgeven](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) niet ziet, is deze functie niet voor het huidige rapport ingeschakeld. 
+> De mogelijkheid om een visual aan de persoonlijke voorkeur aan te passen, moet worden ingeschakeld door de *ontwerper* van het rapport. Als u het pictogram **Persoonlijk instellingen voor deze visual opgeven** ![pictogram Persoonlijk instellingen voor deze visual opgeven](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png) niet ziet, is deze functie niet voor het huidige rapport ingeschakeld. Neem contact op met de eigenaar van het rapport of de Power BI-beheerder om de functie in te schakelen. Als u contactgegevens van de rapporteigenaar wilt weergeven, selecteert u de naam van het rapport in de menubalk van Power BI.
 
 ## <a name="personalize-visuals-in-the-power-bi-service"></a>Visuals aanpassen in de Power BI-service
 
@@ -54,8 +54,6 @@ Door een visual aan de persoonlijke voorkeur aan te passen, kunt u uw gegevens o
 1. Open een rapport in de leesweergave in de Power BI-service.
 
 2. Selecteer in de menubalk voor de visual het pictogram **Deze visual aanpassen** ![Het pictogram Deze visual aanpassen](media/end-user-personalize-visuals/power-bi-personalize-visual-icon.png). 
-
-3. Als u een van de velden van **Aanpassen** wilt wissen, selecteert u **Meer opties (...)** en kiest u **Veld verwijderen**.
 
 ### <a name="change-the-visualization-type"></a>Het type visualisatie wijzigen
 
@@ -72,6 +70,16 @@ Vervang het veld dat wordt gebruikt voor de X-as door het veld te selecteren dat
 Door een legenda toe te voegen, kunt u een visual van een kleurcode voorzien op basis van een categorie. In dit voorbeeld coderen we kleuren op basis van de bedrijfsnaam. 
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Een visual aanpassen":::
+
+### <a name="change-the-placement-of-fields"></a>De plaatsing van velden wijzigen
+
+Met slepen en neerzetten kunt u de plaatsing van velden binnen dezelfde eigenschap van een visual wijzigen of zelfs binnen verschillende eigenschappen van een visual. U kunt zo bijvoorbeeld snel een veld in de legenda verplaatsen naar de as van een visual.
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="Een visual aanpassen":::
+
+U kunt zo ook snel de kolommen van een tabel of matrix opnieuw rangschikken.
+
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="Een visual aanpassen":::
 
 ### <a name="compare-two-or-more-different-measures"></a>Twee of meer verschillende metingen vergelijken
 Vergelijk en contrasteer waarden voor verschillende metingen met behulp van het plus-pictogram om meerdere metingen in een visual toe te voegen. Als u een meting wilt verwijderen, selecteert u **Meer opties (...)** en kiest u **Veld verwijderen**.
@@ -113,7 +121,7 @@ Selecteer het gumpictogram om alle recente wijzigingen te wissen die u hebt aang
 
 :::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Een visual aanpassen":::
 
-## <a name="limitations-and-known-issues"></a>Beperkingen en bekende problemen
+## <a name="limitations"></a>Beperkingen
 
 Op dit moment heeft de functie enkele beperkingen waarmee u rekening moet houden.
 
@@ -121,12 +129,6 @@ Op dit moment heeft de functie enkele beperkingen waarmee u rekening moet houden
 - Onderzoekingen van gebruikers blijven niet automatisch behouden. U moet uw weergave opslaan als een persoonlijke bladwijzer om uw wijzigingen vast te leggen.
 - Deze functie wordt ondersteund in de mobiele apps van Power BI Mobile voor iOS en Android-tablets en in de Power BI Windows-app. Het wordt niet ondersteund in de Power BI Mobile Apps voor telefoons. Wijzigingen in de visual die u in de Power BI-service in een persoonlijke bladwijzer opslaat, worden echter in alle mobiele Power BI-apps aangehouden.
 
-Er zijn ook enkele bekende problemen die kunnen worden opgelost:
-
-- Het toevoegen van een hiërarchie wordt niet ondersteund. U moet de afzonderlijke onderliggende items toevoegen.
-- Met persoonlijke bladwijzers krijgt u mogelijk resultaten die enigszins verschillen op basis van de reeks die u selecteert. Discrepanties zijn mogelijk omdat de volledige status van het rapport niet is vastgelegd, maar alleen de wijzigingen die zijn aangebracht. De tijdelijke oplossing is om **Standaardinstelling herstellen** te selecteren en vervolgens de bladwijzer te selecteren die u wilt weergeven. 
-
 ## <a name="next-steps"></a>Volgende stappen
 [Een rapportvisual kopiëren als een statische afbeelding](../visuals/power-bi-visualization-copy-paste.md)    
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/06/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e74bb6b2d3414e37924319016a0fab421dd096e
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536096"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830399"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Slicers in de Power BI-service
 
@@ -29,7 +29,7 @@ Een slicer is een type visual waarmee de andere visuals op een rapportpagina wor
 Bij het maken van rapporten voegen *ontwerpers* slicers toe om een verhaal te verduidelijken en om u de hulpmiddelen te geven waarmee u uw gegevens kunt verkennen.
 
 ### <a name="numeric-range-slicer"></a>Slicer voor numeriek bereik
- De slicer voor numeriek bereik hierboven helpt u bij het in kaart brengen van de totale omzet per geografisch gebied, per voorraadeenheid en per besteldatum. Gebruik de grepen om een bereik te selecteren. 
+ De slicer voor numeriek bereik helpt u bij het in kaart brengen van kwantitatieve gegevens zoals totale omzet per geografisch gebied, per voorraadeenheid en per besteldatum. Gebruik de grepen om een bereik te selecteren. 
 
 ![de grepen van een slicer voor een bereik](media/end-user-slicer/power-bi-handles.png)
 

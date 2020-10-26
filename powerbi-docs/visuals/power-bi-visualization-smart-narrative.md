@@ -1,6 +1,6 @@
 ---
 title: Zelfstudie over slimme verhalen
-description: 'Zelfstudie: Slimme verhalen maken in Power BI'
+description: 'Zelfstudie: Visualisaties van slimme verhalen maken in Power BI'
 author: aphilip94
 ms.reviewer: aphilip94
 ms.service: powerbi
@@ -9,89 +9,95 @@ ms.topic: how-to
 ms.date: 09/14/2020
 ms.author: anphil
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aef49d1528611a48eae21459f516bf3740987289
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 4417d66b4afc3c3848667364bdca47150afdf04a
+ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020679"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91862947"
 ---
-# <a name="create-smart-narratives-preview"></a>Slimme verhalen maken (preview)
+# <a name="create-smart-narrative-summaries-preview"></a>Slimme verhalen maken (preview)
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Met de visualisatie van slimme verhalen kunt u snel visuals en rapporten samenvatten door relevante, kant-en-klare inzichten te bieden die kunnen worden aangepast.
+Met de visualisatie Slim verhaal kunt u snel visuals en rapporten samenvatten. De visualisatie biedt relevante innovatieve inzichten die u kunt aanpassen.
 
-![Slimme verhalen](media/power-bi-visualization-smart-narratives/1.png)
+![Schermopname met een slim verhaal aan de rechterkant van een rapport.](media/power-bi-visualization-smart-narratives/1.png)
 
-Met deze functie kunnen auteurs verhalen aan hun rapport toevoegen om belangrijke punten te benadrukken, trends aan te wijzen of de taal voor een specifieke doelgroep te bewerken en in te delen. In plaats van een schermopname van het rapport in PowerPoint te plakken met toevoeging van belangrijke punten, kunnen voortaan verhalen aan het rapport worden toegevoegd die bij elke vernieuwing worden bijgewerkt. De eindgebruikers kunnen de verhalen gebruiken om hun gegevens beter te begrijpen, sneller tot de belangrijkste punten te komen en anderen de gegevens uit te leggen.
+Gebruik slimme verhalen in uw rapporten om de aandacht te vestigen op belangrijke gegevens, trends aan te geven, en de taal en indeling aan te passen voor een specifieke doelgroep. In plaats van een schermopname van een rapport in PowerPoint te plakken met de belangrijkste punten, kunt u verhalen toevoegen die bij elke vernieuwing worden bijgewerkt. Uw publiek kan de verhalen gebruiken om de gegevens beter te begrijpen, sneller tot de belangrijkste punten te komen en de gegevens aan anderen uit te leggen.
 
 >[!NOTE]
-> Deze functie is in preview, dus u dient eerst de functieschakelaar in te schakelen via Bestand > Opties en instellingen > Opties > Preview-functie en ervoor te zorgen dat  **Visual van slimme verhalen** is ingeschakeld:
+> Omdat de functie Visual van Slim verhaal in preview is, moet u de functie eerst inschakelen als u deze wilt gebruiken. Selecteer in Power BI **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies**. Selecteer vervolgens **Visual van Slim verhaal**.
+>
+>![Schermopname met opties van Power B I. De optie Visual van Slim verhaal is geselecteerd.](media/power-bi-visualization-smart-narratives/2.png)
 
-![Preview-vlag](media/power-bi-visualization-smart-narratives/2.png)
-
-U kunt het PBIX-bestand dat voor het onlineverkoopscenario in deze documentatie wordt gebruikt, [hier](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) vinden.
+Als u deze zelfstudie wilt volgen, downloadt u het [voorbeeldbestand](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) van een scenario met online verkopen.
 
 ## <a name="get-started"></a>Aan de slag 
 
-Klik op het nieuwe pictogram voor slimme verhalen in het visualisatiedeelvenster om automatisch een samenvatting te genereren.
+Selecteer in het deelvenster **Visualisaties** het pictogram **Slim verhaal** om automatisch een samenvatting te genereren.
 
-![Pictogram Slimme verhalen](media/power-bi-visualization-smart-narratives/3.png)
+![Schermopname van het deelvenster Visualisaties. Het pictogram Slim verhaal is geselecteerd.](media/power-bi-visualization-smart-narratives/3.png)
 
- U krijgt een verhaal te zien dat is gemaakt op basis van alle visuals op de pagina. U kunt bijvoorbeeld op het pictogram klikken om automatisch een samenvatting te genereren van de visuals die over inkomsten, websitebezoeken en verkoop in dit rapport praten. U ziet dat Power BI automatisch een trendanalyse geeft om aan te tonen dat de inkomsten en bezoeken beide zijn toegenomen. Er wordt zelfs berekend hoe groot de toename is, in dit geval 72%.
+U ziet een verhaal dat is gebaseerd op alle visuals op de pagina. In het voorbeeldbestand kunt u via Slim verhaal bijvoorbeeld automatisch een samenvatting genereren van de visuals van het rapport die betrekking hebben op de inkomsten, het aantal bezoeken aan de website en de omzet. Power BI analyseert automatisch trends om aan te tonen dat de inkomsten en bezoeken beide zijn toegenomen. Zelfs de groei wordt berekend, in dit geval 72 procent.
  
- ![Slimme verhalen: samenvatting](media/power-bi-visualization-smart-narratives/4.gif)
+![Schermopname die laat zien hoe u een slim verhaal maakt.](media/power-bi-visualization-smart-narratives/4.gif)
  
- U kunt ook met de rechtermuisknop op de visual klikken en **samenvatten** selecteren. Hiermee wordt een automatische samenvatting van die visualisatie gegenereerd. Als u bijvoorbeeld met de rechtermuisknop klikt op > samenvatten in het spreidingsdiagram met de diverse transacties, worden de gegevens geanalyseerd en kunt u zien welke stad/regio de hoogste omzet per transactie en het hoogste aantal transacties heeft. U ziet ook het verwachte waardenbereik voor deze metrische gegevens, zodat u weet dat de meeste steden een omzet genereerden van minder dan €45 per transactie, en minder dan tien transacties hadden.
+Als u een slim verhaal wilt genereren van een visualisatie, klikt u met de rechtermuisknop op de visualisatie en selecteert u **Samenvatten**. Probeer in het voorbeeldbestand maar eens een samenvatting te maken van een spreidingsdiagram waarin verschillende transacties zijn opgenomen. Power BI analyseert de gegevens en geeft aan welke plaats of regio de hoogste inkomsten per transactie heeft en het grootste aantal transacties. Het slimme verhaal toont ook het verwachte bereik van waarden voor deze metrische gegevens. U ziet dat de meeste steden minder dan $45 per transactie produceren en minder dan 10 transacties hebben.
  
   
- ![Slimme verhalen: samenvatten](media/power-bi-visualization-smart-narratives/5.gif)
+![Schermopname van een slim verhaal waarin een spreidingsdiagram wordt samengevat.](media/power-bi-visualization-smart-narratives/5.gif)
  
- ## <a name="edit-the-summary"></a>De samenvatting bewerken
+## <a name="edit-the-summary"></a>De samenvatting bewerken
  
- De samenvatting is uiterst **aanpasbaar**. Met behulp van dezelfde besturingselementen die in het normale tekstvak beschikbaar zijn, kunt u nieuwe tekst toevoegen of bestaande tekst bewerken. U kunt de tekst bijvoorbeeld vet maken of de tekstkleur wijzigen.
+Het slimme verhaal of de samenvatting kan naar eigen goeddunken worden aangepast. U kunt de bestaande tekst bewerken of tekst toevoegen met behulp van de opdrachten in het tekstvak. Zo kunt u de tekst vet maken of de tekstkleur wijzigen.
  
-  ![Slimme verhalen: besturingselement voor een tekstvak](media/power-bi-visualization-smart-narratives/6.png)
+![Schermopname van opdrachten voor tekstopmaak op een werkbalk.](media/power-bi-visualization-smart-narratives/6.png)
   
-  U kunt de samenvatting ook aanpassen en uw eigen inzichten toevoegen door **dynamische waarden** toe te voegen. U kunt tekst toewijzen aan bestaande velden en metingen, of natuurlijke taal gebruiken om een nieuwe meting te definiëren die aan tekst moet worden toegewezen. Als u bijvoorbeeld informatie over het aantal geretourneerde items wilt toevoegen, kunt u de methode voor het toevoegen van waarden gebruiken, zoals wordt weergegeven in de GIF-animatie. De Q&A is geïntegreerd om dynamische waarden toe te kunnen voegen. Terwijl u typt, krijgt u suggesties in een vervolgkeuzelijst, zoals in een Q&A-visual. U kunt dit gewoon opslaan als een waarde.  U kunt in de Q&A niet alleen vragen stellen over uw gegevens, maar u kunt voortaan ook uw eigen berekeningen maken, en zonder dat u DAX nodig hebt. 
+U kunt de samenvatting aanpassen of uw eigen inzichten toevoegen door *dynamische waarden* te gebruiken. U kunt tekst toewijzen aan bestaande velden en metingen, of natuurlijke taal gebruiken om een nieuwe meting te definiëren die aan tekst moet worden toegewezen. Als u bijvoorbeeld informatie wilt toevoegen over het aantal geretourneerde items in het voorbeeldbestand, voegt u een waarde toe. 
+
+Terwijl u de naam van een waarde typt, kunt u kiezen uit een lijst met suggesties zoals in een visual van het type Q&A. Dus naast het stellen van vragen over uw gegevens in een Q&A-visual, kunt u nu uw eigen berekeningen maken zonder dat u DAX (Data Analysis Expressions) hoeft te gebruiken. 
   
-   ![Dynamische waarde](media/power-bi-visualization-smart-narratives/7.gif)
+![Schermopname die laat zien hoe u een dynamische waarde maakt voor een visualisatie van een slim verhaal.](media/power-bi-visualization-smart-narratives/7.gif)
   
-  U kunt de dynamische waarden opmaken, bijvoorbeeld om als valuta weer te geven, decimale tekens op te geven, scheidingstekens voor duizend tallen te gebruiken, enzovoort. 
+U kunt dynamische waarden ook opmaken. In het voorbeeldbestand kunt u waarden bijvoorbeeld weergeven als valuta, het aantal decimalen opgeven en een scheidingsteken voor duizendtallen kiezen. 
    
-   ![Dynamische waarde opmaken](media/power-bi-visualization-smart-narratives/8.gif)
+![Schermopname die laat zien hoe u een dynamische waarde kunt opmaken.](media/power-bi-visualization-smart-narratives/8.gif)
    
-   U kunt dit doen door rechtstreeks op de waarde in de samenvatting te klikken om deze op te maken, of door te klikken op de bewerkingsknop die overeenkomt met de waarde op het tabblad Controle van het besturingselement voor het tekstvak. 
+Als u een dynamische waarde wilt opmaken, selecteert u de waarde in de samenvatting om de bewerkingsopties weer te geven op het tabblad **Beoordelen**. U kunt ook de knop Bewerken selecteren in het tekstvak naast de waarde die u wilt bewerken. 
    
-   ![Tabblad Controle in Dynamische waarde opmaken](media/power-bi-visualization-smart-narratives/9.png)
+![Schermopname van het tekstvak, met het tabblad Waarde geselecteerd. Naast de naam van de waarde is de knop Bewerken gemarkeerd.](media/power-bi-visualization-smart-narratives/9.png)
    
-   U kunt het tabblad Controle ook gebruiken om eerder gedefinieerde waarden te controleren, te verwijderen of opnieuw te gebruiken.  Als u op het pluspictogram klikt, wordt de waarde in de samenvatting ingevoegd. U kunt ook automatisch gegenereerde waarden weergeven door de optie onderaan in of uit te schakelen.
+U kunt het tabblad **Beoordelen** ook gebruiken om eerder gedefinieerde waarden te controleren, verwijderen of hergebruiken. Selecteer het plusteken (+) om de waarde in de samenvatting in te voegen. U kunt ook automatisch gegenereerde waarden weergeven door de optie onderaan het tabblad **Beoordelen** in te schakelen.
 
-Soms wordt het symbool voor verborgen samenvattingen weergegeven met de melding 'Huidige gegevens en filters genereren geen resultaat voor deze waarde'. Dit komt omdat sommige samenvattingen leeg kunnen zijn omdat er niets interessant valt te zeggen. Zo kan een samenvatting met hoge en lage waarden in een lijndiagram leeg zijn als het een vlakke lijn is, maar onder andere omstandigheden kan deze niet leeg zijn. Deze symbolen zijn alleen zichtbaar wanneer u probeert de samenvattingen te bewerken.
+Soms bevat het slimme verhaal een symbool voor een verborgen samenvatting. Dit geeft aan dat de huidige gegevens en filters geen resultaat opleveren voor de waarde. Een samenvatting is leeg wanneer er geen inzichten beschikbaar zijn. Zo kan in het lijndiagram van het voorbeeldbestand een samenvatting met hoge en lage waarden leeg zijn wanneer de lijn van de grafiek vlak is. De samenvatting kan echter onder andere omstandigheden worden weergegeven. Symbolen voor een verborgen samenvatting worden alleen weergegeven wanneer u probeert een samenvatting te bewerken.
 
 
-   ![Verborgen samenvatting](media/power-bi-visualization-smart-narratives/10.png)
+![Schermopname met twee symbolen voor een verborgen samenvatting in een slim verhaal.](media/power-bi-visualization-smart-narratives/10.png)
    
-   ## <a name="visual-interactions"></a>Visualinteracties
-   De samenvatting is dynamisch en de gegenereerde tekst en dynamische waarden worden automatisch bijgewerkt wanneer u kruislings filtert. Als u bijvoorbeeld elektronicaproducten in het ringdiagram selecteert, wordt de rest van het rapport kruislings gefilterd en wordt de samenvatting ook kruislings gefilterd zodat u zich op de elektronicaproducten kunt focussen.  In dit geval geven de bezoeken en inkomsten verschillende trends te zien, dus de tekst wordt bijgewerkt om dit aan te geven. En het geretourneerde rendement dat u hebt toegevoegd, wordt bijgewerkt naar €4196. Een aantal lege samenvattingen kunnen ook worden bijgewerkt wanneer u kruislings filtert.
+## <a name="visual-interactions"></a>Visualinteracties
+Een samenvatting is dynamisch en de gegenereerde tekst en dynamische waarden worden automatisch bijgewerkt wanneer u kruislings filtert. Als u bijvoorbeeld elektronicaproducten selecteert in het ringdiagram in het voorbeeldbestand, wordt de rest van het rapport kruislings gefilterd en wordt de samenvatting ook kruislings gefilterd zodat u zich op de elektronicaproducten kunt richten.  
+
+In dit geval geven de bezoeken en inkomsten verschillende trends te zien, en dus wordt de tekst bijgewerkt om dit aan te geven. De waarde van het aantal retouren die we hebben toegevoegd, wordt bijgewerkt naar €4196. Lege samenvattingen kunnen worden bijgewerkt wanneer u kruislings filtert.
    
-   ![Kruislings filteren](media/power-bi-visualization-smart-narratives/11.gif)
+![Schermopname die laat zien hoe door een selectie in een grafiek een samenvatting kruislings kan worden gefilterd.](media/power-bi-visualization-smart-narratives/11.gif)
    
-   U kunt ook geavanceerdere filters toepassen. Als u bijvoorbeeld alleen geïnteresseerd bent in de trend over een bepaald kwartaal in deze visual, waarin de trends van meerdere producten worden weergegeven, hoeft u alleen de relevante gegevenspunten te selecteren om de samenvatting van het fragment bij te laten werken.
+U kunt ook geavanceerdere filters toepassen. Kijk in het voorbeeldbestand eens naar de visual met trends voor meerdere producten. Als u alleen geïnteresseerd bent in een trend voor een bepaald kwartaal, selecteert u de relevante gegevenspunten om de samenvatting voor die trend bij te werken.
    
-   ![Filteren ](media/power-bi-visualization-smart-narratives/12.gif)
+![Schermopname die laat zien hoe u een trendlijn kunt selecteren om de samenvatting te filteren zodat alleen die trend wordt weergegeven.](media/power-bi-visualization-smart-narratives/12.gif)
    
-   ## <a name="limitations"></a>Beperkingen
-   - Vastmaken aan het dashboard wordt niet ondersteund.
-   - Het gebruik van dynamische waarden en voorwaardelijke opmaak (bijvoorbeeld de gegevensgebonden titel) wordt niet ondersteund.
-   - Azure Analysis Services en on-premises Analysis Services worden niet ondersteund.
-   - Visuals met KPI's, kaarten met meerdere rijen, kaarten, tabellen, matrices en R/Python alsmede aangepaste visuals bieden geen ondersteuning voor samenvattingen. Enkele van deze visuals worden in de toekomst toegevoegd.
-   - Samenvatting wordt niet ondersteund voor visuals met kolommen die zijn gegroepeerd op andere kolommen en voor visuals die op basis van een gegevensgroepsveld zijn gebouwd. 
-   - Kruislings filteren van de visual wordt niet ondersteund.
-   - Het wijzigen van de naam van dynamische waarden of het bewerken van automatisch gegenereerde dynamische waarden wordt niet ondersteund.
-   - Samenvatting van visuals die berekeningen á la minute bevatten, zoals QnA-rekenkunde, percentages van het eindtotaal, enzovoort, wordt niet ondersteund.
+## <a name="limitations"></a>Beperkingen
+
+De functie Slim verhaal biedt geen ondersteuning voor de volgende functionaliteit:
+- Vastmaken aan een dashboard 
+- Het gebruik van dynamische waarden en voorwaardelijke opmaak (bijvoorbeeld een titel die aan gegevens is gebonden)
+- Azure Analysis Services, on-premises AS
+- KPI's, kaarten, kaarten met meerdere rijen, plattegronden, tabellen, matrices, R-visuals of Python-visuals, aangepaste visuals 
+- Samenvattingen van visuals met kolommen die zijn gegroepeerd op andere kolommen en van visuals die zijn samengesteld op basis van een gegevensgroepsveld 
+- Kruislings filteren buiten een visual
+- Het wijzigen van de naam van dynamische waarden of het bewerken van automatisch gegenereerde dynamische waarden
+- Samenvattingen van visuals met directe berekeningen, zoals rekenkundige QnA en percentage van het eindtotaal 
    
 

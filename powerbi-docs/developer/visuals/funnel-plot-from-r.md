@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 5df13baf295745f86c89ce75d2890ca2c13894ee
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747707"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049333"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Zelfstudie: Een trechtertekening bouwen van R-script naar R-visual
 In dit artikel wordt stap voor stap beschreven hoe u een trechtertekening bouwt met R-script in R visual.
@@ -49,7 +49,7 @@ Bewerk vervolgens het script om [dit script](https://github.com/microsoft/PowerB
 
 ## <a name="create-an-r-powered-visual-and-package-in-r-code"></a>Een R-visual en -pakket maken in R-code
 
-1. Voordat u begint, moet u [PBIVIZ-hulpprogramma’s](./custom-visual-develop-tutorial.md#installing-packages) installeren.
+1. Voordat u begint, moet u [PBIVIZ-hulpprogramma’s](./environment-setup.md#install-pbiviz) installeren.
 
 1. Voer de volgende opdracht uit om een nieuwe R-visual te maken:
 
@@ -274,7 +274,7 @@ Aangezien deze visual op PNG gebaseerd is, reageert het niet op muisaanwijzing, 
 
 * Elke R Visual past de operator `unique` toe op de invoertabel. Als u wilt voorkomen dat identieke rijen worden verwijderd, moet u overwegen een extra invoerveld met een unieke id toe te voegen en deze te negeren in de R-code.   
 
-* Als u een Power BI-account hebt, gebruikt u de Power BI-service om een visual [direct](./custom-visual-develop-tutorial.md) te ontwikkelen in plaats van ze opnieuw te verpakken met de opdracht `pbiviz package`.
+* Als u een Power BI-account hebt, gebruikt u de Power BI-service om een visual [direct](./develop-circle-card.md) te ontwikkelen in plaats van ze opnieuw te verpakken met de opdracht `pbiviz package`.
 
 ### <a name="html-widgets-gallery"></a>Galerie HTML-widgets
 Bekijk visuals in de galerie [HTML-widgets](http://gallery.htmlwidgets.org/) voor gebruik in uw volgende visual. Om het gemakkelijk te maken, hebben we een [projectopslagplaats](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML) met meer dan 20 interactieve HTML-visuals om uit te kiezen!
@@ -300,6 +300,6 @@ Bekijk visuals in de galerie [HTML-widgets](http://gallery.htmlwidgets.org/) voo
 
 ## <a name="next-steps"></a>Volgende stappen
 
-Zie voor meer informatie aanvullende zelfstudies over [Power BI-visuals](./custom-visual-develop-tutorial.md) en [R-visuals](../../visuals/service-r-visuals.md).
+Als u meer wilt weten, neemt u aanvullende zelfstudies over Power BI door, zoals [Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen](./develop-circle-card.md) en [R-visuals](../../visuals/service-r-visuals.md).
 
 Bekijk hoe u visuals kunt [ontwikkelen en verzenden](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/) naar de [Office Store (galerie)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI) of voor andere voorbeelden de showcase [R-script bekijken](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)

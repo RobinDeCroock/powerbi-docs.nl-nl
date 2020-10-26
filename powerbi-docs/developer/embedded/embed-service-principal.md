@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 05/12/2020
-ms.openlocfilehash: e9faa50cd7e2c4a1a51dfb4a72dda950cf3a396a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 6f6a13f239d1bcfa7731361f4efcd129da7e2031
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746787"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197726"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
 
@@ -54,8 +54,10 @@ Voer de volgende stappen uit om een service-principal en een toepassings-id met 
 ## <a name="step-1---create-an-azure-ad-app"></a>Stap 1: een Azure AD-app maken
 
 Maak een Azure AD-app met behulp van een van deze methoden:
+
 * De app maken in de [Microsoft Azure-portal](https://portal.azure.com/#allservices)
-* Maak de app met behulp van [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-3.6.1).
+
+* Maak de app met behulp van [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
 
 ### <a name="creating-an-azure-ad-app-in-the-microsoft-azure-portal"></a>Een Azure AD-app maken in de Microsoft Azure-portal
 
@@ -63,25 +65,25 @@ Maak een Azure AD-app met behulp van een van deze methoden:
 
 7. Klik op de tab **Certificaten en geheimen**.
 
-     ![Schermopname van het deelvenster Certificaten en geheimen voor een app in Azure Portal.](media/embed-service-principal/certificates-and-secrets.png)
+     ![Een schermopname van het deelvenster Certificaten en geheimen voor een app in de Azure-portal.](media/embed-service-principal/certificates-and-secrets.png)
 
 
 8. Klik op **Nieuw clientgeheim**
 
-    ![nieuw clientgeheim](media/embed-service-principal/new-client-secret.png)
+    ![Een schermopname van de knop Nieuw clientgeheim in het deelvenster Certificaten en geheimen.](media/embed-service-principal/new-client-secret.png)
 
 9. Voer in het venster *Een clientgeheim toevoegen* een beschrijving in, geef op wanneer u wilt dat het clientgeheim verloopt, en klik op **Toevoegen**.
 
 10. Kopieer de waarde van *Clientgeheim* en sla deze op.
 
-    ![waarde van clientgeheim](media/embed-service-principal/client-secret-value.png)
+    ![Een schermopname met een onleesbaar gemaakte geheime waarde in het deelvenster Certificaten en geheimen.](media/embed-service-principal/client-secret-value.png)
 
     >[!NOTE]
     >Wanneer u dit venster verlaat, wordt de waarde van het clientgeheim verborgen en kunt u deze niet meer weergeven of kopiëren.
 
 ### <a name="creating-an-azure-ad-app-using-powershell"></a>Een Azure AD-app maken met PowerShell
 
-Deze sectie bevat een voorbeeldscript voor het maken van een nieuwe Azure AD-app met [PowerShell](/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+Deze sectie bevat een voorbeeldscript voor het maken van een nieuwe Azure AD-app met [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
 
 ```powershell
 # The app ID - $app.appid
@@ -100,64 +102,7 @@ $sp = New-AzureADServicePrincipal -AppId $app.AppId
 # Get the service principal key
 $key = New-AzureADServicePrincipalPasswordCredential -ObjectId $sp.ObjectId
 ```
-
-## <a name="step-2---create-an-azure-ad-security-group"></a>Stap 2: een Azure AD-beveiligingsgroep maken
-
-De service-principal heeft geen toegang tot uw Power BI-inhoud en -API's. Om de service-principal toegang te geven, maakt u een beveiligingsgroep in Azure AD en voegt u de gemaakte service-principal toe aan die beveiligingsgroep.
-
-U kunt op twee manieren een Azure AD-beveiligingsgroep maken:
-* Handmatig (in Azure)
-* PowerShell gebruiken
-
-### <a name="create-a-security-group-manually"></a>Handmatig een beveiligingsgroep maken
-
-Als u handmatig een Azure-beveiligingsgroep wilt maken, volgt u de instructies in het artikel [Een basisgroep maken en leden toevoegen met Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal). 
-
-### <a name="create-a-security-group-using-powershell"></a>Een beveiligingsgroep maken met PowerShell
-
-Hieronder volgt een voorbeeldscript voor het maken van een nieuwe beveiligingsgroep en het toevoegen van een app aan die beveiligingsgroep.
-
->[!NOTE]
->Als u toegang tot service-principals wilt inschakelen voor de hele organisatie, slaat u deze stap over.
-
-```powershell
-# Required to sign in as admin
-Connect-AzureAD
-
-# Create an Azure AD security group
-$group = New-AzureADGroup -DisplayName <Group display name> -SecurityEnabled $true -MailEnabled $false -MailNickName notSet
-
-# Add the service principal to the group
-Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
-```
-
-## <a name="step-3---enable-the-power-bi-service-admin-settings"></a>Stap 3: de beheerdersinstellingen voor de Power BI-service inschakelen
-
-Voordat een Azure AD-app toegang kan krijgen tot de Power BI-inhoud en -API's, moet een Power BI-beheerder toegang tot de service-principal inschakelen in de Power BI-beheerportal.
-
-Voeg de beveiligingsgroep die u in Azure AD hebt gemaakt, toe aan de sectie Specifieke beveiligingsgroep in de **instellingen voor ontwikkelaars**.
-
->[!IMPORTANT]
->Service-principals hebben toegang tot alle tenantinstellingen waarvoor ze zijn ingeschakeld. Afhankelijk van uw beheerdersinstellingen bevat dit specifieke beveiligingsgroepen of de hele organisatie.
->
->Als u de toegang van de service-principal wilt beperken tot specifieke tenantinstellingen, staat u alleen toegang tot specifieke beveiligingsgroepen toe. U kunt ook een toegewezen beveiligingsgroep voor service-principals maken en deze uitsluiten van de gewenste tenantinstellingen.
-
-![Beheerportal](media/embed-service-principal/admin-portal.png)
-
-## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Stap 4: voeg de service-principal toe aan uw werkruimte
-
-Als u uw Azure AD-app toegang wilt verlenen tot artefacten zoals rapporten, dashboards en gegevenssets in de Power BI-service, voegt u de entiteit van de service-principal toe als lid of beheerder aan uw werkruimte.
-
->[!NOTE]
->Deze sectie bevat instructies voor de gebruikersinterface. U kunt ook een service-principal aan een werkruimte toevoegen met behulp van de [API Groups - Add Group User](/rest/api/power-bi/groups/addgroupuser) (Groepen - Groepsgebruiker toevoegen).
-
-1. Ga naar de werkruimte waarvoor u toegang wilt inschakelen, en selecteer in het menu **More** de optie **Workspace access**.
-
-    ![Instellingen voor werkruimte](media/embed-service-principal/workspace-access.png)
-
-2. Voeg de service-principal als een **Admin** (beheerder) of **Member** (lid) toe aan de werkruimte.
-
-    ![Werkruimtebeheerder](media/embed-service-principal/add-service-principal-in-the-UI.png)
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
 
 ## <a name="step-5---embed-your-content"></a>Stap 5: uw inhoud insluiten
 

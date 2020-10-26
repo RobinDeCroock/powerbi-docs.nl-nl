@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7439eff964340d3eba20b5d67d2aec992394505f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860090"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525496"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>AI-inzichten gebruiken in Power BI Desktop
 
@@ -199,13 +199,13 @@ Deze instructies voor het genereren van schema's door het bijwerken van het scri
 
 U kunt elk Azure ML-model aanroepen waar u toegang tot hebt. Dit kan rechtstreeks vanuit de Power Query-editor. Als u toegang wilt krijgen tot de Azure ML-modellen, selecteert u de knop **Azure Machine Learning** op het lint **Startpagina** of **Kolom toevoegen** in de Power Query-editor.
 
-![Azure Machine Learning](media/desktop-ai-insights/ai-insights-06.png)
+![Schermopname met de knop Azure Machine Learning in de editor van Power Query.](media/desktop-ai-insights/ai-insights-06.png)
 
 Alle Azure ML-modellen waar u toegang tot hebt, worden hier vermeld als Power Query-functies. De invoerparameters voor het Azure ML-model worden automatisch toegewezen als parameters van de bijbehorende Power Query-functie.
 
 Als u een Azure ML-model wilt aanroepen, kunt u vanuit het vervolgkeuzemenu een van de geselecteerde kolommen van de entiteit als invoer opgeven. U kunt ook een constante waarde opgeven die als invoer wordt gebruikt door het kolompictogram aan de linkerzijde van de het invoerdialoogvenster in te schakelen.
 
-![Azure Machine Learning](media/desktop-ai-insights/ai-insights-07.png)
+![Schermopname met de Azure Machine Learning-modellen die u kunt selecteren.](media/desktop-ai-insights/ai-insights-07.png)
 
 Selecteer **OK** om een voorbeeld van de uitvoer van het Azure ML-model weer te geven als een nieuwe kolom in de entiteitstabel. U ziet de aanroep aan het model ook als een toegepaste stap voor de query.
 

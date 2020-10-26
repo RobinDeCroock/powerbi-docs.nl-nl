@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747523"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049287"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Mobiel-vriendelijke Power BI-visuals maken
 Het mobiele verbruik speelt een belangrijke rol in Power BI. Een van de sterke punten is dat het altijd en overal verbinding houdt met uw gegevens.
@@ -79,4 +79,4 @@ De Power BI-visual moet worden weergegeven op alle apparaten die Power BI-apps o
 Bij het testen op de nieuwste modellen van Windows-, iOS-en Android-apparaten moet de ontwikkelaar over de meeste van deze kwaliteitsaspecten nadenken.
 
 ## <a name="next-steps"></a>Volgende stappen
-Als u aan de slag wilt gaan, raadpleegt u [Zelfstudie: Een Power BI-visual ontwikkelen](./custom-visual-develop-tutorial.md).
+Zie [Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen](./develop-circle-card.md) om aan de slag te gaan.

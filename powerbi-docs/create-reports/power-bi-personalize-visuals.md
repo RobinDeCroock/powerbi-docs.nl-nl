@@ -6,27 +6,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/25/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160481"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256810"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Gebruikers de mogelijkheid geven om visuals in een rapport aan te passen
 
 [!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Wanneer u een rapport met een breed publiek deelt, willen sommige van uw gebruikers mogelijk enigszins verschillende weergaven van bepaalde visuals zien. Misschien willen ze elementen op de as omwisselen, het type visual wijzigen of iets toevoegen aan de knopinfo. Het is moeilijk om één visual te maken die voldoet aan de vereisten van iedereen. Met deze nieuwe functionaliteit kunt u uw gebruikers machtigen om visuals te verkennen en aan te passen, en dit allemaal in de leesweergave voor rapporten. Ze kunnen de visuals op elke gewenste manier aanpassen, en deze opslaan als bladwijzer om ernaar terug te gaan. Ze hoeven geen bewerkingsmachtiging voor het rapport te hebben of contact op te nemen met de auteur van het rapport om een wijziging aan te brengen.
+Wanneer u een rapport met een breed publiek deelt, willen sommige van uw gebruikers mogelijk enigszins verschillende weergaven van bepaalde visuals zien. Misschien willen ze elementen op de as omwisselen, het type visual wijzigen of iets toevoegen aan de knopinfo. Het is moeilijk om één visual te maken die voldoet aan de vereisten van iedereen. Met deze nieuwe functionaliteit kunt u uw zakelijke gebruikers machtigen om visuals te verkennen en aan te passen, en dit allemaal in de leesweergave voor rapporten. Ze kunnen de visuals op elke gewenste manier aanpassen, en deze opslaan als bladwijzer om ernaar terug te gaan. Ze hoeven geen bewerkingsmachtiging voor het rapport te hebben of contact op te nemen met de auteur van het rapport om een wijziging aan te brengen.
 
 :::image type="content" source="media/power-bi-personalize-visuals/power-bi-personalize-visual.png" alt-text="Een visual aanpassen":::
  
-## <a name="what-report-consumers-can-change"></a>Welk rapport kunnen gebruikers wijzigen
+## <a name="what-report-users-can-change"></a>Welk rapport kunnen gebruikers wijzigen
 
-Met deze functie kunnen gebruikers meer inzichten in een Power BI-rapport krijgen door middel van een ad-hoconderzoek van visuals. Zie [Visuals aanpassen in uw rapporten](../consumer/end-user-personalize-visuals.md) voor meer informatie over het gebruik van deze functie als gebruiker. De functie is ideaal voor makers van rapporten die voor de lezers van hun rapporten basisscenario's voor onderzoek mogelijk willen maken. Dit zijn de wijzigingen die lezers van rapporten kunnen aanbrengen:
+Met deze functie kunnen zakelijke gebruikers meer inzichten in een Power BI-rapport krijgen door middel van een ad-hoconderzoek van visuals. Zie [Visuals aanpassen in uw rapporten](../consumer/end-user-personalize-visuals.md) voor meer informatie over het gebruik van deze functie als gebruiker. De functie is ideaal voor makers van rapporten die voor de lezers van hun rapporten basisscenario's voor onderzoek mogelijk willen maken. Dit zijn de wijzigingen die lezers van rapporten kunnen aanbrengen:
 
 - Het type visualisatie wijzigen
 - Een meting of afmeting uitwisselen
@@ -34,7 +34,7 @@ Met deze functie kunnen gebruikers meer inzichten in een Power BI-rapport krijge
 - Twee of meer metingen vergelijken
 - Aggregaties enzovoort wijzigen
 
-Deze functie biedt niet alleen de mogelijkheid om nieuwe functies te verkennen. Deze omvat ook manieren waarop gebruikers hun wijzigingen kunnen vastleggen en delen:
+Deze functie biedt niet alleen de mogelijkheid om nieuwe functies te verkennen. Gebruikers krijgen ook de beschikking over manieren om hun wijzigingen vast te leggen en te delen:
 
 - Hun wijzigingen vastleggen
 - Hun wijzigingen delen
@@ -94,63 +94,56 @@ Zodra u het Perspectief hebt ingesteld voor de rapportpagina, wordt de ervaring 
 
 ![‘Toepassen op alle pagina's’ selecteren om het perspectief op het hele rapport toe te passen](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
 
-
-## <a name="turn-on-the-preview-feature"></a>De preview-functie inschakelen
-
-Omdat deze functie in preview is, moet u eerst de functieswitch inschakelen. Ga naar **Bestand** > **Opties en instellingen** > **Opties**. Controleer of onder **Globale** instellingen > **Preview-functies** **Visuals aanpassen** is geselecteerd.
-
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-preview-personalize-visual.png" alt-text="Visuals aanpassen inschakelen":::
-
-Mogelijk moet u Power BI Desktop opnieuw opstarten om deze configuratie weer te geven in de instellingen voor het huidige bestand.
-
 ## <a name="enable-personalization-in-a-report"></a>Aanpassing inschakelen in een rapport
-
-Nadat u de previewswitch hebt ingeschakeld, moet u deze specifiek inschakelen voor de rapporten waarvoor u wilt dat gebruikers visuals kunnen aanpassen.
 
 U kunt deze functie inschakelen in Power BI Desktop en in de Power BI-service.
 
 ### <a name="in-power-bi-desktop"></a>In Power BI Desktop
 
-Als u de functie in Power BI Desktop wilt inschakelen, gaat u naar **Bestand** > **Opties en instellingen** > **Opties**  > **Huidige bestand**  > **Rapportinstellingen**. Zorg ervoor **Visuals aanpassen (preview)** is ingeschakeld.
+Als u de functie in Power BI Desktop wilt inschakelen, gaat u naar **Bestand** > **Opties en instellingen** > **Opties**  > **Huidige bestand**  > **Rapportinstellingen**. Zorg ervoor dat het selectievakje onder **Visuals personaliseren** is ingeschakeld.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-settings-personalize-visual.png" alt-text="Aanpassing inschakelen in een rapport":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Een visual aanpassen":::
 
 ### <a name="in-the-power-bi-service"></a>In de Power BI-service
 
 Als u in plaats daarvan de functie wilt inschakelen in de Power BI-service, gaat u naar **Instellingen** voor uw rapport.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Rapportinstellingen in de Power BI-service":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Een visual aanpassen":::
 
-Schakel **Visuals aanpassen (preview)**  > **Opslaan** in.
+Schakel de optie onder **Visuals personaliseren** in > **Opslaan**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-personalize-visual.png" alt-text="Visuals aanpassen inschakelen in de service":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Een visual aanpassen":::
 
-## <a name="select-visuals-that-can-be-personalized"></a>Visuals selecteren die kunnen worden aangepast
+## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>De functie in-of uitschakelen op pagina- of visualniveau
 
-Wanneer u deze instelling inschakelt voor een bepaald rapport, kunnen standaard alle visuals in dat rapport worden aangepast. Als u niet wilt dat alle visuals worden aangepast, kunt u de instelling per visual in- of uitschakelen.
+Wanneer u het personaliseren van visuals inschakelt voor een bepaald rapport, kunnen standaard alle visuals in dat rapport worden aangepast. Als u dat niet wilt, kunt u de instelling per pagina of per visual in- of uitschakelen.
 
-Selecteer de visual > selecteer **Indeling** in het deelvenster **Visualisaties** > vouw **Visuele koptekst** uit.
+### <a name="per-page"></a>Per pagina
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Visuele koptekst selecteren":::
+Selecteer het tabblad Pagina > selecteer **Indeling** in het deelvenster **Visualisaties**.
+
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Een visual aanpassen":::
  
 Zet de schuifregelaar **Visual aanpassen** >  **Aan** of **Uit**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="De schuifregelaar van Visual aanpassen aan- of uitzetten":::
+### <a name="per-visual"></a>Per visual
+
+Selecteer de visual > selecteer **Indeling** in het deelvenster **Visualisaties** > vouw **Visuele koptekst** uit.
+
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Een visual aanpassen":::
+ 
+Zet de schuifregelaar **Visual aanpassen** >  **Aan** of **Uit**.
+
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Een visual aanpassen":::
 
 
-## <a name="limitations-and-known-issues"></a>Beperkingen en bekende problemen
+## <a name="limitations"></a>Beperkingen
 
 Op dit moment heeft de functie enkele beperkingen waarmee u rekening moet houden.
 
-- Deze functie wordt niet ondersteund voor insluitingsscenario's, waaronder Publiceren op internet.
+- Deze functie wordt niet ondersteund voor publiceren op internet.
 - Onderzoekingen van gebruikers blijven niet automatisch behouden. U moet uw weergave opslaan als een persoonlijke bladwijzer om uw wijzigingen vast te leggen.
 - Deze functie wordt ondersteund in de mobiele apps van Power BI Mobile voor iOS en Android-tablets en in de Power BI Windows-app. Het wordt niet ondersteund in de Power BI Mobile Apps voor telefoons. Wijzigingen in de visual die u in de Power BI-service in een persoonlijke bladwijzer opslaat, worden echter in alle mobiele Power BI-apps aangehouden.
-
-Er zijn ook enkele bekende problemen die kunnen worden opgelost:
-
-- Het toevoegen van een hiërarchie wordt niet ondersteund; u moet de afzonderlijke onderliggende items toevoegen.
-- U kunt een datumhiërarchie niet wijzigen in een datum of vice versa. 
-- Met persoonlijke bladwijzers krijgt u mogelijk resultaten die enigszins verschillen op basis van de reeks die u selecteert. Discrepanties zijn mogelijk omdat de volledige status van het rapport niet is vastgelegd, maar alleen de wijzigingen die zijn aangebracht. De tijdelijke oplossing is om **Standaardinstelling herstellen** te selecteren en vervolgens de bladwijzer te selecteren die u wilt weergeven. 
 
 ## <a name="next-steps"></a>Volgende stappen
 

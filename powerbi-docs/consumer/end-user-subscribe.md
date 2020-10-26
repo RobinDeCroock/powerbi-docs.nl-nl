@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 10/06/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: aa8277a8d0ddea43aff356ced32c9edad8710c93
-ms.sourcegitcommit: a4e06e401abc67dffab52f34e268467def42a97e
+ms.openlocfilehash: e6ab41b7a9330ff1c99bb0dcc963608485cc3f94
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "86875044"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830584"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -27,13 +27,13 @@ Het is nog nooit zo eenvoudig geweest om op de hoogte blijven van uw belangrijks
 
 De e-mail en momentopname gebruiken de taal die is ingesteld in de instellingen van Power BI (zie [Ondersteunde talen en landen/regio's voor Power BI](../fundamentals/supported-languages-countries-regions.md)). Als er geen taal is gedefinieerd, valt Power BI Engels terug op Engels. Als u uw voorkeurstaal wilt bekijken of instellen, selecteert u het tandwielpictogram ![Tandwielpictogram](./media/end-user-subscribe/power-bi-settings-icon.png) > **Instellingen > Algemeen > Taal**. 
 
-![Vervolgkeuzelijst Taal](./media/end-user-subscribe/power-bi-language.png)
+![Vervolgkeuzelijst Taal](./media/end-user-subscribe/power-bi-languages.png)
 
 Wanneer u de e-mail ontvangt, bevat deze een koppeling om naar het rapport of dashboard te gaan. Wanneer deze koppeling wordt geselecteerd op een mobiel apparaat waarop Power BI-apps zijn geïnstalleerd, wordt de app in plaats van het rapport of het dashboard op de website van Power BI (standaardacties) geopend.
 
 
 ## <a name="requirements"></a>Vereisten
-Om een abonnement voor uzelf te **maken**, hebt u een bepaalde [licentie](end-user-license.md) nodig. Als u geen abonnement kunt maken, neemt u contact op met uw Power BI-beheerder. **Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard of rapport. Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md) voor meer informatie. 
+Om een abonnement voor uzelf te **maken**, hebt u een bepaalde [licentie](end-user-license.md) nodig. Als u geen abonnement kunt maken, neemt u contact op met uw Power BI-beheerder of de helpdesk. **Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard of rapport. Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md) voor meer informatie. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonneren op een dashboard of een rapportpagina
 Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
@@ -41,7 +41,8 @@ Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. 
 ![Pictogram Abonneren selecteren](./media/end-user-subscribe/power-bi-subscribe.png).
 
 1. Open het dashboard of het rapport.
-2. Selecteer in de bovenste menubalk **Abonneren** of selecteer het enveloppictogram ![pictogram Abonneren](./media/end-user-subscribe/power-bi-icon-envelope.png).
+2. Selecteer in de bovenste menubalk **Abonneren** of selecteer het enveloppictogram ![pictogram Abonneren](./media/end-user-subscribe/power-bi-icon-envelope.png).    
+1. Selecteer **Nieuw abonnement toevoegen**.
    
 
 
@@ -65,7 +66,7 @@ Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. 
 
 3. Selecteer **Opslaan en sluiten** om het abonnement op te slaan als alles er goed uitziet. U ontvangt een e-mailbericht en een momentopname van het dashboard of rapport volgens de planning die u instelt. Voor alle abonnementen waarbij de frequentie is ingesteld op **Nadat gegevens zijn vernieuwd**, wordt alleen een e-mailbericht verzonden na de eerste geplande vernieuwing op die dag.
    
-   ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-email-old.png)
+   ![E-mail met momentopname van dashboard](media/end-user-subscribe/power-bi-subscription-email.png)
    
     Als u de rapportpagina vernieuwt, wordt de gegevensset niet vernieuwd. Alleen de eigenaar van een gegevensset kan de gegevensset vernieuwen. Als u de naam van de eigenaar van de onderliggende gegevensset(s) wilt opzoeken, selecteert u de vervolgkeuzelijst in de menubalk of zoekt u de oorspronkelijke abonnements-e-mail op.
    
@@ -73,7 +74,7 @@ Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. 
 
 
 ## <a name="manage-your-subscriptions"></a>Uw abonnementen beheren
-U kunt alleen de abonnementen beheren die u zelf maakt. Selecteer **Abonneren** opnieuw en kies **Alle abonnementen beheren** in de linkerbenedenhoek (zie schermafbeeldingen hierboven). Welke abonnementen worden weergegeven, is afhankelijk van de werkruimte die op dat moment actief is. Als u alle abonnementen voor alle werkruimten allemaal in één keer wilt weergeven, moet u ervoor zorgen dat **Mijn werkruimte** actief is. Zie [Werkruimten in Power BI](end-user-workspaces.md) voor meer informatie over werkruimten. 
+U kunt alleen de abonnementen beheren die u zelf maakt. Selecteer **Abonneren** opnieuw en kies **Alle abonnementen beheren** in de linkerbenedenhoek (zie schermafbeeldingen hierboven). De abonnementen voor de huidige werkruimte worden weergegeven. Zie [Werkruimten in Power BI](end-user-workspaces.md) voor meer informatie over werkruimten. 
 
 ![Alle abonnementen in mijn werkruimte weergeven](./media/end-user-subscribe/power-bi-manage-subscriptions.png)
 
@@ -86,14 +87,13 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard o
 * Als de koppelingen in uw e-mailbericht (naar de inhoud) niet meer werken, is er mogelijk inhoud verwijderd. U kunt in het e-mailbericht onder de schermopname zien of u zich hebt geabonneerd of dat iemand anders u heeft geabonneerd. Als iemand anders dit heeft gedaan, vraagt u deze medewerker om de e-mailberichten te annuleren of u opnieuw te abonneren.
 * Voor dashboardabonnementen worden bepaalde soorten tegels nog niet ondersteund. Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud. 
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en de naam ervan wordt gewijzigd, moet u uw abonnement opnieuw maken.
-* Als u de abonnementsfunctie niet kunt gebruiken, moet u contact opnemen met uw systeembeheerder. Deze functie is mogelijk uitgeschakeld door uw organisatie.  
+* Als u de abonnementsfunctie niet kunt gebruiken, neemt u contact op met de systeembeheerder of helpdesk. Deze functie is mogelijk uitgeschakeld door uw organisatie.  
 * E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md).  De uitzondering hierop vormen de aangepaste Power BI-visuals die zijn [gecertificeerd](../developer/visuals/power-bi-custom-visuals-certified.md).    
 * E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht. Gepagineerde rapporten ondersteunen deze mogelijkheid wel en bieden de mogelijkheid om de specifieke parameterwaarden te configureren per abonnement.  
 * E-mailabonnementen bieden op dit moment geen ondersteuning voor de Power BI-visuals.  
-* Voor dashboardabonnementen geldt dat bepaalde soorten tegels nog niet worden ondersteund.  Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud.     
 * Mogelijk kunt u zich vanwege de maximale e-mailgrootte niet abonneren op dashboards of rapporten met extreem grote afbeeldingen.    
 * Wanneer dashboards of rapporten langer dan twee maanden niet worden bezocht, wordt de vernieuwing van de bijbehorende gegevenssets automatisch door Power BI onderbroken.  Als u echter een abonnement aan een dashboard of rapport toevoegt, wordt het dashboard of rapport niet onderbroken, ook niet als het niet wordt bezocht.
-* Onthoud dat net als bij andere BI-producten, de tijd waarop u uw abonnement instelt, de tijd is waarop de verwerking van het abonnement begint.  Als de verwerking van het rapport is voltooid, wordt het abonnement in de wachtrij geplaatst en naar de ontvangers van het e-mailbericht verzonden.  Hoewel we ernaar om alle abonnementen zo snel mogelijk te verwerken en te leveren, zijn er piekmomenten waardoor het mogelijk is dat u langer moet wachten als gevolg van het aantal abonnementen dat tegelijk kan worden verzonden.  Voor de meeste klanten zal de vertraging bij het verwerken en verzenden van hun rapporten niet meer bedragen dan 15 minuten, maar het kan op bepaalde momenten en voor bepaalde tenants met een aanzienlijk gebruik maximaal 30 minuten duren.  De verwachting is dat de levering nooit met een vertraging van meer dan 60 minuten te maken krijgt vanaf het moment dat het abonnement wordt gepland.  Als uw klanten een vertraging van deze duur ondervinden, moeten ze eerst controleren of het adres no-reply-powerbi@microsoft.com op uw lijst met veilige verzenders staat en niet wordt geblokkeerd door uw e-mailprovider.  Als het e-mail bericht niet wordt geblokkeerd, moeten ze contact opnemen met Power BI-ondersteuning voor hulp.
+* Onthoud dat net als bij andere BI-producten, de tijd waarop u uw abonnement instelt, de tijd is waarop de verwerking van het abonnement begint.  Als de verwerking van het rapport is voltooid, wordt het abonnement in de wachtrij geplaatst en naar de ontvangers van het e-mailbericht verzonden.  Hoewel we ernaar om alle abonnementen zo snel mogelijk te verwerken en te leveren, zijn er piekmomenten waardoor het mogelijk is dat u langer moet wachten als gevolg van het aantal abonnementen dat tegelijk kan worden verzonden.  Voor de meeste klanten zal de vertraging bij het verwerken en verzenden van hun rapporten niet meer bedragen dan 15 minuten, maar het kan op bepaalde momenten en voor bepaalde tenants met een aanzienlijk gebruik maximaal 30 minuten duren.  De verwachting is dat de levering nooit met een vertraging van meer dan 60 minuten te maken krijgt vanaf het moment dat het abonnement wordt gepland.  Als uw klanten een vertraging van deze duur ondervinden, moeten ze eerst controleren of het adres no-reply-powerbi@microsoft.com op uw lijst met veilige verzenders staat en niet wordt geblokkeerd door uw e-mailprovider.  Als het e-mail bericht niet wordt geblokkeerd, moeten ze contact opnemen met hun Power BI-beheerder of helpdesk voor hulp.
 
 ## <a name="next-steps"></a>Volgende stappen
 

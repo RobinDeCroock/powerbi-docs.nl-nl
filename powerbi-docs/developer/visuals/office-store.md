@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/14/2020
-ms.openlocfilehash: 891f4d57e1c2754f4c98916b2824ef2283d8298a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 55661d8faa39d26d19d15696252cf46b74c84a50
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747960"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049425"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI-visuals publiceren in het Partnercentrum
 
-Als u een Power BI-visual hebt gemaakt, wilt u deze wellicht publiceren in AppSource zodat andere personen deze kunnen vinden en gebruiken. Raadpleeg [Een Power BI-visual ontwikkelen](custom-visual-develop-tutorial.md) voor meer informatie over het maken van een Power BI-visual.
+Als u een Power BI-visual hebt gemaakt, wilt u deze wellicht publiceren in AppSource zodat andere personen deze kunnen vinden en gebruiken. Raadpleeg [Een visual van een cirkelkaart ontwikkelen in Power BI](develop-circle-card.md) voor meer informatie over het maken van een Power BI-visual.
 
 ## <a name="what-is-appsource"></a>Wat is AppSource?
 
@@ -119,7 +119,7 @@ Nadat de visual is gemaakt, kunt u deze desgewenst laten [certificeren](power-bi
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Een aangepaste visual voor Power BI ontwikkelen](custom-visual-develop-tutorial.md)
+* [Een visual met cirkelkaart voor Power BI ontwikkelen](develop-circle-card.md)
 
 * [Visualisaties in Power BI](../../visuals/power-bi-report-visualizations.md)  
 

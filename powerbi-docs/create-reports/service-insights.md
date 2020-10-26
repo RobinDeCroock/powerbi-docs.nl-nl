@@ -1,5 +1,5 @@
 ---
-title: Automatisch gegevensinzichten genereren met Power BI
+title: Automatisch inzichten genereren voor een gegevensset
 description: Meer informatie over het verkrijgen van inzicht in uw gegevenssets en dashboardtegels.
 author: maggiesMSFT
 ms.reviewer: ''
@@ -8,29 +8,29 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 08/06/2019
+ms.date: 09/28/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5523c08b81a129bab70f1c087e8895dedf83621f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221087"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524461"
 ---
-# <a name="generate-data-insights-automatically-with-power-bi"></a>Automatisch gegevensinzichten genereren met Power BI
-Hebt u een nieuwe gegevensset en weet u niet precies waar u moet beginnen?  Moet u snel een dashboard bouwen?  Wilt u snel inzichten zoeken die u hebt gemist?
+# <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>Automatisch inzichten genereren voor een gegevensset met Power BI
+Hebt u een nieuwe gegevensset en weet u niet waar u moet beginnen?  Moet u snel een dashboard bouwen?  Wilt u snel inzichten zoeken die u hebt gemist?
 
-Voer Snelle inzichten uit om interessante interactieve visualisaties op basis van uw gegevens te genereren. Snelle inzichten kan worden uitgevoerd op een volledige gegevensset (Snelle inzichten) of op een specifieke dashboardtegel (Scoped inzichten). U kunt inzichten zelfs uitvoeren op een inzicht.
+Voer snelle inzichten uit om interessante visualisaties op basis van uw gegevens te genereren. In dit artikel wordt uitgelegd hoe u snelle inzichten kunt uitvoeren op een volledige gegevensset (snelle inzichten). U kunt ook [snelle inzichten uitvoeren op een specifieke dashboardtegel](../consumer/end-user-insights.md) (inzichten voor een bepaald bereik). U kunt inzichten zelfs uitvoeren op een inzicht.
 
 > [!NOTE]
 > Inzichten werken niet met DirectQuery, maar alleen met gegevens die zijn geüpload naar Power BI.
 > 
 
-De functie voor inzichten is gebouwd op een groeiende [set geavanceerde analytische algoritmen](../consumer/end-user-insight-types.md) die zijn ontwikkeld samen met Microsoft Research. We blijven Microsoft Research gebruiken om ervoor te zorgen dat meer mensen op nieuwe en intuïtieve manieren inzichten in hun gegevens kunnen vinden.
+We hebben de Insights-functie gebaseerd op een groeiende [set geavanceerde analytische algoritmes](../consumer/end-user-insight-types.md) die we hebben ontwikkeld met Microsoft Research. We blijven deze algoritmes gebruiken om ervoor te zorgen dat meer mensen inzicht krijgen in hun gegevens, op nieuwe en intuïtieve manieren. U wilt misschien ook weten hoe u [uw gegevens optimaliseert voor snelle inzichten](service-insights-optimize.md).
 
 ## <a name="run-quick-insights-on-a-dataset"></a>Snelle inzichten uitvoeren op een gegevensset
-Kijk hoe Amanda snelle inzichten uitvoert op een gegevensset, een inzicht opent in de focusmodus, een van de inzichten vastmaakt aan haar dashboard en vervolgens inzichten verkrijgt voor haar dashboardtegel.
+Kijk hoe Amanda snelle inzichten uitvoert op een gegevensset en een inzicht opent in de focusmodus. Amanda maakt een inzicht als een tegel vast aan het dashboard en haalt vervolgens inzichten op voor een dashboardtegel.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/et_MLSL2sA8" frameborder="0" allowfullscreen></iframe>
 
@@ -71,28 +71,18 @@ Nu is het uw beurt. Verken inzichten door gebruik te maken van het [voorbeeld Kw
    * De visualisaties filteren. Als het deelvenster **Filters** nog niet is geopend, vouwt u het uit door de pijl aan de rechterkant van het venster te selecteren.
 
        ![Het menu Filters van het inzichtscherm uitgevouwen](media/service-insights/power-bi-insights-filter-new.png)
-   * Maak de kaart met inzichten vast aan een dashboard door **Visual vastmaken** te selecteren.
+   * Maak de inzichtenkaart vast op een dashboard door **Visual vastmaken** te selecteren.
    * Voer inzichten uit op de kaart zelf. Dit wordt vaak aangeduid als *scoped inzichten*. Selecteer in de rechterbovenhoek het gloeilamppictogram ![het pictogram Inzichten verkrijgen](media/service-insights/power-bi-bulb-icon.png) of selecteer **Inzichten verkrijgen**.
      
        ![Het pictogram Inzichten verkrijgen](media/service-insights/pbi-autoinsights-tile.png)
      
-     Het inzicht wordt aan de linkerkant weergegeven en de nieuwe kaarten, die uitsluitend zijn gebaseerd op dit ene inzicht, worden aan de rechterkant weergegeven.
+     Het inzicht wordt aan de linkerkant weergegeven. Nieuwe kaarten, die uitsluitend zijn gebaseerd op de gegevens in dat ene inzicht, worden aan de rechterkant weergegeven.
      
        ![Inzicht in inzichten](media/service-insights/power-bi-insights-on-insights-new.png)
 4. Selecteer in de linkerbovenhoek **Focusmodus sluiten** om terug te keren naar het oorspronkelijk canvas inzichten.
-
-## <a name="run-insights-on-a-dashboard-tile"></a>Inzichten uitvoeren op een dashboardtegel
-In plaats van inzichten te zoeken in een complete gegevensset, kunt u uw zoekopdracht beperken tot de gegevens die zijn gebruikt om een enkele dashboardtegel te maken. 
-
-1. Open een dashboard.
-2. Beweeg de muisaanwijzer over een tegel. selecteer **Meer opties** (...) en kies vervolgens **Inzichten weergeven**. De tegel wordt geopend in de [focusmodus](../consumer/end-user-focus.md) met de kaarten voor inzichten weergegeven aan de rechterkant.    
-   
-    ![Focusmodus](media/service-insights/pbi-insights-tile.png)    
-3. Wekt een bepaald inzicht uw interesse? Selecteer deze kaart om dieper te graven. Het geselecteerde inzicht wordt aan de linkerkant weergegeven en de nieuwe kaarten met inzichten, die uitsluitend zijn gebaseerd op dit ene inzicht, worden aan de rechterkant weergegeven.    
-4. Blijf in uw gegevens spitten, en wanneer u een interessant inzicht hebt gevonden, kunt u dit vastmaken aan uw dashboard door in de rechterbovenhoek **Visueel element vastmaken** te selecteren.
 
 ## <a name="next-steps"></a>Volgende stappen
 - Als u de eigenaar van een gegevensset bent, kunt u deze [optimaliseren voor Snelle inzichten](service-insights-optimize.md).
 - Meer informatie over de [typen Snelle inzichten die beschikbaar zijn](../consumer/end-user-insight-types.md).
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/).

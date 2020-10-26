@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a840a549e5dee79406ddfb2a07877895ce7b6c0f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 859fb6156af38fc5333e9c94281255369d9ee413
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83335552"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256961"
 ---
 # <a name="work-with-report-view-in-power-bi-desktop"></a>Werken met de rapportweergave in Power BI Desktop
 
@@ -26,9 +26,9 @@ Het verschil is dat u in Power BI Desktop met uw query's kunt werken en gegevens
 
 ## <a name="lets-take-a-look"></a>Laten we dit eens bekijken.
 
-Wanneer u de eerste keer uw gegevens in Power BI Desktop laadt, ziet u de rapportweergave met een leeg canvas.
+Wanneer u de eerste keer gegevens in Power BI Desktop laadt, ziet u de rapportweergave met een leeg canvas, met koppelingen om u te helpen bij het toevoegen van gegevens aan het rapport.
 
-![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/report-view-blank-canvas.png)
 
 U kunt schakelen tussen de **rapportweergave**, **gegevensweergave** en **relatieweergave** door de pictogrammen in het navigatiedeelvenster aan de linkerkant te selecteren:
 

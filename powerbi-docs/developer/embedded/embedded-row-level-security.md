@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 09489c3dbb33e1c5fb289cc1cc132eae0083a95f
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748903"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981730"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -195,7 +195,7 @@ Als u de REST API aanroept, kunt u binnen elke identiteit aangepaste gegevens to
 
 Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Embedded-toepassing.
 
-1. Maak een Azure Analysis Services-database. Meld u vervolgens aan bij uw Azure Analysis Services-server via [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017).
+1. Maak een Azure Analysis Services-database. Meld u vervolgens aan bij uw Azure Analysis Services-server via [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms).
 
     ![Een Azure Analysis Services-database maken](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -217,7 +217,7 @@ Dit zijn de stappen om de functie CustomData() in te stellen met uw Power BI Emb
 
     ![Rol maken - Rijfilters instellen](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
-6. Maak een PBI-rapport en publiceer dit in een werkruimte met toegewezen capaciteit.
+6. Maak een PBI-rapport en publiceer dit in een werkruimte met capaciteit.
 
     ![PBI-rapportvoorbeeld](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
@@ -261,7 +261,7 @@ Het kan worden gebruikt om de weergave van elke gebruiker in Azure SQL te behere
 
 Dergelijke problemen met effectieve identiteit zijn rechtstreeks van toepassing op RLS-regels in de Azure SQL Server. Power BI Embedded maakt gebruikt van het opgegeven toegangstoken wanneer het query's uitvoert op gegevens uit de Azure SQL Server. De UPN van de gebruiker (voor wie de toegangstoken is opgegeven) is toegankelijk als gevolg van de functie USER_NAME() SQL.
 
-De identiteit op basis van tokens werk allen voor DirectQuery-modellen in een toegewezen capaciteit, verbonden met een Azure SQL Database die is geconfigureerd voor AAD-verificatie ([meer informatie over AAD-verificatie voor Azure SQL Database](/azure/sql-database/sql-database-manage-logins)). Als u een identiteit op basis van tokens wilt gebruiken, moet de gegevensbron van de gegevensset zo zijn geconfigureerd dat de OAuth2-referenties van de gebruikers worden gebruikt.
+De identiteit op basis van tokens werk allen voor DirectQuery-modellen in een capaciteit, verbonden met een Azure SQL Database die is geconfigureerd voor AAD-verificatie ([meer informatie over AAD-verificatie voor Azure SQL Database](/azure/sql-database/sql-database-manage-logins)). Als u een identiteit op basis van tokens wilt gebruiken, moet de gegevensbron van de gegevensset zo zijn geconfigureerd dat de OAuth2-referenties van de gebruikers worden gebruikt.
 
    ![Azure SQL-server configureren](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -342,7 +342,7 @@ U kunt deze machtiging niet instellen via de beheerportal. Deze machtiging kan a
 
 ### <a name="token-based-identity-limitations"></a>Beperkingen van identiteit op basis van tokens
 
-* U kunt alleen beveiliging op rijniveau gebruiken als u over een toegewezen capaciteit beschikt.
+* U kunt alleen beveiliging op rijniveau gebruiken als u over een capaciteit beschikt.
 * RLS werkt niet met on-premises SQL Server.
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

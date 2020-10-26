@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db5c8b77851ccd35c5f8ccddf5e6587eb1383518
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b3250124fa813f3da96e63455d483cf05f01cb6
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223036"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598843"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>De SAP Business Warehouse-connector in Power BI Desktop gebruiken
 
@@ -147,19 +147,19 @@ Bestaande rapporten kunnen alleen worden gewijzigd voor het gebruik van Implemen
 
     Bepaal of de query al een optierecord bevat, zoals in het volgende voorbeeld:
 
-    ![querycodefragment](media/desktop-sap-bw-connector/sap_bw_9.png)
+    ![Schermopname met een query in leesbare tekst met een optierecord.](media/desktop-sap-bw-connector/sap_bw_9.png)
 
     Als dit het geval is, voegt u de optie `Implementation` 2.0 toe en verwijdert u de optie `ScaleMeasures`, indien aanwezig, zoals wordt weergegeven:
 
-    ![querycodefragment](media/desktop-sap-bw-connector/sap_bw_10.png)
+    ![Schermopname met een query in leesbare tekst met de toegevoegde waarde Implementation = 2.0.](media/desktop-sap-bw-connector/sap_bw_10.png)
 
     Als de query nog geen optierecord bevat, voegt u het toe. Voor de volgende optie:
 
-    ![querycodefragment](media/desktop-sap-bw-connector/sap_bw_11.png)
+    ![Schermopname met een query in leesbare tekst met een toegevoegde optierecord.](media/desktop-sap-bw-connector/sap_bw_11.png)
 
     Verandert u dit in:
 
-    ![querycodefragment](media/desktop-sap-bw-connector/sap_bw_12.png)
+    ![Schermafbeelding met een query in leesbare tekst van de nieuwe optie met de toegevoegde waarde Implementation = 2.0.](media/desktop-sap-bw-connector/sap_bw_12.png)
 
 Er is alles aan gedaan om Implementation 2.0 van de SAP BW-connector compatibel te maken met versie 1. Er kunnen echter verschillen zijn doordat er verschillende SAP BW MDX-uitvoeringsmodi worden gebruikt. U kunt eventuele verschillen verhelpen door een andere uitvoeringsmodus te selecteren.
 

@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 10/5/2020
+ms.date: 10/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0b6ccdf2e5caad141ef0c33ae70b9c2f2b604462
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 0e13a7bd273121429cd186c99ef8110b38e839fb
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780156"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983339"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>De dashboards en rapporten weergeven die met mij zijn gedeeld
 
@@ -22,7 +22,7 @@ ms.locfileid: "91780156"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Wanneer een collega een dashboard of rapport met u deelt, wordt de inhoud daarvan weergegeven in de container **Gedeeld met mij**. Wanneer een collega een app met u deelt, wordt de app weergegeven in de container **Apps**.   
+Wanneer een collega een dashboard of rapport met u deelt, wordt de inhoud daarvan weergegeven in de container **Gedeeld met mij**. Wanneer een collega een app met u deelt, wordt de app weergegeven in uw **Apps**-container. De rapporten en dashboards van de app ziet u in de container **Gedeeld met mij**.   
 
 ![Deelpictogram](./media/end-user-shared-with-me/power-bi-shared-with-me.png)
 
@@ -41,6 +41,6 @@ U krijgt opties om met het gedeelde dashboard en de rapporten te communiceren, a
 
 
 ## <a name="search-and-sort-shared-dashboards-and-reports"></a>Gedeelde dashboards en rapporten zoeken en sorteren
-Als uw inhoudslijst **Gedeeld met mij** te lang wordt, zijn er verschillende mogelijkheden om te vinden wat u zoekt. U kunt het zoekveld gebruiken (1), u kunt sorteren op een van de kolommen (2) of u kunt het deelvenster Filters gebruiken. Open het deelvenster Filters door **Filters** in de rechterbovenhoek te selecteren.    
+Als uw inhoudslijst **Gedeeld met mij** te lang wordt, zijn er verschillende mogelijkheden om te vinden wat u zoekt. Gebruik het zoekveld (1), sorteer op een van de kolommen (2) of gebruik het deelvenster Filters. Open het deelvenster Filters door **Filters** in de rechterbovenhoek te selecteren.    
 
 ![dashboards: eigenaars en zoeken](./media/end-user-shared-with-me/power-bi-filter.png)

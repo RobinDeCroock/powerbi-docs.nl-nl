@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/16/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ec0c4cf9e719615489cbba5929f329e6f4f58826
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 8ec7b228f17fc87dcaac6ae5e278dd2c99ab036d
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634522"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116633"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Realtimestreaming van Power BI laat u gegevens streamen en dashboards in real time bijwerken. Elke visual of dashboard dat is gemaakt in Power BI, kan voor realtimegegevens en visuals weergeven en bijwerken. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook metrische gebruiksgegevens van services en vele andere apparaten waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -159,6 +159,9 @@ Als u wilt dat Power BI de gegevens opslaat die worden verzonden via deze gegeve
 Als u de gegevensstroom hebt gemaakt, ontvangt u de URL voor het eindpunt van de REST-API. Deze URL kan door uw toepassing via *POST*-aanvragen worden aangeroepen om uw gegevens te pushen naar de **streaming**-gegevensset van Power BI die u hebt gemaakt.
 
 Bij het opstellen van *POST*-aanvragen is het belangrijk dat de hoofdtekst van de aanvraag overeenkomt met de voorbeeld-JSON die wordt aangeboden in de gebruikersinterface van Power BI. Verpak uw JSON-objecten bijvoorbeeld in een matrix.
+
+> [!WARNING]
+> Voor streaminggegevenssets die zijn gemaakt met behulp van de gebruikersinterface van de Power BI-service, ontvangt de eigenaar van de gegevensset een URL met een **resourcesleutel**. Met deze sleutel wordt de aanvrager geautoriseerd om gegevens naar de gegevensset te pushen zonder gebruik te maken van een Azure AD OAuth Bearer-token. Houd daarom rekening met de implicaties van het hebben van een **geheime sleutel** in de URL bij het werken met dit type gegevensset en methode.
 
 ### <a name="using-pubnub"></a>PubNub gebruiken
 De integratie van **PubNub**-streaming met Power BI maakt het mogelijk om bestaande **PubNub**-gegevensstromen met lage latentie te gebruiken in Power BI. U kunt natuurlijk ook nieuwe stromen maken. Wanneer u **PubNub** selecteert en vervolgens **Volgende** kiest, ziet u het volgende venster:

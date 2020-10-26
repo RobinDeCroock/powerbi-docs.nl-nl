@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: c8cf0f4e896b8a44764d1c363c597182f55d30b3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 1e5a4cf8c80d8123d39fd2ab76898abc0c439ad9
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276508"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049379"
 ---
 # <a name="use-the-supportskeyboardfocus-feature"></a>De functie supportsKeyboardFocus gebruiken
 
@@ -52,4 +52,4 @@ Met deze functie kan de focus naar de visual worden verplaatst via toetsenbordna
 
 Zie [Power BI-rapporten ontwerpen met het oog op toegankelijkheid](../../create-reports/desktop-accessibility-creating-reports.md) voor meer informatie over toegankelijkheidsfuncties.
 
-Zie [Een Power BI-visual ontwikkelen](custom-visual-develop-tutorial.md) als u het ontwikkelen van een visual in Power BI wilt uitproberen.
+Zie [Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen](develop-circle-card.md) als u het ontwikkelen van een visual in Power BI wilt uitproberen.

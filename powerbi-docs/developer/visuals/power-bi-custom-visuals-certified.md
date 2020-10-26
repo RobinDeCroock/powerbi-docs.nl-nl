@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 8dd6a33ab19e692d9dc04138d53b04e8e49da2bf
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748121"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049172"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -170,11 +170,9 @@ Implementeren in AppSource is een proces dat enige tijd kan duren. Uw Power BI-v
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* Als u een webontwikkelaar bent en uw eigen Power BI-visuals wilt maken en deze wilt toevoegen aan  [Microsoft AppSource](https://appsource.microsoft.com), begint u met de zelfstudie  [Een Power BI-visual ontwikkelen](custom-visual-develop-tutorial.md).
+* Als u een webontwikkelaar bent en uw eigen Power BI-visuals wilt maken en deze wilt toevoegen aan  [Microsoft AppSource](https://appsource.microsoft.com), begint u met de zelfstudie  [Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen](develop-circle-card.md).
 
 * Voor meer informatie over visuals gaat u naar [Veelgestelde vragen over gecertificeerde visuals](power-bi-custom-visuals-faq.md#certified-power-bi-visuals).
-
-* [Een Power BI-visual ontwikkelen](custom-visual-develop-tutorial.md)
 
 * [Microsoft-afspeellijst voor Power BI-visuals op YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)
 
@@ -182,4 +180,4 @@ Implementeren in AppSource is een proces dat enige tijd kan duren. Uw Power BI-v
 
 * [Power BI-visuals publiceren naar Microsoft AppSource](office-store.md)
 
-* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

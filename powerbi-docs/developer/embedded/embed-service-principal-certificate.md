@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 06/01/2020
-ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/15/2020
+ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
+ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749179"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92197766"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Power BI-inhoud met service-principal en een certificaat insluiten
 
@@ -35,17 +35,48 @@ U meer informatie vinden over certificaten in Azure AD in de [Client-referenties
 
 Voer de volgende stappen uit om een service-principal en een certificaat met ingesloten analyses te gebruiken:
 
-1. Maak een certificaat.
+1. Maak een Azure AD-toepassing.
 
-2. Maak een Azure AD-toepassing.
+2. Maak een Azure AD-beveiligingsgroep.
 
-3. Stel een certificaatverificatie in.
+3. Schakel de beheerdersinstellingen voor de Power BI-service in.
 
-4. Haal het certificaat op van Azure Key Vault.
+4. Voeg de service-principal toe aan uw werkruimte.
 
-5. Verifieer met een service-principal en een certificaat.
+5. Maak een certificaat.
 
-## <a name="step-1---create-a-certificate"></a>Stap 1: maak een certificaat.
+6. Stel een certificaatverificatie in.
+
+7. Haal het certificaat op van Azure Key Vault.
+
+8. Verifieer met een service-principal en een certificaat.
+
+## <a name="step-1---create-an-azure-ad-application"></a>Stap 1: maak een Azure AD-toepassing
+
+[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
+
+### <a name="creating-an-azure-ad-app-using-powershell"></a>Een Azure AD-app maken met PowerShell
+
+Deze sectie bevat een voorbeeldscript voor het maken van een nieuwe Azure AD-app met [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
+
+```powershell
+# The app ID - $app.appid
+# The service principal object ID - $sp.objectId
+# The app key - $key.value
+
+# Sign in as a user that's allowed to create an app
+Connect-AzureAD
+
+# Create a new Azure AD web application
+$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
+
+# Creates a service principal
+$sp = New-AzureADServicePrincipal -AppId $app.AppId
+```
+
+[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
+
+## <a name="step-5---create-a-certificate"></a>Stap 5: maak een certificaat
 
 U kunt een certificaat aanschaffen bij een vertrouwde *certificeringsinstantie* of zelf een certificaat genereren.
 
@@ -55,19 +86,19 @@ In deze sectie wordt beschreven hoe u een certificaat maakt met [Azure Key Vault
 
 2. Zoek naar **Key Vaults** en klik op de koppeling **Key Vaults**.
 
-    ![sleutelkluis](media/embed-service-principal-certificate/key-vault.png)
+    ![Een schermopname met een koppeling naar de sleutelkluis in de Azure-portal.](media/embed-service-principal-certificate/key-vault.png)
 
 3. Klik op de sleutelkluis waaraan u een certificaat wilt toevoegen.
 
-    ![Selecteer een sleutelkluis](media/embed-service-principal-certificate/select-key-vault.png)
+    ![Een schermopname van een lijst met vervaagde sleutelkluizen in de Azure-portal.](media/embed-service-principal-certificate/select-key-vault.png)
 
 4. Klik op **Certificaten**.
 
-    ![Schermopname van de pagina Sleutelkluizen met Certificaten uitgelicht.](media/embed-service-principal-certificate/certificates.png)
+    ![Een schermopname van de pagina Sleutelkluizen met Certificaten uitgelicht.](media/embed-service-principal-certificate/certificates.png)
 
 5. Klik op **Genereren/importeren**.
 
-    ![Schermopname van het deelvenster Certificaat met Genereren/Importeren uitgelicht.](media/embed-service-principal-certificate/generate.png)
+    ![Een schermopname van het deelvenster Certificaat met Genereren/Importeren uitgelicht.](media/embed-service-principal-certificate/generate.png)
 
 6. Configureer de velden **Een certificaat maken** als volgt:
 
@@ -97,21 +128,17 @@ In deze sectie wordt beschreven hoe u een certificaat maakt met [Azure Key Vault
 
 9. Klik op **Downloaden in CER-indeling**. Het gedownloade bestand bevat de openbare sleutel.
 
-    ![Download als cer](media/embed-service-principal-certificate/download-cer.png)
+    ![Een schermopname met de knop voor het downloaden in CER-indeling.](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-2---create-an-azure-ad-application"></a>Stap 2: maak een Azure AD-toepassing
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-## <a name="step-3---set-up-certificate-authentication"></a>Stap 3: stel een certificaatverificatie in
+## <a name="step-6---set-up-certificate-authentication"></a>Stap 6: stel certificaatverificatie in
 
 1. Klik in uw Azure AD-toepassing op het tabblad **Certificaten en geheimen**.
 
-     ![Schermopname van het deelvenster Certificaten en geheimen voor een app in de Azure-portal.](media/embed-service-principal/certificates-and-secrets.png)
+     ![Een schermopname van het deelvenster Certificaten en geheimen voor een app in de Azure-portal.](media/embed-service-principal/certificates-and-secrets.png)
 
-2. Klik op **Certificaat uploaden** en upload het bestand *. CER* dat u hebt gemaakt en gedownload in de [eerste stap](#step-1---create-a-certificate) van deze zelfstudie. Het *.cer*-bestand bevat de openbare sleutel.
+2. Klik op **Certificaat uploaden** en upload het bestand *. CER* dat u hebt gemaakt en gedownload in de [eerste stap](#step-5---create-a-certificate) van deze zelfstudie. Het *.cer*-bestand bevat de openbare sleutel.
 
-## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>Stap 4: haal het certificaat op van Azure Key Vault.
+## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>Stap 7: haal het certificaat op uit Azure Key Vault
 
 Gebruik Managed Service Identity (MSI) om het certificaat van Azure Key Vault op te halen. Dit proces omvat het ophalen van het *.pfx*-certificaat dat zowel de openbare als de persoonlijke sleutel bevat.
 
@@ -138,7 +165,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>Stap 5: verifieer met een service-principal en een certificaat
+## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>Stap 8: verifieer met een service-principal en een certificaat
 
 U kunt uw app verifiëren met behulp van een service-principal en een certificaat dat is opgeslagen in Azure Key Vault, door verbinding te maken met Azure Key Vault.
 
@@ -181,11 +208,11 @@ Bij het maken van uw ingesloten oplossing kan het handig zijn om Visual Studio t
 
 2. Klik op **Hulpprogramma’s** > **Opties**.
 
-     ![Opties voor Visual Studio](media/embed-service-principal-certificate/visual-studio-options.png)
+     ![Een schermopname met de knop Opties in het menu Extra in Visual Studio.](media/embed-service-principal-certificate/visual-studio-options.png)
 
 3. Zoek naar **Accountselectie** en klik op **Accountselectie**.
 
-    ![accountselectie](media/embed-service-principal-certificate/account-selection.png)
+    ![Een schermopname met de optie Accountselectie in het venster met Visual Studio-opties.](media/embed-service-principal-certificate/account-selection.png)
 
 4. Voeg het account toe dat toegang heeft tot uw Azure Key Vault.
 

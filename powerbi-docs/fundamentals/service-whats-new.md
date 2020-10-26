@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860159"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525197"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -80,7 +80,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Vernieuwingsmeldingen verzenden naar anderen.
 * [Testprogramma](https://powerbi.microsoft.com/blog/power-bi-premium-know-what-your-premium-capacity-can-handle/) voor Power BI Premium-capaciteiten.
 * Openbare preview van [meldingen over de servicebeschikbaarheid](https://powerbi.microsoft.com/blog/power-bi-introduces-service-availability-notifications/).
-* Openbare preview van de [nieuwe vormgeving](https://powerbi.microsoft.com/blog/introducing-the-new-look-for-power-bi-service/) voor Power BI-rapporten.
+* Openbare preview van de [nieuwe vormgeving](https://powerbi.microsoft.com/blog/introducing-the-new-look-of-workspaces-in-the-power-bi-service/) voor Power BI-rapporten.
 * Nieuwe Power BI-regio in Zuid-Afrika.
 
 ### <a name="june-2019"></a>Juni 2019
@@ -312,7 +312,7 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/smarter-auto-gener
 
 ***Beveiliging op rijniveau (RLS)***
 
-* Ondersteuning voor Azure Active Directory-groepen (AAD-groepen): Gebruikers kunnen nu AAD-groepen (beveiligingsgroepen en distributielijsten) toewijzen aan een rol. Dit vergemakkelijkt het toewijzen van rollen in één keer aan een grote groep gebruikers.
+* Ondersteuning voor Azure AD-groepen (Azure Active Directory): Gebruikers kunnen nu Azure AD-groepen (beveiligingsgroepen) toewijzen aan een rol. Dit vergemakkelijkt het toewijzen van rollen in één keer aan een grote groep gebruikers.
 * [Uw rollen voor beveiliging op rijniveau (RLS) testen met rapporten op basis van gegevens van de RLS-implementatie](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): We hebben een functie aan de RLS-preview toegevoegd waarmee u uw gegevensset als een specifieke rol kunt testen. Hiermee zorgt u dat de functie werkt zoals verwacht voordat gebruikers met uw dashboard gaan werken.
 * Beveiliging op rijniveau (RLS) definiëren en op cloudmodellen toepassen op basis van directe query's: U kunt nu RLS-regels maken en toepassen voor gegevensbronnen waarop directe query's kunnen worden uitgevoerd.
 
@@ -646,7 +646,7 @@ Bekijk de [blog](https://powerbi.microsoft.com/blog/power-bi-service-weekly-upda
 * Met de service-update van deze week kunt u bij het maken van nieuwe rapporten nu kiezen uit meerdere paginaformaten en uw eigen paginaformaat definiëren. Hiermee bepaalt u de grootte en hoogte-breedteverhouding van elke pagina in het rapport.
 * We hebben extra ondersteuning voor visuele opmaak toegevoegd voor afbeeldingen en bellendiagrammen. U kunt het aspect vergrendelen terwijl u afbeeldingen aanpast om vervorming van het beeld te voorkomen. U kunt ook de bellen van het spreidingsdiagram configureren zodat ze al dan niet worden gevuld.
 * Momenteel verzendt Power BI uitnodigingen voor delen naar een ander e-mailadres. Wanneer een dashboard met u wordt gedeeld, wordt de koppeling met de uitnodiging voor delen naar zowel uw oorspronkelijke e-mailadres als uw alternatieve e-mailadres (als u dit hebt geconfigureerd) verzonden.
-* Power BI is beschikbaar voor alle klanten, inclusief die op de Dedicated on Multitenant (DonMT) Microsoft 365-architectuur. U gaat Power BI gebruiken als een gedeelde service in de modus voor meerdere tenants. In de meeste gevallen kunt u zich registreren voor Power BI via het volgende eenvoudige proces voor [aanmelden via self-service](https://powerbi.microsoft.com/) – voer uw zakelijke e-mailadres, uw naam en wachtwoord in en u kunt aan de slag. Als u de tenantbeheerder bent, kunt u licenties toewijzen aan uw gebruikers met behulp van de instructies [hier](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
+* Power BI is beschikbaar voor alle klanten, inclusief die op de Dedicated on Multitenant (DonMT) Microsoft 365-architectuur. U gaat Power BI gebruiken als een gedeelde service in de modus voor meerdere tenants. In de meeste gevallen kunt u zich registreren voor Power BI via het volgende eenvoudige proces voor [aanmelden via self-service](https://powerbi.microsoft.com/) – voer uw zakelijke e-mailadres, uw naam en wachtwoord in en u kunt aan de slag. Als u de licentiebeheerder bent, kunt u licenties toewijzen aan uw gebruikers met behulp van de instructies [hier](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc).
 * Met auditlogboeken van Azure kunt u de gegevens uit de operationele logboeken voor het bedieningsvlak in uw Azure-abonnement bekijken. Met het inhoudspakket Power BI auditlogboeken van Azure kunt u de schat aan informatie in deze logboeken eenvoudig analyseren en visualiseren. Via het inhoudspakket kunt u verbinding maken met uw gegevens en beginnen met het ontdekken van inzichten met de kant-en-klare dashboards en rapporten. Lees onze [blog](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/) en [online documentatie](../connect-data/service-connect-to-services.md) voor meer informatie.
 
 [Zie onze blog voor meer informatie](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/).

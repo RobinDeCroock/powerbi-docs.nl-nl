@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803172"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525795"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Migratie naar Power BI voorbereiden
 
@@ -73,7 +73,7 @@ Houd er rekening mee dat [fase 2](powerbi-migration-planning.md) verwijst naar i
 
 Enkele belangrijke items in een Power BI-implementatie die vroegtijdig moeten worden aangepakt, zijn:
 
-- Beslissingen over [instellingen voor de Power BI-tenantbeheerder](admin-tenant-settings.md); deze moeten worden gedocumenteerd.
+- Beslissingen over [instellingen voor Power BI-tenant](admin-tenant-settings.md); deze moeten worden gedocumenteerd.
 - Beslissingen over [werkruimtebeheer](../collaborate-share/service-new-workspaces.md); deze moeten worden gedocumenteerd.
 - Overwegingen en voorkeuren met betrekking tot gegevens en [inhoudsdistributiemethoden](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md), zoals apps, werkruimten, delen, abonnementen en het insluiten van inhoud.
 - Voorkeuren met betrekking tot [gegevenssetmodi](../connect-data/service-dataset-modes-understand.md), zoals het gebruik van de importmodus, de modus DirectQuery of het combineren van de twee modi in een [samengesteld model](composite-model-guidance.md).
@@ -96,7 +96,7 @@ Uw [BI-oplossingsarchitectuur](center-of-excellence-business-intelligence-soluti
 - De Power BI-tenant instellen en integratie met Azure Active Directory.
 - [Power BI-beheerders](../admin/service-admin-role.md) definiëren.
 - Eerste [gebruikerslicenties](../admin/service-admin-licensing-organization.md) aanschaffen en toewijzen.
-- [Power BI-instellingen voor tenantbeheerders](admin-tenant-settings.md) configureren en controleren.
+- [Power BI-instellingen voor tenant](admin-tenant-settings.md) configureren en controleren.
 - [Werkruimterollen](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) instellen en toegang tot Azure Active Directory-beveiligingsgroepen en -gebruikers toewijzen.
 - Een eerste [Gegevensgateway](../connect-data/service-gateway-deployment-guidance.md)cluster configureren, met een plan om dit regelmatig bij te werken.
 - Een [Premium-capaciteitslicentie](../admin/service-admin-premium-purchase.md) aanschaffen (indien van toepassing).

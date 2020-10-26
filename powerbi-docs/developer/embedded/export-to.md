@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 07/13/2020
-ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.date: 10/01/2020
+ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746120"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116449"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -52,11 +52,18 @@ Geef de pagina’s op die u wilt afdrukken, volgens de retourwaarde voor [pagina
 
 ### <a name="bookmarks"></a>Bladwijzers
 
- U kunt de `exportToFile`-API gebruiken om via een programma een rapport in een specifieke staat te exporteren, nadat u filters hebt toegepast. Dit doet u met behulp van de mogelijkheden van [Bladwijzers](../../consumer/end-user-bookmarks.md). Als u een rapport wilt exporteren met behulp van bladwijzers, gebruikt u de [JavaScript-API voor bladwijzers](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks).
+[Bladwijzers](../../consumer/end-user-bookmarks.md) kunnen worden gebruikt om een rapport op te slaan in een specifieke configuratie, inclusief toegepaste filters en de status van de visuals van het rapport. U kunt de API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) gebruiken om de bladwijzer van een rapport op twee manieren programmatisch te exporteren:
 
- U kunt bijvoorbeeld de methode `capturedBookmark.state` van de bladwijzer gebruiken om de wijzigingen vast te leggen die een specifieke gebruiker heeft aangebracht in een rapport, en het rapport vervolgens in de huidige staat te exporteren.
+* **Een bestaande bladwijzer exporteren**
 
-[Persoonlijke bladwijzers](../../consumer/end-user-bookmarks.md#personal-bookmarks) en [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) worden niet ondersteund.
+    Als u een bestaande [rapportbladwijzer wilt exporteren](../../consumer/end-user-bookmarks.md#report-bookmarks), gebruikt u de eigenschap `name`, een unieke (hoofdlettergevoelige) id die u kunt opvragen met behulp van de [JavaScript-API voor bladwijzers](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Bookmarks).
+
+* **De status van het rapport exporteren**
+
+    Als u de huidige status van het rapport wilt exporteren, gebruikt u de eigenschap `state`. U kunt bijvoorbeeld de methode `bookmarksManager.capture` van de bladwijzer gebruiken om de wijzigingen vast te leggen die een bepaalde gebruiker heeft aangebracht in een rapport, en het rapport vervolgens in de huidige staat exporteren met behulp van `capturedBookmark.state`.
+
+>[!NOTE]
+>[Persoonlijke bladwijzers](../../consumer/end-user-bookmarks.md#personal-bookmarks) en [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) worden niet ondersteund.
 
 ### <a name="authentication"></a>Verificatie
 

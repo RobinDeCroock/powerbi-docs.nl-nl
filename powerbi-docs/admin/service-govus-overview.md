@@ -10,12 +10,12 @@ ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524622"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981499"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -84,9 +84,9 @@ Verificatie, identiteit en beheer van Power BI is afhankelijk van de verbinding 
 | Content Delivery Network (CDN) | **GCC**: gov.content.powerapps.us |
 | | **GCC High**: high.content.powerapps.us |
 | | **DoD**: mil.content.powerapps.us |
-| Integratie van Microsoft 365 | **GCC**: [Wereldwijde eindpunten](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High**: [Amerikaanse overheid GCC High-eindpunten](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD**: [Amerikaanse Government DOD-eindpunten](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Integratie van Microsoft 365 | **GCC**: [Wereldwijde eindpunten](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**: [Amerikaanse overheid GCC High-eindpunten](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**: [Amerikaanse Government DOD-eindpunten](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
 | Portal |**GCC**: *.powerbigov.us |
 | | **GCC-High**: *.high.powerbigov.us |
 | | **DoD**: *.mil.powerbigov.us |
@@ -107,7 +107,7 @@ Azure wordt gedistribueerd over meerdere clouds. Standaard kunt u firewallregels
 
 Als u de IP-adresbereiken voor de cloud van de Amerikaanse overheids wilt ophalen, downloadt u het bestand [Azure IP-bereiken en servicetags – Cloud van de Amerikaanse overheid](https://www.microsoft.com/download/details.aspx?id=57063). bereiken worden weergegeven voor zowel Power BI als Power Query.
 
-Zie [Documentatie van Azure Government](https://docs.microsoft.com/azure/azure-government/) voor meer informatie over Microsoft Azure Government-cloudservices.
+Zie [Documentatie van Azure Government](/azure/azure-government/) voor meer informatie over Microsoft Azure Government-cloudservices.
 
 Raadpleeg [IP-firewallregels maken en beheren](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) als u firewalls wilt instellen voor SQL-databases.
 
@@ -123,7 +123,6 @@ De volgende tabel bevat een lijst met functies die niet beschikbaar zijn in een 
 |[Insluiten in SharePoint online met het webonderdeel Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![Beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen](../connect-data/power-bi-data-sources.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
-|[Metrische gegevens van capaciteit](../admin/service-admin-premium-monitor-portal.md)|K3 2020 |K3 2020|K3 2020|
 |[Grote modellen](service-premium-large-models.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
 |[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/service-dataflows-enhanced-compute-engine.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
 |[Gegevensstromen - directe query](../transform-model/service-dataflows-directquery.md) | K4 2020 |K4 2020|![niet beschikbaar](../media/no.png)|
@@ -131,6 +130,7 @@ De volgende tabel bevat een lijst met functies die niet beschikbaar zijn in een 
 |[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|K4 2020|K4 2020 |K4 2020|
 |[Sjabloon-apps](../connect-data/service-template-apps-overview.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
 |[Aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
+|[Dataconnector voor gesprekskwaliteit](/microsoftteams/cqd-power-bi-connector)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Genereren van QR-code](../create-reports/service-create-qr-code-for-tile.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 
 <sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government en Global Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B Collaboration voor de Amerikaanse overheid

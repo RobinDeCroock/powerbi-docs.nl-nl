@@ -1,27 +1,27 @@
 ---
 title: Een rapport weergeven
-description: In dit onderwerp wordt uitgelegd hoe Power BI- en eindgebruikers een Power BI-rapport openen en weergeven.
+description: In dit onderwerp wordt uitgelegd hoe zakelijke gebruikers en eindgebruikers van Power BI een Power BI-rapport openen en weergeven.
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 10/09/2020
 ms.author: mihart
-ms.openlocfilehash: d70bc80f7cea3fcff7a25446dd0f73a3c96ee461
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: dc352a44b5db14dc82fdcc48f0d1ddb350c5b3de
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527515"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983510"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-business-users"></a>Een rapport weergeven in de Power BI-service voor *zakelijke gebruikers*
 
-[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Een rapport bestaat uit een of meer pagina's met visuals. Rapporten worden gemaakt door Power BI-*ontwerpers* en [gedeeld met *zakelijke gebruikers*, rechtstreeks](end-user-shared-with-me.md) of als onderdeel van een [app](end-user-apps.md). Als u een rapport wilt openen, hebt u een Power BI Pro-licentie nodig of moet het rapport deel uitmaken van een werkruimte die is opgeslagen in aan Premium toegewezen capaciteit.
+Een rapport bestaat uit een of meer pagina's met visuals. Rapporten worden gemaakt door Power BI-*ontwerpers* en [gedeeld met *zakelijke gebruikers*, rechtstreeks](end-user-shared-with-me.md) of als onderdeel van een [app](end-user-apps.md). Als u een rapport wilt openen, hebt u een Power BI Pro-licentie nodig of moet het rapport deel uitmaken van een werkruimte die is opgeslagen in aan Premium toegewezen capaciteit. [Meer informatie over licenties en abonnementen](end-user-license.md)
 
 U kunt een rapport op veel verschillende manieren openen. We laten u twee van deze manieren zien: openen vanaf Home en openen vanaf een dashboard. 
 
@@ -33,7 +33,7 @@ We gaan eerst een rapport openen dat rechtstreeks met u is gedeeld en vervolgens
 
    ![Schermopname van het startcanvas van de Power BI-service met pijlen die naar rapporten wijzen.](./media/end-user-report-open/power-bi-home.png)
 
-### <a name="open-a-report-that-has-been-shared-with-you"></a>Een rapport openen dat met u is gedeeld
+### <a name="open-a-report-that-has-been-directly-shared-with-you"></a>Een rapport openen dat rechtstreeks met u is gedeeld
 Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen via een koppeling per e-mail of door het automatisch aan uw Power BI-inhoud toe te voegen. Rapporten die op deze manier worden gedeeld, worden weergegeven in de container **Gedeeld met mij** in het navigatievenster en in de sectie **Gedeeld met mij** van uw startcanvas.
 
 1. Open de Power BI-service (app.powerbi.com).
@@ -54,15 +54,15 @@ Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen v
 
    ![Schermopname van de tabbladen van de rapportpagina.](./media/end-user-report-open/power-bi-report-open.png)
 
-6. Vouw het deelvenster **Filters** uit langs de rechterzijde. Filters die zijn toegepast op deze rapportpagina of op het hele rapport, worden hier weergegeven.
+6. Vouw het deelvenster **Filters** uit langs de rechterzijde. Filters die zijn toegepast op deze rapportpagina of op het hele rapport, worden hier weergegeven. U kunt deze filters wijzigen om de impact op uw visuals en rapporten te bekijken.
 
    ![Power BI-service met filters uitgevouwen](./media/end-user-report-open/power-bi-filters.png)
 
-7. Als u met de muis over een rapportvisual beweegt, worden verschillende pictogrammen en **Meer opties** (...) weergegeven. Als u deze filters toegepast wilt zien op een bepaalde visual, selecteert u het filterpictogram. Hier hebben we het filterpictogram geselecteerd voor het lijndiagram *Totaalaantal eenheden per maand en fabrikant*.
+7. Het menu Acties voor een visual weergeven. Als u de muisaanwijzer over een rapport beweegt, ziet u de acties die u kunt uitvoeren op die visual. Als u deze filters toegepast wilt zien op een bepaalde visual, selecteert u het filterpictogram. Hier hebben we het filterpictogram geselecteerd voor het lijndiagram *Totaalaantal eenheden per maand en fabrikant*.
 
-   ![Schermopname met filters voor de geselecteerde visual.](./media/end-user-report-open/power-bi-visual-filter.png)
+   ![Schermopname met filters voor de geselecteerde visual.](./media/end-user-report-open/power-bi-visual-filters.png)
 
-6. Op dit moment zien we de hele rapportpagina. Als u de weergave (het zoomniveau) van de pagina wilt wijzigen, selecteert u de vervolgkeuzeoptie Weergeven in de rechterbovenhoek en kiest u **Ware grootte** en schakelt u vervolgens over op **Aan breedte aanpassen**.
+6. U kunt ook de weergave van de rapportpagina wijzigen. Op dit moment wordt de hele rapportpagina weergegeven. Als u de weergave (het zoomniveau) van de pagina wilt wijzigen, selecteert u de vervolgkeuzeoptie **Weergeven** in de rechterbovenhoek en kiest u **Ware grootte** en schakelt u vervolgens over op **Aan breedte aanpassen**. Let op het effect van de verschillende weergaveopties op de weergave van uw rapport.
 
    ![in-/uitzoomen wijzigen](./media/end-user-report-open/power-bi-view-actual.png)
 
@@ -71,20 +71,23 @@ Power BI-*ontwerpers* kunnen een afzonderlijk rapport rechtstreeks met u delen v
 U kunt op vele manieren communiceren met een rapport om inzichten te ontdekken en zakelijke beslissingen te nemen.  Gebruik de inhoudsopgave aan de linkerkant om andere artikelen over Power BI-rapporten te lezen. 
 
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Een rapport openen dat onderdeel is van een app
-Als u apps hebt ontvangen van collega's of van AppSource, zijn deze apps beschikbaar op Home en vanuit de container **Apps** op het navigatievenster. Een [app](end-user-apps.md) is een verzameling dashboards en rapporten die door een Power BI-*ontwerper* voor u zijn gebundeld.
+Als u apps hebt ontvangen van collega's of van AppSource, zijn deze apps beschikbaar in Start en vanuit de containers **Apps** en **Gedeeld met mij** in het navigatievenster. Een [app](end-user-apps.md) is een verzameling dashboards en rapporten die door een Power BI-*ontwerper* voor u zijn gebundeld.
 
 ### <a name="prerequisites"></a>Vereisten
+Er is een Power BI Pro-licentie vereist om apps te openen of de app-werkruimte moet zijn opgeslagen in een Power BI Premium-capaciteit. [Meer informatie over licenties en abonnementen](end-user-license.md)    
+    
 Download de app Verkoop en marketing om verder te gaan.
 1. Ga in uw browser naar appsource.microsoft.com.
-1. Zoek naar 'Verkoop en marketing' en selecteer **Microsoft-voorbeeld - Verkoop en marketing**.
+1. Schakel het selectievakje **Power Platform** in.
+1. Zoek naar 'Verkoop en marketing' en selecteer **Microsoft-voorbeeld - Verkoop en marketing**. Scrol omlaag om de zoekresultaten weer te geven.
 1. Selecteer **Nu downloaden** > **Doorgaan** > **Installeren** om de app in uw app-container te installeren. 
 
-U kunt de app openen vanuit uw app-container of vanuit de Startpagina.
+U kunt de app openen vanuit de container **Apps** of vanuit **Start**.
 1. Ga terug naar Start door **Start** op het navigatievenster te selecteren.
 
 7. Schuif omlaag totdat u **Mijn apps** ziet.
 
-   ![Schermopname van de sectie Mijn apps van de Power BI-startpagina.](./media/end-user-report-open/power-bi-apps.png)
+   ![Schermopname van de sectie Mijn apps van de Power BI-startpagina.](./media/end-user-report-open/power-bi-apps-new.png)
 
 8. Selecteer uw nieuwe *Verkoop en marketing*-app om die te openen. Afhankelijk van de opties die de app-*ontwerper* heeft ingesteld, wordt met de app een dashboard of een rapport geopend. Als u deze app opent, wordt er een dashboard weergegeven.  
 

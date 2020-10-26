@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 3df3e29d2f6517fec68bf185bf71d9f4f3c5618a
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 472f2ecce2e28fcb7d50356ec1322f67f2395411
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512857"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136000"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Modelrelaties in Power BI Desktop
 
@@ -140,7 +140,7 @@ Er zijn verschillende DAX-functies die relevant zijn voor modelrelaties. In de v
 
 ## <a name="relationship-evaluation"></a>Relaties evalueren
 
-Modelrelaties worden bij een evaluatie geclassificeerd als _sterk_ of _zwak_. Dit is geen configureerbare relatie-eigenschap. Het wordt in feite afgeleid van het type kardinaliteit en de gegevensbron van de twee gerelateerde tabellen. Het is belangrijk om inzicht te krijgen in het evaluatietype omdat de prestaties kunnen worden beïnvloed als de gegevensintegriteit wordt aangetast. Deze implicaties en gevolgen voor de integriteit worden in dit onderwerp beschreven.
+Modelrelaties worden bij een evaluatie geclassificeerd als _gewoon_ of _beperkt_. Dit is geen configureerbare relatie-eigenschap. Het wordt in feite afgeleid van het type kardinaliteit en de gegevensbron van de twee gerelateerde tabellen. Het is belangrijk om inzicht te krijgen in het evaluatietype omdat de prestaties kunnen worden beïnvloed als de gegevensintegriteit wordt aangetast. Deze implicaties en gevolgen voor de integriteit worden in dit onderwerp beschreven.
 
 Allereerst is het belangrijk dat u enige theoretische kennis over modellen hebt om de evaluatie van relaties volledig te begrijpen.
 
@@ -154,17 +154,17 @@ Laten we een voorbeeld van een samengesteld model bekijken.
 
 In dit voor beeld bestaat het samengestelde model uit twee eilanden: een Vertipaq-gegevenseiland en een DirectQuery-brongegevenseiland. Het Vertipaq-gegevenseiland bevat drie tabellen en het DirectQuery-brongegevenseiland bevat twee tabellen. Er bestaat één kruis-eilandrelatie om een tabel in het Vertipaq-gegevenseiland te koppelen aan een tabel in het DirectQuery-brongegevenseiland.
 
-### <a name="strong-relationships"></a>Sterke relaties
+### <a name="regular-relationships"></a>Gewone relaties
 
-Een modelrelatie is _sterk_ wanneer de query-engine de 'een'-zijde van de relatie kan bepalen. Er wordt bevestigd dat de 'een'-zijde enkele waarden bevat. Alle een-op-veel-relaties binnen eilanden zijn een sterke relatie.
+Een modelrelatie is _gewoon_ wanneer de query-engine de 'een'-zijde van de relatie kan bepalen. Er wordt bevestigd dat de 'een'-zijde enkele waarden bevat. Alle een-op-veel-relaties binnen eilanden zijn een gewone relatie.
 
-Het volgende voorbeeld bevat twee sterke relaties, gemarkeerd met een **S**. Deze relaties zijn de een-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie in de DirectQuery-bron.
+Het volgende voorbeeld bevat twee gewone relaties, gemarkeerd met een **S**. Deze relaties zijn de een-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie in de DirectQuery-bron.
 
-![Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de sterke relaties zijn gemarkeerd](media/desktop-relationships-understand/data-island-example-strong.png)
+![Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de gewone relaties zijn gemarkeerd](media/desktop-relationships-understand/data-island-example-strong.png)
 
-Bij Import-modellen, waarbij alle gegevens worden opgeslagen in de Vertipaq-cache, wordt bij het vernieuwen van gegevens een gegevensstructuur gemaakt voor elke sterke relatie. De gegevensstructuren bestaan uit geïndexeerde toewijzingen van alle kolom-naar-kolom-waarden. Het doel hiervan is het koppelen van tabellen tijdens het uitvoeren van query's te versnellen.
+Bij Import-modellen, waarbij alle gegevens worden opgeslagen in de Vertipaq-cache, wordt bij het vernieuwen van gegevens een gegevensstructuur gemaakt voor elke gewone relatie. De gegevensstructuren bestaan uit geïndexeerde toewijzingen van alle kolom-naar-kolom-waarden. Het doel hiervan is het koppelen van tabellen tijdens het uitvoeren van query's te versnellen.
 
-Bij het uitvoeren van query's kunnen _tabeluitbreidingen_ worden uitgevoerd voor sterke tabellen. Tabeluitbreiding resulteert in het maken van een virtuele tabel. Hierin worden de systeemeigen kolommen van de basistabel opgenomen en deze worden vervolgens uitgebreid naar gekoppelde tabellen. Bij Import-tabellen wordt dit gedaan in de query-engine. Bij DirectQuery-tabellen wordt dit gedaan in de systeemeigen query die wordt verzonden naar de brondatabase (zolang de eigenschap **Referentiële integriteit aannemen niet is ingeschakeld**. De query-engine past vervolgens de filters toe op de uitgebreide tabel en groepeert de waarden in de kolommen van deze tabel.
+Bij het uitvoeren van query's kunnen _tabeluitbreidingen_ worden uitgevoerd voor gewone tabellen. Tabeluitbreiding resulteert in het maken van een virtuele tabel. Hierin worden de systeemeigen kolommen van de basistabel opgenomen en deze worden vervolgens uitgebreid naar gekoppelde tabellen. Bij Import-tabellen wordt dit gedaan in de query-engine. Bij DirectQuery-tabellen wordt dit gedaan in de systeemeigen query die wordt verzonden naar de brondatabase (zolang de eigenschap **Referentiële integriteit aannemen niet is ingeschakeld**. De query-engine past vervolgens de filters toe op de uitgebreide tabel en groepeert de waarden in de kolommen van deze tabel.
 
 > [!NOTE]
 > Inactieve relaties worden ook uitgebreid, zelfs wanneer de relatie niet wordt gebruikt door een berekening. Bidirectionele relaties hebben geen invloed op tabeluitbreiding.
@@ -181,34 +181,34 @@ Laten we eens kijken hoe tabeluitbreidingen werken aan de hand van een geanimeer
 
 In dit voorbeeld bestaat het model uit drie tabellen: **Categorie**, **Product** en **Verkoop**. De tabel **Categorie** is gekoppeld aan de tabel **Product** met een een-op-veel-relatie en de tabel **Product** is gekoppeld aan de tabel **Verkoop** met een een-op-veel-relatie. De tabel **Categorie** bevat twee rijen, de tabel **Product** bevat drie rijen en de tabellen **Verkoop** bevatten vijf rijen. Er zijn overeenkomende waarden aan beide zijden van alle relaties, wat betekent dat er geen schendingen van de referentiële integriteit zijn. Tijdens het uitvoeren van de query wordt er een uitgebreide tabel getoond. De tabel bestaat uit de kolommen van alle drie de tabellen. Het is in feite een gedenormaliseerd perspectief van de gegevens in de drie tabellen. Er wordt een nieuwe rij toegevoegd aan de tabel **Verkoop** en deze heeft een productie-id-waarde (9) die geen overeenkomende waarde bevat in de tabel **Product**. Dit is een schending van de referentiële integriteit. In de uitgebreide tabel bevat de nieuwe rij (lege) waarden in de kolommen van de tabellen **Categorie** en **Product**.
 
-### <a name="weak-relationships"></a>Zwakke relaties
+### <a name="limited-relationships"></a>Beperkte relaties
 
-Een model relatie is _zwak_ wanneer er geen gegarandeerde 'een'-zijde is. Dit kan twee oorzaken hebben:
+Een model relatie is _beperkt_ wanneer er geen gegarandeerde 'een'-zijde is. Dit kan twee oorzaken hebben:
 
 - De relatie maakt gebruik van het type kardinaliteit veel-op-veel (zelfs als een of beide kolommen enkele waarden bevatten)
 - Het is een kruis-eilandrelatie (wat alleen het geval kan zijn bij gecombineerde modellen)
 
-Het volgende voorbeeld bevat twee zwakke relaties, gemarkeerd met een **Z**. Deze twee relaties zijn de veel-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie tussen eilanden in de DirectQuery-bron.
+Het volgende voorbeeld bevat twee beperkte relaties, gemarkeerd met een **W**. Deze twee relaties zijn de veel-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie tussen eilanden in de DirectQuery-bron.
 
-![Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de zwakke relaties zijn gemarkeerd](media/desktop-relationships-understand/data-island-example-weak.png)
+![Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de beperkte relaties zijn gemarkeerd](media/desktop-relationships-understand/data-island-example-weak.png)
 
-Bij Import-modellen worden nooit gegevensstructuren voor zwakke relaties gemaakt. Dit betekent dat tabelsamenvoegingen moeten worden opgelost tijdens het uitvoeren van de query.
+Bij Import-modellen worden nooit gegevensstructuren voor beperkte relaties gemaakt. Dit betekent dat tabelsamenvoegingen moeten worden opgelost tijdens het uitvoeren van de query.
 
-Tabeluitbreidingen vindt nooit plaats voor zwakke relaties. Tabellen worden samengevoegd met behulp van de semantiek INNER JOIN en daarom worden er geen lege virtuele rijen toegevoegd om schendingen van de referentiële integriteit te compenseren.
+Tabeluitbreidingen vindt nooit plaats voor beperkte relaties. Tabellen worden samengevoegd met behulp van de semantiek INNER JOIN en daarom worden er geen lege virtuele rijen toegevoegd om schendingen van de referentiële integriteit te compenseren.
 
-Er gelden extra beperkingen voor zwakke relaties:
+Er gelden extra beperkingen voor beperkte relaties:
 
 - De DAX-functie RELATED kan niet worden gebruikt om de kolomwaarden van de 'een'-zijde op te halen
 - Het afdwingen van beveiliging op rijniveau heeft topologische beperkingen
 
 > [!NOTE]
-> In de modelweergave van Power BI Desktop is het niet altijd mogelijk om te bepalen of een modelrelatie sterk of zwak is. Een veel-op-veel-relatie is altijd zwak, evenals een een-op-veel-relatie wanneer het een kruis-eilandrelatie is. Als u wilt bepalen of er sprake is van een kruis-eilandrelatie, moet u de opslagmodi en gegevensbronnen van de tabel controleren om de juiste conclusie te kunnen trekken.
+> In de modelweergave van Power BI Desktop is het niet altijd mogelijk om te bepalen of een modelrelatie gewoon of beperkt is. Een veel-op-veel-relatie is altijd beperkt, evenals een een-op-veel-relatie wanneer het een kruis-eilandrelatie is. Als u wilt bepalen of er sprake is van een kruis-eilandrelatie, moet u de opslagmodi en gegevensbronnen van de tabel controleren om de juiste conclusie te kunnen trekken.
 
 ### <a name="precedence-rules"></a>Prioriteitsregels
 
 Bidirectionele relaties kunnen leiden tot meerdere, en daardoor dubbelzinnige paden voor het doorgeven van filters tussen modeltabellen. De volgende lijst geeft een overzicht van de prioriteitsregels die Power BI gebruikt voor het detecteren van dubbelzinnigheid en het oplossen van paden:
 
-1. Veel-op-een- en een-op-een-relaties, met inbegrip van zwakke relaties
+1. Veel-op-een- en een-op-een-relaties, met inbegrip van beperkte relaties
 2. Veel-op-veel-relaties
 3. Bidirectionele relaties, in omgekeerde richting (vanuit de 'veel'-zijde)
 

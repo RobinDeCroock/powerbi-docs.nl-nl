@@ -2,26 +2,36 @@
 title: De Excel-werkmap Financieel voorbeeld voor Power BI downloaden
 description: De werkmap met financiële voorbeelden voor Power BI downloaden
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: sample
-ms.date: 07/21/2020
+ms.date: 10/13/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 99d4b7a2fa51673688c3e673fddf67664f3231d9
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 46f6179edc63b0a865043674b22ffe88e813a3b4
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953071"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92255949"
 ---
 # <a name="download-the-financial-sample-excel-workbook-for-power-bi"></a>De Excel-werkmap Financieel voorbeeld voor Power BI downloaden
-Hebt u enkele gegevens nodig om Power BI Desktop en de Power BI-service te kunnen uitproberen? We bieden een eenvoudige Excel-werkmap met financiële voorbeeldgegevens die u kunt downloaden: [Excel-werkmap met financieel voorbeeld](https://go.microsoft.com/fwlink/?LinkID=521962).
+Hebt u wat gegevens nodig om de Power BI-service te kunnen proberen? We hebben een eenvoudige Excel-werkmap ontwikkeld met financiële voorbeeldgegevens. Deze werkmap bevat een tabel met verkoop- en winstgegevens per marktsegment en land. 
 
-Deze werkmap bevat een tabel met verkoop- en winstgegevens per marktsegment en land.
+## <a name="download-it-directly"></a>Direct downloaden
 
-### <a name="next-steps"></a>Volgende stappen
+U kunt de werkmap hier direct downloaden: [Excel-werkmap met financieel voorbeeld](https://go.microsoft.com/fwlink/?LinkID=521962).
+
+## <a name="get-the-sample-in-power-bi-desktop"></a>Het voorbeeld ophalen in Power BI Desktop
+
+U kunt de werkmap ook downloaden vanuit Power BI Desktop. Selecteer **Een voorbeeldgegevensset proberen** op het gele welkomstscherm of op het lege canvas.
+
+:::image type="content" source="media/desktop-excel-stunning-report/power-bi-desktop-canvas-sample-dataset.png" alt-text="Schermopname van de optie Een voorbeeldgegevensset proberen op het canvas."::: 
+
+Als u in deze zelfstudie terecht bent gekomen vanuit het dialoogvenster met een voorbeeldgegevensset, kiest u **Gegevens laden**.
+
+## <a name="next-steps"></a>Volgende stappen
 
 Hier volgen twee zelfstudies waarin deze Financieel voorbeeld-gegevens worden gebruikt:
 

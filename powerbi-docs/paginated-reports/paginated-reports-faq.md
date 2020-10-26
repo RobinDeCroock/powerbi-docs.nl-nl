@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 10/19/2020
+ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526669"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92257008"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -178,6 +178,12 @@ Ja, u kunt nu vanaf de startpagina zoeken naar gepagineerde rapporten.  U kunt z
 Onthoud het volgende wanneer u met Datum/tijd-velden werkt in gepagineerde rapporten.
 
 - Er zijn momenteel enkele globaliseringsbeperkingen met betrekking tot Datum/tijd-parameters. Alle Datum/tijd-parameters in de Power BI-service worden opgehaald in Amerikaanse indeling (MM/DD/JJJJ), ongeacht hoe u de Datum/tijd in Power BI Report Builder ontwerpt.
+
+Wanneer u gepagineerde rapporten bekijkt in de Power BI-service, kan er een time-out optreden in sessies. De gebruiker ziet dan de volgende melding:
+
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Tabblad Capaciteitsinstellingen voor gepagineerde rapporten":::
+
+- De sessie verloopt na 60 minuten inactiviteit of eerder als het apparaat is vergrendeld of niet actief is, of wanneer het rapport niet wordt weergegeven op het actieve tabblad van de browser.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747615"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983390"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw organisatie
 
@@ -58,11 +58,11 @@ Volg de instructies in [Een Azure AD-toepassing registeren om bij Power BI te ge
 >* Het toepassingsgeheim verkrijgen
 >* Pas de machtigingen (bereik) **Report.ReadAll** toe op uw app.
 
-### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
+### <a name="create-a-capacity"></a>Een capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw app-werkruimte. Voor gepagineerde rapporten, moet uw app-werkruimte beschikken over ten minste een P1-capaciteit. U kunt een toegewezen capaciteit maken met [Power BI Premium](../../admin/service-premium-what-is.md).
+Als u een capaciteit maakt, profiteert u van een resource voor de inhoud in uw app-werkruimte. Voor gepagineerde rapporten, moet uw app-werkruimte beschikken over ten minste een P1-capaciteit. U kunt een capaciteit maken met [Power BI Premium](../../admin/service-premium-what-is.md).
 
-De volgende tabel bevat de SKU’s van Power BI Premium die kunnen worden gebruikt voor het maken van een toegewezen capaciteit voor gepagineerde rapporten in [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
+De volgende tabel bevat de SKU’s van Power BI Premium die kunnen worden gebruikt voor het maken van een capaciteit voor gepagineerde rapporten in [Microsoft Office 365](../../admin/service-admin-premium-purchase.md):
 
 | Capaciteitsknooppunt | Totaal aantal vCores<br/>(back-end + front-end) | Back-end vCores | Front-end vCores | Limieten voor DirectQuery/liveverbindingen |
 | --- | --- | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ De volgende tabel bevat de SKU’s van Power BI Premium die kunnen worden gebrui
 
 ### <a name="enable-paginated-reports-workload"></a>Workload voor gepagineerde rapporten inschakelen
 
-U moet de workload voor gepagineerde rapporten inschakelen voor uw toegewezen capaciteit.
+U moet de workload voor gepagineerde rapporten inschakelen voor uw capaciteit.
 
 1. Meld u aan op [Power BI > Beheerportal > Capaciteitsinstellingen](https://app.powerbi.com/admin-portal/capacities).
 
@@ -91,17 +91,17 @@ U moet de workload voor gepagineerde rapporten inschakelen voor uw toegewezen ca
 
     ![Workload voor gepagineerde rapporten](media/embed-paginated-reports-organization/paginated-reports-workload.png)
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Een app-werkruimte toewijzen aan een toegewezen capaciteit
+### <a name="assign-an-app-workspace-to-a-capacity"></a>Een app-werkruimte toewijzen aan een capaciteit
 
-Nadat u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit. Ga hiervoor als volgt te werk:
+Als u een capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die capaciteit. Ga hiervoor als volgt te werk:
 
 1. Vouw binnen Power BI-service werkruimten uit en selecteer **Meer** voor de werkruimte die u gebruikt voor het insluiten van uw inhoud. Selecteer vervolgens **Instellingen voor werkruimte**.
 
     ![Een werkruimte bewerken](media/embed-paginated-reports-organization/workspace-settings.png)
 
-2. Selecteer **Premium** en schakel **Toegewezen capaciteit** in. Selecteer de toegewezen capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
+2. Selecteer **Premium** en schakel **Capaciteit** in. Selecteer de capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
 
-    ![Een toegewezen capaciteit toewijzen](media/embed-paginated-reports-organization/dedicated-capacity.png)
+    ![Een capaciteit toewijzen](media/embed-paginated-reports-organization/capacity.png)
 
 3. Nadat u **Opslaan** hebt geselecteerd, ziet u een ruit naast de naam van de app-werkruimte.
 

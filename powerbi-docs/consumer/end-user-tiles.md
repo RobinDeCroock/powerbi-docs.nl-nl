@@ -1,20 +1,20 @@
 ---
-title: Dashboardtegels in Power BI-service voor consumenten
-description: Alles over dashboardtegels in Power BI voor consumenten. Hiertoe behoren tegels die zijn gemaakt vanuit SQL Server Reporting Services (SSRS).
+title: Dashboardtegels in Power BI-service voor zakelijke gebruikers
+description: Hier vindt u alles over dashboardtegels in Power BI voor zakelijke gebruikers. Hiertoe behoren tegels die zijn gemaakt vanuit SQL Server Reporting Services (SSRS).
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6d35d19a1d47adc6a918f01a71c2009d71692fbd
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ab8cfefab74d3120451b56c3ea30518e538ad543
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633901"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830512"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Dashboardtegels in Power BI
 
@@ -22,7 +22,7 @@ ms.locfileid: "91633901"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Een tegel is een momentopname van uw gegevens en wordt door een *ontwerper* vastgemaakt aan het dashboard. *Ontwerpers* kunnen tegels maken van een rapport, gegevensset, dashboard, het Q&A-vragenvak, Excel, SQL Server Reporting Services (SSRS) en meer.  Deze schermopname laat verschillende tegels zien die zijn vastgemaakt aan een dashboard.
+Een tegel is een momentopname van uw gegevens en wordt door een *ontwerper* vastgemaakt aan een dashboard. *Ontwerpers* kunnen tegels maken van een rapport, gegevensset, dashboard, het Q&A-vragenvak, Excel, SQL Server Reporting Services (SSRS) en meer.  Deze schermopname laat verschillende tegels zien die zijn vastgemaakt aan een dashboard.
 
 ![Power BI-dashboard](./media/end-user-tiles/power-bi-dash.png)
 
@@ -36,29 +36,22 @@ Hulp nodig om de bouwstenen van Power BI te begrijpen?  Zie [Power BI - Basiscon
 
 1. Beweeg de muisaanwijzer over de tegel om de weglatingstekens weer te geven.
    
-    ![Weglatingstekens tegel](./media/end-user-tiles/ellipses_new.png)
-2. Selecteer de weglatingstekens om het actiemenu van de tegel te openen. De beschikbare opties variëren per visualtype en de methode die is gebruikt om de tegel te maken. Hier volgen enkele voorbeelden van wat u zou kunnen zien.
+    ![Weglatingstekens tegel](./media/end-user-tiles/power-bi-ellipsis.png)
+2. Selecteer de weglatingstekens om het actiemenu van de tegel te openen. De beschikbare opties variëren per machtigingen, type visual en de methode die is gebruikt om de tegel te maken. De menu-items die beschikbaar zijn voor tegels die zijn vastgemaakt vanuit Q&A zijn bijvoorbeeld anders dan de tegels die zijn vastgemaakt vanuit een rapport. Hier ziet u een actiemenu voor een tegel die is gemaakt met Q&A.
 
-    - tegel gemaakt met behulp van Q&A
-   
-        ![Schermopname van een menu met zes opties.](./media/end-user-tiles/power-bi-options-1.png)
 
-    - tegel gemaakt vanuit een werkmap
    
-        ![Schermopname van een menu met drie opties.](./media/end-user-tiles/power-bi-options-2.png)
+    ![Schermopname van een menu met negen opties.](./media/end-user-tiles/power-bi-qna-menu.png)
 
-    - tegel gemaakt vanuit een rapport
    
-        ![Schermopname van een menu met vijf opties.](./media/end-user-tiles/power-bi-options-3.png)
+    Enkele voorbeelden van acties die beschikbaar zijn via deze menu's:
    
-    Hier kunt u het volgende doen:
-   
-   * [Het rapport openen waarmee deze tegel is gemaakt ](end-user-reports.md) ![Rapportpictogram](./media/end-user-tiles/chart-icon.jpg)  
+   * [Het rapport openen waarmee de tegel is gemaakt ](end-user-reports.md) ![Rapportpictogram](./media/end-user-tiles/chart-icon.jpg)  
    
    * [De Q&A-vraag openen die is gebruikt om de tegel te maken ](end-user-reports.md) ![Q&A-pictogram](./media/end-user-tiles/qna-icon.png)  
    
 
-   * [Het werkblad openen waarmee deze tegel is gemaakt ](end-user-reports.md) ![Werkbladpictogram](./media/end-user-tiles/power-bi-open-worksheet.png)  
+   * [Het werkblad openen waarmee de tegel is gemaakt ](end-user-reports.md) ![Werkbladpictogram](./media/end-user-tiles/power-bi-open-worksheet.png)  
    * [De tegel bekijken in de focusmodus ](end-user-focus.md) ![Focuspictogram](./media/end-user-tiles/fullscreen-icon.jpg)  
    * [Inzichten weergeven](end-user-insights.md) ![Pictogram voor inzichten](./media/end-user-tiles/power-bi-insights.png)
    * [Een opmerking toevoegen en een discussie starten](end-user-comment.md) ![Pictogram voor opmerkingen](./media/end-user-tiles/comment-icons.png)
@@ -72,16 +65,16 @@ Hulp nodig om de bouwstenen van Power BI te begrijpen?  Zie [Power BI - Basiscon
 Als u een tegel selecteert, hangt wat er daarna gebeurt af van de manier waarop de tegel is aangemaakt en of deze een [aangepaste koppeling](../create-reports/service-dashboard-edit-tile.md) heeft. Als de tegel een aangepaste koppeling heeft, wordt de koppeling geopend als u de tegel selecteert. Anders gaat u door het selecteren van de tegel naar het rapport, het Excel Online werkmap, het SSRS-rapport dat on-premises is of naar de Q&A-vraag die werd gebruikt om de tegel te maken.
 
 > [!NOTE]
-> Uitzondering hierop zijn videotegels die rechtstreeks op het dashboard zijn gemaakt met **Tegel toevoegen**. Als u een videotegel selecteert (die op deze manier is gemaakt), wordt de video direct op het dashboard afgespeeld.   
+> De uitzondering hierop zijn videotegels die door *ontwerpers* worden toegevoegd aan dashboards. Als u een videotegel selecteert (die op deze manier is gemaakt), wordt de video direct op het dashboard afgespeeld.   
 > 
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
-* Als het rapport waarmee de visualisatie is gemaakt, niet is opgeslagen, leidt het selecteren van de tegel niet tot een actie.
-* Als de tegel is gemaakt vanuit een werkmap in Excel Online, en u hebt geen leesrechten voor deze werkmap, wordt door het selecteren van de tegel de werkmap niet in Excel Online geopend.
+* Als er niets gebeurt wanneer u een tegel selecteert (erop klikt) of als er een foutbericht verschijnt, zijn dit mogelijke oorzaken:
+  - Het rapport dat is gebruikt om de visualisatie te maken, is niet opgeslagen of is verwijderd.
+  - De tegel is gemaakt vanuit een werkmap in Excel Online en u beschikt niet over ten minste leesmachtigingen voor die werkmap.
+  - Als de tegel is gemaakt vanuit SSRS en u geen machtigingen hebt voor het SSRS-rapport of als u geen toegang hebt tot het netwerk waarin de SSRS-server zich bevindt.
 * Voor tegels die direct op het dashboard zijn gemaakt met behulp van **Tegel toevoegen**, wordt als een aangepaste hyperlink is ingesteld, de URL geopend wanneer u de titel, subtitel en/of tegel selecteert.  Het selecteren van een van deze tegels die direct op het dashboard zijn gemaakt voor een afbeelding, webcode of tekstvak, leidt anders standaard niet tot een actie.
-* Als u geen machtiging hebt voor het rapport binnen SSRS en u een tegel selecteert die vanuit SSRS is gemaakt, wordt een pagina geproduceerd die aangeeft dat u geen toegang hebt (rsAccessDenied).
-* Als u geen toegang hebt tot het netwerk waar de SSRS-server zich bevindt en u een tegel selecteert die is gemaakt op basis van SQL Server Reporting Services, een pagina geproduceerd die aangeeft dat de server niet kan worden gevonden (HTTP 404). Uw apparaat heeft netwerktoegang tot de rapportserver nodig om het rapport te kunnen weergeven.
 * Als de oorspronkelijke visualisatie waarmee de tegel is gemaakt wijzigt, verandert de tegel niet.  Als de *ontwerper* bijvoorbeeld een lijndiagram uit een rapport heeft vastgemaakt en het lijndiagram vervolgens wijzigt in een staafdiagram, blijft de dashboardtegel een lijndiagram weergeven. De gegevens worden vernieuwd, maar het visualisatietype niet.
 
 ## <a name="next-steps"></a>Volgende stappen

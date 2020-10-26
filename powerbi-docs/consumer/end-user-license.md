@@ -7,16 +7,16 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
+ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527931"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "91830353"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>Licenties en abonnementen voor *zakelijke gebruikers*
 
@@ -51,8 +51,16 @@ Binnen deze werkruimten wijzen ontwerpers rollen toe, zoals **Viewer**, **Inzend
 Zie [Wat is Microsoft Power BI Premium?](../admin/service-premium-what-is.md) voor meer informatie over Premium-capaciteit.
 
 ## <a name="find-out-which-licenses-you-have"></a>Ontdekken welke licenties u hebt
+Selecteer uw profielafbeelding om accountgegevens weer te geven. Zalan maakt gebruik van een gratis licentie. 
 
-Ga naar [uw **Mijn account**-pagina](https://portal.office.com/account) van Microsoft om te zien welke licenties aan u zijn toegewezen.  Selecteer het tabblad voor **Abonnementen**.
+![Schermopname van een vervolgkeuzelijst die wordt weergegeven wanneer u op uw profielafbeelding klikt](media/end-user-license/power-bi-profiles.png)
+
+
+Als u meer informatie over uw account wilt zien, selecteert u **Account weergeven**. [Uw pagina **Mijn account** van Microsoft](https://portal.office.com/account) wordt geopend in een nieuw browsertabblad.  Om te zien welke licenties aan u zijn toegewezen.  Selecteer het tabblad voor **Abonnementen**.
+
+![Schermopname van de pagina Accounts van Microsoft 365.](media/end-user-license/power-bi-subscriptions.png)
+
+
 
 
 Deze eerste gebruiker, Pradtanna, heeft Office 365 E5 met daarin een Power BI Pro-licentie.
@@ -95,7 +103,7 @@ Wanneer een organisatie een Premium-abonnement koopt, wijst de beheerder doorgaa
 
 |Licentietype  |Gedeelde capaciteit |Toegewezen Premium-capaciteit  |
 |---------|---------|---------|
-|**Gratis**     |  Gebruiken als een persoonlijke sandbox waarin u inhoud voor uzelf maakt en alleen met die inhoud werkt. Een gratis licentie is een goede manier om de Power BI-service te proberen. U kunt geen inhoud van anderen gebruiken of uw eigen inhoud met anderen delen <sup>1</sup>     |   Werk met inhoud die aan toegewezen capaciteit is toegewezen en met u is gedeeld. Gratis gebruikers en Pro-gebruikers kunnen met elkaar samenwerken zonder dat de gratis gebruikers hiervoor een Pro-account moeten hebben.      |
+|**Gratis**     |  Gebruiken als een persoonlijke sandbox waarin u inhoud voor uzelf maakt en alleen met die inhoud werkt. Een gratis licentie is een goede manier om de Power BI-service te proberen. U kunt geen inhoud van anderen gebruiken of uw eigen inhoud met anderen delen <sup>1</sup>     |   Werk met inhoud die aan een toegewezen Premium-capaciteit is toegewezen en met u is gedeeld. Gratis gebruikers en Pro-gebruikers kunnen met elkaar samenwerken zonder dat de gratis gebruikers hiervoor een Pro-account moeten hebben.      |
 |**Pro**     |  Werk samen met andere Pro-gebruikers door inhoud te maken en te delen.        |  Werk samen met gratis gebruikers en Pro-gebruikers door inhoud te maken en te delen.       |
 
 
@@ -125,7 +133,7 @@ De Power BI Pro-*ontwerper* kan deze werkruimten gebruiken om inhoud te delen en
 
 - <sup>1</sup> Een gratis gebruikerslicentie voor de Power BI-service is perfect voor iemand die deze versie wil verkennen of wil gebruiken voor analyse van persoonlijke gegevens en visualisaties met **Mijn werkruimte**. Een zelfstandig gebruiker met een gratis licentie gebruikt Power BI niet om met collega's samen te werken. Zelfstandige gebruikers met een gratis licentie kunnen geen inhoud weergeven die door anderen wordt gedeeld of hun eigen inhoud delen met andere Power BI-gebruikers.
 
-    ![afbeelding van zelfstandige gebruikers](media/end-user-license/power-bi-free-license.jpg)
+
 
 ## <a name="next-steps"></a>Volgende stappen
 

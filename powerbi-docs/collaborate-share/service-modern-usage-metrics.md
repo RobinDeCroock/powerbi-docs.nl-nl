@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0555f6c46ef864ed89d3d364420a14a2ff18ab84
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: c4f9d83d612d8f8d442fc5267be66a2a5cf288a2
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136092"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116610"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Metrische gebruiksgegevens controleren in de nieuwe werkruimte-ervaring (preview)
 
@@ -92,7 +92,7 @@ Het verbeterde rapport met metrische gegevens over gebruik bevat de volgende rap
 | Gebruik rapporteren | Platform slicer | Of het rapport is geopend via de Power BI-service (powerbi.com), Power BI Embedded of een mobiel apparaat. |
 | Gebruik rapporteren | Users with report views | Toont de lijst met gebruikers die het rapport hebben geopend, gesorteerd op aantal weergaven. |
 | Gebruik rapporteren | Pagina's | Als het rapport meer dan één pagina heeft, segmenteert u het rapport op de pagina('s) die is (zijn) weergegeven. Als u een lijstoptie voor 'Leeg' ziet, betekent dit dat een rapportpagina onlangs is toegevoegd (binnen 24 uur wordt de daadwerkelijke naam van de nieuwe pagina weergegeven in de slicerlijst) en/of dat rapportpagina's zijn verwijderd. 'Leeg' legt deze situaties vast. |
-| Report performance | Typical opening time | De typische openingstijd van het rapport komt overeen met het 50e percentiel van de tijd die nodig is om het rapport te openen. Met andere woorden: het is de tijd waarbinnen 50% van de open-rapport-acties wordt voltooid. De pagina Report performance toont ook de typische openingstijden van het rapport, onderverdeeld naar verbruiksmethode en browsertype.   |
+| Report performance | Typical opening time | De typische openingstijd van het rapport komt overeen met het 50e percentiel van de tijd die nodig is om het rapport te openen. Met andere woorden: het is de tijd waarbinnen 50% van de open-rapport-acties wordt voltooid. De pagina Report performance toont ook de typische openingstijden van het rapport, onderverdeeld naar verbruiksmethode en browsertype. Op dit moment meten we de prestaties voor het eerste keer laden van het rapport en het weergeven van de eerste pagina. De meting begint wanneer het rapport wordt aangevraagd en eindigt wanneer de laatste visual wordt weergegeven. Rapportinteracties, zoals segmenteren, filteren of wijzigen van pagina's, worden niet opgenomen in de prestatiegegevens.  |
 | Report performance | Opening time trend | De trend van de openingstijd weerspiegelt de wijzigingen in de prestaties van het openen van het rapport in de loop van de tijd. De openingstijden voor het rapport van de eerste helft van de geselecteerde tijdsperiode worden vergeleken met de openingstijden van de tweede helft. |
 | Report performance | Date slicer | U kunt de tijdsperiode op de pagina Report performance wijzigen, bijvoorbeeld om de trends voor week-over-week-of tweewekelijks te berekenen. In de linkerbenedenhoek van de pagina Report performance kunt u de vroegste en de laatste datum bepalen waarvoor gebruiksgegevens beschikbaar zijn voor het geselecteerde rapport. |
 | Report performance | Daily performance | De prestaties voor 10%, 50% en 90% van de open-rapport-acties berekend voor elke afzonderlijke dag. |

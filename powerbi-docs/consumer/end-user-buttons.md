@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/01/2020
+ms.date: 10/10/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 1b0b677e67fa15906492fbaa41fcfd456d77bf01
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: f0ddbbbce93a14c3468eacca130163758ca85c45
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633879"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982148"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Knoppen in de Power BI-service
 In de rapporten die u van collega's ontvangt, hebt u mogelijk knoppen gedetecteerd en hebt u zich afgevraagd hoe u deze kunt gebruiken. Sommige bevatten woorden, andere bevatten pijlen en weer andere afbeeldingen. Sommige bevatten zelfs vervolgmenu's. In dit artikel leert u hoe u een knop herkent en hoe u kunt ontdekken wat u ermee moet doen.
@@ -23,24 +23,23 @@ In de rapporten die u van collega's ontvangt, hebt u mogelijk knoppen gedetectee
 Knoppen kunnen veel lijken op vormen, afbeeldingen of pictogrammen op een rapportpagina. Maar als er een actie wordt uitgevoerd wanneer u deze selecteert (erop klikt), is het waarschijnlijk een knop.
 
 ## <a name="types-of-buttons"></a>Typen knoppen
-Auteurs van rapporten voegen knoppen toe aan rapporten om u te helpen bij het navigeren en verkennen. De typen knoppen zijn: **Vorige**, **Bladwijzer** **Drillthrough**, **Paginanavigatie**, **Q&A** en **Web-URL**. 
+Auteurs van rapporten voegen knoppen toe aan rapporten om u te helpen bij het navigeren en verkennen. Enkele voorbeelden van knoptypen: vorige, bladwijzer, pijlen, Q&A, help en leeg. 
 
 ### <a name="back-buttons"></a>Vorige-knoppen 
 Een Vorige-knop kan een pijlpictogram bevatten. Wanneer u deze selecteert, keert u terug naar de vorige pagina in Power BI.  De Vorige-knoppen worden vaak gebruikt bij drillthrough. Hier volgt een voorbeeld van een Vorige-knop die wordt gebruikt bij drillthrough.
 
-1. Selecteer **Word** in het staafdiagram.
-1. Selecteer **Analyseren** en kies **Market Basket Analysis**.
+1. De gebruiker heeft **Word** geselecteerd in het staafdiagram en zoomt in op **Market Basket Analysis**.
 
     ![Schermopname van de knop Analyseren.](media/end-user-buttons/power-bi-drillthrough.png)
 
-    Wanneer u **Market Basket Analysis**, kiest, wordt in Power BI de rapportpagina *Market Basket Analysis* geopend en worden de selecties gebruikt die u hebt gemaakt op de bronpagina om te filteren wat op de doelpagina wordt weergegeven.
+2. Wanneer u **Market Basket Analysis**, kiest, wordt in Power BI de rapportpagina *Market Basket Analysis* geopend en worden de selecties gebruikt die u hebt gemaakt op de bronpagina om te filteren wat op de doelpagina wordt weergegeven.
 
-    ![Schermopname van de knop Vorige.](media/end-user-buttons/power-bi-go-back.png)
+    ![Schermopname van de knop Vorige.](media/end-user-buttons/power-bi-back.png)
 
-    U bent nu op de rapportpagina **Market Basket Analysis** die op Word is gefilterd. Selecteer de Vorige-knop om terug te keren naar de vorige pagina. 
+    U bent nu op de rapportpagina **Market Basket Analysis**, die op **Word** is gefilterd. Selecteer de Vorige-knop met het label **Go back** om terug te keren naar de vorige pagina. 
 
 ## <a name="bookmark-buttons"></a>Bladwijzer-knoppen
-Rapportontwerpers nemen vaak bladwijzers op in hun rapporten. U kunt de lijst met rapportbladwijzers weergeven door **Weergeven** > **Bladwijzer** in de rechterbovenhoek te selecteren. Wanneer een rapportontwerper een bladwijzer-*knop* toevoegt, is het simpelweg een alternatieve manier om naar de rapportpagina te navigeren die aan die bladwijzer is gekoppeld. Op de pagina bevinden zich de toegepaste filters en instellingen die door de bladwijzer zijn vastgelegd. [Meer informatie over bladwijzers vindt u in Power BI](end-user-bookmarks.md). 
+*Ontwerpers* van rapporten nemen vaak bladwijzers op in hun rapporten. U kunt de lijst met rapportbladwijzers weergeven door **Bladwijzers** te selecteren in de rechterbovenhoek. Wanneer een rapportontwerper een bladwijzer-*knop* toevoegt, is het simpelweg een alternatieve manier om naar de rapportpagina te navigeren die aan die bladwijzer is gekoppeld. Op de pagina bevinden zich de toegepaste filters en instellingen die door de bladwijzer zijn vastgelegd. [Meer informatie over bladwijzers vindt u in Power BI](end-user-bookmarks.md). 
 
 In dit voorbeeld heeft de knop een bladwijzer-pictogram en de naam van de bladwijzer, *Urban*. 
 
@@ -76,7 +75,7 @@ Drillthrough-knoppen kunnen ook vervolgkeuzemenu's hebben die u een keuze in bes
 
 ## <a name="page-navigation"></a>Paginanavigatie
 
-Met paginanavigatie-knoppen gaat u naar een andere pagina in hetzelfde rapport. Rapportontwerpers maken vaak navigatie-knoppen om een verhaal te vertellen of u door de rapportinzichten te leiden. In het onderstaande voorbeeld heeft de rapportontwerper een knop toegevoegd op elke rapportpagina waarmee u naar de eerste pagina gaat, de overzichtspagina op het hoogste niveau in het rapport. Deze paginanavigatie-knop is handig omdat dit rapport uit veel pagina's bestaat.
+Met paginanavigatie-knoppen gaat u naar een andere pagina in hetzelfde rapport. Rapportontwerpers maken vaak navigatie-knoppen om een verhaal te vertellen of u door de rapportinzichten te leiden. In het onderstaande voorbeeld heeft de rapportontwerper een knop toegevoegd op elke rapportpagina waarmee u terug naar de eerste pagina gaat, de overzichtspagina op het hoogste niveau in het rapport. Deze paginanavigatie-knop is handig omdat dit rapport uit veel pagina's bestaat.
 
 ![Schermopname van de paginanavigatieknop genaamd Team-scorecard.](media/end-user-buttons/power-bi-nav-button.png)
 
@@ -87,7 +86,7 @@ Als u een Q&A-knop selecteert, wordt het Explorer-venster Power BI Q&A geopend. 
 ![Schermopname van het Explorer-venster Power BI Q&A met de tekst 'Een vraag stellen over uw gegevens'.](media/end-user-buttons/power-bi-qna.png)
 
 ## <a name="web-url"></a>Web-URL
-Met de knoppen Web-URL opent u een nieuw browservenster. Rapportontwerpers kunnen dit type knop toevoegen als referentiebron toevoegen als koppeling naar de bedrijfswebsite, of zelfs als koppeling naar een ander rapport of dashboard. In het onderstaande voorbeeld kunt u met de Web-URL-knop het bronbestand voor het rapport downloaden. 
+Met de knoppen Web-URL opent u een nieuw browservenster. Rapportontwerpers kunnen dit type knop toevoegen als referentiebron toevoegen als koppeling naar de bedrijfswebsite of een Help-pagina, of zelfs als koppeling naar een ander rapport of dashboard. In het onderstaande voorbeeld kunt u met de Web-URL-knop het bronbestand voor het rapport downloaden. 
 
 Aangezien de pagina in een afzonderlijk venster wordt geopend, sluit u het venster of selecteert u het tabblad Power BI om terug te gaan naar het Power BI-rapport.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 10/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
+ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020039"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92256550"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -185,19 +185,21 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Emigo Data Source
 * Entersoft Business Suite (bèta)
 * FactSet Analytics
-* Palantir Foundry
-* Industrial App Store
+* Hexagon PPM Smart API
 * Intune Data Warehouse (bèta)
 * Microsoft Graph Security (bèta)
-* Projectplace voor Power BI (bèta)
 * Product Insights (bèta)
 * Quick Base
 * TeamDesk (bèta)
 * Webtrends Analytics (bèta)
 * Witivio (bèta)
-* Zoho Creator (bèta)
 * Workplace Analytics (bèta)
-* Hexagon PPM Smart API
+* Zoho Creator (bèta)
+* Palantir Foundry
+* Industrial App Store
+* Projectplace voor Power BI
+* eWay-CRM (bèta)
+* Spigit (bèta)
 
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
@@ -238,18 +240,26 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Tenforce (Smart)List
 * TIBCO (R) Data Virtualization (bèta)
 * Vena (bèta)
-* Zucchetti HR Infinity (bèta)
 * Vessel Insight (bèta)
+* Zucchetti HR Infinity (bèta)
 * Lege query
 
 
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Overige**.
 
-![Overige gegevensbronnen, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
+![Andere gegevensbronnen in Power BI Desktop](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > Op dit moment is het niet mogelijk om verbinding te maken met aangepaste gegevensbronnen die zijn beveiligd met Azure Active Directory.
+
+### <a name="template-apps"></a>Sjabloon-apps
+
+U kunt sjabloon-apps voor uw organisatie vinden door de koppeling **Sjabloon-apps** onderaan het venster **Gegevens ophalen** te selecteren. 
+
+![Het dialoogvenster Gegevens ophalen voor overige gegevensbronnen in Power BI Desktop](media/desktop-data-sources/data-sources-12.png)
+
+Beschikbare sjabloon-apps kunnen variëren op basis van uw organisatie.
 
 ## <a name="connecting-to-a-data-source"></a>Verbinding maken met een gegevensbron
 
@@ -273,25 +283,43 @@ Dat is alles wat u hoeft te weten om verbinding te maken met gegevensbronnen in 
 
 PBIDS-bestanden zijn Power BI Desktop-bestanden die een specifieke structuur hebben, samen met een PBIDS-extensie om aan te geven dat het een Power BI-gegevensbronbestand betreft.
 
-U kunt een PBIDS-bestand maken om de ervaring met **Gegevens ophalen** te stroomlijnen voor rapportontwerpers in uw organisatie. We raden aan dat deze bestanden voor veelgebruikte verbindingen door een beheerder worden gemaakt, zodat een nieuwe rapportauteur PBIDS-bestanden eenvoudiger kan gebruiken.
+U kunt een PBIDS-bestand maken om de ervaring met **Gegevens ophalen** te stroomlijnen voor nieuwe of onervaren rapportontwerpers in uw organisatie. Als u het PBIDS-bestand maakt op basis van bestaande rapporten, is het eenvoudiger voor beginnende ontwerpers van rapporten om nieuwe rapporten te bouwen op basis van dezelfde gegevens.
 
-Wanneer een auteur een PBIDS-bestand opent, wordt Power BI Desktop geopend en wordt de gebruiker gevraagd om referenties te verifiëren en verbinding te maken met de gegevensbron die in het bestand is opgegeven. Het dialoogvenster **Navigatie** wordt weergegeven en de gebruiker moet de tabellen van die gegevensbron selecteren om in het model te laden. Gebruikers moeten mogelijk ook de database(s) selecteren als er geen is opgegeven in het PBIDS-bestand.
+Wanneer een auteur een PBIDS-bestand opent, wordt Power BI Desktop geopend en wordt de gebruiker gevraagd om referenties te verifiëren en verbinding te maken met de gegevensbron die in het bestand is opgegeven. Het dialoogvenster **Navigatie** wordt weergegeven en de gebruiker moet de tabellen van die gegevensbron selecteren om in het model te laden. Gebruikers moeten mogelijk ook de database(s) en verbindingsmodus selecteren als die niet zijn opgegeven in het PBIDS-bestand.
 
 Vanaf dat moment kan de gebruiker beginnen met het samenstellen van visualisaties of **Recente bronnen** selecteren om een nieuwe groep tabellen in het model te laden.
 
 Momenteel ondersteunen PBIDS-bestanden slechts één gegevensbron in één bestand. Als u meer dan één gegevensbron opgeeft, resulteert dat in een fout.
 
-Voor het maken van het PBIDS-bestand moet een beheerder de vereiste invoer voor een enkele verbinding opgeven. De beheerder kan ook de verbindingsmodus opgeven als DirectQuery of Importeren. Als **mode** ontbreekt/null is in het bestand, wordt de gebruiker die het bestand opent in Power BI Desktop gevraagd om **DirectQuery** of **Importeren** te selecteren.
+
+### <a name="how-to-create-a-pbids-connection-file"></a>Een PBIDS-verbindingsbestand maken
+
+Als u een bestaand Power BI Desktop-bestand (PBIX-bestand) hebt dat al is verbonden met de gegevens waarin u geïnteresseerd bent, kunt u dit verbindingsbestand gewoon exporteren vanuit Power BI Desktop. Dit is de aanbevolen methode, aangezien het PBIDS-bestand automatisch kan worden gegenereerd vanaf het bureaublad. Daarnaast kunt u het bestand nog steeds bewerken of handmatig maken in een teksteditor. 
+
+Als u het PBIDS-bestand wilt maken, selecteert u **Bestand > Opties en instellingen > Instellingen voor gegevensbron**:
+
+![De menuoptie Instellingen voor gegevensbron](media/desktop-data-sources/data-sources-09.png)
+
+In het dialoogvenster dat wordt weergegeven, selecteert u de gegevensbron die u wilt exporteren als een PBIDS en selecteert u vervolgens **PBIDS exporteren**.
+
+![Het dialoogvenster Instellingen voor gegevensbron](media/desktop-data-sources/data-sources-10.png)
+
+Wanneer u de knop **PBIDS exporteren** selecteert, genereert Power BI Desktop het PBIDS-bestand. U kunt het bestand onder een andere naam opslaan en delen met anderen. U kunt het bestand ook openen in een teksteditor en het bestand verder aanpassen. Zo kunt u de verbindingsmodus in het bestand zelf opgeven, zoals wordt weergegeven in de volgende afbeelding. 
+
+![Een teksteditor gebruiken om het PBIDS-bestand te wijzigen](media/desktop-data-sources/data-sources-11.png)
+
+Als u PBIDS-bestanden liever handmatig in een teksteditor maakt, moet u de vereiste invoer voor één verbinding opgeven en het bestand opslaan met de extensie PBIDS. Desgewenst kunt u de verbindingsmodus ook opgeven als DirectQuery of Importeren. Als **mode** ontbreekt/null is in het bestand, wordt de gebruiker die het bestand opent in Power BI Desktop gevraagd om **DirectQuery** of **Importeren** te selecteren.
+
 
 ### <a name="pbids-file-examples"></a>Voorbeelden van PBIDS-bestanden
 
-Deze sectie bevat enkele voorbeelden van veelgebruikte gegevensbronnen. Dit PBIDS-bestandstype ondersteunt alleen gegevensverbindingen die ook worden ondersteund in Power BI Desktop, met twee uitzonderingen: Live Connect en lege query.
+Deze sectie bevat enkele voorbeelden van veelgebruikte gegevensbronnen. Het bestandstype PBIDS ondersteunt alleen gegevensverbindingen die ook worden ondersteund in Power BI Desktop, met de volgende uitzonderingen: Wiki URLS, Live Connect en Lege query.
 
 Dit PBIDS-bestand bevat *geen* verificatie-informatie en tabel- en schema-informatie.  
 
 De volgende codefragmenten tonen enkele algemene voorbeelden voor PBIDS-bestanden. Ze zijn echter niet volledig of allesomvattend. Voor andere gegevensbronnen kunt u verwijzen naar de [DSR-indeling (Data Source Reference) voor protocol- en adresgegevens ](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification).
 
-Deze voorbeelden zijn alleen bedoeld voor het gemak. Ze zijn niet volledig en bevatten niet alle ondersteunde connectors in DSR-indeling. Beheerders of organisaties kunnen hun eigen gegevensbronnen definiëren aan de hand van deze voorbeelden, zodat ze hun eigen gegevensbronbestanden kunnen maken en ondersteunen.
+Als u de verbindingsbestanden bewerkt of handmatig maakt, zijn deze voorbeelden alleen bedoeld voor het gemak. Ze zijn niet volledig en bevatten niet alle ondersteunde connectors in DSR-indeling.
 
 #### <a name="azure-as"></a>Azure AS
 

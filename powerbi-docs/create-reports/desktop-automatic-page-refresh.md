@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f282db76417fb99f07d39bb9f684515dd1d312c0
-ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
+ms.openlocfilehash: 3ffc865a4be18b8fa11dda2d94bc2c8892fc3000
+ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88764969"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "92116518"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Automatische paginavernieuwing in Power BI
 
@@ -197,6 +197,9 @@ In deze tabel wordt gedetailleerder beschreven waar deze functie beschikbaar is 
 *Tabellegenda:*
 1. *VI: Vast interval*
 2. *WD: Wijzigingsdetectie*
+
+> [!WARNING]
+> Als dit is ingeschakeld in uw gegevensset, wordt er door de meting voor wijzigingsdetectie een verbinding met uw DirectQuery-gegevensbron geopend om de meting te berekenen en te controleren op wijzigingen. Deze verbinding wijkt af van de vernieuwingsverbindingen met lage prioriteit die Power BI al opzet.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

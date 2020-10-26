@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 10/09/2020
 ms.author: mihart
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: cbf4c242ef1bc3fe304e162a49d2d971677f463d
-ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
+ms.openlocfilehash: 15345c8ca7249c3a6bf4018a322a8ce3d78b9de3
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88512903"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982080"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
 
@@ -35,7 +35,7 @@ Voor het bekijken en openen van een app zijn bepaalde machtigingen vereist. De o
 ## <a name="advantages-of-apps"></a>Voordelen van apps
 Apps bieden een eenvoudige manier voor *ontwerpers* om verschillende typen inhoud in één keer met anderen te delen. App-*ontwerpers* maken de dashboards en rapporten en bundelen deze in een app. De *ontwerpers* kunnen de app vervolgens delen of publiceren naar een locatie waarop u, de *zakelijke gebruiker*, toegang tot die app hebt. Omdat gerelateerde dashboards en rapporten worden gebundeld, is het eenvoudiger om deze zowel in de Power BI-service ([https://powerbi.com](https://powerbi.com)) als op uw mobiele apparaat te zoeken en te installeren. Nadat u een app hebt geïnstalleerd, hoeft u de namen van veel verschillende dashboards of rapporten niet meer te onthouden omdat ze allemaal bij elkaar staan in de app, in uw browser of op uw mobiele apparaat.
 
-Bij apps ziet u automatisch de wijzigingen wanneer de auteur van de app updates publiceert. De auteur bepaalt ook hoe vaak de gegevens worden gepland om te worden vernieuwd, zodat u zich geen zorgen hoeft te maken over het up-to-date houden van de gegevens. 
+Bij apps ziet u een melding wanneer de auteur van de app updates publiceert of worden de wijzigingen automatisch doorgevoerd. De auteur bepaalt ook hoe vaak de gegevens worden gepland om te worden vernieuwd, zodat u zich geen zorgen hoeft te maken over het up-to-date houden van de gegevens. 
 
 <!-- add conceptual art -->
 ## <a name="get-a-new-app"></a>Een nieuwe app verkrijgen
@@ -44,7 +44,7 @@ Er zijn verschillende manieren om een ​​nieuwe app te verkrijgen. U kunt app
 ### <a name="find-and-install-apps-from-the-power-bi-apps-marketplace"></a>U kunt apps zoeken en installeren via de Marketplace voor Power BI-apps
 Een manier om apps te vinden, is door **App ophalen** te selecteren in het venster Power BI-**apps**. 
 
-![Schermopname van het venster Apps met het pictogram Apps ophalen](./media/end-user-apps/power-bi-get-apps-icon.png)
+![Schermopname van het venster Apps met het pictogram Apps ophalen](./media/end-user-apps/power-bi-get-apps-button.png)
 
 Blader door de lijst met apps in de Marketplace voor Power BI-apps totdat u er een hebt gevonden om te installeren. Kies uit **organisatie-apps**, die alleen beschikbaar zijn voor mensen in uw bedrijf, of **sjabloon-apps**, die door Microsoft en de community beschikbaar worden gesteld voor installatie door elke Power BI-gebruiker. 
 
@@ -59,7 +59,7 @@ Er zijn een aantal andere manieren om apps te downloaden. Een aantal van deze ma
 
 Uw apps zijn georganiseerd in de **Apps**-inhoudslijst. U hoeft alleen **Apps** te selecteren om uw apps weer te geven. Beweeg de muisaanwijzer over een app om de meest recente update en de eigenaar weer te geven. 
 
-![Apps in Power BI](./media/end-user-apps/power-bi-apps-red.png)
+![Apps in Power BI](./media/end-user-apps/power-bi-apps.png)
 
 
 ## <a name="next-steps"></a>Volgende stappen

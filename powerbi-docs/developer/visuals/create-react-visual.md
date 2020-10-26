@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 0160bf604b23102bcb6e21232a64a776f3bb8290
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 653724c6028b5be950c09c9361cdb43edc930e3a
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746258"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049057"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Zelfstudie: Een React-visual maken
 
@@ -36,8 +36,8 @@ In deze zelfstudie leert u het volgende:
 
 * Een **Power BI Pro**-account. [Meld u aan voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 * [Visual Studio Code](https://www.visualstudio.com/).
-* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) versie 4 of hoger voor Windows-gebruikers OF [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) voor OSX-gebruikers.
-* Een omgeving zoals beschreven in [De ontwikkelomgeving instellen](custom-visual-develop-tutorial.md#setting-up-the-developer-environment).
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) versie 4 of hoger voor Windows-gebruikers OF [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) voor OSX-gebruikers.
+* Een omgeving zoals wordt beschreven in [Uw omgeving instellen voor het ontwikkelen van een Power BI-visual](environment-setup.md).
 
 ## <a name="getting-started"></a>Aan de slag
 

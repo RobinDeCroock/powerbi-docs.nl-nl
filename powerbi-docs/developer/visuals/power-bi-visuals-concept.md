@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: d5d075e3627ded01f7e47c1b073b60ff379bb506
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 94926ccf0fa214ca4c65808a7476842c22308359
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537637"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048850"
 ---
 # <a name="power-bi-visuals-system-integration"></a>Systeemintegratie van Power BI-visuals
 
@@ -130,5 +130,5 @@ Acties en volgende updates in Power BI-visuals treden op in een van deze drie pa
 
 Bent u geïnteresseerd in het maken van uw eigen visualisaties en wilt u deze toevoegen aan Microsoft AppSource? Zie deze artikelen:
 
-* [Een Power BI-visual ontwikkelen](./custom-visual-develop-tutorial.md)
+* [Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen](./develop-circle-card.md)
 * [Power BI-visuals publiceren in het Partnercentrum](office-store.md)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 6bd70657cecd12ebab7ac54f125e4c358b2cc4aa
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 95f9ebd689f06fcacde9819789e1240f2dd6c3d3
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349052"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025974"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen
 
@@ -24,17 +24,17 @@ VanArsdel heeft veel concurrenten, maar is de marktleider binnen de branche. De 
 
 ![Dashboard voor het voorbeeld van verkoop en marketing](media/sample-sales-and-marketing/sales1.png)
 
-Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Het voorbeeld is door [obviEnce](http://www.obvience.com/) met echte, geanonimiseerde gegevens gemaakt. De gegevens zijn beschikbaar in verschillende indelingen: inhoudspakket, een PBIX-bestand van Power BI Desktop of een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
+Dit voorbeeld maakt deel uit van een serie die laat zien hoe u Power BI kunt gebruiken met bedrijfsgegevens, rapporten en dashboards. Het voorbeeld is door [obviEnce](http://www.obvience.com/) met echte, geanonimiseerde gegevens gemaakt. De gegevens zijn beschikbaar in verschillende indelingen: als voorbeeld in het product, als een PBIX-bestand van Power BI Desktop of als een Excel-werkmap. Zie [Voorbeelden voor Power BI](sample-datasets.md). 
 
-In deze zelfstudie gebruiken we het voorbeeldinhoudspakket voor verkoop en marketing in de Power BI-service. Omdat de rapportervaringen in Power BI Desktop en in de service zo vergelijkbaar zijn, kunt u de zelfstudie ook volgen met het PBIX-voorbeeldbestand in Power BI Desktop. 
+In deze zelfstudie gebruiken we het voorbeeld over verkoop en marketing in de Power BI-service. Omdat de rapportervaringen in Power BI Desktop en in de service zo vergelijkbaar zijn, kunt u de zelfstudie ook volgen met het PBIX-voorbeeldbestand in Power BI Desktop. 
 
 U hebt geen licentie voor Power BI nodig om de voorbeelden te bekijken in Power BI Desktop. Als u geen Power BI Pro-licentie hebt, kunt u het voorbeeld opslaan in uw Mijn werkruimte in de Power BI-service. 
 
 ## <a name="get-the-sample"></a>Het voorbeeld ophalen
 
-Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inhoudspakket](#get-the-content-pack-for-this-sample), een [PBIX-bestand](#get-the-pbix-file-for-this-sample) of een [Excel-werkmap](#get-the-excel-workbook-for-this-sample).
+Voordat u het voorbeeld kunt gebruiken, moet u eerst het [dashboard, het rapport en de gegevensset](#get-the-sample-from-the-power-bi-service) downloaden, plus het [.pbix-bestand](#get-the-pbix-file-for-this-sample) of de [Excel-werkmap](#get-the-excel-workbook-for-this-sample).
 
-### <a name="get-the-content-pack-for-this-sample"></a>Het inhoudspakket voor dit voorbeeld ophalen
+### <a name="get-the-sample-from-the-power-bi-service"></a>Het voorbeeld ophalen vanuit de Power BI-service
 
 1. Open de Power BI-service (app.powerbi.com), meld u aan en open de werkruimte waar u het voorbeeld wilt opslaan.
 
@@ -49,7 +49,7 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inh
   
    ![Verbinding maken met voorbeeld](media/sample-sales-and-marketing/sales9.png)
    
-5. Het inhoudspakket wordt geïmporteerd in Power BI en er wordt een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte.
+5. Het voorbeeld wordt geïmporteerd in Power BI en er worden een nieuw dashboard, een nieuw rapport en een nieuwe gegevensset toegevoegd aan de huidige werkruimte.
    
    ![Vermelding Voorbeeld van verkoop en marketing](media/sample-sales-and-marketing/sales11.png)
   

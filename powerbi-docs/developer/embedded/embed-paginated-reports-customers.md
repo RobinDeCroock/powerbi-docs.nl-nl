@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 2c06464999192e71c2d398f41b7b96e8fa4a169b
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748834"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983477"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten
 
@@ -34,7 +34,7 @@ U hebt het volgende nodig om aan de slag te gaan:
 * Een [service-principal (token voor apps)](embed-service-principal.md)
 * Een [Microsoft Azure](https://azure.microsoft.com/)-abonnement
 * Een eigen [Azure Active Directory-tenant ](create-an-azure-active-directory-tenant.md)
-* Minimaal de [capaciteit](#create-a-dedicated-capacity) A4 of P1 en de werkbelasting [gepagineerde rapporten](../../admin/service-admin-premium-workloads.md#paginated-reports) ingeschakeld
+* Minimaal de [capaciteit](#create-a-capacity) A4 of P1 en de werkbelasting [gepagineerde rapporten](../../admin/service-admin-premium-workloads.md#paginated-reports) ingeschakeld
 
 Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
 
@@ -45,17 +45,17 @@ Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 
-Als u een gepagineerd rapport wilt insluiten, moet u een werkruimte toewijzen aan een toegewezen capaciteit en het rapport uploaden naar de werkruimte.
+Als u een gepagineerd rapport wilt insluiten, moet u een werkruimte toewijzen aan een capaciteit en het rapport uploaden naar de werkruimte.
 
 ### <a name="create-an-app-workspace"></a>Een app-werkruimte maken
 
 Als u een [service-principal](embed-service-principal.md) gebruikt voor aanmelding bij uw toepassing, moet u de [nieuwe werkruimten](../../collaborate-share/service-create-the-new-workspaces.md) gebruiken. Als *service-principal*moet u ook een beheerder of lid zijn van de app-werkruimten die bij uw app betrokken zijn.
 
-### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
+### <a name="create-a-capacity"></a>Een capaciteit maken
 
 Voordat u een gepagineerd rapport importeert of uploadt om in te sluiten, moet de werkruimte met het rapport minimaal de capaciteit A4 of P1 krijgen. U kunt uit twee soorten capaciteit kiezen:
 * **Power BI Premium**: voor het insluiten van een gepagineerd rapport is *P*-SKU vereist. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../../admin/service-premium-what-is.md) voor meer informatie over dit abonnement
-* **Azure Power BI Embedded**: u kunt toegewezen capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Voor het insluiten van gepagineerde rapporten hebt u minimaal een *A4*-abonnement nodig. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
+* **Azure Power BI Embedded**: u kunt een capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Voor het insluiten van gepagineerde rapporten hebt u minimaal een *A4*-abonnement nodig. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
 In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](./embedded-faq.md#which-solution-should-i-choose).
 
@@ -66,11 +66,11 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 | P3/A6 | 32 | 16 | 100 | 16 |
 | | | | | |
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Een app-werkruimte toewijzen aan een toegewezen capaciteit
+### <a name="assign-an-app-workspace-to-a-capacity"></a>Een app-werkruimte toewijzen aan een capaciteit
 
-Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die toegewezen capaciteit.
+Als u een capaciteit hebt gemaakt, kunt u uw app-werkruimte toewijzen aan die capaciteit.
 
-Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen met behulp van een [service-principal](embed-service-principal.md), gebruikt u de [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md) gebruiken.
+Als u een capaciteit met behulp van een [service-principal](embed-service-principal.md) wilt toewijzen aan een werkruimte, gebruikt u de [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md) gebruiken.
 
 ### <a name="create-and-upload-your-paginated-reports"></a>Gepagineerde rapporten maken en uploaden
 

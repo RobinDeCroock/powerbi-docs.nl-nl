@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/02/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 63acae99f0abd4fc91f4ae51b33786a3e01093ea
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c05cb79d0996ad1819f0145193760ab16a031ffb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226018"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526715"
 ---
 # <a name="manage-your-workspace-in-power-bi-and-microsoft-365"></a>Uw werkruimte beheren in Power BI en Microsoft 365
 
@@ -42,7 +42,7 @@ U hebt een [Power BI Pro](../fundamentals/service-features-license-type.md)-lice
 
 1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer **Meer opties** (…) naast de naam van de werkruimte > **Deze werkruimte bewerken**.
 
-   ![Werkruimten bewerken in Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Schermopname van de startpagina van Power B I met Werkruimten geselecteerd en Deze werkruimte bewerken geselecteerd in het menu Meer opties.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
 
    > [!NOTE]
    > U ziet **Deze werkruimte bewerken** alleen als u beheerder van een werkruimte bent.
@@ -61,7 +61,7 @@ U kunt aspecten van een werkruimte ook rechtstreeks bewerken in Outlook voor Mic
 
 1. Selecteer in de Power BI-service de pijl naast **Werkruimten** > selecteer **Meer opties** (...) naast de naam van uw werkruimte > **Leden**.
 
-   ![Werkruimten bewerken in Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
+   ![Schermopname van de startpagina van Power B I met Werkruimten geselecteerd en Leden geselecteerd in het menu Meer opties.](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis-members.png)
 
    Hiermee opent u de groepsweergave van Outlook voor Microsoft 365 van uw werkruimte. Mogelijk moet u zich aanmelden bij uw bedrijfsaccount.
 

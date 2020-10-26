@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/27/2020
-ms.openlocfilehash: 3f3574545d82ac11c762b7011afdc49cbe855224
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3a68f3dedbef9e97b6c29d3a0923d43872a5f01a
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83141149"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92048804"
 ---
 # <a name="add-colors-to-your-power-bi-visuals"></a>Kleuren toevoegen aan uw Power BI-visuals
 
@@ -23,7 +23,7 @@ Een van de services die met `IVisualHost` wordt geboden, zijn kleuren.
 Met de voorbeeldcode in dit artikel wordt de [visual SampleBarChart](https://github.com/microsoft/PowerBI-visuals-sampleBarChart) gewijzigd.
 Zie [barChart.ts](https://github.com/microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts) voor de broncode.
 
-Zie [Een Power BI-visual ontwikkelen](custom-visual-develop-tutorial.md) om te beginnen met het maken van visuals.
+Als u zelf visuals wilt gaan maken, raadpleegt u [Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen](develop-circle-card.md).
 
 ## <a name="add-color-to-data-points"></a>Kleuren toevoegen aan gegevenspunten
 

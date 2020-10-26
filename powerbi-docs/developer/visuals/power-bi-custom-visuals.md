@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87538005"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049241"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
@@ -72,7 +72,7 @@ Power BI-visuals zijn pakketten die code bevatten voor het weergeven van de gege
 
 Als u een Power BI-visual wilt importeren, klikt u in het deelvenster *Visualisatie* op **Een aangepaste visual importeren** en selecteert u **Importeren uit bestand**.
 
-Als u een webontwikkelaar bent en geïnteresseerd bent in het maken van uw eigen visual en deze wilt toevoegen aan AppSource, kunt u leren hoe u [een Power BI-visual ontwikkelt](custom-visual-develop-tutorial.md) en [een Power BI-visual naar AppSource publiceert](office-store.md).
+Als u een webontwikkelaar bent en geïnteresseerd bent in het maken van uw eigen visual en deze wilt toevoegen aan AppSource, kunt u leren hoe u [een Power BI-visual van een cirkelkaart ontwikkelt](develop-circle-card.md) en [een Power BI-visual naar AppSource publiceert](office-store.md).
 
 > [!WARNING]
 > Een Power BI-visual kan code bevatten met beveiligings- of privacyrisico's. Controleer of u de auteur en bron van de Power BI-visuals vertrouwt voordat u ze in uw rapport importeert.
@@ -80,7 +80,7 @@ Als u een webontwikkelaar bent en geïnteresseerd bent in het maken van uw eigen
 ## <a name="next-steps"></a>Volgende stappen
 
 >[!div class="nextstepaction"]
->[Een Power BI-visual ontwikkelen](custom-visual-develop-tutorial.md)
+>[Een visual van een cirkelkaart ontwikkelen in Power BI](develop-circle-card.md)
 
 >[!div class="nextstepaction"]
 >[Projectstructuur van Power BI-visuals](visual-project-structure.md)

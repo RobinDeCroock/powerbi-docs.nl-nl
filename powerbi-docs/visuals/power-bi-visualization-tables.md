@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 8730860a63d8d78dad7cfaafa11fb411ec8422fe
+ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634660"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91862972"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-rapporten en -dashboards
 
@@ -183,6 +183,8 @@ In Power BI wordt soms een kolomkop in een rapport en in een dashboard afgekapt.
 * Wanneer u kolomopmaak toepast, kunt u slechts één uitlijningsoptie per kolom kiezen: **Automatisch**, **Links**, **Centreren**, **Rechts**. Doorgaans bevat een kolom alleen tekst of alleen getallen, en geen combinatie daarvan. In het geval dat een kolom zowel getallen als tekst bevat, worden met de optie **Automatisch** teksten links en getallen rechts uitgelijnd. Dit gedrag ondersteunt talen die van links naar rechts worden gelezen.
 
 * Als de tekstgegevens in de cellen of kopteksten in uw tabel nieuwe regeltekens bevatten, worden deze tekens genegeerd, tenzij u de optie Tekstterugloop inschakelt in de gekoppelde kaart Opmaakvenster. 
+
+* Power BI berekent de maximale celgrootte op basis van de eerste twintig kolommen en de eerste vijftig rijen. Cellen buiten dit bereik, hebben mogelijk niet de juiste grootte.
 
 
 ## <a name="next-steps"></a>Volgende stappen

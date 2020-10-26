@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860228"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026043"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,20 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="october-2020"></a>Oktober 2020
+### <a name="automatic-page-refresh-is-now-supported-windows"></a>Automatische paginavernieuwing wordt nu ondersteund (Windows)
+
+Rapportpagina's die zijn geconfigureerd met [Pagina automatisch vernieuwen](../../create-reports/desktop-automatic-page-refresh.md) worden nu ook automatisch vernieuwd in de Power BI-app voor Windows-apparaten. En dit is niet beperkt tot de normale rapportweergave. Met de functie voor het automatisch vernieuwen van pagina's worden ook uw [presentaties en diavoorstellingen](mobile-windows-10-app-presentation-mode.md#slideshows) in real time bijgewerkt, zodat u altijd de meest recente bedrijfsgegevens en inzichten ziet.
+
+### <a name="support-for-notch-displays-ios"></a>Ondersteuning voor beeldschermen met inkeping (iOS)
+Er is ondersteuning toegevoegd voor schermen met inkepingen op iPhone en iPads, zodat u meer schermruimte hebt voor uw rapporten en dashboards. 
+
+## <a name="september-2020"></a>September 2020
+### <a name="power-bi-app-preview-for-hololens-2-is-out-in-the-stores"></a>Power BI-app (preview) voor HoloLens 2 is nu beschikbaar.
+
+De Power BI-app voor HoloLens 2 biedt u een volledig insluitende ervaring. Met behulp van het systeem voor handgebaren van HoloLens 2 kunt u uw favoriete rapporten en dashboards weergeven, het formaat ervan wijzigen en ze in de ruimte om u heen op de gewenste plek plaatsen. U kunt zelfs door de pagina's van het rapport bladeren. Rapporten en dashboards worden bijgewerkt terwijl u de app gebruikt. Als gegevens veranderen, ziet u deze wijzigingen dus meteen. Meer informatie vindt u in onze [documentatie](mobile-hololens2-app.md) en [blog](https://powerbi.microsoft.com/blog/power-bi-app-for-mixed-reality-now-available-for-hololens-2/).
+
 
 ## <a name="august-2020"></a>Augustus 2020
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>We hebben de manier waarop u door uw inhoud navigeert verbeterd (iOS en Android)

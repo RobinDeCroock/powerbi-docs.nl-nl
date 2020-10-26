@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 11/04/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 65291c81ab1952599079ff93ed4ed19694657132
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96d33351ba1f0d96cac71548854c94810cfdc692
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239073"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928281"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Power BI-visuals maken met R
 In combinatie met Power BI Desktop kunt u *R* gebruiken om uw gegevens te visualiseren. [R](https://mran.revolutionanalytics.com/documents/what-is-r) is een taal en omgeving voor statistische berekeningen en grafische weergave.
@@ -129,6 +129,8 @@ R-visuals in Power BI Desktop kennen de volgende beperkingen:
 
 * Gegevensgrootten: gegevens die voor een R-visual worden gebruikt voor plotting zijn beperkt tot 150.000 rijen. Als er meer dan 150.000 rijen zijn geselecteerd, worden alleen de bovenste 150.000 rijen gebruikt en wordt er een bericht weergegeven op de afbeelding.
 
+* Uitvoergrootte: Voor een R-visual geldt een maximale uitvoergrootte van 2 MB.
+
 * Resolutie: alle R-visuals worden weergegeven bij 72 dpi.
 
 * Plotting-apparaat: Alleen plotting naar het standaardapparaat wordt ondersteund. 
@@ -151,4 +153,4 @@ R-visuals in Power BI Desktop kennen de volgende beperkingen:
 Zie de volgende artikelen voor meer informatie over R in Power BI:
 
 * [R-scripts uitvoeren in Power BI Desktop](../connect-data/desktop-r-scripts.md)
-* [Gebruik een externe R IDE met Power BI](../connect-data/desktop-r-ide.md)
+* [Een externe R IDE met Power BI gebruiken](../connect-data/desktop-r-ide.md)

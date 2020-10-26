@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746212"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982189"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Ingesloten analyses met Power BI
 
@@ -82,9 +82,9 @@ Met een [service-principal](embed-service-principal.md) kan Power BI-inhoud word
 Ontwikkelaars die Power BI Embedded gebruiken, kunnen hun tijd besteden aan het bouwen van de kernfunctionaliteit van hun toepassing in plaats van aan het ontwikkelen van visuals en analysemogelijkheden. Ze kunnen snel reageren op verzoeken van klanten om dashboards en rapporten en ze kunnen eenvoudig inhoud insluiten aan de hand van volledig gedocumenteerde API's en SDK's. Door het verkennen van gegevens eenvoudig te maken in apps, kunnen ISV's ervoor zorgen dat klanten op welk apparaat dan ook snel goede beslissingen kunnen nemen in de juiste context.
 
 > [!IMPORTANT]
-> Hoewel voor het insluiten van inhoud de Power BI-service is vereist, hoeven uw klanten niet over een Power BI-account te beschikken om de ingesloten inhoud van uw toepassing weer te geven. 
+> Hoewel voor het insluiten van inhoud de Power BI-service is vereist, hoeven uw klanten niet over een Power BI-account te beschikken om de ingesloten inhoud van uw toepassing weer te geven.
 
-Wanneer u klaar bent om tot productie over te gaan, moet uw werkruimte worden toegewezen aan een toegewezen capaciteit. Power BI Embedded in Microsoft Azure biedt [toegewezen capaciteiten](azure-pbie-create-capacity.md) voor gebruik met uw toepassingen.
+Wanneer u klaar bent om tot productie over te gaan, moet uw werkruimte worden toegewezen aan een capaciteit. [Maak een Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) in Microsoft Azure voor gebruik met uw toepassingen.
 
 Zie [Power BI-inhoud insluiten](embed-sample-for-customers.md) voor meer informatie over het insluiten van inhoud.
 

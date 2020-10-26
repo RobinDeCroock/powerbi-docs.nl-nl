@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47f1db75eb3923c1c4195a319323c3a37d17484e
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855950"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92026071"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -156,6 +156,25 @@ Wanneer een bladwijzerweergave van een rapport is geopend, wordt de naam van de 
 
 [Lees meer over bladwijzers in de Power BI-service](../end-user-bookmarks.md).
 
+## <a name="refresh-your-data"></a>Uw gegevens vernieuwen
+
+Als u niet zeker weet of u de meest actuele gegevens bekijkt, kunt u nieuwe gegevens laden in uw rapport vanuit de Power BI-service:
+
+* Op iOS-apparaten en Android-tablets sleept u iets omlaag vanaf de bovenrand van de rapportpagina.
+* Op Android-telefoons kunt u omlaag slepen of de knop Vernieuwen gebruiken, afhankelijk van wat er is ingesteld in de [interactie-instellingen](mobile-app-interaction-settings.md).
+* Op Windows-apparaten gebruikt u de knop Vernieuwen in de rechterbovenhoek van de weergave.
+
+    Rapportpagina's waarvoor [Pagina automatisch vernieuwen](../../create-reports/desktop-automatic-page-refresh.md) is ingeschakeld, worden automatisch vernieuwd zoals geconfigureerd (alleen Windows-app).
+
+>[!NOTE]
+>Met de bovenstaande methoden om te vernieuwen, wordt de onderliggende gegevensset niet vernieuwd. De methoden werken het rapport dat u op de mobiele app bekijkt bij met eventuele nieuwe gegevens die aanwezig zijn in Power BI.
+
+### <a name="how-do-i-know-when-my-report-was-last-refreshed"></a>Hoe kan ik zien wanneer mijn rapport voor het laatst is vernieuwd?
+
+Als u wilt weten wanneer het rapport voor het laatst is vernieuwd, tikt u op de koptekst van het rapport. U ziet dan de navigatiestructuur naar het rapport, inclusief de datum en tijd van de laatste vernieuwing. 
+
+![Schermopname van informatie over het vernieuwen van rapporten in de mobiele app.](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-refresh-info.png)
+ 
 ## <a name="configure-your-experience-with-reports"></a>Uw ervaring met rapporten configureren
 De mobiele Power BI-app heeft een aantal instellingen waarmee u uw rapportervaring kunt beheren. U kunt momenteel het volgende configureren
 * **Interactie met visuals voor rapporten**: U kunt kiezen of u een interactie met één tik of dubbeltikken wilt gebruiken.

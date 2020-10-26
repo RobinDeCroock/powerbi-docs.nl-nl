@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 23f58c047eeb47fce24ad38ae54d8f4d7a1c57e7
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746741"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983040"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Capaciteitsplanning in ingesloten Power BI-analyse
 
@@ -27,11 +27,11 @@ Enkele van de dingen die u moet overwegen bij het plannen van uw capaciteit zijn
 * Gegevensvernieuwingssnelheden
 * Aanvullende gebruikspatronen die moeilijk te voorspellen zijn.
 
-Dit artikel is ontworpen om de capaciteitsplanning voor Power BI Ingesloten analyse te vereenvoudigen, door de introductie van het [toegewezen Power BI-hulpprogramma voor beoordeling van capaciteitsbelasting](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), gemaakt om het testen van de belasting voor Power BI Ingesloten analyse-capaciteiten te automatiseren (*A*-, *EM*- of *P*-SKU's).
+Dit artikel is ontworpen om de capaciteitsplanning voor Power BI Ingesloten analyse te vereenvoudigen, door de introductie van [Power BI Capacity Load Assessment Tool](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/), gemaakt om het testen van de belasting voor Power BI Ingesloten analyse-capaciteiten te automatiseren (*A*-, *EM*- of *P*-SKU's).
 
 ## <a name="planning-tool"></a>Planningsprogramma
 
- Met het [toegewezen Power BI-hulpprogramma voor beoordeling van capaciteitsbelasting](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) kunt u zien hoeveel gebruikersbelasting met uw capaciteit kan worden verwerkt. Met behulp van PowerShell kunnen geautomatiseerde belastingtests worden gemaakt op basis van uw capaciteit, en kunt u kiezen welke rapporten u wilt testen en hoeveel gelijktijdige gebruikers u wilt simuleren.
+ Met [Power BI Capacity Load Assessment Tool](https://github.com/microsoft/PowerBI-Tools-For-Capacities/tree/master/LoadTestingPowerShellTool/) kunt u zien hoeveel gebruikersbelasting met uw capaciteit kan worden verwerkt. Met behulp van PowerShell kunnen geautomatiseerde belastingtests worden gemaakt op basis van uw capaciteit, en kunt u kiezen welke rapporten u wilt testen en hoeveel gelijktijdige gebruikers u wilt simuleren.
 
 Het hulpprogramma genereert belasting bij een capaciteit door voortdurend elk rapport te renderen met nieuwe filterwaarden (om onrealistische goede prestaties door rapportcaching te voorkomen), totdat de token die is vereist voor verificatie van het hulpprogramma voor de service, is verlopen.
 

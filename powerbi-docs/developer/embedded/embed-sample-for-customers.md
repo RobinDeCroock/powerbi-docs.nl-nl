@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9af0edbe63841f6fb0e0de2e628784c89a5e44f1
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746626"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983362"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten
 
@@ -401,16 +401,16 @@ Dit voorbeeld maakt gebruik van een **EmbedConfig**-model, een **TileEmbedConfig
 
 ## <a name="move-to-production"></a>Verplaatsen naar productie
 
-Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen met toegewezen capaciteit. 
+Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen met een capaciteit.
 
 > [!Important]
-> Toegewezen capaciteit is vereist voor het verplaatsen naar productie. Alle werkruimten (met rapporten, dashboards of gegevenssets) moeten worden toegewezen aan een capaciteit.
+> Een capaciteit is vereist voor het verplaatsen naar productie. Alle werkruimten (met rapporten, dashboards of gegevenssets) moeten worden toegewezen aan een capaciteit.
 
-### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
+### <a name="create-a-capacity"></a>Een capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor uw klant. U kunt uit twee soorten capaciteit kiezen:
+Als u een capaciteit maakt, profiteert u van een resource voor uw klant. U kunt uit twee soorten capaciteit kiezen:
 * **Power BI Premium**: een Office 356-abonnement op tenantniveau dat wordt aangeboden in twee SKU-series, *EM* en *P*. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../../admin/service-premium-what-is.md) voor meer informatie over dit abonnement
-* **Azure Power BI Embedded**: u kunt toegewezen capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
+* **Azure Power BI Embedded**: u kunt capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 > [!NOTE]
 > Bij A-SKU's hebt u met een GRATIS Power BI-licentie geen toegang tot Power BI-inhoud.
 
@@ -428,30 +428,30 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 
 ### <a name="development-testing"></a>Ontwikkeltests
 
-Voor het ontwikkelen van tests kunt u insluittokens als proef gebruiken met een Pro-licentie. Gebruik een toegewezen capaciteit om items in te sluiten in een productieomgeving.
+Voor het ontwikkelen van tests kunt u insluittokens als proef gebruiken met een Pro-licentie. Gebruik een capaciteit om items in te sluiten in een productieomgeving.
 
 Het aantal insluittokens als proef dat een Power BI-service-principal of hoofdaccount kan genereren, is beperkt. Gebruik de API [Beschikbare functies](/rest/api/power-bi/availablefeatures/getavailablefeatures) om het percentage van het huidige ingesloten gebruik te controleren. Het gebruiksbedrag wordt weergegeven per service-principal of hoofd account.
 
-Als de insluittokens opraken tijdens het testen, moet u een Power BI Embedded of Premium-[capaciteit aanschaffen](embedded-capacity.md). Met een toegewezen capaciteit kunt u een onbeperkt aantal insluitingstokens genereren.
+Als de insluittokens opraken tijdens het testen, moet u een Power BI Embedded of Premium-[capaciteit aanschaffen](embedded-capacity.md). Met een capaciteit kunt u een onbeperkt aantal insluittokens genereren.
 
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Een werkruimte toewijzen aan een toegewezen capaciteit
+### <a name="assign-a-workspace-to-a-capacity"></a>Werkruimte toewijzen aan een capaciteit
 
-Zodra u toegewezen capaciteit hebt gemaakt, kunt u uw werkruimte toewijzen aan die toegewezen capaciteit.
+Zodra u capaciteit hebt gemaakt, kunt u uw werkruimte toewijzen aan die capaciteit.
 
-Alle werkruimten die Power BI-resources bevatten die betrekking hebben op de ingesloten inhoud (inclusief gegevenssets, rapporten en dashboards), moeten worden toegewezen aan toegewezen capaciteiten. Als bijvoorbeeld een ingesloten rapport en de gegevensset die hieraan is gekoppeld, zich in verschillende werkruimten bevinden, moeten beide werkruimten zijn toegewezen aan toegewezen capaciteiten.
+Alle werkruimten die Power BI-resources bevatten die betrekking hebben op de ingesloten inhoud (inclusief gegevenssets, rapporten en dashboards), moeten worden toegewezen aan capaciteiten. Als bijvoorbeeld een ingesloten rapport en de gegevensset die hieraan is gekoppeld, zich in verschillende werkruimten bevinden, moeten beide werkruimten zijn toegewezen aan capaciteiten.
 
-Als u een toegewezen capaciteit aan een werkruimte wilt toewijzen met behulp van een [service-principal](embed-service-principal.md), gebruikt u de [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md) gebruiken.
+Als u een capaciteit met behulp van een [service-principal](embed-service-principal.md) wilt toewijzen aan een werkruimte, gebruikt u de [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity). Wanneer u de Power BI REST API's gebruikt, moet u de [object-id van de service-principal](embed-service-principal.md) gebruiken.
 
-Volg de onderstaande stappen om een toegewezen capaciteit aan een werkruimte toe te wijzen met behulp van een **hoofdaccount**.
+Volg de onderstaande stappen om een capaciteit aan een werkruimte toe te wijzen met behulp van een **hoofdaccount**.
 
 1. Vouw binnen **Power BI-service** werkruimten uit en selecteer het beletselteken voor de werkruimte die u gebruikt voor het insluiten van uw inhoud. Selecteer vervolgens **Werkruimten bewerken**.
 
     ![Werkruimte bewerken](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
 
-2. Vouw **Geavanceerd** uit, schakel **Toegewezen capaciteit** in en selecteer de toegewezen capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
+2. Vouw **Geavanceerd** uit, schakel **Capaciteit** in en selecteer de capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
 
-    ![Toegewezen capaciteit toewijzen](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+    ![Capaciteit toewijzen](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
 3. Nadat u **Opslaan** hebt geselecteerd, wordt er een **ruit** naast de naam van de werkruimte weergegeven.
 

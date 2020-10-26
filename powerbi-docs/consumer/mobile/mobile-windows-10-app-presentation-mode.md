@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: a47af4b96e80508a6ea21de2d8d3e0b40f907d8d
+ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634798"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92025928"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
 U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. De presentatiemodus is handig voor het weergeven van Power BI tijdens vergaderingen, conferenties of op een specifieke projector op kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren.
@@ -56,7 +56,7 @@ U kunt de werkbalk loskoppelen en naar een willekeurige plaats op het scherm sle
 
 ## <a name="slideshows"></a>Diavoorstellingen
 
-U kunt een diavoorstelling afspelen om de presentatie automatisch door te bladeren. U kunt de diavoorstelling zo instellen dat deze pagina's, bladwijzers of zowel pagina's als blad wijzers worden doorgebladerd.
+U kunt een diavoorstelling afspelen om de presentatie automatisch door te bladeren. U kunt de diavoorstelling zo instellen dat deze pagina's, bladwijzers of zowel pagina's als blad wijzers worden doorgebladerd. Tijdens de diavoorstelling worden rapportpagina's waarvoor [automatische vernieuwen van pagina's](../../create-reports/desktop-automatic-page-refresh.md) is ingeschakeld, nog steeds automatisch vernieuwd zoals geconfigureerd, zodat altijd de meest actuele gegevens worden weergegeven.
 
 Wanneer u de knop **Afspelen** op de actiewerkbalk selecteert, begint de diavoorstelling. Er wordt een controller weergegeven waarmee u de diavoorstelling kunt onderbreken of kunt wijzigen wat er wordt afgespeeld: pagina's, bladwijzers of zowel pagina's als bladwijzers.
 

@@ -7,13 +7,13 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 07/01/2020
-ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.date: 08/11/2020
+ms.openlocfilehash: 4725db331269bc9a2f41abf4c432e0bdf427bae6
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524783"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981683"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>Beheerinstellingen voor Power BI-visuals beheren
 
@@ -130,7 +130,7 @@ Gebruik deze methode om een nieuwe Power BI-visual toe te voegen vanuit een .pbi
 
 3. Selecteer **Toevoegen** om de uploadaanvraag te starten. Zodra de visual is geüpload, wordt deze weergegeven in lijst met visuals voor organisaties.
 
-### <a name="add-a-visual-from-appsource-preview"></a>Een visual importeren uit AppSource (preview-versie)
+### <a name="add-a-visual-from-appsource"></a>Een visual toevoegen vanuit AppSource
 
 Gebruik deze methode om een nieuwe Power BI-visual toe te voegen vanuit AppSource.
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 4202d2c7e4c87f8085a04af9922cf7cc6c55fbfd
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 41ddc6e0c9a4f4f2c9b5687194e043bb1ef80bec
+ms.sourcegitcommit: 6b436f6ed872cbc040ed6e2d3ac089c08fc78daf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860182"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91928258"
 ---
 # <a name="single-sign-on-in-the-power-bi-mobile-windows-app"></a>Eenmalige aanmelding in de mobiele Windows-app voor Power BI
 
@@ -21,7 +21,7 @@ Meer informatie over eenmalige aanmelding (SSO) in de mobiele Windows-app voor P
 
 Omdat de Power BI-app voor Windows is geïntegreerd in Azure Active Directory, kunt u uw primaire organisatie-account niet alleen gebruiken om u aan te melden bij de apparaten in uw domein, maar ook om u aan te melden bij de Power BI-service. Als u Power BI gebruikt op een Windows-telefoon, moet u ervoor zorgen dat het account dat u voor Power BI gebruikt is geconfigureerd als een werk- of schoolaccount in de apparaatinstellingen.  
 
-Eenmalige aanmelding is alleen ingeschakeld voor Windows-apparaten die worden beheerd door Windows Azure Active Directory.
+Eenmalige aanmelding is alleen ingeschakeld voor Windows-apparaten die worden beheerd door Azure Active Directory.
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)

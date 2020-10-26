@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 7a93260aab9d8195478949ea8044378ea5cfae83
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746396"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983109"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -375,13 +375,13 @@ function updateEmbedReport() {
 }
 ```
 
-## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Een toegewezen capaciteit voor Power BI Premium gebruiken
+## <a name="using-a-power-bi-premium-capacity"></a>Een Power BI Premium-capaciteit gebruiken
 
-Nu u uw toepassing hebt ontwikkeld, is het tijd om uw werkruimte te ondersteunen met toegewezen capaciteit.
+Nu de toepassing is geïmplementeerd, is het tijd om uw werkruimte te ondersteunen met een capaciteit.
 
-### <a name="create-a-dedicated-capacity"></a>Een toegewezen capaciteit maken
+### <a name="create-a-capacity"></a>Een capaciteit maken
 
-Als u een toegewezen capaciteit maakt, profiteert u van een toegewezen resource voor de inhoud in uw werkruimte. Voor gepagineerde rapporten moet uw werkruimte beschikken over ten minste een P1-capaciteit. U kunt een toegewezen capaciteit maken met [Power BI Premium](../../admin/service-premium-what-is.md).
+Als u een capaciteit maakt, profiteert u van een resource voor de inhoud in uw werkruimte. Voor gepagineerde rapporten moet uw werkruimte beschikken over ten minste een P1-capaciteit. U kunt een capaciteit maken met [Power BI Premium](../../admin/service-premium-what-is.md).
 
 In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [Microsoft 365](../../admin/service-admin-premium-purchase.md):
 
@@ -400,17 +400,17 @@ In de volgende tabel ziet u de Power BI Premium-SKU's die beschikbaar zijn in [M
 > - Wanneer u probeert in te voegen met Microsoft Office-apps, kunt u EM-SKU's gebruiken om met een gratis Power BI-licentie toegang te krijgen tot inhoud. U kunt echter geen toegang krijgen tot inhoud met een gratis Power BI-licentie wanneer u Powerbi.com of Power BI voor mobiel gebruikt.
 > - Wanneer u probeert in te voegen in Microsoft Office-apps via Powerbi.com of Power BI voor mobiel, kunt u met een gratis Power BI-licentie toegang krijgen tot inhoud.
 
-### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Een werkruimte toewijzen aan een toegewezen capaciteit
+### <a name="assign-a-workspace-to-a-capacity"></a>Werkruimte toewijzen aan een capaciteit
 
-Nadat u een toegewezen capaciteit hebt gemaakt, kunt u uw werkruimte toewijzen aan die toegewezen capaciteit. Ga hiervoor als volgt te werk:
+Als u een capaciteit hebt gemaakt, kunt u uw werkruimte toewijzen aan die capaciteit. Ga hiervoor als volgt te werk:
 
 1. Vouw binnen Power BI-service werkruimten uit en selecteer het beletselteken voor de werkruimte die u gebruikt voor het insluiten van uw inhoud. Selecteer vervolgens **Werkruimten bewerken**.
 
     ![Een werkruimte bewerken](media/embed-sample-for-your-organization/embed-sample-for-your-organization-036.png)
 
-2. Vouw **Geavanceerd** uit en schakel **Toegewezen capaciteit** in. Selecteer de toegewezen capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
+2. Vouw **Geavanceerd** uit en schakel **Capaciteit** in. Selecteer de capaciteit die u hebt gemaakt. Selecteer vervolgens **Opslaan**.
 
-    ![Een toegewezen capaciteit toewijzen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
+    ![Een capaciteit toewijzen](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
 3. Nadat u **Opslaan** hebt geselecteerd, wordt er een ruit naast de naam van de werkruimte weergegeven.
 

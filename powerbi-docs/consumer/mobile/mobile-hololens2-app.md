@@ -1,5 +1,5 @@
 ---
-title: Power BI voor HoloLens 2
+title: Power BI voor HoloLens 2 (preview)
 description: Bekijk uw dashboards en rapporten in de app Power BI voor HoloLens 2.
 author: paulinbar
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: c7b57795d535ffbc3ad11dcebb7fa6b5d8fedadc
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: 22f70e393987552276cc19b90c8b360b1a1a1d80
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019993"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049200"
 ---
-# <a name="power-bi-for-hololens-2"></a>Power BI voor HoloLens 2
+# <a name="power-bi-for-hololens-2-preview"></a>Power BI voor HoloLens 2 (preview)
 De app Power BI voor HoloLens 2 combineert uw Power BI-rapporten en -dashboards met uw fysieke omgeving om een driedimensionale, insluitende en hands-free ervaring te creëren waar u zich door de fysieke wereld kunt bewegen en uw relevante gegevens kunt ophalen, waar en wanneer u maar wilt.
 
 ![Afbeelding van HoloLens 2 met zwevende Power BI-rapporten.](media/mobile-hololens2-app/power-bi-hololens2-floating-reports.png)
@@ -24,7 +24,7 @@ De app Power BI voor HoloLens 2 combineert uw Power BI-rapporten en -dashboards 
 
 De app Power BI voor HoloLens 2 is beschikbaar in de [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=526478).
 
-[Meer informatie](https://docs.microsoft.com/hololens/holographic-store-apps) over het installeren van apps op uw HoloLens 2-apparaat.
+[Meer informatie](/hololens/holographic-store-apps) over het installeren van apps op uw HoloLens 2-apparaat.
 
 ## <a name="open-the-power-bi-app-on-your-hololens-2"></a>Open de Power BI-app op uw HoloLens 2
 
@@ -32,27 +32,27 @@ Open het menu **Start** en selecteer de Power BI-app. De app wordt geopend met a
 
 ## <a name="using-the-power-bi-app-for-hololens-2"></a>De app Power BI voor HoloLens 2 gebruiken
 
-U gebruikt de handbewegingen en de oogregistratiefunctie van HoloLens 2 om de inhoud van uw Power BI te vergroten of verkleinen, een plaats te geven en ermee te werken. [Meer informatie](https://docs.microsoft.com/hololens/hololens2-basic-usage) over het werken met objecten in de wereld van HoloLens 2.
+U gebruikt de handbewegingen en de oogregistratiefunctie van HoloLens 2 om de inhoud van uw Power BI te vergroten of verkleinen, een plaats te geven en ermee te werken. [Meer informatie](/hololens/hololens2-basic-usage) over het werken met objecten in de wereld van HoloLens 2.
 
 ### <a name="access-reports-and-dashboards"></a>Toegang tot rapporten en dashboards
 
-Als u toegang wilt krijgen tot een rapport of dashboard, haalt u het uit uw virtuele toolbelt en plaatst u het op de gewenste locatie. [Meer informatie](https://docs.microsoft.com/hololens/hololens2-basic-usage#moving-holograms) over het vastpakken en positioneren van app-vensters.
+Als u toegang wilt krijgen tot een rapport of dashboard, haalt u het uit uw virtuele toolbelt en plaatst u het op de gewenste locatie. [Meer informatie](/hololens/hololens2-basic-usage#moving-holograms) over het vastpakken en positioneren van app-vensters.
 
 Als u een rapport of dashboard in uw virtuele toolbelt wilt plaatsen, moet het rapport of dashboard als favoriet zijn gemarkeerd. Als er geen rapporten of dashboards in uw toolbelt zitten of als u extra rapporten en dashboards wilt toevoegen, markeert u deze items gewoon als favorieten in de [Power BI-service](../end-user-favorite.md) of de [mobiele Power BI-apps](mobile-apps-favorites.md). Daarna zijn ze beschikbaar in uw virtuele Power BI-toolbelt in HoloLens 2.
 
 ### <a name="resize-reports-and-dashboards"></a>Formaat van rapporten en dashboards wijzigen
 
-Als u het formaat van een rapport of dashboard wilt wijzigen, pakt u het vast bij de hoeken van het app-venster en past u het formaat naar wens aan. [Meer informatie](https://docs.microsoft.com/hololens/hololens2-basic-usage#resizing-holograms) over het wijzigen van het formaat van app-vensters.
+Als u het formaat van een rapport of dashboard wilt wijzigen, pakt u het vast bij de hoeken van het app-venster en past u het formaat naar wens aan. [Meer informatie](/hololens/hololens2-basic-usage#resizing-holograms) over het wijzigen van het formaat van app-vensters.
 
 ### <a name="position-reports-and-dashboards-in-space"></a>Rapporten en dashboards in de ruimte positioneren
 
-Als u een rapport of dashboard in de ruimte wilt positioneren, pakt u het vast door uw wijsvinger en duim op de titelbalk samen te knijpen en vervolgens uw hand in die houding naar de gewenste positie te verplaatsen. Laat uw vingers los wanneer ze de gewenste positie hebben bereikt. [Meer informatie](https://docs.microsoft.com/hololens/hololens2-basic-usage#moving-holograms) over het verplaatsen van app-vensters.
+Als u een rapport of dashboard in de ruimte wilt positioneren, pakt u het vast door uw wijsvinger en duim op de titelbalk samen te knijpen en vervolgens uw hand in die houding naar de gewenste positie te verplaatsen. Laat uw vingers los wanneer ze de gewenste positie hebben bereikt. [Meer informatie](/hololens/hololens2-basic-usage#moving-holograms) over het verplaatsen van app-vensters.
 
 Zodra u het rapport of het dashboard op de gewenste positie hebt geplaatst, wordt de locatie ervan door uw HoloLens 2-apparaat onthouden. Wanneer u een volgende dezelfde locatie bezoekt, vindt u het item dat u op exact dezelfde locatie hebt geplaatst.
 
 ### <a name="browse-report-pages"></a>In rapportpagina’s browsen
 
-Elk rapport heeft een pagina-index die u kunt weergeven om van pagina naar pagina te gaan. Selecteer in de rechterbovenhoek van het rapportvenster de knop Pagina-index om de pagina-index weer te geven of te verbergen.
+Elk rapport heeft een pagina-index die u kunt weergeven om van pagina naar pagina te gaan. Selecteer in de rechterbovenhoek van het rapportvenster de knop **Pagina-index** om de pagina-index weer te geven of te verbergen.
 
 ![Afbeelding van de pagina-index van een rapport in Power BI voor HoloLens 2](media/mobile-hololens2-app/power-bi-hololens2-browse-report-pages.png)
 
@@ -60,7 +60,7 @@ Elk rapport heeft een pagina-index die u kunt weergeven om van pagina naar pagin
 
 Als er een QR-code is gemaakt voor een rapport en deze is gekoppeld aan een item, zoals een apparaat waarvan de gegevens in dat rapport staan, kunt u het rapport openen door alleen maar naar de QR-code van het item te kijken.
 
-[Meer informatie](https://docs.microsoft.com/power-bi/create-reports/service-create-qr-code-for-report) over het maken van QR-codes voor rapporten.
+[Meer informatie](../../create-reports/service-create-qr-code-for-report.md) over het maken van QR-codes voor rapporten.
 
 ### <a name="data-refresh"></a>Gegevensvernieuwing
 
@@ -68,4 +68,4 @@ De rapporten en dashboards worden bijgewerkt terwijl u de app gebruikt. Dus als 
 
 ## <a name="next-steps"></a>Volgende stappen
 
-* [Kennismaken met HoloLens 2](https://docs.microsoft.com/hololens/hololens2-basic-usage)
+* [Kennismaken met HoloLens 2](/hololens/hololens2-basic-usage)

@@ -1,22 +1,22 @@
 ---
-title: Wat is een Power BI-gebruiker?
-description: Overzicht van Power BI voor gebruikers (ook wel eindgebruikers of zakelijke gebruikers genoemd).
+title: Wat is een zakelijke gebruiker van Power BI?
+description: Overzicht van Power BI voor zakelijke gebruikers (ook wel eindgebruikers genoemd).
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 05/22/2020
+ms.date: 10/11/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633970"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91982051"
 ---
-# <a name="the-power-bi-service-for-consumers"></a>De Power BI-service voor consumenten
+# <a name="the-power-bi-service-for-business-users"></a>De Power BI-service voor zakelijke gebruikers
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
@@ -24,9 +24,9 @@ Alles draait tegenwoordig om gegevens en zakelijke beslissingen worden niet meer
  
 Ze sturen u allerlei soorten rapporten, spreadsheets, e-mailberichten met grafieken en zelfs afgedrukte hand-outs. Naarmate de hoeveelheid gegevens toeneemt, zal het steeds moeilijker worden om snel de informatie te vinden die u nodig hebt, en u bent bang dat u wellicht niet over de meest recente informatie beschikt.  
  
-![Diagram van een consument die gegevens ontvangt in indelingen met gelabelde rapporten, grafieken, e-mails en spreadsheets.](media/end-user-consumer/power-bi-consumer-pipes.png)
+![Diagram van een zakelijke gebruiker die gegevens ontvangt in indelingen met de labels Rapporten, Grafieken, E-mails en Spreadsheets.](media/end-user-consumer/power-bi-consumer-pipes.png)
 
-## <a name="the-power-bi-service-for-consumers"></a>De Power BI-service voor *gebruikers*
+## <a name="the-power-bi-service-for-business-users"></a>De Power BI-service voor *zakelijke gebruikers*
 
 Met Power BI wordt uw werk niet alleen eenvoudiger, maar kunt u ook meteen meer indruk achterlaten. Al die gegevens worden omgezet in diagrammen en grafieken, waarmee uw gegevens worden gevisualiseerd. In plaats van lange lijsten of tabellen met nummers en woorden, zien uw gegevensinzichten er ***prachtig*** uit: kleurrijke en aantrekkelijke visuals waarmee verhalen over de inzichten in uw gegevens worden verteld. 
 
@@ -38,15 +38,19 @@ Open gewoon de Power BI-service in een browser of op een mobiel apparaat. U en u
 
 Omdat de inhoud niet statisch is, kunt u hier induiken om trends, inzichten en andere business intelligence te zoeken. Deel de inhoud op in fragmenten en segmenten en stel zelfs vragen in uw eigen bewoording. Of doe het rustig aan en laat uw gegevens zelf interessante inzichten voor u vinden; ontvang meldingen wanneer gegevens worden gewijzigd en krijg e-mailrapporten volgens een door u ingestelde planning. Al uw gegevens via de cloud of on-premises binnen handbereik vanaf elk apparaat, wanneer u maar wilt. En dat is nog maar het begin van wat er allemaal met Power BI mogelijk is. 
 
-## <a name="am-i-a-power-bi-consumer"></a>Ben ik een Power BI-*gebruiker*?
+## <a name="am-i-a-power-bi-business-user"></a>Ben ik een *zakelijke gebruiker* van Power BI?
 
-De manier waarop u met Power BI werkt, is afhankelijk van uw functie. Als eindgebruiker of *consument* bent u iemand die inhoud (dashboards, rapporten en apps) van collega's ontvangt. U werkt in de onlineversie of de mobiele versie van Power BI (de Power BI-service genoemd) om deze inhoud te controleren en te gebruiken en uiteindelijk uw zakelijke beslissingen te nemen. 
+De manier waarop u met Power BI werkt, is afhankelijk van uw functie. Als eindgebruiker of *zakelijke gebruikers* bent u iemand die inhoud (dashboards, rapporten en apps) van collega's ontvangt. U werkt in de onlineversie of de mobiele versie van Power BI (de Power BI-service genoemd) om deze inhoud te controleren en te gebruiken en uiteindelijk uw zakelijke beslissingen te nemen. 
    
-Als consument hebt u geen toegang tot de volledige functionaliteit van Power BI. En dat is prima, omdat het niet uw taak is om dashboards en rapporten te bouwen. U gebruikt de Power BI-service voor analyses, bewaking, verkennen en besluitvorming. 
+Als zakelijke gebruiker hebt u geen toegang tot de volledige functionaliteit van Power BI. En dat is prima, omdat het niet uw taak is om dashboards en rapporten te bouwen. U gebruikt de Power BI-service voor analyses, bewaking, verkennen en besluitvorming. 
 
-U hebt ongetwijfeld de term 'Power BI Desktop' of gewoon 'Desktop' gehoord. Dat is een zelfstandig hulpprogramma dat wordt gebruikt door de *ontwerpers* die dashboards en rapporten maken en met u delen.  Het is belangrijk te weten dat er nog meer Power BI-hulpprogramma's zijn. Als u een consument bent, werkt u echter alleen met Power BI-service. 
+U hebt ongetwijfeld de term 'Power BI Desktop' of gewoon 'Desktop' gehoord. Dat is een zelfstandig hulpprogramma dat wordt gebruikt door de *ontwerpers* die dashboards en rapporten maken en met u delen.  Het is belangrijk te weten dat er nog meer Power BI-hulpprogramma's zijn. Als u een *zakelijke gebruiker* bent, werkt u echter alleen met de Power BI-service. 
 
-En omdat u werkt met *gedeelde* inhoud, hebt u alleen maar een **gratis** licentie nodig, omdat u in een organisatie werkt die **Premium**-capaciteit gebruikt. [Welke licentie heb ik?](end-user-license.md)
+En omdat u werkt met *gedeelde* inhoud, moet aan een van de volgende voorwaarden worden voldaan:
+- U hebt een Power BI Pro-licentie
+- Uw organisatie heeft een Power BI Premium-abonnement en de inhoud die u wilt delen, bevindt zich in een Premium-capaciteit 
+
+Zie [Welke licentie heb ik?](end-user-license.md) voor meer informatie over licenties en abonnementen.
 
 
 ## <a name="safely-interact-with-content"></a>Veilig omgaan met inhoud 
@@ -61,6 +65,6 @@ Dat betekent niet dat u uw wijzigingen niet kunt opslaan: dat kunt u wel. Maar d
 
 ## <a name="next-steps"></a>Volgende stappen
 
-[Volg een rondleiding door de Power BI-service voor gebruikers](end-user-reading-view.md)    
-[Training voor de Power BI-service voor gebruikers](/learn/paths/consume-data-with-power-bi/)    
-[Terminologie en concepten voor Power BI *-consumenten*](end-user-basic-concepts.md)
+[Volg een rondleiding door de Power BI-service voor zakelijke gebruikers](end-user-reading-view.md)    
+[Training voor Power BI-service voor zakelijke gebruikers](/learn/paths/consume-data-with-power-bi/)    
+[Terminologie en concepten voor *zakelijke gebruikers* van Power BI](end-user-basic-concepts.md)

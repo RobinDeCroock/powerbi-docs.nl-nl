@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 6ad986308fb82f8191829d29654bb96b55d0fbd0
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 091bdeb4eeb4c979ccf0e79476eb081895fae2e1
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83272690"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049402"
 ---
 # <a name="use-the-supportsmultivisualselection-feature"></a>De functie supportsMultiVisualSelection gebruiken
 
@@ -45,4 +45,4 @@ Als u de functie `supportsMultiVisualSelection` wilt gebruiken, voegt u de volge
 
 Zie [Visuals in Power BI](power-bi-visuals-concept.md) voor meer informatie over Power BI-concepten.
 
-Zie [Een Power BI-visual ontwikkelen](custom-visual-develop-tutorial.md) als u het ontwikkelen van een visual in Power BI wilt uitproberen.
+Zie [Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen](develop-circle-card.md) als u het ontwikkelen van een visual in Power BI wilt uitproberen.

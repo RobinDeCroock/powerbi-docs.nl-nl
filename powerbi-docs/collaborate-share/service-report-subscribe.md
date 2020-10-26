@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d7e1365ce1328e529d056a80b46230b97febc446
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 1fd5f4748ffd7a59095bfe34090d9494ff0a9134
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485663"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526761"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -48,13 +48,13 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 ![Pictogram Abonneren selecteren](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Open het dashboard of het rapport.
-2. Selecteer in de bovenste menubalk **Abonneren** of selecteer het enveloppictogram ![pictogram Abonneren](media/service-report-subscribe/power-bi-icon-envelope.png).
+2. Selecteer in de bovenste menubalk **Abonneren** of selecteer het pictogram van een envelop :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::.
    
     ![Pictogram Abonneren](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen. Als u de schuifregelaar instelt op **Uit**, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
 
-2. Uw e-mailadres bevindt zich al in het vak **Abonneren**. U kunt tevens andere e-mailadressen in hetzelfde domein toevoegen aan het abonnement. Als het rapport of het dashboard wordt gehost in een [Premium-capaciteit](https://docs.microsoft.com/power-bi/service-premium-what-is), kunt u andere afzonderlijke e-mailadressen en groepsaliassen abonneren, ongeacht of deze zich nu wel of niet in uw domein bevinden. Als het rapport of het dashboard wordt gehost in een Premium-capaciteit, kunt u andere personen abonneren, maar zij moeten tevens beschikken over een Power BI Pro-licentie. Zie [Aandachtspunten en probleemoplossing](#considerations-and-troubleshooting) hieronder voor uitgebreide informatie.
+2. Uw e-mailadres bevindt zich al in het vak **Abonneren**. U kunt tevens andere e-mailadressen in hetzelfde domein toevoegen aan het abonnement. Als het rapport of het dashboard wordt gehost in een [Premium-capaciteit](../admin/service-premium-what-is.md), kunt u andere afzonderlijke e-mailadressen en groepsaliassen abonneren, ongeacht of deze zich nu wel of niet in uw domein bevinden. Als het rapport of het dashboard wordt gehost in een Premium-capaciteit, kunt u andere personen abonneren, maar zij moeten tevens beschikken over een Power BI Pro-licentie. Zie [Aandachtspunten en probleemoplossing](#considerations-and-troubleshooting) hieronder voor uitgebreide informatie.
 
 3. Vul de gegevens **Onderwerp** en **Bericht** voor het e-mailbericht in.
 
@@ -131,7 +131,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u een abonnement voor uzelf maken. U kunt andere gebruikers niet abonneren op een rapport waarop RLS (beveiliging op rijniveau) is toegepast, maar wel op gepagineerde rapporten. U kunt anderen abonneren op een gepagineerd rapport met behulp van uw beveiligingscontext. Lees meer over [abonneren op gepagineerde rapporten](../consumer/paginated-reports-subscriptions.md).
 - Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
 - Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken. Deze beperkingen omvatten, maar zijn niet beperkt tot, het gebruik van meervoudige verificatie of beperkingen voor IP-bereik bij het openen van resources.
-- E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../developer/power-bi-custom-visuals.md). De enige uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](../developer/power-bi-custom-visuals-certified.md).
+- E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md). De enige uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](../developer/visuals/power-bi-custom-visuals-certified.md).
 - E-mailabonnementen bieden op dit moment geen ondersteuning voor de aangepaste R-visuals.
 - E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht. Gepagineerde rapporten ondersteunen deze mogelijkheid wel en bieden de mogelijkheid om de specifieke parameterwaarden te configureren per abonnement.
 - Stel dat u een rapport hebt met een live-verbinding met Analysis Services en dat de abonnementen zijn ingesteld om te worden uitgevoerd na het vernieuwen van gegevens. Het wordt uitgevoerd bij de eerste keer dat de Power BI-service een wijziging in uw on-premises model detecteert wanneer het Analysis Services-exemplaar wordt gecontroleerd.  Power BI controleert elk uur op een wijziging in het Analysis Services-gegevensmodel om te bepalen wanneer het abonnement moet worden verzonden.

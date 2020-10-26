@@ -121,6 +121,8 @@
       items:
         - name: Power BI-rapporten
           items:
+            - name: Een rapport maken in de service
+              href: service-report-create-new.md
             - name: Automatisch paginaAutomatische paginavernieuwing inschakelen
               href: desktop-automatic-page-refresh.md
             - name: Rapportelementen beoordelen met prestatie-analyse
@@ -205,8 +207,12 @@
               href: desktop-grouping-visuals.md
             - name: Rapportsjablonen maken
               href: desktop-templates.md
-            - name: Een rapport maken van een gegevensset
-              href: service-report-create-new.md
+            - name: Raportinstellingen wijzigen
+              href: power-bi-report-settings.md
+            - name: Functierapporten op de startpagina's van anderen
+              href: ../collaborate-share/service-featured-content.md
+            - name: Consumenten visuals laten aanpassen (preview)
+              href: power-bi-personalize-visuals.md
             - name: Een rapport opslaan
               href: service-report-save.md
             - name: Interactie met een rapport in de bewerkweergave

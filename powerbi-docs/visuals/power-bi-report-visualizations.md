@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2ae4223a6e156be3907bcad980df9446dbb64127
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c94990f3126191cf568c2cc20fb5db0c954a6424
+ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234645"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92049448"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualisaties in Power BI-rapporten
 
@@ -29,7 +29,7 @@ Er zijn veel verschillende typen visuals rechtstreeks beschikbaar vanuit het dee
 
 ![deelvenster met pictogrammen voor elk type visualisatie](media/power-bi-report-visualizations/power-bi-icons.png)
 
-Er zijn meer Power BI-visuals beschikbaar via de site van de [Microsoft AppSource-community](https://appsource.microsoft.com). In AppSource kunt u [Power BI-visuals](../developer/visuals/custom-visual-develop-tutorial.md) bekijken en [downloaden](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) die zijn gemaakt door Microsoft en de community.
+Er zijn meer Power BI-visuals beschikbaar via de site van de [Microsoft AppSource-community](https://appsource.microsoft.com). In AppSource kunt u Power BI-visuals bekijken en [downloaden](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) die zijn gemaakt door Microsoft en de community.
 
 Als u geen ervaring hebt met Power BI, of een opfriscursus nodig hebt, volgt u de onderstaande koppelingen voor meer informatie over de basisprincipes van Power BI-visualisaties.  U kunt ook de inhoudsopgave (aan de linkerkant van dit artikel) gebruiken om nog meer nuttige informatie te vinden.
 
@@ -39,7 +39,7 @@ U [maakt visualisaties](power-bi-report-add-visualizations-i.md) op de pagina's 
 
 ## <a name="upload-a-visualization-from-a-file-or-from-appsource"></a>Een visualisatie uploaden vanuit een bestand of vanuit AppSource
 
-U kunt zelfgemaakte visualisaties toevoegen of visualisaties die u hebt gevonden op de [communitysite van Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Bent u in een creatieve bui? Bestudeer onze broncode en gebruik onze [hulpprogramma's voor ontwikkelaars](../developer/visuals/custom-visual-develop-tutorial.md) om een nieuw type visualisatie te maken en dit vervolgens te [delen met de community](../developer/visuals/office-store.md). Raadpleeg [Een Power BI-visual ontwikkelen](../developer/visuals/custom-visual-develop-tutorial.md) voor meer informatie over het ontwikkelen van een Power BI-visual.
+U kunt zelfgemaakte visualisaties toevoegen of visualisaties die u hebt gevonden op de [communitysite van Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Bent u in een creatieve bui? Bestudeer onze broncode en gebruik onze [hulpprogramma's voor ontwikkelaars](../developer/visuals/environment-setup.md) om een nieuw type visualisatie te maken en dit vervolgens te [delen met de community](../developer/visuals/office-store.md). Raadpleeg [Een Power BI-visual ontwikkelen](../developer/visuals/develop-circle-card.md) voor meer informatie over het ontwikkelen van een Power BI-visual.
 
 ## <a name="personalize-your-visualization-pane"></a>Uw visualisatiedeelvenster personaliseren
 
