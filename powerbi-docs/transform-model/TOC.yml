@@ -43,6 +43,8 @@
           href: dataflows/dataflows-create.md
         - name: Een gegevensstroom configureren en gebruiken
           href: dataflows/dataflows-configure-consume.md
+        - name: Power BI Premium-workloads configureren
+          href: dataflows/dataflows-premium-workload-configuration.md
         - name: Gegevensstromen en Azure Data Lake Gen2
           href: dataflows/dataflows-azure-data-lake-storage-integration.md
         - name: Premium-functies van gegevensstromen
