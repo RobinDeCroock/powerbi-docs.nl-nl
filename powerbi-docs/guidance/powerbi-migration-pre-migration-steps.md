@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525795"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680968"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Migratie naar Power BI voorbereiden
 
@@ -79,7 +79,7 @@ Enkele belangrijke items in een Power BI-implementatie die vroegtijdig moeten wo
 - Voorkeuren met betrekking tot [gegevenssetmodi](../connect-data/service-dataset-modes-understand.md), zoals het gebruik van de importmodus, de modus DirectQuery of het combineren van de twee modi in een [samengesteld model](composite-model-guidance.md).
 - [Gegevens en toegang beveiligen](../admin/service-admin-power-bi-security.md).
 - Werken met [gedeelde gegevenssets](../connect-data/service-datasets-share.md) voor herbruikbaarheid.
-- [Gegevenscertificering](../connect-data/service-datasets-certify.md) toepassen om het gebruik van gezaghebbende en betrouwbare gegevens te bevorderen.
+- [Gegevenscertificering](../collaborate-share/service-endorsement-overview.md) toepassen om het gebruik van gezaghebbende en betrouwbare gegevens te bevorderen.
 - Gebruik van verschillende [rapporttypen](../create-reports/index.yml), inclusief Power BI-rapporten, Excel-rapporten of gepagineerde rapporten voor verschillende toepassingen of bedrijfseenheden.
 - Wijzigingsbeheerbenaderingen voor het beheren van gecentraliseerde BI-artefacten en door het bedrijf beheerde BI-artefacten.
 - Trainingsplannen voor gebruikers, gegevensmodelbouwers, rapportontwerpers en beheerders.
@@ -123,7 +123,7 @@ De eerste taak is om te begrijpen hoe een geslaagde migratie van een afzonderlij
 Het voorbereiden van de inventarisatie van bestaande rapporten in het oudere BI-platform is een belangrijke stap richting inzicht in wat er al bestaat. Het resultaat van deze stap is input voor de beoordeling van het migratieniveau. Activiteiten met betrekking tot het voorbereiden van een inventaris kunnen zijn:
 
 1. **Inventarisatie van rapporten:** Stel een lijst op van rapporten en dashboards die mogelijk gemigreerd kunnen worden.
-2. **Inventarisatie van gegevensbronnen:** Stel een lijst op van alle gegevensbronnen die door bestaande rapporten worden gebruikt. Deze moet zowel gegevensbronnen van de onderneming als afdelings- en persoonlijke gegevensbronnen bevatten. Dit proces kan gegevensbronnen aan het licht brengen die eerder niet bekend waren bij de IT-afdeling, vaak aangeduid als _schaduw-IT_.
+2. **Inventarisatie van gegevensbronnen:** Stel een lijst op van alle gegevensbronnen die door bestaande rapporten worden gebruikt. Deze moet zowel gegevensbronnen van de onderneming als afdelings- en persoonlijke gegevensbronnen bevatten. Dit proces kan gegevensbronnen aan het licht brengen die eerder niet bekend waren bij de IT-afdeling, vaak aangeduid als _schaduw-IT_ .
 3. **Auditlogboek:** Haal gegevens op uit het auditlogboek van het verouderde BI-platform om inzicht te krijgen in gebruikspatronen en om te helpen prioriteiten te stellen. Belangrijke informatie om op te halen uit het auditlogboek omvat:
     - Gemiddeld aantal keer dat elk rapport per week/maand/kwartaal wordt uitgevoerd.
     - Gemiddeld aantal consumenten per rapport per week/maand/kwartaal.

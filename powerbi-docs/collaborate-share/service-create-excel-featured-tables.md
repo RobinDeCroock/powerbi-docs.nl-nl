@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
-ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
+ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "90811846"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680761"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Aanbevolen tabellen instellen in Power BI Desktop (preview-versie)
 
@@ -25,11 +25,11 @@ In de galerie Gegevenstypen in Excel kunnen uw gebruikers gegevens uit *aanbevol
 1. De rest van de organisatie kan verbinding maken met die aanbevolen tabellen, ook wel *gegevenstypen* genoemd in Excel, voor relevante en vernieuwbare gegevens. In het artikel [Toegang tot aanbevolen Power BI-tabellen in Excel (preview-versie)](service-excel-featured-tables.md) wordt het gebruiken van deze aanbevolen tabellen in Excel besproken.
 
 > [!NOTE]
-> U kunt [gegevenssets in Power BI promoveren of certificeren](../connect-data/service-datasets-promote.md). Dat wordt *goedkeuring* genoemd. In Excel krijgen tabellen in goedgekeurde gegevenssets in de galerie met gegevenstypen een hogere prioriteit. In Excel worden eerst aanbevolen tabellen in gecertificeerde gegevenssets vermeld, vervolgens tabellen in gepromoveerde gegevenssets. In Excel worden daarna aanbevolen tabellen in niet-goedgekeurde gegevenssets vermeld. 
+> U kunt [gegevenssets in Power BI promoveren of certificeren](../collaborate-share/service-endorse-content.md). Dat wordt *goedkeuring* genoemd. In Excel krijgen tabellen in goedgekeurde gegevenssets in de galerie met gegevenstypen een hogere prioriteit. In Excel worden eerst aanbevolen tabellen in gecertificeerde gegevenssets vermeld, vervolgens tabellen in gepromoveerde gegevenssets. In Excel worden daarna aanbevolen tabellen in niet-goedgekeurde gegevenssets vermeld. 
 
 ## <a name="turn-on-the-featured-table-preview"></a>De preview-functie Aanbevolen tabellen inschakelen
 
-1. Selecteer in Power BI Desktop **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies**.
+1. Selecteer in Power BI Desktop **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies** .
 2. Schakel het selectievakje **Aanbevolen tabellen** in.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="De preview-optie Aanbevolen tabellen":::
@@ -40,21 +40,21 @@ In de galerie Gegevenstypen in Excel kunnen uw gebruikers gegevens uit *aanbevol
 
 1. Ga in Power BI Desktop naar de modelweergave.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Modelweergave":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="De preview-optie Aanbevolen tabellen":::
  
-2. Selecteer een tabel en stel **Is een aanbevolen tabel** in **Ja**.
+2. Selecteer een tabel en stel **Is een aanbevolen tabel** in **Ja** .
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Stel Is aanbevolen tabel in op Ja":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="De preview-optie Aanbevolen tabellen":::
 
-4. Geef in **Deze aanbevolen tabel instellen**de vereiste velden op:
+4. Geef in **Deze aanbevolen tabel instellen** de vereiste velden op:
 
-    - **Beschrijving**. 
+    - **Beschrijving** . 
         > [!TIP]
         > Begin de beschrijving met 'Aanbevolen tabel' zodat makers van Power BI-rapporten deze kunnen identificeren.
-    - De waarde van het veld **Rijlabel** wordt gebruikt in Excel, zodat gebruikers de rij eenvoudig kunnen identificeren. De waarde wordt weergegeven als de celwaarde voor een gekoppelde cel, in het deelvenster **Gegevenskiezer** en op de kaart **Gegevens**. 
+    - De waarde van het veld **Rijlabel** wordt gebruikt in Excel, zodat gebruikers de rij eenvoudig kunnen identificeren. De waarde wordt weergegeven als de celwaarde voor een gekoppelde cel, in het deelvenster **Gegevenskiezer** en op de kaart **Gegevens** . 
     - De waarde van het veld **Sleutelkolom** bevat de unieke id voor de rij. Met deze waarde kan Excel een cel koppelen aan een specifieke rij in de tabel.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Deze aanbevolen tabel instellen":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="De preview-optie Aanbevolen tabellen":::
 
 1. Nadat u de gegevensset hebt gepubliceerd of geïmporteerd naar de Power BI-service, wordt de aanbevolen tabel weergegeven in de galerie Gegevenstypen van Excel. U en andere rapportmakers kunnen ook rapporten maken op basis van deze gegevensset.
 

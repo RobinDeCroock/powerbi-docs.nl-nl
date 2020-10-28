@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.custom: seodec18
+ms.custom: seodec18, devx-track-js
 ms.date: 02/05/2019
-ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: faacbe602a8c80dc036583cca599b24b072df315
+ms.sourcegitcommit: 702ababd71c38846303bf49990b51afc73f9ebb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747569"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "92795653"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Zelfstudie: Power BI-inhoud insluiten in uw toepassing voor nationale clouds
 
@@ -38,12 +38,12 @@ De verschillende nationale clouds zijn:
 
 ![Ingesloten dashboard](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Als u wilt beginnen met dit scenario, hebt u een **Power BI**-account nodig. Als u geen account hebt ingesteld, dan kunt u de voor u juiste nationale cloud kiezen op basis van het type overheid of land. U kunt zich aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../../admin/service-govus-signup.md), een [Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [Power BI-cloudaccount voor China](https://www.21vbluecloud.com/powerbi/).
+Als u wilt beginnen met dit scenario, hebt u een **Power BI** -account nodig. Als u geen account hebt ingesteld, dan kunt u de voor u juiste nationale cloud kiezen op basis van het type overheid of land. U kunt zich aanmelden voor een [Power BI-account voor de Amerikaanse overheid](../../admin/service-govus-signup.md), een [Power BI-cloudaccount voor Duitsland](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) of een [Power BI-cloudaccount voor China](https://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > Wilt u liever een dashboard insluiten voor uw organisatie? Bekijk dan [Een dashboard integreren in een app voor uw organisatie](embed-sample-for-your-organization.md).
 
-Als u een dashboard wilt integreren in een web-app, gebruikt u de **Power BI** API en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een dashboard. Vervolgens kunt u het dashboard laden met een insluittoken. De **Power BI**-API biedt programmatische toegang tot specifieke **Power BI**-resources. Zie [Power BI REST-API](/rest/api/power-bi/), [Power BI .NET-SDK] en [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
+Als u een dashboard wilt integreren in een web-app, gebruikt u de **Power BI** API en een **AD-toegangstoken** (Azure Active Directory) voor verificatie bij het ophalen van een dashboard. Vervolgens kunt u het dashboard laden met een insluittoken. De **Power BI** -API biedt programmatische toegang tot specifieke **Power BI** -resources. Zie [Power BI REST-API](/rest/api/power-bi/), [Power BI .NET-SDK] en [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) voor meer informatie.
 
 ## <a name="download-the-sample"></a>Het voorbeeld downloaden
 
@@ -143,7 +143,7 @@ Registreer uw toepassing met Azure AD om REST API-aanroepen te maken. Zie [Een A
 
 * Power BI-cloud voor China - ```https://app.powerbi.cn/apps```
 
-Als u het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData) hebt gedownload, gebruikt u de **applicationId** die u verkrijgt, zodat het voorbeeld kan worden geverifieerd voor Azure AD. Voor het configureren van het voorbeeld wijzigt u de **applicationId** in het bestand *web.config*.
+Als u het [voorbeeld voor het insluiten van inhoud voor uw klanten](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData) hebt gedownload, gebruikt u de **applicationId** die u verkrijgt, zodat het voorbeeld kan worden geverifieerd voor Azure AD. Voor het configureren van het voorbeeld wijzigt u de **applicationId** in het bestand *web.config* .
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Stap 2: een toegangstoken ophalen uit Azure AD
 
@@ -159,7 +159,7 @@ In uw toepassing moet u een **toegangstoken** van Azure AD ophalen voordat u de 
 
 * Power BI-cloud voor China - ```https://login.chinacloudapi.cn```
 
-U kunt voorbeelden bekijken van dit toegangstoken binnen elke inhoudsitemtaak in het bestand **Controllers\HomeController.cs**.
+U kunt voorbeelden bekijken van dit toegangstoken binnen elke inhoudsitemtaak in het bestand **Controllers\HomeController.cs** .
 
 ## <a name="step-3---get-a-content-item"></a>Stap 3: een inhoudsitem ophalen
 
@@ -167,7 +167,7 @@ Als u uw Power BI-inhoud wilt insluiten, moet u een aantal zaken doen om ervoor 
 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>De Power BI-client maken met uw toegangstoken
 
-U maakt uw Power BI-clientobject met uw toegangstoken, zodat het kan communiceren met de Power BI-API's. U maakt uw eigen Power BI-clientobject door het AccessToken te verpakken met het object *Microsoft.Rest.TokenCredentials*.
+U maakt uw Power BI-clientobject met uw toegangstoken, zodat het kan communiceren met de Power BI-API's. U maakt uw eigen Power BI-clientobject door het AccessToken te verpakken met het object *Microsoft.Rest.TokenCredentials* .
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -245,7 +245,7 @@ U kunt een insluittoken genereren met de JavaScript-API. Het insluittoken heeft 
 
 Een voorbeeld is beschikbaar in **Controllers\HomeController.cs** van het [Embedding for your organization-voorbeeld](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData).
 
-Er wordt een klasse wordt gemaakt voor **EmbedConfig** en **TileEmbedConfig**. Er is een voorbeeld beschikbaar in **Models\EmbedConfig.cs** en **Models\TileEmbedConfig.cs**.
+Er wordt een klasse wordt gemaakt voor **EmbedConfig** en **TileEmbedConfig** . Er is een voorbeeld beschikbaar in **Models\EmbedConfig.cs** en **Models\TileEmbedConfig.cs** .
 
 #### <a name="reports"></a>Rapporten
 

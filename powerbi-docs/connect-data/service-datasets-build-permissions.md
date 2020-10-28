@@ -6,19 +6,19 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/21/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d602c97384f42bdd35f12052f67b15a0ca7bae38
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 343351fd762a074de010bc307c0138773e265226
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236901"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462413"
 ---
 # <a name="build-permission-for-shared-datasets"></a>Build-machtiging voor gedeelde gegevenssets
 
-Wanneer u een rapport in Power BI Desktop maakt, worden de gegevens in dat rapport opgeslagen in een *gegevensmodel*. Wanneer u uw rapporten publiceert in de Power BI-service, publiceert u de gegevens ook als een *gegevensset*. U kunt anderen de *samenstellingsmachtiging* voor dat rapport geven zodat zij de gegevensset die u hebt gedeeld kunnen detecteren en hergebruiken. In dit artikel wordt uitgelegd hoe u toegang tot de gegevens beheert met behulp van de samenstellingsmachtiging.
+Wanneer u een rapport in Power BI Desktop maakt, worden de gegevens in dat rapport opgeslagen in een *gegevensmodel* . Wanneer u uw rapporten publiceert in de Power BI-service, publiceert u de gegevens ook als een *gegevensset* . U kunt anderen de *samenstellingsmachtiging* voor dat rapport geven zodat zij de gegevensset die u hebt gedeeld kunnen detecteren en hergebruiken. In dit artikel wordt uitgelegd hoe u toegang tot de gegevens beheert met behulp van de samenstellingsmachtiging.
 
 De samenstellingsmachtiging is van toepassing op gegevenssets. Met de samenstellingsmachtiging kunnen gebruikers nieuwe inhoud samenstellen op basis van uw gegevensset, zoals rapporten, dashboards, tegels die zijn vastgemaakt vanuit Q&A, en Inzichtdetectie. 
 
@@ -32,9 +32,9 @@ Gebruikers moeten ook beschikken over samenstellingsmachtigingen om *buiten* Pow
 
 U kunt een samenstellingsmachtiging voor een gegevensset op een aantal verschillende manieren opgeven:
 
-- Leden van een werkruimte met minimaal de rol van Inzender beschikken automatisch over de samenstellingsmachtiging voor gegevenssets in die werkruimte en de machtiging om een rapport te kopiëren.
+- Leden van een werkruimte met minimaal de rol van Inzender beschikken automatisch over de samenstellingsmachtiging voor gegevenssets in die werkruimte en de machtiging om een rapport te kopiëren. Lees hier meer over [rollen in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces).
  
-- Leden van de werkruimte waarin de gegevensset zich bevindt, kunnen de machtiging in het machtigingencentrum toewijzen aan specifieke gebruikers en beveiligingsgroepen. Selecteer als u een lid van de werkruimte bent **Meer opties** (...) naast de gegevensset > **Machtigingen beheren**.
+- Leden van de werkruimte waarin de gegevensset zich bevindt, kunnen de machtiging in het machtigingencentrum toewijzen aan specifieke gebruikers en beveiligingsgroepen. Selecteer als u een lid van de werkruimte bent **Meer opties** (...) naast de gegevensset > **Machtigingen beheren** .
 
     ![Selecteer het beletselteken](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -54,12 +54,12 @@ U kunt de samenstellingsmachtiging die iemand voor een gegevensset heeft ook ver
 
 Op een bepaald punt moet u mogelijk de samenstellingsmachtiging verwijderen voor sommige gebruikers van een gedeelde gegevensset. 
 
-1. Ga in een werkruimte naar de lijstpagina **Gegevenssets**. 
-1. Selecteer **Meer opties** (...) naast de gegevensset > **Machtigingen beheren**.
+1. Ga in een werkruimte naar de lijstpagina **Gegevenssets** . 
+1. Selecteer **Meer opties** (...) naast de gegevensset > **Machtigingen beheren** .
 
     ![Machtigingen beheren](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecteer **Meer opties** (...) naast een naam > **Build verwijderen**.
+1. Selecteer **Meer opties** (...) naast een naam > **Build verwijderen** .
 
     ![Samenstellingsmachtiging verwijderen](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -76,20 +76,20 @@ Stel dat u een app vanuit een werkruimte naar een groep personen hebt gedistribu
 1. Selecteer op het tabblad **Machtigingen** de **X** om de persoon of groep te verwijderen. 
 
     ![Selecteer de X](media/service-datasets-build-permissions/power-bi-app-delete-user.png)
-1. Selecteer **App bijwerken**.
+1. Selecteer **App bijwerken** .
 
     Er wordt een bericht weergegeven met de melding dat u naar **Machtigingen beheren** moet gaan om de samenstellingsmachtiging te verwijderen voor gebruikers die toegang hebben. 
 
     ![Bericht over het beheren van machtigingen](media/service-datasets-build-permissions/power-bi-dataset-app-remove-message.png)
 
-1. Selecteer **Bijwerken**.
+1. Selecteer **Bijwerken** .
 
-1. Ga in de werkruimte naar de lijstpagina **Gegevenssets**. 
-1. Selecteer **Meer opties** (...) naast de gegevensset > **Machtigingen beheren**.
+1. Ga in de werkruimte naar de lijstpagina **Gegevenssets** . 
+1. Selecteer **Meer opties** (...) naast de gegevensset > **Machtigingen beheren** .
 
     ![Machtigingen beheren](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Selecteer **Meer opties** (...) naast de naam > **Build verwijderen**.
+1. Selecteer **Meer opties** (...) naast de naam > **Build verwijderen** .
 
     ![Samenstellingsmachtiging verwijderen](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 

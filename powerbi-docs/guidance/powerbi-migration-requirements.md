@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: f96fa15981de8d86007c6e1fa768f95a77921280
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401974"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92680946"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>Vereisten voor migratie naar Power BI verzamelen
 
@@ -51,12 +51,12 @@ Stel uitgebreide, gemakkelijk te raadplegen informatie samen over rapporten, zoa
 - **Beveiligingsvereisten:** Verhelder beveiligingsvereisten (zoals toegestane lezers, toegestane editors en eventuele beveiliging op rijniveau), inclusief eventuele uitzonderingen op de normale organisatiebeveiliging. Documenteer alle behoeften op het gebied van gegevensgevoeligheid, gegevensprivacy of juridische en/of nalevingsbehoeften.
 - **Berekeningen, KPI's en bedrijfsregels:** Identificeer en documenteer alle berekeningen, KPI's en bedrijfsregels die momenteel in het bestaande rapport zijn gedefinieerd, zodat ze kunnen worden afgestemd op de gegevensvereisten.
 - **Bruikbaarheids-, indelings- en cosmetische vereisten:** Bepaal welke specifieke bruikbaarheids-, indelings- en cosmetische behoeften zijn gerelateerd aan gegevensvisualisaties, groepeer- en sorteervereisten en voorwaardelijke zichtbaarheid. Neem alle specifieke overwegingen op die betrekking hebben op de levering op mobiele apparaten.
-- **Afdruk- en export vereisten:** Bepaal of er specifieke vereisten zijn voor het afdrukken, exporteren of een pixelperfecte indeling. Deze behoeften zijn van invloed op de keuze van het meest geschikte type rapport (zoals een Power BI-, Excel- of gepagineerd rapport). Houd er rekening mee dat consumenten van rapporten vaak erg zijn gehecht aan de manier waarop ze altijd hebben gewerkt. Wees dus niet bang om hun manier van denken enigszins op de proef te stellen. Praat in termen van _verbeteringen_ in plaats van _wijzigingen_.
+- **Afdruk- en export vereisten:** Bepaal of er specifieke vereisten zijn voor het afdrukken, exporteren of een pixelperfecte indeling. Deze behoeften zijn van invloed op de keuze van het meest geschikte type rapport (zoals een Power BI-, Excel- of gepagineerd rapport). Houd er rekening mee dat consumenten van rapporten vaak erg zijn gehecht aan de manier waarop ze altijd hebben gewerkt. Wees dus niet bang om hun manier van denken enigszins op de proef te stellen. Praat in termen van _verbeteringen_ in plaats van _wijzigingen_ .
 - **Risico's of bezorgdheid:** Bepaal of er andere technische of functionele vereisten zijn voor rapporten, of risico's of zaken met betrekking tot de informatie die hierin wordt gepresenteerd.
 - **Niet-opgeloste problemen en achterstallige items:** Identificeer toekomstige onderhoud, bekende problemen of uitgestelde vragen om op dit moment toe te voegen aan de takenlijst.
 
 > [!TIP]
-> Overweeg het prioriteren van activiteiten door ze te classificeren als _noodzakelijk_ of _wenselijk_. Gebruikers vragen op voorhand vaak om alles wat ze mogelijk nodig denken te hebben, omdat ze denken dat dit hun enige kans is om wensen kenbaar te maken. Zorg er bij het prioriteren in meerdere rondes ook voor dat de takenlijst beschikbaar is voor belanghebbenden. Het helpt bij de communicatie, besluitvorming en het bijhouden van niet afgehandelde verplichtingen.
+> Overweeg het prioriteren van activiteiten door ze te classificeren als _noodzakelijk_ of _wenselijk_ . Gebruikers vragen op voorhand vaak om alles wat ze mogelijk nodig denken te hebben, omdat ze denken dat dit hun enige kans is om wensen kenbaar te maken. Zorg er bij het prioriteren in meerdere rondes ook voor dat de takenlijst beschikbaar is voor belanghebbenden. Het helpt bij de communicatie, besluitvorming en het bijhouden van niet afgehandelde verplichtingen.
 
 ### <a name="gather-data-requirements"></a>Gegevensvereisten verzamelen
 
@@ -74,7 +74,7 @@ Verzamel gedetailleerde informatie met betrekking tot gegevens, zoals:
 - **Niet-opgeloste problemen en achterstallige items:** Identificeer eventuele bekende problemen, bekende defecten op het gebied van gegevenskwaliteit, toekomstig onderhoud of uitgestelde vragen om op dit moment toe te voegen aan de takenlijst.
 
 > [!IMPORTANT]
-> Herbruikbaarheid van gegevens kan worden bereikt met [gedeelde gegevenssets](../connect-data/service-datasets-share.md), die optioneel kunnen worden [gecertificeerd](../connect-data/service-datasets-certify.md) om betrouwbaarheid aan te geven en detecteerbaarheid te verbeteren. Herbruikbaarheid van gegevensvoorbereiding kan worden bereikt met [gegevensstromen](../transform-model/service-dataflows-overview.md), om herhaaldelijke logica in meerdere gegevenssets te reduceren. Gegevensstromen kunnen ook de belasting van bronsystemen aanzienlijk verminderen, omdat de gegevens minder vaak worden opgehaald. Meerdere gegevenssets kunnen vervolgens gegevens importeren uit de gegevensstroom.
+> Herbruikbaarheid van gegevens kan worden bereikt met [gedeelde gegevenssets](../connect-data/service-datasets-share.md), die optioneel kunnen worden [gecertificeerd](../collaborate-share/service-endorse-content.md) om betrouwbaarheid aan te geven en detecteerbaarheid te verbeteren. Herbruikbaarheid van gegevensvoorbereiding kan worden bereikt met [gegevensstromen](../transform-model/service-dataflows-overview.md), om herhaaldelijke logica in meerdere gegevenssets te reduceren. Gegevensstromen kunnen ook de belasting van bronsystemen aanzienlijk verminderen, omdat de gegevens minder vaak worden opgehaald. Meerdere gegevenssets kunnen vervolgens gegevens importeren uit de gegevensstroom.
 
 ## <a name="identify-improvement-opportunities"></a>Mogelijkheden om verbeterpunten te identificeren
 

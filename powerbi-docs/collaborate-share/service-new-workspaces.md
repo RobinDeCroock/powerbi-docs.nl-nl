@@ -6,16 +6,16 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2020
+ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 56dd9e07e7c0647e7f92cc5d701b260483e2fbdf
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 1ea5e7633fb81b2792459c3a428c9c43827a5137
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049271"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462212"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Werk organiseren in de nieuwe werkruimten in Power BI
 
@@ -33,11 +33,11 @@ Voor de nieuwe werkruimten hebben wij enkele functies opnieuw ontworpen. Dit zij
 
 - **Wanneer u de nieuwe werkruimten maakt, worden er geen Microsoft 365-groepen gemaakt,** zoals bij klassieke werkruimten. Alle nieuwe werkruimtebeheer vindt plaats in Power BI, niet in Office 365. Desgewenst kunt u doorgaan met het beheren van de gebruikerstoegang tot inhoud via Microsoft 365-groepen. Hiertoe hoeft u slechts een Microsoft 365-groep toe te voegen aan de toegangslijst voor de werkruimte.
 - **Meer gedetailleerde werkruimterollen gebruiken** voor flexibeler beheer van machtigingen in de nieuwe werkruimtes.  In klassieke werkruimten kunt u alleen individuen toevoegen aan de lijsten met leden en beheerders. 
-- **Gebruikersgroepen toewijzen aan werkruimterollen**: In de nieuwe werkruimten kunt u meerdere Active Directory-beveiligingsgroepen, distributielijsten of Microsoft 365-groepen toevoegen aan deze rollen om het beheer van gebruikers eenvoudiger te maken. 
-- **Lijst met contactpersonen**: In de nieuwe werkruimten kunt u opgeven wie er meldingen over werkruimteactiviteiten ontvangt.
-- **Sjabloon-apps maken**: U kunt in de nieuwe werkruimten alleen *sjabloon-apps* maken. Sjabloon-apps zijn apps die u kunt distribueren naar klanten buiten uw organisatie. Deze klanten kunnen vervolgens uw sjabloon-app gebruiken om verbinding te maken met hun eigen gegevens. Meer informatie over [sjabloon-apps](../connect-data/service-template-apps-overview.md).
-- **Gegevenssets delen**: Als u een gegevensset buiten een specifieke werkruimte wilt delen, moet u het rapport met de gegevensset in een van de nieuwe werkruimten opslaan. U kunt geen gegevenssets delen vanuit klassieke werkruimten. Meer informatie over [gedeelde gegevenssets](../connect-data/service-datasets-across-workspaces.md).
-- **Organisatie-inhoudspakketten**: U kunt organisatie-inhoudspakketten maken en gebruiken in klassieke werkruimten. U kunt ze niet in de nieuwe werkruimten maken of gebruiken. Apps en sjabloon-apps vervangen organisatie-inhoudspakketten in de nieuwe werkruimten.
+- **Gebruikersgroepen toewijzen aan werkruimterollen** : In de nieuwe werkruimten kunt u meerdere Active Directory-beveiligingsgroepen, distributielijsten of Microsoft 365-groepen toevoegen aan deze rollen om het beheer van gebruikers eenvoudiger te maken. 
+- **Lijst met contactpersonen** : In de nieuwe werkruimten kunt u opgeven wie er meldingen over werkruimteactiviteiten ontvangt.
+- **Sjabloon-apps maken** : U kunt in de nieuwe werkruimten alleen *sjabloon-apps* maken. Sjabloon-apps zijn apps die u kunt distribueren naar klanten buiten uw organisatie. Deze klanten kunnen vervolgens uw sjabloon-app gebruiken om verbinding te maken met hun eigen gegevens. Meer informatie over [sjabloon-apps](../connect-data/service-template-apps-overview.md).
+- **Gegevenssets delen** : Als u een gegevensset buiten een specifieke werkruimte wilt delen, moet u het rapport met de gegevensset in een van de nieuwe werkruimten opslaan. U kunt geen gegevenssets delen vanuit klassieke werkruimten. Meer informatie over [gedeelde gegevenssets](../connect-data/service-datasets-across-workspaces.md).
+- **Organisatie-inhoudspakketten** : U kunt organisatie-inhoudspakketten maken en gebruiken in klassieke werkruimten. U kunt ze niet in de nieuwe werkruimten maken of gebruiken. Apps en sjabloon-apps vervangen organisatie-inhoudspakketten in de nieuwe werkruimten.
 
 In dit artikel vindt u meer informatie over deze functies.
 
@@ -48,11 +48,11 @@ In dit artikel vindt u meer informatie over deze functies.
 
 In de nieuwe werkruimten werken sommige functies anders. Deze verschillen zijn opzettelijk aangebracht, op basis van de feedback die we van klanten hebben ontvangen. Hierdoor kunnen gebruikers flexibeler samenwerken in werkruimten.
 
-- **Afdwingen van licenties**: Bij het publiceren van rapporten naar een nieuwe werkruimte-ervaring worden bestaande licentieregels afgedwongen. Gebruikers die in nieuwe werkruimten samenwerken of inhoud delen met andere gebruikers in de Power BI-service hebben een Power BI Pro-licentie nodig. Gebruikers zonder een Pro-licentie zien de fout 'Alleen gebruikers met Power BI Pro-licenties kunnen publiceren naar deze werkruimte'.
+- **Afdwingen van licenties** : Bij het publiceren van rapporten naar een nieuwe werkruimte-ervaring worden bestaande licentieregels afgedwongen. Gebruikers die in nieuwe werkruimten samenwerken of inhoud delen met andere gebruikers in de Power BI-service hebben een Power BI Pro-licentie nodig. Gebruikers zonder een Pro-licentie zien de fout 'Alleen gebruikers met Power BI Pro-licenties kunnen publiceren naar deze werkruimte'.
 - **Instelling 'Leden kunnen opnieuw delen'** : De rol Inzender in de nieuwe werkruimten vervangt de instelling 'Leden kunnen opnieuw delen' in de klassieke werkruimten.
-- **Alleen-lezen werkruimten**: De rol van kijker in de nieuwe werkruimten vervangt de alleen-lezentoegang tot een klassieke werkruimte die aan gebruikers werd verleend. Met de rol Kijker wordt vergelijkbare alleen-lezentoegang tot de inhoud in de nieuwe werkruimten toegestaan.
+- **Alleen-lezen werkruimten** : De rol van kijker in de nieuwe werkruimten vervangt de alleen-lezentoegang tot een klassieke werkruimte die aan gebruikers werd verleend. Met de rol Kijker wordt vergelijkbare alleen-lezentoegang tot de inhoud in de nieuwe werkruimten toegestaan.
 - **Gebruikers zonder een Pro-licentie** hebben toegang tot een nieuwe werkruimte als deze over een Power BI Premium-capaciteit beschikt, maar alleen als ze de rol van Kijker hebben.
-- **Gebruikers toestaan gegevens te exporteren**: Zelfs gebruikers met de rol Kijker in de nieuwe werkruimte kunnen gegevens exporteren als ze de samenstellingsmachtiging hebben voor de gegevenssets in die werkruimte. Meer informatie over [Samenstellingsmachtiging voor gegevenssets](../connect-data/service-datasets-build-permissions.md).
+- **Gebruikers toestaan gegevens te exporteren** : Zelfs gebruikers met de rol Kijker in de nieuwe werkruimte kunnen gegevens exporteren als ze de samenstellingsmachtiging hebben voor de gegevenssets in die werkruimte. Meer informatie over [Samenstellingsmachtiging voor gegevenssets](../connect-data/service-datasets-build-permissions.md).
 - Geen knop **Werkruimte verlaten** in de nieuwe werkruimten.
 
 ### <a name="workspace-contact-list"></a>Lijst met contactpersonen van werkruimte

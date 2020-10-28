@@ -8,16 +8,16 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: c647f376502e2575b9eef46e9e2a72d5d76e8053
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 432f05ed7efe8438d21a285b732ead08d93b8732
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635166"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349386"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Wat zijn Power BI-sjabloon-apps?
 
-Met de nieuwe Power BI-*sjabloon-apps* kunnen Power BI-partners Power BI-apps maken met weinig of geen code en deze implementeren naar elke Power BI-klant.  In dit artikel wordt een overzicht gegeven van het programma Power BI-sjabloon-app.
+Met de nieuwe Power BI- *sjabloon-apps* kunnen Power BI-partners Power BI-apps maken met weinig of geen code en deze implementeren naar elke Power BI-klant.  In dit artikel wordt een overzicht gegeven van het programma Power BI-sjabloon-app.
 
 Als Power BI-partner kunt u een set met out-of-the-box-inhoud voor uw klanten maken en deze zelf publiceren.  
 
@@ -109,7 +109,7 @@ Zie [Tips voor het ontwerpen van sjabloon-apps in Power BI](service-template-app
 |Inhoud: Dashboards | Realtime-tegels zijn niet toegestaan (met andere woorden, geen ondersteuning voor push- of streaminggegevenssets) |
 |Inhoud: Gegevensstromen | Niet ondersteund: Gegevensstromen |
 |Inhoud van bestanden | Alleen .pbix-bestanden worden ondersteund. <br>Niet ondersteund: .rdl-bestanden (gepagineerde rapporten), Excel-werkmappen   |
-| Gegevensbronnen | Gegevensbronnen die worden ondersteund voor via de cloud geplande gegevensvernieuwing zijn toegestaan. <br>Niet ondersteund: <li> DirectQuery</li><li>Liveverbindingen (geen Azure AS)</li> <li>On-premises gegevensbronnen (persoonlijke gateways en bedrijfsgateways worden niet ondersteund)</li> <li>Realtime (geen ondersteuning voor pushgegevensset)</li> <li>Samengestelde modellen</li></ul> |
+| Gegevensbronnen | Gegevensbronnen die worden ondersteund voor via de cloud geplande gegevensvernieuwing zijn toegestaan. <br>Niet ondersteund: <li>Liveverbindingen (geen Azure AS)</li> <li>On-premises gegevensbronnen (persoonlijke gateways en bedrijfsgateways worden niet ondersteund)</li> <li>Realtime (geen ondersteuning voor pushgegevensset)</li> <li>Samengestelde modellen</li></ul> |
 | Gegevensset: voor meerdere werkruimten | Gegevenssets voor meerdere werkruimten zijn niet toegestaan  |
 | Queryparameters | Niet ondersteund: Parameters van het type Any of Binary blokkeren het vernieuwen van de gegevensset |
 | Power BI-visuals | Alleen de openbaar beschikbare Power BI-visuals worden ondersteund. [Power BI-organisatievisuals](../developer/visuals/power-bi-custom-visuals-organization.md) niet ondersteund |

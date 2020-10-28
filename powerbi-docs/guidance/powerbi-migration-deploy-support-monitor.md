@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965000"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681017"
 ---
 # <a name="deploy-to-power-bi"></a>Implementeren in Power BI
 
@@ -93,7 +93,7 @@ De belangrijkste activiteiten tijdens een implementatie naar de productiewerkrui
 - **App:** Als apps deel uitmaken van uw strategie voor inhoudsdistributie, publiceert u een [app](../consumer/end-user-apps.md) met behulp van de inhoud uit de productiewerkruimte.
 - **Beveiliging:** De [werkruimterollen](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) moeten worden bijgewerkt en geverifieerd conform uw strategie voor inhoudsdistributie en samenwerking.
 - **Gegevenssetinstellingen:** De instellingen voor elke gegevensset moeten worden bijgewerkt en geverifieerd, waaronder:
-  - [Aanbeveling](../connect-data/service-datasets-certify.md) (zoals gecertificeerd of gepromoot)
+  - [Aanbeveling](../collaborate-share/service-endorse-content.md) (zoals gecertificeerd of gepromoot)
   - Gatewayverbindings- of gegevensbronreferenties
   - Geplande vernieuwing
   - [Aanbevolen Q&A-vragen](../create-reports/service-q-and-a-create-featured-questions.md)

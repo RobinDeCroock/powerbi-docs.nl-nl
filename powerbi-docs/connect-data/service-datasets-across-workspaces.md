@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 23d520815c47c9ff9f1ec045ec67921141e8eb7a
+ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374264"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92681151"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>Introductie van gegevenssets in verschillende werkruimten
 
@@ -22,7 +22,7 @@ Business intelligence is een activiteit in samenwerkingsverband. Het is belangri
 
 ![Een gedeelde gegevensset selecteren](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-In Power BI kunnen makers van gegevenssets bepalen wie toegang heeft tot hun gegevens met behulp van de [samenstellingsmachtiging](service-datasets-build-permissions.md). Makers van gegevenssets kunnen gegevenssets bovendien *certificeren* of *promoten*, zodat anderen deze kunnen detecteren. Op die manier weten auteurs van rapporten welke gegevenssets van hoge kwaliteit en betrouwbaar zijn, en kunnen ze deze gegevenssets gebruiken wanneer ze inhoud maken in Power BI. Beheerders hebben een nieuwe tenantinstelling voor het [bepalen van het gebruik van gegevenssets in werkruimten](service-datasets-admin-across-workspaces.md).
+In Power BI kunnen makers van gegevenssets bepalen wie toegang heeft tot hun gegevens met behulp van de [samenstellingsmachtiging](service-datasets-build-permissions.md). Makers van gegevenssets kunnen gegevenssets bovendien *certificeren* of *promoten* , zodat anderen deze kunnen detecteren. Op die manier weten auteurs van rapporten welke gegevenssets van hoge kwaliteit en betrouwbaar zijn, en kunnen ze deze gegevenssets gebruiken wanneer ze inhoud maken in Power BI. Beheerders hebben een nieuwe tenantinstelling voor het [bepalen van het gebruik van gegevenssets in werkruimten](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Gegevenssets delen en de nieuwe werkruimte-ervaring
 
@@ -47,7 +47,7 @@ Met het samenstellingsmachtigingstype kunt u, als u een maker van gegevenssets b
 
 ## <a name="promotion-and-certification"></a>Promotie en certificering
 
-Als u gegevenssets maakt en een gegevensset maakt waarvan anderen kunnen profiteren, kunt u het voor hen eenvoudiger maken om deze te detecteren door [uw gegevensset te promoten](service-datasets-promote.md). U kunt ook experts in uw organisatie vragen om [uw gegevensset te certificeren](service-datasets-certify.md).
+Als u gegevenssets maakt en een gegevensset maakt waarvan anderen kunnen profiteren, kunt u het voor hen eenvoudiger maken om deze te detecteren door [uw gegevensset te promoten](../collaborate-share/service-endorse-content.md#promote-content). U kunt ook experts in uw organisatie vragen om [uw gegevensset te certificeren](../collaborate-share/service-endorse-content.md#request-content-certification).
 
 ## <a name="licensing"></a>Licentieverlening
 
@@ -69,7 +69,8 @@ Licentieverlening voor de specifieke functies en ervaringen die op functionalite
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Gegevenssets promoten](service-datasets-promote.md)
-- [Gegevenssets certificeren](service-datasets-certify.md)
+- [Gegevenssets promoten](../collaborate-share/service-endorse-content.md#promote-content)
+- [Gegevenssets certificeren](../collaborate-share/service-endorse-content.md#certify-content)
+- [Certificering aanvragen voor gegevenssets](../collaborate-share/service-endorse-content.md#request-content-certification)
 - [Het gebruik van gegevenssets in meerdere werkruimten regelen](service-datasets-admin-across-workspaces.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
