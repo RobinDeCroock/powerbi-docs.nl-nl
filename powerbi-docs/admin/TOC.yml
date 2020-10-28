@@ -94,7 +94,7 @@
               href: service-security-data-protection-metrics-report.md
         - name: Beveiliging op rijniveau
           href: service-admin-rls.md
-        - name: Certificering van gegevensset en gegevensstroom instellen
+        - name: Inhoudscertificering inschakelen
           href: service-admin-setup-certification.md
         - name: Mobiele apps configureren met Intune
           href: service-admin-mobile-intune.md

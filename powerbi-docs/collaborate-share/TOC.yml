@@ -16,6 +16,8 @@
           href: service-usage-metrics.md
         - name: Gebruik binnen nieuwe werkruimten bewaken
           href: service-modern-usage-metrics.md
+        - name: Inhoudsgoedkeuring
+          href: service-endorsement-overview.md
     - name: Procedures
       expanded: true
       items:
@@ -73,6 +75,8 @@
               href: service-url-filters.md
             - name: Uzelf en anderen abonneren
               href: service-report-subscribe.md
+            - name: Uw inhoud goedkeuren
+              href: service-endorse-content.md
             - name: Inhoud aanbevelen op de startpagina
               href: service-featured-content.md
             - name: Rapport insluiten in SharePoint Online
