@@ -42,7 +42,7 @@
           href: power-bi-data-sources.md
         - name: Vereisten voor Power BI-gegevensbronnen
           href: desktop-data-source-prerequisites.md
-        - name: Uitgebreide metagegevens van gegevenssets gebruiken in Power BI Desktop (preview-versie)
+        - name: Verbeterde metagegevens van gegevenssets gebruiken in Power BI Desktop
           href: desktop-enhanced-dataset-metadata.md
         - name: Werken met multidimensionale modellen in Power BI
           href: desktop-default-member-multidimensional-models.md
@@ -184,12 +184,6 @@
               href: service-datasets-copy-reports.md
             - name: Het gebruik van gegevenssets beheren
               href: service-datasets-admin-across-workspaces.md
-        - name: Gegevenssets aanbevelen
-          items:
-            - name: Gegevenssets promoten
-              href: service-datasets-promote.md
-            - name: Gegevenssets certificeren
-              href: service-datasets-certify.md
         - name: Gegevens ophalen uit databases
           items:
             - name: Azure en Power BI

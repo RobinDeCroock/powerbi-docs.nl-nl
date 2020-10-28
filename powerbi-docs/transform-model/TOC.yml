@@ -99,8 +99,6 @@
           items:
             - name: Gegevensstromen maken en gebruiken
               href: service-dataflows-create-use.md
-            - name: Gegevens stromen promoveren of certificeren
-              href: service-dataflows-promote-certify.md
             - name: DirectQuery gebruiken met gegevensstromen in Power BI (preview)
               href: service-dataflows-directquery.md
             - name: De verbeterde berekeningsengine gebruiken met gegevensstromen
