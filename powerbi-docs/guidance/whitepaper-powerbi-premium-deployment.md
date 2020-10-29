@@ -9,23 +9,23 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: e24b9949eeaaf488f88677fc1171fae5ece5d383
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 8d28146f5f4ee47697ada1d4663ae9899b660a9b
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600375"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916631"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium capaciteit implementeren en beheren
 
 We hebben het Power BI Premiume Witboek buiten gebruik gesteld om actuele informatie in afzonderlijke artikelen te kunnen leveren. Gebruik de volgende tabel om inhoud van het Witboek te vinden. 
 
-| Artikelen | Beschrijving |
+| Artikelen | Description |
 |-----|----|
 | [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)</br>[Gegevenssets in de Power BI-service](../connect-data/service-datasets-understand.md)</br>[Gegevenssetmodi in de Power BI-service](../connect-data/service-dataset-modes-understand.md) | Achtergrond informatie over Power BI-service capaciteiten, werk ruimten, Dash boards, rapporten, werkmappen, gegevens sets en gegevens stromen. |
 | [Wat is Power BI Premium?](../admin/service-premium-what-is.md) | Een overzicht van Power BI Premium, met de basis beginselen van toegewezen capaciteiten, ondersteunde werk belastingen, onbeperkt delen van inhoud en andere functies.  |
 | [Premium-capaciteiten beheren](../admin/service-premium-capacity-manage.md)</br>[Capaciteiten configureren en beheren in Power BI Premium](../admin/service-admin-premium-manage.md)
-</br>[Workloads configureren in een Premium-capaciteit](../admin/service-admin-premium-workloads.md) | Gedetailleerde informatie over het configureren en beheren van toegewezen capaciteiten en workloads. |
+</br>[Workloads configureren in een Premium-capaciteit](../admin/service-admin-premium-workloads.md) | Gedetailleerde informatie over het configureren en beheren van capaciteit en workloads. |
 | [Premium-capaciteiten optimaliseren](../admin/service-premium-capacity-optimize.md) | Aanbevolen procedures voor het optimaliseren van prestaties, het optimaliseren van modellen, capaciteits planning en test benaderingen. |
 | [Scenario's voor Premium-capaciteit](../admin/service-premium-capacity-scenarios.md) | Veelvoorkomende problemen in Real-World scenario's, met de nadruk op het identificeren en oplossen van deze problemen. |
 | [Capaciteiten bewaken in de beheerportal](../admin/service-admin-premium-monitor-portal.md) | Bewaken met Power BI Premium-App voor capaciteits gegevens en interpreteert de metrische gegevens die u in de app ziet. |

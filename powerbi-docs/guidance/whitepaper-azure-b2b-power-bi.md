@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2019
 ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: df6b3bd29089f37b11064216568523f442169794
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528385"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916884"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B
 
@@ -25,9 +25,9 @@ ms.locfileid: "91528385"
 **Technische revisoren:** Adam Wilson, Sheng Liu, Qian Liang, Sergei Gundorov, Dick Grimm, Adam Saxton, Maya Shenhav, Nimrod Shalit, Elisabeth Olson
 
 > [!NOTE]
-> U kunt dit technisch document opslaan of afdrukken door **afdrukken** te selecteren in uw browser en vervolgens **Opslaan als PDF**te selecteren.
+> U kunt dit technisch document opslaan of afdrukken door **afdrukken** te selecteren in uw browser en vervolgens **Opslaan als PDF** te selecteren.
 
-## <a name="introduction"></a>Inleiding
+## <a name="introduction"></a>Introductie
 
 Power BI geeft organisaties een weer gave van hun bedrijf van 360 graden en biedt iedereen in deze organisaties de mogelijkheid om intelligente beslissingen te nemen met behulp van gegevens. Veel van deze organisaties hebben sterke en vertrouwde relaties met externe partners, clients en contract ANTEN. Deze organisaties moeten veilige toegang bieden tot Power BI Dash boards en rapporten voor gebruikers in deze externe partners.
 
@@ -188,7 +188,7 @@ In de praktijk zijn deze structuren complex, zoals wordt weer gegeven in de volg
 
 Als u een gedeelde Power BI Tenant wilt maken, moet er een Azure Active Directory worden gemaakt en moet ten minste één Power BI Pro gebruikers account worden aangeschaft voor een gebruiker in die Active Directory. Deze gebruiker nodigt de vereiste gebruikers uit voor de gedeelde organisatie. Belang rijk: in dit scenario worden de gebruikers van Contoso beschouwd als externe gebruikers wanneer ze binnen de Power BI van de gedeelde organisatie werken.
 
-Het proces is als volgt:
+Het proces verloopt als volgt:
 
 1. De gedeelde organisatie wordt ingesteld als een nieuwe Azure Active Directory en er wordt ten minste één gebruikers account gemaakt in de nieuwe organisatie. Aan deze gebruiker moet een Power BI Pro-licentie zijn toegewezen.
 2. Deze gebruiker brengt vervolgens een Power BI Tenant aan en nodigt de vereiste gebruikers uit bij Contoso en de partner organisatie. De gebruiker brengt ook gedeelde gegevensassets, zoals Azure Analysis Services, tot stand. Contoso en de gebruikers van de partner hebben toegang tot de Power BI van de gedeelde organisatie als gast gebruikers. Als het toegestaan is om inhoud te bewerken en te beheren in Power BI kunnen de externe gebruikers Power BI Home gebruiken, werk ruimten gebruiken, uploaden of inhoud bewerken en rapporten delen. Normaal gesp roken worden alle gedeelde assets opgeslagen en geopend vanuit de gedeelde organisatie.
@@ -288,7 +288,7 @@ De integratie van Power BI met Azure AD B2B biedt contoso een naadloze, soepele 
     Nu het BI-team van Contoso de BI-portal heeft gemaakt en gast gebruikers heeft uitgenodigd, kunnen ze hun portal naar hun eind gebruikers distribueren door gast gebruikers toegang te geven tot de app en deze te publiceren. Power BI automatisch de namen van gast gebruikers die eerder zijn toegevoegd aan de contoso-Tenant. Ad hoc-uitnodigingen voor andere gast gebruikers kunnen op dit moment ook worden toegevoegd.
 
     > [!NOTE]
-    > Als u beveiligings groepen gebruikt voor het beheren van de toegang tot de app voor externe gebruikers, gebruikt u de geplande methode voor uitnodigingen en deelt u de app-koppeling rechtstreeks met elke externe gebruiker die er toegang toe moet hebben. Anders is het mogelijk dat de externe gebruiker inhoud niet kan installeren of weer geven in de app. _
+    > Als u beveiligings groepen gebruikt voor het beheren van de toegang tot de app voor externe gebruikers, gebruikt u de geplande methode voor uitnodigingen en deelt u de app-koppeling rechtstreeks met elke externe gebruiker die er toegang toe moet hebben. Anders is het mogelijk dat de externe gebruiker inhoud niet kan installeren of weer geven in de app._
 
     Gast gebruikers krijgen een e-mail met een koppeling naar de app.
 
@@ -344,7 +344,7 @@ Met deze methode koopt contoso Power BI Premium capaciteit en wijst hij de inhou
 
 Externe gebruikers zijn ook onderhevig aan het verbruik dat alleen wordt aangeboden aan ' gratis ' gebruikers in Power BI bij het gebruiken van inhoud in Power BI Premium.
 
-Contoso kan ook profiteren van andere Power BI Premium-mogelijkheden voor de apps zoals verhoogde vernieuwings frequenties, toegewezen capaciteit en grote model grootten.
+Contoso kan ook profiteren van andere Power BI Premium-mogelijkheden voor de apps zoals verhoogde vernieuwings snelheden, capaciteit en grote model grootten.
 
 ![Aanvullende mogelijkheden](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_24.png)
 
@@ -457,7 +457,7 @@ Zoals u kunt zien, werkt dynamische beveiliging op rijniveau met zowel interne a
 Power BI biedt de mogelijkheid van Contoso om gebruik te maken van on-premises gegevens bronnen, zoals [SQL Server Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/) of [SQL Server](https://powerbi.microsoft.com/documentation/powerbi-gateway-kerberos-for-sso-pbi-to-on-premises-data/) direct dankzij de [on-premises gegevens gateway](https://powerbi.microsoft.com/documentation/powerbi-gateway-onprem/). Het is zelfs mogelijk om u aan te melden bij deze gegevens bronnen met dezelfde referenties als voor Power BI.
 
 > [!NOTE]
-> Wanneer u een gateway installeert om verbinding te maken met uw Power BI-Tenant, moet u een gebruiker gebruiken die in uw Tenant is gemaakt. Externe gebruikers kunnen geen gateway installeren en verbinden met uw Tenant. _
+> Wanneer u een gateway installeert om verbinding te maken met uw Power BI-Tenant, moet u een gebruiker gebruiken die in uw Tenant is gemaakt. Externe gebruikers kunnen geen gateway installeren en verbinden met uw tenant._
 
 Voor externe gebruikers kan dit ingewik kelder zijn omdat de externe gebruikers doorgaans niet bekend zijn bij de on-premises AD. Power BI biedt een tijdelijke oplossing waarmee contoso-beheerders de externe gebruikers namen kunnen toewijzen aan interne gebruikers namen, zoals wordt beschreven in [uw gegevens bron beheren-Analysis Services](https://powerbi.microsoft.com/documentation/powerbi-gateway-enterprise-manage-ssas/). [lucy@supplier1.com](mailto:lucy@supplier1.com)Kan bijvoorbeeld worden toegewezen aan [Lucy \_ supplier1 \_ com # EXT@contoso.com ](mailto:lucy_supplier1_com).
 
@@ -474,7 +474,7 @@ Contoso kan toestaan dat externe gebruikers inhoud in de organisatie bijdragen z
 
 De Power BI-beheer Portal biedt de **mogelijkheid externe gast gebruikers toe te staan om inhoud te bewerken en te beheren in de organisatie-** instelling in Tenant instellingen. De instelling is standaard ingesteld op uitgeschakeld, wat betekent dat externe gebruikers standaard een beperkte alleen-lezen ervaring krijgen. De instelling is van toepassing op gebruikers met User type ingesteld op gast in azure AD. In de volgende tabel wordt beschreven hoe gebruikers zich kunnen aanmelden, afhankelijk van hun User type en hoe de instellingen worden geconfigureerd.
 
-| **Gebruikers type in azure AD** | **Externe gast gebruikers toestaan om inhoud te bewerken en te beheren** | **Gedrag** |
+| **Gebruikers type in azure AD** | **Externe gast gebruikers toestaan om inhoud te bewerken en te beheren** | Gedrag |
 | --- | --- | --- |
 | Gast | Uitgeschakeld voor de gebruiker (standaard) | Alleen weer gave per artikel verbruik. Hiermee staat u alleen-lezen toegang toe voor rapporten, Dash boards en apps wanneer deze worden bekeken via een URL die naar de gast gebruiker wordt verzonden. Power BI-Mobiel-apps bieden een alleen-lezen weer gave voor de gast gebruiker. |
 | Gast | Ingeschakeld voor de gebruiker | De externe gebruiker krijgt toegang tot de volledige Power BI-ervaring, maar sommige functies zijn niet beschikbaar. De externe gebruiker moet zich aanmelden bij Power BI met behulp van de Power BI service-URL met de informatie over de Tenant. De gebruiker krijgt de Home-ervaring, een mijn werk ruimte en op basis van machtigingen kan inhoud bladeren, bekijken en maken. </br></br> Power BI-Mobiel-apps bieden een alleen-lezen weer gave voor de gast gebruiker. |
@@ -490,8 +490,8 @@ Gast gebruikers krijgen de alleen-lezen standaard ervaring en kunnen inhoud bewe
 
 Als u deze gebruikers wilt helpen bij het aanmelden bij Power BI, geeft u de URL van de Tenant. Volg deze stap om de tenant-URL te zoeken.
 
-1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) vervolgens  **over Power bi**.
-2. Zoek naar de waarde naast  **Tenant-URL**. Dit is de Tenant-URL die u met uw gast gebruikers kunt delen.
+1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) vervolgens  **over Power bi** .
+2. Zoek naar de waarde naast  **Tenant-URL** . Dit is de Tenant-URL die u met uw gast gebruikers kunt delen.
 
     ![Tenant-URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 
