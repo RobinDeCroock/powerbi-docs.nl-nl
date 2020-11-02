@@ -79,6 +79,8 @@
               href: access-dataset-odata.md
             - name: Verbindingsreeksen voor gegevensbronnen wijzigen met PowerShell
               href: connect-data-source-apis.md
+            - name: 'Verbindingsreeksen voor gegevensbronnen wijzigen met PowerShell, voor oktober 2020'
+              href: connect-data-source-apis-pre-oct-2020.md
             - name: Geplande vernieuwing configureren
               href: configure-scheduled-refresh.md
             - name: Opmerkingen toevoegen aan een rapport
