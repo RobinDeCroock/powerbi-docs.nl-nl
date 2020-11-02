@@ -7,19 +7,22 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/26/2019
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 83e1725b7ce7d38a00d0564702977c3a8eef7c1d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222876"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501898"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Versleuteling voor SAP HANA inschakelen
 
-U wordt aangeraden verbindingen met een SAP HANA-server te versleutelen vanuit Power BI Desktop en de Power BI-service. U kunt HANA-versleuteling inschakelen met behulp van zowel OpenSSL en als de eigen CommonCryptoLib-bibliotheek (voorheen sapcrypto genoemd) van SAP. SAP raadt u aan CommonCryptoLib te gebruiken, maar er zijn basisversleutelingsfuncties beschikbaar voor elke bibliotheek.
+U wordt aangeraden verbindingen met een SAP HANA-server te versleutelen vanuit Power BI Desktop en de Power BI-service. U kunt HANA-versleuteling inschakelen met behulp van de eigen CommonCryptoLib-bibliotheek (voorheen sapcrypto genoemd) van SAP. SAP raadt aan om CommonCryptoLib te gebruiken.
+
+> [!IMPORTANT]
+> SAP biedt geen ondersteuning meer voor de OpenSSL, en als gevolg daarvan biedt Microsoft er ook geen ondersteuning meer voor. Bestaande en nieuwe verbindingen blijven tot eind 2020 nog goed werken, maar zullen vanaf 1 januari 2021 niet meer werken. Gebruik in plaats daarvan CommonCryptoLib.
 
 In dit artikel krijgt u een overzicht van het inschakelen van versleuteling met behulp van OpenSSL; er wordt verwezen naar een aantal specifieke gebieden van de SAP-documentatie. Inhoud en koppelingen worden periodiek bijgewerkt, maar raadpleeg voor uitgebreide instructies en ondersteuning altijd de officiële SAP-documentatie. Als u versleuteling wilt instellen met behulp van CommonCryptoLib in plaats van OpenSSL, raadpleegt u [TLS/SSL configureren in SAP HANA 2.0](https://blogs.sap.com/2018/11/13/how-to-configure-tlsssl-in-sap-hana-2.0/). Voor instructies voor de migratie van OpenSSL naar CommonCryptoLib raadpleegt u [SAP-notitie 2093286](https://launchpad.support.sap.com/#/notes/2093286) (s-gebruiker vereist).
 
@@ -40,7 +43,7 @@ Dien een aanvraag in om een X509-certificaat voor de HANA-server te ondertekenen
 
 1. Maak via SSH verbinding met de Linux-computer waarop de HANA-server wordt uitgevoerd als \<sid\>adm.
 
-1. Ga naar de basismap _/__usr/sap/\<sid\>/home_.
+1. Ga naar de basismap _/_ _usr/sap/\<sid\>/home_ .
 
 1. Maak een verborgen map met de naam _.__ssl_ als deze map nog niet bestaat.
 

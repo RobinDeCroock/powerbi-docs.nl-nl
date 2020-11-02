@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d23062a5b8fe4a1a68be372865746a1a7d497c26
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860274"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349662"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
@@ -30,7 +30,7 @@ U kent deze onderdelen mogelijk al als bestaande functies van Power BI. Bij het 
 <a name="queries"></a>
 
 ## <a name="queries"></a>Query's
-In sjabloon-apps worden in Power BI Desktop ontwikkelde query's gebruikt om verbinding te maken met uw gegevensbron en gegevens te importeren. Deze query's zijn vereist om een consistent schema te retourneren en worden ondersteund voor de geplande gegevensvernieuwing (DirectQuery wordt niet ondersteund).
+In sjabloon-apps worden in Power BI Desktop ontwikkelde query's gebruikt om verbinding te maken met uw gegevensbron en gegevens te importeren. Deze query's zijn vereist om een consistent schema te retourneren en worden ondersteund voor de geplande gegevensvernieuwing.
 
 ### <a name="connect-to-your-api"></a>Verbinding maken met uw API
 Voordat u kunt beginnen met het samenstellen van query's, moet u vanuit Power BI Desktop verbinding maken met uw API.

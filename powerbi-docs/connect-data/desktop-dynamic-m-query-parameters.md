@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/13/2020
+ms.date: 10/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2fd8375e105769ed0c9a81e7d894cc0f31f08b0
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92258192"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349639"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Dynamische M-queryparameters in Power BI Desktop (preview)
 
@@ -28,7 +28,12 @@ De functie **Dynamische M-queryparameters** is momenteel in preview en moet expl
 
 ![De preview-functie inschakelen](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-01.png)
 
-Als vereiste voor deze functie moet u een geldige [M queryparameter](/power-query/power-query-query-parameters) hebben gemaakt en moet hiernaar worden verwezen in een of meer DirectQuery-tabellen. Laten we stapsgewijs een voorbeeld doornemen om een **enkele waarde** dynamisch door te geven aan een parameter:
+Als vereiste voor deze functie moet u een geldige [M queryparameter](/power-query/power-query-query-parameters) hebben gemaakt en moet hiernaar worden verwezen in een of meer DirectQuery-tabellen. 
+
+> [!NOTE]
+> Raadpleeg de sectie [Overwegingen en beperkingen](#considerations-and-limitations) in dit artikel, omdat niet alle DirectQuery-bronnen worden ondersteund met deze functie.
+
+Laten we stapsgewijs een voorbeeld doornemen om een **enkele waarde** dynamisch door te geven aan een parameter:
 
 1. Start in Power BI Desktop **Power Query** vanaf het tabblad **Gegevens** en selecteer **Nieuwe parameter** via de knop **Parameters beheren** op het lint.
 
@@ -54,7 +59,7 @@ Als vereiste voor deze functie moet u een geldige [M queryparameter](/power-quer
 
     ![Een nieuwe tabel maken](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-07.png)
 
-7. Dit is de eerste tabel die is gemaakt voor de parameter *StartTime*:
+7. Dit is de eerste tabel die is gemaakt voor de parameter *StartTime* :
 
     ```StartDateTable = CALENDAR (DATE(2016,1,1), DATE(2016,12,31))```
 
@@ -69,7 +74,7 @@ Als vereiste voor deze functie moet u een geldige [M queryparameter](/power-quer
     > [!NOTE]
     > Het is raadzaam om een kolomnaam te gebruiken die niet wordt gebruikt in een andere tabel. Als kolommen dezelfde naam hebben, wordt de geselecteerde waarde als een filter toegepast op de daadwerkelijke query.
 
-9. De tabellen met het veld *Date* zijn nu gemaakt en dus kunnen we elk veld aan een parameter binden. Het binden van een veld aan een parameter betekent in feite dat de geselecteerde waarde voor het veld verandert, dat de waarde wordt doorgegeven aan de parameter en dat de query wordt bijgewerkt op de positie waar naar de parameter wordt verwezen. Om het veld te binden, gaat u naar het tabblad **Model maken**, selecteert u het zojuist gemaakte veld en **Geavanceerd** om de bijbehorende eigenschappen weer te geven:
+9. De tabellen met het veld *Date* zijn nu gemaakt en dus kunnen we elk veld aan een parameter binden. Het binden van een veld aan een parameter betekent in feite dat de geselecteerde waarde voor het veld verandert, dat de waarde wordt doorgegeven aan de parameter en dat de query wordt bijgewerkt op de positie waar naar de parameter wordt verwezen. Om het veld te binden, gaat u naar het tabblad **Model maken** , selecteert u het zojuist gemaakte veld en **Geavanceerd** om de bijbehorende eigenschappen weer te geven:
 
     > [!NOTE]
     > Het gegevenstype van de kolom moet overeenkomen met het type M-parameter.
@@ -84,7 +89,7 @@ Als vereiste voor deze functie moet u een geldige [M queryparameter](/power-quer
 
     ![Meervoudige selectie uitgeschakeld](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-12.png)
 
-    Als voor uw gebruiksscenario meervoudige selectie vereist is (meerdere waarden doorgeven aan één parameter), moet u de schakeloptie op **Ja** zetten en ervoor zorgen dat de M-query is ingesteld voor het accepteren van meerdere waarden in de M-query. Hier ziet u een voorbeeld van *RepoNameParameter*, waarvoor meerdere waarden zijn toegestaan:
+    Als voor uw gebruiksscenario meervoudige selectie vereist is (meerdere waarden doorgeven aan één parameter), moet u de schakeloptie op **Ja** zetten en ervoor zorgen dat de M-query is ingesteld voor het accepteren van meerdere waarden in de M-query. Hier ziet u een voorbeeld van *RepoNameParameter* , waarvoor meerdere waarden zijn toegestaan:
 
     ![Voorbeeld met meerdere waarden](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-13.png)
 
@@ -100,7 +105,7 @@ Als Meervoudige selectie is ingesteld op **Nee** voor de toegewezen kolom, moet 
 
 ## <a name="potential-security-risk"></a>Potentieel beveiligingsrisico
 
-Wanneer u rapportlezers toestaat om de waarden voor de M-queryparameters dynamisch in te stellen, hebben ze mogelijk toegang tot aanvullende gegevens of kunnen ze wijzigingen van het bronsysteem initiëren via **injectieaanvallen**, afhankelijk van de manier waarop naar de parameters wordt verwezen in de M-query en welke waarden er worden doorgegeven aan die parameter.
+Wanneer u rapportlezers toestaat om de waarden voor de M-queryparameters dynamisch in te stellen, hebben ze mogelijk toegang tot aanvullende gegevens of kunnen ze wijzigingen van het bronsysteem initiëren via **injectieaanvallen** , afhankelijk van de manier waarop naar de parameters wordt verwezen in de M-query en welke waarden er worden doorgegeven aan die parameter.
 
 Stel dat u een geparametriseerde Kusto-query hebt gemaakt, zoals in het volgende voorbeeld:
 
@@ -110,7 +115,7 @@ Products
  | project ReleaseDate, Name, Category, Region```
 ```
 
-U vindt het misschien prima dat een goedwillende gebruiker een geschikte waarde voor de parameter opgeeft, bijvoorbeeld *Games*:
+U vindt het misschien prima dat een goedwillende gebruiker een geschikte waarde voor de parameter opgeeft, bijvoorbeeld *Games* :
 
 ```
 | where Category == 'Games' & HasReleased == 'True'
@@ -147,7 +152,13 @@ Enkele voorbeelden:
 Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden wanneer u dynamische M-queryparameters gebruikt:
 
 * Een bepaalde parameter kan niet worden gebonden aan meerdere velden en omgekeerd.
-* De functie wordt alleen ondersteund voor gegevensbronnen op basis van M en er is geen ondersteuning voor native SQL-query's.
+* De functie wordt alleen ondersteund voor gegevensbronnen op basis van M. De volgende DirectQuery-bronnen worden niet ondersteund:
+    * Op T-SQL gebaseerde gegevensbronnen: SQL Server, Azure SQL Database, Synapse SQL-pools (oftewel Azure SQL Data Warehouse) en Synapse SQL OnDemand-pools
+    * Live Connect-gegevensbronnen: Azure Analysis Services, SQL Server Analysis Services, Power BI-gegevenssets
+    * Andere niet-ondersteunde gegevensbronnen: Oracle, Teradata en relationele SAP Hana
+    * Gedeeltelijk ondersteund door eindpuntprogrammeerheid XMLA/TOM: SAP BW en SAP Hana 
+
+
 * De volgende out-of-the-box parametertypen worden niet ondersteund:
   * Alle
   * Duur

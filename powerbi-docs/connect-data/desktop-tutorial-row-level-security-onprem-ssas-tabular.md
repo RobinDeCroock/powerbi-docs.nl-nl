@@ -1,6 +1,6 @@
 ---
 title: Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
-description: Dynamische beveiliging op rijniveau met model in tabelvorm van Analysis Services
+description: Dynamische beveiliging op rijniveau met on-premises tabellair Analysis Services-model
 author: davidiseminger
 ms.reviewer: davidi
 editor: davidi
@@ -10,21 +10,21 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4426960cefc23111740d0e930f7a9704e18f8bb6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 047c4e7d71cbbae95f4b1f8067548d807421385d
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878317"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349593"
 ---
-# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Beveiliging op rijniveau implementeren met model in tabelvorm van Analysis Services
+# <a name="implement-row-level-security-in-an-on-premises-analysis-services-tabular-model"></a>Beveiliging op rijniveau implementeren in een on-premises tabellair Analysis Services-model
 
-In deze zelfstudie gebruikt u een voorbeeldgegevensset om de onderstaande stappen uit te voeren. U leert hierbij [**beveiliging op rijniveau**](../admin/service-admin-rls.md) in een *tabellair Analysis Services-model* te implementeren en deze te gebruiken in een Power BI-rapport.
+In deze zelfstudie gebruikt u een voorbeeldgegevensset om de onderstaande stappen uit te voeren. U leert hierbij [**beveiliging op rijniveau**](../admin/service-admin-rls.md) in een on-premises *tabellair Analysis Services-model* te implementeren en deze te gebruiken in een Power BI-rapport.
 
 * Een nieuwe beveiligingstabel maken in de [database AdventureworksDW2012](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)
 * Het tabellaire model opbouwen met de benodigde feiten- en dimensietabellen
 * Gebruikersrollen en machtigingen definiëren
-* Het model implementeren in een *tabellair Analysis Services*-exemplaar
+* Het model implementeren in een *tabellair Analysis Services* -exemplaar
 * Een Power BI Desktop-rapport samenstellen waarin gegevens worden weergegeven die zijn afgestemd op de gebruiker die het rapport opent
 * Het rapport implementeren in de *Power BI-service*
 * Een nieuw dashboard maken op basis van het rapport
@@ -44,11 +44,11 @@ Voor de hier beschreven stappen is de relationele database AdventureworksDW2012 
 
 1. Wanneer u de tabel hebt gemaakt en opgeslagen, moet u de relatie tussen de kolom `SalesTerritoryID` van de tabel `DimUserSecurity` en de kolom `SalesTerritoryKey` van de tabel `DimSalesTerritory` instellen, zoals hieronder wordt weergegeven.
 
-   Klik in SSMS met de rechtermuisknop op de tabel **DimUserSecurity** en selecteer **Ontwerpen**. Selecteer vervolgens **Tabelontwerpfunctie** > **Relaties...** . Wanneer u klaar bent, slaat u de tabel op.
+   Klik in SSMS met de rechtermuisknop op de tabel **DimUserSecurity** en selecteer **Ontwerpen** . Selecteer vervolgens **Tabelontwerpfunctie** > **Relaties...** . Wanneer u klaar bent, slaat u de tabel op.
 
    ![Relaties van refererende sleutel](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
 
-1. Voeg gebruikers toe aan de tabel. Klik met de rechtermuisknop op **DimUserSecurity** en selecteer **Bovenste 200 rijen bewerken**. Zodra u gebruikers hebt toegevoegd, moet de tabel `DimUserSecurity` er ongeveer als volgt uitzien:
+1. Voeg gebruikers toe aan de tabel. Klik met de rechtermuisknop op **DimUserSecurity** en selecteer **Bovenste 200 rijen bewerken** . Zodra u gebruikers hebt toegevoegd, moet de tabel `DimUserSecurity` er ongeveer als volgt uitzien:
 
    ![DimUserSecurity-tabel met voorbeeldgebruikers](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
 
@@ -60,7 +60,7 @@ Voor de hier beschreven stappen is de relationele database AdventureworksDW2012 
     select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryID] = b.[SalesTerritoryKey]
     ```
 
-   U ziet in de samengevoegde tabel wie er verantwoordelijk is voor elke verkoopregio, dankzij de relatie die is gemaakt in stap 2. U kunt bijvoorbeeld zien dat *Rita Santos* verantwoordelijk is voor *Australië*.
+   U ziet in de samengevoegde tabel wie er verantwoordelijk is voor elke verkoopregio, dankzij de relatie die is gemaakt in stap 2. U kunt bijvoorbeeld zien dat *Rita Santos* verantwoordelijk is voor *Australië* .
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Taak 2: Het tabellaire model met feiten- en dimensietabellen maken
 
@@ -70,17 +70,17 @@ Zodra de relationele datawarehouse is geïnstalleerd, moet u het tabellaire mode
 
     ![Geïmporteerde SQL Server voor gebruik bij gegevenshulpmiddelen](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
 
-1. Nadat u de benodigde tabellen hebt geïmporteerd, moet u een rol met de naam *SalesTerritoryUsers* definiëren met een machtiging voor lezen. Selecteer het menu **Model** in SQL Server Data Tools en selecteer vervolgens **Rollen**. Selecteer **Nieuw** in **Rolbeheer**.
+1. Nadat u de benodigde tabellen hebt geïmporteerd, moet u een rol met de naam *SalesTerritoryUsers* definiëren met een machtiging voor lezen. Selecteer het menu **Model** in SQL Server Data Tools en selecteer vervolgens **Rollen** . Selecteer **Nieuw** in **Rolbeheer** .
 
 1. Voeg onder **Leden** in **Rolbeheer** de gebruikers toe die u hebt gedefinieerd in de tabel `DimUserSecurity` in [taak 1](#task-1-create-the-user-security-table-and-define-data-relationship).
 
     ![Gebruikers toevoegen in Rolbeheer](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager.png)
 
-1. Voeg vervolgens de juiste functies toe voor de tabellen `DimSalesTerritory` en `DimUserSecurity`, zoals hieronder weergegeven op het tabblad **Rijfilters**.
+1. Voeg vervolgens de juiste functies toe voor de tabellen `DimSalesTerritory` en `DimUserSecurity`, zoals hieronder weergegeven op het tabblad **Rijfilters** .
 
     ![Functies toevoegen aan Rijfilters](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/rolemanager_complete.png)
 
-1. Met de functie `LOOKUPVALUE` worden waarden geretourneerd voor een kolom waarin de Windows-gebruikersnaam hetzelfde is als de gebruikersnaam die wordt geretourneerd door de functie `USERNAME`. Vervolgens kunt u query's beperken tot waar de door `LOOKUPVALUE` geretourneerde waarden overeenkomen met de waarden in dezelfde of een verwante tabel. Typ de volgende formule in de kolom **DAX Filter**:
+1. Met de functie `LOOKUPVALUE` worden waarden geretourneerd voor een kolom waarin de Windows-gebruikersnaam hetzelfde is als de gebruikersnaam die wordt geretourneerd door de functie `USERNAME`. Vervolgens kunt u query's beperken tot waar de door `LOOKUPVALUE` geretourneerde waarden overeenkomen met de waarden in dezelfde of een verwante tabel. Typ de volgende formule in de kolom **DAX Filter** :
 
     ```dax
         =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
@@ -93,7 +93,7 @@ Zodra de relationele datawarehouse is geïnstalleerd, moet u het tabellaire mode
 
    De set met `LOOKUPVALUE` van de `SalesTerritoryKey` van de verkoop wordt vervolgens gebruikt om de rijen die in de `DimSalesTerritory` worden weergegeven, te beperken. Alleen rijen waar de waarde `SalesTerritoryKey` voorkomt in de id's die zijn geretourneerd door de functie `LOOKUPVALUE`, worden weergegeven.
 
-1. Voeg voor de tabel `DimUserSecurity` de volgende formule toe in de kolom **DAX Filter**:
+1. Voeg voor de tabel `DimUserSecurity` de volgende formule toe in de kolom **DAX Filter** :
 
     ```dax
         =FALSE()
@@ -109,7 +109,7 @@ Nadat het tabellaire model is geïmplementeerd en klaar is voor gebruik, moet u 
 
 1. Als u de Power BI-service toegang tot uw on-premises analyseservice wilt geven, moet u een [on-premises gegevensgateway](service-gateway-onprem.md) hebben geïnstalleerd en geconfigureerd in uw omgeving.
 
-1. Als de gateway correct is geconfigureerd, moet u gegevensbronverbinding maken voor uw tabellaire *Analysis Services*-exemplaar. Zie [Uw gegevensbron beheren - Analysis Services](service-gateway-enterprise-manage-ssas.md) voor meer informatie.
+1. Als de gateway correct is geconfigureerd, moet u gegevensbronverbinding maken voor uw tabellaire *Analysis Services* -exemplaar. Zie [Uw gegevensbron beheren - Analysis Services](service-gateway-enterprise-manage-ssas.md) voor meer informatie.
 
    ![Gegevensbronverbinding maken](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)
 
@@ -117,33 +117,33 @@ Als u deze procedure hebt voltooid, is de gateway geconfigureerd en gereed voor 
 
 ## <a name="task-4-create-report-based-on-analysis-services-tabular-model-using-power-bi-desktop"></a>Taak 4: Een rapport maken op basis van het tabellaire Analysis Services-model met behulp van Power BI Desktop
 
-1. Start Power BI Desktop en selecteer **Gegevens ophalen** > **Database**.
+1. Start Power BI Desktop en selecteer **Gegevens ophalen** > **Database** .
 
-1. Selecteer in de lijst met gegevensbronnen **SQL Server Analysis Services-database** en selecteer **Verbinding maken**.
+1. Selecteer in de lijst met gegevensbronnen **SQL Server Analysis Services-database** en selecteer **Verbinding maken** .
 
    ![Verbinding maken met de SQL Server Analysis Services-database](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
 
-1. Vul de details van uw tabellaire Analysis Services-exemplaar in en selecteer **Live verbinding maken**. Selecteer **OK**.
+1. Vul de details van uw tabellaire Analysis Services-exemplaar in en selecteer **Live verbinding maken** . Selecteer **OK** .
   
    ![Meer informatie over Analysis Services](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 
    In Power BI werkt dynamische beveiliging alleen bij een liveverbinding.
 
-1. U kunt zien dat het model is geïmplementeerd in het Analysis Services-exemplaar. Selecteer het betreffende model en selecteer vervolgens **OK**.
+1. U kunt zien dat het model is geïmplementeerd in het Analysis Services-exemplaar. Selecteer het betreffende model en selecteer vervolgens **OK** .
 
-   In Power BI Desktop worden nu alle beschikbare velden weergegeven, rechts van het canvas in het deelvenster **Velden**.
+   In Power BI Desktop worden nu alle beschikbare velden weergegeven, rechts van het canvas in het deelvenster **Velden** .
 
-1. Selecteer in het deelvenster **Velden** de meting **SalesAmount** in de tabel **FactInternetSales** en de dimensie **SalesTerritoryRegion** in de tabel **SalesTerritory**.
+1. Selecteer in het deelvenster **Velden** de meting **SalesAmount** in de tabel **FactInternetSales** en de dimensie **SalesTerritoryRegion** in de tabel **SalesTerritory** .
 
-1. We willen dit rapport simpel houden, dus we zullen nu geen kolommen meer toevoegen. Als we de gegevens wat duidelijker willen weergeven, wijzigen we de visualisatie in **Ringdiagram**.
+1. We willen dit rapport simpel houden, dus we zullen nu geen kolommen meer toevoegen. Als we de gegevens wat duidelijker willen weergeven, wijzigen we de visualisatie in **Ringdiagram** .
 
    ![Een ringdiagram visualiseren](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart.png)
 
-1. Zodra het rapport gereed is, kunt u het direct publiceren naar de Power BI-portal. Selecteer in het lint **Start** van Power BI Desktop de optie **Publiceren**.
+1. Zodra het rapport gereed is, kunt u het direct publiceren naar de Power BI-portal. Selecteer in het lint **Start** van Power BI Desktop de optie **Publiceren** .
 
 ## <a name="task-5-create-and-share-a-dashboard"></a>Taak 5: Een dashboard maken en delen
 
-U hebt het rapport gemaakt en naar de **Power BI**-service gepubliceerd. U kunt nu het voorbeeld gebruiken dat in de vorige stappen is gemaakt, om het modelbeveiligingsscenario te demonstreren.
+U hebt het rapport gemaakt en naar de **Power BI** -service gepubliceerd. U kunt nu het voorbeeld gebruiken dat in de vorige stappen is gemaakt, om het modelbeveiligingsscenario te demonstreren.
 
 Met de rol van *Verkoopmanager* kan gebruiker Grace de gegevens bekijken van alle verschillende verkoopregio's. Grace maakt dit rapport en publiceert dit naar de Power BI-service. Dit rapport is gemaakt in de vorige taken.
 

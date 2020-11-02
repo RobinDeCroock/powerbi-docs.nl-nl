@@ -6,19 +6,21 @@ ms.reviewer: nikhilga
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 03/16/2020
+ms.date: 10/14/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374931"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462442"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Inhoud aanbevelen op de Power BI-startpagina van collega's
 
-U kunt dashboards, rapporten en apps gebruiken, zodat ze worden weergegeven in de sectie Aanbevolen van de Power BI-startpagina van uw collega's. Het aanbevelen van inhoud is vooral nuttig om nieuwe werknemers op gang te helpen met Power BI. U kunt zelf bepalen welke inhoud ze als eerste zien. U kunt beschrijvingen en kleine miniatuurafbeeldingen toevoegen, zodat gebruikers kunnen vinden wat ze nodig hebben. De inhoud moet zich in een nieuwe werkruimte bevinden.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)]
+
+U kunt dashboards, rapporten en apps gebruiken, zodat ze worden weergegeven in de sectie Aanbevolen van de Power BI-startpagina van uw collega's. Het aanbevelen van inhoud is vooral nuttig om nieuwe werknemers op gang te helpen met Power BI. U bepaalt zelf welke inhoud ze als eerste zien. Voeg beschrijvingen en kleine miniatuurafbeeldingen toe, zodat gebruikers kunnen vinden wat ze nodig hebben. De inhoud moet zich in een nieuwe werkruimte bevinden.
 
 :::image type="content" source="media/service-featured-content/power-bi-featured-home.png" alt-text="Aanbevolen inhoud op de Power BI-startpagina":::
 
@@ -30,31 +32,31 @@ Als u deel uitmaakt van de selecte groep in uw organisatie met deze verantwoorde
 
 ## <a name="who-sees-featured-content"></a>Wie aanbevolen inhoud ziet
 
-Als u een dashboard of rapport op basis van een werkruimte aanbeveelt, zien de mensen die ten minste de rol Kijker hebben in die werkruimte dat het wordt aanbevolen. Als u een dashboard of rapport van een app of de app zelf aanbeveelt, zien de personen aan wie u de app distribueert dat deze worden aanbevolen.
+U kunt een dashboard of rapport van een werkruimte aanbevelen. Wanneer u dit doet, zien de mensen die in die werkruimte ten minste beschikken over de rol Kijker dat het wordt aanbevolen. U kunt ook een dashboard of rapport vanaf een app, of de app zelf, aanbevelen. In dat geval zien de personen naar wie u de app distribueert dat deze wordt aanbevolen.
 
 ## <a name="feature-a-dashboard-or-report"></a>Een dashboard of rapport aanbevelen
 
 De procedure voor het aanbevelen van een dashboard of rapport is vergelijkbaar.
 
-1. In de lijst **Dashboards** of **Rapporten** voor een werkruimte, selecteert u het pictogram **Instellingen**.
+1. In de lijst **Dashboards** of **Rapporten** voor een werkruimte, selecteert u het pictogram **Instellingen** .
 
     :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Aanbevolen inhoud op de Power BI-startpagina":::
 
 2. Controleer in het deelvenster **Instellingen** de naam of wijzig deze. Voeg een **Beschrijving** toe en upload een **Momentopname** als u dat wilt. Deze zijn handig omdat ze uw gebruikers helpen bij het vinden van uw inhoud.
 
-3. Selecteer **Aanbevolen**.
+3. Selecteer **Aanbevolen** .
 
     :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Aanbevolen inhoud op de Power BI-startpagina":::
 
-4. Selecteer **Opslaan**.
+4. Selecteer **Opslaan** .
 
-    Alle gebruikers die toegang hebben tot dit dashboard of rapport, zien het nu in de sectie **Aanbevolen** in **Start**.
+    Alle gebruikers die toegang hebben tot dit dashboard of rapport, zien het nu in de sectie **Aanbevolen** in **Start** .
 
 ## <a name="feature-an-app"></a>Een app aanbevelen
 
-- Als u een app wilt aanbevelen, opent u de werkruimte voor de app, selecteert u het menu **Opties** ( **...** ) > **Deze app in Start aanbevelen**.
+- Als u een app wilt aanbevelen, opent u de werkruimte voor de app, selecteert u het menu **Opties** ( **...** ) > **Deze app in Start aanbevelen** .
 
-Iedereen met toegang tot deze app, ziet deze nu ook in de sectie **Aanbevolen** in **Start**.
+Iedereen met toegang tot deze app, ziet deze nu ook in de sectie **Aanbevolen** in **Start** .
 
 ## <a name="next-steps"></a>Volgende stappen
 

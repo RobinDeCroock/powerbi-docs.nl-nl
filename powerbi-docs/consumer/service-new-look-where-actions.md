@@ -6,68 +6,70 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/15/2020
+ms.date: 10/22/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 13792dbefbb459f4a3bb428b5965c6c56eff4b8c
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 572943a437ebf0380b254e8b659699d676e9001f
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600099"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462160"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Het nieuwe uiterlijk: Waar zijn de acties gebleven?
 
 De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Als gevolg hiervan zijn veel menuacties verplaatst. In de tabellen in dit artikel wordt de oude locatie aan de nieuwe locatie gekoppeld. Zie [het nieuwe uiterlijk van de Power BI-service](service-new-look.md) voor meer informatie.
 
-Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md).
+Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop** ? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Rapportacties in het nieuwe uiterlijk
 
-|Actie  |Nieuw uiterlijk Uit  |Nieuw uiterlijk Aan  |
+|Actie  |Oud uiterlijk |Nieuw uiterlijk  |
 |---------|---------|---------|
-| Opslaan als | Bestand > Opslaan als  | Menubalk Meer opties (...) > Een kopie opslaan |
-| Afdrukken | Bestand > Afdrukken | Exporteren > Afdrukken |
-| Veilig insluiten | Bestand > Insluiten | Menubalk Meer opties (...) Insluiten > Website of portal |
-| Insluiten in SharePoint Online | Bestand > Insluiten in SharePoint Online | Menubalk Meer opties (...) > Insluiten > SharePoint Online |
-| Publiceren op internet | Bestand > Publiceren op Internet | Menubalk Meer opties (...) > Insluiten > Publiceren op internet (openbaar) |
+| Opslaan als | Bestand > Opslaan als  | Bestand > Een kopie opslaan |
+| Afdrukken | Bestand > Afdrukken | Bestand > Deze pagina afdrukken |
+| Veilig insluiten | Bestand > Insluiten | Delen > Rapport insluiten > Website of portal |
+| Insluiten in SharePoint Online | Bestand > Insluiten in SharePoint Online | Delen > Rapport insluiten > SharePoint Online |
+| Publiceren op internet | Bestand > Publiceren op Internet | Delen > Rapport insluiten > Publiceren op internet (openbaar) |
 | Exporteren naar PowerPoint | Bestand > Exporteren naar PowerPoint | Exporteren > PowerPoint |
 | Exporteren naar PDF | Bestand > Exporteren naar PDF | Exporteren > PDF |
-|Rapport bewerken  | Bovenste balk   | Menubalk Meer opties (...) > Bewerken |
+| Chatten in Teams | (bestond niet) | Menubalk |
+|Rapport bewerken  | Menubalk   | Menubalk |
 | Aan pagina aanpassen | Weergeven > Aan pagina aanpassen | Menubalk Weergeven (rechterkant) > Aan pagina aanpassen |
 | Aan breedte aanpassen | Weergeven > Aan breedte aanpassen | Menubalk Weergeven (rechterkant) > Aan breedte aanpassen |
 | Werkelijke grootte | Weergeven > Werkelijke grootte | Menubalk Weergeven (rechterkant) > Werkelijke grootte |
+| Modus volledig scherm | Modus volledig scherm | Weergave menubalk (rechterkant) > Volledig scherm |
 | Kleuren met hoog contrast | Weergeven > Kleuren met hoog contrast | Menubalk Weergeven (rechterkant) > Kleuren met hoog contrast |
 | Deelvenster Bladwijzers | Weergeven > Deelvenster Bladwijzers |  Menubalk Bladwijzers (rechterkant) > Meer bladwijzers weergeven |
 | Vernieuwen | Vernieuwen | Menubalk (rechterkant) > Vernieuwen |
-| Een live-pagina vastmaken | Een live-pagina vastmaken | Menubalk Meer opties (...) > Een live-pagina vastmaken |
-| Standaardinstelling herstellen | Standaardinstelling herstellen | Standaardinstelling herstellen |
-| Opmerkingen | Opmerkingen | Opmerkingen |
-| Gerelateerde items weergeven | Gerelateerde items weergeven | Menubalk Meer opties (...) > Gerelateerde items weergeven |
-| Favoriet | Favoriet | Favoriet |
+| Een live-pagina vastmaken | Een live-pagina vastmaken | Menubalk Meer opties (...) > Vastmaken aan een dashboard |
+| Standaardinstelling herstellen | Standaardinstelling herstellen | Standaardinstelling herstellen (rechterkant) |
+| Opmerkingen | Opmerkingen | Opmerking |
+| Gerelateerde items weergeven | Gerelateerde items weergeven | Menubalk Meer opties(...) > Gerelateerde inhoud bekijken |
+| Favoriet | Favoriet | Toevoegen aan favorieten (rechterkant) |
 | Abonneren | Abonneren |Abonneren |
 | Delen | Delen | Delen > Rapport |
 | QR-code genereren | Menubalk Meer opties (...) > QR-code genereren | Delen > QR-code genereren |
 | In Excel analyseren | Menubalk Meer opties (...) > In Excel analyseren | Exporteren > Analyseren in Excel |
-| Modus volledig scherm | Modus volledig scherm | Weergave bovenste balk (rechterkant) > Volledig scherm |
+
 
 ## <a name="dashboard-actions-in-the-new-look"></a>Dashboardacties in het nieuwe uiterlijk
 
-|Actie  |Nieuw uiterlijk Uit  |Nieuw uiterlijk Aan  |
+|Actie  |Oud uiterlijk  |Nieuw uiterlijk  |
 |---------|---------|---------|
-| Tegel toevoegen | Tegel toevoegen | Menubalk Meer opties (...) > Tegel toevoegen |
-| Opmerkingen | Opmerkingen | Opmerkingen |
-| Gerelateerde items weergeven | Gerelateerde items weergeven | Menubalk Meer opties (...) > Gerelateerde items weergeven |
+| Tegel toevoegen | Tegel toevoegen | Bewerken > Tegel toevoegen |
+| Opmerkingen | Opmerkingen | Opmerking |
+| Gerelateerde items weergeven | Gerelateerde items weergeven | Menubalk Meer opties(...) > Gerelateerde inhoud bekijken |
 | Instellen als aanbevolen | Instellen als aanbevolen| Menubalk Meer opties (...) > Instellen als aanbevolen|
-| Favoriet | Favoriet | Favoriet |
+| Favoriet | Favoriet | Toevoegen aan favorieten (rechterkant) |
 | Abonneren | Abonneren |Abonneren |
 | Delen | Delen | Delen |
-| Telefoonweergave | Webweergave > Telefoonweergave | Menubalk Meer opties (...) > Mobiele weergave |
-| Dashboardthema | Menubalk Meer opties (...) > Dashboardthema | Menubalk Meer opties (...) > Dashboardthema |
-| Dashboard afdrukken | Menubalk Meer opties (...) > Dashboard afdrukken | Exporteren > Deze pagina afdrukken |
-| Dashboardtegels vernieuwen | Menubalk Meer opties (...) > Dashboardtegels vernieuwen | Menubalk Meer opties (...) > Vernieuwen |
-| Prestatiecontrole | Menubalk Meer opties (...) > Prestatiecontrole | Menubalk Meer opties (...) > Prestatiecontrole |
-| Instellingen | Menubalk Meer opties (...) > Instellingen | Menubalk Meer opties (...) > Instellingen |
+| Telefoonweergave | Webweergave > Telefoonweergave | Bewerken > Mobiele weergave |
+| Dashboardthema | Menubalk Meer opties (...) > Dashboardthema | Bewerken > Dashboardthema |
+| Dashboard afdrukken | Menubalk Meer opties (...) > Dashboard afdrukken | Bestand > Deze pagina afdrukken |
+| Dashboardtegels vernieuwen | Menubalk Meer opties (...) > Dashboardtegels vernieuwen | Visuals vernieuwen (rechterkant) |
+| Prestatiecontrole | Menubalk Meer opties (...) > Prestatiecontrole | Bestand > Prestatiecontrole |
+| Instellingen | Menubalk Meer opties (...) > Instellingen | Bestand > Instellingen |
 
 ## <a name="next-steps"></a>Volgende stappen
 

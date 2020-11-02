@@ -7,24 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 10/21/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 8d13cc7a24486fada7f8d428ba52abeaa49d2518
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: fc93ae0f54bfe4f72ec18687829e9eb78dfaedd7
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160923"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349363"
 ---
 # <a name="use-customer-managed-keys-in-power-bi"></a>Door de klant beheerde sleutels in Power BI gebruiken
 
 In Power BI worden data-at-rest en tijdens verwerking versleuteld. In Power BI wordt standaard gebruikgemaakt van door Microsoft beheerde sleutels om uw gegevens te versleutelen. Organisaties kunnen ervoor kiezen om hun eigen sleutels te gebruiken voor het versleutelen van gebruikerscontent at-rest in Power BI, van rapportinstallatiekopieën tot geïmporteerde gegevenssets in Premium-capaciteiten. 
 
 ## <a name="why-use-customer-managed-keys"></a>Waarom door de klant beheerde sleutels gebruiken?
-Met Power BI door de klant beheerde sleutels (CMK) kunnen organisaties voldoen aan de nalevingsvereisten voor gegevensversleuteling at-rest met hun cloudserviceprovider (in dit geval Microsoft). CMK stelt organisaties in staat hun Power BI-gebruikersinhoud te versleutelen met een sleutel die ze verstrekken en beheren. Het intrekken van een door de klant beheerde sleutel maakt de gebruikerscontent binnen Power BI binnen een uur onleesbaar voor iedereen, ook voor Microsoft. Vergeleken met het BYOK-aanbod dekt CMK ook gebruikersinhoud buiten de Power BI Premium-capaciteiten, dwingt het strengere cachingbeleidsregels af en maakt het standaard BYOK op alle capaciteiten mogelijk. 
- 
+
+Met Power BI door de klant beheerde sleutels (CMK) kunnen organisaties voldoen aan de nalevingsvereisten voor gegevensversleuteling at-rest met hun cloudserviceprovider (in dit geval Microsoft). CMK wordt alleen aangeboden aan nieuwe Power BI Premium-klanten; organisaties kunnen ermee hun Power BI-gebruikersinhoud versleutelen met behulp van een sleutel die ze aanbieden en beheren. Het intrekken van een door de klant beheerde sleutel maakt de gebruikerscontent binnen Power BI binnen een uur onleesbaar voor iedereen, ook voor Microsoft. Vergeleken met de BYOK-aanbieding, bestrijkt CMK ook de gebruikersinhoud die door de service wordt gegenereerd, naast klantgegevens die worden geïmporteerd in rapporten en gegevenssets die worden gehost op Premium-capaciteiten, dwingt het ook strikter cachebeleid af en kan slechts één sleutel worden toegepast om alle gegevens te versleutelen.
+
+
 ## <a name="how-to-use-customer-managed-keys"></a>Hoe kunt u de door de klant beheerde sleutels gebruiken?
-Om in aanmerking te komen voor door de klant beheerde Power BI-sleutels, moet uw organisatie voldoen aan de groottevereisten. De wereldwijde beheerder van uw organisatie moet een ondersteuningsverzoek indienen bij Microsoft of ze kunnen contact opnemen met de Microsoft-accountmanager van uw organisatie voor meer informatie over het proces.  
+Als u zich wilt aanmelden voor door de klant beheerde Power BI-sleutels, moet uw organisatie contact opnemen met de Microsoft-accountmanager om te controleren of uw organisatie voldoet aan bepaalde groottevereisten die van toepassing zijn voor het inschakelen van CMK.  
 
 
 ## <a name="next-steps"></a>Volgende stappen

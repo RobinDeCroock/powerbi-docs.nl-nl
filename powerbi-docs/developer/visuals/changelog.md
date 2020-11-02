@@ -8,15 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
+ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748466"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "92501944"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>wijzigingenlogboek voor API voor Power BI-visuals
 Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hier vermelde versies worden als stabiel beschouwd en worden niet meer gewijzigd.
+
+
+## <a name="api-v340"></a>API v3.4.0
+  * `fetchMoreData` : nieuwe `aggregateSegments`-parameter (standaard true), ter ondersteuning van fetchMoreData zonder aggregatie
 
 ## <a name="api-v320"></a>API v3.2.0
   * Ondersteunt **[supportsMultiVisualSelection](./supportsmultivisualselection-feature.md)**
@@ -104,7 +108,7 @@ Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hie
 
 ## <a name="api-v120"></a>API v1.2.0
 * Voegt **colorPalette** toe voor het beheren van de kleuren die in uw visual worden gebruikt.
-* Ondersteunt **meervoudige selectie**: in selectionManager kan een matrix van `SelectionId` worden geaccepteerd.
+* Ondersteunt **meervoudige selectie** : in selectionManager kan een matrix van `SelectionId` worden geaccepteerd.
 * Ondersteunt **[R-visuals](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** met R-scripts
 
 ## <a name="api-v110"></a>API v1.1.0
@@ -118,7 +122,7 @@ Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hie
 **Visual-host**
 * Voegt **createSelectionIdBuilder** toe voor het maken van unieke id's die worden gebruikt voor gegevensselectie
 * Voegt **createSelectionManager** toe om de selectiestatus van de visual te beheren en geeft wijzigingen door aan de visual-host
-* Voegt een matrix met standaard**kleuren** toe voor gebruik in visuals
+* Voegt een matrix met standaard **kleuren** toe voor gebruik in visuals
 
 ## <a name="api-v100"></a>API v1.0.0
 * Eerste release van de API

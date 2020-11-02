@@ -6,25 +6,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/26/2020
+ms.date: 10/14/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dfa97a6cd8aed51f7c85b215307fd9fd3ac6e729
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3cf9d404defa3cd1ea37035ea3913262903498dd
+ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219040"
+ms.lasthandoff: 10/23/2020
+ms.locfileid: "92462505"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-the-power-bi-service"></a>Interactie met een rapport in de bewerkweergave in de Power BI-service
-U kunt rapporten maken en bewerken in zowel de Power BI-service als in Power BI Desktop. In de Power BI-service kunt u rapporten maken en bewerken in **Bewerkweergave**. En in Power BI Desktop kunt u rapporten maken en bewerken in [Rapportweergave](desktop-report-view.md). In dit artikel wordt de Bewerkweergave in de Power BI-service behandeld. 
 
-De Power BI-service heeft twee verschillende modi voor interactie met rapporten: [Leesweergave](../consumer/end-user-reading-view.md) voor *gebruikers* van rapporten en Bewerkweergave voor rapporteigenaren en -auteurs.  Een licentie voor Power BI Pro is vereist voor het delen van rapporten evenals voor het bewerken van rapporten die zijn gemaakt door anderen. Als u geen Pro-licentie hebt, kunt u wel rapporten maken, maar kunt u deze niet [delen](../collaborate-share/service-share-reports.md).    
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)]
 
-In de bewerkweergave van rapporten hebt u veel flexibiliteit bij zowel het verkennen als ontwerpen van een rapport. Alle functionaliteit van de [leesweergave](../consumer/end-user-reading-view.md) is beschikbaar en nog veel meer. De bewerkweergave is alleen beschikbaar voor degene die het rapport heeft gemaakt of voor collega’s die [mede-eigenaar van een rapport zijn als lid of beheerder van een werkruimte](../collaborate-share/service-create-distribute-apps.md).
+U kunt rapporten maken en bewerken in zowel de Power BI-service als in Power BI Desktop. In de Power BI-service kunt u rapporten maken en bewerken in **Bewerkweergave** . En in Power BI Desktop kunt u rapporten maken en bewerken in [Rapportweergave](desktop-report-view.md). In dit artikel wordt de Bewerkweergave in de Power BI-service behandeld. 
+
+De Power BI-service heeft twee verschillende modi om met rapporten te werken: De [leesweergave](../consumer/end-user-reading-view.md) voor *zakelijke gebruikers* van rapporten en de bewerkweergave voor rapporteigenaren en -makers.  U hebt een licentie voor Power BI Pro nodig om rapporten te delen en om rapporten te bewerken die zijn gemaakt door anderen. Zonder een Pro-licentie kunt u wel rapporten maken in uw Mijn werkruimte, maar kunt u deze niet [delen](../collaborate-share/service-share-reports.md).
+
+In de bewerkweergave van rapporten hebt u veel flexibiliteit bij zowel het verkennen als ontwerpen van een rapport. Alle functionaliteit van de [leesweergave](../consumer/end-user-reading-view.md) is beschikbaar en nog veel meer. De bewerkweergave is alleen beschikbaar voor de persoon die het rapport heeft gemaakt of voor collega's die lid, beheerder of inzender zijn van de werkruimte waarin het rapport is opgeslagen. Raadpleeg [Rollen in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) voor meer informatie over bevoegdheden.
 
 ## <a name="functionality-only-available-in-editing-view"></a>Functionaliteit die alleen beschikbaar is in de bewerkingsweergave
-Bekijk de lijst met onderwerpen onder de kop **Rapporten** links in de inhoudsopgave. Het is een lange lijst en veel van de onderwerpen hebben betrekking op functionaliteit *die alleen beschikbaar is als u machtigingen hebt voor het bewerken van een rapport*.  Om u te helpen bij het navigeren in de inhoudsopgave, is de bewerkweergave vereist voor de volgende acties:
+Bekijk de lijst met onderwerpen onder de kop **Power BI-rapporten** in de inhoudsopgave. Het is een lange lijst en veel van de onderwerpen hebben betrekking op functionaliteit *die alleen beschikbaar is als u machtigingen hebt voor het bewerken van een rapport* .  Om u te helpen bij het navigeren in de inhoudsopgave, is de bewerkweergave vereist voor de volgende acties:
 
 * Rapporten maken, bewerken, hernoemen, delen en verwijderen.
 * Rapportpagina's toevoegen, hernoemen, opnieuw rangschikken en verwijderen.
@@ -32,16 +35,18 @@ Bekijk de lijst met onderwerpen onder de kop **Rapporten** links in de inhoudsop
 * Visualisaties, tekstvakken, vormen en knoppen aan een rapport toevoegen.
 * Filters op visueel niveau, paginaniveau en rapportniveau toevoegen en visuele interacties instellen.
 * Schema's voor gegevensvernieuwing maken.
-* Q&A - vragen stellen in rapporten.
+* Q&A-functionaliteit gebruiken om visuals te maken in rapporten.
 * Gegevens weergeven die worden gebruikt om de visualisatie te maken. 
 * Analyseren instellen.
 * Een rapportpagina dupliceren.
+* [Rapportinstellingen](power-bi-report-settings.md) gebruiken om de interacties van uw lezers met rapporten te beheren.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 Een licentie voor Power BI Pro is vereist voor het bewerken van rapporten die zijn gemaakt door anderen, en om uw rapporten met anderen te delen.  Als u geen Pro-licentie hebt, kunt u wel rapporten maken, maar kunt u deze niet [delen](../collaborate-share/service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Volgende stappen
-Terug naar [Leesweergave en Bewerkweergave in de Power BI-service](../consumer/end-user-reading-view.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+[Power BI-mogelijkheden voor zakelijke gebruikers](../consumer/end-user-reading-view.md)
+
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

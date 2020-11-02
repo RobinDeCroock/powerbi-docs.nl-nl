@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
+ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668546"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92683355"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -35,7 +35,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     ![Schermopname van een lijngrafiek met de geselecteerde waarden voor de omzet van dit jaar en die van vorig jaar.](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *In dit lijndiagram ziet u bijvoorbeeld de waarden voor de omzet van **augustus** dit jaar (**This Year Sales**) en vorig jaar **Last Year Sales**.*  
+   *In dit lijndiagram ziet u bijvoorbeeld de waarden voor de omzet van **augustus** dit jaar ( **This Year Sales** ) en vorig jaar **Last Year Sales** .*  
    
    Tik in een cirkeldiagram op een segment van de cirkel om de waarde van het segment boven de cirkel weer te geven.  
    
@@ -58,7 +58,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     Nadat u de koppeling hebt geopend in de Power BI-app, kunt u de koppeling kopiëren en deze openen in een browservenster.
 7. [Open het rapport](mobile-reports-in-the-mobile-apps.md) ![pictogram Rapport openen in iOS](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) waarop de tegel is gebaseerd.
-8. Als u de focusmodus wilt verlaten, tikt u op de naam van de tegel en vervolgens op de naam van het dashboard of op **Mijn werkruimte**.
+8. Als u de focusmodus wilt verlaten, tikt u op de naam van de tegel en vervolgens op de naam van het dashboard of op **Mijn werkruimte** .
    
     ![Schermopname van een dashboard met aanwijzingen naar Mijn werkruimte en een voorbeeld van een analyse van de verkoopkansen.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 
@@ -111,10 +111,10 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
    *In dit staafdiagram worden de waarden voor de staaf **Décor** boven de grafiek weergegeven.*
    
-   Tik op het pictogram **Volledig scherm** ![pictogram Volledig scherm](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) om de tegel in de modus Volledig scherm te openen zonder de navigatie- en menubalken.
+   Tik op het pictogram **Overschakelen naar presentatiemodus** ![Afbeelding van pictogram overschakelen naar presentatie.](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) om de tegel in de presentatiemodus te openen zonder de navigatie- en menubalken.
    
    > [!NOTE]
-   > U kunt ook [dashboards en rapporten schermvullend weergeven](mobile-windows-10-app-presentation-mode.md) in de mobiele Power BI-app voor Windows 10.
+   > U kunt ook [dashboards en rapporten in de presentatiemodus weergeven](mobile-windows-10-app-presentation-mode.md) in de mobiele Power BI-app voor Windows 10.
    > 
    > 
    

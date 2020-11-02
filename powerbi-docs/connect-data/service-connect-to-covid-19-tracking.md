@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/05/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5487d9f0eb5d8b172cc3e29ea24e88704267cd85
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
+ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85230239"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "92349498"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Verbinding maken met Traceringsrapport voor COVID-19 in de Verenigde Staten
 In dit artikel leest u hoe u de sjabloon-app voor het traceringsrapport voor COVID-19 installeert en hoe u verbinding maakt met de gegevensbronnen.
@@ -26,11 +26,11 @@ Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de ge
 
 ## <a name="install-the-app"></a>De app installeren
 
-1. Klik op de volgende koppeling om naar de app te gaan: [De sjabloon-app Traceringsrapport voor COVID-19 in de Verenigde Staten](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+1. Klik op de volgende koppeling om naar de app te gaan: [De sjabloon-app Traceringsrapport voor COVID-19 in de Verenigde Staten](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Als u zich op de Appsource-pagina van de app bevindt, klikt u op [**NU DOWNLOADEN**](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms).
+1. Als u zich op de Appsource-pagina van de app bevindt, klikt u op [**NU DOWNLOADEN**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
 
-    [![Traceringsrapport voor COVID-19 in de Verenigde Staten in Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://appsource.microsoft.com/en-us/product/power-bi/pbi-contentpacks.covid19ms)
+    [![Traceringsrapport voor COVID-19 in de Verenigde Staten in Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
 1. Klik op **Installeren** wanneer dat wordt gevraagd. Zodra de app is geïnstalleerd, ziet u deze op uw Apps-pagina.
 
@@ -40,15 +40,25 @@ Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de ge
 
 1. Klik op het pictogram op de Apps-pagina om de app te openen.
 
-1. Kies in het opstartscherm dat wordt weergegeven **Verbinding maken**.
+1. Kies in het opstartscherm dat wordt weergegeven **Verbinding maken** .
 
    ![Welkomstscherm van de sjabloon-app](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
 
-1. Er worden twee aanmeldingsdialoogvensters weergegeven, na elkaar. Stel in beide vensters het Privacyniveau in op Openbaar.
+1. Het dialoogvenster Parameters wordt weergegeven. Er zijn geen vereiste parameters. Klik op **Volgende** .
 
-   ![Het aanmeldingsdialoogvenster van Traceringsrapport voor COVID-19 in de Verenigde Staten](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+   ![Schermopname van het dialoogvenster Traceringsrapport voor COVID-19 in de Verenigde Staten.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-parameters-dialog.png)
 
-   Het rapport wordt verbonden met de gegevensbronnen en gevuld met actuele gegevens. Gedurende deze periode wordt de activiteitsbewaking ingeschakeld.
+1. Het dialoogvenster Verificatiemethode wordt weergegeven. Aanbevolen waarden zijn vooraf ingevuld. Wijzig deze instellingen alleen als u specifieke kennis van verschillende waarden hebt.
+
+    Klik op **Volgende** .
+
+   ![Schermopname van het verificatiedialoogvenster Traceringsrapport voor COVID-19 in de Verenigde Staten.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
+
+1. Klik op **Aanmelden** .
+
+   ![Schermopname van het aanmeldingsdialoogvenster van Traceringsrapport voor COVID-19 in de Verenigde Staten.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
+ 
+   Het rapport wordt verbonden met de gegevensbronnen en gevuld met actuele gegevens. Ondertussen ziet u voorbeeldgegevens en wordt aangegeven dat de vernieuwing wordt uitgevoerd.
 
    ![Traceringsrapport voor COVID-19 in de Verenigde Staten wordt vernieuwd](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-refresh-monitor.png)
 
