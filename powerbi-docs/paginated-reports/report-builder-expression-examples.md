@@ -8,14 +8,17 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 042221e3836aae72568df7eadaacfeeeac90d215
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859516"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297793"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Voorbeelden van expressies in Power BI Report Builder
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
 Expressies worden vaak gebruikt in gepagineerde rapporten van Power BI Report Builder voor het beheren van inhoud en de weergave van rapporten. Expressies worden geschreven in Microsoft Visual Basic en kunnen gebruikmaken van ingebouwde functies, aangepaste code, rapport- en groepsvariabelen en door de gebruiker gedefinieerde variabelen. Expressies beginnen met een gelijkteken (=).   
 
 Dit onderwerp bevat voorbeelden van expressies die kunnen worden gebruikt voor algemene taken in een rapport.  
@@ -34,7 +37,7 @@ Dit onderwerp bevat voorbeelden van expressies die kunnen worden gebruikt voor a
   
 Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-expressions.md) voor meer informatie over eenvoudige en complexe expressies, waar u expressies kunt gebruiken en de typen verwijzingen die u in een expressie kunt opnemen. 
   
-## <a name="functions"></a>Functies  
+## <a name="functions"></a>Functions  
  Veel expressies in een rapport bevatten functies. U kunt gegevens opmaken, logica toepassen en metagegevens van rapporten openen met behulp van deze functies. U kunt expressies schrijven die gebruikmaken van functies uit de Microsoft Visual Basic-runtime-bibliotheek en van de naamruimten `xref:System.Convert` en `xref:System.Math`. U kunt verwijzingen naar functies in aangepaste code toevoegen. U kunt ook de klassen van de Microsoft .NET Framework gebruiken, met inbegrip van `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic-functies  
@@ -64,7 +67,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =Today()  
     ```  
   
--   Gebruik de functie **DateInterval** om een specifiek deel van een datum op te halen. Hier volgen enkele geldige **DateInterval**-parameters:
+-   Gebruik de functie **DateInterval** om een specifiek deel van een datum op te halen. Hier volgen enkele geldige **DateInterval** -parameters:
 
     -   DateInterval.Second
     -   DateInterval.Minute
@@ -177,7 +180,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
   
      Als het tekstvak alleen een datum of een getal bevat, moet u de eigenschap Opmaak van het tekstvak gebruiken om opmaak toe te passen in plaats van de functie **Opmaken** in het tekstvak.  
   
--   De functies **Right**, **Len**, en **InStr** zijn handig voor het retourneren van een subtekenreeks, bijvoorbeeld het inkorten van *DOMEIN*\\*gebruikersnaam* tot alleen de gebruikersnaam. Met de volgende expressie wordt het gedeelte geretourneerd van de tekenreeks aan de rechterkant van een backslash (\\) uit een parameter met de naam *Gebruiker*:  
+-   De functies **Right** , **Len** , en **InStr** zijn handig voor het retourneren van een subtekenreeks, bijvoorbeeld het inkorten van *DOMEIN*\\*gebruikersnaam* tot alleen de gebruikersnaam. Met de volgende expressie wordt het gedeelte geretourneerd van de tekenreeks aan de rechterkant van een backslash (\\) uit een parameter met de naam *Gebruiker* :  
   
     ```  
     =Right(Parameters!User.Value, Len(Parameters!User.Value) - InStr(Parameters!User.Value, "\"))  
@@ -202,7 +205,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
   
     ```  
   
--   De **Regex**-functies van .NET Framework `xref:System.Text.RegularExpressions` zijn nuttig voor het wijzigen van de opmaak van bestaande tekenreeksen, bijvoorbeeld, het opmaken van een telefoonnummer. Met de volgende expressie wordt met de functie **Vervangen** de notatie van een telefoonnummer van tien cijfers in een veld gewijzigd van *nnn*-*nnn*-*nnnn* in (*nnn*) *nnn*-*nnnn*:  
+-   De **Regex** -functies van .NET Framework `xref:System.Text.RegularExpressions` zijn nuttig voor het wijzigen van de opmaak van bestaande tekenreeksen, bijvoorbeeld, het opmaken van een telefoonnummer. Met de volgende expressie wordt met de functie **Vervangen** de notatie van een telefoonnummer van tien cijfers in een veld gewijzigd van *nnn*-*nnn*-*nnnn* in ( *nnn* ) *nnn*-*nnnn* :  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  
@@ -244,13 +247,13 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
   
 ###  <a name="decision-functions"></a><a name="DecisionFunctions"></a> Beslissingsfuncties  
   
--   Met de **Iif**-functie wordt een van twee waarden geretourneerd, afhankelijk van of de expressie waar is of niet. Met de volgende expressie wordt met de **Iif**-functie een Booleaanse waarde **Waar** geretourneerd als de waarde `LineTotal` groter is dan 100. Anders wordt er **Onwaar** geretourneerd:  
+-   Met de **Iif** -functie wordt een van twee waarden geretourneerd, afhankelijk van of de expressie waar is of niet. Met de volgende expressie wordt met de **Iif** -functie een Booleaanse waarde **Waar** geretourneerd als de waarde `LineTotal` groter is dan 100. Anders wordt er **Onwaar** geretourneerd:  
   
     ```  
     =IIF(Fields!LineTotal.Value > 100, True, False)  
     ```  
   
--   U kunt meerdere **IIF**-functies (ook wel bekend als ' geneste IIFs') gebruiken voor een van drie waarden, afhankelijk van de waarde `PctComplete`. De volgende expressie kan in de opvulkleur van een tekstvak worden geplaatst om de achtergrondkleur te wijzigen, afhankelijk van de waarde in het tekstvak.  
+-   U kunt meerdere **IIF** -functies (ook wel bekend als ' geneste IIFs') gebruiken voor een van drie waarden, afhankelijk van de waarde `PctComplete`. De volgende expressie kan in de opvulkleur van een tekstvak worden geplaatst om de achtergrondkleur te wijzigen, afhankelijk van de waarde in het tekstvak.  
   
     ```  
     =IIF(Fields!PctComplete.Value >= 10, "Green", IIF(Fields!PctComplete.Value >= 1, "Blue", "Red"))  
@@ -272,13 +275,13 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =IIF(DateDiff("d",Fields!ImportantDate.Value, Now())>7,"Red","Blue")  
     ```  
   
--   Hiermee wordt de waarde van het veld `PhoneNumber` getest en wordt 'Geen waarde' geretourneerd als deze **null** (**niets** in Visual Basic) is; in het andere geval wordt de waarde van het telefoonnummer geretourneerd. Deze expressie kan worden gebruikt voor het beheren van de waarde van een tekstvak in een rapportitem.  
+-   Hiermee wordt de waarde van het veld `PhoneNumber` getest en wordt 'Geen waarde' geretourneerd als deze **null** ( **niets** in Visual Basic) is; in het andere geval wordt de waarde van het telefoonnummer geretourneerd. Deze expressie kan worden gebruikt voor het beheren van de waarde van een tekstvak in een rapportitem.  
   
     ```  
     =IIF(Fields!PhoneNumber.Value Is Nothing,"No Value",Fields!PhoneNumber.Value)  
     ```  
   
--   Hiermee wordt de waarde van het veld `Department` en wordt een subrapportnaam of een **null** (**niets** in Visual Basic) geretourneerd. Deze expressie kan worden gebruikt voor voorwaardelijke drillthrough subrapporten.  
+-   Hiermee wordt de waarde van het veld `Department` en wordt een subrapportnaam of een **null** ( **niets** in Visual Basic) geretourneerd. Deze expressie kan worden gebruikt voor voorwaardelijke drillthrough subrapporten.  
   
     ```  
     =IIF(Fields!Department.Value = "Development", "EmployeeReport", Nothing)  
@@ -482,7 +485,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
  U kunt de waarde initialiseren voor een groepsvariabele die lokaal is voor het bereik van een bepaalde groep en vervolgens een verwijzing naar die variabele in expressies invoegen. Een van de manieren waarop u een groepsvariabele met aangepaste code kunt gebruiken, is het implementeren van een aangepaste aggregatie. 
   
 ## <a name="suppressing-null-or-zero-values-at-run-time"></a>Null of nulwaarden onderdrukken tijdens de uitvoering  
- Sommige waarden in een expressie kunnen null of onbepaald opleveren tijdens de verwerkingstijd van een rapport. Dit kan leiden tot runtimefouten die resulteren in het bericht **#Error** dat in het tekstvak wordt weergegeven in plaats van de geëvalueerde expressie. De functie **IIF** is bijzonder gevoelig voor dit gedrag, omdat in tegenstelling tot een If-Then-Else-instructie elk onderdeel van de **IIF**-instructie (inclusief functieaanroepen) wordt geëvalueerd voordat deze wordt doorgegeven aan de routine waarmee wordt getest op **waar** of **onwaar**. Met de instructie `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` wordt het bericht **#Error** gegenereerd in het weergegeven rapport als `Fields!Sales.Value` NIETS is.  
+ Sommige waarden in een expressie kunnen null of onbepaald opleveren tijdens de verwerkingstijd van een rapport. Dit kan leiden tot runtimefouten die resulteren in het bericht **#Error** dat in het tekstvak wordt weergegeven in plaats van de geëvalueerde expressie. De functie **IIF** is bijzonder gevoelig voor dit gedrag, omdat in tegenstelling tot een If-Then-Else-instructie elk onderdeel van de **IIF** -instructie (inclusief functieaanroepen) wordt geëvalueerd voordat deze wordt doorgegeven aan de routine waarmee wordt getest op **waar** of **onwaar**. Met de instructie `=IIF(Fields!Sales.Value is NOTHING, 0, Fields!Sales.Value)` wordt het bericht **#Error** gegenereerd in het weergegeven rapport als `Fields!Sales.Value` NIETS is.  
   
  Ter voorkoming van deze situatie moet u een van de volgende strategieën gebruiken:  
   
@@ -492,7 +495,7 @@ Zie de onderwerpen onder [Expressies in Power BI Report Builder](report-builder-
     =IIF(Field!B.Value=0, 0, Field!A.Value / IIF(Field!B.Value =0, 1, Field!B.Value))  
     ```  
   
--   Gebruik een functie met aangepaste code om de waarde voor de expressie te retourneren. In het volgende voorbeeld wordt het percentageverschil geretourneerd tussen de huidige waarde en een vorige waarde. Dit kan worden gebruikt voor het berekenen van het verschil tussen twee opeenvolgende waarden, waarbij de verwerking plaatsvindt van het randgeval van de eerste vergelijking (wanneer er geen vorige waarde is) en gevallen waarin de vorige waarde of de huidige waarde **null** (**Niets** in Visual Basic) is.  
+-   Gebruik een functie met aangepaste code om de waarde voor de expressie te retourneren. In het volgende voorbeeld wordt het percentageverschil geretourneerd tussen de huidige waarde en een vorige waarde. Dit kan worden gebruikt voor het berekenen van het verschil tussen twee opeenvolgende waarden, waarbij de verwerking plaatsvindt van het randgeval van de eerste vergelijking (wanneer er geen vorige waarde is) en gevallen waarin de vorige waarde of de huidige waarde **null** ( **Niets** in Visual Basic) is.  
   
     ```  
     Public Function GetDeltaPercentage(ByVal PreviousValue, ByVal CurrentValue) As Object  

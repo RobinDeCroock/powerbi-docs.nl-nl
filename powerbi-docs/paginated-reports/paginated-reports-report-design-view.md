@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f19e80a421c6e27fa3b85814d00bfb05dc2789b2
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207132"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297712"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Navigeren in de ontwerpweergave voor rapporten voor gepagineerde rapporten
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 De ontwerpweergave voor rapporten in Power BI Report Builder is het ontwerpoppervlak voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service. Het ontwerpoppervlak bevindt zich in het midden van Report Builder, met het lint en deelvensters eromheen. Het ontwerpoppervlak is waar u rapportitems toevoegt en ordent. In dit artikel worden de deelvensters beschreven die u gebruikt voor het toevoegen, selecteren en ordenen van de rapportbronnen, en voor het wijzigen van eigenschappen van rapportitems.  
 
@@ -87,14 +89,14 @@ De grootte van het ontwerpoppervlak kan afwijken van het afdrukgebied van het pa
  Afhankelijk van de eigenschap kunt u een waarde voor de eigenschap selecteren in een vervolgkeuzelijst, de waarde typen of `<Expression>` selecteren om een expressie te maken.  
   
 ### <a name="changing-the-properties-pane-view"></a>De weergave van het deelvenster Eigenschappen wijzigen  
- Eigenschappen in het deelvenster Eigenschappen worden standaard ingedeeld in categorieën, zoals Actie, Rand, Opvulling, Lettertype en Algemeen. Elke categorie is gekoppeld aan een set eigenschappen. De volgende eigenschappen worden bijvoorbeeld vermeld in de categorie Font: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight en TextDecoration. Als u dat liever hebt, kunt u alle eigenschappen die worden vermeld in het deelvenster ook alfabetisch sorteren. Hiermee verwijdert u de categorieën en ziet u een lijst met alle eigenschappen in alfabetische volgorde, ongeacht de categorie.  
+ Eigenschappen in het deelvenster Eigenschappen worden standaard ingedeeld in categorieën, zoals Actie, Rand, Opvulling, Lettertype en Algemeen. Elke categorie is gekoppeld aan een set eigenschappen. Zo bevat de categorie Lettertype bijvoorbeeld de volgende eigenschappen: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight en TextDecoration. Als u dat liever hebt, kunt u alle eigenschappen die worden vermeld in het deelvenster ook alfabetisch sorteren. Hiermee verwijdert u de categorieën en ziet u een lijst met alle eigenschappen in alfabetische volgorde, ongeacht de categorie.  
   
- Het deelvenster Eigenschappen heeft drie knoppen bovenaan het deelvenster: **Categorie**, **Alfabetisch sorteren** en **Eigenschappen**. Selecteer de knoppen Categorie en Alfabetiseren om te schakelen tussen de weergaven van het deelvenster Eigenschappen. Selecteer de knop **Eigenschappenblad** om het dialoogvenster Eigenschappen voor een geselecteerde rapportitem te openen.  
+ Het deelvenster Eigenschappen heeft drie knoppen bovenaan het deelvenster: **Categorie** , **Alfabetiseren** en **Eigenschappenblad**. Selecteer de knoppen Categorie en Alfabetiseren om te schakelen tussen de weergaven van het deelvenster Eigenschappen. Selecteer de knop **Eigenschappenblad** om het dialoogvenster Eigenschappen voor een geselecteerde rapportitem te openen.  
   
   
 ## <a name="5-grouping-pane"></a>5 Deelvenster Groeperen
 
- Groepen worden gebruikt om uw rapportgegevens te ordenen in een visuele hiërarchie en om totalen te berekenen. U kunt de rij- en kolomgroepen in een gegevensgebied weergeven in het ontwerpoppervlak en ook in het deelvenster Groeperen. Het deelvenster Groeperen heeft twee deelvensters: Rijgroepen en Kolomgroepen. Wanneer u een gegevensgebied selecteert, worden in het deelvenster Groeperen alle groepen uit die gegevensregio weergegeven als een hiërarchische lijst: Onderliggende groepen worden ingesprongen weergegeven onder de bovenliggende groepen.  
+ Groepen worden gebruikt om uw rapportgegevens te ordenen in een visuele hiërarchie en om totalen te berekenen. U kunt de rij- en kolomgroepen in een gegevensgebied weergeven in het ontwerpoppervlak en ook in het deelvenster Groeperen. Het deelvenster Groeperen heeft twee deelvensters: Rijgroepen en Kolomgroepen. Wanneer u een gegevensgebied selecteert, worden in het deelvenster Groeperen alle groepen uit die gegevensregio weergegeven als een hiërarchische lijst: onderliggende groepen worden ingesprongen weergegeven onder de bovenliggende groepen.  
   
  U kunt groepen maken door velden vanuit het deelvenster Rapportgegevens te slepen naar het ontwerpoppervlak of het deelvenster Groeperen. In het deelvenster Groeperen kunt u de bovenliggende, aangrenzende en onderliggende groepen toevoegen, groepseigenschappen wijzigen en groepen verwijderen.  
   

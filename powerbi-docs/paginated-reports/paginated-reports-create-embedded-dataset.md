@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 11/5/2018
-ms.openlocfilehash: c61a89923e4451aaa0b3324d25fa7888021acbd6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 81d755a529edb2f4fdae0ae6dbe90026b5b290d8
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238266"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297660"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Een ingesloten gegevensset maken voor een gepagineerd rapport in de Power BI-service
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 In dit artikel leert u hoe u op basis van een ingesloten gegevensbron een ingesloten gegevensset maakt voor een gepagineerd rapport in de Power BI-service. Ingesloten gegevenssets bevinden zich in één gepagineerd rapport, voor gebruik in dat rapport. Momenteel zijn voor rapporten die in de Power BI-service zijn gepubliceerd, ingesloten gegevenssets en ingesloten gegevensbronnen nodig. De ingesloten gegevensbron en gegevensset worden tijdens het maken van uw rapport in Power BI Report Builder gemaakt. 
 
@@ -30,7 +32,7 @@ Voordat u de gegevensset kunt maken, moet u een gegevensbron maken. Zie [Embedde
    ![Nieuwe gegevensset](media/paginated-reports-create-embedded-dataset/power-bi-paginated-new-dataset.png)  
 
 3. Selecteer onder **Querytype** het type opdracht of query dat u voor de gegevensset wilt gebruiken. 
-    - Met **Tekst** wordt een query uitgevoerd om gegevens ui de database op te halen. Het is de standaardoptie en wordt voor de meeste query's gebruikt. Typ een query of importeer een bestaande query door **Importeren** te selecteren. Selecteer **Queryontwerpfunctie** om de query grafisch te bouwen. Als u de queryontwerpfunctie gebruikt om een query te maken, verschijnt de tekst van de query in dit vak. Selecteer de knop **Expressie** (**fx**) om een expressie te gebruiken voor het dynamisch genereren van de query. 
+    - Met **Tekst** wordt een query uitgevoerd om gegevens ui de database op te halen. Het is de standaardoptie en wordt voor de meeste query's gebruikt. Typ een query of importeer een bestaande query door **Importeren** te selecteren. Selecteer **Queryontwerpfunctie** om de query grafisch te bouwen. Als u de queryontwerpfunctie gebruikt om een query te maken, verschijnt de tekst van de query in dit vak. Selecteer de knop **Expressie** ( **fx** ) om een expressie te gebruiken voor het dynamisch genereren van de query. 
     - Met **Tabel** wordt alle velden in een tabel geselecteerd. Voer de naam in van de tabel die u als gegevensset wilt gebruiken.
     - Met **Opgeslagen procedure** wordt een opgeslagen procedure op naam uitgevoerd.
 
@@ -57,5 +59,5 @@ Voordat u de gegevensset kunt maken, moet u een gegevensbron maken. Zie [Embedde
 
 - [Wat zijn gepagineerde rapporten in Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
 - [Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service](paginated-reports-quickstart-aw.md)
-- [Publish a paginated report to the Power BI service](paginated-reports-save-to-power-bi-service.md) (Een gepagineerd rapport publiceren in de Power BI-service)
+- [Een gepagineerd rapport publiceren in de Power BI-service](paginated-reports-save-to-power-bi-service.md)
 

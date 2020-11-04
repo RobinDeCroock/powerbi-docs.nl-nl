@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: c26f9c8f219517e3039b62cdbc89af24ba1af288
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f103f29c61d1a4e4a5340d97598d80a86c708701
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239561"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298037"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Een rapportparameter doorsturen in een URL voor een gepagineerd rapport in Power BI 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 U kunt rapportparameters doorsturen door ze op te nemen in een gepagineerde rapport-URL. Aan alle queryparameters kunnen bijbehorende rapportparameters zijn gekoppeld. Daarom kunt u een queryparameter aan een rapport doorsturen door de bijbehorende rapportparameter door te sturen. U moet het voorvoegsel `rp:` aan de parameternaam toevoegen, zodat Power BI deze naam in de URL kan herkennen. 
 
@@ -63,7 +65,7 @@ rp:SalesOrderNumber:isnull=true
 Als u een Booleaanse waarde wilt doorsturen, gebruikt u 0 voor onwaar en 1 voor waar. Als u een Float-waarde wilt doorsturen, neemt u het decimale scheidingsteken van de landinstellingen van de server op.
 
 > [!NOTE]
-> Als uw rapport een rapportparameter bevat die een standaardwaarde heeft en de waarde van de eigenschap **Vragen** **Onwaar** is (dat wil zeggen dat de eigenschap **Vragen aan gebruiker** niet is geselecteerd in Report manager), kunt u geen waarde voor die rapportparameter in een URL doorsturen. Dit biedt beheerders de optie om te voorkomen dat eindgebruikers de waarden van bepaalde rapportparameters toevoegen of aanpassen.
+> Als uw rapport een rapportparameter bevat die een standaardwaarde heeft en de waarde van de eigenschap **Vragen****Onwaar** is (dat wil zeggen dat de eigenschap **Vragen aan gebruiker** niet is geselecteerd in Report manager), kunt u geen waarde voor die rapportparameter in een URL doorsturen. Dit biedt beheerders de optie om te voorkomen dat eindgebruikers de waarden van bepaalde rapportparameters toevoegen of aanpassen.
 > 
 > Power BI biedt geen ondersteuning voor querytekenreeksen van meer dan 2000 tekens.  Deze waarde kan worden overschreden als u URL-parameters gebruikt om uw gepagineerde rapport weer te geven.  Dit geldt met name als u parameters met meerdere waarden gebruikt.
 

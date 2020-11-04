@@ -8,17 +8,18 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 13b9e37d4a64493dfdcac02d9df86a1e19a1c24b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: dc8400361ca8d7bdd3713efa7bdf180578a597a2
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921166"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297924"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Tips voor het ontwerpen van rapporten in Power BI Report Builder
-  Gebruik de volgende tips om uw gepagineerde rapporten te ontwerpen in Power BI Report Builder.  
-  
-   
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Gebruik de volgende tips om uw gepagineerde rapporten te ontwerpen in Power BI Report Builder.  
   
 ##  <a name="designing-reports"></a><a name="DesigningReports"></a> Rapporten ontwerpen  
   
@@ -61,11 +62,11 @@ ms.locfileid: "78921166"
   
 -   Gebruik de pijltoetsen om de positie en grootte van de geselecteerde items in de ontwerpweergave aan te passen. De volgende toetsencombinaties zijn bijvoorbeeld erg nuttig:  
   
-    -   **Pijltoetsen**: hiermee kunt u het geselecteerde rapportitem verplaatsen.  
+    -   **Pijltoetsen** : hiermee kunt u het geselecteerde rapportitem verplaatsen.  
   
-    -   **CTRL+pijltoetsen**: hiermee kunt u het geselecteerde rapportitem verschuiven.  
+    -   **CTRL+pijltoetsen** : hiermee kunt u het geselecteerde rapportitem verschuiven.  
   
-    -   **CTRL+SHIFT+pijltoetsen**: hiermee kunt u het geselecteerde rapportitem groter of kleiner maken.  
+    -   **CTRL+SHIFT+pijltoetsen** : hiermee kunt u het geselecteerde rapportitem groter of kleiner maken.  
   
 -   Als u een item aan een rechthoek wilt toevoegen, gebruikt u de linkermuisknop om de oorspronkelijke locatie van het item in de rechthoekige container aan te wijzen. Gebruik sneltoetsen om de positie van de geselecteerde objecten aan te passen. De grootte van de rechthoek wordt automatisch aangepast aan de grootte van de items in de rechthoek.  
   

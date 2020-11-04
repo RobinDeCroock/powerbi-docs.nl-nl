@@ -8,15 +8,18 @@ ms.topic: conceptual
 ms.assetid: 9dcf3fc8-bf9c-4a14-a03d-e78254aa4098
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 02ac131325dab59590cb88c524ace68a1226fc69
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3d22696168d8ae550238fab243110db357b39c22
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921488"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297684"
 ---
 # <a name="tables-matrixes-and-lists-in-power-bi-report-builder"></a>Tabellen, matrices en lijsten in Power BI Report Builder
- In Report Builder zijn tabellen, matrices en lijsten *gegevensgebieden* waarin gepagineerde rapportgegevens worden weergegeven in cellen die in rijen en kolommen zijn geordend. De cellen bevatten doorgaans tekstgegevens zoals tekst, datums en getallen, maar ze kunnen ook meters, grafieken of rapportitems zoals afbeeldingen bevatten. Gezamenlijk worden tabellen, matrices en lijsten vaak *tablix-gegevensgebieden* genoemd.  
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+In Report Builder zijn tabellen, matrices en lijsten *gegevensgebieden* waarin gepagineerde rapportgegevens worden weergegeven in cellen die in rijen en kolommen zijn geordend. De cellen bevatten doorgaans tekstgegevens zoals tekst, datums en getallen, maar ze kunnen ook meters, grafieken of rapportitems zoals afbeeldingen bevatten. Gezamenlijk worden tabellen, matrices en lijsten vaak *tablix-gegevensgebieden* genoemd.  
   
  De tabel-, matrix- en lijstsjablonen worden gebouwd in het tablix-gegevensgebied. Dit is een flexibel raster waarin gegevens in cellen kunnen worden weergegeven. In de tabel- en matrixsjablonen worden cellen in rijen en kolommen geordend. Omdat sjablonen variaties van het onderliggende generieke tablix-gegevensgebied zijn, kunt u gegevens weergeven in combinatie met sjabloonindelingen en de tabel, matrix of lijst wijzigen om de functies van een ander gegevensgebied op te nemen wanneer u uw rapport opstelt. Als u bijvoorbeeld een tabel toevoegt maar deze niet aan uw behoeften voldoet, kunt u kolomgroepen toevoegen om van de tabel een matrix te maken.  
   

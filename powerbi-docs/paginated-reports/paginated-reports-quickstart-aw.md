@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: baccdcae82fb56b2f7f7a9d6cb4839e941e99bf0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853972"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297522"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Zelfstudie: Een gepagineerd rapport maken en uploaden naar de Power BI-service
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 In deze zelfstudie maakt u verbinding met een Azure SQL-voorbeelddatabase. Vervolgens gebruikt u een wizard in Power BI Report Builder om een gepagineerd rapport te maken met een tabel die doorloopt over meerdere pagina's. Daarna uploadt u het gepagineerde rapport naar een werkruimte in een Premium-capaciteit in de Power BI-service.
 
@@ -30,7 +32,7 @@ In deze zelfstudie voltooit u de volgende stappen:
 > * De valuta opmaken.
 > * Het rapport uploaden naar de Power BI-service.
 
-Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) voordat u begint.
+Als u nog geen abonnement op Azure hebt, maak dan een [gratis account](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) aan voordat u begint.
  
 ## <a name="prerequisites"></a>Vereisten  
 
@@ -73,13 +75,13 @@ Hier volgen de vereisten voor het uploaden van uw gepagineerde rapport naar de P
 
     ![Eigenschappen van gegevensbron - Opbouwen](media/paginated-reports-quickstart-aw/power-bi-paginated-data-source-properties-build.png)
 
-9. **In Azure:** Ga terug naar de Azure-portal en selecteer **SQL-databases**.
+9. **In Azure:** ga terug naar Azure Portal en selecteer **SQL-databases**.
 
 1. Selecteer de Azure SQL-database die u hebt gemaakt in de snelstart 'Een Azure SQL-voorbeelddatabase maken in Azure Portal' in de sectie **Vereisten** van dit artikel.
 
 1. Op het tabblad **Overzicht** kopieert u de waarde uit het vak **Servernaam**.
 
-2. **In Report Builder**: Plak de gekopieerde naam in het dialoogvenster **Verbindingseigenschappen** in **Servernaam**. 
+2. **In Report Builder** : plak de gekopieerde naam in het dialoogvenster **Verbindingseigenschappen** in **Servernaam**. 
 
 1. Voor het **aanmelden bij de server** moet **SQL Server-verificatie gebruiken** zijn geselecteerd. Typ vervolgens de gebruikersnaam en het wachtwoord voor de voorbeelddatabase die u in Azure hebt gemaakt.
 
@@ -126,13 +128,13 @@ Hier volgen de vereisten voor het uploaden van uw gepagineerde rapport naar de P
 
     ![Een gegevensset kiezen](media/paginated-reports-quickstart-aw/power-bi-paginated-choose-dataset.png)
 
-1. Sleep op de pagina **Velden rangschikken** de volgende velden van het vak **Beschikbare velden** naar het vak **Rijgroepen**:
+1. Sleep op de pagina **Velden rangschikken** de volgende velden van het vak **Beschikbare velden** naar het vak **Rijgroepen** :
 
     - CompanyName
     - SalesOrderNumber
     - Product_Name
 
-1. Sleep deze velden van het vak **Beschikbare velden** naar het vak **Waarden**:
+1. Sleep deze velden van het vak **Beschikbare velden** naar het vak **Waarden** :
 
     - OrderQty
     - UnitPrice
@@ -142,7 +144,7 @@ Hier volgen de vereisten voor het uploaden van uw gepagineerde rapport naar de P
 
     ![Velden rangschikken](media/paginated-reports-quickstart-aw/power-bi-paginated-drag-fields.png)
 
-24. Behoud alle standaardinstellingen op de pagina **Kies de indeling**, maar schakel het selectievakje **Groepen uitvouwen/samenvouwen** uit. Over het algemeen is de functie Groepen uitvouwen/samenvouwen erg handig, maar ditmaal wilt u de tabel laten doorlopen over meerdere pagina's.
+24. Behoud alle standaardinstellingen op de pagina **Kies de indeling** , maar schakel het selectievakje **Groepen uitvouwen/samenvouwen** uit. Over het algemeen is de functie Groepen uitvouwen/samenvouwen erg handig, maar ditmaal wilt u de tabel laten doorlopen over meerdere pagina's.
 
 1. Selecteer **Volgende** > **Voltooien**. De tabel wordt weergegeven op het ontwerpvlak.
  
@@ -206,7 +208,7 @@ Een gepagineerd rapport is gewoonlijk zo opgemaakt dat een pagina kan worden afg
 
 1. Selecteer de woorden **Klik om een titel toe te voegen** bovenaan de pagina en typ **Verkoop per bedrijf**.  
 
-2. Selecteer de titeltekst en wijzig in het deelvenster Eigenschappen, onder **Lettertype**, de **kleur** in **Blauw**.
+2. Selecteer de titeltekst en wijzig in het deelvenster Eigenschappen, onder **Lettertype** , de **kleur** in **Blauw**.
   
 ### <a name="add-a-page-number"></a>Een paginanummer toevoegen
 
@@ -276,7 +278,7 @@ Nog een verbetering die u gaat aanbrengen in de opmaak voordat u het rapport pub
 
 5. Selecteer **Uitvoeren** op het tabblad **Start**.
 
-6. Selecteer **Afdrukweergave**, als deze nog niet is geselecteerd. Het rapport heeft nu 29 pagina's. Blader door enkele pagina's. De valuta is opgemaakt, de kolommen hebben koppen op elke pagina en het rapport bevat een voettekst met paginanummers en de datum en tijd op elke pagina.
+6. Selecteer **Afdrukweergave** , als deze nog niet is geselecteerd. Het rapport heeft nu 29 pagina's. Blader door enkele pagina's. De valuta is opgemaakt, de kolommen hebben koppen op elke pagina en het rapport bevat een voettekst met paginanummers en de datum en tijd op elke pagina.
  
     ![Voltooide pagina](media/paginated-reports-quickstart-aw/power-bi-paginated-finished-page.png)
 
@@ -306,7 +308,7 @@ Nu u dit gepagineerde rapport hebt gemaakt, is het tijd om het rapport te upload
 
 2. Selecteer in het vak **Bestanden** > **Ophalen**.
 
-3. Selecteer **Lokaal bestand**, ga naar de locatie waar u het bestand hebt opgeslagen > **Openen**.
+3. Selecteer **Lokaal bestand** , ga naar de locatie waar u het bestand hebt opgeslagen > **Openen**.
 
    Uw bestand wordt geïmporteerd in Power BI en weergegeven onder **Rapporten** op de pagina Lijst met apps.
 
