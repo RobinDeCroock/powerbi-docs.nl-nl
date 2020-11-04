@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748167"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045137"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Gepagineerd rapport exporteren naar een bestand (preview)
 
@@ -32,9 +32,9 @@ Via de API `exportToFile` kunt u een gepagineerd Power BI-rapport exporteren met
 
 U kunt de exportfunctie op verschillende manieren gebruiken. Hieronder vindt u enkele voorbeelden:
 
-* **Knop Verzenden voor afdrukken**: maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een .pdf of .pptx. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met rapportparameters en indelingsinstellingen kunt u het rapport in een specifieke staat exporteren, inclusief gefilterde gegevens, aangepaste paginaformaten en andere indelingsspecifieke instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
+* **Knop Verzenden voor afdrukken** : maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een .pdf of .pptx. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met rapportparameters en indelingsinstellingen kunt u het rapport in een specifieke staat exporteren, inclusief gefilterde gegevens, aangepaste paginaformaten en andere indelingsspecifieke instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
 
-* **E-mailbijlage**: verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
+* **E-mailbijlage** : verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
 
 ## <a name="using-the-api"></a>De API gebruiken
 
@@ -117,7 +117,7 @@ Hier volgt een voorbeeld van het verstrekken van een efficiënte gebruikersnaam 
       "format": "PDF",
       "paginatedReportConfiguration":{
             "identities": [
-                  {"username": "john@contoso.com"}            
+                  {"username": "john@contoso.com"}
             ]
       }
 }
@@ -153,13 +153,13 @@ private async Task<string> PostExportRequest(
             {"PageHeight", "14in"},
             {"PageWidth", "8.5in" },
             {"StartPage", "1"},
-            {"EndPage", "4"}
+            {"EndPage", "4"},
         },
         ParameterValues = new List<ParameterValue>()
         {
             { new ParameterValue() {Name = "State", Value = "WA"} },
-            { new ParameterValue() {Name = "City", Value = "Redmond"} }
-        }
+            { new ParameterValue() {Name = "City", Value = "Redmond"} },
+        },
     };
 
     var exportRequest = new ExportReportRequest

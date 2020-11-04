@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: f74fb596fb2a080922d0e62a4492ef6c8ccd4e0d
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 6a0a72015a66abc9425dc467703a5044ea0c8116
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216735"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297842"
 ---
 # <a name="power-bi-report-builder"></a>Power BI Report Builder
 
- Power BI Report Builder is een hulpprogramma voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service.  Wanneer u een gepagineerd rapport ontwerpt, maakt u een rapportdefinitie die aangeeft welke gegevens er moeten worden opgehaald, waar deze moeten worden opgehaald en hoe deze moeten worden weergegeven. Wanneer u het rapport uitvoert, worden op basis van uw rapportdefinitie de benodigde gegevens opgehaald en gecombineerd met de rapportindeling om het rapport te genereren. U kunt een voorbeeld van uw rapport bekijken in Report Builder. Vervolgens publiceert u uw rapport in de Power BI-service.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Power BI Report Builder is een hulpprogramma voor het maken van gepagineerde rapporten die u kunt publiceren in de Power BI-service.  Wanneer u een gepagineerd rapport ontwerpt, maakt u een rapportdefinitie die aangeeft welke gegevens er moeten worden opgehaald, waar deze moeten worden opgehaald en hoe deze moeten worden weergegeven. Wanneer u het rapport uitvoert, worden op basis van uw rapportdefinitie de benodigde gegevens opgehaald en gecombineerd met de rapportindeling om het rapport te genereren. U kunt een voorbeeld van uw rapport bekijken in Report Builder. Vervolgens publiceert u uw rapport in de Power BI-service.
  
 Klaar om te beginnen met ontwerpen? [Power BI Report Builder](https://aka.ms/pbireportbuilder) installeren vanuit het Microsoft Downloadcentrum.
 
@@ -46,9 +48,9 @@ Het volgende gepagineerde rapport bevat een matrix met rij- en kolomgroepen, spa
 
 -   **Voeg grafieken, meters, sparklines en indicatoren toe**. Vat gegevens samen in een visuele indeling en presenteer in een oogwenk grote volumes geaggregeerde gegevens.  
   
--   **Voeg interactieve functies toe**, zoals documenttoewijzingen, knoppen weergeven/verbergen en drillthroughkoppelingen naar subrapporten en drillthroughrapporten. Gebruik parameters en filters om gegevens te filteren voor aangepaste weergaven.  
+-   **Voeg interactieve functies toe** , zoals documenttoewijzingen, knoppen weergeven/verbergen en drillthroughkoppelingen naar subrapporten en drillthroughrapporten. Gebruik parameters en filters om gegevens te filteren voor aangepaste weergaven.  
   
--   U kunt ook **afbeeldingen en andere bronnen insluiten of hiernaar verwijzen**, met inbegrip van externe inhoud.  
+-   U kunt ook **afbeeldingen en andere bronnen insluiten of hiernaar verwijzen** , met inbegrip van externe inhoud.  
   
 ##  <a name="manage-your-report"></a><a name="ManageRpt"></a> Uw rapport beheren  
   

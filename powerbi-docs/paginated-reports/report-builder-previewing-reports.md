@@ -8,15 +8,18 @@ ms.topic: conceptual
 ms.assetid: ba6b5bdd-d8c6-4aa8-ba32-3a10b11969d4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: afbc31e3ece8bc72ad52bb2fe7c3d871b2f68e1b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b12937ec758202345166e520397a52e52b67165d
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922937"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298142"
 ---
 # <a name="previewing-reports-in-power-bi-report-builder"></a>Voorbeelden van rapporten weergeven in Power BI Report Builder
-  Tijdens het maken van een gepagineerd Report Builder-rapport is het handig om een voorbeeld van het rapport te bekijken om te controleren of het rapport naar wens wordt weergegeven. Klik op **Uitvoeren** als u een voorbeeld van het rapport wilt bekijken. Het rapport wordt weergegeven in de voorbeeldmodus.  
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Tijdens het maken van een gepagineerd Report Builder-rapport is het handig om een voorbeeld van het rapport te bekijken om te controleren of het rapport naar wens wordt weergegeven. Klik op **Uitvoeren** als u een voorbeeld van het rapport wilt bekijken. Het rapport wordt weergegeven in de voorbeeldmodus.  
   
  De voorbeeldervaring in Report Builder is te verbeteren door bewerkingssessies te gebruiken, als er een verbinding is met een rapportserver. Met de bewerkingssessie wordt een gegevenscache gemaakt en worden de gegevenssets in de cache beschikbaar gesteld voor herhaalde voorbeeldweergaven van rapporten. Een bewerkingssessie is geen functie waarmee u rechtstreeks kunt communiceren. U kunt de prestaties van een rapportvoorbeeld echter verbeteren als u begrijpt wanneer de gegevensset in cache wordt vernieuwd en waarom het rapport sneller of langzamer wordt weergegeven.  
 

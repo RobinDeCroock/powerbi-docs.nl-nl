@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: troubleshooting
 ms.date: 04/29/2020
-ms.openlocfilehash: 6a0e90036b759c409a9f5b3e994571c2a0eb510c
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 06d9b0fc60d9b44f98108cf46bc35c5de15316d6
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747500"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297982"
 ---
 # <a name="troubleshoot-subreports-in-power-bi-paginated-reports"></a>Problemen met subrapporten in gepagineerde Power BI-rapporten oplossen
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Soms krijgt u mogelijk een onverwacht resultaat of werkt de functie niet zoals verwacht wanneer u subrapporten in gepagineerde rapporten gebruikt. Dit artikel bevat oplossingen voor algemene problemen bij het gebruik van subrapporten. Een *subrapport* is een rapportitem waarin een ander rapport wordt weergegeven in de hoofdtekst van een gepagineerd hoofdrapport. Zie [Subrapporten in gepagineerde Power BI-rapporten](subreports.md) voor achtergrondinformatie.
 

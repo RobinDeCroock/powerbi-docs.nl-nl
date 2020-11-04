@@ -7,14 +7,16 @@ ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3955b8dde22863e7b0224d335b162846e0741d2
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216857"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298100"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Een gepagineerd rapport maken op basis van een gedeelde Power BI-gegevensset
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] 
 
 U kunt een gegevensset die u in Power BI Desktop maakt, gebruiken als gegevensbron voor gepagineerde rapporten in Power BI Report Builder. Denk aan het volgende scenario: U hebt een Power BI-rapport gemaakt in Power BI Desktop. U hebt veel tijd besteed aan het ontwerpen van het gegevensmodel en vervolgens hebt u een fraai Power BI-rapport gemaakt met allerlei interessante visuals. Uw rapport heeft een matrix met veel rijen, dus u moet schuiven om ze allemaal weer te geven. De lezers van uw rapport willen een rapport dat ze kunnen afdrukken, en waarin alle rijen van die matrix worden weergegeven. Een gepagineerd rapport van Power BI kan dat: een tabel of matrix afdrukken die meerdere pagina's lang is, met paginakopteksten en -voetteksten en een perfecte pagina-lay-out die u ontwerpt. Het vormt een aanvulling op het Power BI Desktop-rapport. U wilt dat ze worden gebaseerd op exact dezelfde gegevens, zonder discrepanties, dus u gebruikt dezelfde gegevensset.
 
@@ -118,7 +120,7 @@ Hier volgen de stappen voor het ophalen van de query.
 
 1. Selecteer **OK**.
 
-    U ziet de query in het **Query**-venster van het dialoogvenster **Eigenschappen van gegevensset**.
+    U ziet de query in het **Query** -venster van het dialoogvenster **Eigenschappen van gegevensset**.
 
     ![Het dialoogvenster Eigenschappen van gegevensset](media/report-builder-shared-datasets/power-bi-report-builder-dataset-properties.png)
 
@@ -174,7 +176,7 @@ U hebt verschillende opmaakopties om ervoor te zorgen dat de tabel op één pagi
 1. U kunt de paginamarges smaller maken in het deelvenster Eigenschappen. Als u het deelvenster Eigenschappen niet ziet, schakelt u op het lint **Beeld** het selectievakje **Eigenschappen** in.
 
 1. Selecteer het rapport, en niet de tabel of titel.
-1. Vouw **Marges** uit in het deelvenster **Rapporteigenschappen** onder **Pagina**, en wijzig alle marges in **0,75 inch**.
+1. Vouw **Marges** uit in het deelvenster **Rapporteigenschappen** onder **Pagina** , en wijzig alle marges in **0,75 inch**.
 
     ![Paginamarges instellen](media/report-builder-shared-datasets/power-bi-report-builder-page-margins.png)
 
@@ -188,11 +190,11 @@ U hebt verschillende opmaakopties om ervoor te zorgen dat de tabel op één pagi
 
     ![Meer dan één cel selecteren](media/report-builder-shared-datasets/power-bi-report-builder-select-cells.png)
 
-1. Wijzig op het lint **Start** in de sectie **Getal** de **Standaard**-opmaak in een numerieke notatie zoals **Valuta**.
+1. Wijzig op het lint **Start** in de sectie **Getal** de **Standaard** -opmaak in een numerieke notatie zoals **Valuta**.
 
     ![Numerieke notatie instellen](media/report-builder-shared-datasets/power-bi-report-builder-number-format.png)
 
-1. Wijzig de stijl van **Tijdelijke aanduidingen** in **Voorbeeldwaarden**, zodat u de opmaak in de cel kunt zien. 
+1. Wijzig de stijl van **Tijdelijke aanduidingen** in **Voorbeeldwaarden** , zodat u de opmaak in de cel kunt zien. 
 
     ![Voorbeeldwaarden weergeven](media/report-builder-shared-datasets/power-bi-report-builder-sample-values.png)
 

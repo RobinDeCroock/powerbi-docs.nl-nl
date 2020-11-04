@@ -8,14 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3f075372436723cd8952decd68ecc764bd6e92a0
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78922983"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297731"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Een rapport plannen in Power BI Report Builder
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Met Power BI Report Builder kunt u vele soorten gepagineerde rapporten maken. U kunt bijvoorbeeld rapporten maken met samenvattende of gedetailleerde verkoopgegevens, marketing- en verkooptrends, operationele rapporten of dashboards. U kunt ook rapporten maken met opgemaakte tekst, bijvoorbeeld voor verkooporders, productcatalogi of standaardbrieven. Al deze rapporten zijn te maken met verschillende combinaties van dezelfde basisbouwstenen in Report Builder. Als u een nuttig, eenvoudig te begrijpen rapport wilt maken, is het handig het eerst te plannen. Hier volgen enkele punten om over na te denken voordat u aan de slag gaat:  
   

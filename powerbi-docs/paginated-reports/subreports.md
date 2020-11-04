@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 04/29/2020
-ms.openlocfilehash: 9da6268e90e3f70797c2cfff19bb1d5c4b633e9a
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d2cd4e9f5d6cb8872e266fabacb9f8a5a3e318cb
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746580"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298001"
 ---
 # <a name="subreports-in-power-bi-paginated-reports"></a>Subrapporten in gepagineerde Power BI-rapporten
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 Een *subrapport* is een gepagineerd rapportitem waarin een ander gepagineerd rapport wordt weergegeven in de hoofdtekst van een gepagineerd hoofdrapport. Conceptueel gezien is een subrapport in een rapport vergelijkbaar met een frame op een webpagina. U kunt hiermee een rapport insluiten in een rapport. U kunt elk rapport gebruiken als subrapport. U slaat het rapport op dat wordt weergegeven als subrapport in dezelfde Premium-werkruimte als het bovenliggende rapport. U kunt het bovenliggende rapport ontwerpen om parameters door te geven aan het subrapport. Een subrapport kan in gegevensgebieden worden herhaald, met behulp van een parameter voor het filteren van gegevens in elk exemplaar van het subrapport.  
   
@@ -33,7 +35,7 @@ In Power BI Report Builder kunt u werken met gepagineerde rapporten op uw comput
 
 Nadat u zich hebt aangemeld, ziet u de optie **Power BI-service** in Power BI Report Builder voor de opties **Openen** en **Opslaan als** in het menu **Bestand**. Wanneer u de optie **Power BI-service** selecteert om een rapport op te slaan, maakt u een live verbinding tussen Power BI Report Builder en de Power BI-service. 
 
-:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Aanmelden bij Power BI":::
+:::image type="content" source="media/subreports/report-builder-subreport-open-service.png" alt-text="Openen via de Power BI-service":::
 
 ## <a name="save-a-local-report-to-the-power-bi-service"></a>Een gepagineerd rapport opslaan in de Power BI-service
 
@@ -48,7 +50,7 @@ Voordat u een subrapport aan een hoofdrapport kunt toevoegen, maakt u eerst de t
 
 3. Selecteer in het dialoogvenster **Opslaan als** een Power BI Premium-werkruimte waar u uw gepagineerde rapporten kunt opslaan.  Premium-werkruimten hebben een diamantpictogram ![Premium-diamantpictogram](media/subreports/report-builder-premium-diamond.png) naast de naam van de werkruimte.
 
-    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Aanmelden bij Power BI":::
+    :::image type="content" source="media/subreports/report-builder-subreport-save-as-service.png" alt-text="Opslaan als in de Power BI-service":::
 
 4. Selecteer **Opslaan**.
 
@@ -58,7 +60,7 @@ Nu u beide rapporten hebt opgeslagen in dezelfde Premium-werkruimte, kunt u het 
 
 1. Selecteer in het lint **Invoegen** de knop **Subrapport** of klik met de rechtermuisknop op het canvas van het rapport en selecteer **Invoegen** > **Subrapport**.
 
-    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Aanmelden bij Power BI":::
+    :::image type="content" source="media/subreports/report-builder-insert-subreport.png" alt-text="Een subrapport invoegen in een rapport":::
 
     Het dialoogvenster **Eigenschappen van subrapport** wordt geopend.  
 
@@ -70,7 +72,7 @@ Nu u beide rapporten hebt opgeslagen in dezelfde Premium-werkruimte, kunt u het 
  Als u parameters van het bovenliggende rapport wilt doorgeven aan het subrapport, definieert u een rapportparameter in het rapport dat u als subrapport gebruikt. Wanneer u het subrapport in het bovenliggende rapport plaatst, kunt u de rapportparameter selecteren en een waarde die u van het bovenliggende rapport aan de rapportparameter in het subrapport wilt doorgeven.  
   
 > [!NOTE]  
-> De parameter die u in het subrapport selecteert, is een *rapport*parameter, niet een *query*parameter.  
+> De parameter die u in het subrapport selecteert, is een *rapport* parameter, niet een *query* parameter.  
   
  U kunt een subrapport in de hoofdtekst van het rapport of in een gegevensgebied plaatsen. Als u een subrapport in een gegevensgebied plaatst, wordt het subrapport herhaald met elk exemplaar van de groep of rij in het gegevensgebied. U kunt een waarde van de groep of rij doorgeven aan het subrapport. Gebruik in de eigenschapswaarde van het subrapport een veldexpressie voor het veld met de waarde die u wilt doorgeven aan de subrapportparameter.  
   

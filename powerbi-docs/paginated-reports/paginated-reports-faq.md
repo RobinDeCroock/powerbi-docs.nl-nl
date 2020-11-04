@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/19/2020
-ms.openlocfilehash: 2a0490106d5954a57abea1dd5de61f26f2fe2377
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257008"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297895"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 In dit artikel vindt u antwoorden op veelgestelde vragen over gepagineerde rapporten. Deze rapporten bevatten een uitgebreid opgemaakte, tot op de pixel nauwkeurige uitvoer die is geoptimaliseerd voor afdrukken of het genereren van PDF's. Ze worden 'gepagineerd' genoemd, omdat ze zo zijn opgemaakt dat ze op meerdere pagina's passen. Gepagineerde rapporten zijn gebaseerd op de RDL-rapporttechnologie in SQL Server Reporting Services. 
 
@@ -72,9 +74,9 @@ U ontvangt een foutbericht en u kunt uw rapport pas weergeven als de werkbelasti
 
 Standaardgeheugenruimte in elke Premium-SKU voor gepagineerde rapporten:
 
-- **P1/A4**: standaard 20%; minimaal 10%
-- **P2/A5**: standaard 20%; minimaal 5%
-- **P3/A6**: standaard 20%; minimaal 2,5%
+- **P1/A4** : standaard 20%; minimaal 10%
+- **P2/A5** : standaard 20%; minimaal 5%
+- **P3/A6** : standaard 20%; minimaal 2,5%
 
 Power BI-beheerders kunnen het maximale standaardgeheugenpercentage wijzigen in de beheerportal. Zie het workloadgedeelte **Gepagineerde rapporten** onder **Power BI Premium** op het tabblad **Capaciteitsinstellingen**.
 
@@ -181,7 +183,7 @@ Onthoud het volgende wanneer u met Datum/tijd-velden werkt in gepagineerde rappo
 
 Wanneer u gepagineerde rapporten bekijkt in de Power BI-service, kan er een time-out optreden in sessies. De gebruiker ziet dan de volgende melding:
 
-:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Tabblad Capaciteitsinstellingen voor gepagineerde rapporten":::
+:::image type="content" source="media/paginated-reports-faq/expired-session-notification.png" alt-text="Melding over verlopen sessie met gepagineerde rapporten":::
 
 - De sessie verloopt na 60 minuten inactiviteit of eerder als het apparaat is vergrendeld of niet actief is, of wanneer het rapport niet wordt weergegeven op het actieve tabblad van de browser.
 

@@ -8,14 +8,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 217c1b571c01068d64283df0b25b5e56bbc8b956
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600487"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297218"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Parameters maken voor gepagineerde rapporten in de Power BI-service
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 In dit artikel leert u hoe u parameters kunt maken voor gepagineerde rapporten in de Power BI-service.  Een rapportparameter biedt een manier om rapportgegevens te kiezen en de presentatie van een rapport te variëren. U kunt een standaardwaarde en een lijst met beschikbare waarden opgeven. Uw rapportlezers kunnen de selectie wijzigen. Ze kunnen ook in de tekstvakken van de parameter typen om te zoeken naar waarden. Zie [Parameters weergeven voor gepagineerde rapporten](../consumer/paginated-reports-view-parameters.md) om te zien hoe uw zakelijke gebruikers met parameters omgaan in de Power BI-service.  
 

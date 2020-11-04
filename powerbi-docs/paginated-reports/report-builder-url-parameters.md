@@ -9,14 +9,16 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0816ba6f3ff606a73c835ac71af66655fd49acfd
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91747477"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298056"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>URL-parameters in gepagineerde rapporten in Power BI
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
 
 U kunt opdrachten naar gepagineerde rapporten in Power BI verzenden door een parameter aan een URL toe te voegen. Stel bijvoorbeeld dat u het rapport hebt bekeken met behulp van een specifieke set met rapportparameterwaarden. U sluit deze informatie in de URL in aan de hand van vooraf gedefinieerde URL-toegangsparameters. Verder past u aan hoe het rapport door Power BI moet worden verwerkt door parameters in te sluiten voor het weergeven van indelingen of voor de vormgeving van de werkbalk in het rapport. Vervolgens plakt u deze URL rechtstreeks in een e-mailbericht of op een webpagina, zodat anderen uw rapport net zo zien als in de browser. 
 
