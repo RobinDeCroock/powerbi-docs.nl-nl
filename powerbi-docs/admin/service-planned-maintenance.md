@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 19933ccbf18003e293e823c2b1f201e953c7bde0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 68cd001995603fec3a64e4b2c79ee2216bfe9ac0
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854777"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132293"
 ---
 # <a name="power-bi-planned-maintenance"></a>Gepland onderhoud van Power BI
 
@@ -38,8 +38,14 @@ Als uw organisatie wordt beïnvloed, wordt u hiervan op de hoogte gesteld. Micro
 * Klanten die actief rapporten bijwerken of publiceren die organisatorische visuals gebruiken, lokaal of van OneDrive en SharePoint-locaties, moeten de visual opnieuw importeren via de visual store van de organisatie of een bijgewerkte PBIX downloaden voordat ze opnieuw worden gepubliceerd. Zie [Organisatievisuals](organizational-visuals.md) voor meer informatie over aangepaste visuals voor organisaties.
 * Als Excel-werkmappen die gebruikmaken van de functie Analyseren in Excel niet worden vernieuwd, moet u mogelijk de verbindingsreeks bijwerken of de ODC-verbinding voor die gegevensset opnieuw downloaden. Zie [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data) voor meer informatie.
 * Koppelingen naar Power BI Embedded in de inhoud kunnen mogelijk niet worden verbonden wanneer het onderhoud is voltooid. Een ingesloten koppeling in SharePoint of Teams kan bijvoorbeeld een gebruikersfout veroorzaken. Om dit probleem op te lossen, moet u de ingesloten koppeling opnieuw genereren in Power BI en vervolgens de locaties bijwerken waar ze worden gebruikt. Zie voor meer informatie over ingesloten koppelingen [Een rapportwebonderdeel insluiten in SharePoint Online](../collaborate-share/service-embed-report-spo.md) en [Samenwerken in Microsoft Teams met Power BI](../collaborate-share/service-collaborate-microsoft-teams.md).
+* Een aantal gebruiksgegevens die voor de onderhoudswerkzaamheden zijn verzameld, zijn niet beschikbaar nadat die werkzaamheden zijn uitgevoerd. Deze gebruiksgegevens bestaan onder andere uit:
+
+  * [Power BI-activiteitenlogboek](service-admin-auditing.md#use-the-activity-log). Gebruikers moet activiteitenlogboeken downloaden voordat het onderhoud wordt uitgevoerd. U kunt ook de [Office 365-controlelogboekgegevens](service-admin-auditing.md#access-your-audit-logs) gebruiken om vergelijkbare activiteitsgegevens te krijgen.
+  * Aantal weergaven in [lineaire weergave](../collaborate-share/service-data-lineage.md#explore-lineage-view)
+  * [Metrisch rapport gegevensbescherming](service-security-data-protection-metrics-report.md)
+  * [Metrische gegevens over het gebruik (preview-versie)](../collaborate-share/service-modern-usage-metrics.md)
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Meldingen over onderbrekingen van de service inschakelen](service-interruption-notifications.md)
-* [Toekomstige wijzigingen bijhouden in Message Center](/microsoft-365/admin/manage/message-center?view=o365-worldwide)
+* [Toekomstige wijzigingen bijhouden in Message Center](/microsoft-365/admin/manage/message-center)

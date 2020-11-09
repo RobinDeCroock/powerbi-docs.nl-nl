@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 45d89fe7a224d56e710765e533a7c075c24b8a66
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981499"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132362"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -38,7 +38,7 @@ Als u een nieuwe klant bent, moet u de geschiktheid van uw organisatie valideren
 Nadat u Microsoft 365 hebt geïmplementeerd, kunt u een Power BI Pro-abonnement toevoegen. Volg de stapsgewijze instructies in [Uw Amerikaanse overheidsorganisatie registreren](service-govus-signup.md) om de Power BI Pro Government-service aan te schaffen. Schaf voldoende licenties aan voor alle gebruikers die Power BI nodig hebben, en wijs deze licenties vervolgens toe aan afzonderlijke gebruikersaccounts.
 
 > [!IMPORTANT]
-> Power BI voor de Amerikaanse overheid is niet beschikbaar als een *gratis* licentie. Aan elke gebruiker moet een *Pro*-licentie zijn toegewezen om toegang te krijgen tot de Government Community Cloud. Als aan een gebruikersaccount een gratis licentie is toegewezen, heeft de gebruiker alleen toegang tot de commerciële cloud en zal deze verificatie- en toegangsproblemen ondervinden. Als u Power BI Premium hebt aangeschaft, hoeft u geen Pro-licenties toe te wijzen om gebruikerstoegang in te schakelen.  Gebruikers in de organisatie hebben toegang tot rapporten die met hen zijn gedeeld, mits deze rapporten zijn gepubliceerd in een premium-capaciteit. Raadpleeg [Power BI-servicefuncties per licentietype](../fundamentals/service-features-license-type.md) om de verschillen tussen licentietypen te bekijken.
+> Power BI voor de Amerikaanse overheid is niet beschikbaar als een *gratis* licentie. Aan elke gebruiker moet een *Pro* -licentie zijn toegewezen om toegang te krijgen tot de Government Community Cloud. Als aan een gebruikersaccount een gratis licentie is toegewezen, heeft de gebruiker alleen toegang tot de commerciële cloud en zal deze verificatie- en toegangsproblemen ondervinden. Als u Power BI Premium hebt aangeschaft, hoeft u geen Pro-licenties toe te wijzen om gebruikerstoegang in te schakelen.  Gebruikers in de organisatie hebben toegang tot rapporten die met hen zijn gedeeld, mits deze rapporten zijn gepubliceerd in een premium-capaciteit. Raadpleeg [Power BI-servicefuncties per licentietype](../fundamentals/service-features-license-type.md) om de verschillen tussen licentietypen te bekijken.
 >
 
 ## <a name="government-cloud-instances"></a>Cloud van de Amerikaanse overheid
@@ -74,25 +74,25 @@ Verificatie, identiteit en beheer van Power BI is afhankelijk van de verbinding 
 
 |  Doel | Doel |
 | ---- | ----- |
-| Back-end API's | **GCC**: api.powerbigov.us |
-| | **GCC-High**: api.high.powerbigov.us |
-| | **DoD**: api.mil.powerbi.gov.us |
-| Back-end API's | **GCC**: *analysis.usgovcloudapi.net |
-| | **GCC High**: *.high.analysis.usgovcloudapi.net |
-| | **DoD**: *.mil.analysis.usgovcloudapi.net |
-| Back-end API's | **All**: *.pbidedicated.usgovcloudapi.net |
-| Content Delivery Network (CDN) | **GCC**: gov.content.powerapps.us |
-| | **GCC High**: high.content.powerapps.us |
-| | **DoD**: mil.content.powerapps.us |
-| Integratie van Microsoft 365 | **GCC**: [Wereldwijde eindpunten](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
-| | **GCC High**: [Amerikaanse overheid GCC High-eindpunten](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
-| | **DoD**: [Amerikaanse Government DOD-eindpunten](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
-| Portal |**GCC**: *.powerbigov.us |
-| | **GCC-High**: *.high.powerbigov.us |
-| | **DoD**: *.mil.powerbigov.us |
-| Telemetrie naar service | **All**: dc.services.visualstudio.us |
-| Informatieve berichten (optioneel) | **All**: dynmsg.modpim.com |
-| NPS-enquêtes (optioneel) | **All**: nps.onyx.azure.net |
+| Back-end API's | **GCC** : api.powerbigov.us |
+| | **GCC-High** : api.high.powerbigov.us |
+| | **DoD** : api.mil.powerbi.gov.us |
+| Back-end API's | **GCC** : *analysis.usgovcloudapi.net |
+| | **GCC High** : *.high.analysis.usgovcloudapi.net |
+| | **DoD** : *.mil.analysis.usgovcloudapi.net |
+| Back-end API's | **All** : *.pbidedicated.usgovcloudapi.net |
+| Content Delivery Network (CDN) | **GCC** : gov.content.powerapps.us |
+| | **GCC High** : high.content.powerapps.us |
+| | **DoD** : mil.content.powerapps.us |
+| Integratie van Microsoft 365 | **GCC** : [Wereldwijde eindpunten](/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High** : [Amerikaanse overheid GCC High-eindpunten](/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD** : [Amerikaanse Government DOD-eindpunten](/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| Portal |**GCC** : *.powerbigov.us |
+| | **GCC-High** : *.high.powerbigov.us |
+| | **DoD** : *.mil.powerbigov.us |
+| Telemetrie naar service | **All** : dc.services.visualstudio.us |
+| Informatieve berichten (optioneel) | **All** : dynmsg.modpim.com |
+| NPS-enquêtes (optioneel) | **All** : nps.onyx.azure.net |
 
 ## <a name="connect-government-and-global-azure-cloud-services"></a>Azure Government en algemene Azure Cloud Services verbinden
 
@@ -126,11 +126,11 @@ De volgende tabel bevat een lijst met functies die niet beschikbaar zijn in een 
 |[Grote modellen](service-premium-large-models.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
 |[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/service-dataflows-enhanced-compute-engine.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
 |[Gegevensstromen - directe query](../transform-model/service-dataflows-directquery.md) | K4 2020 |K4 2020|![niet beschikbaar](../media/no.png)|
-|[Meldingen over onderbrekingen van de service](service-premium-large-models.md)|K4 2020 |K4 2020|K4 2020|
 |[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|K4 2020|K4 2020 |K4 2020|
 |[Sjabloon-apps](../connect-data/service-template-apps-overview.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
 |[Aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
 |[Dataconnector voor gesprekskwaliteit](/microsoftteams/cqd-power-bi-connector)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
+|[Bring Your Own Storage (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Genereren van QR-code](../create-reports/service-create-qr-code-for-tile.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 
 <sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government en Global Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B Collaboration voor de Amerikaanse overheid

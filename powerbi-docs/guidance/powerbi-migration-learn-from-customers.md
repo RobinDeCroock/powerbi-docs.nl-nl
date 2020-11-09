@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: a725d2763d7d044220785c2f9727ee30f14bfd5d
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: d436f01e074c27dc8a0d37f9e62d0ac422c4ab81
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803295"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916677"
 ---
 # <a name="learn-from-customer-power-bi-migrations"></a>Leren van Power BI-migraties van klanten
 
@@ -147,7 +147,7 @@ Naarmate de acceptatie van Power BI binnen de organisatie toenam, constateerde h
 
 - **Laag 1: tussen teams:** Mensen leren van elkaar, iedereen en elke dag.
 - **Laag 2: Power BI-community:** Mensen stellen vragen aan de community van interne teams om van elkaar te leren en communiceren belangrijke informatie.
-- **Laag 3: Centrale BI-team en COE:** Mensen dienen e-mailaanvragen in voor hulp. Tweemaal per week werden er _kantooruur_sessies gehouden om gezamenlijk problemen te bespreken en ideeën te delen.
+- **Laag 3: Centrale BI-team en COE:** Mensen dienen e-mailaanvragen in voor hulp. Tweemaal per week werden er _kantooruur_ sessies gehouden om gezamenlijk problemen te bespreken en ideeën te delen.
 
 > [!IMPORTANT]
 > Hoewel de eerste twee lagen minder formeel zijn, zijn ze net zo belangrijk als de derde ondersteuningslaag. Ervaren gebruikers vertrouwen doorgaans vooral op mensen die ze kennen, terwijl nieuwere gebruikers (of degenen die de enige gegevensanalist voor een bedrijfseenheid of gedeelde service zijn) vaak meer vertrouwen op formele ondersteuning.
@@ -158,7 +158,7 @@ Het afgelopen jaar heeft het bedrijf de interne trainingsaanbiedingen verbeterd 
 
 De interne catalogus bevat nu zes interne Power BI-cursussen. De cursus [Dashboard in een dag](https://powerbi.microsoft.com/diad/) is een populaire cursus voor beginners. Om gebruikers te helpen hun vaardigheden te verbeteren, wordt er een reeks van drie Power BI-cursussen en twee DAX-cursussen gegeven.
 
-Een van de belangrijkste beslissingen op het gebied van gegevensgovernance met betrekking tot het beheer van Premium-capaciteit. Het bedrijf heeft ervoor gekozen om de toegewezen capaciteit af te stemmen op de belangrijke analysegebieden in bedrijfseenheden en gedeelde services. Dus, als er sprake is van inefficiëntie, is de impact ervan alleen voelbaar op dat ene gebied. De gedecentraliseerde capaciteitsbeheerders kunnen de capaciteit naar eigen inzicht beheren.
+Een van de belangrijkste beslissingen op het gebied van gegevensgovernance met betrekking tot het beheer van Premium-capaciteit. Het bedrijf heeft ervoor gekozen om de capaciteit af te stemmen op de belangrijke analysegebieden in bedrijfseenheden en gedeelde services. Dus, als er sprake is van inefficiëntie, is de impact ervan alleen voelbaar op dat ene gebied. De gedecentraliseerde capaciteitsbeheerders kunnen de capaciteit naar eigen inzicht beheren.
 
 > [!IMPORTANT]
 > Let op hoe Premium-capaciteiten worden gebruikt en hoe werkruimten eraan worden toegewezen.

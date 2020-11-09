@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 10/21/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 87c35df25a17090f1788abbeb979afab3ad9d6a9
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 3828a11f4b4447f6484e121fec84fb44d702c86a
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462211"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93136154"
 ---
 |Mogelijkheid   | Beheerder  | Lid  | Inzender  | Lezer |
 |---|---|---|---|---|
@@ -21,7 +21,7 @@ ms.locfileid: "92462211"
 | Personen, met inbegrip van andere beheerders, toevoegen/verwijderen.  |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | Toestaan dat Inzenders de app voor de werkruimte bijwerken  |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |   |   |   |
 | Leden of anderen met minder machtigingen toevoegen.  |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
-| Machtigingen voor een app publiceren en wijzigen |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| De machtigingen voor een app publiceren, ongedaan maken en wijzigen |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | Een app bijwerken. |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |  Indien toegestaan <sup>1</sup>  |   |
 | Een item of een app delen.<sup>2</sup> |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | Anderen toestaan items opnieuw te delen.<sup>2</sup> |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |

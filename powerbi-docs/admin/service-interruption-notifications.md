@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 8b9c10c8b3faa87cfc19c3c1d8f87a36de0307dd
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981522"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916125"
 ---
 # <a name="service-interruption-notifications"></a>Meldingen over onderbrekingen van de service
 
@@ -30,7 +30,7 @@ Op dit moment verzenden we e-mails voor de volgende _betrouwbaarheidsscenario's:
 Er worden meldingen verzonden wanneer er een _langdurige vertraging_ is bij bewerkingen zoals het openen van rapporten, het vernieuwen van gegevenssets of het uitvoeren van query’s. Wanneer een incident is opgelost, ontvangt u een vervolgmail.
 
 > [!NOTE]
-> Deze functie is momenteel alleen beschikbaar voor toegewezen capaciteit in Power BI Premium. Deze functie is niet beschikbaar voor gedeelde of ingesloten capaciteit.
+> Deze functie is momenteel alleen beschikbaar voor capaciteiten in Power BI Premium. Deze functie is niet beschikbaar voor gedeelde of ingesloten capaciteit.
 
 ## <a name="capacity-and-reliability-notifications"></a>Meldingen over capaciteit en betrouwbaarheid
 

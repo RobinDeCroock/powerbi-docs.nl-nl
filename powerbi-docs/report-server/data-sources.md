@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/04/2020
+ms.date: 10/29/2020
 ms.author: maggies
-ms.openlocfilehash: cedabd613e177aa9a3645e80db38b74d799b8799
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52d38fd0705a6f9335f0ddd965acb0d9f56d38ee
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861194"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045074"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI-rapportgegevensbronnen in Power BI Report Server
 Power BI-rapporten kunnen verbinding maken met een aantal gegevensbronnen. Afhankelijk van de manier waarop de gegevens worden gebruikt, zijn er verschillende gegevensbronnen beschikbaar. De gegevens kunnen worden geïmporteerd of de gegevens kunnen rechtstreeks worden opgevraagd rechtstreeks met DirectQuery of een liveverbinding met SQL Server Analysis Services. Sommige gegevensbronnen zijn beschikbaar in Power BI Desktop en geoptimaliseerd voor Power BI Report Server, maar worden niet ondersteund wanneer ze worden gepubliceerd in Power BI Report Server.
@@ -189,6 +189,8 @@ Power BI Report Server biedt geen ondersteuning voor verificatie op basis van OA
 | Zendesk (bèta) |Nee |Nee |Nee |Nee |
 
 **Het gebruik van LDAP-verificatie met Teradata (ingeschakeld in Power BI Desktop met behulp van de opdrachtpromptopdracht 'setx PBI_EnableTeradataLdap true') wordt niet ondersteund voor het vernieuwen van modellen.
+
+Power BI Report Server heeft een beperking bij het gebruik van webgegevens: alleen gegevensbestanden van internet kunnen worden vernieuwd. Gegevens op basis van Pagina of Op voorbeeld kunnen niet worden vernieuwd. Deze beperking komt doordat de M-expressies die met Web.BrowserContents en Web.Page zijn gemaakt niet kunnen worden vernieuwd. Power BI Report Server kan alleen gegevensbronnen voor Web.Contents-gegevensbronnen vernieuwen.
 
 ## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lijst met ondersteunde verificatiemethoden voor DirectQuery
 

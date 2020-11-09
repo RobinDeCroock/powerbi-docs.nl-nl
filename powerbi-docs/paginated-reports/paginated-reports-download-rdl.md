@@ -1,23 +1,25 @@
 ---
 title: Het RDL-bestand voor een gepagineerd rapport downloaden vanuit een gegevensset
-description: In dit artikel leert u hoe u het RDL-bestand voor een gepagineerd Power BI-rapport kunt downloaden vanuit een gedeelde gegevensset in de Power BI-service.
+description: In dit artikel leert u hoe u het RDL-bestand voor een gepagineerd Power BI-rapport kunt maken door een gedeelde gegevensset in de Power BI-service te downloaden.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 09/16/2020
-ms.openlocfilehash: a0b684403274a0ec69b184d8fb40486d6d2e3e27
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.date: 10/15/2020
+ms.openlocfilehash: c5c8f61a7253da46529a83276366044560d4f030
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764980"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297621"
 ---
 # <a name="download-the-rdl-for-a-power-bi-paginated-report-from-a-dataset"></a>Het RDL-bestand voor een gepagineerd Power BI-rapport downloaden vanuit een gegevensset
 
-In dit artikel leert u hoe u het RDL-bestand voor een gepagineerd Power BI-rapport kunt downloaden vanuit een gegevensset in de Power BI-service. Gepagineerde rapporten hebben de bestandsindeling *RDL*. U kunt een RDL-bestand rechtstreeks maken vanuit een gegevensset in de Power BI-service.
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+In dit artikel leert u hoe u het RDL-bestand voor een gepagineerd Power BI-rapport kunt maken door een gedeelde gegevensset in de Power BI-service te downloaden. Gepagineerde rapporten hebben de bestandsindeling *RDL*. U kunt een RDL-bestand rechtstreeks maken vanuit een gegevensset in de Power BI-service.
 
 1. Ga naar de lijstweergave voor een werkruimte. Dit geldt ook voor Mijn werkruimte. 
 1. Selecteer **Meer opties (...)** voor een gegevensset en selecteer vervolgens **RDL-bestand downloaden**.

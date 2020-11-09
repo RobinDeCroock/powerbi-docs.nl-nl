@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374885"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916148"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI
 
@@ -108,9 +108,9 @@ Let op de volgende aandachtspunten voordat u BYOK inschakelt:
 
 - Op dit moment kunt u BYOK na inschakeling niet uitschakelen. Afhankelijk van hoe u parameters voor `Add-PowerBIEncryptionKey` opgeeft, kunt u bepalen hoe u BYOK gebruikt voor een of meer van uw capaciteiten. U kunt de introductie van sleutels bij uw tenant echter niet ongedaan maken. Zie [BYOK inschakelen](#enable-byok) voor meer informatie.
 
-- U kunt een werkruimte die gebruikmaakt van BYOK niet _rechtstreeks_ verplaatsen van een toegewezen capaciteit in Power BI Premium naar gedeelde capaciteit. U moet de werkruimte eerst verplaatsen naar een toegewezen capaciteit waarvoor BYOK niet is ingeschakeld.
+- U kunt een werkruimte die gebruikmaakt van BYOK niet _rechtstreeks_ verplaatsen van een capaciteit in Power BI Premium naar een gedeelde capaciteit. U moet de werkruimte eerst verplaatsen naar een capaciteit waarvoor BYOK niet is ingeschakeld.
 
-- Als u een werkruimte die gebruikmaakt van BYOK verplaatst van een toegewezen capaciteit in Power BI Premium naar gedeelde capaciteit, worden rapporten en gegevenssets ontoegankelijk, omdat ze zijn versleuteld met de sleutel. U kunt deze situatie voorkomen door de werkruimte eerst te verplaatsen naar een toegewezen capaciteit waarvoor BYOK niet is ingeschakeld.
+- Als u een werkruimte die gebruikmaakt van BYOK verplaatst van een capaciteit in Power BI Premium naar gedeelde capaciteit, worden rapporten en gegevenssets ontoegankelijk, omdat ze zijn versleuteld met de sleutel. U kunt deze situatie voorkomen door de werkruimte eerst te verplaatsen naar een capaciteit waarvoor BYOK niet is ingeschakeld.
 
 ### <a name="enable-byok"></a>BYOK inschakelen
 
@@ -183,7 +183,7 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
 
     Houd er rekening mee dat versleuteling is ingeschakeld op capaciteitsniveau, maar dat u de versleutelingsstatus verkrijgt voor het gegevenssetniveau van de opgegeven werkruimte.
 
-- Gebruik [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) om de versie van de sleutel die voor versleuteling wordt gebruikt te wisselen (of _draaien_). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
+- Gebruik [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) om de versie van de sleutel die voor versleuteling wordt gebruikt te wisselen (of _draaien_ ). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

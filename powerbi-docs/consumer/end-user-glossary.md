@@ -10,15 +10,15 @@ ms.topic: reference
 ms.date: 08/24/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: 012fad9cd566018a6fd0d96fb172fadd816e3420
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47526e06da24f720f273c45616a012483f077ed5
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860849"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916585"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Verklarende woordenlijst voor zakelijke gebruikers van de Power BI-service    
-In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
+In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI- *elementen* en hoe deze met elkaar zijn verbonden.
 
 Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbreekt er volgens u een term? Vraag ons de term toe te voegen. U kunt hiervoor de documentatiefeedbackknop onder aan dit artikel gebruiken.
 
@@ -52,7 +52,7 @@ Gecentraliseerde online opslagplaats waarin u kunt bladeren en dashboards, rappo
 ArcGIS is een toewijzings- en analyseplatform dat is gemaakt door het bedrijf ESRI. De naam van de visual uit de Power BI-visualbibliotheek heet ArcGIS voor Power BI.
 
 **toewijzen**    
-[Power BI Premium] Werkwoord voor het verplaatsen van een werkruimte naar toegewezen capaciteit of om deze er weer uit te halen. Gebruik de optie Promoten niet voor het verplaatsen van een werkruimte naar toegewezen capaciteit, want dan staat de toegewezen capaciteit boven de gedeelde capaciteit. 
+[Power BI Premium] Werkwoord voor het verplaatsen van een werkruimte naar een capaciteit of om deze er weer uit te halen. Gebruik de optie Promoten niet voor het verplaatsen van een werkruimte naar een capaciteit, want dan staat de toegewezen capaciteit boven de gedeelde capaciteit. 
 
 **Auto Insights**    
 Wordt nu *Snelle inzichten* genoemd.
@@ -71,6 +71,9 @@ De navigatie linksboven waarmee snel kan worden genavigeerd tussen rapporten en 
 
 **berekening**    
 Een wiskundige bepaling van de grootte of het aantal van iets.
+
+**Capaciteit**    
+[Power BI Premium] Gegevensmodellen die worden uitgevoerd op specifieke hardware in Microsoft-clouddatacentra om te zorgen voor consistente prestaties op schaal. BI-oplossingen worden aan de gehele organisatie aangeboden, onafhankelijk van de Power BI-licentie.
 
 **kaart** (visueel type)    
 Een [visualtype](end-user-visual-type.md) van Power BI.
@@ -136,12 +139,8 @@ Gegevensstromen worden gebruikt voor het opnemen, transformeren, integreren en v
 **gegevensset** versus **gegevensbron**    
 Een **gegevensset** is een verzameling gegevens voor het maken van visualisaties en rapporten.
 
-**toegewezen capaciteit**    
-[Power BI Premium] Gegevensmodellen die worden uitgevoerd op specifieke hardware in Microsoft-clouddatacentra om te zorgen voor consistente prestaties op schaal. BI-oplossingen worden aan de gehele organisatie aangeboden, onafhankelijk van de Power BI-licentie.
-
 **Desktop** of **Power BI Desktop**    
 Gratis Power BI-hulpprogramma dat voornamelijk wordt gebruikt door rapportontwerpers, beheerders en ontwikkelaars. 
-
 
 **ruit**    
 Power BI Premium. De vorm van het pictogram dat verwijst naar een werkruimte. Het gaat hierbij om werkruimten in de Premium-capaciteit.
@@ -232,7 +231,7 @@ Key performance indicators. Een type visual.
 ## <a name="l"></a>L
 
 **linkernavigatiebalk (linkernavigatie)**     
-Dit is vervangen door het **navigatiedeelvenster**, maar is zo nu en dan nog in documentatie terug te vinden.    
+Dit is vervangen door het **navigatiedeelvenster** , maar is zo nu en dan nog in documentatie terug te vinden.    
 De besturingselementen aan de linkerkant van de Power BI-service.
 
 Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine ruimten: navigatievenster
@@ -240,9 +239,9 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 **licentie**    
 Uw toegangsniveau wordt bepaald door de Power BI-licentie die is gekoppeld aan uw account en het capaciteitstype waar inhoud wordt opgeslagen. In een gedeelde capaciteit kan een gebruiker met een Power BI Pro-licentie alleen samenwerken met gebruikers die ook een Pro-licentie hebben. Bij gedeelde capaciteit heeft een gratis licentie alleen toegang tot de persoonlijke werkruimte van de gebruiker. Maar wanneer de inhoud zich in de Premium-capaciteit bevindt, kunnen gebruikers met een Pro-licentie de inhoud delen met gebruikers die een gratis licentie hebben toegewezen gekregen. 
 
-Een licentie wordt toegewezen aan een gebruiker en kan een gratis of Pro-licentie zijn. Afhankelijk van hoe de licentie is verkregen, kan deze betaald of gratis zijn. De accounts zijn: accounts per gebruiker of organisatieaccounts. Accounts per gebruiker zijn beschikbaar als *gratis account* of een *Pro-account*.  Een Power BI-gebruiker met een *gratis* account is een zelfstandige gebruiker van Power BI Desktop of gebruikt de Power BI-service zelfstandig binnen een organisatie met een Premium-organisatieabonnement. Het Power BI *Pro*-account per gebruiker is een betaald maandabonnement dat samenwerking en het delen van inhoud met andere *Pro*-gebruikers mogelijk maakt. 
+Een licentie wordt toegewezen aan een gebruiker en kan een gratis of Pro-licentie zijn. Afhankelijk van hoe de licentie is verkregen, kan deze betaald of gratis zijn. De accounts zijn: accounts per gebruiker of organisatieaccounts. Accounts per gebruiker zijn beschikbaar als *gratis account* of een *Pro-account*.  Een Power BI-gebruiker met een *gratis* account is een zelfstandige gebruiker van Power BI Desktop of gebruikt de Power BI-service zelfstandig binnen een organisatie met een Premium-organisatieabonnement. Het Power BI *Pro* -account per gebruiker is een betaald maandabonnement dat samenwerking en het delen van inhoud met andere *Pro* -gebruikers mogelijk maakt. 
 
-Met het *Premium*-organisatieabonnement (ook wel het *Premium-capaciteits*account genoemd) wordt een laag met functies toegevoegd aan de licenties van een account per gebruiker. Zo kunnen gebruikers met een *gratis* account per gebruiker in een organisatie die een *Premium*-abonnement heeft, veel meer doen met Power BI dan gebruikers met een *gratis* account zonder *Premium*. Zo kunnen gebruikers met een *gratis* licentie in *Premium*-organisatieaccounts samenwerken met collega's en inhoud bekijken die wordt gehost op Power BI Premium-capaciteit. 
+Met het *Premium* -organisatieabonnement (ook wel het *Premium-capaciteits* account genoemd) wordt een laag met functies toegevoegd aan de licenties van een account per gebruiker. Zo kunnen gebruikers met een *gratis* account per gebruiker in een organisatie die een *Premium* -abonnement heeft, veel meer doen met Power BI dan gebruikers met een *gratis* account zonder *Premium*. Zo kunnen gebruikers met een *gratis* licentie in *Premium* -organisatieaccounts samenwerken met collega's en inhoud bekijken die wordt gehost op Power BI Premium-capaciteit. 
 
 **lijstpagina** of **inhoudslijst**    
 Een van de sectiepagina's van de elementen in het navigatievenster. Voorbeelden: Favorieten, Recent, Mijn werkruimte, etc.
@@ -259,7 +258,7 @@ Apps waarmee u Power BI op iOS-, Android- en Windows-apparaten kunt uitvoeren.
 [Power BI Desktop] Het ophalen van de gegevens waarmee u verbinding hebt gemaakt om ze in Power BI te gebruiken. Dit omvat het maken van relaties tussen tabellen in meerdere gegevensbronnen, het maken van metingen en toewijzen van metrische gegevens.
 
 **Mijn werkruimte**    
-De werkruimte die elke Power BI-klant kan gebruiken om inhoud te maken. Als klanten alles dat ze maken in een app willen samenvoegen en ze beschikken over *ontwerper*machtigingen, kunnen ze de betreffende app naar de juiste werkruimte uploaden of een nieuwe maken.
+De werkruimte die elke Power BI-klant kan gebruiken om inhoud te maken. Als klanten alles dat ze maken in een app willen samenvoegen en ze beschikken over *ontwerper* machtigingen, kunnen ze de betreffende app naar de juiste werkruimte uploaden of een nieuwe maken.
 
 ## <a name="n"></a>N
 
@@ -305,7 +304,7 @@ De bestandsextensie voor aangepaste visuals in Power BI.
 De bestandsextensie voor een Power BI Desktop-bestand.
 
 **machtigingen**    
-Wat een gebruiker wel en niet mag doen in Power BI wordt bepaald aan de hand van machtigingen. Als *consument* hebt u niet dezelfde machtigingen als een *ontwerper*, beheerder of ontwikkelaar.
+Wat een gebruiker wel en niet mag doen in Power BI wordt bepaald aan de hand van machtigingen. Als *consument* hebt u niet dezelfde machtigingen als een *ontwerper* , beheerder of ontwikkelaar.
 
 **telefoonrapport**    
 De naam van een Power BI-rapport dat is opgemaakt voor weergave op telefoons.
@@ -316,8 +315,8 @@ De gebruikersinterface in de Power BI-service voor het opmaken van telefoonrappo
 **vastmaken, losmaken**    
 De actie die een *rapportontwerper* van een visual, meestal vanuit een rapport, uitvoert op een dashboard.
 
-**Power BI**, **Power BI service**, **Power BI Desktop**, **Power BI mobile**    
-Een greep uit de Power BI-producten. *Power BI* is de algemene term. De term wordt vaak gebruikt in plaats van een volledige productnaam, zoals de *Power BI-service* en *Power BI - Mobiel*, nadat de volledige productnaam een keer is vermeld.
+**Power BI** , **Power BI service** , **Power BI Desktop** , **Power BI mobile**    
+Een greep uit de Power BI-producten. *Power BI* is de algemene term. De term wordt vaak gebruikt in plaats van een volledige productnaam, zoals de *Power BI-service* en *Power BI - Mobiel* , nadat de volledige productnaam een keer is vermeld.
 
 **Power BI Desktop**    
 Ook wel *Desktop* genoemd. De gratis Windows-toepassing bam Power BI die u op uw lokale computer kunt installeren en waarmee u verbinding kunt maken met gegevens, gegevens kunt transformeren en gegevens kunt visualiseren. Het wordt gebruikt door ontwerpers en beheerders van rapporten. Zie [Wat is Power BI](../fundamentals/power-bi-overview.md) voor meer informatie.
@@ -341,9 +340,9 @@ Dit is een on-premises rapportserver met een webportal waarin u rapporten en KPI
 Een online SaaS-service (software as a service). Zie [Wat is Power BI](../fundamentals/power-bi-overview.md) voor meer informatie.
 
 **Premium-werkruimte**    
-Een werkruimte die wordt uitgevoerd in een speciale capaciteit. Voor klanten is deze te herkennen aan het ruitpictogram.  
+Een werkruimte die wordt uitgevoerd in een capaciteit. Voor klanten is deze te herkennen aan het ruitpictogram.  
 
-**Pro**-licentie of **Pro**-account Zie *Account*.
+**Pro** -licentie of **Pro** -account Zie *Account*.
 
 **publiceren**    
 *Ontwerpers* van rapporten voor Power BI service bundelen de inhoud van een Power BI-werkruimte om deze als Power BI-app beschikbaar te stellen aan anderen. *Ontwerpers* van Power BI Desktop-rapporten gebruiken publiceren om een Power BI Desktop-rapport in een .pbix-indeling te verzenden naar de Power BI-service, zodat ze er dashboards van kunnen bouwen en het rapport eenvoudig kunnen delen met anderen. 
@@ -432,7 +431,7 @@ Een set on-premises hulpprogramma's en services om rapportageservers en gepagine
 **streaminggegevens**    
 Zie *realtimestreaming*.
 
-**abonnementen**, **Abonneren**     
+**abonnementen** , **Abonneren**     
 U kunt zich abonneren op rapportpagina's, apps en dashboards. U kunt daarbij e-mails ontvangen met momentopnamen. Hiervoor is een Power BI Pro-licentie vereist.
 
 **samenvatting**    

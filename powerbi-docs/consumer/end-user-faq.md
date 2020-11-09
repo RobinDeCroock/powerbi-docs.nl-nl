@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: dca1b3bb107c8a2e02b48db9d22a4fe6c2875a4c
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860918"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916792"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 
@@ -37,7 +37,7 @@ De manier waarop u met Power BI werkt, is afhankelijk van uw functie. Als eindge
 
 Power BI Pro is een afzonderlijke gebruikerslicentie die toegang biedt tot alle inhoud en mogelijkheden in de Power BI-service. U kunt zelfs inhoud delen en samenwerken met andere Pro-gebruikers. Alleen Pro-gebruikers kunnen inhoud naar andere werkruimten publiceren, dashboards delen en zich abonneren op dashboards en rapporten. 
 
-Power BI Premium biedt toegewezen capaciteit voor consistentere prestaties. Het biedt ook ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers maakt Premium wijdverbreide distributie van inhoud door Pro-gebruikers mogelijk, en vereist geen Pro-licenties per gebruiker voor ontvangers die de inhoud bekijken. Dit betekent dat *zakelijke gebruikers* kunnen samenwerken met collega's, en dashboards, rapporten en apps die met hen zijn gedeeld kunnen weergeven en gebruiken. 
+Power BI Premium biedt capaciteit voor consistentere prestaties. Het biedt ook ondersteuning voor grotere gegevensvolumes in Power BI. Voor individuele gebruikers maakt Premium wijdverbreide distributie van inhoud door Pro-gebruikers mogelijk, en vereist geen Pro-licenties per gebruiker voor ontvangers die de inhoud bekijken. Dit betekent dat *zakelijke gebruikers* kunnen samenwerken met collega's, en dashboards, rapporten en apps die met hen zijn gedeeld kunnen weergeven en gebruiken. 
 
 Zie [Welk type licentie heb ik?](end-user-license.md) voor meer informatie.
 
@@ -108,7 +108,7 @@ Hier vindt u meer informatie over beveiliging, privacy en compliance in Power BI
 
 Net als in veel andere services en software van Microsoft, biedt Power BI een eenvoudige manier om de laatst uitgevoerde opdracht ongedaan te maken.
 
-* Als u uw laatste actie, of laatste paar acties, **ongedaan wilt maken**,drukt u op Ctrl+Z.
+* Als u uw laatste actie, of laatste paar acties, **ongedaan wilt maken** ,drukt u op Ctrl+Z.
 
 ## <a name="next-steps"></a>Volgende stappen
 

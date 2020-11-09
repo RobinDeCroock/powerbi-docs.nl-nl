@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/26/2019
+ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d8841c35b2086f9a7e452cdcb4aa9a0fc4c16bd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599653"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044701"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Multi-Geo-ondersteuning voor Power BI Premium configureren
 
@@ -90,14 +90,16 @@ U kunt er op twee manieren voor zorgen dat werkruimten niet meer worden opgeslag
 - Verwijder de huidige capaciteit waarin de werkruimte zich bevindt.  Hierdoor wordt de werkruimte terug verplaatst naar gedeelde capaciteit in de basisregio.
 - Migreer afzonderlijke werkruimten terug naar Premium-capaciteit in de basistenant.
 
+Gegevenssets met een grote opslagindeling moeten niet worden verplaatst uit de regio waarin ze zijn gemaakt. In rapporten op basis van een gegevensset met grote indeling kan de gegevensset niet worden geladen. De fout *Kan het model niet laden* wordt geretourneerd. Verplaats de gegevensset met een grote opslagindeling weer naar de oorspronkelijke regio om deze gegevensset weer beschikbaar te maken.
+
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
 - Controleer of alle verplaatsingen tussen regio's voldoen aan alle nalevingsvereisten van uw bedrijf en de overheid voordat u de gegevensoverdracht daadwerkelijk start.
 - Een in de cache opgeslagen query in een verafgelegen regio blijft in die regio wanneer de query niet wordt gebruikt. Andere gegevens die onderweg zijn kunnen echter heen en weer worden verplaatst tussen meerdere geografische gebieden.
 - Bij het verplaatsen van gegevens van de ene naar de andere regio in een omgeving met ondersteuning voor meerdere geografische gebieden, kunnen de brongegevens gedurende maximaal 30 dagen aanwezig blijven in de regio van waaruit de gegevens zijn verplaatst. Gedurende die periode hebben eindgebruikers geen toegang tot de gegevens. De gegevens worden gedurende deze periode van 30 dagen verwijderd uit deze regio en vernietigd.
 - Verkeer als gevolg van queryteksten en queryresultaten voor geïmporteerde gegevensmodellen wordt niet via de thuisregio verzonden. De metagegevens van het rapport zijn nog steeds afkomstig uit de externe regio en bepaalde DNS-routeringsstatussen kunnen verkeer uit de regio halen. 
-
 - De functie [gegevensstromen](../transform-model/service-dataflows-overview.md) wordt momenteel niet ondersteund in Multi-Geo.
+- Wanneer gegevenssets met een grote opslagindeling worden verplaatst uit de regio waarin ze zijn gemaakt, kan de gegevensset niet in rapporten worden geladen. Verplaats de gegevensset met een grote opslagindeling terug naar de oorspronkelijke regio om deze set beschikbaar te maken. 
 
 ## <a name="next-steps"></a>Volgende stappen
 

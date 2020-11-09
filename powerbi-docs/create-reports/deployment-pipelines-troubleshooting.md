@@ -7,12 +7,12 @@ ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 09/15/2020
-ms.openlocfilehash: 0a90c03c516b64e5a0a81c6a2bbdf0049d48b76f
-ms.sourcegitcommit: be0971576a3f1af7a064371c9cf27dd462dfca82
+ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "92080249"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916815"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Problemen met implementatiepijplijnen oplossen
 
@@ -55,7 +55,7 @@ Als u implementatiepijplijnen wilt gebruiken, moet u een [Pro-gebruiker](../admi
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>Welk type capaciteit kan ik toewijzen aan een werkruimte in een pijplijn?
 
-Alle werkruimten in een implementatiepijplijn moeten zich in een toegewezen capaciteit bevinden om de pijplijn goed te laten functioneren. U kunt echter verschillende capaciteiten gebruiken voor verschillende werkruimten in een pijplijn. U kunt ook verschillende typen capaciteiten gebruiken voor verschillende werkruimten in dezelfde pijplijn.
+Alle werkruimten in een implementatiepijplijn moeten zich in een capaciteit bevinden om de pijplijn goed te laten functioneren. U kunt echter verschillende capaciteiten gebruiken voor verschillende werkruimten in een pijplijn. U kunt ook verschillende typen capaciteiten gebruiken voor verschillende werkruimten in dezelfde pijplijn.
 
 Voor ontwikkelen en testen kunt u een A- of EM- capaciteit gebruiken, naast een Pro Power BI-account voor elke gebruiker.
 
@@ -152,11 +152,11 @@ Het machtigingenmodel voor implementatiepijplijnen wordt beschreven in de sectie
 
 Inhoud kan worden geïmplementeerd in een lege fase of in een fase die inhoud bevat. De inhoud moet zich bevinden in een [premium-capaciteit](../admin/service-premium-what-is.md).
 
-* **Implementeren in een lege fase**: elke [Pro-gebruiker](../admin/service-admin-purchasing-power-bi-pro.md) die lid of beheerder is van de bronwerkruimte.
+* **Implementeren in een lege fase** : elke [Pro-gebruiker](../admin/service-admin-purchasing-power-bi-pro.md) die lid of beheerder is van de bronwerkruimte.
 
-* **Implementeren in een fase met inhoud**: een [Pro-gebruikers](../admin/service-admin-purchasing-power-bi-pro.md) die lid of beheerder is van beide werkruimten in de bron- en doelimplementatiefasen.
+* **Implementeren in een fase met inhoud** : een [Pro-gebruikers](../admin/service-admin-purchasing-power-bi-pro.md) die lid of beheerder is van beide werkruimten in de bron- en doelimplementatiefasen.
 
-* **Overschrijven van een gegevensset**: bij een implementatie wordt elke gegevensset die is opgenomen in de doelfase overschreven, zelfs als de gegevensset niet is gewijzigd. De gebruiker moet de eigenaar zijn van alle gegevenssets in de doelfase die zijn opgegeven in de implementatie.
+* **Overschrijven van een gegevensset** : bij een implementatie wordt elke gegevensset die is opgenomen in de doelfase overschreven, zelfs als de gegevensset niet is gewijzigd. De gebruiker moet de eigenaar zijn van alle gegevenssets in de doelfase die zijn opgegeven in de implementatie.
 
 ### <a name="which-permissions-do-i-need-to-configure-dataset-rules"></a>Welke machtigingen heb ik nodig om gegevenssetregels te configureren?
 

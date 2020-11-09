@@ -8,17 +8,20 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7dbda608fcab3457a45c4ad93abf7143a19abcd1
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921120"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93298166"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expressies in Power BI Report Builder
-  Expressies worden op grote schaal in gepagineerde rapporten van Power BI Report Builder gebruikt voor het ophalen, berekenen, weergeven, groeperen, sorteren en filteren van gegevens, om parameters aan gegevens toe te wijzen en om gegevens op te maken. 
+
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+Expressies worden op grote schaal in gepagineerde rapporten van Power BI Report Builder gebruikt voor het ophalen, berekenen, weergeven, groeperen, sorteren en filteren van gegevens, om parameters aan gegevens toe te wijzen en om gegevens op te maken. 
   
-  Veel eigenschappen van rapportitems kunnen op een expressie worden ingesteld. Met behulp van expressies kunt u de inhoud, het ontwerp en de interactiviteit van uw rapport beheren. Expressies worden geschreven in Microsoft Visual Basic, opgeslagen in de rapportdefinitie en geëvalueerd door het rapportverwerkingsprogramma wanneer u het rapport uitvoert.  
+Veel eigenschappen van rapportitems kunnen op een expressie worden ingesteld. Met behulp van expressies kunt u de inhoud, het ontwerp en de interactiviteit van uw rapport beheren. Expressies worden geschreven in Microsoft Visual Basic, opgeslagen in de rapportdefinitie en geëvalueerd door het rapportverwerkingsprogramma wanneer u het rapport uitvoert.  
   
  In tegenstelling tot toepassingen zoals Microsoft Office Excel, waarin u gegevens rechtstreeks in een werkblad bewerkt, werkt u in een rapport met expressies die tijdelijke aanduidingen voor gegevens zijn. Open een voorbeeldweergave van het rapport om de daadwerkelijke gegevens uit de geëvalueerde expressies weer te geven. Wanneer u het rapport uitvoert, wordt elke expressie geëvalueerd zodra rapportgegevens en indelingselementen van het rapport, zoals tabellen en grafieken, door het rapportverwerkingsprogramma worden gecombineerd.  
   
@@ -28,18 +31,18 @@ ms.locfileid: "78921120"
   
  Wanneer u een voorbeeldweergave van het rapport bekijkt, wordt het tabelgegevensgebied gecombineerd met de daadwerkelijke gegevens van de gegevensverbinding en wordt voor elke rij in de resultatenset een rij in de tabel weergegeven.  
   
- Als u expressies handmatig wilt invoeren, selecteert u een item in de ontwerpweergave en gebruikt u de snelmenu's en dialoogvensters om de eigenschappen van het item in te stellen. Wanneer u de knop ***(fx)*** of de waarde `<Expression>` in een vervolgkeuzelijst ziet, weet u dat u de eigenschap op een expressie kunt instellen. 
+ Als u expressies handmatig wilt invoeren, selecteert u een item in de ontwerpweergave en gebruikt u de snelmenu's en dialoogvensters om de eigenschappen van het item in te stellen. Wanneer u de knop * **(fx)** _ of de waarde `<Expression>` in een vervolgkeuzelijst ziet, weet u dat u de eigenschap op een expressie kunt instellen. 
   
 ##  <a name="understanding-simple-and-complex-expressions"></a><a name="Types"></a> Informatie over eenvoudige en complexe expressies  
  Expressies beginnen met een is-gelijkteken (=) en worden geschreven in Microsoft Visual Basic. Expressies kunnen een combinatie van constanten, operators en verwijzingen naar ingebouwde waarden (velden, verzamelingen en functies) en naar externe of aangepaste code bevatten.  
   
  U kunt expressies gebruiken om de waarde van veel eigenschappen van rapportitems op te geven. De meest gebruikte eigenschappen zijn waarden voor tekstvakken en tijdelijke aanduidingen. Als een tekstvak maar één expressie bevat, is de expressie vaak de waarde van de tekstvakeigenschap. Als een tekstvak meerdere expressies bevat, is elke expressie de waarde van een tijdelijke aanduiding in het tekstvak.  
   
- Standaard worden expressies in de ontwerpweergave voor rapporten weergegeven als *eenvoudige* of *complexe expressies*.  
+ Standaard worden expressies in de ontwerpweergave voor rapporten weergegeven als _eenvoudige* of *complexe expressies*.  
   
--   **Eenvoudig**: een eenvoudige expressie bevat een verwijzing naar één item in een ingebouwde verzameling zoals een gegevenssetveld, een parameter of een ingebouwd veld. In de ontwerpweergave wordt een eenvoudige expressie tussen haken weergegeven. `[FieldName]` komt bijvoorbeeld overeen met de onderliggende expressie `=Fields!FieldName.Value`. Eenvoudige expressies worden automatisch voor u gemaakt wanneer u de rapportindeling maakt en items van het deelvenster Rapportgegevens naar de ontwerpweergave sleept. Zie [Informatie over voorvoegselsymbolen in eenvoudige expressies](#DisplayText) voor meer informatie over de symbolen die voor de verschillende ingebouwde verzamelingen staan.  
+-   **Eenvoudig** : een eenvoudige expressie bevat een verwijzing naar één item in een ingebouwde verzameling zoals een gegevenssetveld, een parameter of een ingebouwd veld. In de ontwerpweergave wordt een eenvoudige expressie tussen haken weergegeven. `[FieldName]` komt bijvoorbeeld overeen met de onderliggende expressie `=Fields!FieldName.Value`. Eenvoudige expressies worden automatisch voor u gemaakt wanneer u de rapportindeling maakt en items van het deelvenster Rapportgegevens naar de ontwerpweergave sleept. Zie [Informatie over voorvoegselsymbolen in eenvoudige expressies](#DisplayText) voor meer informatie over de symbolen die voor de verschillende ingebouwde verzamelingen staan.  
   
--   **Complex**: een complexe expressie bevat verwijzingen naar meerdere ingebouwde verwijzingen, operators en functieaanroepen. Een complexe expressie wordt weergegeven als <\<Expr>> wanneer de expressiewaarde meer dan een eenvoudige verwijzing bevat. Beweeg de cursor over de expressie en gebruik de knopinfo als u de expressie wilt zien. U kunt de expressie bewerken door deze te openen in het dialoogvenster **Expressie**.  
+-   **Complex** : een complexe expressie bevat verwijzingen naar meerdere ingebouwde verwijzingen, operators en functieaanroepen. Een complexe expressie wordt weergegeven als <\<Expr>> wanneer de expressiewaarde meer dan een eenvoudige verwijzing bevat. Beweeg de cursor over de expressie en gebruik de knopinfo als u de expressie wilt zien. U kunt de expressie bewerken door deze te openen in het dialoogvenster **Expressie**.  
   
  In de volgende afbeeldingen ziet u typische eenvoudige en complexe expressies voor zowel tekstvakken als tijdelijke aanduidingen.  
   
@@ -66,7 +69,7 @@ Voor eenvoudige expressies worden symbolen gebruikt om aan te geven of de verwij
   
  In de volgende tabel staan de verwijzingstypen die u in een expressie kunt insluiten:  
   
-|Verwijzingen|Description|Voorbeeld|  
+|Verwijzingen|Beschrijving|Voorbeeld|  
 |----------------|-----------------|-------------|  
 |Constanten|Hiermee worden de constanten beschreven waartoe u interactief toegang hebt voor eigenschappen waarvoor constante waarden zijn vereist, zoals de tekstkleur.|`="Blue"`|  
 |Operators|Hiermee worden de operators beschreven die u kunt gebruiken om verwijzingen in een expressie te combineren. De operator **&** wordt bijvoorbeeld gebruikt om tekenreeksen samen te voegen.|`="The report ran at: " & Globals!ExecutionTime & "."`|  

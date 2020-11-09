@@ -6,22 +6,24 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 04/30/2020
+ms.date: 10/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4b9573d0a24efdbb4c0b5a4130f973a0dfac0f10
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633203"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132316"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>Rapporten kopiëren uit andere werkruimten
 
 Wanneer u in een werkruimte of app een rapport hebt gevonden dat u interessant vindt, kunt u er een kopie van maken en deze opslaan in een andere werkruimte. Vervolgens kunt u uw kopie van het rapport wijzigen en visuals en andere elementen toevoegen of verwijderen. U hoeft zich geen zorgen te maken over het maken van het gegevensmodel. Dit is al voor u gemaakt. En het is veel gemakkelijker een bestaand rapport aan te passen dan een compleet nieuw rapport te maken. Wanneer u echter een app vanuit uw werkruimte maakt, is het soms niet mogelijk om een kopie van het rapport te publiceren in de app. Zie [Overwegingen en beperkingen in het artikel Gegevenssets in werkruimten gebruiken](service-datasets-across-workspaces.md#considerations-and-limitations) voor meer informatie.
 
-> [!NOTE]
-> Als u een kopie maakt, hebt u een Pro-licentie nodig, zelfs als het oorspronkelijke rapport zich in een werkruimte in een Premium-capaciteit bevindt.
+## <a name="prerequisites"></a>Vereisten
+
+- Als u een kopie of een rapport wilt maken, hebt u een Pro-licentie nodig, zelfs als het oorspronkelijke rapport zich in een werkruimte in een Premium-capaciteit bevindt.
+- Als u een rapport wilt kopiëren of een rapport wilt maken in een werkruimte op basis van een gegevensset in een andere werkruimte, hebt u een machtiging nodig voor het maken van de gegevensset. Voor gegevenssets in de oorspronkelijke werkruimte hebben de personen met de rollen Beheerder, Lid en Inzender automatisch een Samenstellingsmachtiging via hun werkruimterol. Raadpleeg [Rollen in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) voor meer informatie.
 
 ## <a name="save-a-copy-of-a-report-in-a-workspace"></a>Een kopie van een rapport opslaan in een werkruimte
 

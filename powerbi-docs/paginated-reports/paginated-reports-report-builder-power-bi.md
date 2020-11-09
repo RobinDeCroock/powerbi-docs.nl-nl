@@ -8,17 +8,26 @@ featuredvideoid: jXTiYJKw1Rs
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 05/19/2020
-ms.openlocfilehash: 16fcc18492b371accaaf3c447d7a88978051f8c3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/16/2020
+ms.openlocfilehash: 2c136f4d81a9cb1c1904c3a06b58271391c76c23
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859653"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297763"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>Wat zijn gepagineerde rapporten in Power BI Premium?
 
-*Gepagineerde rapporten* zijn rapporten die zijn ontworpen om te worden afgedrukt of gedeeld. Ze worden *gepagineerd* genoemd, omdat ze zo zijn opgemaakt dat ze op een pagina passen. Alle gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Ze worden soms *pixelperfect* genoemd omdat de pagina-indeling van dit type rapport exact kan worden ingesteld. De Power BI Report Builder is het zelfstandige hulpprogramma voor het maken van gepagineerde rapporten. Gepagineerde rapporten zijn gebaseerd op de RDL-rapporttechnologie, dat lang de standaard rapportindeling was in SQL Server Reporting Services. 
+[!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-service](../includes/yes-service.md)] [!INCLUDE [yes-paginated](../includes/yes-paginated.md)] [!INCLUDE [yes-premium](../includes/yes-premium.md)] [!INCLUDE [no-desktop](../includes/no-desktop.md)] 
+
+*Gepagineerde rapporten* zijn rapporten die zijn ontworpen om te worden afgedrukt of gedeeld. Ze worden *gepagineerd* genoemd, omdat ze zo zijn opgemaakt dat ze op een pagina passen. Alle gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Ze worden soms *pixelperfect* genoemd omdat de pagina-indeling van dit type rapport exact kan worden ingesteld. De Power BI Report Builder is het zelfstandige hulpprogramma voor het maken van gepagineerde rapporten voor de Power BI-service. 
+
+Hier volgen enkele snelkoppelingen als u klaar bent om aan de slag te gaan:
+
+- [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://aka.ms/pbireportbuilder)
+- [Zelfstudie: een gepagineerd rapport maken](paginated-reports-quickstart-aw.md)
+- [Voorbeeld van gepagineerde Power BI-rapporten](paginated-reports-samples.md)
+- Zoekt u informatie over Report Builder voor Power BI Report Server of SQL Server Reporting Services? Ga dan naar [Report Builder installeren - Power BI Report Server](../report-server/install-report-builder.md).
 
 Gepagineerde rapporten hebben vaak veel pagina's. Dit rapport heeft bijvoorbeeld 563 pagina's. Alle pagina's zijn zorgvuldig opgemaakt, met één pagina per factuur en herhalende kopteksten en voetteksten.
 
@@ -98,5 +107,6 @@ Hier volgen enkele andere functies die niet worden ondersteund in de eerste rele
 - [Power BI Report Builder installeren vanuit het Microsoft Downloadcentrum](https://aka.ms/pbireportbuilder)
 - [Zelfstudie: een gepagineerd rapport maken](paginated-reports-quickstart-aw.md)
 - [Onlinecursus: gepagineerde rapporten in Power BI in een dag](../learning-catalog/paginated-reports-online-course.md)
+- [Voorbeeld van gepagineerde Power BI-rapporten](paginated-reports-samples.md)
 - [Gegevens rechtstreeks in een gepagineerd rapport invoeren](paginated-reports-enter-data.md)
 - [Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten](../developer/embedded/embed-paginated-reports-customers.md)

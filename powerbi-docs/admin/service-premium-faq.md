@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d97c1a4be226d81ca20ef2f31a1f535174cb6c5b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599125"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92915895"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
@@ -32,7 +32,7 @@ Power BI Premium is een oplossing die is gebaseerd op capaciteit en die onder an
 * Eén API-gebied, een consistente set mogelijkheden en toegang tot de nieuwste functies voor ingesloten analyse.
 
 **Wat doet Power BI Premium? Hoe werkt het?**  
-Power BI Premium bestaat uit capaciteit in de Power BI-service die exclusief wordt toegewezen aan elke organisatie. De capaciteit wordt ondersteund door specifieke hardware die volledig wordt beheerd door Microsoft. Organisaties kunnen ervoor kiezen om hun toegewezen capaciteit breed toe te passen of deze te verdelen over toegewezen werkruimten op basis van het aantal gebruikers, workloadbehoeften of andere factoren, waarbij het altijd mogelijk is om omhoog of omlaag te schalen als de behoeften veranderen.
+Power BI Premium bestaat uit capaciteit in de Power BI-service die exclusief wordt toegewezen aan elke organisatie. De capaciteit wordt ondersteund door specifieke hardware die volledig wordt beheerd door Microsoft. Organisaties kunnen ervoor kiezen om hun capaciteit breed toe te passen of deze te verdelen over toegewezen werkruimten op basis van het aantal gebruikers, workloadbehoeften of andere factoren, waarbij het altijd mogelijk is om omhoog of omlaag te schalen als de behoeften veranderen.
 
 **Wat zijn de verschillen tussen Power BI Pro en Power BI Premium?**  
 Power BI Premium is een licentie op basis van capaciteit, terwijl Power BI Pro een licentie op basis van gebruikers is. Power BI Pro is bedoeld voor gebruikers die rapporten publiceren, dashboards delen, samenwerken met collega's in werkruimten en deelnemen aan andere gerelateerde activiteiten, zoals:

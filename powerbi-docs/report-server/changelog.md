@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/29/2020
+ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859239"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93044778"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -21,6 +21,26 @@ Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van 
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informatie over nieuwe functies. 
 
+## <a name="october-2020"></a>Oktober 2020
+- **Power BI Report Server**
+    - *Versie: 1.9.7604.41261 (Build 15.0.1104.239), uitgebracht: 27 oktober 2020*
+         - Functies
+            - Ondersteuning ingeschakeld voor verbeterde metagegevens van de gegevensset in Power BI Report Server.
+            - Mogelijkheid ingeschakeld om verbindingen bij te werken voor Power BI-rapporten voor DirectQuery en vernieuwen (zie [Verbindingsreeksen voor gegevensbronnen wijzigen](./connect-data-source-apis.md) voor meer informatie).
+        - Beveiligingsupdates
+        - Opgeloste fouten
+            - Er is een probleem opgelost waardoor gebruikers schema's voor het vernieuwen van Power BI-rapporten niet kunnen wijzigen.
+            - Er is een probleem opgelost met verwarrende foutmeldingen die gebruikers kregen om rapporten te beheren wanneer de inloggegevens waren verlopen.
+            - Er is een probleem opgelost met het exporteren van rapporten met perioden in de naam.
+            - Er is een problemen opgelost met de schermlezer in een tablix.
+            - Er is een probleem opgelost van logbestanden die in bepaalde omstandigheden leeg zijn.
+            - Er is een probleem opgelost van het dialoogvenster Verbinding maken met Power BI wordt niet gesloten.
+            - Bijgewerkte MHTML-renderer voor het gebruik van nieuwer HTML-DOCTYPE
+
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+   - *Versie: 2.86.961.0 (oktober 2020), uitgebracht: 27 oktober 2020* (nieuwe build en nieuwe versie)
+        - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (oktober 2020)        
+   
 ## <a name="may-2020"></a>Mei 2020
 - **Power BI Report Server**
     - *Versie: 1.8.7485.35104 (Build 15.0.1103.234), uitgebracht: 30 juni, 2020*
@@ -225,7 +245,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
 - **Power BI Report Server**
     - *Versie 1.3.6816.37243 (build 15.0.2.557), uitgebracht: 30 augustus 2018*
         - Opgeloste fouten
-            - Er is een probleem opgelost waarbij na het upgraden van een eerdere versie van PBI-rapportserver waarbij een bindingsomleiding niet werd bijgewerkt, klanten het volgende zagen:      
+            - Er is een probleem opgelost waarbij na het upgraden van een eerdere versie van PBI-rapportserver waarbij een bindingsomleiding niet werd bijgewerkt, klanten het volgende bericht zagen:      
             *`
             Failed to load expression host assembly. Details: Could not load file or assembly 'Microsoft.ReportingServices.ProcessingObjectModel, Version=2018.7.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040) (rsErrorLoadingExprHostAssembly)
              `*
@@ -311,7 +331,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
 
     - *Versie 1.1.6514.9163 (build 14.0.600.434), uitgebracht: 1 november 2017*
         - Opgeloste fouten
-            - Oplossing voor problemen met de uploadbetrouwbaarheid van PBIX-rapporten van meer dan 500 MB.
+            - Oplossing voor problemen met de uploadbetrouwbaarheid van PBIX-rapporten van meer dan 500 MB
             - Oplossing voor het probleem met het laden van PBIX-rapporten van meer dan 1 GB
 
     - *Versie 1.1.6513.3500 (build 14.0.600.433), uitgebracht: 31 oktober 2017*

@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b74c381bfddc638c1371d571492eedfc7cf82a65
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633141"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916401"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium Metrics-app
 
@@ -47,7 +47,7 @@ Als u specifieke informatie over elke KPI wilt bekijken, selecteert u de knop **
 
 ## <a name="the-active-memory-metric"></a>De metrische gegevens van het actieve geheugen
 
-De metrische gegevens van het **actieve geheugen** maken deel uit van de categorie *capaciteitsplanning*, wat een goede statusindicator is voor het resourceverbruik, zodat u de capaciteit zo nodig kunt aanpassen om de schaal van de capaciteit te plannen. 
+De metrische gegevens van het **actieve geheugen** maken deel uit van de categorie *capaciteitsplanning* , wat een goede statusindicator is voor het resourceverbruik, zodat u de capaciteit zo nodig kunt aanpassen om de schaal van de capaciteit te plannen. 
 
 ![De KPI van het actieve geheugen](media/service-premium-metrics-app/premium-metrics-app-02.png)
 
@@ -69,7 +69,7 @@ Deze twee scenario's worden gedetailleerd beschreven in de volgende secties.
 
 ### <a name="scenario-one---current-load-is-too-high"></a>Scenario 1: de huidige belasting is te hoog 
 
-Als u wilt bepalen of de capaciteit voldoende geheugen beschikbaar heeft om de toebedeelde werkbelastingen te voltooien, raadpleegt u het eerste visuele element op de pagina: **A: Percentages gebruikt geheugen**, waarin het geheugen wordt weergegeven dat wordt gebruikt door gegevenssets die actief worden verwerkt, en dus niet kunnen worden verwijderd.
+Als u wilt bepalen of de capaciteit voldoende geheugen beschikbaar heeft om de toebedeelde werkbelastingen te voltooien, raadpleegt u het eerste visuele element op de pagina: **A: Percentages gebruikt geheugen** , waarin het geheugen wordt weergegeven dat wordt gebruikt door gegevenssets die actief worden verwerkt, en dus niet kunnen worden verwijderd.
 
 De alarmdrempelwaarde voor een alarm, de rode stippellijn is, markeert incidenten die 90% van het geheugen gebruiken.
 
@@ -107,9 +107,9 @@ Consistent hoog actief geheugengebruik kan ertoe leiden dat gegevenssets die act
 
 U kunt de volgende stappen uitvoeren om problemen met scenario 1 op te lossen:
 
-1. **Capaciteit omhoog schalen**: het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar dan dat van de huidige SKU, waarmee een eventuele te hoge geheugenbelasting wordt voorkomen.
+1. **Capaciteit omhoog schalen** : het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar dan dat van de huidige SKU, waarmee een eventuele te hoge geheugenbelasting wordt voorkomen.
 
-2. **Gegevenssets naar een andere capaciteit verplaatsen**: als u over een capaciteit met meer geheugen beschikt, kunt u de werkruimten met die gegevenssets naar die capaciteit verplaatsen.
+2. **Gegevenssets naar een andere capaciteit verplaatsen** : als u over een capaciteit met meer geheugen beschikt, kunt u de werkruimten met die gegevenssets naar die capaciteit verplaatsen.
 
 
 ### <a name="scenario-two---future-load-will-exceed-limits"></a>Scenario 2: toekomstige belasting overschrijdt limieten
@@ -136,14 +136,14 @@ Als u het scenario 2 wilt diagnosticeren, bepaalt u of de trendlijn een opwaarts
 
 U kunt de volgende stappen uitvoeren om problemen met scenario 2 op te lossen:
 
-1. **Capaciteit omhoog schalen**: het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar dan dat van de huidige SKU, waarmee een eventuele te hoge geheugenbelasting wordt voorkomen.
+1. **Capaciteit omhoog schalen** : het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar dan dat van de huidige SKU, waarmee een eventuele te hoge geheugenbelasting wordt voorkomen.
 
-2. **Gegevenssets naar een andere capaciteit verplaatsen**: als u over een capaciteit met meer geheugen beschikt, kunt u de werkruimten met die gegevenssets naar die capaciteit verplaatsen.
+2. **Gegevenssets naar een andere capaciteit verplaatsen** : als u over een capaciteit met meer geheugen beschikt, kunt u de werkruimten met die gegevenssets naar die capaciteit verplaatsen.
 
 
 ## <a name="the-query-waits-metric"></a>Metrische gegevens van querywachttijden
 
-De categorie **Query's** geeft aan of gebruikers te maken kunnen krijgen met visuele rapportelementen die traag of niet meer reageren. **Querywachttijden**: de tijd die de query nodig heeft om de uitvoerbewerking te starten vanaf het moment dat deze is geactiveerd. Met deze KPI wordt gemeten of 25% of meer van de query's van de geselecteerde capaciteit er 100 milliseconden of langer over doen om te worden uitgevoerd. Querywachttijden doen zich voor als er niet voldoende CPU beschikbaar is om alle wachtende query's uit te voeren. 
+De categorie **Query's** geeft aan of gebruikers te maken kunnen krijgen met visuele rapportelementen die traag of niet meer reageren. **Querywachttijden** : de tijd die de query nodig heeft om de uitvoerbewerking te starten vanaf het moment dat deze is geactiveerd. Met deze KPI wordt gemeten of 25% of meer van de query's van de geselecteerde capaciteit er 100 milliseconden of langer over doen om te worden uitgevoerd. Querywachttijden doen zich voor als er niet voldoende CPU beschikbaar is om alle wachtende query's uit te voeren. 
 
 ![Meter van querywachttijden](media/service-premium-metrics-app/premium-metrics-app-09.png)
 
@@ -164,7 +164,7 @@ Op de rapportpagina worden de volgende visuele elementen weergegeven:
 * De bovenste tabel met titel **A: Hoge wachttijden** vermeldt de gegevenssets met query's met een wachttijd. 
 * **B: Distributies met hoge wachttijden per uur** toont de distributie van hoge wachttijden. 
 * Grafiek **C: Aantal langdurige query's per uur**  geeft het aantal langlopende query's weer die zijn uitgevoerd, opgesplitst in buckets per uur.
-* Het laatste visuele element, tabel **D: Langdurige query's**, vermeldt de langdurige query's en de bijbehorende statistieken.
+* Het laatste visuele element, tabel **D: Langdurige query's** , vermeldt de langdurige query's en de bijbehorende statistieken.
 
 ![De detailpagina van de querywachttijden](media/service-premium-metrics-app/premium-metrics-app-10.png)
 
@@ -192,11 +192,11 @@ Daarnaast wordt **grafiek D** gefilterd om de langdurige query's weer te geven t
 
 Hier volgen de stappen die u kunt uitvoeren om problemen te verhelpen in scenario 1:
 
-1. **Performance Analyzer uitvoeren om rapporten en gegevenssets te optimaliseren**: Performance Analyzer voor rapporten toont het effect van elke interactie op een pagina, inclusief hoe lang het duurt voor elk visueel element wordt vernieuwd en waaraan de tijd wordt besteed.
+1. **Performance Analyzer uitvoeren om rapporten en gegevenssets te optimaliseren** : Performance Analyzer voor rapporten toont het effect van elke interactie op een pagina, inclusief hoe lang het duurt voor elk visueel element wordt vernieuwd en waaraan de tijd wordt besteed.
 
-2. **Capaciteit omhoog schalen**: het omhoog schalen van de capaciteit naar de volgende SKU zorgt voor tweemaal zoveel beschikbare CPU, waardoor de query's langer kunnen worden uitgevoerd.
+2. **Capaciteit omhoog schalen** : het omhoog schalen van de capaciteit naar de volgende SKU zorgt voor tweemaal zoveel beschikbare CPU, waardoor de query's langer kunnen worden uitgevoerd.
 
-3. **Gegevenssets naar een andere capaciteit verplaatsen**: als u over een capaciteit met meer CPU beschikt, kunt u de werkruimten met de gegevenssets die de wachtende query's bevatten, naar die capaciteit verplaatsen.
+3. **Gegevenssets naar een andere capaciteit verplaatsen** : als u over een capaciteit met meer CPU beschikt, kunt u de werkruimten met de gegevenssets die de wachtende query's bevatten, naar die capaciteit verplaatsen.
 
 ### <a name="scenario-two---too-many-queries"></a>Scenario 2: te veel query's
 
@@ -229,20 +229,20 @@ Als de lengte van de wachtrij de drempelwaarde van twintig overschrijdt, zijn de
 
 U kunt de volgende stappen uitvoeren om problemen met scenario 2 op te lossen:
 
-1. **Capaciteit omhoog schalen**: het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar dan dat van de huidige SKU, waarmee een eventuele te hoge geheugenbelasting wordt voorkomen.
+1. **Capaciteit omhoog schalen** : het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar dan dat van de huidige SKU, waarmee een eventuele te hoge geheugenbelasting wordt voorkomen.
 
-2. **Gegevenssets naar een andere capaciteit verplaatsen**: als u over een capaciteit met meer geheugen beschikt, kunt u de werkruimten met die gegevenssets naar die capaciteit verplaatsen.
+2. **Gegevenssets naar een andere capaciteit verplaatsen** : als u over een capaciteit met meer geheugen beschikt, kunt u de werkruimten met die gegevenssets naar die capaciteit verplaatsen.
 
 
 ## <a name="the-refresh-waits-metric"></a>De metrische gegevens voor vernieuwingswachttijden
 
-De metrische gegevens voor **Vernieuwingswachttijden** biedt inzicht in wanneer gebruikers te maken kunnen krijgen met oude rapportgegevens. **Vernieuwingswachttijden**: de tijd dat een bepaalde gegevensvernieuwing op uitvoering heeft gewacht, vanaf het moment dat deze op aanvraag werd geactiveerd of ingepland om te worden uitgevoerd. Deze KPI meet of 10% of meer van de wachtende vernieuwingsaanvragen tien minuten of langer moeten wachten. Het wachten vindt gewoonlijk plaats als er onvoldoende geheugen of CPU beschikbaar is.
+De metrische gegevens voor **Vernieuwingswachttijden** biedt inzicht in wanneer gebruikers te maken kunnen krijgen met oude rapportgegevens. **Vernieuwingswachttijden** : de tijd dat een bepaalde gegevensvernieuwing op uitvoering heeft gewacht, vanaf het moment dat deze op aanvraag werd geactiveerd of ingepland om te worden uitgevoerd. Deze KPI meet of 10% of meer van de wachtende vernieuwingsaanvragen tien minuten of langer moeten wachten. Het wachten vindt gewoonlijk plaats als er onvoldoende geheugen of CPU beschikbaar is.
 
 ![De meter voor vernieuwingswachttijden](media/service-premium-metrics-app/premium-metrics-app-20.png)
 
 Deze meter geeft aan dat in de afgelopen zeven dagen, na het laatste vernieuwingsrapport 3,18% van de vernieuwingen meer dan 10 minuten heeft gewacht. 
 
-Als u meer wilt weten over de KPI voor **vernieuwingswachttijden**, klikt u op de knop **Verkennen**. Er wordt een pagina met metrische gegevens en een probleemoplossingshandleiding in de rechter kolom van de rapportpagina weergegeven. De handleiding bevat gedetailleerde uitleg over de metrische gegevens op de pagina en helpt u inzicht te krijgen in de status van de capaciteit en wat u kunt doen om problemen te verhelpen.
+Als u meer wilt weten over de KPI voor **vernieuwingswachttijden** , klikt u op de knop **Verkennen**. Er wordt een pagina met metrische gegevens en een probleemoplossingshandleiding in de rechter kolom van de rapportpagina weergegeven. De handleiding bevat gedetailleerde uitleg over de metrische gegevens op de pagina en helpt u inzicht te krijgen in de status van de capaciteit en wat u kunt doen om problemen te verhelpen.
 
 ![Metrische gegevens voor vernieuwingswachttijden verkennen](media/service-premium-metrics-app/premium-metrics-app-21.png)
 
@@ -281,7 +281,7 @@ Voor het diagnosticeren van scenario 1, moet u eerst bepalen of beperking wordt 
 
     ![Grafiek C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. Controleer ten slotte **grafiek D**, waarin de typen opgetreden vernieuwingen worden weergegeven, gepland versus op aanvraag. Eventuele vernieuwingen op aanvraag die op hetzelfde moment optreden, kunnen de oorzaak van de beperking zijn.
+3. Controleer ten slotte **grafiek D** , waarin de typen opgetreden vernieuwingen worden weergegeven, gepland versus op aanvraag. Eventuele vernieuwingen op aanvraag die op hetzelfde moment optreden, kunnen de oorzaak van de beperking zijn.
 
     ![Grafiek D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
@@ -290,11 +290,11 @@ Voor het diagnosticeren van scenario 1, moet u eerst bepalen of beperking wordt 
 
 U kunt de volgende stappen uitvoeren om problemen met scenario 1 op te lossen:
 
-1. **Capaciteit omhoog schalen**: het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar dan dat van de huidige SKU, waarmee een eventuele te hoge belasting van geheugen en CPU wordt voorkomen.
+1. **Capaciteit omhoog schalen** : het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar dan dat van de huidige SKU, waarmee een eventuele te hoge belasting van geheugen en CPU wordt voorkomen.
 
-2. **Gegevenssets naar een andere capaciteit verplaatsen**: als de wachttijden worden veroorzaakt door belasting van het geheugen en u over een capaciteit met meer geheugen beschikt, kunt u de werkruimten met de wachtende gegevenssets naar die capaciteit verplaatsen.
+2. **Gegevenssets naar een andere capaciteit verplaatsen** : als de wachttijden worden veroorzaakt door belasting van het geheugen en u over een capaciteit met meer geheugen beschikt, kunt u de werkruimten met de wachtende gegevenssets naar die capaciteit verplaatsen.
 
-3. **Geplande vernieuwingen uitspreiden**: het uitspreiden van de vernieuwingen voorkomt dat er te veel vernieuwingen worden geprobeerd die gelijktijdig worden uitgevoerd.
+3. **Geplande vernieuwingen uitspreiden** : het uitspreiden van de vernieuwingen voorkomt dat er te veel vernieuwingen worden geprobeerd die gelijktijdig worden uitgevoerd.
 
 
 
@@ -302,7 +302,7 @@ U kunt de volgende stappen uitvoeren om problemen met scenario 1 op te lossen:
 
 In scenario twee is er niet genoeg beschikbare CPU om het vernieuwen uit te voeren. 
 
-Power BI beperkt het aantal vernieuwingen dat gelijktijdig kan optreden voor toegewezen capaciteit. Dit aantal is gelijk aan het aantal back-endkernen x 1,5. Bijvoorbeeld: een toegewezen P1-capaciteit met vier back-endkernen kan zes vernieuwingen tegelijkertijd uitvoeren. Wanneer het maximum aantal gelijktijdige vernieuwingen is bereikt, staan andere vernieuwingen in de wacht totdat het uitvoeren van een vernieuwing is voltooid.
+Power BI beperkt het aantal vernieuwingen dat gelijktijdig kan optreden voor capaciteit. Dit aantal is gelijk aan het aantal back-endkernen x 1,5. Bijvoorbeeld: een P1-capaciteit met vier back-endkernen kan zes vernieuwingen tegelijkertijd uitvoeren. Wanneer het maximum aantal gelijktijdige vernieuwingen is bereikt, staan andere vernieuwingen in de wacht totdat het uitvoeren van een vernieuwing is voltooid.
 
 ![Scenario twee voor vernieuwen](media/service-premium-metrics-app/premium-metrics-app-26.png)
 
@@ -324,18 +324,18 @@ Als u scenario twee wilt diagnosticeren, moet u eerst bepalen of de beperking he
 
     ![Grafiek C](media/service-premium-metrics-app/premium-metrics-app-24.png)
 
-3. Controleer ten slotte **grafiek D**, waarin de typen opgetreden vernieuwingen worden weergegeven, gepland versus op aanvraag. Eventuele vernieuwingen op aanvraag die op hetzelfde moment optreden, kunnen de oorzaak van de beperking zijn.
+3. Controleer ten slotte **grafiek D** , waarin de typen opgetreden vernieuwingen worden weergegeven, gepland versus op aanvraag. Eventuele vernieuwingen op aanvraag die op hetzelfde moment optreden, kunnen de oorzaak van de beperking zijn.
 
     ![Grafiek D](media/service-premium-metrics-app/premium-metrics-app-25.png)
 
 
 #### <a name="remedies-for-scenario-two"></a>Oplossingen voor scenario 2
 
-1. **Capaciteit omhoog schalen**: het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar en tweemaal zoveel gelijktijdige vernieuwingen mogelijk dan dat van de huidige SKU, waarmee een eventuele te hoge belasting van geheugen en CPU wordt voorkomen.
+1. **Capaciteit omhoog schalen** : het omhoog schalen van de capaciteit naar de volgende SKU maakt tweemaal zoveel geheugen beschikbaar en tweemaal zoveel gelijktijdige vernieuwingen mogelijk dan dat van de huidige SKU, waarmee een eventuele te hoge belasting van geheugen en CPU wordt voorkomen.
 
-2. **Gegevenssets naar een andere capaciteit verplaatsen**: als de wachttijden worden veroorzaakt doordat de maximale gelijktijdigheid wordt bereikt en u over een capaciteit met meer gelijktijdigheid beschikt, kunt u de werkruimten met de wachtende gegevenssets naar die capaciteit verplaatsen.
+2. **Gegevenssets naar een andere capaciteit verplaatsen** : als de wachttijden worden veroorzaakt doordat de maximale gelijktijdigheid wordt bereikt en u over een capaciteit met meer gelijktijdigheid beschikt, kunt u de werkruimten met de wachtende gegevenssets naar die capaciteit verplaatsen.
 
-3. **Geplande vernieuwingen uitspreiden**: het uitspreiden van de vernieuwingen voorkomt dat er te veel vernieuwingen worden geprobeerd die gelijktijdig worden uitgevoerd.
+3. **Geplande vernieuwingen uitspreiden** : het uitspreiden van de vernieuwingen voorkomt dat er te veel vernieuwingen worden geprobeerd die gelijktijdig worden uitgevoerd.
 
 
 

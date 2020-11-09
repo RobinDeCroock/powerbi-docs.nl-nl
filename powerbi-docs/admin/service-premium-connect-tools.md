@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e30a59e637b39099cdd0ad2eb99223cff20fbe6
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: f13c6990ae1cc0842cd490f88dfdb8fb382d7900
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116541"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916056"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt (preview-versie)
 
@@ -28,7 +28,7 @@ Power BI Premium-werkruimten en -gegevenssets op compatibiliteitsniveau 1500 en 
 
 Power BI Premium maakt gebruik van het XMLA-protocol ([XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current)) voor communicatie tussen clienttoepassingen en de engine waarmee uw Power BI-werkruimten en -gegevenssets wordt beheerd. Deze communicatie verloopt via wat vaak wordt aangeduid als XMLA-eindpunten. XMLA is hetzelfde communicatieprotocol dat wordt gebruikt door de Microsoft Analysis Services-engine, waarmee achter de schermen de semantische modellering, governance, levensduur en het gegevensbeheer van Power BI wordt uitgevoerd.
 
-Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de **workload van gegevenssets** in een capaciteit. Met alleen-lezen bewerkingen kunnen toepassingen en hulpprogramma's voor gegevensvisualisatie query's uitvoeren op modelgegevens, metagegevens, gebeurtenissen en schema's van gegevenssets. *Lees- en schrijf*bewerkingen met het eindpunt kunnen worden geconfigureerd door aanvullende opties voor beheer, governance, geavanceerde semantische modellering, foutopsporing en controle van gegevenssets op te geven. Als lezen/schrijven is ingeschakeld, hebben Power BI Premium-gegevenssets meer pariteit met hulpprogramma's en processen voor modellering van tabellen op ondernemingsniveau van Azure Analysis Services en SQL Server Analysis Services.
+Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de **workload van gegevenssets** in een capaciteit. Met alleen-lezen bewerkingen kunnen toepassingen en hulpprogramma's voor gegevensvisualisatie query's uitvoeren op modelgegevens, metagegevens, gebeurtenissen en schema's van gegevenssets. *Lees- en schrijf* bewerkingen met het eindpunt kunnen worden geconfigureerd door aanvullende opties voor beheer, governance, geavanceerde semantische modellering, foutopsporing en controle van gegevenssets op te geven. Als lezen/schrijven is ingeschakeld, hebben Power BI Premium-gegevenssets meer pariteit met hulpprogramma's en processen voor modellering van tabellen op ondernemingsniveau van Azure Analysis Services en SQL Server Analysis Services.
 
 > [!NOTE]
 > Het is raadzaam om de moderne werkruimte-ervaring te gebruiken, met name wanneer u verbinding maakt met uw gegevenssets met behulp van het XMLA-eindpunt. Bewerkingen zoals het maken of verwijderen van gegevenssets worden niet ondersteund in klassieke werkruimten. Zie [Een upgrade uitvoeren van klassieke werkruimten in Power BI](../collaborate-share/service-upgrade-workspaces.md) als u een upgrade wilt uitvoeren van de klassieke werkruimten naar de nieuwe werkruimte-ervaring.
@@ -37,7 +37,7 @@ Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de
 
 Dit zijn enkele van de meestvoorkomende hulpprogramma's die worden gebruikt met Azure Analysis Services en SQL Server Analysis Services, en nu worden ondersteund door Power BI Premium-gegevenssets:
 
-**Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT**, is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.6 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (Hulpprogramma's voor Analysis Services) voor meer informatie.
+**Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT** , is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.6 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (Hulpprogramma's voor Analysis Services) voor meer informatie.
 
 **SQL Server Management Studio (SSMS)**  : ondersteunt DAX-, MDX- en XMLA-query's. Voer specifieke vernieuwingsbewerkingen en scripts voor metagegevens van gegevenssets uit met behulp van de [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL, tabellaire modelscripttaal). Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor het uitvoeren van scripts voor metagegevens is lezen-schrijven vereist. SSMS-versie 18.4 of hoger is vereist. Klik  [hier](/sql/ssms/download-sql-server-management-studio-ssms) om SSMS te downloaden.
 
@@ -49,11 +49,11 @@ Dit zijn enkele van de meestvoorkomende hulpprogramma's die worden gebruikt met 
 
 **Power BI Report Builder** : een hulpprogramma voor het maken van gepagineerde rapporten. Maak een rapportdefinitie die aangeeft welke gegevens er moeten worden opgehaald, waar deze moeten worden opgehaald en hoe deze moeten worden weergegeven. U kunt een voorbeeld van uw rapport bekijken in Report Builder en het rapport vervolgens publiceren naar de Power BI-service. XMLA alleen-lezen is vereist. Zie  [Power BI Report Builder](../paginated-reports/report-builder-power-bi.md) voor meer informatie.
 
-**Tabular Editor**: een opensource-hulpprogramma voor het maken, onderhouden en beheren van tabellaire modellen met behulp van een eenvoudige intuïtieve editor. In een hiërarchische weergave worden alle objecten in het tabellaire model weergegeven. Objecten zijn onderverdeeld in weergavemappen met ondersteuning voor meervoudige selectie en bewerking van eigenschappen en markering van DAX-syntaxis. Voor het uitvoeren van querybewerkingen is XMLA alleen-lezen vereist. Voor metagegevensbewerkingen is lezen/schrijven vereist. Zie [tabulareditor.github.io](https://tabulareditor.github.io/) voor meer informatie.
+**Tabular Editor** : een opensource-hulpprogramma voor het maken, onderhouden en beheren van tabellaire modellen met behulp van een eenvoudige intuïtieve editor. In een hiërarchische weergave worden alle objecten in het tabellaire model weergegeven. Objecten zijn onderverdeeld in weergavemappen met ondersteuning voor meervoudige selectie en bewerking van eigenschappen en markering van DAX-syntaxis. Voor het uitvoeren van querybewerkingen is XMLA alleen-lezen vereist. Voor metagegevensbewerkingen is lezen/schrijven vereist. Zie [tabulareditor.github.io](https://tabulareditor.github.io/) voor meer informatie.
 
 **DAX Studio** : een opensource-hulpprogramma voor creatie, diagnose, afstemming van prestaties en analyse met DAX. Het bevat onder meer functies voor bladeren door objecten, geïntegreerde tracering, uitsplitsing van uitvoerbewerkingen van query's met gedetailleerde statistieken en markering en opmaak van DAX-syntaxis. Voor het uitvoeren van querybewerkingen is XMLA alleen-lezen vereist. Zie  [daxstudio.org](https://daxstudio.org/) voor meer informatie.
 
-**ALM Toolkit**: een hulpprogramma voor het vergelijken van opensource-schema's voor Power BI-gegevenssets. Het wordt meestal gebruikt voor ALM-scenario's (Application Lifecycle Management). Implementaties uitvoeren in omgevingen en historische gegevens van incrementele vernieuwingen bewaren. Metagegevensbestanden, vertakkingen en opslagplaatsen vergelijken en samenvoegen. Algemene definities opnieuw gebruiken in gegevenssets. Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor metagegevensbewerkingen is lezen/schrijven vereist. Zie  [alm-toolkit.com](http://alm-toolkit.com/) voor meer informatie.
+**ALM Toolkit** : een hulpprogramma voor het vergelijken van opensource-schema's voor Power BI-gegevenssets. Het wordt meestal gebruikt voor ALM-scenario's (Application Lifecycle Management). Implementaties uitvoeren in omgevingen en historische gegevens van incrementele vernieuwingen bewaren. Metagegevensbestanden, vertakkingen en opslagplaatsen vergelijken en samenvoegen. Algemene definities opnieuw gebruiken in gegevenssets. Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor metagegevensbewerkingen is lezen/schrijven vereist. Zie  [alm-toolkit.com](http://alm-toolkit.com/) voor meer informatie.
 
 **Microsoft Excel** : Excel-draaitabellen worden vaak gebruikt voor het samenvatten, analyseren, verkennen en weergeven van overzichtsgegevens van Power BI-gegevenssets. Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Klik-en-Klaar-versie van Office 16.0.11326.10000 of hoger is vereist.
 
@@ -92,7 +92,7 @@ Standaard is voor een Premium-capaciteit de instelling voor de eigenschap XMLA-e
 
 ## <a name="connecting-to-a-premium-workspace"></a>Verbinding maken met een Premium-werkruimte
 
-Werkruimten die zijn toegewezen aan toegewezen capaciteiten hebben een verbindingsreeks in URL-indeling, zoals deze `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
+Werkruimten die zijn toegewezen aan capaciteiten hebben een verbindingsreeks in URL-indeling, zoals deze `powerbi://api.powerbi.com/v1.0/[tenant name]/[workspace name]`.
 
 Toepassingen die verbinding maken met de werkruimte, gebruiken de URL alsof het een Analysis Services-servernaam is. Bijvoorbeeld `powerbi://api.powerbi.com/v1.0/contoso.com/Sales Workspace`.
 
@@ -184,7 +184,7 @@ Als u een tabellair modelproject wilt implementeren dat is gemaakt in Visual Stu
 
 Wanneer de eigenschap voor de implementatieserver is opgegeven, kan het project vervolgens worden geïmplementeerd.
 
-**Bij de eerste implementatie**, wordt er een gegevensset in de werkruimte gemaakt met behulp van metagegevens uit het bestand model.bim. Als onderdeel van de implementatiebewerking, nadat de gegevensset in de werkruimte is gemaakt op basis van de metagegevens van het model, zal de verwerking voor het laden van gegevens in de gegevensset uit gegevensbronnen mislukken.
+**Bij de eerste implementatie** , wordt er een gegevensset in de werkruimte gemaakt met behulp van metagegevens uit het bestand model.bim. Als onderdeel van de implementatiebewerking, nadat de gegevensset in de werkruimte is gemaakt op basis van de metagegevens van het model, zal de verwerking voor het laden van gegevens in de gegevensset uit gegevensbronnen mislukken.
 
 De verwerking mislukt omdat er - in tegenstelling tot een implementatie naar een instantie van een Azure- of SQL-analyseserver, waarbij de referenties van de gegevensbron worden gevraagd als onderdeel van de implementatiebewerking - bij een implementatie naar een Premium-werkruimte geen gegevensbronreferenties kunnen worden opgegeven. In plaats hiervan geeft u, nadat de metagegevens zijn geïmplementeerd en de gegevensset is gemaakt, gegevensbronreferenties op in de Power BI-service in de instellingen voor de gegevensset. Klik in de werkruimte op **Gegevenssets** > **Instellingen** > **Gegevensbronreferenties** > **Referenties bewerken**.
 
@@ -192,7 +192,7 @@ De verwerking mislukt omdat er - in tegenstelling tot een implementatie naar een
 
 Wanneer u de gegevensbronreferenties hebt opgegeven, kunt u de gegevensset in de Power BI-service vernieuwen, het vernieuwingsschema configureren, of het (vernieuwings)proces verwerken vanuit SQL Server Management Studio om gegevens in de gegevensset te laden.
 
-De implementatie-eigenschap **Verwerkingsoptie**, die is opgegeven in het project in Visual Studio, wordt gerespecteerd. Maar als voor een gegevensbron nog geen referenties zijn opgegeven in de Power BI-service, zal de verwerking mislukken, zelfs wanneer de implementatie van metagegevens met succes is voltooid. U kunt de eigenschap instellen op **Niet verwerken**, zodat er geen poging wordt gedaan om deze te verwerken tijdens de implementatie. Maar wellicht wilt u de eigenschap later weer instellen op **Standaard** omdat de verwerking wel zal slagen als de gegevensbronreferenties eenmaal zijn opgegeven in de gegevensbroninstellingen voor de nieuwe gegevensset.
+De implementatie-eigenschap **Verwerkingsoptie** , die is opgegeven in het project in Visual Studio, wordt gerespecteerd. Maar als voor een gegevensbron nog geen referenties zijn opgegeven in de Power BI-service, zal de verwerking mislukken, zelfs wanneer de implementatie van metagegevens met succes is voltooid. U kunt de eigenschap instellen op **Niet verwerken** , zodat er geen poging wordt gedaan om deze te verwerken tijdens de implementatie. Maar wellicht wilt u de eigenschap later weer instellen op **Standaard** omdat de verwerking wel zal slagen als de gegevensbronreferenties eenmaal zijn opgegeven in de gegevensbroninstellingen voor de nieuwe gegevensset.
 
 ## <a name="connect-with-ssms"></a>Verbinden met SSMS
 
@@ -233,7 +233,7 @@ Voor XMLA-schrijfbewerkingen op gegevenssets die zijn gemaakt in Power BI Deskto
 
 ### <a name="data-source-declaration"></a>Gegevensbrondeclaratie
 
-Wanneer u verbinding maakt met gegevensbronnen en query's op gegevens uitvoert, maakt Power BI Desktop gebruik van Power Query M-expressies als inline gegevensbrondeclaraties. Inline Power Query M-gegevensbrondeclaratie wordt wel ondersteund in Power BI Premium-werkruimten, maar niet in Azure Analysis Services of SQL Server Analysis Services. In plaats daarvan worden metagegevens in Analysis Services-hulpprogramma's voor gegevensmodellering gemaakt met behulp van *gestructureerde* en/of *provider*-gegevensbrondeclaraties. Met het XML-eindpunt in Power BI Premium worden ook gestructureerde en provider-gegevensbronnen ondersteund, maar niet als onderdeel van inline Power Query M-gegevensbrondeclaraties in Power BI Desktop-modellen. Zie [Inzicht in providers](/azure/analysis-services/analysis-services-datasource#understanding-providers) voor meer informatie.
+Wanneer u verbinding maakt met gegevensbronnen en query's op gegevens uitvoert, maakt Power BI Desktop gebruik van Power Query M-expressies als inline gegevensbrondeclaraties. Inline Power Query M-gegevensbrondeclaratie wordt wel ondersteund in Power BI Premium-werkruimten, maar niet in Azure Analysis Services of SQL Server Analysis Services. In plaats daarvan worden metagegevens in Analysis Services-hulpprogramma's voor gegevensmodellering gemaakt met behulp van *gestructureerde* en/of *provider* -gegevensbrondeclaraties. Met het XML-eindpunt in Power BI Premium worden ook gestructureerde en provider-gegevensbronnen ondersteund, maar niet als onderdeel van inline Power Query M-gegevensbrondeclaraties in Power BI Desktop-modellen. Zie [Inzicht in providers](/azure/analysis-services/analysis-services-datasource#understanding-providers) voor meer informatie.
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>Power BI Desktop in de LiveConnect-modus
 
@@ -250,7 +250,7 @@ De andere manier waarop gebruikers verbinding kunnen maken, is door via **Gegeve
 Organisaties die bestaande rapporten hebben met een live verbinding met Analysis Services-gegevensmodellen en deze willen migreren naar Power BI Premium-gegevenssets, hoeven alleen de URL van de servernaam te wijzigen in **Gegevens transformeren** > **Gegevensbroninstellingen**.
 
 > [!NOTE]
-> Wanneer u tijdens de openbare voorbeeldweergave van XMLA lezen/schrijven via Power BI Desktop verbinding maakt met een Power BI Premium-gegevensset met behulp van **Gegevens ophalen** > **Analysis Services** en door de selectie van de optie **Liveverbinding maken**, is er nog geen ondersteuning voor het publiceren van een rapport in de Power BI-service.
+> Wanneer u tijdens de openbare voorbeeldweergave van XMLA lezen/schrijven via Power BI Desktop verbinding maakt met een Power BI Premium-gegevensset met behulp van **Gegevens ophalen** > **Analysis Services** en door de selectie van de optie **Liveverbinding maken** , is er nog geen ondersteuning voor het publiceren van een rapport in de Power BI-service.
 
 ## <a name="audit-logs"></a>Auditlogboeken
 

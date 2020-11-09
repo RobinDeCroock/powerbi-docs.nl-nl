@@ -1,25 +1,147 @@
 ---
 title: Wat is er nieuw in Power BI Report Server
-description: Meer informatie over wat er nieuw is in Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe items worden uitgebracht.
+description: Meer informatie over wat er nieuw is in de meest recente versie van Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bijgewerkt wanneer nieuwe versies worden uitgebracht.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/08/2020
-ms.openlocfilehash: 9c92383dee3cb435c57238be545ccd9e59923b8e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 10/30/2020
+ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
+ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859975"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "93132408"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
-Lees wat er nieuw is in Power BI Report Server en in Power BI Desktop geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bij elke nieuwe versie bijgewerkt. Zie voor meer informatie over wat er nieuw is in Power BI Report Server het [Wijzigingslogboek voor Power BI Report Server](changelog.md).
+Lees wat er nieuw is in de meest recente versies van Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power BI Report Server. Dit artikel gaat over de primaire functiegebieden. Het wordt bij elke nieuwe versie bijgewerkt. Zie voor meer informatie over wat er nieuw is in Power BI Report Server het [Wijzigingslogboek voor Power BI Report Server](changelog.md).
 
 Download [Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power BI Report Server](https://powerbi.microsoft.com/report-server/).
+
+## <a name="october-2020"></a>Oktober 2020
+
+Hier volgt een volledige lijst met nieuwe en bijgewerkte functies. Zie de [blogpost van oktober 2020](https://powerbi.microsoft.com/blog/power-bi-report-server-october-2020-feature-summary/) over Power BI Report Server voor meer informatie. 
+
+### <a name="power-bi-desktop-optimized-for-power-bi-report-server"></a>Power BI Desktop geoptimaliseerd voor Power BI Report Server
+
+Hier volgen enkele hoogtepunten uit de nieuwe functies.
+
+**Modern lint**  
+
+Power BI Desktop, geoptimaliseerd voor Power BI Report Server, bevat nu een modern lint. We blijven uitbreidingen en meer functies toevoegen aan het lint. Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md) voor meer informatie over de wijzigingen en voordelen.
+
+:::image type="content" source="media/whats-new/report-server-new-ribbon.png" alt-text="Schermopname van het nieuwe lint in Power BI Desktop, geoptimaliseerd voor Power BI Report Server.":::
+
+**Slicers voor hiërarchieën**
+
+Als u meerdere gerelateerde velden wilt filteren binnen één slicer, kunt u een zogeheten *hiërarchieslicer* maken. Nu deze algemeen beschikbaar is, profiteert u van extra functionaliteit:
+
+- Nieuwe opties voor het uitvouwen/samenvouwen van pictogrammen.
+- Pictogrammen schalen nu mee met de tekengrootte.
+- Aanpasbare inspringing voor onderliggende items.
+- Verdere aanpassing van de kopteksttekst van de slicer.
+
+:::image type="content" source="media/whats-new/report-server-slicer-hierarchy.png" alt-text="Hiërarchieslicer in Power BI Desktop, geoptimaliseerd voor Power BI Report Server.":::
+
+Zie [Slicers in Power BI](../visuals/power-bi-visualization-slicers.md) in de documentatie voor meer informatie.
+
+**Verbeterde mogelijkheden voor het ontwerpen op mobiele apparaten** 
+
+In deze release introduceren we een verbeterde ontwerpervaring voor mobiele indelingen en aanvullende mogelijkheden voor de indeling van mobiele apparaten. Naarmate meer organisaties de mobiele Power BI-apps toepassen, ontvangen we meer feedback over het toevoegen van meer mogelijkheden en verbeteringen voor de mobiele ontwerpervaring. Met de verbeteringen in deze release kunt u gemakkelijk aantrekkelijke, interactieve rapporten bouwen die zijn geoptimaliseerd voor mobiele apparaten.
+
+Dit zijn de nieuwe ervaringen en mogelijkheden voor het bouwen van rapporten die zijn geoptimaliseerd voor mobiele apparaten:  
+
+- Nieuwe telefoonemulator  
+- Bijgewerkt visualisatiedeelvenster  
+- Ondersteuning voor overlay-visuals  
+- Bladwijzers in de weergave voor mobiele indeling  
+- Rasterlijnen uitschakelen en vastmaken aan het raster  
+
+:::image type="content" source="media/whats-new/report-server-mobile-layout.png" alt-text="Verbeterde mobiele indeling in Power BI Desktop geoptimaliseerd voor Power BI Report Server.":::
+
+Raadpleeg de blogpost [Verbeteringen in mobiel ontwerpen](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) voor meer informatie.
+
+**Gegevensvoorbereiding: Automatische tabeldetectie vanuit Excel-bestanden**
+
+Deze nieuwe functie van de Excel-connector identificeert automatisch secties van elk Excel-werkblad die in een tabel moeten worden uitgepakt. Ze worden weergegeven onder de groep 'Voorgestelde tabellen' in de Navigator. Voorheen moesten gegevens worden ingedeeld als tabel of benoemd bereik in Excel. Anders moest u de relevante rijen/kolommen met specifieke transformaties scrapen, zoals rijen overslaan en kolommen verwijderen van werkbladobjecten (vergelijk Blad1 in het volgende voorbeeld). Als u deze functie wilt gebruiken, moet u deze inschakelen in het dialoogvenster **Instellingen**.
+
+:::image type="content" source="media/whats-new/report-server-excel-table.png" alt-text="Een Excel-tabel herkennen in Power BI Desktop geoptimaliseerd voor Power BI Report Server.":::
+
+**Modellering: Verbeterde metagegevens van gegevensset**
+
+In het verleden werden alleen geladen query's die in Power Query waren gegenereerd, toegewezen aan het gegevensmodel. Nu zijn alle query's toegewezen aan objecten in het gegevensmodel. De query's worden opnieuw gegenereerd op basis van het gegevensmodel wanneer u dat PBIX-bestand opent.
+
+Met deze back-endupdate worden en blijven toekomstige functies mogelijk. 
+
+Bijvoorbeeld:
+
+- Met het toevoegen van externe hulpprogramma's in Power BI Desktop (momenteel in preview), worden tabellen die u via deze externe hulpprogramma's toevoegt nu weergegeven als query's wanneer u het rapport opnieuw opent.
+- Als u een PBIT-bestand hebt geëxporteerd en het bestand hebt uitgepakt, ziet u nu het model in JSON en worden er geen fouten over beschadigde bestanden meer ontvangen. 
+
+Als u een oudere PBIX hebt die niet automatisch kan worden bijgewerkt, moet u uw model, om bepaalde redenen, zoals niet-toegepaste wijzigingen, upgraden voordat u aanvullende modelwijzigingen kunt aanbrengen. 
+
+**Ondersteuning voor Windows 7 eindigt**
+
+Op 14 januari 2020 is, na 10 jaar, de ondersteuning voor Windows 7 geëindigd. Daarom zullen we op 31 januari 2021 stoppen met de ondersteuning voor Power BI Desktop op Windows 7. Power BI Desktop wordt daarna alleen nog ondersteund in Windows 8 en recentere versies. De versie van Power BI Desktop van januari 2021 die is geoptimaliseerd voor de Report Server, wordt ondersteund op basis van het moderne beleid voor levenscyclus. Met andere woorden: deze wordt volledig ondersteund tot de volgende release (momenteel gepland voor mei 2021). Na mei 2021 worden tot januari 2022 alleen nog beveiligingsupdates ontvangen. Na januari 2022 wordt alle ondersteuning gestopt. Raadpleeg de [Ondersteuningstijdlijn voor Power BI Report Server](support-timeline.md) voor meer informatie. 
+
+**Volledige lijst met updates**
+
+Hier volgt een volledige lijst met de updates in de oktobereditie van Power BI Desktop geoptimaliseerd voor Power BI Report Server. 
+
+**Rapportage**
+
+- Modern lint
+- Watermerken op canvas
+- Totaal aantal labels voor gestapelde visuals
+- Extra optie voor algemene visual voor het bijhouden van laagvolgorde
+- Verlooplegenda
+- Filter voor relatieve tijd
+- De mogelijkheid om de koptekstslicer te wijzigen
+- Verbeteringen in de hiërarchieslicer
+
+    - Nieuwe opties voor het uitvouwen/samenvouwen van pictogrammen
+    - Pictogrammen schalen nu mee met de tekengrootte
+    - Mogelijkheid om inspringing aan te passen voor onderliggende items
+
+- Verbeterde mogelijkheden voor ontwerpen op mobiele apparaten
+
+    - Nieuwe telefoonemulator
+    - Bijgewerkt visualisatiedeelvenster
+    - Ondersteuning voor overlay-visuals
+    - Bladwijzers in de weergave voor mobiele indeling
+    - Rasterlijnen uitschakelen en vastmaken aan het raster  
+
+**Visualisaties**
+
+- Opties voor formatteren van lijndiagrampunten 
+
+**Modelleren**
+
+- Verbeterde metagegevens van gegevensset
+- Prestatieverbeteringen voor IF- en SWITCH-functies
+- Ondersteuning voor financiële Excel-functies
+- Modelweergave ingeschakeld voor liveverbinding
+- Updates voor de Modelweergave 
+
+**Gegevensvoorbereiding**
+
+- Automatische tabeldetectie vanuit Excel-bestanden  
+- Automatische tabeldetectie vanuit JSON-bestanden  
+- Globale optie voor het uitschakelen van automatische typedetectie 
+
+**Overige**  
+
+- Gegevensbron exporteren naar PBIDS in Power BI Desktop
+- Welkomstscherm op bureaublad sluiten 
+
+### <a name="power-bi-report-server"></a>Power BI Report Server
+
+**De verbindingsreeksen voor gegevensbronnen wijzigen in Power BI-rapporten met PowerShell**
+
+In de oktoberrelease van Power BI Report Server schakelen we de mogelijkheid in om verbindingen bij te werken voor Power BI rapporten voor DirectQuery en Refresh. Deze mogelijkheid is ook een belangrijke wijziging ten opzichte van de manier waarop u dit in eerdere releases kunt instellen. Raadpleeg [De verbindingsreeksen voor gegevensbronnen wijzigen in Power BI-rapporten met PowerShell - Power BI Report Server](connect-data-source-apis.md) voor meer informatie. 
 
 ## <a name="may-2020"></a>Mei 2020
 
@@ -351,7 +473,7 @@ Er is ondersteuning toegevoegd voor vertrouwde visuals voor Power BI Report Serv
 
 #### <a name="improved-security-features"></a>Verbeterde beveiligingsfuncties
 
-**RestrictedResourceMimeTypeForUpload**, die beheerders kunnen gebruiken om een lijst met door komma's gescheiden waarden op te geven voor uitgesloten MIME-typen, bijvoorbeeld text/html.
+**RestrictedResourceMimeTypeForUpload** , die beheerders kunnen gebruiken om een lijst met door komma's gescheiden waarden op te geven voor uitgesloten MIME-typen, bijvoorbeeld text/html.
 
 ## <a name="january-2019"></a>Januari 2019
 
@@ -664,7 +786,7 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 - Voorbeeld van Power BI Report Server beschikbaar gesteld
 - Mogelijkheid om Power BI-rapporten on-premises te publiceren
   - ondersteuning voor Power BI-visuals
-  - Alleen ondersteuning voor **live-verbindingen voor Analysis Services*, er volgen meer gegevensbronnen.
+  - Alleen ondersteuning voor * *live-verbindingen voor Analysis Services* , er volgen meer gegevensbronnen.
   - App Power BI - Mobiel bijgewerkt om Power BI-rapporten weer te geven die worden gehost in Power BI Report Server
 - Verbeterde samenwerking in rapporten met opmerkingen
 

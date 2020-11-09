@@ -1,32 +1,33 @@
 ---
 title: Voorbeelden van sjabloon-apps
-description: Voorbeelden voor persoonlijk gebruik of voor herdistributie als AppSource Power BI-app
+description: Voorbeelden voor persoonlijk gebruik of voor herdistributie sjabloon-apps in AppSource
 author: paulinbar
-ms.reviewer: ''
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 10/28/2020
 ms.author: painbar
-ms.openlocfilehash: 177d04f370e5aea0525882abe6900d6bee012c5a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: da044d3507e649f8a1af4258506961d26aa4ab37
+ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235558"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "93045098"
 ---
 # <a name="template-apps-samples"></a>Voorbeelden van sjabloon-apps
 
-Het doel van dit document is het delen van voorbeeldsjabloon-apps met andere Power BI-gebruikers. Ze zijn bedoeld voor persoonlijk gebruik of voor herdistributie op AppSource. De voorbeelden zijn pbix-bestanden en kunnen worden gemaakt met Power BI Desktop.
+Dit document is bedoeld om sjablonen te bieden die u kunt aanpassen om uw eigen apps te maken.  
+Gebruik deze sjablonen voor persoonlijk gebruik of publiceer ze als sjabloon-apps op Microsoft AppSource. De voorbeelden worden aangeboden als Power BI Desktop-bestanden (.pbix).
 
-## <a name="connection-additional-related-accounts"></a>Verbinding, aanvullende gerelateerde accounts
+## <a name="prerequisites"></a>Vereisten
 
 Voor de voorbeelden zijn mogelijk extra gebruikersaccounts met de relevante service-eigenaar vereist.  De volgende sjablonen moeten worden gebruikt onder de volgende [licentievoorwaarden](https://templateapps.blob.core.windows.net/sampletemplateapps/Sample-Templates-for-app-on-appsource.pdf).
 
-## <a name="downloadable-template-apps-samples"></a>Downloadbare voorbeelden van sjabloon-apps
+## <a name="downloadable-apps-template-samples"></a>Downloadbare sjabloonvoorbeelden van apps
 
 * [Sjabloonvoorbeeld voor het maken van sjabloon-apps](https://templateapps.blob.core.windows.net/sampletemplateapps/TemplateforTemplateApps.zip)
-* [Integratie met LinkedIn Sales Navigator Analytics](https://templateapps.blob.core.windows.net/sampletemplateapps/SalesNavigatorTemplate.pbix)
+* [Analytics-integratie voor LinkedIn Sales Navigator](https://templateapps.blob.core.windows.net/sampletemplateapps/SalesNavigatorTemplate.pbix)
 * [GitHub](https://templateapps.blob.core.windows.net/sampletemplateapps/GitHub.pbix)
 * [Mailchimp](https://templateapps.blob.core.windows.net/sampletemplateapps/MailChimp.pbix)
 * [QuickBooks Online](https://templateapps.blob.core.windows.net/sampletemplateapps/QuickBooksOnline.pbix)

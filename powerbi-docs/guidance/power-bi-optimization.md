@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 02/16/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f189ea2944f86a3caabfbc51ae5b2887bc7c89bb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3a541c46f78c5e5cd25b47a94394a011fd61954f
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278602"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916539"
 ---
 # <a name="optimization-guide-for-power-bi"></a>Optimalisatiegids voor Power BI
 
@@ -83,7 +83,7 @@ U kunt de Power BI-omgeving optimaliseren door capaciteitsinstellingen te config
 
 ### <a name="capacity-settings"></a>Capaciteitsinstellingen
 
-Als u gebruikmaakt van toegewezen capaciteiten (beschikbaar in Power BI Premium (P SKU’s), of Power BI Embedded (A SKU’s, A4-A6)) kunt u de capaciteitsinstellingen beheren. Zie [Premium-capaciteiten beheren](../admin/service-premium-capacity-manage.md) voor meer informatie. Zie [Premium-capaciteiten optimaliseren](../admin/service-premium-capacity-optimize.md) voor hulp bij het optimaliseren van uw capaciteit.
+Als u gebruikmaakt van capaciteiten (beschikbaar in Power BI Premium (P SKU’s), of Power BI Embedded (A SKU’s, A4-A6)) kunt u de capaciteitsinstellingen beheren. Zie [Premium-capaciteiten beheren](../admin/service-premium-capacity-manage.md) voor meer informatie. Zie [Premium-capaciteiten optimaliseren](../admin/service-premium-capacity-optimize.md) voor hulp bij het optimaliseren van uw capaciteit.
 
 ### <a name="gateway-sizing"></a>Grootte van gateways aanpassen
 

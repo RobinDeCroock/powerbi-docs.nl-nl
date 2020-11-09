@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: 918b9a98d66a1c739421433d35f593dc74d19773
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
+ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91981476"
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "93297600"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
@@ -64,6 +64,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Google Analytics | Ja | Ja | Nee | Nee | Nee | Nee |
 | Google BigQuery | Ja | Ja | Ja | Nee | Nee | Ja |
 | Hadoop-bestand (HDFS) | Ja | Nee | Nee | Nee | Nee | Nee |
+| Hive LLAP | Ja | Ja | Ja | Ja | Nee | Nee |
 | HDInsight Interactive Query | Ja | Ja | Ja | Nee | Nee | Nee |
 | IBM DB2 | Ja | Ja | Ja | Ja | Nee | Ja |
 | IBM Informix-database | Ja | Ja | Nee | Ja | Nee | Nee |

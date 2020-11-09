@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/17/2020
-ms.openlocfilehash: 762cc2d3d170f5418616da46806f8a445490ee8d
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4102ed7307c9b7be40fb682befc4056094cbe6ad
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635212"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916930"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capaciteit en SKU's in Power BI Embedded-analyses
 
-Bij de overgang naar de productieomgeving heeft de functie voor ingesloten analyse in Power BI een toegewezen capaciteit nodig (*A-* , *EM-* of *P*-SKU) voor het publiceren van ingesloten Power BI-inhoud.
+Bij de overgang naar de productieomgeving heeft de functie voor ingesloten analyse in Power BI een capaciteit nodig ( *A-* , *EM-* of *P* -SKU) voor het publiceren van ingesloten Power BI-inhoud.
 
 De capaciteit is de toegewezen set resources die exclusief hiervoor is gereserveerd. Hiermee kunt u dashboards, rapporten en gegevenssets publiceren voor gebruikers zonder dat u een licentie per gebruiker hoeft aan te schaffen. Daarnaast krijgt u betrouwbare en consistente prestaties voor uw inhoud.
 
@@ -27,8 +27,8 @@ De capaciteit is de toegewezen set resources die exclusief hiervoor is gereserve
 ## <a name="what-is-embedded-analytics"></a>Wat is ingesloten analyse?
 
 Ingesloten analyse van Power BI bevat twee oplossingen:
-* *Power BI Embedded*: Azure-aanbieding
-* Power BI insluiten als onderdeel van *Power BI Premium*: Office-aanbieding
+* *Power BI Embedded* : Azure-aanbieding
+* Power BI insluiten als onderdeel van *Power BI Premium* : Office-aanbieding
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -54,12 +54,12 @@ Gebruik deze koppelingen om uw capaciteit te plannen en te testen:
 
 ### <a name="power-bi-embedded-skus"></a>Power BI Embedded-SKU's
 
-Power BI Embedded wordt geleverd met een [*a*-SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios).
+Power BI Embedded wordt geleverd met een [*a* -SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios).
 
 ### <a name="power-bi-premium-skus"></a>Power BI Premium-SKU's
 
 Power BI Premium biedt twee SKU's: *P* en *EM*.
-* [Inzicht in de verschillen tussen de *P*- en *EM*-SKU's](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
+* [Inzicht in de verschillen tussen de *P* - en *EM* -SKU's](../../admin/service-premium-what-is.md#subscriptions-and-licensing)
 * [Een Premium SKU kopen](../../admin/service-admin-premium-purchase.md)
 
 ### <a name="which-sku-should-i-use"></a>Welke SKU moet ik gebruiken?
