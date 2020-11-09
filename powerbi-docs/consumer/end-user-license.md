@@ -11,12 +11,12 @@ ms.date: 10/07/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 2b0bde7aa193af831a95fc53d461f874a3c1d1d1
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: c2a81e771e611380ef89ef15e097005d1a86e2da
+ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830353"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92916976"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>Licenties en abonnementen voor *zakelijke gebruikers*
 
@@ -36,17 +36,17 @@ In dit artikel worden de mogelijkheden van elk licentietype beschreven en leest 
 
 ## <a name="licenses"></a>Licenties
 
-Elke gebruiker van de Power BI-service heeft een *gratis* licentie, of een *Pro*-licentie. Als u een *zakelijke gebruiker* van Power BI bent, gebruikt u waarschijnlijk een licentie die wordt beheerd door uw Power BI-beheerder.
+Elke gebruiker van de Power BI-service heeft een *gratis* licentie, of een *Pro* -licentie. Als u een *zakelijke gebruiker* van Power BI bent, gebruikt u waarschijnlijk een licentie die wordt beheerd door uw Power BI-beheerder.
 
 Het is mogelijk om meer dan één licentie tegelijkertijd te gebruiken.  De service biedt altijd een ervaring die vergelijkbaar is met de meest tolerante licentie die u momenteel hebt.
 
 ## <a name="power-bi-premium-capacity"></a>Power BI Premium-capaciteit
 
-Premium is een organisatorisch abonnement dat u een andere manier biedt om inhoud op te slaan: in toegewezen capaciteit. Met Premium kan iedereen, met machtigingen, binnen en buiten uw organisatie inhoud bekijken die in deze Premium-capaciteit is opgeslagen, en zonder afzonderlijke Power BI Pro-licenties te hoeven kopen. 
+Premium is een organisatorisch abonnement dat u een andere manier biedt om inhoud op te slaan: in een capaciteit. Met Premium kan iedereen, met machtigingen, binnen en buiten uw organisatie inhoud bekijken die in deze Premium-capaciteit is opgeslagen, en zonder afzonderlijke Power BI Pro-licenties te hoeven kopen. 
 
 Premium voorziet in een wijdverbreide distributie van inhoud door Pro-gebruikers zonder dat ontvangers die de inhoud bekijken een Pro-licentie nodig hebben. Pro-licenties zijn vereist voor ontwerpers van inhoud. Ontwerpers maken verbinding met gegevensbronnen, modelleren gegevens en maken rapporten en dashboards die zijn verpakt als werkruimte-apps. Gebruikers zonder een Pro-licentie hebben nog steeds toegang tot een werkruimte die zich in de Power BI Premium-capaciteit bevindt, op voorwaarde dat ze beschikken over een [rol in die werkruimte](end-user-workspaces.md).
 
-Binnen deze werkruimten wijzen ontwerpers rollen toe, zoals **Viewer**, **Inzender**, **Lid** en **Beheerder**. Deze rollen bepalen in hoeverre collega's de inhoud kunnen gebruiken. Zie [Machtigingen en rollen voor werkruimten](end-user-workspaces.md) voor meer informatie. 
+Binnen deze werkruimten wijzen ontwerpers rollen toe, zoals **Viewer** , **Inzender** , **Lid** en **Beheerder**. Deze rollen bepalen in hoeverre collega's de inhoud kunnen gebruiken. Zie [Machtigingen en rollen voor werkruimten](end-user-workspaces.md) voor meer informatie. 
 
 Zie [Wat is Microsoft Power BI Premium?](../admin/service-premium-what-is.md) voor meer informatie over Premium-capaciteit.
 
@@ -95,11 +95,11 @@ In de onderstaande afbeelding zijn drie van de apps opgeslagen in Premium-capaci
 
 ![Het scherm Apps](media/end-user-license/power-bi-premium.png)
 
-Als u een gebruiker bent met een gratis licentie hebt u, zolang de **ontwerper** de werkruimte in een aan Premium toegewezen capaciteit plaatst, de mogelijkheid om *binnen die werkruimte* gedeelde inhoud weer te geven, met collega's samen te werken, met de app-dashboards en rapporten te werken, en meer. De strekking van uw machtigingen wordt ingesteld door uw Power BI-beheerder en door de inhoudontwerper.
+Als u een gebruiker bent met een gratis licentie, hebt u, zolang de **ontwerper** de werkruimte in een Premium-capaciteit plaatst, de mogelijkheid om *binnen die werkruimte* gedeelde inhoud weer te geven, met collega's samen te werken, met de app-dashboards en rapporten te werken, en meer. De strekking van uw machtigingen wordt ingesteld door uw Power BI-beheerder en door de inhoudontwerper.
 
 ## <a name="putting-it-all-together"></a>Alles samenvoegen
 
-Wanneer een organisatie een Premium-abonnement koopt, wijst de beheerder doorgaans Pro-licenties toe aan de werknemers die in Premium-capaciteit werken om inhoud te maken en delen. De Pro-gebruikers maken [werkruimten](end-user-workspaces.md) en voegen inhoud (dashboards, rapporten en apps) aan deze werkruimten toe. Als u wilt dat gratis gebruikers in die werkruimten kunnen samenwerken, wijst de beheerder of Pro-gebruiker de werkruimten toe aan *toegewezen capaciteit*.  
+Wanneer een organisatie een Premium-abonnement koopt, wijst de beheerder doorgaans Pro-licenties toe aan de werknemers die in Premium-capaciteit werken om inhoud te maken en delen. De Pro-gebruikers maken [werkruimten](end-user-workspaces.md) en voegen inhoud (dashboards, rapporten en apps) aan deze werkruimten toe. Als u wilt dat gratis gebruikers in die werkruimten kunnen samenwerken, wijst de beheerder of Pro-gebruiker de werkruimten toe aan een *capaciteit*.  
 
 |Licentietype  |Gedeelde capaciteit |Toegewezen Premium-capaciteit  |
 |---------|---------|---------|
@@ -113,11 +113,11 @@ In onderstaand diagram ziet u links de Pro-gebruikers die inhoud in app-werkruim
 
 - **Werkruimte A** is gemaakt in een organisatie die geen Premium-capaciteit heeft.
 
-- **Werkruimte B** is gemaakt in een organisatie die een Premium-abonnement heeft. De werkruimte is opgeslagen in de toegewezen capaciteit. Deze werkruimte heeft een ruitpictogram.  
+- **Werkruimte B** is gemaakt in een organisatie die een Premium-abonnement heeft. De werkruimte is opgeslagen in een capaciteit. Deze werkruimte heeft een ruitpictogram.  
 
     ![afbeelding van drie werkruimten](media/end-user-license/power-bi-dedicated.jpg)
 
-De Power BI Pro-*ontwerper* kan deze werkruimten gebruiken om inhoud te delen en samen te werken met andere Pro-gebruikers. Maar de enige manier waarop de Power BI Pro-gebruiker inhoud kan delen en kan samenwerken met gratis gebruikers is met behulp van werkruimte B, die zich in aan Premium toegewezen capaciteit bevindt.  In de werkruimte wijst de ontwerper rollen toe aan mensen die samenwerken. Uw rol bepaalt welke acties u in de werkruimte kunt uitvoeren. *Zakelijke gebruikers* van Power BI wordt gewoonlijk de rol *Viewer* toegewezen. Zie [Werkruimten voor zakelijke gebruikers van Power BI](end-user-workspaces.md) voor meer informatie over rollen.
+De Power BI Pro- *ontwerper* kan deze werkruimten gebruiken om inhoud te delen en samen te werken met andere Pro-gebruikers. Maar de enige manier waarop de Power BI Pro-gebruiker inhoud kan delen en kan samenwerken met gratis gebruikers is met behulp van werkruimte B, die zich in een Premium-capaciteit bevindt.  In de werkruimte wijst de ontwerper rollen toe aan mensen die samenwerken. Uw rol bepaalt welke acties u in de werkruimte kunt uitvoeren. *Zakelijke gebruikers* van Power BI wordt gewoonlijk de rol *Viewer* toegewezen. Zie [Werkruimten voor zakelijke gebruikers van Power BI](end-user-workspaces.md) voor meer informatie over rollen.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
@@ -129,7 +129,7 @@ De Power BI Pro-*ontwerper* kan deze werkruimten gebruiken om inhoud te delen en
 
   Wanneer de proefversie van 60 dagen is verlopen, wordt uw licentie weer gewijzigd in een (gratis) Power BI-licentie. Als uw licentie wordt gewijzigd, hebt u geen toegang meer tot functies waarvoor een Power BI Pro-licentie is vereist. Als u door wilt gaan met een Pro-licentie, neemt u contact op met uw beheerder of helpdesk over het kopen van een Power BI Pro-licentie. Als u geen beheerder of helpdesk hebt, gaat u naar [de pagina met prijzen van Power BI](https://powerbi.microsoft.com/pricing/).
 
-- Als u zich zelfstandig hebt geregistreerd voor een gratis licentie via een knop als *Gratis uitproberen*, verloopt die licentie nooit. Dus als u een upgrade naar een Pro-proefversie uitvoert of als uw organisatie u een Pro-licentie biedt en uw proefversie verloopt of uw organisatie uw Pro-licentie verwijdert, beschikt u nog steeds over de gratis licentie om op terug te vallen, tenzij u de licentie annuleert.
+- Als u zich zelfstandig hebt geregistreerd voor een gratis licentie via een knop als *Gratis uitproberen* , verloopt die licentie nooit. Dus als u een upgrade naar een Pro-proefversie uitvoert of als uw organisatie u een Pro-licentie biedt en uw proefversie verloopt of uw organisatie uw Pro-licentie verwijdert, beschikt u nog steeds over de gratis licentie om op terug te vallen, tenzij u de licentie annuleert.
 
 - <sup>1</sup> Een gratis gebruikerslicentie voor de Power BI-service is perfect voor iemand die deze versie wil verkennen of wil gebruiken voor analyse van persoonlijke gegevens en visualisaties met **Mijn werkruimte**. Een zelfstandig gebruiker met een gratis licentie gebruikt Power BI niet om met collega's samen te werken. Zelfstandige gebruikers met een gratis licentie kunnen geen inhoud weergeven die door anderen wordt gedeeld of hun eigen inhoud delen met andere Power BI-gebruikers.
 
