@@ -8,7 +8,7 @@
         - name: Overzicht van query-editor
           href: desktop-query-overview.md
         - name: Selfservice voor gegevensvoorbereiding met gegevensstromen
-          href: service-dataflows-overview.md
+          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Zelfstudies
       expanded: true
       items:
@@ -98,39 +98,39 @@
         - name: Selfservice voor gegevensvoorbereiding
           items:
             - name: Gegevensstromen maken en gebruiken
-              href: service-dataflows-create-use.md
+              href: ./dataflows/dataflows-create.md
             - name: DirectQuery gebruiken met gegevensstromen in Power BI (preview)
-              href: service-dataflows-directquery.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: De verbeterde berekeningsengine gebruiken met gegevensstromen
-              href: service-dataflows-enhanced-compute-engine.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Berekende entiteiten met Power BI Premium
-              href: service-dataflows-computed-entities-premium.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Verbinding maken met gegevensbronnen met gegevensstromen
-              href: service-dataflows-data-sources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Gegevensstromen gebruiken met on-premises gegevensbronnen
-              href: service-dataflows-on-premises-gateways.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Entiteiten koppelen tussen gegevensstromen
-              href: service-dataflows-linked-entities.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Incrementeel vernieuwen gebruiken met gegevensstromen
-              href: service-dataflows-incremental-refresh.md
+              href: ./dataflows/dataflows-premium-features.md
             - name: Bronnen voor ontwikkelaars met betrekking tot gegevensstromen
-              href: service-dataflows-developer-resources.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Verbinding maken met gegevensstromen in Power BI Desktop
               href: desktop-connect-dataflows.md
             - name: Integratie van gegevensstromen en Azure Data Lake (preview)
-              href: service-dataflows-azure-data-lake-integration.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: Verbinding maken met Azure Data Lake Storage Gen2 voor gegevensstroomopslag
-              href: service-dataflows-connect-azure-data-lake-storage-gen2.md
+              href: ./dataflows/dataflows-azure-data-lake-storage-integration.md
             - name: Gegevensstroominstellingen voor werkruimten configureren (preview)
-              href: service-dataflows-configure-workspace-storage-settings.md
+              href: ./dataflows/dataflows-configure-consume.md
             - name: Een CDM-map aan Power BI toevoegen als een gegevensstroom (preview)
-              href: service-dataflows-add-cdm-folder.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Machine Learning integreren in Power BI
-              href: service-machine-learning-integration.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Cognitive Services gebruiken in Power BI
-              href: service-cognitive-services.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
             - name: Geautomatiseerde Machine Learning in Power BI
-              href: service-machine-learning-automated.md
+              href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Verwijzing
       items:
         - name: Sneltoetsen van de formule-editor
