@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b8811d9b869d4aa3592c9ed3531d067701b544a8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637906"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396582"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Beperkingen en overwegingen van gegevensstromen
 
@@ -24,7 +24,7 @@ Er zijn enkele gegevensstroomlimieten voor het ontwerpen, vernieuwen en capacite
 
 Bij het ontwerpen van gegevensstromen moeten gebruikers rekening houden met de volgende zaken:
 
-* Ontwerpen in gegevensstromen vindt plaats in de omgeving Power Query Online (PQO); zie de beperkingen die worden beschreven in [Power Query-limieten](https://docs.microsoft.com/power-query/power-query-online-limits).
+* Ontwerpen in gegevensstromen vindt plaats in de omgeving Power Query Online (PQO); zie de beperkingen die worden beschreven in [Power Query-limieten](/power-query/power-query-online-limits).
 Omdat het ontwerpen van gegevensstromen plaatsvindt in de PQO-omgeving (Power Query Online), hebben de updates die worden uitgevoerd op de werkbelastingconfiguraties van gegevensstromen alleen invloed op vernieuwingen en heeft dit geen invloed op de ontwerpervaring
 
 * Gegevensstromen kunnen alleen worden gewijzigd door hun eigenaren
@@ -37,7 +37,7 @@ Omdat het ontwerpen van gegevensstromen plaatsvindt in de PQO-omgeving (Power Qu
 
 ## <a name="api-considerations"></a>Overwegingen voor API's
 
-Meer informatie over ondersteunde REST API's van gegevensstromen vindt u in de [REST API-naslaginformatie](https://docs.microsoft.com/rest/api/power-bi/dataflows). Hierna volgen enkele aandachtspunten waarmee u rekening moet houden:
+Meer informatie over ondersteunde REST API's van gegevensstromen vindt u in de [REST API-naslaginformatie](/rest/api/power-bi/dataflows). Hierna volgen enkele aandachtspunten waarmee u rekening moet houden:
 
 * Door een gegevensstroom te exporteren en importeren krijgt die gegevensstroom een nieuwe id
 
@@ -75,7 +75,7 @@ Gegevensstromen die in Premium bestaan, hebben de volgende beperkingen en overwe
 
 * Een gekoppelde entiteit kan niet worden samengevoegd met een normale entiteit waarvoor de gegevens worden opgehaald uit een on-premises gegevensbron
 
-* Wanneer een query (bijvoorbeeld query *A*) wordt gebruikt voor de berekening van een andere query (query *B*) in gegevensstromen, wordt query *B* een berekende entiteit. Berekende entiteiten kunnen niet verwijzen naar on-premises bronnen.
+* Wanneer een query (bijvoorbeeld query *A* ) wordt gebruikt voor de berekening van een andere query (query *B* ) in gegevensstromen, wordt query *B* een berekende entiteit. Berekende entiteiten kunnen niet verwijzen naar on-premises bronnen.
 
 
 **Berekeningsengine:**
@@ -111,4 +111,3 @@ De volgende artikelen bieden meer informatie over gegevensstromen en Power BI:
 * [Gegevensstroomopslag configureren voor gebruik van Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Premium-functies van gegevensstromen](dataflows-premium-features.md)
 * [AI met gegevensstromen](dataflows-machine-learning-integration.md)
-

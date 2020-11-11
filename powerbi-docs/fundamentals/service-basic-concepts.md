@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ca6ce7bde592c1153b0a553a906391c3a2c7d5be
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 2e4618988f743ba25795a2a3c3a0a55be1d80c6f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216636"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397157"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
@@ -45,7 +45,7 @@ Meer informatie over deze functies volgt later, maar laten we eerst enkele conce
 
 
 ## <a name="power-bi-concepts"></a>Power BI-concepten
-De vijf primaire bouwstenen van Power BI zijn: *dashboards*, *rapporten*, *werkmappen*, *gegevenssets* en *gegevensstromen*. Ze zijn allemaal ingedeeld in *werkruimten* en ze zijn gemaakt op *capaciteiten*.  Het is belangrijk om te begrijpen hoe capaciteiten en werkruimten werken voordat we ons verdiepen in de vijf bouwstenen. Laten we dus bij het begin beginnen.
+De vijf primaire bouwstenen van Power BI zijn: *dashboards* , *rapporten* , *werkmappen* , *gegevenssets* en *gegevensstromen*. Ze zijn allemaal ingedeeld in *werkruimten* en ze zijn gemaakt op *capaciteiten*.  Het is belangrijk om te begrijpen hoe capaciteiten en werkruimten werken voordat we ons verdiepen in de vijf bouwstenen. Laten we dus bij het begin beginnen.
 
 ## <a name="capacities"></a>Capaciteiten
 Capaciteiten zijn een kernconcept van Power BI en vertegenwoordigen een aantal resources (opslag, processor en geheugen) die wordt gebruikt om uw Power BI-inhoud te hosten en te leveren. Capaciteiten worden _gedeeld_ of zijn _toegewezen_. Een gedeelde capaciteit wordt gedeeld met andere Microsoft-klanten, terwijl een toegewezen capaciteit volledig voor één klant is bestemd. Voor toegewezen capaciteiten is een [abonnement ](../admin/service-premium-what-is.md) vereist. Ze worden volledig beschreven in het artikel [Premium-capaciteiten beheren](../admin/service-premium-capacity-manage.md).
@@ -70,7 +70,7 @@ Laten we het nu hebben over vijf de bouwstenen van Power BI.
 ## <a name="dataflows"></a>Gegevensstromen
 Een *gegevensstroom* helpt organisaties bij het combineren van gegevens uit verschillende bronnen. Ze zijn optioneel en worden vaak gebruikt in complexe of grotere projecten. Ze vertegenwoordigen gegevens die zijn voorbereid en gefaseerd voor gebruik door gegevenssets. Ze kunnen echter niet rechtstreeks als bron worden gebruikt voor rapportage. Ze maken gebruik van de uitgebreide verzameling Microsoft-gegevensconnectors, waarmee gegevens kunnen worden opgenomen vanuit on-premises gegevensbronnen en gegevensbronnen in de cloud.
 
-Gegevensstromen worden alleen gemaakt en beheerd in werkruimten (maar niet *Mijn werkruimte*) en ze worden opgeslagen als entiteiten in het Common Data Model (CDM) in Azure Data Lake Storage Gen2. Meestal zijn ze gepland om periodiek te vernieuwen om actuele gegevens op te slaan. Ze zijn geweldig voor het voorbereiden van gegevens voor gebruik, en mogelijk hergebruik, door uw gegevenssets. Zie het artikel [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/service-dataflows-overview.md) voor meer informatie.
+Gegevensstromen worden alleen gemaakt en beheerd in werkruimten (maar niet *Mijn werkruimte* ) en ze worden opgeslagen als entiteiten in het Common Data Model (CDM) in Azure Data Lake Storage Gen2. Meestal zijn ze gepland om periodiek te vernieuwen om actuele gegevens op te slaan. Ze zijn geweldig voor het voorbereiden van gegevens voor gebruik, en mogelijk hergebruik, door uw gegevenssets. Zie het artikel [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md) voor meer informatie.
 
 U kunt geen dashboards of rapporten maken zonder gegevens (u kunt uiteraard lege dashboards en rapporten maken, maar deze zijn pas bruikbaar wanneer ze gegevens bevatten). Laten nu we beginnen met **gegevenssets**.
 
@@ -93,7 +93,7 @@ In het onderstaande voorbeeld heb ik de werkruimte 'Verkoop en marketing' gesele
 
 Als u [verbinding met een gegevensset wilt maken of een gegevensset wilt importeren](../connect-data/service-get-data.md), selecteert u **Gegevens ophalen** onderaan het navigatiedeelvenster. Volg de instructies om verbinding te maken met de specifieke bron of om deze te importeren en de gegevensset aan de actieve werkruimte toe te voegen. Nieuwe gegevenssets zijn gemarkeerd met een geel sterretje. Uw werkzaamheden in Power BI zijn niet van invloed op de onderliggende gegevensset. Deze blijft ongewijzigd.
 
-Gegevenssets die worden toegevoegd door een lid van de werkruimte zijn beschikbaar voor andere leden van de werkruimte die de rol *Beheerder*, *Lid* of *Inzender* hebben.
+Gegevenssets die worden toegevoegd door een lid van de werkruimte zijn beschikbaar voor andere leden van de werkruimte die de rol *Beheerder* , *Lid* of *Inzender* hebben.
 
 U kunt gegevenssets vernieuwen, een andere naam geven, verkennen en verwijderen. U kunt een gegevensset gebruiken om een nieuw rapport maken of door [snelle inzichten](../create-reports/service-insights.md) uit te voeren.  Als u wilt zien welke rapporten en dashboards al een gegevensset gebruiken, selecteert u **Verwante items weergeven**. Selecteer een gegevensset om deze te verkennen In werkelijkheid opent de gegevensset in de rapporteditor, waar u de gegevens echt kunt verkennen door visualisaties te maken.
 
@@ -109,7 +109,7 @@ Laten we doorgaan met het volgende onderwerp: rapporten.
 ## <a name="reports"></a>Rapporten
 Een Power BI-rapport bestaat uit een of meer pagina’s met visualisaties zoals lijndiagrammen, toewijzingen en treemaps. Visualisaties worden ook wel **_visuals_** genoemd. Alle visualisaties in een rapport zijn afkomstig uit één gegevensset. U kunt compleet nieuwe rapporten maken in Power BI, rapporten importeren met dashboards die collega's met u hebben gedeeld, maar u kunt ze ook laten maken door Power BI wanneer u verbinding maakt met gegevenssets vanuit Excel, Power BI Desktop, databases en SaaS-toepassingen.  Als u bijvoorbeeld verbinding maakt met een Excel-werkmap die Power View-werkbladen bevat, wordt er een rapport in Power BI gemaakt op basis van die werkbladen. En als u verbinding met een SaaS-toepassing maakt, wordt er een vooraf samengestelde rapport in Power BI geïmporteerd.
 
-Er zijn twee modi om rapporten weer te geven en om met rapporten te werken: de *leesweergave* en de *bewerkweergave*. Wanneer u een rapport opent, wordt het geopend in de leesweergave. Als u machtigingen voor bewerken hebt, ziet u in de linkerbovenhoek de optie **Rapport bewerken** en kunt u het rapport openen in de bewerkweergave.  Als een rapport zich in een werkruimte bevindt , kan iedereen met de rol *Beheerder*, *Lid* of *Inzender* het rapport bewerken. De personen hebben dan toegang tot alle functies voor het verkennen, ontwerpen, bouwen en delen van de bewerkweergave voor dat rapport. De personen met wie ze het rapport delen, kunnen het rapport verkennen en gebruiken in de leesweergave.
+Er zijn twee modi om rapporten weer te geven en om met rapporten te werken: de *leesweergave* en de *bewerkweergave*. Wanneer u een rapport opent, wordt het geopend in de leesweergave. Als u machtigingen voor bewerken hebt, ziet u in de linkerbovenhoek de optie **Rapport bewerken** en kunt u het rapport openen in de bewerkweergave.  Als een rapport zich in een werkruimte bevindt , kan iedereen met de rol *Beheerder* , *Lid* of *Inzender* het rapport bewerken. De personen hebben dan toegang tot alle functies voor het verkennen, ontwerpen, bouwen en delen van de bewerkweergave voor dat rapport. De personen met wie ze het rapport delen, kunnen het rapport verkennen en gebruiken in de leesweergave.
 
 Wanneer u een werkruimte opent, worden de bijbehorende rapporten vermeld op het tabblad **Rapporten**. Elk rapport dat wordt vermeld, vertegenwoordigt een of meer pagina's met visualisaties die zijn gebaseerd op een van de onderliggende gegevenssets. Selecteer een rapport om dit te openen.
 

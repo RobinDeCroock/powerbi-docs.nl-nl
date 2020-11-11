@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/24/2020
 ms.author: v-pemyer
-ms.openlocfilehash: ad85ad56db907ca19af7dc14681eb34f8c2b9abc
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85398122"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396628"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Datumtabellen in Power BI Desktop maken
 
@@ -22,7 +22,7 @@ Dit artikel is geschreven voor iedereen die gegevensmodellen maakt met Power BI 
 Als u wilt werken met DAX (Data Analysis Expressions) [Time Intelligence-functies](/dax/time-intelligence-functions-dax), is er een vereiste modelvereiste: Uw model moet ten minste één _datumtabel_ bevatten. Een datumtabel is een tabel die voldoet aan de volgende vereisten:
 
 > [!div class="checklist"]
-> - De tabel moet een kolom van het gegevenstype **datum** (of **datum/tijd**) bevatten, ook wel de _datumkolom_ genoemd.
+> - De tabel moet een kolom van het gegevenstype **datum** (of **datum/tijd** ) bevatten, ook wel de _datumkolom_ genoemd.
 > - De datumkolom moet unieke waarden bevatten.
 > - De datumkolom mag geen lege waarden bevatten.
 > - De datumkolom mag geen ontbrekende datums bevatten.
@@ -60,7 +60,7 @@ U kunt een datumtabel genereren met behulp van Power Query. Hier volgen twee blo
 - [Generating A Date Dimension Table In Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) (Een datumdimensietabel genereren in Power Query) door Chris Webb
 
 > [!TIP]
-> Als u geen datawarehouse of andere consistente definitie voor tijd in uw organisatie hebt, kunt u Power Query gebruiken om een [gegevensstroom](../transform-model/service-dataflows-overview.md) te publiceren. Laat alle makers van gegevensmodellen vervolgens verbinding maken met de gegevensstroom om datumtabellen toe te voegen aan hun modellen. De gegevensstroom wordt de Single Source of Truth voor tijd in uw organisatie.
+> Als u geen datawarehouse of andere consistente definitie voor tijd in uw organisatie hebt, kunt u Power Query gebruiken om een [gegevensstroom](../transform-model/dataflows/dataflows-introduction-self-service.md) te publiceren. Laat alle makers van gegevensmodellen vervolgens verbinding maken met de gegevensstroom om datumtabellen toe te voegen aan hun modellen. De gegevensstroom wordt de Single Source of Truth voor tijd in uw organisatie.
 
 Als u een datumtabel wilt genereren, kunt u hier eventueel DAX voor gebruiken. Dat kan makkelijker zijn. Het is waarschijnlijk ook handiger, omdat DAX ingebouwde intelligentie bevat om het maken en beheren van datumtabellen te vereenvoudigen.
 
@@ -82,7 +82,7 @@ Bekijk de volgende resources voor meer informatie over dit artikel:
 - [Automatische datum/tijd in Power BI Desktop](../transform-model/desktop-auto-date-time.md)
 - [Hulp met automatische datum/tijd in Power BI Desktop](auto-date-time.md)
 - [Datumtabellen instellen en gebruiken in Power BI Desktop](../transform-model/desktop-date-tables.md)
-- [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/service-dataflows-overview.md)
+- [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md)
 - [CALENDAR-functie (DAX)](/dax/calendar-function-dax)
 - [CALENDARAUTO-functie (DAX)](/dax/calendarauto-function-dax)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

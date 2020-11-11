@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a2622d2d3da5e4149e93a2b4b6f04dc87b55d9e1
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92917022"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397502"
 ---
 # <a name="ai-with-dataflows"></a>AI met gegevensstromen
 
@@ -28,7 +28,7 @@ In dit artikel bespreken we manieren waarop u kunstmatige intelligentie (Artific
 
 Met Cognitive Services in Power BI kunt u verschillende algoritmen uit [Azure Cognitive Services](https://azure.microsoft.com/services/cognitive-services/) toepassen om uw gegevens te verrijken in de selfservice voor gegevensvoorbereiding voor gegevensstromen.
 
-De services die momenteel worden ondersteund zijn [Sentimentanalyse](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [Sleuteltermextractie](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [Taaldetectie](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) en [Afbeeldingen taggen](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images). De transformaties worden uitgevoerd in de Power BI-service en vereisen geen Azure Cognitive Services-abonnement. Deze functie vereist Power BI Premium.
+De services die momenteel worden ondersteund zijn [Sentimentanalyse](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis), [Sleuteltermextractie](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction), [Taaldetectie](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection) en [Afbeeldingen taggen](/azure/cognitive-services/computer-vision/concept-tagging-images). De transformaties worden uitgevoerd in de Power BI-service en vereisen geen Azure Cognitive Services-abonnement. Deze functie vereist Power BI Premium.
 
 ### <a name="enabling-ai-features"></a>**AI-functies inschakelen**
 
@@ -72,7 +72,7 @@ Deze sectie beschrijft de beschikbare functies in Cognitive Services in Power BI
 
 De taaldetectiefunctie evalueert tekstinvoer en retourneert voor elk veld de taal en ISO-id. Deze functie is handig voor gegevenskolommen die willekeurige tekst verzamelen waarvan de taal onbekend is. Als invoer verwacht de functie gegevens in tekstindeling.
 
-Text Analytics herkent maximaal 120 talen. Zie voor meer informatie [Ondersteunde talen](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+Text Analytics herkent maximaal 120 talen. Zie voor meer informatie [Ondersteunde talen](/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 #### <a name="extract-key-phrases"></a>**Sleuteltermen ophalen**
 
@@ -88,7 +88,7 @@ Text Analytics maakt gebruik van een machine learning-classificatiealgoritme voo
 
 Sentimentanalyse wordt uitgevoerd op het hele invoerveld en niet op een bepaalde entiteit in de tekst. In de praktijk verbetert het scoren van nauwkeurigheid wanneer documenten een of twee zinnen bevatten in plaats van een grote lap tekst. Tijdens een objectiviteitsevaluatie bepaalt het model of een invoerveld als geheel objectief is of gevoel bevat. Een invoerveld dat voornamelijk objectief is, gaat met een score van .50 niet door naar de gevoelsdetectiefase en wordt ook niet verder verwerkt. Voor invoervelden die doorgaan in de pijplijn, genereert de volgende fase een score die hoger of lager is dan .50, afhankelijk van de gevoelswaarde van het invoerveld.
 
-Op dit moment ondersteunt Sentimentanalyse Engels, Duits, Spaans en Frans. Andere talen zijn beschikbaar als preview. Zie voor meer informatie [Ondersteunde talen](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
+Op dit moment ondersteunt Sentimentanalyse Engels, Duits, Spaans en Frans. Andere talen zijn beschikbaar als preview. Zie voor meer informatie [Ondersteunde talen](/azure/cognitive-services/text-analytics/text-analytics-supported-languages).
 
 #### <a name="tag-images"></a>**Afbeeldingen taggen**
 
@@ -96,7 +96,7 @@ De functie **Afbeeldingen taggen** retourneert tags op basis van meer dan 2.000 
 
 Na het uploaden van een afbeelding of het specificeren van een afbeeldings-URL, leveren de algoritmen van Computer Vision als output tags die zijn gebaseerd op objecten, levende wezens en acties die in de afbeelding zijn herkend. Niet alleen het belangrijkste onderwerp, bijvoorbeeld een persoon op de voorgrond, maar ook de setting (binnen of buiten), meubels, hulpmiddelen, planten, dieren, accessoires, gadgets enz. kunnen worden getagd.
 
-Als invoer vereist deze functie een afbeeldings-URL of een base 64-veld. Momenteel ondersteunt Afbeeldingen taggen Engels, Spaans, Japans, Portugees en vereenvoudigd Chinees. Zie voor meer informatie [Ondersteunde talen](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
+Als invoer vereist deze functie een afbeeldings-URL of een base 64-veld. Momenteel ondersteunt Afbeeldingen taggen Engels, Spaans, Japans, Portugees en vereenvoudigd Chinees. Zie voor meer informatie [Ondersteunde talen](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters).
 
 ## <a name="automated-machine-learning-in-power-bi"></a>Geautomatiseerde Machine Learning in Power BI
 
@@ -114,7 +114,7 @@ Met AutoML in Power BI kunnen gegevensanalisten aan de hand van gegevensstromen 
 
 AutoML biedt ondersteuning voor het maken van modellen van het type **Binaire voorspelling** , **Classificatie** en **Regressie** voor gegevensstromen. Dit zijn gecontroleerde ('supervised') typen machine learning-technieken, wat betekent dat ze leren van de bekende resultaten van eerdere waarnemingen om de resultaten van andere waarnemingen te voorspellen. De gegevensset die als invoer fungeert voor het trainen van een AutoML-model bestaat uit een set records die worden **gelabeld** met de bekende resultaten.
 
-Met AutoML in Power BI integreert u [geautomatiseerde ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml) uit [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) om uw ML-modellen te maken. U hebt echter geen Azure-abonnement nodig om AutoML te gebruiken in Power BI. Het proces van het trainen en hosten van de ML-modellen wordt volledig beheerd door de Power BI-service.
+Met AutoML in Power BI integreert u [geautomatiseerde ML](/azure/machine-learning/service/concept-automated-ml) uit [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) om uw ML-modellen te maken. U hebt echter geen Azure-abonnement nodig om AutoML te gebruiken in Power BI. Het proces van het trainen en hosten van de ML-modellen wordt volledig beheerd door de Power BI-service.
 
 Nadat een ML-model is getraind, genereert AutoML automatisch een Power BI-rapport waarin de waarschijnlijke prestaties van uw ML-model worden uitgelegd. AutoML benadrukt de verklaarbaarheid door het accentueren van de belangrijkste beïnvloeders in de invoer die van invloed zijn op de voorspellingen die worden geretourneerd door uw model. Het rapport bevat ook belangrijke metrische gegevens voor het model.
 
@@ -374,8 +374,8 @@ Zie [Inleiding tot gegevensstromen en selfservice voor gegevensvoorbereiding](da
 
 Voor meer informatie over Azure Machine Learning raadpleegt u:
 
-- Overzicht:  [Wat is Azure Machine Learning?](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Quick Starts en zelfstudies voor Azure Machine Learning:  [Documentatie voor Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/)
+- Overzicht:  [Wat is Azure Machine Learning?](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Quick Starts en zelfstudies voor Azure Machine Learning:  [Documentatie voor Azure Machine Learning](/azure/machine-learning/)
 
 > [!NOTE]
 > Een Power BI Premium-abonnement is vereist voor het gebruik van de Azure Machine Learning-integratie.
@@ -387,7 +387,7 @@ Als een gebruiker toegang wil tot een Azure ML-model vanuit Power BI, moet deze 
 - **Leestoegang** tot de Machine Learning Studio-webservice (klassiek) voor Machine Learning Studio-modellen (klassiek)
 - **Leestoegang** tot de Machine Learning-werkruimte voor Machine Learning-modellen
 
-In de stappen in dit artikel wordt beschreven hoe een Power BI-gebruiker toegang krijgt tot een model in de Azure ML-service, zodat ze toegang hebben tot dit model als een Power Query-functie.  Voor meer informatie raadpleegt u [Toegang beheren met RBAC en de Azure-portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal).
+In de stappen in dit artikel wordt beschreven hoe een Power BI-gebruiker toegang krijgt tot een model in de Azure ML-service, zodat ze toegang hebben tot dit model als een Power Query-functie.  Voor meer informatie raadpleegt u [Toegang beheren met RBAC en de Azure-portal](/azure/role-based-access-control/role-assignments-portal).
 
 1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
@@ -415,7 +415,7 @@ In de stappen in dit artikel wordt beschreven hoe een Power BI-gebruiker toegang
 
 Gegevenswetenschappers gebruiken voornamelijk Python om hun machine learning-modellen voor Machine Learning te ontwikkelen en zelfs te implementeren.  In tegenstelling tot de Machine Learning Studio (klassiek), waarmee de taak voor het maken van een schemabestand kan worden geautomatiseerd, moet de gegevenswetenschapper in het geval van Machine Learning het schemabestand expliciet genereren met Python.
 
-Dit schemabestand moet worden opgenomen in de geïmplementeerde webservice voor Machine Learning-modellen. Als u wilt dat het schema voor de webservice automatisch wordt geautomatiseerd, moet u een voorbeeld opgeven van de invoer/uitvoer in het script van de vermelding voor het geïmplementeerd model. Zie de subsectie over het [(optioneel) automatisch genereren van Swagger-schema's in de implementatiemodellen met de Azure Machine Learning Service-documentatie](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). De koppeling bevat het voorbeeldscript van de vermelding met de instructies voor het genereren van schema's. 
+Dit schemabestand moet worden opgenomen in de geïmplementeerde webservice voor Machine Learning-modellen. Als u wilt dat het schema voor de webservice automatisch wordt geautomatiseerd, moet u een voorbeeld opgeven van de invoer/uitvoer in het script van de vermelding voor het geïmplementeerd model. Zie de subsectie over het [(optioneel) automatisch genereren van Swagger-schema's in de implementatiemodellen met de Azure Machine Learning Service-documentatie](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema). De koppeling bevat het voorbeeldscript van de vermelding met de instructies voor het genereren van schema's. 
 
 Met name de functies *\@input_schema* en *\@output_schema* in het script van de vermelding verwijzen naar de voorbeeldindelingen van invoer en uitvoer in de variabelen *input_sample* en *output_sample* en genereren met behulp van deze voorbeelden een OpenAPI-specificatie (Swagger) voor de webservice tijdens de implementatie.
 
@@ -465,4 +465,4 @@ De volgende artikelen bieden meer informatie over gegevensstromen en Power BI:
 * [Een gegevensstroom configureren en gebruiken](dataflows-configure-consume.md)
 * [Gegevensstroomopslag configureren voor gebruik van Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Premium-functies van gegevensstromen](dataflows-premium-features.md)
-* [Beperkingen en overwegingen van gegevensstromen](dataflows-features-limitations.md) 
+* [Beperkingen en overwegingen van gegevensstromen](dataflows-features-limitations.md)

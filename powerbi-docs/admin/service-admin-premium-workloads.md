@@ -9,16 +9,16 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4cf0c4fbdde52181dbc5307a9d97d17344c7c26
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632843"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396329"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
-In dit artikel wordt het inschakelen en configureren van workloads voor Power BI Premium-capaciteiten beschreven. Standaard bieden capaciteiten alleen ondersteuning voor de workload die aan het uitvoeren van Power BI-query's is gekoppeld. U kunt ook extra workloads inschakelen en configureren voor **[AI (Cognitive Services)](../transform-model/service-cognitive-services.md)** , **[gegevensstromen](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)** en **[gepagineerde rapporten](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
+In dit artikel wordt het inschakelen en configureren van workloads voor Power BI Premium-capaciteiten beschreven. Standaard bieden capaciteiten alleen ondersteuning voor de workload die aan het uitvoeren van Power BI-query's is gekoppeld. U kunt ook extra workloads inschakelen en configureren voor **[AI (Cognitive Services)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md)** en **[gepagineerde rapporten](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
 
 ## <a name="default-memory-settings"></a>Standaardinstellingen voor geheugen
 
@@ -41,7 +41,7 @@ Met de AI-workload kunt u cognitive services en automatische Machine Learning in
 |---------------------------------|----------------------------------------|
 | **Maximaal geheugen (%)** | Het maximale percentage beschikbaar geheugen dat door AI-processen in een capaciteit kan worden gebruikt. |
 | **Gebruik via Power BI Desktop toestaan** | Deze instelling is gereserveerd voor toekomstig gebruik en wordt niet in alle tenants weergegeven. |
-| **Het bouwen van Machine Learning-modellen toestaan** | Hiermee geeft u aan of bedrijfsanalisten rechtstreeks in Power BI Machine Learning-modellen mogen trainen, valideren en aanroepen. Zie [Geautomatiseerde Machine Learning in Power BI (preview-versie)](../transform-model/service-machine-learning-automated.md) voor meer informatie. |
+| **Het bouwen van Machine Learning-modellen toestaan** | Hiermee geeft u aan of bedrijfsanalisten rechtstreeks in Power BI Machine Learning-modellen mogen trainen, valideren en aanroepen. Zie [Geautomatiseerde Machine Learning in Power BI (preview-versie)](../transform-model/dataflows/dataflows-machine-learning-integration.md) voor meer informatie. |
 | **Parallelle uitvoering voor AI-aanvragen inschakelen** | Hiermee geeft u op of AI-aanvragen parallel kunnen worden uitgevoerd. |
 |  |  |
 
@@ -209,7 +209,7 @@ De app [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacit
 ## <a name="next-steps"></a>Volgende stappen
 
 [Power BI Premium-capaciteit optimaliseren](service-premium-capacity-optimize.md)
-[Selfservice-gegevensvoorbereiding in Power BI met Gegevensstromen](../transform-model/service-dataflows-overview.md)
+[Selfservice-gegevensvoorbereiding in Power BI met Gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md)
 [Wat zijn gepagineerde rapporten in Power BI Premium?](../paginated-reports/paginated-reports-report-builder-power-bi.md)
 [Automatische paginavernieuwing in Power BI Desktop (preview-versie)](../create-reports/desktop-automatic-page-refresh.md)
 

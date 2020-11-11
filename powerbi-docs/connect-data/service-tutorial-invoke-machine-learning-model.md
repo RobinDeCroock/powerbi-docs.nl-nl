@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7e2019d3b554bc4e033c7aee36c41216ba910a9f
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916838"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397111"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)
 
@@ -180,4 +180,4 @@ In deze zelfstudie hebt u een eenvoudig experiment gemaakt in Azure Machine Lear
 - Een gegevensstroom maken
 - Inzichten uit het Azure ML-model toepassen op de gegevensstroom
 
-Raadpleeg [Azure Machine Learning integration in Power BI (Preview)](../transform-model/service-machine-learning-integration.md) (Azure Machine Learning-integratie in Power BI (preview)) voor meer informatie over de integratie van Azure Machine Learning in Power BI.
+Raadpleeg [Azure Machine Learning integration in Power BI (Preview)](../transform-model/dataflows/dataflows-machine-learning-integration.md) (Azure Machine Learning-integratie in Power BI (preview)) voor meer informatie over de integratie van Azure Machine Learning in Power BI.

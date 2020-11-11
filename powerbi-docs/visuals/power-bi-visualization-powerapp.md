@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: rien
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858917"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397525"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport
 
 In deze zelfstudie gebruikt u de Power Apps-visual om een nieuwe app te maken die wordt ingesloten in een Power BI-voorbeeldrapport. Deze app communiceert met andere visuals in dit rapport.
 
-Als u geen Power Apps-abonnement hebt, [maakt u een gratis account](https://web.powerapps.com/signup?redirect=marketing&email=) voordat u begint.
+Als u geen Power Apps-abonnement hebt, [maakt u een gratis account](https://make.powerapps.com/signup?redirect=marketing&email=) voordat u begint.
 
 In deze zelfstudie leert u het volgende:
 > [!div class="checklist"]
@@ -51,7 +51,7 @@ Wanneer u de Power Apps-visual toevoegt aan uw rapport, wordt Power Apps Studio 
 
     ![Deelvenster Visualisatie met het Power Apps-pictogram geselecteerd](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. In het deelvenster **Velden** selecteert u **Naam**, **Productcode** en vervolgens **Verkoopfase**. 
+3. In het deelvenster **Velden** selecteert u **Naam** , **Productcode** en vervolgens **Verkoopfase**. 
 
     ![velden selecteren](media/power-bi-visualization-powerapp/power-bi-fields.png)
 

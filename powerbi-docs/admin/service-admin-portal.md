@@ -10,18 +10,18 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 464fdce94b41c3dc413088da6395520fea32c601
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462625"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397019"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
 De beheerportal stelt u in staat om de Power BI-instellingen voor uw organisatie te beheren. De portal bevat onder andere metrische gebruiksgegevens, en biedt toegang tot het Microsoft 365-beheercentrum en de tenantinstellingen.
 
-De volledige beheerportal is toegankelijk voor globale beheerders en gebruikers met de rol Power BI-servicebeheerder. Als u niet een van deze rollen heeft, ziet u in de portal alleen de optie **Capaciteitsinstellingen** . Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
+De volledige beheerportal is toegankelijk voor globale beheerders en gebruikers met de rol Power BI-servicebeheerder. Als u niet een van deze rollen heeft, ziet u in de portal alleen de optie **Capaciteitsinstellingen**. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Toegang krijgen tot de beheerportal
 
@@ -29,7 +29,7 @@ U moet een globale beheerder of Power BI-servicebeheerder zijn om toegang te kri
 
 1. Meld u aan bij [Power BI](https://app.powerbi.com) met behulp van de referenties van uw beheerdersaccount.
 
-1. Selecteer in de paginakoptekst **Instellingen** > **Beheerportal** .
+1. Selecteer in de paginakoptekst **Instellingen** > **Beheerportal**.
 
     ![Instellingen voor beheerportal](media/service-admin-portal/powerbi-admin-settings.png)
 
@@ -97,17 +97,17 @@ Zie [Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten b
 
 ### <a name="usage-metrics-for-content-creators"></a>Metrische gegevens over het gebruik voor makers van inhoud
 
-1. Selecteer in de beheerportal **Tenantinstellingen** > **Instellingen voor controle en gebruik** > **Metrische gegevens over het gebruik voor makers van inhoud** .
+1. Selecteer in de beheerportal **Tenantinstellingen** > **Instellingen voor controle en gebruik** > **Metrische gegevens over het gebruik voor makers van inhoud**.
 
     ![Metrische gegevens over het gebruik in Tenantinstellingen in de beheerportal](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
-1. Schakel metrische gegevens over gebruik in (of uit) > **Toepassen** .
+1. Schakel metrische gegevens over gebruik in (of uit) > **Toepassen**.
 
     ![Metrische gegevens over gebruik ingeschakeld](../collaborate-share/media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
 ### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Gegevens per gebruiker in metrische gegevens over gebruik voor makers van inhoud
 
-Gegevens per gebruiker zijn standaard ingeschakeld voor metrische gebruiksgegevens, en accountgegevens worden opgenomen in het metrische rapport. Als u geen accountgegevens wilt opnemen voor een bepaalde gebruiker of voor alle gebruikers, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos* .
+Gegevens per gebruiker zijn standaard ingeschakeld voor metrische gebruiksgegevens, en accountgegevens worden opgenomen in het metrische rapport. Als u geen accountgegevens wilt opnemen voor een bepaalde gebruiker of voor alle gebruikers, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
 
 ![Gebruiksgegevens per gebruiker](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -139,7 +139,7 @@ Met **Tenantinstellingen** kunt u nauwkeurig bepalen welke functies aan uw organ
 > [!NOTE]
 > Tenantinstellingen waarmee u de beschikbaarheid van functies in de Power BI-gebruikersinterface bepaalt, kunnen helpen bij het vaststellen van beheerbeleid, maar zijn geen beveiligingsmaatregel. De instelling **Gegevens exporteren** beperkt bijvoorbeeld niet de machtigingen van een Power BI-gebruiker voor een gegevensset. Power BI-gebruikers met leestoegang tot een gegevensset hebben de toestemming om deze gegevensset op te vragen en kunnen mogelijk de resultaten behouden zonder de functie **Gegevens exporteren** in de Power BI-gebruikersinterface te gebruiken.
 
-In de volgende secties vindt u meer informatie over de instellingen op het tabblad **Tenantinstellingen** .
+In de volgende secties vindt u meer informatie over de instellingen op het tabblad **Tenantinstellingen**.
 
 > [!NOTE]
 > Het duurt maximaal 15 minuten voordat een instelling voor iedereen in uw organisatie is gewijzigd.
@@ -156,7 +156,7 @@ Veel instellingen hebben een van deze drie statussen:
 
 * **Ingeschakeld voor een subset van de organisatie** : Specifieke beveiligingsgroepen in uw organisatie mogen deze functie gebruiken.
 
-    U kunt een functie ook inschakelen voor de hele organisatie **Met uitzondering van beveiligingsgroepen** .
+    U kunt een functie ook inschakelen voor de hele organisatie **Met uitzondering van beveiligingsgroepen**.
 
     ![Instelling 'Ingeschakeld voor subset'](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
@@ -180,13 +180,13 @@ Wanneer de optie **Nieuw uiterlijk** is uitgeschakeld, kunnen gebruikers in deze
 
 Beheerders kunnen interne URL's opgeven om de bestemming van koppelingen in het Help-menu van Power BI te overschrijven, en voor licentie-upgrades. Als aangepaste URL's zijn ingesteld, worden gebruikers in de organisatie naar interne Help- en ondersteuningsresources geleid, in plaats van naar de standaardbestemmingen. De bestemmingen van de volgende resources kunnen worden aangepast:
 
-* **Learn** . Deze koppeling uit het Help-menu leidt standaard naar een [lijst met al uw Power BI-leertrajecten en -modules](/learn/browse/?products=power-bi). Als u deze koppeling wilt omleiden naar interne trainingsresources, stelt u een aangepaste URL in voor **Trainingsdocumentatie** .
+* **Learn**. Deze koppeling uit het Help-menu leidt standaard naar een [lijst met al uw Power BI-leertrajecten en -modules](/learn/browse/?products=power-bi). Als u deze koppeling wilt omleiden naar interne trainingsresources, stelt u een aangepaste URL in voor **Trainingsdocumentatie**.
 
-* **Community** . Als u gebruikers vanuit het Help-menu naar een intern forum wilt leiden, in plaats van naar de [Power BI-community](https://community.powerbi.com/), stelt u een aangepaste URL in voor **Discussieforum** .
+* **Community**. Als u gebruikers vanuit het Help-menu naar een intern forum wilt leiden, in plaats van naar de [Power BI-community](https://community.powerbi.com/), stelt u een aangepaste URL in voor **Discussieforum**.
 
-* **Licentie-upgrades** . Gebruikers met een (gratis) Power BI-licentie kunnen de kans krijgen om hun account bij te werken naar Power BI Pro tijdens het gebruik van de service. Als u een interne URL opgeeft voor **Licentieaanvragen** , leidt u gebruikers om naar een interne aanvraag- en aankoopstroom, en voorkomt u selfservice-aankopen. Raadpleeg [Gebruikers toestaan Power BI Pro uit te proberen](#allow-users-to-try-power-bi-pro) als u wilt voorkomen dat gebruikers licenties kopen, maar het wel goed vindt dat gebruikers een proefversie van Power BI Pro starten.
+* **Licentie-upgrades**. Gebruikers met een (gratis) Power BI-licentie kunnen de kans krijgen om hun account bij te werken naar Power BI Pro tijdens het gebruik van de service. Als u een interne URL opgeeft voor **Licentieaanvragen** , leidt u gebruikers om naar een interne aanvraag- en aankoopstroom, en voorkomt u selfservice-aankopen. Raadpleeg [Gebruikers toestaan Power BI Pro uit te proberen](#allow-users-to-try-power-bi-pro) als u wilt voorkomen dat gebruikers licenties kopen, maar het wel goed vindt dat gebruikers een proefversie van Power BI Pro starten.
 
-* **Hulp vragen** . Als u gebruikers vanuit het Help-menu naar een interne helpdesk wilt leiden, in plaats van naar [Power BI-ondersteuning](https://powerbi.microsoft.com/support/), stelt u een aangepaste URL in voor **Helpdesk** .
+* **Hulp vragen**. Als u gebruikers vanuit het Help-menu naar een interne helpdesk wilt leiden, in plaats van naar [Power BI-ondersteuning](https://powerbi.microsoft.com/support/), stelt u een aangepaste URL in voor **Helpdesk**.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>E-mailmeldingen ontvangen voor serviceonderbrekingen of incidenten
 
@@ -222,7 +222,7 @@ In **Tenantinstellingen** in de beheerportal zijn drie secties voor het beheren 
 
 Werkruimten zijn plaatsen waar gebruikers samenwerken aan dashboards, rapporten en andere inhoud. Beheerders gebruiken de instelling **Werkruimten maken (nieuwe werkruimte-ervaring)** om aan te geven welke gebruikers in de organisatie werkruimten mogen maken. Beheerders kunnen iedereen of niemand binnen de organisatie toestemming geven om werkruimten te maken. Ze kunnen het maken van werkruimten ook beperken tot leden van specifieke beveiligingsgroepen. Meer informatie over [werkruimten](../collaborate-share/service-new-workspaces.md).
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Schermopname van de optie Nieuw uiterlijk uitschakelen in de beheerportal.":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="Werkruimten maken (nieuwe werkruimte-ervaring)":::
 
 Voor klassieke werkruimten die zijn gebaseerd op Microsoft 365-groepen, blijft het beheer geconcentreerd in de beheerportal en Azure Active Directory.
 
@@ -241,7 +241,7 @@ In de beheerportal bepaalt u ook welke gebruikers machtigingen krijgen om apps n
 
 Beheerders kunnen bepalen welke gebruikers in de organisatie gegevenssets kunnen gebruiken in verschillende werkruimten. Als deze instelling is ingeschakeld, hebben gebruikers nog steeds de vereiste machtiging voor het maken van een specifieke gegevensset nodig.
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Schermopname van de optie Nieuw uiterlijk uitschakelen in de beheerportal.":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="Gegevenssets in werkruimten gebruiken":::
 
 Zie [Inleiding tot gegevenssets in werkruimten](../connect-data/service-datasets-across-workspaces.md) voor meer informatie.
 
@@ -287,17 +287,17 @@ De instelling **Publiceren op internet** in de beheerportal bevat opties waarvoo
 
 ![Instelling 'Publiceren op internet'](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-Beheerders kunnen **Publiceren op internet** instellen op **Ingeschakeld** en de optie **Kiezen hoe invoegcodes werken** op **Alleen bestaande invoegcodes toestaan** . In dat geval kunnen gebruikers invoegcodes maken, maar moeten ze contact opnemen met de Power BI-beheerder om toestemming hiervoor te krijgen.
+Beheerders kunnen **Publiceren op internet** instellen op **Ingeschakeld** en de optie **Kiezen hoe invoegcodes werken** op **Alleen bestaande invoegcodes toestaan**. In dat geval kunnen gebruikers invoegcodes maken, maar moeten ze contact opnemen met de Power BI-beheerder om toestemming hiervoor te krijgen.
 
 ![Prompt voor publiceren op internet](../collaborate-share/media/service-publish-to-web/publish_to_web_admin_prompt.png)
 
-Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van de instelling **Publiceren op internet** .
+Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van de instelling **Publiceren op internet**.
 
 |Functie |Ingeschakeld voor de hele organisatie |Uitgeschakeld voor de hele organisatie |Specifieke beveiligingsgroepen   |
 |---------|---------|---------|---------|
 |**Publiceren op internet** onder het menu **Meer opties (...)** van het rapport|Ingeschakeld voor iedereen|Niet voor iedereen zichtbaar|Alleen zichtbaar voor gemachtigde gebruikers of groepen.|
 |**Invoegcodes beheren** onder **Instellingen**|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen<br><br>Optie * **Verwijderen** alleen voor gemachtigde gebruikers of groepen.<br>* **Ophalen van codes** ingeschakeld voor iedereen.|
-|**Codes invoegen** binnen de beheerportal|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden** .|
+|**Codes invoegen** binnen de beheerportal|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden**.|
 |Bestaande gepubliceerde rapporten|Iedereen ingeschakeld|Iedereen uitgeschakeld|Rapporten blijven weergeven voor iedereen.|
 
 ### <a name="export-data"></a>Gegevens exporteren
@@ -393,7 +393,7 @@ Makers van rapporten kunnen apps rechtstreeks met eindgebruikers delen zonder da
 Gebruikers in de organisatie kunnen Excel gebruiken voor het weergeven van on-premises Power BI-gegevenssets en het werken met deze sets. [Meer informatie](../collaborate-share/service-analyze-in-excel.md)
 
 > [!NOTE]
-> Als u **Gegevens exporteren** uitschakelt, hebben gebruikers ook geen toegang tot de functie **Analyseren in Excel** .
+> Als u **Gegevens exporteren** uitschakelt, hebben gebruikers ook geen toegang tot de functie **Analyseren in Excel**.
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI gebruiken
 
@@ -407,9 +407,9 @@ Gebruikers in de organisatie kunnen externe-zoekopdrachtfuncties gebruiken waarb
 
 Onder **Tenant-instellingen** kunnen Power BI-beheerders met behulp van de instelling **Verbindingen met aanbevolen tabellen toestaan** beheren wie in de organisatie aanbevolen tabellen kan gebruiken in de galerie Gegevenstypen van Excel. 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Schermopname van de optie Nieuw uiterlijk uitschakelen in de beheerportal.":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Alle verbindingen met uitgelichte tabellen":::
 
-Verbindingen met aanbevolen tabellen worden ook uitgeschakeld als de instelling **Gegevens exporteren** is ingesteld op **Uitgeschakeld** .
+Verbindingen met aanbevolen tabellen worden ook uitgeschakeld als de instelling **Gegevens exporteren** is ingesteld op **Uitgeschakeld**.
 
 Meer informatie over [Uitgelichte Power BI-tabellen in Excel](../collaborate-share/service-excel-featured-tables.md).
 
@@ -449,7 +449,7 @@ Gebruikers in de organisatie kunnen metrische gegevens weergeven over het gebrui
 
 In metrische gegevens over het gebruik voor makers van inhoud zijn namen en e-mailadressen zichtbaar van gebruikers die inhoud openen. [Meer informatie](../collaborate-share/service-usage-metrics.md)
 
-Standaard wordt Gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van makers van inhoud worden in het metrische rapport opgenomen. Als u deze informatie niet voor alle gebruikers wilt verzamelen, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens voor de uitgesloten gebruikers worden dan in het rapport weergegeven als *Naamloos* .
+Standaard wordt Gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van makers van inhoud worden in het metrische rapport opgenomen. Als u deze informatie niet voor alle gebruikers wilt verzamelen, schakelt u de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uit. Accountgegevens voor de uitgesloten gebruikers worden dan in het rapport weergegeven als *Naamloos*.
 
 ## <a name="dashboard-settings"></a>Instellingen voor dashboard
 
@@ -477,7 +477,7 @@ Web-apps die in Azure AD (Active Directory) zijn geregistreerd, maken gebruik va
 
 ### <a name="create-and-use-dataflows"></a>Gegevensstromen maken en gebruiken
 
-Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. Zie [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/service-dataflows-overview.md) voor een overzicht van gegevensstromen. Zie [Workloads configureren](service-admin-premium-workloads.md) als u gegevensstromen wilt inschakelen in een Premium-capaciteit.
+Gebruikers in de organisatie kunnen gegevensstromen maken en gebruiken. Zie [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md) voor een overzicht van gegevensstromen. Zie [Workloads configureren](service-admin-premium-workloads.md) als u gegevensstromen wilt inschakelen in een Premium-capaciteit.
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
@@ -502,7 +502,7 @@ Gebruikers in de organisatie kunnen **alleen** vanuit [AppSource](https://appsou
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>Sjabloon-apps installeren die niet in AppSource worden vermeld
 
-U bepaalt welke gebruikers in de organisatie sjabloon-apps mogen downloaden en installeren die **niet in [ AppSource](https://appsource.microsoft.com) worden vermeld** .
+U bepaalt welke gebruikers in de organisatie sjabloon-apps mogen downloaden en installeren die **niet in [ AppSource](https://appsource.microsoft.com) worden vermeld**.
 
 ![Sjabloon-apps installeren die niet in de AppSource-instelling worden vermeld](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
@@ -516,7 +516,7 @@ Via het tabblad **Power BI Premium-instellingen** kunt u capaciteiten van Power 
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
-Via het tabblad **Power BI Embedded-instellingen** kunt u de capaciteiten van Power BI Embedded (A SKU) bekijken die u voor uw klant hebt aangeschaft. Aangezien u alleen A SKU's vanuit Azure kunt aanschaffen, kunt u [ingesloten capaciteiten in Azure beheren](../developer/embedded/azure-pbie-create-capacity.md) vanuit de **Azure-portal** .
+Via het tabblad **Power BI Embedded-instellingen** kunt u de capaciteiten van Power BI Embedded (A SKU) bekijken die u voor uw klant hebt aangeschaft. Aangezien u alleen A SKU's vanuit Azure kunt aanschaffen, kunt u [ingesloten capaciteiten in Azure beheren](../developer/embedded/azure-pbie-create-capacity.md) vanuit de **Azure-portal**.
 
 Zie [Wat is Power BI Embedded?](../developer/embedded/azure-pbie-what-is-power-bi-embedded.md) voor meer informatie over het beheren van Power BI Embedded (A SKU)-instellingen.
 
@@ -534,7 +534,7 @@ Alle beheerinstellingen voor Power BI-visuals, inclusief tenantinstellingen voor
 
 ### <a name="tenant-level-storage-preview"></a>Opslag op tenantniveau (preview)
 
-Gegevens die worden gebruikt met Power BI worden standaard opgeslagen in de interne opslag die wordt geleverd door Power BI. Met de integratie van gegevensstromen en Azure Data Lake Storage Gen2 (ADLS Gen2) kunt u uw gegevensstromen opslaan in het Azure Data Lake Storage Gen2-account van uw organisatie. Ga naar [Integratie van gegevensstromen en Azure Data Lake (preview)](../transform-model/service-dataflows-azure-data-lake-integration.md) voor meer informatie.
+Gegevens die worden gebruikt met Power BI worden standaard opgeslagen in de interne opslag die wordt geleverd door Power BI. Met de integratie van gegevensstromen en Azure Data Lake Storage Gen2 (ADLS Gen2) kunt u uw gegevensstromen opslaan in het Azure Data Lake Storage Gen2-account van uw organisatie. Ga naar [Integratie van gegevensstromen en Azure Data Lake (preview)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md) voor meer informatie.
 
 ### <a name="workspace-level-storage-permissions-preview"></a>Opslagmachtigingen op werkruimteniveau (preview)
 
@@ -554,7 +554,7 @@ Als beheerder kunt u op het tabblad **Werkruimten** alle werkruimten bekijken di
 
 Beheerders kunnen ook bepalen of gebruikers een werkruimte in de nieuwe werkruimte-ervaring, of een klassieke werkruimte kunnen maken. Zie [Instellingen voor werkruimte](#workspace-settings) in dit artikel voor meer informatie. 
 
-De tabelkolommen op het tabblad **Werkruimten** komen overeen met de eigenschappen die worden geretourneerd met de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup** , klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace** . Zie [Werk organiseren in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) voor meer informatie.
+De tabelkolommen op het tabblad **Werkruimten** komen overeen met de eigenschappen die worden geretourneerd met de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup** , klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace**. Zie [Werk organiseren in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) voor meer informatie.
 
 Op het tabblad **Werkruimten** wordt de *status* voor elke werkruimte weergegeven. De volgende tabel bevat meer informatie over de betekenis van deze statussen.
 

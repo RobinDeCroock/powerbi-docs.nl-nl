@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cb68cdd0f7ca82c937b1a045055909582c0938d6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637748"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396379"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>Een gegevensstroom configureren en gebruiken
 
@@ -59,7 +59,7 @@ Gegevensstromen fungeren als bouwstenen die op elkaar zijn geplaatst. Stel dat u
 
 ![incrementele vernieuwing van de gegevensstroom](media/dataflows-configure-consume/dataflow-created-entity.png)
 
-Bij het instellen van incrementele vernieuwing worden er parameters aan de gegevensstroom toegevoegd om het datumbereik te specificeren. Zie het artikel [Incrementeel vernieuwen in Power Query](https://docs.microsoft.com/power-query/dataflows/incremental-refresh) voor gedetailleerde informatie over het instellen van incrementele vernieuwing.
+Bij het instellen van incrementele vernieuwing worden er parameters aan de gegevensstroom toegevoegd om het datumbereik te specificeren. Zie het artikel [Incrementeel vernieuwen in Power Query](/power-query/dataflows/incremental-refresh) voor gedetailleerde informatie over het instellen van incrementele vernieuwing.
 
 Er zijn een aantal omstandigheden waarin u incrementeel vernieuwen niet moet instellen:
 

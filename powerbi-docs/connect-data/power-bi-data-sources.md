@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae6047950256a783172ef871c2bd58dc15ff033a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297600"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397387"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
-In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteund voor gegevenssets, inclusief informatie over DirectQuery en de on-premises gegevensgateway. Zie [Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen](../transform-model/service-dataflows-data-sources.md) voor meer informatie over gegevensstromen.
+In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteund voor gegevenssets, inclusief informatie over DirectQuery en de on-premises gegevensgateway. Zie [Verbinding maken met gegevensbronnen voor Power BI-gegevensstromen](../transform-model/dataflows/dataflows-configure-consume.md) voor meer informatie over gegevensstromen.
 
 | Gegevensbron | Verbinding maken via Power BI Desktop | Verbinding maken en vernieuwen via de service | DirectQuery/liveverbinding | Gateway (ondersteund) | Gateway (vereist) | Power BI-gegevensstromen |
 |---|---|---|---|---|---|---|---|
@@ -172,9 +172,6 @@ De optie voor eenmalige aanmelding heeft effect op alle gegevenssets die gebruik
 - Spark
 - SQL Server
 - Teradata
-
-> [!Note]
-> Azure Multi-Factor Authentication (MFA) wordt niet ondersteund. Gebruikers die gebruik willen maken van SSO met DirectQuery, moeten worden uitgesloten van MFA.
 
 ## <a name="next-steps"></a>Volgende stappen
 

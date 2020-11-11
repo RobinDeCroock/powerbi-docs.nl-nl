@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 934ffa649885b270dd7f321f45168723f53bc379
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600360"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397180"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Zelfstudie: Cognitive Services gebruiken in Power BI
 
@@ -146,7 +146,7 @@ Meldt u vervolgens aan met uw **organisatieaccount**.
 
 ![Schermopname toont het dialoogvenster Referenties opgeven, waarin u een organisatieaccount kunt opgeven.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-Selecteer de functie Afbeeldingen taggen, voer _[Binary]_ in het kolomveld in en '_en_' in het veld cultuurgegevens. 
+Selecteer de functie Afbeeldingen taggen, voer _[Binary]_ in het kolomveld in en ' _en_ ' in het veld cultuurgegevens. 
 
 > [!NOTE]
 > U kunt momenteel geen kolom kiezen met een vervolgkeuzelijst. Dat willen we tijdens de beperkte preview zo snel mogelijk oplossen.
@@ -175,11 +175,11 @@ Als de query niet meer nodig is, verwijdert u deze door met de rechtermuisknop t
 In deze zelfstudie hebt u sentimentbeoordeling en functies om afbeeldingen te taggen toegepast in een Power BI-gegevensstroom. Voor meer informatie over Cognitive Services in Power BI leest u de volgende artikelen.
 
 * [Cognitive Services in Azure](/azure/cognitive-services/)
-* Aan de slag [met selfservice gegevensvoorbereiding op gegevensstromen](../transform-model/service-dataflows-overview.md)
+* Aan de slag [met selfservice gegevensvoorbereiding op gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md)
 * Meer informatie over [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/)
 
 Wellicht bent u ook geïnteresseerd in de volgende artikelen.
 
 * [Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)](service-tutorial-invoke-machine-learning-model.md)
-* [Azure Machine Learning-integratie in Power BI (preview)](../transform-model/service-machine-learning-integration.md)
-* [Cognitive Services in Power BI (preview)](../transform-model/service-cognitive-services.md)
+* [Azure Machine Learning-integratie in Power BI (preview)](../transform-model/dataflows/dataflows-machine-learning-integration.md)
+* [Cognitive Services in Power BI (preview)](../transform-model/dataflows/dataflows-machine-learning-integration.md)

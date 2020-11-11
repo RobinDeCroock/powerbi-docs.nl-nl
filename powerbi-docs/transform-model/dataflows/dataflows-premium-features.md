@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ffd11a57267ef69aab7b999a29949c33163e52e8
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e052816cb3d633ba5c01d0331e00572a9b51a579
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91637930"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397295"
 ---
 # <a name="premium-features-of-dataflows"></a>Premium-functies van gegevensstromen
 
@@ -34,14 +34,14 @@ Deze functies worden allemaal gedetailleerd beschreven in de volgende secties.
 
 Dankzij de verbeterde berekeningsengine in Power BI kunnen Power BI Premium-abonnees hun capaciteit gebruiken om het gebruik van gegevensstromen te optimaliseren. Het gebruik van de verbeterde berekeningsengine biedt de volgende voordelen:
 
-* De vernieuwingstijd verkorten die nodig is voor langlopende ETL-stappen over berekende entiteiten, zoals *samenvoegen*, *onderscheiden*, *filteren,*  en*groeperen op*
+* De vernieuwingstijd verkorten die nodig is voor langlopende ETL-stappen over berekende entiteiten, zoals *samenvoegen* , *onderscheiden* , *filteren,*  en *groeperen op*
 * DirectQuery-query's uitvoeren op entiteiten
 
 Het inschakelen van de verbeterde berekeningsengine wordt hierna beschreven. U leest er ook antwoorden op veelgestelde vragen.
 
 ### <a name="using-the-enhanced-compute-engine"></a>De verbeterde berekeningsengine gebruiken
 
-De verbeterde berekeningsengine wordt ingeschakeld op de pagina **capaciteitsinstellingen** in Power BI-service in de sectie **gegevensstromen**. Standaard is de verbeterde berekeningsengine **Uit**. Als u de verbeterde berekeningsengine wilt inschakelen, schakelt u de wisselknop naar **Aan**, zoals weergegeven in de volgende afbeelding, en slaat u de instellingen op. 
+De verbeterde berekeningsengine wordt ingeschakeld op de pagina **capaciteitsinstellingen** in Power BI-service in de sectie **gegevensstromen**. Standaard is de verbeterde berekeningsengine **Uit**. Als u de verbeterde berekeningsengine wilt inschakelen, schakelt u de wisselknop naar **Aan** , zoals weergegeven in de volgende afbeelding, en slaat u de instellingen op. 
 
 ![De verbeterde berekeningsengine inschakelen](media/dataflows-premium-features/compute-engine-settings.png)
 
@@ -52,14 +52,14 @@ Wanneer de verbeterde berekeningsengine is ingeschakeld, keert u terug naar **ge
 
 Als u optimaal gebruik wilt maken van de berekeningsengine, splitst u de ETL-fase op de volgende manier op in twee afzonderlijke gegevensstromen:
 
-* **Gegevensstroom 1**: deze gegevensstroom mag alleen alle vereiste gegevens uit een gegevensbron opnemen en in gegevensstroom 2 plaatsen.
-* **Gegevensstroom 2**: voer alle ETL-bewerkingen in deze tweede gegevensstroom uit, maar zorg ervoor dat u verwijst naar gegevensstroom 1, die dezelfde capaciteit moet hebben. Zorg er ook voor dat u bewerkingen uitvoert die eerst kunnen worden gevouwen (filteren, groeperen op, onderscheiden, samenvoegen), voordat u een andere bewerking uitvoert, om ervoor te zorgen dat de berekeningsengine wordt gebruikt.
+* **Gegevensstroom 1** : deze gegevensstroom mag alleen alle vereiste gegevens uit een gegevensbron opnemen en in gegevensstroom 2 plaatsen.
+* **Gegevensstroom 2** : voer alle ETL-bewerkingen in deze tweede gegevensstroom uit, maar zorg ervoor dat u verwijst naar gegevensstroom 1, die dezelfde capaciteit moet hebben. Zorg er ook voor dat u bewerkingen uitvoert die eerst kunnen worden gevouwen (filteren, groeperen op, onderscheiden, samenvoegen), voordat u een andere bewerking uitvoert, om ervoor te zorgen dat de berekeningsengine wordt gebruikt.
 
 ### <a name="common-questions-and-answers"></a>Veelgestelde vragen en antwoorden
 
 **Vraag:** Ik heb de verbeterde berekeningsengine ingeschakeld, maar mijn vernieuwingen zijn trager. Hoe kan dat?
 
-**Antwoord**: Als u de verbeterde berekeningsengine inschakelt, zijn er twee mogelijke verklaringen die kunnen leiden tot tragere vernieuwingstijden:
+**Antwoord** : Als u de verbeterde berekeningsengine inschakelt, zijn er twee mogelijke verklaringen die kunnen leiden tot tragere vernieuwingstijden:
 
  * Wanneer de verbeterde berekeningsengine is ingeschakeld, is er geheugen vereist om deze goed te laten functioneren. Het geheugen dat beschikbaar is om een vernieuwing uit te voeren, wordt zo gereduceerd, waardoor de kans toeneemt dat de bewerking voor vernieuwen in de wachtrij wordt geplaatst, wat op zijn beurt het aantal gegevensstromen vermindert die tegelijkertijd kunnen worden vernieuwd. Als u dit wilt verhelpen, vergroot u het geheugen dat is toegewezen voor gegevensstromen om ervoor te zorgen dat het beschikbare geheugen voor gelijktijdige gegevensstroomvernieuwingen hetzelfde blijft.
 
@@ -67,11 +67,11 @@ Als u optimaal gebruik wilt maken van de berekeningsengine, splitst u de ETL-fas
 
 **Vraag:** Ik zie de verbeterde berekeningsengine niet schakelen. Hoe kan dat?
 
-**Antwoord**: De verbeterde berekeningsengine wordt in fasen naar regio's over de hele wereld uitgebracht. We verwachten dat tegen het eind van 2020 alle regio's worden ondersteund.
+**Antwoord** : De verbeterde berekeningsengine wordt in fasen naar regio's over de hele wereld uitgebracht. We verwachten dat tegen het eind van 2020 alle regio's worden ondersteund.
 
 **Vraag:** Wat zijn de ondersteunde gegevenstypen voor de berekeningsengine?
 
-**Antwoord**: De verbeterde berekeningsengine en gegevensstromen ondersteunen momenteel de volgende gegevenstypen. Als u voor uw gegevensstroom niet een van de volgende gegevenstypen gebruikt, treedt er een fout op tijdens het vernieuwen:
+**Antwoord** : De verbeterde berekeningsengine en gegevensstromen ondersteunen momenteel de volgende gegevenstypen. Als u voor uw gegevensstroom niet een van de volgende gegevenstypen gebruikt, treedt er een fout op tijdens het vernieuwen:
 
 * Datum/tijd
 * Decimaal getal
@@ -88,9 +88,9 @@ U kunt DirectQuery gebruiken om rechtstreeks verbinding te maken met gegevensstr
 
 Door DirectQuery met gegevensstromen te gebruiken, worden de volgende verbeteringen aangebracht aan uw Power BI- en gegevensstroomprocessen:
 
-* **Vermijd het gebruik van afzonderlijke vernieuwingsschema's**: DirectQuery maakt rechtstreeks verbinding met een gegevensstroom, waardoor het niet meer nodig is om een geïmporteerde gegevensset te maken. Als zodanig betekent het dat als u DirectQuery met uw gegevensstromen gebruikt, u niet langer afzonderlijke vernieuwingsschema's nodig hebt voor de gegevensstroom en de gegevensset om er zeker van te zijn dat uw gegevens worden gesynchroniseerd.
+* **Vermijd het gebruik van afzonderlijke vernieuwingsschema's** : DirectQuery maakt rechtstreeks verbinding met een gegevensstroom, waardoor het niet meer nodig is om een geïmporteerde gegevensset te maken. Als zodanig betekent het dat als u DirectQuery met uw gegevensstromen gebruikt, u niet langer afzonderlijke vernieuwingsschema's nodig hebt voor de gegevensstroom en de gegevensset om er zeker van te zijn dat uw gegevens worden gesynchroniseerd.
 
-* **Filteren van gegevens**: DirectQuery is handig als u wilt werken met een gefilterde weergave van gegevens in een gegevensstroom. Als u gegevens wilt filteren en u wilt werken met een kleinere subset van de gegevens in uw gegevensstroom, kunt u DirectQuery (en de berekeningsengine) gebruiken om gegevensstroomgegevens te filteren en te werken met de gefilterde subset die u nodig hebt.
+* **Filteren van gegevens** : DirectQuery is handig als u wilt werken met een gefilterde weergave van gegevens in een gegevensstroom. Als u gegevens wilt filteren en u wilt werken met een kleinere subset van de gegevens in uw gegevensstroom, kunt u DirectQuery (en de berekeningsengine) gebruiken om gegevensstroomgegevens te filteren en te werken met de gefilterde subset die u nodig hebt.
 
 
 ### <a name="using-directquery-for-dataflows"></a>DirectQuery gebruiken voor gegevensstromen
@@ -104,7 +104,7 @@ Er zijn ook vereisten voor het gebruik van DirectQuery met gegevensstromen:
 
 ### <a name="enable-directquery-for-dataflows"></a>DirectQuery inschakelen voor gegevensstromen
 
-De status van de verbeterde berekeningsengine moet Geoptimaliseerd zijn, om uw gegevensstroom beschikbaar te kunnen maken voor toegang door DirectQuery. Stel de nieuwe optie **Instellingen voor de verbeterde berekeningsengine** in op **Aan**, als u DirectQuery wilt inschakelen voor gegevensstromen. In de volgende afbeelding ziet u de instelling die juist is geselecteerd.
+De status van de verbeterde berekeningsengine moet Geoptimaliseerd zijn, om uw gegevensstroom beschikbaar te kunnen maken voor toegang door DirectQuery. Stel de nieuwe optie **Instellingen voor de verbeterde berekeningsengine** in op **Aan** , als u DirectQuery wilt inschakelen voor gegevensstromen. In de volgende afbeelding ziet u de instelling die juist is geselecteerd.
 
 ![Gedetailleerde controle voor DirectQuery](media/dataflows-premium-features/compute-engine-granular-control.png)
 
@@ -146,7 +146,7 @@ Gegevensstromen kunnen worden ingesteld om incrementeel te vernieuwen om te voor
 
 ![Incrementeel vernieuwen](media/dataflows-premium-features/incremental-refresh.png)
 
-Bij het instellen van incrementele vernieuwing worden er parameters aan de gegevensstroom toegevoegd om het datumbereik te specificeren. Zie het artikel [Incrementeel vernieuwen](https://docs.microsoft.com/power-query/dataflows/incremental-refresh) voor gedetailleerde informatie over het instellen van incrementele vernieuwing.
+Bij het instellen van incrementele vernieuwing worden er parameters aan de gegevensstroom toegevoegd om het datumbereik te specificeren. Zie het artikel [Incrementeel vernieuwen](/power-query/dataflows/incremental-refresh) voor gedetailleerde informatie over het instellen van incrementele vernieuwing.
 
 ### <a name="considerations-for-when-not-to-set-incremental-refresh"></a>Overwegingen voor wanneer incrementeel vernieuwen niet moet worden ingesteld
 

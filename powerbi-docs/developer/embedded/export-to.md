@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: f997547bb61bf203f7806dbe68d45beb29c6538b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116449"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396789"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -28,15 +28,15 @@ Via de API `exportToFile` kunt u een Power BI-rapport exporteren met behulp van 
 
 U kunt de exportfunctie op verschillende manieren gebruiken. Hieronder vindt u enkele voorbeelden:
 
-* **Knop Verzenden voor afdrukken**: maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een PDF- of PPTX-bestand. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met behulp van bladwijzers kunt u het rapport met een specifieke configuratie exporteren, bijvoorbeeld met filters, slicers en aanvullende instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
+* **Knop Verzenden voor afdrukken** : maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een PDF- of PPTX-bestand. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met behulp van bladwijzers kunt u het rapport met een specifieke configuratie exporteren, bijvoorbeeld met filters, slicers en aanvullende instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
 
-* **E-mailbijlage**: verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
+* **E-mailbijlage** : verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
 
 ## <a name="using-the-api"></a>De API gebruiken
 
 Voordat u de API gebruikt, moet u controleren of de volgende [beheerdersinstellingen voor de tenant](../../admin/service-admin-portal.md#tenant-settings) zijn ingeschakeld:
 * **Rapporten als PowerPoint-presentaties of PDF-documenten exporteren** - Standaard ingeschakeld.
-* **Rapporten exporteren als afbeeldingsbestanden**: alleen vereist voor *PNG* en standaard uitgeschakeld.
+* **Rapporten exporteren als afbeeldingsbestanden** : alleen vereist voor *PNG* en standaard uitgeschakeld.
 
 De API is asynchroon. Wanneer de API [exportToFile](/rest/api/power-bi/reports/exporttofile) is aangeroepen, wordt een exporttaak geactiveerd. Nadat de exporttaak is geactiveerd, gebruikt u [polling](/rest/api/power-bi/reports/getexporttofilestatus) om de taak bij te houden totdat deze is voltooid.
 
@@ -52,7 +52,7 @@ Geef de pagina’s op die u wilt afdrukken, volgens de retourwaarde voor [pagina
 
 ### <a name="bookmarks"></a>Bladwijzers
 
-[Bladwijzers](../../consumer/end-user-bookmarks.md) kunnen worden gebruikt om een rapport op te slaan in een specifieke configuratie, inclusief toegepaste filters en de status van de visuals van het rapport. U kunt de API [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) gebruiken om de bladwijzer van een rapport op twee manieren programmatisch te exporteren:
+[Bladwijzers](../../consumer/end-user-bookmarks.md) kunnen worden gebruikt om een rapport op te slaan in een specifieke configuratie, inclusief toegepaste filters en de status van de visuals van het rapport. U kunt de API [exportToFile](/rest/api/power-bi/reports/exporttofile) gebruiken om de bladwijzer van een rapport op twee manieren programmatisch te exporteren:
 
 * **Een bestaande bladwijzer exporteren**
 

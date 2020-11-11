@@ -7,18 +7,18 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 5e07cafc5c507d090d56a0d973e2c02aa873c3e2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116495"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483714"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals
 
-Service-principals zijn een Azure Active Directory-*appregistratie* die u in uw tenant maakt om onbeheerde bewerkingen op resource- en serviceniveau uit te voeren. Ze zijn een uniek type gebruikersidentiteit met een app-naam, toepassings-ID, tenant-ID en *clientgeheim* of certificaat voor een wachtwoord.
+Service-principals zijn een Azure Active Directory- *appregistratie* die u in uw tenant maakt om onbeheerde bewerkingen op resource- en serviceniveau uit te voeren. Ze zijn een uniek type gebruikersidentiteit met een app-naam, toepassings-ID, tenant-ID en *clientgeheim* of certificaat voor een wachtwoord.
 
 Power BI Premium maakt gebruik van dezelfde functionaliteit van service-principals als Power BI Embedded. Zie [Power BI-inhoud insluiten met service-principals](../developer/embedded/embed-service-principal.md) voor meer informatie.
 
@@ -32,9 +32,6 @@ In **Power BI Premium** kunnen service-principals ook worden gebruikt met het [X
 Alleen [nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) ondersteunen XMLA-eindpuntverbindingen met service-principals. Klassieke-werkruimten worden niet ondersteund. Een service-principal heeft alleen de machtigingen die nodig zijn om taken uit te voeren voor werkruimten die er aan zijn toegewezen. Machtigingen worden toegewezen via werkruimtetoegang, net als bij gewone UPN-accounts.
 
 Schrijfbewerkingen kunnen alleen worden uitgevoerd als voor de **workload Gegevensset** van de capaciteit het [XMLA-eindpunt voor lezen-schrijven is ingeschakeld](service-premium-connect-tools.md#enable-xmla-read-write). Voor gegevenssets die vanuit Power BI Desktop worden gepubliceerd, moet de functie [Indeling voor geavanceerde metagegevens](../connect-data/desktop-enhanced-dataset-metadata.md) zijn ingeschakeld.
-
-> [!NOTE]
-> De functie XMLA-eindpunt in Power BI Premium is **in de preview-fase**. Functies in de preview-fase mogen niet worden gebruikt in een productieomgeving. Bepaalde functionaliteit, ondersteuning en documentatie is beperkt.  Raadpleeg de [Microsoft Online Services-voorwaarden (OST)](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) voor meer informatie.
 
 ## <a name="create-a-service-principal"></a>Een service-principal maken
 
@@ -53,7 +50,7 @@ Als u de toegang van de service-principal wilt beperken tot specifieke tenantins
 
 Voordat u service-principals in Power BI kunt gebruiken, moet een beheerder eerst toegang tot service-principals inschakelen in de Power BI-beheerportal.
 
-Ga naar de Power BI-**beheerportal** > **Tenantinstellingen** en vouw daar **Toestaan dat service-principals gebruikmaken van API's van Power BI** uit. Klik vervolgens op **Ingeschakeld**. Als u machtigingen wilt toepassen op een beveiligingsgroep, moet u de groepsnaam aan **specifieke beveiligingsgroepen** toevoegen.
+Ga naar de Power BI- **beheerportal** > **Tenantinstellingen** en vouw daar **Toestaan dat service-principals gebruikmaken van API's van Power BI** uit. Klik vervolgens op **Ingeschakeld**. Als u machtigingen wilt toepassen op een beveiligingsgroep, moet u de groepsnaam aan **specifieke beveiligingsgroepen** toevoegen.
 
 ![Instellingen voor werkruimte](media/service-premium-service-principal/admin-portal.png)
 

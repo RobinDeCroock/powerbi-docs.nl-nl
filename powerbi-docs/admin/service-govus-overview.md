@@ -10,12 +10,12 @@ ms.date: 10/30/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: fe4f9c54b45035cc22f2e582a75ba98d648c549d
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: c90d15c20b54a25ccea5865302753e0189359be2
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132362"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396099"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -124,8 +124,8 @@ De volgende tabel bevat een lijst met functies die niet beschikbaar zijn in een 
 |[Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen](../connect-data/power-bi-data-sources.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Grote modellen](service-premium-large-models.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
-|[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/service-dataflows-enhanced-compute-engine.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
-|[Gegevensstromen - directe query](../transform-model/service-dataflows-directquery.md) | K4 2020 |K4 2020|![niet beschikbaar](../media/no.png)|
+|[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/dataflows/dataflows-premium-features.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
+|[Gegevensstromen - directe query](../transform-model/dataflows/dataflows-configure-consume.md) | K4 2020 |K4 2020|![niet beschikbaar](../media/no.png)|
 |[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|K4 2020|K4 2020 |K4 2020|
 |[Sjabloon-apps](../connect-data/service-template-apps-overview.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
 |[Aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|

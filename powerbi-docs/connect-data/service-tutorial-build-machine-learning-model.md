@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ad4715bbecc94934d0f2ac53551b27d82cb4282c
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 49f1b46e89fd05d05928de631b0ea42832801a05
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916953"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397226"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>Zelfstudie: Een machine learning-model bouwen in Power BI
 
@@ -189,4 +189,4 @@ In deze zelfstudie hebt u een binair voorspellingsmodel gemaakt en toegepast in 
 * Het model toepassen op een gegevensstroomentiteit
 * De beoordeelde uitvoer van het model gebruiken in een Power BI-rapport
 
-Zie [Geautomatiseerde machine learning in Power BI](../transform-model/service-machine-learning-automated.md) voor meer informatie over geautomatiseerde machine learning in Power BI.
+Zie [Geautomatiseerde machine learning in Power BI](../transform-model/dataflows/dataflows-machine-learning-integration.md) voor meer informatie over geautomatiseerde machine learning in Power BI.

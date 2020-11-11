@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 93ccb8c02e71165dfd23bcd82b21ae2758e03d43
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252539"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396191"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Manieren voor samenwerken en delen in Power BI
 
@@ -158,7 +158,7 @@ Meer informatie over [het maken en gebruiken van gedeelde gegevenssets](../conne
 
 ## <a name="create-dataflows"></a>Gegevensstromen maken
 
-Met *gegevensstromen* kunt u zelfstandig gegevens uit verschillende bronnen samenvoegen en voorbereiden voor modellering. Analisten maken gegevensstromen om big data op te nemen, te transformeren, te integreren en te verrijken. In de Power BI-service maken en beheren ze gegevensstromen in werkruimten. Meer informatie over [selfservice voor gegevensvoorbereiding met gegevensstromen](../transform-model/service-dataflows-overview.md).
+Met *gegevensstromen* kunt u zelfstandig gegevens uit verschillende bronnen samenvoegen en voorbereiden voor modellering. Analisten maken gegevensstromen om big data op te nemen, te transformeren, te integreren en te verrijken. In de Power BI-service maken en beheren ze gegevensstromen in werkruimten. Meer informatie over [selfservice voor gegevensvoorbereiding met gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md).
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

@@ -9,16 +9,16 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 48e8788ca81365e1f46dbe6d3c4804c10f3f308a
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8de033c673d9d08833fdc5a935b92490db369104
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525496"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396743"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>AI-inzichten gebruiken in Power BI Desktop
 
-In Power BI kunt u AI-inzichten gebruiken om toegang te krijgen tot een verzameling vooraf getrainde machine learning-modellen die kunnen helpen bij het voorbereiden van gegevens. AI-inzichten is toegankelijk vanuit de **Power Query-editor**, en de bijbehorende functies zijn toegankelijk via de tabbladen **Startpagina** en **Kolom toevoegen** in de **Power Query-editor**. 
+In Power BI kunt u AI-inzichten gebruiken om toegang te krijgen tot een verzameling vooraf getrainde machine learning-modellen die kunnen helpen bij het voorbereiden van gegevens. AI-inzichten is toegankelijk vanuit de **Power Query-editor** , en de bijbehorende functies zijn toegankelijk via de tabbladen **Startpagina** en **Kolom toevoegen** in de **Power Query-editor**. 
 
 ![Locatie van AI-inzichten op het lint](media/desktop-ai-insights/ai-insights-00.png)
 
@@ -83,7 +83,7 @@ Op dit moment ondersteunt Sentimentanalyse Engels, Duits, Spaans en Frans. Ander
 
 #### <a name="tag-images"></a>Afbeeldingen taggen
 
-De functie **Afbeeldingen taggen** retourneert tags op basis van meer dan tweeduizend herkenbare objecten, levende wezens, landschappen en acties. Wanneer tags ambigu of niet algemeen bekend zijn, biedt de uitvoer *hints* om de betekenis van de tag in de context van een bekende instelling te duiden. Tags worden niet als taxonomie geordend en er bestaan geen overnamehiërarchieën. Een verzameling inhoudstags vormt de basis voor een *afbeeldingsbeschrijving*, die wordt weergegeven als door mensen leesbare taal in volzinnen.
+De functie **Afbeeldingen taggen** retourneert tags op basis van meer dan tweeduizend herkenbare objecten, levende wezens, landschappen en acties. Wanneer tags ambigu of niet algemeen bekend zijn, biedt de uitvoer *hints* om de betekenis van de tag in de context van een bekende instelling te duiden. Tags worden niet als taxonomie geordend en er bestaan geen overnamehiërarchieën. Een verzameling inhoudstags vormt de basis voor een *afbeeldingsbeschrijving* , die wordt weergegeven als door mensen leesbare taal in volzinnen.
 
 Na het uploaden van een afbeelding of het specificeren van een afbeeldings-URL, leveren de algoritmen van Computer Vision als output tags die zijn gebaseerd op objecten, levende wezens en acties die in de afbeelding zijn herkend. Niet alleen het belangrijkste onderwerp, bijvoorbeeld een persoon op de voorgrond, maar ook de setting (binnen of buiten), meubels, hulpmiddelen, planten, dieren, accessoires, gadgets enz. kunnen worden getagd.
 
@@ -158,7 +158,7 @@ Een gegevenswetenschapper kan om deze mogelijkheid te gebruiken de BI-analist ee
 
 Deze functionaliteit wordt alleen ondersteund voor Power BI Desktop, Power BI-gegevensstromen en voor Power Query Online in de Power BI-service.
 
-Raadpleeg [Selfservice voor gegevensvoorbereiding in Power BI](service-dataflows-overview.md) voor meer informatie over gegevensstromen.
+Raadpleeg [Selfservice voor gegevensvoorbereiding in Power BI](./dataflows/dataflows-introduction-self-service.md) voor meer informatie over gegevensstromen.
 
 Voor meer informatie over Azure Machine Learning raadpleegt u de volgende artikelen:
 
@@ -225,7 +225,7 @@ In dit artikel hebt u een overzicht gekregen over hoe u Machine Learning integre
 
 - [Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI](../connect-data/service-tutorial-invoke-machine-learning-model.md)
 - [Zelfstudie: Cognitive Services gebruiken in Power BI](../connect-data/service-tutorial-use-cognitive-services.md)
-- [Cognitive Services in Power BI](service-cognitive-services.md)
-- [Azure Machine Learning-integratie in Power BI](service-machine-learning-integration.md)
+- [Cognitive Services in Power BI](./dataflows/dataflows-machine-learning-integration.md)
+- [Azure Machine Learning-integratie in Power BI](./dataflows/dataflows-machine-learning-integration.md)
 - [Premium-capaciteiten bewaken met de app](../admin/service-admin-premium-monitor-capacity.md)
 - [AI metrics now available in Power BI Premium Capacity Metrics app](https://powerbi.microsoft.com/blog/ai-metrics-now-available-in-power-bi-premium-capacity-metrics-app/)

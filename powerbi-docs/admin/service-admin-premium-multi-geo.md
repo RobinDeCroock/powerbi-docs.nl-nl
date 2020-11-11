@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/29/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 899dc5092ac86e08d552758e74dfabd8b373f5c0
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 93d982c684014430009a80112da841820e7b0fc9
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044701"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396383"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Multi-Geo-ondersteuning voor Power BI Premium configureren
 
@@ -98,7 +98,7 @@ Gegevenssets met een grote opslagindeling moeten niet worden verplaatst uit de r
 - Een in de cache opgeslagen query in een verafgelegen regio blijft in die regio wanneer de query niet wordt gebruikt. Andere gegevens die onderweg zijn kunnen echter heen en weer worden verplaatst tussen meerdere geografische gebieden.
 - Bij het verplaatsen van gegevens van de ene naar de andere regio in een omgeving met ondersteuning voor meerdere geografische gebieden, kunnen de brongegevens gedurende maximaal 30 dagen aanwezig blijven in de regio van waaruit de gegevens zijn verplaatst. Gedurende die periode hebben eindgebruikers geen toegang tot de gegevens. De gegevens worden gedurende deze periode van 30 dagen verwijderd uit deze regio en vernietigd.
 - Verkeer als gevolg van queryteksten en queryresultaten voor geïmporteerde gegevensmodellen wordt niet via de thuisregio verzonden. De metagegevens van het rapport zijn nog steeds afkomstig uit de externe regio en bepaalde DNS-routeringsstatussen kunnen verkeer uit de regio halen. 
-- De functie [gegevensstromen](../transform-model/service-dataflows-overview.md) wordt momenteel niet ondersteund in Multi-Geo.
+- De functie [gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md) wordt momenteel niet ondersteund in Multi-Geo.
 - Wanneer gegevenssets met een grote opslagindeling worden verplaatst uit de regio waarin ze zijn gemaakt, kan de gegevensset niet in rapporten worden geladen. Verplaats de gegevensset met een grote opslagindeling terug naar de oorspronkelijke regio om deze set beschikbaar te maken. 
 
 ## <a name="next-steps"></a>Volgende stappen
@@ -107,4 +107,3 @@ Gegevenssets met een grote opslagindeling moeten niet worden verplaatst uit de r
 - [Multi-Geo voor capaciteiten van Power BI Embedded](../developer/embedded/embedded-multi-geo.md)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
-

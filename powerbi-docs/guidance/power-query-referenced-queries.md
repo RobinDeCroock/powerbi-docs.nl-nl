@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/30/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 21105513bf77a4ede8d788860a99fedaf3a6c48c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9e3ae90363ade08d7600a4ebbd032ef5778257e2
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214867"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396996"
 ---
 # <a name="referencing-power-query-queries"></a>Verwijzende Power Query-query's
 
@@ -21,11 +21,11 @@ Dit artikel is geschreven voor iedereen die gegevensmodellen maakt met Power BI 
 
 Dit houdt het volgende in: _Wanneer een query verwijst naar een andere query, is dit alsof de stappen in de tweede query worden gecombineerd met en worden uitgevoerd vóór, de stappen in de eerste query._
 
-Bekijk de volgende query's: **Query1** haalt gegevens op van een webservice en het laden ervan is uitgeschakeld. **Query2**, **Query3**en **Query4** verwijzen allemaal naar **query1** en de uitvoergegevens ervan worden in het gegevensmodel geladen.
+Bekijk de volgende query's: **Query1** haalt gegevens op van een webservice en het laden ervan is uitgeschakeld. **Query2** , **Query3** en **Query4** verwijzen allemaal naar **query1** en de uitvoergegevens ervan worden in het gegevensmodel geladen.
 
 ![Weergave van de weergave Query-afhankelijkheden met de query's die zijn beschreven in de vorige alinea.](media/power-query-referenced-queries/query-dependencies-web-service.png)
 
-Men gaat er vaak vanuit dat bij het vernieuwen van het gegevensmodel in Power Query het resultaat van **Query1** wordt opgehaald en opnieuw wordt gebruikt door query's waarnaar wordt verwezen. Dat is echter onjuist. In werkelijkheid worden **Query2**, **Query3** en **Query4** afzonderlijk uitgevoerd in Power Query.
+Men gaat er vaak vanuit dat bij het vernieuwen van het gegevensmodel in Power Query het resultaat van **Query1** wordt opgehaald en opnieuw wordt gebruikt door query's waarnaar wordt verwezen. Dat is echter onjuist. In werkelijkheid worden **Query2** , **Query3** en **Query4** afzonderlijk uitgevoerd in Power Query.
 
 U kunt het zien alsof **Query2** de stappen van **Query1** bevat. Dit geldt ook voor **Query3** en **Query4**. Het volgende diagram geeft een duidelijk beeld van hoe de query's worden uitgevoerd.
 
@@ -42,17 +42,17 @@ Het gebruik van de functie [Table.Buffer](/powerquery-m/table-buffer) in **Query
 
 Over het algemeen raden we u aan om naar query's te verwijzen om dubbele querylogica te voorkomen. Maar, zoals beschreven in dit artikel, kan deze methode leiden tot trage gegevensvernieuwing en overbelasting van gegevensbronnen.
 
-U wordt aangeraden om in plaats daarvan een [gegevensstroom](../transform-model/service-dataflows-overview.md) te maken. Het gebruik van een gegevensstroom kan de gegevensvernieuwingstijd verbeteren en de invloed op uw gegevensbronnen verminderen.
+U wordt aangeraden om in plaats daarvan een [gegevensstroom](../transform-model/dataflows/dataflows-introduction-self-service.md) te maken. Het gebruik van een gegevensstroom kan de gegevensvernieuwingstijd verbeteren en de invloed op uw gegevensbronnen verminderen.
 
 U kunt de gegevensstroom zo ontwerpen dat de brongegevens en transformaties worden ingekapseld. Omdat de gegevensstroom een blijvende opslag van gegevens in de Power BI-service is, gaat het ophalen van gegevens snel. Dus zelfs wanneer queryverwijzingen resulteren in meerdere aanvragen voor de gegevensstroom, kunnen de tijden voor het vernieuwen van gegevens worden verbeterd.
 
-Als **Query1** opnieuw is ontworpen als een gegevensstroomentiteit, kunnen **Query2**, **Query3**en **Query4** deze gebruiken als een gegevensbron. In dit ontwerp wordt de bronentiteit van **Query1** slechts eenmaal geëvalueerd.
+Als **Query1** opnieuw is ontworpen als een gegevensstroomentiteit, kunnen **Query2** , **Query3** en **Query4** deze gebruiken als een gegevensbron. In dit ontwerp wordt de bronentiteit van **Query1** slechts eenmaal geëvalueerd.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 Bekijk de volgende resources voor meer informatie over dit artikel:
 
-- [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/service-dataflows-overview.md)
-- [Gegevensstromen maken en gebruiken in Power BI](../transform-model/service-dataflows-create-use.md)
+- [Selfservice voor gegevensvoorbereiding in Power BI](../transform-model/dataflows/dataflows-introduction-self-service.md)
+- [Gegevensstromen maken en gebruiken in Power BI](../transform-model/dataflows/dataflows-create.md)
 - Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 - Suggesties? [Ideeën bijdragen om Power BI te verbeteren](https://ideas.powerbi.com/)

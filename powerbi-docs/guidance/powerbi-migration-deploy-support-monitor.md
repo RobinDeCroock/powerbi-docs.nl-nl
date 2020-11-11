@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: f9268409977b3aa78e1ebda6f1f6b2e732451455
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3e0bb00042b869061b7cb7cebf624e324db7e916
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681017"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396122"
 ---
 # <a name="deploy-to-power-bi"></a>Implementeren in Power BI
 
@@ -76,7 +76,7 @@ Tijdens het implementatieproces moet u mogelijk samenwerken met uw Power BI-behe
 - **Gatewayonderhoud:** Mogelijk moet een [nieuwe gegevensbron](../connect-data/service-gateway-data-sources.md) in de gegevensgateway worden geregistreerd.
 - **Gatewaystuurprogramma's en -connectors:** Een nieuwe eigen gegevensbron vereist mogelijk de installatie van een nieuw stuurprogramma of een aangepaste connector op elke server in het gatewaycluster.
 - **Nieuwe Premium-capaciteit maken:** U kunt mogelijk een bestaande [Premium-capaciteit](../admin/service-premium-capacity-manage.md) gebruiken. Er kunnen ook situaties zijn waarin een nieuwe Premium-capaciteit is gegarandeerd. Dit kan het geval zijn wanneer u de werkbelasting van een afdeling met opzet wilt scheiden.
-- **Een Power BI-gegevensstroom instellen:** Activiteiten voor gegevens voorbereiding kunnen met behulp van Power Query Online eenmaal worden ingesteld in een [Power BI-gegevensstroom](../transform-model/service-dataflows-overview.md). Hiermee voorkomt u dat u gegevensvoorbereiding in veel verschillende Power BI Desktop-bestanden moet repliceren.
+- **Een Power BI-gegevensstroom instellen:** Activiteiten voor gegevens voorbereiding kunnen met behulp van Power Query Online eenmaal worden ingesteld in een [Power BI-gegevensstroom](../transform-model/dataflows/dataflows-introduction-self-service.md). Hiermee voorkomt u dat u gegevensvoorbereiding in veel verschillende Power BI Desktop-bestanden moet repliceren.
 - **Een nieuwe organisatie-visual registreren:** [Organisatie-visuals](../developer/visuals/power-bi-custom-visuals-organization.md) voor aangepaste visuals die niet afkomstig zijn van AppSource, kunnen in de beheerportal worden geregistreerd.
 - **Aanbevolen inhoud instellen:** Er bestaat een tenantinstelling die bepaalt wie [inhoud mag aanbevelen](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/) op de startpagina van de Power BI-service.
 - **Vertrouwelijkheidslabels instellen:** Alle [vertrouwelijkheidslabels](../admin/service-security-data-protection-overview.md) zijn geïntegreerd in Microsoft Information Protection (aanbevolen).

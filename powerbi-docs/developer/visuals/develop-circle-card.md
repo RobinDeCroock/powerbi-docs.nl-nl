@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: 48a9196dbcf5106ed01e55be8285450ecfc7ca77
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 6c4b39fff9513143c946cc2e92294ae4cbe81427
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92050802"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397456"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Zelfstudie: Een visual van een cirkelkaart ontwikkelen in Power BI
 
@@ -31,11 +31,11 @@ In deze zelfstudie leert u het volgende:
 
 Voordat u begint met het ontwikkelen van uw Power BI-visual controleert u of u over alles beschikt wat hieronder wordt vermeld.
 
-* U hebt een **Power BI Pro**-account. Als u geen sleutel hebt, kunt u zich [registreren voor een gratis proefversie](https://powerbi.microsoft.com/pricing/).
+* U hebt een **Power BI Pro** -account. Als u geen sleutel hebt, kunt u zich [registreren voor een gratis proefversie](https://powerbi.microsoft.com/pricing/).
 
 * [Visual Studio Code (VS Code)](https://www.visualstudio.com/). VS Code is een ideale IDE (Integrated Development Environment) voor het ontwikkelen van JavaScript- en TypeScript-toepassingen.
 
-* [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell) versie 4 of hoger (voor Windows). Of [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) (voor OSX).
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) versie 4 of hoger (voor Windows). Of [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) (voor OSX).
 
 * Een omgeving die is voorbereid voor het ontwikkelen van een Power BI-visual. [Lees hier hou u uw omgeving instelt voor het ontwikkelen van een Power BI-visual](environment-setup.md).
 
@@ -103,11 +103,11 @@ U kunt ook uw eigen rapport gebruiken om de visual van een cirkelkaart te testen
     Dit is een eenvoudige visual die aangeeft hoe vaak de Update-methode van de visual is aangeroepen. Op dit moment is dat nul omdat de visual nog geen gegevens ophaalt.
 
     >[!NOTE]
-    >Als in de visual een bericht over een verbindingsfout wordt weergegeven, opent u een nieuw tabblad in de browser, gaat u naar [https://localhost:8080/assets/status](https://localhost:8080/assets/status) en geeft u uw browser toestemming om dit adres te gebruiken.
+    >Als in de visual een bericht over een verbindingsfout wordt weergegeven, opent u een nieuw tabblad in de browser, gaat u naar `https://localhost:8080/assets/status` en geeft u uw browser toestemming om dit adres te gebruiken.
     >
     >![Schermopname van de nieuwe visual met een bericht over een verbindingsfout.](media/develop-circle-card/connection-error.png)
 
-6. Selecteer de nieuwe visual, ga naar het deelvenster **Velden**, vouw **Sales** uit en selecteer **Quantity**.
+6. Selecteer de nieuwe visual, ga naar het deelvenster **Velden** , vouw **Sales** uit en selecteer **Quantity**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van het veld Quantity in de Power B I-service in de tabel Sales in het rapport U S Sales Analysis.](media/develop-circle-card/fields-sales-quantity.png)
@@ -128,7 +128,7 @@ In dit gedeelte leert u hoe u van het visuele element een cirkel maakt en hoe u 
 
 Pas het bestand **visual.ts** aan door een paar regels code te verwijderen en toe te voegen.
 
-1. Open het project in VS Code (**File** > **Open Folder**).
+1. Open het project in VS Code ( **File** > **Open Folder** ).
 
 2. Vouw in het deelvenster **Explorer** de map **src** uit en selecteert het bestand **visual.ts**.
 
@@ -140,7 +140,7 @@ Pas het bestand **visual.ts** aan door een paar regels code te verwijderen en to
 
 3. Verwijder de volgende regels met code uit het bestand *visual.ts*.
 
-    * De regel voor het importeren van de *VisualSettings*:
+    * De regel voor het importeren van de *VisualSettings* :
         ```typescript
         import { VisualSettings } from "./settings";
         ```
@@ -151,11 +151,11 @@ Pas het bestand **visual.ts** aan door een paar regels code te verwijderen en to
 
     * Alle coderegels binnen de methode *update*.
 
-    * Alle resterende coderegels binnen de methode *update*, waaronder de methoden *parseSettings* en *enumerateObjectInstances*.
+    * Alle resterende coderegels binnen de methode *update* , waaronder de methoden *parseSettings* en *enumerateObjectInstances*.
 
 4. Voeg de volgende regels met code toe aan het einde van de sectie import:
 
-    * *IVisualHost*: een verzameling eigenschappen en services die kunnen worden gebruikt voor interactie met de visual-host (Power BI).
+    * *IVisualHost* : een verzameling eigenschappen en services die kunnen worden gebruikt voor interactie met de visual-host (Power BI).
 
          ```typescript
         import IVisualHost = powerbi.extensibility.IVisualHost;
@@ -363,7 +363,7 @@ export class Visual implements IVisual {
 
 Verwijder overbodige regels met code uit het capabilities-bestand.
 
-1. Open het project in VS Code (**File** > **Open Folder**).
+1. Open het project in VS Code ( **File** > **Open Folder** ).
 
 2. Selecteer het bestand **capabilities.json**.
 
@@ -501,7 +501,7 @@ Controleer of in de visual van de cirkelkaart het veld *measure* wordt weergegev
 
 ### <a name="configure-the-visual-to-consume-data"></a>De visual configureren om gegevens te gebruiken
 
-Pas het bestand **visual.ts**zo aan dat de visual van de cirkelkaart gegevens kan gebruiken.
+Pas het bestand **visual.ts** zo aan dat de visual van de cirkelkaart gegevens kan gebruiken.
 
 1. Open het bestand **visual.ts** in VS Code.
 
@@ -511,7 +511,7 @@ Pas het bestand **visual.ts**zo aan dat de visual van de cirkelkaart gegevens ka
     import DataView = powerbi.DataView;
     ```
 
-3. Ga als volgt te werk in de *update*-methode:
+3. Ga als volgt te werk in de *update* -methode:
 
     * Voeg de volgende instructie toe als de eerste instructie. Deze instructie wijst *dataView* toe aan een variabele voor eenvoudige toegang en declareert de variabele om te verwijzen naar het object *dataView*.
 

@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 590e28c727cab88b008d7a05e7df22244e8dabf0
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fd57d893a0c381c345364306e04d4897597b36f1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803167"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396973"
 ---
-# <a name="plandeploymenttomigratetopowerbi"></a>Implementatie voor migratie naar Power BI plannen
+# <a name="plan-deployment-to-migrate-to-power-bi"></a>Implementatie voor migratie naar Power BI plannen
 
-In dit artikel wordt **fase 2**beschreven die betrekking heeft op het plannen van de migratie voor één Power BI-oplossing.
+In dit artikel wordt **fase 2** beschreven die betrekking heeft op het plannen van de migratie voor één Power BI-oplossing.
 
 :::image type="content" source="media/powerbi-migration-planning/migrate-to-powerbi-stage-2.png" alt-text="Afbeelding van de fasen van een Power BI-migratie. Fase 2 wordt in dit artikel uitgelicht.":::
 
@@ -96,7 +96,7 @@ De gegevens die voor een rapport nodig zijn, kunnen van invloed zijn op verschil
 - Moet een bestaande gedeelde gegevensset worden uitgebreid met nieuwe gegevens of metingen om aan extra behoeften te voldoen?
 - Welke [modus voor gegevensopslag](../transform-model/desktop-storage-mode.md) is het meest geschikt? Opties zijn onder andere Import, DirectQuery, Composite en Live Connection.
 - Moeten [aggregaties](../transform-model/desktop-aggregations.md) worden gebruikt om de queryprestaties te verbeteren?
-- Is het maken van een [gegevensstroom](../transform-model/service-dataflows-overview.md) nuttig en kan deze fungeren als een bron voor een groot aantal gegevenssets?
+- Is het maken van een [gegevensstroom](../transform-model/dataflows/dataflows-introduction-self-service.md) nuttig en kan deze fungeren als een bron voor een groot aantal gegevenssets?
 - Moet een nieuwe [gatewaygegevensbron](../connect-data/service-gateway-data-sources.md) worden geregistreerd?
 
 ## <a name="decide-where-original-content-will-be-stored"></a>Bepaal waar de oorspronkelijke inhoud wordt opgeslagen

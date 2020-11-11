@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0743a7ac0d12cba8bbde54464a275a78f7c88eff
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746603"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396697"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Een Azure AD-toegangstoken ophalen voor uw Power BI-toepassing
 
@@ -55,7 +55,7 @@ var @params = new NameValueCollection
 
 Nadat u de querytekenreeks hebt gemaakt, stuurt u deze naar **Azure AD** om een **autorisatiecode** te verkrijgen.  Hieronder staat een volledige C#-methode voor het maken van een querytekenreeks met een **autorisatiecode** en het sturen hiervan naar **Azure AD**. Vervolgens gebruikt u de **autorisatiecode** om een **toegangstoken** op te halen.
 
-Binnen redirect.aspx.cs wordt vervolgens [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) aangeroepen om het token te genereren.
+Binnen redirect.aspx.cs wordt vervolgens [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) aangeroepen om het token te genereren.
 
 #### <a name="get-authorization-code"></a>Autorisatiecode verkrijgen
 
@@ -168,7 +168,7 @@ Deze benadering wordt meestal gebruikt voor ISV-toepassingen waarbij de app eige
 
 ### <a name="access-token-with-a-master-account"></a>Toegangstoken met een hoofdaccount
 
-Voor deze benadering gebruikt u een enkel *hoofd*account dat een Power BI Pro-gebruiker is. De accountreferenties worden in de toepassing opgeslagen. Deze opgeslagen referenties worden door de toepassing gebruikt om te verifiëren bij Azure AD. De onderstaande voorbeeldcode is afkomstig uit het [voorbeeld waarbij de app eigenaar is van de gegevens](https://github.com/guyinacube/PowerBI-Developer-Samples)
+Voor deze benadering gebruikt u een enkel *hoofd* account dat een Power BI Pro-gebruiker is. De accountreferenties worden in de toepassing opgeslagen. Deze opgeslagen referenties worden door de toepassing gebruikt om te verifiëren bij Azure AD. De onderstaande voorbeeldcode is afkomstig uit het [voorbeeld waarbij de app eigenaar is van de gegevens](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 ### <a name="access-token-with-service-principal"></a>Toegangstoken met service-principal
 
@@ -177,7 +177,7 @@ Voor deze benadering gebruikt u een [service-principal](embed-service-principal.
 #### <a name="embedservicecs"></a>EmbedService.cs
 
 ```csharp
-var AuthorityURL  = "https://login.microsoftonline.com/common/"
+var AuthorityURL  = "https://login.microsoftonline.com/<TenantId>/"
 var ResourceURL  = "https://analysis.windows.net/powerbi/api"
 var authenticationContext = new AuthenticationContext(AuthorityUrl);
        AuthenticationResult authenticationResult = null;

@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 7d4a548ab24e8493cef340026642021a2f923ee1
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749041"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397410"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded
 
@@ -32,9 +32,9 @@ De huidige Power BI-werkruimteverzameling blijft beschikbaar gedurende een beper
 Voordat u aan de slag gaat met de migratie naar de nieuwe Power BI Embedded, kunt u snel een overzicht raadplegen voor hulp bij het instellen van uw nieuwe Power BI Embedded-omgeving met het [instelprogramma voor insluiten](https://aka.ms/embedsetup).
 
 Kies de oplossing die het beste bij u past:
-* **Insluiten voor uw klanten**: wanneer u geïnteresseerd bent in een oplossing [waarbij de app eigenaar van de gegevens is](https://aka.ms/embedsetup/AppOwnsData). [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. 
+* **Insluiten voor uw klanten** : wanneer u geïnteresseerd bent in een oplossing *waarbij de app eigenaar van de gegevens is*. [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. 
 
-* **Insluiten voor uw organisatie**: wanneer u geïnteresseerd bent in een oplossing [waarbij de gebruiker eigenaar van de gegeven is](https://aka.ms/embedsetup/UserOwnsData). [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u de Power BI-service uitbreiden.
+* **Insluiten voor uw organisatie** : wanneer u geïnteresseerd bent in een oplossing *waarbij de gebruiker eigenaar van de gegeven is*. [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u de Power BI-service uitbreiden.
 
 ## <a name="prepare-for-the-migration"></a>Voorbereiden voor de migratie
 
@@ -145,7 +145,7 @@ Dit zijn gegevenssets/rapporten die zijn gemaakt vóór oktober 2016. Download P
 
 #### <a name="push-dataset--report"></a>Pushgegevensset en rapport
 
-Download PBIX biedt geen ondersteuning voor *Push API*-gegevenssets. Push API-gegevenssets kunnen niet worden overgezet van PaaS naar SaaS.
+Download PBIX biedt geen ondersteuning voor *Push API* -gegevenssets. Push API-gegevenssets kunnen niet worden overgezet van PaaS naar SaaS.
 
 **Stroom**
 
