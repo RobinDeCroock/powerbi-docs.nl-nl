@@ -2,19 +2,19 @@
 title: Een relatieve datumslicer of -filter in Power BI gebruiken
 description: Informatie over het gebruik van een slicer of filter om relatieve datumbereiken te beperken in Power BI.
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: rien
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 5599c26524ba296b7cd201467c48f124b9843b4d
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008791"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412827"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>Een relatieve datumslicer en -filter in Power BI maken
 
@@ -28,7 +28,7 @@ Voor het delen van uw rapport met een Power BI-collega moeten u beiden beschikke
 
 ## <a name="create-the-relative-date-range-slicer"></a>De slicer voor het relatieve datumbereik maken
 
-U kunt de relatieve datumslicer net als elke andere slicer gebruiken. Maak een **slicer**-visual voor uw rapport en selecteer vervolgens een datumwaarde voor de waarde **Veld**. In de volgende afbeelding selecteerden we het veld *OrderDate*.
+U kunt de relatieve datumslicer net als elke andere slicer gebruiken. Maak een **slicer** -visual voor uw rapport en selecteer vervolgens een datumwaarde voor de waarde **Veld**. In de volgende afbeelding selecteerden we het veld *OrderDate*.
 
 ![Schermopname van het deelvenster Visualisaties met pijlen die wijzen op het pictogram voor de slicer en op het Veld.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-02.png)
 
@@ -75,7 +75,7 @@ Ter vergelijking: als u *Maanden (kalender)* hebt geselecteerd, geven de visuele
 
 ## <a name="create-the-relative-date-range-filter"></a>Het relatieve datumbereikfilter maken
 
-U kunt ook een relatief datumbereikfilter voor uw rapportpagina of het hele rapport maken. Sleep daarvoor een datumveld naar het gebied **Filters op paginaniveau** of **Filters op rapportniveau** in het deelvenster **Veld**:
+U kunt ook een relatief datumbereikfilter voor uw rapportpagina of het hele rapport maken. Sleep daarvoor een datumveld naar het gebied **Filters op paginaniveau** of **Filters op rapportniveau** in het deelvenster **Veld** :
 
 ![Schermopname van het veld OrderDate dat naar het gebied Filters op paginaniveau wordt gesleept.](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-06.png)
 

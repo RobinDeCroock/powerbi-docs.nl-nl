@@ -1,20 +1,20 @@
 ---
 title: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
 description: 'Deel 2: Visualisaties toevoegen aan een Power BI-rapport'
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0bcfcf9ef84ae8b2d59d1c004e2e00c6cf6b3eef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 79c613b33ccadacc7ce24d9eb744e66014218b52
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232212"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411700"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-2"></a>Visualisaties toevoegen aan een Power BI-rapport (deel 2)
 
@@ -51,7 +51,7 @@ Maak een visualisatie door een veld te selecteren in het deelvenster **Velden**.
    
    ![Schermafbeelding van kolomdiagram](media/power-bi-report-add-visualizations-ii/power-bi-start.png)
 
-2. Sleep **FiscalMonth** uit de tijdstabel naar het **Axis**-gebied.  
+2. Sleep **FiscalMonth** uit de tijdstabel naar het **Axis** -gebied.  
    ![Schermafbeelding van kolomdiagram met FiscalMonth als as](media/power-bi-report-add-visualizations-ii/power-bi-fiscalmonth.png)
 
 3. [Wijzig de visualisatie](power-bi-report-change-visualization-type.md) in een vlakdiagram.  Er zijn veel visualisatietypen waaruit u kunt kiezen. Bekijk [de beschrijvingen van de typen, tips voor aanbevolen procedures en zelfstudies](power-bi-visualization-types-for-reports-and-q-and-a.md) voor hulp bij het bepalen welk type u het beste kunt gebruiken. Selecteer in het deelvenster Visualisaties het pictogram Vlakdiagram ![pictogram Vlakdiagram in het deelvenster Visualisaties](media/power-bi-report-add-visualizations-ii/power-bi-area-chart.png).

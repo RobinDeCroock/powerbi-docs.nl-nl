@@ -1,20 +1,20 @@
 ---
 title: Lintgrafieken gebruiken in Power BI
 description: Lintgrafieken maken en gebruiken in de Power BI Desktop
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: e89712dea5d9f932669141d8fe4129727166a342
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635764"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413107"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>Lintgrafieken maken in Power BI
 
@@ -49,7 +49,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
     Lintgrafieken verbinden met behulp van linten een gegevenscategorie met het gevisualiseerde tijdcontinuüm, zodat u kunt zien hoe de rang van een bepaalde categorie langs de X-as (meestal de tijd) verandert.
 
-2. Selecteer velden voor **As**, **Legenda** en **Waarde**.  In dit voorbeeld zijn de volgende velden geselecteerd: **Microsoft Azure Store** > **OpenDate**, **Item** > **Categorie** en **Verkoop** > **Verkoop van dit jaar** > **Waarde**.  
+2. Selecteer velden voor **As** , **Legenda** en **Waarde**.  In dit voorbeeld zijn de volgende velden geselecteerd: **Microsoft Azure Store** > **OpenDate** , **Item** > **Categorie** en **Verkoop** > **Verkoop van dit jaar** > **Waarde**.  
 
     ![geselecteerde velden](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
@@ -66,10 +66,10 @@ Als u een lintgrafiek maakt, hebt u de beschikking over opmaakopties in de secti
 
 Met deze opmaakopties voor lintgrafieken kunt u de volgende aanpassingen maken.
 
-* **Afstand**: hiermee kunt u aanpassen hoeveel afstand u tussen de linten wilt hebben. Het getal is een percentage van de maximale kolomhoogte.
-* **Afstemmen op de kleur van de reeks**: hiermee kunt u de kleur van de linten afstemmen op de kleur van de reeks. Indien dit is ingesteld op **uit**, zijn alle linten grijs.
-* **Doorzichtigheid**: hiermee kunt u aangeven hoe doorzichtig de linten moeten zijn. De standaardwaarde is 30.
-* **Rand**: hiermee kunt u een donkere rand boven en onder aan de linten plaatsen. Standaard zijn de randen afwezig.
+* **Afstand** : hiermee kunt u aanpassen hoeveel afstand u tussen de linten wilt hebben. Het getal is een percentage van de maximale kolomhoogte.
+* **Afstemmen op de kleur van de reeks** : hiermee kunt u de kleur van de linten afstemmen op de kleur van de reeks. Indien dit is ingesteld op **uit** , zijn alle linten grijs.
+* **Doorzichtigheid** : hiermee kunt u aangeven hoe doorzichtig de linten moeten zijn. De standaardwaarde is 30.
+* **Rand** : hiermee kunt u een donkere rand boven en onder aan de linten plaatsen. Standaard zijn de randen afwezig.
 
 Omdat het lintdiagram geen Y-as-labels bevat, kunt u eventueel gegevenslabels toevoegen. Selecteer in het deelvenster Opmaak de optie **Gegevenslabels**. 
 

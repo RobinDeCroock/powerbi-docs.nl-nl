@@ -1,8 +1,8 @@
 ---
 title: Spreidings-, bellen- en eendimensionale puntdiagrammen in Power BI
 description: Spreidingsdiagrammen, eendimensionale puntdiagrammen en bellendiagrammen in Power BI
-author: mihart
-ms.reviewer: amac
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b3b2dc8892b2b9b875621c6925c6f3c652da44c6
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632889"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412689"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Spreidingsdiagrammen, bellendiagrammen en eendimensionale puntdiagrammen in Power BI
 
@@ -87,7 +87,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [PBIX-bestand met het voorbeeld 
 
 ## <a name="create-a-scatter-chart"></a>Een spreidingsdiagram maken
 
-1. Start op een lege rapportpagina en selecteer in het deelvenster **Velden**de volgende velden:
+1. Start op een lege rapportpagina en selecteer in het deelvenster **Velden** de volgende velden:
 
     * **Verkoop** > **Verkoop per vierkante meter**
 
@@ -157,7 +157,7 @@ Nu gaan we een derde dimensie toevoegen.
 
 Als u een eendimensionaal puntdiagram wilt maken, vervangt u het veld voor de numerieke **X-as** door een categorisch veld.
 
-Ga naar het deelvenster **X-as**, verwijder **Sales per sq ft** en vervang dit door **District** > **District Manager**.
+Ga naar het deelvenster **X-as** , verwijder **Sales per sq ft** en vervang dit door **District** > **District Manager**.
 
 ![Schermopname van een nieuw eendimensionaal puntdiagram.](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 

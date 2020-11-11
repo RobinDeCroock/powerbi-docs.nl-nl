@@ -1,20 +1,20 @@
 ---
 title: Treemaps in Power BI
 description: Treemaps in Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6331209d40defc4f97a2de670be207e86eaabfef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3cc14a9b873d86b3e9d62655d41d152cb3348252
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237398"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411447"
 ---
 # <a name="treemaps-in-power-bi"></a>Treemaps in Power BI
 
@@ -26,7 +26,7 @@ In treemaps worden hiërarchische gegevens weergegeven als een set van geneste r
 
 ![Schermopname van de treemap Count of Product by Category, and Manufacturer.](media/power-bi-visualization-treemaps/pbi-nancy-viz-treemap.png)
 
-Als u bijvoorbeeld uw verkopen gaat analyseren, kunt u vertakkingen op het hoogste niveau maken voor de volgende kledingcategorieën: **Urban**, **Landelijk**, **Jeugd** en **Mix**. Power BI splitst de categorierechthoeken dan op in bladeren, voor de kledingfabrikanten binnen die categorie. En deze kleinere rechthoeken worden in grootte aangepast en gearceerd op basis van het aantal verkochte items.
+Als u bijvoorbeeld uw verkopen gaat analyseren, kunt u vertakkingen op het hoogste niveau maken voor de volgende kledingcategorieën: **Urban** , **Landelijk** , **Jeugd** en **Mix**. Power BI splitst de categorierechthoeken dan op in bladeren, voor de kledingfabrikanten binnen die categorie. En deze kleinere rechthoeken worden in grootte aangepast en gearceerd op basis van het aantal verkochte items.
 
 In de vertakking **Urban** hierboven is er veel kleding van **VanArsdel** verkocht, en minder van **Natura** en **Fama**. Van het merk **Leo** zijn slechts een paar stuks verkocht. De vertakking **Urban** van uw treemap bevat:
 

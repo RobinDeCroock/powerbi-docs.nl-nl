@@ -1,8 +1,7 @@
 ---
 title: Uitgevouwen structuur
 description: 'Zelfstudie: Een visualisatie van een uitgevouwen structuur maken in Power BI'
-author: mihart
-manager: kvivek
+author: msftrien
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 0a8bc86217dac8f0c2b70e300f08b1667ee63568
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91632820"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413080"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Visuals van een uitgevouwen structuur in Power BI maken en weergeven
 
@@ -44,8 +43,8 @@ Selecteer in het deelvenster Visualisaties het pictogram voor de uitgevouwen str
 
 Voor de visualisatie zijn twee typen invoer vereist:
 
- - **Analyseren**: de metrische gegevens die u wilt analyseren. Dit moet een meting of aggregatie zijn.  
- - **Uitleg door**: een of meer dimensies waarop u wilt inzoomen.
+ - **Analyseren** : de metrische gegevens die u wilt analyseren. Dit moet een meting of aggregatie zijn.  
+ - **Uitleg door** : een of meer dimensies waarop u wilt inzoomen.
 
 Wanneer u de meting naar het veldbereik hebt gesleept, wordt de visual bijgewerkt met de cumulatieve meting. In het onderstaande voorbeeld wordt het gemiddelde percentage producten voor de nalevering gevisualiseerd (5,07%).
 
@@ -79,8 +78,8 @@ U kunt AI-splitsingen gebruiken om uit te zoeken waar in de gegevens u hierna mo
 
 De analyse kan op twee manieren worden uitgevoerd, afhankelijk van uw voorkeuren. Het standaardgedrag is als volgt:
 
- - **Hoge waarde**: Kijkt naar alle beschikbare velden en bepaalt op welke wordt ingezoomd, om de hoogste waarde te krijgen voor de meting die wordt geanalyseerd.  
- - **Lage waarde**: Kijkt naar alle beschikbare velden en bepaalt op welke wordt ingezoomd, om de laagste waarde te krijgen voor de meting die wordt geanalyseerd.  
+ - **Hoge waarde** : Kijkt naar alle beschikbare velden en bepaalt op welke wordt ingezoomd, om de hoogste waarde te krijgen voor de meting die wordt geanalyseerd.  
+ - **Lage waarde** : Kijkt naar alle beschikbare velden en bepaalt op welke wordt ingezoomd, om de laagste waarde te krijgen voor de meting die wordt geanalyseerd.  
 
 Als u in het voorbeeld over naleveringen de optie **Hoge waarde** selecteert, resulteert dit in het volgende:
 
@@ -96,9 +95,9 @@ In de relatieve modus wordt gezocht naar hoge waarden die opvallen (vergeleken m
 
 ![Absolute splitsing voor uitgevouwen structuur](media/power-bi-visualization-decomposition-tree/tree-ai-absolute.png)
 
-In de bovenstaande schermafbeelding ziet u de verkoop van videogames in Noord-Amerika. Eerst splitsen we de structuur op in **Naam van uitgever**, en vervolgens zoomen we in op Nintendo. Het selecteren van **Hoge waarde** resulteert in de uitbreiding van **Platform is Nintendo**. Omdat Nintendo (de uitgever) alleen Nintendo-consoles ontwikkelt, is er slechts één waarde aanwezig, wat dus (volgens verwachting) de hoogste waarde is.
+In de bovenstaande schermafbeelding ziet u de verkoop van videogames in Noord-Amerika. Eerst splitsen we de structuur op in **Naam van uitgever** , en vervolgens zoomen we in op Nintendo. Het selecteren van **Hoge waarde** resulteert in de uitbreiding van **Platform is Nintendo**. Omdat Nintendo (de uitgever) alleen Nintendo-consoles ontwikkelt, is er slechts één waarde aanwezig, wat dus (volgens verwachting) de hoogste waarde is.
 
-Het zou echter interessanter zijn om te kijken welke hoge waarde opvalt ten opzichte van andere waarden in dezelfde kolom. Als we het analysetype wijzigen van **Absoluut** in **Relatief**, krijgen we het volgende resultaat voor Nintendo: ![Relatieve splitsing voor uitgevouwen structuur](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
+Het zou echter interessanter zijn om te kijken welke hoge waarde opvalt ten opzichte van andere waarden in dezelfde kolom. Als we het analysetype wijzigen van **Absoluut** in **Relatief** , krijgen we het volgende resultaat voor Nintendo: ![Relatieve splitsing voor uitgevouwen structuur](media/power-bi-visualization-decomposition-tree/tree-ai-relative.png)
 
 Deze keer is **Platform binnen Gamegenre** de aanbevolen waarde.  Platform levert geen hogere absolute waarde op dan Nintendo ($ 19.950.000 versus $ 46.950.000). Het is desalniettemin een waarde die opvalt.
 
@@ -116,7 +115,7 @@ Die laat zich als volgt vertalen:
 versus  
 46.950.000/ (46.950.000/1) = 1x  
 
-Als u liever geen AI-splitsingen in de structuur gebruikt, kunt u deze ook uitschakelen onder de opties voor **Analyseopmaak**:  
+Als u liever geen AI-splitsingen in de structuur gebruikt, kunt u deze ook uitschakelen onder de opties voor **Analyseopmaak** :  
 
 ![AI-splitsing voor de uitgevouwen structuur uitschakelen](media/power-bi-visualization-decomposition-tree/tree-ai-disable.png)
 

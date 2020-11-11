@@ -1,21 +1,21 @@
 ---
 title: Interactie met een ArcGIS-kaart die met u is gedeeld
 description: ArcGIS Maps for Power BI-visual gebruiken in de leesweergave als een rapportgebruiker
-author: mihart
+author: msftrien
 ms.reviewer: willt, lukasz
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 751d36489590b92c1e03804f100a711b44e028ff
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 7b81ecbc23418fec4bd264e5cb20126f871c7e52
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600281"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413109"
 ---
 # <a name="create-arcgis-maps-in-power-bi"></a>ArcGIS-kaarten maken in Power BI
 
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om een kaart aan een rapport toe te voegen:
 
     ![Pictogram ArcGIS Maps in het deelvenster Visualisaties](media/power-bi-visualizations-arcgis/arcgis-tutorial-02.png)
 
-2. Power BI voegt een lege sjabloon toe aan het rapportcanvas. In dit overzicht wordt gebruikgemaakt van de **Standard**-versie die in Power BI is opgenomen. Als u zich met de juiste licentie aanmeldt bij een geldig ArGIS-account, hebt u toegang tot meer functies. Zie de [online-Help van ArcGIS Maps for Power BI ](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm) voor meer informatie.
+2. Power BI voegt een lege sjabloon toe aan het rapportcanvas. In dit overzicht wordt gebruikgemaakt van de **Standard** -versie die in Power BI is opgenomen. Als u zich met de juiste licentie aanmeldt bij een geldig ArGIS-account, hebt u toegang tot meer functies. Zie de [online-Help van ArcGIS Maps for Power BI ](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm) voor meer informatie.
 
     ![ArcGIS: aanmelden](media/power-bi-visualizations-arcgis/arcgis-tutorial-03.png)
 
@@ -99,7 +99,7 @@ Opmaakfuncties van **ArcGIS Maps for Power BI** openen:
 Nadat u gegevens aan de kaartvisualisatie hebt toegevoegd, worden de kaarthulpprogramma's beschikbaar.
 
 > [!NOTE]
-> In deze zelfstudie ziet u alleen de functies en opties die beschikbaar zijn in de **Standard**-versie van ArcGIS Maps for Power BI. Als u met de juiste licentie bent aangemeld bij een geldig [ArcGIS-account](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm), hebt u toegang tot meer functies.
+> In deze zelfstudie ziet u alleen de functies en opties die beschikbaar zijn in de **Standard** -versie van ArcGIS Maps for Power BI. Als u met de juiste licentie bent aangemeld bij een geldig [ArcGIS-account](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm), hebt u toegang tot meer functies.
 
 Ga als volgt te werk om de kaarthulpprogramma's uit te vouwen:
 
@@ -114,7 +114,7 @@ De kaarthulpprogramma's worden uitgevouwen om de beschikbare functies weer te ge
 
 #### <a name="change-the-base-map"></a>De basiskaart wijzigen
 
-Een basiskaart biedt een achtergrond, of visuele context, voor de gegevens in een kaart. Een basiskaart met straten kan bijvoorbeeld context bieden voor uw adresgegevens. Met het **Standard**-account beschikt u over vier basiskaarten: Dark Gray Canvas (Donkergrijs canvas), Light Gray Canvas (Lichtgrijs canvas), OpenStreetMap en Streets (Straten).
+Een basiskaart biedt een achtergrond, of visuele context, voor de gegevens in een kaart. Een basiskaart met straten kan bijvoorbeeld context bieden voor uw adresgegevens. Met het **Standard** -account beschikt u over vier basiskaarten: Dark Gray Canvas (Donkergrijs canvas), Light Gray Canvas (Lichtgrijs canvas), OpenStreetMap en Streets (Straten).
 
 Voer de volgende stappen uit om de basiskaart te wijzigen:
 
@@ -133,7 +133,7 @@ In ArcGIS Maps for Power BI werkt u met geografische gegevens via lagen. Lagen z
 
 Als u de lijst Lagen wilt weergeven, klikt u op het de knop **Lagen** ![pictogram Lagen](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-06.png) in de kaarthulpprogramma's.
 
-In de lijst Lagen wordt elke laag weergegeven waaruit de kaart bestaat. Elke laag heeft een eigen set opties waarmee u met de kaart kunt werken en deze kunt aanpassen. In het menu worden verschillende opties weergegeven, afhankelijk van het geselecteerde type laag. U kunt bijvoorbeeld de symbolen en het locatietype wijzigen voor een laag die op basis van Power BI-gegevens is gemaakt, zoals de laag **Plaats**, die u voor dit voorbeeld hebt gemaakt. Deze opties zijn echter niet beschikbaar voor referentielagen of lagen voor rijtijd.
+In de lijst Lagen wordt elke laag weergegeven waaruit de kaart bestaat. Elke laag heeft een eigen set opties waarmee u met de kaart kunt werken en deze kunt aanpassen. In het menu worden verschillende opties weergegeven, afhankelijk van het geselecteerde type laag. U kunt bijvoorbeeld de symbolen en het locatietype wijzigen voor een laag die op basis van Power BI-gegevens is gemaakt, zoals de laag **Plaats** , die u voor dit voorbeeld hebt gemaakt. Deze opties zijn echter niet beschikbaar voor referentielagen of lagen voor rijtijd.
 
 ![Knop ArcGIS-lagen](media/power-bi-visualizations-arcgis/arcgis-tutorial-09.png)
 
@@ -174,7 +174,7 @@ Het deelvenster Symbolen wordt weergegeven, waarbij de categorie Kaartthema is u
 
 ##### <a name="change-the-map-theme"></a>Kaartthema wijzigen
 
-Omdat we in dit voorbeeld waarden hebben toegevoegd aan de velden **Locatie** en **Grootte**, wordt standaard gebruikgemaakt van het thema **Grootte**.
+Omdat we in dit voorbeeld waarden hebben toegevoegd aan de velden **Locatie** en **Grootte** , wordt standaard gebruikgemaakt van het thema **Grootte**.
 
 Voer de volgende stappen uit als u het kaartthema wilt wijzigen:
 
@@ -236,10 +236,10 @@ Voer de volgende stappen uit om de selectiehulpmiddelen weer te geven:
     
     | **Hulpprogramma** | **Beschrijving** |
     | --- | --- |
-    | ![één selecteren](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **Eén selecteren**: dit is een hulpmiddel voor één selectie. Dit kan worden gebruikt om op afzonderlijke locaties te klikken. Het is het standaardselectiehulpmiddel. Druk op Ctrl en klik om meerdere locaties te selecteren. Als u op gegevenslocaties op de kaart klikt, worden deze geselecteerd en wordt interactie met andere visualisaties geactiveerd. Als u op een speld of een locatie op een referentielaag klikt, wordt de knopinfo weergegeven. |
-    | ![rechthoek selecteren](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **Rechthoek selecteren**: sleep een rechthoekkiezer om meerdere locaties te selecteren. Selecteer afzonderlijke locaties door erop te klikken. Net als met het selectiehulpmiddel kunt u op een speld of een locatie op een referentielaag klikken om knopinfo weer te gegeven. Wanneer het hulpmiddel Rechthoek selecteren actief is, kunt u de kaart niet pannen. |
-    | ![pictogram referentielaag selecteren](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **Referentielaag selecteren**: als u een [referentielaag](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm) aan de kaart hebt toegevoegd, gebruikt u dit hulpmiddel om locaties te selecteren door op gebieden op de referentielaag te klikken. Locaties die zich binnen een begrensd gebied op een referentielaag bevinden, zijn gemarkeerd. Locaties in andere gebieden van de kaart zijn niet beschikbaar. Dit hulpmiddel wordt alleen weergegeven als de kaart een of meer referentielagen bevat en er op dat moment een referentielaag actief is. |
-    | ![rijtijd selecteren](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **Rijtijd selecteren**: als u een [rijtijdzone](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm) aan uw kaart hebt toegevoegd, gebruikt u het selectiehulpmiddel voor rijtijdzoen om gegevenslocaties binnen het gedefinieerde gebied te selecteren. |
+    | ![één selecteren](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **Eén selecteren** : dit is een hulpmiddel voor één selectie. Dit kan worden gebruikt om op afzonderlijke locaties te klikken. Het is het standaardselectiehulpmiddel. Druk op Ctrl en klik om meerdere locaties te selecteren. Als u op gegevenslocaties op de kaart klikt, worden deze geselecteerd en wordt interactie met andere visualisaties geactiveerd. Als u op een speld of een locatie op een referentielaag klikt, wordt de knopinfo weergegeven. |
+    | ![rechthoek selecteren](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **Rechthoek selecteren** : sleep een rechthoekkiezer om meerdere locaties te selecteren. Selecteer afzonderlijke locaties door erop te klikken. Net als met het selectiehulpmiddel kunt u op een speld of een locatie op een referentielaag klikken om knopinfo weer te gegeven. Wanneer het hulpmiddel Rechthoek selecteren actief is, kunt u de kaart niet pannen. |
+    | ![pictogram referentielaag selecteren](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **Referentielaag selecteren** : als u een [referentielaag](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm) aan de kaart hebt toegevoegd, gebruikt u dit hulpmiddel om locaties te selecteren door op gebieden op de referentielaag te klikken. Locaties die zich binnen een begrensd gebied op een referentielaag bevinden, zijn gemarkeerd. Locaties in andere gebieden van de kaart zijn niet beschikbaar. Dit hulpmiddel wordt alleen weergegeven als de kaart een of meer referentielagen bevat en er op dat moment een referentielaag actief is. |
+    | ![rijtijd selecteren](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **Rijtijd selecteren** : als u een [rijtijdzone](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm) aan uw kaart hebt toegevoegd, gebruikt u het selectiehulpmiddel voor rijtijdzoen om gegevenslocaties binnen het gedefinieerde gebied te selecteren. |
     
 2. Selecteer een of meer locaties op de kaart. U kunt maximaal 250 gegevenspunten tegelijk selecteren.
 
@@ -360,7 +360,7 @@ Voer de volgende stappen uit als u vanuit de visualisatie toegang wilt krijgen t
     De online-Help van ArcGIS Maps for Power BI wordt in een browservenster geopend.
     
     - Vind antwoorden op [veelgestelde vragen](https://doc.arcgis.com/en/maps-for-powerbi/get-started/pbi-faq.htm#anchor5) in de online-Help van ArcGIS Maps for Power BI.
-    - U kunt vragen stellen, de meest recente informatie vinden, problemen melden en antwoorden vinden in de Power BI-[communitythread met betrekking tot **ArcGIS Maps for Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771).
+    - U kunt vragen stellen, de meest recente informatie vinden, problemen melden en antwoorden vinden in de Power BI- [communitythread met betrekking tot **ArcGIS Maps for Power BI**](https://go.microsoft.com/fwlink/?LinkID=828771).
     - Als u een suggestie voor een verbetering hebt, kunt u deze indienen bij [de ideeënlijst van Power BI](https://ideas.powerbi.com/).
     
 ### <a name="manage-the-use-of-arcgis-maps-for-power-bi-within-your-organization"></a>Het gebruik van ArcGIS Maps for Power BI binnen uw organisatie beheren

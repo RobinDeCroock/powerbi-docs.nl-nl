@@ -1,20 +1,20 @@
 ---
 title: Een visualisatie knippen en plakken in Power BI
 description: Een visualisatie kopiëren en plakken in Power BI
-author: mihart
+author: msftrien
 ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/18/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: fd5fc361431268c37639a336923a4067176f1761
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763109"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411056"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>Een rapportvisualisatie kopiëren en plakken
 
@@ -99,7 +99,7 @@ Als u niet wilt dat gebruikers een specifieke visual kunnen kopiëren, kunt u he
 1. Selecteer het pictogram met de verfroller om het opmaakvenster te openen. 
 
 1. Open de kaart **Opmaak van de visual**.
-1. Blader omlaag naar **Visualheader**, vouw de kaart uit en schakel het **kopieerpictogram** uit.
+1. Blader omlaag naar **Visualheader** , vouw de kaart uit en schakel het **kopieerpictogram** uit.
 
     ![verfroller geselecteerd en kopieerpictogram geselecteerd](media/power-bi-visualization-copy-paste/power-bi-visual-header.png)
 

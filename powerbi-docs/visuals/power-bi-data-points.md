@@ -1,7 +1,7 @@
 ---
 title: Grote gegevenssets, gegevenspuntlimieten en gegevensstrategieën
 description: Gegevenslimieten voor visuals en strategieën voor gegevensreductie
-author: mihart
+author: msftrien
 ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857721"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412045"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype toepassen
 
@@ -31,9 +31,9 @@ Elke visual bepaalt de parameters die in deze strategieën worden gebruikt om de
 Voor elke strategie zijn er standaardinstellingen op basis van de vorm en het type van de gegevens die worden gevisualiseerd. De standaardinstellingen kunnen echter worden overschreven in het deelvenster voor opmaak van Power BI om de juiste gebruikerservaring te bieden. 
 
 * **Gegevens in vensters** (segmentering): Hiermee kunnen gebruikers door de gegevens in een visual bladeren door geleidelijk fragmenten van de gehele gegevensset te laden.
-* **Bovenste N**: Alleen de eerste N items weergeven
-* **Eenvoudige sampling**: De eerste, laatste en N evenredig verdeelde items ertussen weergeven.
-* **Onderste N**: Alleen de laatste N items weergeven.  Dit is handig voor het controleren van gegevens die regelmatig worden bijgewerkt.
+* **Bovenste N** : Alleen de eerste N items weergeven
+* **Eenvoudige sampling** : De eerste, laatste en N evenredig verdeelde items ertussen weergeven.
+* **Onderste N** : Alleen de laatste N items weergeven.  Dit is handig voor het controleren van gegevens die regelmatig worden bijgewerkt.
 * **High-densitysampling** - een verbeterd densitysampling-algoritme dat uitbijters en/of de vorm van een curve beter respecteert.
     * **Sampling van lijnen waarop binning is toegepast**  - voorbeeldgegevenspunten op basis van uitbijters in opslaglocaties voor een as
     * **Sampling van overlappende punten** - sampling van gegevenspunten op basis van overlappende waarden om uitbijters te behouden
@@ -52,7 +52,7 @@ Dynamische limieten worden automatisch toegepast wanneer de server het volgende 
 
 * In Power BI Desktop met On-premises SSAS-versie 2016 of hoger [ waarbij gebruik wordt gemaakt van de SuperDax-mogelijkheden van de server](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3)
 
-* In Desktop- en Power BI-service wanneer een geïmporteerd model, DirectQuery, live verbinding maken met de service of live verbinding maken met AS PaaS wordt gebruikt. 
+* In Desktop- en Power BI-service wanneer een geïmporteerd model, DirectQuery, live verbinding maken met de service of live verbinding maken met AS PaaS wordt gebruikt. 
 
 * In de Power BI-service, wanneer u verbinding maakt via een on-premises gateway naar on-premises SSAS, kunnen we geen dynamische limieten gebruiken. Door de on-premises gateway wordt de strategie voor dynamische limieten die een andere structuur van resultatensets uit de on-premises SSAS retourneert niet volledig ondersteund.  
 

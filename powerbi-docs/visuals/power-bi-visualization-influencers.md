@@ -1,7 +1,7 @@
 ---
 title: Zelfstudie voor de visualisatie Belangrijkste beïnvloeders
 description: 'Zelfstudie: Een visualisatie Belangrijkste beïnvloeders maken in Power BI'
-author: mihart
+author: msftrien
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a8a38790b606fa5f700f2b9389ebad5338919d28
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: ff097de6cd957c5869809d09a23174dea604a07b
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635281"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412942"
 ---
 # <a name="create-key-influencers-visualizations"></a>Visualisaties Belangrijkste beïnvloeders gebruiken
 
@@ -33,21 +33,21 @@ De visual Belangrijkste beïnvloeders is ideaal in de volgende situaties:
 
 ![Genummerde functies](media/power-bi-visualization-influencers/power-bi-ki-numbers-new.png)
 
-1. **Tabbladen**: selecteer een tabblad om te schakelen tussen weergaven. **Belangrijkste beïnvloeders** toont de belangrijkste factoren die invloed hebben op de geselecteerde metrische waarde. **Topsegmenten** toont de topsegmenten die van invloed zijn op de geselecteerde metrische waarde. Een *segment* bestaat uit een combinatie van waarden. Eén segment kan bijvoorbeeld bestaan uit gebruikers die al minstens twintig jaar klant zijn en in de regio West wonen. 
+1. **Tabbladen** : selecteer een tabblad om te schakelen tussen weergaven. **Belangrijkste beïnvloeders** toont de belangrijkste factoren die invloed hebben op de geselecteerde metrische waarde. **Topsegmenten** toont de topsegmenten die van invloed zijn op de geselecteerde metrische waarde. Een *segment* bestaat uit een combinatie van waarden. Eén segment kan bijvoorbeeld bestaan uit gebruikers die al minstens twintig jaar klant zijn en in de regio West wonen. 
 
-2. **Vervolgkeuzelijst**: de waarde van de meetwaarde die wordt onderzocht. In dit voorbeeld kijken we naar de meetwaarde **Waardering**. De geselecteerde waarde is **Laag**.
+2. **Vervolgkeuzelijst** : de waarde van de meetwaarde die wordt onderzocht. In dit voorbeeld kijken we naar de meetwaarde **Waardering**. De geselecteerde waarde is **Laag**.
 
-3. **Aanpassing**: dit helpt ons om de visual in het linkerdeelvenster te interpreteren.
+3. **Aanpassing** : dit helpt ons om de visual in het linkerdeelvenster te interpreteren.
 
-4. **Linkerdeelvenster**: het linkerdeelvenster bevat één visual. In dit geval toont het linkerdeelvenster een lijst met de belangrijkste beïnvloeders.
+4. **Linkerdeelvenster** : het linkerdeelvenster bevat één visual. In dit geval toont het linkerdeelvenster een lijst met de belangrijkste beïnvloeders.
 
-5. **Aanpassing**: dit helpt ons om de visual in het rechterdeelvenster te interpreteren.
+5. **Aanpassing** : dit helpt ons om de visual in het rechterdeelvenster te interpreteren.
 
-6. **Rechterdeelvenster**: het rechterdeelvenster bevat één visual. In dit geval worden in het kolomdiagram alle waarden voor de belangrijkste beïnvloeder **Thema** weergegeven, die is geselecteerd in het linkerdeelvenster. De specifieke waarde voor **bruikbaarheid** in het linkerdeelvenster wordt in het groen weergegeven. Alle andere waarden voor **Thema** worden in het zwart weergegeven.
+6. **Rechterdeelvenster** : het rechterdeelvenster bevat één visual. In dit geval worden in het kolomdiagram alle waarden voor de belangrijkste beïnvloeder **Thema** weergegeven, die is geselecteerd in het linkerdeelvenster. De specifieke waarde voor **bruikbaarheid** in het linkerdeelvenster wordt in het groen weergegeven. Alle andere waarden voor **Thema** worden in het zwart weergegeven.
 
-7. **Lijn voor gemiddelde**: Het gemiddelde wordt berekend voor alle mogelijke waarden voor **Thema**, behalve **bruikbaarheid** (welke de geselecteerde beïnvloeder is). De berekening is dus van toepassing op alle zwarte waarden. Er wordt mee aangegeven welk percentage van de andere **Thema's** de waardering 'laag' hadden. In dit geval had 11,35% een lage waardering (weergegeven door de stippellijn).
+7. **Lijn voor gemiddelde** : Het gemiddelde wordt berekend voor alle mogelijke waarden voor **Thema** , behalve **bruikbaarheid** (welke de geselecteerde beïnvloeder is). De berekening is dus van toepassing op alle zwarte waarden. Er wordt mee aangegeven welk percentage van de andere **Thema's** de waardering 'laag' hadden. In dit geval had 11,35% een lage waardering (weergegeven door de stippellijn).
 
-8. **Selectievakje**: Hiermee filtert u de visual in het rechterdeelvenster, zodat alleen waarden worden weergegeven die van invloed zijn op het veld. In dit voorbeeld filtert u de visual op bruikbaarheid, beveiliging en navigatie.
+8. **Selectievakje** : Hiermee filtert u de visual in het rechterdeelvenster, zodat alleen waarden worden weergegeven die van invloed zijn op het veld. In dit voorbeeld filtert u de visual op bruikbaarheid, beveiliging en navigatie.
 
 ## <a name="analyze-a-metric-that-is-categorical"></a>Een metrische waarde analyseren die categorisch is
  
@@ -62,7 +62,7 @@ Bekijk deze video voor meer informatie over het maken van de visual met belangri
 Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx) downloaden. Selecteer een van beide koppelingen en selecteer **Downloaden** op de GitHub-pagina die wordt geopend.
 
 > [!NOTE]
-> De gegevensset Klantenfeedback is gebaseerd op [Moro et al., 2014] S. Moro, P. Cortez en P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. *Decision Support Systems*, Elsevier, 62:22-31, juni 2014. 
+> De gegevensset Klantenfeedback is gebaseerd op [Moro et al., 2014] S. Moro, P. Cortez en P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. *Decision Support Systems* , Elsevier, 62:22-31, juni 2014. 
 
 1. Open het rapport en selecteer het tabblad **Belangrijkste beïnvloeders**. 
 
@@ -249,7 +249,7 @@ In het geval van niet-samengevatte kolommen, wordt de analyse altijd uitgevoerd 
 
 Voor metingen en samengevatte kolommen weet u niet meteen op welk niveau u wilt analyseren. Als de **woningprijs** als **gemiddelde** is vermeld, moeten we overwegen op welk niveau we willen dat deze gemiddelde woningprijs wordt berekend. Is dit de gemiddelde woningprijs op buurtniveau? Of misschien op regionaal niveau?
 
-Metingen en samengevatte kolommen worden automatisch geanalyseerd op het niveau van de gebruikte velden **Uitleggen door**. Stel dat we in de volgende drie velden voor **Uitleggen door** zijn geïnteresseerd: **Keukenkwaliteit**, **Gebouwtype** en **Airconditioning**. **De gemiddelde woningprijs** wordt berekend voor elke unieke combinatie van deze drie velden. Het is vaak handig om naar een tabelweergave over te schakelen om te kijken naar de gegevens die worden geëvalueerd.
+Metingen en samengevatte kolommen worden automatisch geanalyseerd op het niveau van de gebruikte velden **Uitleggen door**. Stel dat we in de volgende drie velden voor **Uitleggen door** zijn geïnteresseerd: **Keukenkwaliteit** , **Gebouwtype** en **Airconditioning**. **De gemiddelde woningprijs** wordt berekend voor elke unieke combinatie van deze drie velden. Het is vaak handig om naar een tabelweergave over te schakelen om te kijken naar de gegevens die worden geëvalueerd.
 
 ![Schermopname van de drie kolommen en de gemiddelde woningprijs.](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
@@ -284,7 +284,7 @@ De visual Belangrijkste beïnvloeders kent een aantal beperkingen:
 ![Fout: er zijn geen beïnvloeders gevonden](media/power-bi-visualization-influencers/power-bi-error1.png)
 
 
-Deze fout treedt op wanneer u velden hebt opgenomen in **Uitleg door**, maar er geen beïnvloeders zijn gevonden. 
+Deze fout treedt op wanneer u velden hebt opgenomen in **Uitleg door** , maar er geen beïnvloeders zijn gevonden. 
 - U hebt het metrische gegeven dat u analyseerde, opgenomen bij zowel **Analyseren** als **Uitleg door**. Verwijder het metrische gegeven bij **Uitleg door**. 
 - Uw verklarende velden hebben te veel categorieën met slechts enkele waarnemingen. In deze situatie is het moeilijk om aan de hand van de visualisatie te bepalen welke factoren beïnvloeders zijn. Het is moeilijk om een algemene conclusie te trekken op basis van slechts een aantal waarnemingen. Als u een numeriek veld analyseert, is het raadzaam over te schakelen van **Categorische analyse** naar **Continue analyse** in het **Opmaakvenster** op de kaart **Analyse**.
 - Uw verklarende factoren hebben voldoende waarnemingen om te generaliseren, maar er zijn geen betekenisvolle correlaties gevonden om verslag over uit te brengen in de visualisatie.
@@ -348,7 +348,7 @@ Als de klanttabel geen unieke id heeft, kunt u de meting niet evalueren en wordt
 
 Met de AI-visualisatie kunt u categorische en numerieke velden analyseren. In het geval van categorische velden is Verloop bijvoorbeeld mogelijk Ja of Nee en Klanttevredenheid kan Hoog, Gemiddeld of Laag zijn. Wanneer u het aantal te analyseren categorieën uitbreidt, betekent dit dat er minder waarnemingen per categorie zijn. Hierdoor is het voor de visualisatie moeilijker om patronen in de gegevens te vinden. 
 
-Wanneer u numerieke velden analyseert, kunt u kiezen of u de numerieke velden als tekst wilt behandelen. In dit geval voert u dezelfde analyse uit als voor categorische gegevens (**Categorische analyse**). Indien u veel verschillende waarden hebt, raden we u aan de analyse over te schakelen naar **Continue analyse**. Hiermee kunt u patronen afleiden in het geval getallen toenemen of afnemen, in plaats van ze als afzonderlijke waarden te behandelen. U kunt overschakelen van **Categorische analyse** naar **Continue analyse** in het **Opmaakvenster** op de kaart **Analyse**.
+Wanneer u numerieke velden analyseert, kunt u kiezen of u de numerieke velden als tekst wilt behandelen. In dit geval voert u dezelfde analyse uit als voor categorische gegevens ( **Categorische analyse** ). Indien u veel verschillende waarden hebt, raden we u aan de analyse over te schakelen naar **Continue analyse**. Hiermee kunt u patronen afleiden in het geval getallen toenemen of afnemen, in plaats van ze als afzonderlijke waarden te behandelen. U kunt overschakelen van **Categorische analyse** naar **Continue analyse** in het **Opmaakvenster** op de kaart **Analyse**.
 
 Het wordt aanbevolen om vergelijkbare waarden te groeperen tot één eenheid om sterkere beïnvloeders te vinden. Als u bijvoorbeeld een metrisch gegeven voor prijs hebt, krijgt u waarschijnlijk betere resultaten als u vergelijkbare prijzen groepeert in categorieën zoals Hoog, Gemiddeld en Laag in plaats van afzonderlijke prijspunten te gebruiken. 
 

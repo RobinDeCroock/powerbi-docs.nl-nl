@@ -1,20 +1,20 @@
 ---
 title: Slicers in de Power BI-service gebruiken
 description: Een Power BI-slicer is een alternatieve manier om te filteren. U beperkt hiermee het gedeelte van de gegevensset dat wordt weergegeven in de andere visualisaties in een rapport.
-author: v-thepet
-ms.reviewer: mihart
+author: mihart
+ms.reviewer: v-thepet
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
 ms.date: 10/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bbcac4eb3adf8fe47ff6576e15d8d1334a8c13f0
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: 291da6ec949dd6cfb83f26be573e592e1141e99a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830399"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412137"
 ---
 # <a name="slicers-in-the-power-bi-service"></a>Slicers in de Power BI-service
 
@@ -35,7 +35,7 @@ Bij het maken van rapporten voegen *ontwerpers* slicers toe om een verhaal te ve
 
 ### <a name="basic-vertical-checkbox-slicer"></a>Eenvoudige verticale slicer voor selectievakje
 
-Schakel in een van de eenvoudige slicers voor selectievakjes een of meer selectievakjes in om te zien welk effect dat heeft op de andere visuals op de pagina. Als u er meer dan één wilt selecteren, gebruikt u CTRL terwijl u een selectie maakt. Soms heeft de rapport*ontwerper* de slicer zo ingesteld dat u maar één waarde per keer kunt selecteren. 
+Schakel in een van de eenvoudige slicers voor selectievakjes een of meer selectievakjes in om te zien welk effect dat heeft op de andere visuals op de pagina. Als u er meer dan één wilt selecteren, gebruikt u CTRL terwijl u een selectie maakt. Soms heeft de rapport *ontwerper* de slicer zo ingesteld dat u maar één waarde per keer kunt selecteren. 
 
 ![eenvoudige verticale slicer](media/end-user-slicer/power-bi-basic.png)
 

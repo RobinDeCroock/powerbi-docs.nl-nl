@@ -1,21 +1,21 @@
 ---
 title: De eigenschappen van de X-as en Y-as aanpassen
 description: De eigenschappen van de X-as en Y-as aanpassen
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: b327ca5f4c19638f4afe72abce763601e68fc943
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635672"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93413149"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Eigenschappen van x-as en y-as aanpassen
 
@@ -77,17 +77,17 @@ De labels van de x-as worden onder de kolommen in het diagram weergegeven. Ze zi
 
     ![Schermopname van de schuifregelaar bij Aan voor de x-as.](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
-    Een aantal redenen waarom u de x-as wilt instellen op **Uit**, is als de visualisatie zelf geen labels bevat of als u een rapportpagina hebt en ruimte moet maken om meer gegevens weer te geven.
+    Een aantal redenen waarom u de x-as wilt instellen op **Uit** , is als de visualisatie zelf geen labels bevat of als u een rapportpagina hebt en ruimte moet maken om meer gegevens weer te geven.
 
 4. Maak de kleur, de grootte en het lettertype van de tekst op:
 
-    - **Kleur**: selecteer zwart
+    - **Kleur** : selecteer zwart
 
-    - **Tekengrootte**: voer *14* in
+    - **Tekengrootte** : voer *14* in
 
-    - **Lettertypefamilie**: selecteer **Arial Black**
+    - **Lettertypefamilie** : selecteer **Arial Black**
 
-    - **Binnenste opvulling**: voer *40%* in
+    - **Binnenste opvulling** : voer *40%* in
 
         ![Schermopname met labels op een hoek](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-x.png)
     
@@ -113,11 +113,11 @@ Wanneer de titel van de x-as **Aan** is, wordt de titel van de x-as weergegeven 
 
 1. Maak de kleur, de grootte en het lettertype van de titeltekst op:
 
-    - **Titelkleur**: selecteer oranje
+    - **Titelkleur** : selecteer oranje
 
-    - **Astitel**: typ *Boekmaand*
+    - **Astitel** : typ *Boekmaand*
 
-    - **Tekengrootte titel**: voer *18 in*
+    - **Tekengrootte titel** : voer *18 in*
 
     Als u klaar bent met de aanpassingen, ziet het gestapelde kolomdiagram er ongeveer als volgt uit:
 
@@ -145,11 +145,11 @@ De labels van de y-as worden standaard aan de linkerkant weergegeven. Ze zijn nu
 
 1. Maak de kleur, de grootte en het lettertype van de tekst op:
 
-    - **Kleur**: selecteer zwart
+    - **Kleur** : selecteer zwart
 
-    - **Tekengrootte**: voer *10 in*
+    - **Tekengrootte** : voer *10 in*
 
-    - **Weergave-eenheden**: selecteer **Miljoenen**
+    - **Weergave-eenheden** : selecteer **Miljoenen**
 
     ![Diagram na de opmaak van de y-as](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-formatting-y.png)
 
@@ -159,9 +159,9 @@ Wanneer de titel van de y-as **Aan** is, wordt de titel van de y-as weergegeven 
 ### <a name="customize-the-gridlines"></a>De rasterlijnen aanpassen
 We laten de rasterlijnen opvallen door de kleur te wijzigen en de streek dikker te maken:
 
-- **Kleur**: selecteer oranje
+- **Kleur** : selecteer oranje
 
-- **Streekdikte**: voer *2* in
+- **Streekdikte** : voer *2* in
 
 Na al deze aanpassingen zou uw kolomdiagram er ongeveer als volgt moeten uitzien:
 

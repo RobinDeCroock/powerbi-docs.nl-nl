@@ -1,8 +1,8 @@
 ---
 title: Combinatiegrafieken in Power BI
 description: In deze zelfstudie over combinatiegrafieken wordt uitgelegd wanneer u ze kunt gebruiken en hoe u in Power BI-service en Power BI Desktop kunt bouwen.
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 90c721f6c2f555bd632d6c8fff56d05994b1444b
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 89fdd0852db9560a6e2b0d43e03b9f89c61dd33e
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354772"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411562"
 ---
 # <a name="create-and-use-combo-charts-in-power-bi"></a>Combinatiegrafieken maken en gebruiken in Power BI
 
@@ -91,7 +91,7 @@ In deze taak vergelijken we de brutomarge en de omzet.
 In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli daalde het brutomargepercentage en in augustus was er opnieuw een daling. Krijgen we een soortgelijk patroon voor afgelopen jaar en dit jaar te zien?
 
    ![omzet in voorbeeld van combinatiegrafiek](media/power-bi-visualization-combo-chart/combo1-new.png)
-2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van de **procentuele brutomarge vorig jaar** is veel kleiner is dan de schaal van **Verkoop**, waardoor het lastig is om de waarden te vergelijken.      
+2. Voeg **Omzet van dit jaar > Waarde** en **Omzet van afgelopen jaar** aan het lijndiagram toe. De schaal van de **procentuele brutomarge vorig jaar** is veel kleiner is dan de schaal van **Verkoop** , waardoor het lastig is om de waarden te vergelijken.      
 
    ![voorbeeld van een vlakke lijn voor combinatiegrafiek](media/power-bi-visualization-combo-chart/flatline-new.png)
 3. Converteer het lijndiagram naar een Lijndiagram en gestapeld kolomdiagram, zodat de visualisatie eenvoudiger te lezen en te interpreteren is.
@@ -105,13 +105,13 @@ In januari was de brutomarge 35%, in april nemen we een piek (45%) waar, in juli
 ## <a name="add-titles-to-the-axes"></a>Titels toevoegen aan de assen
 1. Selecteer het pictogram met verfroller ![Pictogram met verfroller](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) om het Opmaakvenster te openen.
 1. Selecteer de pijl-omlaag om de **Y-as** uit te breiden.
-1. Stel voor de **Y-as (kolom)** de **Positie** in op **Links**, stel **Titel** in op **Aan**, stel **Stijl** in op **Alleen titel weergeven** en stel voor **Eenheden weergeven** de optie **Miljoenen** in.
+1. Stel voor de **Y-as (kolom)** de **Positie** in op **Links** , stel **Titel** in op **Aan** , stel **Stijl** in op **Alleen titel weergeven** en stel voor **Eenheden weergeven** de optie **Miljoenen** in.
 
    ![voorbeeld van Y-as openen voor combinatiegrafiek](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
 4. Schuif onder **Y-as (kolom)** omlaag totdat u **Secundaire as weergeven** ziet. Omdat er zoveel opties voor de Y-assen zijn, moet u mogelijk beide schuifbalken gebruiken. In het gedeelte Secundaire as weergeven worden opties weergegeven voor het opmaken van het deel met het lijndiagram van de combinatiegrafiek.
 
    ![voorbeeld van secundaire as voor combinatiegrafiek](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
-5. Voor **Y-as (regel)** laat u **Positie** ingesteld staan op **Rechts**, stelt u **Titel** in op **Aan** en stelt u voor **Stijl** de optie **Alleen titel weergeven** in.
+5. Voor **Y-as (regel)** laat u **Positie** ingesteld staan op **Rechts** , stelt u **Titel** in op **Aan** en stelt u voor **Stijl** de optie **Alleen titel weergeven** in.
 
    Uw combinatiegrafiek bevat nu twee assen, beide met titels.
 

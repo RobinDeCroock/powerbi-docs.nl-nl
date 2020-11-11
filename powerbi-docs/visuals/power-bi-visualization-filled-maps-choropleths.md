@@ -1,8 +1,8 @@
 ---
 title: Choropletenkaarten in Power BI
 description: Documentatie over het maken van choropletenkaarten in Power BI
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 45069a4a575659d44e41f1010d9941f21caa1ad1
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861631"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412988"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Choropletenkaarten maken en gebruiken in Power BI
 
@@ -28,7 +28,7 @@ In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te g
 ![Kaart van VS](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Welke gegevens worden naar Bing verzonden?
-Power BI is geïntegreerd met Bing om standaardkaartcoördinaten te bieden (een proces dat geocodering wordt genoemd). Wanneer u een visualisatie van een kaart maakt in de Power BI-service of Power BI Desktop, worden de gegevens in de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** naar Bing verzonden. Deze buckets worden trouwens gebruikt om de visualisatie te maken.
+Power BI is geïntegreerd met Bing om standaardkaartcoördinaten te bieden (een proces dat geocodering wordt genoemd). Wanneer u een visualisatie van een kaart maakt in de Power BI-service of Power BI Desktop, worden de gegevens in de buckets **Locatie** , **Breedtegraad** en **Lengtegraad** naar Bing verzonden. Deze buckets worden trouwens gebruikt om de visualisatie te maken.
 
 U of uw beheerder moet mogelijk uw firewall bijwerken om toegang te krijgen tot de URL’s die Bing gebruikt voor geocodering.  Deze URL's zijn:
 - https://dev.virtualearth.net/REST/V1/Locations    
@@ -113,7 +113,7 @@ Als u een locatie op een choropletenkaart markeert, worden de andere visualisati
 
    ![Choropletenkaart toegevoegd aan pagina Gevoel](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. Selecteer een staat op de choropletenkaart.  Hiermee worden de andere visualisaties op de pagina kruislings gemarkeerd en kruislings gefilterd. Als u bijvoorbeeld **Texas**selecteert, worden de kaarten kruislings gefilterd en wordt het staafdiagram kruislings gemarkeerd. Hieruit haal ik dat de gevoelswaarde 75 is en dat Texas zich in het Central District #23 bevindt.   
+5. Selecteer een staat op de choropletenkaart.  Hiermee worden de andere visualisaties op de pagina kruislings gemarkeerd en kruislings gefilterd. Als u bijvoorbeeld **Texas** selecteert, worden de kaarten kruislings gefilterd en wordt het staafdiagram kruislings gemarkeerd. Hieruit haal ik dat de gevoelswaarde 75 is en dat Texas zich in het Central District #23 bevindt.   
    ![Texas geselecteerd](media/power-bi-visualization-filled-maps-choropleths/power-bi-filter.png)
 2. Selecteer een gegevenspunt in het lijndiagram VanArsdel - Gevoel per maand. Hierdoor wordt de choropletenkaart gefilterd op gevoel voor VanArsdel en niet hun concurrentie.  
    ![nieuwe arcering](media/power-bi-visualization-filled-maps-choropleths/power-bi-vanarsdel.png)

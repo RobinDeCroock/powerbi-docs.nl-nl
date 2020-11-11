@@ -1,21 +1,21 @@
 ---
 title: 'Deel 1: Visualisaties toevoegen aan een Power BI-rapport'
 description: 'Deel 1: Visualisaties toevoegen aan een Power BI-rapport'
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 439807717a91a22520969a85a3991b76f8115833
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3a2002c9f17428c84704d68f621cf18443252557
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232384"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411884"
 ---
 # <a name="add-visuals-to-a-power-bi-report-part-1"></a>Visualisaties toevoegen aan een Power BI-rapport (deel 1)
 
@@ -68,7 +68,7 @@ In deze zelfstudie wordt het [PBIX-bestand met een voorbeeld van verkoop en mark
 
    ![Schermopname van het deelvenster Visualisaties met het pictogram Gestapeld kolomdiagram omkaderd.](media/power-bi-report-add-visualizations-i/power-bi-convert.png)
 
-1. Selecteer **Meer acties** (...) om de manier te wijzigen waarop de visual is gesorteerd.  Gebruik de sorteeropties om de sorteervolgorde (oplopend of aflopend) en de kolom die wordt gebruikt om te sorteren (**Sorteren op**) te wijzigen.
+1. Selecteer **Meer acties** (...) om de manier te wijzigen waarop de visual is gesorteerd.  Gebruik de sorteeropties om de sorteervolgorde (oplopend of aflopend) en de kolom die wordt gebruikt om te sorteren ( **Sorteren op** ) te wijzigen.
 
    ![Schermafbeelding van de vervolgkeuzelijst Meer acties.](media/power-bi-report-add-visualizations-i/power-bi-sort.png)
   
