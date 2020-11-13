@@ -44,6 +44,8 @@
               href: service-premium-capacity-scenarios.md
             - name: Veelgestelde vragen over Power BI Premium
               href: service-premium-faq.md
+            - name: Veelgestelde vragen voer Power BI Premium per gebruiker
+              href: service-premium-per-user-faq.md
     - name: Procedures
       items:
         - name: Licentieverlening en aanmelding
@@ -106,6 +108,8 @@
               href: service-admin-premium-manage.md
             - name: Workloads configureren
               href: service-admin-premium-workloads.md
+            - name: Power BI Premium kopen om te testen
+              href: service-admin-premium-testing.md
             - name: Capaciteiten bewaken met de app
               href: service-admin-premium-monitor-capacity.md
             - name: Premium metrische gegevens van workload bewaken

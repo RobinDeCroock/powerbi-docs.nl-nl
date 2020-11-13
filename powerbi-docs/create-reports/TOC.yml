@@ -277,6 +277,8 @@
               href: ../visuals/power-bi-visualization-decomposition-tree.md
             - name: Slimme verhalen
               href: ../visuals/power-bi-visualization-smart-narrative.md
+            - name: Afwijkingsdetectie
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Ringdiagrammen
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Choropletenkaarten
