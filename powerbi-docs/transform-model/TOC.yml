@@ -133,5 +133,7 @@
               href: ./dataflows/dataflows-machine-learning-integration.md
     - name: Verwijzing
       items:
+        - name: De lijst Velden gebruiken in Power BI Desktop (preview)
+          href: desktop-field-list.md
         - name: Sneltoetsen van de formule-editor
           href: desktop-formula-editor.md
