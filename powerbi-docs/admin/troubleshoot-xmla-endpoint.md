@@ -1,5 +1,5 @@
 ---
-title: Problemen met connectiviteit van XMLA-eindpunten in Power BI Premium oplossen (preview)
+title: Problemen met connectiviteit van XMLA-eindpunten in Power BI oplossen
 description: Hierin wordt beschreven hoe u problemen met connectiviteit van het XMLA-eindpunt in Power BI Premium oplost.
 author: minewiskan
 ms.author: owend
@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/14/2020
+ms.date: 10/20/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: c8f0683e0789ec29577322424a4187a42ff5679f
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116564"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483668"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -79,7 +79,7 @@ Als Power BI uw nieuwe gegevensset niet aan de referenties van de gegevensbron k
 
 Als u de verwerkingsfout wilt voorkomen, stelt u **Implementatieopties** > **Verwerkingsopties** in op **Niet verwerken**, zoals wordt weergegeven in de volgende afbeelding. In Visual Studio worden vervolgens alleen metagegevens geïmplementeerd. U kunt vervolgens de referenties voor de gegevensbron configureren en op **Nu vernieuwen** klikken voor de gegevensset in de Power BI-gebruikersinterface. Zie de sectie [Een gegevensset vernieuwen](#refreshing-a-dataset) verderop in dit artikel voor informatie over het oplossen van verwerkingsproblemen.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Modelimplementatiefout":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/do-not-process.png" alt-text="Optie Niet verwerken":::
 
 ### <a name="new-project-from-an-existing-dataset"></a>Nieuw project op basis van een bestaande gegevensset
 
@@ -128,13 +128,13 @@ Power BI retourneert de volgende fout als u een vernieuwing uitvoert via het XML
 
 Imitatie-instellingen die u kunt definiëren voor gegevensbronnen van providers zijn niet relevant voor Power BI. Power BI gebruikt een ander mechanisme op basis van de instellingen van de gegevensset om referenties voor gegevensbronnen te beheren. Daarom moet u **Serviceaccount** selecteren als u een providergegevensbron maakt.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Modelimplementatiefout":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/impersonate-services-account.png" alt-text="Serviceaccount imiteren":::
 
 ### <a name="fine-grained-processing"></a>Verfijnde verwerking
 
 Wanneer een geplande vernieuwing of vernieuwing op aanvraag in Power BI wordt geactiveerd, wordt doorgaans de gehele gegevensset vernieuwd. In veel gevallen is het efficiënter om selectieve vernieuwingen uit te voeren. U kunt verfijnde verwerkingstaken uitvoeren in SQL Server Management Studio (SSMS), zoals hieronder wordt weergegeven, of met behulp van hulpprogramma's of scripts van derden.
 
-:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Modelimplementatiefout":::
+:::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="Tabellen verwerken in SSMS":::
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Onderdrukkingen in de TMSL-opdracht Vernieuwen
 
@@ -142,7 +142,7 @@ Met onderdrukkingen in de [opdracht Vernieuwen (TMSL)](/analysis-services/tmsl/r
 
 ## <a name="see-also"></a>Zie ook
 
-[Gegevenssetconnectiviteit met het XMLA-eindpunt](service-premium-connect-tools.md)   
-[Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals](service-premium-service-principal.md)   
-[Problemen met Analyseren in Excel oplossen](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[Tabular model solution deployment](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current) (Implementatie van oplossingen met tabellaire modellen)
+[Gegevenssetconnectiviteit met het XMLA-eindpunt](service-premium-connect-tools.md)  
+[Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals](service-premium-service-principal.md)  
+[Probleemoplossing analyseren in Excel](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)  
+[Tabular model solution deployment](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current&preserve-view=true) (Implementatie van oplossingen met tabellaire modellen)

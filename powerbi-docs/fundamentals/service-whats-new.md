@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0f4b84067389e93de0e5c5c2b5008b08cd78151f
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3052119ed4abd4e752ab14a5eb9a2087148f4997
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525197"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397065"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -97,7 +97,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Opmerkingen](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/) voor Power BI-rapporten in de service.
 
 ### <a name="april-2019"></a>April 2019
-* Algemene beschikbaarheid van Power BI-[gegevensstromen](../transform-model/service-dataflows-overview.md).
+* Algemene beschikbaarheid van Power BI-[gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md).
 * Algemene beschikbaarheid van de nieuwe werkruimtefunctionaliteit.
 * Nieuwe Power BI-regio's in Frankrijk en Korea.
 * Bijgewerkte Q&A-functionaliteit voor dashboards.
@@ -120,12 +120,12 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Bulksgewijs bewerkingen uitvoeren in de beheerportal.
 * Gefilterd exporteren voor PPT en PDF.
 * [Instellingen voor Help en ondersteuning](https://powerbi.microsoft.com/blog/tailoring-help-and-support-for-power-bi-users/) in de beheerportal.
-* Gebruik van regelaantallen voor [gegevensstromen](../transform-model/service-dataflows-overview.md).
+* Gebruik van regelaantallen voor [gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md).
 * Instelling voor gecertificeerde Power BI-visuals in de beheerportal.
 
 ### <a name="january-2019"></a>Januari 2019
 * [Beveiligde Power BI-rapporten insluiten](../collaborate-share/service-embed-report-spo.md) in interne portals of op websites.
-* Updates voor de [gegevensstroom](../transform-model/service-dataflows-overview.md)editor, met nieuwe connectors en ondersteuning voor systeemeigen SQL-query's en Power Query Online-transformaties.
+* Updates voor de [gegevensstroom](../transform-model/dataflows/dataflows-introduction-self-service.md)editor, met nieuwe connectors en ondersteuning voor systeemeigen SQL-query's en Power Query Online-transformaties.
 * [Persoonlijke bladwijzers](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) in de Power BI-service.
 * Tijdgebaseerd plannen met e-mailabonnementen.
 
@@ -133,11 +133,11 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 ### <a name="december-2018"></a>December 2018
 * Door AI aangestuurde [aanbevolen apps](https://powerbi.microsoft.com/blog/announcing-ai-powered-app-recommendations-getting-the-right-insights-to-the-right-people/) op de Power BI-startpagina.
 * [Werkruimtebeheer](https://powerbi.microsoft.com/blog/workspace-management-in-the-admin-portal/) in de beheerportal.
-* Preview van Power BI-gegevensstromen en Azure Data Lake Storage Gen2-integratie in [gegevensstromen](../transform-model/service-dataflows-overview.md).
+* Preview van Power BI-gegevensstromen en Azure Data Lake Storage Gen2-integratie in [gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md).
 * De Power BI-oplossingssjablonen zijn open-source geworden.
 
 ### <a name="november-2018"></a>November 2018
-* Power BI-gegevensvoorbereiding is beschikbaar in de openbare preview voor [gegevensstromen](../transform-model/service-dataflows-overview.md).
+* Power BI-gegevensvoorbereiding is beschikbaar in de openbare preview voor [gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md).
 * Openbare preview van [gepagineerde rapporten](../paginated-reports/paginated-reports-report-builder-power-bi.md) in Power BI Premium.
 * Gegevensgrootte en het aantal gegevenssets in het geheugen in de [app Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
 
@@ -283,46 +283,46 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * [Tekstkolommen weergeven als knopinfo](https://powerbi.microsoft.com/blog/tech-tip-thursday-displaying-text-columns-in-tool-tips/).
 
 ### <a name="july-2016"></a>Juli 2016
-***RLS promoveert vanuit preview***
+***RLS promoveert vanuit preview** _
 
-* Met beveiliging op rijniveau (RLS) kunt u gegevenstoegang beperken op basis van degene die toegang tot de gegevens zoekt. Onlangs hebben we het configuratieproces voor RLS gestroomlijnd door rollen en regels zichtbaar te maken in Power BI Desktop. Nu kunnen we met trots melden dat RLS algemeen beschikbaar is voor alle Power BI Pro-gebruikers.
+_ Met beveiliging op rijniveau (RLS) kunt u gegevenstoegang beperken op basis van degene die toegang tot de gegevens zoekt. Onlangs hebben we het configuratieproces voor RLS gestroomlijnd door rollen en regels zichtbaar te maken in Power BI Desktop. Nu kunnen we met trots melden dat RLS algemeen beschikbaar is voor alle Power BI Pro-gebruikers.
 
-***Gegevensclassificatie***
+***Gegevensclassificatie** _
 
-* U kunt uw dashboards nu taggen met classificaties die zijn gedefinieerd door de IT-afdeling van uw bedrijf, om degenen die uw dashboards bekijken meer bewust te maken van het beveiligingsniveau dat moet worden gebruikt.
+_ U kunt uw dashboards nu taggen met classificaties die zijn gedefinieerd door de IT-afdeling van uw bedrijf, om degenen die uw dashboards bekijken meer bewust te maken van het beveiligingsniveau dat moet worden gebruikt.
 
-***Uw on-premises gegevens in Excel analyseren***
+***Uw on-premises gegevens in Excel analyseren** _
 
-* De functie Analyseren in Excel is uitgebreid ter ondersteuning van on-premises gegevenssets. Er wordt een beveiligde en directe verbinding met uw on-premises gegevensset gemaakt, zodat u deze in Excel kunt analyseren. Er is ook een instelling voor beheerders om de functie Analyseren in Excel uit te schakelen voor on-premises bronnen.  
+_ De functie Analyseren in Excel is uitgebreid ter ondersteuning van on-premises gegevenssets. Er wordt een beveiligde en directe verbinding met uw on-premises gegevensset gemaakt, zodat u deze in Excel kunt analyseren. Er is ook een instelling voor beheerders om de functie Analyseren in Excel uit te schakelen voor on-premises bronnen.  
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-july-update-for-service-and-mobile/) voor meer informatie
 
 ### <a name="june-2016"></a>Juni 2016
-***Quick Insights (Snelle inzichten)***
+***Snelle inzichten** _
 
-* Snelle inzichten werkt met complexe filters: Met trots melden we dat Snelle inzichten, met de omvang van slechts één tegel, nu ook complexe filters aankan.
+_ Snelle inzichten werkt met complexe filters: Met trots melden we dat Snelle inzichten, met de omvang van slechts één tegel, nu ook complexe filters aankan.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/smarter-auto-generated-insights-with-complex-filters/) voor meer informatie
 
 ### <a name="may-2016"></a>Mei 2016
-***Gegevens ophalen***
+***Gegevens ophalen** _
 
-* Bestandsgroottelimiet verhoogd naar 1 GB: De bestandsgroottelimiet is voor zowel Excel-werkmappen als Power BI Desktop-bestanden verhoogd naar 1 GB.
+_ Bestandsgroottelimiet verhoogd naar 1 GB: De bestandsgroottelimiet is voor zowel Excel-werkmappen als Power BI Desktop-bestanden verhoogd naar 1 GB.
 * Zoeken naar SSAS-servers die zijn ingesteld met de Enterprise-gateway en andere gateway-updates: Wanneer u nu een Enterprise-gateway installeert, kunnen gebruikers in uw bedrijf via de pagina Gegevens ophalen in de Power BI-service toegang krijgen tot deze servers. Er is ook ondersteuning toegevoegd voor het bijwerken van gegevenssets die gegevens bevatten van SAP Business Warehouse Server met behulp van de gateway en voor het maken van UPN-toewijzingsregels wanneer u Analysis Services met de gateway gebruikt.
 
-***Beveiliging op rijniveau (RLS)***
+***Beveiliging op rijniveau (RLS)** _
 
-* Ondersteuning voor Azure AD-groepen (Azure Active Directory): Gebruikers kunnen nu Azure AD-groepen (beveiligingsgroepen) toewijzen aan een rol. Dit vergemakkelijkt het toewijzen van rollen in één keer aan een grote groep gebruikers.
+_ Ondersteuning voor Azure AD-groepen (Azure Active Directory): Gebruikers kunnen nu Azure AD-groepen (beveiligingsgroepen) toewijzen aan een rol. Dit vergemakkelijkt het toewijzen van rollen in één keer aan een grote groep gebruikers.
 * [Uw rollen voor beveiliging op rijniveau (RLS) testen met rapporten op basis van gegevens van de RLS-implementatie](../admin/service-admin-rls.md#validate-the-roles-within-power-bi-desktop): We hebben een functie aan de RLS-preview toegevoegd waarmee u uw gegevensset als een specifieke rol kunt testen. Hiermee zorgt u dat de functie werkt zoals verwacht voordat gebruikers met uw dashboard gaan werken.
 * Beveiliging op rijniveau (RLS) definiëren en op cloudmodellen toepassen op basis van directe query's: U kunt nu RLS-regels maken en toepassen voor gegevensbronnen waarop directe query's kunnen worden uitgevoerd.
 
-***Dashboards***
+***Dashboards** _
 
-* Favoriete dashboards: U kunt nu de dashboards die u het meest gebruikt, instellen als favoriet, zodat ze eenvoudig toegankelijk zijn vanuit al uw werkruimten.
+_ Favoriete dashboards: U kunt nu de dashboards die u het meest gebruikt, instellen als favoriet, zodat ze eenvoudig toegankelijk zijn vanuit al uw werkruimten.
 
-***Analyseren in Excel***
+***In Excel analyseren** _
 
-* Verbeterde downloadervaring: Download via een nieuw dialoogvenster eenvoudig updates naar de functie Analyseren in Excel.
+_ Verbeterde downloadervaring: Download via een nieuw dialoogvenster eenvoudig updates naar de functie Analyseren in Excel.
 * Ondersteuning voor beveiliging op rijniveau (RLS): Als u RLS instelt, worden de regels die u op de gegevens toepast, nu doorgevoerd wanneer een gebruiker de gegevens in Excel analyseert.
 * Verbeterde foutberichten voor on-premises Analysis Services-databases: Als u voorheen Analyseren in Excel selecteerde voor een niet-ondersteunde gegevensbron, ontving u pas een foutbericht nadat u het ODC-bestand had gedownload en verbinding had proberen te maken met Power BI. Nu verschijnt zodra u Analyseren in Excel selecteert voor een gegevensbron die niet wordt ondersteund, een foutbericht dat deze gegevensbron nog niet wordt ondersteund.
 
@@ -351,49 +351,49 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-added-to-
 
 **14 april 2016**
 
-***Enterprise***
+**_Enterprise_* _
 
-* [Inhoudspakketondersteuning voor beveiliging op rijniveau (RLS)](../admin/service-admin-rls.md) (preview): Als RLS is gedefinieerd voor dashboards en rapporten die worden gedistribueerd als onderdeel van een inhoudspakket, worden de beveiligingsregels voor verbindingen in acht genomen voor dit inhoudspakket.
+_ [Inhoudspakketondersteuning voor beveiliging op rijniveau (RLS)](../admin/service-admin-rls.md) (preview): Als RLS is gedefinieerd voor dashboards en rapporten die worden gedistribueerd als onderdeel van een inhoudspakket, worden de beveiligingsregels voor verbindingen in acht genomen voor dit inhoudspakket.
 
-***Dashboards***
+***Dashboards** _
 
-* [Vimeo-videotegel](../create-reports/service-dashboard-add-widget.md):  Voeg vanuit het dashboard een tegel met een ingesloten Vimeo-speler toe.
+_ [Vimeo-videotegel](../create-reports/service-dashboard-add-widget.md):  Voeg vanuit het dashboard een tegel met een ingesloten Vimeo-speler toe.
 
-***Analyseren in Excel***
+***In Excel analyseren** _
 
-* [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) is beschikbaar voor alle gebruikers: toegang tot uw Power BI-gegevensmodellen in Excel is uitgebreid voor alle gebruikers, ongeacht de licentie die aan hen is toegewezen.
+_ [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) is beschikbaar voor alle gebruikers: toegang tot uw Power BI-gegevensmodellen in Excel is uitgebreid voor alle gebruikers, ongeacht de licentie die aan hen is toegewezen.
 * Verbeterde ervaring voor accounts met meerdere gebruikers: als u meer dan een Power BI-gebruikersaccount hebt, verloopt het aanmelden nu eenvoudiger.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/) voor meer informatie
 
 **31 maart 2016** Veel updates aangekondigd op de Microsoft Data Insights Summit.
 
-***Dashboards***
+**_Dashboards_* _
 
-* Aanbevolen dashboard: hiermee komt u gemakkelijker bij het dashboard dat u het belangrijkst vindt.
+_ Aanbevolen dashboard: hiermee komt u gemakkelijker bij het dashboard dat u het belangrijkst vindt.
 * Dashboardlijst filteren: alles weergeven, inhoud weergeven die u hebt gemaakt, inhoud weergeven die met u is gedeeld.
 
-***Enterprise-functies***
+***Enterprise-functies** _
 
-* Gebruiksrapportage voor beheer: een gebruiksrapport is toegevoegd aan het Power BI-beheercentrum.
+_ Gebruiksrapportage voor beheer: een gebruiksrapport is toegevoegd aan het Power BI-beheercentrum.
 * Beveiliging op rijniveau: dit is een preview-functie waarmee u machtigingen kunt instellen voor Power BI-gegevenssets.
 * Exporteren van gegevens uitschakelen: gebruikers in uw tenant kunnen tegels en visuele gegevens niet langer exporteren naar een csv-bestand.
 
-***Q&A***
+***Q&A** _
 
-* Automatisch aanvullen voor 'is': Q&A stelt waarden voor als u de kolomnaam intypt gevolgd door 'is'.
+_ Automatisch aanvullen voor 'is': Q&A stelt waarden voor als u de kolomnaam intypt gevolgd door 'is'.
 
-***Mobiel***
+***Mobiel** _
 
-* KPI's op uw Apple Watch: volg uw KPI en kaarttegels zonder de Power BI-app te openen.
+_ KPI's op uw Apple Watch: volg uw KPI en kaarttegels zonder de Power BI-app te openen.
 
-***Excel***
+***Excel** _
 
-* Analyseren in Excel: maak verbinding van uw Power BI-gegevensmodel met Excel en voer uw analyse uit in Excel in plaats van in Power BI.
+_ Analyseren in Excel: maak verbinding van uw Power BI-gegevensmodel met Excel en voer uw analyse uit in Excel in plaats van in Power BI.
 
-***Overige***
+***Overig** _
 
-* Power BI in Australië: nu kan iedereen in Australië, individueel of via een organisatie, terecht bij powerbi.microsoft.com en zich aanmelden voor Power BI.
+_ Power BI in Australië: nu kan iedereen in Australië, individueel of via een organisatie, terecht bij powerbi.microsoft.com en zich aanmelden voor Power BI.
 * Taalinstellingen: de automatische taaldetectie overschrijven en de taal instellen voor Power BI.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-march-update-part-two/) voor meer informatie
@@ -402,19 +402,19 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-m
 
 Deze maand zijn een aantal updates aangebracht in dashboards, snelle inzichten en Q&A.
 
-***Dashboards***
+**_Dashboards_* _
 
-* Modus Volledig scherm: afdrukken zonder de modus Volledig scherm af te sluiten
+_ Modus Volledig scherm: afdrukken zonder de modus Volledig scherm af te sluiten
 * Modus Volledig scherm: uw tegels uitvouwen om het volledige canvas te vullen en overtollige ruimte verwijderen door **Aan breedte aanpassen** te selecteren
 * Met Tegelstroom kunt u uw tegels automatisch naar de linkerbovenhoek van het canvas uitlijnen.
 
-***Quick Insights (Snelle inzichten)***
+***Snelle inzichten** _
 
-* Voor de inzichten Trend en Correlatie zijn nu trendregels gedefinieerd om patronen in de gegevens gemakkelijker te herkennen.
+_ Voor de inzichten Trend en Correlatie zijn nu trendregels gedefinieerd om patronen in de gegevens gemakkelijker te herkennen.
 
-***Q&A***
+***Q&A** _
 
-* U kunt nu meters en vlakdiagrammen opgeven in Q&A
+_ U kunt nu meters en vlakdiagrammen opgeven in Q&A
 * Verbeterde optie voor automatisch aanvullen voor Q&A - als u een paar tekens typt, begint Q&A al met automatisch aanvullen en worden visuele elementen aan u voorgesteld.
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-march-update/) voor meer informatie
@@ -423,31 +423,31 @@ Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-m
 
 Vandaag is een lange lijst met meest gevraagde functies uitgebracht. [Lees het blogbericht](https://powerbi.microsoft.com/blog/power-bi-february-service-update/).
 
-***Delen***
+**_Delen_* _
 
-* Delen met gebruikers buiten uw organisatie
+_ Delen met gebruikers buiten uw organisatie
 * Toegang vragen tot een dashboard
 
-***Beheerportal***
+***Beheerportal** _
 
-* Eenvoudig gebruikersbeheer met een koppeling naar het Microsoft 365-beheercentrum
+_ Eenvoudig gebruikersbeheer met een koppeling naar het Microsoft 365-beheercentrum
 * Mogelijkheid om publiceren op internet uit te schakelen
 * Voorkomen dat gebruikers inhoudspakketten voor de volledige organisatie publiceren
 * Mogelijkheid om inhoud delen met externe gebruikers uit te schakelen
 
-***Quick Insights (Snelle inzichten)***
+***Snelle inzichten** _
 
-* Snelle inzichten bij het publiceren van Power BI Desktop-bestanden
+_ Snelle inzichten bij het publiceren van Power BI Desktop-bestanden
 
-***Dashboard***
+***Dashboard** _
 
-* Webinhoud toevoegen aan uw dashboard (via Widget)
+_ Webinhoud toevoegen aan uw dashboard (via Widget)
 * Video-inhoud toevoegen aan uw dashboard (via Widget)
 * In-/uitzoomen op dashboards
 
-***Connectiviteit***
+***Connectiviteit** _
 
-* Verbinding maken met bestanden op de SharePoint-site van uw team via een URL
+_ Verbinding maken met bestanden op de SharePoint-site van uw team via een URL
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-february-service-update/) voor meer informatie
 
@@ -466,37 +466,37 @@ Prestatieverbeteringen voor het weergeven van rapporten, kruislings markeren enz
 
 Het Power BI-team is druk geweest tijdens de feestdagen. Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/) voor meer informatie
 
-***Dashboards***
+**_Dashboards_* _
 
-* Tegelgegevens exporteren
+_ Tegelgegevens exporteren
 * Een afbeelding of tekstvakwidget aan dashboards toevoegen
 * Dashboards afdrukken
 * Vernieuwingstijd op tegels
 * Knopinfo op dashboardtegels
 
-***Samenwerking***
+***Samenwerking** _
 
-* Gedeelde dashboardmelding
+_ Gedeelde dashboardmelding
 * Contact opnemen met de eigenaar van een gedeeld of organisatiedashboard
 
-***Rapporten***
+***Rapporten** _
 
-* Huidige rapportpagina afdrukken
+_ Huidige rapportpagina afdrukken
 * Visuele rapportgegevens exporteren
 
-***Connectiviteit***
+***Connectiviteit** _
 
-* Verbinding maken met de bestanden op SharePoint-teamsites
+_ Verbinding maken met de bestanden op SharePoint-teamsites
 
-***Excel-rapporten***
+***Excel-rapporten** _
 
-* Excel-rapporten openen in Excel-bureaublad
+_ Excel-rapporten openen in Excel-bureaublad
 * Excel-grafieken vastmaken
 * Verbeteringen van de indeling voor Excel-tegels
 
-***Overige***
+***Overig** _
 
-* Power BI in Brazilië
+_ Power BI in Brazilië
 * Ondersteuning voor Hebreeuws en Arabisch
 
 Zie [de Power BI-teamblog](https://powerbi.microsoft.com/blog/power-bi-service-update-0106/) voor meer informatie

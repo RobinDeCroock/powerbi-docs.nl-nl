@@ -1,21 +1,21 @@
 ---
 title: Tips en trucs voor kaarten (inclusief Bing Kaarten-integratie)
 description: 'Tips en trucs voor kaartvisualisaties, visuele elementen, locaties en lengtegraad en breedtegraad in Power BI, en hoe deze werken met Bing Kaarten. '
-author: mihart
-ms.reviewer: rien
+author: msftrien
+ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ec2e097dd829760c331ff8f045af00176b0c302b
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860113"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93411861"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor Power BI-kaartvisualisaties
 
@@ -53,13 +53,13 @@ Als u toegang hebt tot de gegevensset die wordt gebruikt voor het maken van de k
 U kunt in Power BI Desktop zorgen dat velden correct worden gegeocodeerd door de *gegevenscategorie* voor de gegevensvelden in te stellen. Selecteer in de gegevensweergave de gewenste kolom. Selecteer in het lint de optie **Model maken** en stel de **gegevenscategorie** in op **Adres**, **Plaats**, **Continent**, **Land/Regio**, **Graafschap**, **Postcode**, **Staat** of **Provincie**. Deze gegevenscategorieën helpen Bing bij het correct coderen van de gegevens. Zie [Gegevenscategorisatie in Power BI Desktop](../transform-model/desktop-data-categorization.md) voor meer informatie. Als u live verbinding maakt met SQL Server Analysis Services, moet u de gegevenscategorisatie buiten Power BI om instellen met [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt).
 
 **2. Gebruik meerdere locatiekolommen.**     
- Soms wordt uw bedoeling toch niet begrepen in Bing Kaarten, ook al hebt u de gegevenscategorieën voor kaarten ingesteld. Sommige aanduidingen zijn ambigu omdat de locatie voorkomt in meerdere landen of regio's. Er is bijvoorbeeld een ***Southampton*** in Engeland, Pennsylvania en New York.
+ Soms wordt uw bedoeling toch niet begrepen in Bing Kaarten, ook al hebt u de gegevenscategorieën voor kaarten ingesteld. Sommige aanduidingen zijn ambigu omdat de locatie voorkomt in meerdere landen of regio's. Er is bijvoorbeeld een **_Southampton_* _ in Engeland, Pennsylvania en New York.
 
 Power BI maakt gebruik van de [ongestructureerde URL-sjabloonservice](/bingmaps/rest-services/locations/find-a-location-by-address) van Bing voor het ophalen van de breedte- en lengtegraadcoördinaten op basis van een set adreswaarden voor elk land. Als uw gegevens onvoldoende locatiegegevens bevatten, kunt u die kolommen toevoegen en op de juiste wijze categoriseren.
 
  Als u bijvoorbeeld alleen de kolom Plaats hebt, wordt het lastig om goede geocoderingsresultaten met Bing te verkrijgen. Zorg dat de locatie niet meer ambigu is door aanvullende geokolommen toe te voegen.  Soms hoeft u daarvoor maar één extra locatiekolom aan de dataset toe te voegen (in dit geval Staat/provincie). Vergeet ook niet de locaties goed te categoriseren, zoals beschreven in punt 1.
 
-Zorg ervoor dat elk veld slechts één locatiecategorie heeft. Bijvoorbeeld: het locatieveld Plaats moet **Southampton** bevatten, niet **Southampton, New York**.  Het locatieveld Adres moet **1 Microsoft Way** bevatten, en niet **1 Microsoft Way, Redmond, WA**.
+Zorg ervoor dat elk veld slechts één locatiecategorie heeft. Bijvoorbeeld: het locatieveld Plaats moet _*Southampton** bevatten, niet **Southampton, New York**.  Het locatieveld Adres moet **1 Microsoft Way** bevatten, en niet **1 Microsoft Way, Redmond, WA**.
 
 **3. Gebruik een specifieke breedte- en lengtegraad**
 

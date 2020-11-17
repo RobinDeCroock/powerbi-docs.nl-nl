@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 09/02/2020
-ms.openlocfilehash: ca9c18cbd51737a5e4b05f3504c6ac2760006281
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 447f73601362c9ee205fe64119d0c251e7b4eb9a
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92050719"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412275"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Uw omgeving instellen voor het ontwikkelen van een Power BI-visual
 
@@ -43,9 +43,9 @@ In dit artikel leert u het volgende:
 
 ## <a name="install-pbiviz"></a>Pbiviz installeren
 
-De tool *pbiviz* , die is geschreven met behulp van JavaScript, compileert de broncode van de visual uit het *pbiviz* -pakket.
+De tool *pbiviz*, die is geschreven met behulp van JavaScript, compileert de broncode van de visual uit het *pbiviz*-pakket.
 
-Het *pbiviz* -pakket is een gezipt visualproject van Power BI Visual met alle benodigde scripts en assets.
+Het *pbiviz*-pakket is een gezipt visualproject van Power BI Visual met alle benodigde scripts en assets.
 
 1. Open Windows PowerShell en voer de volgende opdracht uit.
 
@@ -77,34 +77,34 @@ Dit proces beschrijft het uitvoeren van een PowerShell-opdracht waarmee de wizar
     >[!div class="mx-imgBorder"]
     >![Schermopname van de opdracht p b i v i z die wordt uitgevoerd in Windows PowerShell](media/environment-setup/powershell-pbiviz.png)
 
-2. Controleer in de wizard voor het importeren van certificaten of de opslaglocatie is ingesteld op *Huidige gebruiker* en selecteer dan **Nieuw** .
+2. Controleer in de wizard voor het importeren van certificaten of de opslaglocatie is ingesteld op *Huidige gebruiker* en selecteer dan **Nieuw**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van het eerste venster van de wizard Certificaat importeren, met de optie Opslaglocatie ingesteld op Huidige gebruiker.](media/environment-setup/certificate-wizard-store-location.png)
 
-3. Selecteer **Volgende** in het venster **Te importeren bestand** .
+3. Selecteer **Volgende** in het venster **Te importeren bestand**.
 
-4. Plak de toegangscode die is geretourneerd tijdens het uitvoeren van de PowerShell-opdracht (stap 1) in het tekstvak **Wachtwoord** van het venster *Beveiliging met persoonlijke sleutel* en selecteer **Volgende** . In dit voorbeeld geval is de toegangscode 9765328806094.
+4. Plak de toegangscode die is geretourneerd tijdens het uitvoeren van de PowerShell-opdracht (stap 1) in het tekstvak **Wachtwoord** van het venster *Beveiliging met persoonlijke sleutel* en selecteer **Volgende**. In dit voorbeeld geval is de toegangscode 9765328806094.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van het venster Beveiliging met persoonlijke sleutel van de wizard Certificaat importeren, met het vak Wachtwoord gemarkeerd.](media/environment-setup/certificate-wizard-password.png)
 
-5. Selecteer in het venster **Certificaatarchief** de optie **Alle certificaten in het volgende archief plaatsen** en selecteer vervolgens **Bladeren** .
+5. Selecteer in het venster **Certificaatarchief** de optie **Alle certificaten in het volgende archief plaatsen** en selecteer vervolgens **Bladeren**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van het venster Certificaatarchief van de wizard Certificaat importeren, met de optie 'Alle certificaten in het volgende archief plaatsen' geselecteerd.](media/environment-setup/certificate-wizard-certificate-store.png)
 
-6. Selecteer in het venster **Certificaatarchief selecteren** **Vertrouwde basiscertificeringsinstanties** en selecteer vervolgens **OK** .
+6. Selecteer in het venster **Certificaatarchief selecteren** **Vertrouwde basiscertificeringsinstanties** en selecteer vervolgens **OK**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van het venster Certificaatarchief selecteren, met de map Vertrouwde basiscertificeringsinstanties geselecteerd.](media/environment-setup/trusted-root.png)
 
-7. Selecteer *Volgende* in het venster **Certificaatarchief** .
+7. Selecteer *Volgende* in het venster **Certificaatarchief**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van het venster Certificaat archief van de wizard Certificaat importeren, met de map Vertrouwde basiscertificeringsinstanties geselecteerd en de knop Volgende gemarkeerd.](media/environment-setup/certificate-wizard-store-next.png)
 
-8. Controleer de instellingen in het venster voor het **voltooien van de wizard Certificaat importeren** en selecteer **Voltooien** .
+8. Controleer de instellingen in het venster voor het **voltooien van de wizard Certificaat importeren** en selecteer **Voltooien**.
 
     >[!NOTE]
     >Selecteer **Ja** als u een beveiligingswaarschuwing krijgt.
@@ -120,7 +120,7 @@ Dit proces beschrijft het uitvoeren van een PowerShell-opdracht waarmee de wizar
 
     ![SL-certificaat 2 op OSX installeren](media/custom-visual-develop-tutorial/install-ssl-certificate-osx2.png)
 
-3. Voer uw gebruikersnaam en wachtwoord in en selecteer **Werk instellingen bij** .
+3. Voer uw gebruikersnaam en wachtwoord in en selecteer **Werk instellingen bij**.
 
     ![SL-certificaat 3 op OSX installeren](media/custom-visual-develop-tutorial/install-ssl-certificate-osx3.png)
 
@@ -144,12 +144,12 @@ Als u een Power BI-visual wilt ontwikkelen, moet u de optie 'Aangepaste visuele 
 
 1. Meld u aan bij [PowerBI.com](https://powerbi.microsoft.com/).
 
-2. Ga naar **Instellingen** > **Instellingen** > **Instellingen** .
+2. Ga naar **Instellingen** > **Instellingen** > **Instellingen**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van de opties Instellingen, Instellingen, Instellingen in de Power B I-service.](media/environment-setup/powerbi-settings.png)
 
-3. Selecteer **Ontwikkelaar** op het tabblad **Algemeen** . Schakel bij **Instellingen voor ontwikkelaars** het selectievakje **Aangepaste visuele foutopsporing inschakelen met de visual voor ontwikkelaars** in en selecteer **Toepassen** .
+3. Selecteer **Ontwikkelaar** op het tabblad **Algemeen**. Schakel bij **Instellingen voor ontwikkelaars** het selectievakje **Aangepaste visuele foutopsporing inschakelen met de visual voor ontwikkelaars** in en selecteer **Toepassen**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van de optie Aangepaste visuele foutopsporing inschakelen met de visual voor ontwikkelaars, op het tabblad Algemeen van de instellingen voor ontwikkelaars in Power B I.](media/environment-setup/developer-settings.png)
@@ -211,12 +211,12 @@ npm i powerbi-visuals-api --save-dev
     >```powershell
     >code .
     >```
-2. Open in VS Code het menu **File** en selecteer **Open Folder** .
+2. Open in VS Code het menu **File** en selecteer **Open Folder**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van de optie Open Folder in het menu File van VS Code.](media/environment-setup/open-folder.png)
 
-3. Selecteer in het venster **Open Folder** de map met uw Power BI-visualproject en selecteer **Select Folder** .
+3. Selecteer in het venster **Open Folder** de map met uw Power BI-visualproject en selecteer **Select Folder**.
 
     >[!div class="mx-imgBorder"]
     >![Schermopname van het selecteren van de map van het Power BI-visualproject in het venster Open Folder van VS Studio.](media/environment-setup/project-folder.png)

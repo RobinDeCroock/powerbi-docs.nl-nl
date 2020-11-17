@@ -8,20 +8,41 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/15/2020
-ms.openlocfilehash: 65e00fa5311ea12c9fe0011c6aa7c3e779f33dc5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 515813aeb98010f838cfff75febbb1ef206bc2cf
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83131121"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397479"
 ---
 # <a name="submission-testing-of-a-power-bi-visual"></a>Tests voor het indienen van een Power BI-visual
 
-Voordat u uw visual publiceert in [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), moet uw visual slagen voor deze testcases. Test uw visual voordat u deze indient. Als uw visual niet slaagt voor de verplichte testcases, wordt deze afgewezen.
+Voordat u uw visual publiceert in [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), moet uw visual slagen voor de in dit artikel vermelde tests. Test uw visual voordat u deze indient. Als uw visual niet slaagt voor de verplichte testcases, wordt deze afgewezen.
 
 Zie [Power BI-visuals publiceren in Partnercentrum](./office-store.md) voor meer informatie over het publicatieproces.
 
+## <a name="testing-a-new-version-of-a-published-visual"></a>Een nieuwe versie van een gepubliceerde visual testen
+
+Als u een nieuwe versie van een al gepubliceerde visual wilt testen of fouten erin wilt opsporen, kunt u de AppSource-versie overschrijven met een lokale bestandsversie door de ontwikkelaarsmodus in Power BI Desktop in te schakelen.
+
+Voer de volgende stappen uit om de ontwikkelaarsmodus in te schakelen:
+
+1. Open Power BI Desktop.
+
+2.  Selecteer **Bestand** > **Opties en Instellingen**.
+
+3.  Selecteer **Opties**.
+
+4. Selecteer in het venster Opties in de lijst HUIDIG BESTAND **Rapportinstellingen**.
+
+5. Selecteer in de ontwikkelaarsmodus de optie **Ontwikkelaarsmodus voor deze sessie inschakelen**.
+
+>[!NOTE]
+>In Power BI Desktop is de ontwikkelaarsmodus alleen geldig voor de duur van één sessie. Als u een nieuw Power BI Desktop-exemplaar voor het testen opent, moet u de ontwikkelaarsmodus weer inschakelen.
+
 ## <a name="general-test-cases"></a>Algemene testcases
+
+Controleer of uw visual voor de algemene testcases slaagt.
 
 | Testcase | Verwachte resultaten
 | --------- | ----------------

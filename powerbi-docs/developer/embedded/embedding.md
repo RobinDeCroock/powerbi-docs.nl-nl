@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: 32fb26faa42f0ce6128a4a4cc0e491f78f270d36
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 4dba33e2ae800198d4840139d43893a7dca77e4f
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982189"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94396812"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Ingesloten analyses met Power BI
 
@@ -31,8 +31,8 @@ U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) uitv
 
 Kies de oplossing die het beste bij u past:
 
-* [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden. Implementeer hiervoor oplossing [Insluiten voor uw organisatie](https://aka.ms/embedsetup/UserOwnsData).
-* Met [Insluiten voor uw klanten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen Power BI-account hebben. Hiervoor moet u de oplossing [Insluiten voor uw klanten](https://aka.ms/embedsetup/AppOwnsData) implementeren.
+* [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden. Voer hiervoor de oplossing *Insluiten voor uw organisatie* uit in het [installatieprogramma voor insluiten](https://app.powerbi.com/embedsetup).
+* Met [Insluiten voor uw klanten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen Power BI-account hebben. Voer hiervoor de oplossing *Insluiten voor uw klanten* uit in het [installatieprogramma voor insluiten](https://app.powerbi.com/embedsetup).
 
 ![Voorbeeld van PBIE](media/embedding/what-can-you-do-02.png)
 
@@ -59,7 +59,7 @@ Zie voor informatie over insluiten voor uw organisatie [Zelfstudie: Power BI-inh
 
 Mogelijkheden voor selfservice, zoals bewerken, opslaan en meer, zijn beschikbaar via de [JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript) wanneer u inhoud insluit voor Power BI-gebruikers.
 
-U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een rapport voor uw organisatie leert integreren.
+U kunt het [installatieprogramma voor insluiten](https://app.powerbi.com/embedsetup) uitvoeren om aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een rapport voor uw organisatie leert integreren.
 
 ## <a name="embedding-for-your-customers"></a>Inhoud voor uw klanten insluiten
 

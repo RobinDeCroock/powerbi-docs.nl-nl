@@ -1,7 +1,7 @@
 ---
 title: Gegevens uit een Power BI-visualisatie exporteren
 description: Exporteer gegevens uit een rapportvisualisatie en dashboardvisualisatie en bekijk ze in Excel.
-author: mihart
+author: msftrien
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 09/09/2020
-ms.author: mihart
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: bbeabcd3cbdc04378ea90908703744489371b11f
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861585"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412965"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
@@ -81,8 +81,8 @@ Als u wilt meedoen, opent u het rapport [Procurement analysis sample](../create-
 
 Nu zijn we klaar om beide opties voor het exporteren van gegevens uit te proberen.
 
-### <a name="export-summarized-data"></a>***Samengevatte*** gegevens exporteren
-Selecteer de optie **Samengevatte gegevens** als u gegevens wilt exporteren voor wat u ziet in de visual.  Bij dit type uitvoer ziet u alleen de gegevens (kolommen en metingen) die worden gebruikt om de visual te maken.  Als de visual een statistische functie bevat, exporteert u hiermee statistische gegevens. Als u bijvoorbeeld een staafdiagram met vier balken hebt, krijgt u vier rijen met Excel-gegevens. Samengevatte gegevens zijn beschikbaar in de Power BI-service als *.xlsx*- en *.csv*-bestand en in Power BI Desktop als .csv-bestand.
+### <a name="export-_summarized__-data"></a>**_Samengevatte_* _ gegevens exporteren
+Selecteer de optie _ *Samengevatte gegevens** als u gegevens wilt exporteren voor wat u ziet in de visual.  Bij dit type uitvoer ziet u alleen de gegevens (kolommen en metingen) die worden gebruikt om de visual te maken.  Als de visual een statistische functie bevat, exporteert u hiermee statistische gegevens. Als u bijvoorbeeld een staafdiagram met vier balken hebt, krijgt u vier rijen met Excel-gegevens. Samengevatte gegevens zijn beschikbaar in de Power BI-service als *.xlsx*- en *.csv*-bestand en in Power BI Desktop als .csv-bestand.
 
 1. Selecteer het beletselteken in de rechterbovenhoek van de visualisatie. Selecteer **Gegevens exporteren**.
 
@@ -117,9 +117,9 @@ Selecteer de optie **Samengevatte gegevens** als u gegevens wilt exporteren voor
 
     - Omdat we filters op de visualisatie hebt toegepast, worden de geëxporteerde gegevens gefilterd geëxporteerd. U ziet in de eerste rij: **Toegepaste filters: City is niet Atlanta, GA**. 
 
-### <a name="export-underlying-data"></a>***Onderliggende*** gegevens exporteren
+### <a name="export-_underlying__-data"></a>**_Onderliggende_* _ gegevens exporteren
 
-Selecteer deze optie als u de gegevens in de visual ***en*** aanvullende gegevens uit de gegevensset wilt weergeven (bekijk de onderstaande grafiek voor meer informatie). Als uw visualisatie een statistische functie bevat, wordt de statistische functie verwijderd als u **Onderliggende gegevens** selecteert. In dit voorbeeld wordt in de Excel-export één rij weergegeven voor elke Plaats-rij in onze gegevensset, en het kortingspercentage voor deze ene vermelding. Power BI vlakt de gegevens af en voegt deze niet samen.  
+Selecteer deze optie als u de gegevens in de visual _*_en_*_ aanvullende gegevens uit de gegevensset wilt weergeven (bekijk de onderstaande grafiek voor meer informatie). Als uw visualisatie een statistische functie bevat, wordt de statistische functie verwijderd als u _ *Onderliggende gegevens** selecteert. In dit voorbeeld wordt in de Excel-export één rij weergegeven voor elke Plaats-rij in onze gegevensset, en het kortingspercentage voor deze ene vermelding. Power BI vlakt de gegevens af en voegt deze niet samen.  
 
 Wanneer u **Exporteren** selecteert, worden de gegevens in Power BI geëxporteerd naar een *.xlsx*-bestand en wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
 
@@ -140,7 +140,7 @@ Wanneer u **Exporteren** selecteert, worden de gegevens in Power BI geëxporteer
     > In Power BI Desktop hebt u alleen de optie om samengevatte gegevens te exporteren. 
     
     
-1. Selecteer onder **Gegevens exporteren** de optie **Onderliggende gegevens**en selecteer vervolgens **Exporteren**. Power BI exporteert de gegevens.
+1. Selecteer onder **Gegevens exporteren** de optie **Onderliggende gegevens** en selecteer vervolgens **Exporteren**. Power BI exporteert de gegevens.
 
     ![Schermopname van Gegevens exporteren waarin de onderliggende gegevens zijn opgenomen.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 

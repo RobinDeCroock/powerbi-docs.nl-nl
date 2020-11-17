@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 85622b457d1c2eda0af51e0c7190d2691c259a82
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916493"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397433"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -270,26 +270,26 @@ Er gelden geen speciale Azure-prijzen voor non-profitorganisaties en onderwijsin
 
 ### <a name="what-is-power-bi-workspace-collection"></a>Wat is de Power BI-werkruimteverzameling?
 
-De **Power BI-werkruimteverzameling** ( **Power BI Embedded** versie 1) is een oplossing die is gebaseerd op de Azure-resource **Power BI-werkruimteverzameling**. Met deze oplossing kunt u **Power BI Embedded** -toepassingen voor uw klanten maken met behulp van Power BI-inhoud in de **Power BI-werkruimteverzameling** , toegewezen API's en werkruimteverzamelingsleutels waarmee de toepassing kan worden geverifieerd in Power BI.
+De **Power BI-werkruimteverzameling** (**Power BI Embedded** versie 1) is een oplossing die is gebaseerd op de Azure-resource **Power BI-werkruimteverzameling**. Met deze oplossing kunt u **Power BI Embedded**-toepassingen voor uw klanten maken met behulp van Power BI-inhoud in de **Power BI-werkruimteverzameling**, toegewezen API's en werkruimteverzamelingsleutels waarmee de toepassing kan worden geverifieerd in Power BI.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>Kan ik inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded?
 
 1. U kunt het hulpprogramma voor migratie gebruiken om inhoud van de **Power BI-werkruimteverzameling** te migreren naar Power BI - https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration.
 
-2. U begint met de POC van de **Power BI Embedded** -toepassing waarin gebruik wordt gemaakt van de Power BI-inhoud.
+2. U begint met de POC van de **Power BI Embedded**-toepassing waarin gebruik wordt gemaakt van de Power BI-inhoud.
 
 3. Wanneer u klaar bent voor productie, koopt u capaciteit van **Power BI Embedded** en wijst u uw Power BI-inhoud (werkruimte) toe aan die capaciteit.
 
     > [!Note]
-    > U kunt de **Power BI-werkruimteverzameling** blijven gebruiken terwijl u daarnaast een **Power BI Embedded** -oplossing bouwt. Zodra u klaar bent, kunt u uw klant naar de nieuwe **Power BI Embedded** -oplossing verplaatsen en de **Power BI-werkruimteverzameling** buiten gebruik stellen.
+    > U kunt de **Power BI-werkruimteverzameling** blijven gebruiken terwijl u daarnaast een **Power BI Embedded**-oplossing bouwt. Zodra u klaar bent, kunt u uw klant naar de nieuwe **Power BI Embedded**-oplossing verplaatsen en de **Power BI-werkruimteverzameling** buiten gebruik stellen.
 
 Zie [Inhoud van de Power BI-werkruimteverzameling migreren naar Power BI Embedded](./migrate-from-powerbi-embedded.md) voor meer informatie.
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Wordt de Power BI-werkruimteverzameling afgeschaft?
 
-Ja, maar de klanten die al gebruikmaken van de oplossing **Power BI-werkruimteverzameling** kunnen deze blijven gebruiken totdat deze wordt afgeschaft. Daarnaast kunnen klanten nieuwe werkruimteverzamelingen en **Power BI Embedded** -toepassingen maken die nog steeds gebruikmaken van de oplossing **Power BI-werkruimteverzameling**.
+Ja, maar de klanten die al gebruikmaken van de oplossing **Power BI-werkruimteverzameling** kunnen deze blijven gebruiken totdat deze wordt afgeschaft. Daarnaast kunnen klanten nieuwe werkruimteverzamelingen en **Power BI Embedded**-toepassingen maken die nog steeds gebruikmaken van de oplossing **Power BI-werkruimteverzameling**.
 
-Dit betekent echter ook dat er geen nieuwe functies worden toegevoegd aan oplossingen voor **Power BI-werkruimteverzamelingen**. We raden klanten aan hun migratie naar de nieuwe **Power BI Embedded** -oplossing te plannen.
+Dit betekent echter ook dat er geen nieuwe functies worden toegevoegd aan oplossingen voor **Power BI-werkruimteverzamelingen**. We raden klanten aan hun migratie naar de nieuwe **Power BI Embedded**-oplossing te plannen.
 
 ### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>Wanneer wordt ondersteuning voor de Power BI-werkruimteverzameling stopgezet?
 
@@ -301,23 +301,23 @@ Beschikbare regio's zijn Australië - zuidoost, Brazilië - zuid, Canada Centraa
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>Waarom moet ik inhoud van PBI-werkruimteverzameling migreren naar Power BI Embedded?
 
-De **Power BI Embedded** -oplossing bevat nieuwe functies en mogelijkheden die niet beschikbaar zijn in de **Power BI-werkruimteverzameling**.
+De **Power BI Embedded**-oplossing bevat nieuwe functies en mogelijkheden die niet beschikbaar zijn in de **Power BI-werkruimteverzameling**.
 
 Hieronder vindt u enkele voorbeelden van deze functies:
 * Alle PBI-gegevensbronnen worden ondersteund. Er worden slechts twee gegevensbronnen voor **Power BI-werkruimteverzamelingen** ondersteund. 
-* Nieuwe functies, zoals functies voor Q&A, vernieuwen, bladwijzers, het insluiten van dashboards en tegels, aangepaste menu's, enzovoort, worden alleen ondersteund in de **Power BI Embedded** -oplossing.
+* Nieuwe functies, zoals functies voor Q&A, vernieuwen, bladwijzers, het insluiten van dashboards en tegels, aangepaste menu's, enzovoort, worden alleen ondersteund in de **Power BI Embedded**-oplossing.
 * Model voor facturering van capaciteit.
 
 ## <a name="embedding-setup-tool"></a>Het installatieprogramma voor insluiten
 
 ### <a name="what-is-the-embedding-setup-tool"></a>Wat is het installatieprogramma voor insluiten?
 
-Met het [installatieprogramma voor insluiten](https://aka.ms/embedsetup) kunt u snel aan de slag en een voorbeeldtoepassing downloaden om met het insluiten van inhoud met behulp van Power BI te beginnen.
+Met het [installatieprogramma voor insluiten](https://app.powerbi.com/embedsetup) kunt u snel aan de slag en een voorbeeldtoepassing downloaden om met het insluiten van inhoud met behulp van Power BI te beginnen.
 
 ### <a name="which-solution-should-i-choose"></a>Welke oplossing moet ik kiezen?
 
-* [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. Voer de oplossing [Insluiten voor uw klanten](https://aka.ms/embedsetup/AppOwnsData) uit.
-* [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden. Voer de oplossing [Insluiten voor uw organisatie](https://aka.ms/embedsetup/UserOwnsData) uit.
+* [Door inhoud voor uw klanten in te sluiten](embedding.md#embedding-for-your-customers) kunt u dashboards en rapporten insluiten voor gebruikers die geen account voor Power BI hebben. Voer in het [installatieprogramma voor insluiten](https://app.powerbi.com/embedsetup) de oplossing *Insluiten voor uw klanten* uit.
+* [Met het insluiten van inhoud voor uw organisatie](embedding.md#embedding-for-your-organization) kunt u Power BI-service uitbreiden. Voer in het [installatieprogramma voor insluiten](https://app.powerbi.com/embedsetup) de oplossing *Insluiten voor uw organisatie* uit.
 
 ### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>Ik heb de voorbeeld-app gedownload. Welke oplossing moet ik kiezen?
 

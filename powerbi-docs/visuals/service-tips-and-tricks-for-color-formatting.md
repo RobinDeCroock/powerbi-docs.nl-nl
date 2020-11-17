@@ -1,26 +1,26 @@
 ---
-title: Tips en trucs voor kleuropmaak in rapporten
-description: Tips en trucs voor kleuropmaak in Power BI-rapporten
-author: mihart
-ms.reviewer: ''
+title: Tips en trucs voor opmaak in rapporten
+description: Tips en trucs voor opmaak in Power BI-rapporten
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/18/2020
-ms.author: mihart
+ms.date: 10/29/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633832"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483949"
 ---
-# <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Tips en trucs voor het gebruik van kleuren in Power BI
+# <a name="tips-and-tricks-for-formatting-in-reports"></a>Tips en trucs voor opmaak in rapporten
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-Power BI biedt veel verschillende manieren voor het aanpassen van uw dashboards en rapporten. In dit artikel vindt u een verzameling tips die ervoor kunnen zorgen dat uw Power BI-visualisaties boeiend, interessant en afgestemd op uw behoeften zijn.
+Power BI biedt veel verschillende manieren voor het aanpassen van uw rapporten. In dit artikel vindt u een verzameling tips die ervoor kunnen zorgen dat uw Power BI-visualisaties boeiend, interessant en afgestemd op uw behoeften zijn.
 
 De volgende tips worden gegeven. Hebt u nog een goede tip? Mooi! Stuur de tip naar ons en we zullen kijken of deze aan de lijst kan worden toegevoegd.
 
@@ -36,7 +36,7 @@ De volgende tips worden gegeven. Hebt u nog een goede tip? Mooi! Stuur de tip na
 
 Als u wijzigingen wilt aanbrengen, moet u bewerkingsrechten voor het rapport hebben. Open het rapport in de **rapportweergave** van Power BI Desktop. In de Power BI-service betekent dit het openen van het rapport en het selecteren van **Bewerken** in de menubalk, zoals wordt weergegeven in de volgende afbeelding.
 
-![locatie van het menu Bewerken](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-report.png)
+![locatie van het menu Bewerken](media/service-tips-and-tricks-for-color-formatting/power-bi-editing-view.png)
 
 Wanneer de deelvensters **Filters** en **Visualisaties** worden weergegeven aan de rechterkant van het rapportcanvas, kunt u beginnen met aanpassen. Als de deelvensters niet worden weergegeven, selecteert u de pijl in de rechterbovenhoek om deze te openen.
 

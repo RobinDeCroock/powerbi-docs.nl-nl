@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.openlocfilehash: cf0e6a6e7cd40a5b8bb97560caf94b71c1b48e7a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.date: 11/10/2020
+ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93324018"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483844"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Voorbeeld van gepagineerde Power BI-rapporten
 
@@ -27,8 +27,25 @@ Dit artikel biedt informatie en koppelingen naar verschillende voorbeelden van g
 - U kunt deze rapporten online delen zonder ze te hoeven bewerken. U hebt hiervoor een Power BI Pro-licentie nodig. Meld u aan voor een [gratis proefversie van Power BI Pro-licentie](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro).
 - Ook hebt u toegang tot een Power BI-werkruimte in een [Premium-capaciteit](../admin/service-premium-what-is.md) nodig.
 - Als u deze rapporten wilt bewerken, moet u [Power BI Report Builder installeren](https://aka.ms/pbireportbuilder) vanuit het Microsoft Downloadcentrum.
-- U bent nu klaar om [deze voorbeelden van gepagineerde rapporten te downloaden](https://github.com/microsoft/Reporting-Services/tree/master/PaginatedReportSamples) bij GitHub. U hebt geen GitHub-account nodig. 
+- U bent nu klaar om deze voorbeelden van gepagineerde rapporten te downloaden bij GitHub. U hebt geen GitHub-account nodig. 
 
+## <a name="download-the-reports"></a>De rapporten downloaden
+
+Als u de rapporten wilt downloaden, moet u de opslagplaats downloaden als een ZIP-bestand en deze vervolgens uitpakken. Gepagineerde rapporten zijn RDL bestanden.
+
+1. Open de [GitHub-opslagplaats Reporting Services](https://github.com/microsoft/Reporting-Services).
+1. Selecteer de pijl op de groene knop **Code** > **ZIP-bestand downloaden**.
+
+    :::image type="content" source="media/paginated-reports-samples/paginated-report-download-zip.png" alt-text="Schermopname van de GitHub-opslagplaats met de gepagineerde voorbeeldrapporten van Power BI.":::
+    
+1. Open het bestand, selecteer **Alles uitpakken** en kies een locatie voor de bestanden. De naam van de map is standaard **Reporting-Services-master**.
+1. Open de map **Reporting-Services-master** en open vervolgens de map **PaginatedReportSamples**.
+
+    >[!NOTE]
+    >U kunt alle andere mappen in de map **Reporting-Services-master** verwijderen. Ze bevatten andere voorbeelden die u niet nodig hebt.
+
+1. Selecteer een van de RDL-bestanden om deze in Power BI Report Builder te openen.
+1. Nu kunt u [het gepagineerd rapport naar de Power BI-service publiceren](paginated-reports-save-to-power-bi-service.md).
 
 ## <a name="invoice"></a>Factuur
 

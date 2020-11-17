@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 11/01/2020
 ms.author: painbar
-ms.openlocfilehash: d2e229dda05c1761fdaa5c7336c0eca5db538e46
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
+ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026043"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "93355929"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,10 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="november-2020"></a>November 2020
+### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>De weergave maximaliseren met de volledig scherm-modus (Android-tablets)
+We hebben een nieuwe knop toegevoegd aan de mobiele app voor Android-tablets waarmee u kop- en voetteksten uit de app kunt verwijderen, zodat u de maximale ruimte hebt voor het weergeven van uw inhoud. Tik gewoon op de wisselknop voor volledig scherm in de rechterbovenhoek van het scherm om tussen modi te schakelen.
 
 ## <a name="october-2020"></a>Oktober 2020
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>Automatische paginavernieuwing wordt nu ondersteund (Windows)

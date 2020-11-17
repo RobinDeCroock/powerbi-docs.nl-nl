@@ -2,19 +2,20 @@
 title: Zelfstudie over slimme verhalen
 description: 'Zelfstudie: Visualisaties van slimme verhalen maken in Power BI'
 author: aphilip94
-ms.reviewer: aphilip94
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 09/14/2020
+ms.date: 11/06/2020
 ms.author: anphil
+ms.custom: video
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4417d66b4afc3c3848667364bdca47150afdf04a
-ms.sourcegitcommit: 220427415e2fdc9337244b1ee23e734854179d43
+ms.openlocfilehash: 92ebd3015296dc0b6a61f3b7dd2a8b0d163a4383
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91862947"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397203"
 ---
 # <a name="create-smart-narrative-summaries-preview"></a>Slimme verhalen maken (preview)
 
@@ -33,9 +34,12 @@ Gebruik slimme verhalen in uw rapporten om de aandacht te vestigen op belangrijk
 >
 >![Schermopname met opties van Power B I. De optie Visual van Slim verhaal is geselecteerd.](media/power-bi-visualization-smart-narratives/2.png)
 
-Als u deze zelfstudie wilt volgen, downloadt u het [voorbeeldbestand](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) van een scenario met online verkopen.
+
 
 ## <a name="get-started"></a>Aan de slag 
+Bekijk een demonstratie van Justyna over de wijze waarop u slimme verhalen kunt gebruiken, en probeer het daarna zelf met behulp van de zelfstudie onder de video.  Als u deze zelfstudie wilt volgen, downloadt u het [voorbeeldbestand](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) van een scenario met online verkopen.
+
+> [!VIDEO https://youtu.be/01UrT-z37sw]
 
 Selecteer in het deelvenster **Visualisaties** het pictogram **Slim verhaal** om automatisch een samenvatting te genereren.
 
@@ -95,9 +99,10 @@ De functie Slim verhaal biedt geen ondersteuning voor de volgende functionalitei
 - Het gebruik van dynamische waarden en voorwaardelijke opmaak (bijvoorbeeld een titel die aan gegevens is gebonden)
 - Azure Analysis Services, on-premises AS
 - KPI's, kaarten, kaarten met meerdere rijen, plattegronden, tabellen, matrices, R-visuals of Python-visuals, aangepaste visuals 
-- Samenvattingen van visuals met kolommen die zijn gegroepeerd op andere kolommen en van visuals die zijn samengesteld op basis van een gegevensgroepsveld 
+- Samenvattingen van visuals met kolommen die zijn gegroepeerd op andere kolommen en van visuals die zijn samengesteld op basis van een gegevensgroepsveld 
 - Kruislings filteren buiten een visual
 - Het wijzigen van de naam van dynamische waarden of het bewerken van automatisch gegenereerde dynamische waarden
 - Samenvattingen van visuals met directe berekeningen, zoals rekenkundige QnA en percentage van het eindtotaal 
+- [Berekeningsgroepen](/analysis-services/tabular-models/calculation-groups)
    
 

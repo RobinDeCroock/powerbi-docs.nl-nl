@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6ff1f445172c553116148ffb212129b96f34b1da
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916010"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483737"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -38,11 +38,11 @@ In dit artikel worden belangrijke functies van Power BI Premium beschreven. In v
 
 Power BI Premium is een Microsoft 365-abonnement op tenantniveau beschikbaar in twee SKU-families (SKU: Stock Keeping Unit):
 
-- **P** -SKU's (P1-P5) voor het insluiten van inhoud en zakelijke functies; hiervoor geldt een maandelijkse of jaarlijkse betalingsverplichting die maandelijks wordt gefactureerd en een licentie bevat voor het on-premises installeren van Power BI Report Server.
+- **P**-SKU's (P1-P5) voor het insluiten van inhoud en zakelijke functies; hiervoor geldt een maandelijkse of jaarlijkse betalingsverplichting die maandelijks wordt gefactureerd en een licentie bevat voor het on-premises installeren van Power BI Report Server.
 
-- **EM** -SKU's (EM1-EM3) voor het insluiten van inhoud in de _organisatie_. Hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
+- **EM**-SKU's (EM1-EM3) voor het insluiten van inhoud in de _organisatie_. Hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
 
-Een alternatieve methode is de aanschaf van een **Power BI Embedded** -abonnement in Azure. Er is één familie met **A** -SKU’s (A1-A6) waarvoor geen toezegging is vereist, en die per uur wordt gefactureerd voor gebruik met labels voor Power BI in toepassingen, in portals en op websites, of als een manier om P- of EM-capaciteiten te testen. Alle SKU's leveren v-cores voor het maken van capaciteit, maar de EM-SKU's zijn beperkt tot het insluiten van inhoud op kleinere schaal. EM1-, EM2-, A1- en A2-SKU's met minder dan vier v-cores worden niet uitgevoerd op een toegewezen infrastructuur.
+Een alternatieve methode is de aanschaf van een **Power BI Embedded**-abonnement in Azure. Er is één familie met **A**-SKU’s (A1-A6) waarvoor geen toezegging is vereist, en die per uur wordt gefactureerd voor gebruik met labels voor Power BI in toepassingen, in portals en op websites, of als een manier om P- of EM-capaciteiten te testen. Alle SKU's leveren v-cores voor het maken van capaciteit, maar de EM-SKU's zijn beperkt tot het insluiten van inhoud op kleinere schaal. EM1-, EM2-, A1- en A2-SKU's met minder dan vier v-cores worden niet uitgevoerd op een toegewezen infrastructuur.
 
 Hoewel dit artikel is gericht op de P-SKU's, is veel van wat wordt beschreven ook relevant voor de A-SKU's. In tegenstelling tot de SKU's van het Premium-abonnement zijn voor Azure-SKU's geen tijdsverplichtingen vereist. Deze worden per uur gefactureerd. Ze bieden volledige elasticiteit bij omhoog en omlaag schalen, en bij het onderbreken, hervatten en verwijderen van capaciteit. 
 
@@ -65,7 +65,7 @@ Werkruimten bevinden zich in capaciteiten. Elke Power BI-gebruiker heeft een per
 
 ### <a name="capacity-nodes"></a>Capaciteitsknooppunten
 
-Zoals beschreven in de sectie [Abonnementen en licentieverlening](#subscriptions-and-licensing), zijn er twee SKU-families voor Power BI Premium: **EM** en **P**. Alle Power BI Premium-SKU's zijn beschikbaar als capaciteits *knooppunten* , waarbij elk voor een vaste hoeveelheid resources staat die bestaat uit een processor, geheugen en opslag. Naast de resources heeft elke SKU operationele limieten voor het aantal DirectQuery-verbindingen en liveverbindingen per seconde, en het aantal parallelle modellen wordt vernieuwd.
+Zoals beschreven in de sectie [Abonnementen en licentieverlening](#subscriptions-and-licensing), zijn er twee SKU-families voor Power BI Premium: **EM** en **P**. Alle Power BI Premium-SKU's zijn beschikbaar als capaciteits *knooppunten*, waarbij elk voor een vaste hoeveelheid resources staat die bestaat uit een processor, geheugen en opslag. Naast de resources heeft elke SKU operationele limieten voor het aantal DirectQuery-verbindingen en liveverbindingen per seconde, en het aantal parallelle modellen wordt vernieuwd.
 
 De verwerking vindt plaats door een vast aantal v-cores, evenredig verdeeld over back-end en front-end.
 
@@ -96,7 +96,7 @@ De resources en limieten van elke Premium-SKU (en A-SKU van een vergelijkbare om
 
 ### <a name="capacity-workloads"></a>Workloads van capaciteit
 
-Workloads van capaciteit zijn services die beschikbaar zijn gesteld aan gebruikers. Standaard bieden Premium- en Azure-capaciteiten alleen ondersteuning voor de workload van een gegevensset die aan het uitvoeren van Power BI-query's is gekoppeld. De workload van een gegevensset kan niet worden uitgeschakeld. U kunt extra workloads inschakelen voor [AI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [gegevensstromen](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium) en [gepagineerde rapporten](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Deze workloads worden alleen ondersteund in Premium-abonnementen. 
+Workloads van capaciteit zijn services die beschikbaar zijn gesteld aan gebruikers. Standaard bieden Premium- en Azure-capaciteiten alleen ondersteuning voor de workload van een gegevensset die aan het uitvoeren van Power BI-query's is gekoppeld. De workload van een gegevensset kan niet worden uitgeschakeld. U kunt extra workloads inschakelen voor [AI (Cognitive Services)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/), [gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md) en [gepagineerde rapporten](../paginated-reports/paginated-reports-save-to-power-bi-service.md). Deze workloads worden alleen ondersteund in Premium-abonnementen. 
 
 Met elke extra workload kunt u de maximale hoeveelheid geheugen configureren (als percentage van het totaal aan beschikbaar geheugen) die door de workload kan worden gebruikt. De standaardwaarden voor de maximale hoeveelheid geheugen worden bepaald door de SKU. U kunt de beschikbare resources van uw capaciteit maximaliseren door deze extra workloads alleen in te schakelen wanneer ze worden gebruikt. En u kunt de geheugeninstellingen alleen wijzigen wanneer u hebt vastgesteld dat de standaardinstellingen niet voldoen aan de resourcevereisten van uw capaciteit. Workloads kunnen door capaciteitsbeheerders voor een capaciteit worden ingeschakeld en geconfigureerd met behulp van **capaciteitsinstellingen** in de [beheerportal](service-admin-portal.md) of met behulp van de [REST API's voor capaciteiten](/rest/api/power-bi/capacities).  
 
@@ -235,7 +235,7 @@ Premium voorziet in een wijdverbreide distributie van inhoud door Pro-gebruikers
 
 Zie [Power BI-licentieverlening](service-admin-licensing-organization.md) voor meer informatie.
 
-## <a name="analysis-services-in-power-bi-premium-preview"></a>Analysis Services in Power BI Premium (preview-versie)
+## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services in Power BI Premium
 
 De voor zakelijke doeleinden beproefde Microsoft **Analysis Services Vertipaq-engine** is de drijvende kracht achter de Power BI Premium-werkruimten en -gegevenssets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Standaard bieden gegevenssetsworkloads op Power BI Premium-capaciteit ondersteuning voor *alleen-lezen* bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via een **XMLA-eindpunt**. Capaciteitsbeheerders kunnen er ook voor kiezen om *lees- en schrijf* bewerkingen via het eindpunt uit te schakelen of toe te staan.
 

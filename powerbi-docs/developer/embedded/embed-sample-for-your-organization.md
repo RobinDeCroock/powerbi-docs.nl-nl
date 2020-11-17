@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 9a38533e76fec134d667ae4026258a2a3c07f410
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: e4d1c625d86234c97305c705b2feeead8efacb61
+ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983109"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94397272"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -44,7 +44,7 @@ Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://
 
 Voordat u begint met het insluiten van rapporten, dashboards en tegels in uw toepassing, moet u insluiting met Power BI mogelijk maken in uw omgeving.
 
-U kunt het [installatieprogramma voor insluiten](https://aka.ms/embedsetup/UserOwnsData) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten. In het geval van het insluiten van een gepagineerd rapport moet u ten minste een P1-capaciteit aan de gemaakte werkruimte toewijzen.
+U kunt het [installatieprogramma voor insluiten](https://app.powerbi.com/embedsetup) uitvoeren om snel aan de slag te gaan en een voorbeeldtoepassing te downloaden waarmee u een omgeving leert maken en een rapport leert insluiten. In het geval van het insluiten van een gepagineerd rapport moet u ten minste een P1-capaciteit aan de gemaakte werkruimte toewijzen.
 
 Als u besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 
@@ -52,9 +52,9 @@ Als u besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 
 [Registreer uw toepassing](register-app.md) bij Azure Active Directory AD zodat uw toepassing toegang heeft tot de [Power BI REST API's](/rest/api/power-bi/). Als u uw toepassing registreert, kunt u een identiteit instellen voor uw toepassing en machtigingen opgeven voor Power BI REST-resources.
 
-U moet vervolgens een **webtoepassing aan de serverzijde** registreren. U registreert een webtoepassing aan de serverzijde om een toepassingsgeheim te maken.
-
-Nadat u uw toepassing in Azure hebt gemaakt, opent u uw toepassing in Azure, gaat u naar *Verificatie* en voegt u bij de *Omleidings-URI's* **/Redirect** toe aan de *omleidings-URI*.
+>[!NOTE]
+>In uw eigen toepassing moet u naar *Verificatie* navigeren en in het veld *Omleidings-URI's* het omleidingsadres invoegen.
+Zie [Beperkingen voor omleidings-URI's (antwoord-URL)](https://docs.microsoft.com/azure/active-directory/develop/reply-url) voor meer informatie over omleiden.
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 

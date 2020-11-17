@@ -1,19 +1,19 @@
 ---
 title: De Q&A-visual in Power BI gebruiken
 description: De Q&A-visual in Power BI instellen
-author: rien
+author: msftrien
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
 ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 22ce23b408f87c8c792f75a543fd0c29a9d13281
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96773bc256ba8563147c7dc7c19e2558125b48fc
+ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232295"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93412344"
 ---
 # <a name="introduction-to-power-bi-qa-visualizations"></a>Kennismaking met Q&A-visualisaties in Power BI
 
@@ -133,7 +133,7 @@ Selecteer het ![tandwielpictogram](media/power-bi-visualization-q-and-a/power-bi
 
 Deze visual is niet langer een Q&A-visual maar een standaardkolomdiagram. Deze visual kan worden vastgemaakt aan een dashboard. In het rapport gedraagt deze visual zich op dezelfde manier als andere standaardvisuals. U ziet dat in het deelvenster Visualisaties een kolomdiagrampictogram is geselecteerd in plaats van het Q&A-visualpictogram.
 
-Als u de ***Power BI-service*** gebruikt, kunt u de visual nu vastmaken aan een dashboard door het pictogram Vastmaken te selecteren. 
+Als u de **_Power BI-service_* _ gebruikt, kunt u de visual nu vastmaken aan een dashboard door het pictogram Vastmaken te selecteren. 
 
 
 ![De Power BI-service met daarin het pictogram Vastmaken](media/power-bi-visualization-q-and-a/power-bi-pin.png)
@@ -155,5 +155,5 @@ De Q&A-visual kan worden geïntegreerd met Office en Bing om niet-herkende gangb
 
 U kunt natuurlijke taal op diverse manieren integreren. Raadpleeg voor meer informatie de volgende artikelen:
 
-* [Q&A-hulpprogramma's](../natural-language/q-and-a-tooling-intro.md)
+_ [Q&A-hulpprogramma's](../natural-language/q-and-a-tooling-intro.md)
 * [Best practices voor Q&A](../natural-language/q-and-a-best-practices.md)

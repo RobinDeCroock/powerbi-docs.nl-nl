@@ -1,20 +1,20 @@
 ---
 title: Aan de slag met het opmaken van rapportvisualisaties
 description: Aan de slag met de opmaakopties voor rapportvisualisaties
-author: mihart
-ms.reviewer: ''
+author: msftrien
+ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/17/2020
-ms.author: mihart
+ms.date: 11/09/2020
+ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e4f5007d60f7634b671f1178a7279fe5cc35be89
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 3e61521ec7ac518aaa374cec328639a849b21bd5
+ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354588"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94483819"
 ---
 # <a name="getting-started-with-the-formatting-pane"></a>Aan de slag met het opmaakvenster
 
@@ -41,6 +41,7 @@ U kunt voor elke visualisatie allerlei elementen aanpassen. Welke opties er besc
 * Y-as
 * Gegevenskleuren
 * Gegevenslabels
+* Totaal aantal labels
 * Vormen
 * Tekengebied
 * Titel
@@ -66,6 +67,7 @@ De beste manier om te leren hoe u de opmaakopties kunt gebruiken, is door ze uit
 2. Een stijl toepassen    
 3. Eigenschappen van as wijzigen    
 4. Gegevenslabels toevoegen    
+1. Totaal aantal labels toevoegen
 
 
 
@@ -141,7 +143,7 @@ U kunt de labels voor de as helemaal verwijderen door het keuzerondje naast **X-
 
 ## <a name="adding-data-labels"></a>Gegevenslabels toevoegen    
 
-Nog een laatste voorbeeld van opmaak voordat u zelf aan de slag gaat.  We gaan gegevenslabels toevoegen aan een vlakdiagram. 
+We gaan gegevenslabels toevoegen aan een vlakdiagram. 
 
 Dit is een afbeelding van *vóór* die toevoeging. 
 
@@ -155,6 +157,27 @@ En dit is een afbeelding van *na* de toevoeging.
 We hebben de visualisatie geselecteerd om deze actief te maken, en we hebben het tabblad Opmaak geopend.  We hebben **Gegevenslabels** geselecteerd en ingeschakeld. Vervolgens hebben we de tekengrootte ingesteld op 12, de lettertypefamilie gewijzigd in Arial Black, de optie **Achtergrond weergeven** ingeschakeld en de achtergrondkleur op wit ingesteld met een transparantie van 5%.
 
 Dit zijn slechts enkele van de opmaakmogelijkheden. Open een rapport in de bewerkingsmodus en maak spelenderwijs kennis met het venster Opmaak om prachtige en informatieve visualisaties te maken.
+
+## <a name="adding-total-labels"></a>Totaal aantal labels toevoegen    
+
+Nog een laatste voorbeeld van opmaak voordat u zelf aan de slag gaat.  Laten we het totaal aantal labels toevoegen aan een gestapeld kolomdiagram. Het totaal aantal labels is beschikbaar voor gestapelde grafieken, combinatiegrafieken en vlakdiagrammen.
+
+Wanneer u totaal aantal labels inschakelt, geeft Power BI de aggregatie of het totaal van de gegevens weer. We kijken naar een voorbeeld. 
+
+Hier ziet u een gestapeld kolomdiagram met gegevenslabels waarin de waarde van elk gedeelte van elke volledige stack wordt weergegeven.  Dit is de standaardweergave. 
+
+![kolomdiagram met gegevenslabels](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-column-charts.png)
+
+
+Als u de visual in de bewerkingsweergave opent, kunt u de weergave van gegevenslabels en totaal aantal labels wijzigen. Selecteer het visuele element om het te activeren en open het opmaakvenster. Schuif omlaag naar **Gegevenslabels** en **Totaal aantal labels**. **Gegevenslabels** is ingeschakeld en **Totaal aantal labels** is uitgeschakeld. 
+
+![niet opgemaakt kolomdiagram](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-total-label.png)
+
+Schakel **Gegevenslabels** uit en schakel **Totaal aantal labels** in. In Power BI wordt nu de aggregatie van elke kolom weergegeven.    
+![opgemaakt vlakdiagram](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-totals.png)
+
+Dit zijn slechts enkele van de opmaakmogelijkheden. Open een rapport in de bewerkingsmodus en maak spelenderwijs kennis met het venster Opmaak om prachtige en informatieve visualisaties te maken.
+
 
 ## <a name="next-steps"></a>Volgende stappen
 Raadpleeg voor meer informatie hete volgende artikel: 
