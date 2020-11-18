@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 89de77e65d8eb675d9e80c3b2497f39af7c32d33
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396582"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668161"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Beperkingen en overwegingen van gegevensstromen
 
@@ -75,7 +75,7 @@ Gegevensstromen die in Premium bestaan, hebben de volgende beperkingen en overwe
 
 * Een gekoppelde entiteit kan niet worden samengevoegd met een normale entiteit waarvoor de gegevens worden opgehaald uit een on-premises gegevensbron
 
-* Wanneer een query (bijvoorbeeld query *A* ) wordt gebruikt voor de berekening van een andere query (query *B* ) in gegevensstromen, wordt query *B* een berekende entiteit. Berekende entiteiten kunnen niet verwijzen naar on-premises bronnen.
+* Wanneer een query (bijvoorbeeld query *A*) wordt gebruikt voor de berekening van een andere query (query *B*) in gegevensstromen, wordt query *B* een berekende entiteit. Berekende entiteiten kunnen niet verwijzen naar on-premises bronnen.
 
 
 **Berekeningsengine:**
@@ -111,3 +111,4 @@ De volgende artikelen bieden meer informatie over gegevensstromen en Power BI:
 * [Gegevensstroomopslag configureren voor gebruik van Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Premium-functies van gegevensstromen](dataflows-premium-features.md)
 * [AI met gegevensstromen](dataflows-machine-learning-integration.md)
+* [Best practices voor gegevensstromen](dataflows-best-practices.md)
