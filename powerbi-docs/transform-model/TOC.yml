@@ -99,6 +99,8 @@
           items:
             - name: Gegevensstromen maken en gebruiken
               href: ./dataflows/dataflows-create.md
+            - name: Best practices voor gegevensstromen
+              href: ./dataflows/dataflows-best-practices.md
             - name: DirectQuery gebruiken met gegevensstromen in Power BI (preview)
               href: ./dataflows/dataflows-configure-consume.md
             - name: De verbeterde berekeningsengine gebruiken met gegevensstromen
