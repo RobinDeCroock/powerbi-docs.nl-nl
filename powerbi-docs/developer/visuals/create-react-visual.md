@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: 653724c6028b5be950c09c9361cdb43edc930e3a
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: d8e7b5dca207aef1a4f119bf324662dbcaa1bbab
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049057"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94513316"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Zelfstudie: Een React-visual maken
 
@@ -309,7 +309,6 @@ U kunt gegevens weergeven met React. Het onderdeel kan gegevens weergeven op bas
                     textLabel: dataView.metadata.columns[0].displayName,
                     textValue: dataView.single.value.toString()
                 });
-            }
             } else {
                 this.clear();
             }

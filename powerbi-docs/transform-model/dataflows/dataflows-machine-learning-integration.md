@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5834230a59f6473624e955827dad36cdd75c04e5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 703e87847f2f6dfb24040cc6532052b17d39086c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397502"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668529"
 ---
 # <a name="ai-with-dataflows"></a>AI met gegevensstromen
 
@@ -112,7 +112,7 @@ Bij gegevensstromen kunt u zelf gegevens voorbereiden voor big data. Met AutoML,
 
 Met AutoML in Power BI kunnen gegevensanalisten aan de hand van gegevensstromen op een vereenvoudigde manier machine learning-modellen bouwen, met alleen maar hun Power BI-vaardigheden. Het grootste deel van de gegevenswetenschap achter het maken van de ML-modellen wordt geautomatiseerd door Power BI. Het heeft vangnetten om ervoor te zorgen dat het gegenereerde model van goede kwaliteit is en inzicht geeft in het proces dat wordt gebruikt om uw ML-model te maken.
 
-AutoML biedt ondersteuning voor het maken van modellen van het type **Binaire voorspelling** , **Classificatie** en **Regressie** voor gegevensstromen. Dit zijn gecontroleerde ('supervised') typen machine learning-technieken, wat betekent dat ze leren van de bekende resultaten van eerdere waarnemingen om de resultaten van andere waarnemingen te voorspellen. De gegevensset die als invoer fungeert voor het trainen van een AutoML-model bestaat uit een set records die worden **gelabeld** met de bekende resultaten.
+AutoML biedt ondersteuning voor het maken van modellen van het type **Binaire voorspelling**, **Classificatie** en **Regressie** voor gegevensstromen. Dit zijn gecontroleerde ('supervised') typen machine learning-technieken, wat betekent dat ze leren van de bekende resultaten van eerdere waarnemingen om de resultaten van andere waarnemingen te voorspellen. De gegevensset die als invoer fungeert voor het trainen van een AutoML-model bestaat uit een set records die worden **gelabeld** met de bekende resultaten.
 
 Met AutoML in Power BI integreert u [geautomatiseerde ML](/azure/machine-learning/service/concept-automated-ml) uit [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) om uw ML-modellen te maken. U hebt echter geen Azure-abonnement nodig om AutoML te gebruiken in Power BI. Het proces van het trainen en hosten van de ML-modellen wordt volledig beheerd door de Power BI-service.
 
@@ -174,7 +174,7 @@ In de laatste stap kunt u het model een naam geven en Opslaan en trainen selecte
 #### <a name="ml-model-training"></a>Training van ML-model
 
 De training van AutoML-modellen vindt plaats tijdens het vernieuwen van een gegevensstroom. AutoML bereidt uw gegevens eerst voor op de training.
-AutoML splitst de historische gegevens die u opgeeft in gegevenssets voor trainingsdoeleinden en voor testdoeleinden. De set voor testdoeleinden is een evaluatieset die wordt gebruikt om de modelprestaties na de training te valideren. Deze worden gerealiseerd als **Training- en Testing** -entiteiten in de gegevensstroom. AutoML maakt gebruik van kruisvalidatie voor de modelvalidatie.
+AutoML splitst de historische gegevens die u opgeeft in gegevenssets voor trainingsdoeleinden en voor testdoeleinden. De set voor testdoeleinden is een evaluatieset die wordt gebruikt om de modelprestaties na de training te valideren. Deze worden gerealiseerd als **Training- en Testing**-entiteiten in de gegevensstroom. AutoML maakt gebruik van kruisvalidatie voor de modelvalidatie.
 
 Vervolgens wordt elk invoerveld geanalyseerd en wordt er imputatie toegepast, waarbij eventuele ontbrekende waarden worden vervangen door vervangende waarden. Er worden een aantal verschillende imputatiestrategieën gebruikt door AutoML. In het geval van invoerkenmerken die als numerieke functies worden behandeld, wordt voor de imputatie het gemiddelde van de kolomwaarden genomen. In het geval van invoerkenmerken die als categorische functies worden behandeld, gebruikt AutoML de modus van de kolomwaarden voor de imputatie. Het gemiddelde en de modus van de waarden die worden gebruikt voor de imputatie, worden berekend door het AutoML-framework in de subgegevensset voor een subsample van de training.
 
@@ -220,7 +220,7 @@ Als u tevreden bent met de prestaties van het gemaakte ML-model, kunt u het mode
 
 Om het ML-model toe te passen, geeft u de naam op van de entiteit waarop u het model wilt toepassen en een voorvoegsel voor de kolommen die aan deze entiteit worden toegevoegd voor de modeluitvoer. Het standaardvoorvoegsel voor de kolomnamen is de modelnaam. De functie _Apply_ kan aanvullende parameters bevatten die specifiek zijn voor het modeltype.
 
-Door het ML-model toe te passen, worden twee nieuwe gegevensstroomentiteiten gemaakt die de voorspellingen en de individuele uitleg bevatten voor elke rij die in de uitvoerentiteit wordt gescoord. Als u bijvoorbeeld het model _PurchaseIntent_ toepast op de entiteit _OnlineShoppers_ , worden de entiteiten **OnlineShoppers enriched PurchaseIntent** en **OnlineShoppers enriched PurchaseIntent explanations** gegenereerd. Voor elke rij in de verrijkte entiteit wordt de **Uitleg** opgesplitst in meerdere rijen in de entiteit met de verrijkte uitleg op basis van de invoerfunctie. Met een **ExplanationIndex** kunt u de rijen van de verrijkte uitlegentiteit toewijzen aan de rij in een verrijkte entiteit.
+Door het ML-model toe te passen, worden twee nieuwe gegevensstroomentiteiten gemaakt die de voorspellingen en de individuele uitleg bevatten voor elke rij die in de uitvoerentiteit wordt gescoord. Als u bijvoorbeeld het model _PurchaseIntent_ toepast op de entiteit _OnlineShoppers_, worden de entiteiten **OnlineShoppers enriched PurchaseIntent** en **OnlineShoppers enriched PurchaseIntent explanations** gegenereerd. Voor elke rij in de verrijkte entiteit wordt de **Uitleg** opgesplitst in meerdere rijen in de entiteit met de verrijkte uitleg op basis van de invoerfunctie. Met een **ExplanationIndex** kunt u de rijen van de verrijkte uitlegentiteit toewijzen aan de rij in een verrijkte entiteit.
 
 ![Query-editor](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
@@ -234,7 +234,7 @@ Als u de inzichten en voorspellingen uit het ML-model wilt gebruiken in een Powe
 
 ### <a name="binary-prediction-models"></a>Modellen van het type Binaire voorspelling
 
-Modellen van het type Binaire voorspelling, formeel ook bekend als **binaire classificatiemodellen** , worden gebruikt om een gegevensset in twee groepen te classificeren. Ze worden gebruikt om gebeurtenissen te voorspellen die een binaire uitkomst kunnen hebben. Bijvoorbeeld of een verkoopkans wordt geconverteerd, of een account wordt opgezegd, of een factuur op tijd wordt betaald, of een transactie frauduleus is, enzovoort.
+Modellen van het type Binaire voorspelling, formeel ook bekend als **binaire classificatiemodellen**, worden gebruikt om een gegevensset in twee groepen te classificeren. Ze worden gebruikt om gebeurtenissen te voorspellen die een binaire uitkomst kunnen hebben. Bijvoorbeeld of een verkoopkans wordt geconverteerd, of een account wordt opgezegd, of een factuur op tijd wordt betaald, of een transactie frauduleus is, enzovoort.
 
 De uitvoer van een binair voorspellingsmodel is een waarschijnlijkheidsscore, die de waarschijnlijkheid aangeeft dat het doelresultaat werkelijkheid zal worden.
 
@@ -272,7 +272,7 @@ Als u een binair voorspellingsmodel wilt toepassen, moet u de entiteit opgeven d
 
 ![Voorspellingsinvoer](media/service-machine-learning-automated/automated-machine-learning-power-bi-16.png)
 
-Bij het toepassen van een binair voorspellingsmodel, worden er vier uitvoerkolommen toegevoegd aan de entiteit met verrijkte uitvoer: **Outcome** , **PredictionScore** , **PredictionExplanation** en **ExplanationIndex**. Het voorvoegsel voor de kolomnamen in de entiteit wordt opgegeven bij het toepassen van het model.
+Bij het toepassen van een binair voorspellingsmodel, worden er vier uitvoerkolommen toegevoegd aan de entiteit met verrijkte uitvoer: **Outcome**, **PredictionScore**, **PredictionExplanation** en **ExplanationIndex**. Het voorvoegsel voor de kolomnamen in de entiteit wordt opgegeven bij het toepassen van het model.
 
 **PredictionScore** is een waarschijnlijkheidspercentage waarmee de waarschijnlijkheid wordt aangegeven dat het doelresultaat werkelijkheid zal worden.
 
@@ -314,7 +314,7 @@ Het rapport voor het classificatiemodel bevat ook een pagina met trainingsdetail
 
 Als u een classificatiemodel wilt toepassen, moet u de entiteit opgeven met de invoergegevens en het voorvoegsel voor de naam van de uitvoerkolom.
 
-Bij het toepassen van een classificatiemodel worden er vijf uitvoerkolommen toegevoegd aan de entiteit met verrijkte uitvoer: **ClassificationScore** , **ClassificationResult** , **ClassificationExplanation** , **ClassProbabilities** en **ExplanationIndex**. Het voorvoegsel voor de kolomnamen in de entiteit wordt opgegeven bij het toepassen van het model.
+Bij het toepassen van een classificatiemodel worden er vijf uitvoerkolommen toegevoegd aan de entiteit met verrijkte uitvoer: **ClassificationScore**, **ClassificationResult**, **ClassificationExplanation**, **ClassProbabilities** en **ExplanationIndex**. Het voorvoegsel voor de kolomnamen in de entiteit wordt opgegeven bij het toepassen van het model.
 
 De kolom **ClassProbabilities** bevat de lijst met waarschijnlijkheidsscores voor de record voor elke mogelijke klasse.
 
@@ -358,7 +358,7 @@ Als u een regressiemodel wilt toepassen, moet u de entiteit opgeven met de invoe
 
 ![Een regressie toepassen](media/service-machine-learning-automated/automated-machine-learning-power-bi-19.png)
 
-Bij het toepassen van een regressiemodel worden er drie uitvoerkolommen toegevoegd aan de entiteit met verrijkte uitvoer: **RegressionResult** , **RegressionExplanation** en **ExplanationIndex**. Het voorvoegsel voor de kolomnamen in de entiteit wordt opgegeven bij het toepassen van het model.
+Bij het toepassen van een regressiemodel worden er drie uitvoerkolommen toegevoegd aan de entiteit met verrijkte uitvoer: **RegressionResult**, **RegressionExplanation** en **ExplanationIndex**. Het voorvoegsel voor de kolomnamen in de entiteit wordt opgegeven bij het toepassen van het model.
 
 De kolom **RegressionResult** bevat de voorspelde waarde voor de record op basis van de invoervelden. De kolom **RegressionExplanation** bevat een uitleg met de specifieke invloed van de invoerfuncties op de **RegressionResult**.
 
@@ -466,3 +466,4 @@ De volgende artikelen bieden meer informatie over gegevensstromen en Power BI:
 * [Gegevensstroomopslag configureren voor gebruik van Azure Data Lake Gen 2](dataflows-azure-data-lake-storage-integration.md)
 * [Premium-functies van gegevensstromen](dataflows-premium-features.md)
 * [Beperkingen en overwegingen van gegevensstromen](dataflows-features-limitations.md)
+* [Best practices voor gegevensstromen](dataflows-best-practices.md)

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 47b1647732c1977e6e8a3992b617e2a35c803c50
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 82d5981d885f97d48dec180e692a4a44c0bbe781
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396379"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668253"
 ---
 # <a name="configure-and-consume-a-dataflow"></a>Een gegevensstroom configureren en gebruiken
 
@@ -106,3 +106,4 @@ De volgende artikelen bieden meer informatie over gegevensstromen en Power BI:
 * [Premium-functies van gegevensstromen](dataflows-premium-features.md)
 * [AI met gegevensstromen](dataflows-machine-learning-integration.md)
 * [Beperkingen en overwegingen van gegevensstromen](dataflows-features-limitations.md)
+* [Best practices voor gegevensstromen](dataflows-best-practices.md)

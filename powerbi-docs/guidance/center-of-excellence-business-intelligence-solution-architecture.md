@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2020
+ms.date: 11/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638642"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512120"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>BI-oplossingsarchitectuur in de COE (Center of Excellence)
 
@@ -64,7 +64,7 @@ In een BI-platform in de cloud kunnen bedrijfsmodellen worden geïmplementeerd i
 
 Zakelijke mogelijkheden worden niet alleen door gegevens mogelijk gemaakt, maar ook door semantische BI-modellen waarin concepten, relaties, regels en standaarden worden beschreven. Op deze manier vertegenwoordigen ze intuïtieve en eenvoudig te begrijpen structuren waarmee gegevensrelaties worden gedefinieerd en bedrijfsregels als berekeningen worden ingebouwd. Ze kunnen ook gedetailleerde machtigingen voor gegevens afdwingen, zodat de juiste mensen toegang hebben tot de juiste gegevens. Belangrijk is dat ze de queryprestaties versnellen, waardoor er uiterst responsieve, interactieve analyses worden geboden, zelfs van meer dan terabytes aan gegevens. Net als bij bedrijfsmodellen gebruiken semantische BI-modellen naamconventies die consistentie garanderen.
 
-In een BI-platform in de cloud kunnen BI-ontwikkelaars semantische BI-modellen implementeren in [Azure Analysis Services](/azure/analysis-services/)- of [Power BI Premium-capaciteiten](../admin/service-premium-what-is.md#dedicated-capacities). U wordt aangeraden om deze te implementeren in Power BI wanneer deze wordt gebruikt als uw rapportage- en analyselaag. Deze producten ondersteunen verschillende opslagmodi, waardoor tabellen van gegevensmodellen hun gegevens in de cache kunnen opslaan of [DirectQuery](directquery-model-guidance.md) kunnen gebruiken. Dit is een technologie die query's doorgeeft aan de onderliggende gegevensbron. DirectQuery is een ideale opslagmodus wanneer modeltabellen uit grote hoeveelheden gegevens bestaan of wanneer er bijna realtime resultaten moeten worden geleverd. De twee opslagmodi kunnen worden gecombineerd: [Samengestelde modellen](composite-model-guidance.md) combineren tabellen die gebruikmaken van verschillende opslagmodi in één model.
+In een BI-platform in de cloud kunnen BI-ontwikkelaars semantische BI-modellen implementeren in [Azure Analysis Services](/azure/analysis-services/)- of [Power BI Premium-capaciteiten](../admin/service-premium-what-is.md#reserved-capacities). U wordt aangeraden om deze te implementeren in Power BI wanneer deze wordt gebruikt als uw rapportage- en analyselaag. Deze producten ondersteunen verschillende opslagmodi, waardoor tabellen van gegevensmodellen hun gegevens in de cache kunnen opslaan of [DirectQuery](directquery-model-guidance.md) kunnen gebruiken. Dit is een technologie die query's doorgeeft aan de onderliggende gegevensbron. DirectQuery is een ideale opslagmodus wanneer modeltabellen uit grote hoeveelheden gegevens bestaan of wanneer er bijna realtime resultaten moeten worden geleverd. De twee opslagmodi kunnen worden gecombineerd: [Samengestelde modellen](composite-model-guidance.md) combineren tabellen die gebruikmaken van verschillende opslagmodi in één model.
 
 Voor veelvuldig opgevraagde modellen kan [Azure Load Balancer](/azure/load-balancer/load-balancer-overview) worden gebruikt om de querybelasting gelijkmatig te verdelen over modelreplica's. Daarnaast kunt u de schaal van uw toepassingen aanpassen en maximaal beschikbare semantische BI-modellen maken.
 

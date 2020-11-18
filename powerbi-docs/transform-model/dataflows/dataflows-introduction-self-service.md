@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 23ead6afd508cc0e61ae29d65926372561a6375a
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: d8315652883f644d5440c25e3203fdf004bac51c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396283"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669104"
 ---
 # <a name="introduction-to-dataflows-and-self-service-data-prep"></a>Inleiding tot gegevensstromen en selfservice voor gegevensvoorbereiding
 
@@ -49,6 +49,7 @@ De volgende artikelen bieden meer informatie over gegevensstromen en Power BI:
 * [Premium-functies van gegevensstromen](dataflows-premium-features.md)
 * [AI met gegevensstromen](dataflows-machine-learning-integration.md)
 * [Beperkingen en overwegingen van gegevensstromen](dataflows-features-limitations.md)
+* [Best practices voor gegevensstromen](dataflows-best-practices.md)
 
 
 U kunt het overzichtsartikel lezen voor meer informatie over Common Data Model:

@@ -6,18 +6,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/13/2020
 ms.author: davidi
 ms.custom: references_regions
 LocalizationGroup: Data from files
-ms.openlocfilehash: f2efd4410af62425f599b1addd0f792f495120e0
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: e5d2e1f65ef326ac12f15ff14c8d07c22c2950fe
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397249"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94667977"
 ---
-# <a name="configure-power-bi-premium-dataflow-workloads"></a>Power BI Premium-gegevensstroomworkloads configureren
+# <a name="configure-power-bi-premium-dataflow-workloads"></a>Power BI Premium-workloads configureren
 
 In uw Power BI Premium-abonnement kunt u gegevensstroomworkloads maken. Power BI gebruikt het concept van *workloads* om Premium-inhoud te beschrijven. Workloads zijn gegevenssets, gepagineerde rapporten, gegevensstromen en AI. Met de workload voor *gegevensstromen* kunt u de zelfservice voor gegevensvoorbereiding voor gegevensstromen gebruiken om gegevens op te nemen, te transformeren, te integreren en te verrijken. Power BI Premium-gegevensstromen worden beheerd in de **Beheerportal**.
 
@@ -27,7 +27,7 @@ In de volgende secties wordt beschreven hoe u gegevensstromen in uw organisatie 
 
 ## <a name="enabling-dataflows-in-power-bi-premium"></a>Gegevensstromen inschakelen in Power BI Premium
 
-De eerste vereiste om gegevensstromen te gebruiken in uw Power BI Premium-abonnement, is dat u het maken en gebruiken van gegevensstromen voor uw organisatie inschakelt. Selecteer **Tenantinstellingen** in de **Beheerportal** en schakel de schuifregelaar onder **Gegevensstroominstellingen** naar **Ingeschakeld** , zoals wordt weergegeven in de volgende afbeelding.
+De eerste vereiste om gegevensstromen te gebruiken in uw Power BI Premium-abonnement, is dat u het maken en gebruiken van gegevensstromen voor uw organisatie inschakelt. Selecteer **Tenantinstellingen** in de **Beheerportal** en schakel de schuifregelaar onder **Gegevensstroominstellingen** naar **Ingeschakeld**, zoals wordt weergegeven in de volgende afbeelding.
 
 ![Beheerportal voor gegevensstromen in Power BI Premium](media/dataflows-premium-workload-configuration/dataflows-premium-workloads-01.png)
 
@@ -69,7 +69,7 @@ In de volgende secties worden alle instellingen uitgebreid beschreven. U leest o
 
 ### <a name="understanding-dataflow-workload-options"></a>Opties voor gegevensstroomworkloads
 
-Een eenvoudige manier om naar de opties voor gegevensstroomworkloads te kijken, is door middel van een analogie. De *Capaciteitsgrootte* , of het type Power BI Premium-exemplaar dat u hebt, kunt u zien als uw *restaurant*. In uw restaurant hebt u uw *workloadgeheugen*. Dit is uw *keuken*. De *rekenengine* is uw *oven*. En de *container* , ten slotte, is de kwaliteit van uw *chef-kok*. Stelt u zich eens voor dat u een maaltijd voorbereidt voor een groot, belangrijk diner als een manier om de opties voor de gegevensstroomworkload te evalueren. Er komen belangrijke gasten en het diner moet klaar staan om te worden geserveerd op het moment dat ze binnenkomen.
+Een eenvoudige manier om naar de opties voor gegevensstroomworkloads te kijken, is door middel van een analogie. De *Capaciteitsgrootte*, of het type Power BI Premium-exemplaar dat u hebt, kunt u zien als uw *restaurant*. In uw restaurant hebt u uw *workloadgeheugen*. Dit is uw *keuken*. De *rekenengine* is uw *oven*. En de *container*, ten slotte, is de kwaliteit van uw *chef-kok*. Stelt u zich eens voor dat u een maaltijd voorbereidt voor een groot, belangrijk diner als een manier om de opties voor de gegevensstroomworkload te evalueren. Er komen belangrijke gasten en het diner moet klaar staan om te worden geserveerd op het moment dat ze binnenkomen.
 
 We gebruiken deze restaurantanalogie om de instellingen uit te leggen. We beginnen op het hoogste niveau: uw Premium-capaciteit. Dit is namelijk de eerste keus die u maakt wanneer u Power BI Premium gebruikt.
 
@@ -85,7 +85,7 @@ De instelling **Maximumgeheugenpercentage** is het percentage geheugen buiten he
 
 #### <a name="container-size---refresh-or-out-of-memory-issues"></a>Containergrootte: problemen met vernieuwen of geen geheugen
 
-We gaan nu de instelling **Containergrootte (Mb)** bespreken. Gegevensstromen gebruiken intern een proces met de naam *mashup-containers* om uw ETL-processen te evalueren. De engine splitst uw querylogica op in deze containers en ze worden parallel verwerkt. Het aantal containers zorgt voor een efficiënte gelijktijdige verwerking en verhoogt de prestaties. Deze containers worden eerst beperkt door de **Capaciteit** , ten tweede door de instelling **Maximumgeheugenpercentage** en vervolgens door de hoeveelheid geheugen die u er specifiek aan toewijst in de containerinstelling, die standaard 700Mb is. Het is dus mogelijk om de hoeveelheid hardwaregeheugen te verhogen en de containergrootte te vergroten, maar hierdoor wordt het aantal parallelle bewerkingen minder en wordt er meer geheugen toegewezen voor het specifieke ETL-proces in uw containers. Het aantal containers wordt beperkt tot driemaal het aantal back-endcores. Dit is belangrijk, omdat u de container niet erg klein kunt maken en tot voorbij dat punt een groot aantal parallelle containers kunt hebben. De minimale grootte van een container is 200 MB. De containergrootte is ook toegewezen aan een queryniveau, wat betekent dat elke query wordt uitgevoerd in een eigen container, behalve wanneer query's verwijzen naar andere query's. In dat geval worden ze vernieuwd als onderdeel van dezelfde container.
+We gaan nu de instelling **Containergrootte (Mb)** bespreken. Gegevensstromen gebruiken intern een proces met de naam *mashup-containers* om uw ETL-processen te evalueren. De engine splitst uw querylogica op in deze containers en ze worden parallel verwerkt. Het aantal containers zorgt voor een efficiënte gelijktijdige verwerking en verhoogt de prestaties. Deze containers worden eerst beperkt door de **Capaciteit**, ten tweede door de instelling **Maximumgeheugenpercentage** en vervolgens door de hoeveelheid geheugen die u er specifiek aan toewijst in de containerinstelling, die standaard 700Mb is. Het is dus mogelijk om de hoeveelheid hardwaregeheugen te verhogen en de containergrootte te vergroten, maar hierdoor wordt het aantal parallelle bewerkingen minder en wordt er meer geheugen toegewezen voor het specifieke ETL-proces in uw containers. Het aantal containers wordt beperkt tot driemaal het aantal back-endcores. Dit is belangrijk, omdat u de container niet erg klein kunt maken en tot voorbij dat punt een groot aantal parallelle containers kunt hebben. De minimale grootte van een container is 200 MB. De containergrootte is ook toegewezen aan een queryniveau, wat betekent dat elke query wordt uitgevoerd in een eigen container, behalve wanneer query's verwijzen naar andere query's. In dat geval worden ze vernieuwd als onderdeel van dezelfde container.
 
 We kijken weer naar de analogie: met in de keuken minder koks, die wel meer gefocuste zijn, kunt u veel sneller een maaltijd bereiden, afhankelijk van de soorten bestellingen die worden geplaatst en hoe ingewikkeld de maaltijd is. Het compromis hier is dat er minder chef-koks zijn, maar meer gerichte tijd voor bereiding. Op dezelfde manier kan het vergroten van de containergrootte tot 1200-1500 MB betekenen dat een kleiner aantal complexere ETL-taken (activiteiten zoals aggregaties, samenvoegingen, draaitabellen, rij- of kolombewerkingen), een prestatieverhoging kunnen leveren naarmate er meer geheugen beschikbaar is voor elke container, maar in dat geval vermindert u het aantal containers. Zoals de analogie ook impliceert, kunnen te veel bestellingen de keuken juist vertragen. Zo kunt u ook containergrootte zien: gebruik dit wanneer u wilt dat complexe entiteitsbewerkingen worden voltooid en u bereid bent om parallellisme in te ruilen voor prestatie, want door deze resource te vergroten, wordt het geheugen namelijk toegewezen aan minder containers.
 
@@ -93,7 +93,7 @@ Samenvattend, kunt u de containergrootte het beste optimaliseren op basis van de
 
 #### <a name="enhanced-compute-engine---an-opportunity-to-improve-performance"></a>Verbeterde rekenengine: een mogelijkheid om de prestaties te verbeteren
 
-In onze analogie is de [verbeterde rekenengine](dataflows-premium-features.md#the-enhanced-compute-engine) te vergelijken met een oven. Power BI gebruikt een rekenengine om uw query's en vernieuwingsbewerkingen te verwerken. De verbeterde rekenengine is een verbetering ten opzichte van de standaardengine. De engine werkt door gegevens naar een SQL-cache te laden en maakt gebruik van SQL om entiteitstransformatie te versnellen, bewerkingen te vernieuwen en DirectQuery-connectiviteit mogelijk te maken. Als we de engines vergelijken met ovens, kunt u, wanneer u de verbeterde oven gebruikt, mogelijk sneller en effectiever maaltijden bereiden. Indien ingesteld op **Aan** of **Geoptimaliseerd** voor berekende entiteiten, kan Power BI, als de bedrijfslogica dat toestaat, gebruikmaken van SQL om de prestaties te versnellen. Wanneer de engine staat ingesteld op **Aan** , hebt u ook DirectQuery-connectiviteit. Zoals blijkt uit de analogie is voor bepaalde maaltijden geen oven nodig of hoeft de over niet te worden gebruikt. U kunt de verbeterde rekenengine op een vergelijkbare manier zien: zorg ervoor dat uw gegevensstroomverbruik op de juiste manier gebruikmaakt van de verbeterde rekenengine.
+In onze analogie is de [verbeterde rekenengine](dataflows-premium-features.md#the-enhanced-compute-engine) te vergelijken met een oven. Power BI gebruikt een rekenengine om uw query's en vernieuwingsbewerkingen te verwerken. De verbeterde rekenengine is een verbetering ten opzichte van de standaardengine. De engine werkt door gegevens naar een SQL-cache te laden en maakt gebruik van SQL om entiteitstransformatie te versnellen, bewerkingen te vernieuwen en DirectQuery-connectiviteit mogelijk te maken. Als we de engines vergelijken met ovens, kunt u, wanneer u de verbeterde oven gebruikt, mogelijk sneller en effectiever maaltijden bereiden. Indien ingesteld op **Aan** of **Geoptimaliseerd** voor berekende entiteiten, kan Power BI, als de bedrijfslogica dat toestaat, gebruikmaken van SQL om de prestaties te versnellen. Wanneer de engine staat ingesteld op **Aan**, hebt u ook DirectQuery-connectiviteit. Zoals blijkt uit de analogie is voor bepaalde maaltijden geen oven nodig of hoeft de over niet te worden gebruikt. U kunt de verbeterde rekenengine op een vergelijkbare manier zien: zorg ervoor dat uw gegevensstroomverbruik op de juiste manier gebruikmaakt van de verbeterde rekenengine.
 
 > [!NOTE]
 > De verbeterde rekenengine is nog niet beschikbaar in alle regio's.
@@ -120,7 +120,7 @@ Trage vernieuwingstijden zijn doorgaans een probleem met parallelle uitvoering. 
 
 ### <a name="out-of-memory-exceptions"></a>Uitzonderingen met betrekking tot onvoldoende geheugen
 
-Wanneer u te maken krijgt met **uitzonderingen met betrekking tot onvoldoende geheugen** , moet u de prestaties van de containers en het geheugen verhogen. Voer de volgende stappen uit.
+Wanneer u te maken krijgt met **uitzonderingen met betrekking tot onvoldoende geheugen**, moet u de prestaties van de containers en het geheugen verhogen. Voer de volgende stappen uit.
 
 1. Vergroot het geheugen van de container. Dit is vergelijkbaar met het in dienst hebben van één sterrenkok versus meerdere koks, zoals beschreven in de vorige sectie.
 
