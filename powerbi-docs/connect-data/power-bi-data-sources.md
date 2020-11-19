@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/07/2020
+ms.date: 11/17/2020
 ms.author: davidi
-ms.openlocfilehash: 3cce51ad577c700a0f9595a2b92694e5e1b61cc5
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397387"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719047"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
@@ -62,7 +62,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Map | Ja | Ja | Nee | Ja | Ja | Ja |
 | GitHub | Ja | Ja | Nee | Nee | Nee | Nee |
 | Google Analytics | Ja | Ja | Nee | Nee | Nee | Nee |
-| Google BigQuery | Ja | Ja | Ja | Nee | Nee | Ja |
+| Google BigQuery | Ja | Ja | Ja | Ja | Nee | Ja |
 | Hadoop-bestand (HDFS) | Ja | Nee | Nee | Nee | Nee | Nee |
 | Hive LLAP | Ja | Ja | Ja | Ja | Nee | Nee |
 | HDInsight Interactive Query | Ja | Ja | Ja | Nee | Nee | Nee |
@@ -148,7 +148,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 
 <sup>6</sup> Vereist voor .html-, .xls- en Access-databases
 
-<sup>7</sup> Power BI-service biedt geen ondersteuning voor OData-feeds waarvoor verificatie is vereist.
+<sup>7</sup> Power BI-service biedt geen ondersteuning voor algemene OAuth2.
 
 <sup>8</sup> Paxata wordt ondersteund in de versie van Power BI Desktop die is geoptimaliseerd voor Power BI Report Server. Het wordt niet ondersteund in Power BI-rapporten die zijn gepubliceerd in Power BI Report Server. Zie [Power BI-rapportgegevensbronnen in Power BI Report Server](../report-server/data-sources.md) voor de lijst met ondersteunde gegevensbronnen.
 

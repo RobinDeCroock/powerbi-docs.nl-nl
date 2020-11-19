@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/23/2020
+ms.date: 11/11/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 358d0575c2de3297614bfed0656d953945b2ed13
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 653ab67828c055d2846a698bf12f14eec304a2bf
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502151"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560115"
 ---
 # <a name="design-filters-in-power-bi-reports"></a>Filters ontwerpen in Power BI-rapporten
 
@@ -65,7 +65,7 @@ Meer informatie over [interactie met filters in de leesmodus](../consumer/end-us
 
 Nadat u het nieuwe deelvenster Filters hebt ingeschakeld, ziet u het rechts van de rapportpagina, standaard ingedeeld op basis van uw huidige rapportinstellingen. In het deelvenster Filters kunt u instellen welke filters u wilt gebruiken en kunt u bestaande filters bijwerken. Het deelvenster Filters ziet er hetzelfde uit voor de gebruikers van uw rapport wanneer u het rapport publiceert. 
 
-1. De standaardinstelling is dat rapportgebruikers het deelvenster Filters kunnen zien. Als u wilt dat gebruikers het venster niet zien, selecteert u het pictogram van een oog naast **Filters** .
+1. De standaardinstelling is dat rapportgebruikers het deelvenster Filters kunnen zien. Als u wilt dat gebruikers het venster niet zien, selecteert u het pictogram van een oog naast **Filters**.
 
     ![Pictogram van oog naast Filters](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
 
@@ -79,7 +79,7 @@ Power BI Desktop heeft een nieuw lint in de preview-versie. Met de wisselknop **
 
 ![Het deelvenster Filters verbergen of weergeven tijdens het bewerken](media/power-bi-report-filter/power-bi-filter-hide.png)
 
-Met deze instelling wordt alleen het deelvenster Filters in Power BI Desktop verborgen. Als u het deelvenster Filters voor uw eindgebruikers wilt verbergen, selecteert u in plaats daarvan het pictogram van het **oog** naast **Filters** .
+Met deze instelling wordt alleen het deelvenster Filters in Power BI Desktop verborgen. Als u het deelvenster Filters voor uw eindgebruikers wilt verbergen, selecteert u in plaats daarvan het pictogram van het **oog** naast **Filters**.
 
 ![Oogpictogram](media/power-bi-report-filter/power-bi-filter-eye.png) 
 
@@ -116,7 +116,7 @@ U kunt deze elementen ook opmaken voor filterkaarten, afhankelijk van of deze zi
 
 ### <a name="format-the-filters-pane-and-cards"></a>De indeling voor het deelvenster Filters en de filterkaarten instellen
 
-1. In het rapport klikt u op het rapport zelf, of op de *achtergrond* , en vervolgens selecteert u **Indeling** in het venster **Visualisaties** . 
+1. In het rapport klikt u op het rapport zelf, of op de *achtergrond*, en vervolgens selecteert u **Indeling** in het venster **Visualisaties**. 
     U ziet opties voor het opmaken van de rapportpagina en de achtergrond, evenals het deelvenster Filters en de filterkaarten.
 
 1. Vouw het **deelvenster Filters** uit om de kleur van de achtergrond, het pictogram en de linkerrand te kiezen om de rapportpagina op te maken.
@@ -228,7 +228,7 @@ U kunt ook het zoekvak opmaken, net zoals u de andere elementen van het deelvens
 
 ![Het zoekvak opmaken](media/power-bi-report-filter/power-bi-filter-format-search.png)
 
-Hoewel deze functie van het deelvenster Filters standaard is ingeschakeld, kunt u er ook voor kiezen om deze in of uit te schakelen via **Zoeken inschakelen in het deelvenster Filters** in de **rapportinstellingen** van het dialoogvenster **Opties** .
+Hoewel deze functie van het deelvenster Filters standaard is ingeschakeld, kunt u er ook voor kiezen om deze in of uit te schakelen via **Zoeken inschakelen in het deelvenster Filters** in de **rapportinstellingen** van het dialoogvenster **Opties**.
 
 ![Zoekfunctie in- of uitschakelen](media/power-bi-report-filter/power-bi-enable-search-filter.png)
 
@@ -242,35 +242,36 @@ In het gedeelte **Filterervaring** van de **rapportinstellingen** staat een opti
 
 Standaard kunnen uw rapportlezers filters voor uw rapport opslaan. U kunt ervoor kiezen om ze niet toe te staan filters op te slaan.
 
-- Selecteer in de **rapportinstellingen** van het dialoogvenster **Opties** , onder **Permanente filters** , **Eindgebruiker niet toestaan om filters op te slaan in dit rapport** .
+- Selecteer in de **rapportinstellingen** van het dialoogvenster **Opties**, onder **Permanente filters**, **Eindgebruiker niet toestaan om filters op te slaan in dit rapport**.
 
     :::image type="content" source="media/power-bi-report-filter/power-bi-persistent-filters.png" alt-text="Schermopname van Eindgebruiker niet toestaan om filters op te slaan in dit rapport.":::
 
-## <a name="apply-filters-apply-button-preview"></a>Filters toepassen knop Toepassen (preview)
+## <a name="apply-filters-button"></a>De knop Filters toepassen
 
 U kunt één knop **Toepassen** aan het deelvenster Filters, zodat u en uw eindgebruikers alle filterwijzigingen in één keer kunnen toepassen. Deze knop kan nuttig zijn als u het toepassen van filterwijzigingen wilt uitstellen. U hoeft dan maar één keer te wachten, totdat u klaar bent om alle filterwijzigingen toe te passen op het rapport of de visualisaties.
 
-:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="Schermopname van Eindgebruiker niet toestaan om filters op te slaan in dit rapport.":::
+:::image type="content" source="media/power-bi-report-filter/apply-filter-button.png" alt-text="De knop Toepassen":::
 
-### <a name="turn-on-apply"></a>Toepassen inschakelen
+### <a name="turn-on-the-apply-button"></a>De knop Toepassen inschakelen
 
 U kunt deze functie op rapportniveau instellen. Deze functie is standaard echter uitgeschakeld.
 
-1. Ga naar **Bestand** > **Opties en instellingen** > **Opties** > **Query's beperken** .
+1. Ga naar **Bestand** > **Opties en instellingen** > **Opties** > **Query's beperken**.
 
-1. Selecteer **Eén knop Toepassen aan het filterdeelvenster toevoegen om wijzigingen allemaal tegelijk toe te passen** .
+1. Selecteer **Eén knop Toepassen aan het filterdeelvenster toevoegen om wijzigingen allemaal tegelijk toe te passen**.
 
-    :::image type="content" source="media/power-bi-report-filter/turn-on-apply-filter-button.png" alt-text="Schermopname van Eindgebruiker niet toestaan om filters op te slaan in dit rapport.":::
+    :::image type="content" source="media/power-bi-report-filter/apply-all-filters.png" alt-text="De knop Toepassen inschakelen":::
 
 ### <a name="format-the-apply-button"></a>De knop Toepassen opmaken
 
 Op dit moment kunt u bepaalde opmaakelementen van de tekst **Toepassen** instellen voor de knop. Stel in de sectie **Filtervenster** van het deelvenster **Indeling** deze opties in:
 
-- **Kleur van lettertype en pictogram** : bepaalt de tekstkleur.
-- **Grootte van de koptekst** : bepaalt de tekengrootte voor de tekst.
-- **Lettertypefamilie** : bepaalt het lettertype.
+- **Selectievakje en Kleur toepassen** bepalen de opvulkleur. 
+- **Kleur van lettertype en pictogram**: bepaalt de tekstkleur.
+- **Grootte van de koptekst**: bepaalt de tekengrootte voor de tekst.
+- **Lettertypefamilie**: bepaalt het lettertype.
 
-    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="Schermopname van Eindgebruiker niet toestaan om filters op te slaan in dit rapport.":::
+    :::image type="content" source="media/power-bi-report-filter/format-apply-filter.gif" alt-text="De tekst van de knop Filter toepassen opmaken":::
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

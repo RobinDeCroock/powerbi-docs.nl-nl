@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 11/17/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05df39b58334b33046fde0f95b9f1ca596c1eec1
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 0f6f4cdb221773218c945e7f800d569c73a9a130
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120559"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718978"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informatie over DirectQuery in Power BI
 
@@ -165,6 +165,7 @@ Bijna alle rapportagemogelijkheden worden ondersteund voor DirectQuery-modellen.
 * **Snelle inzichten worden niet ondersteund:** Power BI Quick Insights doorzoekt verschillende subsets van uw gegevensset terwijl er tegelijkertijd geavanceerde algoritmen worden toegepast om potentieel interessante inzichten te detecteren. Gezien de noodzaak voor query's met een snelle respons, is deze mogelijkheid niet beschikbaar voor gegevenssets die DirectQuery gebruiken.
 * **Q&A wordt niet ondersteund:** Met Q&A van Power BI kunt u met behulp van intuïtieve, natuurlijke taal uw gegevens verkennen en antwoorden krijgen in de vorm van diagrammen en grafieken. Deze voorziening wordt momenteel echter niet ondersteund voor gegevenssets die DirectQuery gebruiken.
 * **Verkenning gebruiken in Excel leidt waarschijnlijk tot slechtere prestaties:** U kunt uw gegevens verkennen met de mogelijkheid Verkennen in Excel in een gegevensset. Door deze methode kunt u draaitabellen en -grafieken maken in Excel. Hoewel deze mogelijkheid wordt ondersteund voor gegevenssets die DirectQuery gebruiken, zijn de prestaties meestal minder dan bij het maken van visuals in Power BI. Als het gebruik van Excel belangrijk is voor uw scenario's, moet u hiermee rekening houden in uw beslissing om DirectQuery te gebruiken.
+* **Maximale lengte voor tekstkolommen:** De maximale lengte van de gegevens in een tekstkolom voor gegevenssets die DirectQuery gebruiken, is 32.764 tekens. Rapportage over langere teksten resulteert in een fout.
 
 ### <a name="security"></a>Beveiliging
 

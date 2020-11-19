@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 09/16/2019
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 82237286fa4d6ac3713ca6674a541b7d59c20a49
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 41db895494c32918fedba7c27664354e45ae2f1c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92915895"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94511959"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
@@ -30,6 +30,11 @@ Power BI Premium is een oplossing die is gebaseerd op capaciteit en die onder an
 * Een grotere schaal en betere prestaties dan gedeelde capaciteit in de Power BI-service.
 * De mogelijkheid om assets van BI on-premises te onderhouden met Power BI Report Server.
 * Eén API-gebied, een consistente set mogelijkheden en toegang tot de nieuwste functies voor ingesloten analyse.
+
+**Wat is Power BI Premium Generation 2?**
+
+Power BI Premium heeft onlangs een nieuwe versie van Power BI Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Premium Gen2.
+
 
 **Wat doet Power BI Premium? Hoe werkt het?**  
 Power BI Premium bestaat uit capaciteit in de Power BI-service die exclusief wordt toegewezen aan elke organisatie. De capaciteit wordt ondersteund door specifieke hardware die volledig wordt beheerd door Microsoft. Organisaties kunnen ervoor kiezen om hun capaciteit breed toe te passen of deze te verdelen over toegewezen werkruimten op basis van het aantal gebruikers, workloadbehoeften of andere factoren, waarbij het altijd mogelijk is om omhoog of omlaag te schalen als de behoeften veranderen.
@@ -59,7 +64,7 @@ De volgende voorbeelden laten zien hoe klanten hun wensen op het gebied van BI k
 Power BI Premium wordt gekocht op basis van het aantal virtuele kernen. Informatie over prijzen vindt u op de [pagina met prijzen van Power BI](https://powerbi.microsoft.com/pricing/). Meer informatie over knooppunten en virtuele kernen vindt u in dit Engelstalige [document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper). Gebruik deze [calculator](https://powerbi.microsoft.com/calculator/) om een schatting te maken van de Premium-capaciteit die u nodig hebt.
 
 **Wat wordt er bedoeld met 'capaciteit'?**  
-Een capaciteit is een groep van een of meer knooppunten die door een beheerder is ingericht via de beheerportal voor Power BI Premium-capaciteit. Zie voor meer informatie dit Engelstalige [document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper).
+Een capaciteit is een hoeveelheid rekenkracht die voor uw organisatie is gereserveerd voor het gebruik van Power BI. Deze capaciteit wordt ingericht door een servicebeheerder via de Power BI Premium-beheerportal, op de pagina **Capaciteitsbeheer** .
 
 **Hoe wordt Power BI Premium gefactureerd?**  
 Power BI Premium wordt maandelijks gefactureerd en de abonnementstermijn bedraagt één jaar.

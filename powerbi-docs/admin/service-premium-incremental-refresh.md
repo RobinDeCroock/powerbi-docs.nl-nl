@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 06/22/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 0e55aa6fbfc1fadb529c6c321d7d97d3f48d569d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 6ca4257f73837b68d76734ea503e8f83e0d5ba49
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599042"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512948"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Incrementeel vernieuwen in Power BI
 
@@ -27,6 +27,10 @@ Incrementele vernieuwing maakt zeer grote gegevenssets in Power BI mogelijk, met
 
 > [!NOTE]
 > Incrementeel vernieuwen is nu beschikbaar voor Power BI Pro, Premium en gedeelde abonnementen en gegevenssets.
+
+> [!NOTE]
+> Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Premium Gen2 biedt aanzienlijke vebetering van gepland vernieuwing, door automatisch schalen in te schakelen om conflicten bij vernieuwing te voor komen. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
+
 
 ## <a name="configure-incremental-refresh"></a>Incrementeel vernieuwen configureren
 
@@ -248,3 +252,14 @@ Download en installeer de meest recent versie van ALM Toolkit van de [GitHub-ops
 
 [Gegevenssetconnectiviteit met het XMLA-eindpunt](service-premium-connect-tools.md)   
 [Problemen met vernieuwingsscenario's oplossen](../connect-data/refresh-troubleshooting-refresh-scenarios.md)
+
+
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.

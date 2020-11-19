@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/13/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 8670659ff44a0f0e14688a8a898704823f272891
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 34882258e9a3f05f08dd1340941b216f8679fc39
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92255990"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560052"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Wat is er nieuw in Power BI Desktop?
 
-## <a name="october-2020-update-2863210"></a>Update van oktober 2020 (2.86.321.0)
+## <a name="november-2020-update-2872610"></a>Update van november 2020 (2.87.261.0)
 
-Onze updates van oktober voor Power BI Desktop zijn het wachten meer dan waard en zullen u weer veel plezier bezorgen. 
+Onze updates van november voor Power BI Desktop omvatten een grote verzameling nieuwe en verbeterde functies. 
 
 De maandelijkse blog- en video-updates voor Power BI Desktop bevatten nu ook updates met nieuwe functies voor Power BI - Mobiel en de Power BI-service. In dit artikel worden de updates voor Power BI Desktop beschreven. Als u meer wilt weten over updates voor Power Bi - Mobiel en de Power BI-service, raadpleegt u de artikelen over nieuwe functies van de desbetreffende onderdelen:
 
@@ -47,48 +47,29 @@ U kunt ook de volledige [maandelijkse video met Power BI-updates](#power-bi-desk
 De volgende updates zijn deze maand nieuw voor Power BI Desktop:
 
 
-
 ### <a name="reporting"></a>Rapportage
-* Watermerken op canvas [[video]](https://youtu.be/LveNuQqV5xk?t=17)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195557) 
-* Het aanpassen van visuals aan uw persoonlijke voorkeuren is nu algemeen beschikbaar (GA) [[video]](https://youtu.be/LveNuQqV5xk?t=115)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195558) [[artikel]](../create-reports/power-bi-personalize-visuals.md)
-* Selectiehoek voor selecteren van gegevenspunten voor treemap (preview) [[video]](https://youtu.be/LveNuQqV5xk?t=292)[[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195559)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Nieuwe veldenlijst (preview-versie) [[video]](https://youtu.be/DT_tOas5YIo?t=15)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
+* Nieuwe modelweergave (preview-versie) [[video]](https://youtu.be/DT_tOas5YIo?t=61)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[artikel]](../create-reports/power-bi-personalize-visuals.md)
+* Alle filters toepassen is nu algemeen beschikbaar [[video]](https://youtu.be/DT_tOas5YIo?t=98)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Schuifregelaar voor in-/uitzoomen voor visuals [[video]](https://youtu.be/DT_tOas5YIo?t=160)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Selectiehoek voor selecteren van gegevenspunten uitgebreid naar Kaart-visual [[video]](https://youtu.be/DT_tOas5YIo?t=185)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Controle voor certificaten intrekken voor webverbindingen [[video]](https://youtu.be/DT_tOas5YIo?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* Updates voor gepagineerde rapporten [[video]](https://youtu.be/DT_tOas5YIo?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="analytics"></a>Analyse
-* Gegevens exporteren uit Q&A-visual [[video]](https://youtu.be/LveNuQqV5xk?t=308)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270582) 
-
-
-### <a name="modeling"></a>Modellen maken
-* Prestatieverbeteringen voor IF- en SWITCH-functies  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270584)
-
-
-### <a name="data-preparation"></a>Gegevensvoorbereiding
-* Dynamische M-queryparameters (preview) [[video]](https://youtu.be/LveNuQqV5xk?t=329)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665421)  [[artikel]](../connect-data/desktop-dynamic-m-query-parameters.md)
-* Automatische tabeldetectie vanuit Excel-bestanden [[video]](https://youtu.be/LveNuQqV5xk?t=615)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195566)
-* Automatische tabeldetectie vanuit JSON-bestanden [[video]](https://youtu.be/LveNuQqV5xk?t=650)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc51665423)
+* Anomaliedetectie (preview-versie) [[video]](https://youtu.be/DT_tOas5YIo?t=199)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
+* Q&A ondersteunt nu gedeeltelijke overeenkomst van gegevenswaarden [[video]](https://youtu.be/DT_tOas5YIo?t=438)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
 
 ### <a name="data-connectivity"></a>Toegang tot gegevens
-* Bredere geografische ondersteuning voor Dataflows-connector van Power Platform [[video]](https://youtu.be/LveNuQqV5xk?t=675)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270590)
-* MariaDB ondersteunt nu DirectQuery [[video]](https://youtu.be/LveNuQqV5xk?t=694)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195570)
-* List-connector van SharePoint Online bijgewerkt [[video]](https://youtu.be/LveNuQqV5xk?t=707)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270592)
-* Nieuwe gegevensconnectors - Spigit en eWay-CRM [[video]](https://youtu.be/LveNuQqV5xk?t=736)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195572)
+* De Hive LLAP-connector is nu algemeen beschikbaar [[video]](https://youtu.be/DT_tOas5YIo?t=461) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
+* Nieuwe gegevensconnectors - Actian, Anaplan, Starburst Presto [[video]](https://youtu.be/DT_tOas5YIo?t=487)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
 
 
 ### <a name="visuals"></a>Visuals
-* Uitgebreide functies voor beheerders nu algemeen beschikbaar (GA) [[video]](https://youtu.be/LveNuQqV5xk?t=997)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270604)
-* Nieuwe visuals van verschillende providers [[video]](https://youtu.be/LveNuQqV5xk?t=1039)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195582)
+* Nieuwe visuals van verschillende providers [[video]](https://youtu.be/DT_tOas5YIo?t=688)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
 
 
-### <a name="template-apps"></a>Sjabloon-apps
-* Vereenvoudigde installatie voor sjabloon-apps [[video]](https://youtu.be/LveNuQqV5xk?t=1127)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270613) 
-* Sjabloon-apps zoeken vanuit Power BI Desktop [[video]](https://youtu.be/LveNuQqV5xk?t=1164)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195591) 
-
-### <a name="other"></a>Anders
-* Gegevensbron exporteren naar PBIDS in Power BI Desktop [[video]](https://youtu.be/LveNuQqV5xk?t=1255)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195594)  [[artikel]](../connect-data/desktop-data-sources.md#how-to-create-a-pbids-connection-file)
-* Pictogram voor Power BI bijgewerkt Power BI [[video]](https://youtu.be/LveNuQqV5xk?t=1295)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52270618) 
-* Welkomstscherm van Power BI Desktop sluiten [[video]](https://youtu.be/LveNuQqV5xk?t=1313)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/#_Toc52195596)
-
-
-Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-october-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
+Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
 
 
 > [!NOTE]
@@ -98,7 +79,7 @@ Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.micros
 ### <a name="power-bi-desktop-monthly-update-video"></a>Maandelijkse video met Power BI Desktop-updates
 In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
 
-> [!VIDEO https://www.youtube.com/embed/LveNuQqV5xk]
+> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
 
 ## <a name="more-videos"></a>Meer video's
 

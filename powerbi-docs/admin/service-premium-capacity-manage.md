@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/10/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: def44a5cc7847d64daab466346f85f0b369d3634
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: cfde7ab3fb40885b298afeb8751525e417b487ea
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599422"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512856"
 ---
 # <a name="managing-premium-capacities"></a>Premium-capaciteiten beheren
 
@@ -24,6 +24,9 @@ Het beheer van Power BI Premium omvat het maken, beheren en bewaken van Premium-
 ## <a name="creating-and-managing-capacities"></a>Capaciteiten maken en beheren
 
 Op de pagina **Capaciteitsinstellingen** van de Power BI-portal wordt het aantal aangeschafte v-cores en beschikbare Premium-capaciteiten weergegeven. Op de pagina kunnen globale beheerders of Power BI-servicebeheerders Premium-capaciteiten maken van beschikbare v-cores, of bestaande Premium-capaciteiten bewerken.
+
+> [!NOTE]
+> Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
 
 Wanneer u een Premium-capaciteit maakt, moeten beheerders het volgende definiëren:
 
@@ -148,7 +151,7 @@ Over het algemeen zijn langzame rapporten een indicatie van een overbelaste capa
 
 U vindt een gedetailleerdere uitleg over het gebruik van de metrische gegevens in het artikel [Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md).
 
-## <a name="acknowledgements"></a>Erkenningen
+## <a name="acknowledgments"></a>Dankwoord
 
 Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk BI-expert bij [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 
@@ -161,3 +164,12 @@ Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk B
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.

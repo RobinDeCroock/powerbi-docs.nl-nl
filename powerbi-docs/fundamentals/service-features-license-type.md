@@ -6,28 +6,28 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/27/2020
+ms.date: 11/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 8d173c622b47c2d0cc64fba118f168de7193541e
-ms.sourcegitcommit: 3f864ec22f99ca9e25cda3a5abda8a5f69ccfa8e
+ms.openlocfilehash: 48e382db2866187f4394cf8a60789604f3d900b7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "84160083"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512787"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Functies van Power BI-service op licentietype
 
-Er zijn twee soorten Power BI-licenties per gebruiker: gratis en Pro. Welk type licentie een gebruiker nodig heeft, wordt bepaald door de locatie waar inhoud is opgeslagen en hoe de gebruiker die inhoud gebruikt. De locatie waar inhoud kan worden opgeslagen, wordt bepaald door het [abonnementstype](#subscriptions-and-license-types) van uw organisatie.
+Er zijn twee soorten Power BI-licenties per gebruiker: gratis en Pro. Welk type licentie een gebruiker nodig heeft, wordt bepaald door de locatie waar inhoud is opgeslagen en hoe de gebruiker die inhoud gebruikt. De locatie waar inhoud kan worden opgeslagen, wordt bepaald door het [licentietype](#licenses-and-license-types) van uw organisatie.
 
-## <a name="subscriptions-and-license-types"></a>Abonnementen en licentietypen
+## <a name="licenses-and-license-types"></a>Licenties en licentietypen
 
-Met een van de abonnementstypen, [Power BI Premium](../admin/service-admin-premium-purchase.md), kunnen gebruikers met een gratis licentie inhoud gebruiken in werkruimten die aan Premium-capaciteit zijn toegewezen. Buiten de Premium-capaciteit kan een gebruiker met een gratis licentie de Power BI-service alleen gebruiken om verbinding te maken met gegevens en om rapporten en dashboards in **Mijn werkruimte** te maken. Ze kunnen geen inhoud met anderen delen of inhoud naar andere werkruimten publiceren. Zie [Typen werkruimten](../consumer/end-user-workspaces.md#types-of-workspaces) voor meer informatie over werkruimtetypen. Zie [Wat is Power BI Premium?](../admin/service-premium-what-is.md) voor meer informatie over Power BI Premium
+Met een van de licentietypen, de op capaciteit gebaseerde licentie voor [Power BI Premium](../admin/service-admin-premium-purchase.md), kunnen gebruikers met een gratis licentie inhoud gebruiken in werkruimten die aan Premium-capaciteit zijn toegewezen. Buiten de Premium-capaciteit kan een gebruiker met een gratis licentie de Power BI-service alleen gebruiken om verbinding te maken met gegevens en om rapporten en dashboards in **Mijn werkruimte** te maken. Ze kunnen geen inhoud met anderen delen of inhoud naar andere werkruimten publiceren. Zie [Typen werkruimten](../consumer/end-user-workspaces.md#types-of-workspaces) voor meer informatie over werkruimtetypen. Zie [Wat is Power BI Premium?](../admin/service-premium-what-is.md) voor meer informatie over Power BI Premium
 
-Voor een Power BI-standaardabonnement wordt gedeelde capaciteit gebruikt. Wanneer inhoud wordt opgeslagen in een gedeelde capaciteit, kunnen gebruikers aan wie een Power BI Pro-licentie is toegewezen, alleen samenwerken met andere Power BI Pro-gebruikers. Ze kunnen inhoud gebruiken die door andere gebruikers is gedeeld, inhoud publiceren naar app-werkruimten, dashboards delen en zich abonneren op dashboards en rapporten.  Wanneer werkruimten zich in de Premium-capaciteit bevinden, kunnen Pro-gebruikers inhoud distribueren naar gebruikers die geen Power BI Pro-licentie hebben.
+Een Power BI-licentie met gratis en Pro per gebruiker-licentie maakt alleen gebruik van een gedeelde en beperkte capaciteit om inhoud te verwerken. Wanneer inhoud wordt opgeslagen in die gedeelde capaciteit, kunnen gebruikers aan wie een Power BI Pro-licentie is toegewezen, alleen samenwerken met andere Power BI Pro-gebruikers. Ze kunnen inhoud gebruiken die door andere gebruikers is gedeeld, inhoud publiceren naar app-werkruimten, dashboards delen en zich abonneren op dashboards en rapporten.  Wanneer werkruimten zich in de Premium-capaciteit bevinden, kunnen Pro-gebruikers inhoud distribueren naar gebruikers die geen Power BI Pro-licentie hebben.
 
-In de onderstaande tabel worden de basismogelijkheden van elk licentietype samengevat.
+Wanneer u Premium per gebruikers-licenties gebruikt, kan inhoud die is gemaakt door een Premium per gebruiker gelicentieerde gebruiker alleen worden gedeeld met andere gebruikers die een Premium-licentie hebben, tenzij de inhoud specifiek wordt geplaatst in een werkruimte die wordt gehost op een Premium-capaciteit. In de onderstaande tabel worden de basismogelijkheden van elk licentietype samengevat. 
 
 | Licentietype | Mogelijkheden wanneer werkruimte zich in gedeelde capaciteit bevindt | Aanvullende mogelijkheden wanneer werkruimte zich in Premium-capaciteit bevindt |
 | --------- | ----------- | ----------- |
@@ -42,3 +42,14 @@ Zie [Beschikbaarheid van functies voor gebruikers met gratis licenties](../consu
 
 * [Registreren voor de Power BI-service als zelfstandige gebruiker](service-self-service-signup-for-power-bi.md)
 * [Power BI Desktop en de Power BI-service vergelijken](service-service-vs-desktop.md)
+
+
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.
