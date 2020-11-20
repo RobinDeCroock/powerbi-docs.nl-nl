@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 09/25/2020
+ms.date: 11/13/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4eae96dbdddae82a7f74f27c835874a19b04a69f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 624da63259dcb09d0ebbb35079ef0d8e1340b04c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256810"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668506"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>Gebruikers de mogelijkheid geven om visuals in een rapport aan te passen
 
@@ -96,23 +96,23 @@ Zodra u het Perspectief hebt ingesteld voor de rapportpagina, wordt de ervaring 
 
 ## <a name="enable-personalization-in-a-report"></a>Aanpassing inschakelen in een rapport
 
-U kunt deze functie inschakelen in Power BI Desktop en in de Power BI-service.
+U kunt deze functie inschakelen in Power BI Desktop en in de Power BI-service. U kunt deze ook inschakelen in ingesloten rapporten.
 
 ### <a name="in-power-bi-desktop"></a>In Power BI Desktop
 
 Als u de functie in Power BI Desktop wilt inschakelen, gaat u naar **Bestand** > **Opties en instellingen** > **Opties**  > **Huidige bestand**  > **Rapportinstellingen**. Zorg ervoor dat het selectievakje onder **Visuals personaliseren** is ingeschakeld.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-desktop.png" alt-text="Aanpassing inschakelen in een rapport":::
 
 ### <a name="in-the-power-bi-service"></a>In de Power BI-service
 
 Als u in plaats daarvan de functie wilt inschakelen in de Power BI-service, gaat u naar **Instellingen** voor uw rapport.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-report-service-settings-personalize-visual.png" alt-text="Rapportinstellingen in de Power BI-service":::
 
 Schakel de optie onder **Visuals personaliseren** in > **Opslaan**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-report-setting-service.png" alt-text="Visuals aanpassen inschakelen in de service":::
 
 ## <a name="turn-the-feature-on-or-off-at-a-page-or-visual-level"></a>De functie in-of uitschakelen op pagina- of visualniveau
 
@@ -122,7 +122,7 @@ Wanneer u het personaliseren van visuals inschakelt voor een bepaald rapport, ku
 
 Selecteer het tabblad Pagina > selecteer **Indeling** in het deelvenster **Visualisaties**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/power-bi-personalize-visuals/personalize-page-level-setting.png" alt-text="Selecteer Visual aanpassen voor een pagina.":::
  
 Zet de schuifregelaar **Visual aanpassen** >  **Aan** of **Uit**.
 
@@ -130,11 +130,11 @@ Zet de schuifregelaar **Visual aanpassen** >  **Aan** of **Uit**.
 
 Selecteer de visual > selecteer **Indeling** in het deelvenster **Visualisaties** > vouw **Visuele koptekst** uit.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-header-personalize.png" alt-text="Visuele koptekst selecteren":::
  
 Zet de schuifregelaar **Visual aanpassen** >  **Aan** of **Uit**.
 
-:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/power-bi-personalize-visuals/power-bi-format-visual-personalize-on-off.png" alt-text="De schuifregelaar van Visual aanpassen aan- of uitzetten":::
 
 
 ## <a name="limitations"></a>Beperkingen
