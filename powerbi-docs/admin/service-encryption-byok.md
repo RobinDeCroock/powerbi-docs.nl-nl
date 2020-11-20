@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 449721a13a126344f3ef8334e63f64579a98ec20
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9331fe3e207162db0215b62aa89b04f2e4be3d95
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916148"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512695"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>Uw eigen versleutelingssleutels gebruiken voor Power BI
 
@@ -23,6 +23,9 @@ In Power BI worden gegevens _in rust_ en _in verwerking_ versleuteld. In Power B
 ## <a name="why-use-byok"></a>Redenen om BYOK te gebruiken
 
 Met BYOK kunt u gemakkelijker voldoen aan nalevingsvereisten waarin sleutelafspraken met de cloudserviceprovider (in dit geval Microsoft) zijn opgegeven. Met BYOK levert en beheert u de versleutelingssleutels voor uw Power BI-gegevens in rust op toepassingsniveau. Hierdoor kunt u controle uitoefenen op en de sleutels van uw organisatie intrekken als u besluit de service af te sluiten. Als u sleutels intrekt, worden de gegevens binnen dertig minuten onleesbaar voor de service.
+
+> [!IMPORTANT]
+> Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Tijdens de preview-fase bieden Premium Gen2-capaciteiten **geen** ondersteuning voor BYOK.
 
 ## <a name="data-source-and-storage-considerations"></a>Aandachtspunten voor gegevensbronnen en opslag
 
@@ -183,7 +186,7 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
 
     Houd er rekening mee dat versleuteling is ingeschakeld op capaciteitsniveau, maar dat u de versleutelingsstatus verkrijgt voor het gegevenssetniveau van de opgegeven werkruimte.
 
-- Gebruik [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) om de versie van de sleutel die voor versleuteling wordt gebruikt te wisselen (of _draaien_ ). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
+- Gebruik [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) om de versie van de sleutel die voor versleuteling wordt gebruikt te wisselen (of _draaien_). Met deze cmdlet werkt u de `-KeyVaultKeyUri` voor een sleutel `-Name` bij:
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
@@ -202,3 +205,14 @@ Power BI biedt aanvullende cmdlets om BYOK te beheren in uw tenant:
 * [Insluiten met webonderdeel Rapport in SharePoint Online](../collaborate-share/service-embed-report-spo.md)
 
 * [Publiceren op internet vanuit Power BI](../collaborate-share/service-publish-to-web.md)
+
+
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.

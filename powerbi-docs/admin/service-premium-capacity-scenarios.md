@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 1bc11d94162ab2c6ed62de0825acd6e94db30291
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: a3835ff26bf86024b827edf69e19d6f603e66c2c
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599383"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512879"
 ---
 # <a name="premium-capacity-scenarios"></a>Scenario's voor Premium-capaciteit
 
@@ -28,6 +28,9 @@ In dit artikel worden praktijkscenario's beschreven waarbij Power BI Premium-cap
 - [Bepalen of er voldoende CPU is](#determining-whether-there-is-enough-cpu)
 
 De stappen, samen met de grafiek- en tabelvoorbeelden, zijn afkomstig van de **app Metrische Power BI Premium-capaciteitsgegevens** waartoe een Power BI-beheerder toegang heeft.
+
+> [!NOTE]
+> Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
 
 ## <a name="keeping-datasets-up-to-date"></a>Gegevenssets up-to-date houden
 
@@ -123,6 +126,9 @@ In een gezonde capaciteit ziet de visual er als volgt uit, waarbij een hiaat tus
 
 In het geval waarin een capaciteit geheugendruk ondervindt, wordt in dezelfde visual duidelijk aangegeven dat het actieve geheugen en het totale geheugen worden samengevoegd, wat betekent dat het onmogelijk is om extra gegevenssets in het geheugen te laden. In dit geval kan de Power BI-beheerder op **Capaciteit opnieuw opstarten** klikken (in **Geavanceerde opties** van het capaciteitsinstellingengebied van de beheerportal). Wanneer de capaciteit opnieuw wordt opgestart, worden alle gegevenssets uit het geheugen verwijderd en kunnen ze indien nodig opnieuw in het geheugen worden geladen (door query's of gegevensvernieuwing).
 
+> [!NOTE]
+> Voor Premium Gen2 hoeft het geheugenverbruik niet te worden bijgehouden. De enige beperking in Premium Gen2 is de geheugen-footprint van één artefact. De footprint kan niet groter zijn dan het geheugen dat beschikbaar is voor de capaciteit. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Premium Gen2.
+
 ![** Actief ** geheugen wordt samengevoegd met **Alle** geheugen](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
 ## <a name="determining-whether-there-is-enough-cpu"></a>Bepalen of er voldoende CPU is
@@ -141,6 +147,9 @@ Dit effect kan bijzonder duidelijk zijn wanneer een gegevensset wordt gebruikt i
 
 In sommige gevallen kunnen Power BI-beheerders verzoeken dat gegevensseteigenaren een minder volatiele querybelasting maken door een dashboard te maken (dat periodiek query's uitvoert bij het vernieuwen van de gegevensset voor tegels in de cache) in plaats van een rapport. Dit kan helpen bij het voorkomen van pieken wanneer het dashboard wordt geladen. Deze oplossing is misschien niet altijd mogelijk voor bepaalde bedrijfsvereisten, maar dit kan een efficiënte manier zijn om CPU-verzadiging te voorkomen zonder dat u wijzigingen in de gegevensset hoeft aan te brengen.
 
+> [!NOTE]
+> Voor Premium-Gen2 wordt het gebruik van CPU-tijd per artefact bijgehouden en dit gebruik is zichtbaar in de app voor capaciteitsgebruik. Voor elk artefact wordt het totale gebruik van CPU-tijd voor een bepaalde duur weergegeven. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Premium Gen2.
+
 ## <a name="acknowledgments"></a>Dankwoord
 
 Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk BI-expert bij [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
@@ -154,4 +163,13 @@ Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk B
 
 Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
 
-||||||
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.
+

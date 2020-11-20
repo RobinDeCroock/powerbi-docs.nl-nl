@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/03/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3095cfbfd4ed1a965e0a54f1cee0907cb468170d
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 57b1de80112e68849d21e7c34570d9754eaf0058
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598824"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512810"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Ondersteuning voor grote modellen in Power BI Premium (preview-versie)
 
@@ -160,3 +160,14 @@ De volgende koppelingen bevatten informatie die nuttig kan zijn voor het werken 
 * [Uw eigen versleutelingssleutels gebruiken voor Power BI](service-encryption-byok.md)
 * [Hoe capaciteiten functioneren](service-premium-what-is.md#how-capacities-function)
 * [Incrementeel vernieuwen:](service-premium-incremental-refresh.md)
+
+
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.

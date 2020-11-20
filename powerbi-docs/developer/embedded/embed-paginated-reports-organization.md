@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 41c7ba43d16b6d77ecf6324d3cd175dbbabc51a1
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 447fad076d9d171a2bdcb8e9f5aafe9c63555d79
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983390"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668667"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw organisatie
 
@@ -44,6 +44,9 @@ U hebt het volgende nodig om aan de slag te gaan:
 * Minimaal een P1-capaciteit. Zie [Hoe groot moet de Premium-capaciteit zijn voor gepagineerde rapporten?](../../paginated-reports/paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 Als u zich niet hebt geregistreerd voor **Power BI Pro**, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
+
+>[!NOTE]
+>[Premium per gebruiker (PPU)](../../admin/service-premium-per-user-faq.md) wordt ondersteund. Als u echter PPU gebruikt, hebben alleen PPU-gebruikers in uw organisatie toegang tot uw oplossing.
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 

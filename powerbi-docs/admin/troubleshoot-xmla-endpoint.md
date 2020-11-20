@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 10/20/2020
+ms.date: 11/16/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5426c91f2ab0c4de1f9f2bc335ac21ea3a90c0e2
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 5100a2a693bbabacd5659c6e805031339d188555
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483668"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668115"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -139,6 +139,36 @@ Wanneer een geplande vernieuwing of vernieuwing op aanvraag in Power BI wordt ge
 ### <a name="overrides-in-refresh-tmsl-command"></a>Onderdrukkingen in de TMSL-opdracht Vernieuwen
 
 Met onderdrukkingen in de [opdracht Vernieuwen (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) kunnen gebruikers een andere partitiequerydefinitie of gegevensbrondefinitie voor de vernieuwingsbewerking kiezen. Momenteel worden **onderdrukkingen niet ondersteund** in Power BI Premium. De fout 'De out-of-line-binding is niet toegestaan in Power BI Premium. Zie XMLA-lees/schrijf-ondersteuning in de productdocumentatie voor meer informatie." wordt geretourneerd.
+
+## <a name="errors-in-ssms---premium-gen-2"></a>Fouten in SQL Server Management Studio (SMS)- Premium Gen 2
+
+### <a name="query-execution"></a>Queryuitvoering
+
+Wanneer SQL Server Management Studio is verbonden met een werkruimte in een capaciteit van [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview), kan de volgende fout worden weergegeven:
+
+```
+Executing the query ...
+Error -1052311437:
+```
+
+Deze fout treedt op omdat de clientbibliotheken die zijn geïnstalleerd met SQL Server Management Studio v18.7.1, geen ondersteuning bieden voor sessietracering. Dit probleem is opgelost in een volgende versie van SQL Server Management Studio.
+
+### <a name="refresh-operations"></a>Bewerkingen vernieuwen
+
+Als u SQL Server Management Studio v18.7.1 of lager gebruikt om een langdurige vernieuwingsbewerking (meer dan 1 minuut) uit te voeren op een gegevensset in een Premium Gen2-capaciteit, wordt er mogelijk een foutbericht vergelijkbaar met dat hieronder weergeven ondanks dat de vernieuwingsbewerking is voltooid:
+
+```
+Executing the query ...
+Error -1052311437:
+The remote server returned an error: (400) Bad Request.
+
+Technical Details:
+RootActivityId: 3716c0f7-3d01-4595-8061-e6b2bd9f3428
+Date (UTC): 11/13/2020 7:57:16 PM
+Run complete
+```
+
+Dit wordt veroorzaakt door een bekend probleem in de clientbibliotheken waarbij de status van de vernieuwingsaanvraag onjuist wordt bijgehouden. Dit probleem is opgelost in een volgende versie van SQL Server Management Studio.
 
 ## <a name="see-also"></a>Zie ook
 
