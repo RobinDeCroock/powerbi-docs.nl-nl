@@ -99,8 +99,16 @@
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Fout: We konden geen gegevens vinden in uw Excel-werkmap'
               href: ../connect-data/service-admin-troubleshoot-excel-workbook-data.md
-        - name: Power Automate en Power BI
-          href: service-flow-integration.md
+        - name: Power BI en Power Automate
+          items:
+            - name: Gegevenswaarschuwingen integreren met Power Automate
+              href: service-flow-integration.md
+            - name: Gepagineerde rapporten exporteren met Power Automate
+              href: service-automate-paginated-integration.md
+            - name: Gepagineerde rapporten bewaren in OneDrive of SharePoint Online
+              href: service-automate-paginated-onedrive-sharepoint.md
+            - name: Gepagineerde rapporten exporteren vanuit Excel Online of een SharePoint-lijst
+              href: service-automate-paginated-excel-sharepoint-list.md
         - name: Apps van derden gebruiken
           href: service-power-bi-get-started-third-party-apps.md
         - name: Organisatie-inhoudspakketten
