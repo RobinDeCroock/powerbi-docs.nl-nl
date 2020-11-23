@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 03/12/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 0f237efece8403730ea7790d45bca6f5169e53fd
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ac0935dd6f2239ab96b9e7689a4f8e5bc013efa1
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599523"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512511"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Een Power BI Premium-capaciteit opnieuw opstarten
 
@@ -28,6 +28,9 @@ Power BI gedeelde capaciteit biedt enigszins bescherming tegen dergelijke situat
 
 In Power BI worden voortdurend verbeteringen aangebracht door om gebruikers van Premium-capaciteit tegen dit soort situaties te beschermen. Ook geven we beheerders de middelen in handen om te analyseren wanneer en waarom capaciteiten worden overbelast. Bekijk onze [korte trainingssessie](https://www.youtube.com/watch?v=UgsjMbhi_Bk&feature=youtu.be) en [langere trainingssessie](https://powerbi.tips/2018/07/) voor meer informatie. Tegelijkertijd hebt u de mogelijkheid nodig om grote problemen te beperken wanneer deze zich voordoen. De snelste manier om deze problemen te beperken is het opnieuw opstarten van de capaciteit.
 
+> [!NOTE]
+> Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Voor Preview Gen2-capaciteiten is opnieuw opstarten niet vereist, dus deze functie is niet beschikbaar in Premium Gen2.
+
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Is het proces voor opnieuw opstarten veilig? Gaan er gegevens verloren?
 
 Alle opgeslagen gegevens, definities, rapporten en dashboards in uw capaciteit blijven tijdens het opnieuw opstarten volledig intact. Wanneer u een capaciteit opnieuw opstart, worden in de meeste gevallen doorlopende geplande en ad-hoc vernieuwingen tijdelijk gestopt door de vernieuwingsengine en vervolgens opnieuw opgestart dankzij de ingebouwde herstartlogica van Power BI. De service probeert alle beïnvloede vernieuwingen opnieuw uit te voeren zodra de capaciteit weer beschikbaar is. De status van vernieuwingen kan in de gebruikersinterface tijdens het opnieuw opstarten niet worden gewijzigd. 
@@ -40,7 +43,7 @@ Volg deze stappen om een capaciteit opnieuw op te starten.
 
 1. Navigeer in de Power BI-beheerportal, op het tabblad **Capaciteitsinstellingen**, naar uw capaciteit. 
 
-1. Voeg de **functievlag** *CapacityRestart* toe aan de URL van uw capaciteit: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
+1. Voeg de *functievlag* **CapacityRestart** toe aan de URL van uw capaciteit: `https://app.powerbi.com/admin-portal/capacities/<YourCapacityId>?capacityRestartButton=true`.
 
 1. Onder **Geavanceerde instellingen** > **CAPACITEIT OPNIEUW OPSTARTEN**, selecteert u de optie **Capaciteit opnieuw opstarten**.
 
@@ -60,4 +63,4 @@ Het is tevens aan te raden regelmatig [uw capaciteiten te controleren](service-a
 
 [Wat is Power BI Premium?](service-premium-what-is.md)
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

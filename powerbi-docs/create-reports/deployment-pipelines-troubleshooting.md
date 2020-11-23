@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 929a79d7e940f729b90d0cdf6d3ebd905a621f6a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.date: 11/11/2020
+ms.openlocfilehash: 141364664b6608b252fc2be8620226ae8d9ce39b
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916815"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668621"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Problemen met implementatiepijplijnen oplossen
 
@@ -32,13 +32,13 @@ Volg de [instructiehandleiding](deployment-pipelines-get-started.md) om aan de s
 
 Als niet aan de volgende voorwaarden is voldaan, wordt de knop Implementatiepijplijnen niet weergegeven.
 
-* U bent een Power BI [Pro-gebruiker](../admin/service-admin-purchasing-power-bi-pro.md)
+* U hebt een van de volgende Premium-licenties:
 
-* U maakt deel uit van een organisatie met premium-capaciteit
+    * U bent een Power BI [Pro-gebruiker](../admin/service-admin-purchasing-power-bi-pro.md) en maakt deel uit van een organisatie met Premium-capaciteit.
 
-* Een werkruimte kan slechts worden toegewezen aan één pijplijn
+    * [Premium per gebruiker (PPU)](../admin/service-premium-per-user-faq.md).
 
-* U bent een beheerder van een nieuwe werkruimte
+* U bent een beheerder van een [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md).
 
 ### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>Waarom zie ik de tag voor de pijplijnfase niet in mijn werkruimte?
 
@@ -51,15 +51,24 @@ Bij implementatiepijplijnen wordt een tag voor de pijplijnfase weergegeven in we
 
 ### <a name="what-licenses-are-needed-to-work-with-deployment-pipelines"></a>Welke licenties zijn nodig om te werken met implementatiepijplijnen?
 
-Als u implementatiepijplijnen wilt gebruiken, moet u een [Pro-gebruiker](../admin/service-admin-purchasing-power-bi-pro.md) zijn met [premium-capaciteit](../admin/service-premium-what-is.md). Zie [toegang tot implementatiepijplijnen](deployment-pipelines-get-started.md#accessing-deployment-pipelines) voor meer informatie.
+Voor de implementatie van pijplijnen hebt u een van de volgende licenties nodig:
+
+* Een [Pro-gebruikerslicentie](../admin/service-admin-purchasing-power-bi-pro.md) met een werkruimte die zich bevindt in een [Premium-capaciteit](../admin/service-premium-what-is.md).
+
+* [Premium per gebruiker (PPU)](../admin/service-premium-per-user-faq.md).
+
+Zie [toegang tot implementatiepijplijnen](deployment-pipelines-get-started.md#accessing-deployment-pipelines) voor meer informatie.
 
 ### <a name="what-type-of-capacity-can-i-assign-to-a-workspace-in-a-pipeline"></a>Welk type capaciteit kan ik toewijzen aan een werkruimte in een pijplijn?
 
 Alle werkruimten in een implementatiepijplijn moeten zich in een capaciteit bevinden om de pijplijn goed te laten functioneren. U kunt echter verschillende capaciteiten gebruiken voor verschillende werkruimten in een pijplijn. U kunt ook verschillende typen capaciteiten gebruiken voor verschillende werkruimten in dezelfde pijplijn.
 
-Voor ontwikkelen en testen kunt u een A- of EM- capaciteit gebruiken, naast een Pro Power BI-account voor elke gebruiker.
+Voor ontwikkelen en testen kunt u een A- of EM- capaciteit gebruiken, naast een Pro Power BI-account voor elke gebruiker. U kunt ook een PPU gebruiken voor elke gebruiker in de ontwikkelings- en testfase.
 
-Voor productiewerkruimten hebt u een P-capaciteit nodig. Als u een ISV bent die inhoud distribueert via ingesloten toepassingen, kunt u ook A- of EM-capaciteiten gebruiken voor productie.
+Voor productiewerkruimten hebt u een P-capaciteit nodig. Als u een ISV bent die inhoud distribueert via ingesloten toepassingen, kunt u ook A- of EM-capaciteiten gebruiken voor productie. PPU's kunnen ook worden gebruikt voor productiewerkruimten.
+
+>[!NOTE]
+>Wanneer u een werkruimte met een PPU maakt, hebben alleen andere PPU-gebruikers toegang tot de werkruimte en kunnen alleen zij de inhoud ervan gebruiken.
 
 ## <a name="technical"></a>Technisch
 
@@ -87,7 +96,7 @@ De eerste implementatie kan om een aantal redenen zijn mislukt. Enkele van deze 
 
 |Fout  |Actie  |
 |---------|---------|
-|U hebt geen [machtigingen voor premium-capaciteit](deployment-pipelines-process.md#creating-a-premium-capacity-workspace).     |Als u machtigingen voor premium-capaciteit wilt hebben, vraagt u een capaciteitsbeheerder om uw werkruimte toe te voegen aan een capaciteit, of vraagt u om toewijzingsmachtigingen voor de capaciteit. Nadat de werkruimte zich in een capaciteit bevindt, moet u deze opnieuw implementeren.        |
+|U hebt geen [machtigingen voor premium-capaciteit](deployment-pipelines-process.md#creating-a-premium-capacity-workspace).     |Als u werkt in een organisatie met Premium-capaciteit, vraagt u een capaciteitsbeheerder om uw werkruimte toe te voegen aan een capaciteit of vraagt u om toewijzingsmachtigingen voor de capaciteit. Nadat de werkruimte zich in een capaciteit bevindt, moet u deze opnieuw implementeren.</br></br>Als uw organisatie geen Premium-capaciteit heeft, kunt u [Premium per gebruiker (PPU)](../admin/service-premium-per-user-faq.md) aanschaffen.        |
 |U hebt geen machtigingen voor de werkruimte.     |Als u wilt implementeren, moet u lid zijn van de werkruimte. Vraag de werkruimtebeheerder om u de juiste machtigingen te verlenen.         |
 |De Power BI-beheerder heeft het maken van werkruimten uitgeschakeld.     |Neem contact op met de Power BI-beheerder voor ondersteuning.         |
 |De werkruimte is geen [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md)     |Maak uw inhoud in de nieuwe werkruimte-ervaring. Als u inhoud hebt in een klassieke werkruimte, kunt u deze [upgraden](../collaborate-share/service-upgrade-workspaces.md) naar een nieuwe werkruimte-ervaring.         |
@@ -152,11 +161,11 @@ Het machtigingenmodel voor implementatiepijplijnen wordt beschreven in de sectie
 
 Inhoud kan worden geïmplementeerd in een lege fase of in een fase die inhoud bevat. De inhoud moet zich bevinden in een [premium-capaciteit](../admin/service-premium-what-is.md).
 
-* **Implementeren in een lege fase** : elke [Pro-gebruiker](../admin/service-admin-purchasing-power-bi-pro.md) die lid of beheerder is van de bronwerkruimte.
+* **Implementeren in een lege fase**: elke [Pro-](../admin/service-admin-purchasing-power-bi-pro.md) of [PPU-](../admin/service-premium-per-user-faq.md) gebruiker die lid of beheerder is van de bronwerkruimte.
 
-* **Implementeren in een fase met inhoud** : een [Pro-gebruikers](../admin/service-admin-purchasing-power-bi-pro.md) die lid of beheerder is van beide werkruimten in de bron- en doelimplementatiefasen.
+* **Implementeren in een fase met inhoud**: elke [Pro-](../admin/service-admin-purchasing-power-bi-pro.md) of [PPU-](../admin/service-premium-per-user-faq.md)gebruiker die lid of beheerder is van beide werkruimten in de bron- en doelimplementatiefasen.
 
-* **Overschrijven van een gegevensset** : bij een implementatie wordt elke gegevensset die is opgenomen in de doelfase overschreven, zelfs als de gegevensset niet is gewijzigd. De gebruiker moet de eigenaar zijn van alle gegevenssets in de doelfase die zijn opgegeven in de implementatie.
+* **Overschrijven van een gegevensset**: bij een implementatie wordt elke gegevensset die is opgenomen in de doelfase overschreven, zelfs als de gegevensset niet is gewijzigd. De gebruiker moet de eigenaar zijn van alle gegevenssets in de doelfase die zijn opgegeven in de implementatie.
 
 ### <a name="which-permissions-do-i-need-to-configure-dataset-rules"></a>Welke machtigingen heb ik nodig om gegevenssetregels te configureren?
 

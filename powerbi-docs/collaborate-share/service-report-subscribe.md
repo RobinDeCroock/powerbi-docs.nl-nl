@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 11/17/2020
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 8768801f2d704644c888a14caf9b930dcd27f8fa
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 183885336f6f76304ba051599efa48d81111264a
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501967"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718955"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -32,7 +32,7 @@ U kunt uzelf en uw collega's abonneren op de rapportpagina's, dashboards en gepa
 
 ## <a name="requirements"></a>Vereisten
 
-De volgende gebruikers kunnen een abonnement **maken** :
+De volgende gebruikers kunnen een abonnement **maken**:
 
 - Gebruikers met een Power BI Pro-licentie 
 - Gebruikers die inhoud in een premium-werkruimte of -app bekijken, kunnen zich abonneren op de bijbehorende inhoud, zelfs zonder een Power BI Pro-licentie. 
@@ -52,24 +52,24 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
    
     ![Pictogram Abonneren](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
-1. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen. Als u de schuifregelaar instelt op **Uit** , wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
+1. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen. Als u de schuifregelaar instelt op **Uit**, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
 
-2. Uw e-mailadres bevindt zich al in het vak **Abonneren** . U kunt tevens andere e-mailadressen in hetzelfde domein toevoegen aan het abonnement. Als het rapport of het dashboard wordt gehost in een [Premium-capaciteit](../admin/service-premium-what-is.md), kunt u andere afzonderlijke e-mailadressen en groepsaliassen abonneren, ongeacht of deze zich nu wel of niet in uw domein bevinden. Als het rapport of het dashboard wordt gehost in een Premium-capaciteit, kunt u andere personen abonneren, maar zij moeten tevens beschikken over een Power BI Pro-licentie. Zie [Aandachtspunten en probleemoplossing](#considerations-and-troubleshooting) hieronder voor uitgebreide informatie.
+2. Uw e-mailadres bevindt zich al in het vak **Abonneren**. U kunt tevens andere e-mailadressen in hetzelfde domein toevoegen aan het abonnement. Als het rapport of het dashboard wordt gehost in een [Premium-capaciteit](../admin/service-premium-what-is.md), kunt u andere afzonderlijke e-mailadressen en groepsaliassen abonneren, ongeacht of deze zich nu wel of niet in uw domein bevinden. Als het rapport of het dashboard wordt gehost in een Premium-capaciteit, kunt u andere personen abonneren, maar zij moeten tevens beschikken over een Power BI Pro-licentie. Zie [Aandachtspunten en probleemoplossing](#considerations-and-troubleshooting) hieronder voor uitgebreide informatie.
 
 3. Vul de gegevens **Onderwerp** en **Bericht** voor het e-mailbericht in.
 
-4. Selecteer een **frequentie** voor uw abonnement:  **Dagelijks** , **Elk uur** , **Wekelijks** , **Maandelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)** . Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **Elk uur** of **Wekelijks** en selecteert u de dagen waarop u het wilt ontvangen. Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit. Als u **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.
+4. Selecteer een **frequentie** voor uw abonnement:  **Dagelijks**, **Elk uur**, **Wekelijks**, **Maandelijks** of **Nadat gegevens zijn vernieuwd (dagelijks)** . Als u het e-mailbericht van het abonnement alleen op bepaalde dagen wilt ontvangen, selecteert u **Elk uur** of **Wekelijks** en selecteert u de dagen waarop u het wilt ontvangen. Als u bijvoorbeeld het e-mailbericht van het abonnement alleen op weekdagen wilt, ontvangen, selecteert u **Wekelijks** en schakelt u de selectievakjes voor de **Za** en **Zo** uit. Als u **Maandelijks** selecteert, voert u de dag(en) van de maand in waarop u de abonnementsmail wilt ontvangen.
 
-5. Als u **Dagelijks** , **Elk uur** , **Maandelijks** of **Wekelijks** kiest, kunt u ook een **geplande tijd** voor het abonnement kiezen. U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren. Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven. Als u **Elk uur** kiest, selecteert u de **geplande tijd** waarop u het abonnement wilt starten. Het abonnement wordt vervolgens elk uur daarna uitgevoerd.
+5. Als u **Dagelijks**, **Elk uur**, **Maandelijks** of **Wekelijks** kiest, kunt u ook een **geplande tijd** voor het abonnement kiezen. U kunt de verzending op het hele uur of om 15, 30 of 45 minuten erna laten uitvoeren. Selecteer ochtend (AM) of middag/avond (PM). U kunt ook de tijdzone opgeven. Als u **Elk uur** kiest, selecteert u de **geplande tijd** waarop u het abonnement wilt starten. Het abonnement wordt vervolgens elk uur daarna uitgevoerd.
 
 6. De begindatum voor uw abonnement is standaard de datum waarop u het hebt gemaakt. U hebt de mogelijkheid om een einddatum te selecteren. Als u geen einddatum instelt, is de einddatum automatisch één jaar na de begindatum. U kunt deze op elk gewenst moment wijzigen in ongeacht welke datum in de toekomst (tot het jaar 9999) voordat het abonnement afloopt. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt. U ontvangt vóór de geplande einddatum een melding/meldingen met de vraag of u wilt verlengen.
 
-    Merk op in de onderstaande schermafbeelding dat wanneer u zich op een rapport abonneert, u zich feitelijk abonneert op een rapport _pagina_ . Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina.
+    Merk op in de onderstaande schermafbeelding dat wanneer u zich op een rapport abonneert, u zich feitelijk abonneert op een rapport _pagina_. Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina.
      
     ![Deelvenster Abonneren](media/service-report-subscribe/power-bi-subscribe-pane.png)  
 
 1. (Optioneel) Selecteer of u een koppeling wilt toevoegen aan de inhoud in Power BI en of u gebruikerstoegang wilt geven tot de inhoud waarop u hen abonneert.  Als u ervoor kiest een koppeling op te nemen voor de beste ervaring, moet u ervoor zorgen dat alle gebruikers toegang hebben tot het rapport.
-2. Selecteer **Opslaan en sluiten** . Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement. Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.
+2. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement. Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.
 
     > [!NOTE]
     > Als u het abonnement bewerkt na het opslaan en sluiten, is de selectie voor het geven van toegang aan gebruikers tot de inhoud waarop u zich abonneert ingeschakeld, ongeacht uw eerdere selecties.
@@ -81,7 +81,7 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 
 ## <a name="manage-your-subscriptions"></a>Uw abonnementen beheren
 
-Alleen degene die het abonnement heeft gemaakt, kan dit beheren. Er zijn twee paden naar het scherm voor het beheren van uw abonnementen. Voor het eerste pad selecteert u in het dialoogvenster **Abonneren op e-mails** de optie **Alle abonnementen beheren** (zie stap 4 hierboven). Voor het tweede pad selecteert u in de bovenste menubalk het Power BI-tandwielpictogram ![Tandwielpictogram](media/service-report-subscribe/power-bi-settings-icon.png) en kiest u **Instellingen** .
+Alleen degene die het abonnement heeft gemaakt, kan dit beheren. Er zijn twee paden naar het scherm voor het beheren van uw abonnementen. Voor het eerste pad selecteert u in het dialoogvenster **Abonneren op e-mails** de optie **Alle abonnementen beheren** (zie stap 4 hierboven). Voor het tweede pad selecteert u in de bovenste menubalk het Power BI-tandwielpictogram ![Tandwielpictogram](media/service-report-subscribe/power-bi-settings-icon.png) en kiest u **Instellingen**.
 
 ![Instellingen selecteren](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
@@ -122,6 +122,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - Abonnementen bieden momenteel geen ondersteuning voor bladwijzers.
 - De optie om toegang te bieden tot het rapport/dashboard wordt altijd weergegeven als ingeschakeld wanneer u een bestaand abonnement bewerkt.  Als u deze optie hebt gewist en het abonnement opslaat, wordt die status opgeslagen. Wanneer u het rapport echter opnieuw gaat bewerken, wordt het standaard gecontroleerd.
 - Als u een alternatief e-mailadres hebt, maar geen primair adres, gebruikt Power BI dat adres om het abonnement te leveren.
+- Als u externe gebruikers abonneert op een rapport of dashboard ontvangen ze een melding zodra u in het deelvenster Abonnementen **Opslaan en sluiten** hebt geselecteerd een melding over het delen. Deze melding wordt alleen verzonden naar externe gebruikers, niet naar interne gebruikers, omdat ze een uitnodigingskoppeling nodig hebben om het rapport of het dashboard weer te geven. 
 
 ### <a name="dashboards"></a>Dashboards
 

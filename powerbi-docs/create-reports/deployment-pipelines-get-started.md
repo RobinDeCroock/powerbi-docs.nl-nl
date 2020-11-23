@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/15/2020
-ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.date: 11/11/2020
+ms.openlocfilehash: ca588c50052ed4950b2f283ee8294098dd36a8ef
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855753"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669127"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Aan de slag gaan met implementatiepijplijnen
 
@@ -23,11 +23,13 @@ In dit artikel wordt u stapsgewijs door de basisinstellingen geleid die zijn ver
 
 U hebt toegang tot de functie voor implementatiepijplijnen als aan de volgende voorwaarden is voldaan:
 
-* U bent een Power BI [Pro-gebruiker](../admin/service-admin-purchasing-power-bi-pro.md)
+* U hebt een van de volgende Premium-licenties:
 
-* U maakt deel uit van een organisatie met premium-capaciteit
+    * U bent een Power BI [Pro-gebruiker](../admin/service-admin-purchasing-power-bi-pro.md) en maakt deel uit van een organisatie met Premium-capaciteit.
 
-* U bent een beheerder van een [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md)
+    * [Premium per gebruiker (PPU)](../admin/service-premium-per-user-faq.md).
+
+* U bent een beheerder van een [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md).
 
 >[!NOTE]
 > U ziet de knop voor implementatiepijplijnen ook als u eerder een pijplijn hebt gemaakt, of als een pijplijn met u is gedeeld.
@@ -60,7 +62,7 @@ U kunt een pijplijn maken vanuit een bestaande werkruimte, mits u de beheerder b
 2. Voer in het dialoogvenster *Een implementatiepijplijn maken* een naam en beschrijving in voor de pijplijn, en selecteer **Maken**.
 
 >[!NOTE]
->Als de werkruimte niet is toegewezen aan de Premium-capaciteit van uw organisatie, ontvangt u een melding om [deze toe te wijzen aan een capaciteit](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
+>Als de werkruimte niet is toegewezen aan de Premium-capaciteit van uw organisatie of aan uw PPU-capaciteit, ontvangt u een melding om [deze toe te wijzen aan een capaciteit](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity).  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>Stap 2: een werkruimte toewijzen aan een implementatiepijplijn
 
@@ -87,7 +89,7 @@ Volg deze stappen om een werkruimte toe te wijzen aan een implementatiepijplijn:
 
 * De werkruimte mag niet zijn toegewezen aan een andere pijplijn.
 
-* De werkruimte moet zich bevinden in een  [premium-capaciteit](../admin/service-premium-what-is.md).
+* De werkruimte moet zich bevinden in een  [Premium-capaciteit](../admin/service-premium-what-is.md).
 
 * U kunt geen werkruimte met [Power BI-voorbeelden](../create-reports/sample-datasets.md) toewijzen aan een pijplijnfase.
 
@@ -134,7 +136,7 @@ Wanneer u werkt in een implementatiepijplijn, kunnen verschillende fasen verschi
 
 Wanneer u inhoud implementeert tussen pijplijnfasen, stelt het configureren van gegevenssetregels u in staat om wijzigingen in inhoud toe te staan, terwijl bepaalde instellingen intact blijven.
 
-Gegevenssetregels worden gedefinieerd in gegevensbronnen en parameters, in elke gegevensset. Deze bepalen de waarden van de gegevensbronnen of parameters voor een specifieke gegevensset. Als u bijvoorbeeld een gegevensset in een productiefase wilt laten verwijzen naar een productiedatabase, kunt u hiervoor een regel definiëren. De regel wordt gedefinieerd in de productiefase, onder de juiste gegevensset. Zodra de regel is gedefinieerd, neemt inhoud die is geïmplementeerd van test naar productie, de waarde over die is gedefinieerd in de gegevenssetregels. De regel is altijd van toepassing zolang deze ongewijzigd en geldig is.
+Gegevenssetregels worden gedefinieerd in gegevensbronnen en parameters, in elke gegevensset. Deze bepalen de waarden van de gegevensbronnen of parameters voor een specifieke gegevensset. Als u bijvoorbeeld een gegevensset in een productiefase wilt laten verwijzen naar een productiedatabase, kunt u hiervoor een regel definiëren. De regel wordt gedefinieerd in de productiefase, onder de juiste gegevensset. Zodra de regel is gedefinieerd, neemt inhoud die is geïmplementeerd van test naar productie de waarde over die is gedefinieerd in de gegevenssetregel. De regel is altijd van toepassing zolang deze ongewijzigd en geldig is.
 
 >[!NOTE]
 > Gegevenssetregels werken alleen wanneer de bron- en doelgegevensbron hetzelfde type zijn.

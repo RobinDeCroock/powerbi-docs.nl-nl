@@ -7,32 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 07/28/2020
+ms.date: 11/12/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: cb8ac0ad558f15219829e9f32111cacf9f27eb25
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483737"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668207"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
-Met Power BI Premium kunt u toegewezen en geavanceerde resources voor uw organisatie configureren om de prestaties en reactietijd van de Power BI-service te verbeteren voor de gebruikers in uw organisatie. Een Power BI Premium abonnement biedt de gebruikers van uw organisatie de volgende voordelen:
+U kunt Power BI Premium gebruiken om toegang te krijgen tot functies en mogelijkheden die alleen beschikbaar zijn in Premium en daarmee een grotere schaal en betere prestaties bieden voor Power BI-inhoud in uw organisatie. Met Power BI Premium kunnen meer gebruikers in uw organisatie optimaal profiteren van Power BI met betere prestaties en reactietijd. Power BI Premium biedt u en de gebruikers van uw organisatie bijvoorbeeld de volgende voordelen:
 
 > [!div class="checklist"]
-> * Grotere schaal en prestaties
+> * Grotere schaal en betere prestaties voor uw Power BI-rapporten
 > * Flexibiliteit voor licentieverlening op capaciteit
-> * Self-service en bedrijfs-BI integreren
-> * On-premises BI uitbreiden met Power BI Report Server
-> * Ondersteuning voor gegevensopslag per regio (Multi-Geo, meerdere geografische gebieden)
-> * Gegevens delen met iedereen zonder een licentie per gebruiker te hoeven aanschaffen
+> * Eersteklas functies voor gegevensvisualisatie en het uitlezen van inzichten, zoals AI-gestuurde analyses, samenstelbare en herbruikbare gegevensstromen en gepagineerde rapporten
+> * Eenduidige self-service en zakelijke BI met een aantal exclusieve Premium-mogelijkheden die zwaardere werkbelastingen ondersteunen en schaalbaarheid van ondernemingen vereisen
+> * Ingebouwde licentie voor het uitbreiden van on-premises BI met Power BI Report Server
+> * Ondersteuning voor gegevenslocatie per regio (meerdere geografische gebieden) en door de klant beheerde versleutelingssleutels voor data-at-rest (BYOK)
+> * De mogelijkheid om Power BI inhoud te delen met iedereen (zelfs buiten uw organisatie) zonder een licentie per gebruiker aan te schaffen
 
 
 ![Schermopname van de Power BI-beheerportal.](media/service-premium-what-is/premium-admin-portal.png) 
 
 In dit artikel worden belangrijke functies van Power BI Premium beschreven. In voorkomende gevallen worden koppelingen geboden naar aanvullende artikelen met meer gedetailleerde informatie. Raadpleeg de sectie _Vergelijking van Power BI-functies_ van [Power BI-prijzen](https://powerbi.microsoft.com/pricing/) voor meer informatie over Power BI Pro en Power BI Premium.
+
+## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium Generation 2 (preview)
+
+Power BI Premium heeft onlangs een nieuwe versie van Power BI Premium uitgebracht: **Power BI Premium Generation 2**, gemakshalve aangeduid **Premium Gen2**. Premium Gen2 is momenteel beschikbaar als preview-versie en kan tijdens de preview-periode worden gebruikt door Premium-abonnees. U kunt de oorspronkelijke versie van Premium gebruiken of overschakelen naar het gebruik van Premium Gen2. U kunt slechts een van beide gebruiken voor uw Premium-capaciteit. 
+
+Premium Gen2 biedt de volgende updates of verbeterde ervaring:
+
+* Mogelijkheid om **Premium per gebruiker**-licenties toe te wijzen naast per capaciteit.
+
+* Verbeterde **prestaties** voor elke capaciteitsgrootte, op elk gewenst moment: Analysebewerkingen worden tot wel 16 keer sneller uitgevoerd op Premium-Gen2. Bewerkingen worden altijd op de hoogste snelheid uitgevoerd en kunnen niet worden vertraagd wanneer de belasting van de capaciteit de capaciteitslimieten nadert.
+
+* **Grotere schaal**:
+    * *Geen limieten* voor de gelijktijdigheid van vernieuwingen, zodat u niet langer planningen hoeft bij te houden voor gegevenssets die worden vernieuwd op uw capaciteit
+    * Minder geheugenbeperkingen
+    * Volledige scheiding tussen rapportinteractie en geplande vernieuwingen
+
+* **Verbeterde metrische gegevens** met duidelijke en genormaliseerde gegevens over capaciteitsgebruik, die alleen afhankelijk zijn van de complexiteit van analysebewerkingen die de capaciteit uitvoert, en niet van de grootte, de mate van belasting van het systeem tijdens het uitvoeren ervan, enzovoort. Met de verbeterde metrische gegevens zijn analyse van het gebruik, budgetplanning, terugstortingen en de noodzaak om te upgraden duidelijk zichtbaar met ingebouwde rapportage. Tijdens de preview-periode zullen betere metrische gegevens beschikbaar worden gemaakt en uitgebreid. 
+
+* Met **automatische schaalaanpassing** kan *automatisch* 1 v-core tegelijk voor 24 uur worden toegevoegd wanneer de belasting van de capaciteit de limiet overschrijdt, zodat er geen vertragingen ontstaan door overbelasting. V-cores worden automatisch verwijderd wanneer niet-actieve tijd wordt gedetecteerd. Voor extra v-cores voor uw Azure-abonnement betaalt u per gebruik. Automatische schaalaanpassing wordt beschikbaar gesteld tijdens de evaluatieperiode. 
+
+* Aanzienlijk **minder beheeroverhead**, met proactieve en configureerbare beheerdersmeldingen over het capaciteitsverbruiksniveau en toename van de belasting.
+
+
+### <a name="using-premium-gen2"></a>Met Premium Gen2
+
+U moet Premium Gen2 inschakelen om gebruik te kunnen maken van de updates. Voer de volgende stappen uit om Premium Gen2 in te schakelen:
+
+1. Ga in de beheerportal naar **Capaciteitsinstellingen**.
+2. Selecteer **Power BI Premium**.
+3. Er wordt een sectie weergegeven met de titel **Premium Generation 2 (preview)** , waarin de schuifregelaar voor Premium Generation 2 (preview) ingeschakeld. 
+4. Verplaats de schuifregelaar naar **Ingeschakeld**.
+
+De volgende afbeelding laat zien hoe u Premium Gen2 inschakelt. 
+
+![Premium Generation 2 inschakelen](media/service-premium-what-is/enable-premium-gen2.gif#lightbox) 
+
+### <a name="known-limitations-in-premium-gen2"></a>Bekende beperkingen in Premium Gen2
+
+Momenteel zijn de volgende bekende beperkingen van toepassing op Premium Gen2:
+
+1.  Capaciteitsgebruik in Premium Gen2 kan niet worden bijgehouden in de app voor metrische gegevens.
+
+2.  De capaciteitsinstellingen voor Premium Gen2 voor specifieke werkbelastingen zijn nog niet zichtbaar op de pagina Premium Gen2-capaciteitsinstellingen in de beheerportal. Om de instellingen te wijzigen verplaatst u de capaciteit naar de oorspronkelijke versie van Premium, wijzigt u de instellingen en stelt u de capaciteit opnieuw in op het gebruik van Premium Gen2. De instellingen voor geheugentoewijzing zijn niet van toepassing op Premium Gen2-capaciteit.
+
+3.  Gegevensstromen met ADLS Gen2-gegevensbronnen werken momenteel niet op Premium Gen2-capaciteit.  
+
+4.  Als u XMLA op Premium Gen2 wilt gebruiken, moet u ervoor zorgen dat u de meest recente versies van de [hulpprogramma’s voor gegevensmodellering en -beheer](service-premium-connect-tools.md#data-modeling-and-management-tools) gebruikt. 
+
 
 ## <a name="subscriptions-and-licensing"></a>Abonnementen en licenties
 
@@ -42,19 +91,22 @@ Power BI Premium is een Microsoft 365-abonnement op tenantniveau beschikbaar in 
 
 - **EM**-SKU's (EM1-EM3) voor het insluiten van inhoud in de _organisatie_. Hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
 
-Een alternatieve methode is de aanschaf van een **Power BI Embedded**-abonnement in Azure. Er is één familie met **A**-SKU’s (A1-A6) waarvoor geen toezegging is vereist, en die per uur wordt gefactureerd voor gebruik met labels voor Power BI in toepassingen, in portals en op websites, of als een manier om P- of EM-capaciteiten te testen. Alle SKU's leveren v-cores voor het maken van capaciteit, maar de EM-SKU's zijn beperkt tot het insluiten van inhoud op kleinere schaal. EM1-, EM2-, A1- en A2-SKU's met minder dan vier v-cores worden niet uitgevoerd op een toegewezen infrastructuur.
+### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
+Premium Gen2 is momenteel alleen beschikbaar als een volledig ondersteunde preview-functie voor **P**- en **EM**-SKU's. De capaciteit van **A**-SKU’s biedt nog geen extra voordelen van de Premium Gen2-previewupdate.
 
-Hoewel dit artikel is gericht op de P-SKU's, is veel van wat wordt beschreven ook relevant voor de A-SKU's. In tegenstelling tot de SKU's van het Premium-abonnement zijn voor Azure-SKU's geen tijdsverplichtingen vereist. Deze worden per uur gefactureerd. Ze bieden volledige elasticiteit bij omhoog en omlaag schalen, en bij het onderbreken, hervatten en verwijderen van capaciteit. 
-
-Azure Power BI Embedded is grotendeels buiten het bereik van dit artikel, maar het wordt beschreven in de sectie [Testbenaderingen](service-premium-capacity-optimize.md#testing-approaches) van het artikel Optimizing Premium capacities (Premium-capaciteiten optimaliseren) als een praktische en economische optie voor het testen en meten van workloads. Zie de [documentatie voor Azure Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) voor meer informatie over Azure-SKU's.
 
 ### <a name="purchasing"></a>Aanschaffen
 
 Power BI Premium-abonnementen worden aangeschaft door beheerders in het Microsoft 365-beheercentrum. Specifieker: globale beheerders of factureringsbeheerders zijn de enigen die SKU's kunnen aanschaffen. Bij de aankoop ontvangt de tenant een overeenkomstig aantal v-cores die deze kan toewijzen aan capaciteit, ook wel *v-core-pooling* genoemd. Als u bijvoorbeeld een P3-SKU koopt, ontvangt de tenant 32 v-cores. Zie [Power BI Premium kopen](service-admin-premium-purchase.md) voor meer informatie.
 
-## <a name="dedicated-capacities"></a>Toegewezen capaciteit
+#### <a name="power-bi-premium-per-user-preview"></a>Power BI Premium per gebruiker (preview-versie)
 
-Met Power BI Premium krijgt u *toegewezen capaciteit*. In tegenstelling tot een gedeelde capaciteit waarbij workloads worden uitgevoerd op rekenresources die worden gedeeld met andere klanten, wordt een toegewezen capaciteit uitsluitend gebruikt door één organisatie. De capaciteit is geïsoleerd met toegewezen rekenresources die betrouwbare en consistente prestaties leveren voor gehoste inhoud. Let op: de volgende resources zijn opgeslagen in gedeelde capaciteit in plaats van uw toegewezen capaciteit:
+Met Power BI **Premium Per User** kunnen organisaties Premium-functies licentiëren per gebruiker. Premium Per User (PPU, Premium per gebruiker) omvat alle Power BI Pro-licentiemogelijkheden en voegt ook functies toe zoals gepagineerde rapporten, AI en andere mogelijkheden die alleen beschikbaar zijn voor Premium-abonnees. Premium per gebruiker is momenteel beschikbaar als preview-versie. Raadpleeg het artikel [Veelgestelde vragen over Power BI Premium Per User (preview)](service-premium-per-user-faq.md) voor meer informatie over Premium per gebruiker, met inbegrip van een functievergelijking en andere informatie over de preview-versie. 
+
+
+## <a name="reserved-capacities"></a>Gereserveerde capaciteit
+
+Met Power BI Premium krijgt u *gereserveerde capaciteit*. In tegenstelling tot een gedeelde capaciteit waarbij analyses van werkbelastingen worden uitgevoerd op rekenresources die worden gedeeld met andere klanten, wordt een gereserveerde capaciteit uitsluitend gebruikt door één organisatie. De capaciteit is geïsoleerd met gereserveerde rekenresources die betrouwbare en consistente prestaties leveren voor gehoste inhoud. Houd er rekening mee dat de verwerking van de volgende typen Power BI inhoud wordt opgeslagen in de gedeelde capaciteit, in plaats van uw gereserveerde capaciteit:
 
 * Excel-werkmappen (tenzij de gegevens eerst zijn geïmporteerd in Power BI Desktop)
 * [Push-gegevenssets](/rest/api/power-bi/pushdatasets)
@@ -62,6 +114,12 @@ Met Power BI Premium krijgt u *toegewezen capaciteit*. In tegenstelling tot een 
 * [Q&A](../create-reports/power-bi-tutorial-q-and-a.md)
 
 Werkruimten bevinden zich in capaciteiten. Elke Power BI-gebruiker heeft een persoonlijke werkruimte die **Mijn werkruimte** heet. Er kunnen extra werkruimten worden gemaakt om samenwerking mogelijk te maken. Deze werkruimten worden overigens **werkruimten** genoemd. Werkruimten, met inbegrip van persoonlijke werkruimten, worden standaard gemaakt in de gedeelde capaciteit. Als u over Premium-capaciteiten beschikt, kunnen zowel Mijn werkruimten als werkruimten worden toegewezen aan Premium-capaciteiten.
+
+Mijn werkruimten van capaciteitsbeheerders worden automatisch toegewezen aan Premium-capaciteit.
+
+### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
+Premium Gen2-knooppunten gebruiken geen gereserveerde infrastructuur meer. In plaats daarvan zorgt de service ervoor dat er voldoende rekenkracht beschikbaar is voor elke werkbelasting die wordt uitgevoerd door voldoende resources uit een gedeelde groep van zeer geschikte rekenknooppunten toe te wijzen.
+
 
 ### <a name="capacity-nodes"></a>Capaciteitsknooppunten
 
@@ -82,17 +140,22 @@ De resources en limieten van elke Premium-SKU (en A-SKU van een vergelijkbare om
 | EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
-| P4/A7 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
-| P5/A8 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
+| P1 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P4 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
+| P5 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
 
 <a name="limit">1</a>: Alleen op aanvraag. Voor zeer grote modellen, die groter zijn dan 100 GB.
 
 >[!NOTE]
 >Het gebruik van één grotere SKU (bijvoorbeeld één P2-SKU) kan de voorkeur hebben boven het combineren van kleinere SKU’s (bijvoorbeeld twee P1-SKU’s). U kunt bijvoorbeeld grotere modellen gebruiken en beter parallellisme bereiken met P2.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
+
+Met **Premium Gen2** is de hoeveelheid geheugen die beschikbaar is op elke knooppuntgrootte ingesteld op de maximale geheugenruimte van één artefact en niet op het cumulatieve verbruik van het geheugen. In Premium Gen2 is bijvoorbeeld slechts één gegevensset beperkt tot 25 GB, terwijl in de oorspronkelijke Premium de totale geheugencapaciteit van de gegevenssets die op hetzelfde moment worden verwerkt was beperkt tot 25 GB.
+
 
 ### <a name="capacity-workloads"></a>Workloads van capaciteit
 
@@ -123,6 +186,10 @@ Het is belangrijk om te benadrukken dat de verwijdering van gegevenssets normaal
 Het vernieuwen van importmodellen vormt altijd een zware belasting voor uw geheugen, aangezien modellen in het geheugen moeten worden geladen. Er is extra geheugen vereist voor verwerking. Volledig vernieuwen kan ongeveer de dubbele hoeveelheid geheugen gebruiken die nodig is voor het model. Dit zorgt ervoor dat het model zelfs tijdens de verwerking kan worden opgevraagd, omdat de query's naar het bestaande model worden verzonden, totdat het vernieuwen is voltooid en de gegevens van het nieuwe model beschikbaar zijn. Voor incrementeel vernieuwen is minder geheugen vereist. Ook kan het sneller worden voltooid en kan zo de druk op capaciteitsresources aanzienlijk worden verminderd. Vernieuwen kan ook een zware belasting voor modellen vormen, met name de modellen met complexe Power Query-transformaties of berekende tabellen/kolommen die complex zijn of zijn gebaseerd op grote tabellen.
 
 Voor vernieuwen moet net als bij query's, het model in het geheugen worden geladen. Als er onvoldoende geheugen is, probeert Power BI-service inactieve modellen te verwijderen, en als dit niet mogelijk is (als alle modellen actief zijn), wordt de vernieuwingstaak in de wachtrij geplaatst. Vernieuwen betekent gewoonlijk een zware belasting voor uw CPU, zelfs zwaarder dan query's. Hierom zijn er capaciteitsbeperkingen op het aantal gelijktijdige vernieuwingen, dat is ingesteld op 1,5 keer het aantal back-end-v-cores, naar boven afgerond. Als er te veel gelijktijdige vernieuwingen plaatsvinden, wordt een geplande vernieuwing in de wachtrij geplaatst. Wanneer deze situaties zich voordoen, duurt het langer voordat de vernieuwing is voltooid. Voor vernieuwingen op aanvraag, zoals die worden geactiveerd door een gebruikersaanvraag of een API-aanroep, worden drie nieuwe pogingen uitgevoerd \[[1](#endnote-1)\]. Als er nog steeds niet voldoende resources zijn, wordt het vernieuwen afgebroken.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
+Voor Premium-Gen2 zijn geen cumulatieve geheugenlimieten vereist en daarom is er altijd voldoende geheugen beschikbaar voor vernieuwingsbewerkingen. Bovendien is er geen limiet van 1,5 keer vernieuwde uitvoeringen per v-core. U kunt op elk gewenst moment zo veel vernieuwingen plannen en uitvoeren als nodig is, waarna de Power BI-service ze als een beste poging vernieuwt op het geplande tijdstip.
+
 
 Opmerkingen bij de sectie:   
 <a name="endnote-1"></a>\[1\] kan worden gewijzigd.
@@ -157,6 +224,10 @@ Wanneer u een controle uitvoert in de portal, biedt dit een snelle weergave met 
 
 ![Schermopname van Capaciteitsstatus in de Power BI-beheerportal.](media/service-premium-what-is/premium-admin-portal-health.png)
 
+> [!NOTE]
+> **Updates voor Premium Gen2 (preview)** -Voor Premium Gen2 is alleen bewaking van één aspect vereist: hoeveel CPU-tijd uw capaciteit nodig heeft om de belasting op elk moment te kunnen leveren. Als u de CPU-tijd voor de aangeschafte SKU-grootte overschrijdt, wordt uw capaciteit automatisch geschaald om te voldoen aan de behoeften, of worden interactieve bewerkingen beperkt op basis van uw configuratie-instellingen.
+
+
 De app **Power BI Premium Capacity Metrics** biedt de meest uitgebreide informatie over hoe uw capaciteiten presteren. De app biedt een dashboard op hoog niveau en meer gedetailleerde rapporten.
 
 ![App-dashboard met metrische gegevens](media/service-admin-premium-monitor-capacity/app-dashboard.png)
@@ -166,6 +237,10 @@ Vanuit het dashboard van de app kunt u op een cel met metrische gegevens klikken
 ![Periodieke pieken in querywachttijden duiden op een potentiële verzadiging van de CPU](media/service-premium-capacity-scenarios/peak-query-wait-times.png)
 
 Zie [Monitoring in the Power BI Admin portal](service-admin-premium-monitor-portal.md) (Controles uitvoeren in de Power BI-beheerportal) en [Monitoring with the Power BI Premium Capacity Metrics app](service-admin-premium-monitor-capacity.md) (Controles uitvoeren met de app Power BI Premium Capacity Metrics) voor meer informatie over het controleren van capaciteit.
+
+#### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
+**Premium Gen2-** -capaciteit maakt geen gebruik van de app voor metrische gegevens, maar van de app voor capaciteitsgebruik die tijdens de preview-periode beschikbaar wordt gemaakt. De app voor capaciteitsgebruik kan worden gestart vanaf uw pagina voor capaciteitsbeheer in de **beheerportal** voor elke capaciteit.
+
 
 ### <a name="optimizing-capacities"></a>Capaciteiten optimaliseren
 
@@ -187,9 +262,9 @@ De volgende tabel bevat de aanbevolen SKU's voor het uploaden van PBIX-bestanden
 
    |SKU  |Grootte van pbix-bestand   |
    |---------|---------|
-   |P1/A4    | < 3 GB        |
-   |P2/A5    | < 6 GB        |
-   |P3/A6, P4, P5    | tot 10 GB   |
+   |P1    | < 3 GB        |
+   |P2    | < 6 GB        |
+   |P3, P4, P5    | tot 10 GB   |
 
 De Power BI Embedded A4-SKU is gelijk aan de P1-SKU, A5 = P2 en A6 = P3.
 
@@ -216,6 +291,21 @@ Raadpleeg [Incremental refresh in Power BI Premium](service-premium-incremental-
 Gepagineerde rapporten, die worden ondersteund op P1-P3- en A4_A6-SKU's, zijn gebaseerd op RDL-technologie (RDL: Report Definition Language) in SQL Server Reporting Services. Hoewel deze zijn gebaseerd op RDL-technologie, werkt het niet hetzelfde als Power BI Report Server, een downloadbaar rapportageplatform dat u on-premises kunt installeren en ook is opgenomen in Power BI Premium. Gepagineerde rapporten zijn zo geformatteerd dat deze goed passen op een pagina, die kan worden afgedrukt of gedeeld. De gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Met behulp van de gratis Windows Desktop-toepassing [**Power BI Report Builder**](https://aka.ms/pbireportbuilder) stellen gebruikers gepagineerde rapporten op en publiceren deze naar de service.
 
 In Power BI Premium zijn gepagineerde rapporten een workload die voor een capaciteit moet worden ingeschakeld via de beheerportal. Capaciteitsbeheerders kunnen bij de inschakeling vervolgens de hoeveelheid geheugen opgeven als percentage van het totaal aan geheugenresources van de capaciteit. In tegenstelling tot andere typen workloads worden in Premium gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. De maximale hoeveelheid geheugen die u aan deze ruimte hebt toegewezen wordt gebruikt, ongeacht of de workload wel of niet actief is. De standaardwaarde is 20. 
+
+> [!NOTE]
+> **Premium Gen2 (preview)** kent geen geheugenbeheer voor gepagineerde rapporten. In Premium Gen2 worden gepagineerde rapporten ondersteund op de EM1-EM3-SKU's.
+
+### <a name="paginated-reports-and-premium-gen2"></a>Gepagineerde rapporten en Premium Gen2
+
+Wanneer u Premium Gen2 gebruikt, profiteren gepagineerde rapporten in Power BI van de verbeteringen in de architectuur en techniek in Premium Gen2. In de volgende secties worden de voordelen van Premium Gen2 voor gepagineerde rapporten beschreven.
+
+**Ruimere beschikbaarheid van SKU’s**: met gepagineerde rapporten die worden uitgevoerd in Premium Gen2 kunnen rapporten worden uitgevoerd over alle beschikbare ingebouwde en Premium-SKU's. De facturering wordt berekend per CPU-uur over een periode van 24 uur. Hiermee worden de SKU's die gepagineerde rapporten ondersteunen aanzienlijk uitgebreid.
+
+**Dynamisch schalen**: met Premium Gen2 kunnen uitdagingen rondom pieken in de activiteit of benodigde bronnen dynamisch worden verwerkt als dat nodig is. 
+
+**Verbeterde caching**: vóór Premium Gen2 waren gepagineerde rapporten nodig om veel bewerkingen uit te voeren in de context van geheugen dat is toegewezen aan de capaciteit voor de werkbelasting. In Premium Gen2 ontstaat door vermindering van het vereiste geheugen voor veel bewerkingen de mogelijkheid voor klanten om langlopende bewerkingen uit te voeren zonder dat dit van invloed is op andere gebruikerssessies. 
+
+**Verbeterde beveiliging en code-isolatie**: in Premium-Gen2 kan code-isolatie plaatsvinden op gebruikersniveau in plaats van op capaciteitsniveau, zoals het geval was in het oorspronkelijke Premium-aanbod. 
 
 Raadpleeg [Paginated reports in Power BI Premium](../paginated-reports/paginated-reports-report-builder-power-bi.md) (Gepagineerde rapporten in Power BI Premium) voor meer informatie. Zie [Workloads configureren](service-admin-premium-workloads.md) voor meer informatie over het inschakelen van de workload voor gepagineerde rapporten.
 
@@ -250,5 +340,6 @@ Zie [Gegevenssetconnectiviteit met het XMLA-eindpunt](service-premium-connect-to
 
 > [!div class="nextstepaction"]
 > [Premium-capaciteiten beheren](service-premium-capacity-manage.md)
+> [Documentatie voor Azure Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/)
 
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

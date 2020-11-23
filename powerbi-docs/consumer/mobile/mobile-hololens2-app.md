@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: painbar
-ms.openlocfilehash: 22f70e393987552276cc19b90c8b360b1a1a1d80
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8e9205ca12efebbfa5c0338e2f501e59aed779e8
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049200"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94718610"
 ---
 # <a name="power-bi-for-hololens-2-preview"></a>Power BI voor HoloLens 2 (preview)
 De app Power BI voor HoloLens 2 combineert uw Power BI-rapporten en -dashboards met uw fysieke omgeving om een driedimensionale, insluitende en hands-free ervaring te creëren waar u zich door de fysieke wereld kunt bewegen en uw relevante gegevens kunt ophalen, waar en wanneer u maar wilt.
@@ -23,6 +23,8 @@ De app Power BI voor HoloLens 2 combineert uw Power BI-rapporten en -dashboards 
 ## <a name="get-the-power-bi-app-for-hololens-2"></a>Download de app Power BI voor HoloLens 2 
 
 De app Power BI voor HoloLens 2 is beschikbaar in de [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=526478).
+
+De app werkt met eenmalige aanmelding, wat betekent dat de app de identiteit van de gebruiker die op dat moment is aangemeld bij het HoloLens 2-apparaat gebruikt om te verifiëren bij de Power BI-service.
 
 [Meer informatie](/hololens/holographic-store-apps) over het installeren van apps op uw HoloLens 2-apparaat.
 

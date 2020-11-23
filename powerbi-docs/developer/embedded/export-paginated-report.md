@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: d0d9472ef767a67b3b75be4c9eb5d6922d9cdf81
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 908aa715c31396485bcebfaa7227f3241cb02fb8
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045137"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668552"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Gepagineerd rapport exporteren naar een bestand (preview)
 
@@ -32,9 +32,9 @@ Via de API `exportToFile` kunt u een gepagineerd Power BI-rapport exporteren met
 
 U kunt de exportfunctie op verschillende manieren gebruiken. Hieronder vindt u enkele voorbeelden:
 
-* **Knop Verzenden voor afdrukken** : maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een .pdf of .pptx. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met rapportparameters en indelingsinstellingen kunt u het rapport in een specifieke staat exporteren, inclusief gefilterde gegevens, aangepaste paginaformaten en andere indelingsspecifieke instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
+* **Knop Verzenden voor afdrukken**: maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een .pdf of .pptx. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met rapportparameters en indelingsinstellingen kunt u het rapport in een specifieke staat exporteren, inclusief gefilterde gegevens, aangepaste paginaformaten en andere indelingsspecifieke instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
 
-* **E-mailbijlage** : verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
+* **E-mailbijlage**: verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
 
 ## <a name="using-the-api"></a>De API gebruiken
 
@@ -122,6 +122,8 @@ Hier volgt een voorbeeld van het verstrekken van een efficiënte gebruikersnaam 
       }
 }
 ```
+## <a name="ppu-concurrent-requests"></a>Gelijktijdige PPU-aanvragen
+De `exportToFile`-API staat één aanvraag in een tijdsvenster van vijf minuten toe wanneer [Premium per gebruiker (PPU)](../../admin/service-premium-per-user-faq.md)wordt gebruikt. Meerdere (meer dan één) aanvragen in een tijdsvenster van vijf minuten resulteren in de fout *Teveel aanvragen* (429).
 
 ## <a name="code-examples"></a>Codevoorbeelden
 

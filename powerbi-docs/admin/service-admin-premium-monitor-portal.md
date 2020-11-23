@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3948cca3a7e274c22ac1ea5cc80773edd0d5e451
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: b6f6b819b5c31f655d0c0dc43d8852cb34b5a7a2
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599795"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512051"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Capaciteiten bewaken in de beheerportal
 
@@ -27,6 +27,8 @@ Als u meer uitgebreide metrische gegevens nodig hebt, gebruikt u de app [Metrisc
 > [!IMPORTANT]
 > Als er een hoog resourcegebruik is in uw Power BI Premium-capaciteit, wat leidt tot problemen met prestaties of betrouwbaarheid, kunt u e-mailmeldingen ontvangen om het probleem te identificeren en op te lossen. Dit kan een gestroomlijnde manier zijn om problemen met overbelaste capaciteiten op te lossen. Zie [Meldingen over capaciteit en betrouwbaarheid](service-interruption-notifications.md#capacity-and-reliability-notifications) voor meer informatie.
 
+> [!NOTE]
+> Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
 
 ## <a name="system-metrics"></a>Metrische gegevens van het systeem
 
@@ -124,3 +126,14 @@ U hebt geleerd hoe u Power BI Premium-capaciteiten kunt bewaken. U kunt nu meer 
 
 > [!div class="nextstepaction"]
 > [Power BI Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md)
+
+
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.

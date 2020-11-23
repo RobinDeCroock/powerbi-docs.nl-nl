@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/06/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f1a792c7ad25600f04ca9834b1e5019d4e27efb4
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: a8268af76472c91474f2f67bc256fcc0ddcc9768
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409508"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94669219"
 ---
 # <a name="use-a-relative-time-slicer-and-filter-in-power-bi"></a>Een relatieve tijdslicer en -filter in Power BI gebruiken
 
@@ -27,7 +27,7 @@ Met de snelle opkomst van scenario's waarin snel vernieuwen is vereist, kan de m
 U hoeft de functie niet te gebruiken in combinatie met de functie voor het [automatisch vernieuwen van pagina's](../create-reports/desktop-automatic-page-refresh.md). Veel scenario's voor relatieve tijd gaan echter goed samen met de functie voor het automatisch vernieuwen van pagina's.  
 
 > [!NOTE]
-> Wanneer u een filter of slicer voor relatieve tijd op het niveau van de pagina of het rapport toepast, worden alle visuals op die pagina of in dat rapport gefilterd op exact hetzelfde tijdsbereik met behulp van een gedeelde *anker*tijd. Omdat visuals iets verschillende uitvoeringstijden kunnen hebben, zorgt deze gedeelde ankertijd ervoor dat visuals worden gesynchroniseerd op uw hele pagina of in uw hele rapport. Lees meer over [ankertijd](#understanding-anchor-time) in dit artikel.
+> Wanneer u een filter of slicer voor relatieve tijd op het niveau van de pagina of het rapport toepast, worden alle visuals op die pagina of in dat rapport gefilterd op exact hetzelfde tijdsbereik met behulp van een gedeelde *anker* tijd. Omdat visuals iets verschillende uitvoeringstijden kunnen hebben, zorgt deze gedeelde ankertijd ervoor dat visuals worden gesynchroniseerd op uw hele pagina of in uw hele rapport. Lees meer over [ankertijd](#understanding-anchor-time) in dit artikel.
 
 ## <a name="create-a-relative-time-slicer-or-filter"></a>Een relatieve tijdslicer of -filter maken
 
@@ -90,10 +90,7 @@ Wanneer een filter wordt toegepast op pagina- of rapportniveau, worden alle visu
 De volgende beperkingen en overwegingen zijn momenteel van toepassing op de relatieve tijdslicer en -filter.
 
 - **Overwegingen voor tijdzones**: Gegevensmodellen in Power BI bevatten geen informatie over de tijdzone. De modellen kunnen tijden opslaan, maar er is geen indicatie van de tijdzone waarin ze zich bevinden. De slicer en het filter zijn altijd gebaseerd op de tijd in UTC. Als u een filter in een rapport instelt en het rapport naar een collega in een andere tijdzone stuurt, ziet u beide dezelfde gegevens. Tenzij u of uw collega zich in de UTC-tijdzone bevindt, moeten jullie beiden rekening houden met de tijdsverschillen die jullie ervaren. U kunt gegevens die in een lokale tijdzone zijn vastgelegd, omzetten naar UTC met behulp van de Query-editor.
-- Dit nieuwe filtertype wordt ondersteund in Power BI Desktop, de Power BI-service, Power BI Embedded en de mobiele Power BI-apps. Er zijn echter enkele bekende beperkingen aan deze ondersteuning:
-
-    - Het wordt niet ondersteund via de invoeg-API.
-    - Het wordt niet ondersteund voor Publiceren op internet.
+- Dit nieuwe filtertype wordt ondersteund in Power BI Desktop, de Power BI-service, Power BI Embedded en de mobiele Power BI-apps. Het wordt echter niet ondersteund voor Publiceren op internet.
 
 - **Query's in cache opslaan**: We gebruiken de clientcache. Stel dat u 'laatste minuut' en vervolgens 'laatste vijf minuten' opgeeft, vervolgens weer 'laatste minuut.' Op dat moment ziet u dezelfde resultaten als toen de query voor eerste keer werd uitgevoerd, tenzij u de pagina vernieuwt of de pagina automatisch wordt vernieuwd.
 

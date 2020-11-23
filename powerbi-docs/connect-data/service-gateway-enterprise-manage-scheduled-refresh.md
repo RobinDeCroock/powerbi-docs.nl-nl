@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/15/2019
+ms.date: 11/17/2020
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3f3dd39953ad382ab934bf87021123b949733fd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb61f752891205a0e8997592d522efb2022a562b
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237065"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719024"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Uw gegevensbron beheren - importeren/geplande vernieuwing
 
@@ -62,12 +62,11 @@ Als u wordt vermeld op het tabblad **Gebruikers** voor de gegevensbron die is ge
 
 ![De gebruikers weergeven](media/service-gateway-enterprise-manage-scheduled-refresh/powerbi-gateway-enterprise-schedule-refresh.png)
 
+> [!IMPORTANT]
+> Bij herpublicatie moet de eigenaar van de gegevensset deze opnieuw aan een gateway en de bijbehorende gegevensbron koppelen. De vorige koppeling wordt niet behouden wanneer de gegevensset opnieuw wordt gepubliceerd. 
+
 > [!WARNING]
 > Als de gegevensset meerdere gegevensbronnen bevat, moet elke gegevensbron aan de gateway worden toegevoegd. Als een of meer gegevensbronnen niet aan de gateway zijn toegevoegd, wordt de gateway niet weergegeven omdat deze niet beschikbaar is voor geplande vernieuwing.
-
-## <a name="limitations"></a>Beperkingen
-
-OAuth wordt niet ondersteund als verificatieschema voor de on-premises gegevensgateway. U kunt geen gegevensbronnen toevoegen waarvoor OAuth vereist is. Als uw gegevensset een gegevensbron bevat waarvoor OAuth vereist is, kunt u de gateway niet gebruiken voor geplande vernieuwing.
 
 ## <a name="next-steps"></a>Volgende stappen
 

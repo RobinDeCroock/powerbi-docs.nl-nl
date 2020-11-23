@@ -2,19 +2,19 @@
 title: Inhoud zoeken vanaf de startpagina van de Power BI-service
 description: Begin op het startcanvas en zoek en open rapporten, dashboards en apps.
 author: mihart
-ms.reviewer: mihart
+ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/17/2020
+ms.date: 11/13/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 014d722807760d8a38001efa498aded6921661f0
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: ee9fe651c886b41dfb913ccd20874432a8b4f1d7
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764046"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668784"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Uw dashboards, rapporten en apps zoeken
 
@@ -27,50 +27,54 @@ Nadat u zich hebt aangemeld bij de Power BI-service, selecteert u **Startpagina*
 ![Een schermopname met het navigatievenster voor de Power BI-service en waarin Thuis is geselecteerd.](media/end-user-home/power-bi-select-home.png)
 
 
-U ziet nu het startcanvas, zoals in de volgende afbeelding.
+Power BI toont uw startcanvas, zoals in de volgende afbeelding. De lay-out en de inhoud van de startpagina zijn voor elke gebruiker verschillend. Verderop in dit artikel zien we in de startpagina een gloednieuwe gebruiker en een ervaren gebruiker. 
  
-![Schermopname van het startcanvas voor de Power BI-service.](media/end-user-home/power-bi-home-canvas.png)
+![Schermopname van het startcanvas voor de Power BI-service.](media/end-user-home/power-bi-canvas.png)
 
 Power BI Home biedt drie verschillende manieren om uw inhoud te zoeken en weer te geven. Met elke manier krijgt u toegang tot dezelfde inhoudsgroep, alleen de manier waarop u die toegang krijgt, is anders. Soms kunt u het gemakkelijkst en snelst iets zoeken met behulp van een zoekopdracht, terwijl het op andere momenten handiger is om een *kaart* op het startcanvas te selecteren.
 
-- Op het startcanvas wordt uw favoriete en meest recente inhoud weergegeven en georganiseerd, met aanbevolen inhoud en trainingsmateriaal. Elk stuk inhoud wordt als een *kaart* weergegeven, met een titel en een pictogram. Als u een kaart selecteert, wordt die inhoud geopend.
-- Links ziet u een navigatiedeelvenster. Dit venster wordt ook wel gewoon navigatievenster genoemd. Op dit deelvenster wordt dezelfde inhoud iets anders georganiseerd, namelijk in de categorieën Favorieten, Recent, Apps en Gedeeld met mij. Vanaf dit punt kunt u lijsten met inhoud weergeven en de lijst die u wilt openen, selecteren.
+- Op het startcanvas wordt uw favoriete en meest gebruikte, meest recente en aanbevolen inhoud weergegeven en georganiseerd, samen met apps en werkruimten.  Als u nog geen ervaring hebt met de Power BI-service, kunt u de sectie Aan de slag volgen. Selecteer een kaart of een item in een lijst om deze te openen.
+- Links ziet u een navigatiedeelvenster. Dit venster wordt ook wel gewoon navigatievenster genoemd. Selecteer ![Hamburgerpictogram om het navigatiedeelvenster uit te vouwen](media/end-user-home/power-bi-expand.png) om het navigatiedeelvenster uit te vouwen. Op dit deelvenster wordt dezelfde inhoud iets anders georganiseerd, namelijk in de categorieën Favorieten, Recent, Apps en Gedeeld met mij. Vanaf dit punt kunt u lijsten met inhoud weergeven en de lijst die u wilt openen, selecteren.
 - In de rechterbovenhoek staat een algemeen zoekvak waarmee u inhoud kunt zoeken op titel, naam of trefwoord.
 
 In het volgende onderwerp worden al deze opties voor het zoeken en weergeven van inhoud stuk voor stuk bekeken.
 
 ## <a name="home-canvas"></a>Startcanvas
-Op het startcanvas ziet u alle inhoud die u gemachtigd bent om te gebruiken. In het begin staat er misschien niet veel inhoud op uw startcanvas (zie bovenstaande afbeelding), maar dit verandert wanneer u Power BI begint te gebruiken met uw collega's.
+Op het startcanvas ziet u alle inhoud die u gemachtigd bent om te gebruiken. Ook wordt het startcanvas bijgewerkt met aanbevolen inhoud en trainingsmateriaal. In het begin staat er misschien niet veel inhoud op uw startcanvas, maar dit verandert wanneer u Power BI begint te gebruiken met uw collega's.
 
-Ook wordt het startcanvas bijgewerkt met aanbevolen inhoud en trainingsmateriaal. 
+![Een schermopname van het welkomstscherm voor een nieuwe gebruiker van de Power BI-service.](media/end-user-home/power-bi-home-new-user.png)
+
+
  
 Wanneer u in de Power BI-service werkt, krijgt u dashboards, rapporten en apps van collega's waardoor de Power BI-startpagina na verloop van tijd steeds voller zal raken. Na een tijdje ziet het er bijvoorbeeld uit zoals de volgende startpagina.
 
-![Een schermopname van het welkomstscherm voor de Power BI-service.](media/end-user-home/power-bi-home-full.png)
+![Een schermopname van het welkomstscherm voor de Power BI-service.](media/end-user-home/power-bi-experienced-user.png)
 
  
-In de volgende onderwerpen gaan we dieper in op dit startcanvas, van boven naar beneden.
+In de volgende onderwerpen gaan we dieper in op de startpagina voor een ervaren gebruiker, van boven naar beneden.
 
 ## <a name="most-important-content-at-your-fingertips"></a>De belangrijkste inhoud binnen handbereik
 
 ### <a name="favorites-and-frequents"></a>Favorieten en vaak gebruikte items
 Dit bovenste gedeelte bevat koppelingen naar de inhoud die u het meest gebruikt of die u als [aanbevolen of favoriet](end-user-favorite.md) hebt gemarkeerd. Merk op dat een aantal kaarten zwarte sterren bevatten. Deze zijn als favorieten gemarkeerd. 
 
-![Flyout Favorieten](./media/end-user-home/power-bi-favorites.png)
+![Flyout Favorieten](./media/end-user-home/power-bi-home-favorites.png)
 
 Bovendien kunt u inhoud labelen als [aanbevolen](end-user-featured.md). Kies één dashboard of rapport dat u verwacht het meeste weer te geven en stel dit in als uw *aanbevolen* inhoud. Steeds wanneer u de Power BI-service opent, wordt uw aanbevolen dashboard als eerste weergegeven. 
-
-
-### <a name="recents-and-my-apps"></a>Recente items en Mijn apps
-In het volgende deel staat de inhoud die u het meest recent hebt bezocht. U ziet dat elke kaart van een tijdstempel is voorzien. In het gedeelte **Mijn apps** staan apps die met u zijn gedeeld of die u [uit AppSource hebt gedownload](end-user-apps.md); hier vindt u de meest recente apps. U kunt **Alles weergeven** selecteren om een lijst weer te geven met alle apps die met u zijn gedeeld.
-
-![recente apps](./media/end-user-home/power-bi-recent.png)
 
 ### <a name="featured"></a>Uitgelicht
 De sectie **Aanbevolen** bevat inhoud die uw beheerder een *niveau heeft verhoogd* naar Thuis. Dit is normaal gesproken inhoud die belangrijk of handig is bij het uitvoeren van uw taak. In dit voorbeeld bevat de aanbevolen inhoud metrische gegevens die een geslaagde poging bijhouden.
 
 
-![aanbevolen inhoud, door beheerder een niveau verhoogd](./media/end-user-home/power-bi-featured.png)
+![aanbevolen inhoud, door beheerder een niveau verhoogd](./media/end-user-home/power-bi-home-featured.png)
+
+### <a name="recents-shared-with-me-and-my-apps"></a>Recent, Gedeeld met mij en Mijn apps
+De volgende sectie is een lijst met tabbladen. 
+- **Recent** bevat de inhoud die u het meest recent hebt bezocht. U ziet dat elk item van een tijdstempel is voorzien. 
+- Collega's delen apps met u, maar ze kunnen ook afzonderlijke dashboards en rapporten delen. In het gedeelte **Gedeeld met mij** ziet u de dashboards en rapporten die uw collega's met u hebben gedeeld. 
+- In het gedeelte **Mijn apps** staan apps die met u zijn gedeeld of die u [uit AppSource hebt gedownload](end-user-apps.md); hier vindt u de meest recente apps. 
+
+![Weergavelijst van de startpagina met het tabblad Recent geselecteerd](./media/end-user-home/power-bi-recents.png)
 
 ### <a name="workspaces"></a>Werkruimten
 Elke gebruiker van de Power BI-service heeft één **Mijn werkruimte**. **Mijn werkruimte** bevat alleen inhoud als u Microsoft-voorbeelden hebt gedownload of als u zelf dashboards, rapporten of apps hebt gemaakt. Voor veel *zakelijke gebruikers* is **Mijn werkruimte** leeg en zal ook leeg blijven. Als u een nieuwe gebruiker bent, hebt u slechts één werkruimte, **Mijn werkruimte** 
@@ -83,28 +87,25 @@ En als u die ene werkruimte selecteert, ziet u dat deze leeg is.
 
 Telkens wanneer u [een app downloadt](end-user-app-marketing.md) of [een app met u wordt gedeeld](end-user-apps.md), wordt er een nieuwe werkruimte gemaakt. In de loop van de tijd zult u meer werkruimtes krijgen. Als u een *app-werkruimte* wilt openen, selecteert u deze op het startcanvas. 
 
-![Schermopname van de sectie Werkruimten van Thuis](./media/end-user-home/power-bi-workspace-more.png)
+![Schermopname van de sectie Werkruimten van Thuis](./media/end-user-home/power-bi-workspaces-more.png)
 
 De app wordt geopend op het canvas en u ziet de naam van de werkruimte in het navigatievenster. Binnen werkruimten van de Power BI-service wordt de inhoud gescheiden per type: dashboards en rapporten. In sommige gevallen hebt u ook werkmappen en gegevenssets. U ziet deze organisatie wanneer u een werkruimte selecteert. In dit voorbeeld bevat de werkruimte **Gardening** vier dashboards en twee rapporten.
 
 ![Werkruimte Gardening geselecteerd](./media/end-user-home/power-bi-search-workspace.png)
 
-### <a name="shared-with-me"></a>Gedeeld met mij
-Collega's delen apps met u, maar ze kunnen ook afzonderlijke dashboards en rapporten delen. In het gedeelte **Gedeeld met mij** ziet u dat er drie dashboards en drie rapporten staan die uw collega's met u hebben gedeeld.
-
-![gedeelde inhoud vermeld op de startpagina](./media/end-user-home/power-bi-shared.png)
-
 ### <a name="recommended-apps"></a>Aanbevolen apps
-Op basis van uw activiteit en accountinstellingen worden in Power BI een aantal aanbevolen apps weergegeven. U kunt de app openen door de app-kaart te selecteren.
+Op basis van uw activiteit en accountinstellingen worden in Power BI een aantal aanbevolen apps weergegeven. U kunt de app openen door de app-kaart te selecteren. Apps met het blauwe pictogram zijn [sjabloon-apps](../connect-data/service-template-apps-overview.md).
+
+![aanbevolen inhoud vermeld op de startpagina](./media/end-user-home/power-bi-recommended.png)
  
 ### <a name="getting-started-learning-resources"></a>Aan de slag-trainingsmateriaal
-Onderaan de startpagina ziet u een aantal trainingsresources. Welke resources exact voor u worden weergegeven, hangt af van uw activiteiten en instellingen en de Power BI-beheerder. 
+Welke resources exact voor u worden weergegeven, hangt af van uw activiteiten en instellingen en de Power BI-beheerder. Als u een nieuwe gebruiker bent, wordt de sectie Aan de slag weergegeven bovenaan de startpagina. Als u een nieuwe gebruiker bent en u bovenaan de pagina niet meer Aan de slag wilt zien, selecteert u **Onderaan vastmaken**.
  
 ## <a name="explore-the-nav-pane"></a>Het navigatievenster verkennen
 
 Het navigatievenster classificeert uw inhoud zodanig dat u snel kunt vinden wat u nodig hebt.  
 
-![Een schermopname van het navigatievenster voor de Power BI-service.](media/end-user-home/power-bi-nav.png)
+![Een schermopname van het navigatievenster voor de Power BI-service.](media/end-user-home/power-bi-nav-pane.png)
 
 
 Gebruik het navigatievenster om dashboards, rapporten en apps te zoeken en tussen deze items te bewegen. In sommige gevallen is het gebruik van het navigatievenster de snelste manier om inhoud te openen. Het navigatievenster wordt weergegeven zodra u de startpagina opent en blijft op dezelfde plek staan wanneer u andere gebieden van de Power BI-service opent. U kunt het venster samenvouwen door het pictogram Verbergen te selecteren ![Pictogram voor het verbergen van het navigatievenster](media/end-user-home/power-bi-hide.png) .
@@ -114,7 +115,7 @@ In het navigatievenster wordt uw inhoud in containers geordend. Deze containers 
 - Selecteer de koptekst om een van deze inhoudsdelen te openen en een lijst met alle items weer te geven.
 - Selecteer het vervolgmenu om het meest recente item in elke container te zien ( **>** ).
 
-    ![Een video over het gebruik van het navigatievenster voor recente items](media/end-user-home/power-bi-nav-bar.gif)
+    ![Een video over het gebruik van het navigatievenster voor recente items](media/end-user-home/recents2.gif)
 
  
 Het navigatievenster biedt u een andere manier om snel de gewenste inhoud te zoeken. Inhoud wordt op een vergelijkbare manier als op het startcanvas georganiseerd, maar wordt in lijsten in plaats van in kaarten weergegeven. 
@@ -128,3 +129,6 @@ Het zoekveld bevindt zich in de rechterbovenhoek van de menubalk op de startpagi
 
 ## <a name="next-steps"></a>Volgende stappen
 Overzicht van de [Basisconcepten voor Power BI](end-user-basic-concepts.md)
+
+
+Inhoud wordt weergegeven als een *kaart* of een lijst. Kaarten hebben een titel en een pictogram. Als u een kaart selecteert, wordt die inhoud geopend.

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c1e6ec9c6f6195f69af67da4ffbf1d0428b0fc2
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 7fcda945c374ba5384bd936b94db67a3ccd3ace1
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92257048"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94559799"
 ---
 # <a name="multi-select-data-elements-data-points-and-visuals-in-power-bi-desktop"></a>Meerdere gegevenselementen, gegevenspunten en visuals selecteren in Power BI Desktop
 
@@ -56,7 +56,7 @@ Ga voor meer informatie naar het [blogbericht over de release van deze functie](
 
 Er gelden enkele beperkingen en overwegingen voor het selecteren van meerdere gegevenspunten binnen een visual:
 
-* Lijn-, vlak- en spreidingsdiagrammen, evenals treemaps, ondersteunen lassoselectie
+* Lijn-, vlak- en spreidingsdiagrammen, treemaps en kaarten ondersteunen lassoselectie
 * Het maximum aantal gegevenspunten dat u tegelijk kunt selecteren is 300
 * Wanneer u een rapport bekijkt in de Power BI-service, wordt rechthoekselectie alleen ingeschakeld als de lassofunctie was ingeschakeld toen het rapport werd opgeslagen en gepubliceerd
 

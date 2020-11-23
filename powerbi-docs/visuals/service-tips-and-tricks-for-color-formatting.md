@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/29/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bce798e07a3bdac0ba52f56e9ddf7eac72087924
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 6f64db7be452cf5873a862f378f558bc4f177c56
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483949"
+ms.locfileid: "94513067"
 ---
 # <a name="tips-and-tricks-for-formatting-in-reports"></a>Tips en trucs voor opmaak in rapporten
 
@@ -40,12 +40,12 @@ Als u wijzigingen wilt aanbrengen, moet u bewerkingsrechten voor het rapport heb
 
 Wanneer de deelvensters **Filters** en **Visualisaties** worden weergegeven aan de rechterkant van het rapportcanvas, kunt u beginnen met aanpassen. Als de deelvensters niet worden weergegeven, selecteert u de pijl in de rechterbovenhoek om deze te openen.
 
-![rapportcanvas in de bewerkweergave](media/service-tips-and-tricks-for-color-formatting/power-bi-edit.png)
+![rapportcanvas in de bewerkweergave](media/service-tips-and-tricks-for-color-formatting/power-bi-edit-filter.png)
 
 ## <a name="apply-a-theme"></a>Een thema toepassen
 Met rapportthema's past u ontwerpwijzigingen toe op uw hele rapport. U kunt bijvoorbeeld uw bedrijfskleuren gebruiken, pictogrammen veranderen of een nieuwe indeling van visuals toepassen. Wanneer u een rapportthema toepast, worden voor alle visuals in het rapport de kleuren en indeling van het geselecteerde thema gebruikt. Zie [Rapportthema's gebruiken](../create-reports/desktop-report-themes.md) voor meer informatie
 
-![Pictogram voor Thema wisselen in de menu balk](media/service-tips-and-tricks-for-color-formatting/power-bi-theme.png)
+![Pictogram voor Thema wisselen in de menu balk](media/service-tips-and-tricks-for-color-formatting/power-bi-themes.png)
 
 Hier hebben we het thema **Innoveren** toegepast op het rapport Verkoop en marketing.
 
@@ -56,13 +56,13 @@ Soms wilt u een bepaald gegevenspunt markeren. Misschien zijn het verkoopcijfers
 
 In de volgende visualisatie worden per productsegment verkochte eenheden gerangschikt. 
 
-![Gegevenskleuren wijzigen naar grijs](media/service-tips-and-tricks-for-color-formatting/power-bi-data.png)
+![Gegevenskleuren wijzigen naar grijs](media/service-tips-and-tricks-for-color-formatting/power-bi-format.png)
 
 Stel u voor dat u het segment **Gemak** wilt aanroepen om op basis van kleur te zien hoe goed dit splinternieuw segment presteert. Dit zijn de stappen:
 
 Vouw de kaart **Gegevenskleuren** uit en zet de schuifregelaar voor **Alles weergeven** op Aan. Hiermee worden de kleuren voor elk gegevenselement in de visualisatie weergegeven. U kunt nu een of meer van de gegevenspunten wijzigen.
 
-![Deelvenster Opmaken met Alle weergeven ingesteld op Aan](media/service-tips-and-tricks-for-color-formatting/power-bi-show.png)
+![Deelvenster Opmaken met Alle weergeven ingesteld op Aan](media/service-tips-and-tricks-for-color-formatting/power-bi-show-all.png)
 
 Stel **Gemak** in op oranje. 
 
@@ -84,9 +84,9 @@ Visualisaties profiteren vaak van dynamisch ingestelde kleuren op basis van de n
 In de volgende secties worden verschillende manieren beschreven om kleur te baseren op een numerieke waarde.
 
 ### <a name="base-the-color-of-data-points-on-a-value"></a>De kleur van gegevenspunten baseren op een waarde
-Als u de kleur wilt wijzigen op basis van een waarde, selecteert u een visualisatie om deze actief te maken. Open het opmaakvenster door het pictogram met de verfroller te selecteren en de kaart **Gegevenskleuren** te openen. Beweeg de muis over de kaart, selecteer de drie verticale puntjes die worden weergegeven en kies **Voorwaardelijke opmaak**.  
+Als u de kleur wilt wijzigen op basis van een waarde, selecteert u een visualisatie om deze actief te maken. Open het opmaakvenster door het pictogram met de verfroller te selecteren en de kaart **Gegevenskleuren** te kiezen. Selecteer het fx-pictogram onder **Standaardkleur**.  
 
-![selecteer de optie Voorwaardelijke opmaak door op de drie verticale puntjes te klikken](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional-formatting.gif)
+![selecteer de optie Voorwaardelijke opmaak door op de drie verticale puntjes te klikken](media/service-tips-and-tricks-for-color-formatting/power-bi-conditional.png)
 
 Gebruik de vervolgkeuzelijsten in het deelvenster **Standaardkleur** om de velden te identificeren die u voor voorwaardelijke opmaak wilt gebruiken. In dit voorbeeld hebben we het veld **Verkoopfeit** > **Totale eenheden** geselecteerd en lichtblauw voor de **Laagste waarde** en donkerblauw voor de **Hoogste waarde** gekozen. 
 

@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: eb7a2dfeb78e60c78b1b3f17306aec91a8a55330
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
+ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397019"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94719070"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -89,7 +89,7 @@ Deze informatie biedt nuttige inzichten in hoe personen Power BI gebruiken in uw
 
 ## <a name="control-usage-metrics"></a>Metrische gegevens over gebruik beheren
 
-Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of globale beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle over welke gebruikers toegang hebben tot metrische gegevens over gebruik. Ze zijn standaard ingeschakeld ( **Aan** ) voor alle gebruikers in de organisatie.
+Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- of globale beheerder kan in- of uitschakelen. Beheerders hebben gedetailleerde controle over welke gebruikers toegang hebben tot metrische gegevens over gebruik. Ze zijn standaard ingeschakeld (**Aan**) voor alle gebruikers in de organisatie.
 
 Beheerders kunnen ook bepalen of makers van inhoud gegevens per gebruiker kunnen bekijken in metrische gegevens over gebruik. 
 
@@ -146,15 +146,15 @@ In de volgende secties vindt u meer informatie over de instellingen op het tabbl
 
 Veel instellingen hebben een van deze drie statussen:
 
-* **Uitgeschakeld voor de hele organisatie** : niemand in uw organisatie kan deze functie gebruiken.
+* **Uitgeschakeld voor de hele organisatie**: niemand in uw organisatie kan deze functie gebruiken.
 
     ![Instelling 'Uitgeschakeld voor iedereen'](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Ingeschakeld voor de hele organisatie** : iedereen in uw organisatie kan deze functie gebruiken.
+* **Ingeschakeld voor de hele organisatie**: iedereen in uw organisatie kan deze functie gebruiken.
 
     ![Instelling 'Ingeschakeld voor iedereen'](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Ingeschakeld voor een subset van de organisatie** : Specifieke beveiligingsgroepen in uw organisatie mogen deze functie gebruiken.
+* **Ingeschakeld voor een subset van de organisatie**: Specifieke beveiligingsgroepen in uw organisatie mogen deze functie gebruiken.
 
     U kunt een functie ook inschakelen voor de hele organisatie **Met uitzondering van beveiligingsgroepen**.
 
@@ -184,7 +184,7 @@ Beheerders kunnen interne URL's opgeven om de bestemming van koppelingen in het 
 
 * **Community**. Als u gebruikers vanuit het Help-menu naar een intern forum wilt leiden, in plaats van naar de [Power BI-community](https://community.powerbi.com/), stelt u een aangepaste URL in voor **Discussieforum**.
 
-* **Licentie-upgrades**. Gebruikers met een (gratis) Power BI-licentie kunnen de kans krijgen om hun account bij te werken naar Power BI Pro tijdens het gebruik van de service. Als u een interne URL opgeeft voor **Licentieaanvragen** , leidt u gebruikers om naar een interne aanvraag- en aankoopstroom, en voorkomt u selfservice-aankopen. Raadpleeg [Gebruikers toestaan Power BI Pro uit te proberen](#allow-users-to-try-power-bi-pro) als u wilt voorkomen dat gebruikers licenties kopen, maar het wel goed vindt dat gebruikers een proefversie van Power BI Pro starten.
+* **Licentie-upgrades**. Gebruikers met een (gratis) Power BI-licentie kunnen de kans krijgen om hun account bij te werken naar Power BI Pro tijdens het gebruik van de service. Als u een interne URL opgeeft voor **Licentieaanvragen**, leidt u gebruikers om naar een interne aanvraag- en aankoopstroom, en voorkomt u selfservice-aankopen. Raadpleeg [Gebruikers toestaan Power BI Pro uit te proberen](#allow-users-to-try-power-bi-pro) als u wilt voorkomen dat gebruikers licenties kopen, maar het wel goed vindt dat gebruikers een proefversie van Power BI Pro starten.
 
 * **Hulp vragen**. Als u gebruikers vanuit het Help-menu naar een interne helpdesk wilt leiden, in plaats van naar [Power BI-ondersteuning](https://powerbi.microsoft.com/support/), stelt u een aangepaste URL in voor **Helpdesk**.
 
@@ -362,7 +362,7 @@ Gebruikers in de organisatie kunnen e-mailabonnementen maken. Meer informatie ov
 
 ### <a name="featured-content"></a>Aanbevolen inhoud
 
-Toestaan dat sommige of alle auteurs van rapporten in uw organisatie hun inhoud in de sectie Aanbevolen van de Power BI-startpagina kunnen aanbevelen. Nieuwe gebruikers krijgen bovenaan hun Power BI-startpagina de aanbevolen inhoud te zien. De aanbevolen inhoud schuift omlaag op de startpagina wanneer gebruikers **Favorieten** , **Vaak gebruikte items** en **Recente items** toevoegen. 
+Toestaan dat sommige of alle auteurs van rapporten in uw organisatie hun inhoud in de sectie Aanbevolen van de Power BI-startpagina kunnen aanbevelen. Nieuwe gebruikers krijgen bovenaan hun Power BI-startpagina de aanbevolen inhoud te zien. De aanbevolen inhoud schuift omlaag op de startpagina wanneer gebruikers **Favorieten**, **Vaak gebruikte items** en **Recente items** toevoegen. 
 
 We raden u aan eerst te beginnen met een klein aantal promotors. Wanneer de hele organisatie inhoud mag aanbevelen op de startpagina, kan het lastig zijn om alle gepromoveerde inhoud bij te houden. 
 
@@ -460,6 +460,13 @@ Gebruikers in de organisatie kunnen dashboards taggen met classificaties die het
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
 
+### <a name="web-content-on-dashboard-tiles"></a>Webinhoud op dashboardtegels
+
+Gebruikers in de organisatie kunnen tegels voor webinhoud toevoegen en weergeven op Power BI-dashboards. [Meer informatie](../create-reports/service-dashboard-add-widget.md)
+
+> [!NOTE]
+> Dit kan uw organisatie blootstellen aan beveiligingsrisico's via schadelijke webinhoud.
+
 ## <a name="developer-settings"></a>Instellingen voor ontwikkelaars
 
 ### <a name="embed-content-in-apps"></a>Inhoud in apps insluiten
@@ -554,7 +561,7 @@ Als beheerder kunt u op het tabblad **Werkruimten** alle werkruimten bekijken di
 
 Beheerders kunnen ook bepalen of gebruikers een werkruimte in de nieuwe werkruimte-ervaring, of een klassieke werkruimte kunnen maken. Zie [Instellingen voor werkruimte](#workspace-settings) in dit artikel voor meer informatie. 
 
-De tabelkolommen op het tabblad **Werkruimten** komen overeen met de eigenschappen die worden geretourneerd met de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup** , klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace**. Zie [Werk organiseren in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) voor meer informatie.
+De tabelkolommen op het tabblad **Werkruimten** komen overeen met de eigenschappen die worden geretourneerd met de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup**, klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace**. Zie [Werk organiseren in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) voor meer informatie.
 
 Op het tabblad **Werkruimten** wordt de *status* voor elke werkruimte weergegeven. De volgende tabel bevat meer informatie over de betekenis van deze statussen.
 
@@ -575,11 +582,11 @@ Als beheerder kunt u het uiterlijk van Power BI aanpassen voor uw hele organisat
 
 ![Opties voor aangepaste huisstijl](media/service-admin-portal/power-bi-custom-branding.png)
 
-* **Logo uploaden** : het beste resultaat krijgt u als u een logo uploadt dat is opgeslagen als een PNG-bestand van maximaal 10 kB en ten minste 200 x 30 pixels.
+* **Logo uploaden**: het beste resultaat krijgt u als u een logo uploadt dat is opgeslagen als een PNG-bestand van maximaal 10 kB en ten minste 200 x 30 pixels.
 
-* **Voorbladafbeelding uploaden** : het beste resultaat krijgt u als u een voorbladafbeelding uploadt die is opgeslagen als een JPG- of PNG-bestand van maximaal 1 MB en ten minste 1920 x 160 pixels.
+* **Voorbladafbeelding uploaden**: het beste resultaat krijgt u als u een voorbladafbeelding uploadt die is opgeslagen als een JPG- of PNG-bestand van maximaal 1 MB en ten minste 1920 x 160 pixels.
 
-* **Themakleur selecteren** : U kunt een thema selecteren op basis van een hexadecimale waarde, een RGB-waarde of uit het beschikbare palet.
+* **Themakleur selecteren**: U kunt een thema selecteren op basis van een hexadecimale waarde, een RGB-waarde of uit het beschikbare palet.
 
 
 Zie [Aangepaste huisstijl voor uw organisatie](https://aka.ms/orgBranding) voor meer informatie.

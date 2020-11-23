@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/15/2020
-ms.openlocfilehash: 01cb4c5de2863250f083320e7005c0d589a2da0b
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.date: 10/21/2020
+ms.openlocfilehash: 9d78a4cd8beb84402a4b3b586df6998810d1c8f7
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116472"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512994"
 ---
 # <a name="deployment-pipelines-best-practices"></a>Best practices voor implementatiepijplijnen
 
@@ -112,7 +112,7 @@ Gebruik [automatische synchronisatie van Power BI met OneDrive](../collaborate-s
 
 Voor implementaties op ondernemingsniveau wordt aangeraden om de ontwikkeling van gegevenssets en de ontwikkeling van rapporten en dashboards te scheiden. Als u wijzigingen alleen in een rapport of gegevensset wilt doorvoeren, gebruikt u de optie voor selectief implementeren in implementatiepijplijnen.  
 
-Deze methode moet worden gestart vanuit Power BI Desktop door een afzonderlijk PBIX-bestand voor gegevenssets en rapporten te maken. U kunt bijvoorbeeld een PBIX-bestand voor een gegevensset maken en dit uploaden naar de ontwikkelingsfase. Later kunnen de auteurs van het rapport een nieuw PBIX-bestand maken, en [dit koppelen aan de gepubliceerde gegevensset](../connect-data/service-datasets-discover-across-workspaces.md) met behulp van een liveverbinding. Met deze techniek kunnen verschillende makers afzonderlijk werken aan modellen en visualisaties, en deze afzonderlijk implementeren in de productiefase.
+Deze methode moet worden gestart vanuit Power BI Desktop door een afzonderlijk PBIX-bestand voor gegevenssets en rapporten te maken. U kunt bijvoorbeeld een PBIX-bestand voor een gegevensset maken en dit uploaden naar de ontwikkelingsfase. Later kunnen de auteurs van het rapport een nieuw PBIX-bestand maken, en dit [koppelen aan de gepubliceerde gegevensset](../connect-data/service-datasets-discover-across-workspaces.md) met behulp van een live-verbinding. Met deze techniek kunnen verschillende makers afzonderlijk werken aan modellen en visualisaties, en deze afzonderlijk implementeren in de productiefase.
 
 Met [gedeelde gegevenssets](../connect-data/service-datasets-share.md) kunt u deze methode ook gebruiken in verschillende werkruimten.
 

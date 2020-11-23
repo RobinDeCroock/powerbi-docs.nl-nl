@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
-ms.date: 09/22/2020
-ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
-ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
+ms.date: 10/21/2020
+ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91024030"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668598"
 ---
 # <a name="understand-the-deployment-process"></a>Uitleg over het implementatieproces
 
@@ -38,6 +38,8 @@ Tijdens de eerste implementatie wordt met de implementatiepijplijnen gecontrolee
 Als u capaciteitsmachtigingen hebt, wordt de inhoud van de werkruimte gekopieerd naar de fase waarin u implementeert. Er wordt ook een nieuwe werkruimte voor deze fase gemaakt in de premium-capaciteit.
 
 Als u geen capaciteitsmachtigingen hebt, wordt de werkruimte wel gemaakt, maar wordt de inhoud niet gekopieerd. U kunt een capaciteitsbeheerder vragen om uw werkruimte toe te voegen aan een capaciteit of u kunt vragen om toewijzingsmachtigingen voor de capaciteit. Later, wanneer de werkruimte is toegewezen aan een capaciteit, kunt u inhoud implementeren in deze werkruimte.
+
+Als u [Premium per gebruiker (PPU)](../admin/service-premium-per-user-faq.md) gebruikt, wordt uw werkruimte automatisch gemaakt in de capaciteit die is gekoppeld aan uw PPU. In dergelijke gevallen zijn capaciteitsmachtigingen niet vereist. Werkruimten die zijn gemaakt door een PPU-gebruiker, kunnen echter alleen worden geopend door andere PPU-gebruikers. Daarnaast kan inhoud die is gemaakt in dergelijke werkruimten alleen worden gebruikt door PPU-gebruikers.
 
 ### <a name="workspace-and-content-ownership"></a>Eigendom van werkruimte en inhoud
 
@@ -67,7 +69,7 @@ Bij kleine wijzigingen, zoals het toevoegen van een tabel of metingen, blijven i
 
 Zolang de geïmplementeerde inhoud zich in een [premium-capaciteit](../admin/service-premium-what-is.md) bevindt, kan een gebruiker die aan de volgende voorwaarden voldoet, de inhoud implementeren in een fase met een bestaande werkruimte:
 
-* Een [Pro-gebruikers](../admin/service-admin-purchasing-power-bi-pro.md) die lid is van beide werkruimten in de bron- en doelimplementatiefasen.
+* Een gebruiker met een [Pro-licentie](../admin/service-admin-purchasing-power-bi-pro.md) of een [PPU-gebruiker](../admin/service-premium-per-user-faq.md) die lid is van beide werkruimten in de bron- en doelimplementatiefasen.
 
 * Een eigenaar van alle gegevenssets in de doelwerkruimte die op het punt staan te worden geïmplementeerd.
 

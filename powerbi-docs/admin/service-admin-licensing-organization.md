@@ -6,22 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/24/2020
+ms.date: 11/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 86a28c1d89537a59bf96d82fb3df87a4a0ccf391
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 46d620df1140d4fea8ffb9b4bdb9dd292e3659cd
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916079"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512281"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Power BI-licenties voor gebruikers in uw organisatie
 
-Wat een gebruiker in de Power BI-service kan doen, is afhankelijk van het type licentie per gebruiker dat deze heeft. Het toegangsniveau dat de licentie hem/haar biedt, is afhankelijk van het feit of de werkruimte die wordt geopend, is toegewezen aan Power BI Premium-capaciteit. Alle gebruikers van de Power BI-service moeten over een licentie beschikken.
+Wat een gebruiker in de Power BI-service kan doen, is afhankelijk van het type licentie per gebruiker dat deze heeft. Het toegangsniveau dat de licentie biedt, is afhankelijk van of de werkruimte die wordt geopend wel of niet een Premium-werkruimte is. Alle gebruikers van de Power BI-service moeten over een licentie beschikken.
 
-Er zijn twee manieren waarop gebruikers een licentie kunnen krijgen. Met behulp van mogelijkheden voor aanmelden via een self-service en hun werk- of schoolaccount kunnen gebruikers hun eigen gratis licentie of Pro-licentie aanvragen. Een andere mogelijkheid is dat beheerders een Power BI-abonnement aanschaffen en licenties aan gebruikers toewijzen.
+Er zijn twee manieren waarop gebruikers een licentie kunnen krijgen. Met behulp van mogelijkheden voor aanmelden via een self-service en een werk- of schoolaccount kunnen gebruikers hun eigen gratis licentie, Pro-licentie of Premium per gebruikerslicentie aanvragen. Een andere mogelijkheid is dat beheerders een Power BI-licentie aanschaffen en licenties aan gebruikers toewijzen.
 
 In dit artikel besteden we aandacht aan de aankoopservice en licenties per gebruiker gezien vanuit het perspectief van een beheerder. Zie [Aanmelden voor Power BI als afzonderlijke gebruiker](../fundamentals/service-self-service-signup-for-power-bi.md) voor meer informatie over de manier waarop gebruikers hun eigen licentie kunnen verkrijgen.
 
@@ -45,7 +45,7 @@ Een globale beheerder of een factureringsbeheerder kan zich aanmelden voor de Po
 
 ## <a name="about-self-service-sign-up"></a>Aanmelden via de self-service
 
-Afzonderlijke gebruikers kunnen hun eigen Power BI-licentie verkrijgen door zich aan te melden met hun werk- of schoolaccount. Met een gratis licentie kunnen gebruikers Power BI verkennen voor het analyseren en visualiseren van persoonlijke gegevens met behulp van Mijn werkruimte, maar ze kunnen niet delen met andere gebruikers. Een Power BI Pro-licentie is vereist om inhoud te delen. Gebruikers kunnen hun licentietype upgraden naar Pro of zich rechtstreeks aanmelden voor Pro, als de organisatie de commerciële cloud gebruikt. Rechtstreekse aanschaf van of een upgrade naar Pro is niet beschikbaar voor onderwijsinstellingen of organisaties die zijn geïmplementeerd naar clouds van Microsoft Azure Government, Microsoft Azure Duitsland of Azure China 21Vianet.
+Afzonderlijke gebruikers kunnen hun eigen Power BI-licentie verkrijgen door zich aan te melden met hun werk- of schoolaccount. Met een gratis licentie kunnen gebruikers Power BI verkennen voor het analyseren en visualiseren van persoonlijke gegevens met behulp van Mijn werkruimte, maar ze kunnen niet delen met andere gebruikers. Een Power BI Pro-licentie is vereist om inhoud te delen. Een Power BI Premium-licentie biedt toegang tot verschillende functies, mogelijkheden en typen inhoud die alleen beschikbaar zijn via Premium. Een Premium per gebruikerslicentie beperkt de toegang tot deze functies tot andere gebruikers met een Premium per gebruikerslicentie; met een Premium-licentie op basis van capaciteit kunnen gebruikers met gratis licenties toegang krijgen tot alle inhoud, maar kunnen alleen gebruikers met een Pro-licentie inhoud maken. Gebruikers kunnen hun licentietype upgraden naar Pro of zich rechtstreeks aanmelden voor Pro, als de organisatie de commerciële cloud gebruikt. Rechtstreekse aanschaf van of een upgrade naar Pro is niet beschikbaar voor onderwijsinstellingen of organisaties die zijn geïmplementeerd naar clouds van Microsoft Azure Government, Microsoft Azure Duitsland of Azure China 21Vianet.
 
 Als u niet wilt dat gebruikers in uw organisatie gebruikmaken van Aanmelden via een self-service, raadpleegt u [Aanmelden via een self-service in- of uitschakelen](service-admin-disable-self-service.md) om te leren hoe u dit uitschakelt.
 
@@ -63,30 +63,30 @@ Zie [Gebruikerslicenties weergeven en beheren](service-admin-manage-licenses.md)
 
 ## <a name="license-types-and-capabilities"></a>Licentietypen en mogelijkheden
 
-Er zijn twee soorten Power BI-licenties per gebruiker: gratis en Pro. Welk type licentie een gebruiker nodig heeft, wordt bepaald door de locatie waar inhoud is opgeslagen en hoe de gebruiker die inhoud gebruikt. De locatie waar inhoud kan worden opgeslagen, wordt bepaald door het [abonnementstype](#subscription-types) van uw organisatie.
+Er zijn twee soorten Power BI-licenties per gebruiker: Pro en Premium. Welk type licentie een gebruiker nodig heeft, wordt bepaald door de locatie waar inhoud is opgeslagen, hoe de gebruiker die inhoud gebruikt en of voor die inhoud Premium-functies worden gebruikt. De locatie waar inhoud kan worden opgeslagen, wordt bepaald door het [licentietype](#license-types) van uw organisatie.
 
-Met een van de abonnementstypen, [Power BI Premium](service-admin-premium-purchase.md), kunnen gebruikers met een gratis licentie inhoud gebruiken in werkruimten die aan Premium-capaciteit zijn toegewezen. Buiten de Premium-capaciteit kan een gebruiker met een gratis licentie de Power BI-service alleen gebruiken om verbinding te maken met gegevens en om rapporten en dashboards in **Mijn werkruimte** te maken. Ze kunnen geen inhoud met anderen delen of inhoud naar andere werkruimten publiceren. Zie [Typen werkruimten](../consumer/end-user-workspaces.md#types-of-workspaces) voor meer informatie over werkruimtetypen.
+Met een van de licentietypen, de op capaciteit gebaseerde licentie voor [Power BI Premium](service-admin-premium-purchase.md), kunnen gebruikers met een gratis licentie inhoud gebruiken in werkruimten die aan Premium-capaciteit zijn toegewezen. Buiten de Premium-capaciteit kan een gebruiker met een gratis licentie de Power BI-service alleen gebruiken om verbinding te maken met gegevens en om rapporten en dashboards in **Mijn werkruimte** te maken. Ze kunnen geen inhoud met anderen delen of inhoud naar andere werkruimten publiceren. Zie [Typen werkruimten](../consumer/end-user-workspaces.md#types-of-workspaces) voor meer informatie over werkruimtetypen.
 
-Voor een Power BI-standaardabonnement wordt gedeelde capaciteit gebruikt. Wanneer inhoud wordt opgeslagen in een gedeelde capaciteit, kunnen gebruikers aan wie een Power BI Pro-licentie is toegewezen, alleen samenwerken met andere Power BI Pro-gebruikers. Ze kunnen inhoud gebruiken die door andere gebruikers is gedeeld, inhoud publiceren naar app-werkruimten, dashboards delen en zich abonneren op dashboards en rapporten.  Wanneer werkruimten zich in de Premium-capaciteit bevinden, kunnen Pro-gebruikers inhoud distribueren naar gebruikers die geen Power BI Pro-licentie hebben.
+Een Power BI-licentie met gratis en Pro per gebruiker-licenties maakt alleen gebruik van een gedeelde en beperkte capaciteit om inhoud te verwerken. Wanneer inhoud wordt opgeslagen in die gedeelde capaciteit, kunnen gebruikers aan wie een Power BI Pro-licentie is toegewezen, alleen samenwerken met andere Power BI Pro-gebruikers. Ze kunnen inhoud gebruiken die door andere gebruikers is gedeeld, inhoud publiceren naar app-werkruimten, dashboards delen en zich abonneren op dashboards en rapporten.  Wanneer werkruimten zich in de Premium-capaciteit bevinden, kunnen Pro-gebruikers inhoud distribueren naar gebruikers die geen Power BI Pro-licentie hebben.
 
-In de onderstaande tabel worden de basismogelijkheden van elk licentietype samengevat. Zie [Functies per licentietype](../fundamentals/service-features-license-type.md) voor een gedetailleerd overzicht van de beschikbare functies per licentietype.
+Wanneer u Premium per gebruikers-licenties gebruikt, kan inhoud die is gemaakt door een Premium per gebruiker gelicentieerde gebruiker alleen worden gedeeld met andere gebruikers die een Premium-licentie hebben, tenzij de inhoud specifiek wordt geplaatst in een werkruimte die wordt gehost op een Premium-capaciteit. In de onderstaande tabel worden de basismogelijkheden van elk licentietype samengevat. Zie [Functies per licentietype](../fundamentals/service-features-license-type.md) voor een gedetailleerd overzicht van de beschikbare functies per licentietype.
 
 | Licentietype | Mogelijkheden wanneer werkruimte zich in gedeelde capaciteit bevindt | Aanvullende mogelijkheden wanneer werkruimte zich in Premium-capaciteit bevindt |
 | --------- | ----------- | ----------- |
 | Power BI (gratis) | Toegang tot inhoud in Mijn werkruimte | Inhoud gebruiken die met hun is gedeeld |
 | Power BI Pro | Inhoud naar andere werkruimten publiceren, dashboards delen, abonneren op dashboards en rapporten, delen met gebruikers die over een Pro-licentie beschikken | Inhoud distribueren naar gebruikers met gratis licenties |
 
-## <a name="subscription-types"></a>Abonnementstypen
+## <a name="license-types"></a>Licentietypen
 
-Alle op gebruikers gebaseerde, commerciële licentieabonnementen van Microsoft zijn gebaseerd op Azure Active Directory-identiteiten. Als u de Power BI-service wilt gebruiken, moet u zich aanmelden met een identiteit die door Azure Active Directory wordt ondersteund voor commerciële licenties. U kunt Power BI toevoegen aan elk Microsoft-abonnement waarvoor Azure Active Directory wordt gebruikt voor identiteitsservices. Sommige abonnementen, zoals Office 365 E5, omvatten al een Power BI Pro-licentie, dus hiervoor hoeft u zich niet apart aan te melden voor Power BI.
+Alle op gebruikers gebaseerde, commerciële licenties van Microsoft zijn gebaseerd op Azure Active Directory-identiteiten. Als u de Power BI-service wilt gebruiken, moet u zich aanmelden met een identiteit die door Azure Active Directory wordt ondersteund voor commerciële licenties. U kunt Power BI toevoegen aan elk Microsoft-licentie waarvoor Azure Active Directory wordt gebruikt voor identiteitsservices. Sommige licenties, zoals Office 365 E5, omvatten al een Power BI Pro-licentie, dus hiervoor hoeft u zich niet apart aan te melden voor Power BI.
 
-Er zijn twee soorten Power BI-abonnementen voor organisaties: Standard en Premium.
+Er zijn twee soorten Power BI-licenties voor organisaties: Standard en Premium.
 
-Met een standaard, self-service Power BI Pro-abonnement kunnen beheerders licenties per gebruiker toewijzen. Er zijn maandelijks kosten per gebruiker van toepassing voor Power BI Pro-licenties. Met dit licentietype kunt u samenwerken, publiceren, delen en ad-hocanalyses uitvoeren. Inhoud wordt opgeslagen naar gedeelde opslagcapaciteit die volledig door Microsoft wordt beheerd.
+Met een standaard, self-service Power BI Pro-licentie kunnen beheerders licenties per gebruiker toewijzen. Er zijn maandelijks kosten per gebruiker van toepassing voor Power BI Pro-licenties. Met dit licentietype kunt u samenwerken, publiceren, delen en ad-hocanalyses uitvoeren. Inhoud wordt opgeslagen naar gedeelde opslagcapaciteit die volledig door Microsoft wordt beheerd.
 
-Een Power BI Premium-abonnement wijst capaciteit toe aan een organisatie. Premium is geschikt voor zakelijke BI, big data-analyse en cloud- en on-premises rapporten, en biedt geavanceerde besturingselementen voor beheer en implementatie. Toegewezen reken- en opslagresources worden beheerd door capaciteitsbeheerders in uw organisatie. Er worden maandelijkse kosten in rekening gebracht voor deze toegewezen omgeving. Naast andere Premium-voordelen kan inhoud die in Premium-capaciteit is opgeslagen ook worden geopend door en gedistribueerd naar gebruikers die geen Power BI Pro-licentie hebben. Aan ten minste één gebruiker moet een Power BI Pro-licentie zijn toegewezen om Premium te kunnen gebruiken, en inhoudsmakers en ontwikkelaars hebben nog steeds een Power BI Pro-licentie nodig.
+Met een Power BI Premium-licentie wordt capaciteit toegewezen aan een organisatie. Premium is geschikt voor zakelijke BI, big data-analyse en cloud- en on-premises rapporten, en biedt geavanceerde besturingselementen voor beheer en implementatie. Toegewezen reken- en opslagresources worden beheerd door capaciteitsbeheerders in uw organisatie. Er worden maandelijkse kosten in rekening gebracht voor deze toegewezen omgeving. Naast andere Premium-voordelen kan inhoud die in Premium-capaciteit is opgeslagen ook worden geopend door en gedistribueerd naar gebruikers die geen Power BI Pro-licentie hebben. Aan ten minste één gebruiker moet een Power BI Pro-licentie zijn toegewezen om Premium te kunnen gebruiken, en inhoudsmakers en ontwikkelaars hebben nog steeds een Power BI Pro-licentie nodig.
 
-De twee typen abonnementen sluiten elkaar niet uit. U kunt zowel Power BI Premium als Power BI Pro gebruiken. In deze configuratie kan inhoud die in Premium-capaciteit is opgeslagen, worden gedeeld met alle gebruikers en is gedeelde capaciteit ook beschikbaar. Zie [Gegevensopslag beheren in Power BI-werkruimten](service-admin-manage-your-data-storage-in-power-bi.md) voor informatie over capaciteitslimieten.
+De twee typen licenties sluiten elkaar niet uit. U kunt zowel Power BI Premium als Power BI Pro gebruiken. In deze configuratie kan inhoud die in Premium-capaciteit is opgeslagen, worden gedeeld met alle gebruikers en is gedeelde capaciteit ook beschikbaar. Zie [Gegevensopslag beheren in Power BI-werkruimten](service-admin-manage-your-data-storage-in-power-bi.md) voor informatie over capaciteitslimieten.
 
 Zie [Power BI-prijzen](https://powerbi.microsoft.com/pricing) om productfuncties en prijzen te vergelijken.
 
@@ -108,7 +108,7 @@ Als beheerder kunt u Power BI Pro-licenties kopen via Microsoft 365 of via een M
 
 Er is een respijtperiode na het verstrijken van een Power BI Pro-licentie. Voor licenties die deel uitmaken van een volumelicentie-aankoop, is de respijtperiode 90 dagen. Als u de licentie rechtstreeks hebt aangeschaft, bedraagt de respijtperiode 30 dagen.
 
-Power BI Pro heeft dezelfde levenscyclus van abonnementen als Microsoft 365. Raadpleeg [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Microsoft 365 voor bedrijven eindigt?](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires) voor meer informatie.
+Power BI Pro heeft dezelfde levenscyclus van licenties als Microsoft 365. Raadpleeg [Wat gebeurt er met mijn gegevens en toegang wanneer mijn abonnement op Microsoft 365 voor bedrijven eindigt?](/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires) voor meer informatie.
 
 
 ## <a name="next-steps"></a>Volgende stappen
@@ -117,3 +117,14 @@ Power BI Pro heeft dezelfde levenscyclus van abonnementen als Microsoft 365. Raa
 - [Documentatie voor zakelijke abonnementen en facturering](/microsoft-365/commerce/?view=o365-worldwide)
 - [Power Bi-gebruikers zoeken die zich hebben aangemeld](service-admin-access-usage.md)
 - Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
+
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.

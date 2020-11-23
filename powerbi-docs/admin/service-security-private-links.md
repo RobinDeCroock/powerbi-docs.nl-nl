@@ -7,19 +7,19 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 10/21/2020
+ms.date: 11/12/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 0166e7a452c01f7b9dbec294d8087fcd035cb586
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7faa8a360a30091c599e8b633fa8f03dc008a3ed
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349432"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668184"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Privékoppelingen voor toegang tot Power BI
 
-Azure-netwerken biedt twee beveiligingsfuncties, Azure Private Links en privé-eindpunten, waarmee Power BI veilige toegang kan bieden. Met Azure Private Links en privé-eindpunten wordt gegevensverkeer privé verzonden met de backbone-netwerkinfrastructuur van Microsoft; gegevens hoeven dus niet via internet te worden gestuurd. 
+Azure-netwerken biedt de functie Azure Private Links waarmee Power BI veilige toegang kan bieden via privé-eindpunten voor Azure-netwerken. Met Azure Private Links en privé-eindpunten wordt gegevensverkeer privé verzonden met de backbone-netwerkinfrastructuur van Microsoft; gegevens hoeven dus niet via internet te worden gestuurd. 
 
 Privékoppelingen zorgen ervoor dat Power BI-gebruikers de backbone van het privénetwerk van Microsoft gebruiken wanneer ze naar resources in de Power BI-service gaan.
 
@@ -64,7 +64,7 @@ In de volgende secties vindt u aanvullende informatie voor elke stap.
 
 ## <a name="enable-private-links-for-power-bi"></a>Privékoppelingen inschakelen voor Power BI
 
-U kunt aan de slag gaan door u als beheerder aan te melden bij Power BI op app.powerbi.com en naar de beheerportal te navigeren. Selecteer **Tenantinstellingen** , schuif naar **Geavanceerde netwerken** en schakel vervolgens het keuzerondje in om **Azure Private Link** in te schakelen, zoals wordt weergegeven in de volgende afbeelding. 
+U kunt aan de slag gaan door u als beheerder aan te melden bij Power BI op app.powerbi.com en naar de beheerportal te navigeren. Selecteer **Tenantinstellingen**, schuif naar **Geavanceerde netwerken** en schakel vervolgens het keuzerondje in om **Azure Private Link** in te schakelen, zoals wordt weergegeven in de volgende afbeelding. 
 
 Het duurt ongeveer 15 minuten om een privékoppeling voor uw tenant te configureren. Hierbij wordt onder meer een afzonderlijke FQDN voor de tenant geconfigureerd zodat u privé kunt communiceren met Power BI-services.
 
@@ -74,7 +74,7 @@ Na voltooiing kunt u doorgaan met de volgende stap.
 
 ## <a name="create-a-power-bi-resource-in-the-azure-portal"></a>Een Power BI-resource maken in Azure Portal
 
-Meld u nu aan bij [Azure Portal](https://portal.azure.com) en maak een Power BI-resource met behulp van een **Azure-sjabloon** . Vervang de parameters in de ARM-voorbeeldsjabloon, die in de volgende tabel worden weergegeven, om een Power BI-resource te maken.
+Meld u nu aan bij [Azure Portal](https://portal.azure.com) en maak een Power BI-resource met behulp van een **Azure-sjabloon**. Vervang de parameters in de ARM-voorbeeldsjabloon, die in de volgende tabel worden weergegeven, om een Power BI-resource te maken.
 
 
 |**Parameter**  |**Waarde**  |
@@ -104,7 +104,7 @@ Het ARM-sjabloon maken
 }
 ```
 
-Schakel in het dialoogvenster dat wordt weergegeven het selectievakje in om akkoord te gaan met de voorwaarden en selecteer vervolgens **Aankoop** .
+Schakel in het dialoogvenster dat wordt weergegeven het selectievakje in om akkoord te gaan met de voorwaarden en selecteer vervolgens **Aankoop**.
 
 ![Akkoord gaan met de voorwaarden en vervolgens de sjabloon kopen](media/service-security-private-links/service-private-links-02.png)
 
@@ -123,18 +123,18 @@ De volgende stap bestaat uit het maken van een virtueel netwerk en een subnet. V
 | ```<subnet-address-range>```  | 10.1.0.0/24 |
 
 1. Selecteer in de linkerbovenhoek van het scherm **Een resource maken > Netwerken > Virtueel netwerk** of zoek naar **Virtueel netwerk** in het zoekvak.
-2. Typ of selecteer in **Virtueel netwerk maken** de volgende gegevens op het tabblad **Basisinformatie** :
+2. Typ of selecteer in **Virtueel netwerk maken** de volgende gegevens op het tabblad **Basisinformatie**:
 
     |Instellingen | Waarde |
     |-------------------|---------|
     |**Projectgegevens**|
     |Abonnement | Selecteer uw Azure-abonnement |
-    |Resourcegroep |   Selecteer **Nieuwe maken** , voer ```<resource-group-name>``` in en selecteer vervolgens **OK** , of selecteer een bestaande ```<resource-group-name>``` op basis van parameters. |
+    |Resourcegroep |   Selecteer **Nieuwe maken**, voer ```<resource-group-name>``` in en selecteer vervolgens **OK**, of selecteer een bestaande ```<resource-group-name>``` op basis van parameters. |
     |**Exemplaardetails** |
     | Naam  | Voer ```<virtual-network-name>``` in |
     |Region | Selecteer ```<region-name>``` |
     
-    De volgende afbeelding toont het tabblad **Basisinformatie** .
+    De volgende afbeelding toont het tabblad **Basisinformatie**.
     
     ![Een virtueel netwerk maken, het tabblad Basisinformatie](media/service-security-private-links/service-private-links-03.png)
 
@@ -158,9 +158,9 @@ De volgende stap bestaat uit het maken van een virtueel netwerk en een subnet. V
     
     ![Een virtueel netwerk maken, het tabblad Subnet bewerken](media/service-security-private-links/service-private-links-05.png)
 
-5. Selecteer het tabblad **Opslaan** en selecteer vervolgens het tabblad **Beoordelen en maken** of selecteer de knop **Beoordelen en maken** . 
+5. Selecteer het tabblad **Opslaan** en selecteer vervolgens het tabblad **Beoordelen en maken** of selecteer de knop **Beoordelen en maken**. 
 
-6. Ten slotte selecteert u **Create** .
+6. Ten slotte selecteert u **Create**.
 
 Zodra u deze stappen hebt voltooid, kunt u een virtuele machine (VM) maken, zoals wordt beschreven in de volgende sectie.
 
@@ -169,7 +169,7 @@ Zodra u deze stappen hebt voltooid, kunt u een virtuele machine (VM) maken, zoal
 
 De volgende stap bestaat uit het maken van een virtueel netwerk en uit het maken van het subnet om de virtuele machine (VM) te hosten.
 
-1. Selecteer in de linkerbovenhoek van het scherm in Azure Portal **Een resource maken > Compute > Virtuele machine** .
+1. Selecteer in de linkerbovenhoek van het scherm in Azure Portal **Een resource maken > Compute > Virtuele machine**.
 
 2. Typ of selecteer in **Een virtuele machine maken - Basisinformatie** de volgende gegevens:
 
@@ -194,7 +194,7 @@ De volgende stap bestaat uit het maken van een virtueel netwerk en uit het maken
     |Hebt u al een Windows-licentie? |  Laat de standaardwaarde **Nee** staan |
 
 3. Selecteer vervolgens **Volgende: Schijven**
-4. Behoud de standaardinstellingen in **Een virtuele machine maken – schijven** en selecteer **Volgende: Netwerken** .
+4. Behoud de standaardinstellingen in **Een virtuele machine maken – schijven** en selecteer **Volgende: Netwerken**.
 5. Selecteer in **Een virtuele machine maken - Netwerken** de volgende gegevens:
 
     |Instellingen | Waarde |
@@ -206,8 +206,8 @@ De volgende stap bestaat uit het maken van een virtueel netwerk en uit het maken
     |Openbare poorten voor inkomend verkeer|  Selecteer **Allow selected**|
     |Binnenkomende poorten selecteren|  Selecteer **RDP**|
 
-6. Selecteer **Controleren + maken** . De pagina **Beoordelen en maken** wordt weergegeven, waar uw configuratie wordt gevalideerd in Azure.
-7. Als u het bericht **Validatie geslaagd** ziet, selecteert u **Maken** .
+6. Selecteer **Controleren + maken**. De pagina **Beoordelen en maken** wordt weergegeven, waar uw configuratie wordt gevalideerd in Azure.
+7. Als u het bericht **Validatie geslaagd** ziet, selecteert u **Maken**.
 
 
 ## <a name="create-a-private-endpoint"></a>Een privé-eindpunt maken
@@ -215,19 +215,19 @@ De volgende stap bestaat uit het maken van een virtueel netwerk en uit het maken
 De volgende stap, die in deze sectie wordt beschreven, bestaat uit het maken van een privé-eindpunt voor Power BI.
 
 1. Selecteer in de linkerbovenhoek van het scherm in Azure Portal de optie **Een resource maken > Netwerken > Private Link-centrum (preview)** .
-2. Selecteer in **Private Link-centrum – Overzicht** bij de optie **Een privéverbinding met een service maken** de optie **Een privé-eindpunt maken** .
+2. Selecteer in **Private Link-centrum – Overzicht** bij de optie **Een privéverbinding met een service maken** de optie **Een privé-eindpunt maken**.
 3. Typ of selecteer in **Een privé-eindpunt maken (preview) – Basisinformatie** de volgende gegevens:
 
     |Instellingen | Waarde |
     |-------------------|---------|
     |**Projectgegevens** ||
     |Abonnement|  Selecteer uw Azure-abonnement|
-    |Resourcegroep|    Selecteer **myResourceGroup** . U hebt deze in de vorige sectie gemaakt|
+    |Resourcegroep|    Selecteer **myResourceGroup**. U hebt deze in de vorige sectie gemaakt|
     |**Exemplaardetails** ||
     |Naam|  Voer *myPrivateEndpoint* in. Als deze naam al wordt gebruikt, maakt u een unieke naam|
     |Region|    Selecteer **VS - centraal**|
     
-    De volgende afbeelding toont het venster **Een privé-eindpunt maken - Basisinformatie** .
+    De volgende afbeelding toont het venster **Een privé-eindpunt maken - Basisinformatie**.
     
     ![Een privé-eindpunt maken, basisinformatie](media/service-security-private-links/service-private-links-06.png)
 
@@ -241,7 +241,7 @@ De volgende stap, die in deze sectie wordt beschreven, bestaat uit het maken van
     |Resource|  myPowerBIResource|
     |Stel subresource in|   Tenant|
     
-    De volgende afbeelding toont het venster **Een privé-eindpunt maken - Resource** .
+    De volgende afbeelding toont het venster **Een privé-eindpunt maken - Resource**.
     
     ![Een privé-eindpunt maken, resource](media/service-security-private-links/service-private-links-07.png)
 
@@ -256,24 +256,24 @@ De volgende stap, die in deze sectie wordt beschreven, bestaat uit het maken van
     |Integreren met privé-DNS-zone|   Selecteer **Ja** |
     |Privé-DNS-zone   |Selecteer <br> *(New)privatelink.analysis.windows.net* <br> *(New)privatelink.pbidedicated.windows.net* <br> *(New)privatelink.tip1.powerquery.microsoft.com* |
     
-    De volgende afbeelding toont het venster **Een privé-eindpunt maken - Configuratie** .
+    De volgende afbeelding toont het venster **Een privé-eindpunt maken - Configuratie**.
     
     ![Een privé-eindpunt maken, configuratie](media/service-security-private-links/service-private-links-08.png)
     
-    Selecteer **Beoordelen en maken** . Hiermee wordt de pagina **Beoordelen en maken** weergegeven, waar uw configuratie wordt gevalideerd in Azure. Als u het bericht **Validatie geslaagd** ziet, selecteert u **Maken** .
+    Selecteer **Beoordelen en maken**. Hiermee wordt de pagina **Beoordelen en maken** weergegeven, waar uw configuratie wordt gevalideerd in Azure. Als u het bericht **Validatie geslaagd** ziet, selecteert u **Maken**.
 
 ## <a name="connect-to-a-vm-using-remote-desktop-rdp"></a>Verbinding maken met een virtuele machine met behulp van Extern bureaublad (RDP)
 
 Nadat u de virtuele machine **myVM** hebt gemaakt, volgt u de volgende stappen om er via internet verbinding mee te maken:
 
 1. Voer in de zoekbalk van de portal *myVm* in.
-2. Selecteer de knop **Verbinding maken** . Nadat u de knop **Verbinden** hebt geselecteerd, wordt **Verbinden met virtuele machine** geopend.
-3. Selecteer **RDP-bestand downloaden** . In Azure wordt een RDP-bestand (Remote Desktop Protocol) gemaakt en het bestand wordt gedownload naar de computer.
+2. Selecteer de knop **Verbinding maken**. Nadat u de knop **Verbinden** hebt geselecteerd, wordt **Verbinden met virtuele machine** geopend.
+3. Selecteer **RDP-bestand downloaden**. In Azure wordt een RDP-bestand (Remote Desktop Protocol) gemaakt en het bestand wordt gedownload naar de computer.
 4. Open het gedownloade RDP-bestand.
 5. Selecteer **Verbinding maken** wanneer hierom wordt gevraagd.
 6. Voer de gebruikersnaam en het wachtwoord in die u hebt opgegeven toen u de virtuele machine maakte in de vorige stap.
-7. Selecteer **OK** .
-8. Er wordt mogelijk een certificaatwaarschuwing weergegeven tijdens het aanmelden. Als er een certificaatwaarschuwing wordt weergegeven, selecteert u **Ja** of **Doorgaan** .
+7. Selecteer **OK**.
+8. Er wordt mogelijk een certificaatwaarschuwing weergegeven tijdens het aanmelden. Als er een certificaatwaarschuwing wordt weergegeven, selecteert u **Ja** of **Doorgaan**.
 
 ## <a name="access-power-bi-privately-from-the-vm"></a>Privétoegang tot Power BI krijgen vanuit de VM
 
@@ -298,7 +298,7 @@ De volgende stap is om privétoegang tot Power BI te krijgen vanuit de virtuele 
 
 Ten slotte moet u openbare toegang tot Power BI uitschakelen. 
 
-Meld u als beheerder aan op app.powerbi.com en navigeer naar de **Beheerportal** . Selecteer **Tenantinstellingen** en schuif naar de sectie **Geavanceerde netwerken** . Schakel de wisselknop in de sectie **Openbare netwerktoegang blokkeren** in, zoals wordt weergegeven in de volgende afbeelding. Het duurt ongeveer 15 minuten voordat de toegang van uw organisatie tot Power BI via het openbare internet is uitgeschakeld.
+Meld u als beheerder aan op app.powerbi.com en navigeer naar de **Beheerportal**. Selecteer **Tenantinstellingen** en schuif naar de sectie **Geavanceerde netwerken**. Schakel de wisselknop in de sectie **Openbare netwerktoegang blokkeren** in, zoals wordt weergegeven in de volgende afbeelding. Het duurt ongeveer 15 minuten voordat de toegang van uw organisatie tot Power BI via het openbare internet is uitgeschakeld.
 
 Nu bent u klaar. Na het volgen van deze stappen is Power BI alleen toegankelijk voor uw organisatie via privékoppelingen, niet via het openbare internet. 
 
@@ -310,6 +310,8 @@ Er zijn enkele overwegingen voor het werken met privékoppelingen in Power BI:
 * Exporteerservices, zoals Exporteren naar PDF, het exporteren naar Excel vanuit een rapport en andere exporteerservices, werken niet bij gebruik van een omgeving met privékoppelingen
 * SQL Server Reporting Services-rapporten, voorheen bekend als RDL-bestanden (bestanden met de indeling *.rdl), worden niet weergegeven in omgevingen met privékoppelingen
 * Als internettoegang is uitgeschakeld en als de gegevensset of gegevensstroom verbinding maakt met een Power BI-gegevensset of -gegevensstroom als gegevensbron, mislukt de verbinding
+* Metrische gegevens over gebruik werken *niet* wanneer Private Link is ingeschakeld
+* Publiceren op internet wordt niet ondersteund (en wordt grijs weergegeven) wanneer u **Openbare internettoegang blokkeren** in Power BI inschakelt
 
 
 ## <a name="next-steps"></a>Volgende stappen

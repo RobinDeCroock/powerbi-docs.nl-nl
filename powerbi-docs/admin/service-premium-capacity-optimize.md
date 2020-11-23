@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 04/09/2019
-ms.custom: seodec18
+ms.date: 11/11/2020
+ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21aa643c82887ec9beaca659d9e2e97a0f1cdcc9
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: ec9ef81a4a8f4da0ffdf651d08b307e13212635a
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599301"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512833"
 ---
 # <a name="optimizing-premium-capacities"></a>Premium-capaciteiten optimaliseren
 
@@ -27,6 +27,11 @@ Wanneer extra Premium-capaciteit nodig is, zijn er twee opties die in dit artike
 - Nieuwe Premium-capaciteit toevoegen
 
 Als laatste worden in dit artikel testmethoden en het aanpassen van het formaat van Premium-capaciteit beschreven.
+
+> [!NOTE]
+> Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
+
+Als u de aanbevelingen en best practices in dit artikel volgt, wordt het CPU-gebruik van elke gegevensset en andere Power BI-artefacten geoptimaliseerd.
 
 ## <a name="best-practices"></a>Aanbevolen procedures
 
@@ -258,7 +263,7 @@ Als u al beschikt over een capaciteit en de rapporten waarop u een laadtest wilt
 
 Als u een complexere test wilt genereren, kunt u een toepassing voor laadtesten ontwikkelen waarbij een realistische workload wordt gesimuleerd. Zie de webinar [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Laadtesten uitvoeren op Power BI-toepassingen met de Visual Studio-laadtest) voor meer informatie.
 
-## <a name="acknowledgements"></a>Erkenningen
+## <a name="acknowledgments"></a>Dankwoord
 
 Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk BI-expert bij [Bitwise Solutions](https://www.bitwisesolutions.com.au/).
 
@@ -268,3 +273,13 @@ Dit artikel is geschreven door Peter Myers, Data Platform MVP en onafhankelijk B
 > [Scenario's voor Premium-capaciteit](service-premium-capacity-scenarios.md)   
   
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.

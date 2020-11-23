@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 10/01/2020
-ms.openlocfilehash: b1d0a94e3dd0ae68231720bc69d2537568efd19f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 8ff1fe1657e22b1e0812bddf6a0842b3c32b8822
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396789"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668575"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -28,15 +28,15 @@ Via de API `exportToFile` kunt u een Power BI-rapport exporteren met behulp van 
 
 U kunt de exportfunctie op verschillende manieren gebruiken. Hieronder vindt u enkele voorbeelden:
 
-* **Knop Verzenden voor afdrukken** : maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een PDF- of PPTX-bestand. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met behulp van bladwijzers kunt u het rapport met een specifieke configuratie exporteren, bijvoorbeeld met filters, slicers en aanvullende instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
+* **Knop Verzenden voor afdrukken**: maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een PDF- of PPTX-bestand. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met behulp van bladwijzers kunt u het rapport met een specifieke configuratie exporteren, bijvoorbeeld met filters, slicers en aanvullende instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
 
-* **E-mailbijlage** : verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
+* **E-mailbijlage**: verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
 
 ## <a name="using-the-api"></a>De API gebruiken
 
 Voordat u de API gebruikt, moet u controleren of de volgende [beheerdersinstellingen voor de tenant](../../admin/service-admin-portal.md#tenant-settings) zijn ingeschakeld:
 * **Rapporten als PowerPoint-presentaties of PDF-documenten exporteren** - Standaard ingeschakeld.
-* **Rapporten exporteren als afbeeldingsbestanden** : alleen vereist voor *PNG* en standaard uitgeschakeld.
+* **Rapporten exporteren als afbeeldingsbestanden**: alleen vereist voor *PNG* en standaard uitgeschakeld.
 
 De API is asynchroon. Wanneer de API [exportToFile](/rest/api/power-bi/reports/exporttofile) is aangeroepen, wordt een exporttaak geactiveerd. Nadat de exporttaak is geactiveerd, gebruikt u [polling](/rest/api/power-bi/reports/getexporttofilestatus) om de taak bij te houden totdat deze is voltooid.
 
@@ -93,6 +93,9 @@ Wanneer u de `exportToFile`-API gebruikt, kunt u de gewenste locatie doorgeven. 
 `exportToFile` biedt ondersteuning voor gelijktijdige aanvragen voor een exporttaak. In de volgende tabel wordt het aantal taken weergegeven dat u tegelijkertijd kunt uitvoeren, afhankelijk van de SKU waarin uw rapport zich bevindt. Bij gelijktijdige aanvragen wordt gekeken naar het aantal rapportpagina's. Bijvoorbeeld: 20 pagina's in één exportaanvraag in een A6-SKU worden gelijktijdig verwerkt. Dit duurt ongeveer net zolang als het verzenden van 20 exportaanvragen met elk één pagina.
 
 Een taak die het aantal gelijktijdige aanvragen overschrijdt, wordt niet beëindigd. Als u bijvoorbeeld drie pagina's in een A1-SKU exporteert, wordt de eerste taak uitgevoerd en wordt bij de laatste twee taken gewacht op de volgende twee uitvoeringscycli.
+
+>[!NOTE]
+>Het exporteren van een Power BI-rapport naar een bestand met de `exporToFile`-API wordt niet ondersteund voor [Premium per gebruiker (PPU)](../../admin/service-premium-per-user-faq.md). 
 
 |Azure SKU  |Office SKU  |Maximum aantal gelijktijdige rapportpagina's  |
 |-----------|------------|-----------|

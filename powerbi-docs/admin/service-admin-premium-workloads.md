@@ -7,18 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 05/11/2020
+ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 3454a10269937d6e03151a64bba6695cc37fcd66
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 36bbf9fcc8bcd74c46f15ebcf9bd04e86cc4a2c9
+ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396329"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "94512327"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
 In dit artikel wordt het inschakelen en configureren van workloads voor Power BI Premium-capaciteiten beschreven. Standaard bieden capaciteiten alleen ondersteuning voor de workload die aan het uitvoeren van Power BI-query's is gekoppeld. U kunt ook extra workloads inschakelen en configureren voor **[AI (Cognitive Services)](../transform-model/dataflows/dataflows-machine-learning-integration.md)** , **[gegevensstromen](../transform-model/dataflows/dataflows-introduction-self-service.md)** en **[gepagineerde rapporten](../paginated-reports/paginated-reports-save-to-power-bi-service.md)** .
+
+> [!NOTE]
+> Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
 
 ## <a name="default-memory-settings"></a>Standaardinstellingen voor geheugen
 
@@ -31,7 +34,13 @@ Queryworkloads zijn geoptimaliseerd voor en beperkt door de resources die voor u
 | **Gegevensstromen**         | Standaard 40%, minimaal 40%  | Standaard 24%, minimaal 24%  | Standaard 20%, minimaal 12%  | standaard 20%; minimaal 5%  | Standaard 20%, minimaal 3%  | standaard 20%; minimaal 2%   |
 | **Gepagineerde rapporten** | Niet ondersteund               | Niet ondersteund               | Niet ondersteund               | standaard 20%; minimaal 10% | standaard 20%; minimaal 5%  | standaard 20%; minimaal 2,5% |
 
+> [!NOTE]
+> Voor **Premium Gen2**, die momenteel als preview-versie beschikbaar is, hoeven geen geheugeninstellingen te worden gewijzigd. Het geheugen in Premium Gen2 wordt automatisch beheerd door het onderliggende systeem. 
+
+
 ## <a name="workload-settings"></a>Workloadinstellingen
+
+In de volgende secties vindt u informatie over de instellingen voor de werkbelasting die in de vorige tabel zijn beschreven. 
 
 ### <a name="ai-preview"></a>AI (preview)
 
@@ -214,3 +223,13 @@ De app [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacit
 [Automatische paginavernieuwing in Power BI Desktop (preview-versie)](../create-reports/desktop-automatic-page-refresh.md)
 
 Hebt u nog vragen? [Stel een vraag aan de Power BI-community](https://community.powerbi.com/)
+
+Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
+* Prestaties
+* Licenties per gebruiker
+* Grotere schaal
+* Verbeterde metrische gegevens
+* Automatisch schalen
+* Minder beheeroverhead
+
+Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Power BI Premium Gen2.

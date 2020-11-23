@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 2c06464999192e71c2d398f41b7b96e8fa4a169b
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
+ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983477"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94668391"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten
 
@@ -40,6 +40,7 @@ Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://
 
 > [!IMPORTANT]
 > * U moet een **service-principal** gebruiken. Een hoofdgebruiker wordt niet ondersteund.
+>* [Premium per gebruiker (PPU)](../../admin/service-premium-per-user-faq.md) wordt niet ondersteund. U kunt PPU gebruiken om met de oplossing te experimenteren, maar u kunt deze niet [verplaatsen naar productie](embed-sample-for-customers.md#move-to-production).
 > * Gegevensbronnen waarvoor eenmalige aanmelding (SSO) is vereist, worden niet ondersteund. Zie [ondersteunde gegevensbronnen voor Power BI gepagineerde rapporten](../../paginated-reports/paginated-reports-data-sources.md) voor een lijst met ondersteunde gegevenssets en de bijbehorende verificatiemethoden. 
 > * Power BI-gegevenssets worden niet ondersteund als een [gegevensbron](../../connect-data/service-get-data.md).
 
@@ -49,13 +50,13 @@ Als u een gepagineerd rapport wilt insluiten, moet u een werkruimte toewijzen aa
 
 ### <a name="create-an-app-workspace"></a>Een app-werkruimte maken
 
-Als u een [service-principal](embed-service-principal.md) gebruikt voor aanmelding bij uw toepassing, moet u de [nieuwe werkruimten](../../collaborate-share/service-create-the-new-workspaces.md) gebruiken. Als *service-principal*moet u ook een beheerder of lid zijn van de app-werkruimten die bij uw app betrokken zijn.
+Als u een [service-principal](embed-service-principal.md) gebruikt voor aanmelding bij uw toepassing, moet u de [nieuwe werkruimten](../../collaborate-share/service-create-the-new-workspaces.md) gebruiken. Als *service-principal* moet u ook een beheerder of lid zijn van de app-werkruimten die bij uw app betrokken zijn.
 
 ### <a name="create-a-capacity"></a>Een capaciteit maken
 
 Voordat u een gepagineerd rapport importeert of uploadt om in te sluiten, moet de werkruimte met het rapport minimaal de capaciteit A4 of P1 krijgen. U kunt uit twee soorten capaciteit kiezen:
 * **Power BI Premium**: voor het insluiten van een gepagineerd rapport is *P*-SKU vereist. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../../admin/service-premium-what-is.md) voor meer informatie over dit abonnement
-* **Azure Power BI Embedded**: u kunt een capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Voor het insluiten van gepagineerde rapporten hebt u minimaal een *A4*-abonnement nodig. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
+* **Azure Power BI Embedded**: u kunt capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Voor het insluiten van gepagineerde rapporten hebt u minimaal een *A4*-abonnement nodig. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
 In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](./embedded-faq.md#which-solution-should-i-choose).
 
@@ -205,7 +206,7 @@ Hoewel de stappen voor het insluiten van uw gepagineerde Power BI-rapporten word
 
 Als u gepagineerde Power BI-rapporten voor uw klanten wilt insluiten in uw app, moet u een **Azure Active Directory**-[service-principal](embed-service-principal.md) hebben en zorgen dat u over een [Azure Active Directory-toegangstoken](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) beschikt voor uw Power BI-app, voordat u de [Power BI REST API's](/rest/api/power-bi/) kunt aanroepen.
 
-Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST API's](/rest/api/power-bi/). U maakt het **Power BI-clientobject** door het AccessToken te verpakken met het object ***Microsoft.Rest.TokenCredentials***.
+Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST API's](/rest/api/power-bi/). U maakt het Power BI-clientobject door het **AccessToken** te verpakken met het object **_Microsoft.Rest.TokenCredentials_* _.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -227,7 +228,7 @@ U kunt het Power BI-clientobject gebruiken voor het ophalen van een verwijzing n
 
 Hier volgt een codevoorbeeld van hoe u het eerste rapport ophaalt uit een bepaalde werkruimte.
 
-*Een voorbeeld van het ophalen van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten is beschikbaar in het bestand Services\EmbedService.cs in de [voorbeeldtoepassing](https://github.com/Microsoft/PowerBI-Developer-Samples).*
+_Een voorbeeld van het ophalen van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten, is beschikbaar in het bestand Services\EmbedService.cs in de [voorbeeldtoepassing](https://github.com/Microsoft/PowerBI-Developer-Samples).*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;
@@ -244,7 +245,7 @@ Report report = reports.Value.FirstOrDefault();
 
 Genereer een insluittoken dat kan worden gebruikt vanuit de JavaScript API. Gebruik de API [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) om een ingesloten token te maken voor het insluiten van gepagineerde Power BI-rapporten.
 
-Een voorbeeld van het maken van een insluittoken is beschikbaar in het bestand  *Services\EmbedService.cs* in de [voorbeeld-app](https://github.com/Microsoft/PowerBI-Developer-Samples).
+Een voorbeeld van het maken van een insluittoken is beschikbaar in het bestand *Services\EmbedService.cs* in de [voorbeeld-app](https://github.com/Microsoft/PowerBI-Developer-Samples).
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

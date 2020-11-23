@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/12/2020
+ms.date: 11/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8565f6ef18192110688d01127129dcc19919cb0f
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: 143d4a51a403563b337c753055fa56e9c25edc26
+ms.sourcegitcommit: 029aacd09061a8aa45b57f05d0dc95c93dd16a74
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256550"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94560029"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Gegevensbronnen in Power BI Desktop
 
@@ -90,7 +90,6 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Snowflake
 * Essbase
 * AtScale-kubussen
-* BI-connector 
 * Data Virtuality LDW (bèta)
 * Denodo
 * Dremio
@@ -100,8 +99,10 @@ De categorie **Database** biedt de volgende gegevensverbindingen:
 * Jethro (bèta)
 * Kyligence
 * Linkar PICK Style/MultiValue Databases (Beta)
-* MarkLogic
 * MariaDB (bèta)
+* MarkLogic
+* BI-connector
+* Actian (bèta)
 
 > [!NOTE]
 > Sommige databaseconnectors moet u eerst inschakelen door **Bestand > Opties en instellingen > Opties** te selecteren en vervolgens **Voorbeeldfuncties** en de connector in te schakelen. Als u geen van de hierboven genoemde connectors ziet en ze wel wilt gebruiken, controleert u de instellingen voor **Voorbeeldfuncties**. Houd er ook rekening mee dat een gegevensbron die wordt gemarkeerd als *bèta* of *preview*, beperkte ondersteuning en functionaliteit heeft en niet dient te worden gebruikt in een productieomgeving.
@@ -141,8 +142,8 @@ De categorie **Azure** biedt de volgende gegevensverbindingen:
 * Azure HDInsight Spark
 * HDInsight Interactive Query
 * Azure Cost Management
-* Azure Time Series Insights (Bèta)
 * Azure Databricks
+* Azure Time Series Insights (Bèta)
 
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Azure**.
@@ -185,21 +186,21 @@ De categorie **Onlineservices** biedt de volgende gegevensverbindingen:
 * Emigo Data Source
 * Entersoft Business Suite (bèta)
 * FactSet Analytics
-* Hexagon PPM Smart API
+* Palantir Foundry
+* Industrial App Store
 * Intune Data Warehouse (bèta)
 * Microsoft Graph Security (bèta)
+* Projectplace voor Power BI
 * Product Insights (bèta)
 * Quick Base
+* Spigit (bèta)
 * TeamDesk (bèta)
 * Webtrends Analytics (bèta)
 * Witivio (bèta)
 * Workplace Analytics (bèta)
 * Zoho Creator (bèta)
-* Palantir Foundry
-* Industrial App Store
-* Projectplace voor Power BI
 * eWay-CRM (bèta)
-* Spigit (bèta)
+* Hexagon PPM Smart API
 
 
 In de volgende afbeelding ziet u het venster **Gegevens ophalen** voor **Onlineservices**.
@@ -217,7 +218,7 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Microsoft Exchange
 * Hadoop-bestand (HDFS)
 * Spark
-* Hive LLAP (bèta)
+* Hive LLAP
 * R-script
 * Python-script
 * ODBC
@@ -242,6 +243,8 @@ De categorie **Overige** biedt de volgende gegevensverbindingen:
 * Vena (bèta)
 * Vessel Insight (bèta)
 * Zucchetti HR Infinity (bèta)
+* Anaplan-connector v1.0 (bèta)
+* Starburst Enterprise Presto (bèta)
 * Lege query
 
 
