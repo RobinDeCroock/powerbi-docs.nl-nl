@@ -39,7 +39,11 @@
               href: service-self-service-purchase-help.md
             - name: Hulp krijgen bij het aanmelden voor Power BI
               href: service-self-service-sign-up-help.md
-    - name: Procedures
+        - name: Beveiliging
+          items:
+            - name: Beveiligingsbasislijn
+              href: security-baseline.md
+    - name: Instructiegidsen
       items:
         - name: Power BI Desktop gebruiken
           href: desktop-get-the-desktop.md
