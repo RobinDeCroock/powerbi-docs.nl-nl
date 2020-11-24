@@ -20,6 +20,8 @@
           href: walkthrough-push-data-get-datasets.md
         - name: Rijen toevoegen aan een tabel
           href: walkthrough-push-data-add-rows.md
+        - name: Configuratie van sjabloon-app automatiseren
+          href: ../template-apps/template-apps-auto-install-tutorial.md
     - name: Concepten
       items:
         - name: Automatisch bewaarbeleid voor realtime-gegevens
@@ -32,10 +34,14 @@
               href: api-dataset-properties.md
             - name: Versiebeheer gegevensmodel
               href: api-data-model-versioning.md
+        - name: Geautomatiseerde configuratie van sjabloon-app
+          href: ../template-apps/template-apps-auto-install.md
     - name: Procedures
       items:
         - name: Referenties configureren
           href: configure-credentials.md
+        - name: Configuratie van sjabloon-app automatiseren
+          href: ../template-apps/template-apps-auto-install.md
     - name: Naslaginformatie
       items:
         - name: REST-API’s
