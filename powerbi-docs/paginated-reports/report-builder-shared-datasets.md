@@ -1,18 +1,18 @@
 ---
 title: Een gepagineerd rapport maken met een gedeelde Power BI-gegevensset | Power BI Report Builder
 description: Maak een gepagineerd rapport in Power BI Report Builder op basis van een gedeelde Power BI-gegevensset.
-ms.date: 07/08/2020
+ms.date: 11/18/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 44f1c1280e176d99ab909402a77804074e7d8cbd
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 9b8e7ac37b42e74835cde120ad1465df586a8fe3
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298100"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893701"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Een gepagineerd rapport maken op basis van een gedeelde Power BI-gegevensset
 
@@ -120,7 +120,7 @@ Hier volgen de stappen voor het ophalen van de query.
 
 1. Selecteer **OK**.
 
-    U ziet de query in het **Query** -venster van het dialoogvenster **Eigenschappen van gegevensset**.
+    U ziet de query in het **Query**-venster van het dialoogvenster **Eigenschappen van gegevensset**.
 
     ![Het dialoogvenster Eigenschappen van gegevensset](media/report-builder-shared-datasets/power-bi-report-builder-dataset-properties.png)
 
@@ -176,7 +176,7 @@ U hebt verschillende opmaakopties om ervoor te zorgen dat de tabel op één pagi
 1. U kunt de paginamarges smaller maken in het deelvenster Eigenschappen. Als u het deelvenster Eigenschappen niet ziet, schakelt u op het lint **Beeld** het selectievakje **Eigenschappen** in.
 
 1. Selecteer het rapport, en niet de tabel of titel.
-1. Vouw **Marges** uit in het deelvenster **Rapporteigenschappen** onder **Pagina** , en wijzig alle marges in **0,75 inch**.
+1. Vouw **Marges** uit in het deelvenster **Rapporteigenschappen** onder **Pagina**, en wijzig alle marges in **0,75 inch**.
 
     ![Paginamarges instellen](media/report-builder-shared-datasets/power-bi-report-builder-page-margins.png)
 
@@ -190,11 +190,11 @@ U hebt verschillende opmaakopties om ervoor te zorgen dat de tabel op één pagi
 
     ![Meer dan één cel selecteren](media/report-builder-shared-datasets/power-bi-report-builder-select-cells.png)
 
-1. Wijzig op het lint **Start** in de sectie **Getal** de **Standaard** -opmaak in een numerieke notatie zoals **Valuta**.
+1. Wijzig op het lint **Start** in de sectie **Getal** de **Standaard**-opmaak in een numerieke notatie zoals **Valuta**.
 
     ![Numerieke notatie instellen](media/report-builder-shared-datasets/power-bi-report-builder-number-format.png)
 
-1. Wijzig de stijl van **Tijdelijke aanduidingen** in **Voorbeeldwaarden** , zodat u de opmaak in de cel kunt zien. 
+1. Wijzig de stijl van **Tijdelijke aanduidingen** in **Voorbeeldwaarden**, zodat u de opmaak in de cel kunt zien. 
 
     ![Voorbeeldwaarden weergeven](media/report-builder-shared-datasets/power-bi-report-builder-sample-values.png)
 
@@ -222,6 +222,7 @@ Stel bijvoorbeeld dat uw rapport een indeling van 8,5 bij 11 inch heeft, en dat 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen 
 
 - Voor gegevenssets die gebruikmaken van een liveverbinding met Analysis Services kunt u rechtstreeks verbinding maken door de onderliggende Analysis Services-verbinding te gebruiken in plaats van een gedeelde gegevensset.
+- Als u een Power BI-gegevensset wilt gebruiken die DirectQuery in Power BI Report Builder gebruikt, moet de gegevensset een meting bevatten, zelfs als u niet van plan bent om de meting in uw rapport te gebruiken. Zonder de meting retourneert de gegevensset geen juiste gegevensresultaten.
 - Gegevenssets met gepromoveerde of gecertificeerde vermeldingen worden weergegeven in de lijst met beschikbare gegevenssets, maar ze worden niet als zodanig gemarkeerd. 
 - U kunt geen gepagineerde rapporten insluiten die zijn gebaseerd op gedeelde Power BI-gegevenssets in het scenario 'App is eigenaar van gegevens'.
 

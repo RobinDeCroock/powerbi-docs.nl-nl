@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/15/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 472f2ecce2e28fcb7d50356ec1322f67f2395411
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: d162f4c4bb481eadc01fc1fac09c8b25e084fdbf
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136000"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946933"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Modelrelaties in Power BI Desktop
 
@@ -32,7 +32,7 @@ Relatiepaden zijn deterministisch, wat betekent dat filters altijd op dezelfde m
 
 Laten we eens kijken hoe relaties filters doorgeven met een geanimeerd voorbeeld.
 
-![Geanimeerd voorbeeld van het doorgeven van filters door relatie](media/desktop-relationships-understand/animation-filter-propagation.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-filter-propagation.gif" alt-text="Geanimeerd voorbeeld van het doorgeven van filters door relatie.":::
 
 In dit voorbeeld bestaat het model uit vier tabellen: **Categorie**, **Product**, **Jaar** en **Verkoop**. De tabel **Categorie** is gekoppeld aan de tabel **Product** en de tabel **Product** is gekoppeld aan de tabel **Verkoop**. De tabel **Jaar** is ook gekoppeld aan de tabel **Verkoop**. Alle relaties zijn een-op-veel (de details worden verderop in dit artikel beschreven).
 
@@ -150,7 +150,7 @@ Een samengesteld model kan echter bestaan uit tabellen die gebruikmaken van vers
 
 Laten we een voorbeeld van een samengesteld model bekijken.
 
-![Voorbeeld van een samengesteld model dat bestaat uit twee eilanden](media/desktop-relationships-understand/data-island-example.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee eilanden.":::
 
 In dit voor beeld bestaat het samengestelde model uit twee eilanden: een Vertipaq-gegevenseiland en een DirectQuery-brongegevenseiland. Het Vertipaq-gegevenseiland bevat drie tabellen en het DirectQuery-brongegevenseiland bevat twee tabellen. Er bestaat één kruis-eilandrelatie om een tabel in het Vertipaq-gegevenseiland te koppelen aan een tabel in het DirectQuery-brongegevenseiland.
 
@@ -158,9 +158,9 @@ In dit voor beeld bestaat het samengestelde model uit twee eilanden: een Vertipa
 
 Een modelrelatie is _gewoon_ wanneer de query-engine de 'een'-zijde van de relatie kan bepalen. Er wordt bevestigd dat de 'een'-zijde enkele waarden bevat. Alle een-op-veel-relaties binnen eilanden zijn een gewone relatie.
 
-Het volgende voorbeeld bevat twee gewone relaties, gemarkeerd met een **S**. Deze relaties zijn de een-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie in de DirectQuery-bron.
+Het volgende voorbeeld bevat twee gewone relaties, gemarkeerd met een **R**. Deze relaties zijn de een-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie in de DirectQuery-bron.
 
-![Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de gewone relaties zijn gemarkeerd](media/desktop-relationships-understand/data-island-example-strong.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de gewone relaties zijn gemarkeerd.":::
 
 Bij Import-modellen, waarbij alle gegevens worden opgeslagen in de Vertipaq-cache, wordt bij het vernieuwen van gegevens een gegevensstructuur gemaakt voor elke gewone relatie. De gegevensstructuren bestaan uit geïndexeerde toewijzingen van alle kolom-naar-kolom-waarden. Het doel hiervan is het koppelen van tabellen tijdens het uitvoeren van query's te versnellen.
 
@@ -177,7 +177,7 @@ De lege virtuele rijen worden _onbekende leden_. Onbekende leden vertegenwoordig
 
 Laten we eens kijken hoe tabeluitbreidingen werken aan de hand van een geanimeerd voorbeeld.
 
-![Geanimeerd voorbeeld van tabeluitbreiding](media/desktop-relationships-understand/animation-expanded-table.gif)
+:::image type="content" source="media/desktop-relationships-understand/animation-expanded-table.gif" alt-text="Geanimeerd voorbeeld van tabeluitbreiding.":::
 
 In dit voorbeeld bestaat het model uit drie tabellen: **Categorie**, **Product** en **Verkoop**. De tabel **Categorie** is gekoppeld aan de tabel **Product** met een een-op-veel-relatie en de tabel **Product** is gekoppeld aan de tabel **Verkoop** met een een-op-veel-relatie. De tabel **Categorie** bevat twee rijen, de tabel **Product** bevat drie rijen en de tabellen **Verkoop** bevatten vijf rijen. Er zijn overeenkomende waarden aan beide zijden van alle relaties, wat betekent dat er geen schendingen van de referentiële integriteit zijn. Tijdens het uitvoeren van de query wordt er een uitgebreide tabel getoond. De tabel bestaat uit de kolommen van alle drie de tabellen. Het is in feite een gedenormaliseerd perspectief van de gegevens in de drie tabellen. Er wordt een nieuwe rij toegevoegd aan de tabel **Verkoop** en deze heeft een productie-id-waarde (9) die geen overeenkomende waarde bevat in de tabel **Product**. Dit is een schending van de referentiële integriteit. In de uitgebreide tabel bevat de nieuwe rij (lege) waarden in de kolommen van de tabellen **Categorie** en **Product**.
 
@@ -188,9 +188,9 @@ Een model relatie is _beperkt_ wanneer er geen gegarandeerde 'een'-zijde is. Dit
 - De relatie maakt gebruik van het type kardinaliteit veel-op-veel (zelfs als een of beide kolommen enkele waarden bevatten)
 - Het is een kruis-eilandrelatie (wat alleen het geval kan zijn bij gecombineerde modellen)
 
-Het volgende voorbeeld bevat twee beperkte relaties, gemarkeerd met een **W**. Deze twee relaties zijn de veel-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie tussen eilanden in de DirectQuery-bron.
+Het volgende voorbeeld bevat twee beperkte relaties, gemarkeerd met een **L**. Deze twee relaties zijn de veel-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie tussen eilanden in de DirectQuery-bron.
 
-![Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de beperkte relaties zijn gemarkeerd](media/desktop-relationships-understand/data-island-example-weak.png)
+:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de beperkte relaties zijn gemarkeerd.":::
 
 Bij Import-modellen worden nooit gegevensstructuren voor beperkte relaties gemaakt. Dit betekent dat tabelsamenvoegingen moeten worden opgelost tijdens het uitvoeren van de query.
 

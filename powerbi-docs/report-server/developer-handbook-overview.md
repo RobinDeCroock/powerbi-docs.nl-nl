@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: 1f7a04ca8920ef56e0e7de4efad47afa894e76d7
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861171"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95011994"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Overzicht van het ontwikkelaarshandboek voor Power BI Report Server
 
@@ -42,7 +42,13 @@ U hebt verschillende API-opties voor interactie met Power BI Report Server. Deze
 U kunt ook de [open source-hulpprogramma’s van PowerShell](https://github.com/Microsoft/ReportingServicesTools) gebruiken om de rapportserver te beheren.
 
 > [!NOTE]
-> De hulpprogramma's van PowerShell bieden momenteel geen ondersteuning voor Power BI Desktop-bestanden (.pbix).
+> De hulpprogramma's van PowerShell bieden ondersteuning voor Power BI Desktop-bestanden (.pbix) via de -RsRest*-opdrachten.
+
+Voer de volgende opdracht uit om te ontdekken welke opdrachten in de PowerShell-module ReportingServicesTools ondersteuning bieden voor Power BI Desktop-bestanden (.pbix).
+
+```powershell
+Get-Command -Module ReportingServicesTools -Noun RsRest*
+```
 
 ## <a name="custom-extensions"></a>Aangepaste extensies
 
@@ -65,4 +71,4 @@ Zie [Extension library](/sql/reporting-services/extensions/reporting-services-ex
 [Extensiebibliotheek](/sql/reporting-services/extensions/reporting-services-extension-library)  
 [WMI-provider](/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

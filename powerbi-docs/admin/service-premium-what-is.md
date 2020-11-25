@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/12/2020
+ms.date: 11/20/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: d5879d6a8469b23f6e31e48345ac3ccb5f378cbb
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: fe1714fd0249bba429c705b70e9eb157bffae44b
+ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668207"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "95012032"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -50,16 +50,16 @@ Premium Gen2 biedt de volgende updates of verbeterde ervaring:
     * Minder geheugenbeperkingen
     * Volledige scheiding tussen rapportinteractie en geplande vernieuwingen
 
-* **Verbeterde metrische gegevens** met duidelijke en genormaliseerde gegevens over capaciteitsgebruik, die alleen afhankelijk zijn van de complexiteit van analysebewerkingen die de capaciteit uitvoert, en niet van de grootte, de mate van belasting van het systeem tijdens het uitvoeren ervan, enzovoort. Met de verbeterde metrische gegevens zijn analyse van het gebruik, budgetplanning, terugstortingen en de noodzaak om te upgraden duidelijk zichtbaar met ingebouwde rapportage. Tijdens de preview-periode zullen betere metrische gegevens beschikbaar worden gemaakt en uitgebreid. 
+* **Verbeterde metrische gegevens** met duidelijke en genormaliseerde gegevens over capaciteitsgebruik, die alleen afhankelijk zijn van de complexiteit van analysebewerkingen die de capaciteit uitvoert, en niet van de grootte, de mate van belasting van het systeem tijdens het uitvoeren van analyses, of andere factoren. Met de verbeterde metrische gegevens zijn analyse van het gebruik, budgetplanning, terugstortingen en de noodzaak om te upgraden duidelijk zichtbaar met ingebouwde rapportage. Tijdens de preview-periode zullen betere metrische gegevens beschikbaar worden gemaakt en uitgebreid.
 
-* Met **automatische schaalaanpassing** kan *automatisch* 1 v-core tegelijk voor 24 uur worden toegevoegd wanneer de belasting van de capaciteit de limiet overschrijdt, zodat er geen vertragingen ontstaan door overbelasting. V-cores worden automatisch verwijderd wanneer niet-actieve tijd wordt gedetecteerd. Voor extra v-cores voor uw Azure-abonnement betaalt u per gebruik. Automatische schaalaanpassing wordt beschikbaar gesteld tijdens de evaluatieperiode. 
+* Met **automatische schaalaanpassing** kan *automatisch* één v-core tegelijk voor 24 uur worden toegevoegd wanneer de belasting van de capaciteit de limiet overschrijdt, zodat er geen vertragingen ontstaan door overbelasting. V-cores worden automatisch verwijderd wanneer niet-actieve tijd wordt gedetecteerd. Voor extra v-cores voor uw Azure-abonnement betaalt u per gebruik. Automatische schaalaanpassing wordt beschikbaar gesteld tijdens de evaluatieperiode. 
 
-* Aanzienlijk **minder beheeroverhead**, met proactieve en configureerbare beheerdersmeldingen over het capaciteitsverbruiksniveau en toename van de belasting.
+* **Minder beheeroverhead**, met proactieve en configureerbare beheerdersmeldingen over het capaciteitsverbruiksniveau en toename van de belasting.
 
 
 ### <a name="using-premium-gen2"></a>Met Premium Gen2
 
-U moet Premium Gen2 inschakelen om gebruik te kunnen maken van de updates. Voer de volgende stappen uit om Premium Gen2 in te schakelen:
+Schakel Premium Gen2 in om gebruik te kunnen maken van de updates. Voer de volgende stappen uit om Premium Gen2 in te schakelen:
 
 1. Ga in de beheerportal naar **Capaciteitsinstellingen**.
 2. Selecteer **Power BI Premium**.
@@ -78,10 +78,15 @@ Momenteel zijn de volgende bekende beperkingen van toepassing op Premium Gen2:
 
 2.  De capaciteitsinstellingen voor Premium Gen2 voor specifieke werkbelastingen zijn nog niet zichtbaar op de pagina Premium Gen2-capaciteitsinstellingen in de beheerportal. Om de instellingen te wijzigen verplaatst u de capaciteit naar de oorspronkelijke versie van Premium, wijzigt u de instellingen en stelt u de capaciteit opnieuw in op het gebruik van Premium Gen2. De instellingen voor geheugentoewijzing zijn niet van toepassing op Premium Gen2-capaciteit.
 
-3.  Gegevensstromen met ADLS Gen2-gegevensbronnen werken momenteel niet op Premium Gen2-capaciteit.  
+3.  Als u XMLA op Premium Gen2 wilt gebruiken, moet u ervoor zorgen dat u de meest recente versies van de [hulpprogramma’s voor gegevensmodellering en -beheer](service-premium-connect-tools.md#data-modeling-and-management-tools) gebruikt. 
 
-4.  Als u XMLA op Premium Gen2 wilt gebruiken, moet u ervoor zorgen dat u de meest recente versies van de [hulpprogramma’s voor gegevensmodellering en -beheer](service-premium-connect-tools.md#data-modeling-and-management-tools) gebruikt. 
+4.  Analysis Services-functies in Premium Gen2 worden alleen ondersteund in de meest recente clientbibliotheken. Geschatte releasedatums voor afhankelijke hulpprogramma's ter ondersteuning van deze vereiste zijn:
 
+    |Hulpprogramma|Minimumversie vereist|Geschatte releasedatum|
+    |---|---|---|
+    |SQL Server Management Studio (SSMS)|18,8|8 december 2020|
+    |SQL Server Data Tools (SSDT)|2.9.15|Algemene beschikbaarheid 30 november 2020|
+    | AS PowerShell| Hoger dan 21.1.18229|6 november 2020|
 
 ## <a name="subscriptions-and-licensing"></a>Abonnementen en licenties
 
@@ -92,7 +97,7 @@ Power BI Premium is een Microsoft 365-abonnement op tenantniveau beschikbaar in 
 - **EM**-SKU's (EM1-EM3) voor het insluiten van inhoud in de _organisatie_. Hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
 
 ### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
-Premium Gen2 is momenteel alleen beschikbaar als een volledig ondersteunde preview-functie voor **P**- en **EM**-SKU's. De capaciteit van **A**-SKU’s biedt nog geen extra voordelen van de Premium Gen2-previewupdate.
+Premium Gen2 is momenteel alleen beschikbaar als een volledig ondersteunde preview-functie voor **P**- en **EM**-SKU's. De capaciteit van **A**-SKU's biedt nog geen extra voordelen van de Premium Gen2-previewupdate.
 
 
 ### <a name="purchasing"></a>Aanschaffen
@@ -101,7 +106,7 @@ Power BI Premium-abonnementen worden aangeschaft door beheerders in het Microsof
 
 #### <a name="power-bi-premium-per-user-preview"></a>Power BI Premium per gebruiker (preview-versie)
 
-Met Power BI **Premium Per User** kunnen organisaties Premium-functies licentiëren per gebruiker. Premium Per User (PPU, Premium per gebruiker) omvat alle Power BI Pro-licentiemogelijkheden en voegt ook functies toe zoals gepagineerde rapporten, AI en andere mogelijkheden die alleen beschikbaar zijn voor Premium-abonnees. Premium per gebruiker is momenteel beschikbaar als preview-versie. Raadpleeg het artikel [Veelgestelde vragen over Power BI Premium Per User (preview)](service-premium-per-user-faq.md) voor meer informatie over Premium per gebruiker, met inbegrip van een functievergelijking en andere informatie over de preview-versie. 
+Met Power BI **Premium Per User** kunnen organisaties Premium-functies licentiëren per gebruiker. Premium Per User (PPU, Premium per gebruiker) omvat alle Power BI Pro-licentiemogelijkheden en voegt functies toe zoals gepagineerde rapporten, AI en andere mogelijkheden die alleen beschikbaar zijn voor Premium-abonnees. Premium per gebruiker is momenteel beschikbaar als preview-versie. Raadpleeg het artikel [Veelgestelde vragen over Power BI Premium Per User (preview)](service-premium-per-user-faq.md) voor meer informatie over Premium per gebruiker, met inbegrip van een functievergelijking en andere informatie over de preview-versie. 
 
 
 ## <a name="reserved-capacities"></a>Gereserveerde capaciteit

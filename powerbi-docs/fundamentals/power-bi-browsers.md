@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.date: 03/25/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d218a0cfb66e57e6f52301f8c10bef5cfb137b4b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 340a4739065716e67f9fd1a7d7b78f875805f12b
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361860"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946904"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Ondersteunde browsers voor Power BI
 
-Power BI kan worden gebruikt met al deze ondersteunde browsers, maar de prestaties kunnen per browser verschillen. Vooral als u Internet Explorer gebruikt, kan dat nadelig zijn voor de prestaties. We raden u ten zeerste aan om van Internet Explorer over te stappen op een moderne browser, zoals Microsoft Edge, voor betere prestaties. We verwachten dat de prestaties van Microsoft Edge steeds beter zullen worden dankzij Edge Chromium. Als u nog steeds onaanvaardbare prestaties ondervindt, voert u een test uit met andere ondersteunde moderne browsers om te ontdekken of deze betere resultaten bieden voor uw Power BI-oplossing.
+Power BI kan worden gebruikt met al deze ondersteunde browsers, maar de prestaties kunnen per browser verschillen. Vooral als u Internet Explorer gebruikt, kan dat nadelig zijn voor de prestaties. We raden u ten zeerste aan om van Internet Explorer over te stappen op een moderne browser, zoals Microsoft Edge. Als u nog steeds onaanvaardbare prestaties ondervindt, voert u een test uit met andere ondersteunde moderne browsers om te ontdekken of deze betere resultaten bieden voor uw Power BI-oplossing.
 
 Power BI biedt ondersteuning voor deze browsers op alle platforms waar ze beschikbaar zijn:
 

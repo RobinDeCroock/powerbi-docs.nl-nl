@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 330f844e9c97a3a59ff854ac14612c328b7cb9b6
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 178b79ba4ae76288794f7bb67afba11c0595de7f
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681007"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95513844"
 ---
 # <a name="track-user-activities-in-power-bi"></a>Activiteiten van gebruikers bijhouden in Power BI
 
@@ -54,7 +54,7 @@ U kunt een beheertoepassing op basis van de Power BI REST API's gebruiken om act
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
 ```
 
-Als het aantal items groot is, retourneert de **ActivityEvents** -API slechts ongeveer 5.000 tot 10.000 vermeldingen en een vervolgtoken. Roep de API **ActivityEvents** opnieuw aan met het vervolgtoken om de volgende batch vermeldingen te verkrijgen, enzovoort, totdat u alle vermeldingen hebt opgehaald en u geen vervolgtoken meer ontvangt. In het volgende voorbeeld ziet u hoe u het vervolgtoken gebruikt.
+Als het aantal items groot is, retourneert de **ActivityEvents**-API slechts ongeveer 5.000 tot 10.000 vermeldingen en een vervolgtoken. Roep de API **ActivityEvents** opnieuw aan met het vervolgtoken om de volgende batch vermeldingen te verkrijgen, enzovoort, totdat u alle vermeldingen hebt opgehaald en u geen vervolgtoken meer ontvangt. In het volgende voorbeeld ziet u hoe u het vervolgtoken gebruikt.
 
 ```
 https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
@@ -81,7 +81,7 @@ Zie [Admin - Activiteitgebeurtenissen ophalen](/rest/api/power-bi/admin/getactiv
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
 
-U kunt de activiteitengebeurtenissen downloaden via de Power BI Management-cmdlets voor PowerShell. Met de cmdlet **Get-PowerBIActivityEvent** wordt de vervolgtoken automatisch voor u afgehandeld. De cmdlet **Get-PowerBIActivityEvent** gebruikt een StartDateTime- en een EndDateTime-parameter met dezelfde beperkingen als de REST API **ActivityEvents** . Met andere woorden, de begindatum en einddatum moeten verwijzen naar dezelfde datumwaarde omdat u de gegevens van de activiteit voor maar één dag tegelijk kunt ophalen.
+U kunt de activiteitengebeurtenissen downloaden via de Power BI Management-cmdlets voor PowerShell. Met de cmdlet **Get-PowerBIActivityEvent** wordt de vervolgtoken automatisch voor u afgehandeld. De cmdlet **Get-PowerBIActivityEvent** gebruikt een StartDateTime- en een EndDateTime-parameter met dezelfde beperkingen als de REST API **ActivityEvents**. Met andere woorden, de begindatum en einddatum moeten verwijzen naar dezelfde datumwaarde omdat u de gegevens van de activiteit voor maar één dag tegelijk kunt ophalen.
 
 In het volgende script ziet u hoe u alle Power BI-activiteiten kunt downloaden. Met de opdracht worden de resultaten van JSON geconverteerd naar .NET-objecten voor eenvoudige toegang tot eigenschappen van afzonderlijke activiteiten. In deze voorbeelden ziet u de kleinste en grootste tijdstempels die op een dag kunnen worden gebruikt om er zeker van te zijn dat er geen gebeurtenissen worden gemist.
 
@@ -136,13 +136,13 @@ Als u logboeken wilt raadplegen, moet logboekregistratie zijn ingeschakeld in Po
 
 De Power BI-auditlogboeken zijn rechtstreeks beschikbaar via het [Office 365-centrum voor beveiliging en naleving](https://sip.protection.office.com/#/unifiedauditlog). Er is ook een koppeling vanuit de Power BI-beheerportal:
 
-1. Selecteer in Power BI rechtsboven het **tandwielpictogram** en selecteer vervolgens **Beheerportal** .
+1. Selecteer in Power BI rechtsboven het **tandwielpictogram** en selecteer vervolgens **Beheerportal**.
 
    ![Schermafbeelding van de vervolgkeuzelijst Instellingen met de optie Beheerportal geaccentueerd.](media/service-admin-auditing/powerbi-admin.png)
 
-1. Selecteer **Auditlogboeken** .
+1. Selecteer **Auditlogboeken**.
 
-1. Selecteer **Naar het Microsoft 365-beheercentrum gaan** .
+1. Selecteer **Naar het Microsoft 365-beheercentrum gaan**.
 
    ![Schermafbeelding van de beheerportal met de opties Auditlogboeken en Naar het Microsoft 365-beheercentrum geaccentueerd.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
@@ -150,9 +150,9 @@ De Power BI-auditlogboeken zijn rechtstreeks beschikbaar via het [Office 365-cen
 
 Volg deze stappen om de resultaten te beperken tot alleen Power BI-activiteiten. Raadpleeg voor een lijst activiteiten de [Lijst van activiteiten die worden gecontroleerd door Power BI](#operations-available-in-the-audit-and-activity-logs). Deze lijst staat verderop in dit artikel.
 
-1. Klik op de pagina **Auditlogboeken zoeken** onder **Zoeken** op de pijl-omlaag bij **Activiteiten** .
+1. Klik op de pagina **Auditlogboeken zoeken** onder **Zoeken** op de pijl-omlaag bij **Activiteiten**.
 
-2. Selecteer **Power BI-activiteiten** .
+2. Selecteer **Power BI-activiteiten**.
 
    ![Schermopname van zoeken in de auditlogboeken met Power BI-activiteiten geaccentueerd.](media/service-admin-auditing/audit-log-search-filter-by-powerbi.png)
 
@@ -162,21 +162,21 @@ Met uw zoekopdrachten worden alleen Power BI activiteiten gevonden.
 
 ### <a name="search-the-audit-logs-by-date"></a>Op datum zoeken in auditlogboeken
 
-U kunt op datumbereik zoeken in de logboeken met behulp van de velden **Begindatum** en **Einddatum** . De standaardselectie is de afgelopen zeven dagen. De datum en tijd worden weergegeven in de UTC-notatie (Coordinated Universal Time). Het maximale datumbereik dat u kunt opgeven is 90 dagen. 
+U kunt op datumbereik zoeken in de logboeken met behulp van de velden **Begindatum** en **Einddatum**. De standaardselectie is de afgelopen zeven dagen. De datum en tijd worden weergegeven in de UTC-notatie (Coordinated Universal Time). Het maximale datumbereik dat u kunt opgeven is 90 dagen. 
 
-Er treedt een fout op als het geselecteerde datumbereik groter is dan 90 dagen. Als u het maximale datumbereik van 90 dagen gebruikt, selecteert u de huidige tijd voor **Begindatum** . Anders krijgt u een foutmelding met de mededeling dat de begindatum voor de einddatum valt. Als u controles hebt ingeschakeld in de afgelopen 90 dagen, kan het datumbereik niet beginnen voor de datum waarop controles zijn ingeschakeld.
+Er treedt een fout op als het geselecteerde datumbereik groter is dan 90 dagen. Als u het maximale datumbereik van 90 dagen gebruikt, selecteert u de huidige tijd voor **Begindatum**. Anders krijgt u een foutmelding met de mededeling dat de begindatum voor de einddatum valt. Als u controles hebt ingeschakeld in de afgelopen 90 dagen, kan het datumbereik niet beginnen voor de datum waarop controles zijn ingeschakeld.
 
 ![Schermopname van zoeken in de auditlogboeken met de opties Begindatum en Einddatum geaccentueerd.](media/service-admin-auditing/search-audit-log-by-date.png)
 
 ### <a name="search-the-audit-logs-by-users"></a>Op gebruiker zoeken in auditlogboeken
 
-U kunt zoeken naar vermeldingen in het auditlogboek voor activiteiten die zijn uitgevoerd door specifieke gebruikers. Hiervoor typt u een of meer gebruikersnamen in het veld **Gebruikers** . De gebruikersnaam ziet eruit als een e-mailadres. Het is het account waarmee gebruikers zich aanmelden bij Power BI. Laat dit vak leeg om vermeldingen weer te geven voor alle gebruikers (en serviceaccounts) in uw organisatie.
+U kunt zoeken naar vermeldingen in het auditlogboek voor activiteiten die zijn uitgevoerd door specifieke gebruikers. Hiervoor typt u een of meer gebruikersnamen in het veld **Gebruikers**. De gebruikersnaam ziet eruit als een e-mailadres. Het is het account waarmee gebruikers zich aanmelden bij Power BI. Laat dit vak leeg om vermeldingen weer te geven voor alle gebruikers (en serviceaccounts) in uw organisatie.
 
 ![Schermopname van zoek in de auditlogboeken met de optie Gebruikers geaccentueerd.](media/service-admin-auditing/search-audit-log-by-user.png)
 
 ### <a name="view-search-results"></a>Zoekresultaten weergeven
 
-Nadat u **Zoeken** hebt geselecteerd, worden de zoekresultaten geladen. Na enkele ogenblikken worden ze weergegeven onder **Resultaten** . Wanneer de zoekopdracht is voltooid, wordt het aantal gevonden resultaten weergegeven. Met **Zoeken in logboeken** worden maximaal 1000 gebeurtenissen gevonden. Als meer dan 1000 gebeurtenissen voldoen aan de zoekcriteria, geeft de app de meest recente 1000 gebeurtenissen weer.
+Nadat u **Zoeken** hebt geselecteerd, worden de zoekresultaten geladen. Na enkele ogenblikken worden ze weergegeven onder **Resultaten**. Wanneer de zoekopdracht is voltooid, wordt het aantal gevonden resultaten weergegeven. Met **Zoeken in logboeken** worden maximaal 1000 gebeurtenissen gevonden. Als meer dan 1000 gebeurtenissen voldoen aan de zoekcriteria, geeft de app de meest recente 1000 gebeurtenissen weer.
 
 #### <a name="view-the-main-results"></a>De belangrijkste resultaten bekijken
 
@@ -187,7 +187,7 @@ Het gebied **Resultaten** bevat de volgende informatie voor elke gebeurtenis die
 | Datum |De datum en tijd (in UTC-notatie) wanneer de gebeurtenis heeft plaatsgevonden. |
 | IP-adres |Het IP-adres van het apparaat dat is gebruikt voor de geregistreerde activiteit. Het IP-adres wordt weergegeven in de adresnotatie van IPv4 of IPv6. |
 | Gebruiker |De gebruiker (of het serviceaccount) die de actie heeft uitgevoerd die de gebeurtenis heeft veroorzaakt. |
-| Activiteit |De activiteit die is uitgevoerd door de gebruiker. Deze waarde komt overeen met de activiteiten die u hebt geselecteerd in de vervolgkeuzelijst **Activiteiten** . Voor een gebeurtenis uit het auditlogboek van de Exchange-beheerder is de waarde in deze kolom een Exchange-cmdlet. |
+| Activiteit |De activiteit die is uitgevoerd door de gebruiker. Deze waarde komt overeen met de activiteiten die u hebt geselecteerd in de vervolgkeuzelijst **Activiteiten**. Voor een gebeurtenis uit het auditlogboek van de Exchange-beheerder is de waarde in deze kolom een Exchange-cmdlet. |
 | Item |Het object dat is gemaakt of gewijzigd als gevolg van de bijbehorende activiteit. Dit kan bijvoorbeeld het weergegeven of gewijzigde bestand zijn of het bijgewerkte gebruikersaccount. Niet alle activiteiten hebben een waarde in deze kolom. |
 | Detail |Aanvullende details van een activiteit. Ook hier hebben niet alle activiteiten een waarde. |
 
@@ -195,7 +195,7 @@ Het gebied **Resultaten** bevat de volgende informatie voor elke gebeurtenis die
 
 Als u meer gegevens van een gebeurtenis wilt bekijken, selecteert u de record van de gebeurtenis in de lijst met zoekresultaten. Er verschijnt een pagina **Details** met de gedetailleerde eigenschappen uit de gebeurtenisrecord. De eigenschappen die worden weergegeven op de pagina **Details** zijn afhankelijk van de Microsoft 365-service waarin de gebeurtenis zich voordoet.
 
-Als u deze informatie wilt weergeven, selecteert u **Meer informatie** . Alle Power BI-vermeldingen hebben een waarde van 20 voor de eigenschap RecordType. Voor informatie over andere eigenschappen raadpleegt u [Gedetailleerde eigenschappen in het auditlogboek](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
+Als u deze informatie wilt weergeven, selecteert u **Meer informatie**. Alle Power BI-vermeldingen hebben een waarde van 20 voor de eigenschap RecordType. Voor informatie over andere eigenschappen raadpleegt u [Gedetailleerde eigenschappen in het auditlogboek](/office365/securitycompliance/detailed-properties-in-the-office-365-audit-log/).
 
    ![Schermafbeelding van het dialoogvenster met details van de controle en de optie Meer informatie geaccentueerd.](media/service-admin-auditing/audit-details.png)
 
@@ -203,9 +203,9 @@ Als u deze informatie wilt weergeven, selecteert u **Meer informatie** . Alle Po
 
 Als u het Power BI-auditlogboek wilt exporteren als een CSV-bestand, volgt u deze stappen.
 
-1. Selecteer **Resultaten exporteren** .
+1. Selecteer **Resultaten exporteren**.
 
-1. Selecteer **Geladen resultaten opslaan** of **Alle resultaten downloaden** .
+1. Selecteer **Geladen resultaten opslaan** of **Alle resultaten downloaden**.
 
     ![Schermopname van de optie Resultaten exporteren met de optie Alle resultaten downloaden geaccentueerd.](media/service-admin-auditing/export-auditing-results.png)
 
@@ -276,6 +276,9 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI Gateway gemaakt                          | CreateGateway                               |                                          |
 | Power BI-groep gemaakt                            | CreateGroup                                 |                                          |
 | Power BI-rapport gemaakt                           | CreateReport <sup>1</sup>                                |                                          |
+| De werkruimte voor Power BI-sjabloon-apps maken | CreateTemplateApp   |
+| Installatieticket voor Power BI-sjabloon-apps maken | CreateTemplateAppInstallTicket |
+| Pakket voor Power BI-sjabloon-apps maken | CreateTemplateAppPackage |
 | Aangepaste visual heeft Azure AD-toegangstoken aangevraagd                           | GenerateCustomVisualAADAccessToken                                |                                          |
 | Aangepaste visual vereist Office Web Apps-toegangstoken                           | GenerateCustomVisualWACAccessToken                                |                                          |
 | Gegevensstroom gemigreerd naar extern opslagaccount     | DataflowMigratedToExternalStorageAccount    | Momenteel niet gebruikt                       |
@@ -294,6 +297,8 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI Gateway verwijderd                          | DeleteGateway                               |                                          |
 | Power BI-groep verwijderd                            | DeleteGroup                                 |                                          |
 | Power BI-rapport verwijderd                           | DeleteReport                                |                                          |
+| De werkruimte voor Power BI-sjabloon-apps verwijderen | DeleteTemplateApp |
+| Pakket voor Power BI-sjabloon-app is verwijderd | DeleteTemplateAppPackage |
 | Geïmplementeerd in een pijplijnfase                           | DeployAlmPipeline                                |                                          |
 | Gegevensbronnen voor Power BI-gegevensset gedetecteerd          | GetDatasources                              |                                          |
 | Power BI-rapport gedownload                        | DownloadReport                              |                                          |
@@ -306,6 +311,7 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI-gegevensstroom geëxporteerd                        | ExportDataflow                              |                                          |
 | Visuele gegevens van Power BI-rapport geëxporteerd              | ExportReport                                |                                          |
 | Power BI-tegelgegevens geëxporteerd                       | ExportTile                                  |                                          |
+| Het pakket voor de Power BI-sjabloon-app is uitgepakt naar de werkruimte | ExtractTemplateAppPackage |
 | Kan machtigingen voor gegevensstroom niet toevoegen                | FailedToAddDataflowPermissions              | Momenteel niet gebruikt                       |
 | Kan machtigingen voor gegevensstroom niet verwijderen             | FailedToRemoveDataflowPermissions           | Momenteel niet gebruikt                       |
 | SAS-token van Power BI-gegevensstroom gegenereerd             | GenerateDataflowSasToken                    |                                          |
@@ -313,10 +319,12 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Schermopname genereren                       | GenerateScreenshot |                     |
 | Bestand naar Power BI geïmporteerd                         | Importeren                                      |                                          |
 | Power BI-app geïnstalleerd                            | InstallApp                                  |                                          |
+| Power BI-sjabloon-app geïnstalleerd | InstallTemplateApp |
 | Werkruimte gemigreerd naar een capaciteit                  | MigrateWorkspaceIntoCapacity                |                                          |
 | Power BI-opmerking geplaatst                           | PostComment                                 |                                          |
 | Power BI-dashboard afgedrukt                        | PrintDashboard                              |                                          |
 | Pagina van Power BI-rapport afgedrukt                      | PrintReport                                 |                                          |
+| Pakket voor Power BI-sjabloon-app gepromoveerd | PromoteTemplateAppPackage |
 | Power BI-rapport gepubliceerd op internet                  | PublishToWebReport <sup>2</sup>                         |                                          |
 | Gepubliceerde of bijgewerkte aanbevolen tabellen | UpdateFeaturedTables <sup>3</sup>   | |
 | Geheim van Power BI-gegevensstroom ontvangen uit Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
@@ -348,6 +356,7 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Weergavenaam van de capaciteit bijgewerkt                     | UpdateCapacityDisplayName                   |                                          |
 | Bijgewerkte toewijzingsmachtigingen voor gegevensstroomopslag   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | Toegang voor implementatiepijplijn bijgewerkt   | UpdateAlmPipelineAccess |                                          |
+| Geïnstalleerde parameters voor Power BI-sjabloon-apps zijn bijgewerkt | UpdateInstalledTemplateAppParameters |
 | Configuratie van de implementatiepijplijn bijgewerkt   | SetConfigurationAlmPipeline |                                          |
 | Power BI-instellingen van organisatie bijgewerkt          | UpdatedAdminFeatureSwitch                   |                                          |
 | Power BI-app bijgewerkt                              | UpdateApp                                   |                                          |
@@ -358,6 +367,8 @@ De volgende bewerkingen zijn beschikbaar in de controle- en activiteitenlogboeke
 | Power BI-map bijgewerkt                           | UpdateFolder                                |                                          |
 | Toegang tot Power BI-map bijgewerkt                    | UpdateFolderAccess                          |                                          |
 | Referenties van gegevensbron van Power BI-gateway bijgewerkt  | UpdateDatasourceCredentials                 |                                          |
+| Instellingen voor Power BI-sjabloon-apps bijgewerkt | UpdateTemplateAppSettings |
+| De toegangsmachtigingen voor Power BI-sjabloon-apps zijn bijgewerkt | UpdateTemplateAppTestPackagePermissions |
 | Power BI-dashboard bekeken                         | ViewDashboard                               |                                          |
 | Power BI-gegevensstroom bekeken                          | ViewDataflow                                |                                          |
 | Power BI-rapport bekeken                            | ViewReport                                  |                                          |

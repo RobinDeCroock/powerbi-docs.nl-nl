@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: contperfq1
 ms.date: 10/21/2020
-ms.openlocfilehash: 6c1e4212cb991ff7eb3d0f8a5e336010499bcd1c
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 5799b0367c903eea55357969a2d4383a5f4c0c7b
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668598"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514327"
 ---
 # <a name="understand-the-deployment-process"></a>Uitleg over het implementatieproces
 
@@ -286,6 +286,8 @@ In deze sectie worden de meeste beperkingen in implementatiepijplijnen vermeld.
 * Power BI-items, zoals rapporten en dashboards, met Power BI-[vertrouwelijkheidslabels](../admin/service-security-sensitivity-label-overview.md), kunnen niet worden geïmplementeerd.
 
 * Het maximum aantal Power BI-items dat in één implementatie kan worden geïmplementeerd, is 300.
+
+* Het downloaden van een pbix-bestand na de implementatie wordt niet ondersteund.
 
 * Zie [Beperkingen voor werkruimtetoewijzing](deployment-pipelines-get-started.md#workspace-assignment-limitations) voor een lijst met beperkingen voor werkruimten.
 

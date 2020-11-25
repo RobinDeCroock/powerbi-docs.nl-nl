@@ -7,18 +7,18 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: reference
-ms.date: 08/24/2020
+ms.date: 11/21/2020
 ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: 47526e06da24f720f273c45616a012483f077ed5
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: c2da54406a01d5216355b8e0abc30ea63a6b2f5e
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916585"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514258"
 ---
 # <a name="glossary-for-business-users-of-the-power-bi-service"></a>Verklarende woordenlijst voor zakelijke gebruikers van de Power BI-service    
-In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI- *elementen* en hoe deze met elkaar zijn verbonden.
+In de Power BI-service wordt mogelijk terminologie gebruikt die u niet kent of die verwarrend is. In deze verklarende woordenlijst kunt u terminologie opzoeken. U kunt zelfs overwegen om deze pagina in uw bladwijzers op te slaan. [Basisconcepten](end-user-basic-concepts.md) is ook een uitstekende resource om meer te weten te komen over de verschillende elementen waar de Power BI-service uit bestaat. Basisconcepten biedt een algemeen overzicht van de Power BI-*elementen* en hoe deze met elkaar zijn verbonden.
 
 Deze verklarende woordenlijst is met behulp van de community opgesteld.  Ontbreekt er volgens u een term? Vraag ons de term toe te voegen. U kunt hiervoor de documentatiefeedbackknop onder aan dit artikel gebruiken.
 
@@ -31,7 +31,7 @@ Gebruik uw werk- of schoolaccount om u aan te melden bij Power BI. Beheerders be
 De locatie waar Power BI-beheerders de gebruikers, functies en instellingen voor Power BI in hun organisatie beheren. (Opmerking: bij Microsoft 365, Azure en PowerApps wordt gebruikgemaakt van het beheercentrum.)
 
 **aggregaties**    
-Wanneer de waarden van meerdere rijen worden gegroepeerd als invoer voor criteria. Zo wordt er één waarde gevormd die meer betekenis heeft of een specifieker meetresultaat biedt.
+Wanneer de waarden van meerdere rijen worden gegroepeerd als invoer voor criteria. Zo wordt er één waarde gevormd die meer betekenis heeft of een specifieker meetresultaat biedt. Alleen impliciete metingen (zie de definitie hieronder) kunnen worden geaggregeerd.
 
 **aggregatie**    
 Het verminderen van het aantal rijen in onderliggende gegevensbronnen zodat ze in een model passen. Het resultaat is een aggregatie.
@@ -50,9 +50,6 @@ Gecentraliseerde online opslagplaats waarin u kunt bladeren en dashboards, rappo
 
 **ArcGIS voor Power BI**    
 ArcGIS is een toewijzings- en analyseplatform dat is gemaakt door het bedrijf ESRI. De naam van de visual uit de Power BI-visualbibliotheek heet ArcGIS voor Power BI.
-
-**toewijzen**    
-[Power BI Premium] Werkwoord voor het verplaatsen van een werkruimte naar een capaciteit of om deze er weer uit te halen. Gebruik de optie Promoten niet voor het verplaatsen van een werkruimte naar een capaciteit, want dan staat de toegewezen capaciteit boven de gedeelde capaciteit. 
 
 **Auto Insights**    
 Wordt nu *Snelle inzichten* genoemd.
@@ -73,7 +70,7 @@ De navigatie linksboven waarmee snel kan worden genavigeerd tussen rapporten en 
 Een wiskundige bepaling van de grootte of het aantal van iets.
 
 **Capaciteit**    
-[Power BI Premium] Gegevensmodellen die worden uitgevoerd op specifieke hardware in Microsoft-clouddatacentra om te zorgen voor consistente prestaties op schaal. BI-oplossingen worden aan de gehele organisatie aangeboden, onafhankelijk van de Power BI-licentie.
+[Power BI Premium] Gegevensmodellen die worden uitgevoerd op hardware die volledig wordt beheerd door Microsoft in Microsoft-clouddatacentra om te zorgen voor consistente prestaties op schaal. BI-oplossingen worden aan de gehele organisatie aangeboden, onafhankelijk van de Power BI-licentie.
 
 **kaart** (visueel type)    
 Een [visualtype](end-user-visual-type.md) van Power BI.
@@ -122,7 +119,7 @@ Visuals die worden gemaakt door de community en Microsoft. Ze kunnen worden gedo
 ## <a name="d"></a>D
 
 **dashboard**    
-Een selectie van visuals die status en metrische gegevens communiceren. In een dashboard worden gegevens op een gebruiksvriendelijke manier geordend en weergegeven.
+Een dashboars is één pagina in de Power BI-service, ook wel een canvas genoemd, die gebruikmaakt van visuals om een verhaal te vertellen. Omdat het beperkt is tot één pagina, bevat een goed ontworpen dashboard alleen de belangrijkste elementen van dat verhaal. Dashboards kunnen alleen worden gemaakt en weergegeven in de Power BI-service en niet in Power BI Desktop. Zie [basisconcepten, dashboards](end-user-basic-concepts.md) voor meer informatie.
 
 **gegevensclassificatie**    
 Zie classificatie
@@ -178,6 +175,9 @@ Het proces van het integreren van analyses in apps aan de hand van de Power BI R
 
 [Power BI Desktop, Power BI Mobiel, de Power BI-service, enzovoort] Een andere manier om te verwijzen naar een van de hulpprogramma’s van Power BI. U kunt de term 'Power BI-omgeving (tenant)' prima gebruiken in documentatie. Bedrijfsanalisten die bekend zijn met de term 'tenant' weten dan dat de termen hetzelfde betekenen.
 
+**impliciete metingen**    
+Power BI maakt gebruik van expliciete metingen en impliciete metingen (zie de definitie hieronder). Expliciete metingen worden gemaakt door rapportontwerpers en opgeslagen met de gegevensset. Ze worden weer gegeven in Power BI als velden en kunnen daarom herhaaldelijk worden gebruikt. Een rapportontwerper maakt bijvoorbeeld een expliciete meting *TotalInvoice* waarmee alle factuurbedragen worden opgeteld. Collega's die deze gegevensset gebruiken en die bewerkingstoegang hebben tot het rapport, kunnen dat veld selecteren en gebruiken om een visual te maken. Wanneer een expliciete meting wordt toegevoegd of naar een rapportcanvas wordt gesleept, past Power BI geen aggregatie toe.  Voor het maken van expliciete metingen is vereist dat u bewerkingstoegang hebt tot de gegevensset. 
+
 ## <a name="f"></a>F
 
 **aan favorieten toevoegen, uit favorieten verwijderen**
@@ -216,6 +216,9 @@ Dit is de standaardlandingspagina voor gebruikers van de Power BI-service. Hierm
 
 ## <a name="i"></a>I
 
+**impliciete metingen**    
+Power BI maakt gebruik van impliciete metingen en expliciete metingen (zie de definitie hieronder). Impliciete metingen worden dynamisch gemaakt.  Wanneer u bijvoorbeeld een veld naar het rapportcanvas sleept om een visual te maken. Power BI aggregeert de waarde automatisch met behulp van een van de ingebouwde standaardaggregaties (SUM, COUNT, MIN, AVG, enzovoort). Voor het maken van impliciete metingen is vereist dat u bewerkingstoegang hebt tot het rapport. 
+
 **inzichten**    
 Zie **snelle inzichten**.
 
@@ -231,7 +234,7 @@ Key performance indicators. Een type visual.
 ## <a name="l"></a>L
 
 **linkernavigatiebalk (linkernavigatie)**     
-Dit is vervangen door het **navigatiedeelvenster** , maar is zo nu en dan nog in documentatie terug te vinden.    
+Dit is vervangen door het **navigatiedeelvenster**, maar is zo nu en dan nog in documentatie terug te vinden.    
 De besturingselementen aan de linkerkant van de Power BI-service.
 
 Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine ruimten: navigatievenster
@@ -239,9 +242,9 @@ Eerste exemplaar: navigatiedeelvenster Daaropvolgende vermeldingen of kleine rui
 **licentie**    
 Uw toegangsniveau wordt bepaald door de Power BI-licentie die is gekoppeld aan uw account en het capaciteitstype waar inhoud wordt opgeslagen. In een gedeelde capaciteit kan een gebruiker met een Power BI Pro-licentie alleen samenwerken met gebruikers die ook een Pro-licentie hebben. Bij gedeelde capaciteit heeft een gratis licentie alleen toegang tot de persoonlijke werkruimte van de gebruiker. Maar wanneer de inhoud zich in de Premium-capaciteit bevindt, kunnen gebruikers met een Pro-licentie de inhoud delen met gebruikers die een gratis licentie hebben toegewezen gekregen. 
 
-Een licentie wordt toegewezen aan een gebruiker en kan een gratis of Pro-licentie zijn. Afhankelijk van hoe de licentie is verkregen, kan deze betaald of gratis zijn. De accounts zijn: accounts per gebruiker of organisatieaccounts. Accounts per gebruiker zijn beschikbaar als *gratis account* of een *Pro-account*.  Een Power BI-gebruiker met een *gratis* account is een zelfstandige gebruiker van Power BI Desktop of gebruikt de Power BI-service zelfstandig binnen een organisatie met een Premium-organisatieabonnement. Het Power BI *Pro* -account per gebruiker is een betaald maandabonnement dat samenwerking en het delen van inhoud met andere *Pro* -gebruikers mogelijk maakt. 
+Een licentie wordt toegewezen aan een gebruiker en kan een gratis of Pro-licentie zijn. Afhankelijk van hoe de licentie is verkregen, kan deze betaald of gratis zijn. De accounts zijn: accounts per gebruiker of organisatieaccounts. Accounts per gebruiker zijn beschikbaar als *gratis account* of een *Pro-account*.  Een Power BI-gebruiker met een *gratis* account is een zelfstandige gebruiker van Power BI Desktop of gebruikt de Power BI-service zelfstandig binnen een organisatie met een Premium-organisatieabonnement. Het Power BI *Pro*-account per gebruiker is een betaald maandabonnement dat samenwerking en het delen van inhoud met andere *Pro*-gebruikers mogelijk maakt. 
 
-Met het *Premium* -organisatieabonnement (ook wel het *Premium-capaciteits* account genoemd) wordt een laag met functies toegevoegd aan de licenties van een account per gebruiker. Zo kunnen gebruikers met een *gratis* account per gebruiker in een organisatie die een *Premium* -abonnement heeft, veel meer doen met Power BI dan gebruikers met een *gratis* account zonder *Premium*. Zo kunnen gebruikers met een *gratis* licentie in *Premium* -organisatieaccounts samenwerken met collega's en inhoud bekijken die wordt gehost op Power BI Premium-capaciteit. 
+Met het *Premium*-organisatieabonnement (ook wel het *Premium-capaciteits* account genoemd) wordt een laag met functies toegevoegd aan de licenties van een account per gebruiker. Zo kunnen gebruikers met een *gratis* account per gebruiker in een organisatie die een *Premium*-abonnement heeft, veel meer doen met Power BI dan gebruikers met een *gratis* account zonder *Premium*. Zo kunnen gebruikers met een *gratis* licentie in *Premium*-organisatieaccounts samenwerken met collega's en inhoud bekijken die wordt gehost op Power BI Premium-capaciteit. 
 
 **lijstpagina** of **inhoudslijst**    
 Een van de sectiepagina's van de elementen in het navigatievenster. Voorbeelden: Favorieten, Recent, Mijn werkruimte, etc.
@@ -304,7 +307,7 @@ De bestandsextensie voor aangepaste visuals in Power BI.
 De bestandsextensie voor een Power BI Desktop-bestand.
 
 **machtigingen**    
-Wat een gebruiker wel en niet mag doen in Power BI wordt bepaald aan de hand van machtigingen. Als *consument* hebt u niet dezelfde machtigingen als een *ontwerper* , beheerder of ontwikkelaar.
+Wat een gebruiker wel en niet mag doen in Power BI wordt bepaald aan de hand van machtigingen. Als *consument* hebt u niet dezelfde machtigingen als een *ontwerper*, beheerder of ontwikkelaar.
 
 **telefoonrapport**    
 De naam van een Power BI-rapport dat is opgemaakt voor weergave op telefoons.
@@ -315,8 +318,8 @@ De gebruikersinterface in de Power BI-service voor het opmaken van telefoonrappo
 **vastmaken, losmaken**    
 De actie die een *rapportontwerper* van een visual, meestal vanuit een rapport, uitvoert op een dashboard.
 
-**Power BI** , **Power BI service** , **Power BI Desktop** , **Power BI mobile**    
-Een greep uit de Power BI-producten. *Power BI* is de algemene term. De term wordt vaak gebruikt in plaats van een volledige productnaam, zoals de *Power BI-service* en *Power BI - Mobiel* , nadat de volledige productnaam een keer is vermeld.
+**Power BI**, **Power BI service**, **Power BI Desktop**, **Power BI mobile**    
+Een greep uit de Power BI-producten. *Power BI* is de algemene term. De term wordt vaak gebruikt in plaats van een volledige productnaam, zoals de *Power BI-service* en *Power BI - Mobiel*, nadat de volledige productnaam een keer is vermeld.
 
 **Power BI Desktop**    
 Ook wel *Desktop* genoemd. De gratis Windows-toepassing bam Power BI die u op uw lokale computer kunt installeren en waarmee u verbinding kunt maken met gegevens, gegevens kunt transformeren en gegevens kunt visualiseren. Het wordt gebruikt door ontwerpers en beheerders van rapporten. Zie [Wat is Power BI](../fundamentals/power-bi-overview.md) voor meer informatie.
@@ -325,7 +328,7 @@ Ook wel *Desktop* genoemd. De gratis Windows-toepassing bam Power BI die u op uw
 Een product dat door ontwikkelaars wordt gebruikt om Power BI-dashboards en -rapporten in te sluiten in hun eigen apps, sites en hulpprogramma's.
 
 **Power BI Premium**    
-Een invoegtoepassing voor de Power BI Pro-licentie waarmee organisaties BI-oplossingen op basis van voorspellingen kunnen schalen. Hiervoor moet speciale hardware worden aangeschaft. Zie *Account*.
+Een invoegtoepassing voor de Power BI Pro-licentie waarmee organisaties BI-oplossingen op basis van voorspellingen kunnen schalen. Hiervoor moet gereserveerde hardware in Microsoft Cloud worden aangeschaft. Zie *Account*.
 
 **Power BI Pro**    
 Een maandelijks betaalde licentie per gebruiker waarmee gebruikers rapporten en dashboards kunnen bouwen, samen kunnen werken aan gedeelde gegevens, gegevens automatisch up-to-date kunnen houden, kunnen controleren en beheren hoe gegevens worden geopend en gebruikt om inhoud kunnen verpakken voor distributie (Power BI-apps). Zie *Account*.
@@ -342,7 +345,7 @@ Een online SaaS-service (software as a service). Zie [Wat is Power BI](../fundam
 **Premium-werkruimte**    
 Een werkruimte die wordt uitgevoerd in een capaciteit. Voor klanten is deze te herkennen aan het ruitpictogram.  
 
-**Pro** -licentie of **Pro** -account Zie *Account*.
+**Pro**-licentie of **Pro**-account Zie *Account*.
 
 **publiceren**    
 *Ontwerpers* van rapporten voor Power BI service bundelen de inhoud van een Power BI-werkruimte om deze als Power BI-app beschikbaar te stellen aan anderen. *Ontwerpers* van Power BI Desktop-rapporten gebruiken publiceren om een Power BI Desktop-rapport in een .pbix-indeling te verzenden naar de Power BI-service, zodat ze er dashboards van kunnen bouwen en het rapport eenvoudig kunnen delen met anderen. 
@@ -431,7 +434,7 @@ Een set on-premises hulpprogramma's en services om rapportageservers en gepagine
 **streaminggegevens**    
 Zie *realtimestreaming*.
 
-**abonnementen** , **Abonneren**     
+**abonnementen**, **Abonneren**     
 U kunt zich abonneren op rapportpagina's, apps en dashboards. U kunt daarbij e-mails ontvangen met momentopnamen. Hiervoor is een Power BI Pro-licentie vereist.
 
 **samenvatting**    

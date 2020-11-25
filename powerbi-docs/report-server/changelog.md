@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 3173108abe6082c199cbf6ff1229ca57fde31064
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 11/18/2020
+ms.openlocfilehash: 2989436c2a501447cab2d95e0ac1d3fad1fd99b6
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044778"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947019"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -23,6 +23,12 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
 
 ## <a name="october-2020"></a>Oktober 2020
 - **Power BI Report Server**
+    - *Versie: 1.9.7627.11028 (Build 15.0.1104.264), uitgebracht: 18 november 2020*
+        - Opgeloste fouten
+            - Probleem opgelost dat voorkomt dat gebruikers velden in de site-instellingen kunnen wijzigen via de portal.
+            - Probleem opgelost met het vernieuwen van Power BI-rapporten wanneer de gegevensbron EnterData wordt gebruikt.
+            - Probleem opgelost met het vernieuwen van sommige modellen met behulp van verbeterde metagegevens van de gegevensset.
+            - Probleem opgelost waarbij sommige Power BI-rapporten niet konden worden gepubliceerd naar de rapportserver.
     - *Versie: 1.9.7604.41261 (Build 15.0.1104.239), uitgebracht: 27 oktober 2020*
          - Functies
             - Ondersteuning ingeschakeld voor verbeterde metagegevens van de gegevensset in Power BI Report Server.

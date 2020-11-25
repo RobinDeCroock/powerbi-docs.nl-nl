@@ -3,29 +3,22 @@ title: Power BI-inhoud met service-principal en een certificaat insluiten
 description: Meer informatie over het verifiëren voor ingesloten analyses met behulp van een Azure Active Directory Application Service-Principal en een certificaat.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: nishalit
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 10/15/2020
-ms.openlocfilehash: 3d25fe925b98dbdd74d61fd70320bd4275db35e3
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.date: 11/23/2020
+ms.openlocfilehash: 990e3787927cb483b37d7bc456a46201876fcbed
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197766"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514419"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Power BI-inhoud met service-principal en een certificaat insluiten
 
-[!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
-
->[!NOTE]
->We raden u aan uw back-endservices te beveiligen met behulp van certificaten, in plaats van geheime sleutels. [Meer informatie over het verkrijgen van toegangstokens van Azure AD met behulp van geheime sleutels of certificaten](/azure/architecture/multitenant-identity/client-assertion).
-
-## <a name="certificate-based-authentication"></a>Verificatie op basis van certificaat
-
-Met verificatie op basis van certificaten kunt u worden geverifieerd door Azure Active Directory (Azure AD) met een clientcertificaat op een Windows-, Android- of iOS-apparaat of in een [Azure Key Vault](/azure/key-vault/basic-concepts).
+Met verificatie op basis van certificaten kunt u worden geverifieerd door Azure Active Directory (Azure AD) met een clientcertificaat op een Windows-, Android- of iOS-apparaat of in een [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/basic-concepts).
 
 Met behulp van deze verificatiemethode kunt u certificaten beheren vanaf een centrale plaats, met behulp van de CA, voor rotatie of intrekking.
 
@@ -33,50 +26,24 @@ U meer informatie vinden over certificaten in Azure AD in de [Client-referenties
 
 ## <a name="method"></a>Methode
 
-Voer de volgende stappen uit om een service-principal en een certificaat met ingesloten analyses te gebruiken:
+1. [Uw inhoud insluiten met service-principal](embed-service-principal.md).
 
-1. Maak een Azure AD-toepassing.
+2. [Een certificaat maken](embed-service-principal-certificate.md#step-2---create-a-certificate).
 
-2. Maak een Azure AD-beveiligingsgroep.
+3. [Certificaatverificatie instellen](embed-service-principal-certificate.md#step-3---set-up-certificate-authentication).
 
-3. Schakel de beheerdersinstellingen voor de Power BI-service in.
+4. [Het certificaat ophalen in Azure Key Vault](embed-service-principal-certificate.md#step-4---get-the-certificate-from-azure-key-vault).
 
-4. Voeg de service-principal toe aan uw werkruimte.
+5. [Verifiëren met service-principal en een certificaat](embed-service-principal-certificate.md#step-5---authenticate-using-service-principal-and-a-certificate).
 
-5. Maak een certificaat.
+## <a name="step-1---embed-your-content-with-service-principal"></a>Stap 1: uw inhoud insluiten met service-principal
 
-6. Stel een certificaatverificatie in.
+Als u uw inhoud wilt insluiten met service-principal, volgt u de instructies in [Power BI-inhoud insluiten met service-principal en een toepassingsgeheim](embed-service-principal.md).
 
-7. Haal het certificaat op van Azure Key Vault.
+>[!NOTE]
+>Als u al inhoud hebt die is inge sloten met een service-principal, slaat u deze stap over en gaat u verder met [stap 2](embed-service-principal-certificate.md#step-2---create-a-certificate).
 
-8. Verifieer met een service-principal en een certificaat.
-
-## <a name="step-1---create-an-azure-ad-application"></a>Stap 1: maak een Azure AD-toepassing
-
-[!INCLUDE[service principal create app](../../includes/service-principal-create-app.md)]
-
-### <a name="creating-an-azure-ad-app-using-powershell"></a>Een Azure AD-app maken met PowerShell
-
-Deze sectie bevat een voorbeeldscript voor het maken van een nieuwe Azure AD-app met [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
-
-```powershell
-# The app ID - $app.appid
-# The service principal object ID - $sp.objectId
-# The app key - $key.value
-
-# Sign in as a user that's allowed to create an app
-Connect-AzureAD
-
-# Create a new Azure AD web application
-$app = New-AzureADApplication -DisplayName "testApp1" -Homepage "https://localhost:44322" -ReplyUrls "https://localhost:44322"
-
-# Creates a service principal
-$sp = New-AzureADServicePrincipal -AppId $app.AppId
-```
-
-[!INCLUDE[service create steps two, three and four](../../includes/service-principal-create-steps.md)]
-
-## <a name="step-5---create-a-certificate"></a>Stap 5: maak een certificaat
+## <a name="step-2---create-a-certificate"></a>Stap 2: een certificaat maken
 
 U kunt een certificaat aanschaffen bij een vertrouwde *certificeringsinstantie* of zelf een certificaat genereren.
 
@@ -130,15 +97,15 @@ In deze sectie wordt beschreven hoe u een certificaat maakt met [Azure Key Vault
 
     ![Een schermopname met de knop voor het downloaden in CER-indeling.](media/embed-service-principal-certificate/download-cer.png)
 
-## <a name="step-6---set-up-certificate-authentication"></a>Stap 6: stel certificaatverificatie in
+## <a name="step-3---set-up-certificate-authentication"></a>Stap 3: stel een certificaatverificatie in
 
 1. Klik in uw Azure AD-toepassing op het tabblad **Certificaten en geheimen**.
 
      ![Een schermopname van het deelvenster Certificaten en geheimen voor een app in de Azure-portal.](media/embed-service-principal/certificates-and-secrets.png)
 
-2. Klik op **Certificaat uploaden** en upload het bestand *. CER* dat u hebt gemaakt en gedownload in de [eerste stap](#step-5---create-a-certificate) van deze zelfstudie. Het *.cer*-bestand bevat de openbare sleutel.
+2. Klik op **Certificaat uploaden** en upload het bestand *.cer* dat u hebt gemaakt en gedownload in de [stap 2](#step-2---create-a-certificate) van deze zelfstudie. Het *.cer*-bestand bevat de openbare sleutel.
 
-## <a name="step-7---get-the-certificate-from-azure-key-vault"></a>Stap 7: haal het certificaat op uit Azure Key Vault
+## <a name="step-4---get-the-certificate-from-azure-key-vault"></a>Stap 4: haal het certificaat op van Azure Key Vault.
 
 Gebruik Managed Service Identity (MSI) om het certificaat van Azure Key Vault op te halen. Dit proces omvat het ophalen van het *.pfx*-certificaat dat zowel de openbare als de persoonlijke sleutel bevat.
 
@@ -165,7 +132,7 @@ private X509Certificate2 ReadCertificateFromVault(string certName)
 }
 ```
 
-## <a name="step-8---authenticate-using-service-principal-and-a-certificate"></a>Stap 8: verifieer met een service-principal en een certificaat
+## <a name="step-5---authenticate-using-service-principal-and-a-certificate"></a>Stap 5: verifieer met een service-principal en een certificaat
 
 U kunt uw app verifiëren met behulp van een service-principal en een certificaat dat is opgeslagen in Azure Key Vault, door verbinding te maken met Azure Key Vault.
 
@@ -216,14 +183,12 @@ Bij het maken van uw ingesloten oplossing kan het handig zijn om Visual Studio t
 
 4. Voeg het account toe dat toegang heeft tot uw Azure Key Vault.
 
-[!INCLUDE[service principal limitations](../../includes/service-principal-limitations.md)]
-
 ## <a name="next-steps"></a>Volgende stappen
 
 >[!div class="nextstepaction"]
 >[Een app registreren](register-app.md)
 
->[!div class="nextstepaction"]
+> [!div class="nextstepaction"]
 >[Power BI Embedded voor uw klanten](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
@@ -231,6 +196,3 @@ Bij het maken van uw ingesloten oplossing kan het handig zijn om Visual Studio t
 
 >[!div class="nextstepaction"]
 >[Beveiliging op rijniveau met on-premises gegevensgateway met service-principal](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)
-
->[!div class="nextstepaction"]
->[Power BI-inhoud insluiten met service-principal en een toepassingsgeheim](embed-service-principal.md)

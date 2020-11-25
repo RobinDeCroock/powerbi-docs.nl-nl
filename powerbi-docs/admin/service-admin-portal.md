@@ -10,12 +10,12 @@ ms.date: 10/22/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 38df6680f2f4d0031ec26a1935e01c849c285909
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 0abdaab48516b91624a0945d32c4f81ed024a468
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719070"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947146"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -272,6 +272,16 @@ De instelling **Externe gebruikers uitnodigen voor uw organisatie** helpt organi
 
 Als een gebruiker externe gebruikers wil uitnodigen tot een organisatie, moet deze ook de rol van gastuitnodiger in Azure Active Directory hebben. Met deze instelling kan alleen de mogelijkheid worden beheerd om iemand via Power BI uit te nodigen. 
 
+### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren
+
+Azure AD B2B-gastgebruikers kunnen inhoud in de organisatie bewerken en beheren. [Meer informatie](service-admin-azure-ad-b2b.md)
+
+In de volgende afbeelding ziet u de optie Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren.
+
+![Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+In de beheerportal bepaalt u ook welke gebruikers machtigingen krijgen om externe gebruikers uit te nodigen voor de organisatie. Raadpleeg [Inhoud delen met externe gebruikers](#export-and-sharing-settings) in dit artikel voor details.
+
 ### <a name="publish-to-web"></a>Publiceren op internet
 
 Als Power BI-beheerder krijgt u met de instelling **Publiceren op internet** opties waarmee gebruikers invoegcodes kunnen maken voor het publiceren van rapporten op internet. Met deze functionaliteit wordt het rapport en de gegevens die het bevat, beschikbaar voor iedereen op internet. Meer informatie over [publiceren op internet](../collaborate-share/service-publish-to-web.md).
@@ -300,60 +310,73 @@ Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van 
 |**Codes invoegen** binnen de beheerportal|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden**.|
 |Bestaande gepubliceerde rapporten|Iedereen ingeschakeld|Iedereen uitgeschakeld|Rapporten blijven weergeven voor iedereen.|
 
-### <a name="export-data"></a>Gegevens exporteren
+### <a name="copy-and-paste-visuals"></a>Visuals kopiëren en plakken
 
-Gebruikers in de organisatie kunnen gegevens uit een tegel of visualisatie exporteren. Met deze instelling kunnen het analyseren in Excel, het exporteren naar CSV, het downloaden van gegevenssets (PBIX) en de functies van Power BI Service Live Connect worden geregeld. Meer informatie over [het exporteren van gegevens vanaf een tegel of visual](../visuals/power-bi-visualization-export-data.md).
+Gebruikers in de organisatie kunnen visuals kopiëren van een tegel, of visuals rapporteren en plakken in externe toepassingen.
 
->[!NOTE]
-> Vóór de introductie van de instelling voor exporteren naar Excel werd met deze instelling ook het exporteren van gegevens naar Excel-bestanden beheerd. Zie de [opmerking onder Exporteren naar Excel](#export-to-excel) voor meer informatie.
-
-![Instelling voor gegevens exporteren](media/service-admin-portal/powerbi-admin-portal-export-data-setting.png)
-
-De volgende afbeelding toont de optie voor het exporteren van gegevens uit een tegel.
-
-![Gegevens uit een tegel exporteren](media/service-admin-portal/powerbi-admin-export-data.png)
-
-> [!NOTE]
-> Als u **Gegevens exporteren** uitschakelt, hebben gebruikers ook geen toegang tot de functie [Analyseren in Excel](../collaborate-share/service-analyze-in-excel.md) en kunnen ze ook de live-verbinding met de Power BI-service niet gebruiken.
+![Schermopname van schaeklaar voor het inschakelen van kopiëren en plakken van visuals.](media/service-admin-portal/powerbi-admin-portal-copy-paste-visuals-setting.png)
 
 ### <a name="export-to-excel"></a>Exporteren naar Excel
 
 Gebruikers in de organisatie kunnen de gegevens van een visualisatie exporteren naar een Excel-bestand.
 
-![Instelling voor exporteren naar Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
+![Schermopname van de instelling Exporteren naar Excel](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
->[!IMPORTANT]
-> Vóór de introductie van de instelling voor exporteren naar Excel werd het exporteren naar een Excel-bestand geregeld via de instelling Gegevens exporteren. De eerste keer dat Power BI-beheerders de instelling Exporteren naar Excel bekijken (bij tenants die vóór de introductie van de instelling Exporteren naar Excel al bestonden), zien ze dat er *niet-toegepaste wijzigingen* zijn. Ze moeten deze wijzigingen toepassen om de nieuwe instelling van kracht te laten worden. Als dit niet gebeurt, wordt het exporteren naar Excel-bestanden blijvend geregeld door de instelling Gegevens exporteren.
+### <a name="export-to-csv"></a>Exporteren naar CSV
+
+Gebruikers in de organisatie kunnen gegevens van een tegel, een visualisatie of een gepagineerd rapport exporteren naar een CSV-bestand.
+
+![Schermopname van de instelling Exporteren naar CSV](media/service-admin-portal/powerbi-admin-portal-export-to-csv-setting.png)
+
+### <a name="download-reports"></a>Rapporten downloaden
+
+Gebruikers in de organisatie kunnen PBIX-bestanden en gepagineerde rapporten downloaden.
+
+![Schermopname van de instelling Rapporten downloaden.](media/service-admin-portal/powerbi-admin-portal-download-reports-setting.png)
+
+### <a name="allow-live-connections"></a>Live-verbindingen toestaan
+
+Gebruikers in de organisatie kunnen de Power BI-service Live Connect gebruiken. Dit omvat Analyseren in Excel.
+
+![Schermopname van de instelling Live-verbindingen toestaan.](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Rapporten als PowerPoint-presentaties of PDF-documenten exporteren
 
-Gebruikers binnen de organisatie kunnen Power BI-rapporten als PowerPoint-bestanden of PDF-documenten exporteren. [Meer informatie](../consumer/end-user-powerpoint.md)
+Gebruikers binnen de organisatie kunnen rapporten als PowerPoint-bestanden of PDF-documenten exporteren.
 
-De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de instelling **Rapporten exporteren als PowerPoint-presentaties of PDF-documenten** is ingeschakeld.
+![Schermopnamen van rapporten als PowerPoint- of PDF-documenten exporteren.](media/service-admin-portal/powerbi-admin-portal-export-pptx-pdf-setting.png)
 
-![Hiermee worden rapporten geëxporteerd als PowerPoint-presentaties](media/service-admin-portal/powerbi-admin-powerpoint.png)
+### <a name="export-reports-as-mhtml-documents"></a>Rapporten exporteren als MHTML-document
+
+Gebruikers in de organisatie kunnen gepagineerde rapporten als MHTML-document exporteren.
+
+![Schermopname van de instelling Exporteren naar MHTML.](media/service-admin-portal/powerbi-admin-portal-export-mhtml-setting.png)
+
+### <a name="export-reports-as-word-documents"></a>Rapporten exporteren als Word-document
+
+Gebruikers in de organisatie kunnen gepagineerde rapporten als Word-document exporteren.
+
+![Schermopname van de instelling Exporteren naar Word.](media/service-admin-portal/powerbi-admin-portal-export-word-setting.png)
+
+### <a name="export-reports-as-xml-documents"></a>Rapporten exporteren als XML-document
+
+Gebruikers in de organisatie kunnen gepagineerde rapporten als XML-document exporteren.
+
+![Schermopname van de instelling Exporteren naar XML.](media/service-admin-portal/powerbi-admin-portal-export-xml-setting.png)
+
+### <a name="export-reports-as-image-files-preview"></a>Rapporten exporteren als afbeeldingsbestanden (preview-versie)
+
+Gebruikers in de organisatie kunnen de API voor het exporteren van rapporten naar bestanden gebruiken om rapporten te exporteren als afbeeldingsbestanden.
+
+![Schermopname van de instelling Exporteren als afbeelding.](media/service-admin-portal/powerbi-admin-portal-export-as-image-setting.png)
 
 ### <a name="print-dashboards-and-reports"></a>Dashboards en rapporten afdrukken
 
-Gebruikers in de organisatie kunnen dashboards en rapporten afdrukken. [Meer informatie](../consumer/end-user-print.md)
 
-De volgende afbeelding toont de optie voor het afdrukken van een dashboard.
+![Schermopname van de instelling Dashboards en rapporten afdrukken.](media/service-admin-portal/powerbi-admin-portal-print-dashboards-reports-setting.png)
 
-![Dashboard afdrukken](media/service-admin-portal/powerbi-admin-print-dashboard.png)
-
-De volgende afbeelding toont het menu **Bestand** voor een rapport wanneer de instelling **Dashboards en rapporten afdrukken** is ingeschakeld.
-
-![Rapport afdrukken](media/service-admin-portal/powerbi-admin-print-report.png)
-
-### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren
-
-Azure AD B2B-gastgebruikers kunnen inhoud in de organisatie bewerken en beheren. [Meer informatie](service-admin-azure-ad-b2b.md)
-
-In de volgende afbeelding ziet u de optie Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren.
-
-![Externe gastgebruikers toestaan om inhoud in de organisatie te bewerken en te beheren](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
-
-In de beheerportal bepaalt u ook welke gebruikers machtigingen krijgen om externe gebruikers uit te nodigen voor de organisatie. Raadpleeg [Inhoud delen met externe gebruikers](#export-and-sharing-settings) in dit artikel voor details.
+### <a name="certification"></a>Certificering
+Gebruikers in deze organisatie toestaan om gegevenssets, gegevensstromen, rapporten en apps te certificeren. Raadpleeg [Inhoudscertificering inschakelen](service-admin-setup-certification.md) voor meer informatie.
 
 ### <a name="email-subscriptions"></a>E-mailabonnementen
 Gebruikers in de organisatie kunnen e-mailabonnementen maken. Meer informatie over [abonnementen](../collaborate-share/service-publish-to-web.md).
@@ -367,6 +390,25 @@ Toestaan dat sommige of alle auteurs van rapporten in uw organisatie hun inhoud 
 We raden u aan eerst te beginnen met een klein aantal promotors. Wanneer de hele organisatie inhoud mag aanbevelen op de startpagina, kan het lastig zijn om alle gepromoveerde inhoud bij te houden. 
 
 Wanneer u aanbevolen inhoud hebt ingeschakeld, kunt u deze ook beheren in de Beheerportal. Zie [Aanbevolen inhoud beheren](#manage-featured-content) in dit artikel voor meer informatie over het beheren van aanbevolen inhoud in uw domein.
+
+### <a name="allow-connections-to-featured-tables"></a>Verbindingen met aanbevolen tabellen toestaan
+
+Met deze instelling kunnen Power BI-beheerders bepalen wie in de organisatie aanbevolen tabellen kan gebruiken in de galerie Gegevenstypen van Excel. 
+
+![Schermopname van de instelling Verbindingen met aanbevolen tabellen toestaan.](media/service-admin-portal/powerbi-admin-portal-allow-connections-featured-tables-setting.png)
+
+>[!NOTE]
+>Verbindingen met aanbevolen tabellen worden ook uitgeschakeld als de instelling [Live-verbindingen toestaan](#allow-live-connections) is ingesteld op Uitgeschakeld.
+
+Meer informatie over [Uitgelichte Power BI-tabellen in Excel](../collaborate-share/service-excel-featured-tables.md).
+
+### <a name="share-to-teams"></a>Delen in Teams
+
+Met deze instelling kunnen organisaties de knoppen voor **Delen in Teams** verbergen in de Power BI-service. Indien de instelling is uitgeschakeld, zien gebruikers de knoppen **Delen in Teams** niet op de actiebalk of in de contextmenu's bij het bekijken van rapporten en dashboards in de Power BI-service.
+
+![Schermopname van de tenantinstelling Delen in Teams in de Power BI-beheerportal.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+Meer informatie over [het delen van Power BI-inhoud in Teams](../collaborate-share/service-share-report-teams.md).
 
 ## <a name="content-pack-and-app-settings"></a>Instellingen voor inhoudspakket en app
 
@@ -388,12 +430,9 @@ Makers van rapporten kunnen apps rechtstreeks met eindgebruikers delen zonder da
 
 ## <a name="integration-settings"></a>Instellingen voor integratie
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Analyseren in Excel gebruiken met on-premises gegevenssets
+### <a name="allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets"></a>XMLA-eindpunten en Analyseren in Excel toestaan met on-premises gegevenssets
 
-Gebruikers in de organisatie kunnen Excel gebruiken voor het weergeven van on-premises Power BI-gegevenssets en het werken met deze sets. [Meer informatie](../collaborate-share/service-analyze-in-excel.md)
-
-> [!NOTE]
-> Als u **Gegevens exporteren** uitschakelt, hebben gebruikers ook geen toegang tot de functie **Analyseren in Excel**.
+Gebruikers in de organisatie kunnen Excel gebruiken voor het weergeven van on-premises Power BI-gegevenssets en het werken met deze sets. Hierdoor worden ook verbindingen met XMLA-eindpunten toegestaan. [Meer informatie](../collaborate-share/service-analyze-in-excel.md)
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>ArcGIS Maps for Power BI gebruiken
 
@@ -402,24 +441,6 @@ Gebruikers in de organisatie kunnen de visualisatie ArcGIS Maps for Power BI, di
 ### <a name="use-global-search-for-power-bi-preview"></a>Algemene zoekopdrachten voor Power BI gebruiken (preview-versie)
 
 Gebruikers in de organisatie kunnen externe-zoekopdrachtfuncties gebruiken waarbij gebruik wordt gemaakt van Azure Search.
-
-## <a name="featured-tables-settings"></a>Instellingen voor de aanbevolen tabellen
-
-Onder **Tenant-instellingen** kunnen Power BI-beheerders met behulp van de instelling **Verbindingen met aanbevolen tabellen toestaan** beheren wie in de organisatie aanbevolen tabellen kan gebruiken in de galerie Gegevenstypen van Excel. 
-
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="Alle verbindingen met uitgelichte tabellen":::
-
-Verbindingen met aanbevolen tabellen worden ook uitgeschakeld als de instelling **Gegevens exporteren** is ingesteld op **Uitgeschakeld**.
-
-Meer informatie over [Uitgelichte Power BI-tabellen in Excel](../collaborate-share/service-excel-featured-tables.md).
-
-## <a name="share-to-teams-tenant-setting"></a>Tenantinstelling Delen met Teams
-
-De instelling **Delen in Teams** bevindt zich in het gedeelte **Tenantinstellingen** van de Power BI-beheerportal. Door deze instelling kunnen organisaties de knoppen voor **Delen in Teams** verbergen in de Power BI-service. Indien de instelling is uitgeschakeld, zien gebruikers de knoppen **Delen in Teams** niet op de actiebalk of in de contextmenu's bij het bekijken van rapporten en dashboards in de Power BI-service.
-
-![Schermopname van de tenantinstelling Delen in Teams in de Power BI-beheerportal.](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
-
-Meer informatie over [het delen van Power BI-inhoud in Teams](../collaborate-share/service-share-report-teams.md).
 
 ## <a name="r-visuals-settings"></a>Instellingen voor R-visuals
 
