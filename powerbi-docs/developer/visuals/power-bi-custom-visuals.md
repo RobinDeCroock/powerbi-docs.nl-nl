@@ -10,18 +10,18 @@ ms.subservice: powerbi-desktop
 ms.topic: overview
 ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 62a88a8267ae38b1dbfc0bbb0ee1d9020e7f9408
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 8ea72198ded59f3ce5dce1362ab9320fc119fac6
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049241"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95514379"
 ---
 # <a name="visuals-in-power-bi"></a>Visuals in Power BI
 
 Power BI wordt geleverd met veel kant-en-klare Power BI-visuals. Deze visuals zijn beschikbaar in het visualisatiedeelvenster van zowel [Power BI Desktop](https://powerbi.microsoft.com/desktop/) als de [Power BI-service](https://app.powerbi.com) en kunnen worden gebruikt voor het maken en bewerken van Power BI-inhoud.
 
-![Schermopname van het Power BI-deelvenster Visualisaties zoals dit wordt weergegeven in Power BI Desktop en de Power BI-service.](media/power-bi-custom-visuals/power-bi-visualizations.png)
+:::image type="content" source="media/power-bi-custom-visuals/power-bi-visualizations.png" alt-text="Schermopname van het Power BI-deelvenster Visualisaties zoals dit wordt weergegeven in Power BI Desktop en de Power BI-service.":::
 
 Er zijn veel meer Power BI-visuals beschikbaar via de Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) of via Power BI. Deze visuals worden gemaakt door Microsoft en Microsoft-partners, en ze worden getest en gevalideerd door het AppSource-validatieteam.
 
@@ -31,7 +31,7 @@ U kunt ook uw eigen Power BI-visual ontwikkelen die vervolgens kan worden gebrui
 
 Dit zijn de kant-en-klare Power BI-visuals die beschikbaar zijn in het visualisatiedeelvenster in *Power BI Desktop* en de *Power BI-service*.
 
-Als u een Power BI-visual van het visualisatiedeelvenster wilt losmaken, klikt u er met de rechtermuisknop op en selecteert u**Losmaken**.
+Als u een Power BI-visual van het visualisatiedeelvenster wilt losmaken, klikt u er met de rechtermuisknop op en selecteert u **Losmaken**.
 
 Als u de standaard Power BI-visuals in het visualisatiedeelvenster wilt herstellen, klikt u op **Een aangepaste visual importeren** en selecteert u **Standaardvisuals herstellen**. 
 

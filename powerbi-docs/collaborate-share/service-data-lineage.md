@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: d08ddeddc0a0feee82b02549db819a901f944c2d
-ms.sourcegitcommit: 1b79577006a2f6583a0a249f1920ae1e2b6b0ace
+ms.openlocfilehash: 76dd059d59daed5916e9d28692ef018dd7465749
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94529023"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94946973"
 ---
 # <a name="data-lineage"></a>Gegevensherkomst
 In moderne projecten die gaan over business intelligence (BI) kan het begrijpen van de gegevensstroom van de gegevensbron naar de bestemming een grote uitdaging zijn. De uitdaging is zelfs groter als u geavanceerde analytische projecten hebt gebouwd die uit meerdere gegevensbronnen, artefacten en afhankelijkheden bestaan. Vragen als "Wat gebeurt er als ik deze gegevens wijzig?" of 'Waarom is dit rapport niet bijgewerkt?' kunnen moeilijk te beantwoorden zijn. Misschien is er wel een team van deskundigen of een grondig onderzoek nodig om dit te begrijpen. We hebben een gegevensherkomstweergave ontworpen om u te helpen bij het beantwoorden van deze vragen.
@@ -24,6 +24,10 @@ In moderne projecten die gaan over business intelligence (BI) kan het begrijpen 
 Power BI heeft verschillende typen artefacts, zoals dashboards, rapporten, gegevenssets en gegevensstromen. Veel gegevenssets en gegevensstromen maken verbinding met externe gegevensbronnen, zoals SQL Server, en met externe gegevenssets in andere werkruimten. Wanneer een gegevensset zich buiten uw eigen werkruimte bevindt, kan deze zich mogelijk in een werkruimte bevinden die eigendom is van iemand van IT of van een andere analist. Externe gegevensbronnen en gegevenssets maken het moeilijker om te weten waar de gegevens uiteindelijk vandaan komen. Voor complexe en eenvoudigere projecten introduceren we herkomstweergave.
 
 In de herkomstweergave ziet u de herkomstrelaties tussen alle artefacten in een werkruimte en alle bijbehorende externe afhankelijkheden. Er worden verbindingen weergegeven tussen alle werkruimte-artefacten, waaronder verbindingen met gegevensstromen, zowel upstream als downstream.    
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rUj06dqB98g" frameborder="0" allowfullscreen></iframe>
+
+
 
 > [!VIDEO https://youtu.be/rUj06dqB98g]
 

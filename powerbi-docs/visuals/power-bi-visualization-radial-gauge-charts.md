@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7fcef8294d1e4ba4b3336d4a2456e0ccac787fb
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: de9e2004d7802b5f3eb7684678984a84a077ce89
+ms.sourcegitcommit: b2693047fce6a4e0c3ea07013404e99fc9cc1901
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412321"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "94893724"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Radiale-meterdiagrammen in Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "93412321"
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-Een radiale-meterdiagram heeft een cirkelvormige boog en toont één waarde die de voortgang naar een doel of KPI (Key Performance Indicator) meet. De regel (of *naald* ) vertegenwoordigt het doel of de doelwaarde. De arcering vertegenwoordigt de voortgang naar dit doel. De waarde in de boog vertegenwoordigt de voortgangswaarde. In Power BI worden alle mogelijke waarden gelijkmatig verdeeld langs de boog, van minimum (meest linkse waarde) tot maximum (meest rechtse waarde).
+Een radiale-meterdiagram heeft een cirkelvormige boog en toont één waarde die de voortgang naar een doel of KPI (Key Performance Indicator) meet. De regel (of *naald*) vertegenwoordigt het doel of de doelwaarde. De arcering vertegenwoordigt de voortgang naar dit doel. De waarde in de boog vertegenwoordigt de voortgangswaarde. In Power BI worden alle mogelijke waarden gelijkmatig verdeeld langs de boog, van minimum (meest linkse waarde) tot maximum (meest rechtse waarde).
 
 ![Schermopname van radiale meter.](media/power-bi-visualization-radial-gauge-charts/gauge-m.png)
 
@@ -46,7 +46,7 @@ Radiale meters zijn een uitstekende keuze om:
 
 ## <a name="prerequisites"></a>Vereisten
 
-In deze zelfstudie wordt gebruikgemaakt van het [Excel-bestand met het financiële voorbeeld](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+In deze zelfstudie wordt gebruikgemaakt van het [Excel-bestand met het financiële voorbeeld](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 1. Selecteer linksboven in de menubalk **Gegevens ophalen** > **Excel**
    
@@ -83,7 +83,7 @@ In deze zelfstudie wordt gebruikgemaakt van het [Excel-bestand met het financië
     Afhankelijk van wanneer u het bestand **Financial Sample** downloadt, ziet u mogelijk getallen die niet overeenkomen met deze getallen.
 
     > [!TIP]
-    > Standaard wordt in Power BI een meterdiagram gemaakt, waarbij wordt aangenomen dat de huidige waarde (in dit geval **Gemiddelde van brutoverkoop** ) op het middenpunt van de meter staat. Aangezien de waarde van **Gemiddelde brutoverkoop** $182.760 is, is de beginwaarde (Minimum) ingesteld op 0 en de eindwaarde (Maximum) op het dubbele van de huidige waarde.
+    > Standaard wordt in Power BI een meterdiagram gemaakt, waarbij wordt aangenomen dat de huidige waarde (in dit geval **Gemiddelde van brutoverkoop**) op het middenpunt van de meter staat. Aangezien de waarde van **Gemiddelde brutoverkoop** $182.760 is, is de beginwaarde (Minimum) ingesteld op 0 en de eindwaarde (Maximum) op het dubbele van de huidige waarde.
 
 ### <a name="step-3-set-a-target-value"></a>Stap 3: Een doelwaarde instellen
 
@@ -134,7 +134,7 @@ In stap 2 werd in Power BI het veld **Waarde** gebruikt om automatisch een minim
 
     ![Schermopname van de gewiste optie KVG.](media/power-bi-visualization-radial-gauge-charts/pbi-remove-target.png)
 
-1. Wanneer het veld **Doel** wordt weergegeven onder **Meter-as** , voert u een waarde in.
+1. Wanneer het veld **Doel** wordt weergegeven onder **Meter-as**, voert u een waarde in.
 
      ![Schermopname van de opties Meter-as met Doel uitgelicht.](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 
