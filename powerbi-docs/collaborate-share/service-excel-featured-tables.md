@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/04/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 099e3aa11662232c5362895e93f0433620ce2ba9
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 42d7cae62084cf2cfbf6f10e49489d35e4557c85
+ms.sourcegitcommit: 5bbe7725918a72919ba069c5f8a59e95453ec14c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768852"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94947042"
 ---
 # <a name="access-power-bi-featured-tables-in-excel-preview"></a>Toegang tot aanbevolen Power BI-tabellen in Excel (preview)
 
@@ -132,7 +132,7 @@ Als voor een Power BI-gegevensset beveiliging op rijniveau is ingesteld of als d
 
 ## <a name="administrative-control"></a>Beheer
 
-Power BI-beheerders kunnen bepalen wie in de organisatie aanbevolen tabellen kan gebruiken in de galerie Gegevenstypen van Excel. Zie [Instellingen voor de aanbevolen tabellen](../admin/service-admin-portal.md#featured-tables-settings) in het artikel over de beheerportal voor meer informatie. 
+Power BI-beheerders kunnen bepalen wie in de organisatie aanbevolen tabellen kan gebruiken in de galerie Gegevenstypen van Excel. Zie [Verbindingen met aanbevolen tabellen toestaan](../admin/service-admin-portal.md#allow-connections-to-featured-tables) in het artikel over de beheerportal voor meer informatie. 
  
 ### <a name="auditing"></a>Controleren
 
