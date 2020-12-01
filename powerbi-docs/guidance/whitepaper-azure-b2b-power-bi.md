@@ -2,19 +2,19 @@
 title: Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B
 description: Technisch document waarin wordt beschreven hoe u Azure Active Directory B2B kunt gebruiken om Power BI te distribueren naar externe gast gebruikers
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/07/2019
-ms.author: davidi
 LocalizationGroup: Conceptual
-ms.openlocfilehash: cc4387c3c1c0f83347823bbc6b95beb437b235e9
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 9bf2d1ab3b782d0fbb201e203aa9bb2f2df4079d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916884"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416941"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-using-azure-active-directory-b2b"></a>Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B
 
@@ -27,7 +27,7 @@ ms.locfileid: "92916884"
 > [!NOTE]
 > U kunt dit technisch document opslaan of afdrukken door **afdrukken** te selecteren in uw browser en vervolgens **Opslaan als PDF** te selecteren.
 
-## <a name="introduction"></a>Introductie
+## <a name="introduction"></a>Inleiding
 
 Power BI geeft organisaties een weer gave van hun bedrijf van 360 graden en biedt iedereen in deze organisaties de mogelijkheid om intelligente beslissingen te nemen met behulp van gegevens. Veel van deze organisaties hebben sterke en vertrouwde relaties met externe partners, clients en contract ANTEN. Deze organisaties moeten veilige toegang bieden tot Power BI Dash boards en rapporten voor gebruikers in deze externe partners.
 
@@ -490,8 +490,8 @@ Gast gebruikers krijgen de alleen-lezen standaard ervaring en kunnen inhoud bewe
 
 Als u deze gebruikers wilt helpen bij het aanmelden bij Power BI, geeft u de URL van de Tenant. Volg deze stap om de tenant-URL te zoeken.
 
-1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) vervolgens  **over Power bi** .
-2. Zoek naar de waarde naast  **Tenant-URL** . Dit is de Tenant-URL die u met uw gast gebruikers kunt delen.
+1. Selecteer in de Power BI-service in het bovenste menu Help ( **?** ) vervolgens  **over Power bi**.
+2. Zoek naar de waarde naast  **Tenant-URL**. Dit is de Tenant-URL die u met uw gast gebruikers kunt delen.
 
     ![Tenant-URL](media/whitepaper-azure-b2b-power-bi/whitepaper-azure-b2b-power-bi_42.png)
 

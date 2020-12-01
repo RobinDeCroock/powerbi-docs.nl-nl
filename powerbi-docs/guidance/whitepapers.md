@@ -2,24 +2,24 @@
 title: Technische documenten voor Power BI
 description: Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/03/2020
-ms.author: maggies
-ms.openlocfilehash: e514bf77900031af2f32bdad5717e82b33a88623
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 9b98e2a5e7cb881e1a58280b1cd6fe6851ec5057
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965282"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398517"
 ---
 # <a name="whitepapers-for-power-bi"></a>Technische documenten voor Power BI
 
 Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hier vindt u een lijst met beschikbare technische documenten voor Power BI.
 
-| Technisch document | Description | Date |
+| Technisch document | Beschrijving | Date |
 | --- | --- | --- |
 | [Een Power BI Enterprise-implementatie plannen](https://aka.ms/PBIEnterpriseDeploymentWP) |Dit bijgewerkte technische technisch document bevat een overzicht van de overwegingen en aanbevolen procedures voor een goed presterende en veilige organisatie Power BI-implementatie. | Juni 2020 |
 | [Power BI en gegevensstromen](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| In dit technisch document worden gegevensstromen gedetailleerd beschreven, en worden de mogelijkheden en initiatieven beschreven achter de functies en functionaliteit van gegevensstromen. | November 2018 |
@@ -37,4 +37,4 @@ Met technische documenten kunt u Power BI-onderwerpen diepgaander verkennen. Hie
 
 [!INCLUDE [GDPR-related guidance](../includes/gdpr-hybrid-note.md)]
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

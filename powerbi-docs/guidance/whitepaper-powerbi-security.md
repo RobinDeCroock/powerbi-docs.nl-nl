@@ -5,20 +5,20 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635695"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398586"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
-**Samen vatting:** Power BI is een online software service (*SaaS*of software als een service) van micro soft waarmee u eenvoudig en snel Self-Service Business Intelligence-Dash boards, rapporten, gegevens sets en visualisaties kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
+**Samen vatting:** Power BI is een online software service (*SaaS* of software als een service) van micro soft waarmee u eenvoudig en snel Self-Service Business Intelligence-Dash boards, rapporten, gegevens sets en visualisaties kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
 
 **Schrijver:** David Iseminger
 
@@ -27,11 +27,11 @@ ms.locfileid: "91635695"
 **Van toepassing op:** Power BI SaaS, Power BI Desktop, Power BI Embedded Power BI Premium
 
 > [!NOTE]
-> U kunt dit technisch document opslaan of afdrukken door **afdrukken** te selecteren in uw browser en vervolgens **Opslaan als PDF**te selecteren.
+> U kunt dit technisch document opslaan of afdrukken door **afdrukken** te selecteren in uw browser en vervolgens **Opslaan als PDF** te selecteren.
 
 ## <a name="introduction"></a>Inleiding
 
-**Power bi** is een online software service (_SaaS_of software als een service) van micro soft waarmee u eenvoudig en snel Self-Service Business Intelligence-Dash boards, rapporten, gegevens sets en visualisaties kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
+**Power bi** is een online software service (_SaaS_ of software als een service) van micro soft waarmee u eenvoudig en snel Self-Service Business Intelligence-Dash boards, rapporten, gegevens sets en visualisaties kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
 
 De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het Microsoft 365 compliantie raamwerk. Meer informatie over naleving in het [micro soft vertrouwens centrum](https://www.microsoft.com/trust-center/compliance/compliance-overview).
 
@@ -41,7 +41,7 @@ Dit artikel bevat informatie over Power BI-beveiliging aan de hand van een uitle
 
 De **Power BI**-service is gebaseerd op **Azure**, het [cloudcomputingplatform](https://azure.microsoft.com/overview/what-is-azure/) van Microsoft. Power BI wordt momenteel geïmplementeerd in veel datacenters over de hele wereld. Er zijn veel actieve implementaties beschikbaar gesteld aan klanten in de regio's die door deze datacenters worden bediend. Daarnaast zijn er even veel passieve implementaties, die als back-up fungeren voor alle actieve implementaties.
 
-Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web Front End) en een **Back-End**cluster. Deze twee clusters zijn in de volgende afbeelding weergegeven en vormen de achtergrond voor de rest van dit artikel. 
+Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web Front End) en een **Back-End** cluster. Deze twee clusters zijn in de volgende afbeelding weergegeven en vormen de achtergrond voor de rest van dit artikel. 
 
 ![Het WFE en het Back-End](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
@@ -81,7 +81,7 @@ Als de implementatie gereed is, wordt alle communicatie met het Premium-cluster 
 
 ### <a name="data-storage-architecture"></a>Gegevensopslagarchitectuur
 
-Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan en te beheren. Gegevens van gebruikers die zijn geüpload worden meestal verzonden naar **Azure Blob**-opslag. Alle metagegevens, alsmede artefacten voor het systeem zelf, worden achter een firewall opgeslagen in ** Azure SQL Database**.
+Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan en te beheren. Gegevens van gebruikers die zijn geüpload worden meestal verzonden naar **Azure Blob**-opslag. Alle metagegevens, alsmede artefacten voor het systeem zelf, worden achter een firewall opgeslagen in **Azure SQL Database**.
 
 ![Gegevensopslag](media/whitepaper-powerbi-security/powerbi-security-whitepaper_06.png)
 

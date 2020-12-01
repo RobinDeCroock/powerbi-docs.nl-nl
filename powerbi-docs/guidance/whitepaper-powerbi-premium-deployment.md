@@ -9,18 +9,18 @@ ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8d28146f5f4ee47697ada1d4663ae9899b660a9b
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 70584413a63f8566137b5e71cdd86011ac6c1acc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916631"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416457"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Power BI Premium capaciteit implementeren en beheren
 
 We hebben het Power BI Premiume Witboek buiten gebruik gesteld om actuele informatie in afzonderlijke artikelen te kunnen leveren. Gebruik de volgende tabel om inhoud van het Witboek te vinden. 
 
-| Artikelen | Description |
+| Artikelen | Beschrijving |
 |-----|----|
 | [Basisconcepten voor ontwerpers in de Power BI-service](../fundamentals/service-basic-concepts.md)</br>[Gegevenssets in de Power BI-service](../connect-data/service-datasets-understand.md)</br>[Gegevenssetmodi in de Power BI-service](../connect-data/service-dataset-modes-understand.md) | Achtergrond informatie over Power BI-service capaciteiten, werk ruimten, Dash boards, rapporten, werkmappen, gegevens sets en gegevens stromen. |
 | [Wat is Power BI Premium?](../admin/service-premium-what-is.md) | Een overzicht van Power BI Premium, met de basis beginselen van toegewezen capaciteiten, ondersteunde werk belastingen, onbeperkt delen van inhoud en andere functies.  |
