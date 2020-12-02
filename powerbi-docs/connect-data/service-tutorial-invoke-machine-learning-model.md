@@ -2,24 +2,24 @@
 title: 'Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)'
 description: In deze zelfstudie roept u een Machine Learning Studio-model (klassiek) aan in Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 03/12/2019
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4124799f15bbccd7c82428d1290ae2ae6420311f
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: c59e0fff95f611fbe84586af64db7a532285d72b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397111"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410201"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)
 
-In deze zelfstudie wordt stapsgewijs uitgelegd hoe u inzichten uit een **Azure Machine Learning Studio** -model (klassiek) gebruikt in Power BI. We beschrijven hoe u een Power BI-gebruiker toegang verleent tot een Azure ML-model, hoe u een gegevensstroom maakt en hoe u inzichten uit het Azure ML-model toepast op uw gegevensstroom. Deze zelfstudie bevat ook verwijzingen naar de quickstart voor het maken van een Azure ML-model, voor het geval u nog geen model hebt.
+In deze zelfstudie wordt stapsgewijs uitgelegd hoe u inzichten uit een **Azure Machine Learning Studio**-model (klassiek) gebruikt in Power BI. We beschrijven hoe u een Power BI-gebruiker toegang verleent tot een Azure ML-model, hoe u een gegevensstroom maakt en hoe u inzichten uit het Azure ML-model toepast op uw gegevensstroom. Deze zelfstudie bevat ook verwijzingen naar de quickstart voor het maken van een Azure ML-model, voor het geval u nog geen model hebt.
 
 In deze zelfstudie worden de volgende acties uitgelegd:
 
@@ -31,7 +31,7 @@ In deze zelfstudie worden de volgende acties uitgelegd:
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Een Azure ML-model maken en publiceren
 
-Volg de instructies bij [stap 1 van de zelfstudie: Een Machine Learning Studio-werkruimte (klassiek) maken](/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) om een **Machine Learning** -werkruimte te maken.
+Volg de instructies bij [stap 1 van de zelfstudie: Een Machine Learning Studio-werkruimte (klassiek) maken](/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) om een **Machine Learning**-werkruimte te maken.
 
 U kunt deze stappen toepassen op al uw huidige Azure ML-modellen of -gegevenssets. Als u nog geen gepubliceerd model hebt, kunt u er binnen enkele minuten een maken met behulp van de instructies in [Create your first data science experiment in Azure Machine Learning Studio (classic)](/azure/machine-learning/studio/create-experiment) (Uw eerste gegevenswetenschappelijke experiment maken in Azure Machine Learning Studio (klassiek)). U maakt dan een Azure ML-model voor een prijsvoorspelling voor auto's.
 
@@ -47,7 +47,7 @@ Meld u aan bij de [Azure-portal](https://portal.azure.com) en ga naar de pagina 
 
 ![Schermopname van de Azure-portal met Abonnementen geselecteerd.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
-Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)** . Selecteer vervolgens **Roltoewijzing toevoegen** , selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
+Selecteer het Azure-abonnement waarmee u het model hebt gepubliceerd en kies **Toegangsbeheer (IAM)** . Selecteer vervolgens **Roltoewijzing toevoegen**, selecteer de rol **Lezer** en selecteer de betreffende Power BI-gebruiker. Selecteer **Opslaan** wanneer u klaar bent. Op de volgende afbeelding worden deze selecties weergegeven.
 
 ![Toegangsbeheer Azure-portal](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_02.png)
 
@@ -97,18 +97,18 @@ Power Query Editor geeft een voorbeeld weer van de gegevens uit het CSV-bestand.
 
 ![Schermopname van Power Query-editor met een voorbeeld van de gegevens.](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
-In onze brongegevensset zijn onbekende waarden ingesteld als '?'.  We kunnen dit opschonen door '?' te vervangen door '0', om toekomstige fouten te voorkomen.  Selecteer de kolommen *normalized-losses* , *bore* , *stroke* , *compression-ratio* , *horsepower* , *peak-rpm* en *price* door op de naam te klikken in de kolomkoppen. Klik vervolgens op 'Kolommen transformeren' en selecteer 'Waarden vervangen'.  Vervang '?' door '0'.
+In onze brongegevensset zijn onbekende waarden ingesteld als '?'.  We kunnen dit opschonen door '?' te vervangen door '0', om toekomstige fouten te voorkomen.  Selecteer de kolommen *normalized-losses*, *bore*, *stroke*, *compression-ratio*, *horsepower*, *peak-rpm* en *price* door op de naam te klikken in de kolomkoppen. Klik vervolgens op 'Kolommen transformeren' en selecteer 'Waarden vervangen'.  Vervang '?' door '0'.
 
 ![Waarden vervangen](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_10.png)
 
 Alle kolommen in de tabel met Tekst/CSV als bron worden behandeld als tekstkolommen.  Vervolgens moeten we de numerieke kolommen wijzigen om de gegevenstypen te corrigeren.  U doet dit in Power Query door te klikken op het gegevenstypesymbool in de kolomkop.  Stel onderstaande typen in voor de kolommen:
 
-- **Geheel getal** :  symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg, price
-- **Decimaal getal** :  wheel-base, length, width, height, bore, stroke, compression-ratio
+- **Geheel getal**:  symboling, normalized-losses, curb-weight, engine-size, horsepower, peak-rpm, city-mpg, highway-mpg, price
+- **Decimaal getal**:  wheel-base, length, width, height, bore, stroke, compression-ratio
 
 ![Kolommen wijzigen](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_11.png)
 
-Selecteer **Gereed** om Power Query Editor te sluiten. U krijgt dan de entiteitenlijst te zien met de gegevens voor _autoprijzen_ die we hebben toegevoegd. Selecteer rechtsboven **Opslaan** , geef een naam voor de gegevensstroom op en selecteer **Opslaan**.
+Selecteer **Gereed** om Power Query Editor te sluiten. U krijgt dan de entiteitenlijst te zien met de gegevens voor _autoprijzen_ die we hebben toegevoegd. Selecteer rechtsboven **Opslaan**, geef een naam voor de gegevensstroom op en selecteer **Opslaan**.
 
 ![Gegevensstroom opslaan](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_12.png)
 
@@ -136,7 +136,7 @@ Als u het pictogram **Bewerken** selecteert, wordt Power Query Editor geopend vo
 
 Selecteer in het lint de knop **AI-inzichten** en selecteer vervolgens de map _Azure Machine Learning-modellen_ in het navigatievenstermenu.
 
-De Azure ML-modellen waartoe u toegang hebt gekregen, worden vermeld als Power Query-functies met het voorvoegsel *AzureML*.  Wanneer u klikt op de functie die overeenkomt met het model _AutomobilePricePrediction_ , worden de parameters voor de webservice van het model vermeld als functieparameters.
+De Azure ML-modellen waartoe u toegang hebt gekregen, worden vermeld als Power Query-functies met het voorvoegsel *AzureML*.  Wanneer u klikt op de functie die overeenkomt met het model _AutomobilePricePrediction_, worden de parameters voor de webservice van het model vermeld als functieparameters.
 
 Als u een Azure ML-model wilt aanroepen, kunt u vanuit het vervolgkeuzemenu een van de geselecteerde kolommen van de entiteit als invoer opgeven. U kunt ook een constante waarde opgeven die als invoer wordt gebruikt door het kolompictogram aan de linkerzijde van de het invoerdialoogvenster in te schakelen. Wanneer de kolomnaam overeenkomt met een van de functieparameternamen, wordt de kolom automatisch voorgesteld als invoer.  Als de kolomnaam niet overeenkomt, kunt u deze selecteren in de vervolgkeuzelijst.
 

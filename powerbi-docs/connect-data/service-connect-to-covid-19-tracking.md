@@ -2,18 +2,18 @@
 title: Verbinding maken met Traceringsrapport voor COVID-19 in de Verenigde Staten
 description: Informatie over het ophalen en installeren van de sjabloon-app COVID-19-cases in de Verenigde Staten en het maken van verbinding met gegevens.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 01dab6cad6142b455a0d61a0011e43cea6da23e1
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349498"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410615"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Verbinding maken met Traceringsrapport voor COVID-19 in de Verenigde Staten
 In dit artikel leest u hoe u de sjabloon-app voor het traceringsrapport voor COVID-19 installeert en hoe u verbinding maakt met de gegevensbronnen.
@@ -40,21 +40,21 @@ Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de ge
 
 1. Klik op het pictogram op de Apps-pagina om de app te openen.
 
-1. Kies in het opstartscherm dat wordt weergegeven **Verbinding maken** .
+1. Kies in het opstartscherm dat wordt weergegeven **Verbinding maken**.
 
    ![Welkomstscherm van de sjabloon-app](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
 
-1. Het dialoogvenster Parameters wordt weergegeven. Er zijn geen vereiste parameters. Klik op **Volgende** .
+1. Het dialoogvenster Parameters wordt weergegeven. Er zijn geen vereiste parameters. Klik op **Volgende**.
 
    ![Schermopname van het dialoogvenster Traceringsrapport voor COVID-19 in de Verenigde Staten.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-parameters-dialog.png)
 
 1. Het dialoogvenster Verificatiemethode wordt weergegeven. Aanbevolen waarden zijn vooraf ingevuld. Wijzig deze instellingen alleen als u specifieke kennis van verschillende waarden hebt.
 
-    Klik op **Volgende** .
+    Klik op **Volgende**.
 
    ![Schermopname van het verificatiedialoogvenster Traceringsrapport voor COVID-19 in de Verenigde Staten.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-authentication-dialog.png)
 
-1. Klik op **Aanmelden** .
+1. Klik op **Aanmelden**.
 
    ![Schermopname van het aanmeldingsdialoogvenster van Traceringsrapport voor COVID-19 in de Verenigde Staten.](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-signin-dialog.png)
  

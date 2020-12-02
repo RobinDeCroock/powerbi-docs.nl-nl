@@ -1,19 +1,19 @@
 ---
 title: Richtlijnen voor beveiliging op rijniveau (RLS) in Power BI Desktop
 description: Richtlijnen voor het afdwingen van beveiliging op rijniveau (RLS) in uw gegevensmodellen met Power BI Desktop.
-author: peter-myers
+author: paulinbar
+ms.author: painbar
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 644e4499a335f18febadf33c371bd15e01499701
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 3c8290391d549f4510b4f6ea6ee0fd596500045e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349616"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410086"
 ---
 # <a name="row-level-security-rls-guidance-in-power-bi-desktop"></a>Richtlijnen voor beveiliging op rijniveau (RLS) in Power BI Desktop
 
@@ -39,9 +39,9 @@ FALSE()
 ```
 
 > [!NOTE]
-> Een regel retourneert geen tabelrijen als de expressie wordt geëvalueerd als **onwaar** .
+> Een regel retourneert geen tabelrijen als de expressie wordt geëvalueerd als **onwaar**.
 
-Een tweede rol, met de naam **Managers** , geeft toegang tot alle tabelrijen van **Payroll** met behulp van de volgende regelexpressie:
+Een tweede rol, met de naam **Managers**, geeft toegang tot alle tabelrijen van **Payroll** met behulp van de volgende regelexpressie:
 
 ```dax
 TRUE()
@@ -72,7 +72,7 @@ Leden kunnen gebruikersaccounts of beveiligingsgroepen zijn. U wordt aangeraden 
 
 ## <a name="validate-roles"></a>Rollen valideren
 
-Test elke rol om ervoor te zorgen dat het model correct wordt gefilterd. U kunt dit eenvoudig doen met behulp van de opdracht **Weergeven als** opdracht op het linttabblad **Model maken** .
+Test elke rol om ervoor te zorgen dat het model correct wordt gefilterd. U kunt dit eenvoudig doen met behulp van de opdracht **Weergeven als** opdracht op het linttabblad **Model maken**.
 
 Wanneer het model dynamische regels bevat met de DAX-functie [USERNAME](/dax/username-function-dax), moet u testen op verwachte _en onverwachte_ waarden. Bij het insluiten van Power BI-inhoud, met name als de [app eigenaar is van gegevens](../developer/embedded/embedding.md#embedding-for-your-customers), kan de app-logica elke waarde doorgeven als effectieve gebruikersnaam voor een identiteit. Indien mogelijk, moet u ervoor zorgen dat onbedoelde of schadelijke waarden resulteren in filters die geen rijen retourneren.
 
@@ -104,7 +104,7 @@ IF(
 
 ## <a name="design-partial-rls"></a>Gedeeltelijke beveiliging op rijniveau ontwerpen
 
-Soms zijn er waarden nodig voor berekeningen die niet worden beperkt door filters voor beveiliging op rijniveau. Zo moet een rapport mogelijk een verhouding weergeven tussen de verdiende omzet in de verkoopregio van de rapportgebruiker en _alle verdiende omzet_ .
+Soms zijn er waarden nodig voor berekeningen die niet worden beperkt door filters voor beveiliging op rijniveau. Zo moet een rapport mogelijk een verhouding weergeven tussen de verdiende omzet in de verkoopregio van de rapportgebruiker en _alle verdiende omzet_.
 
 Hoewel beveiliging op rijniveau niet kan worden overschreven door een DAX-expressie (of door een DAX-expressie kan worden bepaald of beveiliging op rijniveau wordt afgedwongen), kunt u een overzichtsmodeltabel gebruiken. Op de overzichtsmodeltabel wordt een query uitgevoerd om de omzet voor alle regio's op te halen. Deze wordt niet beperkt door filters voor beveiliging op rijniveau.
 
@@ -114,7 +114,7 @@ Laten we eens kijken hoe u deze ontwerpvereiste kunt implementeren. Bekijk eerst
 
 Het model bestaat uit vier tabellen:
 
-- In de tabel **Salesperson** (Verkoper) wordt één rij per verkoper opgeslagen. Het bevat de kolom **EmailAddress** , waarin het e-mailadres van elke verkoper wordt opgeslagen. Deze tabel is verborgen.
+- In de tabel **Salesperson** (Verkoper) wordt één rij per verkoper opgeslagen. Het bevat de kolom **EmailAddress**, waarin het e-mailadres van elke verkoper wordt opgeslagen. Deze tabel is verborgen.
 - In de tabel **Sales** (Verkoop) wordt één rij per order opgeslagen. Het bevat de meting **Revenue % All Region** (omzetpercentage van alle regio's), die is ontworpen om een verhouding te retourneren tussen de verdiende omzet van de regio van de rapportgebruiker en de verdiende omzet van alle regio's.
 - In de tabel **Date** (Datum) wordt één rij per datum opgeslagen en kan worden gefilterd en gegroepeerd op jaar en maand.
 - **SalesRevenueSummary** is een berekende tabel. Hierin wordt de totale omzet voor elke orderdatum opgeslagen. Deze tabel is verborgen.
@@ -132,7 +132,7 @@ SUMMARIZECOLUMNS(
 > [!NOTE]
 > U kunt ook een [aggregatietabel](../transform-model/desktop-aggregations.md) gebruiken voor deze ontwerpvereiste.
 
-De volgende regel voor beveiliging op rijniveau wordt toegepast op de tabel **Salesperson** :
+De volgende regel voor beveiliging op rijniveau wordt toegepast op de tabel **Salesperson**:
 
 ```dax
 [EmailAddress] = USERNAME()
@@ -142,9 +142,9 @@ Elk van de drie modelrelaties wordt beschreven in de volgende tabel:
 
 |Relatie|Beschrijving|
 |---------|---------|
-|![Stroomdiagramafsluiter 1.](media/common/icon-01-red-30x30.png)|Er is een veel-op-veel-relatie tussen de tabellen **Salesperson** en **Sales** . De regel voor beveiliging op rijniveau filtert de kolom **EmailAddress** van de verborgen tabel **Salesperson** met behulp van de DAX-functie [USERNAME](/dax/username-function-dax). De waarde van de kolom **Region** (voor de rapportgebruiker) wordt doorgevoerd in de tabel **Sales** .|
-|![Stroomdiagramafsluiter 2.](media/common/icon-02-red-30x30.png)|Er is een een-op-veel-relatie tussen de tabellen **Date** en **Sales** .|
-|![Stroomdiagramafsluiter 3.](media/common/icon-03-red-30x30.png)|Er is een een-op-veel-relatie tussen de tabellen **Date** en **SalesRevenueSummary** .|
+|![Stroomdiagramafsluiter 1.](media/common/icon-01-red-30x30.png)|Er is een veel-op-veel-relatie tussen de tabellen **Salesperson** en **Sales**. De regel voor beveiliging op rijniveau filtert de kolom **EmailAddress** van de verborgen tabel **Salesperson** met behulp van de DAX-functie [USERNAME](/dax/username-function-dax). De waarde van de kolom **Region** (voor de rapportgebruiker) wordt doorgevoerd in de tabel **Sales**.|
+|![Stroomdiagramafsluiter 2.](media/common/icon-02-red-30x30.png)|Er is een een-op-veel-relatie tussen de tabellen **Date** en **Sales**.|
+|![Stroomdiagramafsluiter 3.](media/common/icon-03-red-30x30.png)|Er is een een-op-veel-relatie tussen de tabellen **Date** en **SalesRevenueSummary**.|
 
 Met de volgende expressie wordt de meting **Revenue % All Region** gedefinieerd:
 

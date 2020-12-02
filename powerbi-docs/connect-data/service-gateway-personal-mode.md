@@ -2,19 +2,19 @@
 title: Persoonlijke gateways gebruiken in Power BI
 description: Biedt informatie over de on-premises gegevensgateway (persoonlijke modus) voor Power BI, waarmee gebruikers verbinding kunnen maken met on-premises gegevens.
 author: arthiriyer
+ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 11/09/2020
-ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: ae41c393d6c2a7db869627eedea3dafe3b618a78
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 8f69f81d988393e9be2682164933037b2904a396
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483645"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410247"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Persoonlijke gateways gebruiken in Power BI
 
@@ -75,27 +75,27 @@ Met Snel combineren op een persoonlijke gateway kunt u opgegeven privacyniveaus 
 
 **Vraag:** Kan ik de on-premises gegevensgateway (persoonlijke modus) uitvoeren naast de on-premises gegevensgateway (voorheen bekend als de Enterprise-versie van de gateway)?
   
-**Antwoord** : Ja, beide gateways kunnen tegelijkertijd worden uitgevoerd.
+**Antwoord**: Ja, beide gateways kunnen tegelijkertijd worden uitgevoerd.
 
 **Vraag:** Kan ik de on-premises gegevensgateway (persoonlijke modus) uitvoeren als een service?
   
-**Antwoord** : Nee. De on-premises gegevensgateway (persoonlijke modus) kan alleen worden uitgevoerd als een toepassing. Als u de gateway wilt uitvoeren als een service of met beheerdersrechten, zult u de [on-premises gegevensgateway](/data-integration/gateway/service-gateway-onprem) (voorheen bekend als de Enterprise-gateway) moeten gebruiken.
+**Antwoord**: Nee. De on-premises gegevensgateway (persoonlijke modus) kan alleen worden uitgevoerd als een toepassing. Als u de gateway wilt uitvoeren als een service of met beheerdersrechten, zult u de [on-premises gegevensgateway](/data-integration/gateway/service-gateway-onprem) (voorheen bekend als de Enterprise-gateway) moeten gebruiken.
 
 **Vraag:** Hoe vaak wordt de on-premises gegevensgateway (persoonlijke modus) bijgewerkt?
   
-**Antwoord** : We gaan de persoonlijke gateway maandelijks bijwerken.
+**Antwoord**: We gaan de persoonlijke gateway maandelijks bijwerken.
 
 **Vraag:** Waarom word ik gevraagd mijn referenties bij te werken?
   
-**Antwoord** : Er kunnen diverse redenen zijn waarom u om uw referenties wordt gevraagd. De meest voorkomende reden is dat u de on-premises gegevensgateway (persoonlijke modus) hebt geïnstalleerd op een andere computer dan uw Power BI Personal Gateway. Het is ook mogelijk dat er een probleem is opgetreden in de gegevensbron, waardoor Power BI geen testverbinding kon maken, of dat er een time-out of systeemfout is opgetreden. Als u uw referenties in de Power BI-service wilt bijwerken, selecteert u het tandwielpictogram en selecteert u **Instellingen** > **Gegevenssets**. Zoek de gewenste gegevensset en selecteer **Gegevensbronreferenties**.
+**Antwoord**: Er kunnen diverse redenen zijn waarom u om uw referenties wordt gevraagd. De meest voorkomende reden is dat u de on-premises gegevensgateway (persoonlijke modus) hebt geïnstalleerd op een andere computer dan uw Power BI Personal Gateway. Het is ook mogelijk dat er een probleem is opgetreden in de gegevensbron, waardoor Power BI geen testverbinding kon maken, of dat er een time-out of systeemfout is opgetreden. Als u uw referenties in de Power BI-service wilt bijwerken, selecteert u het tandwielpictogram en selecteert u **Instellingen** > **Gegevenssets**. Zoek de gewenste gegevensset en selecteer **Gegevensbronreferenties**.
 
 **Vraag:** Hoelang is mijn vorige persoonlijke gateway offline tijdens de upgrade?
   
-**Antwoord** : Het upgraden van de persoonlijke gateway naar de nieuwe versie duurt slechts enkele minuten.
+**Antwoord**: Het upgraden van de persoonlijke gateway naar de nieuwe versie duurt slechts enkele minuten.
 
 **Vraag:** Ik gebruik R- en Python-scripts. Worden deze scripts ondersteund?
   
-**Antwoord** : R- en Python-scripts worden ondersteund in de persoonlijke modus.
+**Antwoord**: R- en Python-scripts worden ondersteund in de persoonlijke modus.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -2,20 +2,20 @@
 title: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 description: Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: troubleshooting
 ms.date: 05/08/2020
-ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 49af2febbecb5061c4acb9ee20c3b707e3b81dff
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 4ab84a4f40acff894416fe2e5b33788c413ad4f5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634890"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410753"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Problemen oplossen met een gegevensbron waarvoor vernieuwen niet wordt ondersteund
 Mogelijk wordt er een fout weergegeven wanneer u een gegevensset probeert te configureren voor een geplande vernieuwing.
