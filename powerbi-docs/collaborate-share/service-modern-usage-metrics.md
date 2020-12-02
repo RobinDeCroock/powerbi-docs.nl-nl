@@ -6,16 +6,16 @@ ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 08/31/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c4f9d83d612d8f8d442fc5267be66a2a5cf288a2
-ms.sourcegitcommit: 59d07be9c3e4a2067f6d42c3002a194371bc4341
+ms.openlocfilehash: c5690492d3a54ae244e0104d0134414f1b6d9c96
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "92116610"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407326"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>Metrische gebruiksgegevens controleren in de nieuwe werkruimte-ervaring (preview)
 
@@ -123,7 +123,7 @@ Gebruik de volgende procedure om een gegevensset voor het rapport met metrische 
 
     ![Referenties bewerken](media/service-modern-usage-metrics/power-bi-usage-metrics-edit-credentials.png)
 
-2. Selecteer **Aanmelden**in het dialoogvenster **Rapport voor metrische gegevens over het gebruik configureren**.
+2. Selecteer **Aanmelden** in het dialoogvenster **Rapport voor metrische gegevens over het gebruik configureren**.
 
     ![Selecteer Aanmelden](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-configure.png)
 
@@ -199,7 +199,7 @@ U kunt een nieuw gebruiksrapport maken in Power BI Desktop, op basis van de gege
 
 1. Als u verbinding wilt maken met de gegevensset Rapport voor metrische gegevens over het gebruik, selecteert u **Gegevens ophalen** op het lint **Startpagina**.
 
-4. Selecteer in het linkerdeelvenster **Power Platform**en vervolgens **Power BI-gegevenssets** > **Verbinding maken**.
+4. Selecteer in het linkerdeelvenster **Power Platform** en vervolgens **Power BI-gegevenssets** > **Verbinding maken**.
 
     ![Gegevens ophalen > Power Platform](media/service-modern-usage-metrics/power-bi-desktop-get-data.png)
 

@@ -2,20 +2,20 @@
 title: De nieuwe werkruimten maken - Power BI
 description: Informatie over het maken van de nieuwe werkruimten, verzamelingen dashboards, rapporten en gepagineerde rapporten die zijn gemaakt om belangrijke metrische gegevens voor uw organisatie te bieden.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/04/2020
-ms.author: maggies
 ms.custom: contperfq1, contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: c75d4d911bb53ef0f9804996bbc1d78db3f787f5
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 41f58d6561b76aa747f521b98477af3bc8492a8f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89511946"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407510"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
@@ -124,7 +124,7 @@ U kunt opgeven welke gebruikers meldingen moeten ontvangen over problemen die op
 
 Met de instelling **Toestaan dat inzenders de app voor deze werkruimte bijwerken** geven Beheerders van de werkruimte gebruikers met de rol Inzender de mogelijkheid om de app bij te werken voor de werkruimte. Standaard kunnen alleen beheerders en leden van de werkruimte de app publiceren en bijwerken voor de werkruimte. 
 
-1. Als u toegang tot deze instelling wilt hebben, selecteert u in het navigatievenster de pijl naast **Werkruimten**, selecteert u**Meer opties** (...) naast de naam van de werkruimte > **Werkruimte-instellingen**. Het deelvenster **Instellingen** wordt geopend.
+1. Als u toegang tot deze instelling wilt hebben, selecteert u in het navigatievenster de pijl naast **Werkruimten**, selecteert u **Meer opties** (...) naast de naam van de werkruimte > **Werkruimte-instellingen**. Het deelvenster **Instellingen** wordt geopend.
 
     ![Schermopname van Instellingen voor werkruimte.](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 

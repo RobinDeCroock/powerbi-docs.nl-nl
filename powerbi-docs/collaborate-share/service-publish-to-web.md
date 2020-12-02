@@ -5,16 +5,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 11/02/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7980057ae35637f06aeec3d241b074fcc41564b7
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297654"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406774"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -71,7 +71,7 @@ De volgende tabel bevat richtlijnen over de weergavemodus en hoe deze wordt weer
 
 | Weergavemodus | Voorbeelden van invoegen |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Aan pagina aanpassen** houdt rekening met de paginahoogte en -breedte van uw rapport. Als u uw pagina instelt op *dynamische* verhoudingen, zoals 16:9 of 4:3, wordt uw inhoud passend gemaakt binnen het iFrame. Bij insluiting in een iFrame kan het gebruiken van **Passend op pagina** leiden tot *letterboxing* : een grijze achtergrond wordt weergegeven in de iFrame-gebieden nadat de inhoud passend is gemaakt voor weergave binnen het iFrame. Stel de juiste hoogte en breedte van het iFrame in om letterboxing te minimaliseren. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Aan pagina aanpassen** houdt rekening met de paginahoogte en -breedte van uw rapport. Als u uw pagina instelt op *dynamische* verhoudingen, zoals 16:9 of 4:3, wordt uw inhoud passend gemaakt binnen het iFrame. Bij insluiting in een iFrame kan het gebruiken van **Passend op pagina** leiden tot *letterboxing*: een grijze achtergrond wordt weergegeven in de iFrame-gebieden nadat de inhoud passend is gemaakt voor weergave binnen het iFrame. Stel de juiste hoogte en breedte van het iFrame in om letterboxing te minimaliseren. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Ware grootte** zorgt ervoor dat het rapport de grootte zoals ingesteld op de rapportpagina behoudt. Dit kan ertoe leiden dat er schuifbalken in uw iFrame worden weergegeven. Stel de hoogte en breedte van het iFrame in om schuifbalken te vermijden. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Passend in breedte** zorgt ervoor dat de inhoud binnen het horizontale gebied van uw iFrame past. Er wordt wel een rand weergegeven, maar de inhoud wordt zodanig geschaald dat alle beschikbare horizontale ruimte wordt gebruikt. |
 
@@ -139,7 +139,7 @@ Power BI-visuals worden ondersteund in **Publiceren op internet**. Wanneer u **P
 >[!Note]
 >Controleer de invoegcodes die u vaak hebt gepubliceerd. Verwijder alle code die niet meer openbaar beschikbaar hoeft te zijn.
 
-De pagina **Invoegcodes beheren** bevat een statuskolom. De invoegcodes zijn standaard **Actief** , maar kunnen ook een van de onderstaande statussen hebben.
+De pagina **Invoegcodes beheren** bevat een statuskolom. De invoegcodes zijn standaard **Actief**, maar kunnen ook een van de onderstaande statussen hebben.
 
 | Status | Beschrijving |
 | --- | --- |
@@ -150,7 +150,7 @@ De pagina **Invoegcodes beheren** bevat een statuskolom. De invoegcodes zijn sta
 
 ## <a name="report-a-concern-with-publish-to-web-content"></a>Een probleem melden met Publiceren op internet
 
-Als u een probleem wilt melden dat is gerelateerd aan **Publiceren op internet** -inhoud die is ingesloten in een website of blog, selecteert u het **vlag** -pictogram in de onderste balk van het **Publiceren op internet** -rapport.
+Als u een probleem wilt melden dat is gerelateerd aan **Publiceren op internet**-inhoud die is ingesloten in een website of blog, selecteert u het **vlag**-pictogram in de onderste balk van het **Publiceren op internet**-rapport.
 
 ![PtW12](media/service-publish-to-web/publish_to_web12_ga.png)
 
@@ -163,7 +163,7 @@ U kunt **Publiceren op internet** allen gebruiken als u gebruiker van Microsoft 
 <a name="howitworks"></a>
 ## <a name="how-it-works-technical-details"></a>Hoe het werkt (technische details)
 
-Wanneer u een invoegcode maakt met **Publiceren op internet** , wordt het rapport zichtbaar voor het internetgebruikers. Het is openbaar beschikbaar, dus u kunt verwachten dat bezoekers het rapport eenvoudig via sociale media zullen delen. Gebruikers bekijken het rapport door de directe openbare URL te openen of deze ingesloten te bekijken in een webpagina of blog. Als dit het geval is, slaat Power BI de definitie van het rapport en de resultaten van de vragen die nodig zijn om het rapport te bekijken, op in een cache. Met Opslaan in de cache kunnen duizenden gebruikers het rapport gelijktijdig bekijken, zonder dat dit ten koste gaat van de prestaties.
+Wanneer u een invoegcode maakt met **Publiceren op internet**, wordt het rapport zichtbaar voor het internetgebruikers. Het is openbaar beschikbaar, dus u kunt verwachten dat bezoekers het rapport eenvoudig via sociale media zullen delen. Gebruikers bekijken het rapport door de directe openbare URL te openen of deze ingesloten te bekijken in een webpagina of blog. Als dit het geval is, slaat Power BI de definitie van het rapport en de resultaten van de vragen die nodig zijn om het rapport te bekijken, op in een cache. Met Opslaan in de cache kunnen duizenden gebruikers het rapport gelijktijdig bekijken, zonder dat dit ten koste gaat van de prestaties.
 
 De gegevens worden gedurende één uur in de cache geplaatst vanaf het moment dat deze worden opgehaald. Als u de rapportdefinitie bijwerkt (bijvoorbeeld als u de weergavemodus wijzigt) of de rapportgegevens vernieuwt, duurt het even voordat wijzigingen worden doorgevoerd in de versie van het rapport die uw gebruikers weergeven. Wanneer een gegevensvernieuwing plaatsvindt voor een importgegevensmodel, wist de service de gegevens in de cache en worden nieuwe gegevens opgehaald. In de meeste gevallen worden de gegevens bijna gelijktijdig bijgewerkt met de import van de gegevens. Voor rapporten met veel verschillende query's kan het echter enige tijd duren voordat deze zijn bijgewerkt. Omdat element- en gegevenswaarden onafhankelijk in de cache wordt opgeslagen, kan bij een gegevenswijziging een combinatie van huidige en eerdere waarden worden weergegeven aan een gebruiker. U kunt daarom het beste uw werkzaamheden ver van tevoren plannen en de invoegcode voor **Publiceren op internet** alleen maken wanneer u tevreden bent met de instellingen. Minimaliseer het aantal vernieuwingen van gegevens, en voer de vernieuwingen uit buiten piekuren. Het is niet raadzaam om Publiceren op internet te gebruiken voor gegevens die regelmatig moeten worden vernieuwd.
 
@@ -182,7 +182,7 @@ U moet [een van deze personen](/office365/admin/admin-overview/admin-overview#wh
 
 ## <a name="limitations"></a>Beperkingen
 
-**Publiceren op internet** wordt ondersteund voor de meeste gegevensbronnen en rapporten in de Power BI-service. De volgende soorten rapporten worden momenteel echter niet ondersteund of zijn niet beschikbaar bij **Publiceren op internet** :
+**Publiceren op internet** wordt ondersteund voor de meeste gegevensbronnen en rapporten in de Power BI-service. De volgende soorten rapporten worden momenteel echter niet ondersteund of zijn niet beschikbaar bij **Publiceren op internet**:
 
 - Rapporten met beveiliging op rijniveau.
 - Rapporten die als gegevensbron gebruikmaken van Live Connection, waaronder Analysis Services Tabular dat on-premises wordt gehost, Analysis Services Multidimensional en Azure Analysis Services.
@@ -190,7 +190,7 @@ U moet [een van deze personen](/office365/admin/admin-overview/admin-overview#wh
 - [Gedeelde en gecertificeerde gegevenssets](../connect-data/service-datasets-share.md).
 - Rapporten die direct of via een organisatie-inhoudspakket met u worden gedeeld.
 - Rapporten in een werkruimte waarvan u geen lid bent met machtigingen voor bewerken.
-- R- en Python-visuals worden momenteel niet ondersteund in **Publiceren op internet** -rapporten.
+- R- en Python-visuals worden momenteel niet ondersteund in **Publiceren op internet**-rapporten.
 - Exporteren van gegevens uit de visuals in een rapport dat is gepubliceerd op internet.
 - ArcGIS Maps for Power BI-visuals.
 - Q&A voor Power BI-visuals.

@@ -2,19 +2,19 @@
 title: Uw Power BI-abonnement migreren naar de nieuwe Lokale Duitse regio's
 description: Hier wordt beschreven hoe bestaande Microsoft Cloud Duitsland-klanten (Microsoft Cloud Deutschland) hun Power BI-gebruikers kunnen migreren naar nieuwe Lokale Duitse regio’s.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/02/2020
-ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 978483407176b9902989b8feb0f41f577d4ed14f
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 7ce58c58934503e51531d204c02c976e244e57e5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668224"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96408475"
 ---
 # <a name="migrate-your-subscription-to-the-new-local-german-regions"></a>Uw abonnement migreren naar de nieuwe Lokale Duitse regio’s
 

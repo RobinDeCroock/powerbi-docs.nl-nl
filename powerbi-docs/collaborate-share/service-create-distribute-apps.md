@@ -2,18 +2,18 @@
 title: Een app publiceren in Power BI
 description: Meer informatie over hoe u de nieuwe apps, die verzamelingen dashboards en rapporten omvatten, kunt publiceren.
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 09ac807b6823c8d9e8c0b44ad941365eb3ffb766
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526439"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96407694"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -33,7 +33,7 @@ Zakelijke gebruikers kunnen uw apps op een aantal verschillende manieren install
 U kunt de app maken met een eigen ingebouwde navigatie, zodat uw gebruikers eenvoudig de weg in uw inhoud kunnen vinden. Ze kunnen de inhoud van de app niet wijzigen. Ze kunnen wel bepaalde acties uitvoeren in de Power BI-service of een van de mobiele apps: filteren, markeren en de gegevens sorteren. Ze ontvangen automatisch updates en u kunt bepalen hoe vaak de gegevens worden vernieuwd. U kunt hun ook samenstellingsmachtigingen geven om verbinding te maken met de onderliggende gegevenssets en kopieën van de rapporten in de app te maken. Meer informatie over de [Samenstellingsmachtiging](../connect-data/service-datasets-build-permissions.md).
 
 ## <a name="licenses-for-apps"></a>Licenties voor apps
-U hebt een Power BI Pro-licentie nodig om apps bij te werken of te maken. Voor*app-consumenten* zijn er twee opties.
+U hebt een Power BI Pro-licentie nodig om apps bij te werken of te maken. Voor *app-consumenten* zijn er twee opties.
 
 * **Optie 1** De werkruimte voor deze app bevindt zich *niet* in een Power BI Premium capaciteit: alle zakelijke gebruikers moeten Power BI Pro-licenties hebben om uw app te bekijken. 
 * **Optie 2** De werkruimte voor deze app bevindt zich *wel* in een Power BI Premium capaciteit: zakelijke gebruikers zonder Power BI Pro licenties in uw organisatie kunnen app-inhoud bekijken. Ze kunnen de rapporten echter niet kopiëren en kunnen geen rapporten maken op basis van de onderliggende gegevenssets. Lees [Wat is Power BI Premium?](../admin/service-premium-what-is.md) voor meer informatie.
