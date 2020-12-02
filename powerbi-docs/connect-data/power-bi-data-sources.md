@@ -2,18 +2,18 @@
 title: Power BI-gegevensbronnen
 description: In dit artikel staan de gegevensbronnen die door Power BI worden ondersteund, inclusief informatie over DirectQuery en de on-premises gegevensgateway.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 11/17/2020
-ms.author: davidi
-ms.openlocfilehash: 11f9db0282cd0b302c5293ca59dd44c87dcdb955
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 18b7e55d409dc6562fab7cf1f36b83e7edac994b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94719047"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392859"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 

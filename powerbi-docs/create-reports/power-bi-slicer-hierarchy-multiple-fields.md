@@ -2,25 +2,25 @@
 title: Meerdere velden aan een hiërarchieslicer toevoegen
 description: Meer informatie over het maken van een hiërarchieslicer met meerdere velden in een hiërarchie.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5fbaeaafb14fc935e26b4a2d13acf9dc09ea188f
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: cadb8d45af40c91e7008e771f2a52ef2ea508341
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409546"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393457"
 ---
 # <a name="add-multiple-fields-to-a-hierarchy-slicer"></a>Meerdere velden aan een hiërarchieslicer toevoegen
 
 [!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Als u meerdere gerelateerde velden wilt filteren binnen één slicer, doet u dit door een zogeheten *hiërarchie*slicer te maken. U kunt deze slicers maken in een Power BI Desktop of in de Power BI-service.
+Als u meerdere gerelateerde velden wilt filteren binnen één slicer, doet u dit door een zogeheten *hiërarchie* slicer te maken. U kunt deze slicers maken in een Power BI Desktop of in de Power BI-service.
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-hierarchy.png" alt-text="Schermopname van hiërarchieslicer in Power BI.":::
 
@@ -49,7 +49,7 @@ In dit voorbeeld bevat de titel van de slicer de drie velden in de hiërarchie: 
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-title.png" alt-text="Schermopname van hiërarchieslicer met type-, platform-en naamvelden.":::
 
-Als u de naam wilt wijzigen, selecteert u de slicer en selecteert u vervolgens het deelvenster **Opmaak**. Onder **Koptekstslicer**ziet u de huidige naam van de slicer in het vak **Titeltekst**.
+Als u de naam wilt wijzigen, selecteert u de slicer en selecteert u vervolgens het deelvenster **Opmaak**. Onder **Koptekstslicer** ziet u de huidige naam van de slicer in het vak **Titeltekst**.
 
 :::image type="content" source="media/power-bi-slicer-hierarchy-multiple-fields/power-bi-slicer-edit-title.png" alt-text="Schermopname van het deelvenster Indeling met de in huidige titel.":::
 

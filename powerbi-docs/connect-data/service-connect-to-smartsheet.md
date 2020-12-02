@@ -2,19 +2,19 @@
 title: Verbinding maken met Smartsheet via Power BI
 description: Smartsheet voor Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a1cf9c96b976acbfd9a5cefe4d413b4aa0fac9bf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 446c9dd1af2322cca164762ae212ba247b8916ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236266"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392905"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Verbinding maken met Smartsheet via Power BI
 In dit artikel wordt uitgelegd hoe u uw gegevens ophaalt uit uw Smartsheet-account met een Power BI-sjabloon-app. Smartsheet biedt een gebruiksvriendelijk platform voor samenwerking en het delen van bestanden. De Smartsheet-sjabloon-app voor Power BI bevat een dashboard, rapporten en een gegevensset die een overzicht geven van uw Smartsheet-account. U kunt ook [Power BI Desktop](desktop-connect-to-data.md) gebruiken om rechtstreeks verbinding te maken met afzonderlijke werkbladen in uw account. 

@@ -2,20 +2,20 @@
 title: Een gegevensset vernieuwen die is gemaakt van een csv-bestand in OneDrive
 description: Een gegevensset vernieuwen die is gemaakt op basis van een CSV-bestand (door komma's gescheiden waarden) in OneDrive
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/12/2019
-ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 765e21aae6c68741ecba41ef24b691deeb2a403f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fabb694caadcd108c009471897738da6f403b49c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235303"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392745"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Een gegevensset vernieuwen die is gemaakt van een CSV-bestand in OneDrive of SharePoint Online
 ## <a name="what-are-the-advantages"></a>Wat zijn de voordelen?

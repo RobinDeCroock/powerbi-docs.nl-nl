@@ -2,19 +2,19 @@
 title: Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI
 description: Meer informatie over het maken van een voor uw rapport op maat gemaakte responsieve slicer waarvan u de grootte kunt wijzigen
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 94d55f92a6be47d6a53cbdaad4d9ff657d572957
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5fde91f2cfabd1f5a7727d3ec8a80d8ecddc7fc6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235874"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393434"
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi"></a>Een responsieve slicer maken waarvan u de grootte kunt wijzigen in Power BI
 
