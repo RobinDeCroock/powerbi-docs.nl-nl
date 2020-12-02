@@ -2,20 +2,20 @@
 title: Afbeeldingen, video's en meer toevoegen aan uw dashboard
 description: Hier leest u hoe u met de widget Tegel toevoegen een afbeelding, video, tekstvak, webcode en streaminggegevens toevoegt aan een dashboard.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 72306a6269df91a75b750628e3534bf5891fe6b0
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 27c5dba205ee396a2415259163e5dbfb8df11037
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916907"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395435"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Afbeeldingen, video's en meer toevoegen aan uw dashboard
 
@@ -96,7 +96,7 @@ als u een koptekst wilt toevoegen aan het dashboard, typt u de tekst in het teks
 Wanneer u een videotegel van YouTube of Vimeo aan uw dashboard toevoegt, wordt de video direct op uw dashboard afgespeeld.
 
 1. Selecteer in het venster **Tegel toevoegen** de optie **Video** > **Volgende**.
-2. Voeg informatie over de video toe in het venster **Een videotegel toevoegen** :   
+2. Voeg informatie over de video toe in het venster **Een videotegel toevoegen**:   
    
    a. Als u een titel en subtitel wilt weergeven bovenaan de videotegel, selecteert u **Titel en subtitel weergeven** en voert u een **titel** en optioneel een **subtitel** in. In dit voorbeeld voegen we een **Subtitel** toe en converteren we deze naar een hyperlink naar de volledige afspeellijst op YouTube.
 
@@ -123,7 +123,7 @@ U kunt PubNub gebruiken om streaminggegevens, zoals Twitter-feeds of sensorgegev
 1. Selecteer in het venster **Tegel toevoegen** de optie **Aangepaste streaminggegevens** > **Volgende.**
 2. Selecteer **Streaminggegevensset toevoegen**.
 3. Maak een **Nieuwe streaminggegevensset** met behulp van de API van Power BI of met PubNub.
-4. Vul de velden in voor **Naam van de gegevensset** , **Abonnementssleutel** en **Kanaalnaam**. Als het een beveiligde verbinding is, heeft deze ook een autorisatiesleutel. U kunt de voorbeeldwaarden van PubNub gebruiken om dit te testen.
+4. Vul de velden in voor **Naam van de gegevensset**, **Abonnementssleutel** en **Kanaalnaam**. Als het een beveiligde verbinding is, heeft deze ook een autorisatiesleutel. U kunt de voorbeeldwaarden van PubNub gebruiken om dit te testen.
 5. Selecteer **Volgende**.
     U ziet de velden die beschikbaar zijn in de gegevensset, met de gegevenstypen en JSON-indeling ervan.
 6. Selecteer **Verbinden**.
@@ -131,7 +131,7 @@ U kunt PubNub gebruiken om streaminggegevens, zoals Twitter-feeds of sensorgegev
 7. Ga terug naar het dashboard en selecteer nogmaals **Tegel toevoegen** > **Aangepaste streaminggegevens** > **Volgende**.
 8. Selecteer de sensorgegevensset die u hebt gemaakt > **Volgende**.
 9. Selecteer het gewenste visualtype. Een lijndiagram is vaak geschikt voor deze gegevens.
-10. Selecteer de **As** , **Legenda** en **Waarden**.
+10. Selecteer de **As**, **Legenda** en **Waarden**.
 11. Bepaal de tijdsduur die u wilt weergeven, in seconden, minuten of uren.
 12. Selecteer **Volgende**.
 13. Geef het desgewenst een **titel** en een **subtitel**.
@@ -144,7 +144,7 @@ U kunt PubNub gebruiken om streaminggegevens, zoals Twitter-feeds of sensorgegev
 
 3. Maak een **Nieuwe streaminggegevensset** met behulp van de API van Power BI of met PubNub.
 
-4. Vul de velden in voor **Naam van de gegevensset** , **Abonnementssleutel** en **Kanaalnaam**. Als het een beveiligde verbinding is, heeft deze ook een autorisatiesleutel. U kunt de voorbeeldwaarden van PubNub gebruiken om dit te testen.
+4. Vul de velden in voor **Naam van de gegevensset**, **Abonnementssleutel** en **Kanaalnaam**. Als het een beveiligde verbinding is, heeft deze ook een autorisatiesleutel. U kunt de voorbeeldwaarden van PubNub gebruiken om dit te testen.
 
 5. Selecteer **Volgende**.
 
@@ -160,7 +160,7 @@ U kunt PubNub gebruiken om streaminggegevens, zoals Twitter-feeds of sensorgegev
 
 9. Selecteer het gewenste visualtype. Een lijndiagram is vaak geschikt voor deze gegevens.
 
-10. Selecteer de **As** , **Legenda** en **Waarden**.
+10. Selecteer de **As**, **Legenda** en **Waarden**.
 
 11. Bepaal de tijdsduur die u wilt weergeven, in seconden, minuten of uren.
 
@@ -175,7 +175,7 @@ U kunt elke willekeurige HTML-inhoud, als een tegel, in uw rapport of dashboard 
 
 1. Selecteer in het venster **Tegel toevoegen** de optie **Webinhoud** > **Volgende**.
 
-2. Voeg gegevens toe aan het venster **Een webinhoudtegel toevoegen** :
+2. Voeg gegevens toe aan het venster **Een webinhoudtegel toevoegen**:
    
    a. Als u een titel wilt weergeven boven de tegel, selecteert u **Titel en subtitel weergeven** en voert u een **titel** en optioneel een **subtitel** in.
 

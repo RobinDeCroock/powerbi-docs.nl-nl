@@ -2,18 +2,18 @@
 title: BI-oplossingsarchitectuur in de COE (Center of Excellence)
 description: Meer informatie over wat u moet overwegen bij het ontwerpen en ontwikkelen van een robuust BI-platform.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: d84f6a4fcf7ff531b76b6e731f165aa6e0df764f
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 88d1e19435207ca094bd9cb1cba770c1cb54573f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512120"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394630"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>BI-oplossingsarchitectuur in de COE (Center of Excellence)
 

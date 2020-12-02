@@ -2,19 +2,19 @@
 title: Power BI-video's
 description: Power BI-video's en een koppeling naar het YouTube-kanaal.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.author: davidi
-ms.openlocfilehash: 7848ac9539b324dd4b572445877297294dbe8236
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2ea3d234f9d0cc630200872baa242a4f7a3b4de7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860044"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394791"
 ---
 # <a name="power-bi-videos"></a>Power BI-video's
 We hebben een YouTube-kanaal voor Power BI. U kunt [ons kanaal](https://www.youtube.com/user/mspowerbi/videos) bezoeken en, als u nog geen ervaring met Power BI hebt, beginnen met het gedeelte [Gegevens analyseren en visualiseren met een Power BI-afspeellijst](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).

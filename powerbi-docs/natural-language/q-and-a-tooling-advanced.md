@@ -2,17 +2,17 @@
 title: Het taalkundige Q&A-schema bewerken en formuleringen toevoegen in Power BI Desktop
 description: Instructies voor het gebruik van Power BI Desktop om het taalkundige schema dat door Power BI Q&A wordt gebruikt, te bewerken.
 author: mohaali
+ms.author: mohaali
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/18/2019
-ms.author: mohaali
-ms.openlocfilehash: 9499dd99d89619d096d86ac676c54ebb214c3a55
-ms.sourcegitcommit: 220910f0b68cb1e265ccd5ac0cee4ee9c6080b26
+ms.openlocfilehash: ce01fc6c4dc34c614ac024240855301b3fb66968
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82841843"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393664"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Het taalkundige Q&A-schema bewerken en formuleringen toevoegen in Power BI Desktop 
 Normale zinnen en natuurlijke taal gebruiken om informatie uit uw gegevens te kunnen opvragen, is uiterst nuttig. Het is zelfs nog krachtiger wanneer u antwoorden kunt krijgen uit uw gegevens. Wanneer u Power BI Q&A een vraag stelt, wordt geprobeerd een zo goed mogelijk antwoord te geven. Maar voor nóg betere Q&A-interacties kunt u de antwoorden verbeteren. U kunt dit bijvoorbeeld doen door het taalkundige schema te bewerken. 

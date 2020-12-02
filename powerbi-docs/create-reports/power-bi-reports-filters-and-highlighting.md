@@ -2,19 +2,19 @@
 title: Filters en markeren in Power BI-rapporten
 description: Over filters en markeren in Power BI-rapporten
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 10/23/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 708d57f6092029b3c82412336b54fce1ae0ca441
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9a793ff966f7560924f53357ce7518f0ede65c56
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83280743"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393572"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filters en markeren in Power BI-rapporten
  In dit artikel wordt beschreven hoe u filtert en markeert in de Power BI-service. De ervaring is echter nagenoeg hetzelfde als in Power BI Desktop. *Filters* zorgen ervoor dat alleen die gegevens worden weergegeven waarop u zich wilt concentreren. *Markeren* is geen vorm van filteren. Hiermee worden geen gegevens verwijderd, maar wordt een subset van de zichtbare gegevens gemarkeerd. De gegevens die niet gemarkeerd zijn, blijven zichtbaar maar zijn lichter van kleur.

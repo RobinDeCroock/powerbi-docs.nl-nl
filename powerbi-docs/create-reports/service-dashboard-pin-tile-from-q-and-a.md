@@ -2,19 +2,19 @@
 title: Een tegel vastmaken aan een dashboard vanuit Q&A
 description: Documentatie over hoe u vanuit het vak met Q&A-vragen een tegel vastmaakt aan een Power BI-dashboard
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 76c76cf5ae41c369e3810f3a52ee43816184d8e1
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: ec0b384efb4b43afad76e18feb1b5a53d5f3738c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263045"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395205"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Een tegel vastmaken aan een dashboard vanuit Q&A
 ## <a name="how-to-pin-a-tile-from-qa"></a>Een tegel vastmaken vanuit Q&A

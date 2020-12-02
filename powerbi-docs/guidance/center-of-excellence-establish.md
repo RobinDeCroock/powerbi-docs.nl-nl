@@ -2,18 +2,18 @@
 title: Een Center of Excellence instellen
 description: Ontdek hoe een Center of Excellence Microsoft heeft geholpen om een gestandaardiseerd analyse- en gegevensplatform te maken voor het ontsluiten van inzichten met het juiste operationele model, de betrokkenheid van de belanghebbende en gedeelde en gerichte investeringen.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/19/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: 90de33f85c0ede28b14e651414c311e4986a2172
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638607"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96394561"
 ---
 # <a name="establish-a-center-of-excellence"></a>Een Center of Excellence instellen
 
