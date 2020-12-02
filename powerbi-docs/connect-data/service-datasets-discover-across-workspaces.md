@@ -1,31 +1,31 @@
 ---
 title: Rapporten maken op basis van gegevenssets van verschillende werkruimten - Power BI
 description: Ontdek hoe u een gegevensset kunt delen met gebruikers in de hele organisatie. Daarna kunnen ze rapporten samenstellen op basis van uw gegevensset in hun eigen werkruimten.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 59fc2d4be1336d9476c86e4204eeb23564ebe64e
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 3f1f689aa272ac98f4a3dd4aef7c2b2728fce41e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681119"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392491"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces"></a>Rapporten maken op basis van gegevenssets van verschillende werkruimten
 
 Ontdek hoe u rapporten kunt maken in uw eigen werkruimten op basis van gegevenssets in andere werkruimten. U kunt voor het maken van een rapport op grond van een bestaande gegevensset beginnen vanuit Power BI Desktop, vanuit uw werkruimte (Mijn werkruimte) in de Power BI-service of in een [nieuwe werkruimte-ervaring](../collaborate-share/service-create-the-new-workspaces.md).
 
-- In de Power BI-service: **Gegevens ophalen** > **Gepubliceerde gegevenssets** .
-- In Power BI Desktop: **Gegevens ophalen** > **Power BI-gegevenssets** .
+- In de Power BI-service: **Gegevens ophalen** > **Gepubliceerde gegevenssets**.
+- In Power BI Desktop: **Gegevens ophalen** > **Power BI-gegevenssets**.
 
     ![Verbinding maken met een bestaande gegevensset](media/service-datasets-across-workspaces/power-bi-connect-dataset-pk.png)
    
-In beide gevallen wordt de interface voor detectie van gegevenssets gestart in dit dialoogvenster, **Een gegevensset selecteren voor het maken van een rapport** . U ziet alle gegevenssets waartoe u toegang hebt, ongeacht waar ze zich bevinden:
+In beide gevallen wordt de interface voor detectie van gegevenssets gestart in dit dialoogvenster, **Een gegevensset selecteren voor het maken van een rapport**. U ziet alle gegevenssets waartoe u toegang hebt, ongeacht waar ze zich bevinden:
 
 ![Een gegevensset selecteren](media/service-datasets-across-workspaces/power-bi-select-dataset.png)
 
@@ -50,10 +50,10 @@ Op die manier kunnen leden van de werkruimte zien welke rapporten en dashboards 
 
 ## <a name="find-an-endorsed-dataset"></a>Een onderschreven gegevensset zoeken
 
-Er zijn twee verschillende soorten onderschreven gegevenssets. Eigenaren van gegevenssets kunnen een gegevensset die ze u aanraden, *promoten* . Bovendien kan de Power BI-beheerder experts in uw organisatie aanwijzen die gegevenssets kunnen *certificeren* voor algemeen gebruik. Gepromote en gecertificeerde gegevenssets geven beide *badges* weer die allebei zichtbaar zijn bij het zoeken naar een gegevensset en in de lijst met gegevenssets in een werkruimte. De naam van de persoon die een gegevensset heeft gecertificeerd, wordt weergegeven als knopinfo tijdens het detecteren van gegevenssets. Beweeg de muisaanwijzer over het label **Gecertificeerd** en u ziet de naam.
+Er zijn twee verschillende soorten onderschreven gegevenssets. Eigenaren van gegevenssets kunnen een gegevensset die ze u aanraden, *promoten*. Bovendien kan de Power BI-beheerder experts in uw organisatie aanwijzen die gegevenssets kunnen *certificeren* voor algemeen gebruik. Gepromote en gecertificeerde gegevenssets geven beide *badges* weer die allebei zichtbaar zijn bij het zoeken naar een gegevensset en in de lijst met gegevenssets in een werkruimte. De naam van de persoon die een gegevensset heeft gecertificeerd, wordt weergegeven als knopinfo tijdens het detecteren van gegevenssets. Beweeg de muisaanwijzer over het label **Gecertificeerd** en u ziet de naam.
 
-- In de Power BI-service: **Gegevens ophalen** > **Gepubliceerde gegevenssets** .
-- In Power BI Desktop: **Gegevens ophalen** > **Power BI-gegevenssets** .
+- In de Power BI-service: **Gegevens ophalen** > **Gepubliceerde gegevenssets**.
+- In Power BI Desktop: **Gegevens ophalen** > **Power BI-gegevenssets**.
 
     In het dialoogvenster **Een gegevensset selecteren** staan onderschreven gegevenssets standaard boven aan de lijst. 
 

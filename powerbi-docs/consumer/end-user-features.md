@@ -2,20 +2,20 @@
 title: Beschikbaarheid van functies voor gebruikers met gratis licenties
 description: Uitleg en diagram van functies die beschikbaar zijn voor consumenten en gebruikers van een gratis versie.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: reference
-ms.date: 09/16/2020
-ms.author: mihart
+ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8bfdcd9ba87dd6a4fa12a3750b517a09844d3d6e
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668483"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390720"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lijst met Power BI-functies voor *consumenten* en anderen met een gratis licentie
 
@@ -67,7 +67,7 @@ De tweede kolom vertegenwoordigt een *zakelijke gebruiker*.  Een zakelijke gebru
 
 - heeft een gratis gebruikerslicentie
 - maakt deel uit van een organisatie met een abonnement voor Premium-capaciteit
-- krijgt inhoud (apps, dashboards, rapporten) van Pro-gebruikers die deze inhoud delen met behulp van app-werkruimten in toegewezen Premium-capaciteit.
+- krijgt inhoud (apps, dashboards, rapporten) van Pro-gebruikers die deze inhoud delen met behulp van app-werkruimten in Premium-capaciteit.
 - krijgt de rol van **kijker** voor deze app-werkruimten toegewezen. 
 
 ### <a name="legend"></a>Legenda

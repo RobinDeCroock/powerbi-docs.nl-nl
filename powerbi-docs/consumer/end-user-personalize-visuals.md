@@ -2,19 +2,19 @@
 title: Visuals in een rapport aanpassen
 description: Maak uw eigen weergave van een rapport maken zonder het te bewerken.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/13/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 718363da3bd1f66de199db8d854d8d23d6de3eb5
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.openlocfilehash: aa94908c8601052c9cb8ac7cd4a6c0e895afeff6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256736"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390145"
 ---
 # <a name="personalize-visuals-in-a-report"></a>Visuals in een rapport aanpassen
 
@@ -59,67 +59,67 @@ Door een visual aan de persoonlijke voorkeur aan te passen, kunt u uw gegevens o
 
 Denkt u dat de gegevens beter worden weergegeven als een gestapeld kolomdiagram? Wijzig het **type visualisatie**.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-visual-type.png" alt-text="Visualisatie wijzigen":::
  
 ### <a name="swap-out-a-measure-or-dimension"></a>Een meting of afmeting uitwisselen
 Vervang het veld dat wordt gebruikt voor de X-as door het veld te selecteren dat u wilt vervangen en vervolgens een ander veld te selecteren.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-axis.png" alt-text="De as wijzigen":::
  
 ### <a name="add-or-remove-a-legend"></a>Een legenda toevoegen of verwijderen
 Door een legenda toe te voegen, kunt u een visual van een kleurcode voorzien op basis van een categorie. In dit voorbeeld coderen we kleuren op basis van de bedrijfsnaam. 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-legend.png" alt-text="De legenda toevoegen of verwijderen":::
 
 ### <a name="change-the-placement-of-fields"></a>De plaatsing van velden wijzigen
 
 Met slepen en neerzetten kunt u de plaatsing van velden binnen dezelfde eigenschap van een visual wijzigen of zelfs binnen verschillende eigenschappen van een visual. U kunt zo bijvoorbeeld snel een veld in de legenda verplaatsen naar de as van een visual.
 
-:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/personalize-drag-and-drop.png" alt-text="Schermopname van het slepen van een veld in een visual.":::
 
 U kunt zo ook snel de kolommen van een tabel of matrix opnieuw rangschikken.
 
-:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/personalize-reorder-columns.png" alt-text="Schermopname van het opnieuw rangschikken van kolommen in een tabel.":::
 
 ### <a name="compare-two-or-more-different-measures"></a>Twee of meer verschillende metingen vergelijken
 Vergelijk en contrasteer waarden voor verschillende metingen met behulp van het plus-pictogram om meerdere metingen in een visual toe te voegen. Als u een meting wilt verwijderen, selecteert u **Meer opties (...)** en kiest u **Veld verwijderen**.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-compare-measures.png" alt-text="Metingen vergelijken":::
 
 ### <a name="change-aggregations"></a>Aggregaties wijzigen
 U kunt wijzigen hoe een meting wordt berekend door de aggregatie te wijzigen in het deelvenster **Aanpassen**. Selecteer **Meer opties (...)** en kies de aggregatie die u wilt gebruiken.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-change-aggregation.png" alt-text="Aggregaties wijzigen":::
 
 ### <a name="capture-changes"></a>Wijzigingen vastleggen 
 Gebruik persoonlijke bladwijzers om uw wijzigingen vast te leggen, zodat u kunt terugkeren naar uw aangepaste weergave. Selecteer **Bladwijzers** > **Persoonlijke bladwijzers** en geef een naam voor de bladwijzer op. 
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-bookmark.png" alt-text="Een bladwijzer maken":::
  
 U kunt de bladwijzer ook instellen als standaardweergave.
 
 ### <a name="share-changes"></a>Wijzigingen delen 
 Als u machtigingen voor lezen en opnieuw delen hebt, kunt u ervoor kiezen om uw wijzigingen in het rapport op te nemen wanneer u dit deelt.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-share-changes.png" alt-text="Wijzigingen delen":::
  
 ### <a name="reset-all-your-changes-to-a-report"></a>Al uw wijzigingen in een rapport herstellen
 
 Selecteer in de rechterbovenhoek van het rapportcanvas de optie **Standaardinstelling herstellen**. Hiermee worden al uw wijzigingen in het rapport verwijderd en wordt de door de auteur laatst opgeslagen weergave van het rapport hersteld.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-all.png" alt-text="Alle wijzigingen herstellen":::
  
 ### <a name="reset-all-your-changes-to-a-visual"></a>Al uw wijzigingen in een visual herstellen
 
 Selecteer **Deze visual herstellen** in de menubalk van de visual om alle wijzigingen in een bepaalde visual te verwijderen en de door de auteur laatst opgeslagen weergave van de visual te herstellen.
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-reset-visual.png" alt-text="Alle visuele wijzigingen herstellen":::
  
 ### <a name="clear-recent-changes"></a>Recente wijzigingen wissen
 
 Selecteer het gumpictogram om alle recente wijzigingen te wissen die u hebt aangebracht sinds u het deelvenster **Aanpassen** hebt geopend.  
 
-:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Een visual aanpassen":::
+:::image type="content" source="media/end-user-personalize-visuals/power-bi-personalize-revert-changes.png" alt-text="Recente wijzigingen ongedaan maken":::
 
 ## <a name="limitations"></a>Beperkingen
 

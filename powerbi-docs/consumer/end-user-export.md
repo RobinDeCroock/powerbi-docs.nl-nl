@@ -2,20 +2,20 @@
 title: Gegevens uit een Power BI-visualisatie exporteren
 description: Exporteer gegevens uit een rapportvisual en dashboardvisual en bekijk ze in Excel.
 author: mihart
+ms.author: mihart
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/28/2020
-ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 671bef8f00b79db87b11a059438d873a0641ef91
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 13d8eda142896b406269f940823e702b2ca7cb3e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462482"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391019"
 ---
 # <a name="export-data-from-a-visual"></a>Gegevens uit een visualisatie exporteren
 
@@ -30,16 +30,16 @@ U hebt een Power BI Pro-licentie nodig om gegevens te exporteren of om het dashb
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Vanuit een visual in een Power BI-dashboard
 
-1. Begin in een Power BI-dashboard. Hier gebruiken we het dashboard uit de voorbeeldapp * **Verkoop en marketing** _app. U [downloadt deze app van AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
+1. Begin in een Power BI-dashboard. Hier gebruiken we het dashboard uit de voorbeeldapp ***Verkoop en marketing** _app. U [downloadt deze app van AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample
 ).
 
     ![App-dashboard](media/end-user-export/power-bi-dashboards.png)
 
-2. Beweeg met de muis over een visual om _ *Meer opties* * (...) weer te geven en klik erop om het actiemenu weer te geven.
+2. Beweeg met de muis over een visual om _ *Meer opties** (...) weer te geven en klik erop om het actiemenu weer te geven.
 
     ![Menu dat wordt weergegeven wanneer u het beletselteken selecteert](media/end-user-export/power-bi-option-menu.png)
 
-3. Selecteer **Exporteren naar .csv** .
+3. Selecteer **Exporteren naar .csv**.
 
 4. Wat er nu gebeurt, hangt af van de browser die u gebruikt. U wordt mogelijk gevraagd om het bestand op te slaan, of u ziet mogelijk onderaan de browser een koppeling naar het geëxporteerde bestand. 
 
@@ -56,27 +56,27 @@ U hebt een Power BI Pro-licentie nodig om gegevens te exporteren of om het dashb
 ## <a name="from-a-visual-in-a-report"></a>Vanuit een visual in een rapport
 U kunt gegevens exporteren uit een visual in een rapport als .csv of .xlsx (Excel). 
 
-1. Selecteer een tegel in een dashboard om het onderliggende rapport te openen.  In dit voorbeeld selecteren we dezelfde visual als hierboven, *Totaalaantal eenheden jaar tot nu, variabel percentage* . 
+1. Selecteer een tegel in een dashboard om het onderliggende rapport te openen.  In dit voorbeeld selecteren we dezelfde visual als hierboven, *Totaalaantal eenheden jaar tot nu, variabel percentage*. 
 
     ![Dashboardtegel markeren](media/end-user-export/power-bi-export-tile.png)
 
-    Aangezien deze tegel is gemaakt vanuit het voorbeeldrapport *Verkoop en marketing* , wordt dat rapport geopend. De pagina die de visual van de geselecteerde tegel bevat, wordt ook geopend. 
+    Aangezien deze tegel is gemaakt vanuit het voorbeeldrapport *Verkoop en marketing*, wordt dat rapport geopend. De pagina die de visual van de geselecteerde tegel bevat, wordt ook geopend. 
 
 2. Selecteer de visual in het rapport. Bekijk het venster **Filters** aan de rechterzijde. Er zijn filters toegepast op de visual. Voor meer informatie over filters raadpleegt u [Filters gebruiken in een rapport](end-user-report-filter.md).
 
     ![Filtervenster geselecteerd](media/end-user-export/power-bi-export-filter-pane.png)
 
 
-3. Selecteer **Meer opties** (...) in de rechterbovenhoek van de visualisatie. Kies **Gegevens exporteren** .
+3. Selecteer **Meer opties** (...) in de rechterbovenhoek van de visualisatie. Kies **Gegevens exporteren**.
 
     ![In vervolgkeuzelijst geselecteerde gegevens exporteren](media/end-user-export/power-bi-export-reports.png)
 
-4. U ziet opties om Samengevatte gegevens of Onderliggende gegevens te exporteren. Als u gebruikmaakt van de voorbeeldapp *Verkoop en marketing* , wordt **Onderliggende gegevens** uitgeschakeld. U kunt echter wel rapporten tegenkomen waarbij beide opties zijn ingeschakeld. Dit is een voorbeeld van het verschil.
+4. U ziet opties om Samengevatte gegevens of Onderliggende gegevens te exporteren. Als u gebruikmaakt van de voorbeeldapp *Verkoop en marketing*, wordt **Onderliggende gegevens** uitgeschakeld. U kunt echter wel rapporten tegenkomen waarbij beide opties zijn ingeschakeld. Dit is een voorbeeld van het verschil.
 
-    **Samengevatte gegevens** : selecteer deze optie als u gegevens wilt exporteren voor wat u momenteel ziet in de visual.  Dit type export geeft alleen de gegevens weer die werden gebruikt om de huidige staat van de visual te maken. Als er filters zijn toegepast op de visual, worden de gegevens die u exporteert ook gefilterd. Voor deze visual bevat uw export bijvoorbeeld alleen gegevens voor 2014 en de centrale regio en alleen gegevens voor vier van de fabrikanten: VanArsdel, Natura, Aliqui en Pirum. Als uw visual aggregaties (som, gemiddelde, enzovoort) bevat, wordt de export ook geaggregeerd. 
+    **Samengevatte gegevens**: selecteer deze optie als u gegevens wilt exporteren voor wat u momenteel ziet in de visual.  Dit type export geeft alleen de gegevens weer die werden gebruikt om de huidige staat van de visual te maken. Als er filters zijn toegepast op de visual, worden de gegevens die u exporteert ook gefilterd. Voor deze visual bevat uw export bijvoorbeeld alleen gegevens voor 2014 en de centrale regio en alleen gegevens voor vier van de fabrikanten: VanArsdel, Natura, Aliqui en Pirum. Als uw visual aggregaties (som, gemiddelde, enzovoort) bevat, wordt de export ook geaggregeerd. 
   
 
-    **Onderliggende gegevens** : selecteer deze optie als u gegevens wilt exporteren voor wat u in de visual ziet **en** aanvullende gegevens uit de onderliggende gegevensset.  Dit zijn mogelijk gegevens die zijn opgenomen in de gegevensset, maar die niet worden gebruikt in de visual. Als er filters zijn toegepast op de visual, worden de gegevens die u exporteert ook gefilterd.  Als uw visuals aggregaties (som, gemiddelde, enzovoort) bevat, wordt de aggregatie door de export verwijderd, waardoor de gegevens in feite worden afgevlakt. 
+    **Onderliggende gegevens**: selecteer deze optie als u gegevens wilt exporteren voor wat u in de visual ziet **en** aanvullende gegevens uit de onderliggende gegevensset.  Dit zijn mogelijk gegevens die zijn opgenomen in de gegevensset, maar die niet worden gebruikt in de visual. Als er filters zijn toegepast op de visual, worden de gegevens die u exporteert ook gefilterd.  Als uw visuals aggregaties (som, gemiddelde, enzovoort) bevat, wordt de aggregatie door de export verwijderd, waardoor de gegevens in feite worden afgevlakt. 
 
     ![Menu waar u onderliggend of samengevat kiest](media/end-user-export/power-bi-export-underlying.png)
 

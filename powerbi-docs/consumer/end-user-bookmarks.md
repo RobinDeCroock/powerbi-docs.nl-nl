@@ -2,19 +2,19 @@
 title: Overzicht van bladwijzers in Power BI-servicerapporten
 description: Overzicht van de documentatie voor bladwijzers in de Power BI-service.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 08/26/2020
-ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937684"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391479"
 ---
 # <a name="what-are-bookmarks"></a>Wat zijn bladwijzers?
 
@@ -22,7 +22,7 @@ ms.locfileid: "88937684"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Met bladwijzers wordt de momenteel geconfigureerde weergave van een rapportpagina vastgelegd, met inbegrip van filters, slicers en de status van visuals. Wanneer u een bladwijzer selecteert, brengt Power BI u terug naar die weergave. Er zijn twee soorten bladwijzers: bladwijzers die u zelf maakt en bladwijzers die zijn gemaakt door rapport*ontwerpers*. Elke Power BI-gebruiker kan persoonlijke bladwijzers maken. Er is echter een Power BI Pro- of Premium-licentie vereist om bladwijzers te kunnen gebruiken die door anderen zijn gemaakt. [Welke licentie heb ik?](end-user-license.md)
+Met bladwijzers wordt de momenteel geconfigureerde weergave van een rapportpagina vastgelegd, met inbegrip van filters, slicers en de status van visuals. Wanneer u een bladwijzer selecteert, brengt Power BI u terug naar die weergave. Er zijn twee soorten bladwijzers: bladwijzers die u zelf maakt en bladwijzers die zijn gemaakt door rapport *ontwerpers*. Elke Power BI-gebruiker kan persoonlijke bladwijzers maken. Er is echter een Power BI Pro- of Premium-licentie vereist om bladwijzers te kunnen gebruiken die door anderen zijn gemaakt. [Welke licentie heb ik?](end-user-license.md)
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Bladwijzers gebruiken om inzichten te delen en verhalen te vertellen in Power BI 
 Er zijn vele toepassingen voor bladwijzers. Stel dat u een interessant inzicht ontdekt en u wilt dit behouden. U kunt dan een bladwijzer maken zodat u later kunt terugkeren. Als u weg moet en uw huidige werk wilt behouden, maakt u een bladwijzer. U kunt zelfs een bladwijzer maken van uw standaardweergave van het rapport. Telkens wanneer u terugkeert, wordt deze weergave van de rapportpagina dan eerst geopend. 
@@ -41,7 +41,7 @@ Selecteer het pictogram **opnieuw instellen** om terug te keren naar de oorspron
 ![schermopname met het pictogram terugdraaien geselecteerd](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>Rapportbladwijzers
-Als de rapport*ontwerper* rapportbladwijzers heeft opgenomen, vindt u deze onder de kop **Rapportbladwijzers**. Deze rapportpagina heeft vier bladwijzers: B1, B2, VanArsdel YTD en All YTD. **All YTD** is momenteel geselecteerd.
+Als de rapport *ontwerper* rapportbladwijzers heeft opgenomen, vindt u deze onder de kop **Rapportbladwijzers**. Deze rapportpagina heeft vier bladwijzers: B1, B2, VanArsdel YTD en All YTD. **All YTD** is momenteel geselecteerd.
 
 > [!NOTE]
 > U hebt Power BI Pro of Premium nodig om gedeelde rapporten weer te geven. 
@@ -172,7 +172,7 @@ Houd rekening met de volgende beperkingen en overwegingen in deze release van **
 
 * De meeste Power BI-visuals zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een Power BI-visual, neem dan contact op met de maker van die Power BI-visual en vraag deze om ondersteuning om bladwijzers toe te voegen.
 * Als u een visueel element toevoegt aan een rapportpagina nadat u een bladwijzer hebt gemaakt, wordt het visuele element weergegeven in de standaardstaat. Dit betekent ook dat als u een slicer toevoegt aan een pagina waarop u eerder bladwijzers hebt gemaakt, de slicer in de standaardstaat wordt uitgevoerd.
-* Over het algemeen worden uw bladwijzers niet beïnvloed als de rapport*ontwerper* het rapport bijwerkt of opnieuw publiceert. Als de ontwerper echter grote wijzigingen in het rapport aanbrengt, zoals het verwijderen van velden die worden gebruikt door een bladwijzer, wordt een foutbericht weergegeven wanneer u de volgende keer probeert die bladwijzer te openen. 
+* Over het algemeen worden uw bladwijzers niet beïnvloed als de rapport *ontwerper* het rapport bijwerkt of opnieuw publiceert. Als de ontwerper echter grote wijzigingen in het rapport aanbrengt, zoals het verwijderen van velden die worden gebruikt door een bladwijzer, wordt een foutbericht weergegeven wanneer u de volgende keer probeert die bladwijzer te openen. 
 
 <!--
 ## Next steps

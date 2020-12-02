@@ -2,20 +2,20 @@
 title: Informatie over ondersteunde R-pakketten
 description: R-pakketten die wel en niet worden ondersteund in Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2cd345baff9b03573773599f6026f0be48fdcab2
-ms.sourcegitcommit: 5240990f998851c4854eb565de681099264c5a61
+ms.openlocfilehash: 1f7168f0faa516828bd795eabd3b0d36ccfa8025
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94718863"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392077"
 ---
 # <a name="create-visuals-by-using-r-packages-in-the-power-bi-service"></a>Visuals maken met R-pakketten in de Power BI-service
 U kunt de krachtige [programmeertaal R](https://www.r-project.org/) gebruiken om visuals te maken in Power BI-service. Er worden veel R-pakketten ondersteund in de Power BI-service (en dit worden er steeds meer), maar sommige pakketten ook niet.

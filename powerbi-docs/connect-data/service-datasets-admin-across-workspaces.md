@@ -1,20 +1,20 @@
 ---
 title: Het gebruik van gegevenssets in meerdere werkruimten beheren - Power BI
 description: Informatie over het beperken van de gegevensstroom in de Power BI-tenant.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 04/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6cc602b96207b1662f0738c0936ca816bbfd0a03
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: d94be70bd61988f009900432e3bc77756a3821df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681044"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96392560"
 ---
 # <a name="control-the-use-of-datasets-across-workspaces"></a>Het gebruik van gegevenssets in meerdere werkruimten beheren
 
@@ -32,7 +32,7 @@ Als u deze instelling uitschakelt, zijn dit de gevolgen voor de makers van rappo
 
 ## <a name="provide-a-link-for-the-certification-process"></a>Een koppeling opgeven voor het certificeringsproces
 
-Als Power BI-beheerder kunt u voorzien in een URL voor de koppeling **Meer informatie** op de instellingspagina **Onderschrijving** .  Raadpleeg [Inhoudscertificering inschakelen](../admin/service-admin-setup-certification.md) voor meer informatie. Met deze koppeling kunt u naar de documentatie over het certificeringsproces gaan. Als u geen doel voor de koppeling **Meer informatie** opgeeft, wordt standaard naar het artikel [Uw inhoud goedkeuren](../collaborate-share/service-endorse-content.md) verwezen.
+Als Power BI-beheerder kunt u voorzien in een URL voor de koppeling **Meer informatie** op de instellingspagina **Onderschrijving**.  Raadpleeg [Inhoudscertificering inschakelen](../admin/service-admin-setup-certification.md) voor meer informatie. Met deze koppeling kunt u naar de documentatie over het certificeringsproces gaan. Als u geen doel voor de koppeling **Meer informatie** opgeeft, wordt standaard naar het artikel [Uw inhoud goedkeuren](../collaborate-share/service-endorse-content.md) verwezen.
 
 ![Meer informatie over certificering van gegevenssets](media/service-datasets-admin-across-workspaces/service-admin-certification-setup-dialog.png)
 

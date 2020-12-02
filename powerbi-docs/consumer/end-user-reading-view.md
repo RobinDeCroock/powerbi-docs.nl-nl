@@ -1,25 +1,25 @@
 ---
 title: Mogelijkheden van Power BI-gebruikers in Power BI-service
 description: In deze snelstartgids leren **gebruikers** alles over Power BI, apps, rapporten en dashboards.
+author: mihart
+ms.author: mihart
 services: powerbi
 documentationcenter: ''
-author: mihart
 ms.reviewer: mihart
 editor: ''
 tags: ''
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/30/2020
-ms.author: mihart
-ms.openlocfilehash: fbff6f202d6bdd3a4bffc031f23399869f08bc5c
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: ff5ffe959372952841cc41d92624b27f2d958f62
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780537"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96390168"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-business-users"></a>Quickstart: meer informatie over de mogelijkheden van Power BI voor *zakelijke gebruikers*
 
@@ -37,7 +37,7 @@ Power BI bestaat uit een verzameling softwareservices, apps en connectors die sa
 Open de Power BI-service in een browser of op een mobiel apparaat. U en uw collega's werken met dezelfde vertrouwde apps, dashboards en rapporten, die bovendien automatisch worden bijgewerkt en vernieuwd. U werkt dus altijd met de meest actuele inhoud.   
 
 ## <a name="reading-view"></a>Leesweergave
-U kunt in twee modi met rapporten werken in de Power BI-service: Leesweergave en Bewerkingsweergave.  Als u een *zakelijke gebruiker* bent, gebruikt u waarschijnlijk de Leesweergave om te werken met rapporten die zijn gemaakt door anderen. De Bewerkingsweergave wordt gebruikt door rapport*ontwerpers*, die de rapporten maken en met u delen. De Leesweergave is een manier om rapporten die zijn gemaakt door collega’s, te verkennen en ermee te werken. 
+U kunt in twee modi met rapporten werken in de Power BI-service: Leesweergave en Bewerkingsweergave.  Als u een *zakelijke gebruiker* bent, gebruikt u waarschijnlijk de Leesweergave om te werken met rapporten die zijn gemaakt door anderen. De Bewerkingsweergave wordt gebruikt door rapport *ontwerpers*, die de rapporten maken en met u delen. De Leesweergave is een manier om rapporten die zijn gemaakt door collega’s, te verkennen en ermee te werken. 
 
 
 
