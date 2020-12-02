@@ -2,18 +2,18 @@
 title: Verbinding maken met het Ondersteuningsdashboard voor Hospital Emergency Response
 description: De sjabloon-app COVID-19-ondersteuningsdashboard voor noodsituaties in de gezondheidszorg ophalen en installeren en verbinding maken met gegevens
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/13/2020
-ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4455a8da0af7ff928b81baf83245e66cdee578ea
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 823c8429c95a0b4d858540b2cf1183ca1c7caac7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854225"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96403140"
 ---
 # <a name="connect-to-the-hospital-emergency-response-decision-support-dashboard"></a>Verbinding maken met het Ondersteuningsdashboard voor Hospital Emergency Response
 De sjabloon-app Ondersteuningsdashboard voor Hospital Emergency Response is het rapportageonderdeel van de [Microsoft Power Platform-oplossing voor noodsituaties in de gezondheidszorg](https://powerapps.microsoft.com/blog/emergency-response-solution-a-microsoft-power-platform-solution-for-healthcare-emergency-response/). Op het dashboard wordt weergegeven dat managers voor noodsituaties gegevens van hun zorgsystemen aggregeren om tijdige, juiste beslissingen te kunnen nemen.

@@ -1,23 +1,23 @@
 ---
 title: Parameterinstellingen bewerken in de Power BI-service
 description: Queryparameters worden gemaakt in Power BI Desktop, maar kunnen worden gecontroleerd en bijgewerkt in Power BI-service
-author: maggiesMSFT
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 08/04/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3b64c1dd502fd16199fbff9f64cd2c017006d1f1
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 29468ea50625b1d354bd431f77c5e89edf5a889d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768469"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96402082"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Parameterinstellingen bewerken in de Power BI-service
-Rapportmakers voegen queryparameters toe aan rapporten in Power BI Desktop. Ze kunnen aan de hand van parameters gedeelten van rapporten maken die afhankelijk zijn van een of meerdere parameter*waarden*. Een maker van een rapport kan bijvoorbeeld een parameter maken waarmee de gegevens worden beperkt tot een land/regio of een parameter maken waarmee acceptabele indelingen worden opgegeven voor bijvoorbeeld datum-, tijd- en tekstvelden.
+Rapportmakers voegen queryparameters toe aan rapporten in Power BI Desktop. Ze kunnen aan de hand van parameters gedeelten van rapporten maken die afhankelijk zijn van een of meerdere parameter *waarden*. Een maker van een rapport kan bijvoorbeeld een parameter maken waarmee de gegevens worden beperkt tot een land/regio of een parameter maken waarmee acceptabele indelingen worden opgegeven voor bijvoorbeeld datum-, tijd- en tekstvelden.
 
 ![Tabblad Start met de optie Parameters beheren in Desktop](media/service-parameters/power-bi-manage-parameters.png)
 

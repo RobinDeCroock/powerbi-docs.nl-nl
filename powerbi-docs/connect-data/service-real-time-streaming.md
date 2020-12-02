@@ -2,19 +2,19 @@
 title: Realtimestreaming in Power BI
 description: Realtimestreaming en visuele elementen gebruiken in Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 07/16/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6543f1246a3462f02aaae7d22b11ba35d3725c01
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
+ms.openlocfilehash: 322ad95c561be6ca4c6a89df08404137545c1756
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95012045"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401967"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Realtimestreaming van Power BI laat u gegevens streamen en dashboards in real time bijwerken. Elke visual of dashboard dat is gemaakt in Power BI, kan voor realtimegegevens en visuals weergeven en bijwerken. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook metrische gebruiksgegevens van services en vele andere apparaten waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
