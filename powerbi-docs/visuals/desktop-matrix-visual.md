@@ -1,20 +1,20 @@
 ---
 title: Een matrixvisualisatie in Power BI maken
 description: Leer hoe u met de matrixvisualisatie intervalindelingen en gedetailleerde markeringen in Power BI kunt maken.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bf3210982380a0a3aa498dea8038366733182d7e
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412298"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96398057"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -41,7 +41,7 @@ Kijk eens naar de volgende matrixvisualisaties.
 
 ![vergelijking tussen tabel en matrix](media/desktop-matrix-visual/matrix-visual_3.png)
 
-In dit voorbeeld geven alle rijen uiterst rechts in de matrixvisualisatie het bedrag ( *Amount* ) weer voor elke combinatie van verkoper en datum. Maar omdat een verkoper in meerdere datums verschijnt kunnen de getallen vaker dan één keer worden weergegeven. Het accurate totaal van de onderliggende gegevens en de eenvoudige optelsom van de zichtbare waarden komen daarom niet overeen. Dit is een algemeen patroon wanneer de waarde die u optelt de één is in een één-op-veelrelatie.
+In dit voorbeeld geven alle rijen uiterst rechts in de matrixvisualisatie het bedrag (*Amount*) weer voor elke combinatie van verkoper en datum. Maar omdat een verkoper in meerdere datums verschijnt kunnen de getallen vaker dan één keer worden weergegeven. Het accurate totaal van de onderliggende gegevens en de eenvoudige optelsom van de zichtbare waarden komen daarom niet overeen. Dit is een algemeen patroon wanneer de waarde die u optelt de één is in een één-op-veelrelatie.
 
 Wanneer u totalen en subtotalen bekijkt, houd er dan rekening mee dat deze waarden zijn gebaseerd op de onderliggende gegevens en niet uitsluitend op basis van de zichtbare waarden.
 
@@ -69,17 +69,17 @@ Met de matrixvisualisatie kunt u op allerlei interessante manieren inzoomen die 
 
 ### <a name="drill-down-on-row-headers"></a>Inzoomen op rijkoppen
 
-Wanneer u in het deelvenster Visualisaties meerdere velden toevoegt aan de sectie **Rijen** van het vak **Velden** , kan er worden ingezoomd op de rijen van de matrixvisualisatie. Dit is vergelijkbaar met het maken van een hiërarchie, die het vervolgens mogelijk maakt in te zoomen op die hiërarchie (en weer terug te gaan) en de gegevens op elk niveau te analyseren.
+Wanneer u in het deelvenster Visualisaties meerdere velden toevoegt aan de sectie **Rijen** van het vak **Velden**, kan er worden ingezoomd op de rijen van de matrixvisualisatie. Dit is vergelijkbaar met het maken van een hiërarchie, die het vervolgens mogelijk maakt in te zoomen op die hiërarchie (en weer terug te gaan) en de gegevens op elk niveau te analyseren.
 
-In de volgende afbeelding bevat de sectie **Rijen** *Sales Stage* en *Opportunity Size* , waardoor er een groepering (of hiërarchie) van de rijen wordt gemaakt waarop we kunnen inzoomen.
+In de volgende afbeelding bevat de sectie **Rijen** *Sales Stage* en *Opportunity Size*, waardoor er een groepering (of hiërarchie) van de rijen wordt gemaakt waarop we kunnen inzoomen.
 
 ![Kaart Filters die aangeeft welke rijen zijn gekozen](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
-Wanneer in de visualisatie een groepering is gemaakt in de sectie **Rijen** , worden in de linkerbovenhoek van de visualisatie zelf de pictogrammen *Inzoomen* en *Uitvouwen* weergegeven.
+Wanneer in de visualisatie een groepering is gemaakt in de sectie **Rijen**, worden in de linkerbovenhoek van de visualisatie zelf de pictogrammen *Inzoomen* en *Uitvouwen* weergegeven.
 
 ![matrix met besturingselementen voor inzoomen omkaderd](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-Net als bij het zoom- en uitvouwgedrag in andere visualisaties, kunnen we met die knoppen inzoomen op (of teruggaan door) de hiërarchie. In dit geval kunnen we vanuit *Sales Stage* inzoomen op *Opportunity Size* , zoals u kunt zien in de volgende afbeelding, waar het pictogram voor inzoomen op één niveau (de stemvork) is geselecteerd.
+Net als bij het zoom- en uitvouwgedrag in andere visualisaties, kunnen we met die knoppen inzoomen op (of teruggaan door) de hiërarchie. In dit geval kunnen we vanuit *Sales Stage* inzoomen op *Opportunity Size*, zoals u kunt zien in de volgende afbeelding, waar het pictogram voor inzoomen op één niveau (de stemvork) is geselecteerd.
 
 ![matrix met stemvork omkaderd](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
@@ -89,11 +89,11 @@ U kunt niet alleen die pictogrammen gebruiken, maar ook een van de rijkoppen sel
 
 Er zijn enkele opties in het menu dat verschijnt die verschillende resultaten genereren:
 
-Door **Inzoomen** te selecteren wordt de matrix voor *dat* rijniveau uitgevouwen; alle andere rijkoppen worden *uitgesloten* , behalve de rijkop die u hebt geselecteerd. In de volgende afbeelding is **Proposal** > **Inzoomen** geselecteerd. U ziet dat andere rijen op het hoogste niveau niet meer in de matrix worden weergegeven. Deze manier van inzoomen is handig, zoals u met name zult zien in de sectie over kruislings markeren.
+Door **Inzoomen** te selecteren wordt de matrix voor *dat* rijniveau uitgevouwen; alle andere rijkoppen worden *uitgesloten*, behalve de rijkop die u hebt geselecteerd. In de volgende afbeelding is **Proposal** > **Inzoomen** geselecteerd. U ziet dat andere rijen op het hoogste niveau niet meer in de matrix worden weergegeven. Deze manier van inzoomen is handig, zoals u met name zult zien in de sectie over kruislings markeren.
 
 ![matrix één niveau ingezoomd](media/desktop-matrix-visual/power-bi-drill-down-matrix.png)
 
-Selecteer het pictogram **Uitzoomen** om terug te gaan naar de vorige weergave op het hoogste niveau. Als u vervolgens **Proposal** > **Volgende niveau weergeven** selecteert, krijgt u een oplopende lijst met alle items op het volgende niveau (in dit geval het veld *Opportunity Size* ), zonder de hiërarchiecategorisatie op het hogere niveau.
+Selecteer het pictogram **Uitzoomen** om terug te gaan naar de vorige weergave op het hoogste niveau. Als u vervolgens **Proposal** > **Volgende niveau weergeven** selecteert, krijgt u een oplopende lijst met alle items op het volgende niveau (in dit geval het veld *Opportunity Size*), zonder de hiërarchiecategorisatie op het hogere niveau.
 
 ![matrix met de optie Volgende niveau weergeven](media/desktop-matrix-visual/power-bi-next-level-matrix.png)
 
@@ -101,12 +101,12 @@ Selecteer het pictogram **Uitzoomen** in de linkerbovenhoek om in de matrix alle
 
 ![matrix met de optie Uitbreiden naar het volgende niveau](media/desktop-matrix-visual/power-bi-matrix-expand-next.png)
 
-U kunt ook de menu-optie **Uitbreiden** gebruiken om de weergave verder te beheren.  Selecteer bijvoorbeeld **Proposal** > **Uitbreiden** > **Selectie**. Power BI geeft één totaalrij weer voor elke verkoopfase ( *Sales Stage* ) en alle opties van *Opportunity Size* voor *Proposal*.
+U kunt ook de menu-optie **Uitbreiden** gebruiken om de weergave verder te beheren.  Selecteer bijvoorbeeld **Proposal** > **Uitbreiden** > **Selectie**. Power BI geeft één totaalrij weer voor elke verkoopfase (*Sales Stage*) en alle opties van *Opportunity Size* voor *Proposal*.
 
 ![Matrix na uitbreiden van Proposal](media/desktop-matrix-visual/power-bi-matrix-expand.png)
 
 ### <a name="drill-down-on-column-headers"></a>Inzoomen op kolomkoppen
-Net als u de mogelijkheid hebt om in te zoomen op rijen, kunt u ook inzoomen op kolommen. In de volgende afbeelding ziet u dat er twee velden in het vak **Kolommen** staan, waardoor er een hiërarchie ontstaat die vergelijkbaar is met de hiërarchie die we eerder in dit artikel hebben gebruikt voor de rijen. In het vak **Kolommen** staan *Region* en *Segment*. Op het moment dat het tweede veld werd toegevoegd aan **Kolommen** , werd er een nieuw vervolgkeuzemenu weergegeven in de visualisatie, hier met **Rijen** geselecteerd.
+Net als u de mogelijkheid hebt om in te zoomen op rijen, kunt u ook inzoomen op kolommen. In de volgende afbeelding ziet u dat er twee velden in het vak **Kolommen** staan, waardoor er een hiërarchie ontstaat die vergelijkbaar is met de hiërarchie die we eerder in dit artikel hebben gebruikt voor de rijen. In het vak **Kolommen** staan *Region* en *Segment*. Op het moment dat het tweede veld werd toegevoegd aan **Kolommen**, werd er een nieuw vervolgkeuzemenu weergegeven in de visualisatie, hier met **Rijen** geselecteerd.
 
 ![Matrix nadat tweede kolomwaarde is toegevoegd](media/desktop-matrix-visual/power-bi-matrix-row.png)
 
@@ -118,7 +118,7 @@ Wanneer u **Inzoomen**  selecteert, wordt het volgende niveau van de kolomhiëra
 
 ![matrix met één niveau ingezoomd op kolom](media/desktop-matrix-visual/power-bi-matrix-column-drill.png)
 
-De rest van de menu-items werken voor kolommen op dezelfde manier als voor rijen (zie de vorige sectie **Inzoomen op rijkoppen** ). U kunt **Volgende niveau weergeven** en **Uitbreiden naar het volgende niveau** ook gebruiken met kolommen, net als met rijen.
+De rest van de menu-items werken voor kolommen op dezelfde manier als voor rijen (zie de vorige sectie **Inzoomen op rijkoppen**). U kunt **Volgende niveau weergeven** en **Uitbreiden naar het volgende niveau** ook gebruiken met kolommen, net als met rijen.
 
 > [!NOTE]
 > De pictogrammen voor in- en uitzoomen linksboven in de matrixvisual zijn alleen van toepassing op rijen. Als u wilt inzoomen op kolommen, moet u het contextmenu gebruiken.
@@ -216,7 +216,7 @@ Zie [Voorwaardelijke tabelopmaak](../create-reports/desktop-conditional-table-fo
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Arcering en tekstkleuren met matrixvisualisaties
 Met de matrixvisualisatie kunt u voorwaardelijke opmaak (kleuren en arcering en gegevensbalken) toepassen op de achtergrond van cellen in de matrix en op de tekst en waarden zelf.
 
-Als u voorwaardelijke opmaak wilt toepassen, selecteert u de matrixvisualisatie en opent u het deelvenster **Indeling**. Vouw de kaart **Voorwaardelijke opmaak** uit en zet de schuifregelaar voor **Achtergrondkleur** , **Tekstkleur** of **Gegevensbalken** op **Aan**. Door een van deze opties in te schakelen wordt er een koppeling weergegeven naar *Geavanceerde besturingselementen* , waarmee u de kleuren en waarden voor de kleurenopmaak kunt aanpassen.
+Als u voorwaardelijke opmaak wilt toepassen, selecteert u de matrixvisualisatie en opent u het deelvenster **Indeling**. Vouw de kaart **Voorwaardelijke opmaak** uit en zet de schuifregelaar voor **Achtergrondkleur**, **Tekstkleur** of **Gegevensbalken** op **Aan**. Door een van deze opties in te schakelen wordt er een koppeling weergegeven naar *Geavanceerde besturingselementen*, waarmee u de kleuren en waarden voor de kleurenopmaak kunt aanpassen.
   
   ![Deelvenster Indeling met het besturingselement Gegevensbalken](media/desktop-matrix-visual/power-bi-matrix-data-bars.png)
 

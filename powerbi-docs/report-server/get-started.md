@@ -1,20 +1,20 @@
 ---
 title: Wat is Power BI Report Server?
 description: U kunt een overzicht krijgen van Power BI Report Server zodat u begrijpt hoe het is aangepast voor SQL Server Reporting Services (SSRS) en de rest van Power BI.
-keywords: ''
 author: maggiesMSFT
 ms.author: maggies
+keywords: ''
 ms.date: 05/28/2020
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 3f44353fc562793037d80a2aa7f0a1d42d207bc6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: eba3038e654192ca0ae0ec381323762f80cf711a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634039"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397804"
 ---
 # <a name="what-is-power-bi-report-server"></a>Wat is Power BI Report Server?
 

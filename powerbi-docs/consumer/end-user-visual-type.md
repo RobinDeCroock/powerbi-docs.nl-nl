@@ -2,20 +2,20 @@
 title: Visualtypen in Power BI voor zakelijke gebruikers
 description: Visualtypen in Power BI-service
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/07/2020
-ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 6d2ded8060ebe663989fd4f91fc22e4163f60c93
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: e944cabc72e60825f286fd86e96257a780b121b6
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830652"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399207"
 ---
 # <a name="visual-types-in-power-bi"></a>Visualtypen in Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "91830652"
 
 Visuals (ook wel *grafieken* en *visualisaties* genoemd) zijn afbeeldingen van uw gegevens. Enkele algemene voorbeelden zijn kolomdiagrammen, kaarten, spreidingsdiagrammen en radiale meters. U vindt visuals in rapporten, dashboards en Q&A.
 
-De visuele elementen die op deze pagina worden beschreven, zijn de visuals die zijn verpakt met Power BI. Dit zijn de visualtypes die u het vaakst tegenkomt. Op deze pagina vindt u een kort overzicht van deze vooraf verpakte visuals. Raadpleeg de documentatie van de [Power BI-rapport*ontwerper* over visualtypen](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor uitgebreide informatie over alle visuals.
+De visuele elementen die op deze pagina worden beschreven, zijn de visuals die zijn verpakt met Power BI. Dit zijn de visualtypes die u het vaakst tegenkomt. Op deze pagina vindt u een kort overzicht van deze vooraf verpakte visuals. Raadpleeg de documentatie van de [Power BI-rapport *ontwerper* over visualtypen](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) voor uitgebreide informatie over alle visuals.
 
 Visuals die niet automatisch worden meegeleverd met Power BI worden aangeduid als *aangepaste visuals*. Aangepaste visuals kunnen worden geïmporteerd in Power BI van externe websites, zoals Microsoft AppSource of van interne bronnen zoals de opslag in uw organisatie. Voor het importeren van aangepaste visuals hebt u bewerkingsmachtigingen voor het rapport nodig. Ga naar [Aangepaste visuals in Power BI](../developer/visuals/power-bi-custom-visuals.md) voor meer informatie over deze visuals voor invoegtoepassingen.
 
@@ -110,7 +110,7 @@ Radiale meters zijn een uitstekende keuze om:
 
 Een grafiek met belangrijkste beïnvloeders toont de grote bijdragers aan een geselecteerd resultaat of geselecteerde waarde.
 
-Belangrijkste beïnvloeders zijn een goede keuze om inzicht te krijgen in de factoren die van invloed zijn op een belangrijke metrische waarde. Bijvoorbeeld *wat zijn de invloeden waardoor klanten een tweede order hebben geplaatst*of*waarom was afgelopen juni de verkoop zo hoog*. 
+Belangrijkste beïnvloeders zijn een goede keuze om inzicht te krijgen in de factoren die van invloed zijn op een belangrijke metrische waarde. Bijvoorbeeld *wat zijn de invloeden waardoor klanten een tweede order hebben geplaatst *of* waarom was afgelopen juni de verkoop zo hoog*. 
 
 ### <a name="kpis"></a>KPI's
 ![kpi](media/end-user-visual-type/power-bi-kpi.png)

@@ -2,19 +2,19 @@
 title: De gegevens weergeven die zijn gebruikt voor het maken van de rapportvisual
 description: In dit document wordt uitgelegd hoe zakelijke Power BI-gebruikers de gegevens kunnen zien die zijn gebruikt om een rapportvisual te maken.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/6/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 3ab587e3467f929ac7b318c2225b4f734a70e1a2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780211"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96399092"
 ---
 # <a name="show-data-with-power-bi-reports"></a>Gegevens weergeven met Power BI
 
