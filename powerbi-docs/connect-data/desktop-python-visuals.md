@@ -2,19 +2,19 @@
 title: Power BI-visuals maken met Python in Power BI Desktop
 description: Power BI-visuals maken met Python
 author: otarb
+ms.author: otarb
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 04/03/2020
-ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9609c18ddb75d0149907e15bb770474c7882837b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 721db43250f94301b09535d9844404668af338ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223194"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404796"
 ---
 # <a name="create-power-bi-visuals-by-using-python"></a>Power BI-visuals maken met behulp van Python
 
@@ -56,7 +56,7 @@ In het artikel [Python-scripts uitvoeren in Power BI Desktop](desktop-python-scr
 
     ![Script uitvoeren in de Python-scripteditor](media/desktop-python-visuals/python-visuals-3.png)
 
-1. Sleep vervolgens de velden **Leeftijd**, **Kinderen**, **Voornaam**, **Geslacht**, **Huisdieren**, **Staat** en **Gewicht**naar de sectie **Waarden** bij de vermelding **Hier gegevensvelden toevoegen**.
+1. Sleep vervolgens de velden **Leeftijd**, **Kinderen**, **Voornaam**, **Geslacht**, **Huisdieren**, **Staat** en **Gewicht** naar de sectie **Waarden** bij de vermelding **Hier gegevensvelden toevoegen**.
 
     ![Sleep om gegevensvelden hier toe te voegen](media/desktop-python-visuals/python-visuals-15.png)
 

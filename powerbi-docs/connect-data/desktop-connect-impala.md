@@ -2,19 +2,19 @@
 title: Verbinding met een Impala-database maken in Power BI Desktop
 description: Eenvoudig verbinding met een Impala-database maken in Power BI Desktop en deze gebruiken
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 41d65bd78ecbc2c918b2da41e26b307cec38c7a1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 88b31cfc63369838eff0beb50e4512adfa667ad7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224445"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96405854"
 ---
 # <a name="connect-to-an-impala-database-in-power-bi-desktop"></a>Verbinding met een Impala-database maken in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **Impala**-database en de onderliggende gegevens gebruiken als elke andere gegevensbron in Power BI Desktop.

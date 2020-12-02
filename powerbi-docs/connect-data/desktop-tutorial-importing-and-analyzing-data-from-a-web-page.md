@@ -2,20 +2,20 @@
 title: 'Zelfstudie: Gegevens van een webpagina importeren en analyseren'
 description: 'Zelfstudie: Gegevens van een webpagina importeren en analyseren met Power BI Desktop'
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2a8c27029a494898849cab39c8bf843d3afc09a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d407da8e11473180f21e62c94f0ab440050beedc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90853237"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404819"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>Zelfstudie: Gegevens van een webpagina analyseren met Power BI Desktop
 
@@ -147,7 +147,7 @@ De query wordt geladen in de *rapportweergave* van Power BI Desktop. Deze kunt u
 
 Ga als volgt te werk om een visualisatie te maken op basis van uw gegevens:
 
-1. Selecteer het veld **Country** in het deelvenster **Velden** of sleep het naar het rapportcanvas. Power BI Desktop herkent de gegevens als landnamen en maakt automatisch een **kaart**visualisatie.
+1. Selecteer het veld **Country** in het deelvenster **Velden** of sleep het naar het rapportcanvas. Power BI Desktop herkent de gegevens als landnamen en maakt automatisch een **kaart** visualisatie.
 
    ![Kaartvisualisatie](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web14.png)
 
@@ -155,7 +155,7 @@ Ga als volgt te werk om een visualisatie te maken op basis van uw gegevens:
 
    ![Kaart vergroten](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage14.png)
 
-1. De kaart toont identieke gegevenspunten voor elk land dat een toernooi Euro Cup-toernooi heeft gewonnen. Als u wilt dat de grootte van elk gegevenspunt weergeeft hoe vaak het land heeft gewonnen, sleept u het veld **Year** naar **Sleep gegevensvelden hierheen** onder **Grootte** in het onderste gedeelte van het deelvenster **Visualisaties**. Het veld wordt automatisch gewijzigd in de meetwaarde**Count of Year** en de kaartvisualisatie toont nu grotere gegevenspunten voor landen die meer toernooien hebben gewonnen.
+1. De kaart toont identieke gegevenspunten voor elk land dat een toernooi Euro Cup-toernooi heeft gewonnen. Als u wilt dat de grootte van elk gegevenspunt weergeeft hoe vaak het land heeft gewonnen, sleept u het veld **Year** naar **Sleep gegevensvelden hierheen** onder **Grootte** in het onderste gedeelte van het deelvenster **Visualisaties**. Het veld wordt automatisch gewijzigd in de meetwaarde **Count of Year** en de kaartvisualisatie toont nu grotere gegevenspunten voor landen die meer toernooien hebben gewonnen.
 
    ![Count of Year naar Size slepen](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage15.png)
 
@@ -177,7 +177,7 @@ U kunt de weergave van een visualisatie wijzigen door deze te selecteren en verv
 
 1. Selecteer **Titel** om de opties voor titels uit te vouwen en typ in het veld **Titeltekst** de tekst **Euro Cup Winners** in plaats van de huidige titel.
 
-1. Wijzig de **Tekenkleur**in rood, de **Tekengrootte** in **12** en de **Lettertypefamilie** in **Segoe (Bold)** .
+1. Wijzig de **Tekenkleur** in rood, de **Tekengrootte** in **12** en de **Lettertypefamilie** in **Segoe (Bold)** .
 
    ![Kleur, grootte en familie van lettertype](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 

@@ -2,19 +2,19 @@
 title: Een rapport maken op een SharePoint-lijst
 description: Deze zelfstudie laat zien hoe u uw SharePoint-lijstgegevens kunt transformeren naar een Power BI-rapport.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 5347405c13f71fa0932c48eb218618b28a9f03c8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598656"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404520"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>Een rapport maken op een SharePoint-lijst
 
@@ -60,7 +60,7 @@ Bekijk deze zelfstudievideo van vijf minuten of schuif omlaag voor stapsgewijze 
 
 1. Selecteer aan de linkerkant het pictogram **Gegevens** om te zien of uw SharePoint-lijstgegevens zijn geladen.
 
-2. Zorg ervoor dat in de lijstkolommen met getallen het Som-of Sigma-pictogram wordt weergegeven in het deelvenster **Velden** aan de rechterkant.  Selecteer voor kolommen zonder pictogram de kolomkop in de tabelweergave, selecteer het tabblad **Model maken** en wijzig vervolgens het **gegevenstype** in **Decimaal getal** of **Geheel getal**, afhankelijk van de gegevens.  Als u wordt gevraagd om de wijziging te bevestigen, selecteert u **Ja**.  Als uw getal een speciale indeling heeft, zoals valuta, kunt u deze ook kiezen door de **notatie**in te stellen.
+2. Zorg ervoor dat in de lijstkolommen met getallen het Som-of Sigma-pictogram wordt weergegeven in het deelvenster **Velden** aan de rechterkant.  Selecteer voor kolommen zonder pictogram de kolomkop in de tabelweergave, selecteer het tabblad **Model maken** en wijzig vervolgens het **gegevenstype** in **Decimaal getal** of **Geheel getal**, afhankelijk van de gegevens.  Als u wordt gevraagd om de wijziging te bevestigen, selecteert u **Ja**.  Als uw getal een speciale indeling heeft, zoals valuta, kunt u deze ook kiezen door de **notatie** in te stellen.
 
    Bekijk een video van deze stap:
    <iframe width="400" height="300" src="https://www.youtube.com/embed/OZO3x2NF8Ak?start=147&end=204" frameborder="0" allowfullscreen></iframe>

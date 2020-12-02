@@ -2,19 +2,19 @@
 title: De SAP Business Warehouse (BW)-connector in Power BI Desktop gebruiken
 description: De SAP BW Connector in Power BI Desktop gebruiken
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/13/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1b3250124fa813f3da96e63455d483cf05f01cb6
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91598843"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96404658"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>De SAP Business Warehouse-connector in Power BI Desktop gebruiken
 
@@ -22,7 +22,7 @@ Met Power BI Desktop hebt u toegang tot gegevens van *SAP Business Warehouse (BW
 
 Raadpleeg het [Whitepaper over Power BI en SAP BW](https://aka.ms/powerbiandsapbw) voor informatie over hoe SAP-klanten kunnen profiteren van de koppeling tussen Power BI en hun bestaande SAP BW-systemen. Zie [DirectQuery en SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md) voor meer informatie over het gebruik van DirectQuery met SAP BW.
 
-Vanaf de release van juni 2018 van Power BI Desktop (en algemeen beschikbaar vanaf de release van oktober 2018) kunt u de *SAP BW*-connector gebruiken. Er zijn belangrijke verbeteringen aangebracht in de prestaties en mogelijkheden. Microsoft heeft de SAP BW-connector *Implementation 2.0*ontwikkeld. U kunt versie 1 van de SAP BW-connector of de Implementation 2.0 SAP-connector selecteren. In de volgende gedeelten wordt voor elke versie beschreven hoe de installatie in zijn werk gaat. U kunt een van beide connectors kiezen wanneer u vanuit Power BI Desktop verbinding maakt met SAP BW.
+Vanaf de release van juni 2018 van Power BI Desktop (en algemeen beschikbaar vanaf de release van oktober 2018) kunt u de *SAP BW*-connector gebruiken. Er zijn belangrijke verbeteringen aangebracht in de prestaties en mogelijkheden. Microsoft heeft de SAP BW-connector *Implementation 2.0* ontwikkeld. U kunt versie 1 van de SAP BW-connector of de Implementation 2.0 SAP-connector selecteren. In de volgende gedeelten wordt voor elke versie beschreven hoe de installatie in zijn werk gaat. U kunt een van beide connectors kiezen wanneer u vanuit Power BI Desktop verbinding maakt met SAP BW.
 
 Wij stellen voor om waar mogelijk gebruik te maken van de Implementation 2.0 SAP-connector.
 
@@ -48,7 +48,7 @@ De connector is verkrijgbaar in 32-bits en 64-bits versies. Kies de versie die o
 * De SAP-connector voor Microsoft .NET 3.0.22.0 voor Windows 32-bits (x86) als ZIP-bestand (6896 KB), 1 juni 2019
 * De SAP-connector voor Microsoft .NET 3.0.22.0 voor Windows 64-bits (x64) als ZIP-bestand (7.180 KB), 1 juni 2019
 
-Wanneer u installeert, controleert u in **Optionele installatiestappen**de optie *Assembly's installeren naar GAC*.
+Wanneer u installeert, controleert u in **Optionele installatiestappen** de optie *Assembly's installeren naar GAC*.
 
 ![Optionele SAP-installatiestappen](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
@@ -143,7 +143,7 @@ Bestaande rapporten kunnen alleen worden gewijzigd voor het gebruik van Implemen
 
 1. Klik met de rechtermuisknop op de query en selecteer **Geavanceerde editor**.
 
-1. Wijzig de `SapBusinessWarehouse.Cubes`-aanroep in de **Geavanceerde editor**als volgt:
+1. Wijzig de `SapBusinessWarehouse.Cubes`-aanroep in de **Geavanceerde editor** als volgt:
 
     Bepaal of de query al een optierecord bevat, zoals in het volgende voorbeeld:
 
@@ -219,7 +219,7 @@ Dit gedeelte bevat situaties waarin problemen worden opgelost (en oplossingen hi
    * BAPI_MDPROVIDER_GET_VARIABLES
    * BAPI_IOBJ_GETDETAIL
 
-   Om dit probleem op te lossen, moet u eerst verifiëren dat de gebruiker toegang heeft tot de verschillende MDPROVIDER-modules en tot `BAPI_IOBJ_GETDETAIL`. Als u deze of vergelijkbare problemen verder wilt oplossen, kunt u tracering inschakelen. **Selecteer Bestand** > **Opties en Instellingen** > **Opties**. Selecteer in **Opties** **Diagnostische gegevens**en selecteer vervolgens **Traceren inschakelen**. Probeer gegevens van SAP BW op te halen terwijl de tracering actief is en bekijk het traceringsbestand voor meer informatie.
+   Om dit probleem op te lossen, moet u eerst verifiëren dat de gebruiker toegang heeft tot de verschillende MDPROVIDER-modules en tot `BAPI_IOBJ_GETDETAIL`. Als u deze of vergelijkbare problemen verder wilt oplossen, kunt u tracering inschakelen. **Selecteer Bestand** > **Opties en Instellingen** > **Opties**. Selecteer in **Opties** **Diagnostische gegevens** en selecteer vervolgens **Traceren inschakelen**. Probeer gegevens van SAP BW op te halen terwijl de tracering actief is en bekijk het traceringsbestand voor meer informatie.
 
 ## <a name="sap-bw-connection-support"></a>Ondersteuning voor SAP BW-verbindingen
 

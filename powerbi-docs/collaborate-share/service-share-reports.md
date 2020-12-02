@@ -2,20 +2,20 @@
 title: Een Power BI-rapport filteren en delen
 description: Informatie over het filteren van een Power BI-rapport en dit delen met collega's binnen uw organisatie.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 01/29/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2988f02b8207eafe5155073af9acc60dcb0a81cf
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e086b6ab5ce3411697607bfbda25bb0b82c6dca
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225330"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96406613"
 ---
 # <a name="filter-and-share-a-power-bi-report"></a>Een Power BI-rapport filteren en delen
 *Delen* is een goede manier om enkele personen toegang te geven tot uw dashboards en rapporten. Wat gebeurt er als u een gefilterde versie van een rapport wilt delen? Misschien wilt u dat het rapport alleen gegevens bevat voor een bepaalde stad of verkoper of jaar. In dit artikel wordt uitgelegd hoe u een rapport filtert en de gefilterde versie van het rapport deelt. Een andere manier om een gefilterd rapport te delen, is door [queryparameters toe te voegen aan de rapport-URL](service-url-filters.md). In beide gevallen wordt het rapport gefilterd wanneer een ontvanger het de eerste keer opent. De ontvanger kan de filterselecties in het rapport desgewenst wissen.
@@ -37,7 +37,7 @@ In dit artikel wordt de voorbeeldsjabloon-app Marketing en Sales gebruikt. Wilt 
 
     ![Pictogram voor het bewerken van de app](media/service-share-reports/power-bi-edit-pencil-app.png)
 
-4. Selecteer in de lijst met werkruimte-inhoud de optie **Rapporten**en selecteer vervolgens het rapport **Sales and Marketing Sample PBIX**.
+4. Selecteer in de lijst met werkruimte-inhoud de optie **Rapporten** en selecteer vervolgens het rapport **Sales and Marketing Sample PBIX**.
 
     ![Voorbeeldrapport openen](media/service-share-reports/power-bi-open-sample-report.png)
 
@@ -59,7 +59,7 @@ Sla het rapport op.
 
    ![Selecteer Delen](media/service-share-reports/power-bi-share.png)
 
-2. Wis **E-mailmelding verzenden naar ontvanger**, zodat u in plaats daarvan een gefilterde koppeling kunt verzenden, selecteer **Rapport delen met de huidige filters en slicers**en selecteer vervolgens **Delen**.
+2. Wis **E-mailmelding verzenden naar ontvanger**, zodat u in plaats daarvan een gefilterde koppeling kunt verzenden, selecteer **Rapport delen met de huidige filters en slicers** en selecteer vervolgens **Delen**.
 
     ![Rapport delen met filters](media/service-share-reports/power-bi-share-with-filters.png)
 
