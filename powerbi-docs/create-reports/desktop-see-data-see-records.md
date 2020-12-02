@@ -2,19 +2,19 @@
 title: Visuele tabel en records in Power BI Desktop-visuals
 description: Gebruik de functies Visuele tabel en Gegevenspunttabel van Power BI Desktop om in te zoomen op gegevens
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/21/2020
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9fa3ee1c1e0f757eb3b464785c8cb3fe3ab6e78
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 05dcd5f0d7ca1681ee1e82762ea1557c79c5bc24
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264741"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412800"
 ---
 # <a name="use-visual-table-and-data-point-table-in-power-bi-desktop"></a>Visuele tabel en gegevenspunttabel gebruiken in Power BI Desktop
 In **Power BI Desktop** kunt u inzoomen op de gegevens van een visualisatie en ziet u tekstweergaven van de onderliggende gegevens of de afzonderlijke gegevensrecords voor de geselecteerde visual. Deze functies worden soms aangeduid met *doorklikken*, *drillthrough* of *drillthrough naar details*.

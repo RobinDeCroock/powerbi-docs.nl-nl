@@ -1,20 +1,20 @@
 ---
 title: Lijndiagrammen in Power BI
 description: Lijndiagrammen in Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: acbd6e40a351885b8644aca48edf41db81462864
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 6bd2ae3fe4abd3d1db21928edfa217d50f95ca92
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411976"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412593"
 ---
 # <a name="line-charts-in-power-bi"></a>Lijndiagrammen in Power BI
 
@@ -34,7 +34,7 @@ Deze instructies gebruiken de app 'Voorbeeld van verkoop en marketing' om een li
 
 1. Begin op een nieuwe, lege rapportpagina. Als u de Power BI-service gebruikt, moet u het rapport openen in de [Bewerkingsweergave](../create-reports/service-interact-with-a-report-in-editing-view.md).
 
-2. Selecteer in het deelvenster Velden de opties **Verkoopgegevens** \> **Totaal aantal eenheden** , en selecteer **Datum** > **Maand**.  Power BI maakt een kolomdiagram op uw rapportcanvas.
+2. Selecteer in het deelvenster Velden de opties **Verkoopgegevens** \> **Totaal aantal eenheden**, en selecteer **Datum** > **Maand**.  Power BI maakt een kolomdiagram op uw rapportcanvas.
 
     ![Selecteer deze uit het deelvenster Velden.](media/power-bi-line-charts/power-bi-step1.png)
 
@@ -43,11 +43,11 @@ Deze instructies gebruiken de app 'Voorbeeld van verkoop en marketing' om een li
     ![omzetten naar lijndiagram](media/power-bi-line-charts/power-bi-convert-to-line.png)
    
 
-4. Filter uw lijndiagram om gegevens weer te geven voor de jaren 2012-2014. Als uw filterdeelvenster is samengevouwen, vouw het dan nu uit. Selecteer in het deelvenster Velden **Datum** \> **Jaar** , en sleep dit naar het deelvenster Filters. Zet het neer onder het kopje **Filters op dit visuele element**. 
+4. Filter uw lijndiagram om gegevens weer te geven voor de jaren 2012-2014. Als uw filterdeelvenster is samengevouwen, vouw het dan nu uit. Selecteer in het deelvenster Velden **Datum** \> **Jaar**, en sleep dit naar het deelvenster Filters. Zet het neer onder het kopje **Filters op dit visuele element**. 
      
     ![lijn naast het deelvenster Velden](media/power-bi-line-charts/power-bi-year-filter.png)
 
-    Wijzig **Geavanceerd filters** naar **Basisfilters** en selecteer **2012** , **2013** en **2014**.
+    Wijzig **Geavanceerd filters** naar **Basisfilters** en selecteer **2012**, **2013** en **2014**.
 
     ![filteren op jaar](media/power-bi-line-charts/power-bi-filter-year.png)
 

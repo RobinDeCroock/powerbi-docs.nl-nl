@@ -2,19 +2,19 @@
 title: Knopinfopagina’s voor rapporten gebruiken in Power BI
 description: Met knopinfopagina's in Power BI Desktop kunt u uitgebreide, op aanwijzen gebaseerde knopinfo voor visuele elementen in uw rapporten maken
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/26/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8e794ecc67f7873efb1ee5750f55aefb3d93b40b
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: 60eb647c6910a50512669c6b18f8a9010ab89867
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91600324"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412662"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Knopinfo maken op basis van rapportpagina's in Power BI Desktop
 U kunt visueel uitgebreide **tooltips voor rapporten** maken die worden weergegeven wanneer u de muisaanwijzer over visuele elementen beweegt, op basis van rapportpagina's die u maakt in **Power BI Desktop**. Wanneer u een rapportpagina maakt die als knopinfo fungeert, kunnen uw aangepaste knopinfo visuele elementen, afbeeldingen en ongeacht welke andere verzameling van items bevatten die u in de rapportpagina maakt. 
@@ -76,7 +76,7 @@ Als u handmatig een knopinfo instelt, selecteert u het visuele element waarvoor 
 
 ![Kaart van de knopinfo voor een afzonderlijk visueel element](media/desktop-tooltips/desktop-tooltips_09.png)
 
-Selecteer daarna in de vervolgkeuzelijst **Pagina** de knopinfopagina die u wilt gebruiken voor het geselecteerde visuele element. Let op dat alleen rapportpagina's die zijn opgegeven als **knopinfo**pagina's in het dialoogvenster worden weergegeven.
+Selecteer daarna in de vervolgkeuzelijst **Pagina** de knopinfopagina die u wilt gebruiken voor het geselecteerde visuele element. Let op dat alleen rapportpagina's die zijn opgegeven als **knopinfo** pagina's in het dialoogvenster worden weergegeven.
 
 ![Een knopinfopagina selecteren voor handmatige knopinfo](media/desktop-tooltips/desktop-tooltips_10.png)
 

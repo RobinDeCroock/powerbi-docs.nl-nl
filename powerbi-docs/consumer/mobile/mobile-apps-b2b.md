@@ -2,18 +2,18 @@
 title: Power BI-inhoud bekijken als externe gastgebruiker (Azure AD B2B)
 description: Gebruik mobiele Power BI-apps om inhoud te bekijken die met u is gedeeld vanuit een externe organisatie.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/09/2019
-ms.author: painbar
-ms.openlocfilehash: f6ae0e5ff59e654354370c24ad648231f2eb78cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: effa9622896f44cff0cf37d7612c35f27e726ef7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233074"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413237"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Power BI-inhoud bekijken die met u is gedeeld vanuit een externe organisatie
 

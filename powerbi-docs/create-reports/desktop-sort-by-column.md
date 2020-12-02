@@ -2,19 +2,19 @@
 title: Op kolom sorteren in Power BI Desktop
 description: U kunt in Power BI de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/30/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d8aea8cf850a2f44ed9786701c33fbf35e8e6e6f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 06cd73aa86fdef58ea77b54305af300b1adb62d7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238546"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412754"
 ---
 # <a name="sort-by-column-in-power-bi-desktop"></a>Op kolom sorteren in Power BI Desktop
 In Power BI Desktop en de Power BI-service kunt u de weergave van een visueel element wijzigen door deze op andere gegevensvelden te sorteren. Als u de sortering van een visual wijzigt, kunt u de informatie markeren die u wilt overbrengen en ervoor zorgen dat de visual de trend (of de nadruk) weergeeft.

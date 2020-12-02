@@ -2,18 +2,18 @@
 title: On-premises rapporten en KPI's weergeven in de mobiele Power BI-apps
 description: Met de mobiele Power BI-apps hebt u live en mobiel via aanraking toegang tot uw on-premises bedrijfsgegevens in SQL Server 2016 Reporting Services en Power BI Report Server.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
-ms.author: painbar
-ms.openlocfilehash: e9f3b41e9c8435008f732d215ae022d6a023574d
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 18ad1be61202ddf189da064a833fddf6d793a2ba
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668569"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413398"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>On-premises rapportserverrapporten en KPI's weergeven in de mobiele Power BI-apps
 

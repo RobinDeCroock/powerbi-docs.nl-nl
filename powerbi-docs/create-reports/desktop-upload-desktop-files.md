@@ -2,19 +2,19 @@
 title: Publiceren vanuit Power BI Desktop
 description: Publiceren vanuit Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/22/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4405ab8d3e0db949ec825f3eea436183512f862d
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: dc1914b8fce55de9bd6141c9cc8d44082779c9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91019890"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412639"
 ---
 # <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Gegevenssets en rapporten van Power BI Desktop publiceren
 Als u een Power BI Desktop-bestand publiceert naar de Power BI-service, publiceert u de gegevens in het model naar uw Power BI-werkruimte. Dit geldt ook voor rapporten die u in de **rapportweergave** hebt gemaakt. U ziet een nieuwe gegevensset met dezelfde naam (en eventuele rapporten) in uw werkruimtenavigator.

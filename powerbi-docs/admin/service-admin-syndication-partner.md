@@ -2,20 +2,20 @@
 title: Power BI kopen via uw Microsoft 365-partner
 description: Meer informatie over het toevoegen van Power BI aan een Microsoft 365-abonnement dat is gekocht via een partner. Het gepubliceerde model is een aankoopmodel dat voor Microsoft 365 wordt gebruikt.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/27/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 14ca898e634f7c555ae649b0de8290e9c76507a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a7a2f06b019361f164f47469d5bd16218d4ebff2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227582"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413467"
 ---
 # <a name="add-power-bi-to-a-microsoft-365-partner-subscription"></a>Power BI toevoegen aan een Microsoft 365-partnerabonnement
 

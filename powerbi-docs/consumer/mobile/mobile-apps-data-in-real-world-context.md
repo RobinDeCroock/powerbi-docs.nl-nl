@@ -2,18 +2,18 @@
 title: Echte gegevens ophalen met de mobiele Power BI-apps
 description: Met de mobiele Power BI-apps kunt u de echte wereld rechtstreeks verbinden aan gerelateerde BI-informatie, zonder dat u hoeft te zoeken.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 512d9f5662a87b3819b7151eb0fc3a4d6a540dd6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b6564cafe087000fd0ce4409fac2cbfc78d0e8fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278509"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413145"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Echte gegevens uit de praktijk ophalen met de mobiele Power BI-apps
 Met de mobiele Power BI-apps kunt u de echte wereld op verschillende manieren rechtstreeks verbinden aan gerelateerde BI-informatie. 

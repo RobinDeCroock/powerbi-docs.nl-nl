@@ -2,19 +2,19 @@
 title: Externe hulpprogramma's in Power BI gebruiken (preview)
 description: Het gebruik van Power BI Desktop met externe hulpprogramma's uitbreiden
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/29/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 47b5df4c07f21282b14bae8bdfd63e5c271d53a6
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 8742a65f662433eb4330a9dedbca54f4445e992b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635143"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412961"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>Externe hulpprogramma's in Power BI Desktop gebruiken (preview)
 

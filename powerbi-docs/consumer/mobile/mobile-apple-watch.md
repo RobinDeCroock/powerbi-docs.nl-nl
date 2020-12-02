@@ -2,18 +2,18 @@
 title: Power BI-gegevens verkennen in de mobiele app op uw Apple Watch
 description: Power BI-app voor Apple Watch
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 1a2dfd19f2366003555aa5fa673bbf1c81c0a050
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633258"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413260"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>Uw gegevens verkennen in de mobiele Power BI-app op uw Apple Watch
 Met de Power BI-app voor Apple Watch kunt u KPIs en kaarttitels uit uw Power BI-dashboards weergeven op uw horloge. KPI's en kaarttegels zijn het meest geschikt om een heartbeat-meting op het kleine scherm weer te geven. U kunt een dashboard vernieuwen vanaf uw iPhone of via de Watch.

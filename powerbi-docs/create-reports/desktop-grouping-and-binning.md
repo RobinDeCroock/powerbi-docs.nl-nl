@@ -2,20 +2,20 @@
 title: Groeperen en binning in Power BI Desktop gebruiken
 description: Informatie over het groeperen en binnen van elementen in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/18/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0beca84bc95c2947fef500fb9e3a9e5c377a0a46
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234018"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412915"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Groeperen en binning in Power BI Desktop gebruiken
 Als in Power BI Desktop visuals worden gemaakt, worden uw gegevens in segmenten (of groepen) geaggregeerd op basis van waarden die in de onderliggende gegevens worden aangetroffen. Dat gaat vaak goed, maar het kan voorkomen dat u de manier waarop deze segmenten worden gepresenteerd, wilt verfijnen. Stel dat u drie categorieën met producten in één grotere categorie wilt onderbrengen (één *groep*). Of u wilt bijvoorbeeld verkoopcijfers zien in groepen van 1.000.000 euro in plaats van in delen van 923.983 euro.

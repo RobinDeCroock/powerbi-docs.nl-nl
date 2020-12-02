@@ -2,19 +2,19 @@
 title: Uw rapporten naar PDF-indeling exporteren uit Power BI Desktop
 description: U kunt rapporten eenvoudig naar PDF exporteren vanuit Power BI Desktop en deze rapporten in PDF afdrukken
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7fc8b9bff06188a02914083705f7f9aed7862ab1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 815b8557b640de70690dcb90570f7764ff8c47a0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234152"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412984"
 ---
 # <a name="export-reports-to-pdf-from-power-bi-desktop"></a>Rapporten naar PDF exporteren vanuit Power BI Desktop
 In **Power BI Desktop** of de Power BI-service kunt u rapporten exporteren naar een PDF-bestand en zo uw rapporten eenvoudig delen of afdrukken vanuit dat PDF-bestand.

@@ -1,24 +1,24 @@
 ---
 title: Taken voor Power BI Premium-werkruimte en -gegevenssets automatiseren met service-principals | Microsoft Docs
 description: Lees hoe service-principals kunnen worden gebruikt voor het automatiseren van beheertaken voor Power BI Premium-werkruimten en -gegevenssets.
-author: minewiskan
-ms.author: owend
+author: Minewiskan
+ms.author: davidi
 ms.reviewer: kayu
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 10/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 406b526f9e2dd146ee99629ed913c60b95989cb0
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.openlocfilehash: 7ffd2d2673a4efb827110c04e5e466e143c36022
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483714"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413421"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-principals
 
-Service-principals zijn een Azure Active Directory- *appregistratie* die u in uw tenant maakt om onbeheerde bewerkingen op resource- en serviceniveau uit te voeren. Ze zijn een uniek type gebruikersidentiteit met een app-naam, toepassings-ID, tenant-ID en *clientgeheim* of certificaat voor een wachtwoord.
+Service-principals zijn een Azure Active Directory-*appregistratie* die u in uw tenant maakt om onbeheerde bewerkingen op resource- en serviceniveau uit te voeren. Ze zijn een uniek type gebruikersidentiteit met een app-naam, toepassings-ID, tenant-ID en *clientgeheim* of certificaat voor een wachtwoord.
 
 Power BI Premium maakt gebruik van dezelfde functionaliteit van service-principals als Power BI Embedded. Zie [Power BI-inhoud insluiten met service-principals](../developer/embedded/embed-service-principal.md) voor meer informatie.
 
@@ -50,7 +50,7 @@ Als u de toegang van de service-principal wilt beperken tot specifieke tenantins
 
 Voordat u service-principals in Power BI kunt gebruiken, moet een beheerder eerst toegang tot service-principals inschakelen in de Power BI-beheerportal.
 
-Ga naar de Power BI- **beheerportal** > **Tenantinstellingen** en vouw daar **Toestaan dat service-principals gebruikmaken van API's van Power BI** uit. Klik vervolgens op **Ingeschakeld**. Als u machtigingen wilt toepassen op een beveiligingsgroep, moet u de groepsnaam aan **specifieke beveiligingsgroepen** toevoegen.
+Ga naar de Power BI-**beheerportal** > **Tenantinstellingen** en vouw daar **Toestaan dat service-principals gebruikmaken van API's van Power BI** uit. Klik vervolgens op **Ingeschakeld**. Als u machtigingen wilt toepassen op een beveiligingsgroep, moet u de groepsnaam aan **specifieke beveiligingsgroepen** toevoegen.
 
 ![Instellingen voor werkruimte](media/service-premium-service-principal/admin-portal.png)
 
