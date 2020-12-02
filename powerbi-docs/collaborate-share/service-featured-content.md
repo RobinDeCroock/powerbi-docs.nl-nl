@@ -2,19 +2,19 @@
 title: Inhoud aanbevelen op de Power BI-startpagina van collega's
 description: Meer informatie over het aanbevelen van Power BI-dashboards en -rapporten op de Power BI-startpagina voor collega's in uw organisatie.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: nikhilga
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eef0ba24347bd46cc86325cac494937e3f95086a
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: c45eb2afdf028f9e3a4b213333a0028924858a09
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462442"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411811"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>Inhoud aanbevelen op de Power BI-startpagina van collega's
 
@@ -38,25 +38,25 @@ U kunt een dashboard of rapport van een werkruimte aanbevelen. Wanneer u dit doe
 
 De procedure voor het aanbevelen van een dashboard of rapport is vergelijkbaar.
 
-1. In de lijst **Dashboards** of **Rapporten** voor een werkruimte, selecteert u het pictogram **Instellingen** .
+1. In de lijst **Dashboards** of **Rapporten** voor een werkruimte, selecteert u het pictogram **Instellingen**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Aanbevolen inhoud op de Power BI-startpagina":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="Pictogram Rapportinstellingen":::
 
 2. Controleer in het deelvenster **Instellingen** de naam of wijzig deze. Voeg een **Beschrijving** toe en upload een **Momentopname** als u dat wilt. Deze zijn handig omdat ze uw gebruikers helpen bij het vinden van uw inhoud.
 
-3. Selecteer **Aanbevolen** .
+3. Selecteer **Aanbevolen**.
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Aanbevolen inhoud op de Power BI-startpagina":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="Instellingen voor aanbevolen inhoud":::
 
-4. Selecteer **Opslaan** .
+4. Selecteer **Opslaan**.
 
-    Alle gebruikers die toegang hebben tot dit dashboard of rapport, zien het nu in de sectie **Aanbevolen** in **Start** .
+    Alle gebruikers die toegang hebben tot dit dashboard of rapport, zien het nu in de sectie **Aanbevolen** in **Start**.
 
 ## <a name="feature-an-app"></a>Een app aanbevelen
 
-- Als u een app wilt aanbevelen, opent u de werkruimte voor de app, selecteert u het menu **Opties** ( **...** ) > **Deze app in Start aanbevelen** .
+- Als u een app wilt aanbevelen, opent u de werkruimte voor de app, selecteert u het menu **Opties** ( **...** ) > **Deze app in Start aanbevelen**.
 
-Iedereen met toegang tot deze app, ziet deze nu ook in de sectie **Aanbevolen** in **Start** .
+Iedereen met toegang tot deze app, ziet deze nu ook in de sectie **Aanbevolen** in **Start**.
 
 ## <a name="next-steps"></a>Volgende stappen
 

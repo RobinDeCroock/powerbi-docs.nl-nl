@@ -2,19 +2,19 @@
 title: Dynamische M-queryparameters in Power BI Desktop (preview)
 description: Dynamische M-queryparameters maken in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 104692fff7f94168a505dc6e1f2c513d647554ce
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: 7f7dd319c69291f690dae5cd18b95285618df07b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349639"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411190"
 ---
 # <a name="dynamic-m-query-parameters-in-power-bi-desktop-preview"></a>Dynamische M-queryparameters in Power BI Desktop (preview)
 
@@ -59,7 +59,7 @@ Laten we stapsgewijs een voorbeeld doornemen om een **enkele waarde** dynamisch 
 
     ![Een nieuwe tabel maken](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-07.png)
 
-7. Dit is de eerste tabel die is gemaakt voor de parameter *StartTime* :
+7. Dit is de eerste tabel die is gemaakt voor de parameter *StartTime*:
 
     ```StartDateTable = CALENDAR (DATE(2016,1,1), DATE(2016,12,31))```
 
@@ -74,7 +74,7 @@ Laten we stapsgewijs een voorbeeld doornemen om een **enkele waarde** dynamisch 
     > [!NOTE]
     > Het is raadzaam om een kolomnaam te gebruiken die niet wordt gebruikt in een andere tabel. Als kolommen dezelfde naam hebben, wordt de geselecteerde waarde als een filter toegepast op de daadwerkelijke query.
 
-9. De tabellen met het veld *Date* zijn nu gemaakt en dus kunnen we elk veld aan een parameter binden. Het binden van een veld aan een parameter betekent in feite dat de geselecteerde waarde voor het veld verandert, dat de waarde wordt doorgegeven aan de parameter en dat de query wordt bijgewerkt op de positie waar naar de parameter wordt verwezen. Om het veld te binden, gaat u naar het tabblad **Model maken** , selecteert u het zojuist gemaakte veld en **Geavanceerd** om de bijbehorende eigenschappen weer te geven:
+9. De tabellen met het veld *Date* zijn nu gemaakt en dus kunnen we elk veld aan een parameter binden. Het binden van een veld aan een parameter betekent in feite dat de geselecteerde waarde voor het veld verandert, dat de waarde wordt doorgegeven aan de parameter en dat de query wordt bijgewerkt op de positie waar naar de parameter wordt verwezen. Om het veld te binden, gaat u naar het tabblad **Model maken**, selecteert u het zojuist gemaakte veld en **Geavanceerd** om de bijbehorende eigenschappen weer te geven:
 
     > [!NOTE]
     > Het gegevenstype van de kolom moet overeenkomen met het type M-parameter.
@@ -89,7 +89,7 @@ Laten we stapsgewijs een voorbeeld doornemen om een **enkele waarde** dynamisch 
 
     ![Meervoudige selectie uitgeschakeld](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-12.png)
 
-    Als voor uw gebruiksscenario meervoudige selectie vereist is (meerdere waarden doorgeven aan één parameter), moet u de schakeloptie op **Ja** zetten en ervoor zorgen dat de M-query is ingesteld voor het accepteren van meerdere waarden in de M-query. Hier ziet u een voorbeeld van *RepoNameParameter* , waarvoor meerdere waarden zijn toegestaan:
+    Als voor uw gebruiksscenario meervoudige selectie vereist is (meerdere waarden doorgeven aan één parameter), moet u de schakeloptie op **Ja** zetten en ervoor zorgen dat de M-query is ingesteld voor het accepteren van meerdere waarden in de M-query. Hier ziet u een voorbeeld van *RepoNameParameter*, waarvoor meerdere waarden zijn toegestaan:
 
     ![Voorbeeld met meerdere waarden](media/desktop-dynamic-m-query-parameters/dynamic-m-query-parameters-13.png)
 
@@ -105,7 +105,7 @@ Als Meervoudige selectie is ingesteld op **Nee** voor de toegewezen kolom, moet 
 
 ## <a name="potential-security-risk"></a>Potentieel beveiligingsrisico
 
-Wanneer u rapportlezers toestaat om de waarden voor de M-queryparameters dynamisch in te stellen, hebben ze mogelijk toegang tot aanvullende gegevens of kunnen ze wijzigingen van het bronsysteem initiëren via **injectieaanvallen** , afhankelijk van de manier waarop naar de parameters wordt verwezen in de M-query en welke waarden er worden doorgegeven aan die parameter.
+Wanneer u rapportlezers toestaat om de waarden voor de M-queryparameters dynamisch in te stellen, hebben ze mogelijk toegang tot aanvullende gegevens of kunnen ze wijzigingen van het bronsysteem initiëren via **injectieaanvallen**, afhankelijk van de manier waarop naar de parameters wordt verwezen in de M-query en welke waarden er worden doorgegeven aan die parameter.
 
 Stel dat u een geparametriseerde Kusto-query hebt gemaakt, zoals in het volgende voorbeeld:
 
@@ -115,7 +115,7 @@ Products
  | project ReleaseDate, Name, Category, Region```
 ```
 
-U vindt het misschien prima dat een goedwillende gebruiker een geschikte waarde voor de parameter opgeeft, bijvoorbeeld *Games* :
+U vindt het misschien prima dat een goedwillende gebruiker een geschikte waarde voor de parameter opgeeft, bijvoorbeeld *Games*:
 
 ```
 | where Category == 'Games' & HasReleased == 'True'

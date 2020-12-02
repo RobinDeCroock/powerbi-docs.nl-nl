@@ -2,19 +2,19 @@
 title: 'Snelstart: Verbinding maken met gegevens in Power BI Desktop'
 description: Verbinding maken met de gegevensbronnen die beschikbaar zijn in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: quickstart
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: d689258b4e4da5349d57b41f72d4266eb759029b
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 94bd9d64ae7e85cb66e20ad44a03bf4ccf7e28df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348592"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411052"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Snelstart: Verbinding maken met gegevens in Power BI Desktop
 
@@ -64,7 +64,7 @@ Zodra u de selecties hebt gemaakt, selecteert u **Laden** om de gegevens te lade
 
 ## <a name="view-data-in-the-fields-pane"></a>Gegevens weergeven in het deelvenster Velden
 
-Zodra u de tabellen hebt geladen, worden de gegevens weergegeven in het deelvenster **Velden**. U kunt elke tabel uitvouwen door het pijltje naast de naam van de tabel te selecteren. In de volgende afbeelding is de tabel *financiën*uitgevouwen, waardoor alle velden worden weergegeven.
+Zodra u de tabellen hebt geladen, worden de gegevens weergegeven in het deelvenster **Velden**. U kunt elke tabel uitvouwen door het pijltje naast de naam van de tabel te selecteren. In de volgende afbeelding is de tabel *financiën* uitgevouwen, waardoor alle velden worden weergegeven.
 
 ![Gegevens ophalen](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 

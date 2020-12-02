@@ -2,19 +2,19 @@
 title: Multidimensionale gegevens van Analysis Services in Power BI Desktop
 description: Multidimensionale gegevens van SQL Server Analysis Services (SSAS) in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7b96e9707e9c91c6403047091bed00afbff3789d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9567c0511a771b9b92de74171dec5fed3110e2d8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222512"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410891"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Verbinding maken met multidimensionale modellen van SSAS in Power BI Desktop
 
@@ -55,7 +55,7 @@ Om complexe modellen in een multidimensionaal model te vereenvoudigen, kunt u ee
 
 ### <a name="dimension-attribute-type"></a>Dimensiekenmerktype
 
-Multidimensionale modellen ondersteunen ook het koppelen van dimensiekenmerken aan specifieke dimensiekenmerktypen. Bijvoorbeeld een dimensie **Geografie**, waarin de dimensiekenmerken *Stad*, *Staat-provincie*, *Land* en *Postcode*, waaraan de betreffende geografietypen zijn gekoppeld, worden weergegeven in de metagegevens in tabelvorm. Power BI herkent de metagegevens. zodat u kaartvisualisaties kunt maken. U herkent deze koppelingen aan het *kaart*pictogram naast het element in het deelvenster **Veld** in Power BI.
+Multidimensionale modellen ondersteunen ook het koppelen van dimensiekenmerken aan specifieke dimensiekenmerktypen. Bijvoorbeeld een dimensie **Geografie**, waarin de dimensiekenmerken *Stad*, *Staat-provincie*, *Land* en *Postcode*, waaraan de betreffende geografietypen zijn gekoppeld, worden weergegeven in de metagegevens in tabelvorm. Power BI herkent de metagegevens. zodat u kaartvisualisaties kunt maken. U herkent deze koppelingen aan het *kaart* pictogram naast het element in het deelvenster **Veld** in Power BI.
 
 Power BI kan ook afbeeldingen weergeven wanneer u een veld met URL's (Uniform Resource Locators) van de afbeeldingen opgeeft. U kunt deze velden opgeven als *ImageURL*-typen in SQL Server Data Tools (of vervolgens in Power BI). Het type gegevens wordt vervolgens verstrekt aan Power BI in de metagegevens in tabelvorm. Power BI kan deze afbeeldingen vervolgens ophalen van de URL en weergeven als visuals.
 

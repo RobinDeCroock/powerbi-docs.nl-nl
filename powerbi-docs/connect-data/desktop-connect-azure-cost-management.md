@@ -2,20 +2,20 @@
 title: Verbinding maken met Azure Cost Management-gegevens in Power BI Desktop
 description: Eenvoudig verbinding maken met Azure en inzicht verkrijgen over uw Azure-kosten en -gebruik met behulp van Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
-ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
+ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "91599875"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411466"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Visuals en rapporten maken met de Azure Cost Management-connector in Power BI Desktop
 
@@ -45,12 +45,12 @@ De **Azure Cost Management**-connector gebruiken in Power BI Desktop, gaat als v
 
 ## <a name="connect-to-a-microsoft-customer-agreement-account"></a>Verbinding maken met een Microsoft-klantovereenkomstaccount 
 
-Als u verbinding wilt maken met een **Microsoft klantovereenkomst**account, kunt u uw **factureringsprofiel-id** in de Azure-portal ophalen:
+Als u verbinding wilt maken met een **Microsoft klantovereenkomst** account, kunt u uw **factureringsprofiel-id** in de Azure-portal ophalen:
 
 1.  Navigeer in de [Azure-portal](https://portal.azure.com/) naar **Cost Management en facturering**.
 2.  Selecteer uw factureringsprofiel. 
 3.  Selecteer in het menu bij **Instellingen** de optie **Eigenschappen** in de zijbalk.
-4.  Kopieer de **id ** bij **Factureringsprofiel**. 
+4.  Kopieer de **id** bij **Factureringsprofiel**. 
 5.  Selecteer voor **Bereik kiezen****Factureringsprofiel-id** en plak hier de factureringsprofiel-id uit de vorige stap. 
 6.  Voer het aantal maanden in en selecteer **OK**.
 

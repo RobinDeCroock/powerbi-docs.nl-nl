@@ -2,23 +2,23 @@
 title: Klassieke werkruimten maken in Power BI
 description: Informatie over het maken van klassieke werkruimten, verzamelingen dashboards, rapporten en gepagineerde rapporten die zijn gemaakt om belangrijke metrische gegevens voor uw organisatie te bieden.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 10/29/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5a5aced331ff8f66fdd0cb58fd7625a68acf9331
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 024696aa69fc1c6e95b103a679b11de4fe468169
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132385"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411949"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Klassieke werkruimten maken in Power BI
 
-U kunt in Power BI *werkruimten* maken. Dit zijn plaatsen waar u samen met collega's verzamelingen dashboards, rapporten en gepagineerde rapporten kunt maken en verfijnen. Power BI heeft de originele, of *klassieke* , werkruimten en de nieuwe werkruimten. Dit artikel gaat over het maken van een klassieke werkruimte.
+U kunt in Power BI *werkruimten* maken. Dit zijn plaatsen waar u samen met collega's verzamelingen dashboards, rapporten en gepagineerde rapporten kunt maken en verfijnen. Power BI heeft de originele, of *klassieke*, werkruimten en de nieuwe werkruimten. Dit artikel gaat over het maken van een klassieke werkruimte.
 
 **Wist u dat?** Power BI biedt een nieuwe werkruimte-ervaring, die nu standaard is. Lees [Werk organiseren in de nieuwe werkruimten](service-new-workspaces.md) voor meer informatie over de nieuwe werkruimten. Klaar om uw klassieke werkruimte te migreren? Zie [Een upgrade uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI](service-upgrade-workspaces.md) voor meer informatie.
 
@@ -38,7 +38,7 @@ Wanneer u de werkruimte maakt, kan het ongeveer een uur duren voordat de werkrui
 ### <a name="add-an-image-to-your-microsoft-365-workspace-optional"></a>Een afbeelding toevoegen aan uw Microsoft 365-werkruimte (optioneel)
 Power BI maakt standaard een kleine gekleurde cirkel voor uw app met de initialen van de app. Maar misschien wilt u deze aanpassen met een afbeelding. U hebt een licentie voor Exchange Online nodig om een afbeelding toe te voegen.
 
-1. Selecteer **Werkruimten** , selecteer **Meer opties** (...) naast de naam van de werkruimte en selecteer vervolgens **Leden**. 
+1. Selecteer **Werkruimten**, selecteer **Meer opties** (...) naast de naam van de werkruimte en selecteer vervolgens **Leden**. 
    
      ![Werkruimteleden selecteren](media/service-create-workspaces/power-bi-workspace-old-members.png)
    

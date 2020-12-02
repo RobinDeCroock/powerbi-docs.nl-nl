@@ -2,18 +2,18 @@
 title: 'Goedkeuring: Power BI-inhoud promoveren en certificeren'
 description: Meer informatie over hoe u hoogwaardige inhoud gemakkelijker kunt vinden via promotie of certificering
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
-ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: af222d1ebedf8e9afa2529d3d433da5d003a8059
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92681841"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411834"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>Goedkeuring: Power BI-inhoud promoveren en certificeren
 
@@ -21,17 +21,17 @@ ms.locfileid: "92681841"
 
 Organisaties hebben vaak grote hoeveelheden Power BI-inhoud beschikbaar om te delen en opnieuw te gebruiken door hun Power BI-gebruikers. Het kan lastig zijn om betrouwbare, gezaghebbende inhoud te identificeren. Goedkeuring is een manier om het voor gebruikers gemakkelijker te maken om de hoogwaardige inhoud te vinden die ze nodig hebben. Goedgekeurde inhoud is duidelijk gelabeld, zowel in Power BI als op andere plaatsen waar gebruikers Power BI-inhoud zoeken (zoals Excel). Het krijgt ook prioriteit bij sommige zoekopdrachten en u kunt er in sommige lijsten op sorteren.
 
-Er zijn twee soorten goedkeuring: **promotie** en **certificering** .
+Er zijn twee soorten goedkeuring: **promotie** en **certificering**.
 
-* **Promotie** : Met promotie kunnen gebruikers inhoud markeren die ze waardevol en de moeite waard vinden en die klaar is voor gebruik door anderen. Op deze manier wordt de gezamenlijke verspreiding van inhoud binnen de organisatie gestimuleerd.
+* **Promotie**: Met promotie kunnen gebruikers inhoud markeren die ze waardevol en de moeite waard vinden en die klaar is voor gebruik door anderen. Op deze manier wordt de gezamenlijke verspreiding van inhoud binnen de organisatie gestimuleerd.
 
     Elke eigenaar van inhoud, en elk lid met schrijfmachtigingen voor de werkruimte waarin de inhoud zich bevindt, kan eenvoudig de inhoud promoveren wanneer deze goed genoeg wordt geacht om te delen.
 
-* **Certificering** : Certificering betekent dat de inhoud voldoet aan de kwaliteitsnormen van de organisatie en dat deze kan worden beschouwd als betrouwbare, gezaghebbende inhoud die klaar is voor gebruik in de hele organisatie.
+* **Certificering**: Certificering betekent dat de inhoud voldoet aan de kwaliteitsnormen van de organisatie en dat deze kan worden beschouwd als betrouwbare, gezaghebbende inhoud die klaar is voor gebruik in de hele organisatie.
 
     Alleen een geselecteerde groep revisoren (gedefinieerd door de Power BI-beheerder) is gemachtigd om inhoud te certificeren. Eigenaren van inhoud die hun inhoud gecertificeerd willen hebben en die niet gemachtigd zijn om deze zelf te certificeren, moeten de richtlijnen van hun organisatie volgen om hun inhoud te laten certificeren.
 
-    **Certificering is alleen beschikbaar als een Power BI-beheerder deze optie heeft ingeschakeld en geconfigureerd voor uw organisatie** .
+    **Certificering is alleen beschikbaar als een Power BI-beheerder deze optie heeft ingeschakeld en geconfigureerd voor uw organisatie**.
 
 In de onderstaande afbeelding ziet u hoe goedgekeurde inhoud (gepromoveerd en gecertificeerd) duidelijk wordt aangegeven wanneer u een gegevensset zoekt voor het maken van een rapport.
 

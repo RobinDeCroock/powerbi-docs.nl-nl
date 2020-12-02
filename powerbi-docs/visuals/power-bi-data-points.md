@@ -1,20 +1,20 @@
 ---
 title: Grote gegevenssets, gegevenspuntlimieten en gegevensstrategieën
 description: Gegevenslimieten voor visuals en strategieën voor gegevensreductie
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: justyna
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 89bfba0dc679ddb7a9142c83e863cddaf1400063
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 0feef179fddba93f192559c7ac7bed10c6fa5328
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412045"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412524"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Gegevenspuntlimieten en strategieën op visualtype toepassen
 
@@ -31,9 +31,9 @@ Elke visual bepaalt de parameters die in deze strategieën worden gebruikt om de
 Voor elke strategie zijn er standaardinstellingen op basis van de vorm en het type van de gegevens die worden gevisualiseerd. De standaardinstellingen kunnen echter worden overschreven in het deelvenster voor opmaak van Power BI om de juiste gebruikerservaring te bieden. 
 
 * **Gegevens in vensters** (segmentering): Hiermee kunnen gebruikers door de gegevens in een visual bladeren door geleidelijk fragmenten van de gehele gegevensset te laden.
-* **Bovenste N** : Alleen de eerste N items weergeven
-* **Eenvoudige sampling** : De eerste, laatste en N evenredig verdeelde items ertussen weergeven.
-* **Onderste N** : Alleen de laatste N items weergeven.  Dit is handig voor het controleren van gegevens die regelmatig worden bijgewerkt.
+* **Bovenste N**: Alleen de eerste N items weergeven
+* **Eenvoudige sampling**: De eerste, laatste en N evenredig verdeelde items ertussen weergeven.
+* **Onderste N**: Alleen de laatste N items weergeven.  Dit is handig voor het controleren van gegevens die regelmatig worden bijgewerkt.
 * **High-densitysampling** - een verbeterd densitysampling-algoritme dat uitbijters en/of de vorm van een curve beter respecteert.
     * **Sampling van lijnen waarop binning is toegepast**  - voorbeeldgegevenspunten op basis van uitbijters in opslaglocaties voor een as
     * **Sampling van overlappende punten** - sampling van gegevenspunten op basis van overlappende waarden om uitbijters te behouden

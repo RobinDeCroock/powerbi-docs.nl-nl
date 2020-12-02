@@ -1,21 +1,21 @@
 ---
 title: Tips en trucs voor kaarten (inclusief Bing Kaarten-integratie)
 description: 'Tips en trucs voor kaartvisualisaties, visuele elementen, locaties en lengtegraad en breedtegraad in Power BI, en hoe deze werken met Bing Kaarten. '
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ec2e097dd829760c331ff8f045af00176b0c302b
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 8bbcd6eafc2a0b8eaac7424700bbbb68314730d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93411861"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412501"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor Power BI-kaartvisualisaties
 

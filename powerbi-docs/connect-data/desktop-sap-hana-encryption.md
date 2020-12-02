@@ -2,20 +2,20 @@
 title: Versleuteling voor SAP HANA inschakelen
 description: Lees hoe u de verbinding kunt versleutelen wanneer u vanuit Power BI via SAML SSO verbinding maakt met een HANA-server.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 10/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9aaa89db53e22fcefe55a53ec7a5414a8835255b
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: b6d3362f75a0267dc680e3e54d2f92e44a98598a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501898"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96410937"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Versleuteling voor SAP HANA inschakelen
 
@@ -43,7 +43,7 @@ Dien een aanvraag in om een X509-certificaat voor de HANA-server te ondertekenen
 
 1. Maak via SSH verbinding met de Linux-computer waarop de HANA-server wordt uitgevoerd als \<sid\>adm.
 
-1. Ga naar de basismap _/_ _usr/sap/\<sid\>/home_ .
+1. Ga naar de basismap _/_ _usr/sap/\<sid\>/home_.
 
 1. Maak een verborgen map met de naam _.__ssl_ als deze map nog niet bestaat.
 

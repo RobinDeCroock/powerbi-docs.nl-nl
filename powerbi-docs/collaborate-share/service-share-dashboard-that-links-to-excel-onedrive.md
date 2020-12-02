@@ -2,19 +2,19 @@
 title: Een dashboard delen dat is gekoppeld aan een Excel-bestand in OneDrive - Power BI
 description: Meer informatie over het delen van dashboards die verbonden zijn met een Excel-werkmap in OneDrive voor Bedrijven en waaraan tegels uit die werkmap zijn vastgemaakt.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 08/02/2018
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 997a96346a82d9f8c0edf0f19f45e5dc0a030d15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ee70a90ee104f1144595bd346b85d858f0aed49f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225208"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411581"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Een Power BI-dashboard delen dat is gekoppeld aan een Excel-bestand in OneDrive
 U kunt in Power BI [verbinding maken met Excel-werkmappen in OneDrive voor Bedrijven](../connect-data/service-excel-workbook-files.md) en tegels vastmaken aan een dashboard uit die werkmap. Wanneer u dat dashboard deelt of een inhoudspakket maakt waarin dat dashboard is opgenomen:

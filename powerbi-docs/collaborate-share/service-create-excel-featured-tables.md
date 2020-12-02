@@ -2,19 +2,19 @@
 title: Aanbevolen tabellen instellen in Power BI Desktop (preview-versie)
 description: Maak aanbevolen tabellen in Power BI Desktop zodat ze worden weergegeven in de galerie Gegevenstypen in Excel.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 20a81ed4675f6392f28a20f7b741d0c0ad1076eb
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: d2d87f16b8100424b47277360354d79ee834d467
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680761"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411926"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>Aanbevolen tabellen instellen in Power BI Desktop (preview-versie)
 
@@ -29,7 +29,7 @@ In de galerie Gegevenstypen in Excel kunnen uw gebruikers gegevens uit *aanbevol
 
 ## <a name="turn-on-the-featured-table-preview"></a>De preview-functie Aanbevolen tabellen inschakelen
 
-1. Selecteer in Power BI Desktop **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies** .
+1. Selecteer in Power BI Desktop **Bestand** > **Opties en instellingen** > **Opties** > **Preview-functies**.
 2. Schakel het selectievakje **Aanbevolen tabellen** in.
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="De preview-optie Aanbevolen tabellen":::
@@ -40,21 +40,21 @@ In de galerie Gegevenstypen in Excel kunnen uw gebruikers gegevens uit *aanbevol
 
 1. Ga in Power BI Desktop naar de modelweergave.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="De preview-optie Aanbevolen tabellen":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="Modelweergave":::
  
-2. Selecteer een tabel en stel **Is een aanbevolen tabel** in **Ja** .
+2. Selecteer een tabel en stel **Is een aanbevolen tabel** in **Ja**.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="De preview-optie Aanbevolen tabellen":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="Stel Is aanbevolen tabel in op Ja":::
 
 4. Geef in **Deze aanbevolen tabel instellen** de vereiste velden op:
 
-    - **Beschrijving** . 
+    - **Beschrijving**. 
         > [!TIP]
         > Begin de beschrijving met 'Aanbevolen tabel' zodat makers van Power BI-rapporten deze kunnen identificeren.
-    - De waarde van het veld **Rijlabel** wordt gebruikt in Excel, zodat gebruikers de rij eenvoudig kunnen identificeren. De waarde wordt weergegeven als de celwaarde voor een gekoppelde cel, in het deelvenster **Gegevenskiezer** en op de kaart **Gegevens** . 
+    - De waarde van het veld **Rijlabel** wordt gebruikt in Excel, zodat gebruikers de rij eenvoudig kunnen identificeren. De waarde wordt weergegeven als de celwaarde voor een gekoppelde cel, in het deelvenster **Gegevenskiezer** en op de kaart **Gegevens**. 
     - De waarde van het veld **Sleutelkolom** bevat de unieke id voor de rij. Met deze waarde kan Excel een cel koppelen aan een specifieke rij in de tabel.
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="De preview-optie Aanbevolen tabellen":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="Deze aanbevolen tabel instellen":::
 
 1. Nadat u de gegevensset hebt gepubliceerd of geïmporteerd naar de Power BI-service, wordt de aanbevolen tabel weergegeven in de galerie Gegevenstypen van Excel. U en andere rapportmakers kunnen ook rapporten maken op basis van deze gegevensset.
 

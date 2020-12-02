@@ -2,19 +2,19 @@
 title: 'Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop'
 description: In deze zelfstudie leert u hoe gegevens in Power BI Desktop kunt vormgeven en combineren
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: tutorial
 ms.date: 10/18/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b2cb9c9f9e7e168f0d095824aa42dd78eba5ba39
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: d45306776cb8f26af17208c3c57b44ffc65e20ac
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83347534"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411121"
 ---
 # <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Zelfstudie: Gegevens vormgeven en combineren in Power BI Desktop
 
@@ -209,7 +209,7 @@ Er is gelukkig een andere openbare gegevensbron waarmee dat gedaan wordt. Er moe
 
 Voer de volgende stappen uit om de juiste gegevens op te halen:
 
-1. Verwijder de bovenste rij. Omdat deze een resultaat is van de manier waarop de tabel van die webpagina is gemaakt en we deze niet nodig hebben. Op het **Start**lint selecteren we **Minder rijen \> Minder rijen \> Bovenste rijen verwijderen**.
+1. Verwijder de bovenste rij. Omdat deze een resultaat is van de manier waarop de tabel van die webpagina is gemaakt en we deze niet nodig hebben. Op het **Start** lint selecteren we **Minder rijen \> Minder rijen \> Bovenste rijen verwijderen**.
 
     ![Selectie van optie Bovenste rijen verwijderen](media/desktop-shape-and-combine-data/shapecombine_removetoprows.png)
 
@@ -218,7 +218,7 @@ Voer de volgende stappen uit om de juiste gegevens op te halen:
     > [!NOTE]
     > Als Power BI per ongeluk de headers-tabel importeert als een rij in de gegevenstabel, kunt u **Gebruik eerste rij als headers** selecteren uit het tabblad **Start** of vanuit het tabblad **Transformeren** in het lint, om uw tabel te herstellen.
 
-1. Verwijder de onderste 26 rijen. Deze rijen betreffen Amerikaanse gebieden die we niet nodig hebben. Op het **Start**lint selecteren we **Minder rijen \> Minder rijen \> Onderste rijen verwijderen**.
+1. Verwijder de onderste 26 rijen. Deze rijen betreffen Amerikaanse gebieden die we niet nodig hebben. Op het **Start** lint selecteren we **Minder rijen \> Minder rijen \> Onderste rijen verwijderen**.
 
     ![Selectie van optie Onderste rijen verwijderen](media/desktop-shape-and-combine-data/shapecombine_removebottomrows.png)
 

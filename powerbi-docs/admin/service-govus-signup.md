@@ -1,21 +1,21 @@
 ---
 title: Registratie voor Power BI voor Amerikaanse overheidsklanten
 description: Voor Amerikaanse overheidsklanten is informatie beschikbaar over het aanmelden voor Power BI via de communitycloud voor de overheid.
-author: davidiseminger
+author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 04/07/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 776120f9781f05376e767175a795943ab58243d3
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 47fb45063a0ced5a655c073cc148e670a74a3ee8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855024"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412363"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Uw Amerikaanse overheidsorganisatie registreren in de Power BI-service
 

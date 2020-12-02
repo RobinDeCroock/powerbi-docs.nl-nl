@@ -2,19 +2,19 @@
 title: Een upgraden uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten
 description: Meer informatie over het bijwerken van een klassieke werkruimte naar de nieuwe werkruimte-ervaring. U kunt elke werkruimte bijwerken, zolang u maar rekening houdt met een aantal wijzigingen.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
-ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633050"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411604"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Een upgraden uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI
 
