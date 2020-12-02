@@ -2,19 +2,19 @@
 title: Typen inzichten die door Power BI worden ondersteund
 description: Snelle inzichten en inzichten weergeven met Power BI.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53074b44457abcf4cae6ffc3cffab2be6e8b95bb
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93045278"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400127"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Typen inzichten die door Power BI worden ondersteund
 
@@ -32,11 +32,11 @@ Power BI zoekt snel in verschillende subsets van uw gegevensset. Tijdens het zoe
 ## <a name="some-terminology"></a>Een aantal termen
 Power BI gebruikt statistische algoritmen voor het opsporen van inzichten. De algoritmen worden in het volgende deel van dit artikel weergegeven en beschreven. Voordat we de algoritmen behandelen, volgen hier de definities van enkele mogelijk onbekende termen. 
 
-* **Meting** : een meting is een kwantitatief (numeriek) veld dat kan worden gebruikt om berekeningen uit te voeren. Veelvoorkomende berekeningen zijn Som, Gemiddelde en Minimum. Als ons bedrijf bijvoorbeeld skateboards maakt en verkoopt kunnen onze metingen bestaan uit het aantal verkochte skateboards en de gemiddelde winst per jaar.  
-* **Dimensie** : dimensies zijn categorische (tekst)gegevens. Een dimensie beschrijft een persoon, object, item, producten, plaats en tijd. In een gegevensset zijn dimensies een manier om *metingen te groeperen* in nuttige categorieën. Sommige dimensies voor ons skateboardbedrijf zijn de verkoopcijfers (een meting) per model, kleur, land of marketingcampagne.   
-* **Correlatie** : een correlatie vertelt ons over de samenhang tussen het gedrag van bepaalde zaken.  Als de toename- en afnamepatronen vergelijkbaar zijn, zijn ze positief gecorreleerd. Als de patronen tegenovergesteld zijn, zijn ze negatief gecorreleerd. Als bijvoorbeeld de verkoop van ons rode skateboard steeds stijgt na een marketingcampagne op tv, zijn de verkoop van het rode skateboard en de tv-campagne positief gecorreleerd.
-* **Tijdreeksen** : een tijdreeks is een manier om tijd weer te geven als opeenvolgende gegevenspunten. Deze gegevenspunten kunnen stappen zijn, zoals seconden, uren, maanden of jaren.  
-* **Doorlopende variabele** : een doorlopende variabele kan een willekeurige waarde zijn tussen de minimum- en maximumlimieten; anders is het een discrete variabele. Voorbeelden zijn temperatuur, gewicht, leeftijd en tijd. Doorlopende variabelen kunnen breuken of delen van de waarde bevatten. Het totale aantal verkochte blauwe skateboards is een discrete variabele omdat we geen halve skateboards kunnen verkopen.  
+* **Meting**: een meting is een kwantitatief (numeriek) veld dat kan worden gebruikt om berekeningen uit te voeren. Veelvoorkomende berekeningen zijn Som, Gemiddelde en Minimum. Als ons bedrijf bijvoorbeeld skateboards maakt en verkoopt kunnen onze metingen bestaan uit het aantal verkochte skateboards en de gemiddelde winst per jaar.  
+* **Dimensie**: dimensies zijn categorische (tekst)gegevens. Een dimensie beschrijft een persoon, object, item, producten, plaats en tijd. In een gegevensset zijn dimensies een manier om *metingen te groeperen* in nuttige categorieën. Sommige dimensies voor ons skateboardbedrijf zijn de verkoopcijfers (een meting) per model, kleur, land of marketingcampagne.   
+* **Correlatie**: een correlatie vertelt ons over de samenhang tussen het gedrag van bepaalde zaken.  Als de toename- en afnamepatronen vergelijkbaar zijn, zijn ze positief gecorreleerd. Als de patronen tegenovergesteld zijn, zijn ze negatief gecorreleerd. Als bijvoorbeeld de verkoop van ons rode skateboard steeds stijgt na een marketingcampagne op tv, zijn de verkoop van het rode skateboard en de tv-campagne positief gecorreleerd.
+* **Tijdreeksen**: een tijdreeks is een manier om tijd weer te geven als opeenvolgende gegevenspunten. Deze gegevenspunten kunnen stappen zijn, zoals seconden, uren, maanden of jaren.  
+* **Doorlopende variabele**: een doorlopende variabele kan een willekeurige waarde zijn tussen de minimum- en maximumlimieten; anders is het een discrete variabele. Voorbeelden zijn temperatuur, gewicht, leeftijd en tijd. Doorlopende variabelen kunnen breuken of delen van de waarde bevatten. Het totale aantal verkochte blauwe skateboards is een discrete variabele omdat we geen halve skateboards kunnen verkopen.  
 
 ## <a name="what-types-of-insights-can-you-find"></a>Wat voor soorten inzichten kunt u vinden?
 Dit zijn de algoritmen die Power BI gebruikt. 

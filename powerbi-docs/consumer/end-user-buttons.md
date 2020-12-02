@@ -2,19 +2,19 @@
 title: Meer informatie over de werking van knoppen in de Power BI-service
 description: Knoppen kunnen worden gebruikt voor het starten van verschillende acties, waaronder navigatie en drillthrough binnen een rapport, en drillthrough voor meerdere rapporten
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/10/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f0ddbbbce93a14c3468eacca130163758ca85c45
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982148"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400955"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Knoppen in de Power BI-service
 In de rapporten die u van collega's ontvangt, hebt u mogelijk knoppen gedetecteerd en hebt u zich afgevraagd hoe u deze kunt gebruiken. Sommige bevatten woorden, andere bevatten pijlen en weer andere afbeeldingen. Sommige bevatten zelfs vervolgmenu's. In dit artikel leert u hoe u een knop herkent en hoe u kunt ontdekken wat u ermee moet doen.

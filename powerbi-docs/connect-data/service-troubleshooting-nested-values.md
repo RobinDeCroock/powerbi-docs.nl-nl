@@ -1,21 +1,21 @@
 ---
 title: Problemen oplossen met geneste waarden die worden geretourneerd als tekst in de Power BI-service
 description: Meer informatie over het oplossen van problemen met geneste waarden die worden geconverteerd naar een tekenreeks bij het gebruik van onjuiste privacy-instellingen voor een gegevensbron
-author: cpopell
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 6/4/2019
-ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: ab40ca9c415dacf52f4d82eb2c157d57aef92f93
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b34f6ae838122b0b2036a953296d5032bdfe76b8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332769"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401369"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Problemen oplossen met geneste waarden die worden geretourneerd als tekst in de Power BI-service
 

@@ -2,20 +2,20 @@
 title: 'Zelfstudie: Cognitive Services gebruiken in Power BI (preview)'
 description: In deze zelfstudie gebruikt u Cognitive Services en gegevensstromen in Power BI.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 02/20/2020
-ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 406a2aebbf5d043ce74ca189c18b384f6c70e716
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: f647bcafe035515a1d5d1438ed580cabea579134
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397180"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401484"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Zelfstudie: Cognitive Services gebruiken in Power BI
 
@@ -146,7 +146,7 @@ Meldt u vervolgens aan met uw **organisatieaccount**.
 
 ![Schermopname toont het dialoogvenster Referenties opgeven, waarin u een organisatieaccount kunt opgeven.](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_19.png)
 
-Selecteer de functie Afbeeldingen taggen, voer _[Binary]_ in het kolomveld in en ' _en_ ' in het veld cultuurgegevens. 
+Selecteer de functie Afbeeldingen taggen, voer _[Binary]_ in het kolomveld in en '_en_' in het veld cultuurgegevens. 
 
 > [!NOTE]
 > U kunt momenteel geen kolom kiezen met een vervolgkeuzelijst. Dat willen we tijdens de beperkte preview zo snel mogelijk oplossen.

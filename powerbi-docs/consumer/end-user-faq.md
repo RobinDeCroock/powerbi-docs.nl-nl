@@ -2,20 +2,20 @@
 title: Veelgestelde vragen van eindgebruikers over Power BI
 description: Dit artikel bevat een lijst met veelgestelde vragen en antwoorden over de Power BI-service en de mobiele Power BI-apps.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 09/02/2020
-ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: c604bec5213b14f91e514c9a1552acb99ac5d0aa
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: b872c42a9e8551b0750899632deb763a6446656f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916792"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400380"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Veelgestelde vragen over Power BI
 
@@ -108,7 +108,7 @@ Hier vindt u meer informatie over beveiliging, privacy en compliance in Power BI
 
 Net als in veel andere services en software van Microsoft, biedt Power BI een eenvoudige manier om de laatst uitgevoerde opdracht ongedaan te maken.
 
-* Als u uw laatste actie, of laatste paar acties, **ongedaan wilt maken** ,drukt u op Ctrl+Z.
+* Als u uw laatste actie, of laatste paar acties, **ongedaan wilt maken**,drukt u op Ctrl+Z.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -1,21 +1,21 @@
 ---
 title: 'Zelfstudie: Verbinding maken met een GitHub-opslagplaats met Power BI'
 description: In deze zelfstudie gebruikt u echte gegevens in de GitHub-service met Power BI en Power BI maakt automatisch dashboards en rapporten.
-author: maggiesMSFT
+author: paulinbar
+ms.author: painbar
 ms.reviewer: SarinaJoan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-data-sources
 ms.custom: connect-to-services
 ms.topic: tutorial
 ms.date: 10/30/2020
-ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 805b7805d932468e973805d9496a5b25d4391fdd
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: d8b6277c64f2f6c55f1ab622d129556fdfc4c600
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132615"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96401622"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>Zelfstudie: Verbinding maken met een GitHub-opslagplaats met Power BI
 In deze zelfstudie gaat u echte gegevens gebruiken: de openbare opslagplaats met Power BI-inhoud (ook wel een *repo* genoemd) in de GitHub-service. In Power BI worden automatisch een dashboard en rapport met de gegevens gemaakt. U ziet antwoorden op vragen zoals: Hoeveel mensen dragen bij aan de openbare Power BI-opslagplaats? Wie levert de meeste bijdragen? Op welke dag van de wek worden de meeste bijdragen geleverd? En andere vragen. 
@@ -50,7 +50,7 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
    
    ![Power BI Apps downloaden](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial.png) 
 
-3. Selecteer **Apps** , typ **GitHub** in het zoekvak > **Nu downloaden**.
+3. Selecteer **Apps**, typ **GitHub** in het zoekvak > **Nu downloaden**.
    
    ![Power BI GitHub downloaden](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-app-source.png) 
 
@@ -124,7 +124,7 @@ Voor het voltooien van deze zelfstudie hebt u een GitHub-account nodig, als u di
  
     ![Perforatiekaart in Power BI GitHub-rapporten](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tues-3pm.png)
 
-    Zo te zien is dinsdag om 15.00 uur het meest gangbare tijdstip en de meest gangbare dag van de week voor *doorvoerbewerkingen* , wanneer mensen hun werk inchecken.
+    Zo te zien is dinsdag om 15.00 uur het meest gangbare tijdstip en de meest gangbare dag van de week voor *doorvoerbewerkingen*, wanneer mensen hun werk inchecken.
 
 ## <a name="clean-up-resources"></a>Resources opschonen
 
