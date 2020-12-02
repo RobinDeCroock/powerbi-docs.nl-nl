@@ -2,19 +2,19 @@
 title: Instellingen voor Power BI-rapporten wijzigen
 description: Instellingen voor rapporten wijzigen in de Power BI-service
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/14/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: dd87501a6865b9ea450e3154ee2ac56e0710a067
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: dbb173c65ecfc5d1ca464387ed43ae615cdcbca1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92463050"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396171"
 ---
 # <a name="change-settings-for-power-bi-reports"></a>Instellingen voor Power BI-rapporten wijzigen
 
@@ -40,18 +40,18 @@ Het kan handig zijn om deze artikelen eerst te lezen:
 
 ## <a name="open-the-settings-pane-in-power-bi-desktop"></a>Open het deelvenster Instellingen in Power BI Desktop
 
-1. Selecteer achtereenvolgens **Bestand** > **Opties en instellingen** > **Opties** .
-1. Selecteer onder **Huidig bestand** de optie **Rapportinstellingen** .
+1. Selecteer achtereenvolgens **Bestand** > **Opties en instellingen** > **Opties**.
+1. Selecteer onder **Huidig bestand** de optie **Rapportinstellingen**.
 
-    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Schermopname van het deelvenster Rapportinstellingen in de Power BI-service.":::
+    :::image type="content" source="media/power-bi-report-settings/desktop-report-settings-pane.png" alt-text="Schermopname van deelvenster Rapportinstellingen in Power BI Desktop":::
 
     In de rest van dit artikel worden enkele van de specifieke rapportinstellingen beschreven.
 
 ## <a name="open-the-settings-pane-in-the-power-bi-service"></a>Het deelvenster Instellingen in Power BI-service openen
 
-1. Selecteer in de leesweergave voor rapporten de optie **Bestand** > **Instellingen** .
+1. Selecteer in de leesweergave voor rapporten de optie **Bestand** > **Instellingen**.
 
-    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Schermopname van het deelvenster Rapportinstellingen in de Power BI-service.":::
+    :::image type="content" source="media/power-bi-report-settings/service-report-file-settings.png" alt-text="Schermopname van het menu Bestand naar Instellingen.":::
 
 1. In het deelvenster **Instellingen** ziet u een aantal schakelknoppen die u kunt instellen, alleen voor dit rapport. In de rest van dit artikel worden enkele hiervan beschreven.
 
@@ -63,7 +63,7 @@ U kunt dashboards, rapporten en apps gebruiken, zodat ze worden weergegeven in d
 
 Op dit moment kunt u alleen de instelling van het deelvenster Pagina's in de Power BI-service wijzigen. Wanneer u het **deelvenster Pagina's** in- of uitschakelt, zien rapportlezers de tabbladen met rapportpagina's onderaan het rapport in de leesweergave, in plaats van aan de zijkant. In de weergave Bewerken staan de tabbladen van de rapportpagina al onderaan het rapport.
 
-:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Schermopname van het deelvenster Rapportinstellingen in de Power BI-service.":::
+:::image type="content" source="media/power-bi-report-settings/report-settings-pages-pane.png" alt-text="Schermopname van het instellen van het deelvenster Pagina's.":::
 
 ## <a name="control-filters"></a>Filters beheren
 

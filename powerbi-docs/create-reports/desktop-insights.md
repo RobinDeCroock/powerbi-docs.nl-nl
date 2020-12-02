@@ -2,20 +2,20 @@
 title: Inzichten gebruiken om uitleg te bieden over toenamen en afnamen in visuals (preview)
 description: Eenvoudig inzichten verkrijgen in toenames of afnames in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 02/21/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a0ba50405605495ed819ab8264050882be9a47
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e8b483af507aa175e6d804bf0af70bdd0da5372
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239131"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396677"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-explain-fluctuations-in-visuals-preview"></a>Inzichten toepassen in Power BI Desktop om schommelingen in visuals uit te leggen (preview-versie)
 
@@ -58,7 +58,7 @@ U kunt inzichten gebruiken als uw rapport in lees- of bewerkmodus is. U kunt er 
 
 De informatie die wordt geretourneerd door de inzichten is bedoeld om aan te geven wat het verschil was tussen twee perioden.  
 
-Als de *verkoop* bijvoorbeeld tussen *kwartaal 3* en *kwartaal 4* in totaal met 55% is gestegen, en dat voor alle product*categorieën* geldt (de verkoop van computers, audio en meer is allemaal met 55% gestegen), maar ook voor alle landen en voor alle typen klanten, is er maar weinig dat kan worden aangedragen als mogelijke oorzaak voor de verandering. Dit is over het algemeen echter niet het geval. Meestal zijn er duidelijke verschillen, bijvoorbeeld dat de categorieën *Computers* en *Home Appliances* met 63% zijn gegroeid terwijl *TV and Audio* met slechts 23% is gegroeid. Daarom hebben de categorieën *Computers* en *Home Appliances* een grotere bijdrage geleverd aan het totaal van *kwartaal 4* dan aan dat van *kwartaal 3*.  In dit voorbeeld zou een redelijke uitleg van de verhoging zijn: *een uitzonderlijk goede verkoop in de categorieën Computers en TV and Audio*. 
+Als de *verkoop* bijvoorbeeld tussen *kwartaal 3* en *kwartaal 4* in totaal met 55% is gestegen, en dat voor alle product *categorieën* geldt (de verkoop van computers, audio en meer is allemaal met 55% gestegen), maar ook voor alle landen en voor alle typen klanten, is er maar weinig dat kan worden aangedragen als mogelijke oorzaak voor de verandering. Dit is over het algemeen echter niet het geval. Meestal zijn er duidelijke verschillen, bijvoorbeeld dat de categorieën *Computers* en *Home Appliances* met 63% zijn gegroeid terwijl *TV and Audio* met slechts 23% is gegroeid. Daarom hebben de categorieën *Computers* en *Home Appliances* een grotere bijdrage geleverd aan het totaal van *kwartaal 4* dan aan dat van *kwartaal 3*.  In dit voorbeeld zou een redelijke uitleg van de verhoging zijn: *een uitzonderlijk goede verkoop in de categorieën Computers en TV and Audio*. 
 
 Het algoritme retourneert dus niet slechts de waarden die hebben geleid tot het grootste deel van de verandering. Als de grote meerderheid (98%) van de verkoop afkomstig is uit de Verenigde Staten, zou normaal gesproken het overgrote deel van de stijging ook hebben plaatsgevonden in de Verenigde Staten. Tenzij er in de Verenigde Staten of in een ander land een grote verandering is geweest in de relatieve bijdrage aan het totaal, wordt de factor *land* niet interessant gevonden in deze context.  
 

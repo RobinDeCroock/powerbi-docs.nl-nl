@@ -2,18 +2,18 @@
 title: 'Quickstart: dashboards en rapporten verkennen in de mobiele apps'
 description: In deze snelstartgids verkent u een voorbeelddashboard en -rapport in de mobiele Power BI-apps.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
-ms.author: painbar
-ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 35a942826c76ed1c202bcc5a3450c65374402c46
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668500"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96397551"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Snelstart: dashboards en rapporten verkennen in de mobiele Power BI-apps
 In deze quickstart volgt u een korte rondleiding door de mobiele Power BI-app en maakt u kennis met een voorbeelddashboard en -rapport. De Power BI-app for iOS wordt weergegeven, maar u kunt gemakkelijk op een ander apparaat meedoen.

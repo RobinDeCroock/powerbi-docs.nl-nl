@@ -2,19 +2,19 @@
 title: 'Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen'
 description: 'Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 95f9ebd689f06fcacde9819789e1240f2dd6c3d3
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
+ms.openlocfilehash: bf24a42e49585fb560fcddec316ab8f218878f86
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92025974"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395688"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Voorbeeld van verkoop en marketing voor Power BI: Rondleiding volgen
 
@@ -69,7 +69,7 @@ Laten we de rondleiding beginnen bij het dashboard en eens kijken welke tegels d
 * Onze grootste concurrent is Aliqui, zoals blijkt uit de middelste kolomdiagramtegel (**Totaal afwijkingspercentage eenheden jaar tot heden**).
 * We doen met name veel zaken in de oostelijke en centrale gebieden.
 * De lijndiagram onderaan (**Totale eenheden voor 2014**) laat zien dat onze dip in juni niet seizoensgebonden is, aangezien geen van onze concurrenten dezelfde trend laat zien.
-* De tegels **Totale eenheden algeheel**en**Totale eenheden jaar tot heden** aan de rechterkant bevatten de verkochte eenheden, per segment en per regio/fabrikant. De grootste marktsegmenten voor onze branche zijn **Productiviteit** en **Convenience**.
+* De tegels **Totale eenheden algeheel **en** Totale eenheden jaar tot heden** aan de rechterkant bevatten de verkochte eenheden, per segment en per regio/fabrikant. De grootste marktsegmenten voor onze branche zijn **Productiviteit** en **Convenience**.
 
 ## <a name="use-qa-to-dig-a-little-deeper"></a>De Q&A-functie gebruiken om wat dieper te graven
 

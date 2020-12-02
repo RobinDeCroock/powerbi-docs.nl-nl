@@ -2,18 +2,18 @@
 title: Power BI Q&A gebruiken om visuals te verkennen en te maken
 description: Power BI Q&A gebruiken om nieuwe visualisaties op dashboards en in rapporten te maken.
 author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 01ab8e63785680ea4fcd30cee170297f1cf1d674
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633487"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396125"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>Power BI Q&A gebruiken om uw gegevens te verkennen te verkennen en visuals te maken
 
@@ -75,7 +75,7 @@ Verken met Q&A om uw gegevensset te verkennen en visualisaties aan het rapport e
 
 ![Verwante gegevenssets weergeven](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Als u Q&A wilt gebruiken in rapporten, moet u over bewerkingsmachtigingen beschikken voor het rapport en de onderliggende gegevensset. In het artikel [Q&A voor gebruikers](../consumer/end-user-q-and-a.md) verwijzen we hiernaar als een *maker*scenario. Als u een rapport *gebruikt* dat met u is gedeeld, is Q&A niet beschikbaar.
+Als u Q&A wilt gebruiken in rapporten, moet u over bewerkingsmachtigingen beschikken voor het rapport en de onderliggende gegevensset. In het artikel [Q&A voor gebruikers](../consumer/end-user-q-and-a.md) verwijzen we hiernaar als een *maker* scenario. Als u een rapport *gebruikt* dat met u is gedeeld, is Q&A niet beschikbaar.
 
 1. Open een rapport in de bewerkingsweergave (Power BI-service) of rapportweergave (Power BI Desktop) en selecteer **Een vraag stellen** in de menubalk.
 

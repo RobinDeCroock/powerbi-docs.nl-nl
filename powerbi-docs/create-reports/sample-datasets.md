@@ -2,20 +2,20 @@
 title: Voorbeelden voor Power BI downloaden
 description: Voorbeelden van inhoudspakketten, apps, PBIX-bestanden en Excel gegevenssets voor Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953048"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96396195"
 ---
 # <a name="get-samples-for-power-bi"></a>Voorbeelden voor Power BI downloaden
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien wilt u rapporten zien die een deel van de mogelijkheden van Power BI illustreren. Wij zorgen ervoor.
