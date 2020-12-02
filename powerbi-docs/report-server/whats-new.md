@@ -9,11 +9,11 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/30/2020
 ms.openlocfilehash: 14b629eed17eca2d1e016913dcfffb5858d4ddc3
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132408"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120747"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Wat is er nieuw in Power BI Report Server
 
@@ -473,7 +473,7 @@ Er is ondersteuning toegevoegd voor vertrouwde visuals voor Power BI Report Serv
 
 #### <a name="improved-security-features"></a>Verbeterde beveiligingsfuncties
 
-**RestrictedResourceMimeTypeForUpload** , die beheerders kunnen gebruiken om een lijst met door komma's gescheiden waarden op te geven voor uitgesloten MIME-typen, bijvoorbeeld text/html.
+**RestrictedResourceMimeTypeForUpload**, die beheerders kunnen gebruiken om een lijst met door komma's gescheiden waarden op te geven voor uitgesloten MIME-typen, bijvoorbeeld text/html.
 
 ## <a name="january-2019"></a>Januari 2019
 
@@ -786,7 +786,7 @@ Power BI Report Server ondersteunt nu de nieuwe visuele Power BI-tabel en -matri
 - Voorbeeld van Power BI Report Server beschikbaar gesteld
 - Mogelijkheid om Power BI-rapporten on-premises te publiceren
   - ondersteuning voor Power BI-visuals
-  - Alleen ondersteuning voor * *live-verbindingen voor Analysis Services* , er volgen meer gegevensbronnen.
+  - Alleen ondersteuning voor **live-verbindingen voor Analysis Services*, er volgen meer gegevensbronnen.
   - App Power BI - Mobiel bijgewerkt om Power BI-rapporten weer te geven die worden gehost in Power BI Report Server
 - Verbeterde samenwerking in rapporten met opmerkingen
 

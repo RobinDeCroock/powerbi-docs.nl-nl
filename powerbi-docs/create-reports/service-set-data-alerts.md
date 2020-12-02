@@ -2,20 +2,20 @@
 title: Gegevensmeldingen instellen in de Power BI-service
 description: Informatie over het instellen van waarschuwingsmeldingen om u te waarschuwen als wijzigingen aan de gegevens in uw dashboards de limieten overschrijden die u in de Power BI-service hebt ingesteld.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/02/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: cce9e351d468289b37f000159f846a5b2942b36a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635074"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96387730"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Gegevenswaarschuwingen in de Power BI-service
 

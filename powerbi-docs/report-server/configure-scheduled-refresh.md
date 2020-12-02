@@ -1,19 +1,19 @@
 ---
 title: Een geplande vernieuwing van uw Power BI-rapport configureren
 description: Om de gegevens in uw Power BI-rapport te vernieuwen, moet u een gepland vernieuwingsschema maken.
-author: davidiseminger
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
-ms.author: davidi
-ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 95119cf6ebebbf527245f5b75f0da541c1f87aef
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859032"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96386315"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Een geplande vernieuwing van uw Power BI-rapport configureren
 Om de gegevens in uw Power BI-rapport in de Power BI Report Server te vernieuwen, moet u een gepland vernieuwingsschema maken. U maakt dit plan in het gedeelte *Beheren* van een Power BI-rapport op de rapportserver.

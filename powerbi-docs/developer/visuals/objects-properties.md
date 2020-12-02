@@ -9,11 +9,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
 ms.openlocfilehash: ae548abd0d579414a69b0d970213ff9d69ff2f08
-ms.sourcegitcommit: eab5a02520c421a57019595c03e9ecfdb41d52ad
+ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92256316"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96120201"
 ---
 # <a name="objects-and-properties-of-power-bi-visuals"></a>Objecten en eigenschappen van Power BI-visuals
 
@@ -138,7 +138,7 @@ Een voorbeeld wordt weergegeven in de volgende code:
 
 Let op de eigenschappen *fill* en *fillRule*. De eerste is de kleurkiezer, de tweede is de vervangingsregel voor de kleurovergang waardoor de *fill-eigenschap*, `visually`, wordt vervangen wanneer aan de voorwaarden van de regel wordt voldaan.
 
-Deze koppeling tussen de eigenschap *fill`"rule"` en de vervangingsregel wordt ingesteld in de sectie *>`"output"` van de eigenschap *fillRule*.
+Deze koppeling tussen de eigenschap *fill`"rule"` en de vervangingsregel wordt ingesteld in de sectie*>`"output"` van de eigenschap *fillRule*.
 
 Met de eigenschap `"Rule"`>`"InputRole"` wordt ingesteld welke gegevensrol de regel activeert (voorwaarde). In dit voorbeeld wordt de regel toegepast voor de eigenschap `"fill"` als de gegevensrol `"Gradient"` gegevens bevat.
 
