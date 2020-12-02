@@ -2,20 +2,20 @@
 title: Gerelateerde inhoud uit dashboards, rapporten en gegevenssets bekijken
 description: Navigatie eenvoudiger gemaakt. Bekijk gerelateerde inhoud op dashboards, in rapporten en in gegevenssets
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/25/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f27cea554cd9d4e1a68fa300c5d39d70e1eefb48
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 5487697196b5ab6c7132db44ba707a0c7cc708d4
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527245"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389893"
 ---
 # <a name="see-related-content-in-the-power-bi-service"></a>Gerelateerde inhoud in de Power BI-service bekijken
 

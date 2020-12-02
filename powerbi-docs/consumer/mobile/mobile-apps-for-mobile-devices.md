@@ -2,19 +2,19 @@
 title: Wat zijn de mobiele Power BI-apps?
 description: De mobiele apps van Power BI zorgen ervoor dat u altijd verbonden bent met uw gegevens, zowel on-premises als in de cloud. Bekijk uw Power BI-dashboards en -rapporten op uw mobiele apparaat.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: overview
 ms.date: 03/11/2020
-ms.author: painbar
 ms.custom: ''
 ms.reviewer: ''
-ms.openlocfilehash: 5f581a9b08afc8d9d8c3a36ed765c5d211d7876b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d9dc34178980b07a0bb4aae25bf95e89d664d6ad
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856410"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389133"
 ---
 # <a name="what-are-the-power-bi-mobile-apps"></a>Wat zijn de mobiele Power BI-apps?
 Power BI biedt een set mobiele apps voor iOS-, Android- en Windows 10 Mobile-apparaten. In de mobiele apps kunt u verbinding maken met en interactief werken met uw gegevens in de cloud en on-premises. 

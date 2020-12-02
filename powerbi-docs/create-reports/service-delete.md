@@ -2,19 +2,19 @@
 title: Een dashboard, rapport, werkmap, gegevensset of werkruimte verwijderen
 description: Ontdek hoe u vrijwel alles verwijdert uit de Power BI-service.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/29/2020
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1e1cc55f21f43b7029a68670d9a7af9215f5b62c
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
+ms.openlocfilehash: 9d6310daf5c9e3d658edec6a7949661ad171b102
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93132443"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388765"
 ---
 # <a name="delete-almost-anything-in-the-power-bi-service"></a>Vrijwel alles verwijderen in de Power BI-service
 In dit artikel ziet u hoe u een dashboard, rapport, rapportpagina, werkmap, gegevensset, app of werkruimte verwijdert in de Power BI-service. U kunt bijna alles verwijderen uit de Power BI-service, met enkele uitzonderingen. 
@@ -41,7 +41,7 @@ U kunt eenvoudig apps verwijderen van de pagina met uw app-lijst. Als u een app 
 
 ## <a name="remove-or-delete-a-workspace"></a>Een werkruimte verwijderen of wissen
 
-Power BI heeft twee verschillende werkruimten: de originele, of *klassieke* , werkruimten en de nieuwe werkruimten. De processen voor het verwijderen of wissen hiervan verschillen. Meer informatie over [nieuwe en klassieke werkruimten](../collaborate-share/service-new-workspaces.md).
+Power BI heeft twee verschillende werkruimten: de originele, of *klassieke*, werkruimten en de nieuwe werkruimten. De processen voor het verwijderen of wissen hiervan verschillen. Meer informatie over [nieuwe en klassieke werkruimten](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="remove-members-from-a-new-workspace"></a>Leden verwijderen uit een nieuwe werkruimte
 
@@ -71,7 +71,7 @@ Als beheerder voor een werkruimte kunt u deze verwijderen of anderen eruit verwi
 
 ### <a name="remove-a-classic-workspace-from-your-list"></a>U kunt als volgt een klassieke werkruimte uit uw lijst verwijderen
 
-Als u geen lid meer wilt zijn van een klassieke werkruimte, kunt u deze * *_verlaten_* _ en wordt deze vervolgens uit uw lijst verwijderd. Als u een werkruimte verlaat, blijft deze bestaan voor alle andere leden van de werkruimte.  
+Als u geen lid meer wilt zijn van een klassieke werkruimte, kunt u deze **_verlaten_* _ en wordt deze vervolgens uit uw lijst verwijderd. Als u een werkruimte verlaat, blijft deze bestaan voor alle andere leden van de werkruimte.  
 
 > [!NOTE]
 > Als u de enige beheerder van de werkruimte bent, geeft Power BI u geen toestemming om deze te verlaten.
@@ -79,7 +79,7 @@ Als u geen lid meer wilt zijn van een klassieke werkruimte, kunt u deze * *_verl
 
 1. Start in de werkruimte die u wilt verwijderen.
 
-2. Selecteer in de rechterbovenhoek _ *Meer opties* * (...) en kies **Werkruimte verlaten** > **Verlaten**.
+2. Selecteer in de rechterbovenhoek _ *Meer opties** (...) en kies **Werkruimte verlaten** > **Verlaten**.
 
       :::image type="content" source="media/service-delete/power-bi-leave-workspace.png" alt-text="Schermopname van Meer opties, Werkruimte verlaten.":::
 
@@ -110,7 +110,7 @@ Het verwijderen van een werkruimte is iets anders dan het verlaten van een werkr
 
 - Als u een *dashboard* verwijdert, worden de onderliggende gegevensset of rapporten die zijn gekoppeld aan dit dashboard niet verwijderd.
 - Als u de *eigenaar van een dashboard of rapport* bent, kunt u deze verwijderen. Als u het hebt gedeeld met collega's, verwijdert u deze uit uw eigen Power BI-werkruimte maar ook uit hun Power BI-werkruimten.
-- Als een *dashboard of rapport met u wordt gedeeld* , kunt u het niet verwijderen.
+- Als een *dashboard of rapport met u wordt gedeeld*, kunt u het niet verwijderen.
 - Als u een rapport verwijdert, wordt de gegevensset waarop het rapport is gebaseerd niet verwijderd.  Visualisaties die u van het rapport hebt vastgemaakt aan een dashboard, zijn ook veilig. Ze blijven op het dashboard totdat u ze afzonderlijk verwijdert.
 - U kunt een *gegevensset* verwijderen. Met het verwijderen van een gegevensset verwijdert u echter ook alle rapporten en dashboardtegels die gegevens uit die gegevensset bevatten.
 - U kunt *werkmappen* verwijderen. Met het verwijderen van een werkmap verwijdert u echter ook alle rapporten en dashboardtegels die gegevens uit deze werkmap bevatten. Als een werkmap is opgeslagen in OneDrive voor Bedrijven, wordt deze niet verwijderd uit OneDrive als u deze verwijdert uit Power BI.

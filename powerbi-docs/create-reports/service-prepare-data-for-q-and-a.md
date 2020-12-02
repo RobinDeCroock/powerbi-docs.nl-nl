@@ -2,19 +2,19 @@
 title: Excel-gegevens geschikt maken voor Q&A in Power BI
 description: Uw gegevens geschikt maken voor Q&A in Power BI
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/13/2019
-ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f7760021966673b93313809a806473b94c7750d3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 41672fa809544198a053ae41f935e890d83cfa72
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218695"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388098"
 ---
 # <a name="make-excel-data-work-well-with-qa-in-power-bi"></a>Excel-gegevens geschikt maken voor Q&A in Power BI
 Lees verder als u gegevensmodellen maakt of Excel-werkmappen bouwt die worden gebruikt in Power BI.

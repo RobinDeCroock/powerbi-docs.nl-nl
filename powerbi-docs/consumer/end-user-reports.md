@@ -2,19 +2,19 @@
 title: Rapporten in de Power BI-service
 description: Rapporten in de Power BI-service voor zakelijke gebruikers
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/09/2020
-ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ee852e18056fc6db0288066f5b2074eba784487
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 152d3ee87afe93fdfbe19060a42f013ec83f2d2a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983437"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389709"
 ---
 # <a name="reports-in-power-bi"></a>Rapporten in Power BI
 
@@ -38,7 +38,7 @@ Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door [Basisc
 
 ## <a name="advantages-of-reports"></a>Voordelen van rapporten
 
-Een rapport in Power BI is gebaseerd op één gegevensset. Rapport*ontwerpers* maken de visuals in een rapport die blokken gegevens vertegenwoordigen. De visuele elementen zijn niet statisch.  Ze worden bijgewerkt zodra de onderliggende gegevens veranderen. U kunt interacties met de visuele elementen en filters aangaan terwijl u in de gegevens duikt om in inzichten te ontdekken en antwoorden te zoeken. Net als een dashboard, maar dan in grotere mate, is een rapport erg interactief, met veel aanpassingsmogelijkheden. Wat u allemaal met een rapport kunt doen, is afhankelijk van de rol en de machtigingen die zijn toegewezen door de *ontwerper* van het rapport.
+Een rapport in Power BI is gebaseerd op één gegevensset. Rapport *ontwerpers* maken de visuals in een rapport die blokken gegevens vertegenwoordigen. De visuele elementen zijn niet statisch.  Ze worden bijgewerkt zodra de onderliggende gegevens veranderen. U kunt interacties met de visuele elementen en filters aangaan terwijl u in de gegevens duikt om in inzichten te ontdekken en antwoorden te zoeken. Net als een dashboard, maar dan in grotere mate, is een rapport erg interactief, met veel aanpassingsmogelijkheden. Wat u allemaal met een rapport kunt doen, is afhankelijk van de rol en de machtigingen die zijn toegewezen door de *ontwerper* van het rapport.
 
 ### <a name="safely-interact-with-content"></a>Veilig omgaan met inhoud
 

@@ -2,19 +2,19 @@
 title: Een tegel uit het ene dashboard vastmaken aan een ander dashboard
 description: Een tegel uit het ene dashboard vastmaken aan een ander dashboard
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: baf48e1cfa2bc37652880c9ab4201f2f49ff3c32
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 26da094f7ef7519d29faf4edea1574b6b15dddb1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218649"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388282"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Een tegel uit het ene dashboard vastmaken aan een ander dashboard
 U kunt onder meer een nieuwe [dashboardtegel](../consumer/end-user-tiles.md) toevoegen door een tegel van een ander dashboard te kopiëren. Als u op een dergelijke tegel klikt, biedt deze een koppeling terug naar de locatie waar de tegel is gemaakt, in Q&A of een rapport. 

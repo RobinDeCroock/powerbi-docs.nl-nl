@@ -2,19 +2,19 @@
 title: Tips voor het ontwerpen van een geweldig Power BI-dashboard
 description: Tips voor het ontwerpen van een geweldig Power BI-dashboard
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/14/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 30c0600e835ad7088d6d867e9d1f4de24550c8cc
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d1e2a3b304d7d92ee6443e288d77599cb734ff1a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237202"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388696"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Tips voor het ontwerpen van een geweldig Power BI-dashboard
 Nu u een dashboard hebt gemaakt en een aantal tegels hebt toegevoegd, kunt u nadenken over hoe u ervoor zorgt dat het dashboard niet alleen mooi, maar ook functioneel is. Dit betekent in de praktijk meestal dat de belangrijkste informatie een opvallende plaats krijgt en dat het dashboard netjes en opgeruimd is.

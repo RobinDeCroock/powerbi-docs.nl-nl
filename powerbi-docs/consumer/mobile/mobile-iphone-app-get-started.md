@@ -2,18 +2,18 @@
 title: Aan de slag met de mobiele Power BI-app voor iOS
 description: Lees hoe u met de mobiele Microsoft Power BI-app voor iOS onderweg beschikt over Power BI en mobiele toegang tot zakelijke gegevens, zowel on-premises als in de cloud.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 02/10/2020
-ms.author: painbar
-ms.openlocfilehash: 989e77eeaa559ac74579c1d981f77f2bca374f01
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: da06c02620272deb0648e0706f73d92540385e3b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264782"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388811"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Aan de slag met de mobiele Power BI-app op iOS-apparaten
 De Microsoft Power BI voor iOS-app op de iPhone en iPad biedt de mobiele BI-ervaring voor Power BI, Power BI Report Server en Reporting Services. Bekijk uw bedrijfsdashboards on-premises en in de cloud, en gebruik ze vanaf elke locatie met mobiele live-toegang met aanraakfunctionaliteit. Verken de gegevens in dashboards en deel deze met uw collega's per e-mail of sms-bericht. En blijf via uw [Apple Watch](mobile-apple-watch.md) op de hoogte van uw meest recente gegevens.  

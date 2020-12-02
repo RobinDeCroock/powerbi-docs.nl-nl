@@ -1,20 +1,20 @@
 ---
 title: Contactgegevens instellen voor rapporten en dashboards
 description: Meer informatie over het instellen van contactgegevens voor rapporten en dashboards.
-author: LukaszPawlowski-MS
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/08/2019
-ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 6e8f605f7c0d9e66d8931a0420e356c38f9083c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4518ac8eff4b4f52ab2eeb715c0c460bb478678f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219063"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388328"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Contactgegevens instellen voor rapporten en dashboards in de Power BI-service
 In dit artikel leest u hoe u in de Power BI-service contactgegevens kunt instellen voor een dashboard of rapport.

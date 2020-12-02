@@ -2,19 +2,19 @@
 title: Namen van dashboards, rapporten, werkruimten, rapportpagina's, gegevenssets wijzigen
 description: In de Power BI-service kunt u van vrijwel alles de naam wijzigen.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/01/2018
-ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d37dfece5c7f181ddf55b58ea461e48fdd090d11
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fc120b832fda05d822e57ace56b15fbd773a53ad
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218741"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388029"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>In de Power BI-service kunt u van vrijwel alles de naam wijzigen
 In dit artikel leert u hoe u de naam van een dashboard, rapport, rapportpagina, werkmap, gegevensset, app en werkruimte wijzigt in de Power BI-service.
@@ -63,7 +63,7 @@ Iedereen met beheerdersmachtigingen kan de naam van een werkruimte wijzigen.
 2. Selecteer in de rechterbovenhoek **Meer opties** (...) en kies **Werkruimte bewerken**. Als u deze optie niet ziet, bent u niet gemachtigd om de naam van deze werkruimte te wijzigen. 
    
     ![Werkruimte bewerken selecteren](media/service-rename/power-bi-edit-workspace.png)
-3. Typ een nieuwe naam voor de werkruimte en selecteer**Opslaan**.
+3. Typ een nieuwe naam voor de werkruimte en selecteer **Opslaan**.
    
    ![Deelvenster Werkruimte bewerken](media/service-rename/power-bi-workspace-rename.png)
 

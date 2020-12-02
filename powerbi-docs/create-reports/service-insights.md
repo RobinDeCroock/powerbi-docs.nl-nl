@@ -2,21 +2,21 @@
 title: Automatisch inzichten genereren voor een gegevensset
 description: Meer informatie over het verkrijgen van inzicht in uw gegevenssets en dashboardtegels.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 79148389a697feb2a3d2e2cba0b919eb59632ff7
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 8db804ec3afe4b752ab6f5f8546782cac7135055
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91524461"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388466"
 ---
 # <a name="generate-data-insights-on-your-dataset-automatically-with-power-bi"></a>Automatisch inzichten genereren voor een gegevensset met Power BI
 Hebt u een nieuwe gegevensset en weet u niet waar u moet beginnen?  Moet u snel een dashboard bouwen?  Wilt u snel inzichten zoeken die u hebt gemist?

@@ -2,19 +2,19 @@
 title: 'Zelfstudie: Van een Excel-werkmap naar de Power BI-service naar Teams'
 description: In dit artikel wordt beschreven hoe u snel een verbluffend rapport in de Power BI-service kunt maken van een Excel-werkmap en deze kunt delen in Teams.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
 ms.date: 07/30/2020
-ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478125"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96388857"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Zelfstudie: Van een Excel-werkmap naar een rapport in de Power BI-service naar Microsoft Teams
 Uw manager wil aan het eind van de dag een rapport bekijken over uw meest recente verkoop- en winstcijfers. De meest recente gegevens bevinden zich echter op verschillende systemen en in bestanden van derden op uw laptop. In het verleden duurde het uren om visuals en een rapport te maken, en u begint zich zorgen te maken.
