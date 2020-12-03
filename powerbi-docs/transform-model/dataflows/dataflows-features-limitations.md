@@ -2,19 +2,19 @@
 title: Gegevensstroomlimieten, beperkingen en ondersteunde connectors en functies
 description: Overzicht van alle mogelijkheden van gegevensstromen
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 2d58fe71b7ceb27afe5d52a55ed57ae162622b06
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 762a45dc48bd78ffebcbe68ef2f5ed216ec3cc51
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668161"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416089"
 ---
 # <a name="dataflows-limitations-and-considerations"></a>Beperkingen en overwegingen van gegevensstromen
 

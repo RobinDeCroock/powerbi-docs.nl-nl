@@ -1,20 +1,20 @@
 ---
 title: Rapportparameters in Power BI Report Builder
 description: In dit onderwerp worden de gebruikelijke toepassingen van rapportparameters van Power BI Report Builder, de eigenschappen die u kunt instellen, en nog veel meer beschreven.
+author: maggiesMSFT
+ms.author: maggies
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-author: maggiesMSFT
-ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 6c0a891257ae4e768c3952398eb8303906bf2ce4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 77388e138451242ae54f4d1f0630599bbd9de829
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297800"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416273"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Rapportparameters in Power BI Report Builder
 
@@ -52,7 +52,7 @@ Wanneer u een rapport met parameters weergeeft, wordt elke parameter weergegeven
   
 4. **De greep Parametergebied weergeven of verbergen** Op de werkbalk van de rapportviewer klikt u op deze pijl om het parametervenster weer te geven of te verbergen.  
   
-5. **@CategoryQuota parameter** de parameter @CategoryQuota gegevenstype **drijvende komma** , zodat het duurt een numerieke waarde voordat.  @CategoryQuota is zo ingesteld dat er meerdere waarden zijn toegestaan.  
+5. **@CategoryQuota parameter** de parameter @CategoryQuota gegevenstype **drijvende komma**, zodat het duurt een numerieke waarde voordat.  @CategoryQuota is zo ingesteld dat er meerdere waarden zijn toegestaan.  
   
 6. **Rapport weergeven** Nadat u parameterwaarden hebt ingevoerd, klikt u op **Rapport weergeven** om het rapport uit te voeren. Als alle parameters standaardwaarden hebben, wordt het rapport bij de eerste weergave automatisch uitgevoerd.  
   
@@ -114,7 +114,7 @@ Maak een parameter handmatig in het deelvenster Rapportgegevens. U kunt rapportp
 |Zichtbaar|Selecteer deze optie om de rapportparameter bovenaan het rapport weer te geven wanneer het wordt uitgevoerd. Met deze optie kunnen gebruikers tijdens de uitvoering parameterwaarden selecteren.|  
 |Verborgen|Selecteer deze optie om de rapportparameter te verbergen in het gepubliceerde rapport. De waarden voor rapportparameters kunnen nog steeds worden ingesteld in een rapport-URL, in een abonnementsdefinitie of op de rapportserver.|  
 |Intern|Selecteer deze optie om de rapportparameter te verbergen. In het gepubliceerde rapport kan de rapportparameter alleen worden weergegeven in de rapportdefinitie.|  
-|Beschikbare waarden|Als u de beschikbare waarden voor een parameter hebt opgegeven, worden de geldige waarden altijd in een vervolgkeuzelijst weergegeven. Als u bijvoorbeeld beschikbare waarden opgeeft voor een **DateTime** -parameter, wordt er een vervolgkeuzelijst voor datums weergegeven in het deelvenster in plaats van een kalenderbesturingselement.<br /><br /> U kunt ervoor zorgen dat een lijst met waarden consistent blijft binnen rapporten en subrapporten door voor de gegevensbron de optie in te stellen dat er een enkele transactie wordt gebruikt voor alle query's in de gegevenssets die zijn gekoppeld aan een gegevensbron.<br /><br /> **Beveiligingsopmerking** Zorg er voor elk rapport met een parameter van het gegevenstype **Tekst** voor dat u een lijst met beschikbare/geldige waarden gebruikt en dat elke gebruiker die het rapport uitvoert alleen beschikt over de machtigingen die nodig zijn om de gegevens in het rapport weer te geven.|  
+|Beschikbare waarden|Als u de beschikbare waarden voor een parameter hebt opgegeven, worden de geldige waarden altijd in een vervolgkeuzelijst weergegeven. Als u bijvoorbeeld beschikbare waarden opgeeft voor een **DateTime**-parameter, wordt er een vervolgkeuzelijst voor datums weergegeven in het deelvenster in plaats van een kalenderbesturingselement.<br /><br /> U kunt ervoor zorgen dat een lijst met waarden consistent blijft binnen rapporten en subrapporten door voor de gegevensbron de optie in te stellen dat er een enkele transactie wordt gebruikt voor alle query's in de gegevenssets die zijn gekoppeld aan een gegevensbron.<br /><br /> **Beveiligingsopmerking** Zorg er voor elk rapport met een parameter van het gegevenstype **Tekst** voor dat u een lijst met beschikbare/geldige waarden gebruikt en dat elke gebruiker die het rapport uitvoert alleen beschikt over de machtigingen die nodig zijn om de gegevens in het rapport weer te geven.|  
 |Standaardwaarden|Stel standaardwaarden in via een query of een statische lijst.<br /><br /> Wanneer elke parameter een standaardwaarde heeft, wordt het rapport bij de eerste weergave automatisch uitgevoerd.|  
 |Geavanceerd|Stel het rapportdefinitiekenmerk **UsedInQuery** in. Dat is een waarde die aangeeft of deze parameter direct of indirect invloed heeft op de gegevens in een rapport.<br /><br /> **Automatisch bepalen wanneer moet worden vernieuwd**<br /> Kies deze optie als u wilt dat de instelling van deze waarde door de rapportprocessor wordt bepaald. De waarde is **Waar** als er een gegevenssetquery met een directe of indirecte verwijzing naar deze parameter wordt gedetecteerd, of als het rapport subrapporten bevat.<br /><br /> **Altijd vernieuwen**<br /> Selecteer deze optie wanneer de rapportparameter direct of indirect wordt gebruikt in een gegevenssetquery of parameterexpressie. Met deze optie stelt u **UsedInQuery** in op Waar.<br /><br /> **Nooit vernieuwen**<br /> Selecteer deze optie wanneer de rapportparameter niet direct of indirect wordt gebruikt in een gegevenssetquery of parameterexpressie. Met deze optie stelt u **UsedInQuery** in op Onwaar.<br /><br /> **Waarschuwing** Pas op met het gebruik van **Nooit vernieuwen**. Op de rapportserver wordt **UsedInQuery** gebruikt bij het beheren van cacheopties voor rapportgegevens en voor weergegeven rapporten en van parameteropties voor momentopnamerapporten. Als u **Nooit vernieuwen** verkeerd instelt, kan dit leiden tot onjuiste rapportgegevens, ertoe leiden dat rapporten in de cache worden opgeslagen of dat momentopnamerapporten inconsistente gegevens bevatten. |  
   
@@ -145,7 +145,7 @@ Maak een parameter handmatig in het deelvenster Rapportgegevens. U kunt rapportp
 ##  <a name="parameters-for-a-subscription"></a><a name="bkmk_Parameters_Subscription"></a> Parameters voor een abonnement  
  U kunt een abonnement voor een rapport op aanvraag of voor een momentopname definiëren en opgeven welke parameterwaarden moeten worden gebruikt tijdens de verwerking van het abonnement.  
   
--   **Rapport op aanvraag.**  Voor een rapport op aanvraag kunt u een andere parameterwaarde opgeven dan de gepubliceerde waarde die voor elke parameter voor het rapport is vermeld. Stel bijvoorbeeld dat u een rapport Belservice hebt, waarmee op basis van de parameter *Periode* de klantenserviceaanvragen van de huidige dag, week of maand worden geretourneerd. Als de standaardwaarde van de parameterwaarde voor het rapport is ingesteld op **Vandaag** , kan er in uw abonnement een andere parameterwaarde worden gebruikt (zoals **Week** of **Maand** ) om een rapport met week- of maandcijfers te produceren.  
+-   **Rapport op aanvraag.**  Voor een rapport op aanvraag kunt u een andere parameterwaarde opgeven dan de gepubliceerde waarde die voor elke parameter voor het rapport is vermeld. Stel bijvoorbeeld dat u een rapport Belservice hebt, waarmee op basis van de parameter *Periode* de klantenserviceaanvragen van de huidige dag, week of maand worden geretourneerd. Als de standaardwaarde van de parameterwaarde voor het rapport is ingesteld op **Vandaag**, kan er in uw abonnement een andere parameterwaarde worden gebruikt (zoals **Week** of **Maand**) om een rapport met week- of maandcijfers te produceren.  
   
 ## <a name="next-steps"></a>Volgende stappen
 

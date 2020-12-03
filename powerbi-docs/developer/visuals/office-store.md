@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 07/14/2020
-ms.openlocfilehash: 1809b1f539c82de4bf98689dbb259594a603b90c
-ms.sourcegitcommit: 3ddfd9ffe2ba334a6f9d60f17ac7243059cf945b
+ms.openlocfilehash: a4b816e040e25b4a7e67c4bd488554d019277778
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "92349685"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417170"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Power BI-visuals publiceren in het Partnercentrum
 
@@ -47,7 +47,7 @@ Wanneer u klaar bent om de Power BI-visual te verzenden, controleert u of de vis
 
 Als u een Power BI-visual wilt verzenden, hebt u een app-pakket-XML nodig van het Power BI-team. Als u het de app-pakket-XML wilt ophalen, verzendt u een e-mailbericht naar het team voor verzendingen van Power BI-visuals ([pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)).
 
-Voordat u het **pbiviz** -pakket maakt, moet u de volgende velden invullen in het bestand **pbiviz.json** :
+Voordat u het **pbiviz**-pakket maakt, moet u de volgende velden invullen in het bestand **pbiviz.json**:
 * beschrijving
 * ondersteunings-URL
 * auteur
@@ -68,7 +68,7 @@ Als u de Power BI-visual wilt verzenden naar AppSource, hebt u een app-pakket no
 
 ### <a name="getting-the-app-package"></a>Het app-pakket downloaden
 
-U moet een e-mailbericht met het **pbiviz** -bestand en het **pbix** -bestand verzenden naar het Power BI-team vóór indiening bij AppSource. Hierdoor kan het Power BI-team de bestanden uploaden naar de openbare shareserver. Anders kunnen de bestanden niet worden opgehaald in de store. 
+U moet een e-mailbericht met het **pbiviz**-bestand en het **pbix**-bestand verzenden naar het Power BI-team vóór indiening bij AppSource. Hierdoor kan het Power BI-team de bestanden uploaden naar de openbare shareserver. Anders kunnen de bestanden niet worden opgehaald in de store. 
 
 Het Power BI-team moet bestanden controleren op nieuwe verzendingen van Power BI-visuals, updates in bestaande Power BI-visuals, en oplossingen voor geweigerde verzendingen.
 
@@ -83,17 +83,17 @@ Als u de Power BI-visual wilt verzenden naar het Partnercentrum, moet u bij het 
 
 Volg de stappen hieronder om de Power BI-visual te verzenden naar het Partnercentrum. Zie [Uw Office-oplossing verzenden naar AppSource via het Partnercentrum](/office/dev/store/use-partner-center-to-submit-to-appsource) voor meer informatie over het inzendingsproces.
 
-1. Meld u aan bij het **Partnercentrum** .
+1. Meld u aan bij het **Partnercentrum**.
 
 2. Selecteer **OFFICE STORE** in het linkerdeelvenster.
 
-3. Selecteer **Overzicht** .
+3. Selecteer **Overzicht**.
 
-4. Selecteer **Nieuwe maken** en selecteer in de vervolgkeuzelijst de optie **Power BI-visual** .
+4. Selecteer **Nieuwe maken** en selecteer in de vervolgkeuzelijst de optie **Power BI-visual**.
 
     ![Schermopname van het maken van een nieuwe Power BI-visual op het tabblad Office Store in het Partnercentrum.](media/office-store/power-bi-visual.png)
 
-5. Voer in het venster **Nieuwe Power BI-visual maken** een naam in voor de Power BI-visual en selecteer **Maken** .
+5. Voer in het venster **Nieuwe Power BI-visual maken** een naam in voor de Power BI-visual en selecteer **Maken**.
 
 6. Selecteer **Pakketten** en upload de app-pakket-XML voor de Power BI-visual.
 
@@ -105,7 +105,7 @@ Volg de stappen hieronder om de Power BI-visual te verzenden naar het Partnercen
     >[!TIP]
     >Het Power BI-certificeringsproces kan enige tijd duren. Als u een nieuwe Power BI-visual maakt, wordt u aangeraden de Power BI-visual te publiceren via het Partnercentrum voordat u de certificeringsaanvraag indient. Dit zorgt ervoor dat de publicatie van de visual niet wordt vertraagd.
 
-10. Selecteer **Productinstallatie** en klik op **Controleren en publiceren** .
+10. Selecteer **Productinstallatie** en klik op **Controleren en publiceren**.
 
 
 ## <a name="tracking-submission-status-and-usage"></a>Status en gebruik van de inzending bijhouden

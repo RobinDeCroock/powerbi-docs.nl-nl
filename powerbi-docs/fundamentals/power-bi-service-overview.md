@@ -1,20 +1,20 @@
 ---
 title: Wat is de Power BI-service?
 description: Overzicht van de Power BI-service en hoe deze past bij de overige onderdelen van Power BI.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 featuredvideoid: B2vd4MQrz4M
 ms.topic: overview
 ms.date: 09/05/2019
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 818c101ae62c9c9a0fbd755dfa996aec10f3e3e5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 02c274ab3e07c37797e5433aeb01a787934800fd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83361883"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416687"
 ---
 # <a name="what-is-the-power-bi-service"></a>Wat is de Power BI-service?
 **Power BI** is een verzameling software-services, apps en connectoren die samenwerken om u te helpen bij het maken, delen en gebruiken van zakelijke inzichten op de manier die voor u en uw bedrijf het meest effectief is. De Microsoft Power BI-*service* (app.powerbi.com), ook wel Power BI online genoemd, is het onderdeel SaaS (*Software as a Service*) van Power BI. In de Power BI-service kunt u met *dashboards* altijd precies weten wat er speelt in uw bedrijf. Dashboards bevatten *tegels* die u kunt selecteren om *rapporten* te openen voor nog meer inzicht in de gegevens. Met dashboards en rapporten kunt u verbinding maken met *gegevenssets* die alle relevante gegevens op één plek samenbrengen. 

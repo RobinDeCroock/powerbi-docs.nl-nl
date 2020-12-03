@@ -2,19 +2,19 @@
 title: Een gegevensstroom maken
 description: Overzicht van de verschillende opties voor het maken van een gegevensstroom
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5a75965bb236a1515274343e58668809f91cef7b
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: c98044303e46af46d36b98f0a1bdc8c7df29d94f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94669196"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416158"
 ---
 # <a name="creating-a-dataflow"></a>Een gegevensstroom maken
 Een **gegevensstroom** is een verzameling entiteiten (entiteiten zijn vergelijkbaar met tabellen) die worden gemaakt en beheerd in werkruimten in de Power BI-service. Een **entiteit/tabel** is een set velden die worden gebruikt voor het opslaan van gegevens, vergelijkbaar met een tabel in een database. U kunt rechtstreeks vanuit de werkruimte waarin de gegevensstroom is gemaakt entiteiten/tabellen toevoegen en bewerken, maar ook schema's voor gegevensvernieuwing beheren.

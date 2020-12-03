@@ -2,26 +2,26 @@
 title: Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 description: Maak vanuit een rapport een tegel vast aan een Power BI-dashboard.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/23/2019
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e0fdf11eab5ea264e78363984ff49bbc95660d8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354312"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417331"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 
 U kunt een [dashboardtegel](../consumer/end-user-tiles.md) onder meer toevoegen vanuit een [Power BI-rapport](../consumer/end-user-reports.md). Als u een van deze tegels selecteert, wordt deze in het rapport geopend.
 
-U kunt een volledige rapportpagina aan een dashboard vastmaken. Dit wordt het vastmaken van een *live*tegel genoemd. Met de aanduiding livetegel wordt bedoeld dat u interactie met de tegel op het dashboard kunt hebben. In tegenstelling tot afzonderlijke visualisatietegels worden wijzigingen die in het rapport zijn aangebracht, automatisch gesynchroniseerd met het dashboard. Zie [Een volledige rapportpagina vastmaken](#pin-an-entire-report-page) voor meer informatie.
+U kunt een volledige rapportpagina aan een dashboard vastmaken. Dit wordt het vastmaken van een *live* tegel genoemd. Met de aanduiding livetegel wordt bedoeld dat u interactie met de tegel op het dashboard kunt hebben. In tegenstelling tot afzonderlijke visualisatietegels worden wijzigingen die in het rapport zijn aangebracht, automatisch gesynchroniseerd met het dashboard. Zie [Een volledige rapportpagina vastmaken](#pin-an-entire-report-page) voor meer informatie.
 
 U kunt geen tegels vastmaken van rapporten die met u zijn gedeeld of van Power BI Desktop. 
 

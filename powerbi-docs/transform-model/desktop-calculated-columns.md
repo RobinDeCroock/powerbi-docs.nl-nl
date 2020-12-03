@@ -2,19 +2,19 @@
 title: Berekende kolommen in Power BI Desktop gebruiken
 description: Berekende kolommen in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 05/07/2019
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 0d8510e1ef76ba07623e135f51eb0ce21ceac4c4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 9c7285f90b963166c643c2bb20f9323eddb7ce85
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214389"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415928"
 ---
 # <a name="create-calculated-columns-in-power-bi-desktop"></a>Berekende kolommen maken in Power BI Desktop
 Met berekende kolommen kunt u nieuwe gegevens toevoegen aan een tabel die al in het model is opgenomen. In dit geval laadt u echter geen query's en waarden in de nieuwe kolom van een gegevensbron, maar maakt u een DAX-formule (Data Analysis Expressions) die de waarden van de kolom definieert. In Power BI Desktop worden berekende kolommen gemaakt met behulp van de functie Nieuwe kolom in de **rapportweergave**.

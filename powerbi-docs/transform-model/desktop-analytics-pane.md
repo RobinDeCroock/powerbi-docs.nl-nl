@@ -2,19 +2,19 @@
 title: Het deelvenster Analyse in Power BI Desktop gebruiken
 description: Dynamische referentielijnen maken voor visuele elementen in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/10/2020
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a7744c32242cd2cde4659269cd85037fed1f0cce
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1437e680ac7dc4114d68bd534ba8ec93dd8ae508
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237947"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416043"
 ---
 # <a name="use-the-analytics-pane-in-power-bi-desktop"></a>Het deelvenster Analyse in Power BI Desktop gebruiken
 
@@ -61,7 +61,7 @@ Voer de volgende stappen uit als u de beschikbare dynamische referentielijnen vo
 
 3. Selecteer **+&nbsp;Toevoegen** om een nieuwe lijn te maken. Vervolgens kunt u de lijn een naam geven. Dubbelklik op het tekstvak en voer de naam in.
 
-    U hebt nu allerlei opties voor de lijn. U kunt de **kleur**, het **transparantie**percentage, de **lijnstijl**en de **positie** (in vergelijking met de gegevenselementen van de visual) opgeven. U kunt ook kiezen of u het **gegevenslabel** wilt toevoegen. Als u de afmetingen van de visual wilt opgeven waarop u de regel wilt baseren, selecteert u de vervolgkeuzelijst **Meting**, die automatisch wordt ingevuld met gegevenselementen uit de visual. In dit geval selecteren we **Culture** (Cultuur) als meting, voegen we het label *Average of Culture* (Gemiddelde van cultuur) toe en passen we enkele van de andere opties toe.
+    U hebt nu allerlei opties voor de lijn. U kunt de **kleur**, het **transparantie** percentage, de **lijnstijl** en de **positie** (in vergelijking met de gegevenselementen van de visual) opgeven. U kunt ook kiezen of u het **gegevenslabel** wilt toevoegen. Als u de afmetingen van de visual wilt opgeven waarop u de regel wilt baseren, selecteert u de vervolgkeuzelijst **Meting**, die automatisch wordt ingevuld met gegevenselementen uit de visual. In dit geval selecteren we **Culture** (Cultuur) als meting, voegen we het label *Average of Culture* (Gemiddelde van cultuur) toe en passen we enkele van de andere opties toe.
 
     ![Gemiddelde lijn van cultuur, deelvenster Analyse, Visualisaties, Power BI Desktop](media/desktop-analytics-pane/analytics-pane_4.png)
 
@@ -94,7 +94,7 @@ Als u tijdgegevens in uw gegevensbron hebt, kunt u de *prognosefunctie* gebruike
 
 De mogelijkheid om dynamische referentielijnen te gebruiken is gebaseerd op het type visual dat wordt gebruikt. Op de volgende lijsten worden deze beperkingen specifieker beschreven.
 
-U kunt de *constante lijn voor de x-as*, *constante lijn voor de y-as*en *symmetrie-arcering* gebruiken in de volgende visual:
+U kunt de *constante lijn voor de x-as*, *constante lijn voor de y-as* en *symmetrie-arcering* gebruiken in de volgende visual:
 
 * Spreidingsdiagram
 

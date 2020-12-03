@@ -2,24 +2,24 @@
 title: Een dashboardtegel bewerken
 description: Deze zelfstudie neemt u van een tegel maken en deze aan een dashboard vastmaken naar het leren hoe u die dashboardtegel kunt bewerken -- formaat wijzigen, verplaatsen, de naam wijzigen, vastmaken, verwijderen, een hyperlink toevoegen.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/02/2018
-ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fd6117e3f5de4e8e82535c2594eec53d71117301
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e217b0e75e8d2fadd2eff927ba3ef3c04e40e27
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219362"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417423"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Een dashboardtegel bewerken of verwijderen
 
-## <a name="dashboard-owners-versus-dashboard-consumers"></a>Dashboard*eigenaars* versus dashboard*gebruikers*
+## <a name="dashboard-owners-versus-dashboard-consumers"></a>Dashboard *eigenaars* versus dashboard *gebruikers*
 Wanneer u een dashboard maakt of bezit, beschikt u over veel opties om de vormgeving en het standaardgedrag van de tegels op dit dashboard te wijzigen. Gebruik de instellingen en de onderstaande strategieën voor het ontwerpen van de *gebruikservaring* van het dashboard voor uw collega's.  Als u een tegel selecteert, wordt hiermee het onderliggende rapport, een aangepaste URL of een andere dashboard geopend? Mogelijk gaat u [een tegel toevoegen waarin een video of streaminggegevens worden weergegeven](service-dashboard-add-widget.md)? En u kunt zelfs overwegen [een tegel met interactieve slicers te maken](service-dashboard-pin-live-tile-from-report.md). Als *auteur* hebt u veel opties. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>

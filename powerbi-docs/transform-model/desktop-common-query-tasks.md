@@ -2,19 +2,19 @@
 title: Algemene querytaken uitvoeren in Power BI Desktop
 description: Algemene querytaken uitvoeren in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/09/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 931c500cd2c2dbbf750eb3699ac5290a2977c21b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2346118350ca589a25635db9da976fa917e3ff7b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526255"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415951"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Algemene querytaken uitvoeren in Power BI Desktop
 
@@ -49,7 +49,7 @@ Als u wilt starten, selecteert u **Excel**, geeft u de Excel-werkmap op die eerd
 
 U kunt **Gegevens transformeren** om de gegevens te bewerken, aan te passen of *vorm te geven* voordat u deze in Power BI Desktop laadt. Bewerken is vooral nuttig wanneer u werkt met grote gegevenssets die u wilt downloaden voordat u deze laadt.
 
-Verbinding maken met verschillende soorten gegevens is net zo gemakkelijk. U wilt ook verbinding maken met een Web-resource. Kies **Gegevens ophalen** > **Meer**en selecteer vervolgens **Andere** > **Web** > **Verbinden**.
+Verbinding maken met verschillende soorten gegevens is net zo gemakkelijk. U wilt ook verbinding maken met een Web-resource. Kies **Gegevens ophalen** > **Meer** en selecteer vervolgens **Andere** > **Web** > **Verbinden**.
 
 ![Web-gegevensbron, dialoogvenster Gegevens ophalen, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
 
@@ -93,7 +93,7 @@ Het dialoogvenster **Groeperen op** wordt weergegeven. Wanneer de Power Query-ed
 
 1. De vervolgkeuzelijst zonder labels specificeert de kolom die moet worden gegroepeerd. In de Power Query-editor wordt deze waarde standaard ingesteld op de geselecteerde kolom, maar u kunt deze wijzigen in elke kolom in de tabel.
 2. **Nieuwe kolomnaam**: De Power Query-editor stelt een naam voor de nieuwe kolom voor op basis van de bewerking die wordt toegepast op de kolom die wordt gegroepeerd. U kunt de nieuwe kolom echter elke gewenste naam geven.
-3. **Bewerking**: U kunt kiezen welke bewerking de Power Query-editor toepast, zoals **Som**, **Mediaan**of **Aantal afzonderlijke rijen**. De standaardwaarde is **Rijen tellen**.
+3. **Bewerking**: U kunt kiezen welke bewerking de Power Query-editor toepast, zoals **Som**, **Mediaan** of **Aantal afzonderlijke rijen**. De standaardwaarde is **Rijen tellen**.
 4. **Groeperingen toevoegen** en **Aggregatie toevoegen**: Deze knoppen zijn alleen beschikbaar als u de optie **Geavanceerd** selecteert. U kunt in één bewerking groepeerbewerkingen (**Groeperen op**-acties) op veel kolommen maken en verschillende aggregaties maken met behulp van deze knoppen. De Power Query-editor maakt een nieuwe kolom, gebaseerd op uw selecties in dit venster, die op meerdere kolommen van toepassing is.
 
 Selecteer de knop **Groepering toevoegen** of **Aggregatie toevoegen** om meer groeperingen of aggregaties toe te voegen aan een **Groeperen op**-bewerking. Als u een groepering of aggregatie wilt verwijderen, selecteert u het pictogram met het weglatingsteken ( **...** ) aan de rechterkant van de rij en vervolgens **Verwijderen**. Probeer de **Groeperen op**-bewerking uit te proberen met behulp van de standaardwaarden om te zien wat er gebeurt.

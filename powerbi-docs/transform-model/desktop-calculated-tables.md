@@ -2,19 +2,19 @@
 title: Berekende tabellen gebruiken in Power BI Desktop
 description: Berekende tabellen in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 05/06/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8c22b040a1767d616ce1f4d0e4e7fa26e55bfe19
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: de919d5dc72ec4c9f1939d844a1cd287728f1ac8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214288"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415905"
 ---
 # <a name="create-calculated-tables-in-power-bi-desktop"></a>Berekende tabellen maken in Power BI Desktop
 In de meeste gevallen kunt u tabellen maken door gegevens te importeren in het model vanuit een externe gegevensbron. Met *berekende tabellen* kunt u nieuwe tabellen toevoegen op basis van gegevens die u reeds in het model hebt geladen. U laadt echter geen query's en waarden in de kolommen van uw nieuwe tabel vanuit een gegevensbron, maar u maakt een [DAX-formule (Data Analysis Expressions)](/dax/index) waarmee u de waarden van de tabel definieert.

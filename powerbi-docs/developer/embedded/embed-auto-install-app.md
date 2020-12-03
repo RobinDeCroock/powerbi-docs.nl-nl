@@ -1,19 +1,19 @@
 ---
 title: Power BI-apps automatisch installeren wanneer u ze insluit voor uw organisatie
 description: Lees meer over het automatisch installeren van Power BI-apps wanneer u ze insluit voor uw organisatie.
-ms.subservice: powerbi-developer
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: f84527a189be0f78f73470cbc475f45206dd8cf1
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: c9f9a09d659a047ff7342dd0c90f0effe03ce6a1
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412390"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417216"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Power BI-apps automatisch installeren wanneer u ze insluit voor uw organisatie
 

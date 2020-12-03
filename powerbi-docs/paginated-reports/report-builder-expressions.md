@@ -1,19 +1,19 @@
 ---
 title: Expressies in Power BI Report Builder
 description: Expressies worden op grote schaal in gepagineerde rapporten van Power BI Report Builder gebruikt voor het ophalen, berekenen, weergeven, groeperen, sorteren en filteren van gegevens, om parameters aan gegevens toe te wijzen en om gegevens op te maken.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: 7dbda608fcab3457a45c4ad93abf7143a19abcd1
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 24f9348bf23c8e5748121f6967fe7c826984adb9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298166"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416342"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expressies in Power BI Report Builder
 
@@ -40,9 +40,9 @@ Veel eigenschappen van rapportitems kunnen op een expressie worden ingesteld. Me
   
  Standaard worden expressies in de ontwerpweergave voor rapporten weergegeven als _eenvoudige* of *complexe expressies*.  
   
--   **Eenvoudig** : een eenvoudige expressie bevat een verwijzing naar één item in een ingebouwde verzameling zoals een gegevenssetveld, een parameter of een ingebouwd veld. In de ontwerpweergave wordt een eenvoudige expressie tussen haken weergegeven. `[FieldName]` komt bijvoorbeeld overeen met de onderliggende expressie `=Fields!FieldName.Value`. Eenvoudige expressies worden automatisch voor u gemaakt wanneer u de rapportindeling maakt en items van het deelvenster Rapportgegevens naar de ontwerpweergave sleept. Zie [Informatie over voorvoegselsymbolen in eenvoudige expressies](#DisplayText) voor meer informatie over de symbolen die voor de verschillende ingebouwde verzamelingen staan.  
+-   **Eenvoudig**: een eenvoudige expressie bevat een verwijzing naar één item in een ingebouwde verzameling zoals een gegevenssetveld, een parameter of een ingebouwd veld. In de ontwerpweergave wordt een eenvoudige expressie tussen haken weergegeven. `[FieldName]` komt bijvoorbeeld overeen met de onderliggende expressie `=Fields!FieldName.Value`. Eenvoudige expressies worden automatisch voor u gemaakt wanneer u de rapportindeling maakt en items van het deelvenster Rapportgegevens naar de ontwerpweergave sleept. Zie [Informatie over voorvoegselsymbolen in eenvoudige expressies](#DisplayText) voor meer informatie over de symbolen die voor de verschillende ingebouwde verzamelingen staan.  
   
--   **Complex** : een complexe expressie bevat verwijzingen naar meerdere ingebouwde verwijzingen, operators en functieaanroepen. Een complexe expressie wordt weergegeven als <\<Expr>> wanneer de expressiewaarde meer dan een eenvoudige verwijzing bevat. Beweeg de cursor over de expressie en gebruik de knopinfo als u de expressie wilt zien. U kunt de expressie bewerken door deze te openen in het dialoogvenster **Expressie**.  
+-   **Complex**: een complexe expressie bevat verwijzingen naar meerdere ingebouwde verwijzingen, operators en functieaanroepen. Een complexe expressie wordt weergegeven als <\<Expr>> wanneer de expressiewaarde meer dan een eenvoudige verwijzing bevat. Beweeg de cursor over de expressie en gebruik de knopinfo als u de expressie wilt zien. U kunt de expressie bewerken door deze te openen in het dialoogvenster **Expressie**.  
   
  In de volgende afbeeldingen ziet u typische eenvoudige en complexe expressies voor zowel tekstvakken als tijdelijke aanduidingen.  
   

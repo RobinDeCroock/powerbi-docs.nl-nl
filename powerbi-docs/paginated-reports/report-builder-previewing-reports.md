@@ -1,19 +1,19 @@
 ---
 title: Voorbeelden van rapporten weergeven in Power BI Report Builder
 description: Tijdens het maken van een gepagineerd Report Builder-rapport is het handig om een voorbeeld van het rapport te bekijken om te controleren of het rapport naar wens wordt weergegeven.
+author: maggiesMSFT
+ms.author: maggies
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: ba6b5bdd-d8c6-4aa8-ba32-3a10b11969d4
-author: maggiesMSFT
-ms.author: maggies
-ms.openlocfilehash: b12937ec758202345166e520397a52e52b67165d
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: d982174d814b3f1042e02dc9beda762848c48086
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93298142"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96416204"
 ---
 # <a name="previewing-reports-in-power-bi-report-builder"></a>Voorbeelden van rapporten weergeven in Power BI Report Builder
 
