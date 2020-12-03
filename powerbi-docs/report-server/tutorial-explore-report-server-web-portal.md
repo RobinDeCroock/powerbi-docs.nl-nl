@@ -2,18 +2,18 @@
 title: 'Zelfstudie: Power BI Report Server in een VM verkennen'
 description: In deze zelfstudie maakt u een virtuele machine met Power BI Report Server dat al is geïnstalleerd en verkent u de webportal.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.author: maggies
-ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79207017"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418412"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Zelfstudie: de webportal van Power BI Report Server in een VM verkennen
 In deze zelfstudie maakt u een virtuele Azure-machine met Power BI Report Server dat al is geïnstalleerd, zodat u voorbeeldexemplaren van Power BI- en gepagineerde rapporten en KPI's kunt bekijken, bewerken en beheren.
@@ -89,7 +89,7 @@ Gelukkig heeft het Power BI-team een VM gemaakt die hoort bij het al geïnstalle
 
 6. Voer de naam en het wachtwoord in die u hebt gemaakt voor de virtuele machine en klik op **OK**.
 
-7. In het volgende dialoogvenster **staat dat de identiteit van de externe computer niet kan worden**vastgesteld. Selecteer **Ja**.
+7. In het volgende dialoogvenster **staat dat de identiteit van de externe computer niet kan worden** vastgesteld. Selecteer **Ja**.
 
    De nieuwe VM wordt geopend.
 

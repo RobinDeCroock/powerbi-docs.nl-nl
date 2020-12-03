@@ -2,18 +2,18 @@
 title: Rapporten scheiden van modellen in Power BI Desktop
 description: Richtlijnen voor het scheiden van rapporten van modellen in Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 04/11/2020
-ms.author: v-pemyer
-ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: a45299015883615b4773fe5db1c9864e01a47c4b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525933"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418348"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>Rapporten scheiden van modellen in Power BI Desktop
 
@@ -26,7 +26,7 @@ Dit artikel heeft betrekking op het tweede scenario. Het bevat richtlijnen over 
 
 ## <a name="single-file-solution"></a>Oplossing met één bestand
 
-Een _oplossing met één bestand_ werkt goed als er altijd sprake is van slechts één rapport op basis van het model. In dit geval is het waarschijnlijk dat zowel het model als het rapport van één persoon zijn. We definiëren dit als een _Personal BI_-oplossing, hoewel het rapport wel met anderen kan worden gedeeld. Dergelijke oplossingen kunnen rapporten voor het bereik van een rol of eenmalige evaluaties van een bedrijfsuitdaging vertegenwoordigen (vaak aangeduid als _ad-hoc_rapporten).
+Een _oplossing met één bestand_ werkt goed als er altijd sprake is van slechts één rapport op basis van het model. In dit geval is het waarschijnlijk dat zowel het model als het rapport van één persoon zijn. We definiëren dit als een _Personal BI_-oplossing, hoewel het rapport wel met anderen kan worden gedeeld. Dergelijke oplossingen kunnen rapporten voor het bereik van een rol of eenmalige evaluaties van een bedrijfsuitdaging vertegenwoordigen (vaak aangeduid als _ad-hoc_ rapporten).
 
 :::image type="content" source="media/report-separate-from-model/single-file-solution.png" alt-text="Eén bestand bevat een model en rapport die zijn ontwikkeld door dezelfde persoon." border="true":::
 
@@ -37,7 +37,7 @@ Het is zinvol om de ontwikkeling van modellen en rapporten te scheiden in afzond
 - Gegevensmodelleurs en rapportauteurs zijn verschillende personen.
 - Het is duidelijk dat een model de bron is voor meerdere rapporten, nu of in de toekomst.
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Eén bestand bevat een model en rapport die zijn ontwikkeld door dezelfde persoon." border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="Er zijn drie PBIX-bestanden. Het eerste bevat alleen een model. De andere twee bevatten alleen rapporten en ze maken live verbinding met het model dat wordt gehost in de Power BI-service. De rapporten worden ontwikkeld door verschillende personen." border="true":::
 
 Gegevensmodelleurs kunnen de ervaring voor het ontwerpen van Power BI Desktop-rapporten nog steeds gebruiken om hun modelontwerpen te testen en te valideren. Maar ze moeten het rapport direct na publicatie naar de Power BI-service uit de werkruimte verwijderen. Bovendien moeten ze niet vergeten het rapport te verwijderen steeds wanneer ze de gegevensset opnieuw publiceren en overschrijven.
 

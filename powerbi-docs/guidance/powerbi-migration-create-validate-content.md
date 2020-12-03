@@ -2,20 +2,20 @@
 title: Inhoud maken om te migreren naar Power BI
 description: Richtlijnen voor het maken en valideren van inhoud bij het migreren naar Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a12a320b061967e9201e3513e504277a9df586b4
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 03a55f2f414ca8af7ca86f51dcafb0258efc88b7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803307"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418596"
 ---
-# <a name="createcontenttomigratetopowerbi"></a>Inhoud maken om te migreren naar Power BI
+# <a name="create-content-to-migrate-to-power-bi"></a>Inhoud maken om te migreren naar Power BI
 
 In dit artikel wordt **fase 4** beschreven, die betrekking heeft op het maken en valideren van inhoud wanneer u naar Power BI migreert.
 

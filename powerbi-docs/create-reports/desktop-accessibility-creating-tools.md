@@ -2,19 +2,19 @@
 title: Rapporten maken in Power BI met behulp van toegankelijkheidsprogramma’s
 description: Meer informatie over de ingebouwde toegankelijkheidsprogramma’s voor het maken van rapporten in Power BI
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 10/28/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 00fd1352542a0cc3c962dc1597e2fa82a7393682
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 89ae528766fe303a0ba74ea69f6ecb3f5af13cec
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229320"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417653"
 ---
 # <a name="creating-reports-in-power-bi-using-accessibility-tools"></a>Rapporten maken in Power BI met behulp van toegankelijkheidsprogramma’s
 
@@ -26,7 +26,7 @@ In dit artikel worden de vele typen toegankelijkheidsprogramma's beschreven die 
 
 
 ## <a name="app-level-navigation"></a>Navigatie op app-niveau
-Bij het navigeren in Power BI Desktop kunt u de focus verplaatsen naar de hoofdgebieden van de app door op **CTRL + F6**te drukken. Een verschuiving van de focus op het hoofdgebied van Power BI Desktop verloopt in de volgende volgorde:
+Bij het navigeren in Power BI Desktop kunt u de focus verplaatsen naar de hoofdgebieden van de app door op **CTRL + F6** te drukken. Een verschuiving van de focus op het hoofdgebied van Power BI Desktop verloopt in de volgende volgorde:
 
 1. Objecten op canvas
 2. Paginatabbladen
@@ -85,7 +85,7 @@ Een schermlezer leest de naam van de bron en de knopinfo voor. Voor elk veld in 
 
 Wanneer het veldmenu geopend is, kunt u zich er doorheen bewegen met **Tab** of **Shift + Tab** of de pijltoetsen **Omhoog** / **Omlaag**. Er wordt een schermlezer met de namen van de opties aangeroepen.
 
-Als u een veld van de ene bucket in de veldbron naar een andere bucket wilt verplaatsen, kunt u uw toetsenbord gebruiken en de optie**Verplaatsen** in het veldbronmenu gebruiken, zoals weergegeven in de volgende afbeelding.
+Als u een veld van de ene bucket in de veldbron naar een andere bucket wilt verplaatsen, kunt u uw toetsenbord gebruiken en de optie **Verplaatsen** in het veldbronmenu gebruiken, zoals weergegeven in de volgende afbeelding.
 
 ![Een veld verplaatsen met behulp van het menu](media/desktop-accessibility/accessibility-create-reports-05.png)
 

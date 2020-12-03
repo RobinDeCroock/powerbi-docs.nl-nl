@@ -1,21 +1,21 @@
 ---
 title: Choropletenkaarten in Power BI
 description: Documentatie over het maken van choropletenkaarten in Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/05/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ce0adb6d5115ece1b228690c496d022f8dfc9e56
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 748e13a509bc3689122c8622f9ce26536f850a68
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412988"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418320"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Choropletenkaarten maken en gebruiken in Power BI
 
@@ -28,7 +28,7 @@ In een choropletenkaart worden arcering, tinten of patronen gebruikt om aan te g
 ![Kaart van VS](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Welke gegevens worden naar Bing verzonden?
-Power BI is geïntegreerd met Bing om standaardkaartcoördinaten te bieden (een proces dat geocodering wordt genoemd). Wanneer u een visualisatie van een kaart maakt in de Power BI-service of Power BI Desktop, worden de gegevens in de buckets **Locatie** , **Breedtegraad** en **Lengtegraad** naar Bing verzonden. Deze buckets worden trouwens gebruikt om de visualisatie te maken.
+Power BI is geïntegreerd met Bing om standaardkaartcoördinaten te bieden (een proces dat geocodering wordt genoemd). Wanneer u een visualisatie van een kaart maakt in de Power BI-service of Power BI Desktop, worden de gegevens in de buckets **Locatie**, **Breedtegraad** en **Lengtegraad** naar Bing verzonden. Deze buckets worden trouwens gebruikt om de visualisatie te maken.
 
 U of uw beheerder moet mogelijk uw firewall bijwerken om toegang te krijgen tot de URL’s die Bing gebruikt voor geocodering.  Deze URL's zijn:
 - https://dev.virtualearth.net/REST/V1/Locations    

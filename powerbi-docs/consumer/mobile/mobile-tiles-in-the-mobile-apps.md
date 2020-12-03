@@ -2,18 +2,18 @@
 title: Werken met tegels in de mobiele Power BI-apps
 description: Tegels zijn live-momentopnamen van uw gegevens, die zijn vastgemaakt aan een dashboard. Lees hier alles over de interactie met tegels in de mobiele Power BI-apps.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
-ms.author: painbar
-ms.openlocfilehash: 1afde236dd4fc9698efe4391cb2d9e095ade37a4
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 74823845c73f02468d012c4518cdf111e84824c9
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683355"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417929"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Werken met tegels in de mobiele Power BI-apps
 Van toepassing op:
@@ -35,7 +35,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     ![Schermopname van een lijngrafiek met de geselecteerde waarden voor de omzet van dit jaar en die van vorig jaar.](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *In dit lijndiagram ziet u bijvoorbeeld de waarden voor de omzet van **augustus** dit jaar ( **This Year Sales** ) en vorig jaar **Last Year Sales** .*  
+   *In dit lijndiagram ziet u bijvoorbeeld de waarden voor de omzet van **augustus** dit jaar (**This Year Sales**) en vorig jaar **Last Year Sales**.*  
    
    Tik in een cirkeldiagram op een segment van de cirkel om de waarde van het segment boven de cirkel weer te geven.  
    
@@ -58,7 +58,7 @@ Vervolgens kunt u ze in een mobiele Power BI-app openen in de focusmodus om erme
    
     Nadat u de koppeling hebt geopend in de Power BI-app, kunt u de koppeling kopiëren en deze openen in een browservenster.
 7. [Open het rapport](mobile-reports-in-the-mobile-apps.md) ![pictogram Rapport openen in iOS](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) waarop de tegel is gebaseerd.
-8. Als u de focusmodus wilt verlaten, tikt u op de naam van de tegel en vervolgens op de naam van het dashboard of op **Mijn werkruimte** .
+8. Als u de focusmodus wilt verlaten, tikt u op de naam van de tegel en vervolgens op de naam van het dashboard of op **Mijn werkruimte**.
    
     ![Schermopname van een dashboard met aanwijzingen naar Mijn werkruimte en een voorbeeld van een analyse van de verkoopkansen.](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
 

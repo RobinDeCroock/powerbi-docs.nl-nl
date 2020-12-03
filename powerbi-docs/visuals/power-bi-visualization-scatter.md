@@ -1,21 +1,21 @@
 ---
 title: Spreidings-, bellen- en eendimensionale puntdiagrammen in Power BI
 description: Spreidingsdiagrammen, eendimensionale puntdiagrammen en bellendiagrammen in Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/21/2019
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b3b2dc8892b2b9b875621c6925c6f3c652da44c6
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 4fe8d7c4333c6c540a70c33fdd3e5f4747d347da
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412689"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418849"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Spreidingsdiagrammen, bellendiagrammen en eendimensionale puntdiagrammen in Power BI
 
@@ -157,7 +157,7 @@ Nu gaan we een derde dimensie toevoegen.
 
 Als u een eendimensionaal puntdiagram wilt maken, vervangt u het veld voor de numerieke **X-as** door een categorisch veld.
 
-Ga naar het deelvenster **X-as** , verwijder **Sales per sq ft** en vervang dit door **District** > **District Manager**.
+Ga naar het deelvenster **X-as**, verwijder **Sales per sq ft** en vervang dit door **District** > **District Manager**.
 
 ![Schermopname van een nieuw eendimensionaal puntdiagram.](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 

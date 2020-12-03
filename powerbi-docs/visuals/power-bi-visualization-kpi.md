@@ -1,21 +1,21 @@
 ---
 title: KPI-visualisaties (Key Performance Indicator)
 description: KPI-visualisaties (Key Performance Indicator) maken in Power BI
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/30/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f272a760c016fa0d5fcfc9849eaa2a01fc77b9f9
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: 448115ea6cde6c85a7bd3386890f483d71882ad5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412852"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418918"
 ---
 # <a name="create-key-performance-indicator-kpi-visualizations"></a>KPI-visualisaties (Key Performance Indicator) maken
 
@@ -36,7 +36,7 @@ KPI's zijn een prima keuze:
 
 ## <a name="kpi-requirements"></a>KPI-vereisten
 
-Een ontwerper baseert een KPI-visualisatie op een specifieke meting. De bedoeling van de KPI is u te helpen de huidige waarde en de status van metrische gegevens te evalueren aan de hand van een gedefinieerd doel. Een KPI-visualisatie vereist een *basismeting* , waarmee een waarde en een *doelmeting* of doelwaarde worden bepaald, en een *drempelwaarde* of *doel*.
+Een ontwerper baseert een KPI-visualisatie op een specifieke meting. De bedoeling van de KPI is u te helpen de huidige waarde en de status van metrische gegevens te evalueren aan de hand van een gedefinieerd doel. Een KPI-visualisatie vereist een *basismeting*, waarmee een waarde en een *doelmeting* of doelwaarde worden bepaald, en een *drempelwaarde* of *doel*.
 
 Een KPI-gegevensset moet doelwaarden voor een KPI bevatten. Als uw gegevensset geen doelwaarden bevat, kunt u deze maken door een Excel-werkblad met doelen aan uw gegevensmodel of PBIX-bestand toe te voegen.
 
@@ -84,13 +84,13 @@ In dit voorbeeld gaat u een KPI maken die de voortgang meet die u hebt gemaakt b
 
 1. U kunt eventueel de KPI opmaken door het verfrollerpictogram te selecteren om het deelvenster Opmaak te openen.
 
-    * **Indicator** : hiermee worden de weergave-eenheden en het aantal decimalen bepaald.
+    * **Indicator**: hiermee worden de weergave-eenheden en het aantal decimalen bepaald.
 
-    * **Trendas** : als deze optie is ingeschakeld ( **Aan** ), wordt de trendas weergegeven als de achtergrond van de KPI-visualisatie.  
+    * **Trendas**: als deze optie is ingeschakeld (**Aan**), wordt de trendas weergegeven als de achtergrond van de KPI-visualisatie.  
 
-    * **Doelstellingen** : als deze optie is ingesteld op **Aan** , worden de doelen en de afstand tot het doel als een percentage weergegeven in de visualisatie.
+    * **Doelstellingen**: als deze optie is ingesteld op **Aan**, worden de doelen en de afstand tot het doel als een percentage weergegeven in de visualisatie.
 
-    * **Kleurcodering > Richting** : sommige KPI's worden bij *hogere* waarden als beter beschouwd en sommige worden bij *lagere* waarden als beter beschouwd. Bijvoorbeeld omzet versus wachttijd. Meestal is een hogere waarde voor omzet beter versus een hogere waarde voor wachttijd. Selecteer **Hoog is goed** en wijzig desgewenst de kleurinstellingen.
+    * **Kleurcodering > Richting**: sommige KPI's worden bij *hogere* waarden als beter beschouwd en sommige worden bij *lagere* waarden als beter beschouwd. Bijvoorbeeld omzet versus wachttijd. Meestal is een hogere waarde voor omzet beter versus een hogere waarde voor wachttijd. Selecteer **Hoog is goed** en wijzig desgewenst de kleurinstellingen.
 
 KPI's zijn ook beschikbaar in de Power BI-service en op mobiele apparaten. Hierdoor bent u in de gelegenheid om altijd en overal uw bedrijf goed in de gaten te houden.
 

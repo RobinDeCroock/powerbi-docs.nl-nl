@@ -2,18 +2,18 @@
 title: Conformiteit van PDF-renderingextensie met ISO 14289-1 - Power BI Report Server en SSRS
 description: In dit document wordt de conformiteit van de PDF-renderingextensie van Power BI Report Server en SQL Server Reporting Services met ISO 14289-1 (PDF/UA) beschreven.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.author: maggies
-ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: eb2e3e599afad20401bfba0563041f8a7e442041
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76819509"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418297"
 ---
 # <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>Conformiteit van PDF-renderingextensie met ISO 14289-1 - Power BI Report Server en SSRS
 

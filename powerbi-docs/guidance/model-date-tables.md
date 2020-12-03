@@ -2,18 +2,18 @@
 title: Datumtabellen in Power BI Desktop maken
 description: Technieken en richtlijnen voor het maken van datumtabellen in Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 350d4889643556d4e1c6389580415ccba46b55d4
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94396628"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417837"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Datumtabellen in Power BI Desktop maken
 
@@ -22,7 +22,7 @@ Dit artikel is geschreven voor iedereen die gegevensmodellen maakt met Power BI 
 Als u wilt werken met DAX (Data Analysis Expressions) [Time Intelligence-functies](/dax/time-intelligence-functions-dax), is er een vereiste modelvereiste: Uw model moet ten minste één _datumtabel_ bevatten. Een datumtabel is een tabel die voldoet aan de volgende vereisten:
 
 > [!div class="checklist"]
-> - De tabel moet een kolom van het gegevenstype **datum** (of **datum/tijd** ) bevatten, ook wel de _datumkolom_ genoemd.
+> - De tabel moet een kolom van het gegevenstype **datum** (of **datum/tijd**) bevatten, ook wel de _datumkolom_ genoemd.
 > - De datumkolom moet unieke waarden bevatten.
 > - De datumkolom mag geen lege waarden bevatten.
 > - De datumkolom mag geen ontbrekende datums bevatten.

@@ -2,18 +2,18 @@
 title: Richtlijnen voor veel-op-veel-relaties
 description: Richtlijnen voor het ontwikkelen van veel-op-veel-modelrelaties.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
-ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
+ms.openlocfilehash: 95383581a258374f2757581e82fa0f2044dcae84
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "91668523"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418619"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Richtlijnen voor veel-op-veel-relaties
 
@@ -37,7 +37,7 @@ Hier volgt een vereenvoudigd modeldiagram van de drie tabellen.
 
 ![Diagram met een model met drie tabellen. Het ontwerp wordt beschreven in de volgende alinea.](media/relationships-many-to-many/bank-account-customer-model-example.png)
 
-De eerste tabel heet **Account**en bevat twee kolommen: **AccountID** en **Account**. De tweede tabel heet **AccountCustomer** en bevat twee kolommen: **AccountID** en **CustomerID**. De derde tabel heet **Customer** en bevat twee kolommen: **CustomerID** en **Customer**. Er zijn geen relaties tussen de tabellen.
+De eerste tabel heet **Account** en bevat twee kolommen: **AccountID** en **Account**. De tweede tabel heet **AccountCustomer** en bevat twee kolommen: **AccountID** en **CustomerID**. De derde tabel heet **Customer** en bevat twee kolommen: **CustomerID** en **Customer**. Er zijn geen relaties tussen de tabellen.
 
 Er worden een-op-veel-relaties toegevoegd om de tabellen te koppelen. Hier volgt een bijgewerkt modeldiagram van de gerelateerde tabellen. De feitentabel **Transaction** is toegevoegd. Hierin worden rekeningtransacties opgeslagen. De overbruggingstabel en alle id-kolommen zijn verborgen.
 

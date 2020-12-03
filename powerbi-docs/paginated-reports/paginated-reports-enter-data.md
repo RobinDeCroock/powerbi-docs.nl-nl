@@ -2,18 +2,18 @@
 title: Voer gegevens rechtstreeks in een gepagineerd rapport in Report Builder in
 description: In dit artikel ziet u hoe u gegevens rechtstreeks in een gepagineerd rapport in Report Builder kunt invoeren.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 07/10/2020
-ms.author: maggies
-ms.openlocfilehash: 05da5fa050fc92ebae320af9e07fe6505b5790f4
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
+ms.openlocfilehash: 5719a5d6e8f559f1dba9f87bc9937ed925195072
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297969"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418205"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Voer gegevens rechtstreeks in een gepagineerd rapport in Report Builder in - Power BI
 
@@ -101,7 +101,7 @@ Nu u een gegevensbron en gegevensset hebt, kunt u het rapport maken. Met de volg
     :::image type="content" source="media/paginated-reports-enter-data/paginated-select-aggregation.png" alt-text="Schermopname van verschillende aggregaties waaruit kan worden gekozen.":::
  
 1. Selecteer **Volgende**.
-4.  Behoud alle standaardinstellingen op de pagina **Kies de indeling** , maar schakel het selectievakje **Groepen uitvouwen/samenvouwen** uit. In het algemeen is uit- en samenvouwen van groepen een goede optie, maar we willen nu alle gegevens zien.
+4.  Behoud alle standaardinstellingen op de pagina **Kies de indeling**, maar schakel het selectievakje **Groepen uitvouwen/samenvouwen** uit. In het algemeen is uit- en samenvouwen van groepen een goede optie, maar we willen nu alle gegevens zien.
 
 5.  Selecteer **Volgende** > **Voltooien**. De tabel wordt weergegeven op het ontwerpvlak.
 

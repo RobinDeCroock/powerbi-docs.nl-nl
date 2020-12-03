@@ -2,18 +2,18 @@
 title: Migratie naar Power BI voorbereiden
 description: Richtlijnen voor de stappen voorafgaand aan de migratie bij migratie naar Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 01d1e48537b2d373be3897259f8ac6e97886f268
-ms.sourcegitcommit: 4e347efd132b48aaef6c21236c3a21e5fce285cc
+ms.openlocfilehash: 33bee844aced23973bd033cf0d9ae9d8caa4d267
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92680968"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418573"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>Migratie naar Power BI voorbereiden
 
@@ -123,7 +123,7 @@ De eerste taak is om te begrijpen hoe een geslaagde migratie van een afzonderlij
 Het voorbereiden van de inventarisatie van bestaande rapporten in het oudere BI-platform is een belangrijke stap richting inzicht in wat er al bestaat. Het resultaat van deze stap is input voor de beoordeling van het migratieniveau. Activiteiten met betrekking tot het voorbereiden van een inventaris kunnen zijn:
 
 1. **Inventarisatie van rapporten:** Stel een lijst op van rapporten en dashboards die mogelijk gemigreerd kunnen worden.
-2. **Inventarisatie van gegevensbronnen:** Stel een lijst op van alle gegevensbronnen die door bestaande rapporten worden gebruikt. Deze moet zowel gegevensbronnen van de onderneming als afdelings- en persoonlijke gegevensbronnen bevatten. Dit proces kan gegevensbronnen aan het licht brengen die eerder niet bekend waren bij de IT-afdeling, vaak aangeduid als _schaduw-IT_ .
+2. **Inventarisatie van gegevensbronnen:** Stel een lijst op van alle gegevensbronnen die door bestaande rapporten worden gebruikt. Deze moet zowel gegevensbronnen van de onderneming als afdelings- en persoonlijke gegevensbronnen bevatten. Dit proces kan gegevensbronnen aan het licht brengen die eerder niet bekend waren bij de IT-afdeling, vaak aangeduid als _schaduw-IT_.
 3. **Auditlogboek:** Haal gegevens op uit het auditlogboek van het verouderde BI-platform om inzicht te krijgen in gebruikspatronen en om te helpen prioriteiten te stellen. Belangrijke informatie om op te halen uit het auditlogboek omvat:
     - Gemiddeld aantal keer dat elk rapport per week/maand/kwartaal wordt uitgevoerd.
     - Gemiddeld aantal consumenten per rapport per week/maand/kwartaal.

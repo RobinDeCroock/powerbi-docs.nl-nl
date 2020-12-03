@@ -2,19 +2,19 @@
 title: 'Voorbeeld van een inkoopanalyse: rondleiding'
 description: 'Voorbeeld van een inkoopanalyse voor Power BI: een rondleiding'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/02/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0193d5a46204b6dcb7477911efcaef22e358045e
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 73384f2f2021d949fcaca26c5b9e55cd7f0407af
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348937"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96417538"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een inkoopanalyse voor Power BI: een rondleiding
 
@@ -45,7 +45,7 @@ Voordat u het voorbeeld kunt gebruiken, moet u het eerst downloaden als een [inh
 2. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
 
     ![Selecteer Gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
-3. Selecteer op de pagina **Gegevens ophalen** die wordt weergegeven, de optie **Voorbeelden**.
+3. Selecteer **Voorbeelden** op de pagina **Gegevens ophalen** die wordt weergegeven.
 
 4. Selecteer **Voorbeeld van een inkoopanalyse** en kies **Verbinden**.  
   

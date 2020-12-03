@@ -2,19 +2,19 @@
 title: Best practices voor gegevensstromen
 description: Een verzameling koppelingen naar best practices en richtlijnen voor gegevensstromen
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 11/13/2020
-ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5adfcc3d4ff7d78335f250b92b856bcd14d64c0a
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 53a8573138a87f8be65183e0571077a02ac0715d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94674734"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418182"
 ---
 # <a name="dataflows-best-practices"></a>Best practices voor gegevensstromen
 

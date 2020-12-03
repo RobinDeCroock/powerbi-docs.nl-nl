@@ -2,18 +2,18 @@
 title: Wanneer u gepagineerde rapporten gebruikt in Power BI
 description: Richtlijnen voor het gebruik van gepagineerde rapporten in Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/04/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 169a94beab8cb5b4c44105aba4c1cdf02e902c06
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 2a13e5d697d4e0bda32068a3b6eb908959ce0643
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916861"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418987"
 ---
 # <a name="when-to-use-paginated-reports-in-power-bi"></a>Wanneer u gepagineerde rapporten gebruikt in Power BI
 
@@ -44,27 +44,27 @@ U kunt SSRS-rapporten opnieuw ontwikkelen in plaats van ze te migreren. Dit geld
 
 Er zijn veel boeiende scenario's waarin u misschien de voorkeur geeft aan het ontwikkelen van een gepagineerd Power BI-rapport. Veel functies of mogelijkheden worden niet ondersteund door Power BI-rapporten.
 
-- **Print-ready** : Gepagineerde rapporten zijn geoptimaliseerd voor afdrukken of PDF-generatie. Indien nodig kunnen gegevensgebieden op een gecontroleerde manier worden uitgebreid en overlopen naar meerdere pagina's. In uw rapportindelingen kunt u marges en paginakopteksten en voetteksten definiëren.
-- **Renderindelingen** : In Power BI kunnen gepagineerde rapporten in verschillende indelingen worden gerenderd. Indelingen zijn Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML en MHTML. (De MHTML-indeling wordt door de Power BI-service gebruikt voor het renderen van rapporten.) Uw rapportgebruikers kunnen besluiten om te exporteren in de indeling die bij hen past.
-- **Precisie-indeling** : U kunt pixel-perfecte indelingen met veel opmaak ontwerpen, op de exacte grootte en locatie geconfigureerd in fracties van inches of centimeters.
-- **Dynamische indeling** : U kunt zeer responsieve indelingen produceren door veel rapporteigenschappen in te stellen voor het gebruik van VB.NET-expressies. Expressies hebben toegang tot veel core .NET Framework-bibliotheken.
-- **Render-specifieke indeling** : U kunt uitdrukkingen gebruiken om de rapportindeling te wijzigen op basis van de toegepaste renderindeling. U kunt bijvoorbeeld het rapport ontwerpen om de zichtbaarheid uit te schakelen (voor inzoomen en uitzoomen) wanneer het wordt gerenderd met een niet-interactieve indeling, zoals PDF.
-- **Systeemeigen query's** : U hoeft niet eerst een Power BI-gegevensset te ontwikkelen. Het is mogelijk om systeemeigen query’s te maken (of opgeslagen procedures te gebruiken) voor elke [ondersteunde gegevensbron](../paginated-reports/paginated-reports-data-sources.md). Query's kunnen betrekking hebben op parameterisering.
-- **Ontwerpers van grafische query's** : Power BI Report Builder bevat ontwerpers van grafische query’s om u te helpen bij het schrijven en testen van uw gegevensset-query's.
-- **Statische gegevens** : U kunt een gegevensset definiëren en gegevens rechtstreeks in de rapportdefinitie invoeren. Deze mogelijkheid is vooral handig voor het ondersteunen van een demo of voor het leveren van een proof of concept (POC).
-- **Gegevensintegratie** : U kunt gegevens uit verschillende gegevensbronnen of met statische gegevenssets combineren. Dit wordt gedaan door het maken van aangepaste velden met behulp van VB.NET-expressies.
-- **Parameterisering** : U kunt zeer aangepaste parametriseringservaringen ontwerpen, waaronder gegevensgestuurde en trapsgewijze parameters. Het is ook mogelijk om de standaardinstellingen van de parameters te definiëren. Deze ervaringen kunnen worden ontworpen om uw rapportgebruikers te helpen snel de juiste filters in te stellen. Ook hoeven parameters geen rapportgegevens te filteren; ze kunnen worden gebruikt om what-if-scenario's of dynamische filtering of styling te ondersteunen.
-- **Afbeeldingsgegevens** : Uw rapport kan afbeeldingen renderen wanneer ze zijn opgeslagen in binaire indeling in een gegevensbron.
-- **Aangepaste code** : U kunt codeblokken van VB.NET-functies in uw rapport ontwikkelen en deze in elke rapportexpressie gebruiken.
-- **Subrapporten** : U kunt andere gepagineerde Power BI-rapporten (vanuit dezelfde werkruimte) in uw rapport opnemen.
-- **Flexibele gegevensrasters** : U hebt een fijnmazige controle over de indeling van het raster door gebruik te maken van het tablix-gegevensgebied. Het ondersteunt ook complexe indelingen, inclusief geneste en aangrenzende groepen. En het kan worden geconfigureerd om koppen te herhalen wanneer deze over meerdere pagina's worden afgedrukt. Er kunnen ook subrapporten of andere visualisaties worden ingesloten, waaronder gegevensbalken, sparklines en indicatoren.
-- **Ruimtelijke gegevenstypen** : Met het kaartgegevensgebied kunnen [ruimtelijke gegevenstypen van SQL Server](/sql/relational-databases/spatial/spatial-data-sql-server) worden gevisualiseerd. Dus de gegevenstypen GEOGRAFIE en GEOMETRIE kunnen worden gebruikt om punten, lijnen of polygonen te visualiseren. Het is ook mogelijk om polygonen te visualiseren die zijn gedefinieerd in ESRI-vormbestanden.
-- **Moderne meters** : Radiale en lineaire meters kunnen worden gebruikt om KPI-waarden en -statussen weer te geven. Ze kunnen zelfs worden ingebed in rastergegevensgebieden en worden herhaald binnen groepen.
-- **HTML-rendering** : U kunt rijkelijk opgemaakte tekst weergeven wanneer deze is opgeslagen als HTML.
-- **Afdruk samenvoegen** : U kunt tijdelijke aanduidingen voor tekstvakken gebruiken om de gegevenswaarden in de tekst te injecteren. Op deze manier kunt u een samenvoegrapport voor afdrukken maken.
-- **Interactiviteitsfuncties** : Interactieve functies omvatten het schakelen van zichtbaarheid (om inzoomen en inzoomen te bereiken), koppelingen, interactieve sortering en knopinfo. U kunt ook koppelingen toevoegen met drillthrough naar Power BI-rapporten of andere gepagineerde Power BI-rapporten. Koppelingen kunnen zelfs naar een andere locatie binnen hetzelfde rapport springen.
-- **Abonnementen** : Power BI kan gepagineerde rapporten volgens een schema als e-mails leveren, met rapportbijlagen in elke ondersteunde indeling.
-- **Indelingen per gebruiker** : U kunt responsieve rapportindelingen maken op basis van de geverifieerde gebruiker die het rapport opent. U kunt het rapport ontwerpen om gegevens anders te filteren, gegevensregio's of visualisaties te verbergen, verschillende indelingen toe te passen of gebruikersspecifieke parameterinstellingen in te stellen.
+- **Print-ready**: Gepagineerde rapporten zijn geoptimaliseerd voor afdrukken of PDF-generatie. Indien nodig kunnen gegevensgebieden op een gecontroleerde manier worden uitgebreid en overlopen naar meerdere pagina's. In uw rapportindelingen kunt u marges en paginakopteksten en voetteksten definiëren.
+- **Renderindelingen**: In Power BI kunnen gepagineerde rapporten in verschillende indelingen worden gerenderd. Indelingen zijn Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, CSV, XML en MHTML. (De MHTML-indeling wordt door de Power BI-service gebruikt voor het renderen van rapporten.) Uw rapportgebruikers kunnen besluiten om te exporteren in de indeling die bij hen past.
+- **Precisie-indeling**: U kunt pixel-perfecte indelingen met veel opmaak ontwerpen, op de exacte grootte en locatie geconfigureerd in fracties van inches of centimeters.
+- **Dynamische indeling**: U kunt zeer responsieve indelingen produceren door veel rapporteigenschappen in te stellen voor het gebruik van VB.NET-expressies. Expressies hebben toegang tot veel core .NET Framework-bibliotheken.
+- **Render-specifieke indeling**: U kunt uitdrukkingen gebruiken om de rapportindeling te wijzigen op basis van de toegepaste renderindeling. U kunt bijvoorbeeld het rapport ontwerpen om de zichtbaarheid uit te schakelen (voor inzoomen en uitzoomen) wanneer het wordt gerenderd met een niet-interactieve indeling, zoals PDF.
+- **Systeemeigen query's**: U hoeft niet eerst een Power BI-gegevensset te ontwikkelen. Het is mogelijk om systeemeigen query’s te maken (of opgeslagen procedures te gebruiken) voor elke [ondersteunde gegevensbron](../paginated-reports/paginated-reports-data-sources.md). Query's kunnen betrekking hebben op parameterisering.
+- **Ontwerpers van grafische query's**: Power BI Report Builder bevat ontwerpers van grafische query’s om u te helpen bij het schrijven en testen van uw gegevensset-query's.
+- **Statische gegevens**: U kunt een gegevensset definiëren en gegevens rechtstreeks in de rapportdefinitie invoeren. Deze mogelijkheid is vooral handig voor het ondersteunen van een demo of voor het leveren van een proof of concept (POC).
+- **Gegevensintegratie**: U kunt gegevens uit verschillende gegevensbronnen of met statische gegevenssets combineren. Dit wordt gedaan door het maken van aangepaste velden met behulp van VB.NET-expressies.
+- **Parameterisering**: U kunt zeer aangepaste parametriseringservaringen ontwerpen, waaronder gegevensgestuurde en trapsgewijze parameters. Het is ook mogelijk om de standaardinstellingen van de parameters te definiëren. Deze ervaringen kunnen worden ontworpen om uw rapportgebruikers te helpen snel de juiste filters in te stellen. Ook hoeven parameters geen rapportgegevens te filteren; ze kunnen worden gebruikt om what-if-scenario's of dynamische filtering of styling te ondersteunen.
+- **Afbeeldingsgegevens**: Uw rapport kan afbeeldingen renderen wanneer ze zijn opgeslagen in binaire indeling in een gegevensbron.
+- **Aangepaste code**: U kunt codeblokken van VB.NET-functies in uw rapport ontwikkelen en deze in elke rapportexpressie gebruiken.
+- **Subrapporten**: U kunt andere gepagineerde Power BI-rapporten (vanuit dezelfde werkruimte) in uw rapport opnemen.
+- **Flexibele gegevensrasters**: U hebt een fijnmazige controle over de indeling van het raster door gebruik te maken van het tablix-gegevensgebied. Het ondersteunt ook complexe indelingen, inclusief geneste en aangrenzende groepen. En het kan worden geconfigureerd om koppen te herhalen wanneer deze over meerdere pagina's worden afgedrukt. Er kunnen ook subrapporten of andere visualisaties worden ingesloten, waaronder gegevensbalken, sparklines en indicatoren.
+- **Ruimtelijke gegevenstypen**: Met het kaartgegevensgebied kunnen [ruimtelijke gegevenstypen van SQL Server](/sql/relational-databases/spatial/spatial-data-sql-server) worden gevisualiseerd. Dus de gegevenstypen GEOGRAFIE en GEOMETRIE kunnen worden gebruikt om punten, lijnen of polygonen te visualiseren. Het is ook mogelijk om polygonen te visualiseren die zijn gedefinieerd in ESRI-vormbestanden.
+- **Moderne meters**: Radiale en lineaire meters kunnen worden gebruikt om KPI-waarden en -statussen weer te geven. Ze kunnen zelfs worden ingebed in rastergegevensgebieden en worden herhaald binnen groepen.
+- **HTML-rendering**: U kunt rijkelijk opgemaakte tekst weergeven wanneer deze is opgeslagen als HTML.
+- **Afdruk samenvoegen**: U kunt tijdelijke aanduidingen voor tekstvakken gebruiken om de gegevenswaarden in de tekst te injecteren. Op deze manier kunt u een samenvoegrapport voor afdrukken maken.
+- **Interactiviteitsfuncties**: Interactieve functies omvatten het schakelen van zichtbaarheid (om inzoomen en inzoomen te bereiken), koppelingen, interactieve sortering en knopinfo. U kunt ook koppelingen toevoegen met drillthrough naar Power BI-rapporten of andere gepagineerde Power BI-rapporten. Koppelingen kunnen zelfs naar een andere locatie binnen hetzelfde rapport springen.
+- **Abonnementen**: Power BI kan gepagineerde rapporten volgens een schema als e-mails leveren, met rapportbijlagen in elke ondersteunde indeling.
+- **Indelingen per gebruiker**: U kunt responsieve rapportindelingen maken op basis van de geverifieerde gebruiker die het rapport opent. U kunt het rapport ontwerpen om gegevens anders te filteren, gegevensregio's of visualisaties te verbergen, verschillende indelingen toe te passen of gebruikersspecifieke parameterinstellingen in te stellen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -2,20 +2,20 @@
 title: Aan de slag met Power BI Desktop
 description: Aan de slag met Power BI Desktop.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.custom: contperfq1
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 08/19/2020
-ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec18bb94d7329d4b918f16465dd839a69c3fd973
-ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
+ms.openlocfilehash: a1fb3a76cc22bf4f22fc080bcde46ec40a3720bb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88638837"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418504"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de gids Aan de slag met Power BI Desktop. Tijdens deze rondleiding ziet u hoe Power BI Desktop werkt, wat u ermee kunt doen en hoe u robuuste gegevensmodellen en fantastische rapporten kunt bouwen om uw business intelligence te versterken.
@@ -72,7 +72,7 @@ De standaardweergave is **Rapport**.
 Power BI Desktop bevat ook de **Power Query-editor**, die in een afzonderlijk venster wordt geopend. In de **Power Query-editor** kunt u query's maken en gegevens transformeren, en het verfijnde gegevensmodel vervolgens in Power BI Desktop laden om rapporten te maken.
 
 ## <a name="connect-to-data"></a>Verbinding maken met gegevens
-Nu Power BI Desktop is geïnstalleerd, kunt u verbinding maken met de steeds verder uitbreidende wereld van gegevens. Voor een overzicht van de verschillende soorten gegevensbronnen die beschikbaar zijn, selecteert u **Gegevens ophalen** > **Meer** op het tabblad **Start** in Power BI Desktop, en bladert u in het venster **Gegevens ophalen** door de lijst met **alle** gegevensbronnen. In deze korte rondleiding gaat u verbinding maken met een aantal verschillende **web**gegevensbronnen.
+Nu Power BI Desktop is geïnstalleerd, kunt u verbinding maken met de steeds verder uitbreidende wereld van gegevens. Voor een overzicht van de verschillende soorten gegevensbronnen die beschikbaar zijn, selecteert u **Gegevens ophalen** > **Meer** op het tabblad **Start** in Power BI Desktop, en bladert u in het venster **Gegevens ophalen** door de lijst met **alle** gegevensbronnen. In deze korte rondleiding gaat u verbinding maken met een aantal verschillende **web** gegevensbronnen.
 
 ![Schermopname van Power BI Desktop met het hulpprogramma Gegevens ophalen.](media/desktop-getting-started/getdataweb.png)
 
@@ -178,7 +178,7 @@ Selecteer **Of** en selecteer naast het tweede veld **Is gelijk aan** de optie *
 
 Nu u extra waarden als **Federal district** en **island** hebt verwijderd, beschikt u over een lijst met de 50 staten en hun officiële tweeletterige afkortingen. Omwille van de duidelijkheid kunt u de namen van de kolommen wijzigen, bijvoorbeeld in **Naam van staat**, **Staat** en **Afkorting**, door met de rechtermuisknop op de kolomkop te klikken en **Naam wijzigen** te selecteren.
 
-Zoals u ziet worden al deze stappen vastgelegd bij **Toegepaste stappen** in het deelvenster**Queryinstellingen**.
+Zoals u ziet worden al deze stappen vastgelegd bij **Toegepaste stappen** in het deelvenster **Queryinstellingen**.
 
 De door u vormgegeven voorbeeldtabel ziet er nu als volgt uit:
 

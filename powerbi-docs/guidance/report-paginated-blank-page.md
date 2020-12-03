@@ -2,18 +2,18 @@
 title: Lege pagina's voorkomen bij het afdrukken van gepagineerde rapporten
 description: Richtlijnen voor het ontwerpen van gepagineerde rapporten om te voorkomen dat lege pagina's worden afgedrukt.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 01/14/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 349459b95a815a52665e50687554f81f90a9c81b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 0fa886973105bdb4bc8a35f145168c1775ca12cb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78920847"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418458"
 ---
 # <a name="avoid-blank-pages-when-printing-paginated-reports"></a>Lege pagina's voorkomen bij het afdrukken van gepagineerde rapporten
 

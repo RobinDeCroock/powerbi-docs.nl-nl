@@ -2,20 +2,20 @@
 title: Een nieuwe Power-app insluiten in een Power BI-rapport
 description: Een app insluiten die gebruikmaakt van dezelfde gegevensbron en waarop kan worden gefilterd, net als bij andere rapportitems
 author: mihart
+ms.author: mihart
 manager: kvivek
 ms.reviewer: tapan maniar
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 06/01/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c46410caff373eb8474a4b687e834b822f2da8ac
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 1c4086d6ab71bd96ba7ac6c6985161d28a4dcb8b
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397525"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418872"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>Zelfstudie: Een Power Apps-visual insluiten in een Power BI-rapport
 
@@ -51,7 +51,7 @@ Wanneer u de Power Apps-visual toevoegt aan uw rapport, wordt Power Apps Studio 
 
     ![Deelvenster Visualisatie met het Power Apps-pictogram geselecteerd](media/power-bi-visualization-powerapp/power-bi-powerapps-icon.jpg)
 
-3. In het deelvenster **Velden** selecteert u **Naam** , **Productcode** en vervolgens **Verkoopfase**. 
+3. In het deelvenster **Velden** selecteert u **Naam**, **Productcode** en vervolgens **Verkoopfase**. 
 
     ![velden selecteren](media/power-bi-visualization-powerapp/power-bi-fields.png)
 

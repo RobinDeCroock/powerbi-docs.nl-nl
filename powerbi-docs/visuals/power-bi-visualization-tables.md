@@ -1,21 +1,21 @@
 ---
 title: Tabelvisualisaties in Power BI-rapporten en -dashboards
 description: Zelfstudie over het werken met tabelvisualisaties in Power BI-rapporten en -dashboards, met informatie over het aanpassen van de kolombreedte.
-author: msftrien
+author: mihart
+ms.author: mihart
 ms.reviewer: willt
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 02/10/2020
-ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 127e8b7033e60c70a4d541cfc4725e7340a514e6
-ms.sourcegitcommit: 5ccab484cf3532ae3a16acd5fc954b7947bd543a
+ms.openlocfilehash: aa99cd4efed9239d6685d53f2515d16549a0ae72
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "93412859"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96418803"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tabellen in Power BI-rapporten en -dashboards
 
@@ -68,7 +68,7 @@ U gaat de tabel aan het begin van dit artikel namaken om de omzet per artikelcat
 
 1. Selecteer **Verkoop > Gemiddelde eenheidsprijs** en **Verkoop > Omzet van afgelopen jaar**
 
-1. Selecteer vervolgens **Verkoop > Omzet van dit jaar** en selecteer alle drie de opties: **Waarde** , **Doel** en **Status**.
+1. Selecteer vervolgens **Verkoop > Omzet van dit jaar** en selecteer alle drie de opties: **Waarde**, **Doel** en **Status**.
 
 1. Zoek in het deelvenster **Visualisaties** het venster **Waarden** en selecteer de waarden totdat de volgorde van de grafiekkolommen overeenkomt met de eerste afbeelding op deze pagina. Versleep zo nodig de waarden in het venster. Het venster **Waarden** komt er zo uit te zien:
 
@@ -119,7 +119,7 @@ Met voorwaardelijke opmaak voor tabellen kunt u pictogrammen, URL's, celachtergr
 
     ![scherm achtergrondkleurschalen](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
-    Laten we wat aangepaste opmaak toepassen op de waarden voor Gemiddelde eenheidsprijs. Selecteer **Afwijken** , voeg wat kleuren toe en selecteer **OK**.
+    Laten we wat aangepaste opmaak toepassen op de waarden voor Gemiddelde eenheidsprijs. Selecteer **Afwijken**, voeg wat kleuren toe en selecteer **OK**.
 
     ![tabel met afwijkende kleuren](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-background.png)
 1. Voeg een nieuw veld toe aan de tabel met positieve en negatieve waarden. Selecteer **Verkoop > Afwijking van totale verkoop**.
@@ -130,7 +130,7 @@ Met voorwaardelijke opmaak voor tabellen kunt u pictogrammen, URL's, celachtergr
 
     ![Kaart voor Voorwaardelijke opmaak met gegevensbalken ingesteld op Aan](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. Als u de gegevensbalken wilt aanpassen, selecteert u **Geavanceerde besturingselementen**. In het dialoogvenster dat wordt weergegeven stelt u kleuren in voor **Positieve balk** en **Negatieve balk** , selecteert u de optie **Alleen balk weergeven** en brengt u eventueel nog andere wijzigingen aan.
+1. Als u de gegevensbalken wilt aanpassen, selecteert u **Geavanceerde besturingselementen**. In het dialoogvenster dat wordt weergegeven stelt u kleuren in voor **Positieve balk** en **Negatieve balk**, selecteert u de optie **Alleen balk weergeven** en brengt u eventueel nog andere wijzigingen aan.
 
     ![vinkje voor Alleen balk weergeven](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -180,7 +180,7 @@ In Power BI wordt soms een kolomkop in een rapport en in een dashboard afgekapt.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
-* Wanneer u kolomopmaak toepast, kunt u slechts één uitlijningsoptie per kolom kiezen: **Automatisch** , **Links** , **Centreren** , **Rechts**. Doorgaans bevat een kolom alleen tekst of alleen getallen, en geen combinatie daarvan. In het geval dat een kolom zowel getallen als tekst bevat, worden met de optie **Automatisch** teksten links en getallen rechts uitgelijnd. Dit gedrag ondersteunt talen die van links naar rechts worden gelezen.
+* Wanneer u kolomopmaak toepast, kunt u slechts één uitlijningsoptie per kolom kiezen: **Automatisch**, **Links**, **Centreren**, **Rechts**. Doorgaans bevat een kolom alleen tekst of alleen getallen, en geen combinatie daarvan. In het geval dat een kolom zowel getallen als tekst bevat, worden met de optie **Automatisch** teksten links en getallen rechts uitgelijnd. Dit gedrag ondersteunt talen die van links naar rechts worden gelezen.
 
 * Als de tekstgegevens in de cellen of kopteksten in uw tabel nieuwe regeltekens bevatten, worden deze tekens genegeerd, tenzij u de optie Tekstterugloop inschakelt in de gekoppelde kaart Opmaakvenster. 
 
