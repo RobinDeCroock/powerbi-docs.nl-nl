@@ -2,22 +2,22 @@
 title: Een werkbaar concept van migratie naar Power BI testen
 description: Richtlijnen voor het testen van een werkbaar concept bij het migreren naar Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/20/2020
-ms.author: v-pemyer
-ms.openlocfilehash: a7b7a848aafc3a581c1a19cf34366d61ba891f86
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 77174da7fd47470974a292ba98f6b50c268b04fd
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803166"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419125"
 ---
-# <a name="conductproofofconcepttomigratetopowerbi"></a>Een werkbaar concept van migratie naar Power BI testen
+# <a name="conduct-proof-of-concept-to-migrate-to-power-bi"></a>Een werkbaar concept van migratie naar Power BI testen
 
-In dit artikel wordt **Fase 3**beschreven, welke is gericht op het testen van een werkbaar concept (Proof of Concept, POC) om risico's te beperken en zo snel mogelijk in te spelen op onbekende factoren wanneer u naar Power BI migreert.
+In dit artikel wordt **Fase 3** beschreven, welke is gericht op het testen van een werkbaar concept (Proof of Concept, POC) om risico's te beperken en zo snel mogelijk in te spelen op onbekende factoren wanneer u naar Power BI migreert.
 
 :::image type="content" source="media/powerbi-migration-proof-of-concept/migrate-to-powerbi-stage-3.png" alt-text="Afbeelding van de fasen van een Power BI-migratie. Fase 3 wordt in dit artikel uitgelicht.":::
 

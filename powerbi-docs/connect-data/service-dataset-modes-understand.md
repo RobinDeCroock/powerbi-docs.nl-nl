@@ -1,20 +1,20 @@
 ---
 title: Gegevenssetmodi in de Power BI-service
 description: 'Informatie over gegevenssetmodi in de Power BI-service: Import, DirectQuery en Samengesteld.'
-author: peter-myers
+author: davidiseminger
+ms.author: davidi
 manager: asaxton
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 4ec73f3dd09d1c83b07d1419256cd627a71ae2d4
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.date: 12/01/2020
+ms.openlocfilehash: 5b4c32296c7121fa3d161461af7e86caba617ee1
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332838"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501944"
 ---
 # <a name="dataset-modes-in-the-power-bi-service"></a>Gegevenssetmodi in de Power BI-service
 
@@ -102,8 +102,6 @@ Bij samengestelde modellen wordt getracht het beste van de modi Import en Direct
 Gegevensmodelmakers die samengestelde modellen ontwikkelen, zullen waarschijnlijk dimensietabellen in de opslagmodus Import of Dual configureren, en feitentabellen in de modus DirectQuery. Zie [Meer informatie over stervormige schema's en het belang voor Power BI](../guidance/star-schema.md) voor meer informatie over modeltabelrollen.
 
 Neem bijvoorbeeld een model met de dimensietabel **Product** in de modus Dual en de feitentabel **Sales** in de modus DirectQuery. De tabel **Product** kan efficiënt en snel worden opgevraagd uit het geheugen om een rapportslicer weer te geven. De tabel **Sales** kan ook worden opgevraagd in de modus DirectQuery met de gerelateerde tabel **Product**. Met de laatste is het mogelijk een enkele efficiënte systeemeigen SQL-query te genereren die de tabellen **Product** en **Sales** samenvoegt en filtert op de slicerwaarden.
-
-Over het algemeen hebben samengestelde modellen dezelfde voor- en nadelen als Import- en DirectQuery-modellen, afhankelijk van de configuratie van elke tabel.
 
 Zie [Samengestelde modellen in Power BI Desktop gebruiken](../transform-model/desktop-composite-models.md) voor meer informatie.
 

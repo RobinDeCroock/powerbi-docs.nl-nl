@@ -2,18 +2,18 @@
 title: Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten
 description: Richtlijnen voor het maken van gegevensbronnen en gegevenssets voor gepagineerde rapporten in Power BI.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: report-builder
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/16/2020
-ms.author: v-pemyer
-ms.openlocfilehash: 511dc42a3090f838654cda84f596d34f02bb3439
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 5869402a1f5147dbd4cea18b426452e115a97911
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275082"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419033"
 ---
 # <a name="data-retrieval-guidance-for-paginated-reports"></a>Richtlijnen voor het ophalen van gegevens voor gepagineerde rapporten
 
@@ -83,8 +83,8 @@ Het wordt aanbevolen om eerst te controleren of alle veldnamen beschrijvend, bek
 
 De ontwerpen voor uw gepagineerde rapporten bevatten waarschijnlijk rapportparameters. Rapportparameters worden meestal gebruikt om de rapportgebruiker te vragen het rapport te filteren. Als auteur van een gepagineerd rapport kunt u er op twee manieren voor zorgen dat rapporten worden gefilterd. U kunt een rapportparameter toewijzen aan:
 
-- Een gegevensset_filter_. In dat geval wordt (worden) met de rapportparameterwaarde(n) de gegevens gefilterd die al door de gegevensset zijn opgehaald.
-- Een gegevensset_parameter_. In dat geval wordt (worden) de rapportparameterwaarde(n) toegevoegd aan de systeemeigen query die naar de gegevensbron wordt verzonden.
+- Een gegevensset _filter_. In dat geval wordt (worden) met de rapportparameterwaarde(n) de gegevens gefilterd die al door de gegevensset zijn opgehaald.
+- Een gegevensset _parameter_. In dat geval wordt (worden) de rapportparameterwaarde(n) toegevoegd aan de systeemeigen query die naar de gegevensbron wordt verzonden.
 
 > [!NOTE]
 > Alle rapportgegevenssets worden _per sessie_ en gedurende maximaal tien minuten _na het laatste gebruik_ in de cache opgeslagen. Een gegevensset kan opnieuw worden gebruikt wanneer nieuwe parameterwaarden worden ingediend (filteren), het rapport in een andere indeling wordt weergegeven of het rapportontwerp op een of andere manier wordt bewerkt, zoals het in- of uitschakelen van de weergave of sorteren van gegevens.

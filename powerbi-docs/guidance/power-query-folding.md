@@ -2,18 +2,18 @@
 title: Richtlijnen voor Query Folding in Power BI Desktop
 description: Richtlijnen voor het realiseren van Query Folding van Power Query in Power BI Desktop.
 author: peter-myers
+ms.author: v-pemyer
 ms.reviewer: asaxton
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 11/09/2019
-ms.author: v-pemyer
-ms.openlocfilehash: 271ccd9abcba8fe75f0ad66a88cb970584855a35
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 5e2ec32f3eeaff224256f0a84d2a5c23d3e882a5
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149179"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96419309"
 ---
 # <a name="query-folding-guidance-in-power-bi-desktop"></a>Richtlijnen voor Query Folding in Power BI Desktop
 
@@ -27,7 +27,7 @@ De richtlijnen voor Query Folding verschillen, afhankelijk van de modelmodus.
 
 Voor een **DirectQuery**-tabel of tabel met een modus voor **hybride** opslag moet Query Folding kunnen worden gerealiseerd door de Power Query-query.
 
-Voor een **import**tabel kan het mogelijk zijn om Query Folding te realiseren. Wanneer de query is gebaseerd op een relationele bron, en als één SELECT-instructie kan worden samengesteld, realiseert u de _beste gegevensvernieuwingsprestaties_ door ervoor te zorgen dat Query Folding wordt toegepast. Als de mashup-engine van Power Query nog steeds nodig is om transformaties te verwerken, moet u ernaar streven om het werk dat deze moet verrichten te minimaliseren, vooral voor grote gegevenssets.
+Voor een **import** tabel kan het mogelijk zijn om Query Folding te realiseren. Wanneer de query is gebaseerd op een relationele bron, en als één SELECT-instructie kan worden samengesteld, realiseert u de _beste gegevensvernieuwingsprestaties_ door ervoor te zorgen dat Query Folding wordt toegepast. Als de mashup-engine van Power Query nog steeds nodig is om transformaties te verwerken, moet u ernaar streven om het werk dat deze moet verrichten te minimaliseren, vooral voor grote gegevenssets.
 
 In de volgende opsommingslijst worden specifieke richtlijnen beschreven.
 
