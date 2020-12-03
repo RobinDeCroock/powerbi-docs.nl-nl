@@ -2,19 +2,19 @@
 title: Samengestelde modellen in Power BI Desktop gebruiken
 description: Lees hoe u in Power BI Desktop gegevensmodellen maakt met meerdere gegevensverbindingen en veel-op-veel-relaties
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/15/2020
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 5d7e4be9e3b864e2ccfccf64ac0d4460d0821e0a
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 078596c91f86f635cb69f543ee0ea828e5cef62d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83326582"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415859"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Samengestelde modellen in Power BI Desktop gebruiken
 
@@ -91,7 +91,7 @@ Zodra de relatie tot stand is gebracht, wordt deze zoals verwacht weergegeven in
 
 ![De nieuwe relatieweergave](media/desktop-composite-models/composite-models_10.png)
 
-We kunnen nu visuals maken door de velden in de lijst **Velden** te gebruiken. Als u op deze manier te werk gaat, worden gegevens uit meerdere bronnen probleemloos samengevoegd. In de volgende afbeelding wordt bijvoorbeeld het totale *verkoopbedrag* voor iedere*productmanager* weergegeven:
+We kunnen nu visuals maken door de velden in de lijst **Velden** te gebruiken. Als u op deze manier te werk gaat, worden gegevens uit meerdere bronnen probleemloos samengevoegd. In de volgende afbeelding wordt bijvoorbeeld het totale *verkoopbedrag* voor iedere *productmanager* weergegeven:
 
 ![Het deelvenster Velden](media/desktop-composite-models/composite-models_11.png)
 

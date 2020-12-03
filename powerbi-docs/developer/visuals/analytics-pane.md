@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 85dc34a2dbdfba02623f4d369d72311d9a93e997
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749018"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414180"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Het deelvenster Analyse in Power BI-visuals
 
@@ -65,7 +65,7 @@ Voor het deelvenster **Analyse** gelden de volgende verschillen:
 }
 ```
 
-U kunt overige eigenschappen op dezelfde manier definiëren als die van **Opmaak**objecten. En u kunt objecten net zo opsommen als in het deelvenster **Opmaak**.
+U kunt overige eigenschappen op dezelfde manier definiëren als die van **Opmaak** objecten. En u kunt objecten net zo opsommen als in het deelvenster **Opmaak**.
 
 ## <a name="known-limitations-and-issues-of-the-analytics-pane"></a>Bekende beperkingen en problemen van het deelvenster Analyse
 

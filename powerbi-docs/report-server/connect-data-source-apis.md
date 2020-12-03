@@ -2,18 +2,18 @@
 title: Verbindingsreeksen voor gegevensbronnen wijzigen met PowerShell
 description: Wijzig de verbindingsreeksen voor gegevensbronnen met behulp van API's in PowerShell - Power BI Report Server.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: maggies
-ms.openlocfilehash: 165d38c718377ff7e47442cdf0fe67173b610bd8
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044985"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415468"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Wijzig de verbindingsreeksen voor gegevensbronnen in Power BI-rapporten met PowerShell - Power BI Report Server
 
@@ -107,7 +107,7 @@ Vanaf de release van Power BI Report Server in oktober 2020 schakelen we de moge
     Set-RsRestItemDataModelParameters -RsItem '/executionlogparameter' -DataModelParameters $parameters
     ```
 
-7. Zodra de parameters zijn bijgewerkt, worden alle gegevensbronnen die aan de parameters zijn gebonden, bijgewerkt door de server. Als u teruggaat naar het dialoogvenster **Gegevensbron bewerken** , moet u referenties kunnen instellen voor de bijgewerkte server en database.
+7. Zodra de parameters zijn bijgewerkt, worden alle gegevensbronnen die aan de parameters zijn gebonden, bijgewerkt door de server. Als u teruggaat naar het dialoogvenster **Gegevensbron bewerken**, moet u referenties kunnen instellen voor de bijgewerkte server en database.
 
     :::image type="content" source="media/connect-data-source-apis/report-server-manage-executionlogparameter-dialog.png" alt-text="Referenties instellen voor de bijgewerkte server en database.":::
 

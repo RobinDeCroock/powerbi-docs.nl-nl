@@ -1,26 +1,26 @@
 ---
 title: Het nieuwe uiterlijk van de Power BI-service
 description: De Power BI-service (app.powerbi.com) heeft een nieuw uiterlijk. In dit artikel wordt beschreven hoe u door rapporten met het nieuwe uiterlijk navigeert.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: f398b0b3331d5677419c824646108f8d04815338
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462284"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415146"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Het nieuwe uiterlijk van de Power BI-service
 
 De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Het nieuwe uiterlijk is eenvoudiger en afgestemd op het uiterlijk van andere Microsoft-producten waarmee u waarschijnlijk bekend bent. In de gehele Power BI-service is de inhoud van rapporten nu het belangrijkste aandachtspunt, door het gebruik van een lichter kleurenthema en bijgewerkte pictogrammen. 
 
-Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop** ? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md).
+Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md).
 
 Hier ziet u een overzicht van de veranderingen in het nieuwe uiterlijk. Bekijk de genummerde gedeelten voor meer informatie:
 

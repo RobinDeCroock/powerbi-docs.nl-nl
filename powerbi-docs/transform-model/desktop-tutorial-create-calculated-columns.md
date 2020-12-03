@@ -2,19 +2,19 @@
 title: 'Zelfstudie: Berekende kolommen in Power BI Desktop maken'
 description: 'Zelfstudie: Berekende kolommen in Power BI Desktop maken'
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: tutorial
 ms.date: 11/26/2019
-ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: e5394a9ac7b7dbfc9edcfac53ea87d061e306a47
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: ef84c2e5b8fb094206199129c0f25bd5fcb219eb
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83565828"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96413858"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Zelfstudie: Berekende kolommen in Power BI Desktop maken
 
@@ -105,7 +105,7 @@ Gelukkig heeft de tabel **Stores** een kolom genaamd **Status**, met waarden On 
 
     ![IF selecteren](media/desktop-tutorial-create-calculated-columns/if1.png)
 
-3. Het eerste argument voor **IF** is een logische test om te kijken of de **status**van een winkel de waarde On heeft. Typ een haakje openen **[** , waarmee kolommen uit de tabel **Stores** worden weergegeven, en selecteer **[Status]** .
+3. Het eerste argument voor **IF** is een logische test om te kijken of de **status** van een winkel de waarde On heeft. Typ een haakje openen **[** , waarmee kolommen uit de tabel **Stores** worden weergegeven, en selecteer **[Status]** .
 
     ![Status selecteren](media/desktop-tutorial-create-calculated-columns/if2.png)
 
@@ -121,7 +121,7 @@ Gelukkig heeft de tabel **Stores** een kolom genaamd **Status**, met waarden On 
 
     ![Active StoreName-kolom](media/desktop-tutorial-create-calculated-columns/if5.png)
 
-7. U kunt de nieuwe kolom **Active StoreName** in visualisaties gebruiken, net zoals elk ander veld. Als u **SalesAmounts** op **Active StoreName**wilt weergeven, selecteert u het veld **Active StoreName** of sleept u dit naar het rapportcanvas en selecteert u vervolgens het veld **SalesAmount** of sleept u dit naar de tabel. In deze tabel worden actieve winkels afzonderlijk weergegeven met de naam, maar inactieve winkels zijn gegroepeerd aan het einde als **Inactive**.
+7. U kunt de nieuwe kolom **Active StoreName** in visualisaties gebruiken, net zoals elk ander veld. Als u **SalesAmounts** op **Active StoreName** wilt weergeven, selecteert u het veld **Active StoreName** of sleept u dit naar het rapportcanvas en selecteert u vervolgens het veld **SalesAmount** of sleept u dit naar de tabel. In deze tabel worden actieve winkels afzonderlijk weergegeven met de naam, maar inactieve winkels zijn gegroepeerd aan het einde als **Inactive**.
 
     ![SalesAmount op Active StoreName-tabel](media/desktop-tutorial-create-calculated-columns/if6.png)
 

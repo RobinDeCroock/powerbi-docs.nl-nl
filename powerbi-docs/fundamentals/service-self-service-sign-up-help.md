@@ -1,18 +1,19 @@
 ---
 title: Aanmelden voor selfservicehulp
 description: Wat moet u doen als aanmelden voor selfservice is uitgeschakeld. U kan zich niet registreren voor de Power BI-service.
-services: powerbi
 author: mihart
 ms.author: mihart
+services: powerbi
 ms.topic: conceptual
 ms.service: powerbi
+ms.subservice: pbi-fundamentals
 ms.date: 07/01/2020
-ms.openlocfilehash: beb7b905836f72f2f01713e0fb50df818586c242
-ms.sourcegitcommit: 7d7bb755d5a5af30d2b0eab89fb56e4498514890
+ms.openlocfilehash: f70a0dae066056d9aa7bcc3f1d43200e1d8729ff
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "85836965"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414134"
 ---
 # <a name="what-to-do-if-sign-up-is-disabled"></a>Wat moet u doen als registreren is uitgeschakeld
 

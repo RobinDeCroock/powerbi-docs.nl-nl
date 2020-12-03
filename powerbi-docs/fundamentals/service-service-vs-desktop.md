@@ -1,21 +1,21 @@
 ---
 title: Power BI Desktop en de Power BI-service vergelijken
 description: Power BI Desktop is een compleet hulpprogramma voor gegevensanalyse en het maken van rapporten. De Power BI-service is een op de cloud gebaseerde onlineservice voor lichte rapportbewerking en samenwerking voor teams en corporaties.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 08/07/2020
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0b4a1275a3b50fbadd37d953b77316d6021c800c
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 41d3ebc8980dabcce4c104bca318770ecf482d3d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397088"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414088"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop en de Power BI-service vergelijken
 
@@ -33,7 +33,7 @@ De Power BI-service fungeert ook als host voor *gepagineerde rapporten* in werkr
 
 ## <a name="editing-power-bi-reports"></a>Power BI-rapporten bewerken
 
-In zowel de toepassing als de service maakt en bewerkt u Power BI- *rapporten*. Een rapport kan een of meer pagina’s hebben, met visuals en verzamelingen met visuals. U kunt bladwijzers, knoppen, filters en drillthroughs toevoegen om de navigatie in uw rapporten te verbeteren.
+In zowel de toepassing als de service maakt en bewerkt u Power BI-*rapporten*. Een rapport kan een of meer pagina’s hebben, met visuals en verzamelingen met visuals. U kunt bladwijzers, knoppen, filters en drillthroughs toevoegen om de navigatie in uw rapporten te verbeteren.
 
 ![Schermopnamen van de Power BI Desktop en de Power BI-service met genummerde secties.](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -41,7 +41,7 @@ De rapporteditors in Power BI Desktop en in de service zijn vergelijkbaar. Ze be
 
 1. De bovenste navigatievensters (deze zijn verschillend in Power BI Desktop en de service)    
 2. Het rapportcanvas     
-3. De deelvensters **Velden** , **Visualisaties** en **Filters**
+3. De deelvensters **Velden**, **Visualisaties** en **Filters**
 
 Deze video toont de rapporteditor in Power BI Desktop. 
 
@@ -51,7 +51,7 @@ Deze video toont de rapporteditor in Power BI Desktop.
 
 ### <a name="collaborating"></a>Samenwerken
 
-Nadat u uw rapporten hebt gemaakt, kunt u deze opslaan naar een *werkruimte* in de **Power BI-service** , waarin u en uw collega’s samenwerken. U bouwt *dashboards* bovenop die rapporten. Vervolgens deelt u die dashboards en rapporten met gebruikers van rapporten in en buiten uw organisatie. De gebruikers van uw rapporten bekijken ze in de Power BI-service in de *leesweergave* , niet de bewerkingsweergave. Ze hebben geen toegang tot alle functies die beschikbaar zijn voor de makers van rapporten.  U kunt ook uw gegevenssets delen en anderen hun eigen rapporten laten opstellen op basis daarvan. Lees meer over [samenwerken in de Power BI-service](../collaborate-share/service-new-workspaces.md).
+Nadat u uw rapporten hebt gemaakt, kunt u deze opslaan naar een *werkruimte* in de **Power BI-service**, waarin u en uw collega’s samenwerken. U bouwt *dashboards* bovenop die rapporten. Vervolgens deelt u die dashboards en rapporten met gebruikers van rapporten in en buiten uw organisatie. De gebruikers van uw rapporten bekijken ze in de Power BI-service in de *leesweergave*, niet de bewerkingsweergave. Ze hebben geen toegang tot alle functies die beschikbaar zijn voor de makers van rapporten.  U kunt ook uw gegevenssets delen en anderen hun eigen rapporten laten opstellen op basis daarvan. Lees meer over [samenwerken in de Power BI-service](../collaborate-share/service-new-workspaces.md).
 
 ### <a name="self-service-data-prep-with-dataflows"></a>Selfservice voor gegevensvoorbereiding met gegevensstromen
 

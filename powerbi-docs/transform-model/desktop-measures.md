@@ -2,19 +2,19 @@
 title: Metingen in Power BI Desktop
 description: Metingen maken en gebruiken in Power BI Desktop, met inbegrip van snelle metingen en DAX-syntaxis
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: how-to
 ms.date: 01/29/2020
-ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 752e43fa3471419a76338f9db81f08a6180b6aba
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78c883c28323d34ef4583b6b3bd04736f9654cbc
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238232"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414019"
 ---
 # <a name="create-measures-for-data-analysis-in-power-bi-desktop"></a>Metingen maken voor gegevensanalyse in Power BI Desktop
 
@@ -73,7 +73,7 @@ Metingen hebben een tabel *Start* waarin wordt gedefinieerd waar ze zich in de l
 
 ![Een tabel voor uw meting selecteren](media/desktop-measures/measures-03.png)
 
-U kunt ook velden in een tabel indelen in *weergavemappen*. Selecteer **Model** aan de linkerkant van Power BI Desktop. Selecteer in het deelvenster**Eigenschappen** het veld dat u wilt verplaatsen in de lijst met beschikbare velden. Voer een naam in voor een nieuwe map in **Map weergeven** om een map te maken. Als u een map maakt, wordt het geselecteerde veld naar die map verplaatst.
+U kunt ook velden in een tabel indelen in *weergavemappen*. Selecteer **Model** aan de linkerkant van Power BI Desktop. Selecteer in het deelvenster **Eigenschappen** het veld dat u wilt verplaatsen in de lijst met beschikbare velden. Voer een naam in voor een nieuwe map in **Map weergeven** om een map te maken. Als u een map maakt, wordt het geselecteerde veld naar die map verplaatst.
 
 ![Een veld voor metingen maken](media/desktop-measures/measures-04.gif)
 
@@ -81,7 +81,7 @@ U kunt submappen maken met behulp van een backslash-teken. Met *Financiën\Valut
 
 U kunt een veld in meerdere mappen weergeven door gebruik te maken van een puntkomma om de mapnamen van elkaar te scheiden. Bijvoorbeeld: *Producten\Namen;Afdelingen* zorgt ervoor dat het veld wordt weergegeven in de map *Afdelingen* en de map *Namen* in de map *Product*.
 
-U kunt een speciale tabel maken die alleen metingen bevat. Deze tabel wordt altijd boven in **Velden**weergegeven. Hiervoor maakt u een tabel met slechts één kolom. U kunt **Gegevens invoeren** gebruiken om die tabel te maken. Verplaats uw metingen vervolgens naar die tabel. Verberg de kolom, niet de tabel die u hebt gemaakt. Selecteer de pijl boven in **Velden** om de lijst met velden te sluiten en opnieuw te openen om de wijzigingen weer te geven.
+U kunt een speciale tabel maken die alleen metingen bevat. Deze tabel wordt altijd boven in **Velden** weergegeven. Hiervoor maakt u een tabel met slechts één kolom. U kunt **Gegevens invoeren** gebruiken om die tabel te maken. Verplaats uw metingen vervolgens naar die tabel. Verberg de kolom, niet de tabel die u hebt gemaakt. Selecteer de pijl boven in **Velden** om de lijst met velden te sluiten en opnieuw te openen om de wijzigingen weer te geven.
 
 ![Metingen ordenen en bovenaan de lijst met velden laten staan](media/desktop-measures/measures-05.png)
 

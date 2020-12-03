@@ -2,20 +2,20 @@
 title: Functies van Power BI-service op licentietype
 description: Gebruikers beschikken in de Power BI-service over kant-en-klare mogelijkheden op basis van het type gebruikerslicentie dat ze hebben (gratis of Pro) en of de inhoud waarmee ze werken zich in een werkruimte bevindt die aan een Power BI Premium-capaciteit is toegewezen.
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/11/2020
-ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 48e382db2866187f4394cf8a60789604f3d900b7
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 4c1b5256a411594521dcfe030af3490cd2e4780c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94512787"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414157"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Functies van Power BI-service op licentietype
 

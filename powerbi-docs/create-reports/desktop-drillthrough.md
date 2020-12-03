@@ -2,19 +2,19 @@
 title: Analyseren instellen in Power BI-rapporten
 description: Informatie over analyseren om details weer te geven van nieuwe gegevens, op een nieuwe rapportpagina, in Power BI-rapporten
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/12/2020
-ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7ba75bf5bce05f7a2614dc27d5ff8245ec1a31ef
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cec22acab7cc44b96f3137df04777671964707a8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239163"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414226"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Analyseren instellen in Power BI-rapporten
 Met *analyseren* in Power BI-rapporten kunt u een pagina in uw rapport maken die zich richt op een bepaalde entiteit, zoals een leverancier, klant of fabrikant. Wanneer lezers van uw rapport analyseren gebruiken, klikken ze met de rechtermuisknop op een gegevenspunt in andere rapportpagina's en zoomen ze in op die specifieke pagina voor details die zijn gefilterd op die context. U kunt ook [een knop maken die inzoomt](desktop-drill-through-buttons.md) op details wanneer ze erop klikken.

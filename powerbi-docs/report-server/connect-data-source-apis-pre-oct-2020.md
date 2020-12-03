@@ -2,18 +2,18 @@
 title: De verbindingsreeksen wijzigen voor gegevensbronnen met PowerShell - Power BI Report Server - vóór oktober 2020
 description: De verbindingsreeksen wijzigen voor gegevensbronnen met behulp van API's in PowerShell - Power BI Report Server vóór oktober 2020.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.author: maggies
-ms.openlocfilehash: 9b4d31b2acc3ce7ec43bbd3fdb91df8e32c2e953
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.openlocfilehash: c063d145919dfc6f075cf8945b88a5f3644dead7
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93049399"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415491"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>De verbindingsreeksen wijzigen voor gegevensbronnen in Power BI-rapporten met PowerShell - Power BI Report Server vóór oktober 2020
 

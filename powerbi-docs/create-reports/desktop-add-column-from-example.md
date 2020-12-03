@@ -2,19 +2,19 @@
 title: Een kolom uit een voorbeeld toevoegen in Power BI Desktop
 description: Maak snel een nieuwe kolom in Power BI Desktop met bestaande kolommen als voorbeelden.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/16/2019
-ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 68f2dc14b713345796ba0472fc3d55f6baedf819
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: f33a9f5656875825b70c7e51202431ba268fe86a
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263187"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414502"
 ---
 # <a name="add-a-column-from-examples-in-power-bi-desktop"></a>Een kolom uit voorbeelden toevoegen in Power BI Desktop
 Met *Een kolom uit voorbeelden toevoegen* in Power Query-editor kunt u nieuwe kolommen toevoegen aan uw gegevensmodel door simpelweg een of meer voorbeeldwaarden voor de nieuwe kolommen op te geven. U kunt de nieuwe kolomvoorbeelden maken op basis van een selectie of invoer opgeven die is gebaseerd op alle bestaande kolommen in de tabel.
@@ -98,7 +98,7 @@ Veel, maar niet alle, transformaties zijn beschikbaar wanneer u **Kolom toevoege
   - Tekens behouden
 
 > [!NOTE]
-> Bij alle *tekst*transformaties wordt rekening gehouden met de mogelijke noodzaak tot inkorting, verwijdering of wijziging van hoofdletters in kleine letters of omgekeerd.
+> Bij alle *tekst* transformaties wordt rekening gehouden met de mogelijke noodzaak tot inkorting, verwijdering of wijziging van hoofdletters in kleine letters of omgekeerd.
 
 **Gegevenstransformaties**
 

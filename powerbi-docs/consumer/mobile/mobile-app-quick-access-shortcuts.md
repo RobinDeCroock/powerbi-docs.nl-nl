@@ -2,17 +2,17 @@
 title: Snelkoppelingen voor Android-apps gebruiken in de Power BI-app voor Android
 description: Meer informatie over hoe u snel en rechtstreeks weergegeven inhoud kunt openen met snelkoppelingen en Google Zoeken.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
-ms.openlocfilehash: ec4763118360ea02362e3f49fe9776224e9c087a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3231e896384f7d438f5448461bc4534532c04910
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229389"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414686"
 ---
 # <a name="use-android-app-shortcuts-in-the-power-bi-android-app"></a>Snelkoppelingen voor Android-apps gebruiken in de Power BI-app voor Android
 

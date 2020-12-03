@@ -2,19 +2,19 @@
 title: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: rondleiding'
 description: 'Voorbeeld van een IT-uitgavenanalyse voor Power BI: rondleiding'
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: amac
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 07/05/2019
-ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: f132a68d537d8fa1a518e91823e1dc36a2969622
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: cdde0e702333feed54637c72fa3193052fde139f
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349029"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414962"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Voorbeeld van een IT-uitgavenanalyse voor Power BI: rondleiding
 
@@ -41,7 +41,7 @@ U hebt geen licentie voor Power BI nodig om de voorbeelden te bekijken in Power 
 2. Selecteer in de linkerbenedenhoek **Gegevens ophalen**.
    
    ![Selecteer Gegevens ophalen](media/sample-datasets/power-bi-get-data.png)
-3. Selecteer op de pagina **Gegevens ophalen** die wordt weergegeven, de optie **Voorbeelden**.
+3. Selecteer **Voorbeelden** op de pagina **Gegevens ophalen** die wordt weergegeven.
    
 4. Selecteer **Voorbeeld van een IT-uitgavenanalyse** en kies **Verbinden**.  
   

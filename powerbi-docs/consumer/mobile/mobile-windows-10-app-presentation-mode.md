@@ -2,18 +2,18 @@
 title: De presentatiemodus weergeven in Surface Hub en Windows 10 - Power BI
 description: Meer informatie over het weergeven van Power BI-rapporten in Surface Hub en het weergeven van Power BI-dashboards, -rapporten en -tegels in de presentatiemodus op Windows 10-apparaten.
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
-ms.author: painbar
-ms.openlocfilehash: a982374bbf713d4e0c970da601fdca3249120cbe
-ms.sourcegitcommit: 5fdb45736ca0c8070124279fed4dab1ced8b7b27
+ms.openlocfilehash: 797b00210154e577275f486194f7e36f2cd0077e
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92683309"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415445"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>Rapporten en dashboards weergeven in de presentatiemodus op Surface Hub en Windows 10-apparaten
 U kunt de presentatiemodus gebruiken om rapporten en dashboards op Windows 10-apparaten en de Surface Hub in volledig scherm weer te geven. De presentatiemodus is handig voor het weergeven van Power BI tijdens vergaderingen, conferenties of op een specifieke projector op kantoor, of zelfs om de ruimte op een klein scherm te maximaliseren.
@@ -29,7 +29,7 @@ In presentatiemodus:
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="use-presentation-mode"></a>De presentatiemodus gebruiken
-Tik in de mobiele Power BI-app op het pictogram **Overschakelen naar presentatiemodus** .
+Tik in de mobiele Power BI-app op het pictogram **Overschakelen naar presentatiemodus**.
 ![Pictogram voor volledig scherm](././media/mobile-windows-10-app-presentation-mode/power-bi-full-screen-icon.png): alle extra's in de app verdwijnen en er wordt de actiewerkbalk onder aan het scherm (of aan de rechter- en linkerzijde) weergegeven, afhankelijk van de schermgrootte.
 
 [![Rapport in de modus Volledig scherm met werkbalken aan de zijkant](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar.png)](./media/mobile-windows-10-app-presentation-mode/power-bi-presentation-mode-toolbar-expanded.png#lightbox)
@@ -45,9 +45,9 @@ Via de werkbalk kunt u tikken op de opties om de volgende acties uitvoeren:
 |![Gumpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-eraser-icon.png)|**Wis inktmarkeringen** die u mogelijk hebt aangebracht met de Surface-pen om op de rapportpagina te tekenen en er aantekeningen op te maken.          |
 |![Pictogram opnieuw instellen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-reset-icon.png)|**Stel opnieuw in naar de standaardweergave** en wis alle filters, slicers of andere wijzigingen in de gegevensweergave die u tijdens de presentatie hebt aangebracht.|
 |![Deelpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-share-icon.png)|**Deel** een afbeelding van de presentatieweergave met uw collega's. De afbeelding bevat aantekeningen die u tijdens de presentatie hebt gemaakt met de Surface-pen.|
-|![Pictogram Vernieuwen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|Het rapport **vernieuwen** .|
-|![Pictogram Afspelen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**Speel de diavoorstelling af** , verberg de actiebalk en start de diavoorstelling. Met een selector kunt u ervoor kiezen om automatisch te draaien tussen pagina's, bladwijzers of zowel pagina's als bladwijzers. Standaard roteert de diavoorstelling automatisch elke 30 seconden tussen pagina's. U kunt deze instellingen wijzigen in [**Instellingen > Opties**](#slideshow-settings). Zie [meer details](#slideshows) over diavoorstellingen|
-|![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|Presentatiemodus **afsluiten** .|
+|![Pictogram Vernieuwen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-refresh-icon.png)|Het rapport **vernieuwen**.|
+|![Pictogram Afspelen](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-play-icon.png)|**Speel de diavoorstelling af**, verberg de actiebalk en start de diavoorstelling. Met een selector kunt u ervoor kiezen om automatisch te draaien tussen pagina's, bladwijzers of zowel pagina's als bladwijzers. Standaard roteert de diavoorstelling automatisch elke 30 seconden tussen pagina's. U kunt deze instellingen wijzigen in [**Instellingen > Opties**](#slideshow-settings). Zie [meer details](#slideshows) over diavoorstellingen|
+|![Modus Volledig scherm sluiten](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-icon.png)|Presentatiemodus **afsluiten**.|
 |![Zoekpictogram](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-search-icon.png)|**Zoek** naar andere artefacten in Power BI.|
 
 U kunt de werkbalk loskoppelen en naar een willekeurige plaats op het scherm slepen en neerzetten. Dit is handig op grote schermen, als u zich wilt richten op een specifiek gedeelte in het rapport en u de hulpprogramma's in de buurt wilt hebben. Plaats hiervoor uw vinger op de werkbalk en swipe deze naar het rapportcanvas.
@@ -62,7 +62,7 @@ Wanneer u de knop **Afspelen** op de actiewerkbalk selecteert, begint de diavoor
 
 ![Schermopname van diavoorstellingsselector](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-selector.png)
 
- De controller toont de naam van de momenteel weergegeven weergave (pagina of bladwijzer en pagina). In de bovenstaande afbeelding zien we dat in het rapport **Verkoop** momenteel de blade **Azië en Stille Oceaan** wordt weergegeven op de pagina **Verkoopprestaties** .
+ De controller toont de naam van de momenteel weergegeven weergave (pagina of bladwijzer en pagina). In de bovenstaande afbeelding zien we dat in het rapport **Verkoop** momenteel de blade **Azië en Stille Oceaan** wordt weergegeven op de pagina **Verkoopprestaties**.
 
 Standaard bladert een diavoorstelling door alleen pagina's met een snelheid van één pagina per 30 seconden. U kunt het standaardgedrag wijzigen in de [instellingen voor de diavoorstelling](#slideshow-settings).
 
@@ -73,7 +73,7 @@ U kunt de mobiele app van Power BI instellen om automatisch een diavoorstelling 
 
 ### <a name="slideshow-settings"></a>Instellingen voor diavoorstelling
 
-Standaard bladert een diavoorstelling door alleen pagina's met een snelheid van één pagina per 30 seconden. U kunt dit standaardgedrag wijzigen via **Instellingen > Opties** , zoals hieronder wordt afgebeeld. U kunt automatisch afspelen ook inschakelen en een rapport kiezen dat u wilt afspelen.
+Standaard bladert een diavoorstelling door alleen pagina's met een snelheid van één pagina per 30 seconden. U kunt dit standaardgedrag wijzigen via **Instellingen > Opties**, zoals hieronder wordt afgebeeld. U kunt automatisch afspelen ook inschakelen en een rapport kiezen dat u wilt afspelen.
 
 1. Selecteer het instellingenpictogram.
 
@@ -81,7 +81,7 @@ Standaard bladert een diavoorstelling door alleen pagina's met een snelheid van 
 
 1. Wijzig desgewenst de standaardinstellingen voor wat de diashow zal doorlopen (pagina's, bladwijzers of beide) en hoe vaak de dia's zullen overgaan.
 
-1. Als u wilt dat het rapport automatisch begint met afspelen wanneer de app wordt gestart, schakelt u de wisselknop in en kiest u **Rapport selecteren** . U kunt zoeken naar rapporten waartoe u toegang hebt.
+1. Als u wilt dat het rapport automatisch begint met afspelen wanneer de app wordt gestart, schakelt u de wisselknop in en kiest u **Rapport selecteren**. U kunt zoeken naar rapporten waartoe u toegang hebt.
 
 ![Schermopname van instellingen voor diavoorstelling](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

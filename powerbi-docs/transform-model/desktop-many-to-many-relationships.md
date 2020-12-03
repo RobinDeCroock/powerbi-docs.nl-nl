@@ -2,19 +2,19 @@
 title: Veel-op-veel-relaties in Power BI Desktop
 description: Relaties met een veel-op-veel-kardinaliteit gebruiken in Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 12/19/2019
-ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 17006405a495798618bf7562e6b94864b795a224
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 5f64a9a896fbb5ea3e080e1d07f6cc7d980430b8
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528040"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415698"
 ---
 # <a name="apply-many-many-relationships-in-power-bi-desktop"></a>Veel-op-veel-relaties toepassen in Power BI Desktop
 
@@ -48,7 +48,7 @@ Stel nu dat de tabel **Product** slechts twee rijen bevat, zoals weergegeven:
 
 ![Visual van de tabel Product met twee rijen, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_03.png)
 
-Laten we er ook van uitgaan dat de tabel Sales maar vier rijen heeft, waaronder een voor een product C. Vanwege een fout met betrekking tot referentiële integriteit komt de rij voor product C niet voor in de tabel**Product**.
+Laten we er ook van uitgaan dat de tabel Sales maar vier rijen heeft, waaronder een voor een product C. Vanwege een fout met betrekking tot referentiële integriteit komt de rij voor product C niet voor in de tabel **Product**.
 
 ![Visual van de tabel Sales met vier rijen, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_04.png)
 
@@ -106,7 +106,7 @@ Stel dat u de nieuwe tabel Sales definieert als de combinatie van alle staten di
 
 ![De visual voor staat, bevolking en verkoop, Power BI Desktop](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-Zoals u ziet, is TX&mdash; afgebeeld met **Sales**-gegevens, maar onbekende *Population*-gegevens&mdash; en is &mdash;New York**afgebeeld met bekende**Population **-gegevens, maar zonder** Sales&mdash;-gegevens. Deze oplossing is niet optimaal en veroorzaakt veel problemen. Voor relaties met een veel-op-veel-kardinaliteit kunnen de resulterende problemen worden opgelost, zoals beschreven in de volgende sectie.
+Zoals u ziet, is TX&mdash; afgebeeld met **Sales**-gegevens, maar onbekende *Population*-gegevens&mdash; en is &mdash;New York **afgebeeld met bekende** Population **-gegevens, maar zonder** Sales&mdash;-gegevens. Deze oplossing is niet optimaal en veroorzaakt veel problemen. Voor relaties met een veel-op-veel-kardinaliteit kunnen de resulterende problemen worden opgelost, zoals beschreven in de volgende sectie.
 
 ## <a name="use-a-relationship-with-a-many-many-cardinality-instead-of-the-workaround"></a>Een relatie met een veel-op-veel-kardinaliteit gebruiken in plaats van de tijdelijke oplossing
 

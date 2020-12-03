@@ -1,26 +1,26 @@
 ---
 title: 'Het nieuwe uiterlijk: Waar zijn de acties gebleven?'
 description: De Power BI-service (app.powerbi.com) heeft een nieuw uiterlijk en veel acties zijn verplaatst. Dit artikel bevat tabellen met een overzicht van de oude en de nieuwe locaties.
-author: maggiesMSFT
+author: mihart
+ms.author: mihart
 ms.reviewer: maggies
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/22/2020
-ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 572943a437ebf0380b254e8b659699d676e9001f
-ms.sourcegitcommit: fddba666c6ea90d525a1c3188bbd3c4a03410cdc
+ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "92462160"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96415123"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Het nieuwe uiterlijk: Waar zijn de acties gebleven?
 
 De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Als gevolg hiervan zijn veel menuacties verplaatst. In de tabellen in dit artikel wordt de oude locatie aan de nieuwe locatie gekoppeld. Zie [het nieuwe uiterlijk van de Power BI-service](service-new-look.md) voor meer informatie.
 
-Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop** ? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md).
+Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md).
 
 ## <a name="report-actions-in-the-new-look"></a>Rapportacties in het nieuwe uiterlijk
 
