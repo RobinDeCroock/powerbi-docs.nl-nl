@@ -2,20 +2,20 @@
 title: Aanmelden en afmelden
 description: Leer hoe u zich kunt aanmelden bij Power BI-service op het web en hoe u zich kunt afmelden.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 Ms.custom: css_fy20Q4
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/06/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bea5b36c98ab8a62b444bfc731b5d54df6550f0f
-ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
+ms.openlocfilehash: 18fe7dc1c2d1b064d28e32782dc58fcbcf92341d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "91780389"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389616"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Aanmelden bij de Power BI-service
 
@@ -68,7 +68,7 @@ Op de startpagina ziet u alle inhoud die u gemachtigd bent om te gebruiken. In h
 Als u niet wilt dat Power BI op uw startpagina wordt geopend, kunt u [een **aanbevolen** dashboard of rapport](end-user-featured.md) instellen dat in plaats daarvan wordt geopend. 
 
 ## <a name="safely-interact-with-content"></a>Veilig omgaan met inhoud
-Als ***zakelijke gebruiker*** krijgt u inhoud van anderen en gaat u werken met die inhoud om de gegevens te verkennen en zakelijke beslissingen te nemen.  Wees gerust als u filtert, segmenteert, u abonneert, exporteert en de grootte wijzigt: uw werk is niet van invloed op de onderliggende gegevensset of de oorspronkelijke gedeelde inhoud (dashboards en rapporten). Power BI is een veilige ruimte voor u om te verkennen en te experimenteren. Dat betekent niet dat u uw wijzigingen niet kunt opslaan: dat kunt u wel. Maar deze wijzigingen zijn alleen van invloed op **uw** weergave van de inhoud. En om terug te keren naar de oorspronkelijke standaardweergave is eenvoudig: u hoeft slecht te klikken op een knop.
+Als **_zakelijke gebruiker_ *_ krijgt u inhoud van anderen en gaat u werken met die inhoud om de gegevens te verkennen en zakelijke beslissingen te nemen.  Wees gerust als u filtert, segmenteert, u abonneert, exporteert en de grootte wijzigt: uw werk is niet van invloed op de onderliggende gegevensset of de oorspronkelijke gedeelde inhoud (dashboards en rapporten). Power BI is een veilige ruimte voor u om te verkennen en te experimenteren. Dat betekent niet dat u uw wijzigingen niet kunt opslaan: dat kunt u wel. Maar deze wijzigingen zijn alleen van invloed op _* uw** weergave van de inhoud. En om terug te keren naar de oorspronkelijke standaardweergave is eenvoudig: u hoeft slecht te klikken op een knop.
 
 ![Knop Standaardinstelling herstellen](media/end-user-sign-in/power-bi-reset.png)
 

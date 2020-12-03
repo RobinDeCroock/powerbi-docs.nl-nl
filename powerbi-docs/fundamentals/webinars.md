@@ -2,18 +2,18 @@
 title: Power BI-webinars
 description: Power BI-webinars
 author: kfollis
+ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 09/22/2020
-ms.author: kfollis
-ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.date: 12/01/2020
+ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020016"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502013"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) is een leverancier die werkt met Chauncy Freels en helpt bij het onderhouden van deze lijst met webinars"
@@ -22,19 +22,30 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 ## <a name="upcoming-webinars"></a>Komende webinars
 
-**Snel aan de slag met Power BI**  
-door Miguel Martinez, Microsoft  
-[Registreer u voor de uitzending van 5 november 2020 van 18:00 tot 19:00 uur UTC](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
-
 [Komende webinars van de Power BI-community](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Aanbevolen webinars
 
-Aan de slag met deze populaire on-demand webinars
+Aan de slag met deze populaire on-demand webinars:
+
+**Snel aan de slag met Power BI**  
+door Miguel Martinez, Microsoft  
+[Registreer u voor de uitzending van 5 november 2020 van 18:00 tot 19:00 uur UTC](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
+**Stimuleer een externe gegevenscultuur met Power BI en Microsoft Teams**  
+door Lukasz Pawlowski  
+[Nu bekijken](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+
+**Samen beter: 5 voordelen die Excel-gebruikers uit het gebruik van Power BI kunnen halen**  
+door Miguel Martinez en Carlos Otero  
+[Nu bekijken](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
 
 **Uw gegevens in realtime bewaken met Microsoft Power BI**  
 door Miguel Martinez en Peter Myers  
 [Nu bekijken](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**Versnel Power BI op Azure Data Lake Storage met Dremio**  
+door Chris Webb en Tomer Shiran [Nu bekijken]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
 
 **Schaalbare BI-oplossingen bouwen met Power BI en Snowflake**  
 door Chris Webb, Craig Collier en Chris Holliday  

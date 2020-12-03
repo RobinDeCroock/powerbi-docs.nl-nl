@@ -2,25 +2,28 @@
 title: Integratie van de mobiele Power BI-app met Siri-snelkoppelingen
 description: Het gebruik van Siri-snelkoppelingen voor rechtstreekse toegang tot de Power BI-inhoud die u nodig hebt.
 author: paulinbar
+ms.author: painbar
 manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 01/15/2020
-ms.author: painbar
-ms.openlocfilehash: 8a0bafb505412db8d2126ba86df3c256d1b7d1c7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 12/01/2020
+ms.openlocfilehash: 0bf1fb3f921b195be430e21f6f0b0bf2b0eeb473
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220236"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96501967"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app"></a>Siri-snelkoppelingen gebruiken in de mobiele Power BI-app voor iOS
 
 Gebruik Siri-snelkoppelingen voor rechtstreekse toegang tot de Power BI-inhoud die u nodig hebt.
 
-Gebruik de integratie van Siri-snelkoppelingen om eenvoudig en snel toegang te krijgen tot uw veelgebruikte rapporten of dashboards. Maak een snelkoppeling naar uw item, zodat u Siri kunt vragen het te starten wanneer u de gegevens wilt bekijken.
+Voor snelle en eenvoudige toegang tot uw veelgebruikte rapporten of dashboards kunt u een Siri-snelkoppeling maken om rechtstreekse toegang te krijgen tot de Power BI-inhoud die u nodig hebt. Met een Siri-snelkoppeling hoeft u alleen maar Siri te vragen om deze te openen wanneer u de gegevens wilt bekijken.
+
+> [!NOTE]
+> De integratie van Siri-snelkoppelingen met de mobiele Power BI-app is beschikbaar voor iPhones en iPads met iOS12 en hoger.
 
 ## <a name="create-siri-shortcut-for-a-report-or-dashboard"></a>Siri-snelkoppeling voor een rapport of dashboard maken
 
@@ -55,13 +58,11 @@ Voor een Power BI-rapport komt u terecht op de pagina die is vastgelegd toen u d
 ## <a name="edit-siri-shortcut-phrase"></a>De zin voor een Siri-snelkoppeling bewerken 
 U kunt de zin voor uw snelkoppeling bewerken met behulp van de knop **Siri-snelkoppeling** op het actiemenu (...) **Rapport** of **Dashboard**. De pagina Siri-snelkoppeling wordt geopend met de optie **Zin opnieuw opnemen**. 
 
+## <a name="create-a-home-screen-shortcut-from-your-siri-shortcut"></a>Een snelkoppeling op het startscherm maken op basis van uw Siri-snelkoppeling 
+Wanneer u een Siri-snelkoppeling hebt gemaakt naar bepaalde Power BI-inhoud, kunt u deze ook toevoegen aan het startscherm van uw apparaat, zodat u die inhoud rechtstreeks vanuit uw startscherm kunt openen met één tik. Volg de instructies op https://support.apple.com/guide/shortcuts/apd735880972/ios.
+
 ## <a name="delete-siri-shortcut"></a>Een Siri-snelkoppeling verwijderen 
 Als u een snelkoppeling wilt verwijderen, gaat u naar het item en klik u in het actiemenu (...) op de actie **Siri-snelkoppeling**. De pagina **Siri-snelkoppeling** wordt geopend. Kies **Snelkoppeling verwijderen**.
-
-
-> [!NOTE]
-> De integratie van Siri-snelkoppelingen met de mobiele Power BI-app is beschikbaar voor iPhones en iPads met iOS12 en later.
-> 
 
 ## <a name="next-steps"></a>Volgende stappen
 Verkrijg meer informatie over de mobiele Power BI-app door het volgende te doen: 
@@ -69,4 +70,3 @@ Verkrijg meer informatie over de mobiele Power BI-app door het volgende te doen:
 * De [mobiele Power BI-app voor de iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) downloaden
 * [@MSPowerBI op Twitter](https://twitter.com/MSPowerBI) volgen
 * Deelnemen aan gesprekken van de [Power BI-community](https://community.powerbi.com/)
-

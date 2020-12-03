@@ -2,19 +2,19 @@
 title: Excel-werkmappen in Power BI Desktop importeren
 description: U kunt eenvoudig Excel-werkmappen met Power Query-query's, Power Pivot-modellen en Power View-werkbladen in Power BI Desktop importeren.
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-desktop
+ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/22/2020
-ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6fce5e88fa41c2eb7ed03b805494165344701da7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 874e95c6ac917ca723e67ae0741d5244a09f288d
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223526"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96411006"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Excel-werkmappen in Power BI Desktop importeren
 Met Power BI Desktop kunt u eenvoudig Excel-werkmappen met Power Query-query's, Power Pivot-modellen en Power View-werkbladen in Power BI Desktop importeren. Power BI Desktop maakt automatisch rapporten en visuals op basis van de Excel-werkmap. Wanneer deze rapporten eenmaal zijn geïmporteerd, kunt u deze blijven verbeteren en verfijnen met Power BI Desktop, met behulp van de bestaande functies en nieuwe functies die met elke maandelijkse update van Power BI Desktop worden uitgebracht.
@@ -71,6 +71,6 @@ Er zijn enkele beperkingen voor het importeren van een werkmap in Power BI Deskt
 * **Hiërarchieën:** Dit type gegevensmodelobject wordt momenteel niet ondersteund in Power BI Desktop. Daarom worden hiërarchieën overgeslagen bij het importeren van een Excel-werkmap in Power BI Desktop.
 * **Binaire gegevenskolommen:** Dit type gegevensmodelkolom wordt momenteel niet ondersteund in Power BI Desktop. Kolommen met binaire gegevens worden verwijderd uit de resulterende tabel in Power BI Desktop.
 * **Niet-ondersteunde Power View-elementen:** Er zijn enkele functies in Power View die niet beschikbaar zijn in Power BI Desktop, zoals thema's of bepaalde soorten visualisaties (spreidingsdiagrammen met afspeelas, inzoom-gedrag, enzovoort). Deze niet-ondersteunde visualisaties veroorzaken *Niet-ondersteunde visualisatie*-berichten op de betreffende locaties in het Power BI Desktop-rapport, die u naar behoefte kunt verwijderen of opnieuw configureren.
-* **Benoemde bereiken met** ***Van tabel*** **in Power Query, of met** ***Excel.CurrentWorkbook*** **in M:** Het importeren van gegevens uit deze benoemde bereiken in Power BI Desktop wordt momenteel niet ondersteund, maar het is een geplande update. Deze benoemde bereiken worden momenteel in Power BI Desktop geladen als een verbinding met de externe Excel-werkmap.
+* **Benoemde bereiken met** **_Van tabel_ *_ _* in Power Query, of met** **_Excel.CurrentWorkbook_ *_ _* in M:** Het importeren van gegevens uit deze benoemde bereiken in Power BI Desktop wordt momenteel niet ondersteund, maar het is een geplande update. Deze benoemde bereiken worden momenteel in Power BI Desktop geladen als een verbinding met de externe Excel-werkmap.
 * **PowerPivot naar SSRS:** Externe PowerPivot-verbindingen naar SSRS (SQL Server Reporting Services) worden momenteel niet ondersteund, omdat deze gegevensbron momenteel niet beschikbaar is in Power BI Desktop.
 

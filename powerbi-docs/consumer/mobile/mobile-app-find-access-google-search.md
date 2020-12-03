@@ -2,17 +2,17 @@
 title: Uw inhoud zoeken en openen met Google Zoeken
 description: Informatie over het zoeken en openen van uw inhoud met Google Zoeken.
 author: paulinbar
+ms.author: painbar
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 04/06/2020
-ms.author: painbar
-ms.openlocfilehash: cb6d2d1474ffaeddc98b5019830920f3064e3df2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2bd49b9578c8c0ba2d24bd74d77251bc663cf7fa
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235154"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96414617"
 ---
 # <a name="find-and-access-your-content-with-google-search"></a>Uw inhoud zoeken en openen met Google Zoeken
 
@@ -28,7 +28,7 @@ Als u een specifiek item wilt openen en niet zeker weet waar u het moet zoeken, 
 
 ## <a name="search-using-google-search"></a>Zoeken met Google Zoeken
 
-Gebruik in het zoekvak van Google de vorm ***zoeken naar &lt;zoekitem&gt; in power bi***. Bijvoorbeeld: **zoeken naar verkopen in power bi**.
+Gebruik in het zoekvak van Google de vorm ***zoeken naar &lt;zoekitem&gt; in power bi** _. Bijvoorbeeld: _*zoeken naar verkopen in power bi**.
 
 * Als er slechts één overeenkomst wordt gevonden, wordt het item waarnaar u hebt gezocht geopend in de mobiele Power BI-app.
 * Als er meer dan één overeenkomst wordt gevonden, wordt Power BI geopend in het zoekscherm, gefilterd op basis van uw aanvraag.

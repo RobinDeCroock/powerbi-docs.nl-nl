@@ -2,19 +2,19 @@
 title: Wat is een zakelijke gebruiker van Power BI?
 description: Overzicht van Power BI voor zakelijke gebruikers (ook wel eindgebruikers genoemd).
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: overview
 ms.date: 10/11/2020
-ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7616d84ca93c336e606b3a96e7a362a1b57e6a96
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
+ms.openlocfilehash: 133ffefd32008a138c736094dadcfe154211e98c
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91982051"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96391226"
 ---
 # <a name="the-power-bi-service-for-business-users"></a>De Power BI-service voor zakelijke gebruikers
 
@@ -28,7 +28,7 @@ Ze sturen u allerlei soorten rapporten, spreadsheets, e-mailberichten met grafie
 
 ## <a name="the-power-bi-service-for-business-users"></a>De Power BI-service voor *zakelijke gebruikers*
 
-Met Power BI wordt uw werk niet alleen eenvoudiger, maar kunt u ook meteen meer indruk achterlaten. Al die gegevens worden omgezet in diagrammen en grafieken, waarmee uw gegevens worden gevisualiseerd. In plaats van lange lijsten of tabellen met nummers en woorden, zien uw gegevensinzichten er ***prachtig*** uit: kleurrijke en aantrekkelijke visuals waarmee verhalen over de inzichten in uw gegevens worden verteld. 
+Met Power BI wordt uw werk niet alleen eenvoudiger, maar kunt u ook meteen meer indruk achterlaten. Al die gegevens worden omgezet in diagrammen en grafieken, waarmee uw gegevens worden gevisualiseerd. In plaats van lange lijsten of tabellen met nummers en woorden, zien uw gegevensinzichten er ***prachtig** _ uit: kleurrijke en aantrekkelijke visuals waarmee verhalen over de inzichten in uw gegevens worden verteld. 
 
 ![Schermopname van een Power BI-rapport met verschillende soorten grafieken.](media/end-user-consumer/power-bi-consumer-examples.png)
  
@@ -38,7 +38,7 @@ Open gewoon de Power BI-service in een browser of op een mobiel apparaat. U en u
 
 Omdat de inhoud niet statisch is, kunt u hier induiken om trends, inzichten en andere business intelligence te zoeken. Deel de inhoud op in fragmenten en segmenten en stel zelfs vragen in uw eigen bewoording. Of doe het rustig aan en laat uw gegevens zelf interessante inzichten voor u vinden; ontvang meldingen wanneer gegevens worden gewijzigd en krijg e-mailrapporten volgens een door u ingestelde planning. Al uw gegevens via de cloud of on-premises binnen handbereik vanaf elk apparaat, wanneer u maar wilt. En dat is nog maar het begin van wat er allemaal met Power BI mogelijk is. 
 
-## <a name="am-i-a-power-bi-business-user"></a>Ben ik een *zakelijke gebruiker* van Power BI?
+## <a name="am-i-a-power-bi-_business-user"></a>Ben ik een _zakelijke gebruiker* van Power BI?
 
 De manier waarop u met Power BI werkt, is afhankelijk van uw functie. Als eindgebruiker of *zakelijke gebruikers* bent u iemand die inhoud (dashboards, rapporten en apps) van collega's ontvangt. U werkt in de onlineversie of de mobiele versie van Power BI (de Power BI-service genoemd) om deze inhoud te controleren en te gebruiken en uiteindelijk uw zakelijke beslissingen te nemen. 
    

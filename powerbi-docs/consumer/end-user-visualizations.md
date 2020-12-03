@@ -2,27 +2,27 @@
 title: Werken met visualisaties (visuals) als een zakelijke gebruiker
 description: 'Concepten en terminologie in Power BI: visualisaties, visuals. Wat is een Power BI-visualisatie of -visual?'
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 10/7/2020
-ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f463e9a065ddfa550cdab6929393cfb71ce30158
-ms.sourcegitcommit: d2f633b4bfa271051ba1d2ef0e6e8da7dcf42818
+ms.openlocfilehash: dfa030b487e1e4d9f6f4d1bfd39cfab8baa72c71
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "91830271"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96389179"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Werken met visuals in rapporten, dashboards en apps
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-In de meest eenvoudige vorm is een ***visualisatie*** (of *visual* ) een type diagram dat is samengesteld door Power BI- *ontwerpers* met behulp van de gegevens in rapporten en gegevenssets. 
+In de meest eenvoudige vorm is een ***visualisatie** _ (of _visual*) een type diagram dat is samengesteld door Power BI-*ontwerpers* met behulp van de gegevens in rapporten en gegevenssets. 
 
-Visuals bevinden zich op dashboards, in rapporten en kunnen met Power BI Q&A snel worden gemaakt. Wanneer een ontwerper een visual in een rapport maakt, kan hij of zij deze visual aan een dashboard *vastmaken* . Een [visual op een dashboard wordt een *tegel*](end-user-tiles.md) genoemd. dit dashboard heeft acht tegels. 
+Visuals bevinden zich op dashboards, in rapporten en kunnen met Power BI Q&A snel worden gemaakt. Wanneer een ontwerper een visual in een rapport maakt, kan hij of zij deze visual aan een dashboard *vastmaken*. Een [visual op een dashboard wordt een *tegel*](end-user-tiles.md) genoemd. dit dashboard heeft acht tegels. 
 
 ![Dashboard met tegels](media/end-user-visualizations/power-bi-dashboard.png)
 
@@ -31,9 +31,9 @@ Visuals bevinden zich op dashboards, in rapporten en kunnen met Power BI Q&A sne
 
 ## <a name="what-can-i-do-with-visuals"></a>Wat kan ik doen met visuals?
 
-Visuals worden gemaakt door *ontwerpers* van rapporten en dashboards en worden gedeeld met collega's. De ontwerper wijst verschillende machtigingen toe aan collega's, afhankelijk van de manier waarop de collega het rapport of het dashboard gaat gebruiken. Zo kan een *ontwikkelaar* andere machtigingen krijgen dan een *zakelijke gebruiker* . 
+Visuals worden gemaakt door *ontwerpers* van rapporten en dashboards en worden gedeeld met collega's. De ontwerper wijst verschillende machtigingen toe aan collega's, afhankelijk van de manier waarop de collega het rapport of het dashboard gaat gebruiken. Zo kan een *ontwikkelaar* andere machtigingen krijgen dan een *zakelijke gebruiker*. 
 
-In de tabel hieronder staan de meest gangbare taken voor een *zakelijke gebruiker* , met koppelingen naar stapsgewijze instructies. *Zakelijke gebruikers* kunnen op verschillende manieren werken met visuals om inzichten te onthullen en om zakelijke beslissingen te nemen die zijn gebaseerd op gegevens.  
+In de tabel hieronder staan de meest gangbare taken voor een *zakelijke gebruiker*, met koppelingen naar stapsgewijze instructies. *Zakelijke gebruikers* kunnen op verschillende manieren werken met visuals om inzichten te onthullen en om zakelijke beslissingen te nemen die zijn gebaseerd op gegevens.  
 
 Voor veel van deze opties kan uw beheerder of de *ontwerper* de mogelijkheid om deze functies te bekijken of te gebruiken voor u uitschakelen. En sommige van deze functies werken alleen voor specifieke soorten visuals.  Als u vragen hebt, neemt u contact op met uw beheerder of de eigenaar van het rapport of dashboard. Als u de eigenaar wilt zoeken, selecteert u het dashboard of de vervolgkeuzelijst van het rapport. 
 

@@ -2,20 +2,20 @@
 title: Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
 description: Leer hoe u de aggregatie in een grafiek kunt wijzigen (som, gemiddelde, maximum, enzovoort) in de Power BI-service.
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 06/16/2020
-ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 4addd87085eb4321253bcf34842ca135f536f981
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4ed1d6c68549e621f42b23d05a061e7fe1c9e230
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238120"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96395412"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Werken met aggregaties (som, gemiddelde, enzovoort) in de Power BI-service
 
@@ -39,7 +39,7 @@ In het voorbeeld hieronder:
 
    ![Schermopname van een voorbeeldgegevensset.](media/service-aggregates/power-bi-aggregate-chart.png)
 
-Wanneer u een visualisatie maakt in Power BI, worden numerieke velden geaggregeerd (de standaardwaarde is *som*) via een categorisch veld.  Bijvoorbeeld 'Verkochte eenheden ***per Product***', 'Verkochte eenheden ***per Maand***' en 'Productieprijs ***per Segment***'. In Power BI worden sommige numerieke velden aangeduid als **metingen**. U kunt metingen eenvoudig herkennen in de Power BI-rapporteditor. In de lijst **Velden** worden metingen weergegeven met het symbool ∑ ernaast. Zie [De rapporteditor... een rondleiding volgen](service-the-report-editor-take-a-tour.md) voor meer informatie.
+Wanneer u een visualisatie maakt in Power BI, worden numerieke velden geaggregeerd (de standaardwaarde is *som*) via een categorisch veld.  Bijvoorbeeld 'Verkochte eenheden ***per Product** _', 'Verkochte eenheden _*_per Maand_*_' en 'Productieprijs _*_per Segment_*_'. In Power BI worden sommige numerieke velden aangeduid als _*metingen**. U kunt metingen eenvoudig herkennen in de Power BI-rapporteditor. In de lijst **Velden** worden metingen weergegeven met het symbool ∑ ernaast. Zie [De rapporteditor... een rondleiding volgen](service-the-report-editor-take-a-tour.md) voor meer informatie.
 
 ![Schermopname van Power BI met de lijst Velden uitgelicht.](media/service-aggregates/power-bi-aggregate-fields.png)
 

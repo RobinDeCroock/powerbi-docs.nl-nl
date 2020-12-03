@@ -2,19 +2,19 @@
 title: Tips en trucs voor het maken van rapporten in Power BI
 description: Informatie over aanbevolen procedures voor het maken van rapporten in de Power BI-service en Power BI Desktop
 author: davidiseminger
+ms.author: davidi
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/07/2020
-ms.author: davidi
-ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 2684d5e29015e5fccd6eb75f0a4acf5f45542991
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91633533"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96412685"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Tips en trucs voor het maken van rapporten in Power BI Desktop
 Als uw gegevens optimaal te kunnen gebruiken, hebt u soms wat extra hulp nodig. We hebben een aantal tips en trucs voor u verzameld om u te helpen bij het maken van rapporten in Microsoft Power BI Desktop *en* in Pro-Plus-edities van Microsoft Excel 2016 of Excel 2013 waar de Power Pivot-invoegtoepassing is ingeschakeld en Power Query is geïnstalleerd en ingeschakeld. 
@@ -205,8 +205,8 @@ Vermijd een verscheidenheid aan visualisaties omwille van de verscheidenheid all
 * Zorg ervoor dat u kwantitatieve gegevens goed codeert. Gebruik niet meer dan 3 of 4 cijfers, wanneer u getallen weergeeft. Geef metingen weer met 1 of 2 cijfers links van de decimale punt, en gebruik een schaal voor duizendtallen of miljoenen, bijvoorbeeld 3,4 miljoen en niet 3.400.000.    
 * Probeer een combinatie van precisie- en tijdniveau te voorkomen. Zorg ervoor dat tijdsperioden begrijpelijk zijn.  Gebruik niet een diagram met de gegevens van de afgelopen maand naast gefilterde diagrammen uit een specifieke maand van het jaar.    
 * Gebruik bij voorkeur ook niet een combinatie van grote en kleine metingen op dezelfde schaal, zoals een lijn- of staafdiagram.  Bijvoorbeeld een meting in miljoenen, terwijl een andere in duizenden wordt weergegeven.  Met een dergelijke grote schaal is het lastig om de verschillen te zien in de meting die in duizenden wordt weergegeven.  Als u wilt combineren, kiest u een visualisatie (bijvoorbeeld een combinatiegrafiek) die het gebruik van een tweede as toestaat.    
-* Voorkom het gebruik van onnodige gegevenslabels in diagrammen. De waarden in staafdiagrammen zijn, ***indien groot genoeg***, meestal heel goed te begrijpen zonder dat het werkelijke getal hoeft te worden weergegeven.   
-* Let op hoe [diagrammen zijn gesorteerd](../consumer/end-user-change-sort.md). Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting. Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
+* Voorkom het gebruik van onnodige gegevenslabels in diagrammen. De waarden in staafdiagrammen zijn, ***indien groot genoeg** _, meestal heel goed te begrijpen zonder dat het werkelijke getal hoeft te worden weergegeven.   
+_ Let op hoe [diagrammen zijn gesorteerd](../consumer/end-user-change-sort.md). Als u de aandacht wilt vestigen op het hoogste of laagste getal, sorteert u op de meting. Als u wilt dat personen snel een bepaalde categorie kunnen vinden in een groot aantal categorieën, sorteert u op as.  
 * Cirkeldiagrammen werken het beste als er minder dan acht categorieën worden weergegeven. Omdat u in een cirkeldiagram geen waarden naast elkaar kunt weergeven, is het moeilijker om in een cirkeldiagram waarden te vergelijken dan in een staaf- of kolomdiagram. Cirkeldiagrammen zijn geschikter voor het weergeven van deel-naar-geheelrelaties dan voor het vergelijken van delen. En meterdiagrammen zijn ideaal voor het weergeven van de huidige status in de context van een doel.    
 
 Zie [Visualization types in Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) (Visualisatietypen in Power BI) voor meer visualisatiespecifieke instructies.  

@@ -2,19 +2,19 @@
 title: Wat is een dashboard en hoe kan ik er een openen?
 description: Dashboards zijn een belangrijke functie van de Power BI-service.
 author: mihart
+ms.author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
-ms.subservice: powerbi-consumer
+ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 08/30/2020
-ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2e2c4656c5436691df96b86f145e255153ff9f96
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 518310c6b4b0d45f02049c91a493b6394a4a50d2
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286682"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96400541"
 ---
 # <a name="dashboards-for-business-users-of-the-power-bi-service"></a>Dashboards voor zakelijke gebruikers van de Power BI-service
 
@@ -22,11 +22,11 @@ ms.locfileid: "89286682"
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-Een Power BI-***dashboard*** bestaat uit één pagina, ook wel een canvas genoemd, die gebruikmaakt van visualisaties om een verhaal te vertellen. Aangezien het maar één pagina betreft, bevat een goed ontworpen dashboard alleen de belangrijkste elementen van dat verhaal.
+Een Power BI-***dashboard** _ bestaat uit één pagina, ook wel een canvas genoemd, die gebruikmaakt van visuals om een verhaal te vertellen. Aangezien het maar één pagina betreft, bevat een goed ontworpen dashboard alleen de belangrijkste elementen van dat verhaal.
 
 ![Schermopname van een dashboard](media/end-user-dashboards/power-bi-dashboard.png)
 
-De visuals die u op het dashboard ziet, worden *tegels* genoemd. Ze zijn door *rapportontwerpers* *vastgemaakt* aan het dashboard. Als u een tegel selecteert, gaat u meestal naar de rapportpagina waar de visual is gemaakt. Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door de [basisconcepten van Power BI](end-user-basic-concepts.md) te lezen
+De visuals die u op het dashboard ziet, worden _tegels* genoemd. Ze zijn door *rapportontwerpers* *vastgemaakt* aan het dashboard. Als u een tegel selecteert, gaat u meestal naar de rapportpagina waar de visual is gemaakt. Als u geen ervaring hebt met Power BI kunt u een goede basis leggen door de [basisconcepten van Power BI](end-user-basic-concepts.md) te lezen
 
 > [!NOTE]
 > Dashboards kunnen [op mobiele apparaten worden bekeken en gedeeld](mobile/mobile-apps-view-dashboard.md).
@@ -42,8 +42,8 @@ Dashboards zijn een fantastische manier om uw bedrijf te monitoren, te zoeken na
 
 Een dashboard is niet alleen een mooi plaatje; het is interactief en de tegels worden bijgewerkt wanneer de onderliggende gegevens wijzigen.
 
-## <a name="dashboards-versus-reports-for-power-bi-business-users"></a>Dashboards versus rapporten voor ***zakelijke Power BI-gebruikers***
-Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visualisaties zijn. Maar vanuit de optiek van een *zakelijke Power BI-gebruiker* zijn er enkele belangrijke verschillen.
+## <a name="dashboards-versus-reports-for-power-bi-business-users_"></a>Dashboards versus rapporten voor ***zakelijke gebruikers** _ van Power BI
+Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visualisaties zijn. Maar vanuit de optiek van een _zakelijke gebruiker* van Power BI zijn er enkele belangrijke verschillen.
 
 | **Mogelijkheid** | **Dashboards** | **Rapporten** |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ Rapporten worden vaak verward met dashboards omdat dit ook canvassen met visuali
 
 
 ## <a name="dashboard-designers-and-dashboard-business-users"></a>Dashboardontwerpers en zakelijke dashboardgebruikers
-Als ***zakelijke Power BI-gebruiker*** ontvangt u dashboards van *ontwerpers*. Uitgebreidere informatie over dashboards leest u in deze onderwerpen:
+Als **_zakelijke gebruiker_* _ van Power BI ontvangt u dashboards van _ontwerpers*. Uitgebreidere informatie over dashboards leest u in deze onderwerpen:
 
 * [Een dashboard weergeven](end-user-dashboard-open.md)
 * Meer informatie over [dashboardtegels](end-user-tiles.md) en wat er gebeurt als u een tegel selecteert.

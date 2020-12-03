@@ -2,18 +2,18 @@
 title: Wat is er nieuw in de mobiele apps voor Power BI
 description: Wat is er nieuw in de mobiele apps voor Power BI
 author: paulinbar
+ms.author: painbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/01/2020
-ms.author: painbar
-ms.openlocfilehash: 83a280b94a6db937133e0d7ab1e6d7ad64af06f4
-ms.sourcegitcommit: 29cafa1602efb56cfa8dbd0010dd04ad3fcdd02c
+ms.date: 12/01/2020
+ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
+ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "93355929"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96502048"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -25,9 +25,19 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
+## <a name="december-2020"></a>December 2020
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Er is een donkere modus toegevoegd aan Power BI - Mobiel (Android)
+
+Probeer de nieuwe donkere modus in de mobiele app van Power BI voor Android-services. In de donkere modus ziet u lichte tekst op een donkere achtergrond, waardoor de helderheid van het scherm wordt verkleind en de inhoud gemakkelijker wordt weergegeven. U kunt schakelen tussen thema's in de instellingen voor uiterlijk. [Meer informatie](mobile-apps-dark-mode.md)
+
+![Schermopname van de donkere modus in de mobiele app van Power BI voor Android.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)
+
+### <a name="maximize-the-view-with-full-screen-mode-ipads"></a>De weergave maximaliseren met de volledig scherm-modus (iPads)
+We hebben een nieuwe knop toegevoegd aan de mobiele app voor iPads waarmee u kop- en voetteksten uit de app kunt verwijderen, zodat u de maximale ruimte hebt voor het weergeven van uw inhoud. Tik simpelweg op de wisselknop voor volledig scherm ![Schermopname van het pictogram voor de volledig scherm-modus.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) in de rechterbovenhoek van het scherm om tussen de modi te schakelen.
+
 ## <a name="november-2020"></a>November 2020
 ### <a name="maximize-the-view-with-full-screen-mode-android-tablets"></a>De weergave maximaliseren met de volledig scherm-modus (Android-tablets)
-We hebben een nieuwe knop toegevoegd aan de mobiele app voor Android-tablets waarmee u kop- en voetteksten uit de app kunt verwijderen, zodat u de maximale ruimte hebt voor het weergeven van uw inhoud. Tik gewoon op de wisselknop voor volledig scherm in de rechterbovenhoek van het scherm om tussen modi te schakelen.
+We hebben een nieuwe knop toegevoegd aan de mobiele app voor Android-tablets waarmee u kop- en voetteksten uit de app kunt verwijderen, zodat u de maximale ruimte hebt voor het weergeven van uw inhoud. Tik simpelweg op de wisselknop voor volledig scherm ![Schermopname van het pictogram voor de volledig scherm-modus.](media/mobile-whats-new-in-the-mobile-apps/power-bi-full-screen-icon.png) in de rechterbovenhoek van het scherm om tussen de modi te schakelen.
 
 ## <a name="october-2020"></a>Oktober 2020
 ### <a name="automatic-page-refresh-is-now-supported-windows"></a>Automatische paginavernieuwing wordt nu ondersteund (Windows)

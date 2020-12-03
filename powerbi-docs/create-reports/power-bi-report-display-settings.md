@@ -2,25 +2,25 @@
 title: Instellingen voor de paginaweergave in een Power BI-rapport
 description: Instellingen voor paginaweergave en instellingen voor paginaweergave voor een rapport
 author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 05/29/2019
-ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c08d4959b8e3958651282ac0fd52e6ed80a6b345
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9452a4a6340480bcb6c8b646c16125fe73f68235
+ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237267"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "96393480"
 ---
 # <a name="apply-page-display-settings-in-a-power-bi-report"></a>Instellingen voor de paginaweergave toepassen in een Power BI-rapport
 We begrijpen dat het essentieel is dat uw rapport perfect is ingedeeld. Dit kan lastig zijn omdat u en uw collega's dezelfde rapporten mogelijk weergeven op schermen met verschillende verhoudingen en afmetingen. 
 
-De standaardweergave is **Aanpassen aan pagina** en standaardgrootte van de weergave is **16:9**. Als u een andere hoogte-breedteverhouding wilt vastleggen of uw rapport op een andere manier wilt aanpassen, kunt u twee opties gebruiken: instellingen voor ***Paginaweergave*** en instellingen voor ***Paginaformaat***.
+De standaardweergave is **Aanpassen aan pagina** en standaardgrootte van de weergave is **16:9**. Als u een andere hoogte-breedteverhouding wilt vastleggen of uw rapport op een andere manier wilt aanpassen, kunt u twee opties gebruiken: instellingen voor **_Paginaweergave_* _ en instellingen voor _*_Paginaformaat_*_.
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ De standaardweergave is **Aanpassen aan pagina** en standaardgrootte van de weer
 De instellingen voor de paginaweergave zijn zowel beschikbaar in de Power BI-service als in Power BI Desktop, maar de interfaces zijn niet helemaal hetzelfde. In de volgende secties wordt uitgelegd waar u de weergave-instellingen in de Power BI-hulpprogramma's kunt vinden.
 
 ### <a name="in-power-bi-desktop"></a>In Power BI Desktop
-Selecteer in de rapportweergave het tabblad **Weergeven** om de Instellingen voor paginaweergave en de instellingen voor de telefoonindeling te openen.
+Selecteer in de rapportweergave het tabblad _ *Weergeven** om de Instellingen voor paginaweergave en de instellingen voor de telefoonindeling te openen.
 
   ![Weergave-instellingen voor bureaubladpagina](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
 
