@@ -118,7 +118,7 @@
               href: service-premium-metrics-app.md
             - name: Capaciteiten bewaken in de beheerportal
               href: service-admin-premium-monitor-portal.md
-            - name: Grote modellen configureren (preview)
+            - name: Grote gegevenssets configureren
               href: service-premium-large-models.md
             - name: Meerdere geografische gebieden configureren
               href: service-admin-premium-multi-geo.md
