@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 11/13/2020
+ms.date: 12/03/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c2be9c2c266c489dbb93f5e3f93c3c120cae5c3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9df90a41143ddb6d0657aa0d61dc83f25ecbae1a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390605"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578043"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Uw dashboards, rapporten en apps zoeken
 
@@ -42,13 +42,13 @@ In het volgende onderwerp worden al deze opties voor het zoeken en weergeven van
 ## <a name="home-canvas"></a>Startcanvas
 Op het startcanvas ziet u alle inhoud die u gemachtigd bent om te gebruiken. Ook wordt het startcanvas bijgewerkt met aanbevolen inhoud en trainingsmateriaal. In het begin staat er misschien niet veel inhoud op uw startcanvas, maar dit verandert wanneer u Power BI begint te gebruiken met uw collega's.
 
-![Een schermopname van het welkomstscherm voor een nieuwe gebruiker van de Power BI-service.](media/end-user-home/power-bi-home-new-user.png)
+![Een schermopname van het welkomstscherm voor een nieuwe gebruiker van de Power BI-service.](media/end-user-home/power-bi-home-new-users.png)
 
 
  
 Wanneer u in de Power BI-service werkt, krijgt u dashboards, rapporten en apps van collega's waardoor de Power BI-startpagina na verloop van tijd steeds voller zal raken. Na een tijdje ziet het er bijvoorbeeld uit zoals de volgende startpagina.
 
-![Een schermopname van het welkomstscherm voor de Power BI-service.](media/end-user-home/power-bi-experienced-user.png)
+![Een schermopname van het welkomstscherm voor de Power BI-service.](media/end-user-home/power-bi-experienced-users.png)
 
  
 In de volgende onderwerpen gaan we dieper in op de startpagina voor een ervaren gebruiker, van boven naar beneden.

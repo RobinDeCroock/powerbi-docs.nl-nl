@@ -7,20 +7,20 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/27/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e431b6a94b7cd881adba27597aa9cbfa6a54425
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video
+ms.openlocfilehash: 9a78ac3aa63ee65ea0e60a384a41ac4a6544c610
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391203"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578194"
 ---
 # <a name="view-a-dashboard"></a>Een dashboard weergeven
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 *Zakelijke gebruikers* van Power BI besteden veel tijd aan het bekijken van dashboards. Dashboards zijn ontworpen om specifieke informatie uit de onderliggende rapporten en gegevenssets te markeren. Zakelijke gebruikers van Power BI gebruiken deze informatie voor het bijhouden, controleren en beantwoorden van vragen, het doen van tests, en meer. Allemaal om zakelijke beslissingen te kunnen nemen die zijn gebaseerd op gegevens.
 

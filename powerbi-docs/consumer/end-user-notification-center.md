@@ -8,20 +8,20 @@ featuredvideoid: bZMSv5KAlcE
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 598cbca7756ab6f929180da0c3a95b68643abf00
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-bZMSv5KAlcE
+ms.openlocfilehash: d476fdfe18b12307be18e84f1dac42cc5f7fc632
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96399759"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613665"
 ---
 # <a name="view-power-bi-notifications"></a>Power BI-meldingen weergeven
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Het meldingencentrum is een sequentiële feed met informatie over uw Power BI-ervaring. Open het meldingencentrum om berichten over nieuwe dashboards die met u zijn gedeeld, informatie over Power BI-gebeurtenissen en -vergaderingen, waarschuwingen die u hebt ingesteld en meer weer te geven. U kunt [meldingen instellen in de Power BI-service](end-user-alerts.md), maar ook in de mobiele Power BI-apps.
 

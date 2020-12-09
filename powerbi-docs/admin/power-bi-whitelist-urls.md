@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: 433b3d53ccb653e1a945a83176ab9ebc19ccac5d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1495400a59d8250f407a5f7415a550871501e4e3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409235"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577504"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>Power BI URL's toevoegen aan uw acceptatielijst
 [//]: # "suparnap, miwehnia, natham zijn contactpersonen voor het onderhouden van deze lijst"
@@ -76,7 +76,7 @@ Als u gegevens wilt ophalen uit specifieke gegevensbronnen, zoals OneDrive, moet
 | 2 | **Optioneel:** Aanmelden en gegevens voor inhoudspakketten ophalen | Afhankelijk van de gebruikte inhoudspakketten | Afhankelijk van de gebruikte inhoudspakketten |
 | 3 | **Optioneel:** Bestanden importeren uit OneDrive - Persoonlijk | Zie de [Vereiste URL's en poorten voor OneDrive-site](/onedrive/required-urls-and-ports) | N.v.t. |
 | 4 | **Optioneel:** Power BI in zelfstudievideo van 60 seconden | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
-| 5 | **Optioneel:** Bronnen voor PubNub-streaminggegevens | Zie de [PubNub-documentatie](https://support.pubnub.com/support/solutions/articles/14000043522) | N.v.t. |
+| 5 | **Optioneel:** Bronnen voor PubNub-streaminggegevens | Zie de [PubNub-documentatie](https://support.pubnub.com/hc/en-us/categories/360004336832-PubNub-101) | N.v.t. |
 | | | |
 
 ## <a name="dashboard-and-report-integration"></a>Integratie van dashboard en rapport

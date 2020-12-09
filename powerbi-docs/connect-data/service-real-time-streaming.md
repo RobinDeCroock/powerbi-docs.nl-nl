@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 322ad95c561be6ca4c6a89df08404137545c1756
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a4c652a0728dcecde960e8faba2070fc5a2b14e4
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401967"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577389"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Realtimestreaming in Power BI
 Realtimestreaming van Power BI laat u gegevens streamen en dashboards in real time bijwerken. Elke visual of dashboard dat is gemaakt in Power BI, kan voor realtimegegevens en visuals weergeven en bijwerken. De apparaten en bronnen van gestreamde gegevens kunnen variëren van fabriekssensoren tot bronnen van sociale media, maar ook metrische gebruiksgegevens van services en vele andere apparaten waaruit tijdgebonden gegevens kunnen worden verzameld of verzonden.
@@ -52,7 +52,7 @@ De enige manier om een streaminggegevensset te visualiseren, is door het toevoeg
 In de praktijk zijn streaminggegevenssets en de bijbehorende visuele elementen het meest geschikt voor situaties waarin het essentieel is om de vertraging tussen het pushen en visualiseren van de gegevens zoveel mogelijk te beperken. Bovendien wordt het aanbevolen om de gegevens te pushen in een indeling die als zodanig kan worden weergegeven, dus zonder dat extra aggregaties nodig zijn. Voorbeelden van dergelijke gegevens zijn temperaturen en vooraf berekende gemiddelden.
 
 ### <a name="pubnub-streaming-dataset"></a>PubNub-streaminggegevensset
-In het geval van een **PubNub**-streaminggegevensset gebruikt de Power BI-webclient de PubNub-SDK om een bestaande PubNub-gegevensstroom te lezen. Er worden geen gegevens opgeslagen door de Power BI-service. Omdat deze aanroep rechtstreeks vanuit de webclient wordt gedaan, moet u verkeer naar PubNub in de whitelist opnemen als u tot dusver alleen goedgekeurd uitgaand verkeer van uw netwerk toestaat. Raadpleeg de instructies in het ondersteuningsartikel over het [goedkeuren van uitgaand verkeer voor PubNub](https://support.pubnub.com/support/solutions/articles/14000043522-can-i-whitelist-ips-for-pubnub-traffic-).
+In het geval van een **PubNub**-streaminggegevensset gebruikt de Power BI-webclient de PubNub-SDK om een bestaande PubNub-gegevensstroom te lezen. Er worden geen gegevens opgeslagen door de Power BI-service. Omdat deze aanroep rechtstreeks vanuit de webclient wordt gedaan, moet u verkeer naar PubNub in de whitelist opnemen als u tot dusver alleen goedgekeurd uitgaand verkeer van uw netwerk toestaat. Raadpleeg de instructies in het ondersteuningsartikel over het [goedkeuren van uitgaand verkeer voor PubNub](https://support.pubnub.com/hc/en-us/articles/360051496672-Can-I-whitelist-IPs-for-PubNub-traffic-).
 
 Net als een **streaminggegevensset** heeft de **PubNub-streaminggegevensset** geen onderliggende database in Power BI en kunt u dus geen visuele rapportelementen maken op basis van de gegevens die via de stream binnenkomen. U kunt dus evenmin voordeel hebben van rapportfunctionaliteit zoals filters, Power BI-visuals enzovoort. Dit betekent dat ook de **PubNub-streaminggegevensset** alleen kan worden gevisualiseerd door een tegel toe te voegen aan het dashboard, en een PubNub-gegevensstroom als de bron te configureren.
 

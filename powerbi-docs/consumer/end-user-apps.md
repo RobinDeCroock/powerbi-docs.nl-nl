@@ -7,21 +7,20 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/09/2020
+ms.date: 12/03/2020
 ms.custom: licensing support, css_fy20Q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf504d1df824840f8f3af134ac3e6e3cd8a3fca
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ed9e7f826c8b5e75e1192c16dc72315cf32c1b9a
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391548"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578309"
 ---
 # <a name="apps-in-power-bi"></a>Apps in Power BI
 
 [!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 ## <a name="what-is-a-power-bi-app"></a>Wat is een Power BI-app?
 Een *app* is een Power BI-inhoudstype waarmee gerelateerde dashboards en rapporten op één locatie worden gecombineerd. Een app kan één of meer dashboards en één of meer rapporten hebben, die allemaal zijn gebundeld. Apps worden gemaakt door Power BI *-ontwerpers* die de apps distribueren en delen met hun collega's. Er zijn veel verschillende manieren waarop een *ontwerper* een app kan delen. Zie voor meer informatie de sectie **Een nieuwe app ophalen** hieronder. 

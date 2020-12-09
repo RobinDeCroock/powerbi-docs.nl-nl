@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 10/12/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2487c8215d4c1f2c3bc905457d6b5d08c5955c0c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a5a3029a3afe3d48981338934090ad6b9719d6bb
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400127"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613417"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Typen inzichten die door Power BI worden ondersteund
 
@@ -24,7 +24,7 @@ U kunt Power BI opdracht geven om uw gegevens te bekijken en interessante trends
 
 Zie [Power BI-inzichten](end-user-insights.md) voor meer informatie over het gebruik van inzichten
 
-![een reeks inzichten](media/end-user-insight-types/power-bi-insight.png)
+![een reeks inzichten](media/end-user-insight-types/power-bi-insight-line.png)
 
 ## <a name="how-does-insights-work"></a>Hoe werkt Inzichten?
 Power BI zoekt snel in verschillende subsets van uw gegevensset. Tijdens het zoeken wordt Power BI een set geavanceerde algoritmen toegepast om potentieel interessante inzichten te ontdekken. *Zakelijke gebruikers* van Power BI kunnen inzichten uitvoeren op dashboardtegels.

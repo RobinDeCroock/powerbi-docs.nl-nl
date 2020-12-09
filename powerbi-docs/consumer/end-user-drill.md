@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/03/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3456fe1b1c719d5ce085adc3eba32b32de86e883
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c379e60e346912c6ecccc6df9671b7d527edc114
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391341"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578217"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Zoommodus voor een visual in Power BI
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 In dit artikel wordt beschreven hoe u kunt inzoomen op een visual in de Microsoft Power BI-service. Door uw gegevenspunten in en uit te zoomen kunt u diepgaande details over uw gegevens verkennen. 
 

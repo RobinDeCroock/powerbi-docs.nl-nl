@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0bb2e0c249df668378d62f62184dc044d174ce81
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 0ddcf3c54a5bb3cf9259f6c0d18d0001b838df60
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95550431"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577849"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Zelfstudie: De configuratie van de installatie van sjabloon-apps automatiseren met een Azure-functie
 
@@ -57,7 +57,7 @@ Voordat u aan de slag gaat, hebt u het volgende nodig:
 
 * Een [service-principal (token voor uitsluitend de app)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) die is geregistreerd in de bovenstaande tenant.
 
-* Een geparametriseerde [sjabloon-app](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Microsoft Azure Active Directory (Azure AD). Zie [tips voor-sjabloon apps](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) of [Een sjabloon-app maken in Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create) voor meer informatie.
+* Een geparametriseerde [sjabloon-app](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Microsoft Azure Active Directory (Azure AD). Zie [tips voor-sjabloon apps](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) of [Een sjabloon-app maken in Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create) voor meer informatie.
 
 * Een **Power BI Pro-licentie**. Als u zich niet hebt geregistreerd voor Power BI Pro, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: ca5db6ed7a07d5a6fb10133285378e8318527464
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 671fcbabf10666c03f39bc4582e00fa0adbdbd5e
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386087"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578355"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Automatische configuratie van de-installatie van een sjabloon-app
 
@@ -55,7 +55,7 @@ De volgende vereisten zijn vereist om een vooraf geconfigureerde installatie-erv
 
 * Een **service-principal (token voor uitsluitend de app)** die is geregistreerd in de bovenstaande tenant. Zie [Power BI-inhoud insluiten met service-principal en een toepassingsgeheim](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) voor meer informatie. Zorg ervoor dat u de app registreert als een **web-app aan serverzijde**. U registreert een webtoepassing aan de serverzijde om een toepassingsgeheim te maken. Sla de *app-id* (client-id) en het *toepassingsgeheim* (clientgeheim) uit dit proces op voor latere stappen.
 
-* Een geparametriseerde **sjabloon-app** die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Microsoft Azure Active Directory (Azure AD). Zie [tips voor-sjabloon apps](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) of [Een sjabloon-app maken in Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create) voor meer informatie. Noteer de volgende informatie uit de sjabloon-app voor de volgende stappen:
+* Een geparametriseerde **sjabloon-app** die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Microsoft Azure Active Directory (Azure AD). Zie [tips voor-sjabloon apps](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) of [Een sjabloon-app maken in Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create) voor meer informatie. Noteer de volgende informatie uit de sjabloon-app voor de volgende stappen:
      * *App-id*, *pakketsleutel* en *eigenaar-id* zoals deze worden weergegeven in de installatie-URL aan het einde van het proces [De eigenschappen van de sjabloon-app definiëren](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) toen de app werd gemaakt. U kunt dezelfde koppeling ook verkrijgen door op **Koppeling ophalen** te klikken in het [releasebeheer](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) van de sjabloon-app.
 
     * *Parameternamen* zoals deze in de gegevensset van de sjabloon-app worden gedefinieerd. Parameternamen zijn hoofdlettergevoelige tekenreeksen en kunnen ook worden opgehaald van het tabblad **Parameterinstellingen** wanneer u [de eigenschappen van de sjabloon-app definieert](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) of uit de instellingen van de gegevensset in Power BI.

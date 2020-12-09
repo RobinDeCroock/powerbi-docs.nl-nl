@@ -8,20 +8,21 @@ featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/03/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 6385d263c47bde156a7dae941fefb101b9b30d18
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: video-dtdLul6otYE
+ms.openlocfilehash: 611fe62486fbe376bdf1c44aa7ab4d18a7ae5c65
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400449"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613606"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Inhoud gedetailleerder weergeven: focusmodus en modus volledig scherm
 
 [!INCLUDE [consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -41,7 +42,7 @@ In het onderstaande voorbeeld zijn we begonnen met een rapport (1), hebben we ee
 
 ## <a name="when-to-use-full-screen-mode"></a>Wanneer gebruikt u de modus volledig scherm?
 
-![modus Volledig scherm voor dashboard voor en na](media/end-user-focus/power-bi-dashboards-focus.png)
+![modus Volledig scherm voor dashboard voor en na](media/end-user-focus/power-bi-dashboard-focus.png)
 
 Geef de inhoud van de Power BI-service (dashboards, rapportpagina's en visuals) weer zonder de afleiding van menu's en navigatievensters.  U kunt uw tegel zonder andere storende factoren weergeven op het volledige scherm. Dit wordt soms TV-modus genoemd.   
 
@@ -58,7 +59,7 @@ Enkele gebruikstoepassingen voor de modus Volledig scherm zijn:
 
 Met de ***focusmodus** _ kunt u een visual of tegel uitvouwen (pop-out) om meer details te zien.  Misschien hebt u een dashboard of rapport dat te vol is en wilt u inzoomen op slechts één visual.  De focusmodus is de perfecte oplossing hiervoor.  
 
-![focusmodus van dashboardtegel voor en na](media/end-user-focus/power-bi-compare-dash.png)
+![focusmodus van dashboardtegel voor en na](media/end-user-focus/power-bi-compare.png)
 
 In de focusmodus kan een _zakelijke gebruiker* van Power BI werken met filters die zijn toegepast op het moment dat de visual is gemaakt.  In de Power BI-service kunt u de focusmodus gebruiken op een dashboardtegel of in een rapportvisual.
 

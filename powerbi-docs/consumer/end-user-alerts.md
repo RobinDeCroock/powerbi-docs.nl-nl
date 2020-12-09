@@ -8,20 +8,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/05/2020
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: be3ed6d8a836b626ba26e5e9acce7f0f2df3c6ea
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 369eb05795262ad628b9dd89c23ac59269e6f6c3
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391985"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577596"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Zelfstudie: Meldingen instellen in Power BI-dashboards
 
 [!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Stel meldingen in de Power BI-service in om u te waarschuwen wanneer wijzigingen in de gegevens op een dashboards niet voldoen aan de limieten die u hebt ingesteld. Waarschuwingen kunnen alleen worden ingesteld voor tegels die zijn vastgemaakt vanuit rapportvisuals, en alleen voor meters, KPI's en kaarten. 
 

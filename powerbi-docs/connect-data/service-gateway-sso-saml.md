@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 10/22/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1879dbd53f08b3dff7dac2f4050be078ed44ead8
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92502023"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577550"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>SAML (Security Assertion Markup Language) gebruiken voor SSO bij on-premises gegevensbronnen vanuit Power BI
 
@@ -22,7 +22,7 @@ Met inschakeling van SSO is het eenvoudiger om gegevens van on-premises gegevens
 
 ## <a name="supported-data-sources"></a>Ondersteunde gegevensbronnen
 
-Momenteel wordt SAP HANA met SAML ondersteund. Zie [SAML SSO voor BI-Platform voor HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA) voor meer informatie over het instellen en configureren van eenmalige aanmelding voor SAP HANA met behulp van SAML.
+Momenteel wordt SAP HANA met SAML ondersteund. Zie [SAML SSO voor BI-Platform voor HANA](https://blogs.sap.com/2020/03/22/sap-bi-platform-saml-sso-to-hana-database/) voor meer informatie over het instellen en configureren van eenmalige aanmelding voor SAP HANA met behulp van SAML.
 
 We ondersteunen extra gegevensbronnen (inclusief SAP HANA) met [Kerberos](service-gateway-sso-kerberos.md).
 
@@ -65,14 +65,14 @@ Voer de volgende stappen uit om de certificaten te maken:
     openssl x509 -req -days 365 -in IdP_Req.pem -sha256 -extensions usr_cert -CA CA_Cert.pem -CAkey CA_Key.pem -CAcreateserial -out IdP_Cert.pem
     ```
     U ziet dat *CA_Cert.srl* en *IdP_Cert.pem* worden gemaakt.
-    We zijn alleen geïnteresseerd in de *IdP_Cert.pem* .    
+    We zijn alleen geïnteresseerd in de *IdP_Cert.pem*.    
 
 ### <a name="create-saml-identity-provider-certificate-mapping"></a>Certificaattoewijzing van de SAML-identiteitsprovider maken
 
 Maak de certificaattoewijzing van de SAML-identiteitsprovider door de volgende stappen te volgen.
 
-1. Klik in **SAP HANA Studio** met de rechtermuisknop op de SAP HANA-servernaam en ga vervolgens naar **Beveiliging > Beveiligingsconsole openen > SAML-identiteitsprovider** .
-2. Als de cryptografische bibliotheek van SAP niet is geselecteerd, selecteert u deze. Gebruik de cryptografische bibliotheek van OpenSSL (de selectie aan de linkerkant, in de volgende afbeelding) *niet* ; deze is afgeschaft door SAP.
+1. Klik in **SAP HANA Studio** met de rechtermuisknop op de SAP HANA-servernaam en ga vervolgens naar **Beveiliging > Beveiligingsconsole openen > SAML-identiteitsprovider**.
+2. Als de cryptografische bibliotheek van SAP niet is geselecteerd, selecteert u deze. Gebruik de cryptografische bibliotheek van OpenSSL (de selectie aan de linkerkant, in de volgende afbeelding) *niet*; deze is afgeschaft door SAP.
 
     ![De cryptografische bibliotheek van SAP selecteren](media/service-gateway-sso-saml/service-gateway-sso-saml-01.png)
 
@@ -80,13 +80,13 @@ Maak de certificaattoewijzing van de SAML-identiteitsprovider door de volgende s
 
     ![De blauwe knop Importeren selecteren](media/service-gateway-sso-saml/service-gateway-sso-saml-02.png)
 
-Vergeet niet een naam toe te wijzen aan de naam van uw *Naam van identiteitsprovider* .
+Vergeet niet een naam toe te wijzen aan de naam van uw *Naam van identiteitsprovider*.
 
 ### <a name="import-and-create-the-signed-certificates-in-hana"></a>De ondertekende certificaten importeren en maken in HANA
 
 Vervolgens importeert en maakt u de ondertekende certificaten in HANA. Volg deze stappen:
 
-1. Voer de volgende query uit in **HANA Studio** :
+1. Voer de volgende query uit in **HANA Studio**:
 
     ```
     CREATE CERTIFICATE FROM '<idp_cert_pem_certificate_content>'
@@ -102,7 +102,7 @@ Vervolgens importeert en maakt u de ondertekende certificaten in HANA. Volg deze
     '
     ```
 
-2. Als er geen PSE met SAML-doel is, maakt u er een door de volgende query uit te voeren in **HANA Studio** :
+2. Als er geen PSE met SAML-doel is, maakt u er een door de volgende query uit te voeren in **HANA Studio**:
     
     ```
     CREATE PSE SAMLCOLLECTION;<br>set pse SAMLCOLLECTION purpose SAML;<br>
@@ -133,21 +133,21 @@ Vervolgens importeert en maakt u de ondertekende certificaten in HANA. Volg deze
 
 Volg deze stappen om de gebruiker toe te wijzen:
 
-1. Selecteer in **SAP HANA Studio** de map **Beveiliging** :
+1. Selecteer in **SAP HANA Studio** de map **Beveiliging**:
 
     ![De map Beveiliging selecteren](media/service-gateway-sso-saml/service-gateway-sso-saml-03.png)
 
 2. Vouw **Gebruikers** uit en selecteer vervolgens de gebruiker aan wie u uw Power BI-gebruiker wilt toewijzen.
 
-3. Schakel het selectievakje **SAML** in en selecteer vervolgens **Configureren** , zoals wordt weergegeven in de volgende afbeelding.
+3. Schakel het selectievakje **SAML** in en selecteer vervolgens **Configureren**, zoals wordt weergegeven in de volgende afbeelding.
 
     ![Selecteer SAML en vervolgens de koppeling Configureren](media/service-gateway-sso-saml/service-gateway-sso-saml-04.png)
 
-4. Selecteer de identiteitsprovider die u hebt gemaakt in de sectie [Certificaattoewijzing van de SAML-identiteitsprovider maken](#create-saml-identity-provider-certificate-mapping) eerder in dit artikel. Voer voor Externe identiteit de UPN van de Power BI-gebruiker in (gewoonlijk het e-mailadres waarmee de gebruiker zich aanmeldt bij Power BI) en selecteer vervolgens **Toevoegen** .  In de volgende afbeelding worden deze opties en selecties weergegeven.
+4. Selecteer de identiteitsprovider die u hebt gemaakt in de sectie [Certificaattoewijzing van de SAML-identiteitsprovider maken](#create-saml-identity-provider-certificate-mapping) eerder in dit artikel. Voer voor Externe identiteit de UPN van de Power BI-gebruiker in (gewoonlijk het e-mailadres waarmee de gebruiker zich aanmeldt bij Power BI) en selecteer vervolgens **Toevoegen**.  In de volgende afbeelding worden deze opties en selecties weergegeven.
 
     ![Venster SAML-identiteiten configureren](media/service-gateway-sso-saml/service-gateway-sso-saml-05.png)
 
-    Als u uw gateway op het gebruik van de optie *ADUserNameReplacementProperty* hebt ingesteld, moet u de vervangende waarde voor de oorspronkelijke UPN van de Power BI-gebruiker invoeren. Als u *ADUserNameReplacementProperty* bijvoorbeeld instelt op *SAMAccountName* , voert u de *SAMAccountName* van de gebruiker in.
+    Als u uw gateway op het gebruik van de optie *ADUserNameReplacementProperty* hebt ingesteld, moet u de vervangende waarde voor de oorspronkelijke UPN van de Power BI-gebruiker invoeren. Als u *ADUserNameReplacementProperty* bijvoorbeeld instelt op *SAMAccountName*, voert u de *SAMAccountName* van de gebruiker in.
 
 ### <a name="configure-the-gateway"></a>De gateway configureren
 
@@ -161,13 +161,13 @@ Nu u het certificaat en de identiteit van de gateway hebt geconfigureerd, kunt u
 
 2. Kopieer het pfx-bestand naar het gatewayapparaat:
 
-    1. Dubbelklik op *samltest.pfx* en selecteer **Lokale computer** > **Volgende** .
+    1. Dubbelklik op *samltest.pfx* en selecteer **Lokale computer** > **Volgende**.
 
-    2. Voer het wachtwoord in en selecteer vervolgens **Volgende** .
+    2. Voer het wachtwoord in en selecteer vervolgens **Volgende**.
 
-    3. Selecteer **Alle certificaten in het onderstaande archief opslaan** en selecteer vervolgens **Bladeren** > **Persoonlijk** > **OK** .
+    3. Selecteer **Alle certificaten in het onderstaande archief opslaan** en selecteer vervolgens **Bladeren** > **Persoonlijk** > **OK**.
 
-    4. Selecteer **Volgende** , gevolgd door **Voltooien** .
+    4. Selecteer **Volgende**, gevolgd door **Voltooien**.
 
        ![Certificaat importeren](media/service-gateway-sso-saml/service-gateway-sso-saml-06.png)
 
@@ -177,21 +177,21 @@ Nu u het certificaat en de identiteit van de gateway hebt geconfigureerd, kunt u
 
         ![MMC uitvoeren](media/service-gateway-sso-saml/run-mmc.png)
 
-    2. Selecteer onder **Bestand** de optie **Module toevoegen/verwijderen** .
+    2. Selecteer onder **Bestand** de optie **Module toevoegen/verwijderen**.
 
         ![Module toevoegen](media/service-gateway-sso-saml/add-snap-in.png)
 
-    3. Selecteer **Certificaten** > **Toevoegen** en vervolgens **Computeraccount** > **Volgende** .
+    3. Selecteer **Certificaten** > **Toevoegen** en vervolgens **Computeraccount** > **Volgende**.
 
-    4. Selecteer **Lokale computer** > **Voltooien** > **OK** .
+    4. Selecteer **Lokale computer** > **Voltooien** > **OK**.
 
     5. Vouw **Certificaten** > **Persoonlijk** > **Certificaten** uit en zoek het certificaat.
 
-    6. Klik met de rechtermuisknop op het certificaat en navigeer naar **Alle taken** &gt; **Persoonlijke sleutels beheren** .
+    6. Klik met de rechtermuisknop op het certificaat en navigeer naar **Alle taken** &gt; **Persoonlijke sleutels beheren**.
 
         ![Persoonlijke sleutels beheren](media/service-gateway-sso-saml/manage-private-keys.png)
 
-    1. Voeg het gatewayserviceaccount toe aan de lijst. Het account is standaard **NT SERVICE\PBIEgwService** . U ontdekt in welk account de gatewayservice wordt uitgevoerd door **services.msc** uit te voeren en te zoeken naar **On-premises gegevensgatewayservice** .
+    1. Voeg het gatewayserviceaccount toe aan de lijst. Het account is standaard **NT SERVICE\PBIEgwService**. U ontdekt in welk account de gatewayservice wordt uitgevoerd door **services.msc** uit te voeren en te zoeken naar **On-premises gegevensgatewayservice**.
 
         ![Gatewayservice](media/service-gateway-sso-saml/gateway-service.png)
 
@@ -205,9 +205,9 @@ Ga ten slotte als volgt te werk om de vingerafdruk van het certificaat toe te vo
 
 2. Kopieer de vingerafdruk voor het certificaat dat u hebt gemaakt.
 
-3. Ga naar de gatewaymap. Standaard is dat *C:\Program Files\On-premises-data-gateway* .
+3. Ga naar de gatewaymap. Standaard is dat *C:\Program Files\On-premises-data-gateway*.
 
-4. Open *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* en zoek de sectie *SapHanaSAMLCertThumbprint* . Plak de vingerafdruk die u hebt gekopieerd.
+4. Open *PowerBI.DataMovement.Pipeline.GatewayCore.dll.config* en zoek de sectie *SapHanaSAMLCertThumbprint*. Plak de vingerafdruk die u hebt gekopieerd.
 
 5. Start de gateway opnieuw.
 
@@ -231,9 +231,9 @@ Verificatietraceringen op de server bieden gedetailleerde informatie voor het op
 
 1. Reproduceer het probleem.
 
-1. Open de beheerconsole in HANA Studio en selecteer het tabblad **Diagnosis Files** .
+1. Open de beheerconsole in HANA Studio en selecteer het tabblad **Diagnosis Files**.
 
-1. Open de meest recente indexservertracering en zoek naar *SAMLAuthenticator.cpp* .
+1. Open de meest recente indexservertracering en zoek naar *SAMLAuthenticator.cpp*.
 
     U zou een gedetailleerd foutbericht moeten vinden dat de hoofdoorzaak aangeeft, zoals:
 
