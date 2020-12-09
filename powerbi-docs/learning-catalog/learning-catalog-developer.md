@@ -6,12 +6,12 @@ ms.author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
-ms.openlocfilehash: 01aa3579fd837b36562dbed27f557d5efdf07c20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: de460437225dd32c0e6db673a06006a711feb413
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414824"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906746"
 ---
 # <a name="developer-learning-catalog"></a>Trainingscatalogus voor ontwikkelaars
 
@@ -31,7 +31,7 @@ De volgende catalogus reikt van de belangrijkste kennis tot specifieke domeinen,
 | [Informatie over Power BI Embedded in 20 minuten](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Dit webinar geeft een inleiding tot Power BI Embedded. Aan het einde van dit webinar weten gebruikers wat Power BI Embedded is, weten ze wat de volgende stappen zijn om aan de slag te gaan met het product en weten ze waar ze hulp en meer informatie kunnen vinden. | Webinar       |                |
 | [Ontwikkelen met Power BI-insluiting, door Ted Pattison – update van april 2018](https://www.youtube.com/watch?v=swnGlrRy588)  | In deze webinar voor ontwikkelaars bespreekt Ted Pattison recente verbeteringen in het Power BI-insluitplatform en hoe deze kunnen worden benut door ISV's en bedrijfsontwikkelaars. | YouTube-video | 59 min. 49 sec.  |
 | [Power BI-insluiting versie 2 – het volledige verhaal](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527)    | De webinar werd gepresenteerd op 10 augustus 2017 door Power BI-MVP Ted Pattison van Critical Path Training. De webinar gaat over ontwikkelen met behulp van de nieuwe Power BI-insluitingsfuncties die beschikbaar zijn via Power BI Premium.  | Webinar       | 1 uur 7 min. 23 sec. |
-| [Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten](../developer/embedded/embed-sample-for-customers.md#set-up-your-embedded-analytics-development-environment) | Met Power BI Embedded in Azure of Power BI-insluiting in Office kunt u rapporten, dashboards en tegels in een toepassing insluiten met behulp van App is eigenaar van gegevens.  | Documentatie |                |
+| [Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw klanten](../developer/embedded/embed-sample-for-customers.md) | Met Power BI Embedded in Azure of Power BI-insluiting in Office kunt u rapporten, dashboards en tegels in een toepassing insluiten met behulp van App is eigenaar van gegevens.  | Documentatie |                |
 | [Informatie over Power BI Embedded in 20 minuten](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | Dit webinar geeft een inleiding tot Power BI Embedded. Aan het einde van dit webinar weten gebruikers wat Power BI Embedded is, weten ze wat de volgende stappen zijn om aan de slag te gaan met het product en weten ze waar ze hulp en meer informatie kunnen vinden. | Webinar       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
 | Inhoud | Beschrijving | Indeling  | Lengte      |

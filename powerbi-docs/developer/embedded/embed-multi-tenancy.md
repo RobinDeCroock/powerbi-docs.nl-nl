@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: ed8f44e7dd1a7e713a9b2bd75dc33f259cb52f2a
-ms.sourcegitcommit: 4ac9447d1607dfca2e60948589f36a3d64d31cb4
+ms.openlocfilehash: 377f509248dbd2368b74bb9645f001ff7c6a97c0
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92916332"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907274"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 
@@ -21,8 +21,8 @@ Wanneer u een SaaS-app met meerdere tenants ontwerpt, moet u zorgvuldig overwege
 
 Power BI Embedded biedt twee algemene benaderingen om tenants gescheiden te houden.
 
-   1. **Isolatie op basis van werkruimte** , waarbij u voor elke tenant een afzonderlijke Power BI-werkruimte maakt.
-   2. **Isolatie op basis van beveiliging op rijniveau** , waarbij de onderliggende gegevens worden gebruikt om de toegang tot gegevens per gebruiker of per groep te beheren.
+   1. **Isolatie op basis van werkruimte**, waarbij u voor elke tenant een afzonderlijke Power BI-werkruimte maakt.
+   2. **Isolatie op basis van beveiliging op rijniveau**, waarbij de onderliggende gegevens worden gebruikt om de toegang tot gegevens per gebruiker of per groep te beheren.
 
 In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op basis van diverse evaluatiecriteria.
 
@@ -30,29 +30,29 @@ In dit artikel worden de verschillende benaderingen besproken en geanalyseerd op
 
 **[AAD](/azure/active-directory/fundamentals/active-directory-whatis)** : Azure Active Directory.
 
-**AAD-app** : een app-identiteit in AAD. Een AAD-app is vereist voor verificatie.
+**AAD-app**: een app-identiteit in AAD. Een AAD-app is vereist voor verificatie.
 
 **SaaS-app (Software as a Service)** : een systeem dat is geïmplementeerd door een onderneming of ISV, meestal een online service. SaaS omvat ook gerelateerde softwaresystemen voor het bedienen van meerdere klanttenants (organisaties). In dit artikel **maakt de SaaS-app gebruik van Power BI Embedded om analysen uit te voeren voor alle verschillende tenants**. Power BI Embedded is geschikt voor alle soorten apps met een online verbinding.
 
-**Tenant** : één klant (organisatie) die de SaaS-app gebruikt en alle resources of gegevens die de klant toevoegt aan de SaaS-app.
+**Tenant**: één klant (organisatie) die de SaaS-app gebruikt en alle resources of gegevens die de klant toevoegt aan de SaaS-app.
 
 **[Power BI](../../fundamentals/power-bi-overview.md)** : de Power BI-cloudservice die dient als platform voor Power BI Embedded.
 
-**Power BI-tenant** : een set Power BI-resources die is gekoppeld aan één AAD-tenant.
+**Power BI-tenant**: een set Power BI-resources die is gekoppeld aan één AAD-tenant.
 
 **[Power BI-werkruimte](../../collaborate-share/service-create-workspaces.md)** : een container voor inhoud in Power BI.
 
-**Power BI-artefacten** : Power BI-werkruimten bevatten verschillende Power BI-artefacten, zoals dashboards, rapporten, gegevenssets en gegevensstromen.
+**Power BI-artefacten**: Power BI-werkruimten bevatten verschillende Power BI-artefacten, zoals dashboards, rapporten, gegevenssets en gegevensstromen.
 
 **[Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md)** : een set openbare API's waarmee ontwikkelaars apps kunnen maken om Power BI-inhoud en ingesloten Power BI-elementen te beheren.
 
 **[Beveiliging op rijniveau](embedded-row-level-security.md)** : biedt de mogelijkheid om gebruikerstoegang tot gegevens te beheren voor individuele rijen in een tabel. U kunt beveiliging op rijniveau implementeren op gegevensbronniveau of in het semantische Power BI-model.
 
-**Hoofdgebruiker** : de identiteit die de SaaS-app vertegenwoordigt in Power BI en die de SaaS-app gebruikt wanneer API's van Power BI worden aangeroepen. De hoofdgebruiker moet een AAD-gebruiker met een Power BI Pro-licentie zijn.
+**Hoofdgebruiker**: de identiteit die de SaaS-app vertegenwoordigt in Power BI en die de SaaS-app gebruikt wanneer API's van Power BI worden aangeroepen. De hoofdgebruiker moet een AAD-gebruiker met een Power BI Pro-licentie zijn.
 
 **AAD-appgebruiker (service-principal)** : de identiteit die de SaaS-app vertegenwoordigt in Power BI en die de SaaS-app gebruikt wanneer API's van Power BI worden aangeroepen. De AAD-appgebruiker moet een AAD-webtoepassing zijn. Deze kan in plaats van een *hoofdgebruiker* worden gebruikt om te verifiëren met Power BI.
 
-**Capaciteit** : een set resources die is bedoeld voor het uitvoeren van de Power BI-service. [Power BI Premium-capaciteit](../../admin/service-premium-what-is.md): bedoeld voor bedrijven die Power BI intern gebruiken, terwijl [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) is bedoeld voor app-ontwikkelaars die SaaS-apps ontwikkelen voor externe partijen.
+**Capaciteit**: een set resources die is bedoeld voor het uitvoeren van de Power BI-service. [Power BI Premium-capaciteit](../../admin/service-premium-what-is.md): bedoeld voor bedrijven die Power BI intern gebruiken, terwijl [Power BI Embedded-capaciteit](azure-pbie-create-capacity.md) is bedoeld voor app-ontwikkelaars die SaaS-apps ontwikkelen voor externe partijen.
 
 **[Power BI Pro-licentie](../../admin/service-admin-purchasing-power-bi-pro.md)** : een op gebruikers gebaseerde licentie waarmee rechten worden verleend om inhoud te publiceren naar werkruimten, apps te gebruiken zonder Premium-capaciteit, dashboards te delen en te abonneren op dashboards en rapporten.
 
@@ -163,7 +163,7 @@ Multi-Geo omvat het aanschaffen van capaciteit in de gewenste regio's en het toe
 
 ### <a name="cost"></a>Cost
 
-App-ontwikkelaars die Power BI Embedded gebruiken, moeten [Power Bi Embedded-capaciteit aanschaffen om naar productie te gaan](embed-sample-for-customers.md#move-to-production).  Het is belangrijk om inzicht te hebben in de impact van een op werkruimte gebaseerd isolatiemodel en het effect daarvan op capaciteiten.
+App-ontwikkelaars die Power BI Embedded gebruiken, moeten [Power Bi Embedded-capaciteit aanschaffen om naar productie te gaan](move-to-production.md).  Het is belangrijk om inzicht te hebben in de impact van een op werkruimte gebaseerd isolatiemodel en het effect daarvan op capaciteiten.
 
 Het op werkruimte gebaseerde isolatiemodel werkt om de volgende redenen goed met capaciteiten:
 
@@ -240,7 +240,7 @@ Wanneer eindgebruikers rapporten bewerken of maken, kunnen ze de gegevensset voo
 * Eén gebruiker/app kan van maximaal 1000 werkruimten V2 (mappen) lid/beheerder zijn.
 * Eén werkruimte kan 1000 gegevenssets bevatten.
 * Eén gegevensset kan verbonden zijn met 1000 rapporten/dashboards.
-* De limiet voor het geheugen van de gegevensset om een *PBIX* -bestand te uploaden, is 10 GB.
+* De limiet voor het geheugen van de gegevensset om een *PBIX*-bestand te uploaden, is 10 GB.
 
 **Overwegingen en limieten voor Power BI-capaciteit:**
 

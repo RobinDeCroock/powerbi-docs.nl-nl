@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: ba63b8be32600428075b9304a5a29fef62a9d6c8
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b386800c37f80e7b33dc55bb691eed6606c04a1
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236859"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906790"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Een rapport verbinden met een gegevensset met behulp van dynamische binding 
 
@@ -33,7 +33,7 @@ Dynamische binding wordt ondersteund voor de scenario's *Inhoud insluiten voor u
 |Scenario  |Eigendom van gegevens  |Token  |Vereisten  |
 |---------|---------|---------|---------|
 |*Inhoud insluiten voor uw organisatie*    |Gebruiker is eigenaar van gegevens         |Toegangstoken voor Power BI-gebruikers         |De gebruiker van wie het Azure AD-token wordt gebruikt, moet over de juiste machtigingen voor alle artefacten beschikken.         |
-|*Inhoud insluiten voor uw klanten*     |App is eigenaar van gegevens         |Toegangstoken voor niet-Power BI-gebruikers         |Moet machtigingen voor zowel het rapport als de dynamisch gebonden gegevensset bevatten. Gebruik de [-API voor het genereren van een insluittoken voor meerdere items](embed-sample-for-customers.md#multiEmbedToken) om een insluittoken te genereren dat meerdere artefacten ondersteunt.         |
+|*Inhoud insluiten voor uw klanten*     |App is eigenaar van gegevens         |Toegangstoken voor niet-Power BI-gebruikers         |Moet machtigingen voor zowel het rapport als de dynamisch gebonden gegevensset bevatten. Gebruik de [-API voor het genereren van een insluittoken voor meerdere items](/rest/api/power-bi/embedtoken/generatetoken) om een insluittoken te genereren dat meerdere artefacten ondersteunt.         |
 
 ## <a name="adjusting-the-config-object"></a>Het configuratieobject aanpassen
 Voeg `datasetBinding` toe aan het configuratieobject. Gebruik het voorbeeld hieronder als referentie.

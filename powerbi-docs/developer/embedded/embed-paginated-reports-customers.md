@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 58d1112dfccda798a32b2a3cb95d72c37b7a16ec
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668391"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907297"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten
 
@@ -40,7 +40,7 @@ Als u nog geen abonnement voor Azure hebt, maakt u een [gratis account](https://
 
 > [!IMPORTANT]
 > * U moet een **service-principal** gebruiken. Een hoofdgebruiker wordt niet ondersteund.
->* [Premium per gebruiker (PPU)](../../admin/service-premium-per-user-faq.md) wordt niet ondersteund. U kunt PPU gebruiken om met de oplossing te experimenteren, maar u kunt deze niet [verplaatsen naar productie](embed-sample-for-customers.md#move-to-production).
+>* [Premium per gebruiker (PPU)](../../admin/service-premium-per-user-faq.md) wordt niet ondersteund. U kunt PPU gebruiken om met de oplossing te experimenteren, maar u kunt deze niet [verplaatsen naar productie](move-to-production.md).
 > * Gegevensbronnen waarvoor eenmalige aanmelding (SSO) is vereist, worden niet ondersteund. Zie [ondersteunde gegevensbronnen voor Power BI gepagineerde rapporten](../../paginated-reports/paginated-reports-data-sources.md) voor een lijst met ondersteunde gegevenssets en de bijbehorende verificatiemethoden. 
 > * Power BI-gegevenssets worden niet ondersteund als een [gegevensbron](../../connect-data/service-get-data.md).
 
@@ -184,7 +184,7 @@ Ga als volgt te werk om de **ApplicationSecret** op te halen:
 
 ### <a name="tenant"></a>Tenant
 
-Vul bij de informatie over de **tenant** uw Azure zure-tenant-id in. U kunt deze informatie verkrijgen via het [Azure AD-beheercentrum](/onedrive/find-your-office-365-tenant-id) wanneer u bent aangemeld bij de Power BI-service of wanneer u PowerShell gebruikt.
+Vul bij de informatie over de **tenant** uw Azure-tenant-id in. U kunt deze informatie verkrijgen via het [Azure AD-beheercentrum](/onedrive/find-your-office-365-tenant-id) wanneer u bent aangemeld bij de Power BI-service of wanneer u PowerShell gebruikt.
 
 ### <a name="run-the-application"></a>De toepassing uitvoeren
 
