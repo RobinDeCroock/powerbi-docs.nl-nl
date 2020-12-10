@@ -48,6 +48,8 @@
           href: embed-service-principal.md
         - name: Insluiten met een service-principal en een certificaat
           href: embed-service-principal-certificate.md
+        - name: Een ingesloten app naar productie verplaatsen
+          href: move-to-production.md
         - name: Insluiten vanuit een app
           href: embed-from-apps.md
         - name: Rapport exporteren naar bestand
