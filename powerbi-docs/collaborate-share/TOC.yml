@@ -103,12 +103,16 @@
           items:
             - name: Gegevenswaarschuwingen integreren met Power Automate
               href: service-flow-integration.md
+            - name: Rapporten exporteren en e-mailen met Power Automate
+              href: service-automate-power-bi-report-export.md
             - name: Gepagineerde rapporten exporteren met Power Automate
               href: service-automate-paginated-integration.md
             - name: Gepagineerde rapporten bewaren in OneDrive of SharePoint Online
               href: service-automate-paginated-onedrive-sharepoint.md
             - name: Gepagineerde rapporten exporteren vanuit Excel Online of een SharePoint-lijst
               href: service-automate-paginated-excel-sharepoint-list.md
+            - name: Een gepagineerd rapport opslaan in een lokale map
+              href: service-automate-paginated-local-file.md
         - name: Apps van derden gebruiken
           href: service-power-bi-get-started-third-party-apps.md
         - name: Organisatie-inhoudspakketten
