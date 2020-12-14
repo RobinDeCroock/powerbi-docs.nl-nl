@@ -30,10 +30,10 @@
           href: service-tutorial-connect-to-github.md
         - name: Cognitive Services gebruiken
           href: service-tutorial-use-cognitive-services.md
-        - name: Machine Learning-integratie
-          href: service-tutorial-invoke-machine-learning-model.md
         - name: Een machine learning-model maken
           href: service-tutorial-build-machine-learning-model.md
+        - name: Een machine learning-model gebruiken in een rapport
+          href: service-aml-integrate.md
         - name: Gegevens uit SQL Server vernieuwen
           href: service-gateway-sql-tutorial.md
     - name: Concepten
