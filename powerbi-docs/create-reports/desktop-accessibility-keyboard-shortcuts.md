@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 10/28/2019
+ms.date: 12/04/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9cfd5f80ac18c05b520fc417c6336dda360b8737
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b2439af22e32f1e0a8cbd3ce326252d6b28fab1
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417584"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613918"
 ---
 # <a name="keyboard-shortcuts-in-power-bi-desktop"></a>Sneltoetsen in Power BI Desktop
 
@@ -92,7 +92,7 @@ We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande 
 | :------------------- | :------------------- |
 | Regel omhoog/omlaag verplaatsen | **Alt+Pijl-omhoog** / **Pijl-omlaag** |
 | Regel omhoog/omlaag kopiëren | **Shift+Pijl-omhoog** / **Pijl-omlaag** |
-| Regel onder invoegen | **Ctrl+Enter** |
+| Regel onder invoegen | **Shift+Enter** |
 | Regel boven invoegen | **Ctrl+Shift+Enter** |
 | Ga naar overeenkomend haakje | **Ctrl+Shift+**  \ |
 | Regel inspringen/regel uitbreiden naar de marge | **Ctrl + ]**  /  **[** |
@@ -100,11 +100,15 @@ We zetten ons voortdurend in om de toegankelijkheid te verbeteren. Bovenstaande 
 | Huidige regel selecteren | **Ctrl+I** |
 | Selecteer alle instanties van de huidige selectie | **Ctrl+Shift+L** |
 | Alle instanties van het huidige woord selecteren | **Ctrl+F2** |
+| Een opmerking toevoegen voor een regel | **CTRL+/** of **CTRL+K+C** |
+| Een opmerking verwijderen voor een regel | **CTRL+/** of **CTRL+K+U** |
+| Tekengrootte vergroten | **CTRL++** of **Omhoog schuiven** |
+| Tekengrootte verkleinen | **CTRL+-** of **Omlaag schuiven** |
 
 ## <a name="enter-data"></a>Gegevens invoeren
 | Uit te voeren actie           | Actie                |
 | :------------------- | :------------------- |
-| Bewerkbaar raster afsluiten | **Ctrl+TAB-toets** |
+| Bewerkbaar raster afsluiten | **Ctrl + Tab** |
 
 
 
@@ -121,7 +125,7 @@ De verzameling van artikelen voor Power BI-toegankelijkheid is als volgt:
 
 * [Overzicht van toegankelijkheid in Power BI](desktop-accessibility-overview.md) 
 * [Toegankelijke Power BI-rapporten maken](desktop-accessibility-creating-reports.md) 
-* [Rapporten gebruiken in Power BI met toegankelijkheidshulpprogramma's](desktop-accessibility-consuming-tools.md)
+* [Rapporten gebruiken in Power BI met toegankelijkheidshulpprogramma’s](desktop-accessibility-consuming-tools.md)
 * [Power BI-rapporten maken met hulpprogramma's voor toegankelijkheid](desktop-accessibility-creating-tools.md)
 * [Controlelijst voor toegankelijkheid van rapporten](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
 

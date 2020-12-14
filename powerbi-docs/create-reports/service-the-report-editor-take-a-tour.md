@@ -8,14 +8,14 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
-ms.date: 08/14/2019
+ms.date: 12/01/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 26a98609481ce45a6e432c8006d80f9becdd9f3b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 560c03865519d1c5d2435dc333954f284ee726e6
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387776"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536502"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Rondleiding door de rapporteditor in Power BI
 
@@ -33,14 +33,14 @@ In de Power BI-service is de rapporteditor alleen beschikbaar in de bewerkingswe
 
 De Power BI-rapporteditor is onderverdeeld in verschillende hoofdsecties:  
 
-1. Bovenste navigatievenster
+1. Het lint
 1. Rapportcanvas
 1. Deelvenster Filters
 1. Deelvenster Visualisaties
 1. Deelvenster Velden
 
-## <a name="1-the-top-nav-pane"></a>1. Het bovenste navigatievenster
-Er zijn talrijke acties beschikbaar in het bovenste navigatievenster en er worden ook voortdurend nieuwe acties aan toegevoegd. Gebruik de inhoudsopgave in de Power BI-documentatie of het vak Zoeken voor informatie over een bepaalde actie.
+## <a name="1-the-ribbon"></a>1. Het lint
+Er zijn talrijke acties beschikbaar in het lint en er worden ook voortdurend nieuwe acties aan toegevoegd. Gebruik de inhoudsopgave in de Power BI-documentatie of het vak Zoeken voor informatie over een bepaalde actie.
 
 
 ## <a name="2-the-report-canvas"></a>2. Het rapportcanvas
@@ -135,23 +135,7 @@ In Power BI Desktop hebt u ook opties om velden weer te geven of te verbergen, b
 
 ## <a name="the-field-icons"></a>De veldpictogrammen
 
-In Power BI worden verschillende pictogrammen gebruikt om het type velden in een rapport aan te geven. Wanneer u deze kunt herkennen, begrijpt u de functies ervan in verschillende visuals beter. Hier volgen enkele algemene exemplaren.
-
-
-|Pictogram  |Betekenis  |
-|---------|---------|
-| ![Map](media/service-the-report-editor-take-a-tour/power-bi-field-list-folder.png) | Map in de lijst Velden |
-|![Numeriek veld](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | Numeriek veld: Numerieke velden zijn aggregaties die bijvoorbeeld kunnen worden opgeteld of waarvoor een gemiddelde kan worden berekend. Aggregaties worden samen met de gegevens geïmporteerd en zijn gedefinieerd in het gegevensmodel waarop uw rapport is gebaseerd. Zie [Aggregates in Power BI reports](service-aggregates.md) (Aggregaties in Power BI-rapporten) voor meer informatie. |
-|![Niet-numerieke berekende kolom](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | Berekende kolom met een niet-numeriek gegevenstype: Een nieuwe niet-numerieke kolom die u maakt met een DAX-formule (Data Analysis Expressions) waarmee de waarden van de kolom worden gedefinieerd. Meer informatie over [berekende kolommen](../transform-model/desktop-calculated-columns.md). |
-|![Numerieke berekende kolom](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   Numerieke berekende kolom: Een nieuwe kolom die u maakt met een DAX-formule (Data Analysis Expressions) waarmee de waarden van de kolom worden gedefinieerd. Meer informatie over [berekende kolommen](../transform-model/desktop-calculated-columns.md). |
-|![Meting](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Meting: Een meting heeft een eigen, in code vastgelegde formule. U kunt de berekening niet wijzigen; als de berekening bijvoorbeeld een som is, kan deze alleen een som zijn. De waarden worden niet opgeslagen in een kolom. Ze worden ter plekke berekend, uitsluitend op basis van de locatie ervan in een visual. Lees [Informatie over metingen](../transform-model/desktop-measures.md) voor meer informatie. |
-|![Meetgroep](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | Meetgroep  |
-|![KPI-pictogram](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI: Een visuele aanwijzing waarmee de voortgang naar een meetbaar doel wordt aangegeven. Meer informatie over [KPI-visuals (Key Performance Indicator)](../visuals/power-bi-visualization-kpi.md) |
-|![Hiërarchiepictogram](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  Hiërarchie van velden: Selecteer de pijl om de velden in de hiërarchie weer te geven.  Bekijk deze Power BI-video op YouTube over [het maken van en werken met hiërarchieën](https://www.youtube.com/watch?v=q8WDUAiTGeU) voor meer informatie. |
-|![Geografische gegevens](media/service-the-report-editor-take-a-tour/power-bi-field-list-geo-data.png)     | Geografische gegevens: Deze locatievelden kunnen worden gebruikt om kaartvisualisaties te maken. |
-| ![Identiteitsveld](media/service-the-report-editor-take-a-tour/power-bi-field-list-identity.png)     | Identiteitsveld: Velden met dit pictogram zijn *unieke velden* die zijn ingesteld op het weergeven van alle waarden, ook als deze duplicaten bevatten. Als uw gegevens bijvoorbeeld records bevatten voor twee verschillende mensen met de naam 'Robin Smith', wordt elk record als uniek beschouwd. Deze worden niet samengevoegd.   |
-|![Parameter](media/service-the-report-editor-take-a-tour/power-bi-field-list-parameter.png)   | Parameter: Stel parameters in om delen van uw rapporten en gegevensmodellen (zoals een queryfilter, een gegevensbronverwijzing of een metingsdefinitie) te laten afhangen van een of meer parameterwaarden. Zie deze Power BI-blogpost over [queryparameters](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/) voor meer informatie. |
-| ![Agenda](media/service-the-report-editor-take-a-tour/power-bi-field-list-calendar.png) | Agendadatumveld met een ingebouwde datumtabel |
+In Power BI worden verschillende pictogrammen gebruikt om het type velden in een rapport aan te geven. Wanneer u deze kunt herkennen, begrijpt u de functies ervan in verschillende visuals beter. Zie de [sectie Pictogrammen in de veldenlijst van De veldenlijst gebruiken in Power BI Desktop](../transform-model/desktop-field-list.md#field-list-changes) voor een volledige lijst.
 
 ## <a name="next-steps"></a>Volgende stappen
 [Een rapport maken](service-report-create-new.md)

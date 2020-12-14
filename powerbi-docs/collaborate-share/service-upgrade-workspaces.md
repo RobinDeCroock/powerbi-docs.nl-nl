@@ -9,12 +9,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 09/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d8e53e997aeef24d531cb733adc0b276a8395e57
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f5a76783d91da610a447667a9ea648bbcebbdc8b
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411604"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96577619"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>Een upgraden uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI
 
@@ -22,6 +22,10 @@ In dit artikel wordt uitgelegd hoe u een klassieke werkruimte bijwerkt of *migre
 
 >[!NOTE]
 >Er is een upgrade voor de werkruimte beschikbaar als een openbare preview. 
+
+>[!NOTE]
+>Upgrade van werkruimte kan worden geïnitieerd door een Power BI-beheerder. Werkruimtebeheerders ontvangen een e-mail wanneer hun werkruimte wordt bijgewerkt door hun Power BI-beheerder. [Meer informatie](../admin/service-admin-portal.md#workspaces) 
+
 
 ![Een geslaagde upgrade uitvoeren](media/service-upgrade-workspaces/power-bi-upgrade-success.png)
 
@@ -68,6 +72,7 @@ Gebruikers die de werkruimte actief gebruiken, wordt gevraagd hun browser te ver
 - De Microsoft 365-groep voor uw klassieke werkruimte wordt niet beïnvloed door de upgrade van de werkruimte in Power BI. Alle teams, SharePoint-sites, postvakken of andere resources die worden beheerd door Microsoft 365, worden niet gewijzigd. Ze blijven intact wanneer u de upgrade van uw Power BI-werkruimte uitvoert. Ook de Microsoft 365-groep blijft hetzelfde.
 - Er zijn wijzigingen in de manier waarop uw werkruimte wordt beveiligd na de upgrade. Zie de sectie [Machtigingen na de upgrade](#permissions-after-upgrade) voor meer informatie.
 - Zo nodig kunt u gebruikmaken van de optie voor **terugkeer naar een klassieke werkruimte**. Bepaalde aspecten van de werkruimte kunnen echter niet volledig worden hersteld naar hoe het was vóór de upgrade. Als u eenmaal functies gebruikt die alleen in de nieuwe werkruimte-ervaring werken, is terugkeer naar een klassieke werkruimte niet meer mogelijk. De optie voor terugkeer is tot 30 dagen na de upgrade beschikbaar.
+- Power BI-beheerders kunnen een upgrade van een werkruimte initiëren. Werkruimtebeheerders ontvangen een e-mail wanneer hun werkruimte is bijgewerkt door de Power BI-beheerder.
 
 ## <a name="permissions-after-upgrade"></a>Machtigingen na de upgrade
 
@@ -193,12 +198,14 @@ Bij terugkeer naar een klassieke werkruimte wordt er geen exacte kopie van de oo
 
 ## <a name="manage-migration-to-the-new-workspaces-for-your-tenant"></a>Migratie naar de nieuwe werkruimten voor uw tenant beheren 
 
-Sommige organisaties willen een groot aantal of alle werkruimten upgraden naar de nieuwe werkruimte-ervaring. De hulpprogramma's voor het upgraden van werkruimten zijn ontworpen om werkruimtebeheerders in staat te stellen de upgrade uit voeren. Organisaties die een dergelijk proces willen beheren, kunnen de volgende stappen uitvoeren.
+Organisaties die proactief willen migreren naar de nieuwe werkruimte-ervaring, kunnen dit doen via de Power BI-beheerportal. De Power BI-beheerder kan een of meer werkruimten selecteren voor een upgrade. Upgrades van werkruimten die door de Power BI-beheerder zijn geïnitieerd delen dezelfde overwegingen en beperkingen voor upgrades van werkruimten die door de werkruimtebeheerder zijn geïnitieerd. [Meer informatie](../admin/service-admin-portal.md#workspaces) 
+
+Organisaties die een dergelijk proces willen beheren, wordt aangeraden om de volgende stappen uit te voeren om te zorgen voor een duidelijke communicatie met de betreffende werkruimtebeheerders.
 
 1. De lijst met werkruimten in de Power BI-beheerportal en de bijbehorende API bevat alle werkruimten in Power BI. Klassieke werkruimten worden weergegeven met het type Groep in de lijst.
-2. Werk met afzonderlijke eigenaren van Office 365-groepen of met uw Microsoft 365-beheerder om de werkruimten te upgraden. Als u de werkruimte wilt upgraden, moet u een eigenaar van de groep worden.
+2. Werk samen met afzonderlijke groepseigenaren of met uw beheerder in Microsoft 365 om hen op de hoogte te brengen van uw plannen om een upgrade uit te voeren van hun klassieke werkruimten.
 
-De werkruimte-upgradefunctie biedt geen hulpprogramma's voor bulksgewijze of programmatische upgrades. Daarnaast worden nieuwe Microsoft 365-groepen die zijn gemaakt in uw organisatie, nog steeds weergegeven in Power BI.
+De upgradefunctie voor de werkruimte biedt geen hulpprogramma's voor programmatische upgrades. Daarnaast worden nieuwe Microsoft 365-groepen die zijn gemaakt in uw organisatie, nog steeds weergegeven in Power BI.
    
    
 ## <a name="known-issues"></a>Bekende problemen
@@ -213,4 +220,5 @@ Er zijn een aantal bekende problemen waarmee u te maken kunt krijgen na het uitv
 * [Werk organiseren in de nieuwe werkruimte-ervaring](service-new-workspaces.md)
 * [De nieuwe werkruimten maken](service-create-the-new-workspaces.md)
 * [De klassieke werkruimten maken](service-create-workspaces.md)
+* [Een door de Power BI beheerder geïnitieerde werkruimte-upgrade starten](../admin/service-admin-portal.md#workspaces)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

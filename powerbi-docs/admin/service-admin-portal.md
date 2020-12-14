@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/22/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c83efa55cc1c35bb7e6fa8e62de3bca228553fe3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409396"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578171"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -297,7 +297,7 @@ De instelling **Publiceren op internet** in de beheerportal bevat opties waarvoo
 
 ![Instelling 'Publiceren op internet'](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
 
-Beheerders kunnen **Publiceren op internet** instellen op **Ingeschakeld** en de optie **Kiezen hoe invoegcodes werken** op **Alleen bestaande invoegcodes toestaan**. In dat geval kunnen gebruikers invoegcodes maken, maar moeten ze contact opnemen met de Power BI-beheerder om toestemming hiervoor te krijgen.
+Beheerders kunnen **Publiceren op internet** instellen op **Ingeschakeld** en de optie **Kiezen hoe invoegcodes werken** op **Alleen bestaande invoegcodes toestaan**. In dat geval kunnen gebruikers invoegcodes maken, maar moeten ze contact opnemen met de Power BI-beheerder om hiervoor toestemming te krijgen.
 
 ![Prompt voor publiceren op internet](../collaborate-share/media/service-publish-to-web/publish_to_web_admin_prompt.png)
 
@@ -307,7 +307,7 @@ Gebruikers zien verschillende opties in de gebruikersinterface, afhankelijk van 
 |---------|---------|---------|---------|
 |**Publiceren op internet** onder het menu **Meer opties (...)** van het rapport|Ingeschakeld voor iedereen|Niet voor iedereen zichtbaar|Alleen zichtbaar voor gemachtigde gebruikers of groepen.|
 |**Invoegcodes beheren** onder **Instellingen**|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen|Ingeschakeld voor iedereen<br><br>Optie * **Verwijderen** alleen voor gemachtigde gebruikers of groepen.<br>* **Ophalen van codes** ingeschakeld voor iedereen.|
-|**Codes invoegen** binnen de beheerportal|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status geeft een van de volgende opties weer:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden**.|
+|**Codes invoegen** binnen de beheerportal|De status heeft een van de volgende waarden:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd|De status geeft **Uitgeschakeld** weer|De status heeft een van de volgende waarden:<br>* Actief<br>* Niet ondersteund<br>* Geblokkeerd<br><br>Als een gebruiker niet is geautoriseerd op basis van de tenantinstelling, wordt de status weergegeven als **geschonden**.|
 |Bestaande gepubliceerde rapporten|Iedereen ingeschakeld|Iedereen uitgeschakeld|Rapporten blijven weergeven voor iedereen.|
 
 ### <a name="copy-and-paste-visuals"></a>Visuals kopiëren en plakken
@@ -336,7 +336,7 @@ Gebruikers in de organisatie kunnen PBIX-bestanden en gepagineerde rapporten dow
 
 ### <a name="allow-live-connections"></a>Live-verbindingen toestaan
 
-Gebruikers in de organisatie kunnen de Power BI-service Live Connect gebruiken. Dit omvat Analyseren in Excel.
+Gebruikers in de organisatie kunnen de Power BI-service Live Connect gebruiken. Als u live-verbindingen toestaat, kunnen gebruikers ook analyseren in Excel.
 
 ![Schermopname van de instelling Live-verbindingen toestaan.](media/service-admin-portal/powerbi-admin-portal-allow-live-connections-setting.png)
 
@@ -457,7 +457,7 @@ Gebruikers in de organisatie kunnen interactie hebben met visuele elementen die 
 
 Gebruikers in de organisatie kunnen de auditfunctie gebruiken voor het controleren van acties die door andere gebruikers in de organisatie worden uitgevoerd in Power BI. [Meer informatie](service-admin-auditing.md)
 
-Deze instelling moet worden ingeschakeld om vermeldingen te kunnen vastleggen in het auditlogboek. Er kan een vertraging tot 48 uur bestaan tussen het inschakelen van de controlefunctie en het kunnen weergeven van controlegegevens. Als u niet direct gegevens ziet, controleert u de controlelogboeken op een later tijdstip. Er kan een vergelijkbare vertraging optreden tussen het ophalen van machtiging voor het weergeven van controlelogboeken en het kunnen openen van de logboeken.
+Deze instelling moet worden ingeschakeld om vermeldingen te kunnen vastleggen in het auditlogboek. Er kan een vertraging tot 48 uur optreden tussen het inschakelen van de controlefunctie en het kunnen weergeven van controlegegevens. Als u niet direct gegevens ziet, controleert u de controlelogboeken op een later tijdstip. Er kan een vergelijkbare vertraging optreden tussen het ophalen van machtiging voor het weergeven van controlelogboeken en het kunnen openen van de logboeken.
 
 > [!NOTE]
 > Deze instelling geldt voor de hele organisatie en kan niet worden beperkt tot specifieke groepen.
@@ -577,10 +577,11 @@ Als beheerder kunt u op het tabblad **Werkruimten** alle werkruimten bekijken di
 - Details van een werkruimte bekijken, inclusief de id, de bijbehorende gebruikers en hun rollen, en de dashboards, rapporten en gegevenssets.
 - De lijst met personen die toegang hebben bewerken. Dit betekent dat u de werkruimte kunt verwijderen. U kunt uzelf als beheerder toevoegen aan een werkruimte, en vervolgens de werkruimte openen en verwijderen.
 - De velden Naam en Beschrijving bewerken.
+- Klassieke werkruimten upgraden naar de toepassing met nieuwe werkruimten
 
 ![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
 
-Beheerders kunnen ook bepalen of gebruikers een werkruimte in de nieuwe werkruimte-ervaring, of een klassieke werkruimte kunnen maken. Zie [Instellingen voor werkruimte](#workspace-settings) in dit artikel voor meer informatie. 
+Beheerders kunnen ook bepalen of gebruikers een werkruimte in de nieuwe werkruimte-ervaring, of een klassieke werkruimte kunnen maken. Zie [Instellingen voor werkruimte](#workspace-settings) in dit artikel voor meer informatie.
 
 De tabelkolommen op het tabblad **Werkruimten** komen overeen met de eigenschappen die worden geretourneerd met de [REST API voor Power BI-beheer](/rest/api/power-bi/admin) voor werkruimten. Persoonlijke werkruimten zijn van het type **PersonalGroup**, klassieke werkruimten zijn van het type **Group** en werkruimten met de nieuwe werkruimte-ervaring zijn van het type **Workspace**. Zie [Werk organiseren in de nieuwe werkruimten](../collaborate-share/service-new-workspaces.md) voor meer informatie.
 
@@ -596,6 +597,18 @@ Op het tabblad **Werkruimten** wordt de *status* voor elke werkruimte weergegeve
 Beheerders kunnen ook werkruimten beheren en herstellen met behulp van de beheerportal of PowerShell-cmdlets. 
 
 ![Lijst met werkruimten](media/service-admin-portal/workspaces-list.png)
+
+Beheerders kunnen klassieke werkruimten upgraden naar de toepassing met nieuwe werkruimten. Beheerders kunnen een of meer werkruimten van het type **Groep** selecteren om deze te upgraden. Upgrades worden asynchroon in de wachtrij geplaatst en uitgevoerd. Het kan enkele minuten tot enkele dagen duren voordat alle upgrades met de status **In behandeling** zijn voltooid, omdat het totale aantal upgrades dat door beheerders wordt gestart beperkt wordt, zodat de service probleemloos kan worden uitgevoerd. Met de kolom **Status van upgrade voor werkruimte** kunnen beheerders de voortgang bijhouden van upgrades die worden gestart door beheerders. Beheerders kunnen upgrades die worden gestart door beheerders annuleren wanneer deze de status **In behandeling** hebben. Als u een werkruimte onmiddellijk wilt upgraden, neemt u contact op met de werkruimtebeheerder en laat u deze de upgrade starten via het deelvenster met de instellingen voor de werkruimte. [Lees meer over de upgrade van werkruimten voordat u begint met het upgraden van de werkruimte die door de Power BI-beheerder wordt gestart.](../collaborate-share/service-upgrade-workspaces.md).
+
+De volgende tabel bevat meer informatie over de status van de upgrade.
+
+|Status  |Beschrijving  |
+|---------|---------|
+| **(Leeg)** | De werkruimte wordt niet geüpgraded door een Power BI-beheerder. |
+| **In behandeling** | De werkruimte is in de wachtrij geplaatst om te worden geüpgraded. De upgrade kan worden geannuleerd. |
+| **Wordt uitgevoerd** | De werkruimte wordt momenteel geüpgraded. De upgrade kan niet worden geannuleerd. |
+| **Voltooid** | De werkruimte is in de afgelopen 30 dagen geüpgraded door een Power BI-beheerder. Een werkruimtebeheerder kan desgewenst terugkeren naar de klassieke optie tijdens de periode van 30 dagen na de upgrade van de werkruimte. |
+
 
 ## <a name="custom-branding"></a>Aangepaste huisstijl
 

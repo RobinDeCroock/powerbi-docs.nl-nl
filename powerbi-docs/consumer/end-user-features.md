@@ -10,14 +10,14 @@ ms.topic: reference
 ms.date: 11/16/2020
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 8e3a32402b3eff202a8e35a2e34fa52271650a64
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2bd6a752d94bd2a549d0149512707fbd7832319
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96390720"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613780"
 ---
-# <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>Lijst met Power BI-functies voor *consumenten* en anderen met een gratis licentie
+# <a name="power-bi-feature-list-for-business-users-and-others-with-free-licenses"></a>Lijst met Power BI-functies voor *zakelijke gebruikers* en anderen met een gratis licentie
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
@@ -58,7 +58,7 @@ Elke Power BI-servicegebruiker heeft een gratis licentie of een Pro-licentie. *Z
 
    
 
-## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>Lijst met Power BI-functies voor *consumenten* en gebruikers van een gratis versie
+## <a name="power-bi-feature-list-for-business-users-and-free-users"></a>Lijst met Power BI-functies voor *zakelijke gebruikers* en gebruikers van een gratis versie
 In de volgende grafiek ziet u welke taken kunnen worden uitgevoerd door een *zakelijke gebruiker* die met inhoud in Premium-capaciteit werkt.    
 
 De eerste kolom vertegenwoordigt een gebruiker van een gratis versie die werkt met inhoud in **Mijn werkruimte**. Deze gebruiker kan niet samenwerken met collega's in de Power BI-service. Collega's kunnen inhoud niet rechtstreeks delen met deze gebruiker en deze gebruiker kan niets delen dat zich in **Mijn werkruimte** bevindt. 

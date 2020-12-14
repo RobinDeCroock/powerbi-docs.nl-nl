@@ -7,20 +7,19 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 08/26/2020
+ms.date: 12/03/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: ec56f15386aeddafa74d952ce772aa3dcce4f901
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa199547f6cad0b7d4dbfc6b75e9d9e25b2b153
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96391479"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578332"
 ---
 # <a name="what-are-bookmarks"></a>Wat zijn bladwijzers?
 
 [!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Met bladwijzers wordt de momenteel geconfigureerde weergave van een rapportpagina vastgelegd, met inbegrip van filters, slicers en de status van visuals. Wanneer u een bladwijzer selecteert, brengt Power BI u terug naar die weergave. Er zijn twee soorten bladwijzers: bladwijzers die u zelf maakt en bladwijzers die zijn gemaakt door rapport *ontwerpers*. Elke Power BI-gebruiker kan persoonlijke bladwijzers maken. Er is echter een Power BI Pro- of Premium-licentie vereist om bladwijzers te kunnen gebruiken die door anderen zijn gemaakt. [Welke licentie heb ik?](end-user-license.md)
 
@@ -30,6 +29,16 @@ Er zijn vele toepassingen voor bladwijzers. Stel dat u een interessant inzicht o
 U kunt ook een verzameling bladwijzers maken, deze rangschikken in de gewenste volgorde en vervolgens de bladwijzers doorlopen in een presentatie om een reeks inzichten te markeren die een verhaal vertellen.  
 
 ![Deelvenster Bladwijzers weergeven door het te selecteren op het lint.](media/end-user-bookmarks/power-bi-bookmark-icon.png)
+
+Deel uw rapport met bladwijzers met collega's die ook leestoegang tot het rapport hebben. De weergave met bladwijzers van het rapport vervangt niet het oorspronkelijke rapport van de ontwerper.  Als u het rapport deelt met collega's die nog geen leestoegang hebben, moeten de machtigingen opnieuw worden gedeeld. Als u de weergave van het rapport niet kunt delen, neemt u contact op met de eigenaar van het rapport en vraagt u deze om de machtiging opnieuw te delen.  
+
+
+### <a name="share-changes"></a>Wijzigingen delen 
+Als u machtigingen voor lezen en opnieuw delen hebt, kunt u ervoor kiezen om uw wijzigingen in het rapport op te nemen wanneer u dit deelt.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-share-changes.png" alt-text="Wijzigingen delen":::
+ 
+
 
 ## <a name="open-bookmarks"></a>Bladwijzers openen
 Als u het deelvenster Bladwijzers wilt openen, selecteert u **Bladwijzers** > **Meer bladwijzers weergeven** in de menubalk. 
@@ -164,17 +173,22 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 -->
 
 
+### <a name="reset-all-your-changes-to-a-report"></a>Al uw wijzigingen in een rapport herstellen
+
+Selecteer in de rechterbovenhoek van het rapportcanvas de optie **Standaardinstelling herstellen**. Hiermee worden al uw wijzigingen in het rapport verwijderd en wordt de door de auteur laatst opgeslagen weergave van het rapport hersteld.
+
+:::image type="content" source="media/end-user-bookmarks/power-bi-personalize-reset-all.png" alt-text="Alle wijzigingen herstellen":::
 
 
 
 ## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 Houd rekening met de volgende beperkingen en overwegingen in deze release van **bladwijzers**.
 
-* De meeste Power BI-visuals zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een Power BI-visual, neem dan contact op met de maker van die Power BI-visual en vraag deze om ondersteuning om bladwijzers toe te voegen.
+* De meeste aangepaste Power BI-visuals zouden goed met bladwijzers moeten werken. Als u problemen ondervindt met bladwijzers en een aangepaste Power BI-visual, neemt u contact op met de maker van die visual en vraagt u deze om ondersteuning voor bladwijzers toe te voegen.    
 * Als u een visueel element toevoegt aan een rapportpagina nadat u een bladwijzer hebt gemaakt, wordt het visuele element weergegeven in de standaardstaat. Dit betekent ook dat als u een slicer toevoegt aan een pagina waarop u eerder bladwijzers hebt gemaakt, de slicer in de standaardstaat wordt uitgevoerd.
 * Over het algemeen worden uw bladwijzers niet beïnvloed als de rapport *ontwerper* het rapport bijwerkt of opnieuw publiceert. Als de ontwerper echter grote wijzigingen in het rapport aanbrengt, zoals het verwijderen van velden die worden gebruikt door een bladwijzer, wordt een foutbericht weergegeven wanneer u de volgende keer probeert die bladwijzer te openen. 
+* Deze functie wordt ondersteund in de mobiele apps van Power BI Mobile voor iOS en Android-tablets en in de Power BI Windows-app. Het wordt niet ondersteund in de Power BI Mobile Apps voor telefoons. Wijzigingen in de visual die u in de Power BI-service in een persoonlijke bladwijzer opslaat, worden echter in alle mobiele Power BI-apps aangehouden.
 
-<!--
-## Next steps
-spotlight?
--->
+
+## <a name="next-steps"></a>Volgende stappen
+[Visuals in een rapport aanpassen](end-user-personalize-visuals.md)

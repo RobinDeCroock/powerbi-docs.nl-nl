@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/01/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 384ce5efc28355ea238d5782dd1553901097e0f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411673"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613808"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -28,14 +28,14 @@ U kunt uzelf en uw collega's abonneren op de rapportpagina's, dashboards en gepa
 - Neem een bijlage van het volledige rapport op als u zich abonneert op een gepagineerd rapport.
 - Verzend e-mail naar gebruikers buiten uw tenant als uw Power BI-inhoud wordt gehost in een Premium-capaciteit.  Beheerders kunnen de toegang beheren tot degenen die e-mailabonnementen naar externe gebruikers kunnen verzenden, door gebruik te maken van de bestaande beheerinstellingen voor extern delen in het Power BI-beheercentrum.
 
-![E-mail met momentopname van dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
+![E-mail met momentopname van dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
 
 ## <a name="requirements"></a>Vereisten
 
 De volgende gebruikers kunnen een abonnement **maken**:
 
-- Gebruikers met een Power BI Pro-licentie 
-- Gebruikers die inhoud in een premium-werkruimte of -app bekijken, kunnen zich abonneren op de bijbehorende inhoud, zelfs zonder een Power BI Pro-licentie. 
+- Gebruikers met een Power BI Pro-licentie
+- Gebruikers die inhoud in een premium-werkruimte of -app bekijken, kunnen zich abonneren op de bijbehorende inhoud, zelfs zonder een Power BI Pro-licentie.
 
 U hebt geen bewerkingsmachtigingen nodig voor de inhoud (dashboard of rapport) om een abonnement voor uzelf te maken, maar u moet wel over deze machtigingen beschikken om er eentje te maken voor iemand anders.
 
@@ -44,12 +44,12 @@ U hebt geen bewerkingsmachtigingen nodig voor de inhoud (dashboard of rapport) o
 Het proces voor het abonneren op een dashboard, rapport of gepagineerd rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.
 
 Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](../consumer/paginated-reports-subscriptions.md) voor meer informatie.
- 
+
 ![Pictogram Abonneren selecteren](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Open het dashboard of het rapport.
 2. Selecteer in de bovenste menubalk **Abonneren** of selecteer het pictogram van een envelop :::image type="icon" source="media/service-report-subscribe/power-bi-icon-envelope.png" border="false":::.
-   
+
     ![Pictogram Abonneren](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
 1. Gebruik de gele schuifregelaar om het abonnement in of uit te schakelen. Als u de schuifregelaar instelt op **Uit**, wordt het abonnement niet verwijderd. Selecteer het prullenbakpictogram om het abonnement te verwijderen.
@@ -65,8 +65,8 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 6. De begindatum voor uw abonnement is standaard de datum waarop u het hebt gemaakt. U hebt de mogelijkheid om een einddatum te selecteren. Als u geen einddatum instelt, is de einddatum automatisch één jaar na de begindatum. U kunt deze op elk gewenst moment wijzigen in ongeacht welke datum in de toekomst (tot het jaar 9999) voordat het abonnement afloopt. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt. U ontvangt vóór de geplande einddatum een melding/meldingen met de vraag of u wilt verlengen.
 
     Merk op in de onderstaande schermafbeelding dat wanneer u zich op een rapport abonneert, u zich feitelijk abonneert op een rapport _pagina_. Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina.
-     
-    ![Deelvenster Abonneren](media/service-report-subscribe/power-bi-subscribe-pane.png)  
+
+    ![Deelvenster Abonneren](media/service-report-subscribe/power-bi-subscribe-pane.png)
 
 1. (Optioneel) Selecteer of u een koppeling wilt toevoegen aan de inhoud in Power BI en of u gebruikerstoegang wilt geven tot de inhoud waarop u hen abonneert.  Als u ervoor kiest een koppeling op te nemen voor de beste ervaring, moet u ervoor zorgen dat alle gebruikers toegang hebben tot het rapport.
 2. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement. Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.
@@ -102,7 +102,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - Inhoud waarop is geabonneerd
 - Ontvangers
 - Frequentie
-- Gewijzigd door/
+- Gewijzigd door
 - Datum wijziging
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
@@ -118,7 +118,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
     - Hoewel u een Power BI Pro-licentie hebt, hebt u mogelijk geen Microsoft Exchange-licentie. Als dat niet het geval is, is voor uw Azure Active Directory-account mogelijk geen e-mailadres of alternatief e-mailadres opgegeven. In dat geval ontvangt u nooit een exemplaar, ook al lijkt het of het abonnement is verzonden.  Als uw Power BI-beheerder een e-mailadres toewijst, wordt de update door Power BI gesynchroniseerd wanneer u zich de volgende keer aanmeldt en wordt dat e-mailadres gebruikt voor het abonnement.
 
 - Als uw dashboard of rapport zich in Premium-capaciteit bevindt, kunt u e-mailaliassen van een groep gebruiken voor abonnementen, in plaats van alle collega's één voor één met het eigen e-mailadres te abonneren. De aliassen zijn gebaseerd op de huidige Active Directory.
-- Als uw inhoud zich niet in een Premium-capaciteit bevindt, kunnen alleen Power BI Pro gebruikers e-mailabonnementen ontvangen. 
+- Als uw inhoud zich niet in een Premium-capaciteit bevindt, kunnen alleen Power BI Pro gebruikers e-mailabonnementen ontvangen.
 - Abonnementen bieden momenteel geen ondersteuning voor bladwijzers.
 - De optie om toegang te bieden tot het rapport/dashboard wordt altijd weergegeven als ingeschakeld wanneer u een bestaand abonnement bewerkt.  Als u deze optie hebt gewist en het abonnement opslaat, wordt die status opgeslagen. Wanneer u het rapport echter opnieuw gaat bewerken, wordt het standaard gecontroleerd.
 - Als u een alternatief e-mailadres hebt, maar geen primair adres, gebruikt Power BI dat adres om het abonnement te leveren.
@@ -141,9 +141,18 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - E-mailabonnementen bieden op dit moment geen ondersteuning voor de aangepaste R-visuals.
 - E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht. Gepagineerde rapporten ondersteunen deze mogelijkheid wel en bieden de mogelijkheid om de specifieke parameterwaarden te configureren per abonnement.
 - Stel dat u een rapport hebt met een live-verbinding met Analysis Services en dat de abonnementen zijn ingesteld om te worden uitgevoerd na het vernieuwen van gegevens. Het wordt uitgevoerd bij de eerste keer dat de Power BI-service een wijziging in uw on-premises model detecteert wanneer het Analysis Services-exemplaar wordt gecontroleerd.  Power BI controleert elk uur op een wijziging in het Analysis Services-gegevensmodel om te bepalen wanneer het abonnement moet worden verzonden.
+- De functie voor volledige rapporten als bijlage is beschikbaar voor rapporten die voldoen aan de volgende drie voorwaarden:
+
+    - Ze bevinden zich in een geüpgradede werkruimte met [Power BI Premium of Premium per gebruiker](../admin/service-premium-what-is.md). 
+    - Het bijlagebestand is kleiner dan 25 MB.
+    - Het rapport heeft minder dan 20 pagina's. 
+    
+    Als het rapport niet aan deze drie voorwaarden voldoet, kunt u geen abonnementen met volledige rapporten als bijlagen maken. Bestaande abonnementen met volledige rapporten als bijlagen worden uitgeschakeld en u ontvangt een e-mailbericht waarin de fout wordt uitgelegd:
+    
+    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="E-mail over foutmelding voor bijlagen voor volledige rapporten.":::
 
 ## <a name="next-steps"></a>Volgende stappen
 
-- [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](../consumer/paginated-reports-subscriptions.md)
-- Hebt u nog vragen? [Misschien dat de Power Bi-community het antwoord weet](https://community.powerbi.com/).    
-- [Lees het blogbericht](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)
+- [Gepagineerde rapporten in de Power BI-service: Uzelf en anderen abonneren](../consumer/paginated-reports-subscriptions.md)
+- Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+- Lees het [Power BI-blogbericht over e-mailabonnementen voor dashboards](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/20/2020
+ms.date: 12/04/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 6fcbdeef8c7c02656e5637f6103fda76faeb26c9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412271"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781814"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -74,9 +74,9 @@ De volgende afbeelding laat zien hoe u Premium Gen2 inschakelt.
 
 Momenteel zijn de volgende bekende beperkingen van toepassing op Premium Gen2:
 
-1.  Capaciteitsgebruik in Premium Gen2 kan niet worden bijgehouden in de app voor metrische gegevens.
+1.    Capaciteitsgebruik in Premium Gen2 kan niet worden bijgehouden in de app voor metrische gegevens.
 
-2.  De capaciteitsinstellingen voor Premium Gen2 voor specifieke werkbelastingen zijn nog niet zichtbaar op de pagina Premium Gen2-capaciteitsinstellingen in de beheerportal. Om de instellingen te wijzigen verplaatst u de capaciteit naar de oorspronkelijke versie van Premium, wijzigt u de instellingen en stelt u de capaciteit opnieuw in op het gebruik van Premium Gen2. De instellingen voor geheugentoewijzing zijn niet van toepassing op Premium Gen2-capaciteit.
+2.    De capaciteitsinstellingen voor Premium Gen2 voor specifieke werkbelastingen zijn nog niet zichtbaar op de pagina Premium Gen2-capaciteitsinstellingen in de beheerportal. Om de instellingen te wijzigen verplaatst u de capaciteit naar de oorspronkelijke versie van Premium, wijzigt u de instellingen en stelt u de capaciteit opnieuw in op het gebruik van Premium Gen2. De instellingen voor geheugentoewijzing zijn niet van toepassing op Premium Gen2-capaciteit.
 
 3.  Als u XMLA op Premium Gen2 wilt gebruiken, moet u ervoor zorgen dat u de meest recente versies van de [hulpprogramma’s voor gegevensmodellering en -beheer](service-premium-connect-tools.md#data-modeling-and-management-tools) gebruikt. 
 
@@ -272,11 +272,13 @@ De volgende tabel bevat de aanbevolen SKU's voor het uploaden van PBIX-bestanden
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3, P4, P5    | tot 10 GB   |
+   |P3, P4, P5    | tot 10 GB  |
 
 De Power BI Embedded A4-SKU is gelijk aan de P1-SKU, A5 = P2 en A6 = P3.
 
-Als u [Grote modellen](service-premium-large-models.md) inschakelt voor een gegevensset, worden de bestandsbeperkingen voor PBIX-bestanden nog steeds toegepast op het uploaden of publiceren van bestanden. Met de combinatie van Incrementeel vernieuwen en Grote modellen kunnen gegevenssets echter veel groter worden dan deze limieten. Bij grote modellen wordt de grootte van de gegevensset alleen beperkt door de maximale Power BI Premium-capaciteit.
+### <a name="large-dataset-storage-format"></a>Opslagindeling voor grote gegevenssets
+
+Als u de instelling [Opslagindeling voor grote gegevenssets](service-premium-large-models.md) inschakelt voor een gegevensset, worden de beperkingen voor de grootte van PBIX-bestanden nog steeds toegepast op het uploaden of publiceren van bestanden. De maximale uploadgrootte wordt niet beïnvloed door de opslagindeling voor grote gegevenssets. Wanneer incrementeel vernieuwen en de opslagindeling voor grote gegevensset zijn ingeschakeld, kunnen bij de publicatie van gegevenssets naar de service deze gegevenssets echter veel groter worden dan deze limieten. Bij een opslagindeling voor grote gegevenssets wordt de grootte van de gegevensset alleen beperkt door de maximale Power BI Premium-capaciteit.
 
 Uw pbix-bestanden bevatten gegevens in een *sterk gecomprimeerde toestand*. De gegevensgrootte neemt waarschijnlijk toe wanneer de gegevens in het geheugen worden geladen. Vervolgens neemt de grootte mogelijk nog meerdere keren toe tijdens het vernieuwen van gegevens.
 

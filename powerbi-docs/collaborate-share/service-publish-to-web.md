@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/02/2020
+ms.date: 12/03/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 004546a941426f602bfb5cacaf938bd55cec452d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406774"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613872"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -198,6 +198,7 @@ U moet [een van deze personen](/office365/admin/admin-overview/admin-overview#wh
 - Gegevensquerymodellen voor eenmalige aanmelding.
 - Beveiligde vertrouwelijke of eigendomsinformatie.
 - De mogelijkheid van automatische verificatie die bij de optie **Insluiten** wordt verstrekt, werkt niet met de Power BI JavaScript-API. Gebruik voor de Power BI JavaScript-API de benadering [Gebruiker is eigenaar van gegevens](../developer/embedded/embed-sample-for-your-organization.md) voor het insluiten van inhoud.
+- Beheerders kunnen openbare internettoegang blokkeren, zoals beschreven in [Privékoppelingen voor toegang tot Power BI](../admin/service-security-private-links.md). In dat geval wordt de optie **Publiceren op internet** grijs weergegeven voor uw tenant in de Power BI-beheerportal. 
 
 ## <a name="next-steps"></a>Volgende stappen
 

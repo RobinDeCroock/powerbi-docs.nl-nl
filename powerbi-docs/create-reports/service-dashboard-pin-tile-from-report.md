@@ -8,14 +8,14 @@ featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/23/2019
+ms.date: 12/03/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5aa34834df49d54be885d94a1a1c06e13891ead1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ad3a38fa8aef4f5404196213ebd3c7b26d3fc3b8
+ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417331"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96578401"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Vanuit een rapport een tegel vastmaken aan een Power BI-dashboard
 
@@ -58,10 +58,12 @@ Een andere mogelijkheid is om een volledige rapportpagina aan een dashboard vast
 
 Zie [Een volledige rapportpagina vastmaken](service-dashboard-pin-live-tile-from-report.md) voor meer informatie.
 
-> [!NOTE]
-> Sommige opmaakopties worden niet toegepast op visuele elementen wanneer ze zijn vastgemaakt aan een dashboard. De rand-, schaduw- en achtergrondinstellingen worden genegeerd in de vastgemaakte tegel. Voor kaartvisuals wordt de tekst die wordt gebruikt voor de waarde, altijd weergegeven in dashboards met behulp van de lettertypefamilie 'DIN'. 
-> 
->
+## <a name="limitations"></a>Beperkingen
+Sommige opmaakopties of-thema's voor rapporten worden niet toegepast op visuals wanneer u ze vastmaakt aan een dashboard.
+- De rand-, schaduw- en achtergrondinstellingen worden genegeerd in de vastgemaakte tegel.
+- Voor kaartvisuals wordt de tekst die wordt gebruikt voor de waarde met zwarte tekst in dashboards weergegeven met behulp van de lettertypefamilie DIN. U kunt de tekstkleur voor alle tegels op een dashboard wijzigen door [een aangepast dashboardthema te maken](service-dashboard-themes.md).
+- Voorwaardelijke opmaak wordt niet toegepast.
+- De grootte van visuals wordt aangepast aan de grootte van de tegel. Dit kan resulteren in verschillen in de indeling, zodat het lijkt alsof de grootte van de visual in het rapport is gewijzigd.
 
 ## <a name="next-steps"></a>Volgende stappen
 - [Dashboards voor gebruikers van de Power BI-service](../consumer/end-user-dashboards.md)

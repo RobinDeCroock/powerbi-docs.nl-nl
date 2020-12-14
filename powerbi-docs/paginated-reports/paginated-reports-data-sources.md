@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/12/2020
-ms.openlocfilehash: e26e273ff16d67defb9299c226a8435a75b93661
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/07/2020
+ms.openlocfilehash: 4368230812d90031d1f7cf83d426fc1508382412
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398333"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781929"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI
 
@@ -30,7 +30,7 @@ Gepagineerde rapporten bieden inherente ondersteuning voor de volgende lijst met
 | Azure SQL Database <br>Azure SQL Data Warehouse | Basic, eenmalige aanmelding (SSO), OAuth2 | U kunt een Enterprise Gateway met Azure SQL Database gebruiken. U mag in deze scenario's echter voor verificatie geen Eenmalige aanmelding of oAuth2 gebruiken.   |
 | Beheerd exemplaar voor Azure SQL | Basic | via een openbaar eindpunt of een privé-eindpunt (privé-eindpunt moet worden gerouteerd via een Enterprise Gateway)  |
 | Azure Analysis Services | SSO, OAuth2 | De AAS-firewall moet worden uitgeschakeld of geconfigureerd om alle IP-bereiken in de BlackForest-regio toe te staan. Dit geldt alleen voor de BlackForest-regio.  SSO vanaf een externe tenant wordt niet ondersteund. |
-| Power BI-gegevensset | SSO | Premium Power BI-gegevenssets en andere Power BI-gegevenssets. Leesmachtiging vereist |
+| Power BI-gegevensset | SSO | Premium Power BI-gegevenssets en andere Power BI-gegevenssets. Hiervoor is leesmachtiging vereist. Alleen de modus voor importeren en DirectQuery Power BI-gegevenssets worden ondersteund. |
 | Premium-Power BI-gegevensset (XMLA) | SSO | Power BI-gegevenssets worden niet ondersteund als gegevensbron voor ingesloten gepagineerde rapporten in scenario's waarin de app eigenaar van de gegevens is.  Zorg ervoor dat de optie Geen referenties gebruiken is geselecteerd bij het instellen van de gegevensbron om voor de juiste connectiviteit in Power BI Report Builder te zorgen.   |
 | Gegevens invoeren | N.v.t. | Gegevens zijn in het rapport ingesloten. |
 

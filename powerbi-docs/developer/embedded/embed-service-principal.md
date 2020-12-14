@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 17c0a4d0809aa87f50225e0c59ca3962776bd2b1
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514477"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907090"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
 
@@ -170,7 +170,7 @@ Voeg de beveiligingsgroep die u in Azure AD hebt gemaakt, toe aan de sectie Spec
 >Als u de toegang van de service-principal wilt beperken tot specifieke tenantinstellingen, staat u alleen toegang tot specifieke beveiligingsgroepen toe. U kunt ook een toegewezen beveiligingsgroep voor service-principals maken en deze uitsluiten van de gewenste tenantinstellingen.
 
 >[!div class="mx-imgBorder"]
->:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Schermopname met de instellingen voor ontwikkelaars in de beheeropties in de Power BI-portal.":::
+>:::image type="content" source="media/embed-service-principal/admin-portal.png" alt-text="Schermopname met de instellingen voor ontwikkelaars in de beheeropties in de Power BI-service.":::
 
 ## <a name="step-4---add-the-service-principal-to-your-workspace"></a>Stap 4: voeg de service-principal toe aan uw werkruimte
 
@@ -195,12 +195,9 @@ Als u uw Azure AD-app toegang wilt verlenen tot artefacten zoals rapporten, dash
 
 ## <a name="step-5---embed-your-content"></a>Stap 5: uw inhoud insluiten
 
-U kunt nu uw inhoud insluiten in een voorbeeldtoepassing of in uw eigen toepassing.
+U kunt [uw inhoud insluiten in een voorbeeld-app](embed-sample-for-customers.md) of in uw eigen app.
 
-* [Inhoud met behulp van de voorbeeldtoepassing insluiten](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-* [Inhoud in uw toepassing insluiten](embed-sample-for-customers.md#embed-content-within-your-application)
-
-Als de inhoud is ingesloten, bent u klaar voor de [overgang naar de productieomgeving](embed-sample-for-customers.md#move-to-production).
+Als de inhoud is ingesloten, bent u klaar voor de [overgang naar de productieomgeving](move-to-production.md).
 
 >[!NOTE]
 >Als u uw inhoud wilt beveiligen met een certificaat volgt u de stappen die worden beschreven in [Power BI-inhoud insluiten met service-principal en een certificaat](embed-service-principal-certificate.md).

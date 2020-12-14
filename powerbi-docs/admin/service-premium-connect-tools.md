@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/05/2020
+ms.date: 12/01/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4e71580857827a370676c4d05274c4c57b1d56c5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
+ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413490"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96613711"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt
 
@@ -23,7 +23,7 @@ Power BI Premium-werkruimten en -gegevenssets op compatibiliteitsniveau 1500 en 
 
 ## <a name="whats-an-xmla-endpoint"></a>Wat is een XMLA-eindpunt?
 
-Power BI Premium maakt gebruik van het XMLA-protocol ([XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true)) voor communicatie tussen clienttoepassingen en de engine waarmee uw Power BI-werkruimten en -gegevenssets wordt beheerd. Deze communicatie verloopt via wat vaak wordt aangeduid als XMLA-eindpunten. XMLA is hetzelfde communicatieprotocol dat wordt gebruikt door de Microsoft Analysis Services-engine, waarmee achter de schermen de semantische modellering, governance, levensduur en het gegevensbeheer van Power BI wordt uitgevoerd.
+Power BI Premium maakt gebruik van het XMLA-protocol ([XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current&preserve-view=true)) voor communicatie tussen clienttoepassingen en de engine waarmee uw Power BI-werkruimten en -gegevenssets wordt beheerd. Deze communicatie verloopt via wat vaak wordt aangeduid als XMLA-eindpunten. XMLA is hetzelfde communicatieprotocol dat wordt gebruikt door de Microsoft Analysis Services-engine, waarmee achter de schermen de semantische modellering, governance, levensduur en het gegevensbeheer van Power BI wordt uitgevoerd. Gegevens die via het XMLA-protocol worden verzonden, zijn volledig versleuteld.
 
 Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de **workload van gegevenssets** in een capaciteit. Met alleen-lezen bewerkingen kunnen toepassingen en hulpprogramma's voor gegevensvisualisatie query's uitvoeren op modelgegevens, metagegevens, gebeurtenissen en schema's van gegevenssets. *Lees- en schrijf* bewerkingen met het eindpunt kunnen worden geconfigureerd door aanvullende opties voor beheer, governance, geavanceerde semantische modellering, foutopsporing en controle van gegevenssets op te geven. Als lezen/schrijven is ingeschakeld, hebben Power BI Premium-gegevenssets meer pariteit met hulpprogramma's en processen voor modellering van tabellen op ondernemingsniveau van Azure Analysis Services en SQL Server Analysis Services.
 
@@ -32,7 +32,7 @@ Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de
 
 ## <a name="data-modeling-and-management-tools"></a>Gegevensmodellering en beheerprogramma's
 
-Dit zijn enkele van de meestvoorkomende hulpprogramma's die worden gebruikt met Azure Analysis Services en SQL Server Analysis Services, en nu worden ondersteund door Power BI Premium-gegevenssets:
+Hieronder zijn enkele van de meestvoorkomende hulpprogramma's vermeld die worden gebruikt met Azure Analysis Services en SQL Server Analysis Services, en nu worden ondersteund door Power BI Premium-gegevenssets:
 
 **Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT**, is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.6 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (Hulpprogramma's voor Analysis Services) voor meer informatie.
 
@@ -70,7 +70,7 @@ Standaard is voor een Premium-capaciteit de instelling voor de eigenschap XMLA-e
 
 ### <a name="to-enable-read-write-for-a-capacity"></a>Lezen/schrijven inschakelen voor een capaciteit
 
-1. Klik in de beheerportal op **Instellingen voor capaciteit** > **Power BI Premium** > naam van de capaciteit.
+1. Selecteer in de beheerportal **Instellingen voor capaciteit** > **Power BI Premium** > naam van de capaciteit.
 2. Vouw **Workloads** uit. Selecteer in de instelling **XMLA-eindpunt** de optie **Lezen/schrijven**.
 
     ![XMLA-eindpunt inschakelen](media/service-premium-connect-tools/xmla-endpoint-enable.png)
@@ -91,7 +91,7 @@ B2B-gebruikers moeten hun organisatie-UPN opgeven in de tenant naam. Bijvoorbeel
 
 ### <a name="to-get-the-workspace-connection-url"></a>De verbindings-URL voor de werkruimte ophalen
 
-Ga in de werkruimte naar **Instellingen** > **Premium** > **Werkruimteverbinding** en klik op **Kopiëren**.
+Ga in de werkruimte naar **Instellingen** > **Premium** > **Werkruimteverbinding** en selecteer **Kopiëren**.
 
 ![Verbindingsreeks voor werkruimten](media/service-premium-connect-tools/xmla-endpoint-workspace-connection.png)
 
@@ -99,7 +99,7 @@ Ga in de werkruimte naar **Instellingen** > **Premium** > **Werkruimteverbinding
 
 ### <a name="initial-catalog"></a>Oorspronkelijke catalogus
 
-Voor sommige hulpprogramma's, zoals SQL Server Profiler, moet u mogelijk een *Oorspronkelijke catalogus* opgeven. Geef een gegevensset (database) in uw werkruimte op. In het dialoogvenster **Verbinding maken met server** klikt u op **Opties** > **Verbindingseigenschappen** > **Verbinding maken met database** en voert u de naam van de gegevensset in.
+Voor sommige hulpprogramma's, zoals SQL Server Profiler, moet u mogelijk een *Oorspronkelijke catalogus* opgeven. Geef een gegevensset (database) in uw werkruimte op. In het dialoogvenster **Verbinding maken met server** selecteert u **Opties** > **Verbindingseigenschappen** > **Verbinding maken met database** en voert u de naam van de gegevensset in.
 
 ### <a name="duplicate-workspace-names"></a>Dubbele werkruimtenamen
 
@@ -129,9 +129,15 @@ De volgende gegevenssets zijn niet toegankelijk via het XMLA-eindpunt. Deze gege
 
 ## <a name="security"></a>Beveiliging
 
-Naast de eigenschap voor het XMLA-eindpunt waarvoor lezen/schrijven is ingeschakeld de capaciteitsbeheerder, moet ook de instelling **Gegevens exporteren** in de Power BI beheerportal, die tevens vereist is voor Analyseren in Excel, worden ingeschakeld op tenantniveau.
+Naast de eigenschap voor het XMLA-eindpunt waarvoor lezen/schrijven is ingeschakeld door de capaciteitsbeheerder, moet ook de instelling **XMLA-eindpunten en Analyseren in Excel toestaan met on-premises gegevenssets** in de beheerportal worden ingeschakeld op tenantniveau. Als u AIXL-bestanden wilt genereren die verbinding maken met het XMLA-eindpunt, moet de instelling op tenantniveau **Live-verbindingen toestaan** ook worden ingeschakeld. Deze instellingen zijn standaard ingeschakeld.
 
-![Gegevens exporteren inschakelen](media/service-premium-connect-tools/xmla-endpoint-export-data.png)
+**XMLA-eindpunten en Analyseren in Excel toestaan met on-premises gegevenssets** is een instelling voor integratie.
+
+:::image type="content" source="media/service-premium-connect-tools/allow-xmla-endpoints.png" alt-text="De instelling voor integratie voor XMLA-eindpunten toestaan.":::
+
+**Live-verbindingen toestaan** is een instelling voor exporteren en delen.
+
+:::image type="content" source="media/service-premium-connect-tools/allow-live-connections.png" alt-text="Instelling voor het exporteren en delen voor live-verbindingen toestaan.":::
 
 Bij toegang via het XMLA-eindpunt wordt het ingestelde lidmaatschap van de beveiligingsgroep op het niveau van de werkruimte/app gerespecteerd.
 
@@ -184,7 +190,7 @@ Wanneer de eigenschap voor de implementatieserver is opgegeven, kan het project 
 
 **Bij de eerste implementatie**, wordt er een gegevensset in de werkruimte gemaakt met behulp van metagegevens uit het bestand model.bim. Als onderdeel van de implementatiebewerking, nadat de gegevensset in de werkruimte is gemaakt op basis van de metagegevens van het model, zal de verwerking voor het laden van gegevens in de gegevensset uit gegevensbronnen mislukken.
 
-De verwerking mislukt omdat er - in tegenstelling tot een implementatie naar een instantie van een Azure- of SQL-analyseserver, waarbij de referenties van de gegevensbron worden gevraagd als onderdeel van de implementatiebewerking - bij een implementatie naar een Premium-werkruimte geen gegevensbronreferenties kunnen worden opgegeven. In plaats hiervan geeft u, nadat de metagegevens zijn geïmplementeerd en de gegevensset is gemaakt, gegevensbronreferenties op in de Power BI-service in de instellingen voor de gegevensset. Klik in de werkruimte op **Gegevenssets** > **Instellingen** > **Gegevensbronreferenties** > **Referenties bewerken**.
+De verwerking mislukt omdat er - in tegenstelling tot een implementatie naar een instantie van een Azure- of SQL-analyseserver, waarbij de referenties van de gegevensbron worden gevraagd als onderdeel van de implementatiebewerking - bij een implementatie naar een Premium-werkruimte geen gegevensbronreferenties kunnen worden opgegeven. In plaats hiervan geeft u, nadat de metagegevens zijn geïmplementeerd en de gegevensset is gemaakt, gegevensbronreferenties op in de Power BI-service in de instellingen voor de gegevensset. Selecteer in de werkruimte **Gegevenssets** > **Instellingen** > **Gegevensbronreferenties** > **Referenties bewerken**.
 
 ![Gegevensbronreferenties](media/service-premium-connect-tools/xmla-endpoint-datasource-credentials.png)
 
@@ -198,7 +204,7 @@ Verbinding maken met een werkruimte met behulp van SSMS gaat net zoals verbindin
 
 ### <a name="connect-to-a-workspace-by-using-ssms"></a>Verbinding met een werkruimte maken met behulp van SSMS
 
-1. Klik in SQL Server Management Studio op **Verbinding maken** > **Verbinding maken met de server**.
+1. Selecteer in SQL Server Management Studio **Verbinding maken** > **Verbinding maken met de server**.
 
 2. Selecteer **Analysis Services** als **servertype**. Geef in **Servernaam** de URL van de werkruimte op. Selecteer bij **Verificatie** **Active Directory - Universeel met MFA** en geef vervolgens in **Gebruikersnaam** de gebruikers-id van uw organisatie op.
 

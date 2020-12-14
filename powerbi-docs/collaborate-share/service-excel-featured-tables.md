@@ -1,22 +1,22 @@
 ---
-title: Toegang tot aanbevolen Power BI-tabellen in Excel (preview)
-description: In Excel kunt u gegevens uit aanbevolen tabellen in Power BI-gegevenssets vinden in de galerie Gegevenstypen.
+title: Toegang tot aanbevolen Power BI-tabellen in Excel
+description: In Excel kunt u gegevens uit aanbevolen tabellen in Power BI-gegevenssets vinden in de galerie Organisatiegegevenstypen.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/04/2020
+ms.date: 12/07/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 95ccc80a37ad9703c60c82ce928d35b5e301947b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b5f84f67231393dfed78bd9f90142fbd1b4f6c91
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407303"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907027"
 ---
-# <a name="access-power-bi-featured-tables-in-excel-preview"></a>Toegang tot aanbevolen Power BI-tabellen in Excel (preview)
+# <a name="access-power-bi-featured-tables-in-excel-organization-data-types"></a>Toegang tot aanbevolen Power BI-tabellen in organisatiegegevenstypen van Excel
 
 *Aanbevolen tabellen* bieden een manier om uw gegevens in Excel aan gegevens in Power BI te koppelen. Hiermee kunt u gemakkelijker zakelijke gegevens toevoegen aan uw Excel-werkbladen. In de galerie Gegevenstypen in Excel vindt u gegevens uit aanbevolen tabellen in Power BI-gegevenssets. In dit artikel wordt dit uitgelegd.
 
@@ -41,11 +41,11 @@ Als u naar gegevens in een aanbevolen Power BI-tabel wilt zoeken, selecteert u e
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-types-more.png" alt-text="Schermopname van het pictogram Meer in de galerie Gegevenstypen van Excel.":::
 
-Zodra u de tabel ziet die u zoekt, selecteert u deze. Selecteer anders **Meer van uw organisatie**. Excel doorzoekt alle aanbevolen tabellen waartoe u toegang hebt, op zoek naar een overeenkomst.
+Zodra u de tabel ziet die u zoekt, selecteert u deze. Selecteer anders **Meer van uw organisatie**. In Excel worden alle geselecteerde tabellen weergegeven waartoe u toegang hebt in het deelvenster.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-more-your-organization.png" alt-text="Schermopname waarin Van uw organisatie (preview-versie) wordt geselecteerd.":::
  
-In Excel worden alle mogelijke tabellen weergegeven. Typ in het deelvenster **Gegevenskiezer** in het vak **Filteren** om uw opties te beperken. Selecteer de overeenkomende tabel.
+In Excel worden alle geselecteerde tabellen weergegeven waartoe u toegang hebt. Typ in het deelvenster **Gegevenskiezer** in het vak **Filteren** om uw opties te beperken. Selecteer de tabel die u wilt gebruiken.
 
 :::image type="content" source="media/service-excel-featured-tables/excel-data-selector-store.png" alt-text="Schermopname van het gegevenstype tabel: Organisatiegegevens, Leveranciers in Excel.":::
  
@@ -120,15 +120,13 @@ U kunt ook afzonderlijke cellen vernieuwen. Klik met de rechtermuisknop op de ce
 
 ## <a name="licensing"></a>Licentieverlening
 
-De galerie Gegevenstypen van Excel en verbonden ervaringen voor aanbevolen tabellen van Power BI zijn alleen beschikbaar voor klanten met Excel E5 of G5. 
+De galerie Gegevenstypen van Excel en verbonden ervaringen voor aanbevolen Power BI-tabellen zijn beschikbaar voor abonnees van Excel met een Power BI Pro-serviceplan. 
 
 ## <a name="security"></a>Beveiliging
 
 U ziet alleen aanbevolen tabellen uit gegevenssets waarvoor u gemachtigd bent in Power BI. Bij het vernieuwen van gegevens moet u toegang hebben tot de gegevensset in Power BI om de rijen op te halen. Hiervoor hebt u de [machtiging voor samenstellen of schrijven voor de gegevensset](../connect-data/service-datasets-build-permissions.md) in Power BI nodig.
  
 De gegevens die voor de hele rij worden geretourneerd, worden door Excel opgeslagen in de cache. Iedereen met wie u het Excel-bestand deelt, kan de gegevens voor alle velden in alle gekoppelde cellen zien.
-
-Als voor een Power BI-gegevensset beveiliging op rijniveau is ingesteld of als de set is voorzien van een vertrouwelijkheidslabel van Microsoft Information Protection, worden aanbevolen tabellen uit die gegevensset niet opgenomen in de galerie Gegevenstypen in Excel. Dit is een beperking van de eerste preview.
 
 ## <a name="administrative-control"></a>Beheer
 
@@ -145,28 +143,25 @@ Zie [Activiteiten van gebruikers bijhouden in Power BI](../admin/service-admin-a
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-Dit zijn de beperkingen voor de oorspronkelijke preview:
+Dit zijn de huidige beperkingen:
 
-- De integratie is beschikbaar in builds voor Excel Insiders.
-- De galerie Gegevenstypen van Excel bevat aanbevolen tabellen voor gebruikers met de juiste licentie in Power BI Desktop en de Power BI-service. Ondersteuning voor de Power BI-service is mogelijk niet beschikbaar bij de lancering van de preview, maar wordt dan later toegevoegd.
+- De integratie is beschikbaar in Excel in het huidige kanaal.
 - Aanbevolen tabellen in Power BI-gegevenssets die gebruikmaken van de volgende mogelijkheden, worden niet weergegeven in Excel: 
 
-    - Gegevenssets met beveiliging op rijniveau
-    - Gegevenssets waarvoor Microsoft Information Protection is ingeschakeld
     - DirectQuery-gegevenssets
     - Gegevenssets met een liveverbinding
 
-- In Excel worden alleen gegevens in kolommen en berekende kolommen uit de aanbevolen tabel weergegeven. Het volgende is niet beschikbaar in de oorspronkelijke preview:
+- In Excel worden alleen gegevens in kolommen, berekende kolommen en in de aanbevolen tabel gedefinieerde metingen weergegeven. De volgende opties zijn niet beschikbaar:
+   
+    - Metingen die zijn gedefinieerd in gerelateerde tabellen.
+    - Impliciete metingen berekend op basis van relaties.
 
-    - Metingen die zijn gedefinieerd voor de functietabel.
-    - Metingen die zijn gedefinieerd voor gerelateerde tabellen, en impliciete metingen die worden berekend op basis van relaties.
-
-- In Excel worden alleen aanbevolen tabellen (*gegevenstypen*) weergegeven die zijn opgeslagen in de nieuwe Power BI-werkruimten. Aanbevolen tabellen die zijn opgeslagen in de klassieke werkruimten, of in Mijn werkruimte, worden niet weergegeven als gegevenstypen in Excel. U kunt [klassieke werkruimten bijwerken naar de nieuwe werkruimten](service-upgrade-workspaces.md) in Power BI.
+- In Excel worden alleen aanbevolen tabellen (*gegevenstypen*) weergegeven die zijn opgeslagen in de nieuwe Power BI-werkruimten. Aanbevolen tabellen die zijn opgeslagen in de klassieke werkruimten, worden niet als gegevenstypen in Excel weergegeven. U kunt [klassieke werkruimten bijwerken naar de nieuwe werkruimten](service-upgrade-workspaces.md) in Power BI.
 
 De ervaring van gegevenstypen in Excel is vergelijkbaar met een opzoekfunctie. Er wordt een celwaarde aangeboden door het Excel-werkblad, waarna er wordt gezocht naar overeenkomende rijen in aanbevolen tabellen van Power BI. De zoekervaring heeft de volgende gedragskenmerken:
 
-- Wanneer u de knop **Organisatiegegevens** gebruikt om te zoeken, doorzoekt Excel alleen aanbevolen tabellen in Power BI-gegevenssets.
-- Overeenkomende rijen worden gebaseerd op tekstkolommen in de aanbevolen tabel. De ervaring maakt gebruik van dezelfde indexering als de functie Power BI Q&A, die is geoptimaliseerd voor het zoeken in de Engelse taal. Zoeken in andere talen levert mogelijk geen nauwkeurige overeenkomsten op. Numerieke kolommen worden niet meegenomen bij het vergelijken.
+- Overeenkomende rijen worden gebaseerd op tekstkolommen in de aanbevolen tabel. De ervaring maakt gebruik van dezelfde indexering als de functie Power BI Q&A, die is geoptimaliseerd voor het zoeken in de Engelse taal. Zoeken in andere talen levert mogelijk geen nauwkeurige overeenkomsten op. 
+- De meeste numerieke kolommen worden niet meegenomen bij het zoeken naar overeenkomsten. Als het rijlabel of de sleutelkolom numeriek is, worden deze opgenomen bij het zoeken naar overeenkomsten.
 - Vergelijken is gebaseerd op exacte en voorvoegselovereenkomsten voor afzonderlijke zoektermen. De waarde van een cel wordt gesplitst op basis van spaties of andere witruimtetekens, zoals tabs. Vervolgens wordt elk woord beschouwd als zoekterm. De tekstveldwaarden van een rij worden vergeleken met de zoektermen voor exacte en voorvoegselovereenkomsten. Er wordt een voorvoegselovereenkomst geretourneerd als het tekstveld van de rij begint met de zoekterm. Als een cel bijvoorbeeld 'Geldersch Landschap' bevat, zijn 'Geldersch' en 'Landschap' unieke zoektermen. 
 
     - Rijen met tekstkolommen waarvan de waarden exact overeenkomt met 'Geldersch' of 'Landschap' worden geretourneerd. 
@@ -174,10 +169,11 @@ De ervaring van gegevenstypen in Excel is vergelijkbaar met een opzoekfunctie. E
     - Belangrijk: rijen die 'Geldersch' of 'Landschap' bevatten, maar niet beginnen met deze termen worden niet geretourneerd.
 
 - Power BI retourneert maximaal 100 rijsuggesties voor elke cel.
-- Het instellen of bijwerken van de aanbevolen tabel wordt niet ondersteund in het XMLA-eindpunt.
+- Sommige symbolen worden niet ondersteund.
+- Het instellen of bijwerken van de aanbevolen tabel wordt niet ondersteund in het XMLA-eindpunt
 - Excel-bestanden met een gegevensmodel kunnen worden gebruikt voor het publiceren van aanbevolen tabellen. Laad de gegevens in Power BI Desktop en publiceer vervolgens de aanbevolen tabel.
 - Als u de tabelnaam, het rijlabel of de sleutelkolom wijzigt van de aanbevolen tabel, kan dit gevolgen hebben voor Excel-gebruikers met cellen die zijn gekoppeld aan rijen in de tabel. 
-- Excel geeft aan wanneer de gegevens zijn opgehaald uit de Power BI-gegevensset. Dit hoeft niet de tijd te zijn dat de gegevens zijn vernieuwd in Power BI, of de tijd van het meest recente gegevenspunt in een gegevensset. Stel bijvoorbeeld dat een gegevensset in Power BI een week geleden is vernieuwd, maar dat de onderliggende brongegevens een week oud waren op het moment van vernieuwen. De gegevens zijn dan in werkelijkheid twee weken oud, maar in Excel wordt dan de datum/tijd weergegeven waarop de gegevens zijn opgehaald in Excel.
+- Excel geeft aan wanneer de gegevens zijn opgehaald uit de Power BI-gegevensset. Dit hoeft niet de tijd te zijn dat de gegevens zijn vernieuwd in Power BI, of de tijd van het meest recente gegevenspunt in een gegevensset. Stel bijvoorbeeld dat een gegevensset in Power BI een week geleden is vernieuwd, maar dat de onderliggende brongegevens een week oud waren op het moment van vernieuwen. De gegevens zijn dan in werkelijkheid twee weken oud, maar in Excel wordt dan de datum/tijd weergegeven waarop de gegevens zijn opgehaald in Excel. 
 
 ## <a name="next-steps"></a>Volgende stappen
 

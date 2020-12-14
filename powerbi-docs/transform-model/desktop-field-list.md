@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 11/11/2020
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 834df274d4cc75af1087ab4fa7d24c2fd7dd4fec
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ced861f0d229153866c1d52616494f8b444220ae
+ms.sourcegitcommit: 8993400b32a44f4e7ce9a2db998ddebda18c7698
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415997"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96536479"
 ---
 # <a name="using-the-field-list-in-power-bi-desktop-preview"></a>De lijst met velden in Power BI Desktop (preview) gebruiken
 
@@ -55,6 +55,8 @@ De lijstwijzigingen worden in de onderstaande tabellen weergegeven.
 |![oorspronkelijk contextmenu voor tabel](media/desktop-field-list/field-list-03a.png)     |![nieuw contextmenu voor tabel](media/desktop-field-list/field-list-03b.png)    |
 |**Knopinfo**       ||
 |![oorspronkelijke knopinfo](media/desktop-field-list/field-list-04a.png)     |![nieuwe knopinfo](media/desktop-field-list/field-list-04b.png)    |
+
+## <a name="field-list-icons"></a>Pictogrammen voor veldenlijsten
 
 Er zijn ook nieuwe pictogrammen voor lijsten met velden. De volgende tabel bevat de oorspronkelijke pictogrammen en hun nieuwe equivalent en biedt een korte beschrijving van elk van deze pictogrammen. 
 

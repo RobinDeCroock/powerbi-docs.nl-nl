@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c8d756a80cf6d748f3ff33298b3a243f82197734
-ms.sourcegitcommit: bd133cb1fcbf4f6f89066165ce065b8df2b47664
+ms.openlocfilehash: 845499bc236489932bf1347c43f7a5ba71c21a6b
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94668644"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907320"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Een Azure AD-toepassing registeren om bij Power BI te gebruiken
 
@@ -32,7 +32,7 @@ Gebruik de oplossing [Insluiten voor uw klanten](embed-sample-for-customers.md),
 
 * Het account **Hoofdgebruiker** (een Power BI Pro-licentie die wordt gebruikt voor aanmelding bij Power BI)
 
-*  [Service-principal](embed-service-principal.md)
+* [Service-principal](embed-service-principal.md)
 
 De oplossing Insluiten voor uw klanten wordt doorgaans gebruikt door onafhankelijke software leveranciers (ISV's) en ontwikkelaars die toepassingen maken voor een derde partij.
 
@@ -115,7 +115,16 @@ In deze stappen wordt beschreven hoe u een Azure AD-toepassing registreert voor 
 
 # <a name="manual-registration"></a>[Handmatige registratie](#tab/manual)
 
-Gebruik de handmatige app-registratie van Azure AD alleen als u een *Insluiten voor uw organisatie*-oplossing maakt. Zie [Een app registreren bij Azure Active Directory](/azure/active-directory/develop/quickstart-v2-register-an-app) voor meer informatie over het registreren van toepassingen in Azure Active Directory.
+Gebruik de handmatige app-registratie van Microsoft Azure Active Directory alleen als u een van de volgende oplossingen maakt:
+
+* Een *insluiting voor de app van uw organisatie*.
+
+* Een *insluiting voor de app van uw klanten* met een *service-principal*.
+
+    >[!NOTE]
+    >Als u deze optie kiest, moet u hiervoor na het registreren van uw Microsoft Azure Active Directory-app [Power BI-machtigingen toevoegen](#change-your-azure-ad-apps-permissions).
+
+Zie [Een app registreren bij Azure Active Directory](/azure/active-directory/develop/quickstart-v2-register-an-app) voor meer informatie over het registreren van toepassingen in Azure Active Directory.
 
 1. Meld u aan bij [Azure Portal](https://portal.azure.com).
 
@@ -140,6 +149,9 @@ Gebruik de handmatige app-registratie van Azure AD alleen als u een *Insluiten v
 ## <a name="change-your-azure-ad-apps-permissions"></a>De machtigingen van uw Azure AD-app wijzigen
 
 Nadat u uw toepassing hebt geregistreerd, kunt u wijzigingen aanbrengen in de machtigingen ervoor. Wijzigingen in machtigingen kunnen via een programma worden gemaakt of in Azure Portal.
+
+>[!NOTE]
+>App-machtigingen van Microsoft Azure Active Directory zijn alleen van toepassing op de oplossing voor de *insluiting voor uw klanten* met de verificatiemethode voor *hoofdgebruiker*.
 
 # <a name="azure"></a>[Azure](#tab/Azure)
 

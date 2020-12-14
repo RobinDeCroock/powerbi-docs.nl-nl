@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/29/2020
-ms.openlocfilehash: 30e8f1cb1ef8f12d9573d77a70771eef915a2704
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
+ms.date: 12/07/2020
+ms.openlocfilehash: 10fb104d1c03ae5d08836b8e865178c347d848ce
+ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044796"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96781768"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Hardware- en softwarevereisten voor het installeren van Power BI Report Server
 
@@ -23,7 +23,7 @@ In dit artikel worden de minimale hardware- en softwarevereisten voor het instal
 
 | Onderdeel | Vereiste |
 | --- | --- |
-| .NET Framework |4.8<br><br>U kunt .NET Framework handmatig installeren vanaf [Microsoft .NET Framework 4.8 (webinstallatie) voor Windows](https://support.microsoft.com/en-us/help/4503548/).<br/><br/> Zie de [.NET Framework-implementatiehandleiding voor ontwikkelaars](/dotnet/framework/deployment/deployment-guide-for-developers) voor meer informatie, aanbevelingen en richtlijnen met betrekking tot .NET Framework 4.8.<br/><br/>Voor Windows 8.1 en Windows Server 2012 R2 is [KB2919355](https://support.microsoft.com/kb/2919355) vereist voordat u .NET Framework 4.8 installeert. |
+| .NET Framework |4.8<br><br>Als de server geen internettoegang heeft, kunt u .NET Framework handmatig installeren met [Microsoft .NET Framework 4.8 (offline installatieprogramma) voor Windows](https://support.microsoft.com/en-us/help/4503548/).<br/><br/> Zie de [.NET Framework-implementatiehandleiding voor ontwikkelaars](/dotnet/framework/deployment/deployment-guide-for-developers) voor meer informatie, aanbevelingen en richtlijnen met betrekking tot .NET Framework 4.8.<br/><br/>Voor Windows 8.1 en Windows Server 2012 R2 is [KB2919355](https://support.microsoft.com/kb/2919355) vereist voordat u .NET Framework 4.8 installeert. |
 | Harde schijf |Voor Power BI Report Server is een minimum van 1 GB aan beschikbare schijfruimte vereist.<br><br>Er is ook ruimte nodig op de databaseserver die als host voor de rapportserverdatabase fungeert. |
 | Geheugen |**Minimaal:** 1 GB<br/><br/> **Aanbevolen:** ten minste 4 GB |
 | Processorsnelheid |**Minimaal:** x64 processor: 1,4 GHz<br/><br/> **Aanbevolen:** 2,0 GHz of sneller |

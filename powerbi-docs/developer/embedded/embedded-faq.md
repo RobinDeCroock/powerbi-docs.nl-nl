@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 1166f51c21e765e5710d33ad45a47057ea773bd8
-ms.sourcegitcommit: 37bd34053557089c4fbf0e05f78e959609966561
+ms.openlocfilehash: 348032345a56d538e1e5ffbb6036d411e42b2954
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94397433"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96907067"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -112,14 +112,14 @@ Voor Power BI moet u zich aanmelden met een organisatieaccount. Het aanmelden vo
 
 ### <a name="can-i-use-apis-to-create-and-manage-azure-capacities"></a>Kan ik API's gebruiken voor het maken en beheren van Azure-capaciteiten?
 
-Ja, er zijn Powershell-cmdlets en REST API's voor Azure Resource Manager die u kunt gebruiken om PBIE-resources te maken en te beheren.
+Ja, er zijn PowerShell-cmdlets en REST API's voor Azure Resource Manager die u kunt gebruiken om PBIE-resources te maken en te beheren.
 
 * [REST API's](/rest/api/power-bi-embedded/) 
 * [PowerShell-cmdlets](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-capacity-role-in-a-pbi-embedded-solution"></a>Wat is de rol van de PBI Embedded-capaciteit in een PBI Embedded-oplossing?
 
-Als u [uw oplossing wilt doorzetten naar productie](embed-sample-for-customers.md#move-to-production), moet u de Power BI-inhoud (werkruimte) die in uw toepassing wordt gebruikt, toewijzen aan een Power BI Embedded-capaciteit (A SKU).
+Als u [uw oplossing wilt doorzetten naar productie](move-to-production.md), moet u de Power BI-inhoud (werkruimte) die in uw toepassing wordt gebruikt, toewijzen aan een Power BI Embedded-capaciteit (A SKU).
 
 ### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>In welke Azure-regio's is PBI Embedded beschikbaar?
 
@@ -184,7 +184,7 @@ Er ontstaat vaak verwarring over de vraag wanneer u RLS of JavaScript-filters mo
 
 Voor RLS beheert de ISV-ontwikkelaar het filteren van gegevens als onderdeel van het maken van modellen en het genereren van insluittokens. De eindgebruiker ziet alleen wat de ISV heeft ingesteld. In dit geval kan de gebruiker ervoor kiezen om minder te bekijken dan wat er met het filter wordt weergegeven, maar de gebruiker kan de RLS-configuratie niet omzeilen en meer bekijken dan is toegestaan.
 
-Voor filtering vanaf de clientzijde (JavaScript) besluit de ISV mogelijk wat de eindgebruiker in eerste instantie ziet, maar de ISV kan wijzigingen die de eindgebruiker mogelijk zelf toepast op de weergave, niet beheren. Omdat Javascript-clientcode van gebruikers het filteren van gegevens op de back-end kan activeren, kan dit niet als veilig worden beschouwd.
+Voor filtering vanaf de clientzijde (JavaScript) besluit de ISV mogelijk wat de eindgebruiker in eerste instantie ziet, maar de ISV kan wijzigingen die de eindgebruiker mogelijk zelf toepast op de weergave, niet beheren. Omdat JavaScript-clientcode voor gebruikers het filteren van gegevens op de back-end kan activeren, kan dit niet als veilig worden beschouwd.
 
 Raadpleeg [RLS vs JavaScript-filters](embedded-row-level-security.md#using-rls-vs-javascript-filters) voor meer informatie.
 
@@ -198,7 +198,7 @@ Deze situatie is belangrijk wanneer u de service-principal als **beheerder** aan
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>Wanneer moet ik een toepassings-id gebruiken en wanneer de object-id van een service-principal?
 
-De **[toepassings-id](embed-sample-for-customers.md#application-id)** wordt gebruikt om het toegangstoken te maken wanneer u de toepassings-id voor verificatie doorgeeft.
+De **[app-id](embed-sample-for-customers.md#client-id)** , ook wel *client-id* genoemd, wordt gebruikt om het toegangstoken te maken wanneer de app-id voor verificatie wordt doorgegeven.
 
 Als u naar een service-principal wilt verwijzen voor bewerkingen of om wijzigingen aan te brengen, gebruikt u de **[id van het service-principal-object](embed-service-principal.md)** (bijvoorbeeld een service-principal als administrator op een werkruimte toepassen).
 

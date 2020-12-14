@@ -1,5 +1,5 @@
 ---
-title: Service-principal-verificatie inschakelen voor alleen-lezen beheer-API's (preview)
+title: Service-principalverificatie inschakelen voor alleen-lezen beheer-API's (preview)
 description: Meer informatie over het inschakelen van Service-Principal-verificatie om het gebruik van alleen-lezen-beheer-API's toe te staan.
 author: paulinbar
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: fb2d25b4cc000f0a7b9c659f25264ffd1ab936d7
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
+ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96506705"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96906814"
 ---
-# <a name="enable-service-principle-authentication-for-read-only-admin-apis-preview"></a>Service-principal-verificatie inschakelen voor alleen-lezen beheer-API's (preview)
+# <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Service-principalverificatie inschakelen voor alleen-lezen beheer-API's (preview)
 
 Service-principal is een verificatiemethode die kan worden gebruikt om een Azure AD-toepassing (Azure Active Directory) toegang te geven tot inhoud en API's van de Power BI-service.
 Wanneer u een Azure AD-app maakt, wordt er een [service-principal-object](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) gemaakt. Met het service-principal-object, ook wel de service-principal genoemd, kan Azure AD uw app verifiëren. Nadat de app is geverifieerd, heeft deze toegang tot Azure AD-tenantbronnen.
@@ -63,7 +63,7 @@ Voer de volgende stappen uit om service-principal-verificatie in te schakelen vo
     * [GetDataflowUpstreamDataflowsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dataflows_getupstreamdataflowsingroupasadmin) 
     * [GetCapacitiesAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/getcapacitiesasadmin)
     * [GetActivityLog](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents)
-    * GetModifiedWorkspaces
-    * WorkspaceGetInfo
-    * WorkspaceScanStatus
-    * WorkspaceScanResult
+    * [GetModifiedWorkspaces](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getmodifiedworkspaces)
+    * [WorkspaceGetInfo](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_postworkspaceinfo)
+    * [WorkspaceScanStatus](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanstatus)
+    * [WorkspaceScanResult](https://docs.microsoft.com/rest/api/power-bi/admin/workspaceinfo_getscanresult)
