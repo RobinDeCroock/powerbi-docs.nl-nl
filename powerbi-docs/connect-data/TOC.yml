@@ -9,6 +9,8 @@
           href: service-get-data.md
         - name: Wat is een on-premises gegevensgateway?
           href: service-gateway-onprem.md
+        - name: Detectie van gegevenssets om de Power BI-service
+          href: service-datasets-hub.md
     - name: Snelstarts
       expanded: true
       items:

@@ -74,7 +74,7 @@
           href: service-admin-auditing.md
         - name: Servicestatus bijhouden
           href: service-admin-health.md
-        - name: Service-principal-verificatie inschakelen voor alleen-lezen beheer-API's
+        - name: Service-principalverificatie inschakelen voor alleen-lezen beheer-API's
           href: read-only-apis-service-principal-authentication.md
         - name: Uw account sluiten
           href: service-admin-closing-your-account.md
