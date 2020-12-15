@@ -7,8 +7,6 @@
       items:
         - name: Overzicht van query-editor
           href: desktop-query-overview.md
-        - name: Selfservice voor gegevensvoorbereiding met gegevensstromen
-          href: ./dataflows/dataflows-introduction-self-service.md
     - name: Zelfstudies
       expanded: true
       items:
