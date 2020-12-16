@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: ec7b24a4d8f2a94680444b4b9adf4612f1f1f474
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415146"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96999082"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Het nieuwe uiterlijk van de Power BI-service
 
@@ -65,7 +65,7 @@ De ontwerpervaring is nog steeds vergelijkbaar met die in Desktop. De wijziginge
 
 Dashboards hebben ook een vereenvoudigde actiebalk. Voor een consistente ervaring is deze vergelijkbaar met rapporten en apps, maar de functionele verschillen blijven behouden. Hier ziet u een overzicht van de acties in een dashboard.
  
-![Schermopname van de actiebalk voor dashboards in het nieuwe uiterlijk.](media/service-new-look/power-bi-dashboard-action-bar-new-look.png)
+![Schermopname van de actiebalk voor dashboards in het nieuwe uiterlijk.](media/service-new-look/power-bi-dashboard-action-bar-new.png)
 
 ## <a name="next-steps"></a>Volgende stappen
 
