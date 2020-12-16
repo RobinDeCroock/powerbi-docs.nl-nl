@@ -82,6 +82,8 @@
           href: drill-down-support.md
         - name: Kleuren aan uw visual toevoegen
           href: add-colors-power-bi-visual.md
+        - name: Voorwaardelijke opmaak toevoegen
+          href: conditional-format.md
         - name: Gegevens markeren in visuals
           href: highlight.md
         - name: Ondersteuning voor modus Hoog contrast toevoegen
