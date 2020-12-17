@@ -17,6 +17,7 @@
         - name: Verbinding maken met gegevens in Power BI Desktop
           href: desktop-quickstart-connect-to-data.md
     - name: Zelfstudies
+      expanded: true
       items:
         - name: Meerdere gegevensbronnen vorm geven en combineren
           href: desktop-shape-and-combine-data.md
@@ -39,6 +40,7 @@
         - name: Gegevens uit SQL Server vernieuwen
           href: service-gateway-sql-tutorial.md
     - name: Concepten
+      expanded: true
       items:
         - name: Power BI-gegevensbronnen
           href: power-bi-data-sources.md
@@ -50,6 +52,8 @@
           href: desktop-default-member-multidimensional-models.md
         - name: Informatie over DirectQuery in Power BI
           href: desktop-directquery-about.md
+        - name: DirectQuery gebruiken voor Power BI-gegevenssets en Azure Analysis Services (preview-versie)
+          href: desktop-directquery-datasets-azure-analysis-services.md
         - name: Gateways
           items:
             - name: Richtlijnen voor het implementeren van een gegevensgateway
@@ -57,6 +61,7 @@
             - name: Veelgestelde vragen over on-premises gegevensgateways
               href: service-gateway-power-bi-faq.md
     - name: Procedures
+      expanded: true
       items:
         - name: Verbinding maken met gegevensbronnen
           href: desktop-connect-to-data.md

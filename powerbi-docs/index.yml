@@ -7,29 +7,29 @@ metadata:
   description: Power BI vergroot het inzicht in uw gegevens en de waarde van uw gegevens. Zoek hier informatie en antwoorden van deskundigen, ongeacht hoe u Power BI gebruikt.
   services: service
   ms.service: powerbi
-  ms.subservice: subservice
+  ms.subservice: powerbi-service
   ms.topic: hub-page
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 09/09/2020
-  ms.openlocfilehash: a21230b02654b6335dd8631fb0df1db6bb4e830a
-  ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+  ms.date: 12/16/2020
+  ms.openlocfilehash: be6ec499d78d3ba5f3899fcb8556296568a40319
+  ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 09/22/2020
-  ms.locfileid: "90857928"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97621850"
 highlightedContent:
   items:
   - title: Aan de slag met Power BI Desktop
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: Samenwerken met Power BI in Microsoft Teams
+  - title: DirectQuery voor Power BI-gegevenssets en Azure Analysis
     itemType: concept
-    url: collaborate-share/service-collaborate-microsoft-teams.md
-  - title: Power BI-inhoud insluiten in een toepassing
+    url: connect-data/desktop-directquery-datasets-azure-analysis-services.md
+  - title: Azure Machine Learning-modellen gebruiken in Power BI
     itemType: tutorial
-    url: developer/embedded/embed-sample-for-customers.md
+    url: connect-data/service-aml-integrate.md
   - title: Power BI in Microsoft Learn
     itemType: learn
     url: /learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
@@ -99,9 +99,9 @@ conceptualContent:
     - url: connect-data/service-gateway-onprem.md
       itemType: concept
       text: On-premises gegevensgateways
-    - url: connect-data/refresh-data.md
+    - url: connect-data/service-datasets-hub.md
       itemType: concept
-      text: Gegevens vernieuwen
+      text: Gegevens op de datasets-hub detecteren
     footerLink:
       url: connect-data/index.yml
       text: Meer weergeven
@@ -155,9 +155,9 @@ conceptualContent:
     - url: collaborate-share/service-create-the-new-workspaces.md
       itemType: how-to-guide
       text: Nieuwe werkruimten maken
-    - url: connect-data/service-datasets-across-workspaces.md
+    - url: collaborate-share/service-collaborate-microsoft-teams.md
       itemType: concept
-      text: Inleiding tot gedeelde gegevenssets
+      text: Samenwerken in Microsoft Teams
     footerLink:
       url: collaborate-share/index.yml
       text: Meer weergeven
@@ -169,9 +169,9 @@ conceptualContent:
     - url: collaborate-share/service-analyze-in-excel.md
       itemType: concept
       text: In Excel analyseren
-    - url: collaborate-share/service-embed-report-spo.md
+    - url: collaborate-share/service-automate-power-bi-report-export.md
       itemType: concept
-      text: Insluiten in SharePoint Online
+      text: Exporteren en e-mailen met Power Automate
     footerLink:
       url: collaborate-share/index.yml
       text: Meer weergeven
