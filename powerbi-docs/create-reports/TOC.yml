@@ -120,6 +120,7 @@
             - name: Aanbevolen procedures
               href: deployment-pipelines-best-practices.md
     - name: Procedures
+      expanded: true
       items:
         - name: Power BI-rapporten
           items:
