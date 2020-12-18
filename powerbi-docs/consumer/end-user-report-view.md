@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 09/27/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: ea537e19eb7c3ab2a155f417af92e45841031f89
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 79658c2296ac2ae189680c9d8c778046778a882e
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781630"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998548"
 ---
 # <a name="change-the-display-of-a-report-page"></a>De weergave van een rapportpagina wijzigen
 
@@ -58,7 +58,7 @@ Als u het rapport afsluit, worden uw instellingen voor **Weergave** niet opgesla
 
 Met de besturingselementen voor in- en uitzoomen in uw browser kunt u het beschikbare canvasgebied vergroten en verkleinen. Als u het zoomniveau verlaagt (uitzoomt), wordt het beschikbare canvasgebied groter en andersom. 
 
-![korte video waarin de besturingselementen voor in- en uitzoomen van de browser worden weergegeven](media/end-user-report-view/power-bi-zoom.png)
+![browserbesturingselementen voor zoomen](media/end-user-report-view/power-bi-zoom.png)
 
 Door de grootte van het browservenster aan te passen, kunt u ook de weergavegrootte van uw rapport wijzigen. 
 

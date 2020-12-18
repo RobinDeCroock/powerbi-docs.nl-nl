@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2019
+ms.date: 12/09/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f8d24c672fa3e9d5cda007e061eac8c4ea9c6d4c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b144412ee322aa9bec0a35bb3876a949abcd3f13
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406038"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998893"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>Problemen oplossen met het importeren van XLS-bestanden van Access en Excel in Power BI Desktop
 
@@ -24,6 +24,8 @@ In Power BI Desktop maken zowel Access-databases als vroege versies van Excel-we
 ## <a name="situation-1-no-access-database-engine-is-installed"></a>Situatie 1: Er is geen Access-database-engine geïnstalleerd
 
 Als het foutbericht in Power BI Desktop aangeeft dat de Access-database-engine niet is geïnstalleerd, moet u de versie van de Access-database-engine (32- of 64-bits) installeren die overeenkomt met uw versie van Power BI Desktop. U kunt de Access-database-engine installeren vanaf de [downloadpagina](https://www.microsoft.com/download/details.aspx?id=13255).
+
+Als u met gegevensstromen werkt en een gateway gebruikt om verbinding te maken met de gegevens, moet u de Access-data base-engine installeren op de computer waarop de gateway wordt uitgevoerd. 
 
 >[!NOTE]
 >Als de geïnstalleerde bitsversie van de Access-database-engine niet overeenkomt met de geïnstalleerde bitsversie van Microsoft Office, kunnen Office-toepassingen geen gebruik maken van de Access-database-engine.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-security
 ms.topic: how-to
-ms.date: 11/12/2020
+ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 446c3620cf3b2a7435897108cfcd9c8972ad8bb4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412156"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491846"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Privékoppelingen voor toegang tot Power BI
 
@@ -118,9 +118,9 @@ De volgende stap bestaat uit het maken van een virtueel netwerk en een subnet. V
 | ```<resource-group-name>```   | myResourceGroup |
 | ```<virtual-network-name>```  | myVirtualNetwork |
 | ```<region-name>```   | Central US  |
-| ```<IPv4-address-space>```    | 10.1.0.0/16 |
+| ```<IPv4-address-space>```    | 10.5.0.0/16 |
 | ```<subnet-name>```   | mySubnet |
-| ```<subnet-address-range>```  | 10.1.0.0/24 |
+| ```<subnet-address-range>```  | 10.5.0.0/24 |
 
 1. Selecteer in de linkerbovenhoek van het scherm **Een resource maken > Netwerken > Virtueel netwerk** of zoek naar **Virtueel netwerk** in het zoekvak.
 2. Typ of selecteer in **Virtueel netwerk maken** de volgende gegevens op het tabblad **Basisinformatie**:
@@ -166,7 +166,6 @@ Zodra u deze stappen hebt voltooid, kunt u een virtuele machine (VM) maken, zoal
 
 ## <a name="create-a-virtual-machine-vm"></a>Een virtuele machine (VM) maken
 
-
 De volgende stap bestaat uit het maken van een virtueel netwerk en uit het maken van het subnet om de virtuele machine (VM) te hosten.
 
 1. Selecteer in de linkerbovenhoek van het scherm in Azure Portal **Een resource maken > Compute > Virtuele machine**.
@@ -200,8 +199,8 @@ De volgende stap bestaat uit het maken van een virtueel netwerk en uit het maken
     |Instellingen | Waarde |
     |-------------------|---------|
     |Virtueel netwerk|   Laat de standaardwaarde **MyVirtualNetwork** staan|
-    |Adresruimte| Laat de standaardwaarde **10.1.0.0/24** staan|
-    |Subnet |Laat de standaardwaarde **mySubnet (10.1.0.0/24)** staan|
+    |Adresruimte| Laat de standaardwaarde **10.5.0.0/24** staan|
+    |Subnet |Laat de standaardwaarde **mySubnet (10.5.0.0/24)** staan|
     |Openbare IP| Laat de standaardwaarde **(new) myVm-ip** staan|
     |Openbare poorten voor inkomend verkeer|  Selecteer **Allow selected**|
     |Binnenkomende poorten selecteren|  Selecteer **RDP**|
@@ -289,7 +288,7 @@ De volgende stap is om privétoegang tot Power BI te krijgen vanuit de virtuele 
     
     Non-authoritative answer:
     Name:    52d40f65ad6d48c3906f1ccf598612d4-api.privatelink.analysis.windows.net
-    Address:  10.1.0.4
+    Address:  10.5.0.4
     ```
 
 4. Open de browser en ga naar app.powerbi.com om privétoegang tot Power BI te krijgen.
@@ -306,12 +305,10 @@ Nu bent u klaar. Na het volgen van deze stappen is Power BI alleen toegankelijk 
 
 Er zijn enkele overwegingen voor het werken met privékoppelingen in Power BI:
 
-* Er is geen enkel gebruik van externe afbeeldingen of thema's mogelijk bij gebruik van een omgeving met privékoppelingen en er kunnen gevolgen zijn voor aangepaste visuals
-* Exporteerservices, zoals Exporteren naar PDF, het exporteren naar Excel vanuit een rapport en andere exporteerservices, werken niet bij gebruik van een omgeving met privékoppelingen
-* SQL Server Reporting Services-rapporten, voorheen bekend als RDL-bestanden (bestanden met de indeling *.rdl), worden niet weergegeven in omgevingen met privékoppelingen
-* Als internettoegang is uitgeschakeld en als de gegevensset of gegevensstroom verbinding maakt met een Power BI-gegevensset of -gegevensstroom als gegevensbron, mislukt de verbinding
-* Metrische gegevens over gebruik werken *niet* wanneer Private Link is ingeschakeld
-* Publiceren op internet wordt niet ondersteund (en wordt grijs weergegeven) wanneer u **Openbare internettoegang blokkeren** in Power BI inschakelt
+* Er is geen enkel gebruik van externe afbeeldingen of thema's mogelijk bij gebruik van een omgeving met privékoppelingen en er kunnen gevolgen zijn voor aangepaste visuals.
+* Als internettoegang is uitgeschakeld en als de gegevensset of gegevensstroom verbinding maakt met een Power BI-gegevensset of -gegevensstroom als gegevensbron, mislukt de verbinding.
+* Metrische gegevens over gebruik werken *niet* wanneer Private Link is ingeschakeld.
+* Publiceren op internet wordt niet ondersteund (en wordt grijs weergegeven) wanneer u **Openbare internettoegang blokkeren** in Power BI inschakelt.
 
 
 ## <a name="next-steps"></a>Volgende stappen

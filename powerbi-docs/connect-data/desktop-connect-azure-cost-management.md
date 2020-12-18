@@ -8,14 +8,14 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 09/30/2020
+ms.date: 12/10/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fa06b1d561c770c3b9e0535e94789931a74bd9df
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 6d99e91657d0c5f0bbd1e9c665f00d16c34ba24f
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411466"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353238"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>Visuals en rapporten maken met de Azure Cost Management-connector in Power BI Desktop
 
@@ -56,7 +56,7 @@ Als u verbinding wilt maken met een **Microsoft klantovereenkomst** account, kun
 
     ![Schermopname van de Azure Cost Management-eigenschappen met een bereik van Factureringsprofiel-id.](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
-7.  Meld u aan met uw Azure-gebruikersaccount en -wachtwoord als u hierom wordt gevraagd. 
+7.  Meld u aan met uw Azure-gebruikersaccount en -wachtwoord als u hierom wordt gevraagd. U moet voor toegang Eigenaar van een factureringsaccount gebruiken. 
 
 
 ## <a name="connect-to-an-enterprise-agreement-account"></a>Verbinding maken met een Enterprise Agreement-account
@@ -71,13 +71,11 @@ Als u verbinding wilt maken met een Enterprise Agreement-account (EA), kunt u uw
 
     ![Schermopname van de Azure Cost Management-eigenschappen met een bereik van Inschrijvingsnummer.](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
-6.  Meld u aan met uw Azure-gebruikersaccount en -wachtwoord als u hierom wordt gevraagd. 
+6.  Meld u aan met uw Azure-gebruikersaccount en -wachtwoord als u hierom wordt gevraagd. U moet een account voor ondernemingsadministrators gebruiken voor Enterprise Overeenkomsten.
 
 ## <a name="data-available-through-the-connector"></a>Gegevens die beschikbaar zijn via de connector
 
 Nadat uw verificatie is geslaagd, wordt het venster **Navigator** weergegeven waarin de volgende gegevenstabellen beschikbaar zijn:
-
-
 
 | **Tabel** | **Beschrijving** |
 | --- | --- |

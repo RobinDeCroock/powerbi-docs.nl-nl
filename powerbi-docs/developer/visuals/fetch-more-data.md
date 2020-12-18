@@ -7,17 +7,19 @@ ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 06/18/2019
-ms.openlocfilehash: b8be5b68603f818e26e7f731e4f163bc626b5053
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
+ms.date: 12/13/2020
+ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483691"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492076"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Meer gegevens ophalen uit Power BI
 
-In dit artikel wordt beschreven hoe u meer gegevens kunt laden om de harde limiet van een gegevenspunt van 30 kB over te slaan met behulp van de methode `fetchMoreData`. Met deze benadering worden gegevens opgehaald in segmenten. Als u de prestaties wilt verbeteren, kunt u de segmentgrootte afstemmen op uw use-case.
+Met de API `fetchMoreData` kunnen Power BI-visuals de vaste gegevensweergavelimiet van 30.000 rijen omzeilen. Met de nieuwe 3.4 API-versie wordt de functionaliteit van de `fetchMoreData` API's uitgebreid om ondersteuning te bieden voor een nieuwe benadering van het laden van gegevenssegmenten. Naast de bestaande benadering, waarmee alle benodigde segmenten worden geaggregeerd, ondersteunt de API het laden van alleen de incrementele gegevenssegmenten.
+
+De nieuwe benadering biedt meer flexibiliteit in de manier waarop extra gegevenssegmenten naar de visual worden geladen. Als u de prestaties wilt verbeteren, kunt u de segmentgrootte afstemmen op uw use-case.
 
 ## <a name="limitations-of-fetchmoredata"></a>Beperkingen van fetchMoreData
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 106a70b567be7fc095dbc29917036b92b0f577e5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 646f3d37bb0200cf423ccdffb42dc4ce866ade9f
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412547"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098255"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Gegevensstroomopslag configureren voor gebruik van Azure Data Lake Gen 2 
 
@@ -25,6 +25,8 @@ Er zijn twee manieren om te configureren welk ADLS Gen2-archief u wilt gebruiken
 ## <a name="pre-requisites"></a>Vereisten
 
 Om uw eigen ADLS Gen2-account te kunnen gebruiken, moet u eigenaarsmachtigingen hebben voor het opslagaccount, de resourcegroep of de abonnementslaag. Als u een beheerder bent, moet u nog steeds eigenaarsmachtigingen aan uzelf toewijzen. 
+
+Het opslagaccount moet worden gemaakt met de [hiërarchische naamruimte (HNS)](https://docs.microsoft.com/azure/storage/blobs/create-data-lake-storage-account) ingeschakeld. 
 
 Het ADLS Gen2-account moet bovendien worden geïmplementeerd in dezelfde regio als uw Power BI-tenant. Er treedt een fout op als de locaties van de resources zich niet in dezelfde regio bevinden.
 

@@ -1,5 +1,5 @@
 ---
-title: Problemen oplossen met uw ingesloten toepassing
+title: Problemen oplossen met de in Power BI ingesloten analysetoepassing
 description: In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749064"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098071"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -101,7 +101,7 @@ HTTP/1.1 403 Forbidden
 
 ### <a name="authentication-failed-with-aadsts90002-tenant-authorize-not-found"></a>De verificatie is mislukt met AADSTS90002: Tenant 'autoriseren' niet gevonden
 
- Als u bij het aanmelden berichten ontvangt zoals ***fout: invalid_request, error_description: AADSTS90002: Tenant 'autoriseren' niet gevonden***, is dat omdat ADAL 4.x geen ondersteuning biedt voor 'https://login.microsoftonline.com/{Tenant}/oauth2/authorize/ ' als autoriteit-URL.
+ Als u bij het aanmelden berichten ontvangt zoals ***fout: invalid_request, error_description: AADSTS90002: Tenant 'autoriseren' niet gevonden**, is dat omdat ADAL 4.x geen ondersteuning biedt voor https://login.microsoftonline.com/{Tenant}/oauth2/authorize/ als autoriteit-URL.
  
 U lost dit probleem op door 'oauth2/authorize/' aan het einde van de autoriteit-URL te verwijderen; zie [Voorbeelden voor Power BI-ontwikkelaars](https://github.com/Microsoft/PowerBI-Developer-Samples) ter referentie.
 
@@ -109,15 +109,15 @@ U lost dit probleem op door 'oauth2/authorize/' aan het einde van de autoriteit-
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>De verificatie is mislukt met AADSTS70002 of AADSTS50053
 
-**_(AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_**
+_*_ (AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: u hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord)_**
 
-Als u Power BI Embedded en Azure AD Direct-verificatie gebruikt en u bij het aanmelden berichten ontvangt als ***fout: unauthorized_client, error_description:AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: U hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord***, komt dit doordat directe verificatie sinds 14 juni 2018 standaard is uitgeschakeld.
+Als u Power BI Embedded en Azure AD Direct-verificatie gebruikt en u bij het aanmelden berichten ontvangt als **_fout: unauthorized_client, error_description:AADSTS70002: er is een fout opgetreden bij het valideren van referenties. AADSTS50053: U hebt te vaak geprobeerd u aan te melden met een onjuiste gebruikers-id of een onjuist wachtwoord_*, komt dit doordat directe verificatie sinds 14 juni 2018 standaard is uitgeschakeld.
 
 Er is een manier om dit weer in te schakelen met behulp van [Azure AD-beleid](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications) waarvan het bereik wordt beperkt tot de organisatie of een [service-principal](/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Het wordt aanbevolen dit beleid alleen per app in te schakelen.
 
-Als u dit beleid wilt kunnen maken, moet u een **globale beheerder** zijn voor de map waar u het beleid maakt en dit kunnen toewijzen. Hier volgt een voorbeeldscript voor het maken van het beleid en het toewijzen ervan aan de serviceprovider voor deze toepassing:
+Als u dit beleid wilt kunnen maken, moet u een *globale beheerder** zijn voor de map waar u het beleid maakt en dit kunnen toewijzen. Hier volgt een voorbeeldscript voor het maken van het beleid en het toewijzen ervan aan de serviceprovider voor deze toepassing:
 
 1. Installeer de [previewversie van de Azure AD PowerShell-module](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 

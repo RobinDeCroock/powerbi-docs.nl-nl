@@ -7,18 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-dataflows
 ms.topic: how-to
-ms.date: 11/13/2020
+ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53a8573138a87f8be65183e0571077a02ac0715d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 116458c094159cbeeadaf2e955744759e4648220
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418182"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097956"
 ---
 # <a name="dataflows-best-practices"></a>Best practices voor gegevensstromen
 
 Power BI-**gegevensstromen** zijn een bedrijfsgerichte oplossing voor gegevensvoorbereiding, die een ecosysteem van gegevens mogelijk maakt dat klaar is voor verbruik, hergebruik en integratie. Dit artikel bevat een lijst best practices, met koppelingen naar artikelen en andere informatie die u meer inzicht geven in gegevensstromen en hoe u deze optimaal kunt gebruiken.
+
+## <a name="dataflows-across-the-power-platform"></a>Gegevensstromen over Power Platform
+
+Gegevensstromen kunnen worden gebruikt op verschillende Power Platform-technologieën, zoals Power Query, Microsoft Dynamics 365 en andere Microsoft-producten. Zie [Gegevensstromen in Microsoft-producten gebruiken](https://docs.microsoft.com/power-query/dataflows/overview-dataflows-across-power-platform-dynamics-365) voor meer informatie over hoe gegevensstromen werken op het Power Platform.
 
 
 ## <a name="dataflows-best-practices-table-and-links"></a>Tabel met en koppelingen naar best practices voor gegevensstromen
@@ -40,6 +44,8 @@ De volgende tabel bevat een verzameling koppelingen naar artikelen over best pra
 |Gegevensprofilering gebruiken     |Meer informatie over kwaliteit, distributie en profiel van kolommen         |[Hulpprogramma's voor gegevensprofilering](https://docs.microsoft.com/power-query/data-profiling-tools)         |
 |Foutafhandeling implementeren     |Robuuste gegevensstromen ontwikkelen die bestand zijn tegen fouten bij vernieuwing, met suggesties         |[Patronen voor veelvoorkomende fouten](https://docs.microsoft.com/power-query/dealing-with-errors)  </br> [Afhandeling van complexe fouten](https://docs.microsoft.com/power-query/error-handling)      |
 |Schemaweergave gebruiken      |De creatie-ervaring verbeteren bij het werken met een brede tabel en het uitvoeren van schemabewerkingen         |[Schemaweergave](https://docs.microsoft.com/power-query/schema-view)         |
+|Gekoppelde entiteiten      |Transformaties opnieuw gebruiken en hiernaar verwijzen         |[Gekoppelde entiteiten](https://docs.microsoft.com/power-query/dataflows/linked-entities)         |
+|Incrementeel vernieuwen      |De meest recente of gewijzigde gegevens laden versus volledig opnieuw laden         |[Incrementeel vernieuwen](https://docs.microsoft.com/power-query/dataflows/incremental-refresh)         |
 |||
 
 

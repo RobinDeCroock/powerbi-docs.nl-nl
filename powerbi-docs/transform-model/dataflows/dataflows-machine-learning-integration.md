@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 10/01/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 60214c16cbd287a30631e7ad9fbab274cb8f4cb0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 22fa980230b01132c8cb4faa6e7e959409f19f1b
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414295"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353123"
 ---
 # <a name="ai-with-dataflows"></a>AI met gegevensstromen
 
@@ -454,9 +454,9 @@ Nadat u uw gegevensstroom hebt opgeslagen, wordt het model automatisch aangeroep
 
 In dit artikel hebt u een overzicht van geautomatiseerde machine learning voor gegevensstromen in de Power BI-service. De volgende artikelen kunnen ook van pas komen.
 
-- [Zelfstudie: Een machine learning-model bouwen in Power BI ](../../connect-data/service-tutorial-build-machine-learning-model.md)
+- [Zelfstudie: Een machine learning-model bouwen in Power BI](../../connect-data/service-tutorial-build-machine-learning-model.md)
 - [Zelfstudie: Cognitive Services gebruiken in Power BI](../../connect-data/service-tutorial-use-cognitive-services.md)
-- [Zelfstudie: Een Machine Learning Studio-model (klassiek) aanroepen in Power BI (preview)](../../connect-data/service-tutorial-invoke-machine-learning-model.md)
+- [Zelfstudie: Azure Machine Learning-modellen gebruiken in Power BI](../../connect-data/service-aml-integrate.md)
 
 De volgende artikelen bieden meer informatie over gegevensstromen en Power BI:
 

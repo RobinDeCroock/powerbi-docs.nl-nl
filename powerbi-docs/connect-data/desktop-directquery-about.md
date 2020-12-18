@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 12/03/2020
+ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 01ba6c2e01b3e17a3ef9c878890877e0a0b976ea
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 84d60fce95172b419663ed7889d69e22ae1947cd
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613734"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491984"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informatie over DirectQuery in Power BI
 
@@ -81,7 +81,7 @@ Bij het verbinden met SQL Server Analysis Services kunt u ervoor kiezen om gegev
 De situatie die wordt beschreven in de vorige alinea geldt ook voor het maken van verbinding met de volgende bronnen, behalve dat er geen mogelijkheid is om de gegevens te importeren:
 
 * Power BI-gegevenssets, bijvoorbeeld bij het verbinden met een Power BI-gegevensset die eerder is gemaakt en gepubliceerd naar de service, om een nieuw rapport voor de set te maken.
-* Common Data Services.
+* Microsoft Dataverse.
 
 Het gedrag van rapporten via SQL Server Analysis Services, bij het publiceren naar de Power BI-service, is op de volgende punten vergelijkbaar met DirectQuery-rapporten:
 
@@ -334,6 +334,9 @@ Deze instelling wordt alleen ingeschakeld als er ten minste één DirectQuery-ge
 Het vergroten van het **Maximumaantal verbindingen per gegevensbron** zorgt ervoor dat er meer query's naar de onderliggende gegevensbron kunnen worden verzonden, tot aan het opgegeven maximumaantal. Deze methode is handig wanneer één pagina veel visuals bevat, of als veel gebruikers tegelijkertijd toegang hebben tot een rapport. Wanneer het maximale aantal verbindingen is bereikt, worden aanvullende query's in een wachtrij geplaatst tot er weer een verbinding beschikbaar is. Als u de limiet verhoogt, resulteert dit in een grotere belasting voor de onderliggende bron. Met de instelling worden de algehele prestaties dus niet gegarandeerd beter.
 
 Zodra een rapport is gepubliceerd naar Power BI, hangt het maximumaantal gelijktijdige query's dat naar de onderliggende gegevensbron wordt verzonden, ook af van vaste limieten. De limieten zijn afhankelijk van de doelomgeving waarin het rapport wordt gepubliceerd. In verschillende omgevingen, zoals Power BI, Power BI Premium en Power BI Report Server, kunnen verschillende beperkingen gelden.
+
+> [!NOTE]
+> Wanneer de functie voor [uitgebreide metagegevens](desktop-enhanced-dataset-metadata.md) is ingeschakeld, is de instelling voor het maximale aantal DirectQuery-verbindingen van toepassing op alle DirectQuery-bronnen. Deze functie is standaard ingeschakeld voor alle modellen die vanaf oktober 2020 zijn gemaakt in Power BI Desktop. 
 
 ### <a name="diagnosing-performance-issues"></a>Oorzaak van prestatieproblemen achterhalen
 

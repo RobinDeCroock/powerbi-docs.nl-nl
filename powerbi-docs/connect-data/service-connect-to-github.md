@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/19/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e92afdbad41f212ac93245583430ae44fe0abaf9
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f0d756b7909043a644ab8220cd71a9fca9b1c0e0
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410638"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998696"
 ---
 # <a name="connect-to-github-with-power-bi"></a>Verbinding maken met GitHub via Power BI
 In dit artikel wordt uitgelegd hoe u uw gegevens ophaalt uit uw GitHub-account met een Power BI-sjabloon-app. De sjabloon-app genereert een werkruimte met een dashboard, een set rapporten en een gegevensset waarmee u uw GitHub-gegevens kunt verkennen. De GitHub-app voor Power BI maakt het mogelijk om inzicht te verkrijgen in een GitHub-opslagplaats (ook wel een repository of repo genoemd) met gegevens van bijdragen, problemen, pull-aanvragen en actieve gebruikers.
@@ -41,7 +41,7 @@ U kunt ook de [zelfstudie voor GitHub](service-tutorial-connect-to-github.md) ge
 
 1. Selecteer **Installeren**. 
 
-    ![De GitHub-sjabloon-app installeren](media/service-connect-to-github/service-regional-emergency-response-select-install.png)
+    ![De GitHub-sjabloon-app installeren](media/service-connect-to-github/power-bi-github-install-dialog.png)
 
     Zodra de app is geïnstalleerd, ziet u deze op uw Apps-pagina.
 
@@ -51,30 +51,23 @@ U kunt ook de [zelfstudie voor GitHub](service-tutorial-connect-to-github.md) ge
 
 1. Selecteer het pictogram op de Apps-pagina om de app te openen.
 
-1. Selecteer **App verkennen** op het welkomstscherm.
-
-   ![Welkomstscherm van de sjabloon-app](media/service-connect-to-github/service-github-app-splash-screen.png)
-
    De app wordt geopend met voorbeeldgegevens.
 
 1. Selecteer de koppeling **Uw gegevens koppelen** op de banner bovenaan de pagina.
 
    ![De koppeling Uw gegevens koppelen in de GitHub-app](media/service-connect-to-github/service-github-app-connect-data.png)
 
-1. Voer in het weergegeven dialoogvenster de naam in van de opslagplaats en de naam van de eigenaar van de opslagplaats. Hieronder vindt u informatie over [het vinden van deze parameters](#FindingParams). Klik op **Volgende** als u klaar bent.
+1. Hiermee opent u het dialoogvenster met parameters, waar u de gegevensbron van de voorbeeldgegevens in uw eigen gegevensbron kunt wijzigen (zie [bekende beperkingen](service-template-apps-overview.md#known-limitations)), gevolgd door het dialoogvenster met de verificatiemethode. Mogelijk moet u de waarden in deze dialoogvensters opnieuw definiëren.
 
-   ![Naam Power BI GitHub-opslagplaats](media/service-connect-to-github/power-bi-github-app-tutorial-connect.png)
+   ![Schermopname van de dialoogvensters om verbinding te maken met gegevens.](media/service-connect-to-github/power-bi-template-app-connect-to-data-dialogs.png)
 
-1. Zorg ervoor dat u in het volgende dialoogvenster dat wordt weergegeven, de verificatiemethode instelt op **OAuth2**. U hoeft niets te doen met de privacyinstelling. Klik op **Aanmelden** als u klaar bent.
-
-   ![GitHub-verificatiemethode in Power BI](media/service-connect-to-github/power-bi-github-authentication.png)
 
 1. Geef uw referenties voor GitHub op en volg het GitHub-verificatieproces op (deze stap kan worden overgeslagen als u al bent aangemeld in uw browser).
 
    ![GitHub-verificatieproces in Power BI](media/service-connect-to-github/power-bi-github-authenticate-process.png)
 
 
-Nadat u zich hebt aangemeld, wordt het rapport verbonden met de gegevensbronnen en wordt het gevuld met actuele gegevens. Gedurende deze periode wordt de activiteitsbewaking ingeschakeld.
+Wanneer u klaar bent met het invullen van de verbindingsdialoogvensters en u zich hebt aangemeld bij GitHub, wordt het verbindingsproces gestart. Met een banner wordt aangegeven dat de gegevens worden vernieuwd en dat u in de tussentijd naar voorbeeldgegevens kijkt.
 
 ![Het vernieuwen van de GitHub-app in Power BI wordt uitgevoerd](media/service-connect-to-github/service-github-app-refresh-monitor.png)
 

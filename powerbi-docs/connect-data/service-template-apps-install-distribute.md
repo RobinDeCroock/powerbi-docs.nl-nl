@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/17/2020
-ms.openlocfilehash: b60728978a3429249d7376fdfe1477bf67ef293a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e6499d9e4547f1bd2b8cf4ac29fbc375af871f8a
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96401990"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998629"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>Sjabloon-apps in uw organisatie installeren en distribueren
 
@@ -64,10 +64,6 @@ Als u een sjabloon-app wilt installeren, aanpassen en distribueren, hebt u het v
 ## <a name="connect-to-data"></a>Verbinding maken met gegevens
 
 1. Selecteer **Naar de app**.
-
-1. Selecteer in het venster **Aan de slag met uw nieuwe app** **Verkennen**.
-
-   ![Welkomstscherm van de sjabloon-app](media/service-template-apps-install-distribute/power-bi-template-app-get-started.png)
 
    De app wordt geopend met voorbeeldgegevens.
 
@@ -138,6 +134,20 @@ Als u de app oorspronkelijk hebt gedownload vanaf AppSource, krijgt u op twee ma
 
 >[!IMPORTANT]
 >Vergeet niet om [de app bij te werken](#customize-and-share-the-app) na het overschrijven, om wijzigingen aan te brengen in de rapporten en dashboards voor de gebruikers van de organisatie-app.
+
+## <a name="delete-a-template-app"></a>Een sjabloon-app verwijderen
+
+Een geïnstalleerde sjabloon-app bestaat uit de app en de bijbehorende werkruimte. Als u de sjabloon-app wilt verwijderen, hebt u twee opties:
+* **De app en de bijbehorende werkruimte volledig verwijderen**: Als u de sjabloon-app en de bijbehorende werkruimte volledig wilt verwijderen, gaat u naar de app-tegel op de pagina Apps, selecteert u het prullenbakpictogram en klikt u in het dialoogvenster dat verschijnt op **Verwijderen**.
+* **Publicatie van de app ongedaan maken**: Met deze optie wordt de app verwijderd, maar blijft de bijbehorende werkruimte behouden. Deze optie is handig als u bepaalde aangebrachte aanpassingen wilt behouden.
+
+    Publicatie van app ongedaan maken:
+    1. Open de app.
+    1. Klik op het potloodpictogram voor het bewerken van de app om de werkruimte van de sjabloon-app te openen.
+    1. Selecteer in de werkruimte van de app-sjabloon **Meer opties (...)** en kies vervolgens **Publicatie van app ongedaan maken**.
+
+        ![Schermafbeelding van de optie Publicatie van app ongedaan maken.](media/service-template-apps-install-distribute/power-bi-template-app-unpublish.png)
+
 
 ## <a name="next-steps"></a>Volgende stappen
 

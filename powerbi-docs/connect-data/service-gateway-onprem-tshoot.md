@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 09/25/2020
+ms.date: 12/10/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: de8d24af0dbaa0ed4b27efca140cf29acda9df76
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91634637"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353404"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Problemen met gateways oplossen - Power BI
 
@@ -238,6 +238,37 @@ Het foutbericht '-10709 Kan geen verbinding maken' wordt weergegeven als de dele
 * Zorg ervoor dat de SAP Hana-server zich bevindt op het tabblad Delegatie in Active Directory Domain Services voor het gatewayserviceaccount.
 
    ![Tabblad Delegatie](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
+## <a name="export-logs-for-a-support-ticket"></a>Logboeken voor een ondersteuningsticket exporteren
+
+Gatewaylogboeken zijn vereist voor het oplossen van problemen en het maken van een ondersteuningsticket. Gebruik de volgende stappen om deze logboeken uit te pakken.
+
+1. Identificeer het gatewaycluster.
+
+    Als u eigenaar van een gegevensset bent, controleert u eerst de naam van het gatewaycluster dat aan uw gegevensset is gekoppeld. In de volgende afbeelding is *IgniteGateway* het gatewaycluster.
+
+    ![Gatewaycluster](media/service-gateway-onprem-tshoot/gateway-cluster.png)
+
+2. Controleer eigenschappen van de gateway.
+
+    De gatewaybeheerder moet vervolgens controleren hoeveel gatewayleden het cluster bevat en of taakverdeling is ingeschakeld.
+
+    Als taakverdeling is ingeschakeld, moet stap 3 worden herhaald voor alle gatewayleden. Als de functie niet is ingeschakeld, is het voldoende om de logboeken op de primaire gateway te exporteren.
+
+3. Haal de gatewaylogboeken op en exporteer deze.
+
+    Vervolgens moet de gatewaybeheerder, die ook de beheerder van het gatewaysysteem is, de volgende stappen uitvoeren:
+
+    a. Meld u aan bij de gatewaycomputer en start vervolgens de [on-premises gegevensgateway-app](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-app) om u aan te melden bij de gateway.
+    
+    b. [Aanvullende logboekregistratie](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#slow-performing-queries) inschakelen.
+    
+    c. U kunt eventueel [de functies voor prestatiebewaking inschakelen](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-performance#enable-performance-logging) en prestatielogboeken toevoegen om aanvullende informatie voor probleemoplossing te verstrekken.
+    
+    d. Voer het scenario uit waarvoor u de gatewaylogboeken wilt vastleggen.
+    
+    e. [Exporteer de gatewaylogboeken](https://review.docs.microsoft.com/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app).
+
 
 ## <a name="refresh-history"></a>Geschiedenis vernieuwen
 

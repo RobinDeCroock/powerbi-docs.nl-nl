@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: df5e82af012f4d85fd81399d6e31fde3b7539ce6
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: 902fb0534eee307a84b24fe30496a32cccadb147
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95513821"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097979"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Referenties via een programma configureren voor Power BI
 

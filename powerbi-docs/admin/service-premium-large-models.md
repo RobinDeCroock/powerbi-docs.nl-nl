@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/04/2020
+ms.date: 12/10/2020
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 1f9a34b68f465eda5b8921e48576c9bef5d17f36
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
+ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781687"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "97353100"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Grote gegevenssets in Power BI Premium
 
-Gegevens van Power BI-gegevenssets kunnen sterk gecomprimeerd in het cachegeheugen worden opgeslagen voor geoptimaliseerde queryprestaties, waardoor een snelle interactie tussen gebruikers mogelijk wordt. Bij Premium-capaciteiten kunnen grote gegevenssets, die groter zijn dan de standaardlimiet van 10 GB, worden ingeschakeld dankzij de instelling **Opslagindeling voor grote gegevenssets**. Wanneer deze functie is ingeschakeld, wordt de grootte van de gegevensset beperkt door de grootte van de Premium-*capaciteit*.
+Gegevens van Power BI-gegevenssets kunnen sterk gecomprimeerd in het cachegeheugen worden opgeslagen voor geoptimaliseerde queryprestaties, waardoor een snelle interactie tussen gebruikers mogelijk wordt. Bij Premium-capaciteiten kunnen grote gegevenssets, die groter zijn dan de standaardlimiet van 10 GB, worden ingeschakeld dankzij de instelling **Opslagindeling voor grote gegevenssets**. Wanneer deze functie is ingeschakeld, wordt de grootte van de gegevensset beperkt door de grootte van de *Premium-capaciteit* of de maximale grootte die is ingesteld door de beheerder.
 
 Grote gegevenssets kunnen worden ingeschakeld voor alle Premium P-SKU's en Embedded A-SKU's. De maximale grootte van de gegevensset in Premium is vergelijkbaar met Azure Analysis Services, wat betreft de beperkingen van de grootte van het gegevensmodel.
 
@@ -136,6 +136,8 @@ Houd bij het gebruik van grote gegevenssets rekening met de volgende beperkingen
 - **Downloaden in Power BI Desktop**: als een gegevensset wordt opgeslagen in Premium-bestanden, mislukt [downloaden als een pbix-bestand](../create-reports/service-export-to-pbix.md).
 - **Ondersteunde regio's**: Grote gegevenssets worden ondersteund in alle Azure-regio's die ondersteuning bieden voor Premium Files-opslag. Zie [Beschikbare producten per regio](https://azure.microsoft.com/global-infrastructure/services/?products=storage) en raadpleeg de tabel in de volgende sectie voor meer informatie.
 
+- **Maximale grootte van gegevensset instellen**: De maximale grootte van de gegevensset kan worden ingesteld door beheerders. De maximum waarde kan worden ingesteld van 0,1 GB tot de maximale capaciteit van de SKU.
+
 ## <a name="region-availability"></a>Beschikbaarheid in regio’s
 
 Grote gegevenssets in Power BI zijn alleen beschikbaar in bepaalde Azure-regio’s die ondersteuning bieden voor [Azure Premium Files Storage](/azure/storage/files/storage-files-planning#storage-tiers).
@@ -146,6 +148,9 @@ De volgende lijst biedt regio’s waarin grote gegevenssets in Power BI beschikb
 |---------|---------|
 |Australië - oost     | australiaeast        |
 |Australië - zuidoost     | australiasoutheast        |
+|Canada - oost     | canadaeast        |
+|Canada - midden     | canadacentral        |
+|India - centraal     | centralindia        |
 |VS - centraal     | centralus        |
 |Azië - oost     | eastasia        |
 |VS - oost     | eastus        |
@@ -161,6 +166,7 @@ De volgende lijst biedt regio’s waarin grote gegevenssets in Power BI beschikb
 |Verenigd Koninkrijk Zuid     | uksouth        |
 |Verenigd Koninkrijk West     | ukwest        |
 |Europa -west     | westeurope        |
+|India - west     | westindia        |
 |VS - west     | westus        |
 |VS - west 2     | westus2        |
 

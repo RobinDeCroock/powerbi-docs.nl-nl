@@ -1,5 +1,5 @@
 ---
-title: Gegevenswaarschuwingen integreren met Power Automate
+title: Power BI-gegevenswaarschuwingen integreren met Power Automate
 description: Meer informatie over het maken van Power Automate-stromen die worden geactiveerd met Power BI-gegevenswaarschuwingen.
 author: maggiesMSFT
 ms.author: maggies
@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/09/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 65c7c00a705ed95c26c32a4fc5bcb9e0c18c13bf
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8f73bd959691ea8359a8584966e0b83f439d8652
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407165"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097634"
 ---
-# <a name="integrate-data-alerts-with-power-automate"></a>Gegevenswaarschuwingen integreren met Power Automate
+# <a name="integrate-power-bi-data-alerts-with-power-automate"></a>Power BI-gegevenswaarschuwingen integreren met Power Automate
 
 Gebruik [Power Automate ](/power-automate/getting-started) om Power BI te integreren met uw favoriete apps en services. U kunt met Power Automate geautomatiseerde werkstromen maken voor het ontvangen meldingen, synchroniseren van bestanden, verzamelen van gegevens en nog veel meer. In dit artikel automatiseert u de generatie van een e-mail van een Power BI-gegevenswaarschuwing.
 
@@ -90,6 +90,5 @@ In deze taak maken we een eenvoudige maar volledig nieuwe stroom die wordt geact
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Aan de slag met Power Automate](/power-automate/getting-started/)
-* [Gegevensmeldingen instellen in de Power BI-service](../create-reports/service-set-data-alerts.md)
-* [Gegevenswaarschuwingen instellen op uw iPhone](../consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Een Power BI-rapport exporteren en e-mailen met Power Automate](service-automate-power-bi-report-export.md)
 * Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

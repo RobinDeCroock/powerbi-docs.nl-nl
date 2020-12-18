@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/04/2020
+ms.date: 12/09/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 1ab5fb15f910b420781564da8f26cf5cd7ccd7df
-ms.sourcegitcommit: 0bf42b6393cab7a37d21a52b934539cf300a08e2
+ms.openlocfilehash: 62df55257864069a1e3a03f8378869fe76052120
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96781814"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491961"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -50,7 +50,7 @@ Premium Gen2 biedt de volgende updates of verbeterde ervaring:
     * Minder geheugenbeperkingen
     * Volledige scheiding tussen rapportinteractie en geplande vernieuwingen
 
-* **Verbeterde metrische gegevens** met duidelijke en genormaliseerde gegevens over capaciteitsgebruik, die alleen afhankelijk zijn van de complexiteit van analysebewerkingen die de capaciteit uitvoert, en niet van de grootte, de mate van belasting van het systeem tijdens het uitvoeren van analyses, of andere factoren. Met de verbeterde metrische gegevens zijn analyse van het gebruik, budgetplanning, terugstortingen en de noodzaak om te upgraden duidelijk zichtbaar met ingebouwde rapportage. Tijdens de preview-periode zullen betere metrische gegevens beschikbaar worden gemaakt en uitgebreid.
+* **Verbeterde metrische gegevens** met duidelijke en genormaliseerde gegevens over capaciteitsgebruik, die alleen afhankelijk zijn van de complexiteit van analysebewerkingen die de capaciteit uitvoert, en niet van de grootte, de mate van belasting van het systeem tijdens het uitvoeren van analyses, of andere factoren. Met de verbeterde metrische gegevens zijn analyse van het gebruik, budgetplanning, terugstortingen en de noodzaak om te upgraden duidelijk zichtbaar met ingebouwde rapportage. Tijdens de preview-periode zullen betere metrische gegevens beschikbaar worden gemaakt. Klanten die toegang tot de metrische gegevens over het gebruik gedurende de afgelopen zeven dagen willen, kunnen contact opnemen met de klantenondersteuning. 
 
 * Met **automatische schaalaanpassing** kan *automatisch* één v-core tegelijk voor 24 uur worden toegevoegd wanneer de belasting van de capaciteit de limiet overschrijdt, zodat er geen vertragingen ontstaan door overbelasting. V-cores worden automatisch verwijderd wanneer niet-actieve tijd wordt gedetecteerd. Voor extra v-cores voor uw Azure-abonnement betaalt u per gebruik. Automatische schaalaanpassing wordt beschikbaar gesteld tijdens de evaluatieperiode. 
 
@@ -247,7 +247,8 @@ Vanuit het dashboard van de app kunt u op een cel met metrische gegevens klikken
 Zie [Monitoring in the Power BI Admin portal](service-admin-premium-monitor-portal.md) (Controles uitvoeren in de Power BI-beheerportal) en [Monitoring with the Power BI Premium Capacity Metrics app](service-admin-premium-monitor-capacity.md) (Controles uitvoeren met de app Power BI Premium Capacity Metrics) voor meer informatie over het controleren van capaciteit.
 
 #### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
-**Premium Gen2-** -capaciteit maakt geen gebruik van de app voor metrische gegevens, maar van de app voor capaciteitsgebruik die tijdens de preview-periode beschikbaar wordt gemaakt. De app voor capaciteitsgebruik kan worden gestart vanaf uw pagina voor capaciteitsbeheer in de **beheerportal** voor elke capaciteit.
+**Premium Gen2-** -capaciteit maakt geen gebruik van de app voor metrische gegevens, maar van de app voor capaciteitsgebruik die tijdens de preview-periode beschikbaar wordt gemaakt. Klanten die hun gebruik willen bekijken, kunnen een exemplaar van het gebruiksrapport voor de afgelopen krijgen door het rapport aan te vragen bij de klantenondersteuning. Het rapport wordt binnen 72 uur na aanvraag verstrekt. De app voor capaciteitsgebruik kan worden gestart vanaf uw pagina voor capaciteitsbeheer in de **beheerportal** voor elke capaciteit en biedt de mogelijkheid om 30 dagen en meer aan gegevens te analyseren.
+
 
 
 ### <a name="optimizing-capacities"></a>Capaciteiten optimaliseren
@@ -279,6 +280,8 @@ De Power BI Embedded A4-SKU is gelijk aan de P1-SKU, A5 = P2 en A6 = P3.
 ### <a name="large-dataset-storage-format"></a>Opslagindeling voor grote gegevenssets
 
 Als u de instelling [Opslagindeling voor grote gegevenssets](service-premium-large-models.md) inschakelt voor een gegevensset, worden de beperkingen voor de grootte van PBIX-bestanden nog steeds toegepast op het uploaden of publiceren van bestanden. De maximale uploadgrootte wordt niet beïnvloed door de opslagindeling voor grote gegevenssets. Wanneer incrementeel vernieuwen en de opslagindeling voor grote gegevensset zijn ingeschakeld, kunnen bij de publicatie van gegevenssets naar de service deze gegevenssets echter veel groter worden dan deze limieten. Bij een opslagindeling voor grote gegevenssets wordt de grootte van de gegevensset alleen beperkt door de maximale Power BI Premium-capaciteit.
+
+Met Power BI-gegevenssets kunnen gegevens sterk gecomprimeerd in de in-memory cache worden opgeslagen voor geoptimaliseerde queryprestaties, om snellere gebruikersinteractiviteit in grote gegevenssets mogelijk te maken. Voorheen waren gegevenssets in Power BI Premium beperkt tot 10 GB, na compressie. Voor grote modellen wordt de beperking verwijderd en wordt de grootte van de gegevensset alleen beperkt door de capaciteitsgrootte of door de maximale grootte die de beheerder instelt. Door dergelijke grote gegevenssets in te schakelen, kan de grootte van de Power BI-gegevenssets beter worden afgestemd op de grootte van Azure Analysis Services-modellen.
 
 Uw pbix-bestanden bevatten gegevens in een *sterk gecomprimeerde toestand*. De gegevensgrootte neemt waarschijnlijk toe wanneer de gegevens in het geheugen worden geladen. Vervolgens neemt de grootte mogelijk nog meerdere keren toe tijdens het vernieuwen van gegevens.
 

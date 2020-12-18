@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 06/18/2020
+ms.date: 12/14/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 424f3cc7412813cb9ea9f401d6edd22257e8d14a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5b26f8fe04c7aaf6847de50398c54db6a3870844
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411788"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513776"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>Manieren voor samenwerken en delen in Power BI
 
@@ -27,22 +27,22 @@ U hebt dashboards en rapporten gemaakt. Misschien wilt u er ook wel mee samenwer
 
 **Samenwerken**
 
-- Werk samen met collega's in *werkruimten* om zinvolle rapporten en dashboards te maken.
-- Samenwerken in *Microsoft Teams*.
+- [Werk samen met collega's in *werkruimten*](#collaborate-in-a-workspace) om zinvolle rapporten en dashboards te maken.
+- [Samenwerken in *Microsoft Teams*](#collaborate-in-microsoft-teams).
 
 **Dashboards en rapporten distribueren en delen**
 
-- *Deel dashboards of rapporten* vanuit Mijn werkruimte of een andere werkruimte.
-- Maak aantekeningen en deel ze vanuit de *mobiele Power BI-apps*.
-- Combineer dashboards en rapporten in werkruimten in *apps* en distribueer ze naar een grotere groep of de hele organisatie.
-- Sluit rapporten in *beveiligde portals* of *openbare websites* in.
-- Rapporten afdrukken.
-- Een *sjabloon-app* maken die u kunt distribueren naar externe Power BI-gebruikers via Microsoft AppSource.
+- [*Deel dashboards of rapporten*](#share-dashboards-and-reports) vanuit Mijn werkruimte of een andere werkruimte.
+- Maak aantekeningen en [ deel ze vanuit de *mobiele Power BI-app*](#annotate-and-share-from-the-power-bi-mobile-apps).
+- Combineer dashboards en rapporten in werkruimten in *apps* en [distribueer uw apps](#distribute-insights-in-an-app) naar een grotere groep of de hele organisatie.
+- [Sluit rapporten in](#embed-reports-in-secure-portals-or-public-web-sites) in *beveiligde portals* of *openbare websites*.
+- [Druk rapporten af](#print-or-save-as-pdf-or-other-static-file).
+- [Maak een *sjabloon-app*](#create-and-deploy-template-apps) die u via Microsoft AppSource kunt distribueren naar externe Power BI-gebruikers.
  
 **Gegevens delen**
 
-- Maak *gedeelde gegevenssets* die uw collega's kunnen gebruiken als basis voor hun eigen rapporten, in hun eigen werkruimten.
-- Maak *gegevensstromen* als een manier om een algemene gegevensbron te delen.
+- [Maak *gedeelde gegevenssets*](#share-a-dataset) die uw collega's kunnen gebruiken als basis voor hun eigen rapporten, in hun eigen werkruimten.
+- [Maak *gegevensstromen*](#create-dataflows) als een manier om een algemene gegevensbron te delen.
 
 Bij alle opties moet u voor het delen van de inhoud een [licentie voor Power BI Pro](../fundamentals/service-features-license-type.md) hebben of moet de inhoud zich in een [Premium-capaciteit](../admin/service-premium-what-is.md) bevinden. De licentievereisten verschillen voor de collega's die uw inhoud bekijken, afhankelijk van welke optie u kiest. In de volgende secties gaan we in op de details. 
 
@@ -67,7 +67,7 @@ Lees meer over het [maken van de nieuwe werkruimten](service-create-the-new-work
 
 ## <a name="collaborate-in-microsoft-teams"></a>Samenwerken in Microsoft Teams
 
-Vergroot de gegevensgestuurde samenwerking in uw organisatie door uw Power BI-rapporten en gepagineerde rapporten in Power BI in te sluiten in Microsoft Teams. De Power BI-service bevat een knop **Delen in Teams** voor rapporten. U kunt afzonderlijke Power BI-tabbladen voor elk afzonderlijk rapport toevoegen en elk tabblad de naam van het rapport of een andere naam geven. 
+Vergroot de gegevensgestuurde samenwerking in uw organisatie door uw Power BI-rapporten en gepagineerde rapporten in Power BI in te sluiten in Microsoft Teams. De Power BI-service bevat een knop **Chatten in Teams** voor rapporten. U kunt afzonderlijke Power BI-tabbladen voor elk afzonderlijk rapport toevoegen en elk tabblad de naam van het rapport of een andere naam geven. 
 
 Wanneer u een tabblad voor een Power BI-rapport toevoegt aan Microsoft Teams, wordt er automatisch een tabgesprek voor het rapport gemaakt. Iedereen in dat Microsft Teams-kanaal kan het rapport in het gesprek bekijken en bespreken. 
 
@@ -77,7 +77,7 @@ Lees meer over [samenwerken in Microsoft Teams met Power BI](service-collaborate
 
 ## <a name="share-dashboards-and-reports"></a>Dashboards en rapporten delen
 
-Stel dat u een rapport in Power BI Desktop hebt voltooid en u wilt dat anderen er toegang toe hebben. U kunt dit onder andere doen door het te *delen* in de Power BI-service. U publiceert het naar Mijn werkruimte of een andere werkruimte. Misschien maakt u er een dashboard bij en u bent klaar.
+Stel dat uw rapport in Power BI Desktop klaar is u wilt dat anderen er toegang toe hebben. U kunt dit onder andere doen door het te *delen* in de Power BI-service. U publiceert het naar Mijn werkruimte of een andere werkruimte. Misschien maakt u er een dashboard bij en u bent klaar.
 
 ![Een rapport delen](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
@@ -118,7 +118,7 @@ U kunt ook apps publiceren voor personen buiten uw organisatie. Deze personen ku
 ### <a name="embed-in-secure-portals"></a>Insluiten in beveiligde portals
 
 U kunt Power BI-rapporten insluiten in portals of websites waar uw gebruikers ze verwachten te zien.  
-Met **Insluiten in SharePoint Online** en de optie **Insluiten** in de Power BI-service kunt u veilig rapporten insluiten voor uw interne gebruikers. Ongeacht welke optie u kiest, Power BI dwingt alle machtigingen en beveiliging van gegevens af voordat gebruikers inhoud kunnen zien. De persoon die het rapport weergeeft, moet over de juiste licentie beschikken.  
+Met **Insluiten in SharePoint Online** en de optie **Insluiten** in de Power BI-service kunt u veilig rapporten insluiten voor uw interne gebruikers. Ongeacht welke optie u kiest, Power BI dwingt alle machtigingen en beveiliging van gegevens af voordat gebruikers inhoud zien. De persoon die het rapport weergeeft, moet over de juiste licentie beschikken.  
 
 - **Insluiten in SharePoint Online** werkt met het Power BI-webonderdeel voor SharePoint Online. Er wordt hiermee een ervaring geboden voor eenmalige aanmelding met controle over hoe het rapport wordt ingesloten. Lees meer over [insluiten in SharePoint Online](service-embed-report-spo.md).
 - De optie **Insluiten** werkt met elke portal of website die ondersteuning biedt voor ingesloten inhoud met een URL of een iFrame. Meer informatie over de optie [Insluiten](service-embed-secure.md).

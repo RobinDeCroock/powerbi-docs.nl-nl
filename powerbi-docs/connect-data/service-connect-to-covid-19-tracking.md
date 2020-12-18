@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 04/05/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 19dc9f5c5adfa5853d98cd6b0ef427c8bccebada
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fc421f7635a3d6e3b2336d5bce081d7914c0fad5
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410615"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998852"
 ---
 # <a name="connect-to-the-covid-19-us-tracking-report"></a>Verbinding maken met Traceringsrapport voor COVID-19 in de Verenigde Staten
 In dit artikel leest u hoe u de sjabloon-app voor het traceringsrapport voor COVID-19 installeert en hoe u verbinding maakt met de gegevensbronnen.
@@ -28,9 +28,9 @@ Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de ge
 
 1. Klik op de volgende koppeling om naar de app te gaan: [De sjabloon-app Traceringsrapport voor COVID-19 in de Verenigde Staten](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
-1. Als u zich op de Appsource-pagina van de app bevindt, klikt u op [**NU DOWNLOADEN**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
+1. Als u zich op de AppSource-pagina van de app bevindt, klikt u op [**NU DOWNLOADEN**](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms).
 
-    [![Traceringsrapport voor COVID-19 in de Verenigde Staten in Appsource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
+    [![Traceringsrapport voor COVID-19 in de Verenigde Staten in AppSource](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-appsource-icon.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.covid19ms)
 
 1. Klik op **Installeren** wanneer dat wordt gevraagd. Zodra de app is geïnstalleerd, ziet u deze op uw Apps-pagina.
 
@@ -38,11 +38,11 @@ Nadat u de sjabloon-app hebt geïnstalleerd en verbinding hebt gemaakt met de ge
 
 ## <a name="connect-to-data-sources"></a>Verbinding maken met gegevensbronnen
 
-1. Klik op het pictogram op de Apps-pagina om de app te openen.
+1. Klik op het pictogram op de Apps-pagina om de app te openen. De app wordt geopend met voorbeeldgegevens.
 
-1. Kies in het opstartscherm dat wordt weergegeven **Verbinding maken**.
+1. Selecteer de koppeling **Uw gegevens koppelen** op de banner bovenaan de pagina.
 
-   ![Welkomstscherm van de sjabloon-app](media/service-connect-to-covid-19-tracking/service-covid-19-us-tracking-report-splash-screen.png)
+   ![De koppeling Uw gegevens koppelen in de GitHub-app](media/service-connect-to-covid-19-tracking/power-bi-covid-19-connect-data.png)
 
 1. Het dialoogvenster Parameters wordt weergegeven. Er zijn geen vereiste parameters. Klik op **Volgende**.
 

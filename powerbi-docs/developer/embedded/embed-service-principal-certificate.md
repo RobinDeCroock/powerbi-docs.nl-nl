@@ -1,5 +1,5 @@
 ---
-title: Power BI-inhoud met service-principal en een certificaat insluiten
+title: Power BI-inhoud insluiten in een ingesloten analysetoepassing met service-principal en een certificaat
 description: Meer informatie over het verifiëren voor ingesloten analyses met behulp van een Azure Active Directory Application Service-Principal en een certificaat.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 990e3787927cb483b37d7bc456a46201876fcbed
-ms.sourcegitcommit: 9d033abd9c01a01bba132972497dda428d7d5c12
+ms.openlocfilehash: f36f77ec1b6648bcb9ab45622fd9888366803b11
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95514419"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098393"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>Power BI-inhoud met service-principal en een certificaat insluiten
 

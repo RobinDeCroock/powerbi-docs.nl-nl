@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 2689597e35801d6829b29790309ea53ad410ff47
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5c69abe925751e8b065f262e151bfee65c487238
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412018"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97492053"
 ---
 # <a name="export-power-bi-paginated-reports-with-power-automate"></a>Gepagineerde Power BI-rapporten exporteren met Power Automate
 
@@ -40,7 +40,7 @@ Selecteer een sjabloon in de lijst om aan de slag te gaan met een stapsgewijs ov
 
 - [Een gepagineerd Power BI-rapport opslaan in OneDrive voor Bedrijven of een SharePoint Online-map](service-automate-paginated-onedrive-sharepoint.md).  
 - [Een gepagineerd Power BI-rapport exporteren voor items in een SharePoint Online-lijst of voor elke rij in een Excel Online-tabel](service-automate-paginated-excel-sharepoint-list.md).
-- Een gepagineerd Power BI-rapport opslaan in een lokale systeemmap.
+- [Een gepagineerd Power BI-rapport opslaan in een lokale systeemmap](service-automate-paginated-local-file.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 

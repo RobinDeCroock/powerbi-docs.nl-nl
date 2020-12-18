@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
-ms.openlocfilehash: bb48b92df81a49ee687376ee9f53428c10171b80
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b20bb007c55f7d7d618b70690475d34d9f53fc06
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410109"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491708"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Tips voor het ontwerpen van sjabloon-apps in Power BI
 
@@ -144,6 +144,10 @@ Nadat u de sjabloon-app op AppSource hebt gepubliceerd, kunt u een downloadkoppe
 Raadpleeg het volgende codevoorbeeld als u een gebruiker wilt omleiden naar de downloadkoppeling voor de app in Power BI: [GitHub-opslagplaats](https://github.com/microsoft/Template-apps-examples).
 
 [![Downloadkoppeling voor de app](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+## <a name="automate-parameter-configuration-during-installation"></a>Parameterconfiguratie automatiseren tijdens de installatie
+
+Als u een ISV bent en u een sjabloon-app via uw webservice distribueert, kunt u de configuratie van de parameters van de sjabloon-app automatiseren wanneer uw klanten de app installeren in hun Power BI-account. Dit maakt het eenvoudiger voor uw klanten en verhoogt de kans op een succes volle installatie omdat ze geen details hoeven op te geven die ze mogelijk niet kennen. Zie [Automatische configuratie van de installatie van een sjabloon-app](../developer/template-apps/template-apps-auto-install.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 

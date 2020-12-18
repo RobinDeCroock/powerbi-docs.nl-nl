@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 80c53b183f37dc09ee83ff20bd97f944bdcbc9b4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
+ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379324"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97513730"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 
@@ -25,6 +25,22 @@ ms.locfileid: "79379324"
 Als u het pakket wilt installeren, voert u de volgende opdracht uit in de map met uw huidige aangepaste visual:
 
 npm install powerbi-visuals-utils-dataviewutils --save Met deze opdracht wordt het pakket geïnstalleerd en wordt een pakket toegevoegd als afhankelijkheid van uw package.json
+
+## <a name="dataviewwildcard"></a>DataViewWildcard
+
+`DataViewWildcard` biedt de functie `createDataViewWildcardSelector` om de [voorwaardelijke opmaak](conditional-format.md#define-how-conditional-formatting-behaves) van een eigenschap te ondersteunen.
+
+`createDataViewWildcardSelector` retourneert de vereiste selector om te definiëren hoe de vermelding van de voorwaardelijke opmaak in het opmaakvenster wordt toegepast, op basis van `dataviewWildcardMatchingOption (InstancesAndTotals (default), InstancesOnly, TotalsOnly)`.
+
+Voorbeeld:
+
+ ```typescript
+import { dataViewWildcard } from "powerbi-visuals-utils-dataviewutils";
+
+let selector = dataViewWildcard.createDataViewWildcardSelector(dataViewWildcard.DataViewWildcardMatchingOption.InstancesAndTotals);
+// returns {data: [{dataViewWildcard:{matchingOption: 0}}]};
+
+```
 
 ## <a name="datarolehelper"></a>DataRoleHelper
 

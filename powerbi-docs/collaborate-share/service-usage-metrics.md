@@ -1,6 +1,6 @@
 ---
-title: Metrische gegevens over het gebruik van dashboards en rapporten bewaken
-description: Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bekijken, opslaan en gebruiken.
+title: Metrische gebruiksgegevens binnen klassieke werkruimten bewaken
+description: Metrische gebruiksgegevens voor Power BI-dashboards en -rapporten bekijken, opslaan en gebruiken in klassieke werkruimten.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,18 +8,18 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 10/21/2019
+ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9247e16704ccbbee466a5f85f3a2814bdfc521f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
+ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411627"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97558488"
 ---
-# <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Metrische gegevens over het gebruik van Power BI-dashboards en -rapporten bewaken
+# <a name="monitor-usage-metrics-in-classic-workspaces"></a>Metrische gebruiksgegevens binnen klassieke werkruimten bewaken
 
-Als u dashboards en rapporten maakt, kunnen metrische gegevens over het gebruik u helpen hun invloed te begrijpen. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wie ze gebruikt en met welk doel.  
+Metrische gebruiksgegevens helpen u te begrijpen wat de impact van uw dashboards en rapporten is. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wie ze gebruikt en met welk doel. In dit artikel vindt u een overzicht van rapporten met metrische gebruiksgegevens voor [klassieke werkruimten](service-create-workspaces.md). Als uw rapporten zich in een van de nieuwe werkruimten bevinden, raadpleegt u het artikel over het [bewaken van metrische gebruiksgegevens in de nieuwe werkruimte](service-usage-metrics.md)  
 
 Rapporten over metrische gegevens over gebruik zijn alleen-lezen. U kunt een dergelijk rapport echter wel kopiëren. U beschikt dan over een standaardrapport van Power BI dat u kunt bewerken. U kunt ook uw eigen rapporten maken in Power BI Desktop op basis van de onderliggende gegevensset, met daarin metrische gegevens over gebruik voor alle dashboards of alle rapporten in een werkruimte. In eerste instantie bevat het gekopieerde rapport alleen metrische gegevens voor het geselecteerde dashboard of rapport. U kunt het standaardfilter verwijderen om zo toegang te krijgen tot de onderliggende gegevensset, met alle metrische gegevens over gebruik voor de geselecteerde werkruimte. Misschien ziet u zelfs de namen van specifieke gebruikers, als de beheerder dit heeft toegestaan.
 
@@ -87,7 +87,7 @@ U hebt twee mogelijkheden om u te verdiepen in de rapportgegevens of om uw eigen
 | --- | --- | --- | --- |
 | Distributiemethodeslicer |ja |ja |Hoe gebruikers toegang kregen tot de inhoud. Er zijn drie mogelijke methoden: gebruikers kunnen toegang krijgen tot het dashboard of rapport door lid te zijn van een [werkruimte](../consumer/end-user-experience.md), doordat de inhoud [met hen is gedeeld](service-share-dashboards.md) of door een inhoudspakket/app te installeren.  Weergaven door middel van een app worden geteld als inhoudspakket. |
 | Platformenslicer |ja |ja |Is het dashboard of rapport benaderd via de Power BI-service (powerbi.com) of een mobiel apparaat? Mobiel omvat al onze iOS-, Android- en Windows-apps. |
-| Rapportpaginaslicer |nee |ja |Als het rapport meer dan één pagina heeft, segmenteert u het rapport op de pagina('s) die is (zijn) weergegeven. Als u een lijstoptie voor 'Leeg' ziet, betekent dit dat een rapportpagina onlangs is toegevoegd (binnen 24 uur wordt de daadwerkelijke naam van de nieuwe pagina weergegeven in de slicerlijst) en/of dat rapportpagina's zijn verwijderd. 'Leeg' legt deze situaties vast. |
+| Rapportpaginaslicer |nee |ja |Als het rapport meer dan één pagina heeft, segmenteert u het rapport op de pagina('s) die is (zijn) weergegeven. Leeg betekent dat een rapportpagina onlangs is toegevoegd (binnen 24 uur wordt de daadwerkelijke naam van de nieuwe pagina weergegeven in de slicerlijst) of dat rapportpagina's zijn verwijderd. 'Leeg' legt deze situaties vast. |
 | Weergaven per dag |ja |ja |Totaal aantal weergaven per dag - een weergave wordt gedefinieerd als een gebruiker die een rapportpagina of dashboard laadt. |
 | Unieke gebruikers per dag |ja |ja |Aantal *verschillende* gebruikers die het dashboard of rapport hebben weergegeven (op basis van het gebruikersaccount AAD). |
 | Weergaven per gebruiker |ja |ja |Het aantal weergaven in de afgelopen 90 dagen, opgedeeld per individuele gebruikers. |
@@ -103,7 +103,7 @@ U hebt twee mogelijkheden om u te verdiepen in de rapportgegevens of om uw eigen
 
 Gebruik **Opslaan als** om het rapport met metrische gegevens over gebruik te converteren naar een gewoon Power BI-rapport dat u kunt aanpassen aan uw specifieke behoeften. U kunt ook Power BI Desktop gebruiken om aangepaste rapporten met metrische gegevens over gebruik te maken op basis van de onderliggende gegevensset. Zie [Verbinding maken met een gepubliceerde gegevensset](../connect-data/desktop-report-lifecycle-datasets.md#establish-a-power-bi-service-live-connection-to-the-published-dataset) voor meer informatie.
 
-Nog beter, de onderliggende gegevensset bevat de gebruiksdetails voor alle dashboards of rapporten in de werkruimte. Er komen dan nog meer mogelijkheden beschikbaar. U kunt bijvoorbeeld een rapport maken waarin alle dashboards in uw werkruimte met elkaar worden vergeleken op basis van gebruik. U kunt ook een dashboard met metrische gegevens over gebruik voor uw Power BI-app maken door gebruiksgegevens samen te voegen voor alle inhoud die is gedistribueerd binnen die app.  Zie hoe u het filter verwijdert en [zie alle metrische gegevens over gebruik voor de werkruimte](#see-all-workspace-usage-metrics) verderop in dit artikel.
+Nog beter, de onderliggende gegevensset bevat de gebruiksdetails voor alle dashboards of rapporten in de werkruimte. Er komen dan nog meer mogelijkheden beschikbaar. U kunt bijvoorbeeld een rapport maken waarin de dashboards in uw werkruimte met elkaar worden vergeleken op basis van gebruik. U kunt ook een dashboard met metrische gegevens over gebruik voor uw Power BI-app maken door gebruiksgegevens samen te voegen voor alle inhoud die is gedistribueerd binnen die app.  Zie hoe u het filter verwijdert en [zie alle metrische gegevens over gebruik voor de werkruimte](#see-all-workspace-usage-metrics) verderop in dit artikel.
 
 ### <a name="create-a-copy-of-the-usage-report"></a>Een kopie maken van het gebruiksrapport
 
@@ -141,13 +141,13 @@ Rapporten met metrische gegevens over gebruik zijn een functie die de Power BI- 
 
 Standaard wordt gegevens per gebruiker ingeschakeld voor metrische gegevens over gebruik. Accountgegevens van gebruikers van inhoud worden in het metrische rapport opgenomen. Als beheerders deze informatie niet willen opnemen voor een bepaalde gebruiker of voor geen enkele gebruiker, kunnen ze de functie voor bepaalde beveiligingsgroepen of voor een hele organisatie uitschakelen. Accountgegevens worden dan in het rapport weergegeven als *Naamloos*.
 
-Wanneer beheerders metrische gegevens over gebruik uitschakelen voor de gehele organisatie, kunnen ze de optie **Alle bestaande inhoud voor metrische gegevens over gebruik verwijderen** gebruiken om alle bestaande rapporten en dashboardtegels te verwijderen die zijn gemaakt met behulp van de rapporten met metrische gegevens over gebruik. Deze optie verwijdert alle toegang tot metrische gegevens voor alle gebruikers in de organisatie die deze mogelijk al gebruiken. Het verwijderen van bestaande metrische gegevens over gebruik kan niet ongedaan worden gemaakt.
+Wanneer beheerders metrische gegevens over gebruik uitschakelen voor de gehele organisatie, kunnen ze de optie **Alle bestaande inhoud voor metrische gegevens over gebruik verwijderen** gebruiken om alle bestaande rapporten en dashboardtegels te verwijderen die zijn gemaakt met behulp van de rapporten met metrische gegevens over gebruik. Deze optie verwijdert de toegang tot metrische gegevens voor gebruikers in de organisatie die deze mogelijk al gebruiken. Het verwijderen van bestaande metrische gegevens over gebruik kan niet ongedaan worden gemaakt.
 
 Zie [Metrische gegevens over gebruik beheren](../admin/service-admin-portal.md#control-usage-metrics) in het artikel over de beheerportal voor meer informatie over deze instellingen. 
 
 ## <a name="usage-metrics-in-national-clouds"></a>Metrische gegevens over gebruik in nationale clouds
 
-Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden hetzelfde niveau van beveiliging, privacy, naleving en transparantie als de algemene versie van Power BI, gecombineerd met een uniek model voor lokale voorschriften met betrekking tot het leveren van services, gegevensopslag, toegang en beheer. Vanwege dit unieke model voor lokale voorschriften zijn metrische gegevens over gebruik niet beschikbaar in nationale clouds. Zie [nationale clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie.
+Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden hetzelfde niveau van beveiliging, privacy, naleving en transparantie als de algemene versie van Power BI, gecombineerd met een uniek model voor lokale voorschriften met betrekking tot het leveren van services, gegevensopslag, toegang en beheer. Door dit unieke model voor lokale voorschriften zijn er geen metrische gebruiksgegevens beschikbaar in nationale clouds. Zie [nationale clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
@@ -155,10 +155,14 @@ Power BI is beschikbaar in afzonderlijke nationale clouds. Deze clouds bieden he
 
 Het is belangrijk om te begrijpen dat er verschillen kunnen optreden wanneer u metrische gegevens over verbruik vergelijkt met auditlogboeken en waarom. *Auditlogboeken* worden verzameld met gegevens uit de Power BI-service en *metrische gegevens over gebruik* worden verzameld in de client. Geaggregeerde tellingen van activiteiten in auditlogboeken komen mogelijk niet altijd overeen met metrische gegevens over gebruik. Dat zit zo:
 
-* Metrische gegevens over gebruik tellen soms minder activiteiten vanwege inconsistente netwerkverbindingen, ad blockers of andere problemen die de verzending van gebeurtenissen van de client kunnen verstoren.
+* Metrische gegevens over gebruik tellen soms minder activiteiten doordat inconsistente netwerkverbindingen, ad blockers of andere problemen die de verzending van gebeurtenissen van de client kunnen verstoren.
 * Bepaalde typen weergaven zijn niet opgenomen in metrische gegevens over gebruik, zoals eerder in dit artikel is beschreven.
 * Metrische gegevens over gebruik tellen soms meer activiteiten. Dat komt voor in gevallen waarin de client vernieuwt zonder dat het nodig is om een aanvraag terug te sturen naar de Power BI-service.
 * Delen is uitgeschakeld voor het rapport voor metrische gebruiksgegevens. Om mensen leestoegang tot het rapport te geven, moet u ze eerst toegang tot de werkruimte geven.
+
+### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Verschillen tussen REST API's en metrische gebruiksgegevens
+
+De Power BI [Reports REST API's](https://docs.microsoft.com/rest/api/power-bi/reports) en [Admin REST API's](https://docs.microsoft.com/rest/api/power-bi/admin) gebruiken ook Power BI-servicegegevens. Zoals in de vorige sectie is beschreven, zijn er verschillende redenen waarom rapporttellingen (het aantal rapporten) van de API's kunnen afwijken van de rapporttellingen in de metrische gebruiksgegevens. De rapporttellingen die zijn afgeleid van de API's, worden niet beïnvloed door clientproblemen en moeten als nauwkeurig worden beschouwd.
 
 ### <a name="other-considerations"></a>Andere overwegingen
 

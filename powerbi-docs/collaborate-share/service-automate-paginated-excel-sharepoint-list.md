@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 11/17/2020
+ms.date: 12/08/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 74d61d40c4447f2649f5cce5fbcdcba68cd31afe
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7a48a9a594364de4261aa66de48c1a4262392364
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407993"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97097841"
 ---
 # <a name="export-a-paginated-report-for-each-row-in-an-excel-online-table-or-sharepoint-list"></a>Een gepagineerd rapport exporteren voor elke rij in een Excel Online-tabel of SharePoint-lijst
 
@@ -30,7 +30,7 @@ Bent u op zoek naar andere Power Automate-sjablonen voor gepagineerde Power BI-r
 
 Zorg ervoor dat u over het volgende beschikt:
 
-- Ten minste één werkruimte in uw Power BI-tenant die wordt ondersteund door een gereserveerde capaciteit. Deze capaciteit kan een van de SKU's in het bereik A4/P1 – A6/P3 zijn. Lees meer over [gereserveerde capaciteit in Power BI Premium](../admin/service-premium-what-is.md).
+- Ten minste één werkruimte in uw Power BI-tenant die wordt ondersteund door een gereserveerde capaciteit. Deze capaciteit kan een van de SKU's in het bereik A4/P1 – A6/P3 zijn. Lees meer over [gereserveerde capaciteit voor gepagineerde rapporten in Power BI Premium](../admin/service-premium-what-is.md#paginated-reports).
 - Toegang tot de standaardconnectors in Power Automate, die worden geleverd bij een Office 365-abonnement.
 - Als u een Excel Online-tabel gebruikt, moet deze zijn opgemaakt als een tabel in Excel. Zie [Een tabel maken](https://support.microsoft.com/office/create-a-table-in-excel-bf0ce08b-d012-42ec-8ecf-a2259c9faf3f) voor meer informatie.
 
@@ -73,9 +73,9 @@ Zorg ervoor dat u over het volgende beschikt:
 
 1. In **Op elke toepassen** is het vak **Selecteer een uitvoer uit de vorige stap** standaard ingesteld op **Waarde**. Deze instelling doorloopt de acties die zijn opgenomen in **Op elke toepassen** voor elke rij in uw Excel Online-tabel of SharePoint Online-lijst.  
 
-1. Selecteer in het vak **Werkruimte** een werkruimte in een toegewezen capaciteit. Selecteer in het vak **Rapport** het gepagineerde rapport in de geselecteerde werkruimte dat u wilt exporteren. Als u **Een aangepaste waarde invoeren** instelt in de vervolgkeuzelijst, kunt u **Werkruimte** en **Rapport** instellen op een kolom in uw Excel Online-tabel of SharePoint Online-lijst. Deze kolommen moeten respectievelijk werkruimte-id's en rapport-id's bevatten.  
+1. Selecteer in het vak **Werkruimte** een werkruimte in een gereserveerde capaciteit. Selecteer in het vak **Rapport** het gepagineerde rapport in de geselecteerde werkruimte dat u wilt exporteren. Als u **Een aangepaste waarde invoeren** instelt in de vervolgkeuzelijst, kunt u **Werkruimte** en **Rapport** instellen op een kolom in uw Excel Online-tabel of SharePoint Online-lijst. Deze kolommen moeten respectievelijk werkruimte-id's en rapport-id's bevatten.  
 
-1. Selecteer in de vervolgkeuzelijst een **exportindeling** of stel deze in op een kolom in uw Excel Online-tabel die de gewenste exportindelingen bevat. bijvoorbeeld PDF, DOCX of PPTX. U kunt ook parameters opgeven voor het gepagineerde rapport. Gedetailleerde beschrijvingen van de parameters vindt u in de [naslaginformatie over connectors voor de Power BI Rest API](/connectors/powerbi/#export-to-file-for-paginated-reports).
+1. Selecteer in de vervolgkeuzelijst een **exportindeling** of stel deze in op een kolom in uw Excel Online-tabel die de gewenste exportindelingen bevat. bijvoorbeeld PDF, DOCX of PPTX. U kunt ook parameters opgeven voor het gepagineerde rapport. Gedetailleerde beschrijvingen van de parameters vindt u in de [naslaginformatie over connectors voor de Power BI REST API](/connectors/powerbi/#export-to-file-for-paginated-reports).
 
     :::image type="content" source="media/service-automate-paginated-excel-sharepoint-list/excel-template-export-format-9.png" alt-text="Vul Exporteren naar bestand voor gepagineerde rapporten in.":::
 
@@ -105,7 +105,7 @@ Zorg ervoor dat u over het volgende beschikt:
 
 1. Wanneer u klaar bent, selecteert u  **Volgende stap**  of **Opslaan**. Power Automate maakt en evalueert de stroom en stelt u op de hoogte als er fouten zijn gevonden. 
 
-1. Als er fouten zijn, selecteert u  **Stroom bewerken**  om deze te herstellen. Als dat niet het geval is, selecteert u de pijl voor **terug** om de stroomgegevens weer te geven en de nieuwe stroom uit te voeren. 
+1. Als er fouten zijn, selecteert u  **Stroom bewerken**  om deze te herstellen. Als dat niet het geval is, selecteert u de pijl voor **terug** om de stroomgegevens weer te geven en om de nieuwe stroom uit te voeren. 
 
 
 ## <a name="next-steps"></a>Volgende stappen

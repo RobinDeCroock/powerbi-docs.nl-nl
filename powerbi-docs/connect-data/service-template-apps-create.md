@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 09/15/2020
-ms.openlocfilehash: fc62d291b890d840b89997cd5d5253572f91bf3e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: cfd9302c9c64760298eb78be10affad8be510a65
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410224"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491754"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Een sjabloon-app maken in Power BI
 
 Met Power BI-*sjabloon-apps* kunnen Power BI-partners Power BI-apps maken met weinig of geen code en deze implementeren voor elke Power BI-klant.  Dit artikel bevat stapsgewijze instructies voor het maken van een Power BI-sjabloon-app.
 
-Als u Power BI-rapporten en -dashboards kunt maken, kunt u een *sjabloon-app-bouwer* worden die analytische inhoud maakt en verpakt in een *app*. Vervolgens kunt u uw app implementeren naar andere Power BI-tenants via elk beschikbaar platform, zoals AppSource, of de app gebruiken in uw eigen webservice. Als maker kunt u een beveiligd analysepakket voor distributie maken.
+Als u Power BI-rapporten en -dashboards kunt maken, kunt u een *sjabloon-app-bouwer* worden die analytische inhoud maakt en verpakt in een *app*. Vervolgens kunt u uw app implementeren naar andere Power BI-tenants via elk beschikbaar platform, zoals AppSource of uw eigen webservice. Als u uw sjabloon-app via uw eigen webservice distribueert, kunt u zelfs [een deel van het installatieproces automatiseren](../developer/template-apps/template-apps-auto-install.md) om het uw klanten makkelijker te maken.
 
 Power BI-beheerders beheren en bepalen wie er binnen de betreffende organisatie sjabloon-apps kan maken en wie deze kan installeren. Gemachtigde gebruikers kunnen uw sjabloon-app installeren en deze vervolgens wijzigen en distribueren naar de Power BI-gebruikers in hun organisatie.
 
@@ -178,12 +178,10 @@ De verschillende fasen worden hieronder besproken:
     Wanneer de installatie is geslaagd, ziet u een melding dat de nieuwe app gereed is.
 
 6. Selecteer **Ga naar app**.
-7. In **Aan de slag met uw nieuwe app** ziet u uw app zoals uw klanten deze ook zullen zien.
 
-    ![Aan de slag met uw app](media/service-template-apps-create/power-bi-template-app-get-started.png)
-8. Selecteer **App verkennen** om de test-app te controleren met de voorbeeldgegevens.
-9. Als u wijzigingen wilt aanbrengen, gaat u terug naar de app in de oorspronkelijke werkruimte. Werk de test-app bij totdat u helemaal tevreden bent.
-10. Als u klaar bent om het niveau van de app te verhogen naar de preproductiefase waarin de app buiten uw tenant wordt getest, gaat u terug naar het deelvenster **Publicatiebeheer** en selecteert u **App promoveren**.
+    Controleer of de test-app de voorbeeldgegevens bevat. Als u wijzigingen wilt aanbrengen, gaat u terug naar de app in de oorspronkelijke werkruimte. Werk de test-app bij totdat u helemaal tevreden bent.
+
+1. Als u klaar bent om het niveau van de app te verhogen naar de preproductiefase waarin de app buiten uw tenant wordt getest, gaat u terug naar het deelvenster **Publicatiebeheer** en selecteert u **App promoveren**.
 
     ![De app promoveren naar de preproductiefase](media/service-template-apps-create/power-bi-template-app-promote.png)
     >[!NOTE]
@@ -200,6 +198,10 @@ De verschillende fasen worden hieronder besproken:
     ![App in productie](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Als u uw app algemeen beschikbaar wilt stellen voor duizenden Power BI-gebruikers wereldwijd, raden we u aan de app te verzenden naar AppSource. Zie de [aanbieding voor Power BI-toepassing](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) voor meer informatie.
+
+## <a name="automate-parameter-configuration-during-installation"></a>Parameterconfiguratie automatiseren tijdens de installatie
+
+Als u een ISV bent en u een sjabloon-app via uw webservice distribueert, kunt u de configuratie van de parameters van de sjabloon-app automatiseren wanneer uw klanten de app installeren in hun Power BI-account. Dit maakt het eenvoudiger voor uw klanten en verhoogt de kans op een succes volle installatie omdat ze geen details hoeven op te geven die ze mogelijk niet kennen. Zie [Automatische configuratie van de installatie van een sjabloon-app](../developer/template-apps/template-apps-auto-install.md) voor meer informatie.
 
 ## <a name="next-steps"></a>Volgende stappen
 

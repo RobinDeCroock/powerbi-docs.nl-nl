@@ -1,5 +1,5 @@
 ---
-title: Gepagineerde rapporten insluiten in uw app voor uw klanten
+title: Gepagineerde Power BI-rapporten voor uw klanten insluiten in uw in Power BI ingesloten analysetoepassing
 description: Informatie over het integreren of insluiten van een gepagineerd Power BI-rapport in een app met behulp van de Power BI-API's.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 02d73a2eb36636091ff6059fd6543bb950082c2a
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 3aecfa7e00528217dc5b6fa27b03a5ac4302d9dd
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907297"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098232"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten
 

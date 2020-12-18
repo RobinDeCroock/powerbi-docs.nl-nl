@@ -1,5 +1,5 @@
 ---
-title: Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
+title: Power BI-inhoud insluiten in een ingesoten analysetoepassing met service-principal en een toepassingsgeheim.
 description: Meer informatie over het verifiëren voor ingesloten analyses met behulp van een Azure Active Directory Application Service-Principal en een toepassingsgeheim.
 author: KesemSharabi
 ms.author: kesharab
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 41b8cfe8515efbf3cc42794afcb2562f7d0c171a
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 203ea16481d8f4b7d460066d5309b119d25b8b94
+ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907090"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "97098117"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
 

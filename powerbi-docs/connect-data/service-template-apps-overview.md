@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 5c897909d9fe31e4b22743a77058caba4767a579
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/14/2020
+ms.openlocfilehash: a11ac8edb9abab29f58c3e4eda15ae204d105b26
+ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410132"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97491731"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Wat zijn Power BI-sjabloon-apps?
 
@@ -98,6 +98,7 @@ Voor het publiceren van een sjabloon-app naar de Power BI-service en AppSource m
 - Gebruik AppSource als uw onlinewinkel voor het hosten van uw toepassing. Op deze manier kan iedereen met behulp van Power BI uw app vinden. 
 - Overweeg meer dan één sjabloon-app aan te bieden voor verschillende unieke scenario's. 
 - Schakel aanpassing van de gegevens in, zoals ondersteuning voor aangepaste verbinding en configuratie van parameters door het installatieprogramma.
+- Als u een ISV bent en u uw app via uw webservice distribueert, kunt u de parameterconfiguratie tijdens de installatie automatiseren om het uw klanten makkelijker te maken en om de kans op een succesvolle installatie te vergroten. Zie [Automatische configuratie van de installatie van een sjabloon-app](../developer/template-apps/template-apps-auto-install.md) voor meer informatie.
 
 Zie [Tips voor het ontwerpen van sjabloon-apps in Power BI](service-template-apps-tips.md) voor meer suggesties.
 

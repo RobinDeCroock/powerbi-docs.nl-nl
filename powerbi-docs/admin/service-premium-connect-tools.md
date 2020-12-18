@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/09/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b238daa82bc2ae039c137c259ca8f63044281e6f
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
+ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613711"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "96998962"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt
 
@@ -34,9 +34,9 @@ Standaard is *alleen-lezen* connectiviteit met het eindpunt ingeschakeld voor de
 
 Hieronder zijn enkele van de meestvoorkomende hulpprogramma's vermeld die worden gebruikt met Azure Analysis Services en SQL Server Analysis Services, en nu worden ondersteund door Power BI Premium-gegevenssets:
 
-**Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT**, is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.6 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (Hulpprogramma's voor Analysis Services) voor meer informatie.
+**Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT**, is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.14 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (Hulpprogramma's voor Analysis Services) voor meer informatie.
 
-**SQL Server Management Studio (SSMS)**  : ondersteunt DAX-, MDX- en XMLA-query's. Voer specifieke vernieuwingsbewerkingen en scripts voor metagegevens van gegevenssets uit met behulp van de [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL, tabellaire modelscripttaal). Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor het uitvoeren van scripts voor metagegevens is lezen-schrijven vereist. SSMS-versie 18.4 of hoger is vereist. Klik  [hier](/sql/ssms/download-sql-server-management-studio-ssms) om SSMS te downloaden.
+**SQL Server Management Studio (SSMS)**  : ondersteunt DAX-, MDX- en XMLA-query's. Voer specifieke vernieuwingsbewerkingen en scripts voor metagegevens van gegevenssets uit met behulp van de [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL, tabellaire modelscripttaal). Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor het uitvoeren van scripts voor metagegevens is lezen-schrijven vereist. SSMS-versie 18.7.1 of hoger is vereist. Klik  [hier](/sql/ssms/download-sql-server-management-studio-ssms) om SSMS te downloaden.
 
 **SQL Server Profiler** : dit hulpprogramma, dat samen met SSMS wordt geïnstalleerd, voorziet in het bijhouden en opsporen van fouten in gegevenssetgebeurtenissen. Hoewel Profiler officieel is afgeschaft voor SQL Server, wordt het nog steeds opgenomen in SSMS en ondersteund voor Analysis Services en Power BI Premium. XMLA alleen-lezen is vereist. Zie  [SQL Server Profiler voor Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (Engelstalig) voor meer informatie.
 
