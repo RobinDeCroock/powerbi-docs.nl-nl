@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: De startpagina
           href: mobile-apps-home-page.md
-    - name: Snelstarts
+    - name: Snelstartgidsen
       expanded: true
       items:
         - name: Dashboards en rapporten verkennen
@@ -30,8 +30,6 @@
           href: mobile-apps-offline-data.md
         - name: Power BI voor HoloLens 2
           href: mobile-hololens2-app.md
-        - name: Power BI voor HoloLens (1e gen)
-          href: mobile-mixed-reality-app.md
     - name: Procedures
       items:
         - name: Alle mobiele apps
