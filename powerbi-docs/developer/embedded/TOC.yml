@@ -28,7 +28,7 @@
           href: embedded-capacity.md
         - name: Capaciteitsplanning
           href: embedded-capacity-planning.md
-        - name: Overweging voor het genereren van een insluitingstoken
+        - name: Overwegingen voor het genereren van een insluittoken
           href: generate-embed-token.md
         - name: Aanbevolen procedures voor de prestaties
           href: embedded-performance-best-practices.md
@@ -50,8 +50,6 @@
           href: embed-service-principal-certificate.md
         - name: Een ingesloten app naar productie verplaatsen
           href: move-to-production.md
-        - name: Insluiten vanuit een app
-          href: embed-from-apps.md
         - name: Rapport exporteren naar bestand
           href: export-to.md
         - name: Gepagineerd rapport exporteren naar een bestand

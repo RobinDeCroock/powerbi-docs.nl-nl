@@ -4,18 +4,18 @@ description: Aan de slag met Power BI Desktop.
 author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
-ms.custom: contperfq1
+ms.custom: contperf-fy21q1
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
 ms.date: 12/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: e9bb735668290068e0503f3823fe35482437f9c0
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 749b6601d4602ad2737cebb6c68bb98274d784d1
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492237"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621988"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>Aan de slag met Power BI Desktop
 Welkom bij de gids Aan de slag met Power BI Desktop. Tijdens deze rondleiding ziet u hoe Power BI Desktop werkt, wat u ermee kunt doen en hoe u robuuste gegevensmodellen en fantastische rapporten kunt bouwen om uw business intelligence te versterken.
