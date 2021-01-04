@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ab606733e47dec06837cfc1840da09732f7019
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 60805ba0977b3b603ace0d50f7b080bd62d54ec7
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491225"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600295"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>DirectQuery in Power BI Desktop gebruiken
 Wanneer u in *Power BI Desktop* verbinding maakt met een gegevensbron, kunt u altijd een kopie van de gegevens in Power BI Desktop importeren. Voor sommige gegevensbronnen kunt u ook rechtstreeks verbinding maken met de gegevensbron via DirectQuery.
@@ -108,3 +108,4 @@ Bekijk de volgende bronnen voor meer informatie over DirectQuery:
 - [DirectQuery en SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 - [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
 - [Wat is een on-premises gegevensgateway?](service-gateway-onprem.md)
+- [DirectQuery gebruiken voor Power BI-gegevenssets en Azure Analysis Services (preview-versie)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
