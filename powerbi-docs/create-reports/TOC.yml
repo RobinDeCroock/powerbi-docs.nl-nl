@@ -124,7 +124,9 @@
       items:
         - name: Power BI-rapporten
           items:
-            - name: Een rapport maken in de service
+            - name: Snel rapporten maken in de service
+              href: service-quick-create-report.md
+            - name: Een rapport maken vanuit Excel in de service
               href: service-report-create-new.md
             - name: Automatisch paginaAutomatische paginavernieuwing inschakelen
               href: desktop-automatic-page-refresh.md
