@@ -10,12 +10,12 @@ ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f76203e00bb691abe9a4d212c930595d180798d8
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 4b41ea6310cb644aeae92db17f52680734f68803
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999123"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721565"
 ---
 # <a name="create-key-influencers-visualizations"></a>Visualisaties Belangrijkste beïnvloeders gebruiken
 
@@ -167,7 +167,7 @@ Topsegmenten biedt aanvankelijk een overzicht van alle segmenten die zijn gedete
 
 ![Het tabblad Topsegmenten selecteren](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
 
-Bij het selecteren van een bel wordt ingezoomd op de details van dat segment. Als u bijvoorbeeld segment 1 selecteert, ziet u dat dit segment uit relatief vaste klanten bestaat. Deze personen zijn al meer dan 29 maanden klant en hebben elk meer dan vier ondersteuningstickets. Ook zien we dat het geen uitgevers zijn, dus het moeten gebruikers of beheerders zijn. 
+Als u een bel selecteert, worden de details van dit segment weergegeven. Als u bijvoorbeeld segment 1 selecteert, ziet u dat dit segment uit relatief vaste klanten bestaat. Deze personen zijn al meer dan 29 maanden klant en hebben elk meer dan vier ondersteuningstickets. Ook zien we dat het geen uitgevers zijn, dus het moeten gebruikers of beheerders zijn. 
  
 In deze groep geeft 74,3 procent van de klanten een lage waardering. De gemiddelde klant geeft in 11,7 procent van de gevallen een lage waardering, dus heeft dit segment een significant hoger aandeel in de lage waarderingen. Het is 63 procentpunten hoger. Segment 1 bevat bovendien ongeveer 2,2 procent van de gegevens en dit segment vertegenwoordigt dus een relevant deel van de populatie. 
 
@@ -260,7 +260,7 @@ Bekijk hoe de visual eruit ziet als u de **id** hebt toegevoegd aan **Uitbreiden
 
 ![Schermopname van de visualisatie van de woningprijs die afhankelijk is van de drie kolommen die in deze sectie worden besproken.](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
-Bekijk de volgende zelfstudie als u meer wilt weten over de manier waarop u metingen kunt analyseren met de visualisatie van belangrijke beïnvloeders.
+Bekijk de volgende video als u meer wilt weten over de manier waarop u metingen kunt analyseren met de visualisatie van de belangrijkste beïnvloeders. Raadpleeg [In Power BI worden de belangrijkste beïnvloeders geïdentificeerd met behulp van ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi) voor informatie over hoe ML.NET achter de schermen in Power BI wordt gebruikt om op een natuurlijke manier gegevens te beredeneren en inzichten te verkrijgen.
 
 <iframe width="1167" height="631" src="https://www.youtube.com/embed/2X1cW8oPtc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -410,3 +410,4 @@ Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken 
 ## <a name="next-steps"></a>Volgende stappen
 - [Combinatiegrafieken in Power BI](power-bi-visualization-combo-chart.md)
 - [Visualization types in Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md) (Typen visualisaties in Power BI)
+- [Hoe Power BI gebruikmaakt van ML.NET om de belangrijkste beïnvloeders te identificeren](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet/customers/power-bi)

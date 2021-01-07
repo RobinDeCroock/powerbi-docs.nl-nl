@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/01/2020
-ms.openlocfilehash: 81a387d2f87e857cb56dcbc1fb22c8da72bbd27e
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.date: 12/17/2020
+ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502048"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675541"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -26,8 +26,17 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="december-2020"></a>December 2020
-### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Er is een donkere modus toegevoegd aan Power BI - Mobiel (Android)
+### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>Er is anomaliedetectie toegevoegd aan de mobiele apps
+Als de maker van het rapport anomaliedetectie heeft ingesteld voor een rapportvisual, kunt u zien of uw gegevens onverwacht hoge pieken of sterke dalingen bevatten, veroorzaakt door uitschieters in de gegevens (dat wil zeggen afwijkingen). [Meer informatie.](mobile-reports-in-the-mobile-apps.md#investigate-anomalies-in-time-series-data)
 
+![Schermopname van anomaliedetectie.](media/mobile-whats-new-in-the-mobile-apps/mobile-anomaly-detection.png)
+
+### <a name="easily-find-your-orgs-endorsed-content"></a>Eenvoudig goedgekeurde inhoud van uw organisatie vinden
+Inhoud die is [gepromoveerd of gecertificeerd](../../collaborate-share/service-endorsement-overview.md) in de Power BI-service, is in de app nu gelabeld met een badge. Makers van rapporten promoveren hun inhoud om aan te tonen dat deze klaar is voor gebruik (gepromoveerd), of ze certificeren de inhoud om aan te tonen dat deze is goedgekeurd in uw organisatie (gecertificeerd).
+
+![Schermopname van gecertificeerd rapport, in de rapportinformatie van de mobiele versie.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-certified-badge.png)
+
+### <a name="weve-added-dark-mode-to-power-bi-mobile-android"></a>Er is een donkere modus toegevoegd aan Power BI - Mobiel (Android)
 Probeer de nieuwe donkere modus in de mobiele app van Power BI voor Android-services. In de donkere modus ziet u lichte tekst op een donkere achtergrond, waardoor de helderheid van het scherm wordt verkleind en de inhoud gemakkelijker wordt weergegeven. U kunt schakelen tussen thema's in de instellingen voor uiterlijk. [Meer informatie](mobile-apps-dark-mode.md)
 
 ![Schermopname van de donkere modus in de mobiele app van Power BI voor Android.](media/mobile-whats-new-in-the-mobile-apps/mobile-apps-dark-mode-android.png)

@@ -4,18 +4,18 @@ description: Exporteer gegevens uit een rapportvisual en dashboardvisual en beki
 author: mihart
 ms.author: mihart
 ms.reviewer: cmfinlan
-featuredvideoid: jtlLGRKBvXY
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 12/21/2020
 LocalizationGroup: Consumers
-ms.openlocfilehash: d8b9f11abe639d2892bc199a9f65400e5488dedc
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: cd07004149afd2525c5830e04e5c2490eeebcb3c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578107"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721381"
 ---
 # <a name="export-data-from-a-visual"></a>Gegevens uit een visualisatie exporteren
 
@@ -40,7 +40,7 @@ U hebt een Power BI Pro-licentie nodig om gegevens te exporteren of om het dashb
 
 3. Selecteer **Exporteren naar .csv**.
 
-4. Wat er nu gebeurt, hangt af van de browser die u gebruikt. U wordt mogelijk gevraagd om het bestand op te slaan, of u ziet mogelijk onderaan de browser een koppeling naar het geëxporteerde bestand. 
+4. Wat er nu gebeurt, hangt af van de browser die u gebruikt. U wordt mogelijk gevraagd om het bestand op te slaan, of u ziet mogelijk onderaan de browser een koppeling naar het geëxporteerde bestand. De export wordt standaard opgeslagen in de lokale map Downloads. 
 
     ![Chrome-browser die link naar geëxporteerd bestand weergeeft](media/end-user-export/power-bi-dashboards-export.png)
 
@@ -79,7 +79,7 @@ U kunt gegevens exporteren uit een visual in een rapport als .csv of .xlsx (Exce
 
     ![Menu waar u onderliggend of samengevat kiest](media/end-user-export/power-bi-export-underlying.png)
 
-5. Wat er nu gebeurt, hangt af van de browser die u gebruikt. U wordt mogelijk gevraagd om het bestand op te slaan, of u ziet mogelijk onderaan de browser een link naar het geëxporteerde bestand. 
+5. Wat er nu gebeurt, hangt af van de browser die u gebruikt. U wordt mogelijk gevraagd om het bestand op te slaan, of u ziet mogelijk onderaan de browser een link naar het geëxporteerde bestand. Als u de Power BI-app gebruikt in Microsoft Teams, wordt het geëxporteerde bestand opgeslagen in de lokale map Downloads. 
 
     ![Geëxporteerd bestand wordt weergegeven in de Microsoft Edge-browser](media/end-user-export/power-bi-export-edge-screen.png)
 

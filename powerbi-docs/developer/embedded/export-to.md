@@ -1,18 +1,18 @@
 ---
 title: API voor het exporteren van In Power BI ingesloten analyserapporten
-description: Meer informatie over hoe u een ingesloten Power BI-rapport kunt exporteren
+description: Ontdek hoe u een ingesloten Power BI-rapport kunt exporteren om uw in Power BI en analyse ingesloten BI-ervaring te vergroten
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 10/01/2020
-ms.openlocfilehash: a0aa5839272529a0217ea4a4355342c51d55a6c3
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.date: 12/28/2020
+ms.openlocfilehash: da0f5f155552a8a53b53789f3bfb6ebe839367c5
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098278"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805137"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -30,7 +30,7 @@ U kunt de exportfunctie op verschillende manieren gebruiken. Hieronder vindt u e
 
 * **Knop Verzenden voor afdrukken**: maak in uw toepassing een knop waarmee een exporttaak wordt geactiveerd wanneer u erop klikt. Met de taak kan het weergegeven rapport worden geëxporteerd als een PDF- of PPTX-bestand. Wanneer dit is voltooid, kan de gebruiker het bestand ontvangen als een download. Met behulp van bladwijzers kunt u het rapport met een specifieke configuratie exporteren, bijvoorbeeld met filters, slicers en aanvullende instellingen. Aangezien de API asynchroon is, kan het enige tijd duren voordat het bestand beschikbaar is.
 
-* **E-mailbijlage**: verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren.
+* **E-mailbijlage**: verzend op gezette tijden een geautomatiseerd e-mailbericht met een bijgevoegd PDF-rapport. Dit scenario kan handig zijn als u het verzenden van een wekelijks rapport naar leidinggevenden wilt automatiseren. Zie [Een Power BI-rapport exporteren en e-mailen met Power Automate](../../collaborate-share/service-automate-power-bi-report-export.md) voor meer informatie
 
 ## <a name="using-the-api"></a>De API gebruiken
 
@@ -64,6 +64,23 @@ Geef de pagina’s op die u wilt afdrukken, volgens de retourwaarde voor [pagina
 
 >[!NOTE]
 >[Persoonlijke bladwijzers](../../consumer/end-user-bookmarks.md#personal-bookmarks) en [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) worden niet ondersteund.
+
+### <a name="filters"></a>Filters
+
+Met behulp van `reportLevelFilters` in [PowerBIReportExportConfiguration](/rest/api/power-bi/reports/exporttofile#powerbireportexportconfiguration) kunt u een rapport in een gefilterde voorwaarde exporteren.
+
+Als u een gefilterd rapport wilt exporteren, voegt u de [tekenreeksparameters van de URL-query](../../collaborate-share/service-url-filters.md) die u als uw filter wilt gebruiken, in [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter) in. Wanneer u de tekenreeks invoert, moet u het `?filter=`-deel van de URL-queryparameter verwijderen.
+
+De onderstaande tabel bevat enkele syntaxisvoorbeelden van tekenreeksen die u kunt doorgeven aan  `ExportFilter`.
+
+|Filteren    |Syntax    |Voorbeeld    |
+|---|----|----|----|
+|Een waarde in een veld    |Tabel/veld eq 'waarde'    |Store/rayon eq 'NC'    |
+|Meerdere waarden in een veld    |Tabel/veld in ('waarde1', 'waarde2')     |Store/rayon in ('NC', 'TN')    |
+|Een afzonderlijke waarde in één veld, en een andere afzonderlijke waarde in een ander veld    |Tabel/veld1 eq 'waarde1' en tabel/veld2 eq 'waarde2'    |Store/rayon eq 'NC' en store/keten eq 'Fashions Direct'    |
+
+>[!NOTE]
+>`ReportLevelFilters` kan slechts één [ExportFilter](/rest/api/power-bi/reports/exporttofile#exportfilter) bevatten.
 
 ### <a name="authentication"></a>Verificatie
 
@@ -142,7 +159,8 @@ private async Task<string> PostExportRequest(
     Guid reportId,
     Guid groupId,
     FileFormat format,
-    IList<string> pageNames = null /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null, /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     var powerBIReportExportConfiguration = new PowerBIReportExportConfiguration
     {
@@ -153,6 +171,9 @@ private async Task<string> PostExportRequest(
         // Note that page names differ from the page display names
         // To get the page names use the GetPages REST API
         Pages = pageNames?.Select(pn => new ExportReportPage(Name = pn)).ToList(),
+        // ReportLevelFilters collection needs to be instantiated explicitly
+        ReportLevelFilters = !string.IsNullOrEmpty(urlFilter) ? new List<ExportFilter>() { new ExportFilter(urlFilter) } : null,
+
     };
 
     var exportRequest = new ExportReportRequest
@@ -263,7 +284,8 @@ private async Task<ExportedFile> ExportPowerBIReport(
     FileFormat format,
     int pollingtimeOutInMinutes,
     CancellationToken token,
-    IList<string> pageNames = null  /* Get the page names from the GetPages REST API */)
+    IList<string> pageNames = null,  /* Get the page names from the GetPages REST API */
+    string urlFilter = null)
 {
     const int c_maxNumberOfRetries = 3; /* Can be set to any desired number */
     const int c_secToMillisec = 1000;
@@ -273,7 +295,7 @@ private async Task<ExportedFile> ExportPowerBIReport(
         int retryAttempt = 1;
         do
         {
-            var exportId = await PostExportRequest(reportId, groupId, format, pageNames);
+            var exportId = await PostExportRequest(reportId, groupId, format, pageNames, urlFilter);
             var httpMessage = await PollExportRequest(reportId, groupId, exportId, pollingtimeOutInMinutes, token);
             export = httpMessage.Body;
             if (export == null)
@@ -339,3 +361,6 @@ Lees hoe u inhoud insluit voor uw klanten en uw organisatie:
 
 > [!div class="nextstepaction"]
 >[Insluiten voor uw organisatie](embed-sample-for-your-organization.md)
+
+> [!div class="nextstepaction"]
+>[Een Power BI-rapport exporteren en e-mailen met Power Automate](../../collaborate-share/service-automate-power-bi-report-export.md)

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/12/2020
-ms.openlocfilehash: 5d361a749f947f8d45b052a8a2b6455007745d20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/17/2020
+ms.openlocfilehash: 944f840133fd2ae8fee558e26d44fa31456bd565
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413076"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675383"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Rapporten verkennen in de mobiele Power BI-apps
 Van toepassing op:
@@ -155,6 +155,29 @@ Wanneer een bladwijzerweergave van een rapport is geopend, wordt de naam van de 
 ![bladwijzerweergave](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [Lees meer over bladwijzers in de Power BI-service](../end-user-bookmarks.md).
+
+## <a name="investigate-anomalies-in-time-series-data"></a>Anomalieën in tijdreeksgegevens onderzoeken
+
+[Anomaliedetectie](https://powerbi.microsoft.com/blog/anomaly-detection-preview/) is een Power BI-functie die automatisch anomalieën (waarden die buiten de verwachte bereiken vallen) detecteert in lijndiagrammen met tijdreeksgegevens. Daarnaast biedt het een mogelijke verklaring, gerangschikt naar de mate van verklaring, voor de oorzaak van afwijkende waarden. Anomaliedetectie is beschikbaar als deze voor de grafiek is ingeschakeld door de maker van het rapport. 
+
+Wanneer u een rapport bekijkt waarvoor anomaliedetectie is ingeschakeld voor een grafiek met tijdreeksgegevens, ziet u de anomalieën die in de grafiek zijn aangegeven, net zoals in de Power BI-service en in Power BI Desktop. 
+
+![Schermopname van een lijndiagram met afwijkende indicaties.](media/mobile-reports-in-the-mobile-apps/mobile-detected-anomalies.png)
+
+Als u meer informatie en verklaringen wilt zien, moet u het paneel Anomalieën openen. Er zijn een aantal manieren om dit te doen:
+* Tik op de anomalie-indicatie in de grafiek. 
+* Tik op **Meer opties (...)** en kies **Anomalieën weergeven** in het menu dat wordt geopend.    
+* Tik op het gegevenspunt om knopinfo weer te geven en kies **Anomalieën**.
+
+In de onderstaande afbeelding ziet u de drie manieren waarop u het deelvenster Anomalieën kunt openen.
+
+![Schermopnamen waarin wordt getoond hoe het paneel Anomalieën moet worden geopend.](media/mobile-reports-in-the-mobile-apps/mobile-opening-anomalies-panel.png)
+
+In het paneel Anomalieën ziet u een verklaring in natuurlijke taal van de gedetecteerde anomalie, evenals de bijbehorende factoren, gesorteerd op basis van de mate van verklaring. Veeg van rechts naar links om alle relevante factoren en hun sterktes weer te geven.
+
+![Schermopname met vegen van rechts naar links om afwijkende verklaringen weer te geven.](media/mobile-reports-in-the-mobile-apps/mobile-swipe-to-see-explanations.png)
+
+Het paneel Anomalieën is zichtbaar, maar u kunt het mobiele rapport eronder nog steeds schuiven, zodat u kunt doorgaan met uw rapport, met segmenteren en delen om beter inzicht te krijgen in anomalieën in uw gegevens. In Power BI wordt anomaliedetectie opnieuw voor elke interactie uitgevoerd om anomalieën in de gegevens binnen het bereik te detecteren. 
 
 ## <a name="refresh-your-data"></a>Uw gegevens vernieuwen
 

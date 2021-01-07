@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.openlocfilehash: 58ec11935e74131c17dc4c0755598c3c3341e259
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5b176ac9e8d334b6dec9af70c189d2767bace1c
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418688"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805229"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Uw omgeving instellen voor het ontwikkelen van een Power BI-visual
 
@@ -198,7 +198,7 @@ npm i powerbi-visuals-api --save-dev
 
 ### <a name="optional-verify-that-the-d3-library-is-installed"></a>(Optioneel) Controleren of de D3-bibliotheek is geïnstalleerd
 
-[Visual Studio Code](https://code.visualstudio.com/) (VS Code) is een ideale IDE (Integrated Development Environment) voor het ontwikkelen van TypeScript-toepassingen. In dit gedeelte gebruiken we VS Code om te controleren of de D3-bibliotheek die u nodig hebt om uw Power BI-visual te ontwikkelen, correct is geïnstalleerd.
+[Visual Studio Code](https://code.visualstudio.com/) (VS Code) is een ideale IDE (Integrated Development Environment) voor het ontwikkelen van TypeScript-toepassingen. In deze sectie gebruiken we VS Code om te controleren of de D3-bibliotheek die u nodig hebt om uw Power BI-visual te ontwikkelen, juist is geïnstalleerd.
 
 >[!NOTE]
 >Bij het verificatieproces dat in dit gedeelte wordt beschreven, wordt ervan uitgegaan dat u een bestaand Power BI-visualsproject hebt. Als u geen Power BI-visualsproject hebt, kunt u er een maken door de instructies voor het maken van de [visual CircleCard](develop-circle-card.md#create-a-development-project) te volgen.

@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: af1fac127d1a20f13bc99fc2d05510491a01be5a
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: fde06eaa3b2dd44b91e8a47981ac4e9fecba5af3
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492030"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721404"
 ---
 # <a name="chat-in-microsoft-teams-directly-from-the-power-bi-service"></a>Chatten in Microsoft Teams vanuit de Power BI-service
 
@@ -35,11 +35,11 @@ Volg deze stappen om koppelingen naar rapporten, dashboards en visuals in de Pow
 
    * **Chatten in Teams** in de actiebalk van een dashboard of rapport:
 
-       ![Schermopname van de knop Delen met Teams op de actiebalk.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
+       ![Schermopname van de knop Chatten in Teams op de actiebalk.](media/service-share-report-teams/service-teams-share-to-teams-action-bar-button.png)
     
    * **Chatten in Teams** in het contextmenu voor één visual:
     
-      ![Schermopname van de knop Delen met Teams in een contextmenu van een visual.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
+      ![Schermopname van de knop Chatten in Teams in het contextmenu van een visual.](media/service-share-report-teams/service-teams-share-to-teams-visual-context-menu.png)
 
 1. Selecteer in het dialoogvenster **Delen met Microsoft Teams** het team of kanaal waarnaar u de koppeling wilt versturen. U kunt eventueel een bericht invoeren. U kunt worden gevraagd u eerst aan te melden bij Microsoft Teams.
 

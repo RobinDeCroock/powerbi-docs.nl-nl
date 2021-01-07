@@ -1,28 +1,28 @@
 ---
 title: Aan de slag met het opmaken van Power BI-visualisaties
-description: De titel, achtergrond en legenda van een visualisatie aanpassen
+description: Titels, labels, legenda's en achtergronden van visualisaties aanpassen
 author: mihart
 ms.author: mihart
 ms.reviewer: mihart
-featuredvideoid: IkJda4O7oGs
+featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 03/06/2020
+ms.date: 12/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c974161e4cc7d52bf412ea14800bf720a297cd25
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
+ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409810"
+ms.lasthandoff: 12/23/2020
+ms.locfileid: "97745134"
 ---
-# <a name="customize-visualization-titles-backgrounds-and-legends"></a>Titels, legenda's en achtergronden van visualisaties aanpassen
+# <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Titels, labels, legenda's en achtergronden van visualisaties aanpassen
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-In deze zelfstudie leert u een aantal verschillende manieren om uw visualisaties aan te passen. Er zijn heel veel mogelijkheden voor het aanpassen van uw visualisaties. De beste manier om ze allemaal te leren is door het deelvenster **Indeling** te verkennen (selecteer het pictogram van een verfroller). Dit artikel helpt u op weg door te laten zien hoe u de titel, legenda en achtergrond van een visualisatie kunt aanpassen en een thema kunt toevoegen.
+In deze zelfstudie leert u een aantal verschillende manieren om uw visualisaties aan te passen. Er zijn heel veel mogelijkheden voor het aanpassen van uw visualisaties. De beste manier om ze allemaal te leren is door het deelvenster **Indeling** te verkennen (selecteer het pictogram van een verfroller). Dit artikel helpt u op weg door te laten zien hoe u een titel, legenda, label en achtergrond van een visualisatie kunt aanpassen en een thema kunt toevoegen.
 
 U kunt niet alle visualisaties aanpassen. Zie de [volledige lijst](#visualization-types-that-you-can-customize) met visualisaties voor meer informatie.
 
@@ -41,7 +41,7 @@ U kunt niet alle visualisaties aanpassen. Zie de [volledige lijst](#visualizatio
 Als u mee wilt doen, meld u dan aan bij Power BI Desktop en open het rapport [Voorbeeld van een retailanalyse](../create-reports/sample-datasets.md).
 
 > [!NOTE]
-> Wanneer u een visualisatie aan een dashboard vastmaakt, wordt deze dashboardtegel. U kunt ook de tegels zelf aanpassen met [nieuwe titels, ondertitels en hyperlinks, en het formaat ervan kan worden gewijzigd](../create-reports/service-dashboard-edit-tile.md).
+> Wanneer u een visualisatie aan een dashboard vastmaakt, wordt deze dashboardtegel. U kunt ook de tegels zelf aanpassen met [nieuwe titels, ondertitels, hyperlinks, en door het formaat ervan te wijzigen](../create-reports/service-dashboard-edit-tile.md).
 
 1. Ga naar de pagina **New Stores** van het rapport **Voorbeeld van een retailanalyse**.
 
@@ -126,6 +126,29 @@ Sla de wijzigingen op die u hebt aangebracht en ga naar de volgende sectie.
 
 Als u om wat voor reden dan ook alle wijzigingen omgedaan wilt maken, selecteert u **Standaardinstelling herstellen** onderaan het aanpassingsvenster **Legenda**.
 
+## <a name="customize-total-labels-for-stacked-visuals"></a>Totaal aantal labels voor gestapelde visuals aanpassen
+In gestapelde visuals kunnen gegevenslabels en het totaal aantal labels worden weergeven. In een gestapeld kolomdiagram geven gegevenslabels de waarde aan voor elk deel van een kolom. Het totaal aantal labels geeft de totale waarde van de hele geaggregeerde kolom weer. 
+
+Kijk hoe Egbert het totaal aantal labels aan een gestapeld diagram toevoegt en volg de onderstaande stappen om het zelf te doen.
+
+> [!VIDEO https://www.youtube.com/embed/OgjX-pFGgfM]
+
+1. Open de rapportpagina **Overzicht** en selecteer het staafdiagram **Gemiddelde grootte van verkoopgebied op keten en winkeltype**.
+
+1. Selecteer op het tabblad **Visualisatie** ![ pictogram voor het gestapelde staafdiagram](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-bar.png) om dit staafdiagram om te zetten in een gestapeld staafdiagram. U ziet dat de visual de gegevenslabels heeft behouden. 
+
+    ![Schermopname van het nieuwe gestapelde staafdiagram.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-stacked-chart.png)
+
+1. Selecteer op het tabblad **Visualisaties** het pictogram met de verfroller om het deelvenster Indeling te openen.
+
+1. Verplaats de schuifregelaar **Totaal aantal labels** naar de positie **Aan**. 
+
+    ![Schermopname van de schuifregelaar Totaal aantal labels op de positie Aan.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-totals.png)
+
+1. U kunt eventueel het totaal aantal labels indelen. In dit voorbeeld hebben we de kleur gewijzigd in zwart, de tekengrootte vergroot en ervoor gekozen de waarden weer te geven als **duizendtallen**.
+
+    ![Schermopname van het nieuwe gestapelde staafdiagram met het totaal aantal labels.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
 ## <a name="customize-colors-using-a-theme"></a>Kleuren aanpassen met behulp van een thema
 
 Met rapportthema's past u ontwerpwijzigingen toe op uw hele rapport. U kunt bijvoorbeeld uw bedrijfskleuren gebruiken, pictogrammen veranderen of een nieuwe indeling van visuals toepassen. Wanneer u een rapportthema toepast, worden voor alle visuals in het rapport de kleuren en indeling van het geselecteerde thema gebruikt.
@@ -139,32 +162,32 @@ Als u een thema wilt toepassen op uw rapport, selecteert u **Thema wisselen** in
 
 Hier ziet u een lijst van de visualisaties en de aanpassingsopties die per visualisatie beschikbaar zijn:
 
-| Visualisatie | Titel | Achtergrond | Legenda |
-|:--- |:--- |:--- |:--- |
-| Gebied | ja | ja |ja |
-| Staafdiagram | ja | ja |ja |
-| Kaart | ja | ja |n.v.t. |
-| Kaart met meerdere rijen | ja | ja | n.v.t. |
-| Kolom | ja | ja | ja |
-| Keuzelijst met invoervak | ja | ja | ja |
-| Ringdiagram | ja | ja | ja |
-| Choropletenkaart | ja | ja | ja |
-| Trechterdiagram | ja | ja | n.v.t. |
-| Meter | ja | ja | n.v.t. |
-| Belangrijkste beïnvloeder | ja | ja | n.v.t. |
-| KPI | ja | ja | n.v.t. |
-| Lijn | ja | ja | ja |
-| Kaart | ja | ja | ja |
-| Matrix | ja | ja | n.v.t. |
-| Cirkeldiagram | ja | ja | ja |
-| Q&A | ja | ja | n.v.t. |
-| Spreidingsdiagram | ja | ja | ja |
-| Vorm | ja | ja | ja |
-| Slicer | ja | ja | n.v.t. |
-| Tabel | ja | ja | n.v.t. |
-| Tekstvak | nee | ja | n.v.t. |
-| Treemap | ja | ja | ja |
-| Waterval | ja | ja | ja |
+| Visualisatie | Titel | Achtergrond | Legenda | Totaal aantal labels
+|:--- |:--- |:--- |:--- |:--- |
+| Gebied | ja | ja |ja | ja  |
+| Staafdiagram | ja | ja |ja | ja |
+| Kaart | ja | ja |n.v.t. | n.v.t. |
+| Kaart met meerdere rijen | ja | ja | n.v.t. | n.v.t. |
+| Kolom | ja | ja | ja |  ja |
+| Keuzelijst met invoervak | ja | ja | ja | ja |
+| Ringdiagram | ja | ja | ja | n.v.t. |
+| Choropletenkaart | ja | ja | ja |n.v.t. |
+| Trechterdiagram | ja | ja | n.v.t. |n.v.t. |
+| Meter | ja | ja | n.v.t. |n.v.t. |
+| Belangrijkste beïnvloeder | ja | ja | n.v.t. |n.v.t. |
+| KPI | ja | ja | n.v.t. |n.v.t. |
+| Lijn | ja | ja | ja |n.v.t. |
+| Kaart | ja | ja | ja |n.v.t. |
+| Matrix | ja | ja | n.v.t. |ja |
+| Cirkeldiagram | ja | ja | ja |n.v.t. |
+| Q&A | ja | ja | n.v.t. |n.v.t. |
+| Spreidingsdiagram | ja | ja | ja |n.v.t. |
+| Vorm | ja | ja | ja |n.v.t. |
+| Slicer | ja | ja | n.v.t. |n.v.t. |
+| Tabel | ja | ja | n.v.t. |ja |
+| Tekstvak | nee | ja | n.v.t. |n.v.t. |
+| Treemap | ja | ja | ja |n.v.t. |
+| Waterval | ja | ja | ja |n.v.t. |
 
 ## <a name="next-steps"></a>Volgende stappen
 

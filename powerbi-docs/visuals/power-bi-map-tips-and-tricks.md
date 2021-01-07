@@ -11,12 +11,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 05/05/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3e0d944f8058ddc5dfb64c8f960bd354571bb23c
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 24ad57ca976fa7a7a859b1c0d07523895236787e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999054"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721611"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Tips en trucs voor Power BI-kaartvisualisaties
 
@@ -90,7 +90,7 @@ Bij het in- en uitzoomen op geohiërarchieën, is het belangrijk te weten hoe de
 
 * Met de zoomknop helemaal rechts, ook wel de inzoommodus genoemd ![Pictogram Zoommodus](media/power-bi-map-tips-and-tricks/power-bi-drill-down.png) kunt u een kaartlocatie selecteren en steeds één niveau verder inzoomen op die specifieke locatie. Als u bijvoorbeeld Inzoomen inschakelt en op Noord-Amerika klikt, zoomt u in op het volgende niveau in de hiërarchie: staten in Noord-Amerika. Voor de geocodering worden door Power BI alleen de land- en staatgegevens van Noord-Amerika naar Bing Kaarten verzonden.  
 * Aan de linkerkant ziet u nog twee inzoomopties. Met de eerste optie, ![eerste zoompictogram](media/power-bi-map-tips-and-tricks/power-bi-drill-down2.png) , zoomt u in op het volgende niveau van de hiërarchie voor alle locaties tegelijk. Als u bijvoorbeeld momenteel landen bekijkt en vervolgens deze optie gebruikt om in te zoomen op het volgende niveau, staten, worden in Power BI de staatgegevens van alle landen weergegeven. Voor de geocodering worden door Power BI de staatgegevens (geen landgegevens) van alle locaties naar Bing Kaarten verzonden. Deze optie is handig als alle niveaus van uw hiërarchie niet gerelateerd zijn aan het bovenliggende niveau. 
-* De tweede optie, ![inzoomen met kaarten](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) , is vergelijkbaar met de optie Inzoomen, behalve dat u niet op de kaart hoeft te klikken.  Hiermee wordt ingezoomd op het volgende niveau in de hiërarchie, met behoud van de context van het huidige niveau. Als u bijvoorbeeld momenteel landen bekijkt en op dit pictogram klikt, zoomt u in op het volgende niveau van de hiërarchie: staten. Voor de geocodering worden door Power BI de gegevens van elke staat en het bijbehorende land naar Bing Kaarten verzonden voor een nauwkeurigere geocodering. In de meeste kaarten gebruikt u deze optie óf de optie Inzoomen helemaal rechts, om zoveel mogelijk informatie voor het verkrijgen van nauwkeurige locatiegegevens naar Bing te verzenden. 
+* De tweede optie, ![inzoomen met kaarten](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) , is vergelijkbaar met inzoomen, behalve dat u niet op de kaart hoeft te klikken.  Hiermee wordt ingezoomd op het volgende niveau in de hiërarchie, met behoud van de context van het huidige niveau. Als u bijvoorbeeld momenteel landen bekijkt en op dit pictogram klikt, zoomt u in op het volgende niveau van de hiërarchie: staten. Voor de geocodering worden door Power BI de gegevens van elke staat en het bijbehorende land naar Bing Kaarten verzonden voor een nauwkeurigere geocodering. Voor de meeste kaarten gebruikt u deze optie of de optie Inzoomen helemaal rechts, om zoveel mogelijk informatie voor het verkrijgen van nauwkeurige locatiegegevens naar Bing te verzenden. 
 
 ## <a name="next-steps"></a>Volgende stappen
 [Inzoomen op een visualisatie in Power BI](../consumer/end-user-drill.md)

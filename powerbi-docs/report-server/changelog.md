@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/18/2020
-ms.openlocfilehash: 2331785b14cd8cbcf9aec1232293cb601b1e2dc6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/16/2020
+ms.openlocfilehash: c292e1ccaa03904ee0bfa4825a539430fed71867
+ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418113"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97621873"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -40,8 +40,12 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
             - Er is een probleem opgelost met het exporteren van rapporten met perioden in de naam.
             - Er is een problemen opgelost met de schermlezer in een tablix.
             - Er is een probleem opgelost van logbestanden die in bepaalde omstandigheden leeg zijn.
-            - Er is een probleem opgelost van het dialoogvenster Verbinding maken met Power BI wordt niet gesloten.
-            - Bijgewerkte MHTML-renderer voor het gebruik van nieuwer HTML-DOCTYPE
+            - Er is een probleem opgelost met het overschrijven van een Excel-bestand tijdens het uploaden.
+            - Er is een probleem opgelost met de REST API-methode Model.UpdateCacheSnapshot.
+            - Er is een probleem opgelost met SAP BW-gegevensbronverbindingen via XMLA.
+            - Er is een probleem opgelost waarbij het dialoogvenster Verbinding maken met Power BI niet werd afgesloten.
+            - Er is een probleem opgelost met de standaardwaarde van de geavanceerde functie CustomHeaders.
+            - Bijgewerkte MHTML-renderer voor het gebruik van nieuwer HTML-DOCTYPE.
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
    - *Versie: 2.86.961.0 (oktober 2020), uitgebracht: 27 oktober 2020* (nieuwe build en nieuwe versie)

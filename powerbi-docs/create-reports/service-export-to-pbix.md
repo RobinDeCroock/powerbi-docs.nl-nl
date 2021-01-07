@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 07/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: c83b7d1e52a0d443c52348bec91f935e288830d4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1a196d149a6519f9bcad6bd70ef02d62ef16f69b
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388673"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600663"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Een rapport van de Power BI-service downloaden naar Power BI Desktop (preview)
       
@@ -54,7 +54,7 @@ Er zijn enkele belangrijke overwegingen en beperkingen met betrekking tot het do
 * Het rapport moet zijn gemaakt met Power BI Desktop en moet zijn *gepubliceerd* in de Power BI-service, of het PBIX-bestand moet zijn *geüpload* naar de Power BI-service.
 * Rapporten moeten zijn gepubliceerd of bijgewerkt na 23 november 2016. Eerder gepubliceerde rapporten kunnen niet worden gedownload.
 * Deze functie werkt niet met rapporten en inhoudspakketten die oorspronkelijk zijn gemaakt in de Power BI-service.
-* Gebruik altijd de nieuwste versie van Power BI Desktop wanneer u gedownloade bestanden opent. Gedownloade PBIX-bestanden kunnen mogelijk niet worden geopend in versies van Power BI Desktop die niet up-to-date zijn.
+* Gebruik altijd de nieuwste versie van Power BI Desktop wanneer u gedownloade bestanden opent. Gedownloade PBIX-bestanden kunnen mogelijk niet worden geopend in versies van Power BI Desktop die niet up-to-date zijn. U kunt gedownloade PBIX-bestanden bijvoorbeeld niet openen met een Desktop-versie die geen ondersteuning biedt voor gegevensbeveiliging.
 * Als uw beheerder de mogelijkheid om gegevens te downloaden heeft uitgeschakeld, is deze functie niet zichtbaar in de Power BI-service.
 * Gegevenssets met incrementeel vernieuwen kunnen niet worden gedownload in een PBIX-bestand.
 * Gegevenssets die zijn ingeschakeld voor [grote modellen](../admin/service-premium-large-models.md) kunnen niet worden gedownload naar een PBIX-bestand.

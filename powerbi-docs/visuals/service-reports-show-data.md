@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 12/4/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 960a3dec2276acba994190e73de671f2b071bc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aa15bae7ab94619a9f652aa20da9222e3d4af41
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409718"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721634"
 ---
 # <a name="display-a-visualizations-underlying-data"></a>Onderliggende gegevens van een visualisatie weergeven
 
@@ -52,7 +52,7 @@ U kunt de gegevens die zijn gebruikt voor het maken van de visualisatie ook expo
 6. Als u de gegevens wilt verbergen, schakelt u **Verkennen** > **Gegevens weergeven** uit.
 
 ## <a name="using-show-records"></a>Records weergeven gebruiken
-U kunt zich ook focussen op één gegevensrecord in een visualisatie en inzoomen op de achterliggende gegevens. 
+U kunt u ook focussen op één gegevensrecord in een visualisatie en inzoomen op de achterliggende details. 
 
 1. Als u **Records weergeven** wilt gebruiken, selecteert u een visualisatie om deze actief te maken. 
 

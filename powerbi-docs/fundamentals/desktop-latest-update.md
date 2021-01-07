@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 12/16/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: f2eacca4571b8d00c8fc7e5ca5c6ef7935afaf29
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e239b95fe18ba9ddfad399c5b53b10a3f1f4a4c2
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419493"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97674885"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Wat is er nieuw in Power BI Desktop?
 
-## <a name="november-2020-update-2872610"></a>Update van november 2020 (2.87.261.0)
+## <a name="december-2020-update-2883210"></a>Update van december 2020 (2.88.321.0)
 
-Onze updates van november voor Power BI Desktop omvatten een grote verzameling nieuwe en verbeterde functies. 
+Onze Power BI Desktop-updates van december zullen u zeker verrassen. 
 
 De maandelijkse blog- en video-updates voor Power BI Desktop bevatten nu ook updates met nieuwe functies voor Power BI - Mobiel en de Power BI-service. In dit artikel worden de updates voor Power BI Desktop beschreven. Als u meer wilt weten over updates voor Power Bi - Mobiel en de Power BI-service, raadpleegt u de artikelen over nieuwe functies van de desbetreffende onderdelen:
 
@@ -46,30 +46,29 @@ U kunt ook de volledige [maandelijkse video met Power BI-updates](#power-bi-desk
 
 De volgende updates zijn deze maand nieuw voor Power BI Desktop:
 
-
 ### <a name="reporting"></a>Rapportage
-* Nieuwe veldenlijst (preview-versie) [[video]](https://youtu.be/DT_tOas5YIo?t=15)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467053) 
-* Nieuwe modelweergave (preview-versie) [[video]](https://youtu.be/DT_tOas5YIo?t=61)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467054) [[artikel]](../create-reports/power-bi-personalize-visuals.md)
-* Alle filters toepassen is nu algemeen beschikbaar [[video]](https://youtu.be/DT_tOas5YIo?t=98)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467055)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Schuifregelaar voor in-/uitzoomen voor visuals [[video]](https://youtu.be/DT_tOas5YIo?t=160)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467056)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Selectiehoek voor selecteren van gegevenspunten uitgebreid naar Kaart-visual [[video]](https://youtu.be/DT_tOas5YIo?t=185)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467057)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Controle voor certificaten intrekken voor webverbindingen [[video]](https://youtu.be/DT_tOas5YIo?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467058)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
-* Updates voor gepagineerde rapporten [[video]](https://youtu.be/DT_tOas5YIo?t=292)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467059)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+* DirectQuery voor Power BI-gegevenssets en Azure Analysis Services (preview) [[video]](https://youtu.be/68YvRs49VZM?t=33)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831296)   [[artikel]](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+* Kleine veelvouden (preview) [[video]](https://youtu.be/68YvRs49VZM?t=378)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831297)
+* Vertrouwelijkheidslabel voor gegevensbeveiliging in Power BI Desktop (preview) [[video]](https://youtu.be/68YvRs49VZM?t=656)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831298) 
+* Limiet voor geselecteerde gegevenspunten voor verhoogde rechthoek [[video]](https://youtu.be/68YvRs49VZM?t=734)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831299) 
+* Selectiedeelvenster nu beschikbaar in de weergave voor mobiele indeling [[video]](https://youtu.be/68YvRs49VZM?t=757)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831300) 
+* Pagina automatisch vernieuwen voor Analysis Services-bronnen [[video]](https://youtu.be/68YvRs49VZM?t=789)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831301) 
 
-### <a name="analytics"></a>Analyse
-* Anomaliedetectie (preview-versie) [[video]](https://youtu.be/DT_tOas5YIo?t=199)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467061) 
-* Q&A ondersteunt nu gedeeltelijke overeenkomst van gegevenswaarden [[video]](https://youtu.be/DT_tOas5YIo?t=438)   [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467062)  [[artikel]](../create-reports/desktop-multi-select.md#select-multiple-elements-using-rectangle-select-preview)
+
+### <a name="data-preparation"></a>Gegevensvoorbereiding
+* Wijzigingen in Power Query en gegevensstromen [[video]](https://youtu.be/68YvRs49VZM?t=851)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831302)
 
 ### <a name="data-connectivity"></a>Toegang tot gegevens
-* De Hive LLAP-connector is nu algemeen beschikbaar [[video]](https://youtu.be/DT_tOas5YIo?t=461) [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467064)
-* Nieuwe gegevensconnectors - Actian, Anaplan, Starburst Presto [[video]](https://youtu.be/DT_tOas5YIo?t=487)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467065)
+* Microsoft Dataverse-connector [[video]](https://youtu.be/68YvRs49VZM?t=886)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831566)
+* Azure Time Series Insights-update [[video]](https://youtu.be/68YvRs49VZM?t=919) [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831305)
+* SurveyMonkey-update [[video]](https://youtu.be/68YvRs49VZM?t=926)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831568)
+* Cognite-update [[video]](https://youtu.be/68YvRs49VZM?t=933)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831307)
 
 
 ### <a name="visuals"></a>Visuals
-* Nieuwe visuals van verschillende providers [[video]](https://youtu.be/DT_tOas5YIo?t=688)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/#_Toc55467072)
+* Nieuwe visuals van verschillende providers [[video]](https://youtu.be/68YvRs49VZM?t=1330)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/#_Toc58831588)
 
-
-Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-november-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
+Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.microsoft.com/blog/power-bi-december-2020-feature-summary/) voor gedetailleerde informatie over deze nieuwe functies.
 
 
 > [!NOTE]
@@ -79,7 +78,7 @@ Zie de [blogpost Overzicht met Power BI Desktop-functies](https://powerbi.micros
 ### <a name="power-bi-desktop-monthly-update-video"></a>Maandelijkse video met Power BI Desktop-updates
 In de volgende video wordt elk van deze updates beschreven. U kunt ook deze video uit de blogpost bekijken:
 
-> [!VIDEO https://www.youtube.com/embed/DT_tOas5YIo]
+> [!VIDEO https://www.youtube.com/embed/68YvRs49VZM]
 
 ## <a name="more-videos"></a>Meer video's
 

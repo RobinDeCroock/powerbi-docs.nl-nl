@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3f68a056e6e31acaf5432c4e323ba8a293ee09ce
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: eb572c17705f06b989f15323322c0da11b1d85ac
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414410"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600686"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Automatische paginavernieuwing in Power BI
 
@@ -33,11 +33,11 @@ Met dit vernieuwingstype kunt u alle visuals op een rapportpagina bijwerken op b
 
 ### <a name="change-detection"></a>Wijzigingsdetectie
 
-Met dit vernieuwingstype kunt u visuals op een pagina vernieuwen op basis van het detecteren van wijzigingen in de gegevens in plaats van op basis van een specifiek vernieuwingsinterval. Hierbij wordt in het bijzonder naar wijzigingen in uw [DirectQuery-bron](../connect-data/desktop-directquery-about.md) gezocht. Naast het definiëren van het vernieuwingstype moet u ook selecteren hoe vaak Power BI Desktop op wijzigingen moet controleren. Wanneer u naar de service publiceert, wordt dit vernieuwingstype alleen ondersteund in werkruimten die deel uitmaken van een Premium-capaciteit.
+Met dit vernieuwingstype kunt u visuals op een pagina vernieuwen op basis van het detecteren van wijzigingen in de gegevens in plaats van op basis van een specifiek vernieuwingsinterval. Hierbij wordt in het bijzonder naar wijzigingen in uw [DirectQuery-bron](../connect-data/desktop-directquery-about.md) gezocht. Naast het definiëren van het vernieuwingstype moet u ook selecteren hoe vaak Power BI Desktop op wijzigingen moet controleren. Wanneer u naar de service publiceert, wordt dit vernieuwingstype alleen ondersteund in werkruimten die deel uitmaken van een Premium-capaciteit. LiveConnect-bronnen, zoals Analysis Services en Power BI-gegevenssets, worden niet ondersteund.
 
 ## <a name="authoring-reports-with-automatic-page-refresh-in-power-bi-desktop"></a>Rapporten schrijven met automatische paginavernieuwing in Power BI Desktop
 
-Automatische paginavernieuwing is alleen beschikbaar voor [DirectQuery-bronnen](../connect-data/desktop-directquery-about.md) en is dus alleen beschikbaar wanneer u met een DirectQuery-gegevensbron bent verbonden. Deze beperking geldt voor beide vernieuwingstypen.
+Automatische paginavernieuwing is beschikbaar voor [DirectQuery-bronnen](../connect-data/desktop-directquery-about.md) en sommige LiveConnect-scenario's en is dus alleen beschikbaar wanneer u met een ondersteunde gegevensbron bent verbonden. Deze beperking geldt voor beide vernieuwingstypen.
 
 Als u automatische paginavernieuwing in Power BI Desktop wilt gebruiken, selecteert u de rapportpagina waarvoor u automatische paginavernieuwing wilt inschakelen. Selecteer in het deelvenster **Visualisaties** de knop **Opmaak** (een verfroller) en zoek de sectie **Pagina vernieuwen** onderaan het deelvenster.
 
@@ -160,7 +160,7 @@ Er bestaan in Power BI Desktop geen beperkingen voor het vernieuwingsinterval; h
 
 ### <a name="restrictions-on-refresh-intervals"></a>Beperkingen voor vernieuwingsintervallen
 
-In de Power BI-service gelden beperkingen voor automatische paginavernieuwing op basis van de werkruimte waar het rapport wordt gepubliceerd, of u Premium-services gebruikt, en de beheerdersinstellingen van Premium-capaciteit.
+In de Power BI-service gelden beperkingen voor automatische paginavernieuwing op basis van de werkruimte waar het rapport wordt gepubliceerd, of u Premium-services gebruikt, de beheerdersinstellingen van Premium-capaciteit en het type gegevensbron.
 
 Om te verduidelijken hoe deze beperkingen werken, beginnen we met wat achtergrondinformatie over capaciteiten en werkruimten.
 
@@ -182,32 +182,35 @@ Hier volgen enkele details met betrekking tot de twee werkruimtescenario's:
 
  - **Minimaal uitvoeringsinterval**. Wanneer u ‘Wijzigingsdetectie’ inschakelt, moet uw capaciteitsbeheerder een minimaal uitvoeringsinterval instellen (de standaardwaarde is vijf seconden). Als uw interval kleiner is dan het minimum, wordt het interval door de Power BI-service overschreven om prioriteit te geven aan het minimale interval dat is ingesteld door de capaciteitsbeheerder.
 
+> [!WARNING]
+> Als dit is ingeschakeld in uw gegevensset, wordt er door de meting voor wijzigingsdetectie een verbinding met uw DirectQuery-gegevensbron geopend om de meting te berekenen en te controleren op wijzigingen. Deze verbinding wijkt af van de vernieuwingsverbindingen met lage prioriteit die Power BI al opzet.
+
 ![Instellingen voor automatische paginavernieuwing in de portal voor de capaciteitsbeheerder](media/desktop-automatic-page-refresh/automatic-page-refresh-09.png)
 
 In deze tabel wordt gedetailleerder beschreven waar deze functie beschikbaar is en wat de beperkingen zijn voor elk capaciteitstype en elke [opslagmodus](../connect-data/service-dataset-modes-understand.md):
 
-| Opslagmodus | Toegewezen capaciteit | Gedeelde capaciteit |
-| --- | --- | --- |
-| DirectQuery | **VI ondersteund**: Ja <br>**WD ondersteund**: Ja <br>**Minimum**: 1 seconde <br>**Overschrijving beheerder**: Ja | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Nee |
-| Importeren | **VI ondersteund**: Nee <br>**WD ondersteund**: Nee <br>**Minimum**: N.v.t. <br>**Overschrijving beheerder**: N.v.t. | **VI ondersteund**: Nee <br>**WD ondersteund**: Nee <br>**Minimum**: N.v.t. <br>**Overschrijving beheerder**: N.v.t. |
-| Gemengde modus (DirectQuery en andere gegevensbronnen) | **VI ondersteund**: Ja <br>**WD ondersteund**: Ja <br>**Minimum**: 1 seconde <br>**Overschrijving beheerder**: Ja | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Nee |
-| Live Connect AS | **VI ondersteund**: Nee <br>**WD ondersteund**: Nee <br>**Minimum**: N.v.t. <br>**Overschrijving beheerder**: N.v.t. | **VI ondersteund**: Nee <br>**WD ondersteund**: Nee <br>**Minimum**: N.v.t. <br>**Overschrijving beheerder**: N.v.t. |
-| Live connect PBI | **VI ondersteund**: Nee <br>**WD ondersteund**: Nee <br>**Minimum**: N.v.t. <br>**Overschrijving beheerder**: N.v.t. | **VI ondersteund**: Nee <br>**WD ondersteund**: Nee <br>**Minimum**: N.v.t. <br>**Overschrijving beheerder**: N.v.t. |
+| Opslagmodus                                  | Toegewezen capaciteit                                                                                     | Gedeelde capaciteit                                                                                       |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| DirectQuery                                   | **VI ondersteund**: Ja <br>**WD ondersteund**: Ja <br>**Minimum**: 1 seconde <br>**Overschrijving beheerder**: Ja  | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Nee |
+| Importeren                                        | **VI ondersteund**: Nee <br>**WD ondersteund**: Nee <br>**Minimum**: N.v.t. <br>**Overschrijving beheerder**: N.v.t.         | **VI ondersteund**: Nee <br>**WD ondersteund**: Nee <br>**Minimum**: N.v.t. <br>**Overschrijving beheerder**: N.v.t.        |
+| Gemengde modus (DirectQuery en andere gegevensbronnen) | **VI ondersteund**: Ja <br>**WD ondersteund**: Ja <br>**Minimum**: 1 seconde <br>**Overschrijving beheerder**: Ja  | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Nee |
+| Analysis Services (Azure en on-premises)     | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Ja | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Nee |
+| Power BI-gegevenssets (met DirectQuery-bron)   | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 1 seconde <br>**Overschrijving beheerder**: Ja  | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Nee |
+| Power BI Push-gegevenssets                        | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Ja | **VI ondersteund**: Ja <br>**WD ondersteund**: Nee <br>**Minimum**: 30 minuten <br>**Overschrijving beheerder**: Nee        |
 
 *Tabellegenda:*
 1. *VI: Vast interval*
 2. *WD: Wijzigingsdetectie*
 
 > [!WARNING]
-> Als dit is ingeschakeld in uw gegevensset, wordt er door de meting voor wijzigingsdetectie een verbinding met uw DirectQuery-gegevensbron geopend om de meting te berekenen en te controleren op wijzigingen. Deze verbinding wijkt af van de vernieuwingsverbindingen met lage prioriteit die Power BI al opzet.
+> Er is een bekend probleem opgetreden bij het verbinding maken vanaf Power BI Desktop met Analysis Services of Power BI-gegevenssets en het vernieuwingsinterval bedraagt dertig minuten of langer. Visuals op een rapportpagina kunnen na dertig minuten een fout te zien geven.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
 Er is een aantal dingen waar u aan moet denken als u het automatisch vernieuwen van pagina's gebruikt in Power BI Desktop of in de Power BI-service:
 
-* De opslagmodi Importeren, LiveConnect en Push worden niet ondersteund voor Pagina automatisch vernieuwen.  
+* De modus voor opslag bij importeren wordt niet ondersteund voor het automatisch vernieuwen van pagina's.  
 * Samengestelde modellen met minimaal één DirectQuery-gegevensbron worden ondersteund.
-* Er zijn geen beperkingen voor vernieuwingsintervallen in Power BI Desktop. Het interval kan voor zowel vast interval als wijzigingsdetectie zo vaak zijn als elke seconde. Als er echter rapporten worden gepubliceerd naar de Power BI-service, zijn bepaalde beperkingen van toepassing, zoals [eerder](#restrictions-on-refresh-intervals) in dit artikel is beschreven.
 * U kunt slechts één wijzigingsdetectiemeting per gegevensset hebben.
 * In een Power BI-tenant kunnen er maximaal slechts 10 modellen met de wijzigingsdetectiemeting bestaan.
 
@@ -277,6 +280,10 @@ Als u merkt dat uw capaciteit overbelast wordt door query's met een lage priorit
 * Controleer of u het rapport hebt geüpload naar een werkruimte met een gekoppelde Premium-capaciteit. Als u dat niet hebt gedaan, werkt wijzigingsdetectie niet.
 * Als uw rapport zich in een Premium-werkruimte bevindt, vraagt u uw beheerder of deze functie voor de gekoppelde capaciteit is ingeschakeld. Zorg er ook voor dat het minimale uitvoeringsinterval voor de capaciteit gelijk is aan of kleiner is dan het interval voor uw rapport.
 * Als u hebt gecontroleerd op alle items die we eerder hebben vermeld, controleert u in Power BI Desktop of in de bewerkingsmodus of de meting verandert. Hiertoe sleept u de meting naar het canvas en controleert u of de waarde verandert. Zo niet, dan is de meting mogelijk geen goede keuze om gegevensbronwijzigingen te peilen.
+
+**Wanneer ik ben verbonden met Analysis Services, kan ik de APR-schakeloptie niet zien**
+
+* Zorg ervoor dat uw Analysis Services-model zich in de [modus Direct Query](https://docs.microsoft.com/analysis-services/tabular-models/directquery-mode-ssas-tabular) bevindt.
 
 
 ## <a name="next-steps"></a>Volgende stappen

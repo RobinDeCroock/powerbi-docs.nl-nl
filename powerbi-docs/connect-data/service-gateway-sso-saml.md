@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/16/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0f971013d5f57174a26d92281cafe673f1487329
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 21371e931aa123aa6a339bfbcb939bde943b3f9f
+ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577550"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97675506"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>SAML (Security Assertion Markup Language) gebruiken voor SSO bij on-premises gegevensbronnen vanuit Power BI
 
@@ -29,7 +29,7 @@ We ondersteunen extra gegevensbronnen (inclusief SAP HANA) met [Kerberos](servic
 Het is raadzaam om voor SAP HANA versleuteling in te schakelen voordat u een SAML SSO-verbinding tot stand brengt. Configureer de HANA-server zo dat deze versleutelde verbindingen accepteert om versleuteling in te schakelen en configureer de gateway om versleuteling te gebruiken tijdens de communicatie met uw HANA-server. Omdat het HANA ODBC-stuurprogramma standaard geen SAML-asserties versleutelt, wordt de ondertekende SAML-assertie *onversleuteld* van de gateway naar de HANA-server verzonden en is deze kwetsbaar voor onderschepping en hergebruik door derde partijen.
 
 > [!IMPORTANT]
-> SAP biedt geen ondersteuning meer voor de OpenSSL, en als gevolg daarvan biedt Microsoft er ook geen ondersteuning meer voor. Bestaande en nieuwe verbindingen blijven tot eind 2020 nog goed werken, maar zullen vanaf 1 januari 2021 niet meer werken. Gebruik in plaats daarvan CommonCryptoLib.
+> Aangezien [SAP geen ondersteuning meer biedt voor de OpenSSL](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.05/en-US/de15ffb1bb5710148386ffdfd857482a.html), biedt Microsoft hier ook geen ondersteuning meer voor. Bestaande verbindingen blijven werken, maar vanaf februari 2021 kunt u geen nieuwe verbindingen meer maken. Gebruik vanaf deze datum in plaats hiervan CommonCryptoLib.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>De gateway en de gegevensbron configureren
 

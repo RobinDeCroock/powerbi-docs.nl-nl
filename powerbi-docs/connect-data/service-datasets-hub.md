@@ -1,5 +1,5 @@
 ---
-title: Detectie van gegevenssets met de datasets-hub
+title: Detectie van gegevenssets met de gegevenssets-hub (preview)
 description: Meer informatie over hoe u de gegevenssets in uw organisatie en de gerelateerde rapporten kunt vinden, verkennen en gebruiken.
 author: paulinbar
 ms.author: painbar
@@ -8,14 +8,14 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: c6b7170df78b6d544f7eb97ec62516577f9267b6
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 4e09eb9e0b44fbddf8787f474fe1a93b0b4c2d71
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513799"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97707968"
 ---
-# <a name="datasets-discovery-using-the-datasets-hub"></a>Detectie van gegevenssets met de datasets-hub
+# <a name="datasets-discovery-using-the-datasets-hub-preview"></a>Detectie van gegevenssets met de gegevenssets-hub (preview)
 
 Met de gegevenssets-hub kunt u eenvoudig de gegevenssets in uw organisatie vinden, verkennen en gebruiken. Het bevat informatie over de gegevenssets en ingangspunten voor het maken van rapporten boven op die gegevenssets of voor het gebruik van deze gegevenssets met Analyseren in Excel.
 

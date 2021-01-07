@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 07/28/2020
-ms.openlocfilehash: 795b2e7e1b9ef0c705f7240e9a20a5c2da2f81a3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/18/2020
+ms.openlocfilehash: be256a0ed861ae7ebc26fe4e2a74e0d597ef5542
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414916"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699304"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>Een Power BI Report Server configureren met Azure-toepassingsproxy
 
@@ -260,6 +260,9 @@ U voltooit het instellen van uw toepassing door naar de sectie **Gebruikers en g
 ### <a name="configure-the-application-registration"></a>De toepassingsregistratie configureren
 
 Voordat de mobiele Power BI-app verbinding kan maken met en toegang kan krijgen tot Power BI Report Server, moet u de toepassingsregistratie configureren die automatisch voor u is gemaakt in [Publiceren via Azure AD-toepassingsproxy](#publish-through-azure-ad-application-proxy), eerder in dit artikel.
+
+> [!NOTE]
+> Als u beleid voor voorwaardelijke toegang gebruikt waarvoor de mobiele Power BI-app een goedgekeurde client-app moet zijn, kunt u Azure AD-toepassingsproxy niet gebruiken om de mobiele Power BI-app te koppelen aan Power BI Report Server.
 
 1. Selecteer in het **Overzicht** van Azure Active Directory de optie **App-registraties**.
 2. Zoek op het tabblad **Alle toepassingen** naar de toepassing die u hebt gemaakt voor Power BI Report Server.

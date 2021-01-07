@@ -6,17 +6,18 @@ ms.author: mihart
 manager: kvivek
 ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
+ms.custom: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 09/09/2020
+ms.date: 12/21/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b7aae0e05c74209e66503612d3c89bb430cb5185
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: bf388f28b83ad67fd246d23ba7113e74f0630a0e
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414778"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721473"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>De gegevens exporteren die zijn gebruikt voor het maken van een visualisatie
 
@@ -105,7 +106,7 @@ Selecteer de optie _ *Samengevatte gegevens** als u gegevens wilt exporteren voo
 
     ![Schermopname van de schermopname Gegevens exporteren met de opties Samengevatte gegevens, xlsx en Exporteren uitgelicht.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
-1. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
+1. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel. Als u de Power BI-app gebruikt in Microsoft Teams, ontvangt u mogelijk niet dezelfde prompts. Het geëxporteerde bestand wordt opgeslagen in de lokale map Downloads. 
 
     ![Schermopname van de Excel-uitvoer.](media/power-bi-visualization-export-data/power-bi-export-data9.png)
 
@@ -144,7 +145,7 @@ Wanneer u **Exporteren** selecteert, worden de gegevens in Power BI geëxporteer
 
     ![Schermopname van Gegevens exporteren waarin de onderliggende gegevens zijn opgenomen.](media/power-bi-visualization-export-data/power-bi-underlying.png)
 
-1. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.
+1. Wanneer u **Exporteren** selecteert, wordt u gevraagd het bestand op te slaan. Nadat het is opgeslagen, opent u het bestand in Excel.  Als u de Power BI-app gebruikt in Microsoft Teams, ontvangt u mogelijk niet dezelfde prompts. Het geëxporteerde bestand wordt opgeslagen in de lokale map Downloads. 
 
     ![Schermopname van het .xlsx-bestand met daarin de geëxporteerde gegevens.](media/power-bi-visualization-export-data/power-bi-excel.png)
     

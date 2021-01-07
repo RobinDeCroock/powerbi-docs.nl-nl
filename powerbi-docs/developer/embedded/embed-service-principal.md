@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 11/23/2020
-ms.openlocfilehash: 203ea16481d8f4b7d460066d5309b119d25b8b94
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 8cf7b46687491f446d4e17fc96b020dbc08de5fc
+ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098117"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97708060"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
 
@@ -192,6 +192,38 @@ Als u uw Azure AD-app toegang wilt verlenen tot artefacten zoals rapporten, dash
 3. Selecteer in de vervolgkeuzelijst de optie **Lid** of **Beheerder**.
 
 4. Selecteer **Toevoegen**.
+
+### <a name="add-a-service-principal-as-a-workspace-member-using-powershell"></a>Een service-principal toevoegen als een werkruimtelid met behulp van PowerShell
+
+Deze sectie bevat een voorbeeldscript voor het toevoegen van een service-principal als een werkruimtelid met behulp van [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
+
+```powershell
+Login-PowerBI
+
+# Service Principal Object ID for the created Service Principal
+$SPObjectId = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
+
+$pbiWorkspace = Get-PowerBIWorkspace -Name "YourWorkspaceName"
+
+Add-PowerBIWorkspaceUser -Id $pbiWorkspace.Id -AccessRight Member -PrincipalType App -Identifier $SPObjectId 
+
+```
+
+### <a name="add-a-security-group-as-a-workspace-member-using-powershell"></a>Een beveiligingsgroep toevoegen als een werkruimtelid met behulp van PowerShell
+
+Deze sectie bevat een voorbeeldscript voor het toevoegen van een beveiligingsgroep als een werkruimtelid met behulp van [PowerShell](/powershell/azure/create-azure-service-principal-azureps).
+
+```powershell
+Login-PowerBI
+
+# Security Group Object ID for the created Security Group
+$SGObjectId = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
+
+$pbiWorkspace = Get-PowerBIWorkspace -Name "YourWorkspaceName"
+
+Add-PowerBIWorkspaceUser -Id $pbiWorkspace.Id -AccessRight Member -PrincipalType Group -Identifier $SGObjectId 
+
+```
 
 ## <a name="step-5---embed-your-content"></a>Stap 5: uw inhoud insluiten
 

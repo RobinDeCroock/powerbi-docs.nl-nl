@@ -7,20 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
-ms.date: 01/14/2020
+ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8d33973f1a11050d104399c98866fdae0ffb1f8a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404888"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600226"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Problemen oplossen met het openen van Power BI Desktop
 
-In Power BI Desktop kunnen gebruikers die een eerdere versie van de *On-premises gegevensgateway van Power BI* hebben geïnstalleerd en deze uitvoeren, Power BI Desktop mogelijk niet openen, vanwege beheerbeleidsbeperkingen die met de On-premises gateway van Power BI zijn ingesteld voor named pipes op de lokale computer.
+Dit artikel beschrijft een aantal omstandigheden waaronder Power BI niet kan worden geopend, en biedt hier een oplossing voor. 
+
+## <a name="resolve-issues-with-opening-encrypted-pbix-files"></a>Problemen met het openen van versleutelde PBIX-bestanden oplossen
+
+U kunt versleutelde PBIX-bestanden niet openen met een Power BI Desktop-versie die geen ondersteuning biedt voor gegevensbeveiliging.
+
+Als u Power BI Desktop wilt blijven gebruiken, is de aanbevolen oplossing om bij te werken naar een versie die gegevensbeveiliging ondersteunt. U kunt de [nieuwste versie van Power BI Desktop](https://www.microsoft.com/download/confirmation.aspx?id=58494) downloaden (deze koppeling is een directe downloadkoppeling naar het uitvoerbare installatiebestand). De nieuwste versie van Power BI Desktop biedt ondersteuning voor gegevensbeveiliging. Met deze versie kan elk versleuteld PBIX-bestand worden ontsleuteld en geopend.
+
+###
 
 ## <a name="resolve-issues-with-the-on-premises-data-gateway-and-power-bi-desktop"></a>Problemen met de On-premises gegevensgateway en Power BI Desktop oplossen
+
+In Power BI Desktop kunnen gebruikers die een eerdere versie van de *On-premises gegevensgateway van Power BI* hebben geïnstalleerd en deze uitvoeren, Power BI Desktop mogelijk niet openen, vanwege beheerbeleidsbeperkingen die met de On-premises gateway van Power BI zijn ingesteld voor named pipes op de lokale computer.
 
 U kunt het probleem met de On-premises gegevensgateway op drie manieren oplossen, zodat Power BI Desktop weer kan worden geopend:
 

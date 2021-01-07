@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 06/24/2020
-ms.openlocfilehash: 9040fb54e51dfeecad853e5ba980f423ab48e908
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a2616b5f77a03056de03b213369d55e9b590b1b6
+ms.sourcegitcommit: 7599622381f35a161bfc54726675ed3c9cf13816
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417837"
+ms.lasthandoff: 12/31/2020
+ms.locfileid: "97827567"
 ---
 # <a name="create-date-tables-in-power-bi-desktop"></a>Datumtabellen in Power BI Desktop maken
 
@@ -54,10 +54,7 @@ Als u een DirectQuery-model ontwikkelt en uw gegevensbron bevat geen datumtabel,
 
 ## <a name="generate-with-power-query"></a>Genereren met Power Query
 
-U kunt een datumtabel genereren met behulp van Power Query. Hier volgen twee blogberichten die laten zien hoe u dat kunt doen:
-
-- [Creating a Date Dimension with a Power Query Script](https://www.mattmasson.com/2014/02/creating-a-date-dimension-with-a-power-query-script/) (Een datumdimensie maken met een Power Query-script) door Matt Masson
-- [Generating A Date Dimension Table In Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) (Een datumdimensietabel genereren in Power Query) door Chris Webb
+U kunt een datumtabel genereren met behulp van Power Query. Zie de blogpost van Chris Webb [Een datumdimensietabel genereren in Power Query](https://blog.crossjoin.co.uk/2013/11/19/generating-a-date-dimension-table-in-power-query/) voor meer informatie.
 
 > [!TIP]
 > Als u geen datawarehouse of andere consistente definitie voor tijd in uw organisatie hebt, kunt u Power Query gebruiken om een [gegevensstroom](../transform-model/dataflows/dataflows-introduction-self-service.md) te publiceren. Laat alle makers van gegevensmodellen vervolgens verbinding maken met de gegevensstroom om datumtabellen toe te voegen aan hun modellen. De gegevensstroom wordt de Single Source of Truth voor tijd in uw organisatie.

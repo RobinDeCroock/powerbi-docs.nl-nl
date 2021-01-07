@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 10/10/2020
+ms.date: 12/21/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 450c14d05f9a7855d51d7aa2f073e48a0b016013
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 140ca42dc34e98133beac5fff671cf1ef244501c
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96400955"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721427"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Knoppen in de Power BI-service
 In de rapporten die u van collega's ontvangt, hebt u mogelijk knoppen gedetecteerd en hebt u zich afgevraagd hoe u deze kunt gebruiken. Sommige bevatten woorden, andere bevatten pijlen en weer andere afbeeldingen. Sommige bevatten zelfs vervolgmenu's. In dit artikel leert u hoe u een knop herkent en hoe u kunt ontdekken wat u ermee moet doen.
@@ -53,13 +53,13 @@ Als u de knop Bladwijzer kiest, gaat u in Power BI naar de locatie en instelling
 ## <a name="drillthrough-buttons"></a>Drillthrough-knoppen
 Er zijn twee manieren om een drillthrough uit te voeren in de Power BI-service. Met Drillthrough gaat u naar een andere rapportpagina en worden de gegevens op die doelpagina weergegeven op basis van de filters en selecties die u hebt gemaakt op de bronpagina.
 
-Een van de manieren om een rapport te analyseren, is door met de rechtermuisknop op een gegevenspunt in een visual te klikken, **Analyseren** te selecteren en het doel te kiezen. Deze methode wordt hierboven beschreven in de sectie met de titel **Vorige-knop**. Maar soms gebruiken de rapportontwerpers een drillthrough-*knop* om de actie duidelijker te maken en om de aandacht te vestigen op belangrijke inzichten.  
+Eén manier om Drillthrough te gebruiken in een rapport, is door met de rechtermuisknop op een gegevenspunt in een visual te klikken, **Analyseren** te selecteren en het doel te kiezen. Deze methode wordt hierboven beschreven in de sectie met de titel **Vorige-knop**. Maar soms gebruiken de rapportontwerpers een drillthrough-*knop* om de actie duidelijker te maken en om de aandacht te vestigen op belangrijke inzichten.  
 
 Drillthrough-knoppen kunnen meer dan één vereiste hebben. De knop werkt pas als u aan alle vereisten voldoet. We kijken naar een voorbeeld.
 
 Hier volgt een drillthrough-knop die ons naar de pagina *Details opslaan* brengt. Als u de muisaanwijzer boven de knop houdt, wordt er knopinfo weergegeven welke ons aangeeft dat we zowel een winkel als een product moeten selecteren. De knop wordt pas actief als we een van beide selecteren.
 
-![Schermopname van de knop Analyseren met knopinfo.](media/end-user-buttons/power-bi-drill-two-selections.png)
+![Schermopname van de knop Drillthrough, met knopinfo met aanwijseffect.](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 Nu we één product (**Word**) en één winkel (**Leo**) hebben geselecteerd, verandert de knop van kleur om aan te geven dat deze nu actief is.
 

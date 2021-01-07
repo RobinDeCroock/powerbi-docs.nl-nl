@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 10/22/2020
+ms.date: 12/18/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9cbb6bb03d9add4324c3fc57a6426435850a001c
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578171"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699476"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
-De beheerportal stelt u in staat om de Power BI-instellingen voor uw organisatie te beheren. De portal bevat onder andere metrische gebruiksgegevens, en biedt toegang tot het Microsoft 365-beheercentrum en de tenantinstellingen.
+De beheerportal stelt u in staat om de Power BI-instellingen voor uw organisatie te beheren. De portal bevat onder andere metrische gegevens over gebruik, toegang tot het Microsoft 365-beheercentrum en instellingen voor Power BI voor alle gebruikers.
 
 De volledige beheerportal is toegankelijk voor globale beheerders en gebruikers met de rol Power BI-servicebeheerder. Als u niet een van deze rollen heeft, ziet u in de portal alleen de optie **Capaciteitsinstellingen**. Zie [Understanding the Power BI admin role](service-admin-role.md) (Power BI-beheerdersrol) voor meer informatie over de beheerdersrol voor de Power BI-service.
 
@@ -31,14 +31,15 @@ U moet een globale beheerder of Power BI-servicebeheerder zijn om toegang te kri
 
 1. Selecteer in de paginakoptekst **Instellingen** > **Beheerportal**.
 
-    ![Instellingen voor beheerportal](media/service-admin-portal/powerbi-admin-settings.png)
+   :::image type="content" source="media/service-admin-portal/settings-portal.png" alt-text="Menu Instellingen met beheerportal geselecteerd.":::
 
 De beheerportal bevat verschillende secties. De rest van dit artikel biedt informatie over elk van deze secties.
 
-![Navigatie door beheerportal](media/service-admin-portal/powerbi-admin-landing-page.png)
+   :::image type="content" source="media/service-admin-portal/portal-menu.png" alt-text="Menu Beheerportal":::
 
 * [Metrische gegevens over gebruik](#usage-metrics)
 * [Gebruikers](#users)
+* [Premium per gebruiker (preview)](#premium-per-user-preview)
 * [Auditlogboeken](#audit-logs)
 * [Tenantinstellingen](#tenant-settings)
 * [Capaciteitsinstellingen](#capacity-settings)
@@ -125,6 +126,14 @@ Let op, want het verwijderen van bestaande metrische gegevens over gebruik en ge
 U beheert Power BI-gebruikers, -groepen en -beheerders in het Microsoft 365-beheercentrum. Het tabblad **Gebruikers** bevat een link naar het beheercentrum.
 
 ![Naar het Microsoft 365-beheercentrum gaan](media/service-admin-portal/powerbi-admin-manage-users.png)
+
+## <a name="premium-per-user-preview"></a>Premium per gebruiker (preview)
+
+Premium per gebruiker is een nieuwe manier om premium-functies per gebruiker te licentiëren. Deze functie is momenteel beschikbaar als preview-product. Nadat aan ten minste één gebruiker een Premium per gebruiker-licentie is toegewezen, kunnen de bijbehorende functies in elke werkruimte worden ingeschakeld. Beheerders kunnen de instellingen voor automatisch vernieuwen en gegevenssetworkload beheren die worden weergegeven voor gebruikers, evenals de bijbehorende standaardwaarden. Bijvoorbeeld: toegang tot het XMLA-eindpunt kan worden uitgeschakeld, ingesteld op alleen-lezen of ingesteld op lezen/schrijven.
+
+   :::image type="content" source="media/service-admin-portal/premium-per-user-options.png" alt-text="Instellingen voor Premium per gebruiker":::.
+
+Zoek in [Power BI Premium per gebruiker: veelgestelde vragen (preview)](service-premium-per-user-faq.md) voor meer informatie over dit licentiemodel.
 
 ## <a name="audit-logs"></a>Auditlogboeken
 

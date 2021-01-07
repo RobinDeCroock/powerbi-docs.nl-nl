@@ -4,23 +4,24 @@ description: Informatie over het optimaliseren van rapportpagina's voor de mobie
 author: paulinbar
 ms.author: painbar
 ms.reviewer: ''
-ms.custom: contperfq4
+ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 06/15/2020
+ms.date: 12/22/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0780b11cb1e95578be144f65f8adb1bf641d1c1c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1bfbbcb1b722bbb2504307815860b977a6ab0709
+ms.sourcegitcommit: 2adb60a70bfc29c5fdc49cf6defb905e580288ab
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414318"
+ms.lasthandoff: 12/24/2020
+ms.locfileid: "97760733"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>Power BI-rapporten optimaliseren voor de mobiele app
+
 Mobiele gebruikers kunnen elke Power BI-rapportpagina weergeven in de stand liggend. Ontwerpers van rapporten kunnen echter een extra weergave maken die is geoptimaliseerd voor mobiele apparaten en wordt weergegeven in de staande stand. Deze ontwerpoptie, die beschikbaar is in zowel Power BI Desktop als in de Power BI-service, stelt auteurs in staat om alleen die visuele elementen te selecteren en opnieuw in te delen die van belang zijn voor mobiele gebruikers.
 
-![Rapport geoptimaliseerd voor mobiel](media/desktop-create-phone-report/desktop-mobile-optimized-report.png).
+![Schermopname van rapporten in staande en liggende stand die geschikt zijn voor mobiel.](media/desktop-create-phone-report/desktop-mobile-optimized-report.png)
 
 Power BI biedt een aantal functies om u te helpen bij het maken van versies van uw rapporten die geoptimaliseerd zijn voor mobiel:
 * Een weergave voor mobiele indeling waarin u uw mobiele, geoptimaliseerde rapport kunt maken door visuele elementen te slepen en neer te zetten op een canvas dat lijkt op een telefoon.
@@ -30,28 +31,28 @@ Met deze mogelijkheden kunt u aantrekkelijke, interactieve, geoptimaliseerde rap
 
 ## <a name="create-a-mobile-optimized-portrait-version-of-a-report-page"></a>Een op een hoger geoptimaliseerde, staande versie van een rapportpagina maken
 
-De eerste stap is het ontwerpen en maken van het rapport in de standaard webweergave. Nadat u een rapport hebt gemaakt, kunt u dit optimaliseren voor telefoons en tablets.
+**Vereiste**: De eerste stap is het ontwerpen en maken van het rapport in de standaard webweergave. Nadat u een rapport hebt gemaakt, kunt u dit optimaliseren voor telefoons en tablets.
 
-Als u de weergave die is geoptimaliseerd voor mobiel wilt maken, opent u de weergave voor mobiele indeling:
+Als u de voor mobiel geoptimaliseerde weergave wilt maken, opent u het rapport in Power BI Desktop of in de Power BI-service. Wanneer het rapport is geopend, gaat u naar de weergave voor mobiele indeling:
    * Selecteer in Power BI Desktop het lint **Weergave** **Mobiele indeling**.
-   * Kies in de Power BI-service **Meer opties (...) > Rapport bewerken > Indeling voor mobiel**.
+   * Kies in de Power BI-service **Rapport bewerken > Mobiele indeling**. Als de optie Bewerken niet zichtbaar is, kijkt u onder **Meer opties (...)** .
 
    U ziet een blad dat kan worden weergegeven als een telefoon en een deelvenster **Visualisaties** met alle visuals die zich op de oorspronkelijke rapportpagina bevinden.
-
-   ![Weergave voor mobiele indeling](media/desktop-create-phone-report/desktop-mobile-layout.png).
 
 * Elke visual in het deelvenster **Visualisaties** wordt weergegeven met de naam ervan voor eenvoudige identificatie.
 * Elke visual heeft ook een zichtbaarheidsindicator. De zichtbaarheidsindicator van een visual verandert, afhankelijk van de zichtbaarheidsstatus van de visual in de huidige status van de weergave webrapport. De zichtbaarheidsindicator is handig bij het werken met bladwijzers.
 
+   ![Weergave voor mobiele indeling](media/desktop-create-phone-report/desktop-mobile-layout.png)
+
 ## <a name="add-visuals-to-the-mobile-layout-canvas"></a>Visuals toevoegen aan het canvas voor mobiele indeling
-Als u een visueel element aan de mobiele indeling wilt toevoegen, sleept u het vanuit het deelvenster **Visualisaties** naar het telefooncanvas. Wanneer u de visual naar het canvas sleept, wordt deze op het raster uitgelijnd. U kunt ook dubbelklikken op het visuele element in het deelvenster visualisatie en de visual wordt toegevoegd aan het canvas.
+Als u een visueel element aan de mobiele indeling wilt toevoegen, sleept u het vanuit het deelvenster **Visualisaties** naar het telefooncanvas. Wanneer u de visual naar het canvas sleept, wordt deze op het raster uitgelijnd. U kunt ook dubbelklikken op de visual in het deelvenster voor visualisatie, waarna de visual aan het canvas wordt toegevoegd.
 
 U kunt enkele of alle visuele elementen van de webrapportpagina toevoegen aan de rapportpagina voor mobiel. U kunt elk visuele element slechts één keer gebruiken. U hoeft ze niet allemaal op te nemen.
 
 >[!NOTE]
 > U kunt verborgen visuals slepen en neerzetten op het canvas. Ze worden geplaatst, maar niet weergegeven, tenzij de zichtbaarheidsstatus wordt gewijzigd in de huidige webrapportweergave.
 
-Visuele elementen kunnen boven op elkaar worden gestapeld om interactieve rapporten te maken met behulp van bladwijzers, of om aantrekkelijke rapporten te bouwen door visuele elementen te stapelen over afbeeldingen.
+Visuele elementen kunnen boven op elkaar worden gestapeld om interactieve rapporten te maken met behulp van bladwijzers, of om aantrekkelijke rapporten te bouwen door visuele elementen te stapelen over afbeeldingen. U kunt de volgorde van de stapeling van de visuals wijzigen in het [deelvenster Selectie](#set-the-layering-order-of-visuals-on-the-mobile-layout-canvas).
 
 Zodra u een visual op het canvas hebt geplaatst, kunt u het formaat ervan wijzigen door aan de handvatten te trekken die rond de rand van de visual worden weergegeven wanneer u het selecteert. Als u de hoogte-breedte verhouding van het visuele element wilt behouden tijdens het wijzigen van de grootte, drukt u op de toets **Shift** tijdens het slepen van de formaathandvatten.
 
@@ -60,6 +61,18 @@ De onderstaande afbeelding illustreert het slepen en neerzetten van visuals uit 
    ![Visuals slepen en neerzetten, de grootte aanpassen en lagen](media/desktop-create-phone-report/desktop-mobile-layout-overlay-resize.gif)
 
 De schaal van het telefoonrapportraster kan worden aangepast aan telefoons van verschillende groottes. Het rapport ziet er dus goed uit op telefoons met een klein scherm en telefoons met een groot scherm.
+
+## <a name="set-the-layering-order-of-visuals-on-the-mobile-layout-canvas"></a>De volgorde van de stapeling van visuals instellen op het canvas voor mobiele indeling
+
+Telkens wanneer u een visual naar het canvas sleept, wordt het toegevoegd aan een eigen laag boven op alle andere visuals die zich al op het canvas bevinden. In het deelvenster **Selectie** kunt u de volgorde van het stapelen wijzigen.
+
+Als u het deelvenster **Selectie** wilt openen, klikt u op de knop **Selectie** in het sectie **Deelvensters weergeven** op het tabblad **Weergave**. 
+
+Op het deelvenster **Selectie** worden alle visuals vermeld die zich op het canvas bevinden. De volgorde van de lijst weerspiegelt de volgorde van de stapeling op het canvas. De eerst vermelde visual bevindt zich in de bovenste laag, de laatst vermelde visual bevindt zich in de onderste laag. Als u de volgorde wilt wijzigen, kunt u een visual slepen en op een andere plaats in de lijst neerzetten. U kunt ook een visual selecteren en deze met de pijlknoppen omhoog of omlaag verplaatsen.
+
+Het deelvenster **Selectie** bevat ook een zichtbaarheidsindicatie voor elke visual in de lijst, maar het is niet mogelijk om de zichtbaarheid in de weergave voor mobiele indeling te wijzigen. Dit moet worden gedaan in de reguliere weergave voor weblay-out.
+
+![Schermopname van het deelvenster Selectie en hoe dit wordt geopend.](media/desktop-create-phone-report/selection-pane-mobile-layout.png)
 
 ## <a name="remove-visuals-from-the-mobile-layout-canvas"></a>Visuals verwijderen uit het canvas voor mobiele indeling
 Als u een visueel element wilt verwijderen uit de indeling voor mobiel, klikt u op de **X** in de rechterbovenhoek van de visual op het telefooncanvas of selecteert u het en drukt u op **Verwijderen**.

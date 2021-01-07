@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 07/30/2020
+ms.date: 12/14/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 99f562ee315a74c9de6765308272e5e33153c4f0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a3ee3ac5cd23942878395f942a32dbe573cb0798
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96388857"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721588"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>Zelfstudie: Van een Excel-werkmap naar een rapport in de Power BI-service naar Microsoft Teams
-Uw manager wil aan het eind van de dag een rapport bekijken over uw meest recente verkoop- en winstcijfers. De meest recente gegevens bevinden zich echter op verschillende systemen en in bestanden van derden op uw laptop. In het verleden duurde het uren om visuals en een rapport te maken, en u begint zich zorgen te maken.
+Uw manager wil aan het eind van de dag een rapport bekijken over uw meest recente verkoop- en winstcijfers. Maar de meest recente gegevens bevinden zich in bestanden op uw laptop. In het verleden duurde het uren om een rapport te maken, en u begint zich zorgen te maken.
 
 Nergens voor nodig. Met Power BI kunt u in een handomdraai een verbluffend rapport maken en dit in Microsoft Teams delen.
 
@@ -32,6 +32,11 @@ In deze zelfstudie uploaden we een Excel-bestand, maken we een nieuw rapport en 
 > * Rapportvisuals vastmaken aan een dashboard.
 > * Een koppeling delen op het dashboard.
 > * Het dashboard delen in Microsoft Teams
+
+## <a name="prerequisites"></a>Vereisten
+- [Meld u aan voor de Power BI-service](../fundamentals/service-self-service-signup-for-power-bi.md). 
+- Download de [werkmap Financieel voorbeeld](https://go.microsoft.com/fwlink/?LinkID=521962) en sla deze op de computer op of in OneDrive voor Bedrijven.
+
 
 ## <a name="prepare-data-in-excel"></a>Gegevens in Excel voorbereiden
 We nemen een eenvoudig Excel-bestand als voorbeeld. 
@@ -49,10 +54,7 @@ We nemen een eenvoudig Excel-bestand als voorbeeld.
    ![Schermopname van als tabel opgemaakte gegevens.](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-to-the-power-bi-service"></a>Uw Excel-bestand naar de Power BI-service uploaden
-In de Power BI-service wordt verbinding gemaakt met veel gegevensbronnen, waaronder Excel-bestanden die op uw computer aanwezig zijn. 
-
- > [!NOTE] 
- > Download de [werkmap Financieel voorbeeld](https://go.microsoft.com/fwlink/?LinkID=521962) voor de rest van deze zelfstudie.
+In de Power BI-service wordt verbinding gemaakt met veel gegevensbronnen, waaronder Excel-bestanden die op uw computer aanwezig zijn.
 
 1. Meld u aan bij de Power BI-service om te beginnen. Als u zich nog niet hebt aangemeld, [kunt u dit gratis doen](https://powerbi.com).
 1. Selecteer in **Mijn werkruimte** de opties **Nieuw** > **Een bestand uploaden**.
@@ -190,9 +192,9 @@ U gaat nu uw dashboard delen met uw manager. U kunt uw dashboard en het bijbehor
 
 U kunt ook rapporten en dashboards rechtstreeks delen met uw collega's in Microsoft Teams.
 
-1. Als u uw rapport wilt delen in Teams, selecteert u **Delen in Teams** bovenaan het dashboard.
+1. Als u wilt delen in Teams, selecteert u bovenaan het dashboard de optie **Chatten in Teams**.
 
-   ![Schermopname van de optie Delen in Teams.](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
+   ![Schermopname van de optie Chatten in Teams.](media/service-from-excel-to-stunning-report/power-bi-share-teams.png)
 
 2. Power BI geeft het dialoogvenster **Delen in Teams** weer. Voer de naam van een persoon, groep of kanaal in en selecteer **Delen**. 
    

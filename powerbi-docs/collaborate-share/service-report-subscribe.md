@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/01/2020
+ms.date: 12/18/2020
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 9d9d628ea2d478eb6a09ae8ca53b98837349a224
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
+ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613808"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "97699265"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -25,10 +25,10 @@ U kunt uzelf en uw collega's abonneren op de rapportpagina's, dashboards en gepa
 - Kies, wanneer u dagelijks, wekelijks, elk uur of maandelijks kiest, het tijdstip waarop u het e-mailbericht wilt ontvangen.
 - Stel 24 verschillende abonnementen per Power BI-rapport of -dashboard in.  Er is geen limiet voor het aantal abonnementen dat u kunt instellen voor gepagineerde rapporten.
 - Laat een e-mail verzenden met een afbeelding van het rapport en een koppeling naar het rapport in de service.  Wanneer deze koppeling wordt geselecteerd op een mobiel apparaat waarop Power BI-apps zijn geïnstalleerd, wordt de Power BI-app gestart in plaats van dat het rapport of het dashboard op de website van Power BI wordt geopend.
-- Neem een bijlage van het volledige rapport op als u zich abonneert op een gepagineerd rapport.
+- Een bijlage van het volledige rapport toevoegen.
 - Verzend e-mail naar gebruikers buiten uw tenant als uw Power BI-inhoud wordt gehost in een Premium-capaciteit.  Beheerders kunnen de toegang beheren tot degenen die e-mailabonnementen naar externe gebruikers kunnen verzenden, door gebruik te maken van de bestaande beheerinstellingen voor extern delen in het Power BI-beheercentrum.
 
-![E-mail met momentopname van dashboard](media/service-report-subscribe/power-bi-dashboard-email-new.jpg)
+![E-mail met momentopname van dashboard](media/service-report-subscribe/power-bi-subscriptions-email.png)
 
 ## <a name="requirements"></a>Vereisten
 
@@ -64,16 +64,21 @@ Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en ander
 
 6. De begindatum voor uw abonnement is standaard de datum waarop u het hebt gemaakt. U hebt de mogelijkheid om een einddatum te selecteren. Als u geen einddatum instelt, is de einddatum automatisch één jaar na de begindatum. U kunt deze op elk gewenst moment wijzigen in ongeacht welke datum in de toekomst (tot het jaar 9999) voordat het abonnement afloopt. Wanneer een abonnement een einddatum heeft bereikt, wordt het stopgezet tenzij u het opnieuw inschakelt. U ontvangt vóór de geplande einddatum een melding/meldingen met de vraag of u wilt verlengen.
 
-    Merk op in de onderstaande schermafbeelding dat wanneer u zich op een rapport abonneert, u zich feitelijk abonneert op een rapport _pagina_. Als u zich op meer dan één pagina in een rapport wilt abonneren, selecteert u **Nog een abonnement toevoegen** en selecteert u een andere pagina.
+    Merk op in de onderstaande schermafbeelding dat wanneer u zich op een rapport abonneert, u zich feitelijk abonneert op een rapport _pagina_. Als u zich wilt abonneren op meer dan één pagina in een rapport, kunt u **Volledige rapportbijlage selecteren als** selecteren, of een nieuw abonnement instellen door  **Nog een abonnement toevoegen** te selecteren.
 
-    ![Deelvenster Abonneren](media/service-report-subscribe/power-bi-subscribe-pane.png)
+    ![Deelvenster Abonneren](media/service-report-subscribe/power-bi-email.png)
 
 1. (Optioneel) Selecteer of u een koppeling wilt toevoegen aan de inhoud in Power BI en of u gebruikerstoegang wilt geven tot de inhoud waarop u hen abonneert.  Als u ervoor kiest een koppeling op te nemen voor de beste ervaring, moet u ervoor zorgen dat alle gebruikers toegang hebben tot het rapport.
-2. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement. Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.
+
+1. Selecteer of het _volledige rapport_ als bijlage moet worden toegevoegd, in plaats van slechts één rapportpagina. (optioneel) Kies PDF of PowerPoint. De grootte van de bijlage is beperkt tot maximaal twintig pagina's en de bijlage moet kleiner zijn dan 25 MB. Alle privacylabels voor het rapport gelden ook voor de bijlage.
+
+1. Selecteer **Opslaan en sluiten**. Degenen die zijn geabonneerd, ontvangen een e-mailbericht en een momentopname van het dashboard of de rapportpagina voor de frequentie en de tijd die u hebt geselecteerd. Alles bij elkaar kunt u maximaal 24 abonnementen per rapport of dashboard maken en kunt u zorgen voor unieke ontvangers, tijden en frequenties voor elk abonnement. Alle abonnementen die zijn ingesteld op **Nadat gegevens zijn vernieuwd** voor uw dashboard of rapport verzenden nog steeds alleen een e-mailbericht na de eerste geplande vernieuwing.
 
     > [!NOTE]
     > Als u het abonnement bewerkt na het opslaan en sluiten, is de selectie voor het geven van toegang aan gebruikers tot de inhoud waarop u zich abonneert ingeschakeld, ongeacht uw eerdere selecties.
     >
+
+
 
     > [!TIP]
     > Wilt u het e-mailbericht verzenden direct vanuit een abonnement of op aanvraag op elk gewenst moment? Selecteer **Nu uitvoeren** voor de abonnementen voor het dashboard of rapport dat u wilt verzenden. U ziet een melding dat er een e-mailbericht onderweg is naar iedereen voor dat specifieke abonnement. Als u deze actie uitvoert, wordt dit niet meegeteld in uw limiet van 24 geplande abonnementsuitvoeringen per dag per rapport of dashboard. Dit leid er NIET toe dat de gegevens van de onderliggende gegevensset worden vernieuwd.
@@ -147,10 +152,8 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
     - Het bijlagebestand is kleiner dan 25 MB.
     - Het rapport heeft minder dan 20 pagina's. 
     
-    Als het rapport niet aan deze drie voorwaarden voldoet, kunt u geen abonnementen met volledige rapporten als bijlagen maken. Bestaande abonnementen met volledige rapporten als bijlagen worden uitgeschakeld en u ontvangt een e-mailbericht waarin de fout wordt uitgelegd:
+    Als het rapport niet aan deze drie voorwaarden voldoet, kunt u geen abonnementen met volledige rapporten als bijlagen maken. Bestaande abonnementen met volledige rapporten als bijlagen worden uitgeschakeld en u ontvangt een e-mailbericht waarin de fout wordt uitgelegd.
     
-    :::image type="content" source="media/service-report-subscribe/full-report-attachment-error-email.png" alt-text="E-mail over foutmelding voor bijlagen voor volledige rapporten.":::
-
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Gepagineerde rapporten in de Power BI-service: Uzelf en anderen abonneren](../consumer/paginated-reports-subscriptions.md)

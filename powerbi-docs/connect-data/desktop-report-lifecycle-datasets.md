@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 12/16/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e177eb9e124a26e62d392b7dd97562c11c8f9d5a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 432db58636866afe0dfda9e77e989f8469b66e34
+ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411029"
+ms.lasthandoff: 12/16/2020
+ms.locfileid: "97600410"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Verbinding maken met gegevenssets in de Power BI-service vanuit Power BI Desktop
 
@@ -107,7 +107,7 @@ Wanneer u de liveverbinding met de Power BI-service gebruikt, zijn er enkele bep
 
 * Alleen gebruikers met de machtiging Samenstellen voor een gegevensset kunnen verbinding maken met een gepubliceerde gegevensset met de liveverbinding met de Power BI-service.
 * Gebruikers van gratis versies zien alleen gegevenssets in **Mijn werkruimte** en in Premium-werkruimten.
-* Omdat deze verbinding een live-verbinding is, zijn de navigatie en het model van links uitgeschakeld. U kunt per rapport maar met één gegevensset verbinding maken. Dit gedrag is vergelijkbaar met het gedrag wanneer er verbinding is met *SQL Server Analysis Services*.
+* Omdat deze verbinding een live-verbinding is, zijn de navigatie en het model van links uitgeschakeld. U kunt per rapport maar met één gegevensset verbinding maken. Dit gedrag is vergelijkbaar met het gedrag wanneer er verbinding is met *SQL Server Analysis Services*. In het volgende artikel wordt echter beschreven hoe met behulp van een functie in Power BI het volgende nu mogelijk is: zie [DirectQuery gebruiken voor Power BI-gegevenssets en Azure Analysis Services (preview)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
 * Omdat deze verbinding een live-verbinding is, wordt beveiliging op rijniveau (RLS) en ander vergelijkbaar gedrag van de verbinding afgedwongen. Dit is hetzelfde als wanneer er verbinding is met SQL Server Analysis Services.
 * Als de eigenaar het oorspronkelijke gedeelde *.pbix*-bestand wijzigt, worden de gegevensset en het rapport dat wordt gedeeld in de Power BI-service overschreven. Rapporten op basis van die gegevensset worden niet overschreven, maar eventuele wijzigingen in de gegevensset worden in het rapport doorgevoerd.
 * Leden van een werkruimte kunnen het oorspronkelijk gedeelde rapport niet vervangen. Pogingen daartoe resulteren in een waarschuwing waarin u wordt gevraagd het bestand een andere naam te geven en het te publiceren.
@@ -116,3 +116,18 @@ Wanneer u de liveverbinding met de Power BI-service gebruikt, zijn er enkele bep
 * Nadat de Inhoudspakketten van *Mijn organisatie* zijn gekopieerd, kunt u het rapport dat op de service is gemaakt en/of een rapport dat is gemaakt bij het kopiëren van een Inhoudspakket met een live-verbinding niet meer vervangen. Pogingen daartoe resulteren in een waarschuwing waarin u wordt gevraagd het bestand een andere naam te geven en het te publiceren. In dit geval kunt u alleen gepubliceerde live gekoppelde rapporten vervangen.
 * Wanneer u een gedeelde gegevensset in de Power BI-service verwijdert, heeft niemand meer toegang tot die gegevensset vanuit Power BI Desktop.
 * Rapporten waarin een gegevensset op de Power BI-service wordt gedeeld, bieden geen ondersteuning voor geautomatiseerde implementaties met de REST-API van Power BI.
+
+## <a name="next-steps"></a>Volgende stappen
+Bekijk de volgende resources voor meer informatie over DirectQuery en andere functies voor Power BI-gegevensverbindingen:
+
+- [DirectQuery gebruiken in Power BI](desktop-directquery-about.md)
+- [Data sources supported by DirectQuery](power-bi-data-sources.md) (Gegevensbronnen die worden ondersteund door DirectQuery)
+- [DirectQuery gebruiken voor Power BI-gegevenssets en Azure Analysis Services (preview-versie)](../connect-data/desktop-directquery-datasets-azure-analysis-services.md)
+
+Hier volgen enkele aanvullende koppelingen voor meer informatie over Power BI:
+
+* [Wat is Power BI Desktop?](../fundamentals/desktop-what-is-desktop.md)
+* [Query-overzicht met Power BI Desktop](../transform-model/desktop-query-overview.md)
+* [Gegevenstypen in Power BI Desktop](desktop-data-types.md)
+* [Gegevens vormgeven en combineren met Power BI Desktop](desktop-shape-and-combine-data.md)
+* [Algemene querytaken in Power BI Desktop](../transform-model/desktop-common-query-tasks.md)

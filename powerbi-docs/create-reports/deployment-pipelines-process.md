@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.custom: contperfq1
-ms.date: 10/21/2020
-ms.openlocfilehash: c9ae23a88bd557681ca89e541f082a69d449ed8c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.custom: contperf-fy21q1
+ms.date: 12/28/2020
+ms.openlocfilehash: 4bb709e41698bc0dc32341f517593717f64f9b6d
+ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415008"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97805206"
 ---
 # <a name="understand-the-deployment-process"></a>Uitleg over het implementatieproces
 
@@ -149,13 +149,21 @@ De volgende eigenschappen van gegevenssets worden niet gekopieerd tijdens de imp
 
 * Goedkeuringsinstellingen
 
-## <a name="incremental-refresh"></a>Incrementeel vernieuwen
+## <a name="supported-dataset-features"></a>Ondersteunde functies van gegevensset
+
+Implementatiepijplijnen ondersteunt veel Power BI-gegevenssetfuncties. In deze sectie vindt u een lijst met twee Power BI-gegevenssetfuncties waarmee u de ervaring met de implementatiepijplijn kunt verbeteren:
+
+* [Incrementeel vernieuwen](#incremental-refresh)
+
+* [Samengestelde modellen](#composite-models)
+
+### <a name="incremental-refresh"></a>Incrementeel vernieuwen
 
 Implementatiepijplijnen ondersteunen [incrementeel vernieuwen](../admin/service-premium-incremental-refresh.md), een functie waarmee grote gegevenssets sneller en betrouwbaarder kunnen worden vernieuwd, en met een lager verbruik.
 
 Met implementatiepijplijnen kunt u gegevensset met incrementeel vernieuwen bijwerken en zowel gegevens als partities behouden. Wanneer u de gegevensset implementeert, wordt het beleid ook gekopieerd.
 
-### <a name="activating-incremental-refresh-in-a-pipeline"></a>Incrementeel vernieuwen in een pijplijn activeren
+#### <a name="activating-incremental-refresh-in-a-pipeline"></a>Incrementeel vernieuwen in een pijplijn activeren
 
 Als u incrementeel vernieuwen wilt inschakelen, [schakelt u het in Power BI Desktop in](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh) en publiceert u vervolgens uw gegevensset. Nadat de publicatie is het beleid voor incrementeel vernieuwen in de hele de pijplijn vergelijkbaar en kan het alleen worden geschreven in Power BI Desktop.
 
@@ -169,7 +177,7 @@ Als de pijplijn is geconfigureerd met incrementeel vernieuwen, wordt u aangerade
 
 4. Controleer de wijzigingen die u in de *testfase* hebt aangebracht en implementeer ze na de controle in de *productiefase*.
 
-### <a name="usage-examples"></a>Gebruiksvoorbeelden
+#### <a name="usage-examples"></a>Gebruiksvoorbeelden
 
 Hieronder ziet u enkele voorbeelden van hoe u incrementeel vernieuwen kunt integreren met implementatiepijplijnen.
 
@@ -181,7 +189,7 @@ Hieronder ziet u enkele voorbeelden van hoe u incrementeel vernieuwen kunt integ
 
 * Publiceer een gegevensset die incrementeel vernieuwen gebruikt voor een werkruimte die deel uitmaakt van een bestaande pijplijn.
 
-### <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+#### <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
 
 Voor incrementeel vernieuwen bieden implementatiepijplijnen alleen ondersteuning voor gegevenssets die gebruikmaken van [verbeterde metagegevens](../connect-data/desktop-enhanced-dataset-metadata.md). Vanaf de release van Power BI Desktop van september 2020 implementeren alle gegevenssets die zijn gemaakt of gewijzigd met Power BI Desktop, automatisch verbeterde metagegevens van de gegevensset.
 
@@ -194,6 +202,24 @@ Wanneer een gegevensset opnieuw wordt gepubliceerd naar een actieve pijplijn waa
 * Het wijzigen van de naam van niet-berekende kolommen in een tabel waarvoor incrementeel vernieuwen is ingeschakeld.
 
 Andere wijzigingen, zoals het toevoegen van een kolom, het verwijderen van een kolom en het wijzigen van de naam van een berekende kolom, zijn toegestaan. Als de wijzigingen echter van invloed zijn op de weergave, moet u vernieuwen voordat de wijziging zichtbaar is.
+
+### <a name="composite-models"></a>Samengestelde modellen
+
+Met behulp van [samengestelde modellen](../transform-model/desktop-composite-models.md) kunt u een rapport met meerdere gegevensverbindingen opstellen.
+
+U kunt de functie Samengestelde modellen gebruiken om een Power BI-gegevensset te verbinden met een externe gegevensset, zoals Azure Analysis Services. Zie [DirectQuery gebruiken voor Power BI-gegevenssets en Azure Analysis Services](../connect-data/desktop-directquery-datasets-azure-analysis-services.md) voor meer informatie.
+
+In een implementatiepijplijn kunt u samengestelde modellen gebruiken om een gegevensset te verbinden met een andere Power BI-gegevensset die extern is voor de pijplijn.  
+
+#### <a name="limitations"></a>Beperkingen
+
+De volgende verbindingen van samengestelde modellen worden niet ondersteund:
+
+* Gegevenssets verbinden die zich in dezelfde werkruimte bevinden.
+
+* Gegevenssets verbinden die zich in afzonderlijke pijplijnen bevinden.
+
+* Gegevenssets verbinden die zich in dezelfde pijplijn bevinden. 
 
 ## <a name="deploying-power-bi-apps"></a>Power BI-apps implementeren
 

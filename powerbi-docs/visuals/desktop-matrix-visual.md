@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 33e0ee83815c739d8201fad995d84c7ee397bc6c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 401d8905c4fe2ca0f27a8f0c58bd756c87a10456
+ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398057"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97721496"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Matrixvisualisaties maken in Power BI
 
@@ -71,7 +71,7 @@ Met de matrixvisualisatie kunt u op allerlei interessante manieren inzoomen die 
 
 Wanneer u in het deelvenster Visualisaties meerdere velden toevoegt aan de sectie **Rijen** van het vak **Velden**, kan er worden ingezoomd op de rijen van de matrixvisualisatie. Dit is vergelijkbaar met het maken van een hiërarchie, die het vervolgens mogelijk maakt in te zoomen op die hiërarchie (en weer terug te gaan) en de gegevens op elk niveau te analyseren.
 
-In de volgende afbeelding bevat de sectie **Rijen** *Sales Stage* en *Opportunity Size*, waardoor er een groepering (of hiërarchie) van de rijen wordt gemaakt waarop we kunnen inzoomen.
+In de volgende afbeelding bevat de sectie **Rijen** *Verkoopfase* en *Grootte van verkoopkans*, waardoor er een groepering (of hiërarchie) van de rijen wordt gemaakt waarop we kunnen inzoomen om de details te bekijken.
 
 ![Kaart Filters die aangeeft welke rijen zijn gekozen](media/desktop-matrix-visual/power-bi-rows-matrix.png)
 
@@ -79,7 +79,7 @@ Wanneer in de visualisatie een groepering is gemaakt in de sectie **Rijen**, wor
 
 ![matrix met besturingselementen voor inzoomen omkaderd](media/desktop-matrix-visual/power-bi-matrix-drilldown.png)
 
-Net als bij het zoom- en uitvouwgedrag in andere visualisaties, kunnen we met die knoppen inzoomen op (of teruggaan door) de hiërarchie. In dit geval kunnen we vanuit *Sales Stage* inzoomen op *Opportunity Size*, zoals u kunt zien in de volgende afbeelding, waar het pictogram voor inzoomen op één niveau (de stemvork) is geselecteerd.
+Net als bij het zoom- en uitvouwgedrag in andere visualisaties, kunnen we met die knoppen inzoomen op (of teruggaan door) de hiërarchie. In dit geval kunnen we vanuit *Verkoopfase* inzoomen op *Grootte van verkoopkans*, zoals u kunt zien in de volgende afbeelding, waar het pictogram voor **inzoomen op één niveau** (de stemvork) is geselecteerd.
 
 ![matrix met stemvork omkaderd](media/desktop-matrix-visual/power-bi-matrix-drill3.png)
 
