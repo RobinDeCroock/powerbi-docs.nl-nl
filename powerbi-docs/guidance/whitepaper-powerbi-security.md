@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 879f931797786ee1bb9f12a56323c50642716afb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 806869b10b52ff7c161484f3e8d38fbc61b85f60
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96398586"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961265"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -33,7 +33,7 @@ ms.locfileid: "96398586"
 
 **Power bi** is een online software service (_SaaS_ of software als een service) van micro soft waarmee u eenvoudig en snel Self-Service Business Intelligence-Dash boards, rapporten, gegevens sets en visualisaties kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
 
-De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trustcenter) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het Microsoft 365 compliantie raamwerk. Meer informatie over naleving in het [micro soft vertrouwens centrum](https://www.microsoft.com/trust-center/compliance/compliance-overview).
+De Power BI-service is onderworpen aan de [Microsoft Online Services-voorwaarden](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) en de [Microsoft Enterprise-privacyverklaring](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Raadpleeg de voorwaarden met betrekking tot de gegevensverwerkingslocatie in de Microsoft Online Services-voorwaarden voor informatie over de locatie waar de gegevens worden verwerkt. Het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trust-center/product-overview) is de primaire resource voor nalevingsinformatie met betrekking tot Power BI. Het Power BI-team doet er alles aan om klanten de nieuwste innovaties en productiviteit te bieden. Power BI bevindt zich momenteel in tier D van het Microsoft 365 compliantie raamwerk. Meer informatie over naleving in het [micro soft vertrouwens centrum](https://docs.microsoft.com/compliance/regulatory/offering-home).
 
 Dit artikel bevat informatie over Power BI-beveiliging aan de hand van een uitleg over de Power BI-architectuur. Er wordt uitgelegd hoe gebruikers worden geverifieerd bij Power BI en hoe gegevensverbindingen tot stand worden gebracht. Vervolgens wordt beschreven hoe met de Power BI-service gegevens worden opgeslagen en verplaatst. De laatste sectie is gewijd aan vragen met betrekking tot beveiliging, waarop tevens de antwoorden worden gegeven.
 
@@ -119,13 +119,13 @@ De volgende koppelingen bieden aanvullende informatie over Azure-datacenters.
 - [Azure-regio's](https://azure.microsoft.com/regions/): informatie over de wereldwijde aanwezigheid en locaties van Azure
 - [Azure-services per regio](https://azure.microsoft.com/regions/#services): een volledig overzicht van Azure-services (infrastructuurservices en platformservices) die door Microsoft in elke regio beschikbaar worden gesteld.
 
-Op dit moment is de Power BI-service beschikbaar in bepaalde regio's, zoals beschreven in het [vertrouwens centrum van micro soft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Via de volgende koppeling ziet u een overzicht van de Power BI-datacenters. Beweeg de cursor boven een regio om de hier gevestigde datacenters te zien:
+Op dit moment is de Power BI-service beschikbaar in bepaalde regio's, zoals beschreven in het [vertrouwens centrum van micro soft](https://www.microsoft.com/trust-center/product-overview). Via de volgende koppeling ziet u een overzicht van de Power BI-datacenters. Beweeg de cursor boven een regio om de hier gevestigde datacenters te zien:
 
 * [Power BI-datacenters](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)
 
 Microsoft biedt ook datacenters voor onafhankelijke clouds. Zie [Nationale Power BI-clouds](https://powerbi.microsoft.com/clouds/) voor meer informatie over de beschikbaarheid van de Power BI-service voor nationale clouds.
 
-Zie [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where) voor meer informatie over waar uw gegevens worden opgeslagen en hoe deze worden gebruikt. Toezeggingen over de locatie van data-at-rest van klanten zijn te vinden in de **voorwaarden voor gegevensverwerking** van de [voorwaarden voor Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
+Zie [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview) voor meer informatie over waar uw gegevens worden opgeslagen en hoe deze worden gebruikt. Toezeggingen over de locatie van data-at-rest van klanten zijn te vinden in de **voorwaarden voor gegevensverwerking** van de [voorwaarden voor Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
 
 ## <a name="user-authentication"></a>Gebruikersverificatie
 
