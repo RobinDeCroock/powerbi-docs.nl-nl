@@ -63,8 +63,6 @@
               href: power-bi-reports-filters-and-highlighting.md
             - name: High-densitysampling van lijnen
               href: desktop-high-density-sampling.md
-            - name: Over Q&A-visuals
-              href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Over toegankelijkheid
               href: desktop-accessibility-overview.md
             - name: Q&A in natuurlijke taal
@@ -320,7 +318,7 @@
               href: ../visuals/power-bi-visualization-waterfall-charts.md
         - name: Q&A in natuurlijke taal
           items:
-            - name: Q&A - visual
+            - name: Een Q&A-visual maken
               href: ../visuals/power-bi-visualization-q-and-a.md
             - name: Q&A trainen om te begrijpen
               href: ../natural-language/q-and-a-tooling-teach-q-and-a.md
