@@ -7,14 +7,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 04/27/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: a7f8c6d52acff8cbaaa00004448a3fae300afb9b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: cf056581c7c1f472e1e7ce20baf3d7afd8815bda
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411903"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886006"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Een rapport insluiten in een beveiligde portal of website
 
@@ -26,11 +26,11 @@ De optie **Insluiten** ondersteunt [URL-filters](service-url-filters.md) en URL-
 
 1. Open een rapport in de Power BI-service.
 
-2. Selecteer in het menu **Meer opties (...)** **Insluiten** >  **Website of portal**.
+2. Selecteer in het menu **Delen** de optie **Rapport insluiten** >  **Website of portal**.
 
     ![De optie website of portal](media/service-embed-secure/power-bi-more-options-website.png)
 
-2. Selecteer de optie **Insluiten** om een dialoogvenster te openen dat een koppeling en een iFrame bevat waarmee u het rapport veilig kunt insluiten.
+2. In het dialoogvenster **Ingesloten code beveiligen** selecteert u **de koppeling die u kunt gebruiken om deze inhoud in te sluiten** of de **HTML die u kunt plakken in uw blog of website** in een iFrame.
 
     ![Dialoogvenster met optie Insluiten](media/service-embed-secure/secure-embed-code-dialog.png)
 

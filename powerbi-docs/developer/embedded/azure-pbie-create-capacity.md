@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded-capaciteit maken in Azure Portal | Microsoft Docs
-description: Dit artikel biedt informatie over het maken van Power BI Embedded-capaciteit in Microsoft Azure.
+title: Power BI Embedded-capaciteit maken in Azure Portal voor uw ingesloten BI-oplossing voor ingesloten analyses in power BI
+description: Dit artikel biedt informatie over het maken van een Power BI Embedded-capaciteit in Microsoft Azure voor uw ingesloten BI-oplossing voor ingesloten analyses in Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 3ba075c33f689d76fb0c94aec09ed9fd309c718d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395136"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887518"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
@@ -115,7 +115,7 @@ Voor opdrachten voor de Power BI Embedded-capaciteit is versie 2.3.1 of later va
 
 ### <a name="create-a-capacity-with-azure-cli"></a>Een capaciteit maken met Azure CLI
 
-Gebruik de opdracht [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) om een capaciteit te maken.
+Gebruik de opdracht [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-create) om een capaciteit te maken.
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -127,7 +127,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Een capaciteit verwijderen met Azure CLI
 
-Gebruik de opdracht [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) om een capaciteit te verwijderen met Azure CLI.
+Gebruik de opdracht [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) om een capaciteit te verwijderen met Azure CLI.
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -136,7 +136,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Uw capaciteit beheren met Azure CLI
 
-In [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) kunt u alle Power BI Embedded Azure CLI-opdrachten zien.
+In [az powerbi](/cli/azure/ext/powerbidedicated/powerbi) kunt u alle Power BI Embedded Azure CLI-opdrachten zien.
 
 # <a name="arm-template"></a>[ARM-sjabloon](#tab/ARM-template)
 

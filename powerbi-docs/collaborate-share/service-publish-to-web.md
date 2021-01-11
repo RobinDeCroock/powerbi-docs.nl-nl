@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 76f45ac7aee01cb907e727bc8cb12a69bd234d72
-ms.sourcegitcommit: 513c4b884a58e1da2680579339c24c46091bbfb2
+ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96613872"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926855"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -50,18 +50,19 @@ In de volgende stappen wordt het gebruik van **Publiceren op internet** beschrev
 
    ![De waarschuwing bekijken](media/service-publish-to-web/publish_to_web3_ga.png)
 
-5. Er wordt een dialoogvenster met een koppeling weergegeven. Selecteer de koppeling om deze in een e-mailbericht te verzenden of kopieer de HTML. U kunt deze in code, zoals een iFrame, insluiten of rechtstreeks in een webpagina of blog plakken.
+5. In het dialoogvenster **Geslaagd** ziet u een voorbeeld van hoe het rapport eruit gaat zien. Selecteer de **Grootte** en **Standaardpagina**. 
+
+    U kunt ook een **tijdelijke afbeelding** toevoegen zodat de webpagina sneller kan worden geladen. Met een tijdelijke afbeelding zien mensen die uw rapport op internet bekijken een knop **Interactieve inhoud weergeven** die ze kunnen selecteren om het rapport zelf weer te geven. 
+
+    Breng deze wijzigingen eerst aan. Kopieer vervolgens de koppeling om deze in een e-mailbericht te verzenden of kopieer de HTML om deze in een website te plakken. U kunt deze in code, zoals een iFrame, insluiten of rechtstreeks in een webpagina of blog plakken.
 
    ![Geslaagd: een koppeling en HTML](media/service-publish-to-web/publish_to_web4.png)
 
-6. Als u eerder een invoegcode voor een rapport hebt gemaakt en u **Publiceren op Internet** selecteert, krijgt u de dialoogvensters in stap 2 tot en met 4 niet te zien. In plaats daarvan wordt het dialoogvenster **Invoegcode** weergegeven:
+6. Als u eerder een invoegcode voor een rapport hebt gemaakt en u **Publiceren op Internet** selecteert, krijgt u de dialoogvensters in stap 2 tot en met 4 niet te zien. In plaats daarvan wordt het dialoogvenster **Code insluiten** weergegeven.
 
    ![Het dialoogvenster Invoegcode](media/service-publish-to-web/publish_to_web5.png)
 
    U kunt slechts één invoegcode per rapport maken.
-
-Als u wijzigingen aanbrengt in het dialoogvenster, moet u de bijgewerkte URL of iFrame kopiëren om de bijgewerkte instellingen op uw pagina te gebruiken.
-
 
 ### <a name="tips-for-view-modes"></a>Tips voor weergavemodi
 
@@ -128,7 +129,7 @@ Een ervaring met intensief gebruik kan optreden wanneer een rapport in korte tij
 
 Het wordt aanbevolen een tijdelijke afbeelding voor uw rapport in te stellen. Bij intensief gebruik zien gebruikers de afbeelding van de tijdelijke aanduiding. 
 
-Beperk het aantal afzonderlijke query's dat in uw rapport kan worden gegenereerd en de frequentie waarmee gegevens moeten worden vernieuwd, om het intensieve gebruik te voorkomen.
+Beperk het aantal afzonderlijke query's dat in uw rapport kan worden gegenereerd en de frequentie waarmee gegevens moeten worden vernieuwd, om het intensieve gebruik te voorkomen. Raadpleeg de [Optimalisatiegids voor Power BI](../guidance/power-bi-optimization.md) voor tips om uw rapporten te stroomlijnen.
 
 ## <a name="power-bi-visuals"></a>Power BI-visuals
 

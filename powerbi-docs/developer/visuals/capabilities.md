@@ -1,6 +1,6 @@
 ---
-title: Mogelijkheden en eigenschappen van Power BI-visuals
-description: In dit artikel worden de mogelijkheden en eigenschappen van Power BI-visuals beschreven.
+title: Mogelijkheden en eigenschappen van Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel worden de mogelijkheden en eigenschappen van Power BI-visuals beschreven. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: e3af800696fd593f092cc46f9a59df2d0a5f94e2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: e0fb17053ff8e6d17321994d515d8b69dbe8e22b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380295"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888254"
 ---
 # <a name="capabilities-and-properties-of-power-bi-visuals"></a>Mogelijkheden en eigenschappen van Power BI-visuals 
 

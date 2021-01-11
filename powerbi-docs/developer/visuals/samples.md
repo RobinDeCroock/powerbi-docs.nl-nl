@@ -1,6 +1,6 @@
 ---
-title: Voorbeelden van Power BI-visuals
-description: In dit artikel vindt u voorbeelden van Power BI-visuals, waaronder slicers, meer dan 20 typen grafieken, WebGL en R-visuals en -scripts.
+title: Samples van Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel vindt u voorbeelden van Power BI-visuals, waaronder slicers, meer dan 20 typen grafieken, WebGL en R-visuals en -scripts. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/17/2019
-ms.openlocfilehash: 076ad6549cb68660313dcd8da5ccf8eb1f8f26c7
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 3da805a10a8b43dc7b1f1750583a79494557d519
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049149"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888484"
 ---
 # <a name="samples-of-power-bi-visuals"></a>Voorbeelden voor Power BI-visuals
 

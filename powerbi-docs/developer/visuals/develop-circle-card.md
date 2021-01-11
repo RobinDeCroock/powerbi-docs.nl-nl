@@ -1,6 +1,6 @@
 ---
-title: Leer hoe u zelf een visual ontwikkelt in Power BI met een visual van een cirkelkaart als voorbeeld
-description: In deze zelfstudie wordt uitgelegd hoe u een Power BI-visual ontwikkelt
+title: Meer informatie over het ontwikkelen van uw eigen Power BI-visual met behulp van de visual van een cirkelkaart als voorbeeld in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In deze zelfstudie wordt uitgelegd hoe u een Power BI-visual ontwikkelt. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 09/02/2020
-ms.openlocfilehash: ff73c07fb08e80938fae34c19205885722c33672
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0bfc36a37dbcc4c595ea467eb3b365c30d4ed781
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418711"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885632"
 ---
 # <a name="tutorial-develop-a-power-bi-circle-card-visual"></a>Zelfstudie: Een visual van een cirkelkaart ontwikkelen in Power BI
 

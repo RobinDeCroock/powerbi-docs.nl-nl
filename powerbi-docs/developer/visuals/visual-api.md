@@ -1,6 +1,6 @@
 ---
-title: Visual API
-description: In dit artikel wordt beschreven hoe u IVisual API gebruikt voor Power BI-visuals
+title: Visual-API in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u Visual-API gebruikt voor Power BI-visuals. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/19/2020
-ms.openlocfilehash: 6ec30fdd4812427ae855ff9a167d946d2a415c28
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7b81ecfa1b97b202b6c1ff306cf858f2ea00acde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83302961"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888530"
 ---
 # <a name="visual-api"></a>Visual API
 Alle visuals beginnen met een klasse die de interface `IVisual` implementeert. U kunt de klasse elke gewenste naam geven, zolang er maar één klasse is die de interface `IVisual` implementeert.

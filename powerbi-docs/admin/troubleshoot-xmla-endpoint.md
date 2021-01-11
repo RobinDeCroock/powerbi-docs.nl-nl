@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 11/16/2020
+ms.date: 01/04/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: ca9dd1b18fb037013e6d1d5c6e6c3510065068b4
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 191cf3ce71ca30f257276df78ad43cdb2e49a1e1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413283"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886074"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -151,7 +151,7 @@ Executing the query ...
 Error -1052311437:
 ```
 
-Deze fout treedt op omdat de clientbibliotheken die zijn geïnstalleerd met SQL Server Management Studio v18.7.1, geen ondersteuning bieden voor sessietracering. Dit probleem is opgelost in een volgende versie van SQL Server Management Studio.
+Deze fout treedt op omdat de clientbibliotheken die zijn geïnstalleerd met SQL Server Management Studio v18.7.1, geen ondersteuning bieden voor sessietracering. Dit probleem wordt opgelost in SQL Server Management Studio 18.8 en hoger. [Download de nieuwste SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms).
 
 ### <a name="refresh-operations"></a>Bewerkingen vernieuwen
 
@@ -168,7 +168,51 @@ Date (UTC): 11/13/2020 7:57:16 PM
 Run complete
 ```
 
-Dit wordt veroorzaakt door een bekend probleem in de clientbibliotheken waarbij de status van de vernieuwingsaanvraag onjuist wordt bijgehouden. Dit probleem is opgelost in een volgende versie van SQL Server Management Studio.
+Dit wordt veroorzaakt door een bekend probleem in de clientbibliotheken waarbij de status van de vernieuwingsaanvraag onjuist wordt bijgehouden. Dit probleem wordt opgelost in SQL Server Management Studio 18.8 en hoger. [Download de nieuwste SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms).
+
+## <a name="editing-role-memberships-in-ssms"></a>Rollidmaatschappen bewerken in SQL Server Management Studio
+
+Bij gebruik van de SQL Server Management Studio (SSMS) v18.8 voor het bewerken van een rollidmaatschap voor een gegevensset, wordt mogelijk de volgende fout weergegeven in SSMS:
+
+```
+Failed to save modifications to the server. 
+Error returned: ‘Metadata change of current operation cannot be resolved, please check the command or try again later.’ 
+```
+
+Dit wordt veroorzaakt door een bekend probleem in de REST API van de app-services. Dit probleem wordt opgelost in een volgende versie. In de tussentijd kunt u als tijdelijke oplossing in **Eigenschappen van rol** klikken op **Script** en vervolgens de volgende TMSL-opdracht invoeren en uitvoeren:
+
+```json
+{ 
+  "createOrReplace": { 
+    "object": { 
+      "database": "AdventureWorks", 
+      "role": "Role" 
+    }, 
+    "role": { 
+      "name": "Role", 
+      "modelPermission": "read", 
+      "members": [ 
+        { 
+          "memberName": "xxxx", 
+          "identityProvider": "AzureAD" 
+        }, 
+        { 
+          "memberName": “xxxx” 
+          "identityProvider": "AzureAD" 
+        } 
+      ] 
+    } 
+  } 
+} 
+```
+
+## <a name="publish-error---live-connected-dataset"></a>Publicatiefout - Live verbonden gegevensset
+
+Bij het opnieuw publiceren van een live verbonden gegevensset met behulp van de Analysis Services-connector wordt mogelijk de volgende fout weergegeven:
+
+:::image type="content" source="media/troubleshoot-xmla-endpoint/couldnt-publish-to-power-bi.png" alt-text="Fout bij het publiceren in Power BI.":::
+
+Zoals vermeld in het foutbericht, moet u de bestaande gegevensset verwijderen of de naam ervan wijzigen om dit probleem op te lossen. Zorg er ook voor dat u alle apps die afhankelijk zijn van het rapport opnieuw publiceert. Als dat nodig is, moeten downstreamgebruikers ook worden geïnformeerd dat ze bladwijzers moeten bijwerken met het nieuwe rapportadres om ervoor te zorgen dat ze toegang hebben tot het nieuwste rapport.  
 
 ## <a name="see-also"></a>Zie ook
 

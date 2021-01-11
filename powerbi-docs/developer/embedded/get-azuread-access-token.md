@@ -1,6 +1,6 @@
 ---
-title: Gebruikers verifiëren en een Azure AD-toegangstoken ophalen voor uw toepassing
-description: Informatie over het registreren van een toepassing in Azure Active Directory voor gebruik met ingesloten Power BI-inhoud.
+title: Gebruikers verifiëren en een Azure AD-toegangstoken verkrijgen voor uw toepassing voor ingesloten analyses in Power BI om de ingesloten BI-ervaring voor klanten te verbeteren
+description: Informatie over het registreren van een toepassing in Azure Active Directory voor gebruik met ingesloten Power BI-inhoud. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: cb7c874fc68da361971c34879f2ea44006402bf4
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 8001dd0e15ef713fa67256a45f645b0d7a0890c0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906929"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888438"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Een Azure AD-toegangstoken ophalen voor uw Power BI-toepassing
 
@@ -208,4 +208,4 @@ Foutbericht: 'AuthenticationContext' doesn't contain a definition for 'AcquireTo
 
 Nu u het toegangstoken hebt, kunt u de Power BI REST API aanroepen om inhoud in te sluiten.
 
-Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).

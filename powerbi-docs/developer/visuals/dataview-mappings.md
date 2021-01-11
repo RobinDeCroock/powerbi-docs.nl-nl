@@ -1,6 +1,6 @@
 ---
-title: Informatie over toewijzing van gegevensweergaven in Power BI-visuals
-description: In dit artikel wordt beschreven hoe Power BI gegevens transformeert voordat deze worden doorgegeven aan visuals.
+title: Inzicht in de toewijzing van de gegevensweergave in Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe Power BI gegevens transformeert voordat deze worden doorgegeven aan visuals. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
-ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
+ms.openlocfilehash: 063750445f3c8ef1fb50f77535ccf01295bd45ec
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91635948"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885655"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Informatie over toewijzing van gegevensweergaven in Power BI-visuals
 

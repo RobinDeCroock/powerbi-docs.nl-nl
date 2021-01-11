@@ -1,6 +1,6 @@
 ---
-title: Multi-Geo-ondersteuning voor ingesloten analyses in Power BI
-description: Lees hoe u inhoud kunt implementeren naar datacenters in andere regio's dan de basisregio van Power BI Embedded.
+title: Ondersteuning voor meerdere geografisch gebieden voor ingesloten analyses in Power BI om betere ingesloten BI-inzichten mogelijk te maken
+description: Meer informatie over het implementeren van inhoud in datacentrums in andere regio's dan de basisregio van uw oplossing voor ingesloten analyses in Power BI. Gebruik ondersteuning voor meerdere geografische gebieden om betere ingesloten BI-inzichten mogelijk te maken.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 1868bab823408377ab600146b21592d902b59ff6
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4b9aacb460966f633161238cae82ba6731196ed4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098094"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888277"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Ondersteuning voor Multi-Geo voor Power BI Embedded
 

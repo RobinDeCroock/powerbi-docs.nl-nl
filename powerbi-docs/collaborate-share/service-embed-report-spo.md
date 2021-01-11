@@ -9,13 +9,13 @@ ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 LocalizationGroup: Share your work
-ms.date: 06/28/2020
-ms.openlocfilehash: 6a1f8a69db20d44fc814c7e63e4ad13ed5fc955c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/04/2021
+ms.openlocfilehash: e4d31a7bf83d4e94e2f3b71ca43924d468268f76
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407372"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888397"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>Een rapportwebonderdeel insluiten in SharePoint Online
 
@@ -32,16 +32,16 @@ Voor een goede werking van **Insluiten in SharePoint Online**-rapporten werken, 
 * Als u een ingesloten rapport wilt gebruiken, moeten gebruikers zich aanmelden bij Power BI-service om de Power BI-licentie te activeren.
 
 > [!Note]
-> Voor organisaties in nationale Power BI-clouds bestaat er geen gratis licentie. In deze omgeving moeten alle gebruikers die toegang willen tot het ingesloten rapport in Sharepoint een Power BI Pro-licentie hebben.
+> Voor organisaties in nationale Power BI-clouds is er geen gratis licentie. In deze omgeving moeten alle gebruikers die toegang willen tot het ingesloten rapport in Sharepoint een Power BI Pro-licentie hebben.
 
 ## <a name="embed-your-report"></a>Uw rapport insluiten
 Als u uw rapport in SharePoint Online wilt insluiten, moet u de rapport-URL ophalen en deze gebruiken in het Power BI-webonderdeel van SharePoint Online.
 
 ### <a name="get-a-report-url"></a>Een rapport-URL ophalen
 
-1. Geef het rapport weer in Power BI.
+1. Open een rapport in de Power BI-service.
 
-2. Selecteer in het vervolgkeuzemenu **Meer opties (...)** **Insluiten** > **SharePoint Online**.
+2. Selecteer in het menu **Delen** de optie **Rapport insluiten** > **SharePoint Online**.
 
     ![Menu Meer opties, SharePoint Online](media/service-embed-report-spo/power-bi-more-options-sharepoint-online.png)
 

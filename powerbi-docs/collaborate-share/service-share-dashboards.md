@@ -8,21 +8,21 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 06/26/2020
+ms.date: 01/04/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7a85021ee1931b2d5f7c247d7caa4c2813f86a8c
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: 1069a000daf3f46055f45118f4442e4b19037234
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621597"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926751"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Power BI-dashboards en -rapporten delen met collega's en anderen
 *Delen* is de eenvoudigste manier om personen toegang te geven tot uw dashboards en rapporten in de Power BI-service. U kunt delen met personen binnen of buiten uw organisatie.
 
 Wanneer u een dashboard of rapport deelt, kunnen de personen met wie u het deelt ernaar kijken en er interactie mee hebben, maar ze kunnen het niet bewerken. Ze zien dezelfde gegevens die u ziet in het dashboard en rapporten en hebben toegang tot de hele onderliggende gegevensset, tenzij beveiliging op rijniveau wordt toegepast op de onderliggende gegevensset.  De collega's met wie u het dashboard of rapport deelt, kunnen het ook weer met hun collega's delen, maar alleen als u dat toestaat. De personen buiten uw organisatie kunnen het dashboard of rapport bekijken en er interactie mee hebben, maar ze kunnen het niet delen. 
 
-![Pictogram Delen in een lijst van dashboards](media/service-share-dashboards/power-bi-share-new-look.png)
+![Het deelpictogram voor een rapport](media/service-share-dashboards/power-bi-share-new-look.png)
 
 U kunt dashboards en rapporten delen vanaf veel plaatsen in de Power BI-service: Favorieten, Recent, Mijn werkruimte. U kunt ook delen vanuit andere werkruimten, als u de rol van [beheerder, lid of inzender hebt](service-new-workspaces.md#roles-in-the-new-workspaces) in de werkruimte. En u kunt dashboards en rapporten delen in Met mij gedeeld, als de eigenaar dit toestaat. 
 

@@ -1,6 +1,6 @@
 ---
-title: Inleiding tot het gebruik van hulpprogramma's voor kleur in een Power BI-visual
-description: In dit artikel wordt beschreven hoe u met hulpprogramma's voor kleur het toepassen van thema's en paletten op gegevenspunten van visuals in Power BI-visuals vereenvoudigt
+title: Inleiding tot het gebruik van kleurhulpmiddelen in een Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u met hulpprogramma's voor kleur het toepassen van thema's en paletten op gegevenspunten van visuals in Power BI-visuals vereenvoudigt. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 8de530871739a18c1afc72cee3e0da5fc70ebb16
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc75188d806d653766860b2fada9028477a75f71
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379347"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887840"
 ---
 # <a name="color-utils"></a>Kleurhulpmiddelen
 Dit artikel helpt u bij het installeren, importeren en gebruiken van hulpprogramma's voor kleur. In dit artikel wordt beschreven hoe u met hulpprogramma's voor kleur het toepassen van thema's en paletten op gegevenspunten van visuals in Power BI-visuals vereenvoudigt.
@@ -210,7 +210,7 @@ export class MyVisual implements IVisual {
  De module biedt de volgende functies:
 
 * [hexToRGBString](#hextorgbstring)
-* [rotate](#rotate)
+* [draaien](#rotate)
 * [parseColorString](#parsecolorstring)
 * [calculateHighlightColor](#calculatehighlightcolor)
 * [createLinearColorScale](#createlinearcolorscale)
@@ -236,7 +236,7 @@ hexToRGBString('#112233');
 // returns: "rgb(17,34,51)"
 ```
 
-### <a name="rotate"></a>rotate
+### <a name="rotate"></a>draaien
 RGB-kleur wordt gedraaid.
 
 ```typescript

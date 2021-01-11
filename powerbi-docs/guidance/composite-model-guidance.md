@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 12/24/2019
-ms.openlocfilehash: 53c0af04a76d4cf8cfacd49002434ecbc246fbe8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e4ddc487f81835edfdc5ad8a4074a91204ee0336
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394377"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884781"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Richtlijnen voor samengestelde modellen in Power BI Desktop
 
@@ -54,8 +54,8 @@ In een samengesteld model kunt u de opslagmodus voor elke tabel configureren (me
 Er zijn verschillende scenario's mogelijk waarin Power BI een query uitvoert op een samengesteld model:
 
 - **Alleen query's op een of meer import- of dual-tabellen**: Alle gegevens worden opgehaald uit de modelcache. Dit biedt de snelst mogelijke prestaties. Dit scenario is gebruikelijk voor dimensietypetabellen die worden bevraagd met behulp van filters of slicervisualisaties.
-- **Query's op een of meer dual- of DirectQuery-tabellen uit dezelfde bron**: Alle gegevens worden opgehaald door een of meer native query's te verzenden naar de DirectQuery-bron. Dit biedt de snelst mogelijke prestaties, met name wanneer de juiste indexen bestaan voor de brontabellen. Dit scenario is gebruikelijk voor query's waarbij dual-dimensietypetabellen en DirectQuery-feitentabellen worden gekoppeld. Deze query's zijn _intra-eiland_ en dus worden alle een-op-een- of een-op-veel-relaties geëvalueerd als [reguliere relaties](../transform-model/desktop-relationships-understand.md#regular-relationships).
-- **Alle overige query's**: Deze query's omvatten relaties tussen eilanden. De reden hiervoor is dat een importtabel is gekoppeld aan een DirectQuery-tabel of een dual-tabel aan een DirectQuery-tabel vanuit een andere bron. In het laatste geval gedraagt de tabel zich als een importtabel. Alle relaties worden geëvalueerd als [beperkte relaties](../transform-model/desktop-relationships-understand.md#limited-relationships). Het betekent ook dat groeperingen die worden toegepast op niet-DirectQuery-tabellen, als een virtuele tabel moeten worden verzonden naar de DirectQuery-bron. In dit geval kan de native query inefficiënt zijn, met name voor grote groepeersets. Bovendien bestaat de kans dat er gevoelige gegevens worden blootgesteld in de native query.
+- **Query's op een of meer dual- of DirectQuery-tabellen uit dezelfde bron**: Alle gegevens worden opgehaald door een of meer native query's te verzenden naar de DirectQuery-bron. Dit biedt de snelst mogelijke prestaties, met name wanneer de juiste indexen bestaan voor de brontabellen. Dit scenario is gebruikelijk voor query's waarbij dual-dimensietypetabellen en DirectQuery-feitentabellen worden gekoppeld. Deze query's zijn _binnen een brongroep_, dus worden alle een-op-een- of een-op-veel-relaties geëvalueerd als [gewone relaties](../transform-model/desktop-relationships-understand.md#regular-relationships).
+- **Alle overige query's**: Deze query's omvatten relaties tussen meerdere brongroepen. De reden hiervoor is dat een importtabel is gekoppeld aan een DirectQuery-tabel of een dual-tabel aan een DirectQuery-tabel vanuit een andere bron. In het laatste geval gedraagt de tabel zich als een importtabel. Alle relaties worden geëvalueerd als [beperkte relaties](../transform-model/desktop-relationships-understand.md#limited-relationships). Het betekent ook dat groeperingen die worden toegepast op niet-DirectQuery-tabellen, als een virtuele tabel moeten worden verzonden naar de DirectQuery-bron. In dit geval kan de native query inefficiënt zijn, met name voor grote groepeersets. Bovendien bestaat de kans dat er gevoelige gegevens worden blootgesteld in de native query.
 
 Kort samengevat, adviseren wij het volgende:
 

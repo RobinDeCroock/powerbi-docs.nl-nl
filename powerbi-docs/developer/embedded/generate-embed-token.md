@@ -1,6 +1,6 @@
 ---
-title: Overwegingen voor het genereren van een insluittoken in ingesloten analyses voor Power BI
-description: Lees hier meer over de overwegingen, beperkingen en vereiste machtigingen voor het genereren van een insluittoken
+title: Overwegingen voor het genereren van een insluittoken in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Meer informatie over de overwegingen, beperkingen en vereiste machtigingen voor het genereren van een insluittoken. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 10/15/2020
-ms.openlocfilehash: 45a88d93e7ac5a63b269350451f39991ba153dd5
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 2f8da415b40bc5d9a621e5a0df8c1edffbbc8791
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098025"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886851"
 ---
 # <a name="considerations-when-generating-an-embed-token"></a>Overwegingen bij het genereren van een insluittoken
 

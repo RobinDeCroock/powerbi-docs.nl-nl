@@ -1,6 +1,6 @@
 ---
-title: Gegevens naar een gegevensset pushen
-description: Gegevens naar een Power BI-gegevensset pushen
+title: Gegevens in een gegevensset pushen naar ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Push gegevens naar een Power BI-gegevensset. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/22/2019
-ms.openlocfilehash: 792afe42cf302ae552b7f8f1c14d5f232ade320f
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 3c5805f4d498e8e2d8a788c5703a09a8109e024b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746695"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887426"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Gegevens naar een Power BI-gegevensset pushen
 
@@ -23,10 +23,10 @@ Voordat u aan de slag gaat, hebt u een Azure Active Directory (Azure AD) en een 
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Stappen om gegevens naar een gegevensset te pushen
 
-* Stap 1: [Register an app with Azure AD](../embedded/register-app.md) (Een app bij Azure AD registreren)
-* Stap 2: [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)
+* Stap 1: [Een app bij Azure AD registreren](../embedded/register-app.md)
+* Stap 2: [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md)
 * Stap 3: [Create a dataset in Power BI](walkthrough-push-data-create-dataset.md) (Een gegevensset maken in Power BI)
-* Stap 4: [Get a dataset to add rows into a Power BI table](walkthrough-push-data-get-datasets.md) (Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel)
+* Stap 4: [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md)
 * Stap 5: [Add rows to a Power BI table](walkthrough-push-data-add-rows.md) (Rijen toevoegen aan een Power BI-tabel)
 
 Het volgende gedeelte bevat een algemene bespreking van Power BI API-bewerkingen die gegevens pushen.
@@ -60,7 +60,7 @@ De JSON-tekenreeks voor een gegevensset heeft de volgende indeling:
 }
 ```
 
-Voor de voorbeeldgegevensset Sales Marketing moet u een JSON-tekenreeks doorgeven zoals hieronder wordt weergegeven. In dit voorbeeld is **SalesMarketing** de naam van de gegevensset en **Product** is de naam van de tabel. Nadat u de tabel hebt gedefinieerd, definieert u het tabelschema. Voor de gegevensset **SalesMarketing** bevat het tabelschema de volgende kolommen: ProductID, Manufacturer, Category, Segment, Product en IsCompete.
+Voor de voorbeeldgegevensset Sales Marketing moet u een JSON-tekenreeks doorgeven zoals hieronder wordt weergegeven. In dit voorbeeld is **SalesMarketing** de naam van de gegevensset en **Product** is de naam van de tabel. Nadat u de tabel hebt gedefinieerd, definieert u het tabelschema. Voor de gegevensset **SalesMarketing** heeft het tabelschema deze kolommen: ProductID, Manufacturer, Category, Segment, Product en IsCompete.
 
 **Voorbeeld van JSON-object voor gegevensset**
 
@@ -108,8 +108,8 @@ Voor een Power BI-tabelschema kunt u de volgende gegevenstypen gebruiken.
 | **Gegevenstype** | **Beperkingen** |
 | --- | --- |
 | Int64 |Int64.MaxValue en Int64.MinValue zijn niet toegestaan. |
-| Double |Double.MaxValue en Double.MinValue zijn niet toegestaan. NaN wordt niet ondersteund. +Infinity en -Infinity worden niet ondersteunt door sommige functies (bijvoorbeeld Min, Max). |
-| Boolean |Geen |
+| Dubbel |Double.MaxValue en Double.MinValue zijn niet toegestaan. NaN wordt niet ondersteund. +Infinity en -Infinity worden niet ondersteunt door sommige functies (bijvoorbeeld Min, Max). |
+| Booleaans |Geen |
 | Datum/tijd |Tijdens het laden van gegevens worden waarden met breuken voor de dag afgerond tot veelvouden van 1/300 seconde (3,33 ms). |
 | Tekenreeks |Momenteel zijn maximaal 128.000 tekens toegestaan. |
 

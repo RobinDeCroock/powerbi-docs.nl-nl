@@ -1,6 +1,6 @@
 ---
-title: Uw Power BI Embedded-capaciteit onderbreken en starten in Azure Portal | Microsoft Docs
-description: Dit artikel biedt informatie over het onderbreken en starten van Power BI Embedded-capaciteit in Microsoft Azure.
+title: Uw Power BI Embedded-capaciteit onderbreken en starten in Azure Portal voor uw ingesloten BI-oplossing voor ingesloten analyses in Power BI
+description: Dit artikel biedt informatie over het onderbreken en starten van een Power BI Embedded-capaciteit in Microsoft Azure bij gebruik van uw ingesloten BI-oplossing voor ingesloten analyses in Power BI.
 author: KesemSharabi
 ms.author: kesharab
 services: power-bi-embedded
@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 09/28/2017
-ms.openlocfilehash: 71d3536cdcda5c1b2970385887388ea60b4290af
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 0868d63f83f42bcfa9f394e782ffab56746e23cc
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417308"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887334"
 ---
 # <a name="pause-and-start-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Uw Power BI Embedded-capaciteit onderbreken en starten in Azure Portal
 

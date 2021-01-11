@@ -1,6 +1,6 @@
 ---
-title: Local Storage API in Power BI Visuals
-description: In het artikel wordt beschreven hoe u de Power BI Visuals API gebruikt om toegang te krijgen tot de lokale opslag van de browser
+title: De API voor lokale opslag in Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In het artikel wordt beschreven hoe u de API voor Power BI-visuals gebruikt om toegang te krijgen tot de lokale opslag van de browser. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 01/21/2019
-ms.openlocfilehash: e2cb11ea9be85916e6b5557e7933f6a6b5a7159a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: abec68c5622d3dcd96746148ed7a6da4f06c8ec0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380589"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888185"
 ---
 # <a name="local-storage-api"></a>Local Storage API
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 32e6cccf738d85ed58922c199c3a6093a54019db
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413789"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888568"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Modelrelaties in Power BI Desktop
 
@@ -146,21 +146,21 @@ Allereerst is het belangrijk dat u enige theoretische kennis over modellen hebt 
 
 Een Import- of DirectQuery-model haalt alle gegevens uit de Vertipaq-cache of de brondatabase. In beide gevallen kan Power BI bepalen dat er een 'een'-zijde van een relatie bestaat.
 
-Een samengesteld model kan echter bestaan uit tabellen die gebruikmaken van verschillende opslagmodi (Import, DirectQuery of Dual), of meerdere DirectQuery-bronnen. Elke bron, met inbegrip van de Vertipaq-cache voor Import-gegevens, wordt beschouwd als een _gegevenseiland_. Modelrelaties kunnen vervolgens worden geclassificeerd als _intra-eiland_ of _kruis-eiland_. Met een intra-eilandrelatie worden twee tabellen in een gegevenseiland gekoppeld, terwijl een kruis-eilandrelatie tabellen uit verschillende gegevenseilanden verbindt. Houd er rekening mee dat relaties in Import- of DirectQuery-modellen altijd intra-eiland zijn.
+Een samengesteld model kan echter bestaan uit tabellen die gebruikmaken van verschillende opslagmodi (Import, DirectQuery of Dual), of meerdere DirectQuery-bronnen. Elke bron, met inbegrip van de Vertipaq-cache voor Import-gegevens, wordt beschouwd als een _brongroep_. Modelrelaties kunnen vervolgens worden geclassificeerd als _binnen een brongroep_ of _tussen meerdere brongroepen_. Een relatie binnen een brongroep is er een die verwijst naar twee tabellen binnen een brongroep, terwijl een relatie tussen meerdere brongroepen verwijst naar tabellen van verschillende brongroepen. Houd er rekening mee dat relaties in Import- of DirectQuery-modellen altijd binnen een brongroep zijn.
 
 Laten we een voorbeeld van een samengesteld model bekijken.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee eilanden.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee brongroepen.":::
 
-In dit voor beeld bestaat het samengestelde model uit twee eilanden: een Vertipaq-gegevenseiland en een DirectQuery-brongegevenseiland. Het Vertipaq-gegevenseiland bevat drie tabellen en het DirectQuery-brongegevenseiland bevat twee tabellen. Er bestaat één kruis-eilandrelatie om een tabel in het Vertipaq-gegevenseiland te koppelen aan een tabel in het DirectQuery-brongegevenseiland.
+In dit voorbeeld bestaat het samengestelde model uit twee brongroepen: een Vertipaq-brongroep en een DirectQuery-brongroep. De Vertipaq-brongroep bevat drie tabellen en de DirectQuery-brongroep bevat twee tabellen. Er bestaat één relatie tussen meerdere brongroepen om een tabel in de Vertipaq-brongroep te koppelen aan een tabel in de DirectQuery-brongroep.
 
 ### <a name="regular-relationships"></a>Gewone relaties
 
-Een modelrelatie is _gewoon_ wanneer de query-engine de 'een'-zijde van de relatie kan bepalen. Er wordt bevestigd dat de 'een'-zijde enkele waarden bevat. Alle een-op-veel-relaties binnen eilanden zijn een gewone relatie.
+Een modelrelatie is _gewoon_ wanneer de query-engine de 'een'-zijde van de relatie kan bepalen. Er wordt bevestigd dat de 'een'-zijde enkele waarden bevat. Alle een-op-veel-relaties binnen brongroepen zijn gewone relaties.
 
-Het volgende voorbeeld bevat twee gewone relaties, gemarkeerd met een **R**. Deze relaties zijn de een-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie in de DirectQuery-bron.
+Het volgende voorbeeld bevat twee gewone relaties, gemarkeerd met een **R**. Deze relaties zijn de een-op-veel-relatie in de Vertipaq-brongroep en de een-op-veel-relatie in de DirectQuery-bron.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-regular.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de gewone relaties zijn gemarkeerd.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-regular.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee brongroepen waarbij de gewone relaties zijn gemarkeerd.":::
 
 Bij Import-modellen, waarbij alle gegevens worden opgeslagen in de Vertipaq-cache, wordt bij het vernieuwen van gegevens een gegevensstructuur gemaakt voor elke gewone relatie. De gegevensstructuren bestaan uit geïndexeerde toewijzingen van alle kolom-naar-kolom-waarden. Het doel hiervan is het koppelen van tabellen tijdens het uitvoeren van query's te versnellen.
 
@@ -171,7 +171,7 @@ Bij het uitvoeren van query's kunnen _tabeluitbreidingen_ worden uitgevoerd voor
 
 Bij een-op-veel-relaties vindt tabeluitbreiding plaats van de 'veel'-zijde naar de 'een'-zijde door gebruik te maken van de semantiek van LEFT OUTER JOIN. Als er geen overeenkomende waarde bestaat tussen de 'veel'-zijde en de 'een'-zijde, wordt er een lege virtuele rij toegevoegd aan de 'een'-zijde van de tabel.
 
-Tabeluitbreidingen vinden ook plaats voor een-op-een-relaties binnen eilanden, maar met behulp van de semantiek FULL OUTER JOIN. Het zorgt ervoor dat lege virtuele rijen aan beide zijden worden toegevoegd als dat nodig is.
+Tabeluitbreidingen vinden ook plaats voor een-op-een-relaties binnen brongroepen, maar met behulp van de semantiek FULL OUTER JOIN. Het zorgt ervoor dat lege virtuele rijen aan beide zijden worden toegevoegd als dat nodig is.
 
 De lege virtuele rijen worden _onbekende leden_. Onbekende leden vertegenwoordigen schendingen van referentiële integriteit, waarbij de 'veel'-zijde geen bijbehorende waarde heeft aan de 'een'-zijde. In het ideale geval zijn deze lege items niet aanwezig en ze kunnen worden verwijderd door de brongegevens op te schonen of te herstellen.
 
@@ -186,11 +186,11 @@ In dit voorbeeld bestaat het model uit drie tabellen: **Categorie**, **Product**
 Een model relatie is _beperkt_ wanneer er geen gegarandeerde 'een'-zijde is. Dit kan twee oorzaken hebben:
 
 - De relatie maakt gebruik van het type kardinaliteit veel-op-veel (zelfs als een of beide kolommen enkele waarden bevatten)
-- Het is een kruis-eilandrelatie (wat alleen het geval kan zijn bij gecombineerde modellen)
+- Het is een relatie tussen meerdere brongroepen (wat alleen het geval kan zijn bij gecombineerde modellen)
 
-Het volgende voorbeeld bevat twee beperkte relaties, gemarkeerd met een **L**. Deze twee relaties zijn de veel-op-veel-relatie in het Vertipaq-eiland en de een-op-veel-relatie tussen eilanden in de DirectQuery-bron.
+Het volgende voorbeeld bevat twee beperkte relaties, gemarkeerd met een **L**. Deze twee relaties zijn de veel-op-veel-relatie in de Vertipaq-brongroep en de een-op-veel-relatie tussen verschillende brongroepen.
 
-:::image type="content" source="media/desktop-relationships-understand/data-island-example-limited.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee eilanden waarbij de beperkte relaties zijn gemarkeerd.":::
+:::image type="content" source="media/desktop-relationships-understand/source-group-example-limited.png" alt-text="Voorbeeld van een samengesteld model dat bestaat uit twee brongroepen waarbij de beperkte relaties zijn gemarkeerd.":::
 
 Bij Import-modellen worden nooit gegevensstructuren voor beperkte relaties gemaakt. Dit betekent dat tabelsamenvoegingen moeten worden opgelost tijdens het uitvoeren van de query.
 
@@ -202,7 +202,7 @@ Er gelden extra beperkingen voor beperkte relaties:
 - Het afdwingen van beveiliging op rijniveau heeft topologische beperkingen
 
 > [!NOTE]
-> In de modelweergave van Power BI Desktop is het niet altijd mogelijk om te bepalen of een modelrelatie gewoon of beperkt is. Een veel-op-veel-relatie is altijd beperkt, evenals een een-op-veel-relatie wanneer het een kruis-eilandrelatie is. Als u wilt bepalen of er sprake is van een kruis-eilandrelatie, moet u de opslagmodi en gegevensbronnen van de tabel controleren om de juiste conclusie te kunnen trekken.
+> In de modelweergave van Power BI Desktop is het niet altijd mogelijk om te bepalen of een modelrelatie gewoon of beperkt is. Een veel-op-veel-relatie wordt altijd beperkt, evenals een een-op-veel-relatie wanneer het een relatie tussen meerdere brongroepen is. Als u wilt bepalen of er sprake is van een relatie tussen meerdere brongroepen, moet u de opslagmodi en gegevensbronnen van de tabel controleren om de juiste conclusie te kunnen trekken.
 
 ### <a name="precedence-rules"></a>Prioriteitsregels
 
@@ -216,10 +216,10 @@ Bidirectionele relaties kunnen leiden tot meerdere, en daardoor dubbelzinnige pa
 
 De volgende lijst geeft een overzicht van de prestaties bij het doorgeven van filters, van de snelste tot de langzaamste prestaties:
 
-1. Een-op-veel-relaties binnen een eiland
+1. Een-op-veel-relatie binnen een brongroep
 2. Veel-op-veel-kardinaliteitsrelaties
 3. Veel-op-veel-modelrelaties die tot stand zijn gebracht met een intermediaire tabel en die ten minste één bidirectionele relatie bevatten
-4. Relaties tussen eilanden
+4. Relaties tussen meerdere brongroepen
 
 ## <a name="next-steps"></a>Volgende stappen
 

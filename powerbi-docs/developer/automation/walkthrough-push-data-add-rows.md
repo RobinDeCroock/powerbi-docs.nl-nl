@@ -1,6 +1,6 @@
 ---
-title: Rijen toevoegen aan een tabel
-description: 'Stappen om gegevens te pushen: rijen toevoegen aan een Power BI-tabel'
+title: Rijen toevoegen aan een tabel in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: 'Stappen om gegevens te pushen: voeg rijen toe aan een Power BI-tabel. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.'
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: b34bc292d832938f34766ef94c5d9addd7b9e271
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748374"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887541"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Stap 5: Rijen toevoegen aan een Power BI-tabel
 

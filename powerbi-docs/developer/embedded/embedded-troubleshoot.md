@@ -1,6 +1,6 @@
 ---
-title: Problemen oplossen met de in Power BI ingesloten analysetoepassing
-description: In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI.
+title: Problemen met de toepassing voor ingesloten analyses in Power BI oplossen voor betere ingesloten BI-inzichten
+description: In dit artikel worden enkele veelvoorkomende problemen besproken die kunnen optreden tijdens het insluiten van inhoud uit Power BI. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: f46bdf5aec254763257fa4b121b4b8c135a0d58a
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: db2ae20436eddc4cb06287b6266488b65588dcb5
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098071"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887196"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Problemen oplossen met uw ingesloten toepassing
 
@@ -119,7 +119,7 @@ Het wordt aanbevolen dit beleid alleen per app in te schakelen.
 
 Als u dit beleid wilt kunnen maken, moet u een *globale beheerder** zijn voor de map waar u het beleid maakt en dit kunnen toewijzen. Hier volgt een voorbeeldscript voor het maken van het beleid en het toewijzen ervan aan de serviceprovider voor deze toepassing:
 
-1. Installeer de [previewversie van de Azure AD PowerShell-module](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Installeer de [previewversie van de Azure AD PowerShell-module](/powershell/azure/active-directory/install-adv2).
 
 2. Voer de volgende PowerShell-opdrachten per regel uit (zorg ervoor dat de variabele $sp niet meer dan één toepassing als resultaat heeft).
 

@@ -1,6 +1,6 @@
 ---
-title: Externe bibliotheken toevoegen aan Power BI-visuals
-description: In dit artikel wordt beschreven hoe u externe bibliotheken gebruikt in Power BI-visuals.
+title: Externe bibliotheken toevoegen aan Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u externe bibliotheken gebruikt in Power BI-visuals. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 02/24/2020
-ms.openlocfilehash: 9df111e7545c43fe9b75784b1a95df4f37fd01e7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: b9a443040384e4d38bd7440eae0a5582cc422836
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114124"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889174"
 ---
 # <a name="adding-external-libraries"></a>Externe bibliotheken toevoegen
 
@@ -55,7 +55,7 @@ Zie voor een volledig voorbeeld de code in [Power BI-visuals](https://github.com
 
 Dit is een voorbeeld van het installeren van [bootstrap](https://www.npmjs.com/package/bootstrap) met behulp van [npm](https://www.npmjs.com/).
 
-Zie voor een volledig voorbeeld de code in [Power BI-visuals](https://github.com/Microsoft/powerbi-visuals-sankey/blob/c8200da56913cd8b253be949a35fad0f4472b6de/style/visual.less#L32).
+Zie voor een volledig voorbeeld de code in [Power BI-visualisaties](https://github.com/Microsoft/powerbi-visuals-sankey/blob/c8200da56913cd8b253be949a35fad0f4472b6de/style/visual.less#L32).
 
 1. Installeer het *bootstrap*-pakket.
 

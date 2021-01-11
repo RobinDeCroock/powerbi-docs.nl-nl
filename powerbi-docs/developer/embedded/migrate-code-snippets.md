@@ -1,6 +1,6 @@
 ---
-title: Codefragmenten voor het migreren van inhoud in Power BI Embedded
-description: Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud
+title: Codefragmenten voor het migreren van inhoud van Werkruimteverzameling naar de ingesloten analyses in Power BI van de Power BI Embedded-oplossing voor betere ingesloten BI-inzichten
+description: Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9ed021ce95fd1e978916c188c93ca77fa88ccdb6
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: f6b6023ac77d007b07662e200d6f165d56d67628
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416503"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888714"
 ---
-# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van Power BI-werkruimteverzameling
+# <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Codefragmenten voor het migreren van inhoud van een Power BI-werkruimteverzameling
 
 Hier volgen enkele codefragmenten van basisbewerkingen die vereist zijn voor de migratie van inhoud. Zie voor verwante stromen voor bepaalde rapporttypen [Inhoud van een Power BI-werkruimteverzameling migreren naar Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
 
@@ -239,4 +239,4 @@ In dit fragment gaan we ervan uit dat de pushgegevensset zich al in een werkruim
 [Voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Technisch document over Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

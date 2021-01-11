@@ -1,6 +1,6 @@
 ---
-title: Een start-URL maken
-description: In dit artikel wordt beschreven hoe u met behulp van Power BI-visuals een URL op een nieuw tabblad kunt openen.
+title: Een start-URL maken in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u met behulp van Power BI-visuals een URL op een nieuw tabblad kunt openen. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 7e398354ab069bb02554c94312909c0ed835d027
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 6fe9908c324705b8cb00519b4743ae8c052c7ad8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379766"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888300"
 ---
 # <a name="create-a-launch-url"></a>Een start-URL maken
 
@@ -57,7 +57,7 @@ this.host.launchUrl('https://some.link.net');
 
 * Momenteel worden alleen de protocollen *HTTP* en *HTTPS* ondersteund. Vermijd *FTP*, *MAILTO*, enzovoort.
 
-## <a name="best-practices"></a>Aanbevolen procedures
+## <a name="best-practices"></a>Best practices
 
 * Meestal kunt u het beste alleen een koppeling openen als reactie op de expliciete actie van een gebruiker. Maak het voor de gebruiker gemakkelijk te begrijpen dat klikken op de koppeling of knop leidt tot het openen van een nieuw tabblad. Het activeren van een `launchUrl()`-aanroep zonder actie van een gebruiker, of als neveneffect van een andere actie, kan verwarrend of frustrerend zijn voor de gebruiker.
 

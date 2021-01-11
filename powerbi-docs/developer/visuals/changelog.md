@@ -1,6 +1,6 @@
 ---
-title: wijzigingenlogboek voor API voor Power BI-visuals
-description: In dit artikel worden de belangrijkste wijzigingen in verschillende versies van de API voor Power BI-visuals beschreven
+title: Wijzigingenlogboek voor de API voor Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel worden de belangrijkste wijzigingen in verschillende versies van de API voor Power BI-visuals beschreven. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: c43542bc6c2bb0699403062f68024f9718bbbb60
-ms.sourcegitcommit: 54e571a10b0fdde5cd6036017eac9ef228de5116
+ms.openlocfilehash: 4ed42f8c9c3acf740b68bf6c28aaa201efb0d5ba
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "92501944"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927130"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>wijzigingenlogboek voor API voor Power BI-visuals
 Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hier vermelde versies worden als stabiel beschouwd en worden niet meer gewijzigd.
@@ -43,6 +43,7 @@ Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hie
 ## <a name="api-v220"></a>API v2.2.0
   * Ondersteunt **[JSON-filters herstellen vanuit DataView](./filter-api.md#restore-the-json-filter-from-the-data-view)**
   * **[Contextmenu-API](./context-menu.md)**
+  * Biedt ondersteuning voor de functie **[Analyseren](../../create-reports/desktop-drillthrough.md)**
 
 ## <a name="api-v210"></a>API v2.1.0
   * Prestatieverbeteringen:
@@ -108,7 +109,7 @@ Deze pagina bevat een beknopt overzicht van de verschillende API-versies. De hie
 
 ## <a name="api-v120"></a>API v1.2.0
 * Voegt **colorPalette** toe voor het beheren van de kleuren die in uw visual worden gebruikt.
-* Ondersteunt **meervoudige selectie** : in selectionManager kan een matrix van `SelectionId` worden geaccepteerd.
+* Ondersteunt **meervoudige selectie**: in selectionManager kan een matrix van `SelectionId` worden geaccepteerd.
 * Ondersteunt **[R-visuals](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)** met R-scripts
 
 ## <a name="api-v110"></a>API v1.1.0

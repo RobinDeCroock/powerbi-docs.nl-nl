@@ -1,6 +1,6 @@
 ---
-title: Veelgestelde vragen over Power BI-visuals
-description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI-visuals
+title: Veelgestelde vragen over Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI-visuals. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/30/2020
-ms.openlocfilehash: f38aaf9ea5bcb62cabae6ce2b7aca99f97c75960
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b2bfac5cbd3ce9b850e42ebf25c63b6e22fbeb68
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386430"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884919"
 ---
 # <a name="power-bi-visuals-faq"></a>Veelgestelde vragen over Power BI-visuals
 

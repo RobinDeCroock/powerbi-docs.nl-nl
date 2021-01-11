@@ -1,6 +1,6 @@
 ---
-title: 'Zelfstudie: Power BI-visual maken met behulp van R'
-description: In deze zelfstudie wordt beschreven hoe u met R een visual maakt voor Power BI met behulp van R-script-editor in Power BI Desktop.
+title: Een met R gemaakte Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In deze zelfstudie wordt beschreven hoe u met R een visual maakt voor Power BI met behulp van R-script-editor in Power BI Desktop. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: dde18b9945d808cc6b2630bdad4d83768b0e2e8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749316"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889036"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>Zelfstudie: Power BI-visual maken met behulp van R
 
@@ -33,7 +33,7 @@ In deze zelfstudie leert u het volgende:
 * Een **Power BI Pro**-account. [Meld u aan voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 * De R-engine. U kunt deze gratis downloaden vanaf verschillende locaties, waaronder de [downloadpagina van Revolution Open](https://mran.revolutionanalytics.com/download/) en de [CRAN-opslagplaats](https://cran.r-project.org/bin/windows/base/). Zie [Power BI-visuals maken met R](../../create-reports/desktop-r-visuals.md) voor meer informatie.
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md).
-* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) versie 4 of hoger voor Windows-gebruikers OF [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) voor Mac OS X-gebruikers.
+* [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell) versie 4 of hoger voor Windows-gebruikers OF [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) voor Mac OS X-gebruikers.
 
 ## <a name="getting-started"></a>Aan de slag
 

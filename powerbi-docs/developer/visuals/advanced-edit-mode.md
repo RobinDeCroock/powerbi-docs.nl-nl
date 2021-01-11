@@ -1,6 +1,6 @@
 ---
-title: Geavanceerde bewerkingsmodus in Power BI-visuals
-description: In dit artikel wordt beschreven hoe u geavanceerde UI-besturingselementen instelt in Power BI-visuals.
+title: Geavanceerde bewerkingsmodus in Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u geavanceerde UI-besturingselementen instelt in Power BI-visuals. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 97242883fe90c8f5e115818a24e4bb1c49f69b77
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 02f02f23d3dfd7ec514e17d1bab17be715e9cd7d
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380548"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889128"
 ---
 # <a name="advanced-edit-mode-in-power-bi-visuals"></a>Geavanceerde bewerkingsmodus in Power BI-visuals
 

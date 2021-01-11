@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17fc02131f13fe7fe7d8fb17af4380f6a013b9e7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 520a3673d34019c6045988cd5d501e187849a5c6
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413513"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927060"
 ---
 # <a name="enable-content-certification"></a>Inhoudscertificering inschakelen
 
@@ -39,7 +39,7 @@ Certificering maakt deel uit van de *goedkeuringsfunctie* van Power BI. Raadplee
 
 1. Stel de wisselknop in op **Ingeschakeld**.
 1. Als uw organisatie een gepubliceerd certificeringsbeleid heeft, kunt u hier de URL ervan opgeven. Dit wordt de koppeling **Meer informatie** in de sectie Certificering van het [dialoogvenster Goedkeuringsinstellingen](../collaborate-share/service-endorse-content.md#request-content-certification). Als u geen koppeling opgeeft, wordt aan gebruikers die certificering van hun inhoud willen aanvragen geadviseerd om contact op te nemen met hun Power BI-beheerder.
-1. Geef een of meer beveiligingsgroepen op waarvan de leden worden gemachtigd om inhoud te certificeren. Deze geautoriseerde certificeerders kunnen gebruikmaken van de knop Certificering in de sectie Certificering van het [dialoogvenster Goedkeuringsinstellingen](../collaborate-share/service-endorse-content.md#certify-content).
+1. Geef een of meer beveiligingsgroepen op waarvan de leden worden gemachtigd om inhoud te certificeren. Deze geautoriseerde certificeerders kunnen gebruikmaken van de knop Certificering in de sectie Certificering van het [dialoogvenster Goedkeuringsinstellingen](../collaborate-share/service-endorse-content.md#certify-content). In dit veld kunt u alleen beveiligingsgroepen invoeren. U kunt geen benoemde gebruikers invoeren.
     
     Als een beveiligingsgroep subbeveiligingsgroepen bevat waaraan u geen certificeringsrechten wilt geven, kunt u het selectievakje **Behalve specifieke beveiligingsgroepen** inschakelen en de naam van die groep(en) opgeven in een tekstvak dat wordt weergegeven.
 1. Klik op **Toepassen**.

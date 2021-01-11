@@ -1,6 +1,6 @@
 ---
-title: Inleiding tot het gebruik van hulpmiddelen voor gegevensweergave in een Power BI-visual
-description: In dit artikel wordt beschreven hoe u SVG-hulpprogramma's gebruikt om het parseren van het DataView-object voor Power BI-visuals te vereenvoudigen
+title: Inleiding tot het gebruik van hulpmiddelen voor gegevensweergave in een Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u SVG-hulpmiddelen gebruikt om het parseren van het DataView-object voor Power BI-visuals te vereenvoudigen. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: fc0ebf3d315b10bc14190a5ae01e8d389e2be0cc
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 3c54333c35809ab272c065973d4d948e1ac37a8b
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513730"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887817"
 ---
 # <a name="dataviewutils"></a>DataViewUtils
 

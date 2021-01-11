@@ -1,6 +1,6 @@
 ---
-title: Tips voor prestaties
-description: Een High Performance Power BI-visual maken
+title: Prestatietips in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Een High Performance Power BI-visual maken. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: c8bcf5e13ba769b976ab123adb3ba37f46b0359e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746070"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885931"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>Een High Performance Power BI-visual maken
 Dit artikel heeft betrekking op technieken voor de manier waarop een ontwikkelaar hoge prestaties kan bereiken bij het renderen van visuals. 

@@ -1,6 +1,6 @@
 ---
-title: Voorwaardelijke opmaak
-description: Meer informatie over het toepassen van voorwaardelijke opmaak voor uw visuele Power BI-project
+title: Voorwaardelijke opmaak in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Meer informatie over het toepassen van voorwaardelijke opmaak voor uw Power BI-visualproject. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 10/27/2020
-ms.openlocfilehash: 5243d1eda3fef2c7b82350fb0ca2669eb43c7623
-ms.sourcegitcommit: b5365df7fc32b7c49f8a2bf2cf75b5edd6bda9b6
+ms.openlocfilehash: 13f9dae542b8e0a340a880ab50b2f57c660e0ed9
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97513831"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888760"
 ---
 # <a name="add-conditional-formatting"></a>Voorwaardelijke opmaak toevoegen
 

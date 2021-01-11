@@ -1,6 +1,6 @@
 ---
-title: Hulpprogramma's voor interactiviteit met Power BI-visuals
-description: In dit artikel wordt beschreven hoe u selecties toevoegt aan Power BI-visuals met behulp van hulpprogramma's voor interactiviteit.
+title: Hulpmiddelen voor interactiviteit van Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u selecties toevoegt aan Power BI-visuals met behulp van hulpprogramma's voor interactiviteit. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/24/2020
-ms.openlocfilehash: f4d47347c98d19afdfbf07615842bfb4649dc1b9
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 533cf90ed9192a8d9e595cdea6320207b841b559
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79379255"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887771"
 ---
 # <a name="power-bi-visuals-interactivity-utils"></a>Hulpprogramma's voor interactiviteit met Power BI-visuals
 

@@ -1,6 +1,6 @@
 ---
-title: Volledige vermelding van de code
-description: 'Uitleg over het pushen van gegevens: volledige vermelding van de code'
+title: Volledige vermelding van de code in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: 'Uitleg over het pushen van gegevens: volledige vermelding van de code. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.'
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: d478c742112c15c80657ec424f5a4d6739a3c6d7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746488"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887472"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Gegevens naar een gegevensset pushen met volledige vermelding van de code
 
@@ -225,12 +225,12 @@ Als u stap 2 tot en met 5 in **Gegevens naar een gegevensset pushen** (Engelstal
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Gegevens naar een Power BI-gegevensset pushen](walkthrough-push-data.md)
-* [Register an app with Azure AD](../embedded/register-app.md) (Een app bij Azure AD registreren)  
-* [Een toegangstoken voor verificatie ophalen](walkthrough-push-data-get-token.md)  
-* [Create a dataset in Power BI](walkthrough-push-data-create-dataset.md) (Een gegevensset maken in Power BI)  
+* [Een app bij Azure AD registreren](../embedded/register-app.md)  
+* [Get an authentication access token](walkthrough-push-data-get-token.md) (Een verificatietoegangstoken ophalen)  
+* [Een gegevensset maken in Power BI](walkthrough-push-data-create-dataset.md)  
 * [Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel](walkthrough-push-data-get-datasets.md)  
-* [Add rows to a Power BI table](walkthrough-push-data-add-rows.md) (Rijen toevoegen aan een Power BI-tabel)  
+* [Rijen toevoegen aan een Power BI-tabel](walkthrough-push-data-add-rows.md)  
 * [Power BI REST API reference](/rest/api/power-bi/) (Naslag voor REST-API voor Power BI)  
 * [Overview of Power BI REST API](overview-of-power-bi-rest-api.md) (Overzicht van de REST-API voor Power BI)  
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

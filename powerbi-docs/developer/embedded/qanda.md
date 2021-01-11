@@ -1,6 +1,6 @@
 ---
-title: Q&A in Power BI Embedded
-description: Power BI Embedded biedt u de mogelijkheid tot het opnemen van Q&A in een toepassing zodat uw gebruikers vragen kunnen stellen in natuurlijke taal.
+title: Q&A in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Met ingesloten analyses in Power BI kunt u Q&A opnemen in een toepassing zodat uw gebruikers vragen kunnen stellen in natuurlijke taal. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 11/20/2017
-ms.openlocfilehash: 0106cc9ddb0e82a7b40e362342fce5196ef655c5
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 43e886e6472c6d95b900ccdb5c2e73b8dca3d4a0
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749271"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886598"
 ---
-# <a name="qa-in-power-bi-embedded"></a>Q&A in Power BI Embedded
+# <a name="qa-in-power-bi-embedded-analytics"></a>Q&A in ingesloten analyses van Power BI
 
-Power BI Embedded biedt u de mogelijkheid tot het opnemen van Q&A in een toepassing zodat uw gebruikers vragen kunnen stellen in natuurlijke taal en direct antwoord kunnen krijgen in de vorm van visuele elementen zoals diagrammen of grafieken.
+Met ingesloten analyses in Power kunt u Q&A opnemen in een toepassing zodat uw gebruikers vragen kunnen stellen in natuurlijke taal en direct antwoord kunnen krijgen in de vorm van visuals zoals diagrammen of grafieken.
 
 ![Interactieve Q&A-vraag in een ingesloten frame](media/qanda/embedded-qanda.gif)
 
@@ -102,4 +102,4 @@ Maak een insluittoken op basis van een gegevensset om een Q&A-deel te starten. Z
 
 Bekijk het [voorbeeld van het insluiten van JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/) als u overweegt Q&A te gaan insluiten.
 
-Nog vragen? [Misschien dat de community van Power BI het antwoord weet](https://community.powerbi.com/).
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

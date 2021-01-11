@@ -1,6 +1,6 @@
 ---
-title: Een staafdiagram maken
-description: Gebruik deze stapsgewijze handleiding om een eenvoudig Power BI-staafdiagram met code te maken.
+title: Een staafdiagram maken in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Gebruik deze stapsgewijze handleiding om een eenvoudig Power BI-staafdiagram met code te maken. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/01/2020
-ms.openlocfilehash: 0f8f97e5f707e813d316ae4d5388f0793f8c1aa0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a3210c2fdb86632d9fa47b4c9c4add6fff5f052e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83149074"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889082"
 ---
 # <a name="build-a-bar-chart"></a>Een staafdiagram maken
 

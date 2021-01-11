@@ -1,6 +1,6 @@
 ---
-title: Een Azure Active Directory-tenant maken voor gebruik met Power BI
-description: Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor een aangepaste toepassing waarmee Power BI REST API's worden aangeroepen.
+title: Een Azure Active Directory-tenant maken voor gebruik met ingesloten BI via ingesloten analyses in Power BI
+description: Informatie over het maken van een nieuwe Azure Active Directory-tenant (Azure AD) voor een aangepaste toepassing voor ingesloten analyses waarmee Power BI REST API's worden aangeroepen en ingesloten kunstmatige BI-intelligentie mogelijk is voor klanten.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 05/28/2019
-ms.openlocfilehash: 03ba0a3090a4224cdc97a2f5bdcf80dc4b59dc64
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 24e1d8678234b7b355d99985f8e8a567954d6211
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748765"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888990"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Een Azure Active Directory-tenant maken voor gebruik met Power BI
 

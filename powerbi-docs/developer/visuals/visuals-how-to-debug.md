@@ -1,6 +1,6 @@
 ---
-title: Fouten opsporen in Power BI-visuals
-description: In dit artikel wordt beschreven hoe u fouten in Power BI-visuals opspoort.
+title: Fouten opsporen in Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u fouten in Power BI-visuals opspoort. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 02/14/2020
-ms.openlocfilehash: f3a3551db1d7d995db0194ff7fa9b7141415c9eb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 0005fe6cfd14f0377cdd7ff648aaa3c5cc96a751
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525542"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888369"
 ---
 # <a name="how-to-debug-power-bi-visuals"></a>Fouten opsporen in Power BI-visuals
 

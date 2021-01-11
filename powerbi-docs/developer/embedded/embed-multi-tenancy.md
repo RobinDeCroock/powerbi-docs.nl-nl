@@ -1,6 +1,6 @@
 ---
-title: Multitenancy beheren met ingesloten analyse in Power BI
-description: Ontwerp een app met meerdere tenants met behulp van ingesloten analyse.
+title: Multitenancy beheren met ingesloten analyses in Power BI om betere ingesloten BI-inzichten mogelijk te maken
+description: Ontwerp een multitenanttoepassing met ingesloten analyses in Power BI voor betere ingesloten BI-inzichten voor uw klanten.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: nishalit
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 377f509248dbd2368b74bb9645f001ff7c6a97c0
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 39256b3b57a43804478371606ca7336c484c7813
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96907274"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97884827"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Multitenancy beheren met ingesloten analyse in Power BI
 

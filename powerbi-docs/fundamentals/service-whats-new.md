@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 71ed2610ea77900fe51542b2257f4795f201694f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394952"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888346"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -55,13 +55,13 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 * Nieuwe API voor activiteitenlogboeken waarmee Power BI-servicebeheerders activiteiten van gebruikers en beheerders in hun tenant kunnen volgen.
 
 ### <a name="november-2019"></a>November 2019
-* Openbare preview-versie van [grote modellen in Power BI Premium](../admin/service-premium-large-models.md].
+* Openbare preview van [grote modellen in Power BI Premium](../admin/service-premium-large-models.md).
 * Openbare preview-versie van het gebruik van Microsoft Cloud App Security-besturingselementen in Power BI.
 
 ### <a name="october-2019"></a>Oktober 2019
 * Nieuwe Power Automate-actie voor het vernieuwen van Power BI-gegevenssets.
 * [Lijst met contactpersonen](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) voor rapporten en dashboards in de Power BI-service.
-* Algemene beschikbaarheid van [geautomatiseerde machine learning](../transform-model/service-machine-learning-automated
+* Algemene Beschikbaarheid van [geautomatiseerde machine learning](../transform-model/service-machine-learning-automated.md)
 * Openbare preview-versie van de weergave van de herkomst van Power BI-gegevens.
 
 ### <a name="september-2019"></a>September 2019

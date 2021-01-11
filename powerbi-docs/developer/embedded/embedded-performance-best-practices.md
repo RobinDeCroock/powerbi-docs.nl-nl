@@ -1,6 +1,6 @@
 ---
-title: Aanbevolen procedures voor de prestaties van Power BI Embedded
-description: Dit artikel bevat richtlijnen voor aanbevolen procedures voor ingesloten analyses
+title: Best practices voor de prestaties van ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Dit artikel bevat richtlijnen voor best practices voor ingesloten analyses in Power BI. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: f8bf41ae9a4b6f2e16aae2c05df8fa4448a0457c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746672"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888783"
 ---
-# <a name="power-bi-embedded-performance-best-practices"></a>Aanbevolen procedures voor de prestaties van Power BI Embedded
+# <a name="power-bi-embedded-analytics-performance-best-practices"></a>Best practices voor de prestaties van ingesloten analyses in Power BI
 
 Dit artikel bevat aanbevelingen voor het sneller weergeven van rapporten, dashboards en tegels in uw toepassing.
 
@@ -65,7 +65,7 @@ Organisaties met Power BI Premium of Power BI Embedded kunnen query's opslaan in
 
 Gebruik `powerbi.preload()` om de prestaties bij de eindgebruiker te verbeteren. Met de methode `powerbi.preload()` worden JavaScript, CSS-bestanden en andere artefacten gedownload. Deze worden later gebruikt voor het insluiten van een rapport.
 
-Roep `powerbi.preload()` aan als u het rapport niet direct gaat insluiten. Als ingesloten Power BI-inhoud bijvoorbeeld niet verschijnt op de startpagina, gebruikt u `powerbi.preload()` om de artefacten die worden gebruikt om de inhoud op te slaan in de inhoud te downloaden en in de cache op te slaan.
+Roep `powerbi.preload()` aan als u het rapport niet direct gaat insluiten. Als de ingesloten Power BI-inhoud bijvoorbeeld niet verschijnt op de startpagina, gebruikt u `powerbi.preload()` om de artefacten die worden gebruikt om de inhoud in te sluiten, te downloaden en in cache op te slaan.
 
 ## <a name="bootstrapping-the-iframe"></a>Het iframe bootstrappen
 
@@ -107,5 +107,5 @@ Met Performance Analyzer kunt u logboeken bekijken en vastleggen die meten hoe e
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Optimalisatiegids voor Power BI](../../guidance/power-bi-optimization.md)
-* [Problemen met Power BI Embedded oplossen](embedded-troubleshoot.md)
-* [Veelgestelde vragen over Power BI Embedded](embedded-faq.md)
+* [Problemen met ingesloten analyses in Power BI oplossen](embedded-troubleshoot.md)
+* [FAQ over ingesloten analyses in Power BI](embedded-faq.md)

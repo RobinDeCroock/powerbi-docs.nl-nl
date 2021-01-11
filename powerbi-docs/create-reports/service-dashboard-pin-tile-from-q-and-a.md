@@ -7,25 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 03/02/2018
+ms.date: 01/05/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ec0b384efb4b43afad76e18feb1b5a53d5f3738c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5ae148feaa294c8779a7140ef450c832bd3376d8
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96395205"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927181"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Een tegel vastmaken aan een dashboard vanuit Q&A
-## <a name="how-to-pin-a-tile-from-qa"></a>Een tegel vastmaken vanuit Q&A
-Q&A is het ad hoc rapportagehulpmiddel van Power BI. Hebt u een bepaald inzicht nodig? Stel een vraag over uw gegevens en krijg antwoord in de vorm van een visualisatie.
 
-In deze instructies gaan we Power BI-service (app.powerbi.com) gebruiken om een dashboard te openen, een vraag stellen in natuurlijke taal voor het maken van een visualisatie en deze visualisatie aan een dashboard vastmaken. Dashboards zijn niet beschikbaar in Power BI Desktop. Zie [Overzicht van de Q&A-functie in Power BI](../consumer/end-user-q-and-a.md) voor meer informatie over het gebruik van Q&A met andere Power BI-hulpprogramma's en -inhoud. 
+Q&A is een Power BI-hulpprogramma voor het verkennen van uw gegevens met behulp van natuurlijke taal. Hebt u een bepaald inzicht nodig? Stel een vraag over uw gegevens en krijg antwoord in de vorm van een visualisatie.
+
+In deze instructies gaan we een [dashboard](../consumer/end-user-dashboards.md) in de Power BI-service (app.powerbi.com) openen, een vraag stellen in natuurlijke taal om een visualisatie te maken en deze visualisatie aan het dashboard vastmaken. Dashboards zijn niet beschikbaar in Power BI Desktop. Zie [Overzicht van de Q&A-functie in Power BI](../consumer/end-user-q-and-a.md) voor meer informatie over het gebruik van Q&A met andere Power BI-hulpprogramma's en -inhoud. 
 
 Als u wilt volgen, opent u het [dashboard Voorbeeld van een retailanalyse](sample-retail-analysis.md).
 
+## <a name="how-to-pin-a-tile-from-qa"></a>Een tegel vastmaken vanuit Q&A
 
-1. Open een [dashboard](../consumer/end-user-dashboards.md) waarop ten minste één tegel is vastgemaakt vanuit een rapport. Wanneer u een vraag stelt, zoekt Power BI het antwoord op in elke gegevensset waaraan een tegel is vastgemaakt in dat dashboard.  Zie [Gegevens ophalen](../connect-data/service-get-data.md) voor meer informatie.
+1. Open een dashboard waarop ten minste één tegel is vastgemaakt vanuit een rapport. Wanneer u een vraag stelt, zoekt Power BI het antwoord op in elke gegevensset waaraan een tegel is vastgemaakt in dat dashboard.
 2. Typ in het vak Vraag aan de bovenkant van het dashboard wat u wilt weten over uw gegevens.  
    ![Q&A-vragenvak](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Als u bijvoorbeeld typt 'Omzet afgelopen jaar per maand en gebied'...  
@@ -62,5 +63,5 @@ Als u wilt volgen, opent u het [dashboard Voorbeeld van een retailanalyse](sampl
 ## <a name="next-steps"></a>Volgende stappen
 [De naam wijzigen, vergroten of verkleinen, een hyperlink toevoegen, de positie van de tegel wijzigen en meer](service-dashboard-edit-tile.md)    
 [Een dashboardtegel weergeven in de focusmodus](../consumer/end-user-focus.md)     
-Terug naar [Q&A in Power BI](../consumer/end-user-q-and-a.md)  
+[Overzicht van Q&A in Power BI](../consumer/end-user-q-and-a.md)  
 Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

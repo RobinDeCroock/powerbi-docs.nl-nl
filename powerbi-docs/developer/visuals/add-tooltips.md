@@ -1,6 +1,6 @@
 ---
-title: Knopinfo voor Power BI-visuals
-description: In dit artikel wordt beschreven hoe u knopinfo kunt weergeven in Power BI-visuals.
+title: Knopinfo in Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u knopinfo kunt weergeven in Power BI-visuals. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/09/2020
-ms.openlocfilehash: 60933d1a44cbf83f719c808b658b06009217ff53
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e3f5486faec033b48ba59b7076d5835035458584
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239942"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889220"
 ---
 # <a name="tooltips-in-power-bi-visuals"></a>Knopinfo voor Power BI-visuals
 

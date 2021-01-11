@@ -1,6 +1,6 @@
 ---
-title: Inleiding in het gebruik van hulpprogramma's voor opmaak in een Power BI-visual
-description: In dit artikel wordt beschreven hoe u hulpprogramma's voor opmaak gebruikt om waarden op te maken en lokalisatie toe te passen op waarden in de Power BI-visual
+title: Inleiding tot het gebruik van opmaakhulpmiddelen in een Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u opmaakhulpprogramma's gebruikt om waarden op te maken en lokalisatie toe te passen op waarden in de Power BI-visual. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: dc2d036ab1e3e3dab551269163ced2f066a71626
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 564f6587ff361e3b2860bafb4ae43bc19ad8c2ba
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79378019"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887794"
 ---
 # <a name="formatting-utils"></a>Hulpprogramma's voor opmaak
 

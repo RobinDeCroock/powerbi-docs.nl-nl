@@ -1,6 +1,6 @@
 ---
-title: Gecertificeerde visuals in Power BI
-description: Vereisten en proces voor het indienen van een aangepaste visual voor certificering en een lijst met gecertificeerde Power BI-visuals.
+title: Gecertificeerde Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Vereisten en proces voor het indienen van een aangepaste visual voor certificering en een lijst met gecertificeerde Power BI-visuals. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: bbca1802b1136c4e9e16e70ab87ab7554612c037
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386703"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888162"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -180,4 +180,4 @@ Implementeren in AppSource is een proces dat enige tijd kan duren. Uw Power BI-v
 
 * [Power BI-visuals publiceren naar Microsoft AppSource](office-store.md)
 
-* Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

@@ -1,6 +1,6 @@
 ---
-title: Contextmenu toevoegen aan Power BI-visual
-description: Meer informatie over het toevoegen van een contextmenu aan een visueel Power BI-element.
+title: Een contextmenu toevoegen aan een Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Meer informatie over het toevoegen van een contextmenu aan een visueel Power BI-element. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9e63a1196ddc7557fcf8b2fceb424415a63d4df9
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 1c19ba94588628e002cdb9e65f59bd4182020e1c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748075"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888691"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>Contextmenu toevoegen aan Power BI-visual
 

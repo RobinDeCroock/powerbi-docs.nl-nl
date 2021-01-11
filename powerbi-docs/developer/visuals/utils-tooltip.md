@@ -1,6 +1,6 @@
 ---
-title: Inleiding tot het gebruik van hulpmiddelen voor knopinfo in een Power BI-visual
-description: In dit artikel wordt beschreven hoe u de hulpmiddelen voor knopinfo kunt gebruiken om het aanpassen van knopinfo voor Power BI-visuals te vereenvoudigen
+title: Inleiding tot het gebruik van hulpmiddelen voor knopinfo in een Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u de hulpmiddelen voor knopinfo kunt gebruiken om het aanpassen van knopinfo voor Power BI-visuals te vereenvoudigen. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 02/14/2020
-ms.openlocfilehash: 69650982bd3e71c235ffb09b00a99959bc02c231
-ms.sourcegitcommit: 1428acb6334649fc2d3d8ae4c42cfbc17e8f7476
+ms.openlocfilehash: b2ddc85d9ba2530dc394b4106d72b4af702bd9b4
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92197628"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888645"
 ---
-# <a name="tooltip-utils"></a>Hulpmiddelen voor hulpprogramma's
+# <a name="tooltip-utils"></a>Hulpmiddelen voor knopinfo
 Dit artikel helpt u bij het installeren, importeren en gebruiken van hulpmiddelen voor knopinfo. Dit hulpmiddel is handig voor het aanpassen van de knopinfo in Power BI-visuals.
 
 ## <a name="requirements"></a>Vereisten

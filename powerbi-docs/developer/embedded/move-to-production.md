@@ -1,6 +1,6 @@
 ---
-title: Ingesloten geïntegreerde analytische gegevens van uw Power BI-toepassing verplaatsen naar productie
-description: Meer informatie over de stappen die nodig zijn om uw Power BI-toepassing naar productie te verplaatsen.
+title: Uw toepassing voor ingesloten analyses in Power BI verplaatsen naar productie voor betere ingesloten BI-inzichten
+description: Meer informatie over de stappen die nodig zijn om uw Power BI-toepassing naar productie te verplaatsen. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: 188974531f7b78e04c2cf0f8072dcef7efe3b888
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 71eff0f09c0e34ffd8789f1b56347d754b6589bc
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098186"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886667"
 ---
 # <a name="move-your-embedded-app-to-production"></a>Uw ingesloten app naar productie verplaatsen
 

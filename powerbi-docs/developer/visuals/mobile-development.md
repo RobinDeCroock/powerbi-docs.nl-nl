@@ -1,6 +1,6 @@
 ---
-title: Mobiele ontwikkeling
-description: Mobiel-vriendelijke Power BI-visuals maken
+title: Mobiele ontwikkeling in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Mobiel-vriendelijke Power BI-visuals maken. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: dca16fd29dc89fc2e67ce1e8f5c6abfc0adcb9a6
-ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
+ms.openlocfilehash: 63d2366f91398878af231c8dbb6ed07e8e623a03
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92049287"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885540"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>Mobiel-vriendelijke Power BI-visuals maken
 Het mobiele verbruik speelt een belangrijke rol in Power BI. Een van de sterke punten is dat het altijd en overal verbinding houdt met uw gegevens.
@@ -51,7 +51,7 @@ De volgende vereisten zijn essentieel voor een mobiel-vriendelijke ontwikkeling 
   | `wheel` | `NaN` |
 
   > [!NOTE]
-  > Niet alle mobiele apparaten of apparaten met aanraakscherm ondersteunen de muis- (of door de *muis* voorafgegane) gebeurtenissen. In dergelijke gevallen moet u tegelijk *muis-* en *aanraak*gebeurtenissen afhandelen.
+  > Niet alle mobiele apparaten of apparaten met aanraakscherm ondersteunen de muis- (of door de *muis* voorafgegane) gebeurtenissen. In dergelijke gevallen moet u tegelijk *muis-* en *aanraak* gebeurtenissen afhandelen.
 
 ## <a name="optional"></a>Optioneel
 Het volgende wordt aangemerkt als optioneel en wordt gebruikt om een betere eindgebruikerservaring te creëren.

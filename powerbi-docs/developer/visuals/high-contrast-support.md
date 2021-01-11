@@ -1,19 +1,19 @@
 ---
-title: Ondersteuning voor de modus met hoog contrast in Power BI-visuals
-description: In dit artikel wordt beschreven hoe u ondersteuning voor de modus met hoog contrast aan Power BI-visuals kunt toevoegen.
+title: Ondersteuning voor de modus voor hoog contrast in Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u ondersteuning voor de modus met hoog contrast aan Power BI-visuals kunt toevoegen. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 9372187ae1fdfac27f6b3e7267a1c0622c063464
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f55427511a76fc65b3ae6b3933dca68ef742039c
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80114331"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889197"
 ---
 # <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Ondersteuning voor de modus met hoog contrast in Power BI-visuals
 
@@ -88,7 +88,7 @@ Zo worden in het volgende voorbeeldstaafdiagram alle balken getekend met een twe
 
 In de volgende sectie wordt één plek weergegeven in de `visualTransform`-functie die is gewijzigd om hoog contrast te ondersteunen. Deze functie wordt aangeroepen als onderdeel van de rendering tijdens de update.
 
-### <a name="before"></a>Vóór
+### <a name="before"></a>Voor
 
 ```typescript
 for (let i = 0, len = Math.max(category.values.length, dataValue.values.length); i < len; i++) {

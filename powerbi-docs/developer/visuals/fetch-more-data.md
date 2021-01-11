@@ -1,6 +1,6 @@
 ---
-title: Meer gegevens ophalen uit Power BI
-description: In dit artikel wordt beschreven hoe u grote gegevenssets voor Power BI-visuals gesegmenteerd kunt ophalen.
+title: Meer gegevens ophalen uit Power BI in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u grote gegevenssets voor Power BI-visuals gesegmenteerd kunt ophalen. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 12/13/2020
-ms.openlocfilehash: 3dc94a24e5e6a84992745775b1639b7a186ed19d
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 345efe91be1af5ee61d713c576f04657b182ad47
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492076"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886299"
 ---
 # <a name="fetch-more-data-from-power-bi"></a>Meer gegevens ophalen uit Power BI
 

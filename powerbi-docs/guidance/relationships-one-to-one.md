@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 03/02/2020
-ms.openlocfilehash: 19fe2aa003c3d39169bc449dab83c09702f49b1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b9cff6a4a59db3a30fc4bbe2373a723700d00fee
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419148"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885011"
 ---
 # <a name="one-to-one-relationship-guidance"></a>Richtlijnen voor een-op-een-relaties
 
@@ -99,11 +99,11 @@ We raden u aan om het maken van een-op-een-modelrelaties zoveel mogelijk te verm
 - De mogelijkheid om hiërarchieën te maken kan beperkt zijn, omdat niveaus moeten zijn gebaseerd op kolommen uit _dezelfde tabel_
 - Er kunnen onverwachte resultaten worden gegenereerd wanneer rijen in de tabellen niet volledig overeenkomen
 
-Specifieke aanbevelingen kunnen variëren, afhankelijk van of het gaat om een _‘intra-island’_ of _‘inter-island’_ een-op-een-relatie. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie over de evaluatie van relaties.
+Specifieke aanbevelingen kunnen variëren, afhankelijk van of er sprake is van een een-op-een-relatie _binnen een brongroep_ of _tussen meerdere brongroepen_. Raadpleeg [Modelrelaties in Power BI Desktop (evaluatie van relaties)](../transform-model/desktop-relationships-understand.md#relationship-evaluation) voor meer informatie over de evaluatie van relaties.
 
-### <a name="intra-island-one-to-one-relationship"></a>Een ‘intra-island’ een-op-een-relatie
+### <a name="intra-source-group-one-to-one-relationship"></a>Een-op-een-relatie binnen een brongroep
 
-Wanneer er een _‘intra-island’_ een-op-een-relatie tussen tabellen bestaat, raden we u aan om de gegevens samen te voegen in één modeltabel. Dit wordt gedaan door Power Query-query's samen te voegen.
+Wanneer er een een-op-een-relatie _binnen een brongroep_ bestaat tussen tabellen, wordt aanbevolen om de gegevens samen te voegen in één modeltabel. Dit wordt gedaan door Power Query-query's samen te voegen.
 
 De volgende stappen vertegenwoordigen een methode voor het samenvoegen en modelleren van gegevens die zijn gerelateerd aan een een-op-een-relatie:
 
@@ -131,11 +131,11 @@ In ons voorbeeld kunnen auteurs van rapporten het veld **Category** vinden in de
 
 ![In het deelvenster velden wordt het veld Category weergegeven binnen een weergavemap met de naam Marketing.](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-Als u nog steeds een ‘intra-island’ een-op-een-relatie in uw model wilt, moet u er, waar mogelijk, voor zorgen dat de gerelateerde tabellen overeenkomende rijen bevatten. Aangezien een intra-eiland-een-op-een-relatie is geëvalueerd als een [reguliere relatie](../transform-model/desktop-relationships-understand.md#regular-relationships), kunnen problemen met de gegevensintegriteit in uw rapportvisuals optreden als lege waarden. (U ziet een voorbeeld van een lege groepering in de eerste tabelvisual in dit artikel.)
+Als u nog steeds een een-op-een-relatie binnen een brongroep in uw model wilt, moet u er, waar mogelijk, voor zorgen dat de gerelateerde tabellen overeenkomende rijen bevatten. Aangezien een een-op-een-relatie binnen een brongroep wordt geëvalueerd als een [gewone relatie](../transform-model/desktop-relationships-understand.md#regular-relationships), kunnen problemen met de gegevensintegriteit in uw rapportvisuals worden weergegeven als lege waarden. (U ziet een voorbeeld van een lege groepering in de eerste tabelvisual in dit artikel.)
 
-### <a name="inter-island-one-to-one-relationship"></a>‘Inter-island’ een-op-een-relatie
+### <a name="cross-source-group-one-to-one-relationship"></a>Een-op-een-relatie tussen meerdere brongroepen
 
-Als er een _‘inter-island’_ een-op-een-relatie tussen tabellen bestaat, is geen alternatief modelontwerp beschikbaar, tenzij u de gegevens in uw gegevensbronnen vooraf samenvoegt. In Power BI wordt de een-op-een-modelrelatie geëvalueerd als een [beperkte relatie](../transform-model/desktop-relationships-understand.md#limited-relationships). Zorg er daarom voor dat de gerelateerde tabellen overeenkomende rijen bevatten, aangezien niet-overeenkomende rijden worden geëlimineerd in de queryresultaten.
+Als er een een-op-een-relatie _tussen meerdere brongroepen_ bestaat tussen tabellen, is geen alternatief modelontwerp beschikbaar, tenzij u de gegevens in uw gegevensbronnen vooraf samenvoegt. In Power BI wordt de een-op-een-modelrelatie geëvalueerd als een [beperkte relatie](../transform-model/desktop-relationships-understand.md#limited-relationships). Zorg er daarom voor dat de gerelateerde tabellen overeenkomende rijen bevatten, aangezien niet-overeenkomende rijden worden geëlimineerd in de queryresultaten.
 
 Laten we eens kijken wat er gebeurt wanneer velden uit beide tabellen worden toegevoegd aan een tabelvisual, en er een beperkte relatie tussen de tabellen bestaat.
 

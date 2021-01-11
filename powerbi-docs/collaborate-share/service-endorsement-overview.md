@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: conceptual
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 65a83bf0e91d4f3004445ffcd8cd6f78d5a77fc3
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2389290fedd26c9e88af614e1fbf6afb29c02d35
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411834"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926802"
 ---
 # <a name="endorsement---promoting-and-certifying-power-bi-content"></a>Goedkeuring: Power BI-inhoud promoveren en certificeren
 
@@ -27,11 +27,15 @@ Er zijn twee soorten goedkeuring: **promotie** en **certificering**.
 
     Elke eigenaar van inhoud, en elk lid met schrijfmachtigingen voor de werkruimte waarin de inhoud zich bevindt, kan eenvoudig de inhoud promoveren wanneer deze goed genoeg wordt geacht om te delen.
 
+    [Meer informatie over het promoveren van uw inhoud](service-endorse-content.md#promote-content).
+
 * **Certificering**: Certificering betekent dat de inhoud voldoet aan de kwaliteitsnormen van de organisatie en dat deze kan worden beschouwd als betrouwbare, gezaghebbende inhoud die klaar is voor gebruik in de hele organisatie.
 
-    Alleen een geselecteerde groep revisoren (gedefinieerd door de Power BI-beheerder) is gemachtigd om inhoud te certificeren. Eigenaren van inhoud die hun inhoud gecertificeerd willen hebben en die niet gemachtigd zijn om deze zelf te certificeren, moeten de richtlijnen van hun organisatie volgen om hun inhoud te laten certificeren.
+    Alleen een [geselecteerde groep revisoren (gedefinieerd door de Power BI-beheerder)](../admin/service-admin-setup-certification.md) is gemachtigd om inhoud te certificeren. Eigenaren van inhoud die hun inhoud gecertificeerd willen hebben en die niet gemachtigd zijn om deze zelf te certificeren, moeten de richtlijnen van hun organisatie volgen om hun inhoud te laten certificeren.
 
-    **Certificering is alleen beschikbaar als een Power BI-beheerder deze optie heeft ingeschakeld en geconfigureerd voor uw organisatie**.
+    Meer informatie over het [certificeren van inhoud](service-endorse-content.md#certify-content) of het [aanvragen van certificering](service-endorse-content.md#request-content-certification).
+
+    **Certificering is alleen beschikbaar als een Power BI-beheerder deze optie heeft [ingeschakeld en geconfigureerd](../admin/service-admin-setup-certification.md) voor uw organisatie**.
 
 In de onderstaande afbeelding ziet u hoe goedgekeurde inhoud (gepromoveerd en gecertificeerd) duidelijk wordt aangegeven wanneer u een gegevensset zoekt voor het maken van een rapport.
 

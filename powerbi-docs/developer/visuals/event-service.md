@@ -1,6 +1,6 @@
 ---
-title: Gebeurtenissen weergeven in Power BI-visuals
-description: Power BI-visuals kunnen Power BI melden dat ze gereed zijn om te worden geëxporteerd naar Power Point of PDF.
+title: Gebeurtenissen weergeven in Power BI-visuals in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Power BI-visuals kunnen Power BI melden dat ze gereed zijn om te worden geëxporteerd naar Power Point of PDF. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: c54aaa92f3463ce1102866c8d3b69532c8b25cf7
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 77ed686b78a96717193e594e9f846d4204d8b5e8
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380244"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885080"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Gebeurtenissen weergeven in Power BI-visuals
 

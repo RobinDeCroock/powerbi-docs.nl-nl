@@ -10,12 +10,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 12/14/2020
-ms.openlocfilehash: 80aa8097ce38a9b1bac228ea61dcc959e4aba60d
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 7c8fa59521be1cfc8bb25fb04c3904f257fb62be
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97492007"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926689"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>Samenwerken in Microsoft Teams met Power BI
 
@@ -44,6 +44,14 @@ Wanneer een rapport wordt ingesloten in Microsoft Teams of een koppeling naar ee
 > Controleer wie het rapport kan raadplegen in de Power BI-service en verleen toegang tot personen die niet worden vermeld.
 
 Eén manier om ervoor te zorgen dat iedereen in een team toegang heeft tot rapporten, is door de rapporten in één werkruimte te plaatsen en de Microsoft 365-groep voor uw team toegang te geven.
+
+## <a name="share-with-external-users"></a>Delen met externe gebruikers
+
+U kunt een Power BI rapport integreren in Teams en delen met externe gebruikers. Dit zijn de stappen.
+
+1.  U nodigt de externe gebruiker uit in uw organisatie en deze accepteert uw uitnodiging. Zie [Power BI-inhoud distribueren naar externe gastgebruikers met behulp van Azure Active Directory B2B](../guidance/whitepaper-azure-b2b-power-bi.md) voor meer informatie.
+2.  Geef de externe gebruiker machtigingen voor het rapport. Toewijzing van afzonderlijke machtigingen werkt het beste.
+3.  Zorg ervoor dat aan de externe gebruiker een Power BI-licentie is toegewezen. Als de inhoud zich in Premium-capaciteit bevindt, heeft de gebruiker alleen een gratis licentie nodig. Als dat niet het geval is, kan de gebruiker [zich registreren voor een individuele gratis proefversie van Power BI Pro](../fundamentals/service-self-service-signup-for-power-bi.md#sign-up-for-an-individual-trial-of-power-bi-pro).
 
 ## <a name="known-issues-and-limitations"></a>Bekende problemen en beperkingen
 

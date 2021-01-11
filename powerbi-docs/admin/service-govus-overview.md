@@ -1,21 +1,21 @@
 ---
 title: Power BI voor klanten uit de Amerikaanse overheid - Overzicht
-description: Amerikaanse overheidsklanten kunnen een Power BI Pro-abonnement toevoegen aan hun Microsoft 365 Government-abonnement. Meer informatie over het registreren, verbinden en controleren van de beschikbaarheid van functies in deze servicebeschrijving.
+description: Amerikaanse overheidsklanten kunnen een Power BI-abonnement toevoegen aan hun Microsoft 365 Government-abonnement. Meer informatie over het registreren, verbinden en controleren van de beschikbaarheid van functies in deze servicebeschrijving.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/17/2020
-ms.custom: licensing support
+ms.date: 01/05/2021
+ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: e8cf03d90165463fd1e59bf4c4394c1da94e995e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9b52e0698f6b9c1ae779bf21738acee30db7447d
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407855"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927074"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -113,9 +113,14 @@ Raadpleeg [IP-firewallregels maken en beheren](/azure/sql-database/sql-database-
 
 ## <a name="power-bi-feature-availability"></a>Beschikbaarheid van Power BI-functies
 
-Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnementen om te voldoen aan de vereisten van klanten in de Cloud. We streven ernaar om alle functies in overheidsclouds binnen 30 dagen na de algemene beschikbaarheid beschikbaar te maken. In sommige gevallen ligt het aan onderliggende afhankelijkheden dat we een functie niet beschikbaar kunnen maken.
+Er zijn een aantal verschillen tussen overheidsplannen en commerciële abonnementen om te voldoen aan de vereisten van klanten in de Cloud. We streven ernaar om alle functies in overheidsclouds binnen 30 dagen na de algemene beschikbaarheid beschikbaar te maken. In sommige gevallen ligt het aan onderliggende afhankelijkheden dat we een functie niet beschikbaar kunnen maken. De onderstaande lijst bevat functies die nog niet beschikbaar zijn in bepaalde overheidsomgevingen of die beschikbaar zijn met beperkte functionaliteit. Voor de lijst wordt de volgende sleutel gebruikt:
 
-De volgende tabel bevat een lijst met functies die niet beschikbaar zijn in een bepaalde overheidsomgeving. We voegen geschatte beschikbaarheid toe als de release is gepland:
+|Sleutel |Beschrijving|
+|-----|------|
+|![beschikbaar](../media/yes.png)|De functie is beschikbaar in de omgeving, waarbij eventuele uitzonderingen in voetnoten zijn gedefinieerd.|
+|![niet beschikbaar](../media/no.png)| De functie is niet beschikbaar in de omgeving en we hebben geen geschatte levertijd.|
+
+We nemen het kwartaal van de geschatte beschikbaarheid op als de release voor een omgeving is gepland.
 
 |Functie |GCC |GCC High |DoD|
 |------|------|------|------|
@@ -123,18 +128,18 @@ De volgende tabel bevat een lijst met functies die niet beschikbaar zijn in een 
 |[Insluiten in SharePoint online met het webonderdeel Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![Beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen](../connect-data/power-bi-data-sources.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
-|[Grote modellen](service-premium-large-models.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
-|[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/dataflows/dataflows-premium-features.md) | K4 2020 |K4 2020| ![niet beschikbaar](../media/no.png) |
-|[Gegevensstromen - directe query](../transform-model/dataflows/dataflows-configure-consume.md) | K4 2020 |K4 2020|![niet beschikbaar](../media/no.png)|
-|[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|K4 2020|K4 2020 |K4 2020|
-|[Sjabloon-apps](../connect-data/service-template-apps-overview.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
-|[Aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|K4 2020 |K4 2020| K4 2020|
-|[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| K4 2020|K4 2020|K4 2020|
+|[Grote modellen](service-premium-large-models.md) | ![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png) |
+|[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/dataflows/dataflows-premium-features.md) | ![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png) |
+|[Gegevensstromen - directe query](../transform-model/dataflows/dataflows-configure-consume.md) | ![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
+|[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)|
+|[Sjabloon-apps](../connect-data/service-template-apps-overview.md)<sup>3</sup>|![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png)|
+|[Aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png)|
+|[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| ![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Dataconnector voor gesprekskwaliteit](/microsoftteams/cqd-power-bi-connector)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Bring Your Own Storage (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Genereren van QR-code](../create-reports/service-create-qr-code-for-tile.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 
-<sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government en Global Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B Collaboration voor de Amerikaanse overheid
+<sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government met het algemene Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B-samenwerking voor de Amerikaanse overheid.
 
 <sup>2</sup> De Power BI-ervaring in Teams voor GCC is beperkt, werkt alleen voor klassieke werkruimten en bevat niet de uitgebreide functionaliteit die wordt beschreven in [Power BI-inhoud insluiten in Microsoft Teams](../collaborate-share/service-embed-report-microsoft-teams.md).
 

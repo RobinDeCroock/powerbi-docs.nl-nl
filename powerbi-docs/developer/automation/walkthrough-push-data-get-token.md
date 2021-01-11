@@ -1,6 +1,6 @@
 ---
-title: Een verificatietoegangstoken ophalen
-description: Stapsgewijze uitleg van het pushen van gegevens - Een verificatietoegangstoken ophalen
+title: Een verificatietoegangstoken ophalen in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: 'Stapsgewijze uitleg van het pushen van gegevens: Haal een verificatietoegangstoken op. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.'
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 05/29/2019
-ms.openlocfilehash: b66c87d88e08a4c1f9ee4f9aebdbf44516d9cb43
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 22d30e14256a2e58e05e17207380842392fe0c23
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91746511"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887403"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Stap 2: Een toegangstoken voor verificatie ophalen
 
@@ -31,7 +31,7 @@ Voor deze procedure is Visual Studio 2015 of hoger vereist.
 
 2. Installeer het [Azure AD Authentication Library-pakket voor .NET-NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727). Uw .Net-app heeft dit pakket nodig om een verificatietoegangstoken op te halen. 
 
-     a. Selecteer **Extra** > **NuGet-pakketbeheer** > **Package Manager Console**.
+     a. Selecteer **Hulpprogramma's** > **NuGet Package Manager** > **Package Manager-console**.
 
      b. Voer **Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612** in
 

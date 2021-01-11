@@ -1,6 +1,6 @@
 ---
-title: Inleiding tot het gebruik van typehulpmiddelen in een Power BI-visual
-description: In dit artikel wordt beschreven hoe u SVG-hulpmiddelen gebruikt om de basistypen voor Power BI-visuals uit te breiden
+title: Inleiding tot het gebruik van typehulpmiddelen in een Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt beschreven hoe u SVG-hulpmiddelen gebruikt om de basistypen voor Power BI-visuals uit te breiden. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 06/18/2019
-ms.openlocfilehash: 5a3cfb7ea9c9f398193b45652aa43c6b83c8f70b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 4f81f55f8d5cfc54020b3b4e02e8be55fb65b0d1
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79377990"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888116"
 ---
 # <a name="type-utils"></a>Typehulpmiddelen
 
@@ -26,7 +26,7 @@ Als u het pakket wilt installeren, voert u de volgende opdracht uit in de map me
 
 npm install powerbi-visuals-utils-typeutils --save Met deze opdracht wordt het pakket geïnstalleerd en wordt een pakket toegevoegd als afhankelijkheid van uw package.json
 
-## <a name="double"></a>Double
+## <a name="double"></a>Dubbel
 
 `Double` biedt mogelijkheden voor het bewerken van de precisie van de getallen.
 

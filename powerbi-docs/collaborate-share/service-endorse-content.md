@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 10/26/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7232cad4fc1216ac6e1aa7c8a01136239a2f09d2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5485f59e11f3c971c719b2604b9e1280a072c5b1
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407050"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97926749"
 ---
 # <a name="endorse-your-content"></a>Uw inhoud goedkeuren
 
@@ -25,7 +25,7 @@ Power BI biedt twee manieren waarop u uw waardevolle, hoogwaardige inhoud kunt g
 
 * **Certificering**: Certificering betekent dat de inhoud voldoet aan de kwaliteitsnormen van de organisatie en dat de inhoud kan worden beschouwd als betrouwbaar, gezaghebbend en klaar voor gebruik in de hele organisatie.
 
-    Alleen geautoriseerde revisoren kunnen inhoud certificeren. Eigenaren van inhoud die willen dat hun inhoud wordt gecertificeerd en die niet gemachtigd zijn om deze zelf te certificeren, moeten de richtlijnen van hun organisatie volgen om hun inhoud te laten certificeren.
+    Alleen [geautoriseerde revisoren (gedefinieerd door de Power BI-beheerder)](../admin/service-admin-setup-certification.md) kunnen inhoud certificeren. Eigenaren van inhoud die hun inhoud gecertificeerd willen hebben en die niet gemachtigd zijn om deze zelf te certificeren, moeten de richtlijnen van hun organisatie volgen om hun inhoud te laten certificeren.
 
 Momenteel is het mogelijk om de volgende items goed te keuren
 * Gegevenssets

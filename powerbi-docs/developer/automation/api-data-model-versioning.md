@@ -1,6 +1,6 @@
 ---
-title: Versiebeheer Power BI-gegevensmodel
-description: Gegevensmodel extern weergegeven door een OData-service
+title: Versiebeheer van Power BI-gegevensmodellen in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Gegevensmodel extern weergegeven door een OData-service. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: d8ab94bd33aa2f0674f6dc45a93da0d2f42b1647
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: 0c645774f7af1a8575ca3c755a74fd65b652031a
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91749294"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887702"
 ---
 # <a name="data-model-versioning"></a>Versiebeheer gegevensmodel
 
@@ -32,9 +32,9 @@ De volgende toevoegingen van gegevensmodellen worden veilig geacht en vereisen n
 * Een typedefinitie of -inventarisatie toevoegen  
 * Een annotatie toevoegen aan een modelelement die niet hoeft te worden begrepen door de client voor correcte interactie met de service  
   
-Clients ***MOETEN*** worden voorbereid op services die dergelijke incrementele wijzigingen aanbrengen in het model. In het bijzonder moeten clients erop worden voorbereid eigenschappen en afgeleide typen te ontvangen die eerder niet werden gedefinieerd door de service.  
+Clients **MOETEN** _ worden voorbereid op services die dergelijke incrementele wijzigingen aanbrengen in het model. In het bijzonder moeten clients erop worden voorbereid eigenschappen en afgeleide typen te ontvangen die eerder niet werden gedefinieerd door de service.  
   
-Services ***MOETEN NIET*** hun gegevensmodel afhankelijk van de geverifieerde gebruiker wijzigen. Als het gegevensmodel afhankelijk is van een gebruiker of gebruikersgroep, moeten, wanneer het volledig model wordt vergeleken met het model dat zichtbaar is voor gebruikers met beperkte machtigingen, alle wijzigingen veilige wijzigingen zijn, zoals is gedefinieerd in deze sectie.  
+Services _ *_MOGEN NIET_** hun gegevensmodel afhankelijk van de geverifieerde gebruiker wijzigen. Als het gegevensmodel afhankelijk is van een gebruiker of gebruikersgroep, moeten, wanneer het volledig model wordt vergeleken met het model dat zichtbaar is voor gebruikers met beperkte machtigingen, alle wijzigingen veilige wijzigingen zijn, zoals is gedefinieerd in deze sectie.  
   
 Voor meer informatie over OData-gegevensmodelstandaarden raadpleegt u [OData Version 4.0 Part 1: Protocol Plus Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html).  
   

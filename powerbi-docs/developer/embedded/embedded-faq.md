@@ -1,6 +1,6 @@
 ---
-title: Veelgestelde vragen over in Power BI ingesloten analyses
-description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over Power BI Embedded.
+title: Veelgestelde vragen over ingesloten analyses in Power BI om u te helpen betere ingesloten BI-inzichten mogelijk te maken
+description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over ingesloten analyses in Power BI waarmee ingesloten BI-inzichten voor klanten worden verbeterd.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 5d402a32571f70f3a5a3b5686e3fc40ef07126c9
-ms.sourcegitcommit: bbf7e9341a4e1cc96c969e24318c8605440282a5
+ms.openlocfilehash: 4d8096793c4663cbed71c3149bde11305ebee71e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "97098324"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886690"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 

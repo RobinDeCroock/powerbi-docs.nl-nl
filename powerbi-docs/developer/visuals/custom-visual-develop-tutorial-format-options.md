@@ -1,6 +1,6 @@
 ---
-title: Opmaakopties toevoegen aan een aangepaste Power BI-visual
-description: Een zelfstudie over hoe u opmaakopties ontwikkelt voor aangepaste Power BI-visuals
+title: Opmaakopties toevoegen aan een aangepaste Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Een zelfstudie over het ontwikkelen van opmaakopties voor aangepaste Power BI-visuals. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: ec3ba601eb6cd5db4fbc19298d76ce0cd7346f53
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: ec5dbe338cc27379d69781a83f58091d94011f08
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418734"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886569"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Zelfstudie: Opmaakopties toevoegen aan een Power BI-visual
 
@@ -192,7 +192,7 @@ U kunt aangepaste eigenschappen toevoegen, zodat u de kleur van de cirkel en de 
     pbiviz start
     ```
 
-15. Selecteer in **Power BI** **Automatisch opnieuw laden in-/uitschakelen** in de werkbalk die boven de visual zweeft.
+15. Selecteer in **Power BI****Automatisch opnieuw laden in-/uitschakelen** in de werkbalk die boven de visual zweeft.
 
 16. In de opties voor **visual format** vouwt u **Circle** uit.
 
@@ -275,7 +275,7 @@ U kunt het Power BI Desktop-rapport nu openen en de aangepaste visual Circle Car
 
 6. Selecteer **OK** wanneer de visual succesvol is geïmporteerd.
 
-7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_** .
+7. Controleer of de visual is toegevoegd aan het venster **_Visualisaties_**.
 
     ![Weergave in visualisatiepaneel in Power BI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

@@ -1,6 +1,6 @@
 ---
-title: 'Zelfstudie: Een React-visual voor Power BI maken'
-description: Deze zelfstudie laat zien hoe u een Power BI-visual maakt met React. Hiermee wordt een waarde in een cirkel weergegeven. Met behulp van adaptieve grootte en instellingen kunt u deze aanpassen.
+title: Een React-visual maken voor Power BI in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: Deze zelfstudie laat zien hoe u een Power BI-visual maakt met React. Hiermee wordt een waarde in een cirkel weergegeven. Met behulp van adaptieve grootte en instellingen kunt u deze aanpassen. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/30/2020
-ms.openlocfilehash: d8e7b5dca207aef1a4f119bf324662dbcaa1bbab
-ms.sourcegitcommit: cc20b476a45bccb870c9de1d0b384e2c39e25d24
+ms.openlocfilehash: 04c73d88d4051aa024a2bf3a56f3bdaf02b9dc1e
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94513316"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97889009"
 ---
 # <a name="tutorial-create-a-react-based-visual"></a>Zelfstudie: Een React-visual maken
 

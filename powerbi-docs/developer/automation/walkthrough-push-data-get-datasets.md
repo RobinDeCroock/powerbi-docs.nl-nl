@@ -1,6 +1,6 @@
 ---
-title: Een gegevensset ophalen om rijen toe te voegen
-description: 'Stappen om gegevens te pushen: een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel'
+title: Een gegevensset ophalen om rijen toe te voegen in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: 'Uitleg over het pushen van gegevens: een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.'
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: madia
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: a150666eafd8dc11b573150455775d2ecf6f7f1b
-ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
+ms.openlocfilehash: e1be761f68dfcd58de8623618acd859694b95bde
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "91748305"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887449"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Stap 4: Een gegevensset ophalen om rijen toe te voegen aan een Power BI-tabel
 
@@ -36,7 +36,7 @@ U kunt als volgt een gegevensset ophalen.
      b. Voer in **Package Manager Console** Install-Package Newtonsoft.Json in.
 2. Nadat het pakket is geïnstalleerd, voegt u **using Newtonsoft.Json;** toe aan Program.cs.
 3. Voeg de onderstaande code toe aan Program.cs om een **gegevensset-id** op te halen.
-4. Voer de console-app uit en meld u aan bij uw Power BI-account. In het consolevenster ziet u **Gegevensset-id:** , gevolgd door een id.
+4. Voer de console-app uit en meld u aan bij uw Power BI-account. In het consolevenster ziet u **Gegevensset-id:**, gevolgd door een id.
 
 **Voorbeeld van een gegevensset ophalen**
 

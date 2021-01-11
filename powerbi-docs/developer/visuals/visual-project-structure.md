@@ -1,6 +1,6 @@
 ---
-title: Projectstructuur van Power BI-visuals
-description: In dit artikel wordt de map- en bestandsstructuur beschreven van een Power BI-visualproject
+title: Structuur van Power BI-visualprojecten in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt de map- en bestandsstructuur beschreven van een Power BI-visualproject. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 01/12/2020
-ms.openlocfilehash: df7a2909e3ccd745fdaa990ba5281a723ef6360d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 4c946021138e49c0aed9668d9b3ea6079f458ccd
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416710"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97888024"
 ---
 # <a name="power-bi-visual-project-structure"></a>Projectstructuur van Power BI-visuals
 
