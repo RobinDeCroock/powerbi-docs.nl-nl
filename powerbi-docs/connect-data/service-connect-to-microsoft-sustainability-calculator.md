@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 88d508e5a71fec2574104356d77aaa0fb79bb0bc
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
+ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745180"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97927141"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Ondersteuningspagina voor Microsoft Sustainability Calculator
 
@@ -29,6 +29,7 @@ Voor toegang tot de Microsoft Sustainability Calculator hebt u de volgende infor
 - Tenant-id
 - Toegangssleutel
 - Inschrijvingsnummer
+- Alleen de rol Azure-beheerder kan een rekenmachine verifiëren en koppelen aan bedrijfsgegevens. (**Alleen voor de previewversie van december 2020**)
 
 Ga als volgt te werk om het inschrijvingsnummer van uw bedrijf te vinden:
 
@@ -58,7 +59,7 @@ Ga als volgt te werk om de toegangssleutel van uw bedrijf te vinden:
 
    ![Aan de slag met uw nieuwe app](media/service-connect-to-zendesk/power-bi-new-app-connect-get-started.png)
 
-7. Voer **Bedrijfsnaam**, **Inschrijvingsnummer gebruiker** en **Aantal maanden** in. Zie [Vereisten](#prerequisites) voor meer informatie over het verkrijgen van uw inschrijvingsnummer. Selecteer **Next**.
+7. Voer **Bedrijfsnaam**, **Inschrijvingsnummer gebruiker** en **Aantal maanden** in. Zie [Vereisten](#prerequisites) voor meer informatie over het verkrijgen van uw inschrijvingsnummer. Selecteer **Volgende**.
 
    ![Bedrijfsinschrijving](media/service-connect-to-microsoft-sustainability-calculator/company-enrollment.png)
 

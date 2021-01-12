@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/16/2020
-ms.openlocfilehash: c292e1ccaa03904ee0bfa4825a539430fed71867
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.date: 12/31/2020
+ms.openlocfilehash: 7c1df405c80f50b7b98803b68ae2d3887013a623
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621873"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97886184"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -48,6 +48,8 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
             - Bijgewerkte MHTML-renderer voor het gebruik van nieuwer HTML-DOCTYPE.
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+   - *Versie: 2.86.1321.0 (oktober 2020), uitgebracht: 18 november 2020*
+        - Opgeloste fouten
    - *Versie: 2.86.961.0 (oktober 2020), uitgebracht: 27 oktober 2020* (nieuwe build en nieuwe versie)
         - Bevat de vereiste wijzigingen om verbinding te maken met Power BI Report Server (oktober 2020)        
    

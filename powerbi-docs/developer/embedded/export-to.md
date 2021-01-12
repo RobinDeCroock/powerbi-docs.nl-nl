@@ -1,18 +1,18 @@
 ---
-title: API voor het exporteren van In Power BI ingesloten analyserapporten
-description: Ontdek hoe u een ingesloten Power BI-rapport kunt exporteren om uw in Power BI en analyse ingesloten BI-ervaring te vergroten
+title: API voor het exporteren van in Power BI ingesloten analyserapporten, voor betere ingesloten BI-statistieken
+description: Ontdek hoe u een ingesloten Power BI-rapport kunt exporteren om uw in Power BI en analyse ingesloten BI-ervaring te vergroten. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 12/28/2020
-ms.openlocfilehash: da0f5f155552a8a53b53789f3bfb6ebe839367c5
-ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
+ms.openlocfilehash: acd9d98b55697e8ca3729cad65a1ead8f01f6e62
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97805137"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97887012"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -73,7 +73,7 @@ Als u een gefilterd rapport wilt exporteren, voegt u de [tekenreeksparameters va
 
 De onderstaande tabel bevat enkele syntaxisvoorbeelden van tekenreeksen die u kunt doorgeven aan  `ExportFilter`.
 
-|Filteren    |Syntax    |Voorbeeld    |
+|Filteren    |Syntaxis    |Voorbeeld    |
 |---|----|----|----|
 |Een waarde in een veld    |Tabel/veld eq 'waarde'    |Store/rayon eq 'NC'    |
 |Meerdere waarden in een veld    |Tabel/veld in ('waarde1', 'waarde2')     |Store/rayon in ('NC', 'TN')    |

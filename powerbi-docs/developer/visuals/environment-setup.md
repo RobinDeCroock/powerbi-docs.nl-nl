@@ -1,6 +1,6 @@
 ---
-title: Een omgeving instellen voor het ontwikkelen van een Power BI-visual
-description: In dit artikel wordt uitgelegd hoe u uw omgeving zo instelt dat u een Power BI Visual kunt ontwikkelen
+title: Een omgeving opzetten om een Power BI-visual te ontwikkelen in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
+description: In dit artikel wordt uitgelegd hoe u uw omgeving zo instelt dat u een Power BI Visual kunt ontwikkelen. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 09/02/2020
-ms.openlocfilehash: e5b176ac9e8d334b6dec9af70c189d2767bace1c
-ms.sourcegitcommit: a465a0c80ffc0f24ba6b8331f88420a0d21ac0b2
+ms.openlocfilehash: 43c5a636a7e3d0396210370df4427e1e13494551
+ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97805229"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97885885"
 ---
 # <a name="set-up-your-environment-for-developing-a-power-bi-visual"></a>Uw omgeving instellen voor het ontwikkelen van een Power BI-visual
 
