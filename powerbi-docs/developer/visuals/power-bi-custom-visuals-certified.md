@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/08/2020
-ms.openlocfilehash: 1331543973680879e4fcc2dbafc7323e72a27694
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 5f337197655d41b830b237c04faa2642991c34ee
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888162"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969806"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Een Power BI-visual laten certificeren
 
@@ -92,7 +92,7 @@ Volg de onderstaande codevereisten om ervoor te zorgen dat uw code in overeenste
 * Gebruik alleen openbare OSS-onderdelen, zoals openbare Javascript- of TypeScript-bibliotheken.
 * De code moet de [API voor rendering-gebeurtenissen](event-service.md) ondersteunen.
 * Zorg ervoor dat DOM veilig wordt gemanipuleerd. Gebruik opschoning voor gebruikersinvoer of gebruikersgegevens voordat deze worden toegevoegd aan DOM.
-* Gebruik het [voorbeeldrapport](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) als een testgegevensset.
+* Gebruik het [voorbeeldrapport](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/assets) als een testgegevensset.
 
 **Niet toegestaan**
 * Gebruik van externe services of bronnen. U kunt bijvoorbeeld vanuit Power BI geen HTTP/S- of WebSocket-aanvragen naar services verzenden.

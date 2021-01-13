@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded-capaciteit maken in Azure Portal voor uw ingesloten BI-oplossing voor ingesloten analyses in power BI
-description: Dit artikel biedt informatie over het maken van een Power BI Embedded-capaciteit in Microsoft Azure voor uw ingesloten BI-oplossing voor ingesloten analyses in Power BI.
+title: Power BI Embedded-capaciteit maken in Azure Portal | Microsoft Docs
+description: Dit artikel biedt informatie over het maken van Power BI Embedded-capaciteit in Microsoft Azure.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
 ms.date: 08/02/2020
-ms.openlocfilehash: 898da0f5e4284183f2ffa08fba8e6a50d9474d15
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887518"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155710"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
@@ -47,7 +47,8 @@ Voordat u een Power BI Embedded-capaciteit maakt, moet u controleren of u zich t
 
 4. Vul de vereiste gegevens in en selecteer vervolgens **Beoordelen en maken**.
 
-    ![Schermopname van het tabblad Basisprincipes van de pagina Power BI Embedded voor het maken van nieuwe capaciteit in Azure Portal.](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    >[!div class="mx-imgBorder"]
+    >![Schermopname van het tabblad Basisprincipes van de pagina Power BI Embedded voor het maken van nieuwe capaciteit in Azure Portal.](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
 
     * **Abonnement**: het abonnement waarvoor u de capaciteit wilt maken.
 

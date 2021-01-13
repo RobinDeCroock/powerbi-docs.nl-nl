@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 08/12/2020
-ms.openlocfilehash: 67875f9b571e0a0376046a3cb080551d23e579e4
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: adb238b918d01bcdefe247a5452a0432b97d2e0c
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97889289"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969507"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Richtlijnen voor Power BI-visuals
 Voordat u uw Power BI-visual in Microsoft AppSource [publiceert](office-store.md), zodat anderen deze kunnen detecteren en gebruiken, moet u ervoor zorgen dat u de richtlijnen volgt om een geweldige ervaring voor uw gebruikers te creëren.
@@ -57,7 +57,7 @@ Nadat de Power BI-visual is gevalideerd en goedgekeurd, wordt bij de prijsopties
 ## <a name="context-menu"></a>Contextmenu
 Het contextmenu is het snelmenu dat wordt weergegeven wanneer de gebruiker een visual aanwijst.
 Met alle Power BI-visuals moet er een uniforme ervaring kunnen worden geboden in het contextmenu.
-Raadpleeg [dit artikel](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) voor meer informatie over het toevoegen van een contextmenu.
+Raadpleeg [dit artikel](https://github.com/PowerBi-Projects/PowerBI-visuals/tree/gh-pages/tutorials/building-bar-chart) voor meer informatie over het toevoegen van een contextmenu.
 
 >[!div class="mx-imgBorder"]
 >![Een schermopname van een visueel contextmenu in Power BI.](media/guidelines-powerbi-visuals/context-menu.png)

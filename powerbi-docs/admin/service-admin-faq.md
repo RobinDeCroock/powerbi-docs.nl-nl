@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 5a30ff855616eef04db4827b4a25cb0facb9db1b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: c54a8216812c9a492dc889faf07ad9028c02d7c7
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413697"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961196"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Power BI beheren: veelgestelde vragen
 
@@ -244,7 +244,7 @@ Zie [Hoge beschikbaarheid en failover in Power BI en Veelgestelde vragen over he
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>Voldoet Power BI aan nationale, regionale en branchespecifieke nalevingsvereisten?
 
-Lees meer informatie over Power BI-naleving in het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx).
+Lees meer informatie over Power BI-naleving in het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trust-center/product-overview).
 
 ### <a name="how-does-security-work-in-power-bi"></a>Hoe werkt beveiliging in Power BI?
 

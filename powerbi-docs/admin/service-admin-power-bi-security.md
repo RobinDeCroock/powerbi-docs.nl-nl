@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857054"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961150"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 
@@ -24,7 +24,7 @@ De Power BI-service is gebaseerd op **Azure**, een cloudcomputinginfrastructuur 
 
 ## <a name="power-bi-architecture"></a>Architectuur van Power BI
 
-Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web Front End) en een **Back-End**cluster.
+Elke Power BI-implementatie bestaat uit twee clusters: een **WFE**-cluster (Web Front End) en een **Back-End** cluster.
 
 Het cluster **WFE** beheert het eerste verbindings- en verificatieproces voor Power BI. Het maakt hierbij gebruik van AAD om clients te verifiëren en tokens te leveren voor volgende clientverbindingen met de Power BI-service. Power BI gebruikt ook de **Azure Traffic Manager** (ATM) om gebruikersverkeer te leiden naar het dichtstbijzijnde datacentrum, dat wordt bepaald door het DNS-record van de client die probeert verbinding te maken, voor het verificatieproces en om statische inhoud en bestanden te downloaden. Power BI gebruikt het **Azure Content Delivery Network** (CDN) om de benodigde statische inhoud en bestanden op een efficiënte manier te distribueren naar gebruikers op basis van geografische landinstelling.
 
@@ -53,7 +53,7 @@ De platformbeveiliging voor Power BI omvat ook de multitenant-omgevingsbeveiligi
 
 ## <a name="data-and-service-security"></a>Gegevens- en servicebeveiliging
 
-Raadpleeg het [Vertrouwenscentrum van Microsoft](https://www.microsoft.com/trustcenter) voor meer informatie.
+Raadpleeg het [Vertrouwenscentrum van Microsoft](https://www.microsoft.com/trust-center/product-overview) voor meer informatie.
 
 Zoals eerder in dit artikel werd beschreven, wordt de Power BI-aanmelding van een gebruiker gebruikt door on-premises Active Directory-servers om toe te wijzen aan een UPN voor referenties. Het is echter **belangrijk** om op te merken dat gebruikers verantwoordelijk zijn voor de gegevens die ze delen: als een gebruiker met hun referenties verbinding maakt met gegevensbronnen, en vervolgens een rapport (of dashboard of gegevensset) op basis van die gegevens deelt, zijn gebruikers met wie het dashboard is gedeeld, niet geverifieerd tegen de oorspronkelijke gegevensbron en hebben ze toegang tot het rapport.
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: ee7ed48043a902a9b5ebd3c548ebec7505e76ab1
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 784f41e8efa5c6d02a95ef451488883a4422b854
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887909"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969484"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Zelfstudie: Eenheidstests voor Power BI-visualprojecten toevoegen
 
@@ -457,7 +457,7 @@ Wanneer u gegevens in gegevensveldbuckets plaatst, produceert Power BI een categ
 
 In eenheidstests hebt u geen Power BI-kernfuncties om de gegevens te reproduceren. U moet uw statische gegevens echter toewijzen aan de categorische `dataview`. U kunt deze toewijzen met behulp van de klasse `TestDataViewBuilder`.
 
-Zie [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md) voor meer informatie over de toewijzing van gegevensweergaven.
+Zie [DataViewMappings](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md) voor meer informatie over de toewijzing van gegevensweergaven.
 
 In de methode `getDataView` roept u de methode `createCategoricalDataViewBuilder` aan met uw gegevens.
 

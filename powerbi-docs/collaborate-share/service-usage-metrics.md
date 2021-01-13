@@ -10,16 +10,16 @@ ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
 ms.date: 12/15/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7184f00af46ce5f49df2510ea5e676c89a37a7a
-ms.sourcegitcommit: fef29a5c5bf1e0dae663c42c9ce5ae50e29ae9be
+ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97558488"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053415"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Metrische gebruiksgegevens binnen klassieke werkruimten bewaken
 
-Metrische gebruiksgegevens helpen u te begrijpen wat de impact van uw dashboards en rapporten is. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wie ze gebruikt en met welk doel. In dit artikel vindt u een overzicht van rapporten met metrische gebruiksgegevens voor [klassieke werkruimten](service-create-workspaces.md). Als uw rapporten zich in een van de nieuwe werkruimten bevinden, raadpleegt u het artikel over het [bewaken van metrische gebruiksgegevens in de nieuwe werkruimte](service-usage-metrics.md)  
+Metrische gebruiksgegevens helpen u te begrijpen wat de impact van uw dashboards en rapporten is. Wanneer u metrische gegevens over het gebruik van dashboards of rapporten uitvoert, ontdekt u hoe deze dashboards en rapporten worden gebruikt binnen uw organisatie; wie ze gebruikt en met welk doel. In dit artikel vindt u een overzicht van rapporten met metrische gebruiksgegevens voor [klassieke werkruimten](service-create-workspaces.md). Als uw rapporten zich in een van de nieuwe werkruimten bevinden, raadpleegt u het artikel over het [bewaken van metrische gebruiksgegevens in de nieuwe werkruimte](service-modern-usage-metrics.md)  
 
 Rapporten over metrische gegevens over gebruik zijn alleen-lezen. U kunt een dergelijk rapport echter wel kopiëren. U beschikt dan over een standaardrapport van Power BI dat u kunt bewerken. U kunt ook uw eigen rapporten maken in Power BI Desktop op basis van de onderliggende gegevensset, met daarin metrische gegevens over gebruik voor alle dashboards of alle rapporten in een werkruimte. In eerste instantie bevat het gekopieerde rapport alleen metrische gegevens voor het geselecteerde dashboard of rapport. U kunt het standaardfilter verwijderen om zo toegang te krijgen tot de onderliggende gegevensset, met alle metrische gegevens over gebruik voor de geselecteerde werkruimte. Misschien ziet u zelfs de namen van specifieke gebruikers, als de beheerder dit heeft toegestaan.
 

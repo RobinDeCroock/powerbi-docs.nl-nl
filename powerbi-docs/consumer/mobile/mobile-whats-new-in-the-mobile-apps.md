@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 7779976e7897b31e5f3dde2c4c3306c909ecf0f0
-ms.sourcegitcommit: 5c09d121d3205e65fb33a2eca0e60bc30e777773
+ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97675541"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969645"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -570,7 +570,7 @@ Lees het [overzicht van functies op mobiele apps van april 2017](https://powerbi
 #### <a name="all-devices"></a>Alle apparaten
 **Achtergrondkleur voor telefoonrapporten** Als u een achtergrondkleur definieert voor een rapport in Power BI Desktop, heeft het telefoonrapport dezelfde achtergrondkleur. Meer informatie over [rapportpagina's voor telefoons optimaliseren](../../create-reports/desktop-create-phone-report.md) (Engelstalig).
 
-**Ontwikkel Power BI-visuals die geschikt zijn voor mobiele apparaten** [Lees deze handleiding voor ontwikkelaars](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (Engelstalig) voor tips over het maken van Power BI-visuals die er goed uitzien en goed werken op mobiele apparaten.
+**Ontwikkel Power BI-visuals die geschikt zijn voor mobiele apparaten** [Lees deze handleiding voor ontwikkelaars](https://github.com/PowerBi-Projects/PowerBI-visuals/blob/master/Tutorial/MobileGuideline.md) (Engelstalig) voor tips over het maken van Power BI-visuals die er goed uitzien en goed werken op mobiele apparaten.
 
 #### <a name="ios-devices"></a>iOS-apparaten
 **Ga in gesprek met uw gegevens: stel vragen door te spreken** U kunt nu [vragen stellen over uw gegeven met Q&A](mobile-apps-ios-qna.md) (Engelstalig) door te spreken in plaats van te typen. 

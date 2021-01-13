@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 08/10/2020
-ms.openlocfilehash: 66d721670f90efb17f6167aba3c074bdf6ea0ae1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 39357ec461ae96ef566719739aa76a61c7e7c539
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394860"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969783"
 ---
 # <a name="tenant-settings-guidance"></a>Richtlijnen voor tenantinstellingen
 
@@ -39,7 +39,7 @@ Als u dit doet, raden wij u aan om de instelling **Help-informatie publiceren** 
 Deze URL's worden beschikbaar als koppelingen in het menu Help van Power BI.
 
 > [!NOTE]
-> Door de URL voor de **Licentievereisten** op te geven voorkomt u dat individuele gebruikers een Power BI Pro-licentie kopen. In plaats hiervan worden ze naar uw interne site geleid met informatie over het verkrijgen van een licentie. De instelling **Gebruikers toestaan Power BI Pro uit te proberen** is standaard ingeschakeld, en zorgt voor een scheiding tussen de betaalde versie en de proefversie. Zie [Gebruikers toestaan Power BI Pro uit te proberen](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro) voor meer informatie over hoe deze instellingen werken.
+> Door de URL voor de **Licentievereisten** op te geven voorkomt u dat individuele gebruikers een Power BI Pro-licentie kopen. In plaats hiervan worden ze naar uw interne site geleid met informatie over het verkrijgen van een licentie. De instelling **Gebruikers toestaan Power BI Pro uit te proberen** is standaard ingeschakeld, en zorgt voor een scheiding tussen de betaalde versie en de proefversie. Zie [Gebruikers toestaan Power BI Pro uit te proberen](../admin/service-admin-portal.md#allow-users-to-try-power-bi-paid-features) voor meer informatie over hoe deze instellingen werken.
 >
 >
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: 4d8096793c4663cbed71c3149bde11305ebee71e
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: d787dfbb926a3a1224d5b4949003e0b0d260260f
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886690"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155636"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -35,7 +35,6 @@ Ontwikkelaars en softwarebedrijven, ook wel onafhankelijke softwareleveranciers 
 Power BI is een SaaS-oplossing (Software as a Service) voor analytische gegevens waarmee organisaties in één weergave alle meest kritieke zakelijke gegevens kunnen bekijken.
 
 Microsoft heeft Power BI Embedded ontwikkeld voor ISV's die visuals in hun toepassingen willen insluiten zodat hun klanten analytische beslissingen kunnen nemen. Hierdoor hoeven ISV's niet hun eigen analyseoplossing te bouwen. [Ingesloten analyse](embedding.md) biedt zakelijke gebruikers toegang tot zakelijke gegevens en stelt ze in staat query's uit te voeren op deze gegevens om inzichten te genereren in de toepassing.
-
 
 ### <a name="what-is-the-difference-between-power-bi-premium-and-power-bi-embedded"></a>Wat is het verschil tussen Power BI Premium en Power BI Embedded?
 

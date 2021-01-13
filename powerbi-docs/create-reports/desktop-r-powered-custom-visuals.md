@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 07/27/2018
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35c118171ef5202e24e5997e321b698e3b137387
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e2a610e12da1a91db6e22ab493ed39410ec1c091
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396470"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969737"
 ---
 # <a name="use-r-powered-power-bi-visuals-in-power-bi"></a>Met R gemaakte Power BI-visuals gebruiken in Power BI
 
@@ -92,7 +92,7 @@ Hieronder worden de stappen beschreven voor het bladeren en selecteren van visua
 
 Als u zelf in R visuals hebt gemaakt voor gebruik in rapporten, kunt u die met anderen delen door uw aangepaste visuals toe te voegen aan de  **Power BI-visualgalerie**. Bijdragen moeten worden aangeleverd via GitHub. Het proces daarvoor wordt beschreven op de volgende locatie:
 
-* [Bijdragen aan de Power BI-visualgalerie die met R zijn gemaakt](https://github.com/Microsoft/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
+* [Bijdragen aan de Power BI-visualgalerie die met R zijn gemaakt](https://github.com/PowerBi-Projects/PowerBI-visuals#building-r-powered-custom-visual-corrplot)
 
 ## <a name="troubleshoot-r-powered-power-bi-visuals"></a>Problemen met Power BI-visuals die zijn gemaakt met R oplossen
 
