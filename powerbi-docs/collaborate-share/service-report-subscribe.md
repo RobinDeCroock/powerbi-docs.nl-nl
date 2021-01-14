@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4a8234176dd44fd265ff2d4a6af8e1b5568a642c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699265"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053392"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -128,6 +128,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - De optie om toegang te bieden tot het rapport/dashboard wordt altijd weergegeven als ingeschakeld wanneer u een bestaand abonnement bewerkt.  Als u deze optie hebt gewist en het abonnement opslaat, wordt die status opgeslagen. Wanneer u het rapport echter opnieuw gaat bewerken, wordt het standaard gecontroleerd.
 - Als u een alternatief e-mailadres hebt, maar geen primair adres, gebruikt Power BI dat adres om het abonnement te leveren.
 - Als u externe gebruikers abonneert op een rapport of dashboard ontvangen ze een melding zodra u in het deelvenster Abonnementen **Opslaan en sluiten** hebt geselecteerd een melding over het delen. Deze melding wordt alleen verzonden naar externe gebruikers, niet naar interne gebruikers, omdat ze een uitnodigingskoppeling nodig hebben om het rapport of het dashboard weer te geven. 
+- Er is een limiet voor het aantal abonnees voor één rapport of dashboard. Als u meer dan 200 abonnees hebt, kunnen er problemen optreden met de levering.
 
 ### <a name="dashboards"></a>Dashboards
 

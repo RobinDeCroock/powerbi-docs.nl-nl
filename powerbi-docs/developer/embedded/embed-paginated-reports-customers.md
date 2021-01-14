@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: a06553a3e0c090d4e4b0e007b61148115f8f5eb5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: b9623b91555efe01817e4ffca3c6f80bd73c5243
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885218"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110884"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten
 
@@ -58,10 +58,16 @@ Voordat u een gepagineerd rapport importeert of uploadt om in te sluiten, moet d
 * **Power BI Premium**: voor het insluiten van een gepagineerd rapport is *P*-SKU vereist. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../../admin/service-premium-what-is.md) voor meer informatie over dit abonnement
 * **Azure Power BI Embedded**: u kunt capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Voor het insluiten van gepagineerde rapporten hebt u minimaal een *A4*-abonnement nodig. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
+    >[!NOTE]
+    >Er is van Power BI Embedded onlangs een nieuwe versie uitgebracht: **Embedded Gen2**. Met Embedded Gen2 wordt het beheer van ingesloten capaciteiten vereenvoudigd en wordt de Power BI Embedded-ervaring verbeterd. Zie [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md) voor meer informatie.
+
 In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](./embedded-faq.md#which-solution-should-i-choose).
 
 | Capaciteitsknooppunten | Totaal aantal v-cores | v-cores voor back-end | RAM (GB) | v-cores voor front-end | 
 | --- | --- | --- | --- | --- |
+| A1 met [Embedded Gen2](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
+| A2 met [Embedded Gen2](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
+| A3 met [Embedded Gen2](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |

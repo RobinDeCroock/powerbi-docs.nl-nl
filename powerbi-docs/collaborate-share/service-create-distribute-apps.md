@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: f15508f030a1fa2ee0112134faf71e94e752984c
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96407694"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110907"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -70,7 +70,7 @@ Wanneer de dashboards en rapporten in uw werkruimte klaar zijn, kiest u welke da
     
     >[!IMPORTANT]
     >Als uw app afhankelijk is van gegevenssets uit andere werkruimten, is het uw verantwoordelijkheid om te controleren of alle app-gebruikers toegang tot de onderliggende gegevenssets hebben.
-    >
+    >Als de app of het rapport zich in dezelfde werkruimte bevindt als de gegevensset, moet u het rapport dat is gekoppeld aan de gegevensset ook toevoegen aan de app.
 
 6. Als u deze instelling in de Power BI-beheerportal door uw Power BI-beheerder is ingeschakeld, kunt u de app automatisch voor de ontvangers installeren. Raadpleeg dit artikel voor meer informatie over het [automatisch installeren van een app](#automatically-install-apps-for-end-users).
 

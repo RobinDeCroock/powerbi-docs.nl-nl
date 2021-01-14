@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 09/19/2019
+ms.date: 01/08/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 092ce10b527c6160cb27de5e3de0ed5852219f6a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 2d5eb4047b467544110a5802fa1d41b7ed65bb6a
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417285"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053346"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Inleiding tot dashboards voor Power BI-ontwerpers
 
@@ -53,9 +53,9 @@ De mogelijkheid om een dashboard te maken is een functie die beschikbaar is voor
 | Gegevensbronnen |Een of meer rapporten en een of meer gegevenssets per dashboard |Eén gegevensset per rapport |
 | Beschikbaar in Power BI Desktop |Nee | Ja. Kunnen rapporten maken en weergeven in Power BI Desktop |
 | Abonneren |Ja. U kunt zich abonneren op een dashboard |Ja. U kunt zich abonneren op een rapportpagina |
-| Filteren |Nee. U kunt niet filteren of segmenteren |Ja. Er zijn verschillende manieren voor filteren, markeren en segmenteren |
+| Filteren |Nee. Kan een dashboard niet filteren of segmenteren. *Kan* een [dashboardtegel in de focusmodus](../consumer/end-user-focus.md#working-in-focus-mode) filteren, maar kan het filter niet opslaan. |Ja. Er zijn verschillende manieren voor filteren, markeren en segmenteren |
 | Aanbevolen |Ja. U kunt één dashboard instellen als uw *aanbevolen* dashboard |Nee |
-| Favoriet | Ja. U kunt meerdere dashboards instellen als *favorieten* | Ja. U kunt meerdere rapporten instellen als *favorieten*
+| Favoriet | Ja. U kunt meerdere dashboards instellen als *favorieten* | Ja. U kunt meerdere rapporten instellen als *favorieten* |
 | Waarschuwingen instellen |Ja. Beschikbaar voor dashboardtegels in bepaalde omstandigheden |Nee |
 | Query's in natuurlijke taal (Q&A) |Ja | Ja, mits u bewerkingsmachtigingen voor het rapport en de onderliggende gegevensset hebt |
 | U kunt onderliggende tabellen en velden van de gegevensset bekijken |Nee. U kunt gegevens exporteren maar geen tabellen en velden in het dashboard zelf zien |Ja |

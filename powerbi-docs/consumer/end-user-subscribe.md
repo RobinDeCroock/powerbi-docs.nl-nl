@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/17/2020
+ms.date: 01/08/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4b5c076837ea5f70a84c1782349fd27ced4d866c
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: d7dfcdadd4becddb46127106b390d566faa2f9b9
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699332"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053438"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -96,7 +96,7 @@ Een abonnement wordt beëindigd als de Pro-licentie is verlopen, het dashboard o
 * Als de koppelingen in uw e-mailbericht (naar de inhoud) niet meer werken, is er mogelijk inhoud verwijderd. U kunt in het e-mailbericht onder de schermopname zien of u zich hebt geabonneerd of dat iemand anders u heeft geabonneerd. Als iemand anders dit heeft gedaan, vraagt u deze medewerker om de e-mailberichten te annuleren of u opnieuw te abonneren.
 * Voor dashboardabonnementen worden bepaalde soorten tegels nog niet ondersteund. Hierbij gaat het om: streamingtegels, videotegels, tegels voor aangepaste webinhoud. 
 * Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en de naam ervan wordt gewijzigd, moet u uw abonnement opnieuw maken.
-* Als u de abonnementsfunctie niet kunt gebruiken, neemt u contact op met de systeembeheerder of helpdesk. Deze functie is mogelijk uitgeschakeld door uw organisatie.  
+* Als u de abonnementsfunctie niet kunt gebruiken, neemt u contact op met de systeembeheerder of helpdesk. Uw organisatie heeft deze functie mogelijk uitgeschakeld of er is mogelijk een maximale limiet voor abonnees bereikt.  
 * E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md).  De uitzondering hierop vormen de aangepaste Power BI-visuals die zijn [gecertificeerd](../developer/visuals/power-bi-custom-visuals-certified.md).    
 * E-mailabonnementen worden verzonden met de standaard filter- en slicerstatus voor het rapport. De wijzigingen die u aanbrengt in de standaardwaarden nadat u zich abonneert, worden niet weergegeven in het e-mailbericht. Gepagineerde rapporten ondersteunen deze mogelijkheid wel en bieden de mogelijkheid om de specifieke parameterwaarden te configureren per abonnement.  
 * E-mailabonnementen bieden op dit moment geen ondersteuning voor de Power BI-visuals.  

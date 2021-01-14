@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 14b3329ea2b8636c1e5cf2412ca9843bc777bed1
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600456"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969162"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels toepassen in Power BI
 
@@ -65,9 +65,6 @@ Op het tabblad met de instellingen voor gegevenssets opent u de sectie Vertrouwe
 
 ## <a name="apply-sensitivity-labels-in-power-bi-desktop-preview"></a>Vertrouwelijkheidslabels in Power BI Desktop (preview) toepassen
 
->[!NOTE]
->Gedurende de eerste 48 uur nadat u hebt gekozen voor de preview-functie Information Protection van Power BI Desktop, **kunt u problemen ondervinden met PBIX-bestanden waarop vertrouwelijkheidslabels zijn toegepast (bijvoorbeeld bij het publiceren van het PBIX-bestand in de service, of het downloaden ervan vanuit de service)** . Dergelijke problemen zijn normaal en worden binnen 48 uur automatisch opgelost.
-
 Ga als volgt te werk als u vertrouwelijkheidslabels in Power BI Desktop wilt gebruiken:
 * U moet over een [Power BI Pro-licentie](./service-admin-purchasing-power-bi-pro.md) beschikken.
 * Vertrouwelijkheidslabels moeten voor uw organisatie zijn ingeschakeld. Neem contact op met uw Power BI-beheerder als u dit niet zeker weet.
@@ -77,10 +74,13 @@ Ga als volgt te werk als u vertrouwelijkheidslabels in Power BI Desktop wilt geb
 
     ![Schermopname van de pagina Desktop-preview-functies.](media/service-security-apply-data-sensitivity-labels/desktop-preview-features-page.png)
 
+    >[!Important]
+    >Nadat u de preview-functie Information Protection hebt ingeschakeld, moet u Desktop opnieuw starten om vertrouwelijkheidslabels te kunnen gebruiken.
+    >
+    >Als de computer vastloopt wanneer u opnieuw opstart, kan het zijn dat de vereiste Visual C++ Redistributable Runtime Library-versie op uw computer ontbreekt. Als u een dergelijke crash ondervindt, gaat u naar de downloadpagina [Microsoft Visual C++ 2015 Redistributable Update 3](https://www.microsoft.com/download/details.aspx?id=53587) voor instructies over het downloaden en installeren van de update. Nadat u de update hebt geïnstalleerd, start u de computer opnieuw op.
+
     Als u de optie voor de preview Information Protection niet ziet, is de preview-functie mogelijk voor uw organisatie geblokkeerd. Neem in dat geval contact op met de Power BI-beheerder.
 
-    >[!NOTE]
-    >Nadat u de preview-functie Information Protection hebt ingeschakeld, moet u Desktop opnieuw starten om vertrouwelijkheidslabels te kunnen gebruiken.
 * U moet zijn aangemeld.
 
 Als u een vertrouwelijkheidslabel wilt toepassen op het bestand waaraan u werkt, klikt u op de knop Vertrouwelijkheid op het tabblad Start en kiest u het gewenste label in het menu dat wordt geopend.

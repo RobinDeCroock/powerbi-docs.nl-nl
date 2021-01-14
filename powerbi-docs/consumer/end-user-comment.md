@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 12/03/2020
+ms.date: 01/08/2021
 LocalizationGroup: Consumer
-ms.openlocfilehash: f1265a8eb3fb4a7a1ec18a74c6b3a7d28b3b09ba
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: a4a89fd9db3ea3d92012bdaffdcaf248f7546c86
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96578240"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053461"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Opmerkingen toevoegen aan een dashboard of rapport
 
@@ -92,7 +92,7 @@ Naast het toevoegen van opmerkingen aan het gehele dashboard of aan een gehele r
 5. Selecteer **Sluiten** om terug te gaan naar het dashboard of rapport.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Vraag de aandacht van uw collega's met behulp van het @-teken
-Of u nu een dashboard-, rapport-, tegel- of visualopmerking maakt, u trekt de aandacht van uw collega's met het \@-teken.  Wanneer u het \@-symbool typt, opent Power BI een vervolgkeuzelijst waarin u personen van uw organisatie kunt zoeken en selecteren. Elke geverifieerde naam met een \@ ervoor verschijnt in een blauw lettertype. De @mentioned personen ontvangen onmiddellijk een e-mail in hun Postvak IN en als ze een Power BI Mobiel-app gebruiken, ontvangen ze een pushmelding op hun apparaat. Zij kunnen de opmerking rechtstreeks vanuit de melding openen, de gegevens bekijken en dienovereenkomstig antwoorden.
+Of u nu een dashboard-, rapport-, tegel- of visualopmerking maakt, u trekt de aandacht van uw collega's met het \@-teken.  Wanneer u het \@-symbool typt, opent Power BI een vervolgkeuzelijst waarin u personen van uw organisatie kunt zoeken en selecteren. Elke geverifieerde naam met een \@ ervoor verschijnt in een blauw lettertype. De @mentioned personen ontvangen onmiddellijk een e-mail in hun Postvak IN en als ze een Power BI Mobiel-app gebruiken, ontvangen ze een pushmelding op hun apparaat. Zij kunnen het rapport of het dashboard rechtstreeks vanuit de melding openen, de opmerking bekijken, de gegevens bekijken en dienovereenkomstig antwoorden.
 
 Hier volgt een gesprek dat ik heb met de *ontwerper* van de visualisatie. Ze gebruiken het teken @ om er zeker van te zijn dat ik de opmerking zie. Ik ontvang een melding en selecteer de koppeling om dit dashboard en het betreffende gesprek te openen.  
 

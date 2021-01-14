@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/31/2020
-ms.openlocfilehash: 7c1df405c80f50b7b98803b68ae2d3887013a623
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.date: 01/06/2021
+ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
+ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886184"
+ms.lasthandoff: 01/09/2021
+ms.locfileid: "98053323"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -23,6 +23,10 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
 
 ## <a name="october-2020"></a>Oktober 2020
 - **Power BI Report Server**
+    - *Versie: 1.9.7675.15620 (build 15.0.1104.300), uitgebracht: 8 januari 2021*
+        - Opgeloste fouten
+            - Probleem opgelost met het vernieuwen van rapporten met twee of meer gegevensbronnen die alleen verschillen met betrekking tot hoofdlettergebruik.
+            - Probleem opgelost met het vernieuwen van rapporten met bepaalde combinaties van geneste samenvoegingen.
     - *Versie: 1.9.7627.11028 (Build 15.0.1104.264), uitgebracht: 18 november 2020*
         - Opgeloste fouten
             - Probleem opgelost dat voorkomt dat gebruikers velden in de site-instellingen kunnen wijzigen via de portal.

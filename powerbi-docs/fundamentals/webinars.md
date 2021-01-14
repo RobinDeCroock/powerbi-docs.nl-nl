@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 12/01/2020
-ms.openlocfilehash: 1c0c572072fd085feab1533eb346d745b56f66b0
-ms.sourcegitcommit: 2fd64f96b5bfbc14ff47e5c892171e5c921fb525
+ms.openlocfilehash: 1ca4db3ad43553521c55866fd16b2440e3b64a65
+ms.sourcegitcommit: 73ca86f7633317fe3831839c4dd14a333b2f514c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "96502013"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979948"
 ---
 # <a name="power-bi-webinars"></a>Power BI-webinars
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) is een leverancier die werkt met Chauncy Freels en helpt bij het onderhouden van deze lijst met webinars"
@@ -28,52 +28,56 @@ Registreer u voor onze komende live webinars of bekijk onze opgenomen sessies on
 
 Aan de slag met deze populaire on-demand webinars:
 
+**Gegevensgestuurde inzichten voor realtime beslissingen en sterkere klant verbindingen**  
+door Shruti Shukla en Chandra Stevens  
+[Nu bekijken](https://info.microsoft.com/ww-Landing-DataDrivenInsights.html)
+
 **Snel aan de slag met Power BI**  
 door Miguel Martinez, Microsoft  
-[Registreer u voor de uitzending van 5 november 2020 van 18:00 tot 19:00 uur UTC](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+[Nu bekijken](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html)
 
 **Stimuleer een externe gegevenscultuur met Power BI en Microsoft Teams**  
 door Lukasz Pawlowski  
-[Nu bekijken](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html?LCID=EN-US)
+[Nu bekijken](https://info.microsoft.com/ww-Landing-RemoteDataCulturePowerBIandMicrosoftTeams.html)
 
 **Samen beter: 5 voordelen die Excel-gebruikers uit het gebruik van Power BI kunnen halen**  
 door Miguel Martinez en Carlos Otero  
-[Nu bekijken](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html?LCID=EN-US)
+[Nu bekijken](https://info.microsoft.com/ww-Landing-FiveBenefitsExcelUsersWillGetFromUsingPowerBI-Webinar.html)
 
 **Uw gegevens in realtime bewaken met Microsoft Power BI**  
 door Miguel Martinez en Peter Myers  
-[Nu bekijken](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+[Nu bekijken](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html)
 
 **Versnel Power BI op Azure Data Lake Storage met Dremio**  
-door Chris Webb en Tomer Shiran [Nu bekijken]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html?lcid=en-us)
+door Chris Webb en Tomer Shiran [Nu bekijken]( https://info.microsoft.com/ww-landing-Accelerate-Power-BI-on-Azure-Data-Lake-Storage-with-Dremio.html)
 
 **Schaalbare BI-oplossingen bouwen met Power BI en Snowflake**  
 door Chris Webb, Craig Collier en Chris Holliday  
-[Nu bekijken](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
+[Nu bekijken](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html)
 
 **De tevredenheid van gebruikers stimuleren met best practices voor het beheren van BI-inhoud**  
 door Nimrod Shalit  
-[Nu bekijken](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
+[Nu bekijken](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html)
 
 **Van inzicht tot actie: een gegevenscultuur aangedreven met Power BI**  
 door Arun Ulagaratchagan en Amir Netz  
-[Nu bekijken]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html?lcid=en-us)
+[Nu bekijken]( https://info.microsoft.com/ww-landing-From-Insight-to-Action-Driving-a-Data-Culture-with-Power-BI.html)
 
 **Zorg voor betere analyses met Power BI Embedded**  
 door Alon Baram  
-[Nu bekijken](https://info.microsoft.com/ww-landing-Enable-Better-Analytics-with-Power-BI-Embedded.html?Lcid=EN-US)
+[Nu bekijken](https://info.microsoft.com/ww-landing-Enable-Better-Analytics-with-Power-BI-Embedded.html)
 
 **Hoe de Miami HEAT Power BI gebruikte om zakelijke beslissingen te nemen**  
 door Edson Crevecoeur, Frank Mesa en Xinrou Tan  
-[Nu bekijken]( https://info.microsoft.com/ww-Landing-How-the-Miami-HEAT-Used-Power-BI-to-Drive-Business-Decisions.html?Lcid=EN-US)
+[Nu bekijken]( https://info.microsoft.com/ww-Landing-How-the-Miami-HEAT-Used-Power-BI-to-Drive-Business-Decisions.html)
 
 **Vereenvoudig het voorbereiden en analyseren van big data met Power BI**  
 door Priya Sathy  
-[Nu bekijken](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html?lcid=en-us)
+[Nu bekijken](https://info.microsoft.com/ww-landing-simplify-big-data-prep-and-analysis-with-power-BI.html)
 
 **Besluitvorming verbeteren met Power BI**  
 door Kim Manis en Lukasz Pawlowski  
-[Nu bekijken](https://info.microsoft.com/ww-Landing-Improve-Decision-Making-with-Power-BI.html?LCID=EN-US)
+[Nu bekijken](https://info.microsoft.com/ww-Landing-Improve-Decision-Making-with-Power-BI.html)
 
 ## <a name="on-demand-webinars"></a>Webinars op aanvraag
 
@@ -81,7 +85,7 @@ Vastgelegde sessies op elk gewenst moment bekijken.
 
 **Verken de complete economische impact van Microsoft Power BI**  
 door Megan Tomlin, Microsoft, en Jonathan Lipsitz, Forrester Consulting  
-[Nu bekijken]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html?Lcid=EN-US)
+[Nu bekijken]( https://info.microsoft.com/ww-landing-Explore-the-Total-Economic-Impact-Of-Microsoft-Power-BI.html)
 
 **Analyse in virtuele Azure-gebeurtenis: Sneller inzicht krijgen met Azure Synapse Analytics**  
 door Gayle Sheppard en John MacIntyre  
@@ -89,23 +93,23 @@ door Gayle Sheppard en John MacIntyre
 
 **Hoe Microsoft gegevensbeveiliging wijzigt in BI**  
 door Anton Fritz en ADI Regev  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html)
 
 **Een bedrijf worden dat zich baseert op inzichten**  
 door Amir Netz, Microsoft en Boris Evelson, Forrester  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html?lcid=en-us)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-how-to-become-an-insights-driven-business.html)
 
 **Drie manieren waarop kunstmatige intelligentie (AI) business intelligence (BI) verandert**  
 door Justyna Lucznik  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html?lcid=EN-US&ocid=mkto_eml_EM581230A1LA1)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-Three-Ways-AI-Is-Changing-BI.html&ocid=mkto_eml_EM581230A1LA1)
 
 **Power BI and the Future of Modern and Enterprise BI** (Power BI en de toekomst van moderne en zakelijke BI)  
 door Arun Ulag en Amir Netz  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html)
 
 **Negen trends die de toekomst van Big Data Analytics vormgeven**  
 door Vijay Gopalakrishnan  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html)
 
 **Aan de slag met Power BI Desktop**  
 door Miguel Martinez  
@@ -113,7 +117,7 @@ door Miguel Martinez
 
 **Aan de slag met de mobiele Power BI-app**  
 door Maya Shenhav  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html?LCID=EN-US)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-Landing-Getting-Started-with-the-Power-BI-Mobile-App-Video.html)
 
 **Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Leer in 20 minuten door een Power BI-dashboard te navigeren)  
 door Miguel Martinez  
@@ -125,7 +129,7 @@ door Kasper de Jonge
 
 **Power BI met Dynamics 365 voor Finance and Operations gebruiken**  
 door Kevin Horlock  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html)
 
 **Microsoft wordt uitgevoerd in Power BI – financiële planning en analyse vereenvoudigd**  
 door Cory Hrncirik en Miguel Martinez  
@@ -133,7 +137,7 @@ door Cory Hrncirik en Miguel Martinez
 
 **Microsoft Runs on Power BI: Using Power BI in Modern Treasury** (Microsoft wordt uitgevoerd in Power BI: Power BI gebruiken in moderne financiën)  
 door Pankaj Gudimella en Guru Kirthigavasan  
-[Registreren en nu bekijken](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+[Registreren en nu bekijken](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html)
 
 **Supercharge Your Applications Using the Power BI JavaScript API** (Geef uw apps een boost met behulp van de Power BI JavaScript-API)  
 door Nimrod Shalit  
@@ -157,7 +161,7 @@ door Wim Coorevits en Enrique Plaza Garcia
 
 **Aanbevolen procedures voor het beheren van Power BI Embedded-analyses voor implementaties met meerdere tenants**  
 door Nimrod Shalit  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html?LCID=EN-US)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-PBI-webinar-Best-Practices-for-Managing-Power-BI-Embedded-video.html)
 
 **Power BI: analyses op z'n best**  
 door Gohul Shanmugalingam  
@@ -200,7 +204,7 @@ door Reid Havens
 
 **Power BI: How to Get Insights from Your Workday HR Data** (Power BI: inzichten verkrijgen van de HR-gegevens van uw werkdag)  
 door Iman Eftekhari, Julia Paton van Agile Analytics en Shahram Karimi van QBE Insurance  
-[Registreren en nu bekijken](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+[Registreren en nu bekijken](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html)
 
 **Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Een win-winsituatie creëren voor fabrikanten en verkopers van consumptieartikelen)  
 door Liz McCreesh van Thorogood  
@@ -208,7 +212,7 @@ door Liz McCreesh van Thorogood
 
 **Verkoopsuccessen realiseren met behulp van uw klantgegevens met Power BI**  
 door Angad Soni van Hitachi Solutions  
-[Registreren en nu bekijken](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+[Registreren en nu bekijken](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?wt.mc_id=undefined)
 
 **Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Bewezen oplossingen in de gezondheidszorg voor het verbeteren van zowel patiëntuitkomsten als winstgevendheid)  
 door Stephen Cracknell en Stuart Macanliss van US Medical IT  
@@ -228,7 +232,7 @@ door Scott Ball van Esri en Enrique Plaza van Microsoft
 
 **5 Habits of a Successful Trend Curator - Rohit Bhargava** (5 gewoonten van een succesvolle trendspotter - Rohit Bhargava)  
 door Rohit Bhargava van Non-Obvious  
-[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
+[Registreren en nu bekijken](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html)
 
 ### <a name="community"></a>Community ###
 

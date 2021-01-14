@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: de7715fc37748ee80cba61f9cc246ad9e1df5c33
-ms.sourcegitcommit: a92a3570eb14793a758a32e8fa1a756ec5d83f8c
+ms.openlocfilehash: d47d9b973eadb06095c2a2aebb8fe93cf6ab4414
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97708037"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969530"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels in Power BI
 
@@ -80,7 +80,7 @@ Vertrouwelijkheidslabels kunnen ook worden toegepast in Power BI Desktop. Hierdo
 
 >[!NOTE]
 >* In deze preview-release kunnen enkele beperkingen van toepassing zijn. Zie [Beperkingen](#limitations).
->* Gedurende de eerste 48 uur na het inschakelen van de preview-functie Information Protection **kunt u problemen ondervinden met PBIX-bestanden waarop vertrouwelijkheidslabels zijn toegepast (bijvoorbeeld bij het publiceren van het PBIX-bestand in de service, of het downloaden ervan vanuit de service)** . Dergelijke problemen zijn verwacht en worden binnen 48 uur automatisch opgelost.
+>* Als u vertrouwelijkheidslabels in Power BI Desktop wilt gebruiken, moet u eerst [de preview-functie van Information Protection inschakelen](service-security-apply-data-sensitivity-labels.md#apply-sensitivity-labels-in-power-bi-desktop-preview) en het programma vervolgens opnieuw starten. Als het programma vastloopt nadat u opnieuw opstart, kan het zijn dat de vereiste Visual C++ Redistributable Runtime Library-versie op uw computer ontbreekt. Als u een dergelijke crash ondervindt, gaat u naar de downloadpagina [Microsoft Visual C++ 2015 Redistributable Update 3](https://www.microsoft.com/download/details.aspx?id=53587) voor instructies over het downloaden en installeren van de update. Nadat u de update hebt geïnstalleerd, start u de computer opnieuw op.
 
 Als u een vertrouwelijkheidslabel toepast in de Desktop-versie, en u uw werk vervolgens publiceert in de service of een PBIX-bestand met uw werk uploadt naar de service, wordt het label samen met de gegevens verplaatst naar de service. In de service wordt het label toegepast op zowel de gegevensset als op het rapport dat u krijgt bij het bestand. Als de gegevensset en het rapport al vertrouwelijkheidslabels hebben, worden deze labels overschreven met het label dat afkomstig is uit de Desktop-versie.
  

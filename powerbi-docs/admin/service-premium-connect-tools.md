@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/09/2020
+ms.date: 1/11/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 383c9bd20c86d89c5bf51c64c8027f86c1bfaab9
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
+ms.openlocfilehash: 3a3a0f44fd9f02942ecc8f6646d219ace649b295
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96998962"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110752"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint"></a>Gegevenssetconnectiviteit met het XMLA-eindpunt
 
@@ -36,9 +36,9 @@ Hieronder zijn enkele van de meestvoorkomende hulpprogramma's vermeld die worden
 
 **Visual Studio met Analysis Services-projecten** , ook wel bekend als SQL Server Data Tools, of kortweg **SSDT**, is een hulpprogramma voor het schrijven van tabellaire Analysis Services-modellen op bedrijfsniveau. Extensies van Analysis Services-projecten worden ondersteund in alle versies van Visual Studio 2017 en hoger, waaronder de gratis Community-editie. Extensie versie 2.9.14 of hoger is vereist om tabellaire modellen te implementeren in een Premium-werkruimte. Voor implementatie in een Premium-werkruimte moet het compatibiliteitsniveau van het model 1500 of hoger zijn. XMLA lezen/schrijven is vereist voor de workload voor gegevenssets. Zie [Tools for Analysis Services](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current&preserve-view=true) (Hulpprogramma's voor Analysis Services) voor meer informatie.
 
-**SQL Server Management Studio (SSMS)**  : ondersteunt DAX-, MDX- en XMLA-query's. Voer specifieke vernieuwingsbewerkingen en scripts voor metagegevens van gegevenssets uit met behulp van de [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL, tabellaire modelscripttaal). Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor het uitvoeren van scripts voor metagegevens is lezen-schrijven vereist. SSMS-versie 18.7.1 of hoger is vereist. Klik  [hier](/sql/ssms/download-sql-server-management-studio-ssms) om SSMS te downloaden.
+**SQL Server Management Studio (SSMS)**  : ondersteunt DAX-, MDX- en XMLA-query's. Voer specifieke vernieuwingsbewerkingen en scripts voor metagegevens van gegevenssets uit met behulp van de [Tabular Model Scripting Language](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL, tabellaire modelscripttaal). Voor het uitvoeren van querybewerkingen is alleen-lezen vereist. Voor het uitvoeren van scripts voor metagegevens is lezen-schrijven vereist. SSMS-versie **18.8** of hoger is vereist. Klik  [hier](/sql/ssms/download-sql-server-management-studio-ssms) om SSMS te downloaden.
 
-**SQL Server Profiler** : dit hulpprogramma, dat samen met SSMS wordt geïnstalleerd, voorziet in het bijhouden en opsporen van fouten in gegevenssetgebeurtenissen. Hoewel Profiler officieel is afgeschaft voor SQL Server, wordt het nog steeds opgenomen in SSMS en ondersteund voor Analysis Services en Power BI Premium. XMLA alleen-lezen is vereist. Zie  [SQL Server Profiler voor Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (Engelstalig) voor meer informatie.
+**SQL Server Profiler** : dit hulpprogramma, dat samen met SSMS wordt geïnstalleerd, voorziet in het bijhouden en opsporen van fouten in gegevenssetgebeurtenissen. Hoewel Profiler officieel is afgeschaft voor SQL Server, wordt het nog steeds opgenomen in SSMS en ondersteund voor Analysis Services en Power BI Premium. Vereist SQL Server Profiler-versie **18.8** of hoger en een XMLA-instelling met het kenmerk alleen-lezen die is ingeschakeld op de Premium-capaciteit. De gebruiker moet de gegevensset ([oorspronkelijke catalogus](#initial-catalog)) opgeven wanneer verbinding wordt gemaakt met het XMLA-eindpunt. Zie  [SQL Server Profiler voor Analysis Services](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current&preserve-view=true) (Engelstalig) voor meer informatie.
 
 **Implementatiewizard van Analysis Services** : dit hulpprogramma, dat wordt geïnstalleerd met SSMS, voorziet in de implementatie van in Visual Studio geschreven projecten met tabellaire modellen in Analysis Services- en Power BI Premium-werkruimten. Het kan interactief worden uitgevoerd of automatisch via de opdrachtregel. XMLA lezen/schrijven is vereist. Zie de [implementatiewizard van Analysis Services](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current&preserve-view=true) (Engelstalig) voor meer informatie.
 
@@ -99,7 +99,9 @@ Ga in de werkruimte naar **Instellingen** > **Premium** > **Werkruimteverbinding
 
 ### <a name="initial-catalog"></a>Oorspronkelijke catalogus
 
-Voor sommige hulpprogramma's, zoals SQL Server Profiler, moet u mogelijk een *Oorspronkelijke catalogus* opgeven. Geef een gegevensset (database) in uw werkruimte op. In het dialoogvenster **Verbinding maken met server** selecteert u **Opties** > **Verbindingseigenschappen** > **Verbinding maken met database** en voert u de naam van de gegevensset in.
+Bij sommige hulpprogramma's, zoals SQL Server Profiler, moet u een *oorspronkelijke catalogus* opgeven, de gegevensset (database) waarmee verbinding moet worden gemaakt in uw werkruimte. In het dialoogvenster **Verbinding maken met server** selecteert u **Opties** > **Verbindingseigenschappen** > **Verbinding maken met database** en voert u de naam van de gegevensset in.
+
+![De gegevensset selecteren in SQL Server Profiler](media/service-premium-connect-tools/sql-profiler-connection-properties.png)
 
 ### <a name="duplicate-workspace-names"></a>Dubbele werkruimtenamen
 
@@ -126,6 +128,10 @@ De volgende gegevenssets zijn niet toegankelijk via het XMLA-eindpunt. Deze gege
 - Gegevenssets op basis van een liveverbinding met een Power BI-gegevensset in een andere werkruimte. Zie [Introductie van gegevenssets in verschillende werkruimten](../connect-data/service-datasets-across-workspaces.md) voor meer informatie.
 - Gegevenssets met pushgegevens met behulp van de REST-API.
 - Gegevenssets op basis van Excel-werkmappen.
+
+### <a name="serverworkspace-alias"></a>Server/werkruimte-alias
+
+Aliassen van de servernaam die worden ondersteund in Azure Analysis Services, worden niet ondersteund voor Power BI Premium-werkruimten.
 
 ## <a name="security"></a>Beveiliging
 

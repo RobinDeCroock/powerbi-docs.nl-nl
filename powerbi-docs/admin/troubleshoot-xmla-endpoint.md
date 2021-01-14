@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/04/2021
+ms.date: 01/11/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 191cf3ce71ca30f257276df78ad43cdb2e49a1e1
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886074"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110723"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -213,6 +213,10 @@ Bij het opnieuw publiceren van een live verbonden gegevensset met behulp van de 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/couldnt-publish-to-power-bi.png" alt-text="Fout bij het publiceren in Power BI.":::
 
 Zoals vermeld in het foutbericht, moet u de bestaande gegevensset verwijderen of de naam ervan wijzigen om dit probleem op te lossen. Zorg er ook voor dat u alle apps die afhankelijk zijn van het rapport opnieuw publiceert. Als dat nodig is, moeten downstreamgebruikers ook worden geïnformeerd dat ze bladwijzers moeten bijwerken met het nieuwe rapportadres om ervoor te zorgen dat ze toegang hebben tot het nieuwste rapport.  
+
+## <a name="workspaceserver-alias"></a>Alias van de werkruimte/server
+
+In tegenstelling tot Azure Analysis Services worden de [aliassen](/azure/analysis-services/analysis-services-server-alias) van de servernaam **niet ondersteund** voor Power BI Premium-werkruimten. 
 
 ## <a name="see-also"></a>Zie ook
 

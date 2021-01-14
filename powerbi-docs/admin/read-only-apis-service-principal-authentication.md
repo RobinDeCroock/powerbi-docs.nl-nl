@@ -10,12 +10,12 @@ ms.date: 12/01/2020
 ms.author: painbar
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: ec3cd60916630fe355b9ea4f54d5a025788800bf
-ms.sourcegitcommit: 30d0668434283c633bda9ae03bc2aca75401ab94
+ms.openlocfilehash: 332101009946c64cb5e97bd40b9949f6daa67b7b
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/09/2020
-ms.locfileid: "96906814"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155682"
 ---
 # <a name="enable-service-principal-authentication-for-read-only-admin-apis-preview"></a>Service-principalverificatie inschakelen voor alleen-lezen beheer-API's (preview)
 
@@ -42,7 +42,7 @@ Voer de volgende stappen uit om service-principal-verificatie in te schakelen vo
         * Selecteer **Machtigingen**. Zorg ervoor dat er geen Power BI-beheerderstoestemming-vereist-machtigingen zijn ingesteld voor deze toepassing. Zie [Het beheren van toestemming voor toepassingen en het evalueren van toestemmingsaanvragen](https://docs.microsoft.com/azure/active-directory/manage-apps/manage-consent-requests) voor meer informatie. 
 4. Schakel de beheerdersinstellingen voor de Power BI-service in. Om dit te doen:
     1. Meld u aan bij de Power BI-beheerportal. U moet een Power BI-beheerder zijn om de pagina met tenantinstellingen te kunnen weergeven.
-    1. Onder **Instellingen voor ontwikkelaars** ziet u **Toestaan dat service-principals gebruikmaken van API's van Power BI (preview)** . Stel de wisselknop in op Ingeschakeld en selecteer het keuzerondje **Specifieke beveiligingsgroepen** en voeg de beveiligingsgroep die u in stap 2 hebt gemaakt toe in het tekstveld, zoals aangegeven in de volgende afbeelding.
+    1. Onder **Instellingen voor beheerders-API** ziet u **Toestaan dat service-principals gebruikmaken van API's van Power BI (preview)** . Stel de wisselknop in op Ingeschakeld en selecteer het keuzerondje **Specifieke beveiligingsgroepen** en voeg de beveiligingsgroep die u in stap 2 hebt gemaakt toe in het tekstveld, zoals aangegeven in de volgende afbeelding.
 
         ![Schermopname van de tenantinstelling voor het toestaan van service-principals.](media/read-only-apis-service-principal-auth/allow-service-principals-tenant-setting.png)
 
@@ -53,7 +53,7 @@ Voer de volgende stappen uit om service-principal-verificatie in te schakelen vo
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 * U kunt zich niet aanmelden bij de Power BI-portal met behulp van een service-principal.
-* Power BI-beheerdersrechten zijn vereist voor het inschakelen van de service-principal in de instellingen voor ontwikkelaars in de Power BI-beheerportal.
+* Power BI-beheerdersrechten zijn vereist voor het inschakelen van de service-principal in de instellingen voor de beheerders-API in de Power BI-beheerportal.
 * De service-principal ondersteunt momenteel de volgende API's:
     * [GetGroupsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/groups_getgroupsasadmin) met $expand voor dashboards, gegevenssets, rapporten en gegevensstromen 
     * [GetDashboardsAsAdmin](https://docs.microsoft.com/rest/api/power-bi/admin/dashboards_getdashboardsasadmin) met $expand-tegels

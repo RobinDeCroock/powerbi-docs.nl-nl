@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 408b5a03b415e6b1dabdb762eefee81e1a4fe483
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: cdb3543bc65e21f53cc21dea0f4da62910a7bd55
+ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887357"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98110838"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Beveiliging op rijniveau met Power BI Embedded
 
@@ -320,15 +320,18 @@ De waarde die wordt opgegeven in de id-blob moet een geldig toegangstoken zijn v
 
 ## <a name="on-premises-data-gateway-with-service-principal"></a>On-premises gegevensgateway met service-principal
 
-Klanten die beveiliging op rijniveau (RLS) met een on-premises SSAS-gegevensbron (SQL Server Analysis Services) met een live-verbinding configureren, profiteren van de nieuwe [service-principal](embed-service-principal.md)-mogelijkheid om gebruikers en hun toegang tot gegevens in SSAS te beheren wanneer zij integreren met **Power BI Embedded**.
+Klanten die on-premises SSAS-gegevensbron (SQL Server Analysis Services) met een live-verbinding configureren, profiteren van de [service-principal](embed-service-principal.md)-mogelijkheid om gebruikers en hun toegang tot gegevens in SSAS te beheren wanneer zij integreren met **Power BI Embedded**.
 
 Met [Power BI REST API's](/rest/api/power-bi/)kunt u de effectieve identiteit voor on-premises live-SSAS-verbindingen voor een insluittoken opgeven met behulp van een [service-principal-object](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
 
-Tot nu toe moest de hoofdgebruiker die het insluittoken genereert een gatewaybeheerder zijn om de effectieve identiteit voor on-premises live-SSAS-verbindingen op te geven. Nu hoeft de gebruiker geen gatewaybeheerder meer te zijn: de gatewaybeheerder kan de gebruiker een toegewezen machtiging voor die gegevensbron geven, zodat de gebruiker de effectieve identiteit kan overschrijven wanneer het insluittoken wordt gegenereerd. Dankzij deze nieuwe mogelijkheid is insluiten met een service-principal voor een live-SSAS-verbinding mogelijk.
+Tot nu toe moest de *hoofdgebruiker* die het insluittoken genereert een gatewaybeheerder zijn om de effectieve identiteit voor on-premises live-SSAS-verbindingen op te geven. Nu hoeft de gebruiker geen gatewaybeheerder meer te zijn: de gatewaybeheerder kan de gebruiker een toegewezen machtiging voor die gegevensbron geven, zodat de gebruiker de effectieve identiteit kan overschrijven wanneer het insluittoken wordt gegenereerd. Dankzij deze nieuwe mogelijkheid is insluiten met een service-principal voor een live-SSAS-verbinding mogelijk.
 
-Voor het inschakelen van dit scenario gebruikt de gatewaybeheerder de [Add Datasource User Rest API](/rest/api/power-bi/gateways/adddatasourceuser) om de service-principal de *ReadOverrideEffectiveIdentity*-machtiging te verlenen voor Power BI Embedded.
+Voor het inschakelen van dit scenario gebruikt de gatewaybeheerder de [Add Datasource User Rest API](/rest/api/power-bi/gateways/adddatasourceuser) om de service-principal de *ReadOverrideEffectiveIdentity*-machtiging te verlenen voor de SSAS-gegevensbron.
 
 U kunt deze machtiging niet instellen via de beheerportal. Deze machtiging kan alleen worden ingesteld met de API. In de beheerportal ziet u een indicatie voor gebruikers en SPN’s met dergelijke machtigingen.
+
+>[!NOTE]
+>Als u verbonden bent met een SSAS-database zonder dat beveiliging op rijniveau ervoor is geconfigureerd, moet u nog steeds een efficiënte identiteit (de identiteit van de SSAS-serverbeheerder) opgeven in de aanroep voor het genereren van tokens.
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 

@@ -1,37 +1,33 @@
 ---
-title: De Q&A-visual in Power BI gebruiken
-description: De Q&A-visual in Power BI instellen
-author: rien
-ms.author: rien
-ms.reviewer: mihart
+title: Een Q&A-visual maken in Power BI
+description: Een Q&A-visual voor Power BI maken en opmaken in Power BI Desktop of de Power BI-service.
+author: maggiesMSFT
+ms.author: maggies
+ms.reviewer: rien
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 11/19/2019
-ms.openlocfilehash: 43da67114808538d64aa2ceb7f59af590ee23857
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/05/2021
+ms.openlocfilehash: 1cf80593458c12a1bee07ed40202e3613fdcb5e9
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418937"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961357"
 ---
-# <a name="introduction-to-power-bi-qa-visualizations"></a>Kennismaking met Q&A-visualisaties in Power BI
+# <a name="create-a-qa-visual-in-power-bi"></a>Een Q&A-visual maken in Power BI
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+Met de Q&A-visual kunnen gebruikers vragen in een natuurlijke taal stellen en antwoorden krijgen in de vorm van een visual. *Consumenten* kunnen deze gebruiken om snel antwoord te krijgen op hun gegevens. *Ontwerpers* kunnen dit ook gebruiken om snel visuals te maken. Als u een rapportontwerper bent, is dit artikel voor u. U kunt ergens in een rapport dubbelklikken en natuurlijke taal gebruiken om aan de slag te gaan. In dit artikel maakt u een Q&A-visual, past u de opmaak aan en past u deze aan. Deze biedt ook ondersteuning voor thema's en andere standaardindelingsopties die in Power BI beschikbaar zijn. Nadat u deze hebt gemaakt, gedraagt deze zich als een andere visual, die ondersteuning biedt voor kruislings filteren, kruismarkeringen en bladwijzers. 
 
-## <a name="what-are-qa-visualizations"></a>Wat zijn Q&A-visualisaties?
-
-Met de Q&A-visual kunnen gebruikers vragen in een natuurlijke taal stellen en antwoorden krijgen in de vorm van een visual. 
+Zoekt u meer achtergrondinformatie over Q&A in Power BI? Bekijk [Inleiding tot Q&A](../natural-language/q-and-a-intro.md). 
 
 ![Stapsgewijze instructies voor Q&A-visuals](../natural-language/media/qna-visual-walkthrough.gif)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
-De Q&A-visual kan door *gebruikers* worden gebruikt als een hulpprogramma om snel antwoorden op hun gegevens te krijgen, maar ook door *ontwerpers* om visuals in rapporten te maken, door simpelweg te dubbelklikken op een willekeurige locatie in een rapport en natuurlijke taal te gebruiken om aan de slag te gaan. Omdat de Q&A-visual net zo werkt als andere visuals, kan deze ook kruislings worden gefilterd/gemarkeerd. Ook worden bladwijzers ondersteund. De Q&A-visual biedt ook ondersteuning voor thema's en andere standaardindelingsopties die in Power BI beschikbaar zijn.
-
-De Q&A-visual bestaat uit vier kernonderdelen;
+De Q&A-visual bestaat uit vier kernonderdelen:
 
 - Het vragenvak. Hier voeren gebruikers hun vraag in en zien ze suggesties om hun vraag aan te vullen.
 - Een vooraf ingevulde lijst met voorgestelde vragen.
@@ -40,20 +36,20 @@ De Q&A-visual bestaat uit vier kernonderdelen;
 
 ## <a name="prerequisites"></a>Vereisten
 
-1. In deze zelfstudie wordt het [PBIX-bestand met een voorbeeld van verkoop en marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) gebruikt. 
+1. Download het [PBIX-bestand met een voorbeeld van verkoop en marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix) om door te gaan.
 
-1. Selecteer linksboven in de Power BI Desktop-menubalk **Bestand** > **Openen**
+1. Selecteer linksboven in Power BI Desktop **Bestand** > **Openen**.
    
-2. Zoek uw kopie van het **PBIX-bestand met een voorbeeld van verkoop en marketing**
+2. Zoek uw kopie van het **PBIX-bestand met een voorbeeld van verkoop en marketing**.
 
 1. Open het bestand in de rapportweergave ![Schermopname van het pictogram Rapportweergave.](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-1. Selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
+1. Het plusteken selecteren ![Schermopname van het gele tabblad.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) om een nieuwe pagina toe te voegen.
 
-Als u een fout ziet wanneer u een Q&A-visual maakt, controleert u de sectie [Beperkingen](../natural-language/q-and-a-limitations.md) om te zien of de configuratie van de gegevensbron wordt ondersteund.    
+Als u een fout ziet wanneer u een Q&A-visual maakt, controleert u het artikel [Q&A-beperkingen](../natural-language/q-and-a-limitations.md) om te zien of de configuratie van de gegevensbron wordt ondersteund.    
 
 > [!NOTE]
-> Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit. Zie [Rapporten delen](../collaborate-share/service-share-reports.md) voor meer informatie.
+> Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in een werkruimte met Premium-capaciteit. Zie [Rapporten delen](../collaborate-share/service-share-dashboards.md) voor meer informatie.
 
 ## <a name="create-a-qa-visual-using-a-suggested-question"></a>Een Q&A-visual maken met behulp van een voorgestelde vraag
 In deze oefening selecteren we een van de voorgestelde vragen om onze Q&A-visual te maken. 
@@ -77,7 +73,7 @@ In deze oefening selecteren we een van de voorgestelde vragen om onze Q&A-visual
 ## <a name="create-a-qa-visual-using-a-natural-language-query"></a>Een Q&A-visual maken met behulp van een query in natuurlijke taal
 In het bovenstaande voorbeeld hebben we een van de voorgestelde vragen geselecteerd om onze Q&A-visual te maken.  In deze oefening typen we onze eigen vraag. Wanneer we onze vraag invoeren, helpt Power BI ons met automatisch aanvullen, suggesties en feedback.
 
-Als u niet zeker weet welk type vragen u wilt stellen of welke terminologie moet worden gebruikt, vouwt u **Alle suggesties weergeven** open of kijkt u in het deelvenster Velden, rechts naast het canvas. Hiermee kunt u bekend raken met de termen en de inhoud van de gegevensset Verkoop en marketing.
+Als u niet zeker weet welk type vragen u wilt stellen of welke terminologie moet worden gebruikt, vouwt u **Alle suggesties weergeven** open of kijkt u in het deelvenster Velden, rechts naast het canvas. U kunt met het deelvenster Velden bekend raken met de termen en de inhoud van de gegevensset Verkoop en marketing.
 
 ![Canvas met Alle suggesties weergeven en het deelvenster Velden](media/power-bi-visualization-q-and-a/power-bi-terminology.png)
 
@@ -125,7 +121,7 @@ Configureer de opmaak van de Q&A-visual, het vraagveld en de manier waarop sugge
 ![Q&A-visual met onze opmaakresultaten](media/power-bi-visualization-q-and-a/power-bi-q-and-a-format.png)
 
 ## <a name="convert-your-qa-visual-into-a-standard-visual"></a>Uw Q&A-visual omzetten naar een standaardvisual
-We hebben de opmaak van onze visual met kolomdiagram en de optie Geschikt voor kleurenblinden enigszins aangepast, we hebben een titel en een rand toegevoegd. We kunnen de visual nu omzetten naar een standaardvisual in ons rapport en de visual bovendien vastmaken aan een dashboard.
+We hebben de opmaak van onze visual met kolomdiagram en de optie Geschikt voor kleurenblinden enigszins aangepast: We hebben een titel en een rand toegevoegd. We kunnen de visual nu omzetten naar een standaardvisual in ons rapport en de visual bovendien vastmaken aan een dashboard.
 
 Selecteer het ![tandwielpictogram](media/power-bi-visualization-q-and-a/power-bi-convert-icon.png) om de optie **Dit Q&A-resultaat omzetten in een standaardvisual** uit te voeren.
 
@@ -144,7 +140,7 @@ Door het tandwielpictogram te selecteren, opent u het deelvenster Hulpprogramma'
 
 ![Q&A-visual waarbij het pictogram Hulpprogramma's is geselecteerd](media/power-bi-visualization-q-and-a/power-bi-q-and-a-tooling.png)
 
-Gebruik het deelvenster Hulpprogramma's om Q&A-termen te trainen die niet worden herkend, die termen te beheren en de voorgestelde vragen voor deze gegevensset en dit rapport te beheren. In het deelvenster Hulpprogramma's kunt u ook vragen controleren die met behulp van deze Q&A-visual zijn gesteld en vragen zien die door gebruikers zijn gemarkeerd. Zie [Inleiding in Q&A-hulpprogramma's](../natural-language/q-and-a-tooling-intro.md) voor meer informatie.
+Gebruik het deelvenster Hulpprogramma's om Q&A-termen te trainen die niet worden herkend, die termen te beheren en de voorgestelde vragen voor deze gegevensset en dit rapport te beheren. In het deelvenster Hulpprogramma's kunt u ook vragen controleren die gebruikers hebben gesteld in deze Q&A-visual en vragen zien die door gebruikers zijn gemarkeerd. Zie [Inleiding tot Q&A-hulpprogramma's om Power BI Q&A te trainen](../natural-language/q-and-a-tooling-intro.md) voor meer informatie.
 
 ![Het deelvenster Q&A-hulpprogramma's](media/power-bi-visualization-q-and-a/power-bi-q-and-a-tooling-pane.png)
 
@@ -153,7 +149,7 @@ De Q&A-visual kan worden geïntegreerd met Office en Bing om niet-herkende gangb
 
 ## <a name="next-steps"></a>Volgende stappen
 
-U kunt natuurlijke taal op diverse manieren integreren. Raadpleeg voor meer informatie de volgende artikelen:
+U kunt natuurlijke taal op verschillende manieren integreren. Raadpleeg voor meer informatie de volgende artikelen:
 
 _ [Q&A-hulpprogramma's](../natural-language/q-and-a-tooling-intro.md)
 * [Best practices voor Q&A](../natural-language/q-and-a-best-practices.md)

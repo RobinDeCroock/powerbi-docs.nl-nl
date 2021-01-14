@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: ff41f702edc605ee346aa10a759e633377597504
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
+ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408959"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97961219"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -26,7 +26,7 @@ Power BI is volledig beheerde Software as a Service (SaaS).  Het ontwerp en de w
 
 ## <a name="what-is-a-power-bi-failover"></a>Wat is een Power BI-failover?
 
-Power BI houdt meerdere exemplaren van elk onderdeel aan in Azure-datacenters (ook wel bekend als regio's) om bedrijfscontinuïteit te garanderen. Als er een storing of een probleem is die/dat ervoor zorgt dat Power BI niet toegankelijk of onbruikbaar wordt in een regio, wordt in Power BI een failover-overschakeling uitgevoerd van alle bijbehorende onderdelen in die regio naar een back-upexemplaar. De failover herstelt de beschikbaarheid en operabiliteit van het Power BI-service-exemplaar in een nieuwe regio (meestal binnen dezelfde geografische locatie, zoals is aangegeven in de [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)).
+Power BI houdt meerdere exemplaren van elk onderdeel aan in Azure-datacenters (ook wel bekend als regio's) om bedrijfscontinuïteit te garanderen. Als er een storing of een probleem is die/dat ervoor zorgt dat Power BI niet toegankelijk of onbruikbaar wordt in een regio, wordt in Power BI een failover-overschakeling uitgevoerd van alle bijbehorende onderdelen in die regio naar een back-upexemplaar. De failover herstelt de beschikbaarheid en operabiliteit van het Power BI-service-exemplaar in een nieuwe regio (meestal binnen dezelfde geografische locatie, zoals is aangegeven in de [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview)).
 
 Een Power BI-service-exemplaar waarvoor een failover-overschakeling is uitgevoerd, ondersteunt alleen _leesbewerkingen_, wat betekent dat de volgende bewerkingen niet worden ondersteund tijdens de failover: vernieuwingen, rapportpublicaties, wijzigingen aan dashboards of rapporten en andere bewerkingen waarvoor wijzigingen in Power BI-metagegevens nodig zijn (bijvoorbeeld een opmerking invoegen in een rapport).  Leesbewerkingen, zoals het weergeven van dashboards en van rapporten (die niet zijn gebaseerd op DirectQuery of een liveverbinding met on-premises gegevensbronnen gebruiken), blijven correct werken.
 
@@ -36,7 +36,7 @@ Alle onderdelen van Power BI-service worden regelmatig gesynchroniseerd met hun 
 
 ## <a name="where-are-the-failover-clusters-located"></a>Waar bevinden de failover-clusters zich?
 
-Back-upexemplaren bevinden zich binnen dezelfde geografische locatie (geografisch) als die u hebt geselecteerd toen uw organisatie zich registreerde voor Power BI, tenzij anders is aangegeven de [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). Een geografisch gebied kan meerdere regio's bevatten en Microsoft kan gegevens repliceren naar een van de regio's binnen een bepaald geografisch gebied voor gegevenstolerantie. Microsoft zal geen klantgegevens repliceren of verplaatsen buiten het geografische gebied. Zie het [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location) voor een afbeelding van de geografische gebieden die worden aangeboden door Power BI en de regio's erbinnen.
+Back-upexemplaren bevinden zich binnen dezelfde geografische locatie (geografisch) als die u hebt geselecteerd toen uw organisatie zich registreerde voor Power BI, tenzij anders is aangegeven de [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview). Een geografisch gebied kan meerdere regio's bevatten en Microsoft kan gegevens repliceren naar een van de regio's binnen een bepaald geografisch gebied voor gegevenstolerantie. Microsoft zal geen klantgegevens repliceren of verplaatsen buiten het geografische gebied. Zie het [Microsoft Trust Center](https://www.microsoft.com/trust-center/product-overview) voor een afbeelding van de geografische gebieden die worden aangeboden door Power BI en de regio's erbinnen.
 
 ## <a name="how-does-microsoft-decide-to-fail-over"></a>Hoe bepaalt Microsoft dat een failover moet worden uitgevoerd?
 

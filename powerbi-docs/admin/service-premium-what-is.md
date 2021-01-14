@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 12/09/2020
+ms.date: 01/06/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 2265559b9b978681b2f7b210a15f7200fbba7971
-ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
+ms.openlocfilehash: c1e5cad6ab1da796d2f10a64e867d5848e86aea4
+ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97721450"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98155613"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -37,7 +37,7 @@ In dit artikel worden belangrijke functies van Power BI Premium beschreven. In v
 
 ## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium Generation 2 (preview)
 
-Power BI Premium heeft onlangs een nieuwe versie van Power BI Premium uitgebracht: **Power BI Premium Generation 2**, gemakshalve aangeduid **Premium Gen2**. Premium Gen2 is momenteel beschikbaar als preview-versie en kan tijdens de preview-periode worden gebruikt door Premium-abonnees. U kunt de oorspronkelijke versie van Premium gebruiken of overschakelen naar het gebruik van Premium Gen2. U kunt slechts een van beide gebruiken voor uw Premium-capaciteit. 
+Power BI Premium heeft onlangs een nieuwe versie van Power BI Premium uitgebracht: **Power BI Premium Generation 2**, gemakshalve aangeduid **Premium Gen2**. Premium Gen2 is momenteel beschikbaar als preview-versie en kan tijdens de preview-periode worden gebruikt door Premium-abonnees. U kunt de oorspronkelijke versie van Premium gebruiken of overschakelen naar het gebruik van Premium Gen2. U kunt slechts een van beide gebruiken voor uw Premium-capaciteit.
 
 Premium Gen2 biedt de volgende updates of verbeterde ervaring:
 
@@ -95,10 +95,6 @@ Power BI Premium is een Microsoft 365-abonnement op tenantniveau beschikbaar in 
 - **P**-SKU's (P1-P5) voor het insluiten van inhoud en zakelijke functies; hiervoor geldt een maandelijkse of jaarlijkse betalingsverplichting die maandelijks wordt gefactureerd en een licentie bevat voor het on-premises installeren van Power BI Report Server.
 
 - **EM**-SKU's (EM1-EM3) voor het insluiten van inhoud in de _organisatie_. Hiervoor geldt een jaarlijkse betalingsverplichting die maandelijks in rekening worden gebracht. EM1- en EM2-SKU's zijn alleen beschikbaar via volumelicentieplannen. U kunt deze niet rechtstreeks kopen.
-
-### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
-Premium Gen2 is momenteel alleen beschikbaar als een volledig ondersteunde preview-functie voor **P**- en **EM**-SKU's. De capaciteit van **A**-SKU's biedt nog geen extra voordelen van de Premium Gen2-previewupdate.
-
 
 ### <a name="purchasing"></a>Aanschaffen
 
@@ -161,7 +157,6 @@ De resources en limieten van elke Premium-SKU (en A-SKU van een vergelijkbare om
 #### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
 
 Met **Premium Gen2** is de hoeveelheid geheugen die beschikbaar is op elke knooppuntgrootte ingesteld op de maximale geheugenruimte van één artefact en niet op het cumulatieve verbruik van het geheugen. In Premium Gen2 is bijvoorbeeld slechts één gegevensset beperkt tot 25 GB, terwijl in de oorspronkelijke Premium de totale geheugencapaciteit van de gegevenssets die op hetzelfde moment worden verwerkt was beperkt tot 25 GB.
-
 
 ### <a name="capacity-workloads"></a>Workloads van capaciteit
 
@@ -249,8 +244,6 @@ Zie [Monitoring in the Power BI Admin portal](service-admin-premium-monitor-port
 #### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
 **Premium Gen2-** -capaciteit maakt geen gebruik van de app voor metrische gegevens, maar van de app voor capaciteitsgebruik die tijdens de preview-periode beschikbaar wordt gemaakt. Klanten die hun gebruik willen bekijken, kunnen een exemplaar van het gebruiksrapport voor de afgelopen krijgen door het rapport aan te vragen bij de klantenondersteuning. Het rapport wordt binnen 72 uur na aanvraag verstrekt. De app voor capaciteitsgebruik kan worden gestart vanaf uw pagina voor capaciteitsbeheer in de **beheerportal** voor elke capaciteit en biedt de mogelijkheid om 30 dagen en meer aan gegevens te analyseren.
 
-
-
 ### <a name="optimizing-capacities"></a>Capaciteiten optimaliseren
 
 Optimaal gebruikmaken van uw capaciteiten is essentieel om zeker te zijn dat u gebruikers goede prestaties biedt en u de maximale waarde krijgt voor uw Premium-investering. Beheerders kunnen door de controle van belangrijke metrische gegevens bepalen hoe zij het beste knelpunten kunnen oplossen en de nodige actie kunnen ondernemen. Zie [Optimizing Premium capacities](service-premium-capacity-optimize.md) (Premium-capaciteiten optimaliseren) en [Premium capacity scenarios](service-premium-capacity-scenarios.md) (Scenario's voor Premium-capaciteit) voor meer informatie.
@@ -303,10 +296,10 @@ Raadpleeg [Incremental refresh in Power BI Premium](service-premium-incremental-
 
 Gepagineerde rapporten, die worden ondersteund op P1-P3- en A4_A6-SKU's, zijn gebaseerd op RDL-technologie (RDL: Report Definition Language) in SQL Server Reporting Services. Hoewel deze zijn gebaseerd op RDL-technologie, werkt het niet hetzelfde als Power BI Report Server, een downloadbaar rapportageplatform dat u on-premises kunt installeren en ook is opgenomen in Power BI Premium. Gepagineerde rapporten zijn zo geformatteerd dat deze goed passen op een pagina, die kan worden afgedrukt of gedeeld. De gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Met behulp van de gratis Windows Desktop-toepassing [**Power BI Report Builder**](https://aka.ms/pbireportbuilder) stellen gebruikers gepagineerde rapporten op en publiceren deze naar de service.
 
-In Power BI Premium zijn gepagineerde rapporten een workload die voor een capaciteit moet worden ingeschakeld via de beheerportal. Capaciteitsbeheerders kunnen bij de inschakeling vervolgens de hoeveelheid geheugen opgeven als percentage van het totaal aan geheugenresources van de capaciteit. In tegenstelling tot andere typen workloads worden in Premium gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. De maximale hoeveelheid geheugen die u aan deze ruimte hebt toegewezen wordt gebruikt, ongeacht of de workload wel of niet actief is. De standaardwaarde is 20. 
+In Power BI Premium zijn gepagineerde rapporten een workload die voor een capaciteit moet worden ingeschakeld via de beheerportal. Capaciteitsbeheerders kunnen bij de inschakeling vervolgens de hoeveelheid geheugen opgeven als percentage van het totaal aan geheugenresources van de capaciteit. In tegenstelling tot andere typen workloads worden in Premium gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. De maximale hoeveelheid geheugen die u aan deze ruimte hebt toegewezen wordt gebruikt, ongeacht of de workload wel of niet actief is. De standaardwaarde is 20.
 
 > [!NOTE]
-> **Premium Gen2 (preview)** kent geen geheugenbeheer voor gepagineerde rapporten. In Premium Gen2 worden gepagineerde rapporten ondersteund op de EM1-EM3-SKU's.
+> **Premium Gen2 (preview-versie)** kent geen geheugenbeheer voor gepagineerde rapporten. In Premium Gen2 worden gepagineerde rapporten ondersteund op de EM1-EM3- en A1-A3-SKU's.
 
 ### <a name="paginated-reports-and-premium-gen2"></a>Gepagineerde rapporten en Premium Gen2
 
@@ -340,7 +333,7 @@ Zie [Power BI-licentieverlening](service-admin-licensing-organization.md) voor m
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services in Power BI Premium
 
-De voor zakelijke doeleinden beproefde Microsoft **Analysis Services Vertipaq-engine** is de drijvende kracht achter de Power BI Premium-werkruimten en -gegevenssets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Standaard bieden gegevenssetsworkloads op Power BI Premium-capaciteit ondersteuning voor *alleen-lezen* bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via een **XMLA-eindpunt**. Capaciteitsbeheerders kunnen er ook voor kiezen om *lees- en schrijf* bewerkingen via het eindpunt uit te schakelen of toe te staan.
+De voor zakelijke doeleinden beproefde Microsoft **Analysis Services Vertical-engine** is de drijvende kracht achter de Power BI Premium-werkruimten en -gegevenssets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Standaard bieden gegevenssetsworkloads op Power BI Premium-capaciteit ondersteuning voor *alleen-lezen* bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via een **XMLA-eindpunt**. Capaciteitsbeheerders kunnen er ook voor kiezen om *lees- en schrijf* bewerkingen via het eindpunt uit te schakelen of toe te staan.
 
 Met alleen-lezentoegang kunnen hulpprogramma's van Microsoft, zoals SQL Server Management Studio (SSMS) en SQL Server Profiler en apps van derden, zoals DAX Studio en toepassingen voor gegevensvisualisatie, verbinding maken met en query's uitvoeren op Premium-gegevenssets met behulp van XMLA-, DAX-, MDX-, DMV- en traceergebeurtenissen. Met lees-/schrijftoegang kunnen hulpprogramma's voor gegevensmodellering op bedrijfsniveau, zoals Visual Studio met de extensie voor Analysis Services-projecten of Tabular Editor (open source), tabellaire modellen implementeren als een gegevensset voor een Premium-werkruimte. Met hulpprogramma's zoals SSMS kunnen beheerders Tabular Model Scripting Language (TMSL) gebruiken om scripts voor het wijzigen van metagegevens en geavanceerde scenario's voor het vernieuwen van gegevens uit te voeren. 
 

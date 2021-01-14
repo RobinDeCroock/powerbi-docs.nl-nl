@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 12/14/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: da5ee837345b6f26dd6636bc93f6b38c1e0f5ea7
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
+ms.openlocfilehash: 56ac55ceec480d6d33d6974b97871c5fa4d2d799
+ms.sourcegitcommit: 73ca86f7633317fe3831839c4dd14a333b2f514c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491846"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "97979971"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>Privékoppelingen voor toegang tot Power BI
 
@@ -305,7 +305,7 @@ Nu bent u klaar. Na het volgen van deze stappen is Power BI alleen toegankelijk 
 
 Er zijn enkele overwegingen voor het werken met privékoppelingen in Power BI:
 
-* Er is geen enkel gebruik van externe afbeeldingen of thema's mogelijk bij gebruik van een omgeving met privékoppelingen en er kunnen gevolgen zijn voor aangepaste visuals.
+* Er is geen enkel gebruik van externe afbeeldingen of thema's mogelijk bij gebruik van een omgeving met privékoppelingen.
 * Als internettoegang is uitgeschakeld en als de gegevensset of gegevensstroom verbinding maakt met een Power BI-gegevensset of -gegevensstroom als gegevensbron, mislukt de verbinding.
 * Metrische gegevens over gebruik werken *niet* wanneer Private Link is ingeschakeld.
 * Publiceren op internet wordt niet ondersteund (en wordt grijs weergegeven) wanneer u **Openbare internettoegang blokkeren** in Power BI inschakelt.

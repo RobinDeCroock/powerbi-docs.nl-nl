@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 01/05/2020
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 2e89dc43f467aec8edcefaa4ecdbd2fc6cbf6dea
-ms.sourcegitcommit: b8e4dd67c59db079fdfa82a8a01c2a28fd1673ca
+ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "97699476"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969587"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -193,7 +193,7 @@ Beheerders kunnen interne URL's opgeven om de bestemming van koppelingen in het 
 
 * **Community**. Als u gebruikers vanuit het Help-menu naar een intern forum wilt leiden, in plaats van naar de [Power BI-community](https://community.powerbi.com/), stelt u een aangepaste URL in voor **Discussieforum**.
 
-* **Licentie-upgrades**. Gebruikers met een (gratis) Power BI-licentie kunnen de kans krijgen om hun account bij te werken naar Power BI Pro tijdens het gebruik van de service. Als u een interne URL opgeeft voor **Licentieaanvragen**, leidt u gebruikers om naar een interne aanvraag- en aankoopstroom, en voorkomt u selfservice-aankopen. Raadpleeg [Gebruikers toestaan Power BI Pro uit te proberen](#allow-users-to-try-power-bi-pro) als u wilt voorkomen dat gebruikers licenties kopen, maar het wel goed vindt dat gebruikers een proefversie van Power BI Pro starten.
+* **Licentie-upgrades**. Gebruikers met een (gratis) Power BI-licentie kunnen de kans krijgen om hun account bij te werken naar Power BI Pro tijdens het gebruik van de service. Als u een interne URL opgeeft voor **Licentieaanvragen**, leidt u gebruikers om naar een interne aanvraag- en aankoopstroom, en voorkomt u selfservice-aankopen. Raadpleeg [Gebruikers toestaan Power BI Pro uit te proberen](#allow-users-to-try-power-bi-paid-features) als u wilt voorkomen dat gebruikers licenties kopen, maar het wel goed vindt dat gebruikers een proefversie van Power BI Pro starten.
 
 * **Hulp vragen**. Als u gebruikers vanuit het Help-menu naar een interne helpdesk wilt leiden, in plaats van naar [Power BI-ondersteuning](https://powerbi.microsoft.com/support/), stelt u een aangepaste URL in voor **Helpdesk**.
 
@@ -201,11 +201,11 @@ Beheerders kunnen interne URL's opgeven om de bestemming van koppelingen in het 
 
 Voor e-mail ingeschakelde beveiligingsgroepen ontvangen e-mailmeldingen als deze tenant wordt beïnvloed door een serviceonderbreking of incident. Meer informatie over [Meldingen over onderbrekingen van de service](service-interruption-notifications.md).
 
-### <a name="allow-users-to-try-power-bi-pro"></a>Gebruikers toestaan Power BI Pro uit te proberen
+### <a name="allow-users-to-try-power-bi-paid-features"></a>Gebruikers toestaan betaalde Power BI-functies uit te proberen
 
 ![Gebruikersinterface-instellingen: Gebruikers toestaan Power BI Pro uit te proberen](media/service-admin-portal/allow-pro-trial.png)
 
-De instelling om **gebruikers toe te staan Power BI Pro te gebruiken** is standaard ingeschakeld. Met deze instelling wordt de controle vergroot over hoe gebruikers Power BI Pro-licenties kunnen verkrijgen. In scenario's waarin u selfservice-aankopen hebt geblokkeerd, stelt deze instelling gebruikers in staat om een proefversie van Power BI Pro te starten. De ervaring van eindgebruikers is afhankelijk van hoe u licentie-instellingen samenvoegt. In de onderstaande tabel ziet u hoe upgraden van (gratis) Power BI naar Power BI Pro wordt beïnvloed door verschillende instellingencombinaties:
+De instelling om **Gebruikers toestaan betaalde Power BI-functies uit te proberen** is standaard ingeschakeld. Met deze instelling wordt de controle vergroot over hoe gebruikers Power BI Pro-licenties kunnen verkrijgen. In scenario's waarin u selfservice-aankopen hebt geblokkeerd, stelt deze instelling gebruikers in staat om een proefversie van Power BI Pro te starten. De ervaring van eindgebruikers is afhankelijk van hoe u licentie-instellingen samenvoegt. In de onderstaande tabel ziet u hoe upgraden van (gratis) Power BI naar Power BI Pro wordt beïnvloed door verschillende instellingencombinaties:
 
 | Instelling voor selfservice-aankopen | Gebruiker toestaan Power BI Pro uit te proberen | Ervaring voor de eindgebruiker |
 | ------ | ------ | ----- |
@@ -218,6 +218,30 @@ De instelling om **gebruikers toe te staan Power BI Pro te gebruiken** is standa
 > U kunt een interne URL voor licentieaanvragen toevoegen in [Instellingen voor Help en ondersteuning](#help-and-support-settings). Als u de URL instelt, wordt de standaard-selfserviceaankoopervaring overschreven. De aanmelding wordt niet omgeleid voor proefversie van een Power BI Pro-licentie. Gebruikers die een licentie kunnen kopen in de scenario's die in de bovenstaande tabel zijn beschreven, worden omgeleid naar uw interne URL.
 
 Zie [Selfservice-registratie en -aankopen in- of uitschakelen](service-admin-disable-self-service.md) voor meer informatie.
+
+### <a name="show-a-custom-message-before-publishing-reports"></a>Een aangepast bericht weergeven voordat u rapporten publiceert  
+
+Beheerders kunnen een aangepast bericht opgeven dat wordt weergegeven voordat een gebruiker een rapport publiceert vanuit Power BI Desktop. Nadat u de instelling hebt ingeschakeld, moet u een **aangepast bericht** opgeven. Het aangepaste bericht kan tekst zonder opmaak zijn of de syntaxis voor markdown volgen, zoals in het volgende voorbeeldbericht:
+
+```markdown
+#### Important Disclaimer 
+
+Before publishing the report to a workspace, be sure to validate that the appropriate users or groups have access to the destination workspace. If some users or groups should *not* have access to the content and underlying artifacts, remove or modify their access to the workspace, or publish the report to a different workspace. [Learn more](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces#give-access-to-your-workspace). 
+```
+
+Het tekstgebied **Aangepast bericht** ondersteunt scrollen, zodat u een bericht kunt maken van maximaal 5.000 tekens.
+
+:::image type="content" source="media/service-admin-portal/admin-show-custom-message.png" alt-text="Schermafbeelding van het aangepaste berichtvenster.":::
+
+Wanneer uw gebruikers rapporten publiceren naar werkruimten in Power BI, zien ze het bericht dat u hebt geschreven.
+
+:::image type="content" source="media/service-admin-portal/admin-user-show-custom-message.png" alt-text="Het dialoogvenster dat uw gebruikers zien wanneer ze rapporten publiceren naar een werkruimte.":::
+
+Net als bij andere tenantinstellingen kunt u kiezen op wie het **aangepaste bericht** van toepassing is:
+
+- **De hele organisatie**.
+- **Specifieke beveiligingsgroepen**.
+- Of **Specifieke beveiligingsgroepen uitsluiten**.
 
 ## <a name="workspace-settings"></a>Instellingen voor werkruimte
 
@@ -388,7 +412,7 @@ Gebruikers in de organisatie kunnen de API voor het exporteren van rapporten naa
 Gebruikers in deze organisatie toestaan om gegevenssets, gegevensstromen, rapporten en apps te certificeren. Raadpleeg [Inhoudscertificering inschakelen](service-admin-setup-certification.md) voor meer informatie.
 
 ### <a name="email-subscriptions"></a>E-mailabonnementen
-Gebruikers in de organisatie kunnen e-mailabonnementen maken. Meer informatie over [abonnementen](../collaborate-share/service-publish-to-web.md).
+Gebruikers in de organisatie kunnen e-mailabonnementen maken. Meer informatie over [abonnementen](../collaborate-share/service-report-subscribe.md).
 
 ![E-mailabonnementen inschakelen](media/service-admin-portal/power-bi-manage-email-subscriptions.png)
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: f6ca898bafff0b3375df65b63f913eb81d8dc006
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
+ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888944"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "97969760"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Zelfstudie: Power BI-inhoud insluiten met een voorbeeld-app voor het *insluiten voor uw klanten*
 
@@ -147,7 +147,7 @@ In de onderstaande tabel worden enkele belangrijke verschillen tussen de verific
 
 |Overweging  |Service-principal  |Hoofdgebruiker  |
 |---------|---------|---------|
-|Mechanisme     |Met het [object voor service-principal](/azure/active-directory/develop/app-objects-and-service-principals.md#service-principal-object) van uw Azure AD-app kan Microsoft Azure Active Directory uw app voor de ingesloten oplossing verifiëren bij Power BI.        |Uw Microsoft Azure Active Directory-app gebruikt de referenties (gebruikersnaam en wachtwoord) van een Power BI-gebruiker om zich te verifiëren bij Power BI.         |
+|Mechanisme     |Met het [object voor service-principal](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object) van uw Azure AD-app kan Microsoft Azure Active Directory uw app voor de ingesloten oplossing verifiëren bij Power BI.        |Uw Microsoft Azure Active Directory-app gebruikt de referenties (gebruikersnaam en wachtwoord) van een Power BI-gebruiker om zich te verifiëren bij Power BI.         |
 |Beveiliging     |De *service-principal* is de aanbevolen verificatiemethode voor Microsoft Azure Active Directory. Als u een service-principal gebruikt,* kunt u de verificatie uitvoeren met behulp van een *app-geheim* of een *certificaat*.</br></br>In deze zelfstudie wordt alleen beschreven hoe u een *service-principal* gebruikt met een *app-geheim*. Als u inhoud wilt insluiten met een *service-principal* en een *certificaat*, raadpleegt u het artikel [Service-principal met een certificaat](embed-service-principal-certificate.md).         |Deze verificatiemethode wordt niet zo veilig beschouwd als het gebruik van een *service-principal*. Dit komt omdat u behoedzaam moet zijn met de referenties (gebruikersnaam en wachtwoord) voor de *hoofdgebruiker*. U moet deze bijvoorbeeld niet blootstellen in de app voor het insluiten en u moet het wachtwoord regelmatig wijzigen.         |
 |Gedelegeerde machtigingen van Microsoft Azure Active Directory |Niet vereist. |Uw *hoofdgebruiker* of een beheerder moet voor uw app toegang verlenen tot Power BI REST API-[machtigingen](/azure/active-directory/develop/v2-permissions-and-consent) (ook wel bereiken genoemd). Bijvoorbeeld *Report.ReadWrite.All*. |
 |Toegang tot de Power BI-service |U hebt geen toegang tot de Power BI-service met een *service-principal*.|U kunt toegang krijgen tot de Power BI-service met de referenties van uw *hoofdgebruiker*.|
@@ -185,7 +185,7 @@ Als u een werkruimte wilt maken, doet u het volgende:
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>Stap 4: Een Power BI-rapport maken en publiceren
 
-In de volgende stap maakt u een rapport en uploadt u dit naar uw werkruimte. U kunt [uw eigen rapport maken](/powerbi-docs/fundamentals/desktop-getting-started#build-reports) met behulp van Power BI Desktop en het vervolgens [publiceren](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) naar uw werkruimte. U kunt ook een voorbeeldrapport uploaden naar uw werkruimte.
+In de volgende stap maakt u een rapport en uploadt u dit naar uw werkruimte. U kunt [uw eigen rapport maken](/power-bi/fundamentals/desktop-getting-started#build-reports) met behulp van Power BI Desktop en het vervolgens [publiceren](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) naar uw werkruimte. U kunt ook een voorbeeldrapport uploaden naar uw werkruimte.
 
 >[!Tip]
 >Als u al een werkruimte met een rapport hebt, kunt u deze stap overslaan.
@@ -536,7 +536,7 @@ Voer de volgende stappen uit om de voorbeeld-app voor het *insluiten voor uw kla
 
     a. Voer `npm start` uit in de IDE-terminal.
 
-    b. Open een nieuw tabblad in de browser en navigeer naar [http://localhost:5300](http://localhost:5300).
+    b. Open een nieuw tabblad in de browser en navigeer naar `http://localhost:5300`.
 
 # <a name="python"></a>[Python](#tab/python)
 
@@ -571,7 +571,7 @@ Voer de volgende stappen uit om de voorbeeld-app voor het *insluiten voor uw kla
 
     a. Ga in **PowerShell** of **Opdrachtprompt** naar de map **Python** > **Insluiten voor uw klanten** > **AppOwnesData** en voer `flask run` uit.
 
-    b. Open een nieuw tabblad in de browser en navigeer naar [http://localhost:5300](http://localhost:5300).
+    b. Open een nieuw tabblad in de browser en navigeer naar `http://localhost:5300`.
 
 ---
 
