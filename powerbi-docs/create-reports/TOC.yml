@@ -266,6 +266,8 @@
               href: ../visuals/power-bi-map-tips-and-tricks.md
             - name: Eigenschappen van x-as en y-as aanpassen
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
+            - name: Afwijkingsdetectie
+              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Interactief werken met ArcGIS-kaarten in Power BI-visuals
               href: ../visuals/power-bi-visualizations-arcgis.md
             - name: Eenvoudige vlakdiagrammen
@@ -276,10 +278,6 @@
               href: ../visuals/power-bi-visualization-combo-chart.md
             - name: Visuals van uitgevouwen structuur
               href: ../visuals/power-bi-visualization-decomposition-tree.md
-            - name: Slimme verhalen
-              href: ../visuals/power-bi-visualization-smart-narrative.md
-            - name: Afwijkingsdetectie
-              href: ../visuals/power-bi-visualization-anomaly-detection.md
             - name: Ringdiagrammen
               href: ../visuals/power-bi-visualization-doughnut-charts.md
             - name: Choropletenkaarten
@@ -310,6 +308,8 @@
               href: ../visuals/desktop-high-density-scatter-charts.md
             - name: Shape-kaartvisuals (preview-versie)
               href: ../visuals/desktop-shape-map.md
+            - name: Slimme verhalen
+              href: ../visuals/power-bi-visualization-smart-narrative.md
             - name: Tabellen in rapporten en dashboards
               href: ../visuals/power-bi-visualization-tables.md
             - name: Treemaps
