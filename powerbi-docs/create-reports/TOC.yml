@@ -13,6 +13,8 @@
       items:
         - name: 'Power BI Desktop: Van Excel naar rapport'
           href: desktop-excel-stunning-report.md
+        - name: 'Power BI Desktop: Dimensioneel model voor rapportage'
+          href: desktop-dimensional-model-report.md
         - name: 'Power BI-service: Van Excel naar rapport'
           href: service-from-excel-to-stunning-report.md
         - name: 'Onlinecursus: Gepagineerde rapporten'
