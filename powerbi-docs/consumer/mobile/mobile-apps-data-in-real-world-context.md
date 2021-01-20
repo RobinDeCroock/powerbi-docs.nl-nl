@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/11/2020
-ms.openlocfilehash: b6564cafe087000fd0ce4409fac2cbfc78d0e8fa
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 5710f70dafbb01aca68cfc03107a1f1ededaf015
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413145"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565896"
 ---
 # <a name="get-data-from-the-real-world-with-the-power-bi-mobile-apps"></a>Echte gegevens uit de praktijk ophalen met de mobiele Power BI-apps
 Met de mobiele Power BI-apps kunt u de echte wereld op verschillende manieren rechtstreeks verbinden aan gerelateerde BI-informatie. 
@@ -27,7 +27,7 @@ Meer informatie over:
 
 * [Een QR-code voor een tegel maken in Power BI](../../create-reports/service-create-qr-code-for-tile.md)
 * [Een Power BI QR-code scannen met uw mobiele apparaat](mobile-apps-qr-code.md)
-* [Een QR-code scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+* [Een QR-code scannen met de app Power BI for Mixed Reality](./mobile-hololens2-app.md#open-reports-with-qr-codes).
 
 ## <a name="qr-codes-for-reports"></a>QR-codes voor rapporten
 Maak een QR-code voor een rapport.  Wanneer uw collega's de code scannen met hun iPhone (binnenkort ook beschikbaar voor Android-telefoons), zien ze het rapport dat u hebt gekoppeld aan deze QR-code. 

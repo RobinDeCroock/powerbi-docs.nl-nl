@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 6eebe7b75db06b97d116ca0c17e67e9ee7b0562e
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: 8301b51ccbb2ac344e24a297f9a309fc3601b3e1
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969645"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565582"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -442,7 +442,7 @@ Uw IT-beheerder kan nu een MDM-hulpprogramma gebruiken om toegang via een Power 
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
 
-De Power BI for Mixed Reality-app is nu beschikbaar in de Microsoft Store. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Bekijk de nieuwe video [Kennismaking met Power BI op Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) voor context of lees het artikel over de nieuwe [Power BI for Mixed Reality-app](mobile-mixed-reality-app.md).
+De Power BI for Mixed Reality-app is nu beschikbaar in de Microsoft Store. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Bekijk de nieuwe video [Kennismaking met Power BI op Hololens](https://www.youtube.com/watch?v=J_X_nOFUBss) voor context of lees het artikel over de nieuwe [Power BI for Mixed Reality-app](./mobile-hololens2-app.md).
 
 
 ### <a name="april-2018"></a>April 2018
@@ -460,7 +460,7 @@ We hebben onlangs rapportfilters en slicers bijgewerkt, zodat deze automatisch v
 
 #### <a name="power-bi-for-mixed-reality-app-preview"></a>De app Power BI for Mixed Reality (preview)
 
-We hebben de app Power BI for Mixed Reality gemaakt, zodat uw gegevens nog toegankelijker voor u zijn. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Lees meer over de nieuwe [app Power BI for Mixed Reality](mobile-mixed-reality-app.md).
+We hebben de app Power BI for Mixed Reality gemaakt, zodat uw gegevens nog toegankelijker voor u zijn. Bekijk de dashboards en rapporten terwijl u in een virtuele omgeving werkt of plaats en bekijk deze op specifieke locaties in uw omgeving. Lees meer over de nieuwe [app Power BI for Mixed Reality](./mobile-hololens2-app.md).
 
 #### <a name="share-reports-and-dashboards-externally"></a>Rapporten en dashboards extern delen
 

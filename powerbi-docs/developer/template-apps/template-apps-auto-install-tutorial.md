@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 1bf62e99d666c05af8efc05ecbc496d69c586ae6
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927096"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565768"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Zelfstudie: De configuratie van de installatie van sjabloon-apps automatiseren met een Azure-functie
 
@@ -38,7 +38,7 @@ In deze zelfstudie gebruikt u een Azure Functions-sample voor geautomatiseerde i
 
 Raadpleeg [De configuratie van de installatie van een sjabloon-app automatiseren](template-apps-auto-install.md) voor meer informatie over de algemene automatiseringsstroom en de API's die door de app worden gebruikt.
 
-Onze eenvoudige app maakt gebruik van een Azure-functie. Zie de [documentatie over Azure Functions](https://docs.microsoft.com/azure/azure-functions/) voor meer informatie over Azure Functions.
+Onze eenvoudige app maakt gebruik van een Azure-functie. Zie de [documentatie over Azure Functions](/azure/azure-functions/) voor meer informatie over Azure Functions.
 
 ## <a name="basic-flow"></a>Basisstroom
 
@@ -48,7 +48,7 @@ In de volgende basisstroom wordt de werking van de app beschreven nadat de klant
 
 1. De onafhankelijke softwareleverancier verkrijgt een token *voor uitsluitend de app* die is gebaseerd op een [service-principal (token voor uitsluitend de app)](../embedded/embed-service-principal.md), die is geregistreerd in de tenant van de onafhankelijke softwareleverancier.
 
-1. Met behulp van [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/) maakt de onafhankelijke softwareleverancier een *installatieticket* dat de configuratie van gebruikersspecifieke parameters bevat die is voorbereid door de onafhankelijke softwareleverancier.
+1. Met behulp van [Power BI REST API's](/rest/api/power-bi/) maakt de onafhankelijke softwareleverancier een *installatieticket* dat de configuratie van gebruikersspecifieke parameters bevat die is voorbereid door de onafhankelijke softwareleverancier.
 
 1. De onafhankelijke softwareleverancier stuurt de gebruiker door naar Power BI met behulp van een ```POST```-omleidingsmethode die het installatieticket bevat.
 
@@ -59,18 +59,18 @@ In de volgende basisstroom wordt de werking van de app beschreven nadat de klant
 
 ## <a name="prerequisites"></a>Vereisten
 
-* Uw eigen Azure Active Directory-tenantinstelling (Azure AD). Zie [Een Azure AD-tenant maken](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant) voor instructies voor het instellen hiervan.
-* Een [service-principal (token voor uitsluitend de app)](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) die is geregistreerd in de voorgaande tenant.
-* Een geparametriseerde [sjabloon-app](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-overview) die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Azure AD. Zie [Tips voor-sjabloon apps](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips.md) of [Een sjabloon-app maken in Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create) voor meer informatie.
+* Uw eigen Azure Active Directory-tenantinstelling (Azure AD). Zie [Een Azure AD-tenant maken](../embedded/create-an-azure-active-directory-tenant.md) voor instructies voor het instellen hiervan.
+* Een [service-principal (token voor uitsluitend de app)](../embedded/embed-service-principal.md) die is geregistreerd in de voorgaande tenant.
+* Een geparametriseerde [sjabloon-app](../../connect-data/service-template-apps-overview.md) die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Azure AD. Zie [Tips voor-sjabloon apps](../../connect-data/service-template-apps-tips.md) of [Een sjabloon-app maken in Power BI](../../connect-data/service-template-apps-create.md) voor meer informatie.
 * Een Power BI Pro-licentie. Als u zich niet hebt geregistreerd voor Power BI Pro, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>Uw ontwikkelomgeving voor de automatisering van sjabloon-apps instellen
 
-Voordat u verdergaat met het instellen van uw app, volgt u de instructies in [Quickstart: Een Azure Functions-app maken met Azure App Configuration](https://docs.microsoft.com/azure/azure-app-configuration/quickstart-azure-functions-csharp) om een Azure-functie samen met een Azure-appconfiguratie te ontwikkelen. Maak uw appconfiguratie zoals in het artikel wordt beschreven.
+Voordat u verdergaat met het instellen van uw app, volgt u de instructies in [Quickstart: Een Azure Functions-app maken met Azure App Configuration](/azure/azure-app-configuration/quickstart-azure-functions-csharp) om een Azure-functie samen met een Azure-appconfiguratie te ontwikkelen. Maak uw appconfiguratie zoals in het artikel wordt beschreven.
 
 ### <a name="register-an-application-in-azure-ad"></a>Een toepassing registreren in Azure AD
 
-Maak een service-principal zoals wordt beschreven in [Power BI-inhoud insluiten met een service-principal en een app-geheim](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal).
+Maak een service-principal zoals wordt beschreven in [Power BI-inhoud insluiten met een service-principal en een app-geheim](../embedded/embed-service-principal.md).
 
 Zorg ervoor dat u de app registreert als een **web-app aan serverzijde**. U registreert een webtoepassing aan de serverzijde om een toepassingsgeheim te maken.
 
@@ -89,12 +89,12 @@ Wanneer u de sjabloon-app hebt gemaakt en deze gereed is voor installatie, slaat
 * *Parameternamen* zoals deze in de gegevensset van de sjabloon-app zijn gedefinieerd. Parameternamen zijn hoofdlettergevoelige tekenreeksen. Deze kunnen ook worden opgehaald van het tabblad **Parameterinstellingen** wanneer u [de eigenschappen van de sjabloon-app definieert](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app), of uit de instellingen van de gegevensset in Power BI.
 
 >[!NOTE]
->U kunt uw vooraf geconfigureerde installatietoepassing voor uw sjabloon-app testen als de sjabloon-app gereed is voor installatie, ook als deze nog niet openbaar beschikbaar is in AppSource. Als u wilt dat gebruikers buiten uw tenant de toepassing voor geautomatiseerde installatie kunnen gebruiken om uw sjabloon-app te installeren, moet de sjabloon-app openbaar beschikbaar zijn in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services). Voordat u uw sjabloon-app distribueert met behulp van de toepassing voor geautomatiseerde installatie die u maakt, moet u ervoor zorgen dat deze wordt gepubliceerd in [Partnercentrum](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+>U kunt uw vooraf geconfigureerde installatietoepassing voor uw sjabloon-app testen als de sjabloon-app gereed is voor installatie, ook als deze nog niet openbaar beschikbaar is in AppSource. Als u wilt dat gebruikers buiten uw tenant de toepassing voor geautomatiseerde installatie kunnen gebruiken om uw sjabloon-app te installeren, moet de sjabloon-app openbaar beschikbaar zijn in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services). Voordat u uw sjabloon-app distribueert met behulp van de toepassing voor geautomatiseerde installatie die u maakt, moet u ervoor zorgen dat deze wordt gepubliceerd in [Partnercentrum](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 
 ## <a name="install-and-configure-your-template-app"></a>Uw sjabloon-app installeren en configureren
 
-In deze sectie gebruikt u een Azure Functions-sample voor geautomatiseerde installatie die we hebben gemaakt om uw sjabloon-app vooraf te configureren en te installeren. We hebben dit voorbeeld voor demonstratiedoeleinden bewust eenvoudig gehouden. U kunt zo gebruikmaken van een [Azure-functie](https://docs.microsoft.com/azure/azure-functions/functions-overview) en [Azure App Configuration](https://docs.microsoft.com/azure/azure-app-configuration/overview) om de API voor geautomatiseerde installatie eenvoudig te implementeren en te gebruiken voor uw sjabloon-apps.
+In deze sectie gebruikt u een Azure Functions-sample voor geautomatiseerde installatie die we hebben gemaakt om uw sjabloon-app vooraf te configureren en te installeren. We hebben dit voorbeeld voor demonstratiedoeleinden bewust eenvoudig gehouden. U kunt zo gebruikmaken van een [Azure-functie](/azure/azure-functions/functions-overview) en [Azure App Configuration](/azure/azure-app-configuration/overview) om de API voor geautomatiseerde installatie eenvoudig te implementeren en te gebruiken voor uw sjabloon-apps.
 
 ### <a name="download-visual-studio-version-2017-or-later"></a>Download [Visual Studio](https://www.visualstudio.com/) (versie 2017 of later)
 
@@ -200,7 +200,7 @@ Ga als volgt te werk om het toepassingsgeheim op te halen:
 
 ## <a name="test-your-function-locally"></a>Uw functie lokaal testen
 
-Voer de stappen uit zoals deze staan beschreven in [De functie lokaal uitvoeren](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally) om uw functie uit te voeren.
+Voer de stappen uit zoals deze staan beschreven in [De functie lokaal uitvoeren](/azure/azure-functions/functions-create-your-first-function-visual-studio#run-the-function-locally) om uw functie uit te voeren.
 
 Configureer uw portal zo dat een ```POST```-aanvraag wordt verzonden naar de URL van de functie. Een voorbeeld is ```POST http://localhost:7071/api/install```. De aanvraagbody moet een JSON-object zijn waarmee sleutel-waardeparen worden beschreven. Sleutels zijn *parameternamen* zoals gedefinieerd in Power BI Desktop. Waarden zijn de gewenste waarden die moeten worden ingesteld voor elke parameter in de sjabloon-app.
 
@@ -218,4 +218,4 @@ De gewenste stroom moet zijn:
 
 ### <a name="publish-your-project-to-azure"></a>Uw project naar Azure publiceren
 
-U kunt uw project publiceren in Azure door de instructies in de [documentatie over Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure) te volgen. Vervolgens kunt u API‘s voor geautomatiseerde installatie van de sjabloon-app integreren in uw product en deze gaan testen in productieomgevingen.
+U kunt uw project publiceren in Azure door de instructies in de [documentatie over Azure Functions](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure) te volgen. Vervolgens kunt u API‘s voor geautomatiseerde installatie van de sjabloon-app integreren in uw product en deze gaan testen in productieomgevingen.

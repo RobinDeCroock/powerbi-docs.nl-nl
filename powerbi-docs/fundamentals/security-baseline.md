@@ -8,16 +8,16 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: ef74b3bcddd981c9f63172fa2e641335a081836d
-ms.sourcegitcommit: cb6e0202de27f29dd622e47b305c15f952c5769b
+ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96577711"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565757"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Azure-beveiligingsbasislijn voor Power BI
 
-Deze beveiligingsbasislijn past richtlijnen van [Azure Security Benchmark versie 2.0](https://docs.microsoft.com/azure/security/benchmarks/overview) toe op Power BI. De Azure Security-benchmark biedt aanbevelingen voor hoe u uw cloudoplossingen in Azure kunt beveiligen. De inhoud is gegroepeerd op de **besturingselementen voor beveiliging** die worden gedefinieerd door Azure Security Benchmark en door de bijbehorende richtlijnen die van toepassing zijn op Power BI. **Besturingselementen** die niet van toepassing zijn op Power BI zijn uitgesloten.
+Deze beveiligingsbasislijn past richtlijnen van [Azure Security Benchmark versie 2.0](/azure/security/benchmarks/overview) toe op Power BI. De Azure Security-benchmark biedt aanbevelingen voor hoe u uw cloudoplossingen in Azure kunt beveiligen. De inhoud is gegroepeerd op de **besturingselementen voor beveiliging** die worden gedefinieerd door Azure Security Benchmark en door de bijbehorende richtlijnen die van toepassing zijn op Power BI. **Besturingselementen** die niet van toepassing zijn op Power BI zijn uitgesloten.
 
 Als u wilt zien hoe Power BI in zijn geheel is toegewezen aan Azure Security Benchmark, raadpleegt u het [bestand met de volledige toewijzingen van de Power BI-beveiligingsbasislijn](https://github.com/MicrosoftDocs/SecurityBenchmarks/tree/master/Azure%20Offer%20Security%20Baselines).
 
@@ -29,7 +29,7 @@ Als u wilt zien hoe Power BI in zijn geheel is toegewezen aan Azure Security Ben
 
 **Richtlijnen**: Power BI biedt ondersteuning voor het verbinden van uw Power BI-tenant met een eindpunt van een privékoppeling, en voor het uitschakelen van de openbare internettoegang.
 
-- [Privékoppelingen voor toegang tot Power BI](https://docs.microsoft.com/power-bi/admin/service-security-private-links)
+- [Privékoppelingen voor toegang tot Power BI](../admin/service-security-private-links.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -47,13 +47,13 @@ Het beveiligen van Azure AD moet een hoge prioriteit hebben in de cloudbeveiligi
 
 Opmerking: Azure AD biedt ondersteuning voor externe identiteiten waardoor gebruikers zonder Microsoft-account zich met hun externe identiteit kunnen aanmelden bij hun toepassingen en resources.
 
-- [Tenancy in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps)
+- [Tenancy in Azure Active Directory](/azure/active-directory/develop/single-and-multi-tenant-apps)
 
-- [Een Azure AD-instantie maken en configureren](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
+- [Een Azure AD-instantie maken en configureren](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant)
 
-- [Externe ID-providers voor een toepassing gebruiken](https://docs.microsoft.com/azure/active-directory/b2b/identity-providers)
+- [Externe ID-providers voor een toepassing gebruiken](/azure/active-directory/b2b/identity-providers)
 
-- [Wat is de id-beveiligingsscore in Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)
+- [Wat is de id-beveiligingsscore in Azure Active Directory?](/azure/active-directory/fundamentals/identity-secure-score)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -73,7 +73,7 @@ Taken voor Premium-werkruimten en -gegevenssets automatiseren met service-princi
 
 **Richtlijnen**: Power BI gebruikt Azure Active Directory voor het bieden van identiteits- en toegangsbeheer voor Azure-resources, cloudtoepassingen en on-premises toepassingen. Dit omvat ondernemingsidentiteiten zoals werknemers, maar ook externe identiteiten, zoals partners, verkopers en leveranciers. Zo kunt u eenmalige aanmelding (SSO) gebruiken voor het beheren en beveiligen van de gegevens en resources van uw organisatie, on premises en in de cloud. Verbind al uw gebruikers, toepassingen en apparaten met Azure AD voor naadloze, veilige toegang en meer zichtbaarheid en controle.
 
-- [Inzicht in eenmalige aanmelding van toepassingen met Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on)
+- [Inzicht in eenmalige aanmelding van toepassingen met Azure AD](/azure/active-directory/manage-apps/what-is-single-sign-on)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -89,9 +89,9 @@ Zorg ervoor dat voor beheerders en bevoegde gebruikers een krachtige verificatie
 
 Opmerking: MFA kan alleen worden afgedwongen voor gebruikersaccounts die zijn ingeschakeld in Azure AD. Power BI-service-principals bieden geen ondersteuning voor het gebruik van MFA.
 
-- [MFA inschakelen in Azure](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)
+- [MFA inschakelen in Azure](/azure/active-directory/authentication/howto-mfa-getstarted)
 
-- [Inleiding tot verificatieopties zonder wachtwoord voor Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless)
+- [Inleiding tot verificatieopties zonder wachtwoord voor Azure Active Directory](/azure/active-directory/authentication/concept-authentication-passwordless)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -101,7 +101,7 @@ Opmerking: MFA kan alleen worden afgedwongen voor gebruikersaccounts die zijn in
 
 **Richtlijnen**: Definieer beleid voor anomaliedetectie in Microsoft Cloud App Security waarvoor het bereik onafhankelijk kan worden bepaald, zodat dit alleen van toepassing is op de gebruikers en groepen die u in het beleid wilt opnemen. Dit beleid voor anomaliedetectie helpt bij het detecteren en bewaken van afwijkingen in het gedrag van gebruikers die proberen toegang te krijgen tot Power BI of Power BI willen gebruiken.
 
-- [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -111,13 +111,13 @@ Opmerking: MFA kan alleen worden afgedwongen voor gebruikersaccounts die zijn in
 
 **Richtlijnen**: Power BI biedt ondersteuning voor voorwaardelijke toegang van Azure AD voor een meer gedetailleerd toegangsbeheer op basis van door de gebruiker gedefinieerde voorwaarden, zoals gebruikersaanmeldingen door IP-adressen uit bepaalde bereiken waarvoor MFA moet worden gebruikt. Gedetailleerd beheerbeleid voor verificatiesessies kan ook worden gebruikt voor verschillende scenario's.
 
-- [Overzicht van voorwaardelijke toegang in Azure](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
+- [Overzicht van voorwaardelijke toegang in Azure](/azure/active-directory/conditional-access/overview)
 
-- [Veelvoorkomend beleid voor voorwaardelijke toegang](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
+- [Veelvoorkomend beleid voor voorwaardelijke toegang](/azure/active-directory/conditional-access/concept-conditional-access-policy-common)
 
-- [Het beheer van verificatiesessies via voorwaardelijke toegang configureren](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+- [Het beheer van verificatiesessies via voorwaardelijke toegang configureren](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
 
-- [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Microsoft Cloud App Security-besturingselementen gebruiken in Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -131,7 +131,7 @@ Sla eventuele versleutelingssleutels of referenties van de service-principal die
  
 Voor GitHub kunt u de systeemeigen functie voor het scannen op geheimen gebruiken om referenties of een andere vormen van geheimen binnen de code te identificeren.
 
-- [Uw eigen versleutelingssleutels gebruiken voor Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [Uw eigen versleutelingssleutels gebruiken voor Power BI](../admin/service-encryption-byok.md)
 
  
 Credential instellen
@@ -164,11 +164,11 @@ Power BI biedt ondersteuning voor sessiebeleid in Azure AD, waardoor beleid voor
 
 Schakel Just-In-Time (JIT) uitgebreide toegang in voor de Power BI-beheerdersaccounts met behulp van uitgebreid toegangsbeheer van M365.
 
-- [Beheerdersrollen die betrekking hebben op Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-administering-power-bi-in-your-organization#administrator-roles-related-to-power-bi)
+- [Beheerdersrollen die betrekking hebben op Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [Uitgebreid toegangsbeheer van M365](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&amp;preserve-view=true)
+- [Uitgebreid toegangsbeheer van M365](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
 
-- [Cloud App Security-besturingselementen in Power BI](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Cloud App Security-besturingselementen in Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -178,7 +178,7 @@ Schakel Just-In-Time (JIT) uitgebreide toegang in voor de Power BI-beheerdersacc
 
 **Richtlijnen**: Beperk het aantal accounts of rollen die zeer uitgebreide toegang hebben tot Power BI.
 
-U kunt Just-In-Time (JIT) uitgebreide toegang inschakelen met behulp van de richtlijnen voor uitgebreid toegangsbeheer van M365 die [hier](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&amp;preserve-view=true)zijn te vinden.
+U kunt Just-In-Time (JIT) uitgebreide toegang inschakelen met behulp van de richtlijnen voor uitgebreid toegangsbeheer van M365 die [hier](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)zijn te vinden.
 
 Meer informatie vindt u [op pagina 183](https://aka.ms/PBIEnterpriseDeploymentWP) van het document over het implementeren van Power BI Enterprise.
 
@@ -196,7 +196,7 @@ U moet aan deze vereisten voldoen om toegang te krijgen tot het Power BI-activit
 
 Zodra aan deze vereisten wordt voldaan, kunt u de onderstaande richtlijnen volgen voor het bijhouden van gebruikersactiviteiten binnen Power BI:
 
-- [Gebruikersactiviteiten bijhouden in Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing)
+- [Gebruikersactiviteiten bijhouden in Power BI](../admin/service-admin-auditing.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -208,9 +208,9 @@ Zodra aan deze vereisten wordt voldaan, kunt u de onderstaande richtlijnen volge
 
 Zorg ervoor dat de referenties (zoals wachtwoord, certificaat of smartcard) voor accounts voor noodtoegang veilig worden bewaard en alleen bekend zijn bij personen die deze alleen in een noodgeval mogen gebruiken.
 
-- [Accounts voor noodtoegang beheren in Azure AD](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access)
+- [Accounts voor noodtoegang beheren in Azure AD](/azure/active-directory/users-groups-roles/directory-emergency-access)
 
-- [Uw M365-accounts beschermen](https://docs.microsoft.com/microsoft-365/campaigns/m365-campaigns-protect-admin-accounts)
+- [Uw M365-accounts beschermen](/microsoft-365/campaigns/m365-campaigns-protect-admin-accounts)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -221,9 +221,9 @@ Zorg ervoor dat de referenties (zoals wachtwoord, certificaat of smartcard) voor
 **Richtlijnen**: Beveiligde, geïsoleerde werkstations zijn van cruciaal belang voor de beveiliging van gevoelige rollen als beheerders, ontwikkelaars en serviceoperators met vergaande bevoegdheden. Gebruik zeer goed beveiligde gebruikerswerkstations en/of Azure Bastion voor beheertaken voor Power BI. Gebruik Azure Active Directory, Microsoft Defender Advanced Threat Protection (ATP) en/of Microsoft Intune als u een beveiligd en beheerd gebruikerswerkstation voor beheertaken wilt implementeren. De beveiligde werkstations kunnen centraal worden beheerd en beveiligde configuraties afdwingen, waaronder krachtige verificatie, software- en hardwarebasislijnen, beperkte logische toegang en netwerktoegang.
 
 Inzicht in uitgebreide toegang
-- [werkstations](https://docs.microsoft.com/azure/active-directory/devices/concept-azure-managed-workstation)
+- [werkstations](/azure/active-directory/devices/concept-azure-managed-workstation)
 
-- [Een werkstation met uitgebreide toegang gebruiken](https://docs.microsoft.com/azure/active-directory/devices/howto-azure-managed-workstation)
+- [Een werkstation met uitgebreide toegang gebruiken](/azure/active-directory/devices/howto-azure-managed-workstation)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -239,7 +239,7 @@ Inzicht in uitgebreide toegang
 
 Gebruik vertrouwelijkheidslabels voor Microsoft Information Protection voor het classificeren en labelen van uw rapporten, dashboards, gegevenssets en gegevensstromen in de Power BI-service, en om uw gevoelige inhoud te beschermen tegen onbevoegde toegang tot gegevens en lekkage als inhoud wordt geëxporteerd van de Power BI-service naar Excel-, PowerPoint- en PDF-bestanden.
 
-- [Vertrouwelijkheidslabels toepassen in Power BI](https://docs.microsoft.com/power-bi/admin/service-security-apply-data-sensitivity-labels)
+- [Vertrouwelijkheidslabels toepassen in Power BI](../admin/service-security-apply-data-sensitivity-labels.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -247,13 +247,13 @@ Gebruik vertrouwelijkheidslabels voor Microsoft Information Protection voor het 
 
 ### <a name="dp-2-protect-sensitive-data"></a>DP-2: Gevoelige gegevens beschermen
 
-**Richtlijnen**: De vertrouwelijkheidslabels van Microsoft Information Protection zijn geïntegreerd met Power BI voor de bescherming van gevoelige gegevens. Zie [Vertrouwelijkheidslabels voor Microsoft Information Protection in Power BI](https://docs.microsoft.com/power-bi/admin/service-security-sensitivity-label-overview) voor meer informatie
+**Richtlijnen**: De vertrouwelijkheidslabels van Microsoft Information Protection zijn geïntegreerd met Power BI voor de bescherming van gevoelige gegevens. Zie [Vertrouwelijkheidslabels voor Microsoft Information Protection in Power BI](../admin/service-security-sensitivity-label-overview.md) voor meer informatie
 
-Met Power BI kunnen servicegebruikers hun eigen sleutel voor het beveiligen van data-at-rest gebruiken. Zie [Uw eigen versleutelingssleutels gebruiken voor Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok) voor meer informatie
+Met Power BI kunnen servicegebruikers hun eigen sleutel voor het beveiligen van data-at-rest gebruiken. Zie [Uw eigen versleutelingssleutels gebruiken voor Power BI](../admin/service-encryption-byok.md) voor meer informatie
 
-Klanten hebben de mogelijkheid om gegevensbronnen on-premises te houden en DirectQuery of Live Connect te gebruiken met een on-premises gegevensgateway om de blootstelling van gegevens aan de cloudservice zo klein mogelijk te houden. Zie [Wat is een on-premises gegevensgateway?](https://docs.microsoft.com/data-integration/gateway/service-gateway-onprem) voor meer informatie.
+Klanten hebben de mogelijkheid om gegevensbronnen on-premises te houden en DirectQuery of Live Connect te gebruiken met een on-premises gegevensgateway om de blootstelling van gegevens aan de cloudservice zo klein mogelijk te houden. Zie [Wat is een on-premises gegevensgateway?](/data-integration/gateway/service-gateway-onprem) voor meer informatie.
 
-Power BI ondersteunt beveiliging op rijniveau. Zie [Beveiliging op rijniveau (RLS) met Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-rls) voor meer informatie. Houd er rekening mee dat beveiliging op rijniveau zelfs kan worden toegepast op DirectQuery-gegevensbronnen waarin een PBIX-bestand fungeert als proxy die beveiliging mogelijk maakt.
+Power BI ondersteunt beveiliging op rijniveau. Zie [Beveiliging op rijniveau (RLS) met Power BI](../admin/service-admin-rls.md) voor meer informatie. Houd er rekening mee dat beveiliging op rijniveau zelfs kan worden toegepast op DirectQuery-gegevensbronnen waarin een PBIX-bestand fungeert als proxy die beveiliging mogelijk maakt.
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -266,7 +266,7 @@ Power BI ondersteunt beveiliging op rijniveau. Zie [Beveiliging op rijniveau (RL
 Met behulp van Cloud App Security met Power BI kunt u uw Power BI-rapporten, -gegevens en -services beveiligen tegen onbedoelde lekken of inbreuk. Met Cloud App Security maakt u beleidsregels voor voorwaardelijke toegang voor de gegevens van uw organisatie, met behulp van realtime sessiebesturingselementen in Azure Active Directory (Azure AD), waarmee u kunt garanderen dat uw Power BI-analyses veilig zijn. Zodra dit beleid is ingesteld, kunnen beveiligingsbeheerders gebruikerstoegang en -activiteit bijhouden, realtime risicoanalyse uitvoeren en labelspecifieke besturingselementen instellen.
 
 Gebruiken
-- [Microsoft Cloud App Security-besturingselementen in Power BI](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls)
+- [Microsoft Cloud App Security-besturingselementen in Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -276,9 +276,9 @@ Gebruiken
 
 **Richtlijnen**: Zorg ervoor dat het HTTP-verkeer alle clients en gegevensbronnen die verbinding maken met uw Power BI-resources, over TLS v1.2 of hoger kunnen onderhandelen.
 
-- [Gebruik van TLS-versie afdwingen](https://docs.microsoft.com/power-bi/admin/service-admin-power-bi-security#enforcing-tls-version-usage)
+- [Gebruik van TLS-versie afdwingen](../admin/service-admin-power-bi-security.md#enforcing-tls-version-usage)
 
-- [Informatie over TLS-beveiliging](https://docs.microsoft.com/security/engineering/solving-tls1-problem)
+- [Informatie over TLS-beveiliging](/security/engineering/solving-tls1-problem)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -288,7 +288,7 @@ Gebruiken
 
 **Richtlijnen**: In Power BI worden data-at-rest en tijdens verwerking versleuteld. In Power BI wordt standaard gebruikgemaakt van door Microsoft beheerde sleutels om uw gegevens te versleutelen. Organisaties kunnen ervoor kiezen om hun eigen sleutels te gebruiken voor het versleutelen van gebruikerscontent at-rest in Power BI, van rapportinstallatiekopieën tot geïmporteerde gegevenssets in Premium-capaciteiten.
 
-- [Gebruik uw eigen sleutel in Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [Gebruik uw eigen sleutel in Power BI](../admin/service-encryption-byok.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -302,7 +302,7 @@ Gebruiken
 
 **Richtlijnen**: Gebruik Azure Sentinel met uw Power BI Office-auditlogboeken om ervoor te zorgen dat uw beveiligingsteam inzicht heeft in risico's voor uw Power BI-assets.
 
-- [Office 365-logboeken verbinden met Azure Sentinel](https://docs.microsoft.com/azure/sentinel/connect-office-365)
+- [Office 365-logboeken verbinden met Azure Sentinel](/azure/sentinel/connect-office-365)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -316,9 +316,9 @@ Azure Resource Graph kan alle Power BI Embedded-resources in uw abonnementen opv
 
 Organiseer op logische wijze assets op basis van de taxonomie van uw organisatie met behulp van tags en andere metagegevens in Azure (Naam, Beschrijving en Categorie).  
 
-- [Query's maken met Azure Resource Graph Explorer](https://docs.microsoft.com/azure/governance/resource-graph/first-query-portal)
+- [Query's maken met Azure Resource Graph Explorer](/azure/governance/resource-graph/first-query-portal)
 
-- [Handleiding voor beslissingen over taggen en naamgeving voor resources](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=/azure/azure-resource-manager/management/toc.json)
+- [Handleiding voor beslissingen over taggen en naamgeving voor resources](/azure/cloud-adoption-framework/decision-guides/resource-tagging/?toc=%2fazure%2fazure-resource-manager%2fmanagement%2ftoc.json)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -330,13 +330,13 @@ Organiseer op logische wijze assets op basis van de taxonomie van uw organisatie
 
 Gebruik Azure Policy om te controleren welke services gebruikers in uw omgeving kunnen inrichten en beperken. Gebruik Azure Resource Graph om resources binnen hun abonnementen op te vragen en te detecteren. U kunt Azure Monitor ook gebruiken om regels te maken voor het activeren van waarschuwingen wanneer een niet-goedgekeurde service wordt gedetecteerd.
 
-- [Azure Policy configureren en beheren](https://docs.microsoft.com/azure/governance/policy/tutorials/create-and-manage)
+- [Azure Policy configureren en beheren](/azure/governance/policy/tutorials/create-and-manage)
 
 Een specifiek resourcetype weigeren met
-- [Azure Policy](https://docs.microsoft.com/azure/governance/policy/samples/built-in-policies#general)
+- [Azure Policy](/azure/governance/policy/samples/built-in-policies#general)
 
 Query's maken met Azure
-- [Resource Graph Explorer](https://docs.microsoft.com/azure/governance/resource-graph/first-query-portal)
+- [Resource Graph Explorer](/azure/governance/resource-graph/first-query-portal)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -348,9 +348,9 @@ Query's maken met Azure
 
 ### <a name="lt-2-enable-threat-detection-for-azure-identity-and-access-management"></a>LT-2: Detectie van bedreigingen inschakelen voor Azure identiteits- en toegangsbeheer
 
-**Richtlijnen**: Stuur alle logboeken van Power BI door naar uw SIEM die kan worden gebruikt om aangepaste bedreigingsdetecties in te stellen. Daarnaast kunt u Microsoft Cloud App Security-besturingselementen (MCAS) in Power BI gebruiken om anomaliedetectie in te schakelen. Gebruik daarvoor [deze](https://docs.microsoft.com/power-bi/admin/service-security-using-microsoft-cloud-app-security-controls) handleiding.
+**Richtlijnen**: Stuur alle logboeken van Power BI door naar uw SIEM die kan worden gebruikt om aangepaste bedreigingsdetecties in te stellen. Daarnaast kunt u Microsoft Cloud App Security-besturingselementen (MCAS) in Power BI gebruiken om anomaliedetectie in te schakelen. Gebruik daarvoor [deze](../admin/service-security-using-microsoft-cloud-app-security-controls.md) handleiding.
 
-- [Activiteiten van gebruikers bijhouden in Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing)
+- [Activiteiten van gebruikers bijhouden in Power BI](../admin/service-admin-auditing.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -360,7 +360,7 @@ Query's maken met Azure
 
 **Richtlijnen**: Power BI is een volledig beheerde SaaS-aanbieding, en de onderliggende netwerkconfiguratie en logboekregistratie is een verantwoordelijkheid van Microsoft. Voor klanten die privékoppelingen gebruiken, is een bepaalde mate van configureerbare logboekregistratie en controle beschikbaar.
 
-- [Logboekregistratie en controle voor privékoppelingen](https://docs.microsoft.com/azure/private-link/private-link-overview#logging-and-monitoring)
+- [Logboekregistratie en controle voor privékoppelingen](/azure/private-link/private-link-overview#logging-and-monitoring)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -411,11 +411,11 @@ Power BI-activiteitenlogboek:
  
 - Bewaart geen activiteitengegevens als de tenant wordt verplaatst naar een andere Azure-regio.
 
-- [Power BI-controlegegevens](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#operations-available-in-the-audit-and-activity-logs)
+- [Power BI-controlegegevens](../admin/service-admin-auditing.md#operations-available-in-the-audit-and-activity-logs)
 
-- [Power BI-activiteitenlogboek](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-activity-log)
+- [Power BI-activiteitenlogboek](../admin/service-admin-auditing.md#use-the-activity-log)
 
-- [Power BI-auditlogboek](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-audit-log)
+- [Power BI-auditlogboek](../admin/service-admin-auditing.md#use-the-audit-log)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -456,11 +456,11 @@ Power BI-activiteitenlogboek:
 
 - Houdt geen controlegegevens bij als de tenant wordt verplaatst naar een andere Azure-regio.
 
-- [Power BI-controlegegevens](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#operations-available-in-the-audit-and-activity-logs)
+- [Power BI-controlegegevens](../admin/service-admin-auditing.md#operations-available-in-the-audit-and-activity-logs)
 
-- [Power BI-activiteitenlogboek](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-activity-log)
+- [Power BI-activiteitenlogboek](../admin/service-admin-auditing.md#use-the-activity-log)
 
-- [Power BI-auditlogboek](https://docs.microsoft.com/power-bi/admin/service-admin-auditing#use-the-audit-log)
+- [Power BI-auditlogboek](../admin/service-admin-auditing.md#use-the-audit-log)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -470,7 +470,7 @@ Power BI-activiteitenlogboek:
 
 **Richtlijnen**: Configureer het bewaarbeleid voor de opslag van uw Office-auditlogboeken op basis van uw vereisten op het gebied van naleving, regelgeving en zakelijke behoeften.
 
-- [Bewaarbeleid voor Office-auditlogboeken](https://docs.microsoft.com/microsoft-365/compliance/audit-log-retention-policies)
+- [Bewaarbeleid voor Office-auditlogboeken](/microsoft-365/compliance/audit-log-retention-policies)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -484,9 +484,9 @@ Power BI-activiteitenlogboek:
 
 **Richtlijnen**: Zorg ervoor dat uw organisatie processen heeft gedefinieerd om te reageren op beveiligingsincidenten, dat deze processen voor Azure zijn bijgewerkt en dat ze regelmatig worden uitgevoerd om de gereedheid ervan te garanderen.
 
-- [Beveiliging in de complete bedrijfsomgeving implementeren](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Beveiliging in de complete bedrijfsomgeving implementeren](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
-- [Naslaggids voor respons op incidenten](https://docs.microsoft.com/microsoft-365/downloads/IR-Reference-Guide.pdf)
+- [Naslaggids voor respons op incidenten](/microsoft-365/downloads/IR-Reference-Guide.pdf)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -496,7 +496,7 @@ Power BI-activiteitenlogboek:
 
 **Richtlijnen**: Contactgegevens in Azure Security Center instellen in het geval van beveiligingsincidenten Deze contactgegevens worden door Microsoft gebruikt om contact met u op te nemen als het Microsoft Security Response Center (MSRC) vaststelt dat een niet-geautoriseerde partij toegang tot uw gegevens heeft gekregen. Er zijn ook opties waarmee u incidentwaarschuwingen en -meldingen in verschillende Azure-Services kunt aanpassen aan de hand van wat u als incidentrespons nodig acht. 
 
-- [De Azure Security Center Security-contactpersoon instellen](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)
+- [De Azure Security Center Security-contactpersoon instellen](/azure/security-center/security-center-provide-security-contact-details)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -508,7 +508,7 @@ Power BI-activiteitenlogboek:
 
 Controleer waarschuwingen die te maken hebben met Power BI in Microsoft Cloud App Security. Waarschuwingen van hoge kwaliteit kunnen worden samengesteld op basis van ervaringen uit eerdere incidenten, op grond van gevalideerde communitybronnen, en door tools te gebruiken die zijn ontworpen om waarschuwingen te genereren en op te schonen door diverse signaalbronnen samen te voegen en er correlaties tussen te ontdekken.
 
-- [Waarschuwingen controleren in Cloud App Security](https://docs.microsoft.com/cloud-app-security/monitor-alerts)
+- [Waarschuwingen controleren in Cloud App Security](/cloud-app-security/monitor-alerts)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -520,7 +520,7 @@ Controleer waarschuwingen die te maken hebben met Power BI in Microsoft Cloud Ap
 
 Zorg ervoor dat er schriftelijke responsplannen zijn waarin alle rollen van het personeel worden gedefinieerd, evenals alle fasen in het afhandelen/managen van incidenten, vanaf de detectie van het incident tot een evaluatie ervan achteraf.
 
-- [Overzicht van incidenten in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/incidents-overview)
+- [Overzicht van incidenten in Microsoft Threat Protection](/microsoft-365/security/mtp/incidents-overview)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -533,7 +533,7 @@ Zorg ervoor dat er schriftelijke responsplannen zijn waarin alle rollen van het 
  
 Microsoft Threat Protection analyseert correlaties en voegt alle verwante waarschuwingen van verschillende producten samen tot één incident. Microsoft Threat Protection activeert ook unieke waarschuwingen voor activiteiten die alleen als schadelijk kunnen worden geïdentificeerd op grond van het end-to-end inzicht dat Microsoft Threat Protection heeft in het hele machinepark en productarsenaal. Door dit te doen, maakt Microsoft Threat Protection het verhaal over de aanval inzichtelijker door er een bredere context aan te geven, zodat een beveiligingsanalist complexe bedreigingen voor de hele organisatie kan begrijpen en afhandelen.
 
-- [In Microsoft Threat Protection prioriteiten toekennen aan incidenten ](https://docs.microsoft.com/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&amp;preserve-view=true)
+- [In Microsoft Threat Protection prioriteiten toekennen aan incidenten ](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -545,7 +545,7 @@ Microsoft Threat Protection analyseert correlaties en voegt alle verwante waarsc
  
 Gebruik functies voor het automatiseren van werkstromen in Microsoft Threat Protection om automatisch onderzoeks- en herstelacties te activeren als reactie op binnenkomende beveiligingswaarschuwingen. 
  
-- [Geautomatiseerd onderzoek en respons in Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [Geautomatiseerd onderzoek en respons in Microsoft Threat Protection](/microsoft-365/security/mtp/mtp-autoir)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -569,7 +569,7 @@ Gebruik functies voor het automatiseren van werkstromen in Microsoft Threat Prot
 
 **Richtlijnen**: Controleer uw Power BI-instantie met behulp van de Power BI Admin REST API's.
 
-- [Power BI Admin REST API's](https://docs.microsoft.com/rest/api/power-bi/admin)
+- [Power BI Admin REST API's](/rest/api/power-bi/admin)
 
 - [Technisch document over Power BI-implementatie voor ondernemingen](https://aka.ms/PBIEnterpriseDeploymentWP)
 
@@ -583,7 +583,7 @@ Gebruik functies voor het automatiseren van werkstromen in Microsoft Threat Prot
 
 Ga te werk volgens de Microsoft Cloud Penetration Testing Rules of Engagement (Regels voor het inzetten van penetratietests voor Microsoft Cloud ) zodat u zeker weet dat uw penetratietests niet conflicteren met Microsoft-beleid. Gebruik de strategie van Microsoft en de uitvoering van Red Teaming-activiteiten, en voer een penetratietest van de live site uit op basis van een infrastructuur, services en toepassingen die door Microsoft worden beheerd.
 
-- [Penetratietesten in Azure](https://docs.microsoft.com/azure/security/fundamentals/pen-testing)
+- [Penetratietesten in Azure](/azure/security/fundamentals/pen-testing)
 
 - [Regels voor het inzetten van penetratietests](https://www.microsoft.com/msrc/pentest-rules-of-engagement?rtc=1)
 
@@ -601,7 +601,7 @@ Ga te werk volgens de Microsoft Cloud Penetration Testing Rules of Engagement (R
 
 **Richtlijnen**: Als u de functie Bring Your Own Key (BYOK) in Power BI gebruikt, moet u regelmatig controleren of u toegang hebt tot uw door de klant beheerde sleutels en deze kunt herstellen.
 
-- [BYOK in Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [BYOK in Power BI](../admin/service-encryption-byok.md)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -611,13 +611,13 @@ Ga te werk volgens de Microsoft Cloud Penetration Testing Rules of Engagement (R
 
 **Richtlijnen**: Als u de functie Bring Your Own Key (BYOK) in Power BI gebruikt, moet u ervoor zorgen dat de sleutelkluis die uw door de klant beheerde sleutels beheert, is geconfigureerd aan de hand van de richtlijnen in het document BYOK in Power BI hieronder. Schakel voorlopig verwijderen en bescherming tegen opschonen in Azure Key Vault in om sleutels te beschermen tegen onbedoelde of kwaadwillige verwijdering.
 
-- [BYOK in Power BI](https://docs.microsoft.com/power-bi/admin/service-encryption-byok)
+- [BYOK in Power BI](../admin/service-encryption-byok.md)
 
-- [Voorlopig verwijderen en bescherming tegen opschonen in Azure Key Vault inschakelen](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete?tabs=azure-portal)
+- [Voorlopig verwijderen en bescherming tegen opschonen in Azure Key Vault inschakelen](/azure/storage/blobs/storage-blob-soft-delete?tabs=azure-portal)
 
 Voor Gateway-sleutelresources moet u de volgende richtlijnen volgen in de documentatie over de Gateway-herstelsleutel.
 
-- [On-premises gegevens Gateway-herstelsleutel](https://docs.microsoft.com/data-integration/gateway/service-gateway-recovery-key)
+- [On-premises gegevens Gateway-herstelsleutel](/data-integration/gateway/service-gateway-recovery-key)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -650,13 +650,13 @@ Deze strategie moet gedocumenteerde richtlijnen, beleid en standaarden bevatten 
 -   Juiste cryptografische standaarden
 
 Raadpleeg de volgende bronnen voor meer informatie:
-- [Azure Security Architecture Recommendation - Storage, data, and encryption](https://docs.microsoft.com/azure/architecture/framework/security/storage-data-encryption?toc=/security/compass/toc.json&amp;bc=/security/compass/breadcrumb/toc.json) (Aanbeveling voor Azure-beveiligingsarchitectuur: opslag, gegevens en versleuteling)
+- [Azure Security Architecture Recommendation - Storage, data, and encryption](/azure/architecture/framework/security/storage-data-encryption?amp;bc=%2fsecurity%2fcompass%2fbreadcrumb%2ftoc.json&toc=%2fsecurity%2fcompass%2ftoc.json) (Aanbeveling voor Azure-beveiligingsarchitectuur: opslag, gegevens en versleuteling)
 
-- [Azure Security Fundamentals - Azure Data security, encryption, and storage](https://docs.microsoft.com/azure/security/fundamentals/encryption-overview) (Basisprincipes van Azure-beveiliging: Azure-gegevensbeveiliging, -versleuteling en -opslag)
+- [Azure Security Fundamentals - Azure Data security, encryption, and storage](/azure/security/fundamentals/encryption-overview) (Basisprincipes van Azure-beveiliging: Azure-gegevensbeveiliging, -versleuteling en -opslag)
 
-- [Cloud Adoption Framework - Azure data security and encryption best practices](https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices?toc=/azure/cloud-adoption-framework/toc.json&amp;bc=/azure/cloud-adoption-framework/_bread/toc.json) (Cloud Adoption Framework: best practices voor Azure-gegevensbeveiliging en -versleuteling)
+- [Cloud Adoption Framework - Azure data security and encryption best practices](/azure/security/fundamentals/data-encryption-best-practices?amp;bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) (Cloud Adoption Framework: best practices voor Azure-gegevensbeveiliging en -versleuteling)
 
-- [Azure Security Benchmark - Asset management](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-asset-management) (Azure Security Benchmark: assetmanagement)
+- [Azure Security Benchmark - Asset management](/azure/security/benchmarks/security-controls-v2-asset-management) (Azure Security Benchmark: assetmanagement)
 
 - [Azure Security Benchmark - Data Protection](/azure/security/benchmarks/security-controls-v2-data-protection) (Azure Security Benchmark: gegevensbeveiliging)
 
@@ -672,11 +672,11 @@ Zorg dat u een nauwgezette afweging maakt tussen de noodzaak om de beveiliging v
 
 Zorg ervoor dat de segmentatiestrategie consistent wordt geïmplementeerd voor alle typen besturingselementen, zoals voor netwerkbeveiliging, identiteits- en toegangsmodellen, toepassingsbevoegdheden/toegangsmodellen evenals besturingselementen voor door mensen uitgevoerde processen.
 
-- [Richtlijnen voor segmentatiestrategie in Azure (video)](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151)
+- [Richtlijnen voor segmentatiestrategie in Azure (video)](/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151)
 
-- [Richtlijnen voor segmentatiestrategie in Azure (document)](https://docs.microsoft.com/security/compass/governance#enterprise-segmentation-strategy)
+- [Richtlijnen voor segmentatiestrategie in Azure (document)](/security/compass/governance#enterprise-segmentation-strategy)
 
-- [Netwerksegmentatie afstemmen op segmentatiestrategie van bedrijf](https://docs.microsoft.com/security/compass/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
+- [Netwerksegmentatie afstemmen op segmentatiestrategie van bedrijf](/security/compass/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -686,7 +686,7 @@ Zorg ervoor dat de segmentatiestrategie consistent wordt geïmplementeerd voor a
 
 **Richtlijnen**: Meet en beperk voortdurend de risico's die alle individuele assets en de omgeving die ze hosten, lopen. Ken hogere prioriteiten toe aan hoogwaardige assets en assets die zeer kwetsbaar zijn voor aanvallen, zoals gepubliceerde toepassingen, punten voor binnenkomend en uitgaand netwerkverkeer, gebruikers- en beheerderseindpunten enzovoort.
 
-- [Azure Security Benchmark: beveiligingspostuur en beveiligingsproblemen beheren](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-posture-vulnerability-management)
+- [Azure Security Benchmark: beveiligingspostuur en beveiligingsproblemen beheren](/azure/security/benchmarks/security-controls-v2-posture-vulnerability-management)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -696,11 +696,11 @@ Zorg ervoor dat de segmentatiestrategie consistent wordt geïmplementeerd voor a
 
 **Richtlijnen**: Zorg ervoor dat u een duidelijke strategie voor rollen en verantwoordelijkheden in uw beveiligingsorganisatie schriftelijk vastlegt en bekendmaakt. Ken een hoge prioriteiten toe aan het verschaffen van duidelijkheid over wie aansprakelijk is voor beveiligingsbeslissingen. Bied opleidingen aan iedereen over het gedeelde verantwoordelijkheidsmodel en biedt technische teams trainingen over technologie ter beveiliging van de cloud.
 
-- [Best practice voor Azure-beveiliging 1: personen: Teams trainen inzake het cloudbeveiligingstraject](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#1-people-educate-teams-about-the-cloud-security-journey)
+- [Best practice voor Azure-beveiliging 1: personen: Teams trainen inzake het cloudbeveiligingstraject](/azure/cloud-adoption-framework/security/security-top-10#1-people-educate-teams-about-the-cloud-security-journey)
 
-- [Best practice voor Azure-beveiliging 2: personen: Teams trainen inzake cloudbeveiligingstechnologie](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#2-people-educate-teams-on-cloud-security-technology)
+- [Best practice voor Azure-beveiliging 2: personen: Teams trainen inzake cloudbeveiligingstechnologie](/azure/cloud-adoption-framework/security/security-top-10#2-people-educate-teams-on-cloud-security-technology)
 
-- [Azure Security Best Practice 3 - proces: Aansprakelijkheid toewijzen voor beslissingen over cloudbeveiliging](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Azure Security Best Practice 3 - proces: Aansprakelijkheid toewijzen voor beslissingen over cloudbeveiliging](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -725,13 +725,13 @@ Deze strategie moet gedocumenteerde richtlijnen, beleid en standaarden bevatten 
 -   Up-to-date netwerkbeveiligingsartefacten (zoals netwerkdiagrammen, architectuur van referentienetwerk)
 
 Raadpleeg de volgende bronnen voor meer informatie:
-- [Azure Security Best Practice 11: architectuur. Eén uniforme beveiligingsstrategie](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
+- [Azure Security Best Practice 11: architectuur. Eén uniforme beveiligingsstrategie](/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
 - [Azure Security Benchmark: netwerkbeveiliging](/azure/security/benchmarks/security-controls-v2-network-security)
 
-- [Overzicht van Azure-netwerkbeveiliging](https://docs.microsoft.com/azure/security/fundamentals/network-overview)
+- [Overzicht van Azure-netwerkbeveiliging](/azure/security/fundamentals/network-overview)
 
-- [Strategie voor architectuur van bedrijfsnetwerk](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/architecture)
+- [Strategie voor architectuur van bedrijfsnetwerk](/azure/cloud-adoption-framework/ready/enterprise-scale/architecture)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -755,13 +755,13 @@ Deze strategie moet gedocumenteerde richtlijnen, beleid en standaarden bevatten 
 
 Raadpleeg de volgende bronnen voor meer informatie:
 
-- [Azure Security Benchmark: Identity management](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-identity-management) (Azure Security Benchmark: identiteitsbeheer)
+- [Azure Security Benchmark: Identity management](/azure/security/benchmarks/security-controls-v2-identity-management) (Azure Security Benchmark: identiteitsbeheer)
 
 - [Azure Security Benchmark - Privileged access](/azure/security/benchmarks/security-controls-v2-privileged-access) (Azure Security Benchmark: uitgebreide toegang)
 
-- [Azure Security Best Practice 11: architectuur. Eén uniforme beveiligingsstrategie](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
+- [Azure Security Best Practice 11: architectuur. Eén uniforme beveiligingsstrategie](/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
-- [Overzicht van beveiliging met Azure-identiteitsbeheer](https://docs.microsoft.com/azure/security/fundamentals/identity-management-overview)
+- [Overzicht van beveiliging met Azure-identiteitsbeheer](/azure/security/fundamentals/identity-management-overview)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
@@ -793,11 +793,11 @@ Raadpleeg de volgende bronnen voor meer informatie:
 
 - [Azure Security Benchmark: respons op incidenten](/azure/security/benchmarks/security-controls-v2-incident-response)
 
-- [Azure Security Best Practice 4: proces. Processen voor respons op incidenten bijwerken voor de cloud](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Azure Security Best Practice 4: proces. Processen voor respons op incidenten bijwerken voor de cloud](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
-- [Handleiding framework voor Azure-acceptatie, logboekregistratie en rapportagebeslissingen](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/logging-and-reporting/)
+- [Handleiding framework voor Azure-acceptatie, logboekregistratie en rapportagebeslissingen](/azure/cloud-adoption-framework/decision-guides/logging-and-reporting/)
 
-- [Schaalaanpassing, beheer en bewaking van Azure Enterprise](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/management-and-monitoring)
+- [Schaalaanpassing, beheer en bewaking van Azure Enterprise](/azure/cloud-adoption-framework/ready/enterprise-scale/management-and-monitoring)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 

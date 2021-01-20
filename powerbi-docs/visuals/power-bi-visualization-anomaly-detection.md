@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 11/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cd08d5e6196c1cd321efbe89ec0727d314eff4ce
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: fdd93e0839f9eb0dd99586fb5ddcd07000de0dd7
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96409856"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191907"
 ---
 # <a name="anomaly-detection-preview"></a>Anomaliedetectie (preview-versie)
 
@@ -27,7 +27,7 @@ Aangezien deze functie in preview is, moet u eerst de functieswitch inschakelen.
 :::image type="content" source="media/power-bi-visualization-anomaly-detection//preview-feature-switch.png" alt-text="Schermopname waarop u ziet hoe u de functieswitch voor de preview-functie van de anomaliedetectie kunt inschakelen.":::
  
 ## <a name="get-started"></a>Aan de slag
-Deze zelfstudie maakt gebruik van onlineverkoopgegevens voor verschillende producten. Als u deze zelfstudie wilt volgen, downloadt u het [voorbeeldbestand](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) van een scenario met onlineverkopen.
+Deze zelfstudie maakt gebruik van onlineverkoopgegevens voor verschillende producten. Als u deze zelfstudie wilt volgen, downloadt u het [voorbeeldbestand](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Monthly%20Desktop%20Blog%20Samples/2020/2020SU09%20Blog%20Demo%20-%20September.pbix) van een scenario met onlineverkopen.
 
 U kunt Anomaliedetectie inschakelen door het diagram te selecteren en de optie Anomalieën zoeken toe te voegen in het deelvenster Analyse. 
 

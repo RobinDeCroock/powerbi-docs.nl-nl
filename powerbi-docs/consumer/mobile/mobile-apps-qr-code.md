@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: ab6d8f208300350a613cc63dab948f42376b905e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 96859efbaf86c8c6e9abf459500c38d49ee4f112
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414548"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565506"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Een Power BI QR-code scannen met uw mobiele apparaat
 Van toepassing op:
@@ -31,7 +31,7 @@ U kunt de QR-code voor directe toegang tot de relevante tegel of het rapport sca
 Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtstreeks toegang aanvragen vanuit de mobiele app. 
 
 > [!NOTE]
-> U kunt ook [een QR-code voor een rapport scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
+> U kunt ook [een QR-code voor een rapport scannen met de app Power BI for Mixed Reality](./mobile-hololens2-app.md#open-reports-with-qr-codes).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Een Power BI QR-code op uw iPhone scannen met de scanner van Power BI
 
@@ -77,5 +77,5 @@ Als uw collega het dashboard of rapport niet met u heeft gedeeld, kunt u rechtst
 * [Verbinding maken met Power BI-gegevens uit de praktijk](mobile-apps-data-in-real-world-context.md) met de mobiele apps
 * [Een QR-code voor een tegel maken in de Power BI-service](../../create-reports/service-create-qr-code-for-tile.md)
 * [Een QR-code voor een rapport maken in de Power BI-service](../../create-reports/service-create-qr-code-for-report.md)
-* U kunt ook [een QR-code scannen met de app Power BI for Mixed Reality](mobile-mixed-reality-app.md)
+* U kunt ook [een QR-code scannen met de app Power BI for Mixed Reality](./mobile-hololens2-app.md)
 * Vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

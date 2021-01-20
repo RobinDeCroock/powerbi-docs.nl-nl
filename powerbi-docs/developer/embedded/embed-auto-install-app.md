@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: f6418f8a9b927b05b3809032b28a740553ec625c
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 66ba3b7d573c86b32a91bc0a98cd5ec0775fec75
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888921"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565852"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Power BI-apps automatisch installeren wanneer u ze insluit voor uw organisatie
 
-Als gebruikers die een app insluiten inhoud uit een app willen insluiten, moeten ze [toegang tot die app](../../collaborate-share/service-create-distribute-apps.md) hebben. Als de app voor de gebruiker is geïnstalleerd, betekent dit dat het insluitingsproces goed verloopt. Zie [Rapporten of dashboards uit apps insluiten](embed-from-apps.md) voor meer informatie. Het is mogelijk om in PowerBI.com te definiëren dat alle apps [automatisch kunnen worden geïnstalleerd](https://powerbi.microsoft.com/blog/automatically-install-apps/). Deze actie wordt echter op het tenantniveau uitgevoerd en is van toepassing op alle apps.
+Als gebruikers die een app insluiten inhoud uit een app willen insluiten, moeten ze [toegang tot die app](../../collaborate-share/service-create-distribute-apps.md) hebben. Als de app voor de gebruiker is geïnstalleerd, betekent dit dat het insluitingsproces goed verloopt. Zie [Rapporten of dashboards uit apps insluiten](./index.yml) voor meer informatie. Het is mogelijk om in PowerBI.com te definiëren dat alle apps [automatisch kunnen worden geïnstalleerd](https://powerbi.microsoft.com/blog/automatically-install-apps/). Deze actie wordt echter op het tenantniveau uitgevoerd en is van toepassing op alle apps.
 
 ## <a name="auto-install-app-on-embedding"></a>Apps automatisch installeren tijdens insluiten
 

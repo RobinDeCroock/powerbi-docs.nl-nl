@@ -9,12 +9,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 04/14/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: aac8eac050a3c864833d16a12016a1cc0ae398b7
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 262f6d4ba95828ed77f1a3161ac1a9fca46f99f3
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888346"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565020"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Wat is er nieuw in de Power BI-service
 Raadpleeg deze pagina voor bekende problemen en onlangs uitgebrachte functies in de **Power BI-service**. Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -61,7 +61,7 @@ U kunt ook de YouTube-kanalen bekijken voor informatie over nieuwe functies en m
 ### <a name="october-2019"></a>Oktober 2019
 * Nieuwe Power Automate-actie voor het vernieuwen van Power BI-gegevenssets.
 * [Lijst met contactpersonen](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) voor rapporten en dashboards in de Power BI-service.
-* Algemene Beschikbaarheid van [geautomatiseerde machine learning](../transform-model/service-machine-learning-automated.md)
+* Algemene Beschikbaarheid van [geautomatiseerde machine learning](../transform-model/dataflows/dataflows-machine-learning-integration.md)
 * Openbare preview-versie van de weergave van de herkomst van Power BI-gegevens.
 
 ### <a name="september-2019"></a>September 2019

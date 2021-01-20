@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/06/2021
-ms.openlocfilehash: 6b0277b342d454536154207ede2cb4bc2a2ba340
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
+ms.openlocfilehash: c27d95715fe436b59825390b1cc16111e83ffc1d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155659"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98564996"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capaciteit en SKU's in Power BI Embedded-analyses
 
@@ -152,4 +152,4 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 >[Insluiten voor uw organisatie](embed-sample-for-your-organization.md)
 
 > [!div class="nextstepaction"]
-> [Insluiten vanuit apps](embed-from-apps.md)
+> [Insluiten vanuit apps](./index.yml)

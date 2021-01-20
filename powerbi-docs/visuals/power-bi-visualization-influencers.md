@@ -10,12 +10,12 @@ ms.custom: video-fDb5zZ3xmxU
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4b41ea6310cb644aeae92db17f52680734f68803
-ms.sourcegitcommit: 0711972326521944fdd8572403c0b15f31b916da
+ms.openlocfilehash: 29182234f64226dee8c9fed281ebf362164f8c1a
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97721565"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191976"
 ---
 # <a name="create-key-influencers-visualizations"></a>Visualisaties Belangrijkste beïnvloeders gebruiken
 
@@ -60,7 +60,7 @@ Bekijk deze video voor meer informatie over het maken van de visual met belangri
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx) downloaden. Selecteer een van beide koppelingen en selecteer **Downloaden** op de GitHub-pagina die wordt geopend.
+Uw productmanager wil dat u nagaat welke factoren ertoe leiden dat klanten negatieve beoordelingen over onze cloudservice achterlaten. Open het [PBIX-bestand Klantenfeedback](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) in Power BI Desktop om het voorbeeld verder te volgen. U kunt ook het [Excel-bestand Klantenfeedback voor Power BI-service of Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx) downloaden. Selecteer een van beide koppelingen en selecteer **Downloaden** op de GitHub-pagina die wordt geopend.
 
 > [!NOTE]
 > De gegevensset Klantenfeedback is gebaseerd op [Moro et al., 2014] S. Moro, P. Cortez en P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. *Decision Support Systems*, Elsevier, 62:22-31, juni 2014. 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/04/2020
-ms.openlocfilehash: 78ba14c8a715c927f35c32244734e66a5fb80473
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: da356800a49e6d8876a147862dd08541ed2999bc
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888967"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565685"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Zelfstudie: Power BI-inhoud insluiten in een toepassing voor uw organisatie
 
@@ -57,7 +57,7 @@ Als u besluit de omgeving handmatig in te stellen, kunt u hieronder doorgaan.
 
 >[!NOTE]
 >In uw eigen toepassing moet u naar *Verificatie* navigeren en in het veld *Omleidings-URI's* het omleidingsadres invoegen.
-Zie [Beperkingen voor omleidings-URI's (antwoord-URL)](https://docs.microsoft.com/azure/active-directory/develop/reply-url) voor meer informatie over omleiden.
+Zie [Beperkingen voor omleidings-URI's (antwoord-URL)](/azure/active-directory/develop/reply-url) voor meer informatie over omleiden.
 
 ## <a name="set-up-your-power-bi-environment"></a>Uw Power BI-omgeving instellen
 
@@ -428,7 +428,7 @@ Globale beheerders of Power BI-servicebeheerders kunnen de mogelijkheid om REST-
 In deze zelfstudie hebt u geleerd hoe u Power BI-inhoud insluit in een toepassing met uw Power BI-account voor uw organisatie. U kunt nu proberen Power BI-inhoud in een toepassing in te sluiten met behulp van apps. U kunt ook Power BI-inhoud insluiten voor uw klanten (nog niet ondersteund voor het insluiten van gepagineerde rapporten):
 
 > [!div class="nextstepaction"]
-> [Insluiten vanuit apps](embed-from-apps.md)
+> [Insluiten vanuit apps](./index.yml)
 
 > [!div class="nextstepaction"]
 >[Insluiten voor uw klanten](embed-sample-for-customers.md)

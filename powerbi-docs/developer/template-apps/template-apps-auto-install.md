@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 33de464a1bb1389fadfbc7a85ded9365321e0a62
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926292"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565737"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Automatische configuratie van de-installatie van een sjabloon-app
 
@@ -42,7 +42,7 @@ De basisstroom voor het automatiseren van de configuratie van de installatie van
 
 1. De onafhankelijke softwareleverancier verkrijgt een token *voor uitsluitend de app* die is gebaseerd op een [service-principal (token voor uitsluitend de app)](../embedded/embed-service-principal.md), die is geregistreerd in de tenant van de onafhankelijke softwareleverancier.
 
-1. Met behulp van [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/) maakt de onafhankelijke softwareleverancier een *installatieticket* dat de configuratie van gebruikersspecifieke parameters bevat die is voorbereid door de onafhankelijke softwareleverancier.
+1. Met behulp van [Power BI REST API's](/rest/api/power-bi/) maakt de onafhankelijke softwareleverancier een *installatieticket* dat de configuratie van gebruikersspecifieke parameters bevat die is voorbereid door de onafhankelijke softwareleverancier.
 
 1. De onafhankelijke softwareleverancier stuurt de gebruiker door naar Power BI met behulp van een ```POST```-omleidingsmethode die het installatieticket bevat.
 
@@ -56,23 +56,23 @@ De basisstroom voor het automatiseren van de configuratie van de installatie van
 De volgende vereisten zijn vereist om een vooraf geconfigureerde installatie-ervaring voor uw sjabloon-app te leveren:
 
 * Een Power BI Pro-licentie. Als u zich niet hebt geregistreerd voor Power BI Pro, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
-* Uw eigen Azure Active Directory-tenantinstelling (Azure AD). Zie [Een Azure AD-tenant maken](https://docs.microsoft.com/power-bi/developer/embedded/create-an-azure-active-directory-tenant) voor instructies voor het instellen hiervan.
-* Een **service-principal (token voor uitsluitend de app)** die is geregistreerd in de voorgaande tenant. Zie [Power BI-inhoud insluiten met service-principal en een toepassingsgeheim](https://docs.microsoft.com/power-bi/developer/embedded/embed-service-principal) voor meer informatie. Zorg ervoor dat u de app registreert als een **web-app aan serverzijde**. U registreert een webtoepassing aan de serverzijde om een toepassingsgeheim te maken. Sla de *toepassings-id* (ClientID) en het *toepassingsgeheim* (ClientSecret) van dit proces op voor latere stappen.
-* Een **geparametriseerde sjabloon-app** die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Azure AD. Zie [Tips voor sjabloon-apps](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-tips) of [Een sjabloon-app maken in Power BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-create) voor meer informatie. Noteer de volgende informatie uit de sjabloon-app voor de volgende stappen:
+* Uw eigen Azure Active Directory-tenantinstelling (Azure AD). Zie [Een Azure AD-tenant maken](../embedded/create-an-azure-active-directory-tenant.md) voor instructies voor het instellen hiervan.
+* Een **service-principal (token voor uitsluitend de app)** die is geregistreerd in de voorgaande tenant. Zie [Power BI-inhoud insluiten met service-principal en een toepassingsgeheim](../embedded/embed-service-principal.md) voor meer informatie. Zorg ervoor dat u de app registreert als een **web-app aan serverzijde**. U registreert een webtoepassing aan de serverzijde om een toepassingsgeheim te maken. Sla de *toepassings-id* (ClientID) en het *toepassingsgeheim* (ClientSecret) van dit proces op voor latere stappen.
+* Een **geparametriseerde sjabloon-app** die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Azure AD. Zie [Tips voor sjabloon-apps](../../connect-data/service-template-apps-tips.md) of [Een sjabloon-app maken in Power BI](../../connect-data/service-template-apps-create.md) voor meer informatie. Noteer de volgende informatie uit de sjabloon-app voor de volgende stappen:
      * *App-id*, *Pakketsleutel* en *Eigenaar-id* zoals deze worden weergegeven in de installatie-URL aan het einde van het proces voor het [definiëren van de eigenschappen van de sjabloon-app](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) toen de app werd gemaakt. U kunt dezelfde koppeling ook verkrijgen door **Koppeling ophalen** te selecteren in het deelvenster [Releasebeheer](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) van de sjabloon-app.
     * *Parameternamen* zoals deze in de gegevensset van de sjabloon-app zijn gedefinieerd. Parameternamen zijn hoofdlettergevoelige tekenreeksen en kunnen ook worden opgehaald van het tabblad **Parameterinstellingen** wanneer u [de eigenschappen van de sjabloon-app definieert](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) of uit de instellingen van de gegevensset in Power BI.
 
     >[!NOTE]
-    >U kunt uw vooraf geconfigureerde installatietoepassing voor uw sjabloon-app testen als de sjabloon-app gereed is voor installatie, ook als deze nog niet openbaar beschikbaar is in AppSource. Als u wilt dat gebruikers buiten uw tenant de toepassing voor geautomatiseerde installatie kunnen gebruiken om uw sjabloon-app te installeren, moet de sjabloon-app openbaar beschikbaar zijn in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services). Voordat u uw sjabloon-app distribueert met behulp van de toepassing voor geautomatiseerde installatie die u maakt, moet u ervoor zorgen dat deze wordt gepubliceerd in [Partnercentrum](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
+    >U kunt uw vooraf geconfigureerde installatietoepassing voor uw sjabloon-app testen als de sjabloon-app gereed is voor installatie, ook als deze nog niet openbaar beschikbaar is in AppSource. Als u wilt dat gebruikers buiten uw tenant de toepassing voor geautomatiseerde installatie kunnen gebruiken om uw sjabloon-app te installeren, moet de sjabloon-app openbaar beschikbaar zijn in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services). Voordat u uw sjabloon-app distribueert met behulp van de toepassing voor geautomatiseerde installatie die u maakt, moet u ervoor zorgen dat deze wordt gepubliceerd in [Partnercentrum](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).
 
 ## <a name="main-steps-and-apis"></a>Belangrijkste stappen en API's
 
-In de volgende secties worden de belangrijkste stappen beschreven waarmee u de configuratie van de installatie van een sjabloon-app en de benodigde API's kunt configureren. Hoewel de meeste stappen met [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/) worden uitgevoerd, zijn de hier beschreven codevoorbeelden gemaakt met de .NET SDK.
+In de volgende secties worden de belangrijkste stappen beschreven waarmee u de configuratie van de installatie van een sjabloon-app en de benodigde API's kunt configureren. Hoewel de meeste stappen met [Power BI REST API's](/rest/api/power-bi/) worden uitgevoerd, zijn de hier beschreven codevoorbeelden gemaakt met de .NET SDK.
 
 ## <a name="step-1-create-a-power-bi-client-object"></a>Stap 1: een Power BI-clientobject maken
 
-Voor het gebruik van Power BI REST API's is het vereist dat u een *toegangstoken* voor uw [service-principal](../embedded/embed-service-principal.md) uit Azure AD ophaalt. U moet een [Azure Active Directory-toegangstoken ophalen](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) voor uw Power BI-toepassing voordat u de [Power BI REST API's](https://docs.microsoft.com/rest/api/power-bi/) kunt aanroepen.
-Als u de Power BI-client met uw toegangstoken wilt maken, moet u uw Power BI-clientobject maken zodat u interacties met de [Power BI REST-API's](https://docs.microsoft.com/rest/api/power-bi/) kunt uitvoeren. U maakt het **Power BI-clientobject** door het AccessToken te verpakken met het object **Microsoft.Rest.TokenCredentials**.
+Voor het gebruik van Power BI REST API's is het vereist dat u een *toegangstoken* voor uw [service-principal](../embedded/embed-service-principal.md) uit Azure AD ophaalt. U moet een [Azure Active Directory-toegangstoken ophalen](../embedded/get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) voor uw Power BI-toepassing voordat u de [Power BI REST API's](/rest/api/power-bi/) kunt aanroepen.
+Als u de Power BI-client met uw toegangstoken wilt maken, moet u uw Power BI-clientobject maken zodat u interacties met de [Power BI REST-API's](/rest/api/power-bi/) kunt uitvoeren. U maakt het **Power BI-clientobject** door het AccessToken te verpakken met het object **Microsoft.Rest.TokenCredentials**.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -91,7 +91,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 ## <a name="step-2-create-an-install-ticket"></a>Stap 2: een installatieticket maken
 
 Maak een installatieticket, dat wordt gebruikt wanneer u uw gebruikers omleidt naar Power BI. De API die voor deze bewerking wordt gebruikt, is de API **CreateInstallTicket**.
-* [Template Apps CreateInstallTicket](https://docs.microsoft.com/rest/api/power-bi/templateapps/createinstallticket)
+* [Template Apps CreateInstallTicket](/rest/api/power-bi/templateapps/createinstallticket)
 
 Een voorbeeld voor het maken van een installatieticket voor de installatie en configuratie van sjabloon-apps is beschikbaar via het bestand [InstallTemplateApp/InstallAppFunction.cs](https://github.com/microsoft/Template-apps-examples/blob/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample/InstallTemplateApp/InstallAppFunction.cs) in de [voorbeeldtoepassing](https://github.com/microsoft/Template-apps-examples/tree/master/Developer%20Samples/Automated%20Install%20Azure%20Function/InstallTemplateAppSample).
 

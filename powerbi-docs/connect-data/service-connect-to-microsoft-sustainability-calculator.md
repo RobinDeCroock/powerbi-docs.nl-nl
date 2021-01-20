@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/22/2020
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 730a997a6d1d304fe868dd5bdd5bfbed6e359d91
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: bff53ac0e230a91dd980b461340ae4109f551999
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927141"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565555"
 ---
 # <a name="microsoft-sustainability-calculator-support-page"></a>Ondersteuningspagina voor Microsoft Sustainability Calculator
 
@@ -165,7 +165,7 @@ Uw emissies kunnen worden gerapporteerd als onderdeel van de indirecte Scope 3-k
 
 **Wat kan ik doen om de emissies verder te verminderen?**
 
-Door in Azure efficiënt met resources en kosten om te gaan, wordt de impact op het milieu van uw gebruik van Azure verminderd. Zo zijn bijvoorbeeld ongebruikte virtuele machines verkwistend, zowel in de cloud als on-premises. Het aanpassen van virtuele machines ter verbetering van de ingebruiksfactoren voor rekenkracht (CUF) vermindert het energiegebruik per nuttige uitvoer, net zoals bij fysieke servers. [Azure Cost Management](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices) biedt de hulpmiddelen om uw uitgaven te plannen, te analyseren en te verlagen om uw investering in de cloud te maximaliseren.
+Door in Azure efficiënt met resources en kosten om te gaan, wordt de impact op het milieu van uw gebruik van Azure verminderd. Zo zijn bijvoorbeeld ongebruikte virtuele machines verkwistend, zowel in de cloud als on-premises. Het aanpassen van virtuele machines ter verbetering van de ingebruiksfactoren voor rekenkracht (CUF) vermindert het energiegebruik per nuttige uitvoer, net zoals bij fysieke servers. [Azure Cost Management](/azure/cost-management-billing/costs/cost-mgt-best-practices) biedt de hulpmiddelen om uw uitgaven te plannen, te analyseren en te verlagen om uw investering in de cloud te maximaliseren.
 
 #### <a name="methodology"></a>Methodologie
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 11/16/2020
-ms.openlocfilehash: 1c2260fdc3df201a655e6641c351319e366eac6b
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 8c5b3c394d54df390d690d58b56e9084f9829733
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413122"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565657"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Maak een koppeling naar een specifieke locatie in de Power BI - Mobiel-apps
 U kunt koppelingen gebruiken om direct toegang te krijgen tot Power BI-inhoud, zoals een specifiek rapport, een rapportpagina, dashboard, tegel, enzovoort.
@@ -193,7 +193,7 @@ Koppelingen met deze indeling kunnen rechtstreeks verwijzen naar dashboards, teg
 
 In de mobiele Power B-apps werken koppelingen in Power BI net zoals ze in de Power BI-service werken.
 
-Als u aan uw rapport een koppeling wilt toevoegen die naar een ander Power BI-item verwijst, kunt u gewoon de URL van dat item kopiëren in de adresbalk van de browser. Lees meer over het [toevoegen van een hyperlink aan een tekstvak in een rapport](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
+Als u aan uw rapport een koppeling wilt toevoegen die naar een ander Power BI-item verwijst, kunt u gewoon de URL van dat item kopiëren in de adresbalk van de browser. Lees meer over het [toevoegen van een hyperlink aan een tekstvak in een rapport](../../create-reports/service-add-hyperlink-to-text-box.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmplementeerd. Vergeet dus niet op andere functies te stemmen die u graag in de mobiele Power BI-apps zou willen zien. 
@@ -201,4 +201,4 @@ Op basis van uw feedback kunnen we bepalen wat in de toekomst moet worden geïmp
 * [Power BI-apps voor mobiele apparaten](mobile-apps-for-mobile-devices.md)
 * Volg @MSPowerBI op Twitter
 * Deelnemen aan conversaties in de [Power BI-community](http://community.powerbi.com/)
-* [Wat is Power BI?](../../power-bi-overview.md)
+* [Wat is Power BI?](../../fundamentals/power-bi-overview.md)

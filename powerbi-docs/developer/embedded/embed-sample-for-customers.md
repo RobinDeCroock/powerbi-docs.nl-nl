@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: de954c5950f550c3ed2f3c340714851f5233d3e8
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+ms.openlocfilehash: a0cfeaece56594c52a8d747350c5f9bfb0886cad
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969760"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565469"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Zelfstudie: Power BI-inhoud insluiten met een voorbeeld-app voor het *insluiten voor uw klanten*
 
@@ -185,7 +185,7 @@ Als u een werkruimte wilt maken, doet u het volgende:
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>Stap 4: Een Power BI-rapport maken en publiceren
 
-In de volgende stap maakt u een rapport en uploadt u dit naar uw werkruimte. U kunt [uw eigen rapport maken](/power-bi/fundamentals/desktop-getting-started#build-reports) met behulp van Power BI Desktop en het vervolgens [publiceren](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) naar uw werkruimte. U kunt ook een voorbeeldrapport uploaden naar uw werkruimte.
+In de volgende stap maakt u een rapport en uploadt u dit naar uw werkruimte. U kunt [uw eigen rapport maken](../../fundamentals/desktop-getting-started.md#build-reports) met behulp van Power BI Desktop en het vervolgens [publiceren](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) naar uw werkruimte. U kunt ook een voorbeeldrapport uploaden naar uw werkruimte.
 
 >[!Tip]
 >Als u al een werkruimte met een rapport hebt, kunt u deze stap overslaan.

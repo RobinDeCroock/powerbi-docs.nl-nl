@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: c30b8f7ebe403e38fa59fa248aacc4b3086bf9ed
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: 624e0a2838a08d1cf68ae58223fe979a56312b48
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885862"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565933"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Een Azure AD-toepassing registeren om bij Power BI te gebruiken
 
@@ -247,7 +247,7 @@ Als u de machtigingen van uw Azure AD-app via een programma wilt wijzigen, moet 
 
 # <a name="c"></a>[C#](#tab/CSharp)
 
-U kunt de machtigingen voor uw Azure AD-app ook wijzigen met C#. Zie de [oAuth2PermissionGrant](https://docs.microsoft.com/graph/api/oauth2permissiongrant-get)-API voor meer informatie. Deze methode kan nuttig zijn als u overweegt een aantal van uw processen te automatiseren.
+U kunt de machtigingen voor uw Azure AD-app ook wijzigen met C#. Zie de [oAuth2PermissionGrant](/graph/api/oauth2permissiongrant-get)-API voor meer informatie. Deze methode kan nuttig zijn als u overweegt een aantal van uw processen te automatiseren.
 
 Raadpleeg het tabblad [HTTP](register-app.md?tabs=customers%2CHTTP#change-your-azure-ad-apps-permissions) voor meer informatie over de HTTP-aanvragen.
 

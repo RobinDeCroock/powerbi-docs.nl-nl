@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: d4ef44cb0e03c5de7807f0e95cefa532353f4685
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
+ms.openlocfilehash: b98e761a9ac2578a1af43bdb2c536f73fc3cc5af
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97885172"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565702"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw organisatie
 
@@ -209,7 +209,7 @@ Voor het insluiten van inhoud met een gast, gebruikt u de URL ( *`https://login.
 In deze zelfstudie hebt u geleerd hoe u gepagineerde Power BI-rapporten insluit in een toepassing met uw Power BI-account voor uw organisatie. 
 
 > [!div class="nextstepaction"]
-> [Insluiten vanuit apps](embed-from-apps.md)
+> [Insluiten vanuit apps](./index.yml)
 
 > [!div class="nextstepaction"]
 >[Power BI-inhoud insluiten voor uw klanten](embed-sample-for-customers.md)

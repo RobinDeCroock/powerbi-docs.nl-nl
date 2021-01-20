@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 01/23/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6168a1fb8d64444b703c6acac21c3bac67c4219a
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a622da545d4fa9fca8b9478f6d5293d2b34296e9
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396493"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191700"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Performance Analyzer gebruiken om prestaties van rapportelementen te onderzoeken
 
@@ -58,7 +58,7 @@ De logboekgegevens van elke visual bevatten de tijd die is besteed (duur) aan he
 * **Weergave van visual**: de tijd die nodig is om de visual op het scherm te tekenen, inclusief de tijd die nodig is om webafbeeldingen of geocodering op te halen. 
 * **Overig**: de tijd die de visual nodig heeft om query's voor te bereiden, te wachten tot andere visuals zijn voltooid of een verwerking op de achtergrond uit te voeren.
 
-De waarden voor **Duur (ms)** geven het verschil aan tussen het tijdstempel van de *begintijd* en *eindtijd* van elke bewerking. De meeste canvasbewerkingen en visuals worden sequentieel uitgevoerd op één gebruikersinterfacethread, die wordt gedeeld door meerdere bewerkingen. De gerapporteerde duur omvat ook de tijdsduur in de wachtrij tijdens de uitvoering van andere bewerkingen. Het [Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) op GitHub en de bijbehorende [documentatie](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) biedt informatie over hoe in visuals gegevens worden opgevraagd en hoe deze worden weergegeven.
+De waarden voor **Duur (ms)** geven het verschil aan tussen het tijdstempel van de *begintijd* en *eindtijd* van elke bewerking. De meeste canvasbewerkingen en visuals worden sequentieel uitgevoerd op één gebruikersinterfacethread, die wordt gedeeld door meerdere bewerkingen. De gerapporteerde duur omvat ook de tijdsduur in de wachtrij tijdens de uitvoering van andere bewerkingen. Het [Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer) op GitHub en de bijbehorende [documentatie](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) biedt informatie over hoe in visuals gegevens worden opgevraagd en hoe deze worden weergegeven.
 
 
 ![elementen van logboekgegevens](media/desktop-performance-analyzer/performance-analyzer-06.png)
@@ -94,5 +94,5 @@ Lees de volgende artikelen voor meer informatie over **Power BI Desktop** en hoe
 
 Bekijk de volgende resources voor meer informatie over het Performance Analyzer-voorbeeld.
 
-* [Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
-* [Documentatie voor het Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)
+* [Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/tree/main/Performance%20Analyzer)
+* [Documentatie voor het Performance Analyzer-voorbeeld](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

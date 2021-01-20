@@ -9,12 +9,12 @@ ms.subservice: pbi-visuals
 ms.topic: how-to
 ms.date: 01/10/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4f984be74c0408eae5c476fa30994de55961a0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 47a8ef221caadfabebc5da00793b7fff0b8687f8
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96386361"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191861"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>Visuals van een uitgevouwen structuur in Power BI maken en weergeven
 
@@ -32,7 +32,7 @@ In deze zelfstudie worden twee voorbeelden gebruikt:
 - Een verkoopscenario waarin de verkoop van videogames wordt opgesplitst in verschillende factoren, zoals genre en uitgever.
 
 U kunt hier de pbix vinden die wordt gebruikt in het toeleveringsketenscenario: [Toeleveringsketen Sample.pbix](
-https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Reports/Supply%20Chain%20Sample.pbix).
+https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Supply%20Chain%20Sample.pbix).
 
 > [!NOTE]
 > Voor het delen van uw rapport met een Power BI-collega moet u beiden beschikken over een afzonderlijke Power BI Pro-licentie of moet het rapport zijn opgeslagen in Premium-capaciteit.    
