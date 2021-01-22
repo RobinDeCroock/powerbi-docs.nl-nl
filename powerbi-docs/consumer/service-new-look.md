@@ -9,12 +9,12 @@ ms.subservice: pbi-explore
 ms.topic: conceptual
 ms.date: 12/09/2020
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e357b275cd6648721b021f68a9b8496e266e003
-ms.sourcegitcommit: 8250187368d3de48663eb516a816ff701119b579
-ms.translationtype: HT
+ms.openlocfilehash: 1ed6da298645de77a4ddfc7cba2fde9c89c30f0f
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "96999082"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687322"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Het nieuwe uiterlijk van de Power BI-service
 
@@ -70,5 +70,4 @@ Dashboards hebben ook een vereenvoudigde actiebalk. Voor een consistente ervarin
 ## <a name="next-steps"></a>Volgende stappen
 
 - [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md)
-- [Aanmelden voor het nieuwe uiterlijk van de werkruimte](../collaborate-share/service-workspaces-new-look.md)
 - [Power BI voor gebruikers](end-user-consumer.md)

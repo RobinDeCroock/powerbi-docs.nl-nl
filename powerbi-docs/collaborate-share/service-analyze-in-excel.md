@@ -8,14 +8,14 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/22/2020
+ms.date: 01/20/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 4ce463cb82fec7da8d7ec43db7914fb028368bc3
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.openlocfilehash: e708e5001e49841d01b60cfc8712d37b990102f2
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621252"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687115"
 ---
 # <a name="analyze-in-excel"></a>In Excel analyseren
 Met **Analyseren in Excel** kunt u Power BI-gegevenssets overbrengen naar Excel, en ze daar weergeven en bewerken met behulp van draaitabellen, grafieken, slicers en andere Excel-functies. Als u **Analyseren in Excel** wilt gebruiken, moet u de functie eerst downloaden uit Power BI downloaden en installeren, en vervolgens een of meer gegevenssets selecteren voor gebruik in Excel. 
@@ -34,11 +34,11 @@ Laten we maar meteen beginnen met het installatieproces.
 
 ## <a name="install-analyze-in-excel"></a>Analyseren in Excel installeren
 
-U moet **Analyseren in Excel** via koppelingen die worden aangeboden in de Power BI-service. Power BI detecteert de versie van Excel die u op uw computer hebt en downloadt automatisch de juiste versie (32-bits of 64-bits). De Power BI-service wordt in een browser uitgevoerd. U kunt zich met de volgende koppeling aanmelden bij Power BI:
+U moet **Analyseren in Excel** via koppelingen die worden aangeboden in de Power BI-service. Power BI detecteert de versie van Excel die u op uw computer hebt en downloadt automatisch de juiste versie (32-bits of 64-bits). U kunt zich met behulp van de volgende koppeling aanmelden bij de Power BI-service:
 
 * [Aanmelden bij Power BI](https://app.powerbi.com)
 
-Nadat u zich hebt aangemeld en de Power BI-service wordt uitgevoerd in uw browser, selecteert u **Meer opties** (de drie punten ...) in de rechterbovenhoek en selecteert u **Downloaden > Updates voor Analyseren in Excel**. Dit menu-item is van toepassing op nieuwe installaties van updates van Analyseren in Excel.
+Nadat u zich hebt aangemeld en de Power BI-service in uw browser wordt uitgevoerd, selecteert u **meer opties** (de...) in de rechter bovenhoek en selecteert u vervolgens **downloaden > analyseren in Excel-updates**. Dit menu-item is van toepassing op nieuwe installaties van updates van Analyseren in Excel.
 
 ![Analyseren in Excel downloaden vanaf de startpagina van Power BI](media/service-analyze-in-excel/analyze-excel-02.png)
 
@@ -160,23 +160,24 @@ Meer informatie over het op deze manier overbrengen van gegevens naar Excel vind
 U hebt ook toegang tot **aanbevolen tabellen** in Excel, via de galerie **Gegevenstypen**. Als u meer wilt weten over aanbevolen tabellen, en hoe u ze kunt openen, raadpleegt u [Toegang tot aanbevolen Power BI-tabellen in Excel (preview)](service-excel-featured-tables.md).
 
 ## <a name="requirements"></a>Vereisten
-Er zijn enkele vereisten voor het gebruik van **Analyseren in Excel**:
+Hier volgen enkele vereisten voor het gebruik van **analyseren in Excel**:
 
 * **Analyseren in Excel** wordt ondersteund voor Microsoft Excel 2010 SP1 of hoger.
-
 * Excel-draaitabellen bieden geen ondersteuning voor aggregatie van numerieke velden met slepen en neerzetten. Uw gegevensset in Power BI *moet vooraf gedefinieerde metingen hebben*. Meer informatie over het [maken van metingen](../transform-model/desktop-measures.md).
 * Sommige organisaties hebben mogelijk groepsbeleidregels ingesteld die voorkomen dat de vereiste **Analyseren in Excel**-updates naar Excel worden geïnstalleerd. Als het niet lukt om de updates te installeren, vraagt u dit na bij uw beheerder.
 * Voor **Analyseren in Excel** is vereist dat de gegevensset in Power BI Premium staat of dat de gebruiker een Power BI Pro-licentie heeft. Raadpleeg de sectie _Vergelijking van Power BI-functies_ in [Power BI-prijzen](https://powerbi.microsoft.com/pricing/) als u meer wilt weten over de verschillen in functionaliteit tussen licentietypen.
-* Gebruikers kunnen verbinding maken met gegevenssets via Analyseren in Excel als ze zijn gemachtigd voor de onderliggende gegevensset.  Een gebruiker kan deze machtiging op verschillende manieren hebben verkregen, zoals door de rol van lid van de werkruimte met daarin de gegevensset, doordat het rapport of dashboard met hem/haar is gedeeld waarin wordt gebruikgemaakt van de gegevensset, of doordat deze over een samenstellingsmachtigingen beschikt voor de gegevensset in een werkruimte of een app die de gegevensset bevat. Meer informatie over [Samenstellingsmachtiging](../connect-data/service-datasets-build-permissions.md) voor gegevenssets.
-* Gastgebruikers kunnen **Analyseren in Excel** niet gebruiken voor gegevenssets die zijn verzonden vanuit (afkomstig zijn uit) een andere tenant. 
-* De functie **Analyseren in Excel** is een functie van de Power BI-service. Deze functie is niet beschikbaar in Power BI Report Server of Power BI Embedded. 
+* Gebruikers kunnen verbinding maken met gegevenssets via Analyseren in Excel als ze zijn gemachtigd voor de onderliggende gegevensset.  Een gebruiker kan deze machtiging op een aantal manieren hebben, zoals het hebben van de rol lid in de werk ruimte met de gegevensset of het maken van een machtiging voor een gegevensset in een werk ruimte of in een app die de gegevensset bevat. Meer informatie over [Samenstellingsmachtiging](../connect-data/service-datasets-build-permissions.md) voor gegevenssets.
+* Gast gebruikers kunnen **analyseren in Excel** niet gebruiken voor gegevens sets die zijn verzonden van (afkomstig van) een andere Tenant. 
+* **Analyseren in Excel** is een Power bi-service-functie die niet beschikbaar is in Power BI Report Server of Power bi Embedded. 
 * **Analyseren in Excel** wordt alleen ondersteund op computers met Microsoft Windows.
 
 
-Gebruikers die de functie **Analyseren in Excel** willen verwijderen, kunnen dit doen via het onderdeel **Programma's toevoegen of verwijderen** in het Configuratiescherm van uw Windows-computer.
+Als u de functie **analyseren in Excel** wilt verwijderen, gebruikt u de systeem instelling **Program ma's toevoegen of verwijderen** op uw computer.
 
-## <a name="troubleshooting"></a>Problemen oplossen
-Wanneer u Analyseren in Excel gebruikt, krijgt u mogelijk een onverwacht resultaat of werkt de functie niet zoals verwacht. [Deze pagina bevat oplossingen voor algemene problemen bij het gebruik van Analyseren in Excel](desktop-troubleshooting-analyze-in-excel.md).
+## <a name="limitations-and-considerations"></a>Beperkingen en overwegingen
+
+- Beveiliging op rijniveau wordt ondersteund voor analyseren in Excel. Beveiliging op rijniveau wordt afgedwongen op het niveau van de gegevens model en wordt altijd toegepast op alle gebruikers die toegang hebben tot gegevens in het rapport. Meer informatie over [beveiliging op rijniveau](../admin/service-admin-rls.md).
+- Wanneer u Analyseren in Excel gebruikt, krijgt u mogelijk een onverwacht resultaat of werkt de functie niet zoals verwacht. Zie [problemen met analyseren in Excel oplossen](desktop-troubleshooting-analyze-in-excel.md) voor oplossingen voor veelvoorkomende problemen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

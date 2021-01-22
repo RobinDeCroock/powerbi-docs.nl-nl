@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 01/13/2020
+ms.date: 01/21/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1808638ad0ccaa2adc57d56bf1677dea0ca24440
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: fec45c895b4b4eb43bd6efd2e5428d789ff4f44d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96404658"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687092"
 ---
 # <a name="use-the-sap-business-warehouse-connector-in-power-bi-desktop"></a>De SAP Business Warehouse-connector in Power BI Desktop gebruiken
 
@@ -45,8 +45,8 @@ U kunt de [SAP .NET connector 3.0](https://support.sap.com/en/product/connectors
 
 De connector is verkrijgbaar in 32-bits en 64-bits versies. Kies de versie die overeenkomt met uw Power BI Desktop-toepassing. Op dit moment staan op de website twee versies vermeld voor .NET 4.0 Framework:
 
-* De SAP-connector voor Microsoft .NET 3.0.22.0 voor Windows 32-bits (x86) als ZIP-bestand (6896 KB), 1 juni 2019
-* De SAP-connector voor Microsoft .NET 3.0.22.0 voor Windows 64-bits (x64) als ZIP-bestand (7.180 KB), 1 juni 2019
+* SAP connector voor Microsoft .NET 3.0.22.0 voor Windows 32-bits (x86) of hoger (.NET Framework 4,0)
+* SAP connector voor Microsoft .NET 3.0.22.0 voor Windows 64 bits (x64) of hoger (.NET Framework 4,0)
 
 Wanneer u installeert, controleert u in **Optionele installatiestappen** de optie *Assembly's installeren naar GAC*.
 

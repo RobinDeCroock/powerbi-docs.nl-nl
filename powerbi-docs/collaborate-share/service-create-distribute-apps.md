@@ -8,12 +8,12 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.date: 03/23/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 981b4aa0f9e8bb12e4231476d27b8f58152ff3fd
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
-ms.translationtype: HT
+ms.openlocfilehash: 77f206ef59a4aa082e04053d28567480f4d01bb0
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110907"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687258"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Een app publiceren in Power BI
 
@@ -207,7 +207,7 @@ Houd rekening met het volgende bij het publiceren van dashboards:
 * De machtigingenpagina biedt geen wijziging in de machtiging voor gegevenssets in andere werkruimten. Er wordt wel een waarschuwing weergegeven om u eraan te herinneren dat u onafhankelijk toegang moet verlenen tot die gegevenssets. Een best practice is dat u contact opneemt met de eigenaar van de gegevensset voordat u begint met het bouwen van uw app, zodat u zeker weet dat het in orde is om alle app-gebruikers toegang te geven tot deze gegevenssets. 
 * De toegangslijst voor de app mag maximaal 100 gebruikers of groepen bevatten. U kunt echter meer dan 100 gebruikers toegang verlenen tot de app. Gebruik hiervoor een of meer gebruikersgroepen die alle gewenste gebruikers bevatten.
 * Als de gebruikers die zijn toegevoegd aan de toegangslijst voor de app, al toegang hebben tot de app via de werkruimte, worden ze in de nieuwe weergave voor de werkruimte niet weergegeven in de toegangslijst voor de app.  
-* Wanneer u het nieuwe uiterlijk voor de Power BI-service gebruikt, wordt de URL van de ondersteuningssite weergegeven in de gegevenskaart van het item. Lees meer over het [nieuwe uiterlijk in Power BI](../consumer/service-new-look.md).
+* De URL van de ondersteunings site wordt weer gegeven op de informatie kaart van het item.
 * Apps beschikken over de optie om gebruikers toe te staan de app en de onderliggende gegevenssets van de app te delen met behulp van de machtiging voor delen. Deze optie is standaard uitgeschakeld voor nieuwe apps. Het wordt aanbevolen deze optie uit te schakelen voor uw bestaande apps en om de machtiging voor de onderliggende gegevenssets bij te werken. De optie is ingeschakeld voor bestaande apps omdat apps in eerste instantie zijn ontworpen ter vervanging van inhoudspakketten, die dit gedrag hadden.
 * Apps mogen maximaal 200 dashboards bevatten. 
 

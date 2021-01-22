@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 01/11/2021
+ms.date: 01/19/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: f5d35d7fc189f055a6f51e493fd313eb31f0564f
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 03eac7aefdebb31eac353c969db2bf8810173395
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565971"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687351"
 ---
 # <a name="tutorial-from-dimensional-model-to-stunning-report-in-power-bi-desktop"></a>Zelfstudie: Aantrekkelijke rapporten van dimensionale modellen maken in Power BI Desktop 
 
@@ -64,11 +64,10 @@ Selecteer alle tabellen en kies  **Gegevens transformeren**. Zorg ervoor dat u
 
 :::image type="content" source="media/desktop-dimensional-model-report/desktop-load-tables.png" alt-text="Laad tabellen in Navigator.":::
 
-Controleer of de gegevenstypen van de kolommen overeenkomen met de gegevenstypen in de volgende tabel. Als u wijzigingen wilt aanbrengen, selecteert u een query en vervolgens een of meer kolommen.
+Controleer of de gegevenstypen van de kolommen overeenkomen met de gegevenstypen in de volgende tabel. Als Power BI gegevens typen voor u wilt laten detecteren, selecteert u een query en selecteert u vervolgens een of meer kolommen. Op het tabblad **Transformeren** selecteert u **gegevens type detecteren**. Als u wijzigingen wilt aanbrengen in het gedetecteerde gegevens type, selecteert u op het tabblad **Start** de optie **gegevens type** en selecteert u vervolgens het juiste gegevens type in de tabel.
 
 :::image type="content" source="media/desktop-dimensional-model-report/power-query-change-data-types.png" alt-text="Controleer de gegevenstypen van de kolommen.":::
 
-Selecteer op het tabblad **Start** de optie **Gegevenstype** en selecteer vervolgens het juiste gegevenstype in de tabel.
 
 |Query’s uitvoeren  |Kolom  |Gegevenstype  |
 |---------|---------|---------|
@@ -330,8 +329,9 @@ Maak vervolgens een kolomdiagram om te onderzoeken welke producten worden verkoc
 
 1. Selecteer een leeg gebied in de onderste helft van uw rapportcanvas. 
 
-1. Selecteer in het deelvenster Velden de opties **Verkoophoeveelheid** bij **Verkoop**, **Productcategorie** bij **Product** en **Bedrijfstype** bij **Reseller**. 
-
+1. Selecteer in het deelvenster Velden de opties **Verkoophoeveelheid** bij **Verkoop**, **Productcategorie** bij **Product** en **Bedrijfstype** bij **Reseller**.
+    :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-field-well.png" alt-text="Controleer of de categorie en het bedrijfs type op rijen en verkoop bedrag zijn geselecteerd als waarden.":::
+    
     Power BI maakt automatisch een geclusterd kolomdiagram. Wijzig de visualisatie in een **Matrix**: 
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-change-to-matrix.png" alt-text="Wijzig het geclusterde kolomdiagram in een matrix.":::
@@ -346,7 +346,7 @@ Maak vervolgens een kolomdiagram om te onderzoeken welke producten worden verkoc
 
 1. Open in het deelvenster Opmaak voor de matrix de sectie **Voorwaardelijke opmaak** en schakel **Gegevensbalken** in. Selecteer **Geavanceerde besturingselementen** en stel een lichter kleur in voor de positieve balk. Selecteer **OK**. 
 
-1. Maak de kolom Verkoophoeveelheid breder zodat het hele gebied wordt bedekt. 
+1. Verg root de breedte van de kolom verkoop bedrag zodat het hele gebied wordt bedekt door de matrix te slepen.
 
     :::image type="content" source="media/desktop-dimensional-model-report/report-sales-amount-by-product-category-add-databars.png" alt-text="Matrix met gegevensbalken voor Verkoophoeveelheid.":::
 
@@ -401,21 +401,21 @@ Maak de volgende wijzigingen op het tabblad **Opmaak** in het deelvenster Vi
 1. Selecteer Visual 3, Orderhoeveelheid per Land reseller. 
 1. Wijzig in de sectie **Kaartstijlen** het  **Thema** in **Grijswaarden**. 
 1. Wijzig in de sectie  **Titel** de **titeltekst** in 'Orderhoeveelheid per Land reseller'.
-1. Stel de **Tekengrootte** in op **16 punten**. 
+1. Stel de **Tekengrootte** in op  **16 punten**. 
 1. Wissel de instelling voor **Schaduw** naar **Aan**.  
 
 **Visual 4, Verkoophoeveelheid per productcategorie en resellerbedrijfstype**
 
 1. Selecteer Visual 4, Verkoophoeveelheid per productcategorie en resellerbedrijfstype. 
 1. Wijzig in de sectie  **Titel** de **titeltekst** in 'Verkoophoeveelheid per productcategorie en resellerbedrijfstype'.
-1. Stel de **Tekengrootte** in op **16 punten**. 
+1. Stel de **Tekengrootte** in op  **16 punten**. 
 1. Wissel de instelling voor **Schaduw** naar **Aan**. 
 
 **Visual 5, boekkalenderslicer**
 
 1. Selecteer Visual 5, boekkalenderslicer.
 1. Zet in de sectie **Selectiebesturingselementen** de optie  **Alles selecteren weergeven** op **Aan**. 
-1. Stel de in de sectie  **Slicerkoptekst** de optie **Tekengrootte** in op **16 punten**. 
+1. Stel de in de sectie  **Slicerkoptekst** de optie **Tekengrootte** in op  **16 punten**. 
 
 ### <a name="add-a-background-shape-for-the-title"></a>Een achtergrondvorm voor de titel toevoegen 
 

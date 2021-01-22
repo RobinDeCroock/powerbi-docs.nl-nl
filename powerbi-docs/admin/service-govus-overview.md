@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: e7100be7890673cecc77a8a1147a25a942fc4666
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597604"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98686977"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -129,9 +129,9 @@ We nemen het kwartaal van de geschatte beschikbaarheid op als de release voor ee
 |[Insluiten in SharePoint online met het webonderdeel Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
 |[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png) |KW1 2021|
 |[Gegevensstromen - directe query](../transform-model/dataflows/dataflows-configure-consume.md) | ![beschikbaar](../media/yes.png) |![beschikbaar](../media/yes.png)|Niet-gepland |
+|[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/dataflows/dataflows-premium-features.md) | ![beschikbaar](../media/yes.png) |![beschikbaar](../media/yes.png)|Niet-gepland |
 |[Het tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>3</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Grote modellen](service-premium-large-models.md) | KW1 2021 |KW1 2021| Niet-gepland |
-|[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/dataflows/dataflows-premium-features.md) | ![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png) |
 |[Dataconnector voor gesprekskwaliteit](/microsoftteams/cqd-power-bi-connector)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Bring Your Own Storage (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 

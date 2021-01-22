@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: b94d943c54ade1f3a18e496ecae8235e47553059
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98227026"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687391"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
@@ -37,8 +37,6 @@ U kunt ook één visual uit de Power BI-service kopiëren en deze in PowerPoint 
 
 ## <a name="export-your-power-bi-report-to-powerpoint"></a>Uw Power BI-rapport naar PowerPoint exporteren
 Selecteer in de **Power BI-service** een rapport om weer te geven op het canvas. U kunt ook een rapport selecteren in **Start**, **Apps** of een andere container in het navigatievenster.
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Wanneer het rapport dat u wilt exporteren naar PowerPoint wordt weergegeven op het canvas, selecteert u **Bestand** > **Exporteren naar PowerPoint** in de menubalk.
 
@@ -89,9 +87,7 @@ Wat u verder doet met uw PowerPoint-presentatie, of met de afbeeldingen met hoge
 Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanneer u de functie **Exporteren naar PowerPoint** gebruikt.
  
 
-* Als u de optie **Exporteren** niet ziet, controleert u of u Nieuw uiterlijk hebt ingeschakeld en of u een rapport (en niet een dashboard) weergeeft.
-
-    ![Schermopname van de wisselknop Nieuw uiterlijk](media/end-user-powerpoint/power-bi-new-look.png)
+* Als u de **export** optie niet ziet, zorg er dan voor dat u een rapport bekijkt (geen dash board).
 
 * Er wordt momenteel geen rekening gehouden met [URL-filters](../collaborate-share/service-url-filters.md) als **Huidige waarden** wordt gekozen voor uw export.
 

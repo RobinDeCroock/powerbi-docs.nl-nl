@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 42f110356c891235d17810dbb1f220f0a006c066
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 4096ba77bc8733ff2e3d24cd646aa480aa53819d
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887081"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687529"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Gepagineerd rapport exporteren naar een bestand (preview)
 
@@ -122,6 +122,41 @@ Hier volgt een voorbeeld van het verstrekken van een efficiënte gebruikersnaam 
       }
 }
 ```
+
+### <a name="single-sign-on-sql-and-dataverse-sso"></a>Eenmalige aanmelding SQL en Dataverse (SSO)
+
+In Power BI hebt u de optie OAuth met SSO in te stellen. Wanneer u dit doet, worden de referenties voor de gebruiker die het rapport bekijkt, gebruikt om gegevens op te halen. Het toegangs token in de requrest-header wordt niet gebruikt om toegang te krijgen tot de gegevens. het token moet worden door gegeven met de doel-id in de hoofd tekst van het bericht.
+
+Wat kan leiden tot Verwar ring bij het verkrijgen van toegangs tokens wordt het juiste toegangs token opgehaald voor de resource die u wilt gebruiken. 
+- Voor Azure SQL is de resource https://database.windows.net
+- Voor Dataverse is de resource het https://-adres voor uw omgeving. Hierbij https://contoso.crm.dynamics.com
+
+[Hier](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet) de API voor toegangs tokens
+
+Hier volgt een voor beeld voor het leveren van een efficiënte gebruikers naam met een toegangs token.
+
+```json
+{
+       "format":"PDF",
+       "paginatedReportConfiguration":{
+          "formatSettings":{
+             "AccessiblePDF":"true",
+             "PageHeight":"11in",
+             "PageWidth":"8.5in",
+             "MarginBottom":"2in"
+          },
+          "identities":[
+             {
+                "username":"john@contoso.com",
+                "identityBlob": {
+                "value": "eyJ0eX....full access token"
+         }
+        }
+     ]
+   }
+}
+```
+
 ## <a name="ppu-concurrent-requests"></a>Gelijktijdige PPU-aanvragen
 De `exportToFile`-API staat één aanvraag in een tijdsvenster van vijf minuten toe wanneer [Premium per gebruiker (PPU)](../../admin/service-premium-per-user-faq.md)wordt gebruikt. Meerdere (meer dan één) aanvragen in een tijdsvenster van vijf minuten resulteren in de fout *Teveel aanvragen* (429).
 

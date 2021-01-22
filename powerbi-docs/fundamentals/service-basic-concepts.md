@@ -11,12 +11,12 @@ ms.subservice: pbi-fundamentals
 ms.topic: conceptual
 ms.date: 11/14/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 8da3446814d2c356acb24100eaa03df23be8f567
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: d61ed128827572198e24bb8f31e190f328e273ff
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416779"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687568"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Basisconcepten voor ontwerpers in de Power BI-service
 
@@ -218,7 +218,7 @@ U zoekt met Q&A naar antwoorden in een of meer gegevenssets die zijn verbonden m
 Zodra u een vraag begint te typen, wordt u door Q&A omgeleid naar Q&A-pagina. Terwijl u typt, helpt Q&A u de juiste vraag te stellen en het antwoord te zoeken met herformuleringen, automatisch doorvoeren en suggesties. Wanneer u een gewenste visualisatie (antwoord) hebt gevonden, kunt u deze vastmaken aan uw dashboard. Zie [Q&A in Power BI](../consumer/end-user-q-and-a.md) voor meer informatie.
 
 ### <a name="4-icons-in-the-black-header-bar"></a>4. **Pictogrammen in de zwarte koptekstbalk**
-De pictogrammen in de rechterbovenhoek kunt u gebruiken voor instellingen, meldingen, downloads, hulp, in- en uitschakelen van **Nieuw uiterlijk** en feedback aan het Power BI-team.  
+De pictogrammen in de rechterbovenhoek zijn uw resources voor instellingen, meldingen, downloads, hulp en feedback aan het Power BI-team.  
 
 ![Schermopname van de Power BI-service met de pictogramknoppen.](media/service-basic-concepts/power-bi-icons.png)
 
