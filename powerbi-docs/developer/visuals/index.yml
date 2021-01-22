@@ -1,6 +1,6 @@
 ### YamlMime:Landing
-title: Documentatie voor Power BI-visuals in geïntegreerde analytische gegevens voor Power BI voor betere ingesloten BI-inzichten
-summary: Ontwikkel uw eigen Power BI-visuals die vervolgens kunnen worden gebruikt door uzelf, uw organisatie of de hele Power BI-community. In onze documentatie vindt u de informatie die u nodig hebt. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
+title: Documentatie voor Power BI-visuals
+summary: Ontwikkel uw eigen Power BI-visuals die vervolgens kunnen worden gebruikt door uzelf, uw organisatie of de hele Power BI-community. In onze documentatie vindt u de informatie die u nodig hebt.
 metadata:
   title: Documentatie voor Power BI-visuals
   description: Ontwikkel uw eigen Power BI-visuals die vervolgens kunnen worden gebruikt door uzelf, uw organisatie of de hele Power BI-community. In onze documentatie vindt u de informatie die u nodig hebt.
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: 79d5b385bab83d07423184518a00106f660b8d68
-  ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
+  ms.openlocfilehash: b2b7a23174b4790232139ae6137d518d8578d8d1
+  ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
   ms.translationtype: HT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 01/07/2021
-  ms.locfileid: "97969392"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "98687437"
 landingContent:
 - title: Aan de slag
   linkLists:
