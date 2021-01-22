@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
-ms.date: 12/16/2020
+ms.date: 01/19/2021
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: c29728641560502e19486f47e3ec06e370399640
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: cbf41315f6b33483b7fdd0797bf4dfbcebb605c3
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600525"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597677"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Samengestelde modellen in Power BI Desktop gebruiken
 
@@ -22,7 +22,7 @@ Eerder werden geen andere gegevensverbindingen, hetzij DirectQuery-verbindingen 
 
 De voorziening Samengestelde modellen in Power BI Desktop bestaat uit drie gerelateerde functies:
 
-* **Samengestelde modellen**: Maakt mogelijk dat een rapport meerdere gegevensverbindingen heeft, inclusief DirectQuery-verbindingen of importverbindingen, in elke gewenste combinatie. Dit artikel bevat een uitgebreide beschrijving van samengestelde modellen.
+* **Samengestelde modellen**: Hierdoor kunnen voor een rapport twee of meer gegevensverbindingen van verschillende brongroepen worden gebruikt, zoals een of meer DirectQuery-verbindingen en een importeerverbinding, twee of meer DirectQuery-verbindingen of elke combinatie daarvan. Dit artikel bevat een uitgebreide beschrijving van samengestelde modellen.
 
 * **Veel-op-veel-relaties**: Met samengestelde modellen kunt u *veel-op-veel-relaties* tussen tabellen tot stand brengen. Door deze aanpak hoeven tabellen geen unieke waarden meer te bevatten. Ook zijn eerdere tijdelijke oplossingen niet meer nodig, zoals de introductie van nieuwe tabellen om relaties tot stand te brengen. Zie [Veel-op-veel-relaties toepassen in Power BI Desktop](desktop-many-to-many-relationships.md) voor meer informatie.
 
@@ -141,6 +141,8 @@ Het gevolg is dat gegevens die zijn opgeslagen in de spreadsheet, nu worden opge
 * De versleutelingsinstellingen moeten worden overwogen. U wilt voorkomen dat u informatie via een versleutelde verbinding ophaalt bij de ene bron en deze vervolgens per ongeluk opneemt in een query die via een niet-versleutelde verbinding wordt verzonden naar een andere bron.
 
 Er wordt een waarschuwing in Power BI Desktop weergegeven wanneer u een samengesteld model maakt, zodat u niet vergeet om rekening te houden met de gevolgen voor de beveiliging.  
+
+Als een auteur daarnaast *Table1* uit *Model A* toevoegt aan een samengesteld model (laten we dit *Model C* noemen), kunnen gebruikers die een rapport bekijken dat op basis van *Model C* is gebouwd, een query uitvoeren op **elke tabel** in *Model A* die niet door RLS wordt beschermd.
 
 Om vergelijkbare redenen moet u voorzichtig zijn met het openen van een Power BI Desktop-bestand dat is verzonden via een niet-vertrouwde bron. Als het bestand samengestelde modellen bevat, wordt de informatie die iemand ophaalt met de referenties van de gebruiker die het bestand opent, als onderdeel van de query verzonden naar een andere gegevensbron. De informatie kan worden weergegeven door de kwaadwillende auteur van het Power BI Desktop-bestand. Er wordt een waarschuwing in Power BI Desktop weergegeven wanneer u een Power BI Desktop-bestand met meerdere bronnen voor het eerst opent. Deze waarschuwing is vergelijkbaar met de waarschuwing die u ziet wanneer u een bestand opent dat systeemeigen SQL-query's bevat.  
 

@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 04/06/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 83ba0234ef4f4e350f413f3c934e2f09f0a9a3f2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 59e88818adee9aaf893d9f32fe96386c3f7ac47e
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412777"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565785"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi"></a>De slicer voor numeriek bereik in Power BI gebruiken
 
@@ -84,3 +84,4 @@ De volgende beperkingen en overwegingen zijn van toepassing op de slicer met num
 * Met de slicer voor numeriek bereik worden alle onderliggende rijen in de gegevens gefilterd, geen aggregatiewaarden. Stel dat u een gebruikmaakt van een veld *Verkoophoeveelheid*. Met de slicer wordt elke transactie gefilterd op basis van de verkoophoeveelheid, niet op basis van de som van de verkoophoeveelheid van elk gegevenspunt van een visual.
 * Deze slicer werkt momenteel niet met metingen.
 * U kunt een willekeurig getal invoeren in de slicer met numeriek bereik, zelfs als dit getal buiten het bereik van de waarden in de onderliggende kolom ligt. Met deze optie kunt u filters instellen als u weet dat de gegevens in de toekomst kunnen veranderen.
+* Met de slicer voor het datumbereik kunt u elke datumwaarde invoeren, ook als deze niet in de onderliggende datumkolom bestaan.

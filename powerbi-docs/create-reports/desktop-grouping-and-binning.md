@@ -8,14 +8,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 12/18/2019
+ms.date: 01/13/2021
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5f1b3d226fb7b27ebb31879d2f4a5c3489660b94
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: a44b6cbbc0517bee50d14447e790f6491483a894
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412915"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565868"
 ---
 # <a name="use-grouping-and-binning-in-power-bi-desktop"></a>Groeperen en binning in Power BI Desktop gebruiken
 Als in Power BI Desktop visuals worden gemaakt, worden uw gegevens in segmenten (of groepen) geaggregeerd op basis van waarden die in de onderliggende gegevens worden aangetroffen. Dat gaat vaak goed, maar het kan voorkomen dat u de manier waarop deze segmenten worden gepresenteerd, wilt verfijnen. Stel dat u drie categorieën met producten in één grotere categorie wilt onderbrengen (één *groep*). Of u wilt bijvoorbeeld verkoopcijfers zien in groepen van 1.000.000 euro in plaats van in delen van 923.983 euro.
@@ -47,7 +47,7 @@ U kunt een niet-gegroepeerde waarde aan een bestaande groep toevoegen. Selecteer
 > U kunt groepen maken voor elk veld in het veld **Velden**, zonder dat u meerdere items voor een bestaande visual hoeft te selecteren. Klik met de rechtermuisknop in het veld en selecteer **Nieuwe groep** in het menu dat wordt weergegeven.
 
 ## <a name="using-binning"></a>Binning
-In **Power BI Desktop** kunt u de grootte van de opslaglocatie voor numerieke en tijdvelden instellen. U kunt binning gebruiken om de gegevens die in Power BI Desktop worden weergegeven de juiste grootte te geven.
+In **Power BI Desktop** kunt u de grootte van de opslaglocatie voor numerieke en tijdvelden instellen. U kunt opslaglocaties maken voor berekende kolommen, maar niet voor metingen. Gebruik binning om de gegevens die in Power BI Desktop worden weergegeven de juiste grootte te geven.
 
 Als u een opslaglocatie een bepaalde grootte wilt geven, klikt u met de rechtermuisknop op een **veld** en selecteert u **Nieuwe groep**.
 
@@ -57,10 +57,10 @@ Stel in het dialoogvenster **Groepen** de optie **Grootte van opslaglocatie** in
 
 ![Grootte van opslaglocatie, dialoogvenster Groepen, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_6.png)
 
-Als u **OK** selecteert, ziet u dat er in het deelvenster **Velden** een nieuw veld verschijnt, waaraan **(opslaglocaties)** is toegevoegd. Vervolgens kunt u dit veld naar het canvas slepen om de grootte van de opslaglocatie in een visueel element te gebruiken.
+Als u **OK** selecteert, ziet u dat er in het deelvenster **Velden** een nieuw veld verschijnt, waaraan **(opslaglocaties)** is toegevoegd. U kunt dat veld vervolgens naar het canvas slepen om de bingrootte in een visual te gebruiken.
 
 ![Veld voor de grootte van de opslaglocatie slepen, Power BI Desktop](media/desktop-grouping-and-binning/grouping-binning_7.png)
 
-Bekijk deze *video* als u wilt zien hoe [binning](https://www.youtube.com/watch?v=BRvdZSfO0DY) werkt.
+Bekijk deze [video](https://www.youtube.com/watch?v=BRvdZSfO0DY) als u wilt zien hoe *binning* werkt.
 
 Dat is alles wat u moet weten over *binning* en *groeperen* om ervoor te zorgen dat de visuele elementen in uw rapport uw gegevens weergeven zoals u dat wilt.

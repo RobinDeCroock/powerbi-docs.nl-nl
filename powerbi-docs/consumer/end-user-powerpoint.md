@@ -8,14 +8,14 @@ ms.custom: contperf-fy20q4
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
-ms.date: 09/17/2020
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3d32851c5ff0722f59caa5536b67fb1c3267907b
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: df0591e7ae934ffa945e0e780b2764c7170358f1
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97622057"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227026"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
@@ -105,7 +105,8 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanne
 
 * Sommige rapporten kunnen niet worden geëxporteerd. Deze omvatten:
     - Als u een dashboard deelt met iemand buiten uw organisatie, dus een gebruiker die zich niet in uw Power BI-tenantdomein bevindt, kan die gebruiker de rapporten die aan het gedeelde dashboard zijn gekoppeld niet naar PowerPoint exporteren. Als u bijvoorbeeld aaron@contoso.com bent, kunt u delen met david@cohowinery.com. Maar david@cohowinery.com kan de gekoppelde rapporten niet exporteren naar PowerPoint.
-    - Rapporten met meer dan 50 rapportpagina's. Alleen de eerste 50 pagina's worden geëxporteerd.
+    - Rapporten met meer dan 50 rapportpagina's.
+    - Rapporten die groter zijn dan 500 MB wanneer ze worden geëxporteerd. 
     - Rapporten die worden geëxporteerd naar oudere versies van PowerPoint.
     - Rapporten die langer dan een uur duren om te verwerken. 
     - Rapportpagina's melden die langer duren dan 6 minuten om te laden. 

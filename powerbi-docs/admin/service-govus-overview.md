@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 9b52e0698f6b9c1ae779bf21738acee30db7447d
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: e7100be7890673cecc77a8a1147a25a942fc4666
+ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97927074"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "98597604"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -124,26 +124,22 @@ We nemen het kwartaal van de geschatte beschikbaarheid op als de release voor ee
 
 |Functie |GCC |GCC High |DoD|
 |------|------|------|------|
-|[Azure B2B Collaboration tussen overheidscloud en commerciële cloud](service-admin-azure-ad-b2b.md)<sup>1</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
-|[Insluiten in SharePoint online met het webonderdeel Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![Beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
-|[Power Automate-connectiviteit voor gegevensgestuurde waarschuwingen](../connect-data/power-bi-data-sources.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
-|[Tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>2</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
-|[Grote modellen](service-premium-large-models.md) | ![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png) |
+|[Azure B2B Collaboration tussen overheidscloud en commerciële cloud](service-admin-azure-ad-b2b.md)<sup>1</sup>|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)
+|[Sjabloon-apps](../connect-data/service-template-apps-overview.md)<sup>2</sup>|![beschikbaar](../media/yes.png) |![beschikbaar](../media/yes.png)| ![beschikbaar](../media/yes.png)|
+|[Insluiten in SharePoint online met het webonderdeel Power BI](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|
+|[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|![beschikbaar](../media/yes.png)|![beschikbaar](../media/yes.png) |KW1 2021|
+|[Gegevensstromen - directe query](../transform-model/dataflows/dataflows-configure-consume.md) | ![beschikbaar](../media/yes.png) |![beschikbaar](../media/yes.png)|Niet-gepland |
+|[Het tabblad Power BI in Teams](../collaborate-share/service-collaborate-microsoft-teams.md)<sup>3</sup>|![beschikbaar](../media/yes.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
+|[Grote modellen](service-premium-large-models.md) | KW1 2021 |KW1 2021| Niet-gepland |
 |[Gegevensstromen - optimalisatie SQL-rekenengine](../transform-model/dataflows/dataflows-premium-features.md) | ![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png) |
-|[Gegevensstromen - directe query](../transform-model/dataflows/dataflows-configure-consume.md) | ![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
-|[Gegevensbescherming (MIP-labels)](service-security-sensitivity-label-overview.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)|
-|[Sjabloon-apps](../connect-data/service-template-apps-overview.md)<sup>3</sup>|![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png)|
-|[Aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md)<sup>3</sup>|![niet beschikbaar](../media/no.png) |![niet beschikbaar](../media/no.png)| ![niet beschikbaar](../media/no.png)|
-|[Azure Stream Analytics](/azure/stream-analytics/stream-analytics-power-bi-dashboard)| ![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Dataconnector voor gesprekskwaliteit](/microsoftteams/cqd-power-bi-connector)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 |[Bring Your Own Storage (Azure Data Lake Gen 2)](../transform-model/dataflows/dataflows-azure-data-lake-storage-integration.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
-|[Genereren van QR-code](../create-reports/service-create-qr-code-for-tile.md)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|![niet beschikbaar](../media/no.png)|
 
 <sup>1</sup> Hoewel B2B-samenwerking beschikbaar is voor GCC, moet de externe gebruiker een licentie in die omgeving hebben. Licenties voor de commerciële cloud zijn niet geldig in GCC. [Vergelijk Azure Government met het algemene Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) voor meer informatie over bekende beperkingen met B2B-samenwerking voor de Amerikaanse overheid.
 
-<sup>2</sup> De Power BI-ervaring in Teams voor GCC is beperkt, werkt alleen voor klassieke werkruimten en bevat niet de uitgebreide functionaliteit die wordt beschreven in [Power BI-inhoud insluiten in Microsoft Teams](../collaborate-share/service-embed-report-microsoft-teams.md).
+<sup>2</sup> Marketplace-apps zijn niet beschikbaar voor exemplaren van de cloud voor de Amerikaanse overheid, dus sjabloon-apps zijn beperkt tot privé- en organisatie-apps.
 
-<sup>3</sup> De functionaliteit voor sjabloon-apps en aangepaste visuals is bij vrijgave beperkt voor overheidsclouds. Meer informatie over specifieke beperkingen wordt gepubliceerd bij vrijgave.
+<sup>3</sup> De Power BI-ervaring in Teams voor GCC is beperkt, werkt alleen voor klassieke werkruimten en bevat niet de uitgebreide functionaliteit die wordt beschreven in [Power BI-inhoud insluiten in Microsoft Teams](../collaborate-share/service-embed-report-microsoft-teams.md).
 
 ## <a name="next-steps"></a>Volgende stappen
 

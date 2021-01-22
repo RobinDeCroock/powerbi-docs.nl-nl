@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 01/06/2021
+ms.date: 01/18/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: c1e5cad6ab1da796d2f10a64e867d5848e86aea4
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
+ms.openlocfilehash: c89cf7b00d5167ffb68a491a9cfdcea21378dfd5
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155613"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565143"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -87,6 +87,15 @@ Momenteel zijn de volgende bekende beperkingen van toepassing op Premium Gen2:
     |SQL Server Management Studio (SSMS)|18,8|8 december 2020|
     |SQL Server Data Tools (SSDT)|2.9.15|Algemene beschikbaarheid 30 november 2020|
     | AS PowerShell| Hoger dan 21.1.18229|6 november 2020|
+
+5.  Het opnieuw toewijzen van een werkruimte met gegevensstromen van de ene Premium Gen2-capaciteit naar een andere Premium-capaciteit in een andere regio wordt niet ondersteund. Ook het verplaatsen van modellen die zijn opgemaakt met een grote opslagruimte van de ene naar de andere Premium-capaciteit wordt niet ondersteund. Als u al een migratie naar een capaciteit in een andere regio hebt uitgevoerd, voert u een van de volgende stappen uit om de functionaliteit te herstellen:
+ 
+    1.  Een nieuwe werkruimte maken en de gegevensstromen kopiëren
+    2.  De werkruimte weer naar de capaciteit in de vorige regio migreren
+    3.  Terugschakelen naar Premium Gen 1
+
+Zodra Premium Gen 2 algemeen beschikbaar is, kan deze beperking worden verwijderd.
+
 
 ## <a name="subscriptions-and-licensing"></a>Abonnementen en licenties
 
@@ -299,7 +308,7 @@ Gepagineerde rapporten, die worden ondersteund op P1-P3- en A4_A6-SKU's, zijn ge
 In Power BI Premium zijn gepagineerde rapporten een workload die voor een capaciteit moet worden ingeschakeld via de beheerportal. Capaciteitsbeheerders kunnen bij de inschakeling vervolgens de hoeveelheid geheugen opgeven als percentage van het totaal aan geheugenresources van de capaciteit. In tegenstelling tot andere typen workloads worden in Premium gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. De maximale hoeveelheid geheugen die u aan deze ruimte hebt toegewezen wordt gebruikt, ongeacht of de workload wel of niet actief is. De standaardwaarde is 20.
 
 > [!NOTE]
-> **Premium Gen2 (preview-versie)** kent geen geheugenbeheer voor gepagineerde rapporten. In Premium Gen2 worden gepagineerde rapporten ondersteund op de EM1-EM3- en A1-A3-SKU's.
+> **Premium Gen2 (preview-versie)** kent geen geheugenbeheer voor gepagineerde rapporten. In Premium Gen2 worden gepagineerde rapporten ondersteund op de EM1-EM3-SKU's.
 
 ### <a name="paginated-reports-and-premium-gen2"></a>Gepagineerde rapporten en Premium Gen2
 
@@ -333,7 +342,7 @@ Zie [Power BI-licentieverlening](service-admin-licensing-organization.md) voor m
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services in Power BI Premium
 
-De voor zakelijke doeleinden beproefde Microsoft **Analysis Services Vertical-engine** is de drijvende kracht achter de Power BI Premium-werkruimten en -gegevenssets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Standaard bieden gegevenssetsworkloads op Power BI Premium-capaciteit ondersteuning voor *alleen-lezen* bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via een **XMLA-eindpunt**. Capaciteitsbeheerders kunnen er ook voor kiezen om *lees- en schrijf* bewerkingen via het eindpunt uit te schakelen of toe te staan.
+De voor zakelijke doeleinden beproefde Microsoft **Analysis Services Vertipaq-engine** is de drijvende kracht achter de Power BI Premium-werkruimten en -gegevenssets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Standaard bieden gegevenssetsworkloads op Power BI Premium-capaciteit ondersteuning voor *alleen-lezen* bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via een **XMLA-eindpunt**. Capaciteitsbeheerders kunnen er ook voor kiezen om *lees- en schrijf* bewerkingen via het eindpunt uit te schakelen of toe te staan.
 
 Met alleen-lezentoegang kunnen hulpprogramma's van Microsoft, zoals SQL Server Management Studio (SSMS) en SQL Server Profiler en apps van derden, zoals DAX Studio en toepassingen voor gegevensvisualisatie, verbinding maken met en query's uitvoeren op Premium-gegevenssets met behulp van XMLA-, DAX-, MDX-, DMV- en traceergebeurtenissen. Met lees-/schrijftoegang kunnen hulpprogramma's voor gegevensmodellering op bedrijfsniveau, zoals Visual Studio met de extensie voor Analysis Services-projecten of Tabular Editor (open source), tabellaire modellen implementeren als een gegevensset voor een Premium-werkruimte. Met hulpprogramma's zoals SSMS kunnen beheerders Tabular Model Scripting Language (TMSL) gebruiken om scripts voor het wijzigen van metagegevens en geavanceerde scenario's voor het vernieuwen van gegevens uit te voeren. 
 

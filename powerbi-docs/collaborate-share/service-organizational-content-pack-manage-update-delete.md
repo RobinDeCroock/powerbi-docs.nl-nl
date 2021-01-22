@@ -7,18 +7,19 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 08/02/2018
+ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: fb47df4f81225d8e55fbc637331f85f36337aade
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: 59966919b64a9e8cb615b0b9dfc05fb9a2ff245c
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96406429"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227147"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Organisatie-inhoudspakketten beheren, bijwerken en verwijderen
+
 > [!NOTE]
-> U kunt in de nieuwe werkruimte-ervaring geen organisatie-inhoudspakketten maken of installeren. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Informatie over [de nieuwe werkruimte-ervaring](service-create-the-new-workspaces.md).
+> Organisatie-inhoudspakketten worden afgeschaft. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps, als u dat nog niet hebt gedaan. Raadpleeg de sectie over roadmap voor de werkruimte-upgrade van deze blogpost [Aangekondigd: Power BI-beheerders kunnen klassieke werkruimten upgraden](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) voor de tijdlijn.
 > 
 
 U kunt uw dashboards, rapporten, Excel-werkmappen en gegevenssets verpakken en met uw collega's delen als [organisatie-inhoudspakketten](service-organizational-content-pack-introduction.md). Uw collega's kunnen ze als zodanig gebruiken of ze kunnen hun eigen exemplaren maken.

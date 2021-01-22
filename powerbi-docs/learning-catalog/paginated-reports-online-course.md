@@ -8,13 +8,13 @@ featuredvideoid: DN1t5p9aui0
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: tutorial
-ms.date: 11/11/2020
-ms.openlocfilehash: e05078bf51cd33fb565dc783386258fe9ea305d1
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 12/31/2020
+ms.openlocfilehash: 504b5bcb63fa8c8897ae0b44922d3dc144a02730
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416365"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227348"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>De cursus Gepagineerde rapporten in Power BI in een dag
 
@@ -43,7 +43,7 @@ Bekijk de welkomst- en inleidingsvideo om de cursus te starten.
 
 ## <a name="course-outline"></a>Cursusoverzicht
 
-De [cursus van 24 video's](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) is onderverdeeld in acht modules. We raden u aan de video's te bekijken in de vastgelegde volgorde, beginnend bij video 01 en eindigend bij video 24.
+De [cursus van 25 video's](https://www.youtube.com/playlist?list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT) is onderverdeeld in acht modules. We raden u aan de video's te bekijken in de vastgelegde volgorde, beginnend bij video 01 en eindigend bij video 25.
 
 - **Inleiding**
   - Video 01: [Welkom en cursusintroductie](https://www.youtube.com/watch?v=DN1t5p9aui0&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
@@ -78,6 +78,7 @@ De [cursus van 24 video's](https://www.youtube.com/playlist?list=PL1N57mwBHtN1ic
   - Video 22: [Bonusinhoud: Samenvatting](https://www.youtube.com/watch?v=w5zlJ8BodxI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Video 23: [Bonusinhoud: Ontwikkeling van gepagineerde rapporten](https://www.youtube.com/watch?v=pevpai65MvY&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
   - Video 24: [Bonusinhoud: De drempel voor toetreding verlagen](https://www.youtube.com/watch?v=vu32LfckCt8&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
+  - Video 25: [Bonusinhoud: Update van december 2020](https://www.youtube.com/watch?v=-7M4muS_3BI&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT)
 
 ## <a name="self-study-kit"></a>Zelfstudiekit
 

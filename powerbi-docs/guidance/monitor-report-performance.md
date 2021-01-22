@@ -8,17 +8,17 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
-ms.date: 02/16/2020
-ms.openlocfilehash: bd700ae7c6c175f4e9cf7841ce308a275ba9babb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.date: 01/14/2021
+ms.openlocfilehash: a7da63efcc991da57eba9c6b9bb6b9527ad66e1f
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96393026"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227371"
 ---
 # <a name="monitor-report-performance-in-power-bi"></a>Rapportprestaties bewaken in Power BI
 
-Bewaak rapportprestaties in Power BI Desktop met behulp van de [Power BI Premium Metrics-app](../admin/service-premium-metrics-app.md), leer wat de knelpunten zijn, en leer hoe u rapportprestaties kunt verbeteren.
+Bewaak de rapportprestaties in Power BI Desktop met behulp van de [Performance Analyzer](../create-reports/desktop-performance-analyzer.md) en bewaak de prestaties van inhoud die naar de Power BI Premium-capaciteit van uw organisatie is geïmplementeerd met behulp van de [Metrics-app van Power BI Premium](../admin/service-premium-metrics-app.md). Ontdek waar de knelpunten liggen en leer hoe u de rapportprestaties kunt verbeteren.
 
 Bewakingsprestaties zijn relevant in de volgende situaties:
 

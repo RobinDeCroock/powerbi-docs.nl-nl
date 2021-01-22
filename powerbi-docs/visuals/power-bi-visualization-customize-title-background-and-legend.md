@@ -5,24 +5,25 @@ author: mihart
 ms.author: mihart
 ms.reviewer: mihart
 featuredvideoid: removed
+ms.custom: video-OgjX-pFGgfM, video-RE4IY3L
 ms.service: powerbi
 ms.subservice: pbi-visuals
 ms.topic: how-to
-ms.date: 12/18/2020
+ms.date: 1/13/2021
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2a8c125a37e0d70ea735d9f1962f64deb69061c8
-ms.sourcegitcommit: 1691ce556ab5b22e6f9d06086a054d165d482809
+ms.openlocfilehash: b285d699d71001d8015615fdeb3652ba35274896
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/23/2020
-ms.locfileid: "97745134"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191786"
 ---
 # <a name="customize-visualization-titles-backgrounds-labels-and-legends"></a>Titels, labels, legenda's en achtergronden van visualisaties aanpassen
 
 [!INCLUDE[consumer-appliesto-nyyn](../includes/consumer-appliesto-nyyn.md)]    
 
 
-In deze zelfstudie leert u een aantal verschillende manieren om uw visualisaties aan te passen. Er zijn heel veel mogelijkheden voor het aanpassen van uw visualisaties. De beste manier om ze allemaal te leren is door het deelvenster **Indeling** te verkennen (selecteer het pictogram van een verfroller). Dit artikel helpt u op weg door te laten zien hoe u een titel, legenda, label en achtergrond van een visualisatie kunt aanpassen en een thema kunt toevoegen.
+In deze zelfstudie leert u een aantal verschillende manieren om uw visualisaties aan te passen. Er zijn heel veel mogelijkheden voor het aanpassen van uw visualisaties. De beste manier om ze allemaal te leren is door het deelvenster **Indeling** te verkennen (selecteer het pictogram van een verfroller). Dit artikel helpt u op weg door te laten zien hoe u een titel, legenda, label, laag en achtergrond van een visualisatie kunt aanpassen en een thema kunt toevoegen.
 
 U kunt niet alle visualisaties aanpassen. Zie de [volledige lijst](#visualization-types-that-you-can-customize) met visualisaties voor meer informatie.
 
@@ -148,6 +149,36 @@ Kijk hoe Egbert het totaal aantal labels aan een gestapeld diagram toevoegt en v
 1. U kunt eventueel het totaal aantal labels indelen. In dit voorbeeld hebben we de kleur gewijzigd in zwart, de tekengrootte vergroot en ervoor gekozen de waarden weer te geven als **duizendtallen**.
 
     ![Schermopname van het nieuwe gestapelde staafdiagram met het totaal aantal labels.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-bar-totals.png)
+
+
+## <a name="customize-layer-order"></a>De laagvolgorde aanpassen
+Wijzig de laagvolgorde van visuals en vormen in uw rapporten. Met de laagvolgorde bepaalt u welke objecten naar de voorgrond worden verplaatst wanneer u deze selecteert. Telkens wanneer u een object op het rapportcanvas selecteert, wordt dit actief en naar de bovenste laag verplaatst. Voor visuals betekent dit dat u gemakkelijker met de geselecteerde visual kunt werken. Maar voor vormen en achtergronden is het handiger om deze vast te maken aan de onderste laag, zodat u ze niet per ongeluk kunt selecteren en uw rapportvisuals bedekt of verbergt. 
+
+Besturingselementen voor lagen zijn beschikbaar in de Power BI-service, Power BI Desktop, mobiele toepassingen en de rapportserver. In dit artikel leest u hoe u het gedrag van de laagvolgorde wijzigt in de Power BI-service.
+
+Kijk hoe Egbert het gedrag van de laagvolgorde wijzigt en volg de onderstaande stappen om het zelf te doen.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IY3L]
+
+1. Voeg een nieuwe rapportpagina toe door het gele plusteken te selecteren. 
+
+1. Voeg een vorm toe aan het canvas. Hier is een blauwe rechthoek toegevoegd. 
+
+    ![Schermopname van de nieuwe rapportpagina met een blauwe rechthoek.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-shape.png)
+
+1. Kopieer en plak een visual van een andere pagina in het rapport. 
+
+    ![Schermopname van de nieuwe rapportpagina met een blauwe rechthoek en een cirkeldiagram.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-layer.png)
+
+    U hebt nu twee lagen. Probeer het cirkeldiagram en vervolgens de achtergrond te selecteren. Wanneer u het cirkeldiagram selecteert, wordt dat object in Power Bi geactiveerd en wordt het koptekstmenu van dat object weergegeven. Wanneer u de rechthoek selecteert, wordt dat object in Power Bi geactiveerd en naar voren gebracht, waar dit object het cirkeldiagram verbergt. U kunt dit standaardgedrag wijzigen.
+
+1. Selecteer de rechthoek en open het deelvenster Opmaak. Vouw **Algemeen** uit en zoek de wisselknop **Laagvolgorde behouden**. Sla de rapportwijzigingen op en ga terug naar de leesweergave.
+
+    ![Schermopname van de nieuwe rapportpagina, waarbij Laagvolgorde behouden is ingesteld op Aan.](media/power-bi-visualization-customize-title-background-and-legend/power-bi-maintain-layer.png)
+
+1. Wanneer u in de leesweergave de blauwe rechthoek selecteert, blijft deze nu in de achterste laag.
+
 
 ## <a name="customize-colors-using-a-theme"></a>Kleuren aanpassen met behulp van een thema
 

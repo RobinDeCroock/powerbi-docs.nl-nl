@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 12/15/2020
+ms.date: 01/15/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dc3ce931664a3c125504865c6cccfe3fdfa404c4
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
+ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053415"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "98565432"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Metrische gebruiksgegevens binnen klassieke werkruimten bewaken
 
@@ -162,7 +162,11 @@ Het is belangrijk om te begrijpen dat er verschillen kunnen optreden wanneer u m
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Verschillen tussen REST API's en metrische gebruiksgegevens
 
-De Power BI [Reports REST API's](https://docs.microsoft.com/rest/api/power-bi/reports) en [Admin REST API's](https://docs.microsoft.com/rest/api/power-bi/admin) gebruiken ook Power BI-servicegegevens. Zoals in de vorige sectie is beschreven, zijn er verschillende redenen waarom rapporttellingen (het aantal rapporten) van de API's kunnen afwijken van de rapporttellingen in de metrische gebruiksgegevens. De rapporttellingen die zijn afgeleid van de API's, worden niet beïnvloed door clientproblemen en moeten als nauwkeurig worden beschouwd.
+De Power BI [Reports REST API's](/rest/api/power-bi/reports) en [Admin REST API's](/rest/api/power-bi/admin) gebruiken ook Power BI-servicegegevens. Zoals in de vorige sectie is beschreven, zijn er verschillende redenen waarom rapporttellingen (het aantal rapporten) van de API's kunnen afwijken van de rapporttellingen in de metrische gebruiksgegevens. De rapporttellingen die zijn afgeleid van de API's, worden niet beïnvloed door clientproblemen en moeten als nauwkeurig worden beschouwd.
+
+### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>Klassieke metrische gebruiksgegevens worden niet ondersteund bij privékoppelingen 
+
+Als uw organisatie [Privékoppelingen](../admin/service-security-private-links.md) gebruikt, bevatten klassieke rapporten met metrische gebruiksgegevens geen gegevens. Er geldt momenteel een beperking voor het overdragen van clientgegevens via privékoppelingen. 
 
 ### <a name="other-considerations"></a>Andere overwegingen
 

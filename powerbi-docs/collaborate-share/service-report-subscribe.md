@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/08/2021
+ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 1253c2b2548a7e6333840b8d33fdf255d5634be5
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
+ms.openlocfilehash: a72d6632eb8837fd6a0716842dc20a342edcce4b
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053392"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227118"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Uzelf en anderen abonneren op rapporten en dashboards in de Power BI-service
 
@@ -128,7 +128,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 - De optie om toegang te bieden tot het rapport/dashboard wordt altijd weergegeven als ingeschakeld wanneer u een bestaand abonnement bewerkt.  Als u deze optie hebt gewist en het abonnement opslaat, wordt die status opgeslagen. Wanneer u het rapport echter opnieuw gaat bewerken, wordt het standaard gecontroleerd.
 - Als u een alternatief e-mailadres hebt, maar geen primair adres, gebruikt Power BI dat adres om het abonnement te leveren.
 - Als u externe gebruikers abonneert op een rapport of dashboard ontvangen ze een melding zodra u in het deelvenster Abonnementen **Opslaan en sluiten** hebt geselecteerd een melding over het delen. Deze melding wordt alleen verzonden naar externe gebruikers, niet naar interne gebruikers, omdat ze een uitnodigingskoppeling nodig hebben om het rapport of het dashboard weer te geven. 
-- Er is een limiet voor het aantal abonnees voor één rapport of dashboard. Als u meer dan 200 abonnees hebt, kunnen er problemen optreden met de levering.
+- Er is een limiet voor het aantal abonnees voor één rapport of dashboard. Als u meer dan 200 abonnees hebt, kunnen er problemen optreden met de levering. Gebruik in plaats daarvan e-mailaliassen om het aantal abonnees te beperken. Elke e-mailalias wordt als één abonnee gerekend.
 
 ### <a name="dashboards"></a>Dashboards
 
@@ -140,7 +140,7 @@ Power BI-beheerders kunnen de Power BI auditlogboeken gebruiken om details over 
 
 ### <a name="reports"></a>Rapporten
 
-- Als de gegevensset RLS gebruikt voor e-mailabonnementen voor rapporten, kunt u een abonnement voor uzelf maken. U kunt andere gebruikers niet abonneren op een rapport waarop RLS (beveiliging op rijniveau) is toegepast, maar wel op gepagineerde rapporten. U kunt anderen abonneren op een gepagineerd rapport met behulp van uw beveiligingscontext. Lees meer over [abonneren op gepagineerde rapporten](../consumer/paginated-reports-subscriptions.md).
+- Voor e-mailabonnementen op gepagineerde rapporten en Power BI-rapporten kunt u zelf abonnementen maken als voor de gegevensset beveiliging op rijniveau (RLS) wordt gebruikt. Met RLS kunt u ook anderen op een rapport abonneren. Dergelijke abonnementen worden met behulp van uw beveiligingscontext gegenereerd.
 - Abonnementen op rapportpagina’s zijn gekoppeld aan de naam van de rapportpagina. Als u zich abonneert op een rapportpagina en daarna de naam ervan wijzigt, moet u uw abonnement opnieuw maken.
 - Uw organisatie kan bepaalde instellingen in Azure Active Directory configureren, waardoor de mogelijkheid wordt beperkt om e-mailabonnementen in Power BI te gebruiken. Deze beperkingen omvatten, maar zijn niet beperkt tot, het gebruik van meervoudige verificatie of beperkingen voor IP-bereik bij het openen van resources.
 - E-mailabonnementen bieden geen ondersteuning voor de [aangepaste visuals](../developer/visuals/power-bi-custom-visuals.md). De enige uitzondering hierop vormen de aangepaste visuals die zijn [gecertificeerd](../developer/visuals/power-bi-custom-visuals-certified.md).

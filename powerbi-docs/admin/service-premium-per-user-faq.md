@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 1/13/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 005f6c72dd67282e2f15ceb3c91fb74d7e723712
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: e5edcde0f367c573c86aaac1b7f14397614eeedf
+ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412248"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98191636"
 ---
 # <a name="power-bi-premium-per-user-faq-preview"></a>Veelgestelde vragen over Power BI PPU (preview)
 
@@ -46,15 +46,21 @@ In dit artikel worden vragen en antwoorden in de volgende categorieën ingedeeld
 4.  **Hoe kan ik een proefversie krijgen?**
 
     Er is een proefversie in het product en een aparte proefversie beschikbaar via Microsoft 365. Elke gebruiker, ervan uitgaand dat zijn of haar organisatie PPU niet heeft beperkt, kan toegang krijgen tot de proefversie in het product door PPU in te schakelen voor een werkruimte. Proefversies via Microsoft 365 kunnen via de portal worden ingeschakeld, net zoals Power BI Pro-proefversies worden geïnitieerd.  
+    
+5.  **Mijn initiële proefversie is verlopen maar we zitten nog steeds in de preview-periode.  Hoe kan ik mijn proefversie voor Premium per gebruiker verlengen/vernieuwen tijdens de preview-periode?**
 
-5.  **Welke functies zijn beschikbaar in PPU?**
+    Voor klanten die de proefversie in het product gebruiken, kunt u op elk gewenst moment nadat uw oorspronkelijke proefversie is verlopen een nieuwe proefversie starten door in de rechterbovenhoek van de portal op het pictogram van uw profiel te klikken.  U ziet opnieuw een optie om u voor de proefversie aan te melden.  Hiermee start u een nieuwe proefversie voor 60 dagen.  Dit zal gedurende de hele preview-periode een optie blijven.  
+    
+    Voor klanten die gebruikmaken van de proefversie die via Microsoft 365 is aangeboden, kan uw tenantbeheerder de oorspronkelijke proefversie voor 30 dagen met nog eens 30 dagen verlengen. Dit is de maximale periode waarin de proefversie kan worden verlengd.
+
+6.  **Welke functies zijn beschikbaar in PPU?**
 
     Het vergelijkingsraster voor functies is als volgt:    
 
     ![Functievergelijking voor PPU](media/service-premium-per-user-faq/premium-per-user-faq-02.png)
 
 
-6.  **Mijn organisatie heeft al Power BI Premium. Heb ik nu een PPU-licentie nodig om inhoud naar mijn capaciteit te publiceren?**
+7.  **Mijn organisatie heeft al Power BI Premium. Heb ik nu een PPU-licentie nodig om inhoud naar mijn capaciteit te publiceren?**
     
     Uw organisatie kan ervoor kiezen om de premium-capaciteit aan te vullen met PPU-licenties, maar PPU is niet vereist voor het publiceren van inhoud naar bestaande capaciteiten.  
 
@@ -89,6 +95,10 @@ In dit artikel worden vragen en antwoorden in de volgende categorieën ingedeeld
 7.  **Zijn de capaciteit-API's beschikbaar voor PPU?**
 
     Er is een beperkte set API's beschikbaar om het verplaatsen van werkruimten mogelijk te maken, maar u kunt bijvoorbeeld geen workloads uitschakelen en andere dergelijke activiteiten uitvoeren.  
+    
+7.  **Worden service-principals ondersteund voor Premium-werkruimten per gebruiker?**
+
+    Nee, service-principals in Premium-werkruimten per gebruiker worden momenteel niet ondersteund.  
 
 
 ## <a name="end-user-experience-questions"></a>Vragen over de ervaring van eindgebruikers
@@ -113,9 +123,10 @@ In dit artikel worden vragen en antwoorden in de volgende categorieën ingedeeld
 
     PPU werkt op dezelfde manier als ingesloten gebruiksvoorbeelden wanneer u een Pro-licentie gebruikt. U kunt de inhoud insluiten en elke gebruiker heeft een PPU-licentie nodig om deze te kunnen bekijken.
 
-5.  **Wat gebeurt er met mijn PPU-werkruimte als mijn proefversie verloopt?**
+5.  **Wat gebeurt er met mijn PPU-werkruimte wanneer de preview-periode is afgelopen en ik ervoor kies om geen Premium-licenties per gebruiker aan te schaffen?**
 
-    Gebruikers hebben nog steeds toegang tot de werkruimte, maar inhoud waarvoor dat licentietype nodig is, zal niet beschikbaar zijn. U moet de werkruimte verplaatsen naar een premium-capaciteit of u moet eenvoudigweg de vereiste uitschakelen. 
+    U en uw gebruikers hebben nog steeds toegang tot de werkruimte, maar inhoud waarvoor dat licentietype nodig is, zal niet beschikbaar zijn. U moet de werkruimte verplaatsen naar een premium-capaciteit of u moet eenvoudigweg de vereiste uitschakelen. 
+
 6.  **Hoeveel totale opslagruimte krijg ik met PPU?**
 
     De volledige tenant zal dezelfde 100 TB-limiet hebben als een premium-capaciteit, wat betreft opslagruimte.

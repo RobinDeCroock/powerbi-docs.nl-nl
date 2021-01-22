@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/11/2021
+ms.date: 01/13/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 16a07065507abfe825c39677f234d626070827b4
-ms.sourcegitcommit: c86ce723d5db16fb960d1731795d84f4654e4b4e
+ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98110723"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226980"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -217,6 +217,10 @@ Zoals vermeld in het foutbericht, moet u de bestaande gegevensset verwijderen of
 ## <a name="workspaceserver-alias"></a>Alias van de werkruimte/server
 
 In tegenstelling tot Azure Analysis Services worden de [aliassen](/azure/analysis-services/analysis-services-server-alias) van de servernaam **niet ondersteund** voor Power BI Premium-werkruimten. 
+
+## <a name="dataset-refresh-through-the-xmla-endpoint"></a>Gegevenssets vernieuwen via het XMLA-eindpunt
+
+Op een aantal plekken in Power BI worden de datum en het tijdstip van de laatste vernieuwing weergegeven, zoals Vernieuwde kolommen in rapporten en lijsten, Details van de gegevensset, Gegevenssetinstellingen en Vernieuwingsgeschiedenis van de gegevensset. Momenteel bevatten de vernieuwingsdatums en -tijden in Power BI **geen** vernieuwingsbewerkingen die via het XMLA-eindpunt zijn uitgevoerd met behulp van TMSL/TOM, SSMS of externe hulpprogramma's.
 
 ## <a name="see-also"></a>Zie ook
 

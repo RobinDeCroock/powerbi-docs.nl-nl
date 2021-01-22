@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 09/04/2020
+ms.date: 01/12/2021
 ms.custom: contperf-fy21q1, contperf-fy20q4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2c15c6afbf1a84ab5e8103a8d73792705418d2e6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
+ms.openlocfilehash: b849921b0ec9c5bbad46394343d266179ba547b8
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621712"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227279"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>De nieuwe werkruimten maken in Power BI
 
@@ -24,7 +24,8 @@ In dit artikel wordt uitgelegd hoe u een de *nieuwe werkruimten* maakt in plaats
 Klaar om uw klassieke werkruimte te migreren? Zie [Een upgrade uitvoeren van de klassieke werkruimten naar de nieuwe werkruimten in Power BI](service-upgrade-workspaces.md) voor meer informatie.
 
 > [!NOTE]
-> De gebruikers toewijzen aan de rol Kijker om de beveiliging op rijniveau (RLS) af te dwingen voor Power BI Pro-gebruikers die door inhoud in een werkruimte bladeren. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
+> Zoekt u inhoud over het maken van inhoudspakketten? Deze pakketten worden afgeschaft. Het is nu een goed moment om uw inhoudspakketten te upgraden naar apps. Raadpleeg de sectie over roadmap voor de werkruimte-upgrade van deze blogpost [Aangekondigd: Power BI-beheerders kunnen klassieke werkruimten upgraden](https://powerbi.microsoft.com/blog/announcing-power-bi-admins-can-upgrade-classic-workspaces-and-roadmap-update/) voor de tijdlijn.
+> 
 
 ## <a name="create-one-of-the-new-workspaces"></a>Een van de nieuwe werkruimten maken
 
@@ -59,6 +60,9 @@ Klaar om uw klassieke werkruimte te migreren? Zie [Een upgrade uitvoeren van de 
 ## <a name="give-access-to-your-workspace"></a>Toegang verlenen tot uw werkruimte
 
 Iedereen met een beheerdersrol in een werkruimte kan anderen toegang geven tot de werkruimte door hen aan de verschillende rollen toe te voegen. Ontwikkelaars van werkruimten zijn automatisch beheerders. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
+
+> [!NOTE]
+> De gebruikers toewijzen aan de rol Kijker om de beveiliging op rijniveau (RLS) af te dwingen voor Power BI Pro-gebruikers die door inhoud in een werkruimte bladeren. Zie [Rollen in de nieuwe werkruimten](service-new-workspaces.md#roles-in-the-new-workspaces) voor een uitleg over de verschillende rollen.
 
 1. Omdat u beheerder bent, ziet u op de pagina met de werkruimte-inhoud **Toegang** staan.
 

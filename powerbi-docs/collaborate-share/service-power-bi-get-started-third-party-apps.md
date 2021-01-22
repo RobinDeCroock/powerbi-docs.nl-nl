@@ -8,14 +8,14 @@ ms.subservice: pbi-collaborate-share
 ms.topic: how-to
 ms.reviewer: ''
 ms.cunstom: ''
-ms.date: 09/16/2019
+ms.date: 01/12/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b2ce1624bcbbc352ab4f4eaaeb97927c09c2d78
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
+ms.openlocfilehash: b22ecdd806371455149f277b9114b1eaf315ce6d
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96411650"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227049"
 ---
 # <a name="get-started-with-third-party-apps"></a>Aan de slag met apps van derden
 
@@ -27,18 +27,18 @@ Dit zijn de typen toegang die een toepassing kan aanvragen.
 
 * **Alle dashboards weergeven**
   
-  * Deze machtiging biedt een toepassing de mogelijkheid om alle dashboards weer te geven waartoe u toegang hebt. Dit omvat dashboards die van u zijn, die u hebt verkregen vanuit inhoudspakketten en die met u zijn gedeeld en in groepen staan waarvan u deel uitmaakt. De toepassing kan geen wijzigingen aanbrengen in het dashboard. Deze machtiging kan onder andere worden gebruikt door een toepassing om uw dashboardinhoud in te sluiten in de ervaringen.
+  * Deze machtiging biedt een toepassing de mogelijkheid om alle dashboards weer te geven waartoe u toegang hebt. Dit omvat dashboards die van u zijn, die u hebt verkregen vanuit apps en die met u zijn gedeeld en in groepen staan waarvan u deel uitmaakt. De toepassing kan geen wijzigingen aanbrengen in het dashboard. Deze machtiging kan onder andere worden gebruikt door een toepassing om uw dashboardinhoud in te sluiten in de ervaringen.
 
 * **Alle rapporten weergeven**
   
-  * Deze machtiging biedt een toepassing de mogelijkheid om alle rapporten weer te geven waartoe u toegang hebt. Dit zijn rapporten die van u zijn, die u hebt verkregen vanuit inhoudspakketten en die in groepen staan waarvan u deel uitmaakt. Voor het weergeven van het rapport moet de toepassing ook toegang hebben tot de gegevens daarin. De toepassing kan geen wijzigingen aanbrengen in de rapporten zelf. Deze machtiging kan onder andere worden gebruikt door een toepassing om uw rapportinhoud in te sluiten in de ervaringen.
+  * Deze machtiging biedt een toepassing de mogelijkheid om alle rapporten weer te geven waartoe u toegang hebt. Dit omvat rapporten die van u zijn, die u hebt verkregen vanuit apps en die in groepen staan waarvan u deel uitmaakt. Voor het weergeven van het rapport moet de toepassing ook toegang hebben tot de gegevens daarin. De toepassing kan geen wijzigingen aanbrengen in de rapporten zelf. Deze machtiging kan onder andere worden gebruikt door een toepassing om uw rapportinhoud in te sluiten in de ervaringen.
 
 * **Alle gegevenssets weergeven**
   
-  * Deze machtiging biedt een toepassing de mogelijkheid om een lijst te maken van alle gegevenssets waartoe u toegang hebt. Dit zijn gegevenssets die van u zijn, die u hebt verkregen vanuit inhoudspakketten en die in groepen staan waarvan u deel uitmaakt. Een toepassing kan niet alleen de namen van alle gegevenssets zien, maar ook de structuur ervan, zoals tabel- en kolomnamen. Deze machtiging verleent rechten om de gegevens in een gegevensset te lezen. De machtiging verleent de toepassing geen rechten om wijzigingen toe te voegen aan of aan te brengen in een gegevensset.
+  * Deze machtiging biedt een toepassing de mogelijkheid om een lijst te maken van alle gegevenssets waartoe u toegang hebt. Dit omvat gegevenssets die van u zijn, die u hebt verkregen vanuit apps en die in groepen staan waarvan u deel uitmaakt. Een toepassing kan niet alleen de namen van alle gegevenssets zien, maar ook de structuur ervan, zoals tabel- en kolomnamen. Deze machtiging verleent rechten om de gegevens in een gegevensset te lezen. De machtiging verleent de toepassing geen rechten om wijzigingen toe te voegen aan of aan te brengen in een gegevensset.
 * **Alle gegevenssets lezen en schrijven**
   
-  * Deze machtiging biedt een toepassing de mogelijkheid om een lijst te maken van alle gegevenssets waartoe u toegang hebt. Dit zijn gegevenssets die van u zijn, die u hebt verkregen vanuit inhoudspakketten en die in groepen staan waarvan u deel uitmaakt. Een toepassing kan niet alleen de namen van alle gegevenssets zien, maar ook de structuur ervan, zoals tabel- en kolomnamen. Deze machtiging verleent rechten om de gegevens in een gegevensset te lezen en schrijven. De toepassing kan ook nieuwe gegevenssets maken of wijzigingen aanbrengen in bestaande gegevenssets. Dit wordt voornamelijk gebruikt door een toepassing om gegevens rechtstreeks naar Power BI te verzenden.
+  * Deze machtiging biedt een toepassing de mogelijkheid om een lijst te maken van alle gegevenssets waartoe u toegang hebt. Dit omvat gegevenssets die van u zijn, die u hebt verkregen vanuit apps en die in groepen staan waarvan u deel uitmaakt. Een toepassing kan niet alleen de namen van alle gegevenssets zien, maar ook de structuur ervan, zoals tabel- en kolomnamen. Deze machtiging verleent rechten om de gegevens in een gegevensset te lezen en schrijven. De toepassing kan ook nieuwe gegevenssets maken of wijzigingen aanbrengen in bestaande gegevenssets. Dit wordt voornamelijk gebruikt door een toepassing om gegevens rechtstreeks naar Power BI te verzenden.
 
 * **Groepen van de gebruiker weergeven**
   

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: how-to
-ms.date: 01/04/2021
+ms.date: 01/14/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 800e81b8fe5e9c2f108b71a4d8fb6bf9732a29ac
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
+ms.openlocfilehash: 6b28537c9ea757fb43179196f9d7cb053955c5e0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926855"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98227210"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publiceren op internet vanuit Power BI
 
@@ -189,7 +189,7 @@ U moet [een van deze personen](/office365/admin/admin-overview/admin-overview#wh
 - Rapporten die als gegevensbron gebruikmaken van Live Connection, waaronder Analysis Services Tabular dat on-premises wordt gehost, Analysis Services Multidimensional en Azure Analysis Services.
 - Rapporten die gebruikmaken van een [gedeelde gegevensset](../connect-data/service-datasets-across-workspaces.md) die is opgeslagen in een andere werkruimte dan het rapport.
 - [Gedeelde en gecertificeerde gegevenssets](../connect-data/service-datasets-share.md).
-- Rapporten die direct of via een organisatie-inhoudspakket met u worden gedeeld.
+- Rapporten die direct of via een app met u worden gedeeld.
 - Rapporten in een werkruimte waarvan u geen lid bent met machtigingen voor bewerken.
 - R- en Python-visuals worden momenteel niet ondersteund in **Publiceren op internet**-rapporten.
 - Exporteren van gegevens uit de visuals in een rapport dat is gepubliceerd op internet.

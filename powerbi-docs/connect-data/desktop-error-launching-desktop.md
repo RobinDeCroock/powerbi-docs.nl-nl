@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: troubleshooting
 ms.date: 11/14/2020
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 62b3c9bb10cb47df0d21eb05e381c5c4784b3106
-ms.sourcegitcommit: b472236df99b490db30f0168bd7284ae6e6095fb
+ms.openlocfilehash: c41f8f9b23ef57d5dd6fd4b851918b7ffa5904a0
+ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/16/2020
-ms.locfileid: "97600226"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "98226934"
 ---
 # <a name="troubleshoot-opening-power-bi-desktop"></a>Problemen oplossen met het openen van Power BI Desktop
 
@@ -58,7 +58,7 @@ Als u verbinding wilt maken met een SQL Server-database, ziet u mogelijk een fou
 
 U kunt het probleem vaak oplossen door Power BI Desktop als beheerder te openen voordat u de SQL Server-verbinding tot stand brengt.
 
-Nadat u Power BI Desktop hebt geopend als beheerder en de verbinding tot stand hebt gebracht, worden de vereiste DLL-bestanden juist geregistreerd. Hierna hoeft u Power BI Desktop niet meer te openen als beheerder.
+Nadat u Power BI Desktop hebt geopend als beheerder en de verbinding tot stand hebt gebracht, worden de vereiste DLL-bestanden juist geregistreerd. Hierna hoeft u Power BI Desktop niet meer te openen als beheerder. In gevallen waarin u met behulp van alternatieve Windows-referenties verbinding maakt met een SQL-server, moet u, telkens wanneer u verbinding maakt, Power BI Desktop openen als beheerder.
 
 ## <a name="get-help-with-other-launch-issues"></a>Hulp krijgen bij andere problemen
 
