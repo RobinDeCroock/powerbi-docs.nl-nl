@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2020
 LocalizationGroup: Administration
-ms.openlocfilehash: 9ed9b42a42e497eaa332b3b1eb93be6247ddc542
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
-ms.translationtype: HT
+ms.openlocfilehash: 09e215dbb32dcb93b2ae8ca51953eb636e1aad81
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961219"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718480"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Hoge beschikbaarheid, failover in Power BI en veelgestelde vragen over herstel na noodgevallen
 
@@ -23,6 +23,10 @@ In dit artikel wordt uitgelegd hoe Power BI-service zijn gebruikers een hoge bes
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>Wat betekent 'hoge beschikbaarheid' voor Power BI?
 
 Power BI is volledig beheerde Software as a Service (SaaS).  Het ontwerp en de werking zijn zodanig uitgevoerd door Microsoft dat deze tolerant zijn voor infrastructuurstoringen, zodat gebruikers altijd toegang tot hun rapporten hebben.  De service wordt ondersteund door een [SLA van 99,9%](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
+
+Power BI gebruikt **Azure-beschikbaarheidszones** om Power bi rapporten, toepassingen en gegevens van data centers te beveiligen, en wordt automatisch toegepast en gebruikt voor Power bi. Beschikbaarheidszones zijn fout geïsoleerde locaties binnen een Azure-regio, waardoor er drie of meer verschillende en unieke locaties zijn binnen een Azure-regio met redundante voeding, koeling en netwerken. Beschikbaarheidszones Power BI klanten de mogelijkheid te bieden essentiële toepassingen uit te voeren met een hogere Beschik baarheid en fout tolerantie voor problemen met data centers. Beschikbaarheidszones klanten de mogelijkheid bieden om problemen met data centers op te vangen door middel van redundantie en logische isolatie van services. 
+
+Raadpleeg het volgende artikel voor meer informatie over het **Beschikbaarheidszones** van [regio's en Beschikbaarheidszones in azure](https://docs.microsoft.com/azure/availability-zones/az-overview).
 
 ## <a name="what-is-a-power-bi-failover"></a>Wat is een Power BI-failover?
 
