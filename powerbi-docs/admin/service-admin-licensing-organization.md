@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 00c375267ceaede23b317fb71d76e31e4ae66a83
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0c13d0f54d18527e6b8614f40b5b15fd46187968
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408637"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718503"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>Power BI-licenties voor gebruikers in uw organisatie
 
@@ -121,7 +121,7 @@ Power BI Pro heeft dezelfde levenscyclus van licenties als Microsoft 365. Raadpl
 
 Power BI heeft Power BI Premium Gen2 geïntroduceerd als preview-aanbieding, waardoor de Power BI Premium-ervaring als volgt wordt aangepast met verbeteringen:
 * Prestaties
-* Licenties per gebruiker
+* Licentie verlening per gebruiker. Zie de [Veelgestelde vragen over Premium per gebruiker](service-premium-per-user-faq.md) voor meer informatie.
 * Grotere schaal
 * Verbeterde metrische gegevens
 * Automatisch schalen

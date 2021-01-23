@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/11/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 932149fc117568cffd94e6d551878f706a58ec65
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: d9d4677e8f0fe415f7a0169fb48ede7187c3fcf5
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191953"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718549"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Rapporten exporteren van Power BI naar PDF
 
@@ -57,7 +57,7 @@ Er zijn enkele overwegingen en beperkingen waarmee u rekening moet houden bij he
 * R- en Python-visuals worden momenteel niet ondersteund. Deze visuals zijn in de PDF leeg en er wordt een foutbericht weergegeven. 
 * Power BI-visuals die zijn gecertificeerd, worden ondersteund. Raadpleeg [Een Power BI-visual laten certificeren](../developer/visuals/power-bi-custom-visuals-certified.md) voor meer informatie over gecertificeerde Power BI-visuals, waaronder het laten certificeren van een Power BI-visual. Power BI-visuals die niet zijn gecertificeerd, worden niet ondersteund. Deze worden in de PDF met een foutbericht weergegeven.
 * De ESRI-visual wordt niet ondersteund.
-* Rapporten met meer dan vijftig rapportpagina's kunnen momenteel niet worden geëxporteerd.
+* Power BI rapporten met meer dan 50 rapport pagina's kunnen momenteel niet worden geëxporteerd. In gepagineerde rapporten gelden deze beperkingen niet. Zie [een gepagineerd rapport afdrukken](end-user-paginated-report.md#interact-with-a-paginated-report) voor meer informatie. 
 * Rapporten die groter zijn dan 500 MB kunnen momenteel niet worden geëxporteerd. 
 * Het proces van het exporteren van een rapport naar PDF kan enkele minuten duren. Factoren die de benodigde tijd kunnen beïnvloeden, zijn onder meer de structuur van het rapport en de belasting van de Power BI-service op dat moment.
 * Als het menu-item **Exporteren naar PDF** niet beschikbaar is in de Power BI-service, heeft uw Power BI-beheerder de functie waarschijnlijk uitgeschakeld. Neem voor meer informatie contact op met uw beheerder.

@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: b94d943c54ade1f3a18e496ecae8235e47553059
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 6001cbd1b503084012b358c4dabf7db27405b9c4
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687391"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718618"
 ---
 # <a name="export-reports-to-powerpoint"></a>Rapporten exporteren naar PowerPoint
 
@@ -101,7 +101,7 @@ Er zijn enkele overwegingen en beperkingen waar u rekening mee moet houden wanne
 
 * Sommige rapporten kunnen niet worden geëxporteerd. Deze omvatten:
     - Als u een dashboard deelt met iemand buiten uw organisatie, dus een gebruiker die zich niet in uw Power BI-tenantdomein bevindt, kan die gebruiker de rapporten die aan het gedeelde dashboard zijn gekoppeld niet naar PowerPoint exporteren. Als u bijvoorbeeld aaron@contoso.com bent, kunt u delen met david@cohowinery.com. Maar david@cohowinery.com kan de gekoppelde rapporten niet exporteren naar PowerPoint.
-    - Rapporten met meer dan 50 rapportpagina's.
+    - Rapporten met meer dan 50 rapportpagina's. In gepagineerde rapporten gelden deze beperkingen niet. Zie [een gepagineerd rapport afdrukken](end-user-paginated-report.md#interact-with-a-paginated-report) voor meer informatie.
     - Rapporten die groter zijn dan 500 MB wanneer ze worden geëxporteerd. 
     - Rapporten die worden geëxporteerd naar oudere versies van PowerPoint.
     - Rapporten die langer dan een uur duren om te verwerken. 

@@ -10,12 +10,12 @@ ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/13/2021
 LocalizationGroup: Common tasks
-ms.openlocfilehash: df2083effaec83639d5c14cd62d81ee4b44ffcd7
-ms.sourcegitcommit: 396633fc5f7cff1f7d518f558b20043b2e05a513
-ms.translationtype: HT
+ms.openlocfilehash: 9f02d3785c5a74c1f2658c3c00fb16c076558213
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98191608"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718595"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Uzelf abonneren op een rapport of dashboard in de Power BI-service 
 
@@ -36,7 +36,9 @@ Wanneer u de e-mail ontvangt, bevat deze een koppeling om naar het rapport of da
 ## <a name="requirements"></a>Vereisten
 Als u voor **uzelf** een abonnement wilt maken, hebt u een *Power BI Pro-* of *Premium per user-* [licentie](end-user-license.md) nodig. U kunt ook voor uzelf een abonnement maken als het rapport of dashboard zich in een Premium-werkruimte bevindt en u toegang hebt gekregen tot die werkruimte. Als u geen abonnement kunt maken, neemt u contact op met uw Power BI-beheerder of de helpdesk. 
 
-**Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard of rapport met een *Power BI Pro-* licentie. Het abonneren op gepagineerde rapporten is enigszins anders. Zie [Uzelf en anderen abonneren op gepagineerde rapporten in Power BI-service](paginated-reports-subscriptions.md) voor meer informatie. 
+**Anderen abonneren** is alleen beschikbaar voor de eigenaar van het dashboard of rapport met een *Power BI Pro-* licentie.
+
+Het **Abonneren op gepagineerde rapporten** is iets anders. Zie [Abonneren op een gepagineerd rapport in de Power bi-service](paginated-reports-subscriptions.md) voor meer informatie. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Abonneren op een dashboard of een rapportpagina
 Het proces voor het abonneren op een dashboard of een rapport is vergelijkbaar. U kunt u met dezelfde knop abonneren op dashboards en rapporten van de Power BI-service.

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 01/22/2019
-ms.openlocfilehash: eb06bc41aaaeea9790c34bb808548506963b8cb8
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
-ms.translationtype: HT
+ms.date: 01/22/2021
+ms.openlocfilehash: 50c89bdaa47aa8a687178a33627cf9148720acf2
+ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861838"
+ms.lasthandoff: 01/23/2021
+ms.locfileid: "98718572"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Beveiliging op rijniveau (RLS) in Power BI Report Server
 
@@ -27,7 +27,7 @@ U configureert RLS voor rapporten die met Power BI Desktop zijn geïmporteerd in
 
 Het beveiligingsfilter op rijniveau gebruikt standaard filters in één richting, ongeacht of de relaties zijn ingesteld op één richting of twee richtingen. U kunt kruislings filteren in twee richtingen handmatig inschakelen met beveiliging op rijniveau.
 
-- Selecteer de relatie en schakel het selectievakje**Beveiligingsfilter in beide richtingen toepassen** in. 
+- Selecteer de relatie en schakel het selectievakje **Beveiligingsfilter in beide richtingen toepassen** in. 
 
     ![Beveiligingsfilter toepassen](media/row-level-security-report-server/rls-apply-security-filter.png)
 
@@ -95,6 +95,7 @@ Als u geïntegreerde beveiliging met DirectQuery gebruikt, kunnen uw gebruikers 
 
 Auteurs van rapporten hebben geen toegang tot de rapportgegevens in Power BI Report Server totdat ze aan zichzelf dienovereenkomstig rollen hebben toegewezen nadat het rapport is geüpload. 
 
+Roltoewijzingen via groepslid maatschappen worden alleen ondersteund als de Power BI Report Server is geconfigureerd om te worden uitgevoerd met NTLM-of Kerberos-verificatie. Servers met aangepaste verificatie of Windows Basic hebben gebruikers expliciet aan rollen toegewezen.
  
 
 ## <a name="faq"></a>Veelgestelde vragen 
