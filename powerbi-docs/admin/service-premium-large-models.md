@@ -7,25 +7,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 12/10/2020
+ms.date: 01/21/2021
 ms.custom: references_regions
 LocalizationGroup: Premium
-ms.openlocfilehash: 7256e17f561aa79d63b7fefd268df560903de6b2
-ms.sourcegitcommit: 772c65b7b440ab082510bf3f64b871d19139d451
-ms.translationtype: HT
+ms.openlocfilehash: 4fd953eac998e954579af83f2acec975f66e7436
+ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "97353100"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "98687023"
 ---
 # <a name="large-datasets-in-power-bi-premium"></a>Grote gegevenssets in Power BI Premium
 
-Gegevens van Power BI-gegevenssets kunnen sterk gecomprimeerd in het cachegeheugen worden opgeslagen voor geoptimaliseerde queryprestaties, waardoor een snelle interactie tussen gebruikers mogelijk wordt. Bij Premium-capaciteiten kunnen grote gegevenssets, die groter zijn dan de standaardlimiet van 10 GB, worden ingeschakeld dankzij de instelling **Opslagindeling voor grote gegevenssets**. Wanneer deze functie is ingeschakeld, wordt de grootte van de gegevensset beperkt door de grootte van de *Premium-capaciteit* of de maximale grootte die is ingesteld door de beheerder.
+Gegevens van Power BI-gegevenssets kunnen sterk gecomprimeerd in het cachegeheugen worden opgeslagen voor geoptimaliseerde queryprestaties, waardoor een snelle interactie tussen gebruikers mogelijk wordt. Met Premium-capaciteiten kunnen grote gegevens sets buiten de standaard limiet worden ingeschakeld met de instelling voor de **opslag indeling voor grote gegevensset** . Wanneer deze functie is ingeschakeld, wordt de grootte van de gegevensset beperkt door de grootte van de *Premium-capaciteit* of de maximale grootte die is ingesteld door de beheerder.
 
 Grote gegevenssets kunnen worden ingeschakeld voor alle Premium P-SKU's en Embedded A-SKU's. De maximale grootte van de gegevensset in Premium is vergelijkbaar met Azure Analysis Services, wat betreft de beperkingen van de grootte van het gegevensmodel.
 
 Hoewel de opslagindeling voor grote gegevenssets nodig is voor gegevenssets groter dan 10 GB, biedt deze extra voordelen wanneer u de instelling inschakelt. Als u van plan bent om hulpprogramma's op basis van XMLA-eindpunten te gebruiken voor schrijfbewerkingen in gegevenssets, kunt u beter de instelling inschakelen, zelfs voor gegevenssets die u niet per se zou aanmerken als een *grote* gegevensset. Wanneer deze functie is ingeschakeld, kan de opslagindeling voor grote gegevenssets voor betere prestaties van XMLA-schrijfbewerkingen zorgen.
 
-Grote gegevenssets in de service hebben geen invloed op de uploadgrootte van Power BI Desktop modellen. Die is nog steeds beperkt tot 10 GB. In plaats daarvan kunnen in de service gegevenssets groter worden dan 10 GB bij een vernieuwing.
+Grote gegevenssets in de service hebben geen invloed op de uploadgrootte van Power BI Desktop modellen. Die is nog steeds beperkt tot 10 GB. In plaats daarvan kunnen gegevens sets groter worden dan die limiet in de service bij het vernieuwen.
+
+> [!IMPORTANT]
+> Power BI Premium biedt ondersteuning voor grote gegevens sets. Schakel de optie **opslag indeling grote gegevensset** in om gegevens sets in Power bi Premium te gebruiken die groter zijn dan de standaard limiet. 
+
 
 ## <a name="enable-large-datasets"></a>Grote gegevenssets inschakelen
 
