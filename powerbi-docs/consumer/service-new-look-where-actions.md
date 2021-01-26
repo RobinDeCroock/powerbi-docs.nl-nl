@@ -7,18 +7,18 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: conceptual
-ms.date: 10/22/2020
+ms.date: 1/25/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c16405ff211620580f739facda8556e81774935
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 46d7c0247cfd644b9a085862bbf7d0d41557a371
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415123"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780815"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>Het nieuwe uiterlijk: Waar zijn de acties gebleven?
 
-De Power BI-service (app.powerbi.com) heeft een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt weergeven en gebruiken. Als gevolg hiervan zijn veel menuacties verplaatst. In de tabellen in dit artikel wordt de oude locatie aan de nieuwe locatie gekoppeld. Zie [het nieuwe uiterlijk van de Power BI-service](service-new-look.md) voor meer informatie.
+De Power BI-service (app.powerbi.com) is verplaatst naar een nieuwe vormgeving waarmee u uw rapporten gemakkelijker kunt bekijken en ermee kunt werken. Als gevolg hiervan zijn veel menuacties verplaatst. Als uw organisatie de overstap naar het nieuwe uiterlijk heeft aangebracht, maar u vertrouwd bent met het oude uiterlijk, kunt u in dit artikel zien hoe u dit kunt doen. In de tabellen in dit artikel wordt de oude locatie aan de nieuwe locatie gekoppeld. 
 
 Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het bijgewerkte lint in Power BI Desktop gebruiken](../create-reports/desktop-ribbon.md).
 
@@ -70,7 +70,3 @@ Zoekt u informatie over het nieuwe uiterlijk in **Power BI Desktop**? Zie [Het b
 | Dashboardtegels vernieuwen | Menubalk Meer opties (...) > Dashboardtegels vernieuwen | Visuals vernieuwen (rechterkant) |
 | Prestatiecontrole | Menubalk Meer opties (...) > Prestatiecontrole | Bestand > Prestatiecontrole |
 | Instellingen | Menubalk Meer opties (...) > Instellingen | Bestand > Instellingen |
-
-## <a name="next-steps"></a>Volgende stappen
-
-[Het nieuwe uiterlijk van de Power BI-service](service-new-look.md)

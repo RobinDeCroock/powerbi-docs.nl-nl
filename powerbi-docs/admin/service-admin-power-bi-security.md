@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 9019ed9e64bca94a87e2ab9b6febdb7a25055b75
-ms.sourcegitcommit: c700e78dfedc34f5a74b23bbefdaef77e2a87f8a
-ms.translationtype: HT
+ms.openlocfilehash: b21443fd334e465ca5ced3efd00fe66828367615
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97961150"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98780916"
 ---
 # <a name="power-bi-security"></a>Beveiliging van Power BI
 
@@ -39,7 +39,7 @@ Via het cluster **Back-End** communiceren geverifieerde clients met de Power BI-
 
 ## <a name="data-storage-security"></a>Beveiliging voor gegevensopslag
 
-Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan en te beheren: gegevens van gebruikers die zijn geüpload worden meestal verzonden naar **Azure BLOB**-opslag. Alle metagegevens, alsmede artefacten voor het systeem zelf, worden opgeslagen in  **Azure SQL Database**.
+Power BI gebruikt twee primaire opslag plaatsen voor het opslaan en beheren van gegevens: gegevens die worden geüpload van gebruikers worden doorgaans verzonden naar **Azure Blob Storage**, en alle meta gegevens en artefacten voor het systeem zelf worden opgeslagen in **Azure SQL database**.
 
 De stippellijn in de bovenstaande afbeelding van het cluster **Back-End** verduidelijkt de grens tussen de enige twee onderdelen die toegankelijk zijn voor gebruikers (links van de stippellijn) en de rollen die alleen toegankelijk zijn voor het systeem. Wanneer een geverifieerde gebruiker verbinding maakt met de Power BI-Service, wordt de verbinding en elke aanvraag van de client geaccepteerd en beheerd door de **Gatewayrol** (wordt op termijn verwerkt door **Azure API Management**), die vervolgens namens de gebruiker communiceert met de rest van de Power BI-Service. Wanneer een client bijvoorbeeld probeert een dashboard weer te geven, accepteert de **Gatewayrol** die aanvraag en stuurt vervolgens afzonderlijk een aanvraag naar de **Presentatierol** om de gegevens op te halen die de browser nodig heeft om het dashboard weer te geven.
 

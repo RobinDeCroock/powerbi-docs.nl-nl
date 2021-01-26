@@ -1,5 +1,5 @@
 ### YamlMime:Landing
-title: Documentatie voor Power BI-automatisering voor betere geïntegreerde BI-inzichten in geïntegreerde analytische gegeven voor Power BI
+title: Documentatie voor Power BI-automatisering
 summary: Met Power BI-automatisering kunt u beheertaken uitvoeren voor Power BI-objecten, zoals rapporten, gegevenssets en werkruimten.
 metadata:
   title: Documentatie voor Power BI-automatisering
@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: def78e481474b7186457d019404f4604406ce967
-  ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-  ms.translationtype: HT
+  ms.openlocfilehash: eb357c5a89afec8f42b86ec80bca688e37101322
+  ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+  ms.translationtype: MT
   ms.contentlocale: nl-NL
-  ms.lasthandoff: 01/05/2021
-  ms.locfileid: "97887587"
+  ms.lasthandoff: 01/26/2021
+  ms.locfileid: "98781548"
 landingContent:
 - title: Aan de slag
   linkLists:
@@ -39,6 +39,12 @@ landingContent:
       url: walkthrough-push-data-add-rows.md
     - text: 'Zelfstudie: Configuratie van sjabloon-app automatiseren'
       url: ../template-apps/template-apps-auto-install-tutorial.md
+- title: Client-Api's
+  linkLists:
+  - linkListType: whats-new
+    links:
+    - text: Api's van Power BI embedded Analytics-client
+      url: /javascript/api/overview/powerbi/
 - title: Werken met gegevens
   linkLists:
   - linkListType: concept

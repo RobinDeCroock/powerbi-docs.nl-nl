@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 5cee5dd701f7ac40b3f363e1bdcee039037fcde9
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
+ms.openlocfilehash: f46da004e554027eae1943444bdcf40791d6c76e
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565128"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781618"
 ---
 # <a name="power-bi-security-whitepaper"></a>Whitepaper Power BI-beveiliging
 
@@ -87,7 +87,7 @@ Power BI maakt gebruik van twee primaire opslagplaatsen om gegevens op te slaan 
 
 Wanneer een gebruiker bijvoorbeeld een Excel-werkmap importeert in de Power BI-service, wordt een in-memory tabellaire Analysis Services-database gemaakt en worden de gegevens maximaal één uur in het geheugen opgeslagen (of tot geheugenbelasting in het systeem plaatsvindt). De gegevens worden ook verzonden naar **Azure Blob**-opslag.
 
-Metagegevens over het Power BI-abonnement van een gebruiker, zoals dashboards, rapporten, recente gegevensbronnen, werkruimten, organisatiegegevens, tenant-gegevens en andere metagegevens over het systeem worden opgeslagen en bijgewerkt in **Azure SQL Database**. Alle gegevens die zijn opgeslagen in Azure SQL Database zijn volledig versleuteld met behulp van [Azure SQL TDE-technologie](/azure/sql-database/transparent-data-encryption-azure-sql) (Transparent Data Encryption). Alle gegevens die zijn opgeslagen in Azure Blob-opslag zijn eveneens versleuteld. In de sectie **Gegevensopslag en -verplaatsing** vindt u meer informatie over het proces van het laden, opslaan en verplaatsen van gegevens.
+Metagegevens over het Power BI-abonnement van een gebruiker, zoals dashboards, rapporten, recente gegevensbronnen, werkruimten, organisatiegegevens, tenant-gegevens en andere metagegevens over het systeem worden opgeslagen en bijgewerkt in **Azure SQL Database**. Alle gegevens die zijn opgeslagen in Azure SQL Database zijn volledig versleuteld met behulp van [Azure SQL TDE-technologie](/azure/sql-database/transparent-data-encryption-azure-sql) (Transparent Data Encryption). Alle gegevens die zijn opgeslagen in Azure Blob Storage, worden ook versleuteld. In de sectie **Gegevensopslag en -verplaatsing** vindt u meer informatie over het proces van het laden, opslaan en verplaatsen van gegevens.
 
 ## <a name="tenant-creation"></a>Een tenant maken
 
@@ -107,7 +107,7 @@ Er zijn meerdere technische details die in de context van lokale wetten en voor 
 
 - Een uitvoerings laag voor externe query's wordt gehost in de externe capaciteits regio, om ervoor te zorgen dat het gegevens model, de caches en de meeste gegevens verwerking in het gebied externe capaciteit blijven. Er zijn enkele uitzonde ringen, zoals beschreven in het artikel over [meerdere geo-Power bi Premium](../admin/service-admin-premium-multi-geo.md) .
 - Een query tekst in de cache en het overeenkomstige resultaat dat is opgeslagen in een externe regio, blijft in die regio in de rest, maar andere gegevens in de door Voer kunnen echter tussen meerdere geografi worden weer gegeven.
-- PBIX-of XLSX-bestanden die zijn gepubliceerd (geüpload) naar een multi-geo-capaciteit van de Power BI-service, kunnen ertoe leiden dat een kopie tijdelijk wordt opgeslagen in Azure Blob Storage in de Tenant regio van Power BI. In dergelijke gevallen worden de gegevens versleuteld met behulp van Azure Storage-service versleuteling (SSE) en wordt de kopie gepland voor garbagecollection zodra de verwerking van de bestands inhoud en de overdracht naar de externe regio is voltooid. 
+- PBIX-of XLSX-bestanden die zijn gepubliceerd (geüpload) naar een multi-geo-capaciteit van de Power BI-service, kunnen ertoe leiden dat een kopie tijdelijk wordt opgeslagen in de Azure-Blob Storage in de Tenant regio van Power BI. In dergelijke gevallen worden de gegevens versleuteld met behulp van Azure Storage-service versleuteling (SSE) en wordt de kopie gepland voor garbagecollection zodra de verwerking van de bestands inhoud en de overdracht naar de externe regio is voltooid. 
 - Bij het verplaatsen van gegevens tussen regio's in een multi-geografische omgeving, wordt het exemplaar van de gegevens in de bron regio binnen 7-30 dagen verwijderd. 
 
 ### <a name="datacenters-and-locales"></a>Datacenters en landinstellingen
@@ -205,7 +205,7 @@ Voor gegevensbronnen in de cloud versleutelt de gegevensverplaatsingsrol versleu
 
     a. Voor on-premises Analysis Services wordt niets in de service opgeslagen, met uitzondering van een verwijzing naar deze database die versleuteld is opgeslagen in Azure SQL.
 
-    b. Alle andere metagegevens voor ETL, DirectQuery en pushgegevens worden versleuteld en opgeslagen in Azure Blob Storage.
+    b. Alle andere meta data voor ETL-, DirectQuery-en push-gegevens worden versleuteld en opgeslagen in Azure Blob Storage.
 
 1. Referenties voor de oorspronkelijke gegevensbronnen
   
@@ -226,19 +226,19 @@ Voor gegevensbronnen in de cloud versleutelt de gegevensverplaatsingsrol versleu
 
     a. Analysis Services on-premises en DirectQuery - Niets wordt opgeslagen in de Power BI-service.
 
-    b. ETL - Versleuteld in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
+    b. ETL: versleuteld in Azure Blob Storage, maar alle gegevens in Azure Blob Storage van de Power BI-service gebruiken [Azure Storage service versleuteling (SSE)](/azure/storage/common/storage-service-encryption), ook wel bekend als versleuteling aan de server zijde. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
 
-    c. Push data v1 - Versleuteld opgeslagen in Azure Blob-opslag, maar voor alle gegevens die momenteel in de Azure Blob-opslag van de Power BI-service staan, wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden. Push data v1 zijn stopgezet vanaf 2016. 
+    c. Push data v1 – opgeslagen versleuteld in Azure Blob Storage, maar alle gegevens die momenteel in Azure Blob Storage in de Power BI-service worden gebruikt [Azure Storage service Encryption (SSE)](/azure/storage/common/storage-service-encryption), ook wel bekend als versleuteling aan de server zijde. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden. Push data v1 zijn stopgezet vanaf 2016. 
 
     d. Push data v2 - Versleuteld opgeslagen in Azure SQL.
 
-Bij Power BI wordt gebruikgemaakt van versleuteling aan de clientzijde en Cipher Block Chaining (CBC) met een geavanceerde versleutelingsnorm (AES) om de Azure Blob-opslag te versleutelen. U kunt [hier](/azure/storage/common/storage-client-side-encryption) meer lezen over versleuteling aan de clientzijde.
+Power BI maakt gebruik van de versleutelings benadering aan de client zijde met de CBC-modus (Cipher Block Chaining) met Advanced Encryption Standard (AES), om de Azure-Blob Storage te versleutelen. U kunt [hier](/azure/storage/common/storage-client-side-encryption) meer lezen over versleuteling aan de clientzijde.
 
 Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
 * Bij data-at-rest in Azure SQL maakt Power BI gebruik van dbcc, TDE en constante controlesommen voor pagina's. Dit is onderdeel van het systeemeigen SQL-aanbod.
 
-* Bij data-at-rest in Azure Blob-opslag maakt Power BI gebruik van versleuteling aan de clientzijde en HTTPS voor het overdragen van gegevens naar de opslag. Er wordt ook gebruikgemaakt van integriteitscontroles bij het ophalen van gegevens. U leest [hier](/azure/storage/blobs/security-recommendations) meer over de Azure Blob-opslagbeveiliging.
+* Voor Data-at-rest in Azure Blob Storage maakt Power BI gebruik van versleuteling aan de client zijde en HTTPS om gegevens over te dragen naar opslag, inclusief integriteits controles tijdens het ophalen van de gegevens. [Meer informatie over de beveiliging van Azure Blob Storage](/azure/storage/blobs/security-recommendations).
 
 #### <a name="reports"></a>Rapporten
 
@@ -256,7 +256,7 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
     &ensp;&ensp;a. Voor rapporten die zijn gemaakt met Excel voor Microsoft 365, wordt er niets opgeslagen.
 
-    &ensp;&ensp;b. Bij Power BI-rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob-opslag.
+    &ensp;&ensp;b. Voor Power BI rapporten worden de statische gegevens opgeslagen en versleuteld in Azure Blob Storage.
 
 3. Caches
 
@@ -267,13 +267,13 @@ Power BI biedt op de volgende manieren bewaking van de gegevensintegriteit:
 
 4. Originele Power BI Desktop- (.pbix) of Excel-bestanden (.xlsx) die zijn gepubliceerd naar Power BI
 
-    Soms wordt er een kopie of een schaduwkopie van de xlsx- of pbix-bestanden opgeslagen in de Azure Blob-opslag van Power BI. Als dit gebeurt, worden de gegevens versleuteld. Bij al deze rapporten die zijn opgeslagen in de Power BI-service in Azure Blob-opslag wordt gebruikgemaakt van [Azure Storage Service Encryption (SSE)](/azure/storage/common/storage-service-encryption), ook wel 'versleuteling aan de serverzijde' genoemd. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
+    Soms wordt een kopie of een schaduw kopie van de. XLSX-of pbix-bestanden opgeslagen in de Azure-Blob Storage van Power BI en wanneer dat het geval is, worden de gegevens versleuteld. Al deze rapporten die zijn opgeslagen in de Power BI-service, gebruiken [Azure Storage service versleuteling (SSE)](/azure/storage/common/storage-service-encryption), ook wel bekend als versleuteling aan de server zijde, in Azure Blob Storage. SSE wordt ook gebruikt bij gebruik van meerdere geografische gebieden.
 
 #### <a name="dashboards-and-dashboard-tiles"></a>Dashboards en dashboardtegels
 
 1. Caches: de gegevens die nodig zijn voor de visuals op het dash board, worden doorgaans in de cache opgeslagen in de visuele gegevens cache die in de volgende sectie wordt beschreven. Andere tegels, zoals vastgemaakte visuals uit Excel of de SQL Server Reporting Services (SSRS) worden als afbeeldingen opgeslagen in Azure Blob; deze worden ook versleuteld.
 
-2. Statische gegevens: Dit omvat artefacten zoals achtergrond afbeeldingen en Power BI visuele elementen die zijn opgeslagen, versleuteld in Azure Blob-opslag.
+2. Statische gegevens: Dit omvat artefacten zoals achtergrond afbeeldingen en Power BI visuele elementen die zijn opgeslagen, versleuteld in Azure Blob Storage.
 
 Ongeacht de gebruikte versleutelings methode beheert micro soft de sleutel versleuteling voor klanten.
 

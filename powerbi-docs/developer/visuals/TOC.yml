@@ -12,7 +12,7 @@
       items:
         - name: 'Zelfstudie: Een aangepaste visual met cirkelkaart voor Power BI ontwikkelen'
           href: develop-circle-card.md
-        - name: React-visuals maken
+        - name: 'Zelf studie: een Power BI-Visual maken met reageren'
           href: create-react-visual.md
         - name: Een staafdiagram maken
           href: create-bar-chart.md

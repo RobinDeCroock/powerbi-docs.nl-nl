@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: overview
 ms.date: 03/25/2019
-ms.openlocfilehash: 122028b2ac838763318ab5a0c4e6208138d93188
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 8fac168bf4e2d1cb7b386a1e22da99f39b579da8
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887610"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781567"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>Wat kunnen ontwikkelaars doen met de Power BI-API?
 
@@ -37,8 +37,8 @@ Hier volgen enkele dingen die u kunt doen met de Power BI-API‘s.
 
 | Hulpprogramma('s) | Description |
 |---------|-------------|
-| [Playground-hulpprogramma](https://microsoft.github.io/PowerBI-JavaScript/demo) | Een volledig voorbeeld van het gebruik van de Power BI JavaScript-API's. Met dit hulpprogramma kunt u ook op een snelle manier verschillende typen Power BI Embedded-voorbeelden proberen. |
-| [Power BI JavaScript-wiki](https://github.com/Microsoft/powerbi-javascript/wiki) | Meer informatie over de Power BI JavaScript-API's. |
+| [Playground-hulpprogramma](https://microsoft.github.io/PowerBI-JavaScript/demo) | Ervaar een volledig voor beeld van het gebruik van de Power BI embedded Analytics client-Api's. Met dit hulpprogramma kunt u ook op een snelle manier verschillende typen Power BI Embedded-voorbeelden proberen. |
+| [Api's van Power BI embedded Analytics-client](/javascript/api/overview/powerbi/) | Voor meer informatie over de Power BI-client-Api's. |
 | [Postman](https://www.getpostman.com/) | Aanvragen uitvoeren, testen, fouten opsporen, bewaken, geautomatiseerde tests uitvoeren en nog veel meer. |
 
 ## <a name="push-data-into-power-bi"></a>Gegevens pushen naar Power BI
@@ -51,7 +51,7 @@ U kunt de Power BI-API gebruiken om [gegevens naar een gegevensset te pushen](wa
 
 * [Voorbeelden voor Power BI-ontwikkelaars](https://github.com/Microsoft/PowerBI-Developer-Samples)
 * [.NET SDK](https://github.com/Microsoft/PowerBI-CSharp)
-* [JavaScript-API](https://github.com/Microsoft/PowerBI-JavaScript)
+* [Api's van Power BI embedded Analytics-client](/javascript/api/overview/powerbi/)
 
 ## <a name="next-steps"></a>Volgende stappen
 

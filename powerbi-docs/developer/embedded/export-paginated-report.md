@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 4096ba77bc8733ff2e3d24cd646aa480aa53819d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
+ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687529"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98781534"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>Gepagineerd rapport exporteren naar een bestand (preview)
 
@@ -127,11 +127,12 @@ Hier volgt een voorbeeld van het verstrekken van een efficiënte gebruikersnaam 
 
 In Power BI hebt u de optie OAuth met SSO in te stellen. Wanneer u dit doet, worden de referenties voor de gebruiker die het rapport bekijkt, gebruikt om gegevens op te halen. Het toegangs token in de requrest-header wordt niet gebruikt om toegang te krijgen tot de gegevens. het token moet worden door gegeven met de doel-id in de hoofd tekst van het bericht.
 
-Wat kan leiden tot Verwar ring bij het verkrijgen van toegangs tokens wordt het juiste toegangs token opgehaald voor de resource die u wilt gebruiken. 
-- Voor Azure SQL is de resource https://database.windows.net
-- Voor Dataverse is de resource het https://-adres voor uw omgeving. Hierbij https://contoso.crm.dynamics.com
+Wat kan leiden tot Verwar ring bij het verkrijgen van toegangs tokens wordt het juiste toegangs token opgehaald voor de resource die u wilt openen.
 
-[Hier](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync?view=azure-dotnet) de API voor toegangs tokens
+- Voor Azure SQL is de resource `https://database.windows.net` .
+- Voor Dataverse is de resource het `https://` adres voor uw omgeving. Bijvoorbeeld `https://contoso.crm.dynamics.com`.
+
+Open de token-API met behulp van de methode [AuthenticationContext. AcquireTokenAsync](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenasync) .
 
 Hier volgt een voor beeld voor het leveren van een efficiënte gebruikers naam met een toegangs token.
 
