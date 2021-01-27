@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
-ms.date: 05/04/2020
-ms.openlocfilehash: 28058161672de9db0cac5093e652e1d551f6a80a
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
-ms.translationtype: HT
+ms.date: 01/25/2021
+ms.openlocfilehash: bbe88b206c4c07e2e296b9c85d46be7901f5972a
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297320"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861279"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Een gepagineerd rapport publiceren in de Power BI-service
 
@@ -27,7 +27,7 @@ Als de gegevensbron van het rapport on-premises is, moet u een gateway maken nad
 
 Als u naast de naam van de werkruimte het ruitvormige pictogram ![Ruitvormig pictogram voor de Power BI Premium-capaciteit](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) niet ziet, moet u de werkruimte toevoegen aan een Premium-capaciteit. 
 
-1. Selecteer **Werkruimten** en selecteer het beletselteken ( **...** ) naast de naam van de werkruimte. Selecteer vervolgens **Werkruimte bewerken**.
+1. Selecteer **Werkruimten** en selecteer het beletselteken (**...**) naast de naam van de werkruimte. Selecteer vervolgens **Werkruimte bewerken**.
 
     ![Werkruimte bewerken selecteren](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 
@@ -37,13 +37,13 @@ Als u naast de naam van de werkruimte het ruitvormige pictogram ![Ruitvormig pic
 
    Mogelijk kunt u dit niet wijzigen. Zo niet, vraag de beheerder van de Power BI Premium-capaciteit dan om u toewijzingsrechten te verlenen om uw werkruimte toe te voegen aan een Premium-capaciteit.
 
-## <a name="from-report-builder-publish-a-paginated-report"></a>Vanuit Report Builder een gepagineerd rapport publiceren
+## <a name="from-report-builder-publish-a-paginated-report-to-the-power-bi-service"></a>Publiceer vanuit Report Builder een gepagineerd rapport naar de Power BI-service
 
-1. Maak uw gepagineerde rapport in Report Builder en sla het op de lokale computer op.
+1. Een nieuw gepagineerd rapport maken of een bestaand gepagineerd rapport openen vanuit de Power BI-service in Report Builder. Als u een bestaand gepagineerd rapport uit de service opent, is de optie **Opslaan** uitgeschakeld, omdat u een rapport bijwerkt dat in de Power bi-service aanwezig is.
 
-1. Selecteer in het menu **Bestand** van Report Builder de optie **Opslaan als**.
+1. Selecteer in het menu **bestand** Report Builder de optie **publiceren**.
 
-    ![Menu Bestand > Opslaan > Opslaan als](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
+    ![Selecteer het menu bestand en klik vervolgens op publiceren.](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-save-as.png)
 
     Als u nog niet bent aangemeld bij Power BI, moet u zich nu aanmelden of een nieuw account maken. Selecteer **Aanmelden** in de rechterbovenhoek van Report Builder en voer de stappen uit.
 

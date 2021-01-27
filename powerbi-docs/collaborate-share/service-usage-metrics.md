@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: pbi-collaborate-share
 ms.topic: conceptual
-ms.date: 01/15/2021
+ms.date: 01/26/2021
 LocalizationGroup: Dashboards
-ms.openlocfilehash: acb1a1550c0ab216e4934e99f871df9321561314
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 2710143ddd0474e38e7c0c1e6f82ba9c3d1fbba3
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565432"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861233"
 ---
 # <a name="monitor-usage-metrics-in-classic-workspaces"></a>Metrische gebruiksgegevens binnen klassieke werkruimten bewaken
 
@@ -157,12 +157,12 @@ Het is belangrijk om te begrijpen dat er verschillen kunnen optreden wanneer u m
 
 * Metrische gegevens over gebruik tellen soms minder activiteiten doordat inconsistente netwerkverbindingen, ad blockers of andere problemen die de verzending van gebeurtenissen van de client kunnen verstoren.
 * Bepaalde typen weergaven zijn niet opgenomen in metrische gegevens over gebruik, zoals eerder in dit artikel is beschreven.
-* Metrische gegevens over gebruik tellen soms meer activiteiten. Dat komt voor in gevallen waarin de client vernieuwt zonder dat het nodig is om een aanvraag terug te sturen naar de Power BI-service.
+* Metrische gegevens over gebruik tellen soms meer activiteiten. Dat komt voor in gevallen waarin de client vernieuwt zonder dat het nodig is om een aanvraag terug te sturen naar de Power BI-service. Bijvoorbeeld: door te wisselen rapport pagina's wordt er geen aanvraag voor een rapport belasting naar de server uitgegeven omdat de pagina definitie zich al in de browser bevindt.
 * Delen is uitgeschakeld voor het rapport voor metrische gebruiksgegevens. Om mensen leestoegang tot het rapport te geven, moet u ze eerst toegang tot de werkruimte geven.
 
 ### <a name="discrepancies-between-rest-apis-and-usage-metrics"></a>Verschillen tussen REST API's en metrische gebruiksgegevens
 
-De Power BI [Reports REST API's](/rest/api/power-bi/reports) en [Admin REST API's](/rest/api/power-bi/admin) gebruiken ook Power BI-servicegegevens. Zoals in de vorige sectie is beschreven, zijn er verschillende redenen waarom rapporttellingen (het aantal rapporten) van de API's kunnen afwijken van de rapporttellingen in de metrische gebruiksgegevens. De rapporttellingen die zijn afgeleid van de API's, worden niet beïnvloed door clientproblemen en moeten als nauwkeurig worden beschouwd.
+De Power BI [Reports REST API's](/rest/api/power-bi/reports) en [Admin REST API's](/rest/api/power-bi/admin) gebruiken ook Power BI-servicegegevens. Zoals in de vorige sectie is beschreven, zijn er verschillende redenen waarom rapporttellingen (het aantal rapporten) van de API's kunnen afwijken van de rapporttellingen in de metrische gebruiksgegevens. De rapporttellingen die zijn afgeleid van de API's, worden niet beïnvloed door clientproblemen en moeten als nauwkeurig worden beschouwd. Houd er ook rekening mee dat de beheer-Api's u de huidige status van de Power BI-implementatie geven en overwegen alleen te weten wat er op het moment van de aanvraag gebeurt. Het rapport met metrische gegevens over het gebruik van de klassiek bevat 90 dagen en de ' totaal aantal ' bevat unieke rapporten die meer dan 90 dagen worden weer gegeven. Als rapporten worden verwijderd nadat ze zijn weer gegeven, worden ze niet geteld door de beheer-Api's, maar worden ze geteld in het historische gegevensfeedproces.
 
 ### <a name="classic-usage-metrics-are-not-supported-with-private-links"></a>Klassieke metrische gebruiksgegevens worden niet ondersteund bij privékoppelingen 
 

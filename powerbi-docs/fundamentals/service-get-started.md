@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: tutorial
-ms.date: 07/08/2020
+ms.date: 01/13/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 4e74bec243faad281c457caaa15a6edacf2b10cb
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 04777ba93b6a4639b55406b3952a80de963cb540
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417124"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861210"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>Zelfstudie: Aan de slag met de Power BI-service
 Deze zelfstudie is een inleiding tot een aantal functies van de *Power BI-service*. U kunt daarmee verbinding maken met gegevens, een rapport en een dashboard maken en vragen stellen over uw gegevens. U kunt veel meer doen in de Power BI-service. Deze zelfstudie is alleen maar bedoeld om de smaak naar meer op te wekken. Als u wilt weten hoe de Power BI-service aansluit bij de andere Power BI-aanbiedingen, is het een goed idee om [Wat is Power BI?](power-bi-overview.md) te lezen.
@@ -40,7 +40,7 @@ U hebt een Power BI Pro-licentie nodig om een werkruimte te maken. Als u geen Po
 
 ## <a name="step-1-get-data"></a>Stap 1: Gegevens ophalen
 
-Wanneer u een Power BI-rapport wilt maken, kunt u vaak het beste beginnen in Power BI Desktop. Power BI Desktop is krachtiger. U kunt gegevens transformeren, vormgeven en modelleren voordat u begint met het ontwerpen van het rapport. Dit keer maken we echter een geheel nieuw rapport in de Power BI-service.
+Wanneer u een Power BI-rapport wilt maken, begint u vaak in Power BI Desktop. Power BI Desktop is krachtiger. U kunt gegevens transformeren, vorm geven en model leren voordat u begint met het ontwerpen van rapporten. Dit keer maken we echter een geheel nieuw rapport in de Power BI-service.
 
 In deze zelfstudie worden de gegevens opgehaald uit een eenvoudig Microsoft Excel-bestand. Doet u mee? [Download het bestand met financiële voorbeelden](https://go.microsoft.com/fwlink/?LinkID=521962).
 
@@ -223,6 +223,8 @@ Nu u de zelfstudie hebt voltooid, kunt u de gegevensset, het rapport en het dash
 4. Selecteer **Verwijderen**.
 
 ## <a name="next-steps"></a>Volgende stappen
+
+[Snel een rapport maken door gegevens in de Power BI-service te plakken](https://powerbi.microsoft.com/en-us/blog/quickly-create-reports-power-bi-service/)
 
 Verken deze verzamelingen met Microsoft Learn-inhoud voor Power BI:
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 01/05/2020
+ms.date: 01/25/2021
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 554cce8c0313ad6624a2991aa09f60c98ff454be
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: 8305d4662da9f4f7b8a5cce2b3badf5e70e88bc5
+ms.sourcegitcommit: 5c5a27aa7ba21612df4c4096e635dfe4b9aaebcf
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969587"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "98861302"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Power BI beheren in de beheerportal
 
@@ -174,12 +174,6 @@ Veel instellingen hebben een van deze drie statussen:
     ![Instelling 'Ingeschakeld met uitzonderingen'](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 In de volgende secties ziet u een overzicht van de verschillende typen tenantinstellingen.
-
-## <a name="tenant-wide-new-look-settings"></a>Instellingen voor het nieuwe uiterlijk voor de hele tenant
-
-Wanneer de optie **Nieuw uiterlijk** is uitgeschakeld, kunnen gebruikers in deze organisatie het nieuwe uiterlijk van Power BI in- of uitschakelen. Wanneer u de optie **Nieuw uiterlijk** inschakelt, zien *alle* gebruikers in deze organisatie de hele tijd de moderne besturingselementen van het nieuwe uiterlijk van Power BI. Ze kunnen het nieuwe uiterlijk niet meer uitschakelen. De optie Nieuw uiterlijk is standaard ingeschakeld.
-
-:::image type="content" source="media/service-admin-portal/admin-portal-new-look-disable.png" alt-text="Schermopname van de optie Nieuw uiterlijk uitschakelen in de beheerportal.":::
 
 ## <a name="help-and-support-settings"></a>Instellingen voor Help en ondersteuning
 
