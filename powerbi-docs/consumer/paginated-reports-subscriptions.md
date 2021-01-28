@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-explore
 ms.topic: how-to
 ms.date: 01/22/2021
-ms.openlocfilehash: 88293bbfc39f75472422e6785099421efcd45802
-ms.sourcegitcommit: e8c3f327ac0fc73c118874a24d2601733f8f9e45
+ms.openlocfilehash: 5817bf3752a03361be4e982faf10dffb67bda0b5
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/23/2021
-ms.locfileid: "98718526"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925786"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Uzelf en anderen abonneren op gepagineerde rapporten in de Power BI-service 
 
@@ -29,7 +29,7 @@ Wanneer u abonnementen instelt, kiest u hoe vaak u de e-mails wilt ontvangen: da
 
 - U kunt een voorbeeldafbeelding van het rapport opnemen in de hoofdtekst van een e-mailbericht.  Dit is optioneel en kan enigszins afwijken van de eerste pagina van het rapportdocument dat u bijvoegt, afhankelijk van de geselecteerde bijlage-indeling. 
 
-- De maximale grootte voor rapportbijlagen is 24 MB. 
+- De maximale grootte voor rapportbijlagen is 25 MB. 
 
 - U kunt andere gebruikers abonneren op gepagineerde rapporten die verbinding maken met de gegevens bronnen die momenteel worden ondersteund, inclusief Azure Analysis Services of Power BI gegevens sets. Onthoud dat gegevens in de rapportbijlage net zo zijn gebaseerd op uw machtigingen als bij SQL Server Reporting Services. 
 

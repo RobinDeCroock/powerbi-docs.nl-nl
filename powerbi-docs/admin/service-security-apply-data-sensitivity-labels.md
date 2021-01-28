@@ -8,12 +8,12 @@ ms.subservice: powerbi-eim
 ms.topic: how-to
 ms.date: 12/09/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 09188b3b03fd5bfb720b98045ee9d895d337d677
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: a50a8c8514a4316f16a6a38647804aabf878d5ad
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969162"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925680"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels toepassen in Power BI
 
@@ -95,7 +95,7 @@ Nadat u het label hebt toegepast, wordt het weergegeven in de statusbalk.
 ![Schermopname van een vertrouwelijkheidslabel op de statusbalk in Desktop.](media/service-security-apply-data-sensitivity-labels/sensitivity-label-in-desktop-status-bar.png)
 
 ### <a name="sensitivity-labels-when-uploading-or-downloading-pbix-files-tofrom-the-service"></a>Vertrouwelijkheidslabel bij het uploaden of downloaden van PBIX-bestanden naar/van de service
-* Wanneer u een PBIX-bestand publiceert naar de Power BI-service vanuit Desktop of wanneer u rechtstreeks een PBIX-bestand uploadt naar de Power BI-service met behulp van **Gegevens ophalen**, wordt het label van het PBIX-bestand toegepast op het rapport en de gegevensset die in de service zijn gemaakt. Als het PBIX-bestand dat u publiceert of uploadt bestaande assets vervangt (dat wil zeggen assets die dezelfde naam hebben als het PBIX-bestand), worden de labels op deze assets overschreven door het label van het PBIX-bestand.
+* Wanneer u een PBIX-bestand publiceert naar de Power BI-service vanuit Desktop of wanneer u rechtstreeks een PBIX-bestand uploadt naar de Power BI-service met behulp van **Gegevens ophalen**, wordt het label van het PBIX-bestand toegepast op het rapport en de gegevensset die in de service zijn gemaakt. Als het PBIX-bestand dat u publiceert of uploadt bestaande assets vervangt (dat wil zeggen assets die dezelfde naam hebben als het PBIX-bestand), worden de labels op deze assets overschreven door het label van het PBIX-bestand. Als het. pbix-bestand geen label heeft, worden de labels in de service bewaard.
 * Als u Downloaden naar PBIX gebruikt in de Power BI-service en als het rapport en de gegevensset die worden gedownload beide labels bevatten en deze labels verschillend zijn, is het label dat wordt toegepast op het PBIX-bestand de meer beperkende van de twee.
 
 ## <a name="remove-sensitivity-labels"></a>Vertrouwelijkheidslabels verwijderen

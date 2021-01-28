@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 10/15/2019
-ms.openlocfilehash: 7aeae77efeadfa3b39f9c39cadc36b2a046286b2
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.openlocfilehash: 0f9edc247401ccf72ec1a5b0aebb5b3a074a5494
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888568"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925720"
 ---
 # <a name="model-relationships-in-power-bi-desktop"></a>Modelrelaties in Power BI Desktop
 
@@ -53,7 +53,7 @@ Een modelrelatie verbindt één kolom in een tabel met één kolom in een andere
 
 ### <a name="cardinality"></a>Kardinaliteit
 
-Elke modelrelatie moet worden gedefinieerd met een type kardinaliteit. Er zijn vier opties voor het type kardinaliteit, die de gegevenskenmerken van de gerelateerde kolommen 'van' en 'aan' vertegenwoordigen. De 'een'-zijde betekent dat de kolom unieke waarden bevat. De 'twee'-zijde betekent dat de kolom dubbele waarden kan bevatten.
+Elke modelrelatie moet worden gedefinieerd met een type kardinaliteit. Er zijn vier opties voor het type kardinaliteit, die de gegevenskenmerken van de gerelateerde kolommen 'van' en 'aan' vertegenwoordigen. De ' een' ' betekent dat de kolom unieke waarden bevat. de ' veel'-zijde betekent dat de kolom dubbele waarden kan bevatten.
 
 > [!NOTE]
 > Als een bewerking voor gegevensvernieuwing probeert dubbele waarden te laden in een kolom met een 'een'-zijde, mislukt de volledige gegevensvernieuwing.

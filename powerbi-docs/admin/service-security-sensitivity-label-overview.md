@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: df109f279a43826e164a461ae213bc74c0498cea
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 52c3d5dea171f34fbbe5133eda6fd51fd471bbd4
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565035"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925676"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels in Power BI
 
@@ -202,6 +202,8 @@ Voor toegang tot vertrouwelijkheidslabels in deze centra navigeert u naar **Clas
 * **Exporteren naar PDF** biedt geen ondersteuning voor vertrouwelijkheidslabels. Als u een bestand dat een vertrouwelijkheidslabel bevat, exporteert naar de PDF-indeling, wordt het label niet overgedragen op het PDF-bestand en is er geen beveiliging toegepast.
 
 * Gegevensbeveiliging in Power BI Desktop biedt geen ondersteuning voor **B2B** en **scenario's met meerdere tenants**.
+
+* Als u een gegevensset met een label of rapport in de service overschrijft met een niet-gelabeld. pbix-bestand, blijven de labels in de service behouden.
 
 ## <a name="next-steps"></a>Volgende stappen
 

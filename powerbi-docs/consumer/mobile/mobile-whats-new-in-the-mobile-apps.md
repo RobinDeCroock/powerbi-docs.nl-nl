@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/17/2020
-ms.openlocfilehash: 8301b51ccbb2ac344e24a297f9a309fc3601b3e1
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 4a50d35ee3aa25932537846a13fc2d75c6fa38df
+ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565582"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98925802"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,10 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="january-2021"></a>Januari 2021
+### <a name="workspace-support-with-a-power-bi-free-license"></a>Ondersteuning voor werk ruimten met een gratis licentie voor Power BI
+Gebruikers met een Power BI gratis licentie kunnen nu werk ruimten weer geven en openen waar ze rechtstreeks als viewers zijn toegevoegd vanuit de lijst met werk ruimten. Deze wijziging is van toepassing op inhoud die wordt gehost op een Power BI Premium capaciteit.
 
 ## <a name="december-2020"></a>December 2020
 ### <a name="weve-added-anomaly-detection-to-the-mobile-apps"></a>Er is anomaliedetectie toegevoegd aan de mobiele apps
