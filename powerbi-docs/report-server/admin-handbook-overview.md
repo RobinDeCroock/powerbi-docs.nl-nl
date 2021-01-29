@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: a1c8e11fbf3b157a0d9fc1a897347875b82226fa
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 9b4b7557a977c5975920e0ef414b7daf8183c062
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96387253"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044236"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Beheeroverzicht voor Power BI Report Server
 Dit artikel bevat het beheeroverzicht voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren. In dit artikel maakt u kennis met concepten van planning, implementatie en beheer van uw Power BI Report Server, met koppelingen naar meer informatie.
@@ -46,7 +46,7 @@ Beveiliging en bescherming zijn belangrijk voor elke organisatie. Meer informati
 ## <a name="next-steps"></a>Volgende stappen
 [Power BI Report Server installeren](install-report-server.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
-[Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
+[Power BI Desktop voor Power BI Report Server installeren](install-powerbi-desktop.md)  
 [Report Builder downloaden](https://www.microsoft.com/download/details.aspx?id=53613)  
 [SQL Server Data Tools (SSDT) downloaden](/sql/ssdt/download-sql-server-data-tools-ssdt)
 

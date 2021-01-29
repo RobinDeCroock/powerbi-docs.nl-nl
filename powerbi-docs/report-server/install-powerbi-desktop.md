@@ -1,6 +1,6 @@
 ---
-title: Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
-description: Meer informatie over het installeren van een voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop
+title: Power BI Desktop voor Power BI Report Server installeren
+description: Meer informatie over het installeren van Power BI Desktop voor Power BI Report Server
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -8,22 +8,22 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/16/2020
-ms.openlocfilehash: 62add0b1268b06bb227bdc1b8ec2e4ae59358c57
-ms.sourcegitcommit: a5fa368abad54feb44a267fe26c383a731c7ec0d
-ms.translationtype: HT
+ms.openlocfilehash: 068d4a025bda878899e2d54f93bc56eaea336f3e
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93044758"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044075"
 ---
-# <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren
+# <a name="install-power-bi-desktop-for-power-bi-report-server"></a>Power BI Desktop voor Power BI Report Server installeren
 
 Als u Power BI-rapporten wilt maken voor Power BI Report Server, moet u de versie van Power BI Desktop downloaden en installeren die is geoptimaliseerd voor Power BI Report Server. Dit is een andere versie van Power BI Desktop dan de versie die wordt gebruikt met de Power BI-service. De versie van Power BI Desktop voor de Power BI-service bevat bijvoorbeeld preview-functies. Deze functies bevinden zich niet in de Power BI Report Server-versie totdat ze algemeen beschikbaar zijn. Als u deze versie gebruikt, moet u ervoor zorgen dat de rapportserver kan werken met een bekende versie van de rapporten en het model. 
 
-Maak u geen zorgen. U kunt Power BI Desktop en de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop naast elkaar op dezelfde computer installeren.
+Maak u geen zorgen. U kunt Power BI Desktop en Power BI Desktop voor Power BI Report Server, naast elkaar op dezelfde computer installeren.
 
 ## <a name="download-and-install-power-bi-desktop"></a>Power BI Desktop downloaden en installeren
 
-U kunt het snelste controleren of u over de meest recente versie van de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop beschikt, is door te starten vanuit de webportal van de rapportserver.
+De eenvoudigste manier om ervoor te zorgen dat u de meest recente versie van Power BI Desktop voor Power BI Report Server kunt starten vanuit de webportal van de rapport server.
 
 1. Selecteer in de webportal van report server de pijl **Downloaden** > **Power BI Desktop**.
 
@@ -45,16 +45,16 @@ U kunt het snelste controleren of u over de meest recente versie van de voor Pow
     Het programma wordt automatisch gestart en u kunt aan de slag.
 
 ## <a name="verify-youre-using-the-correct-version"></a>Controleer of u de juiste versie gebruikt
-U kunt eenvoudig controleren of u de juiste versie van Power BI Desktop gebruikt: Bekijk het beginscherm of de titelbalk in Power BI Desktop. U hebt de juiste versie als **Power BI Desktop (oktober 2020)** wordt vermeld in de titelbalk. De kleuren in het Power BI-logo zijn ook omgekeerd: geel op zwart in plaats van zwart op geel.
+U kunt eenvoudig controleren of u de juiste versie van Power BI Desktop gebruikt: Bekijk het beginscherm of de titelbalk in Power BI Desktop. U hebt de juiste versie omdat **Power bi Desktop (januari 2021)** of hoger is in de titel balk. De kleuren in het Power BI-logo zijn ook omgekeerd: geel op zwart in plaats van zwart op geel.
 
-![Power BI Desktop oktober 2020](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
+![Power BI Desktop januari 2021](media/install-powerbi-desktop/power-bi-report-server-desktop.png)
 
 Voor de versie van Power BI Desktop voor de Power BI-service worden de maand en het jaar niet in de titelbalk weergegeven.
 
 ## <a name="file-extension-association"></a>Bestandsindelingen kopppelen
-Stel dat u zowel Power BI Desktop als de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop op dezelfde computer hebt geïnstalleerd. De meest recente installatie van Power BI Desktop heeft de bestandskoppeling met PBIX-bestanden. Wanneer u dubbelklikt op een pbix-bestand, wordt de Power BI Desktop-versie die u het meest recent hebt geïnstalleerd, geopend.
+Stel dat u zowel Power BI Desktop als Power BI Desktop voor Power BI Report Server op dezelfde computer hebt geïnstalleerd. De meest recente installatie van Power BI Desktop heeft de bestandskoppeling met PBIX-bestanden. Wanneer u dubbelklikt op een pbix-bestand, wordt de Power BI Desktop-versie die u het meest recent hebt geïnstalleerd, geopend.
 
-Als u Power BI Desktop hebt en u daarna de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeert, worden alle pbix-bestanden standaard geopend in de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop. Als u .pbix-bestanden liever standaard opent met Power BI Desktop, installeert u [Power BI Desktop opnieuw vanuit de Microsoft Store](https://aka.ms/pbidesktopstore).
+Als u Power BI Desktop hebt en vervolgens Power BI Desktop voor Power BI Report Server installeert, worden alle pbix-bestanden standaard in Power BI Desktop voor Power BI Report Server geopend. Als u .pbix-bestanden liever standaard opent met Power BI Desktop, installeert u [Power BI Desktop opnieuw vanuit de Microsoft Store](https://aka.ms/pbidesktopstore).
 
 U kunt ook eerst de versie van Power BI Desktop die u wilt gebruiken openen. En daarna opent u het bestand vanuit Power BI Desktop.
 
@@ -66,14 +66,13 @@ Power BI-rapporten in Power BI Report Server, in de Power BI-service (`https://a
 
 ### <a name="selecting-a-language"></a>Een taal selecteren
 
-Voor Power BI Desktop geoptimaliseerd voor Power BI Report Server selecteert u de taal wanneer u de app installeert. U kunt deze later niet meer wijzigen, maar u kunt een versie in een andere taal installeren.
+Voor Power BI Desktop voor Power BI Report Server selecteert u de taal wanneer u de app installeert. U kunt deze later niet meer wijzigen, maar u kunt een versie in een andere taal installeren.
 
 ### <a name="report-visuals-in-a-browser"></a>Rapportvisuals in een browser
 
 Power BI Report Server-rapporten ondersteunen bijna alle visualisaties, met inbegrip van Power BI-visuals. Rapporten voor Power BI Report Server bieden geen ondersteuning voor:
 
 * R-visuals
-* ArcGIS-kaarten
 * Breadcrumbs
 * Preview-functies in Power BI Desktop
 
@@ -88,14 +87,13 @@ Rapporten voor Power BI Report Server ondersteunen alle basisfunctionaliteit in 
 Rapporten voor Power BI Report Server bieden geen ondersteuning voor deze functies in de mobiele Power BI-apps:
 
 * R-visuals
-* ArcGIS-kaarten
 * Power BI-visuals
 * Breadcrumbs
 * Het filteren van geografische gebieden of streepjescodes
 
 ### <a name="custom-security"></a>Aangepaste beveiliging
 
-Power BI Desktop geoptimaliseerd voor Power BI Report Server biedt geen ondersteuning voor aangepaste beveiliging. Als uw Power BI Report Server is geconfigureerd met een aangepaste beveiligingsextensie, kunt u een Power BI-rapport niet opslaan vanaf Power BI Desktop (geoptimaliseerd voor Power BI Report Server) naar het Power BI Report Server-exemplaar. U moet het .pbix-rapport bestand opslaan vanuit Power BI Desktop en dit uploaden naar de Power BI Report Server-portal-site.
+Power BI Desktop voor Power BI Report Server biedt geen ondersteuning voor aangepaste beveiliging. Als uw Power BI Report Server is geconfigureerd met een aangepaste beveiligingsextensie, kunt u een Power BI-rapport niet opslaan vanaf Power BI Desktop (geoptimaliseerd voor Power BI Report Server) naar het Power BI Report Server-exemplaar. U moet het .pbix-rapport bestand opslaan vanuit Power BI Desktop en dit uploaden naar de Power BI Report Server-portal-site.
 
 ### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>Rapporten in Power BI Report Server opslaan in een ander domein
 

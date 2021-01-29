@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
-ms.openlocfilehash: 85fcd6249a833c35cb98fca6abf2881ab1a4bf7e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: e66b15498f7ba66005448d88dc26cf715947f7da
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418412"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043878"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Zelfstudie: de webportal van Power BI Report Server in een VM verkennen
 In deze zelfstudie maakt u een virtuele Azure-machine met Power BI Report Server dat al is geïnstalleerd, zodat u voorbeeldexemplaren van Power BI- en gepagineerde rapporten en KPI's kunt bekijken, bewerken en beheren.
@@ -103,7 +103,7 @@ Als de VM wordt geopend, vindt u hier de items die u op het bureaublad ziet.
 |---------|---------|
 |![Nummer 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Power BI-voorbeeldrapporten (PBIX) |
 |![Nummer 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Koppelingen naar documentatie van Power BI Report Server |
-|![Nummer 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Hiermee wordt een versie van Power BI Desktop gestart die is geoptimaliseerd voor Power BI Report Server (januari 2019) |
+|![Nummer 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Start Power BI Desktop voor Power BI Report Server (januari 2021) |
 |![Nummer 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Hiermee wordt de webportal van Power BI Report Server in de browser geopend |
 |![Nummer 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Hiermee wordt SQL Server Data Tools gestart om gepagineerde (RDL) rapporten te maken |
 
@@ -162,7 +162,7 @@ In de webportal kunt u Power BI-rapporten bekijken en ermee werken en u kunt Pow
 
 1. Selecteer **Toestaan** zodat deze website een programma op uw computer kan openen. 
 
-     Het rapport wordt geopend in Power BI Desktop. Let op de naam in de bovenste balk: 'Power BI Desktop (January March 2019)'. Dat is de versie die is geoptimaliseerd voor Power BI Report Server.
+     Het rapport wordt geopend in Power BI Desktop. Noteer de naam in de bovenste balk, "Power BI Desktop (januari 2021)". Dat is de versie die is geoptimaliseerd voor Power BI Report Server.
 
     Gebruik de versie van Power BI Desktop die is geïnstalleerd op de VM. U kunt niet wisselen tussen domeinen voor het uploaden van een rapport.
 

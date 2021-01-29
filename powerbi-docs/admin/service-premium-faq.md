@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 8fad09221caafd66467e8e183304ab408b803720
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 51c006a076a34764791a7da6f952b416b89e6a5a
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412202"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043063"
 ---
 # <a name="power-bi-premium-faq"></a>Veelgestelde vragen over Power BI Premium
 
@@ -61,7 +61,7 @@ De volgende voorbeelden laten zien hoe klanten hun wensen op het gebied van BI k
 | **Oplossing:**<br/><br/>1. Power BI Pro voor elke gebruiker<br/><br/>2. Onderzoek de mogelijkheid of het zinvol is om Power BI Premium toe te voegen: zie de overige scenario's |**Oplossing:**<br/><br/>1. Power BI Pro voor gebruikers die selfservice-BI en samenwerking nodig hebben<br/><br/>2. Power BI Premium toevoegen om BI-inhoud te kunnen distribueren naar gebruikers die deze alleen hoeven te raadplegen |**Oplossing:**<br/><br/>1. Power BI Pro voor gebruikers die selfservice-BI en samenwerking nodig hebben<br/><br/>2. Power BI Premium toevoegen om rapporten on-premises te kunnen publiceren, en indien nodig naar de cloud te verplaatsen |**Oplossing:**<br/><br/>1. Power BI Pro voor elke gebruiker op de financiële afdeling<br/><br/>2. Power BI Premium toevoegen voor de toegewezen resources, in de cloud, voor exclusief gebruik door het financiële team om zo een grotere schaal en betere prestaties te bieden |
 
 **Wat kost Power BI Premium? Hoeveel SKU's worden er beschikbaar gesteld?**  
-Power BI Premium wordt gekocht op basis van het aantal virtuele kernen. Informatie over prijzen vindt u op de [pagina met prijzen van Power BI](https://powerbi.microsoft.com/pricing/). Meer informatie over knooppunten en virtuele kernen vindt u in dit Engelstalige [document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper). Gebruik deze [calculator](https://powerbi.microsoft.com/calculator/) om een schatting te maken van de Premium-capaciteit die u nodig hebt.
+Power BI Premium wordt gekocht op basis van het aantal virtuele kernen. Informatie over prijzen vindt u op de [pagina met prijzen van Power BI](https://powerbi.microsoft.com/pricing/). Meer informatie over knooppunten en virtuele kernen vindt u in dit Engelstalige [document over Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper).
 
 **Wat wordt er bedoeld met 'capaciteit'?**  
 Een capaciteit is een hoeveelheid rekenkracht die voor uw organisatie is gereserveerd voor het gebruik van Power BI. Deze capaciteit wordt ingericht door een servicebeheerder via de Power BI Premium-beheerportal, op de pagina **Capaciteitsbeheer** .
@@ -71,9 +71,6 @@ Power BI Premium wordt maandelijks gefactureerd en de abonnementstermijn bedraag
 
 **Hoe kan ik Power BI Premium kopen?**  
 Power BI Premium is beschikbaar vanuit het Microsoft 365-beheercentrum. Zie [Power BI Premium kopen](service-admin-premium-purchase.md) voor meer informatie. U kunt ook contact opnemen met uw Microsoft-vertegenwoordiger voor meer informatie.
-
-**Hoe weet ik hoeveel Power BI Premium-capaciteit ik nodig heb?**  
-Gebruik deze [kostencalculator](https://powerbi.microsoft.com/calculator/) om een schatting te maken van de hoeveelheid Power BI Premium-capaciteit die u nodig hebt.
 
 **Is Power BI Premium beschikbaar met Office 365 E5?**  
 Power BI Premium is beschikbaar als een invoegtoepassing voor Power BI Pro. Office 365 E5 bevat Power BI Pro. E5-klanten kunnen Premium kopen als een invoegtoepassing voor hun bestaande Pro-licenties.

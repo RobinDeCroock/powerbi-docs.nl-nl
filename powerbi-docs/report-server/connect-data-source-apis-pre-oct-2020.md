@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 72b81f10b6337530ab05f1fcef0a17a5869af867
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: f0dd30e721d8325fdbfd8b562083fbedef2af9c0
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226738"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044190"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server-pre-october-2020"></a>De verbindingsreeksen wijzigen voor gegevensbronnen in Power BI-rapporten met PowerShell - Power BI Report Server vóór oktober 2020
 
@@ -21,7 +21,7 @@ ms.locfileid: "98226738"
 U kunt de verbindingsreeks van gegevensbronnen wijzigen van Power BI-rapporten die worden gehost in Power BI Report Server door PowerShell te gebruiken om met de nodige API's te communiceren. 
 
 > [!IMPORTANT]
-> Raadpleeg [De verbindingsreeksen wijzigen voor gegevensbronnen in Power BI-rapporten met PowerShell - Power BI Report Server](connect-data-source-apis.md) als u de meest recente versie van Power BI Report Server (oktober 2020) gebruikt.
+> Als u de nieuwste versie van Power BI Report Server gebruikt, raadpleegt u [verbindings reeksen voor gegevens bronnen wijzigen in Power bi rapporten met Power shell-Power bi Report Server](connect-data-source-apis.md).
 
 > [!NOTE]
 > Deze functionaliteit werkt momenteel alleen voor DirectQuery. Binnenkort is ondersteuning beschikbaar voor importeren en gegevens vernieuwen.

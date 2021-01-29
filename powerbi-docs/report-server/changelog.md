@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: 51df40463a02c2c165ca6cde59ef2b16cda8860c
-ms.sourcegitcommit: f791eef8e885f18c48997c9af63ab56211f1ceb8
-ms.translationtype: HT
+ms.date: 01/28/2021
+ms.openlocfilehash: d7fc9437af37052e95eaa771aab98f1331227c14
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/09/2021
-ms.locfileid: "98053323"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044213"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -21,6 +21,22 @@ Dit is een wijzigingenlogboek voor Power BI Report Server met een overzicht van 
 
 Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informatie over nieuwe functies. 
 
+
+## <a name="january-2021"></a>Januari 2021
+- **Power BI Report Server**
+    - *Versie: 1.10.7698.12811 (build 15.0.1105.194), uitgebracht: 21 januari 2021*
+        - Functies
+            - Nieuwe pictogrammen releate Power BI en Power BI rapporten.
+            - Er is een nieuwe preview-versie van de portal toegevoegd achter de functie Switch UsePortalV2 in de ConfigurationInfo-tabel van de Report Server-catalogus.
+        - Opgeloste fouten
+            - Probleem opgelost met geplande vernieuwing van Power BI rapporten met bepaalde modellen met verbeterde meta gegevens van het model.
+            - Probleem met het bewerken van gegevensgestuurde abonnementen in de portal.
+        - Beveiligingsupdates
+
+- **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
+   - *Versie: 2.88.1382.0 (januari 2021), uitgebracht: 21 januari 2021* (nieuwe build en nieuwe versie)
+        - Bevat wijzigingen die zijn vereist voor de verbinding met Power BI Report Server (januari 2021)        
+   
 ## <a name="october-2020"></a>Oktober 2020
 - **Power BI Report Server**
     - *Versie: 1.9.7675.15620 (build 15.0.1104.300), uitgebracht: 8 januari 2021*

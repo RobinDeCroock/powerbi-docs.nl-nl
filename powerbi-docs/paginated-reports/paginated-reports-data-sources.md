@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 01/21/2021
-ms.openlocfilehash: abb91ef54167f4a7d50f2dc36e23b2fc5833a65d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.date: 01/27/2021
+ms.openlocfilehash: c544126132ce18d8093f8c07359418f2052e9c74
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687460"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044397"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Ondersteunde gegevensbronnen voor gepagineerde rapporten in Power BI
 
@@ -33,6 +33,7 @@ Gepagineerde rapporten bieden inherente ondersteuning voor de volgende lijst met
 | Power BI-gegevensset | SSO | Premium Power BI-gegevenssets en andere Power BI-gegevenssets. Hiervoor is leesmachtiging vereist. Alleen de modus voor importeren en DirectQuery Power BI-gegevenssets worden ondersteund. |
 | Premium-Power BI-gegevensset (XMLA) | SSO | Power BI-gegevenssets worden niet ondersteund als gegevensbron voor ingesloten gepagineerde rapporten in scenario's waarin de app eigenaar van de gegevens is.  Zorg ervoor dat de optie **referenties niet gebruiken** is geselecteerd bij het instellen van de gegevens bron om ervoor te zorgen dat de juiste connectiviteit in Power bi Report Builder.<br />Toegang via het XMLA respecteert het lidmaatschap van de beveiligings groep die is ingesteld op het niveau van de werk ruimte of app.<br />Gebruikers met ten minste een [rol Inzender in een werk ruimte](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces) kunnen gepagineerde rapporten met Premium-Power BI gegevens sets weer geven. Andere gebruikers moeten [beschikken over de machtiging bouwen voor de onderliggende gegevens sets](../connect-data/service-datasets-build-permissions.md).    |
 | Gegevens invoeren | N.v.t. | Gegevens zijn in het rapport ingesloten. |
+| Dataverse | SSO, OAuth2 | Kan geen gateway gebruiken als multi-factor Authentication (MFA) niet wordt ondersteund.
 
 Met uitzondering van Azure SQL Database zijn alle gegevensbronnen gereed voor gebruik nadat u het rapport hebt geüpload naar de Power BI-service. Voor de gegevensbronnen wordt standaard gebruikgemaakt van eenmalige aanmelding (SSO), indien van toepassing. Voor Azure Analysis Services kunt u het verificatietype wijzigen in OAuth2. Wanneer u het verificatietype voor een bepaalde gegevensbron echter wijzigt in OAuth2, kunt u dit niet meer ongedaan maken om opnieuw SSO te gebruiken.  Deze wijziging is bovendien van toepassing op alle rapporten die gebruikmaken van die gegevensbron in alle werkruimten voor een bepaalde tenant.  Beveiliging op rijniveau in gepagineerde rapporten werkt niet, tenzij gebruikers SSO kiezen als verificatietype.
 

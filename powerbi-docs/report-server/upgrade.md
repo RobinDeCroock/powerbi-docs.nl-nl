@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/22/2020
-ms.openlocfilehash: 890b3c8124cc1711e08415cdcfda1f51b548fa63
-ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
-ms.translationtype: HT
+ms.openlocfilehash: 68494784e3c5b21c0c3e15bd5a3a816fd07e5f8b
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91983063"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043546"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Een upgrade uitvoeren voor Power BI Report Server
 
@@ -22,7 +22,7 @@ Leer hoe u een upgrade uitvoert voor Power BI Report Server.
 
  **Downloaden** ![pictogram downloaden](media/upgrade/download.png "pictogram downloaden")
 
-Ga naar [On-premises rapportage met de Power BI Report Server](https://powerbi.microsoft.com/report-server/) om Power BI Report Server en de geoptimaliseerde versie van Power BI Desktop voor Power BI Report Server te downloaden.
+Ga naar [on-premises rapportage met Power bi Report Server](https://powerbi.microsoft.com/report-server/)om Power bi Report Server te downloaden en Power BI Desktop voor Power bi Report Server.
 
 ## <a name="before-you-begin"></a>Voordat u begint
 
@@ -64,7 +64,7 @@ U kunt vrij eenvoudig een upgrade voor Power BI Reports Server uitvoeren. U hoef
 
     ![Een upgrade uitvoeren van Power BI Report Server](media/upgrade/reportserver-upgrade1.png "Een upgrade uitvoeren voor Power BI Report Server")
 
-3. Lees de licentievoorwaarden, ga hiermee akkoord en selecteer vervolgens**Upgrade uitvoeren**.
+3. Lees de licentievoorwaarden, ga hiermee akkoord en selecteer vervolgens **Upgrade uitvoeren**.
 
     ![Gebruiksrechtovereenkomst](media/upgrade/reportserver-upgrade-eula.png "Gebruiksrechtovereenkomst")
 
@@ -82,12 +82,12 @@ Power BI Report Server ontvangt beveiligingspatches via Microsoft Update. Als u 
 
 ## <a name="upgrade-power-bi-desktop"></a>Een upgrade uitvoeren voor Power BI Desktop
 
-Nadat u een upgrade hebt uitgevoerd voor de rapportserver, moet u ervoor zorgen dat alle ontwerpers van Power BI-rapporten upgraden naar de versie van Power BI Desktop die is geoptimaliseerd voor Power BI Report Server die overeenkomt met de server.
+Nadat u een upgrade van de rapport server hebt uitgevoerd, moet u ervoor zorgen dat alle Power BI rapport auteurs upgraden naar de versie van Power BI Desktop voor Power BI Report Server die overeenkomt met de-server.
 
 ## <a name="next-steps"></a>Volgende stappen
 
 * [Administratoroverzicht](admin-handbook-overview.md)  
-* [Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren](install-powerbi-desktop.md)  
+* [Power BI Desktop voor Power BI Report Server installeren](install-powerbi-desktop.md)  
 * [Een installatie van Reporting Services verifiëren](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 * [Het serviceaccount van de rapportserver configureren](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 * [De URL's van de rapportserver configureren](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  

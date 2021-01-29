@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: 698f12f4bf5266373be8393d2add45d70979ab41
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 8141b5049d777d27208e2db4b026a3fad4b74cfe
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96418435"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043109"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Een Power BI Report Server-rapport insluiten met behulp van een iFrame in SharePoint Server
 
@@ -23,7 +23,7 @@ In dit artikel leert u hoe u een Power BI Report Server-rapport insluit met behu
 
 ## <a name="prerequisites"></a>Vereisten
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) moet zijn geïnstalleerd en geconfigureerd.
-* [De voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop](install-powerbi-desktop.md) moet zijn geïnstalleerd.
+* [Power bi Desktop voor Power bi Report Server](install-powerbi-desktop.md) geïnstalleerd.
 * Er moet een [SharePoint 2013-, 2016- of 2019-omgeving](/sharepoint/install/install) zijn geïnstalleerd en geconfigureerd.
 * Internet Explorer 11 wordt alleen ondersteund als de documentmodus is ingesteld op de modus IE11 (Edge) of bij het gebruik van SharePoint Online. U kunt andere ondersteunde browsers gebruiken met SharePoint on-premises en SharePoint Online.
 
@@ -33,7 +33,7 @@ In dit artikel leert u hoe u een Power BI Report Server-rapport insluit met behu
 
     ![PBIX-voorbeeldbestand downloaden](media/quickstart-embed/quickstart_embed_14.png)
 
-2. Pak het bestand uit en open het PBIX-voorbeeldbestand in de voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop.
+2. Pak het bestand uit en open het pbix-voorbeeld bestand in Power BI Desktop voor Power BI Report Server.
 
     ![PBI RS Desktop-tool](media/quickstart-embed/quickstart_embed_02.png)
 

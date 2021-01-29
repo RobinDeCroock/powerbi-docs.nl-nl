@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.openlocfilehash: d485c7ab7583d2604cd9da9e4c122c6cceeeb4fe
-ms.sourcegitcommit: 8afdd3601209636c9ab92d75f967d4ee0a2cab26
-ms.translationtype: HT
+ms.openlocfilehash: 8fbe19beddbb95b27828ee1fae73860fe92e6b4f
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "95011994"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044149"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Overzicht van het ontwikkelaarshandboek voor Power BI Report Server
 
 Welkom bij het ontwikkelaarshandboek voor Power BI Report Server, een on-premises locatie om uw Power BI-rapporten, mobiele rapporten en gepagineerde rapporten op te slaan en te beheren.
 
-![Handboek voor beheerders](media/developer-handbook-overview/admin-handbook.png)
+![Overzicht van Power BI Report Server.](media/admin-handbook-overview/admin-handbook.png)
 
 In dit handboek worden de opties besproken waarover u als ontwikkelaar beschikt om te werken met Power BI Report Server.
 

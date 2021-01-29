@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 01/28/2021
 LocalizationGroup: Premium
-ms.openlocfilehash: 597ae36aaddcbabbedcd084061410dab9334a702
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 9e0cd283728afad43ddf37f765b1fda66c300270
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413582"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99043408"
 ---
 # <a name="purchase-power-bi-premium-for-testing"></a>Power BI Premium kopen om te testen
 
 In dit artikel wordt beschreven hoe Power BI Premium A SKU's kunnen worden aangeschaft voor het testen van scenario's en voor gevallen waarin u niet over de benodigde machtigingen beschikt om P SKU's aan te schaffen (de rollen Globale Microsoft 365-beheerder of Factureringsbeheerder). Voor A SKU's zijn geen tijdtoezegging vereist. Ze worden per uur gefactureerd. U koopt A SKU's in [Azure Portal](https://portal.azure.com).
 
-Zie [Wat is Power BI Premium?](service-premium-what-is.md) voor meer informatie over Power BI Premium. Zie de [pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/) en de [Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/) voor informatie over de huidige prijzen en de planning. Ook als uw organisatie gebruikmaakt van Power BI Premium hebben makers van inhoud een [Power BI Pro-licentie](service-admin-purchasing-power-bi-pro.md) nodig. Zorg ervoor dat u ten minste één Power BI Pro-licentie voor uw organisatie koopt. Met A SKU's hebben _alle gebruikers_ die inhoud gebruiken ook Pro-licenties nodig.
+Zie [Wat is Power BI Premium?](service-premium-what-is.md) voor meer informatie over Power BI Premium. Zie de [pagina met prijzen voor Power bi](https://powerbi.microsoft.com/pricing/)voor actuele prijzen en plannings informatie. Ook als uw organisatie gebruikmaakt van Power BI Premium hebben makers van inhoud een [Power BI Pro-licentie](service-admin-purchasing-power-bi-pro.md) nodig. Zorg ervoor dat u ten minste één Power BI Pro-licentie voor uw organisatie koopt. Met A SKU's hebben _alle gebruikers_ die inhoud gebruiken ook Pro-licenties nodig.
 
 > [!NOTE]
 > Als een Premium-abonnement verloopt, houdt u dertig dagen volledige toegang tot uw capaciteit. Daarna keert uw inhoud terug naar een gedeelde capaciteit. Modellen groter dan 1 GB worden niet ondersteund in gedeelde capaciteit.
@@ -92,7 +92,6 @@ Nadat u capaciteit hebt aangeschaft, leert u hoe u [capaciteit kunt beheren](ser
 [Power BI Premium aanschaffen](service-admin-premium-purchase.md)
 [Capaciteiten in Power BI Premium configureren en beheren](service-admin-premium-manage.md)\
 [Pagina met Power BI-prijzen](https://powerbi.microsoft.com/pricing/)\
-[Power BI Premium-rekenmachine](https://powerbi.microsoft.com/calculator/)\
 [Veelgestelde vragen over Power BI Premium](service-premium-faq.md)\
 [Een technisch document over een Power BI-implementatie voor de onderneming plannen](https://aka.ms/pbienterprisedeploy)
 

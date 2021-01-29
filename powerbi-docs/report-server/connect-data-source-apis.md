@@ -8,24 +8,24 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 10/26/2020
-ms.openlocfilehash: 4e1947abe0fa0f17e1db92619f0aa7fba5df5575
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b7f431ba6b8f559380916c17689d0eab74a0c9a7
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415468"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044305"
 ---
 # <a name="change-data-source-connection-strings-in-power-bi-reports-with-powershell---power-bi-report-server"></a>Wijzig de verbindingsreeksen voor gegevensbronnen in Power BI-rapporten met PowerShell - Power BI Report Server
 
 
-Vanaf de release van Power BI Report Server in oktober 2020 schakelen we de mogelijkheid in om verbindingen bij te werken voor Power BI rapporten voor DirectQuery en Refresh.
+Vanaf de versie oktober 2020 van Power BI Report Server hebben we de mogelijkheid ingeschakeld voor het bijwerken van verbindingen voor Power BI rapporten voor DirectQuery en vernieuwen.
 
 > [!IMPORTANT]
 > Dit is ook een belangrijke wijziging ten opzichte van de manier waarop u dit in eerdere releases kunt instellen. Raadpleeg [De verbindingsreeksen wijzigen voor gegevensbronnen in Power BI-rapporten met PowerShell - Power BI Report Server vóór oktober 2020](connect-data-source-apis-pre-oct-2020.md) als u een versie van Power BI Report Server van vóór oktober 2020 gebruikt
 
 ## <a name="prerequisites"></a>Vereisten:
-- Download de release [Power BI Report Server en Power BI Desktop geoptimaliseerd voor Power BI Report Server](https://powerbi.microsoft.com/report-server/) van oktober 2020.
-- Een rapport dat is opgeslagen met de versie van Power BI Desktop geoptimaliseerd voor Report Server van oktober 2020, waarbij **Verbeterde metagegevens van gegevensset** is ingeschakeld.
+- Down load de release van Power BI Report Server van oktober 2020 of nieuwer [en Power bi Desktop voor Power bi Report Server](https://powerbi.microsoft.com/report-server/).
+- Een rapport dat is opgeslagen met de versie oktober 2020 of hoger van Power BI Desktop geoptimaliseerd voor rapport server, waarbij **verbeterde meta gegevens van gegevensset** zijn ingeschakeld.
 - Een rapport dat gebruikmaakt van verbindingen met parameters. Alleen rapporten met geparametriseerde verbindingen en databases kunnen na publicatie worden bijgewerkt.
 - In dit voorbeeld worden de PowerShell-hulpprogramma's van Reporting Services gebruikt. U kunt hetzelfde doen met behulp van de nieuwe REST API's.
 

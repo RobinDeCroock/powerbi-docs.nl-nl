@@ -7,13 +7,13 @@ ms.reviewer: swgupt
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/10/2020
-ms.openlocfilehash: cfa4b46e521079802ec87b63d6323e01213625c3
-ms.sourcegitcommit: 132b3f6ba6d2b1948ddc15969d64cf629f7fb280
-ms.translationtype: HT
+ms.date: 01/28/2021
+ms.openlocfilehash: 282700151e605bd3571847b3b75f08e65f948e08
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "94483844"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044338"
 ---
 # <a name="sample-power-bi-paginated-reports"></a>Voorbeeld van gepagineerde Power BI-rapporten
 
@@ -119,6 +119,32 @@ Verkoopprestaties van land is een voorbeeld van een zelfstandig gepagineerd rapp
 - Gegevensbalken.
 - Trendlijnen.
 - Meterpanelen.
+
+Gegevensbron: Opgenomen in het .rdl-bestand
+
+## <a name="regional-sales"></a>Regionale verkopen
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-regional-sales.png" alt-text="Scherm afbeelding van het voor beeld-Power BI gepagineerd rapport voor regionale verkopen.":::
+
+Regionale verkoop is een op zichzelf staand gepagineerd rapport voorbeeld. Het scenario voor dit rapport is dat u een pixel-perfect afdrukbaar rapport wilt weer geven van de totale omzet tegenover het quotum. De volgende kenmerken zijn beschikbaar:
+
+- Het gebruik van een para meter om de geselecteerde Details in de tabel weer te geven.
+- Kop- en voetteksten.
+- Rapportitems zoals tekstvakken, regels en rechthoeken met behulp van tijdelijke aanduidingen van expressies.
+- Meterpanelen.
+- Lijn diagram geplaatst in de tabel.
+
+Gegevensbron: Opgenomen in het .rdl-bestand
+
+## <a name="organization-expenditures"></a>Organisatie uitgaven
+
+:::image type="content" source="media/paginated-reports-samples/paginated-report-organization-expenditures.png" alt-text="Scherm afbeelding van het voor beeld-Power BI gepagineerd rapport voor organisatie-uitgaven.":::
+
+Organisatie-uitgaven zijn een op zichzelf staand gepagineerd rapport voorbeeld. Het scenario voor dit rapport is dat u een in pixels perfecte afdruk bare onkosten rapport wilt weer geven van de onkosten in uw organisatie. De volgende kenmerken zijn beschikbaar:
+
+- Kop- en voetteksten.
+- Rapportitems zoals tekstvakken, regels en rechthoeken met behulp van tijdelijke aanduidingen van expressies.
+- Grafieken zoals Treemap en Sun burst.
 
 Gegevensbron: Opgenomen in het .rdl-bestand
   

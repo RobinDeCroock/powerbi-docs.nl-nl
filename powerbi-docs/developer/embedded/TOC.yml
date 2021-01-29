@@ -96,6 +96,8 @@
               href: /rest/api/power-bi-embedded/
             - name: Power BI REST-API's
               href: /rest/api/power-bi/
+        - name: Cursus Power BI-ontwikkelaar in een dag
+          href: /power-bi/learning-catalog/developer-online-course
         - name: Power BI Embedded-gegevensverwijzing bewaken
           href: monitor-power-bi-embedded-reference.md
         - name: Power BI-bibliotheken

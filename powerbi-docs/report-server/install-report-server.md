@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/16/2020
-ms.openlocfilehash: 049f6f563c9ac6e7494b0680b69e0df8909304d4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
-ms.translationtype: HT
+ms.openlocfilehash: 3347bb18306497781ab5915225db8c3e071cfa3f
+ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861884"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "99044098"
 ---
 # <a name="install-power-bi-report-server"></a>Power BI Report Server installeren
 
@@ -152,7 +152,7 @@ Open de TCP-poort die u hebt geconfigureerd voor uw webservice-URL en webportal-
 
 [Administratoroverzicht](admin-handbook-overview.md)  
 [De productcode van uw rapportserver zoeken](find-product-key.md)  
-[Install Power BI Desktop optimized for Power BI Report Server](install-powerbi-desktop.md) (Voor Power BI Report Server geoptimaliseerde versie van Power BI Desktop installeren)  
+[Power BI Desktop voor Power BI Report Server installeren](install-powerbi-desktop.md)  
 [Een installatie van Reporting Services verifiëren](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
 [Het serviceaccount van de rapportserver configureren](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
 [De URL's van de rapportserver configureren](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
