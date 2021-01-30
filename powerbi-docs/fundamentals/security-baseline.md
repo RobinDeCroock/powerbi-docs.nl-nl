@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: a76c7f9d205fe47322768a514a1e5d89a36a2306
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: b99f6f53f64e57bc262ea5aa518efa529b73f44e
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565757"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088138"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Azure-beveiligingsbasislijn voor Power BI
 
@@ -166,7 +166,7 @@ Schakel Just-In-Time (JIT) uitgebreide toegang in voor de Power BI-beheerdersacc
 
 - [Beheerdersrollen die betrekking hebben op Power BI](../admin/service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi)
 
-- [Uitgebreid toegangsbeheer van M365](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)
+- [Uitgebreid toegangsbeheer van M365](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)
 
 - [Cloud App Security-besturingselementen in Power BI](../admin/service-security-using-microsoft-cloud-app-security-controls.md)
 
@@ -178,7 +178,7 @@ Schakel Just-In-Time (JIT) uitgebreide toegang in voor de Power BI-beheerdersacc
 
 **Richtlijnen**: Beperk het aantal accounts of rollen die zeer uitgebreide toegang hebben tot Power BI.
 
-U kunt Just-In-Time (JIT) uitgebreide toegang inschakelen met behulp van de richtlijnen voor uitgebreid toegangsbeheer van M365 die [hier](/microsoft-365/compliance/privileged-access-management-overview?amp;preserve-view=true&view=o365-worldwide)zijn te vinden.
+U kunt Just-In-Time (JIT) uitgebreide toegang inschakelen met behulp van de richtlijnen voor uitgebreid toegangsbeheer van M365 die [hier](/microsoft-365/compliance/privileged-access-management-overview?view=o365-worldwide&preserve-view=true)zijn te vinden.
 
 Meer informatie vindt u [op pagina 183](https://aka.ms/PBIEnterpriseDeploymentWP) van het document over het implementeren van Power BI Enterprise.
 
@@ -533,7 +533,7 @@ Zorg ervoor dat er schriftelijke responsplannen zijn waarin alle rollen van het 
  
 Microsoft Threat Protection analyseert correlaties en voegt alle verwante waarschuwingen van verschillende producten samen tot één incident. Microsoft Threat Protection activeert ook unieke waarschuwingen voor activiteiten die alleen als schadelijk kunnen worden geïdentificeerd op grond van het end-to-end inzicht dat Microsoft Threat Protection heeft in het hele machinepark en productarsenaal. Door dit te doen, maakt Microsoft Threat Protection het verhaal over de aanval inzichtelijker door er een bredere context aan te geven, zodat een beveiligingsanalist complexe bedreigingen voor de hele organisatie kan begrijpen en afhandelen.
 
-- [In Microsoft Threat Protection prioriteiten toekennen aan incidenten ](/microsoft-365/security/mtp/incident-queue?amp;preserve-view=true&view=o365-worldwide)
+- [In Microsoft Threat Protection prioriteiten toekennen aan incidenten ](/microsoft-365/security/mtp/incident-queue?view=o365-worldwide&preserve-view=true)
 
 **Azure Security Center-bewaking**: Niet van toepassing
 
