@@ -9,18 +9,18 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 01/10/2019
 LocalizationGroup: Data from files
-ms.openlocfilehash: 333651ad89e50a3debe73dfdafc0dced865553a5
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b339117e8cba73da35759a600d3f303b93415711
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96405440"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086392"
 ---
 # <a name="work-with-multidimensional-models-in-power-bi"></a>Werken met multidimensionale modellen in Power BI
 
 U kunt verbinding maken met multidimensionale modellen in Power BI en rapporten maken waarin allerlei soorten gegevens binnen het model worden gevisualiseerd. Wanneer u met multidimensionale modellen werkt, past Power BI regels toe op hoe gegevens worden verwerkt, gebaseerd op welke kolom is gedefinieerd als het *standaardlid*. 
 
-Wanneer u werkt met multidimensionale modellen, verwerkt Power BI gegevens uit het model op basis van waar het kolom met het **standaardlid** wordt gebruikt. Het kenmerk *standaardlid* is ingesteld in CSDL (Conceptual Schema Definition Language) voor een bepaalde kolom in een multidimensionaal model. U leert meer over het standaardlid in het [artikel over kenmerkeigenschappen](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member?view=sql-server-2017). Wanneer een DAX-query wordt uitgevoerd, wordt het standaardlid dat in het model is opgegeven, automatisch toegepast.
+Wanneer u werkt met multidimensionale modellen, verwerkt Power BI gegevens uit het model op basis van waar het kolom met het **standaardlid** wordt gebruikt. Het kenmerk *standaardlid* is ingesteld in CSDL (Conceptual Schema Definition Language) voor een bepaalde kolom in een multidimensionaal model. U leert meer over het standaardlid in het [artikel over kenmerkeigenschappen](/sql/analysis-services/multidimensional-models/attribute-properties-define-a-default-member). Wanneer een DAX-query wordt uitgevoerd, wordt het standaardlid dat in het model is opgegeven, automatisch toegepast.
 
 In dit artikel wordt beschreven hoe Power BI zich onder bepaalde omstandigheden gedraagt wanneer u met multidimensionale modellen werkt, op basis van waar het *standaardlid* is gevonden. 
 

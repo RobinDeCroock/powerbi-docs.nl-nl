@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 5845e56bdcb2257d67d541e35d26c9285a5e9319
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0184e549911afb784e06b1ee829bf113ff97e067
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408131"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086298"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>Power BI Pro-gebruikerslicenties kopen en toewijzen
 
@@ -40,7 +40,7 @@ Als u licenties wilt toewijzen in Azure Portal, moet u eigenaar zijn van het Azu
 ### <a name="purchase-licenses-in-microsoft-365"></a>Licenties kopen in Microsoft 365
 
 > [!NOTE]
-> Als u meestal licenties koopt via een volumelicentieovereenkomst, zoals een Enterprise Agreement en een factuur wilt ontvangen in plaats van te kopen met een creditcard of bankrekening, moet u de order anders indienen. Werk samen met uw Microsoft Reseller of ga door het Volume Licensing Service Center om licenties toe te voegen of te verwijderen. Zie [Abonnementslicenties](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide) voor meer informatie.
+> Als u meestal licenties koopt via een volumelicentieovereenkomst, zoals een Enterprise Agreement en een factuur wilt ontvangen in plaats van te kopen met een creditcard of bankrekening, moet u de order anders indienen. Werk samen met uw Microsoft Reseller of ga door het Volume Licensing Service Center om licenties toe te voegen of te verwijderen. Zie [Abonnementslicenties](/microsoft-365/commerce/licenses/buy-licenses) voor meer informatie.
 
 Voer de volgende stappen uit om Power BI Pro-licenties te kopen in het Microsoft 365-beheercentrum:
 

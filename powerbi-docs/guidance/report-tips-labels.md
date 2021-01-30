@@ -2,19 +2,19 @@
 title: Het gebruik van labels in Power BI rapporten optimaliseren
 description: Vier tips voor het optimaliseren van het gebruik van labels in Power BI-rapportvisuals, in Power BI Desktop of de Power BI-service.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 featuredvideoid: ywx5xUN5VQM
 ms.service: powerbi
 ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/15/2020
-ms.openlocfilehash: 13678d2163096413c1571f85690e58e8ace1cc20
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 5506511c7e63c6799a7bfde49cdef7f9ca98720c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96385899"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088276"
 ---
 # <a name="tips-to-optimize-the-use-of-labels-in-power-bi-reports"></a>Tips voor het optimaliseren van het gebruik van labels in Power BI-rapporten
 

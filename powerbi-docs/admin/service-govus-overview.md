@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/19/2021
 ms.custom: gcc
 LocalizationGroup: Get started
-ms.openlocfilehash: 06a2dff78cc2367afb153111e080e29a16fc82ab
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 93198628677966208609892ee45ea4a28932c091
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98686977"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085838"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI voor klanten uit de Amerikaanse overheid
 
@@ -66,7 +66,7 @@ Uw account is mogelijk ingesteld in meerdere clouds. Als uw account op deze mani
 
 Als u de Power BI-service wilt gebruiken, moet u verbindingen met de vereiste eindpunten op internet toestaan. Deze doelen moeten bereikbaar zijn om communicatie mogelijk te maken tussen uw eigen netwerk, Power BI en andere afhankelijke services.
 
-In de onderstaande tabel worden de vereiste eindpunten weergegeven die u aan de acceptatielijst moet toevoegen om verbinding te kunnen maken met de Power BI-service voor algemeen gebruik van de website. Deze eindpunten zijn uniek voor de cloud van de Amerikaanse overheid. Voor de Power BI-service is alleen vereist dat TCP-poort 443 is geopend voor de vermelde eindpunten. De eindpunten voor het ophalen van gegevens, dashboard- en rapportintegratie, Power BI-visuals en andere optionele services zijn niet uniek voor de cloud van de Amerikaanse overheid. Zie [Power BI-URL's toevoegen aan uw acceptatielijst](power-bi-whitelist-urls.md) om deze URL's ook toe te voegen aan de acceptatielijst.
+In de onderstaande tabel worden de vereiste eindpunten weergegeven die u aan de acceptatielijst moet toevoegen om verbinding te kunnen maken met de Power BI-service voor algemeen gebruik van de website. Deze eindpunten zijn uniek voor de cloud van de Amerikaanse overheid. Voor de Power BI-service is alleen vereist dat TCP-poort 443 is geopend voor de vermelde eindpunten. De eindpunten voor het ophalen van gegevens, dashboard- en rapportintegratie, Power BI-visuals en andere optionele services zijn niet uniek voor de cloud van de Amerikaanse overheid. Zie [Power BI-URL's toevoegen aan uw acceptatielijst](power-bi-allow-list-urls.md) om deze URL's ook toe te voegen aan de acceptatielijst.
 
 Verificatie, identiteit en beheer van Power BI is afhankelijk van de verbinding met Microsoft 365-services. U moet ook verbinding maken met Microsoft 365 om auditlogboeken weer te geven. Zie integratie van Microsoft 365 in de onderstaande tabel om de eindpunten voor deze services te identificeren.
 

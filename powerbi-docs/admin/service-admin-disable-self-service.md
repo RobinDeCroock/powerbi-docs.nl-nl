@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: ff695d49caeab7bed88b932cec6aaec11ec4df29
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 127fe9c306295619dadc9817056f76b243231093
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413674"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085999"
 ---
 # <a name="enable-or-disable-self-service-sign-up-and-purchasing"></a>Registratie en kopen via self-service in- of uitschakelen
 
@@ -44,9 +44,9 @@ Als registratie via self-service is ingeschakeld, is **AllowAdHocSubscriptions**
 
 ### <a name="before-you-begin"></a>Voordat u begint
 
-Bij deze stappen worden Azure Active Directory PowerShell-opdrachten gebruikt om de waarde van de instelling **AllowAdHocSubscriptions** te wijzigen. Deze opdrachten zijn alleen beschikbaar als de Azure AD PowerShell-module is geïnstalleerd. Zie [Aan de slag met Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7) voor meer informatie over het gebruik van PowerShell.
+Bij deze stappen worden Azure Active Directory PowerShell-opdrachten gebruikt om de waarde van de instelling **AllowAdHocSubscriptions** te wijzigen. Deze opdrachten zijn alleen beschikbaar als de Azure AD PowerShell-module is geïnstalleerd. Zie [Aan de slag met Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell) voor meer informatie over het gebruik van PowerShell.
 
-Als u de Azure AD-module wilt installeren, start u Windows PowerShell als beheerder. Zorg ervoor dat u met het lokale uitvoeringsbeleid scripts kunt uitvoeren. Als u problemen ondervindt, raadpleegt u [PowerShell-uitvoeringsbeleid](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies) voor meer informatie over het wijzigen van uw lokale beleid.
+Als u de Azure AD-module wilt installeren, start u Windows PowerShell als beheerder. Zorg ervoor dat u met het lokale uitvoeringsbeleid scripts kunt uitvoeren. Als u problemen ondervindt, raadpleegt u [PowerShell-uitvoeringsbeleid](/powershell/module/microsoft.powershell.core/about/about_execution_policies#powershell-execution-policies) voor meer informatie over het wijzigen van uw lokale beleid.
 
 Voer de volgende opdracht uit om de Azure AD-module te installeren:
 
@@ -90,9 +90,9 @@ Als aanschaffen via self-service is ingeschakeld, is **AllowSelfServicePurchase*
 
 ### <a name="before-you-begin"></a>Voordat u begint
 
-Bij deze stappen worden MSCommerce PowerShell-opdrachten gebruikt om de waarde van de **AllowSelfServicePurchase**-instelling te wijzigen. Deze opdrachten zijn alleen beschikbaar als de MSCommerce PowerShell-module is geïnstalleerd. Zie [Aan de slag met Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-7) voor meer informatie over het gebruik van PowerShell.
+Bij deze stappen worden MSCommerce PowerShell-opdrachten gebruikt om de waarde van de **AllowSelfServicePurchase**-instelling te wijzigen. Deze opdrachten zijn alleen beschikbaar als de MSCommerce PowerShell-module is geïnstalleerd. Zie [Aan de slag met Windows PowerShell](/powershell/scripting/getting-started/getting-started-with-windows-powershell) voor meer informatie over het gebruik van PowerShell.
 
-Als u de MSCommerce-module wilt installeren, start u Windows PowerShell als beheerder. Zorg ervoor dat u met het lokale uitvoeringsbeleid scripts kunt uitvoeren. Als u problemen ondervindt, raadpleegt u [PowerShell-uitvoeringsbeleid](/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7#powershell-execution-policies) voor meer informatie over het wijzigen van uw lokale beleid.
+Als u de MSCommerce-module wilt installeren, start u Windows PowerShell als beheerder. Zorg ervoor dat u met het lokale uitvoeringsbeleid scripts kunt uitvoeren. Als u problemen ondervindt, raadpleegt u [PowerShell-uitvoeringsbeleid](/powershell/module/microsoft.powershell.core/about/about_execution_policies#powershell-execution-policies) voor meer informatie over het wijzigen van uw lokale beleid.
 
 Voer de volgende opdracht uit om de MSCommerce-module te installeren:
 
@@ -128,5 +128,5 @@ Nadat deze opdracht is uitgevoerd, zijn aankopen via self-service voor Power BI 
 
 Raadpleeg de volgende artikelen voor meer informatie over aankopen via self-service in Power BI en de rest van Power Platform:
 
-- [Veelgestelde vragen over aankopen via self-service](/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide#admin-capabilities)
-- [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell?view=o365-worldwide)
+- [Veelgestelde vragen over aankopen via self-service](/microsoft-365/commerce/subscriptions/self-service-purchase-faq#admin-capabilities)
+- [AllowSelfServicePurchase gebruiken voor de MSCommerce PowerShell-module](/microsoft-365/commerce/subscriptions/allowselfservicepurchase-powershell)

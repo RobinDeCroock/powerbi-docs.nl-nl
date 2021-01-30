@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
-ms.openlocfilehash: 67a0577c906e23fc51182120f1445814bdcd8028
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.openlocfilehash: def849c9a3b867f181dbc91628260cf24491e855
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491823"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99087931"
 ---
 # <a name="power-bi-data-sources"></a>Power BI-gegevensbronnen
 
@@ -44,7 +44,7 @@ In de volgende tabel staan de gegevensbronnen die door Power BI worden ondersteu
 | Azure Table Storage | Ja | Ja | Nee | Ja | Nee | Ja |
 | BI-connector | Ja | Ja | Ja | Ja | Ja | Nee |
 | BI360 - Budgettering en financiële rapportage | Ja | Ja | Nee | Nee | Nee | Nee |
-| Microsoft Dataverse | Ja | Ja | Nee | Nee | Nee | Ja |
+| Microsoft Dataverse | Ja | Ja | Ja | Nee | Nee | Ja |
 | Data.World - Get Dataset | Ja | Ja | Nee | Nee | Nee | Nee |
 | Denodo | Ja | Ja | Ja | Ja | Ja | Nee |
 | Dremio | Ja | Ja | Ja | Ja | Ja | Nee |

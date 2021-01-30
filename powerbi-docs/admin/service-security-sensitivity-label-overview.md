@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.custom: contperf-fy21q2
 ms.date: 12/20/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: 52c3d5dea171f34fbbe5133eda6fd51fd471bbd4
-ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.openlocfilehash: 3bc9a946d8f9091f8a2939ad9865460c1f22a446
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925676"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085798"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Vertrouwelijkheidslabels in Power BI
 
@@ -34,7 +34,7 @@ De vertrouwelijkheidslabels voor Microsoft Information Protection bieden gebruik
 
 In de Power BI-service kunnen vertrouwelijkheidslabels worden toegepast op gegevenssets, rapporten, dashboards en gegevensstromen. Wanneer gelabelde gegevens Power BI verlaten, hetzij vanwege een export naar Excel-, PowerPoint-, PDF- of PBIX-bestanden, of via een ander ondersteund exportscenario, zoals Analyseren in Excel of draaitabellen in Excel voor liveverbindingen, wordt het label automatisch toegepast op het geëxporteerde bestand en wordt het label beschermd op basis van de instellingen voor bestandsversleutelings van het label. Op deze manier blijven uw gevoelige gegevens ook beschermd wanneer ze Power BI verlaten.
 
-Daarnaast kunnen vertrouwelijkheidslabels worden toegepast op PBIX-bestanden in Power BI Desktop, zodat uw gegevens en inhoud zijn beschermd wanneer ze worden gedeeld buiten Power BI (bijvoorbeeld zodat alleen gebruikers binnen uw organisatie een vertrouwelijk PBIX-bestand dat is gedeeld in of bijgevoegd bij een e-mailbericht, kunnen openen), nog vóórdat ze zijn gepubliceerd in de Power BI-service. Raadpleeg [Toegang tot inhoud beperken met behulp van vertrouwelijkheidslabels om versleuteling toe te passen](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide) voor meer details.
+Daarnaast kunnen vertrouwelijkheidslabels worden toegepast op PBIX-bestanden in Power BI Desktop, zodat uw gegevens en inhoud zijn beschermd wanneer ze worden gedeeld buiten Power BI (bijvoorbeeld zodat alleen gebruikers binnen uw organisatie een vertrouwelijk PBIX-bestand dat is gedeeld in of bijgevoegd bij een e-mailbericht, kunnen openen), nog vóórdat ze zijn gepubliceerd in de Power BI-service. Raadpleeg [Toegang tot inhoud beperken met behulp van vertrouwelijkheidslabels om versleuteling toe te passen](/microsoft-365/compliance/encryption-sensitivity-labels) voor meer details.
 
 Vertrouwelijkheidslabels op rapporten, dashboards, gegevenssets en gegevensstromen zijn op veel plaatsen in de Power BI-service zichtbaar. Vertrouwelijkheidslabels voor rapporten en dashboards zijn ook zichtbaar in de mobiele Power BI-apps voor iOS en Android en in ingesloten visuals. In de Desktop-versie ziet u het vertrouwelijkheidslabel in de statusbalk.
 
@@ -185,7 +185,7 @@ Voor toegang tot vertrouwelijkheidslabels in deze centra navigeert u naar **Clas
 
 ### <a name="power-bi-desktop-preview"></a>Power BI Desktop (preview)
 
-* Beveiligde PBIX-bestanden kunnen alleen worden geopend en/of gepubliceerd door een gebruiker die de RMS-eigenaar van het bestand is (de gebruiker die het label oorspronkelijk heeft toegepast op het bestand), of die [**Volledig beheer** heeft en/of beschikt over de gebruiksrechten](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide) voor **Exporteren** voor het relevante label. De RMS-eigenaar heeft Volledig beheer en kan nooit worden geblokkeerd. [Meer details bekijken](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
+* Beveiligde PBIX-bestanden kunnen alleen worden geopend en/of gepubliceerd door een gebruiker die de RMS-eigenaar van het bestand is (de gebruiker die het label oorspronkelijk heeft toegepast op het bestand), of die [**Volledig beheer** heeft en/of beschikt over de gebruiksrechten](/microsoft-365/compliance/encryption-sensitivity-labels) voor **Exporteren** voor het relevante label. De RMS-eigenaar heeft Volledig beheer en kan nooit worden geblokkeerd. [Meer details bekijken](/azure/information-protection/configure-usage-rights#rights-management-issuer-and-rights-management-owner)
 
 * Als het label dat is toegepast op een PBIX-bestand, niet is gepubliceerd voor de gebruiker in het Microsoft 365-beveiligingcentrum of in het Microsoft 365-compliancecentrum, kan de gebruiker het bestand niet opslaan in de Desktop-versie.
 

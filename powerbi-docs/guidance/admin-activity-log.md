@@ -2,18 +2,18 @@
 title: Toegang tot het Power BI-activiteitenlogboek
 description: Instructies en PowerShell-voorbeeldscriptcode om het activiteitenlogboek van Power BI te kunnen gebruiken.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: sample
 ms.date: 09/03/2020
-ms.openlocfilehash: 18ce155419f712cce2c4973949cd02ffbd870724
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0e86966225060c24aa154c0b29ea533dad89908b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96394653"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088690"
 ---
 # <a name="access-the-power-bi-activity-log"></a>Toegang tot het Power BI-activiteitenlogboek
 
@@ -30,7 +30,7 @@ Er is een PowerShell-voorbeeld beschikbaar dat u helpt om gebeurtenissen in het 
 - Een lijst met gebruikers ophalen voor het direct delen van rapporten.
 
 > [!NOTE]
-> U moet bekend zijn met de [Power BI Admin-API](/rest/api/power-bi/admin) en [Power BI PowerShell-modules](/powershell/power-bi/overview?view=powerbi-ps). PowerShell-modules moeten worden geïnstalleerd voordat deze scriptblokken worden uitgevoerd. Zie [Activiteiten van gebruikers bijhouden in Power BI](../admin/service-admin-auditing.md#use-the-activity-log) voor meer informatie.
+> U moet bekend zijn met de [Power BI Admin-API](/rest/api/power-bi/admin) en [Power BI PowerShell-modules](/powershell/power-bi/overview?view=powerbi-ps&preserve-view=true). PowerShell-modules moeten worden geïnstalleerd voordat deze scriptblokken worden uitgevoerd. Zie [Activiteiten van gebruikers bijhouden in Power BI](../admin/service-admin-auditing.md#use-the-activity-log) voor meer informatie.
 >
 > Er kan een vertraging van wel 30 minuten optreden voordat Power BI-gebeurtenissen worden opgehaald.
 

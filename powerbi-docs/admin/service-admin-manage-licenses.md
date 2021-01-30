@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/08/2020
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e00474d81d4de1c8316625c6e3a7ade1bf73197
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 929540e0f04fb6f8fa7b3f71da2a2f34f5fd273b
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96408591"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085562"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>Power BI-gebruikerslicenties weergeven en beheren
 
@@ -37,11 +37,11 @@ U ziet uw actieve Power BI-abonnementen samen met andere abonnementen die u hebt
 
   ![Schermopname van het Power BI-abonnement met een gratis abonnement.](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-Dit type abonnement wordt voor u gemaakt wanneer gebruikers registratie via self-service gebruiken. Zie [Power BI in uw organisatie](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) voor meer informatie.
+Dit type abonnement wordt voor u gemaakt wanneer gebruikers registratie via self-service gebruiken. Zie [Power BI in uw organisatie](/microsoft-365/admin/misc/power-bi-in-your-organization) voor meer informatie.
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>Gebruikerslicenties beheren in Microsoft 365
 
-Als u het Microsoft 365-beheercentrum wilt gebruiken om gebruikerslicenties te beheren, raadpleegt u de [documentatie voor zakelijke abonnementen en facturering](/microsoft-365/commerce/?view=o365-worldwide).
+Als u het Microsoft 365-beheercentrum wilt gebruiken om gebruikerslicenties te beheren, raadpleegt u de [documentatie voor zakelijke abonnementen en facturering](/microsoft-365/commerce/).
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>Gebruikerslicenties beheren in Azure Portal
 

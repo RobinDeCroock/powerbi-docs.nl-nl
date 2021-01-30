@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/15/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9567c0511a771b9b92de74171dec5fed3110e2d8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b3ff42b33ccf2d93217d9d88ada4dfbe45a5436c
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410891"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99085447"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Verbinding maken met multidimensionale modellen van SSAS in Power BI Desktop
 
@@ -98,7 +98,7 @@ Er gelden bepaalde beperkingen voor het gebruik van SSAS MD:
 
 ## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Ondersteunde functies van SSAS MD in Power BI Desktop
 
-Het verbruik van de volgende elementen wordt ondersteund in deze versie van SSAS MD. Zie [Power View voor multidimensionale modellen](/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014) voor meer informatie over deze functies.
+Het verbruik van de volgende elementen wordt ondersteund in deze versie van SSAS MD. Zie [Power View voor multidimensionale modellen](/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models) voor meer informatie over deze functies.
 
 * Standaardleden
 * Dimensiekenmerken

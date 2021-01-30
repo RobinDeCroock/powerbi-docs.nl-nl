@@ -2,18 +2,18 @@
 title: Grootte aanpassen van on-premises gegevensgateways
 description: Dit artikel bevat richtlijnen voor het aanpassen van de grootte van de on-premises gegevensgateway.
 author: peter-myers
-ms.author: v-pemyer
+ms.author: kfollis
 ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/30/2019
-ms.openlocfilehash: c0506b492a0c28140256dc0be850358836b284b0
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 35630891a66b9aed0b9e568d8e34180e3ee41544
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96419388"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99088391"
 ---
 # <a name="on-premises-data-gateway-sizing"></a>Grootte aanpassen van on-premises gegevensgateways
 
@@ -84,7 +84,7 @@ Plan de best mogelijke connectiviteit tussen de Power BI-service en de gateway, 
 
 - Streef naar betrouwbaarheid, hoge snelheden en lage, consistente latentie.
 - Elimineer, of beperk, machine-hops tussen de gateway en uw gegevensbronnen.
-- Verwijder eventuele netwerkbeperkingen die worden opgelegd door de firewallproxy. Zie [Power BI-URL's aan acceptatielijst toevoegen](../admin/power-bi-whitelist-urls.md) voor meer informatie over Power BI-eindpunten.
+- Verwijder eventuele netwerkbeperkingen die worden opgelegd door de firewallproxy. Zie [Power BI-URL's aan acceptatielijst toevoegen](../admin/power-bi-allow-list-urls.md) voor meer informatie over Power BI-eindpunten.
 - Configureer [Azure ExpressRoute](/azure/expressroute/expressroute-introduction) om persoonlijke, beheerde verbindingen met Power BI op te zetten.
 - In het geval van gegevensbronnen op Azure-VM's moet u ervoor zorgen dat de VM's zich [op dezelfde locatie bevinden als de Power BI-service.](../admin/service-admin-where-is-my-tenant-located.md)
 - Bij workloads met een liveverbinding naar SQL Server Analysis Services (SSAS) met behulp van dynamische beveiliging op rijniveau moet u ervoor zorgen dat er een goede connectiviteit is tussen de gatewaycomputer en de on-premises Active Directory.

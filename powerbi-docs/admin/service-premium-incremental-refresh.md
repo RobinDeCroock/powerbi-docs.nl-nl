@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 68d12c69afadb3d5d82782c239381844c1d58b5e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b019ed8177a4300b39d41c53c2e7d6a4d84e673a
+ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413536"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "99086551"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Incrementeel vernieuwen in Power BI
 
@@ -116,7 +116,7 @@ De eerste vernieuwing in de Power BI-service kan langer duren omdat alle vijf vo
 
 #### <a name="current-date"></a>Huidige datum
 
-De *huidige datum* is gebaseerd op de systeemdatum op het moment van vernieuwen. Als gepland vernieuwen is ingeschakeld voor de gegevensset in de Power BI-service, wordt bij het bepalen van de huidige datum rekening gehouden met de opgegeven tijdzone. De tijdzone blijft bij zowel handmatig geactiveerde als geplande vernieuwingen door de Power BI-service gehandhaafd, indien beschikbaar. Bij een vernieuwing die bijvoorbeeld om 8 uur Pacific Time (VS en Canada) plaatsvindt, waarbij de tijdzone is opgegeven, wordt de huidige datum bepaald op basis van Pacific Time, niet GMT (wat anders de volgende dag zou zijn). Vernieuwingsbewerkingen die niet worden aangeroepen via de Power BI-service, zoals de [TMSL-vernieuwingsopdracht](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current), nemen geen rekening met de geplande vernieuwingstijdzone
+De *huidige datum* is gebaseerd op de systeemdatum op het moment van vernieuwen. Als gepland vernieuwen is ingeschakeld voor de gegevensset in de Power BI-service, wordt bij het bepalen van de huidige datum rekening gehouden met de opgegeven tijdzone. De tijdzone blijft bij zowel handmatig geactiveerde als geplande vernieuwingen door de Power BI-service gehandhaafd, indien beschikbaar. Bij een vernieuwing die bijvoorbeeld om 8 uur Pacific Time (VS en Canada) plaatsvindt, waarbij de tijdzone is opgegeven, wordt de huidige datum bepaald op basis van Pacific Time, niet GMT (wat anders de volgende dag zou zijn). Vernieuwingsbewerkingen die niet worden aangeroepen via de Power BI-service, zoals de [TMSL-vernieuwingsopdracht](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true), nemen geen rekening met de geplande vernieuwingstijdzone
 
 ![Tijdzone](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -180,7 +180,7 @@ Als het XMLA-eindpunt voor lezen/schrijven is geconfigureerd, kan SSMS worden ge
 
 #### <a name="override-incremental-refresh-behavior"></a>Gedrag van incrementeel vernieuwen onderschrijven
 
-Met SSMS hebt u ook meer controle over het aanroepen van incrementele vernieuwingen via [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) en [Tabular Object Model (TOM, objectmodel in tabelvorm)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current). Klik bijvoorbeeld in Objectverkenner in SSMS met de rechtermuisknop op een tabel en selecteer vervolgens de menuoptie **Tabel verwerken**. Klik vervolgens op de knop **Script** om een TMSL-vernieuwingsopdracht te genereren.
+Met SSMS hebt u ook meer controle over het aanroepen van incrementele vernieuwingen via [Tabular Model Scripting Language (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current&preserve-view=true) en [Tabular Object Model (TOM, objectmodel in tabelvorm)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current&preserve-view=true). Klik bijvoorbeeld in Objectverkenner in SSMS met de rechtermuisknop op een tabel en selecteer vervolgens de menuoptie **Tabel verwerken**. Klik vervolgens op de knop **Script** om een TMSL-vernieuwingsopdracht te genereren.
 
 ![De knop Script in het dialoogvenster Tabel verwerken](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -208,7 +208,7 @@ De volgende parameters kunnen worden ingevoegd in de TMSL-vernieuwingsopdracht o
 }
 ```
 
-Zie [Vernieuwingsopdracht](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) voor meer informatie over standaardgedrag bij incrementeel vernieuwen met TMSL.
+Zie [Vernieuwingsopdracht](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current&preserve-view=true) voor meer informatie over standaardgedrag bij incrementeel vernieuwen met TMSL.
 
 ### <a name="custom-queries-for-detect-data-changes"></a>Aangepaste query's voor het detecteren van gegevenswijzigingen
 
