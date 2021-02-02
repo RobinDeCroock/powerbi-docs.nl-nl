@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 12/28/2020
-ms.openlocfilehash: acd9d98b55697e8ca3729cad65a1ead8f01f6e62
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/01/2021
+ms.openlocfilehash: 64a9472960195c8d4f91013a778bb61cdf029ab4
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97887012"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422347"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>Power BI-rapport exporteren naar bestand (preview)
 
@@ -40,15 +40,41 @@ Voordat u de API gebruikt, moet u controleren of de volgende [beheerdersinstelli
 
 De API is asynchroon. Wanneer de API [exportToFile](/rest/api/power-bi/reports/exporttofile) is aangeroepen, wordt een exporttaak geactiveerd. Nadat de exporttaak is geactiveerd, gebruikt u [polling](/rest/api/power-bi/reports/getexporttofilestatus) om de taak bij te houden totdat deze is voltooid.
 
-Tijdens de polling retourneert de API een getal dat de hoeveelheid voltooid werk vertegenwoordigt. Het werk in elke exporttaak wordt berekend op basis van het aantal pagina's van het rapport. Alle pagina's hebben hetzelfde gewicht. Als u bijvoorbeeld een rapport met 10 pagina's exporteert en de polling 70 pagina’s retourneert, betekent dit dat met de API zeven van de 10 pagina's in de exporttaak zijn verwerkt.
+Tijdens de polling retourneert de API een getal dat de hoeveelheid voltooid werk vertegenwoordigt. Het werk in elke export taak wordt berekend op basis van het totale aantal export bewerkingen in de taak. Een export omvat het exporteren van één visueel element of een pagina met of zonder blad wijzers. Alle exports hebben hetzelfde gewicht. Als uw export taak bijvoorbeeld het exporteren van een rapport met 10 pagina's omvat en de polling 70 retourneert, betekent dit dat de API zeven van de 10 pagina's in de export taak heeft verwerkt.
 
 Wanneer het exporteren is voltooid, retourneert de polling-API-aanroep een [Power BI-URL](/rest/api/power-bi/reports/getfileofexporttofile) om het bestand op te halen. De URL is 24 uur beschikbaar.
 
 ## <a name="supported-features"></a>Ondersteunde functies
 
+In deze sectie wordt de werking van de volgende ondersteunde functies beschreven:
+
+* [Selecteren welke pagina's u wilt afdrukken](#selecting-which-pages-to-print)
+* [Een pagina of één visueel element exporteren](#exporting-a-page-or-a-single-visual)
+* [Bladwijzers](#bookmarks)
+* [Filters](#filters)
+* [Verificatie](#authentication)
+* [RLS (Beveiliging op rijniveau)](#row-level-security-rls)
+* [Gegevens bescherming](#data-protection)
+* [Lokalisatie](#localization)
+
 ### <a name="selecting-which-pages-to-print"></a>Selecteren welke pagina's u wilt afdrukken
 
 Geef de pagina’s op die u wilt afdrukken, volgens de retourwaarde voor [pagina’s ophalen](/rest/api/power-bi/reports/getpages) of [pagina’s in groep ophalen](/rest/api/power-bi/reports/getpagesingroup). U kunt ook de volgorde opgeven van de pagina's die u wilt exporteren.
+
+### <a name="exporting-a-page-or-a-single-visual"></a>Een pagina of één visueel element exporteren
+
+U kunt een pagina of één visueel element opgeven om te exporteren. Pagina's kunnen worden geëxporteerd met of zonder blad wijzers.
+
+Afhankelijk van het type export moet u verschillende kenmerken door geven aan het [ExportReportPage](/rest/api/power-bi/reports/exporttofile#exportreportpage) -object. In de volgende tabel wordt aangegeven welke kenmerken voor elke export taak zijn vereist.  
+
+>[!NOTE]
+>Het exporteren van één visueel element heeft hetzelfde gewicht als het exporteren van een pagina (met of zonder blad wijzers). Dit betekent dat beide bewerkingen in termen van systeem berekeningen dezelfde waarde hebben.
+
+|Kenmerk   |Pagina     |Enkel visueel element  |Opmerkingen|
+|------------|---------|---------|---|
+|`bookmark`  |Optioneel |![Is niet van toepassing op.](../../media/no.png)|Gebruiken om een pagina in een specifieke status te exporteren|
+|`pageName`  |![Is van toepassing op.](../../media/yes.png)|![Is van toepassing op.](../../media/yes.png)|Gebruik de [GetPages](/rest/api/power-bi/reports/getpage) -rest API of de `getPages` client-API. Zie [pagina's en visuele elementen ophalen](/javascript/api/overview/powerbi/get-visuals)voor meer informatie.   |
+|`visualName`|![Is niet van toepassing op.](../../media/no.png)|![Is van toepassing op.](../../media/yes.png)|Er zijn twee manieren om de naam van het visuele element op te halen:<li>Gebruik de `getVisuals` client-API. Zie [pagina's en visuele elementen ophalen](/javascript/api/overview/powerbi/get-visuals)voor meer informatie.</li><li>De gebeurtenis *visualClicked* , die wordt geactiveerd wanneer een visueel element is geselecteerd, worden geluisterd en geregistreerd. Zie [gebeurtenissen afhandelen](/javascript/api/overview/powerbi/handle-events) voor meer informatie</li>. |
 
 ### <a name="bookmarks"></a>Bladwijzers
 
@@ -73,7 +99,7 @@ Als u een gefilterd rapport wilt exporteren, voegt u de [tekenreeksparameters va
 
 De onderstaande tabel bevat enkele syntaxisvoorbeelden van tekenreeksen die u kunt doorgeven aan  `ExportFilter`.
 
-|Filteren    |Syntaxis    |Voorbeeld    |
+|Filteren    |Syntax    |Voorbeeld    |
 |---|----|----|----|
 |Een waarde in een veld    |Tabel/veld eq 'waarde'    |Store/rayon eq 'NC'    |
 |Meerdere waarden in een veld    |Tabel/veld in ('waarde1', 'waarde2')     |Store/rayon in ('NC', 'TN')    |
@@ -127,10 +153,10 @@ Een taak die het aantal gelijktijdige aanvragen overschrijdt, wordt niet beëind
 
 * Het rapport dat u exporteert, moet zich in een Premium- of Embedded-capaciteit bevinden.
 * De gegevensset van het rapport dat u exporteert, moet zich in een Premium- of Embedded-capaciteit bevinden.
-* Voor de openbare preview is het aantal Power BI-rapportpagina's dat per uur wordt geëxporteerd, beperkt tot 50 per capaciteit.
+* Voor de open bare preview is het aantal Power BI exports per uur beperkt tot 50 per capaciteit. Een export verwijst naar het exporteren van een enkele Visual of een rapport pagina met of zonder blad wijzers en bevat geen gepagineerde rapporten exporteren.
 * Geëxporteerde rapporten mogen de bestandsgrootte van 250 MB niet overschrijden.
 * Wanneer u exporteert naar PNG, worden gevoeligheidslabels niet ondersteund.
-* Er kunnen maximaal 50 pagina's worden opgenomen in een geëxporteerd rapport. Als het rapport meer pagina's bevat, retourneert de API een fout en wordt de exporttaak geannuleerd.
+* Het aantal uitvoer bewerkingen (enkele visuals of rapport pagina's) dat kan worden opgenomen in een geëxporteerd rapport is 50 (dit omvat geen export van gepagineerde rapporten). Als de aanvraag meer uitvoer bevat, retourneert de API een fout en wordt de export taak geannuleerd.
 * [Persoonlijke bladwijzers](../../consumer/end-user-bookmarks.md#personal-bookmarks) en [permanente filters](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) worden niet ondersteund.
 * De hieronder vermelde Power BI-visuals worden niet ondersteund. Wanneer u een rapport exporteert dat deze visuals bevat, worden de gedeelten van het rapport die deze visuals bevatten, niet weergegeven. In plaats hiervan ziet u een foutsymbool.
     * Niet-gecertificeerde visuals in Power BI

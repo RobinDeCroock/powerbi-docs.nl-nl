@@ -7,13 +7,13 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/28/2021
-ms.openlocfilehash: d7fc9437af37052e95eaa771aab98f1331227c14
-ms.sourcegitcommit: 7ed995eed0fd6e718748accf87bae384211cd95d
+ms.date: 02/01/2021
+ms.openlocfilehash: 6742b915cf4418cd0f9f735eaffea8da1d010e79
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "99044213"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99422370"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -27,6 +27,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
     - *Versie: 1.10.7698.12811 (build 15.0.1105.194), uitgebracht: 21 januari 2021*
         - Functies
             - Nieuwe pictogrammen releate Power BI en Power BI rapporten.
+            - Aangepaste visuele API geleverd met release-version 3.5.0
             - Er is een nieuwe preview-versie van de portal toegevoegd achter de functie Switch UsePortalV2 in de ConfigurationInfo-tabel van de Report Server-catalogus.
         - Opgeloste fouten
             - Probleem opgelost met geplande vernieuwing van Power BI rapporten met bepaalde modellen met verbeterde meta gegevens van het model.
