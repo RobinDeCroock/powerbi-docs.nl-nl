@@ -3,24 +3,25 @@ title: Inhoud insluiten in uw toepassing voor ingesloten analyses in Power BI vo
 description: Lees hoe u een rapport, dashboard of tegel insluit in een Power BI Embedded-analysevoorbeeld. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
 author: KesemSharabi
 ms.author: kesharab
-ms.reviewer: rkarlin
+ms.reviewer: ''
 ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/22/2020
-ms.openlocfilehash: a0cfeaece56594c52a8d747350c5f9bfb0886cad
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 28081342763ca297648f67f953a29b46d02bf478
+ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565469"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "99494712"
 ---
 # <a name="tutorial-embed-power-bi-content-using-a-sample-embed-for-your-customers-application"></a>Zelfstudie: Power BI-inhoud insluiten met een voorbeeld-app voor het *insluiten voor uw klanten*
 
 Met **ingesloten analyses** en **Power BI Embedded** (het Azure-product) kunt u Power BI-inhoud zoals rapporten, dashboards en tegels insluiten in uw app.
 
 In deze zelfstudie leert u het volgende:
+
 >[!div class="checklist"]
 >* Uw embedded omgeving instellen.
 >* Een voorbeeld-app configureren voor het *insluiten voor uw klanten* (ook wel *gegevens zijn eigendom van app (app owns data)* genoemd).
@@ -31,7 +32,7 @@ U kunt het beste de methode voor het *insluiten voor uw klanten* gebruiken om uw
 
 ## <a name="code-sample-specifications"></a>Specificaties voor codevoorbeeld
 
-Deze zelfstudie bevat instructies voor het configureren van een voorbeeld-app voor het *insluiten voor uw klanten* in een van de volgende talen:
+Deze zelf studie bevat instructies voor het configureren van de voorbeeld toepassing *voor het insluiten van inhoud voor uw klanten* in een van de volgende frameworks:
 
 * .NET Framework
 * .NET Core
@@ -41,10 +42,8 @@ Deze zelfstudie bevat instructies voor het configureren van een voorbeeld-app vo
 
 De codevoorbeelden ondersteunen de volgende browsers:
 
-* Google Chrome
-
 * Microsoft Edge
-
+* Google Chrome
 * Mozilla Firefox
 
 ## <a name="prerequisites"></a>Vereisten
@@ -68,13 +67,6 @@ Voordat u met deze zelfstudie begint, controleert u of u over de Power BI- en co
 
 * **Codeafhankelijkheden**
 
-    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
-    
-    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
-    
-    * [Visual Studio](https://visualstudio.microsoft.com/)
-    
-    
     # <a name="net-core"></a>[.NET Core](#tab/net-core)
     
     * [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core) (of hoger)
@@ -84,6 +76,12 @@ Voordat u met deze zelfstudie begint, controleert u of u over de Power BI- en co
         * [Visual Studio](https://visualstudio.microsoft.com/)
     
         * [Visual Studio Code](https://code.visualstudio.com/)
+
+    # <a name="net-framework"></a>[.NET Framework](#tab/net-framework)
+    
+    * [.NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/)
+    
+    * [Visual Studio](https://visualstudio.microsoft.com/)
 
     # <a name="java"></a>[Java](#tab/java)
     
@@ -161,50 +159,22 @@ Door uw app te registreren bij Microsoft Azure Active Directory kunt u het volge
 >* Uw app toegang bieden tot de [Power BI REST API's](/rest/api/power-bi/)
 >* Als u een *hoofdgebruiker* gebruikt: geef de [Power BI REST-machtigingen](/azure/active-directory/develop/v2-permissions-and-consent) van uw app op
 
-Als u de app wilt registreren bij Microsoft Azure Active Directory, volgt u de instructies in [Uw app registreren](register-app.md).
+[!INCLUDE[Register Azure AD app](../../includes/embed-tutorial-register-app.md)]
 
 >[!NOTE]
 >Voordat u de app registreert, moet u beslissen welke verificatiemethode u gebruikt, *service-principal* of *hoofdgebruiker*.
 
 ## <a name="step-3---create-a-power-bi-workspace"></a>Stap 3: Een Power BI-werkruimte maken
 
-Power BI bewaart uw rapporten, dashboards en tegels in een werkruimte. Als u deze items wilt insluiten, moet u ze maken en naar een werkruimte uploaden.
-
->[!TIP]
->Als u al een werkruimte hebt, kunt u deze stap overslaan.
-
-Als u een werkruimte wilt maken, doet u het volgende:
-
-1. Meld u aan bij Power BI.
-
-2. Selecteer **Werkruimten**.
-
-3. Selecteer **Een werkruimte maken**.
-
-4. Geef uw werkruimte een naam en selecteer **Opslaan**.
+[!INCLUDE[Create a Power BI workspace](../../includes/embed-tutorial-create-workspace.md)]
 
 ## <a name="step-4---create-and-publish-a-power-bi-report"></a>Stap 4: Een Power BI-rapport maken en publiceren
 
-In de volgende stap maakt u een rapport en uploadt u dit naar uw werkruimte. U kunt [uw eigen rapport maken](../../fundamentals/desktop-getting-started.md#build-reports) met behulp van Power BI Desktop en het vervolgens [publiceren](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) naar uw werkruimte. U kunt ook een voorbeeldrapport uploaden naar uw werkruimte.
-
->[!Tip]
->Als u al een werkruimte met een rapport hebt, kunt u deze stap overslaan.
-
-Als u een voorbeeldrapport wilt downloaden en wilt publiceren naar uw werkruimte, voert u de volgende stappen uit:
-
-1. Open de GitHub-map [Power BI Desktop-voorbeelden](https://github.com/Microsoft/PowerBI-Desktop-Samples).
-
-2. Selecteer **Code** en vervolgens **ZIP-bestand downloaden**.
-
-    :::image type="content" source="media/embed-sample-for-customers/download-sample-report.png" alt-text="Een schermopname met de optie voor het downloaden van een ZIP-bestand in de GitHub-map Power BI Desktop-voorbeelden":::
-
-3. Pak het gedownloade ZIP-bestand uit en ga naar de map **Voorbeeldrapporten**.
-
-4. Selecteer een rapport dat u wilt insluiten en [publiceer](/powerbi-docs/fundamentals/desktop-getting-started#share-your-work) het naar uw werkruimte.
+[!INCLUDE[Create a Power BI report](../../includes/embed-tutorial-create-report.md)]
 
 ## <a name="step-5---get-the-embedding-parameter-values"></a>Stap 5: De parameterwaarden voor het insluiten ophalen
 
-Als u uw inhoud wilt insluiten, moet u bepaalde parameterwaarden ophalen. In de onderstaande tabel ziet u de vereiste waarden en wordt aangegeven of deze van toepassing zijn op de verificatiemethode met een *service-principal* of met een *hoofdgebruiker* of beide.
+Als u uw inhoud wilt insluiten, moet u bepaalde parameterwaarden ophalen. De onderstaande tabel bevat de vereiste waarden en geeft aan of deze van toepassing zijn op de verificatie methode van de *Service-Principal* , de verificatie methode voor de *hoofd gebruiker* of beide.
 
 Zorg ervoor dat u over alle onderstaande waarden beschikt voordat u de inhoud insluit. Sommige waarden zullen verschillen, afhankelijk van de verificatiemethode die u gebruikt.
 
@@ -223,64 +193,28 @@ Zorg ervoor dat u over alle onderstaande waarden beschikt voordat u de inhoud in
 >[!TIP]
 >**Van toepassing op:** ![Van toepassing op.](../../media/yes.png)service-principal ![Van toepassing op.](../../media/yes.png)hoofdgebruiker
 
-Als u de GUID van de client-id (ook wel de *app-id* genoemd) wilt ophalen, voert u de volgende stappen uit:
-
-1. Meld u aan bij [Microsoft Azure](https://ms.portal.azure.com/#allservices).
-
-2. Ga naar **App-registraties** en selecteer de koppeling **App-registraties**.
-
-3. Selecteer de Azure AD-app die u gebruikt voor het insluiten van uw Power BI-inhoud.
-
-4. Kopieer in de sectie **Overzicht** de GUID van de **app-id (client)** .
+[!INCLUDE[Get the client ID](../../includes/embed-tutorial-client-id.md)]
 
 ### <a name="workspace-id"></a>Werkruimte-id
 
 >[!TIP]
 >**Van toepassing op:** ![Van toepassing op.](../../media/yes.png)service-principal ![Van toepassing op.](../../media/yes.png)hoofdgebruiker
 
-Als u de GUID van de werkruimte-id wilt ophalen, voert u de volgende stappen uit:
-
-1. Meld u aan bij de Power BI-service.
-
-2. Open het rapport dat u wilt insluiten.
-
-3. Kopieer de GUID van de URL. De GUID is de tekenreeks tussen **/groups/** en **/reports/** .
-
-    :::image type="content" source="media/embed-sample-for-customers/workspace-id.png" alt-text="Een schermopname met de GUID van de werkruimte-id in de URL van de Power BI-service":::
+[!INCLUDE[Get the workspace ID](../../includes/embed-tutorial-workspace-id.md)]
 
 ### <a name="report-id"></a>Rapport-id
 
 >[!TIP]
 >**Van toepassing op:** ![Van toepassing op.](../../media/yes.png)service-principal ![Van toepassing op.](../../media/yes.png)hoofdgebruiker
 
-1. Meld u aan bij de Power BI-service.
-
-2. Open het rapport dat u wilt insluiten.
-
-3. Kopieer de GUID van de URL. De GUID is de tekenreeks tussen **/reports/** en **/ReportSection**.
-
-    :::image type="content" source="media/embed-sample-for-customers/report-id.png" alt-text="Een schermopname met de GUID van de rapport-id in de URL van de Power BI-service":::
+[!INCLUDE[Get the report ID](../../includes/embed-tutorial-report-id.md)]
 
 ### <a name="client-secret"></a>Clientgeheim
 
 >[!TIP]
 >**Van toepassing op:** ![Van toepassing op.](../../media/yes.png)service-principal ![Van toepassing op.](../../media/no.png)hoofdgebruiker
 
-Als u het clientgeheim wilt ophalen, voert u de volgende stappen uit:
-
-1. Meld u aan bij [Microsoft Azure](https://ms.portal.azure.com/#allservices).
-
-2. Ga naar **App-registraties** en selecteer de koppeling **App-registraties**.
-
-3. Selecteer de Azure AD-app die u gebruikt voor het insluiten van uw Power BI-inhoud.
-
-4. Selecteer onder **Beheren** de optie **Certificaten en geheimen**.
-
-5. Selecteer onder **Clientgeheimen** de optie **Nieuw clientgeheim**.
-
-6. Geef in het pop-upvenster **Een clientgeheim toevoegen** een beschrijving op voor uw app-geheim, selecteer wanneer het app-geheim verloopt en selecteer **Toevoegen**.
-
-7. Kopieer in de sectie **Clientgeheimen** de tekenreeks in de kolom **Waarde** van het zojuist gemaakte app-geheim. De waarde van het clientgeheim is uw *client-id*.
+[!INCLUDE[Get the client secret](../../includes/embed-tutorial-client-secret.md)]
 
 ### <a name="tenant-id"></a>Tenant-id
 
@@ -343,7 +277,7 @@ Als u uw Azure AD-app toegang wilt verlenen tot artefacten zoals rapporten, dash
     >[!NOTE]
     >Als u een *service-principal* gebruikt, heeft deze de naam die u voor de Azure AD-app hebt opgegeven.
 
-5. Selecteer **Toevoegen**.
+4. Selecteer **Toevoegen**.
 
 ## <a name="step-8---embed-your-content"></a>Stap 8: Uw inhoud insluiten
 
@@ -351,23 +285,18 @@ Met de voorbeeld-app van Power BI Embedded kunt u een Power BI-app voor het *ins
 
 Voer de volgende stappen uit om de voorbeeld-app voor het *insluiten voor uw klanten* te wijzigen om uw Power BI-rapport in te sluiten.  
 
-1. Open de map [Voorbeelden voor Power BI-ontwikkelaars](https://github.com/microsoft/PowerBI-Developer-Samples).
-
-2. Selecteer **Code** en vervolgens **ZIP-bestand downloaden**.
-
-    :::image type="content" source="media/embed-sample-for-customers/developer-samples.png" alt-text="Een schermopname met de optie voor het downloaden van een ZIP-bestand in de GitHub-map Voorbeelden voor Power BI-ontwikkelaars":::
-
-3. Pak het gedownloade ZIP-bestand uit en ga naar de map **PowerBI-Developer-Samples-master**.
+[!INCLUDE[Embedding steps](../../includes/embed-tutorial-embedding-steps.md)]
 
 4. Afhankelijk van de taal die u voor de app wilt gebruiken, opent u een van de volgende mappen:
 
-* .NET Core
-* .NET Framework
-* Java
-* Node JS
-* Python
+    * .NET Core
+    * .NET Framework
+    * Java
+    * Node JS
+    * Python
+
     >[!NOTE]
-    >De voorbeeld-apps voor het *insluiten voor uw klanten* bieden alleen ondersteuning voor de talen die hierboven worden vermeld. De *React TS*-voorbeeld-app biedt alleen ondersteuning voor de oplossing voor het *[insluiten voor uw organisatie](embed-sample-for-your-organization.md)* .
+    >De voorbeeld toepassingen *insluiten voor uw klanten* ondersteunen alleen de hierboven genoemde frameworks. De *reagerende* voorbeeld toepassing ondersteunt alleen de *[insluiting voor uw organisatie](embed-sample-for-your-organization.md)* oplossing.
 
 5. Open de map **Insluiten voor uw klanten**.
 
@@ -377,7 +306,7 @@ Voer de volgende stappen uit om de voorbeeld-app voor het *insluiten voor uw kla
 
     * Als u [Visual Studio](https://visualstudio.microsoft.com/) gebruikt, opent u het bestand **AppOwnsData.sln**.
 
-    * Als u [Visual Studio Code](https://code.visualstudio.com/) gebruikt, opent u de map **App Owns Data**.
+    * Als u [Visual Studio code](https://code.visualstudio.com/)gebruikt, opent u de map **AppOwnsData** .
 
 7. Open **appsettings.json**.
 
@@ -421,13 +350,6 @@ Voer de volgende stappen uit om de voorbeeld-app voor het *insluiten voor uw kla
 
 9. Voer het project uit door **IIS Express** (afspelen) te selecteren.
 
->[!NOTE]
->Als het ingesloten rapport niet wordt weergegeven wanneer u de voorbeeld-app uitvoert, moet u de Power BI-pakketten vernieuwen door de volgende stappen uit te voeren:
->1. Klik met de rechtermuisknop op de projectnaam (AppOwnsData) en selecteer **NuGet-pakketten beheren**.
->2. Zoek op **Power BI JavaScript** en installeer het pakket opnieuw.
->
->Zie [Pakketten opnieuw installeren en bijwerken](/nuget/consume-packages/reinstalling-and-updating-packages) voor meer informatie.
-
 # <a name="java"></a>[Java](#tab/java)
 
 6. Open **Eclipse** en volg de instructies die hieronder worden beschreven.
@@ -468,7 +390,7 @@ Voer de volgende stappen uit om de voorbeeld-app voor het *insluiten voor uw kla
 
     a. Klik in het deelvenster **Pakketverkenner** met de rechtermuisknop op **AppOwnsData** en selecteer **Eigenschappen**.
 
-    b. Selecteer in het venster **Eigenschappen voor AppOwnesData** de optie **Beoogde runtimes** en selecteer vervolgens **Apache Tomcat**. Deze selectie bevat de versie van *Apache Tomcat* die u gebruikt, bijvoorbeeld *Apache Tomact v9.0*.
+    b. Selecteer in het venster **Eigenschappen voor AppOwnesData** de optie **Beoogde runtimes** en selecteer vervolgens **Apache Tomcat**. Deze selectie bevat de versie van *Apache Tomcat* die u gebruikt, bijvoorbeeld *Apache Tomcat v 9.0*.
 
     c. Selecteer **Toepassen en sluiten**.
 
@@ -579,8 +501,7 @@ Voer de volgende stappen uit om de voorbeeld-app voor het *insluiten voor uw kla
 
 Na het configureren en uitvoeren van de voorbeeld-app voor het *insluiten voor uw klanten*, kunt u beginnen met het ontwikkelen van uw eigen app.
 
-Wanneer u klaar bent, controleert u de vereisten voor het [overgaan naar de productieomgeving](move-to-production.md). U hebt ook een [capaciteit](embedded-capacity.md) nodig. Neem het artikel over de [capaciteitsplanning](embedded-capacity-planning.md) door om na te gaan welke SKU het beste past bij uw behoeften.
-
+[!INCLUDE[Move to production](../../includes/embed-tutorial-production.md)]
 
 ## <a name="next-steps"></a>Volgende stappen
 

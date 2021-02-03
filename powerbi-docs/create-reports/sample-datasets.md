@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 03/27/2020
 LocalizationGroup: Samples
-ms.openlocfilehash: 2e14a81c6ae04048f85fae417b354a110436fc50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: f69be1cd602c0b20c48581a5d6ee1ff034749b2a
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96396195"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495128"
 ---
 # <a name="get-samples-for-power-bi"></a>Voorbeelden voor Power BI downloaden
 Stel dat u geen ervaring hebt met Power BI en u Power BI wilt uitproberen, maar nog geen gegevens hebt.  Of misschien wilt u rapporten zien die een deel van de mogelijkheden van Power BI illustreren. Wij zorgen ervoor.
@@ -42,7 +42,7 @@ Het scenario voor dit rapport is een bedrijf dat skateboards met Microsoft-thema
 U kunt dit op de volgende manieren onderzoeken:
 
 - Weergeven en ermee werken in de Power BI-community [Data Stories Gallery](https://community.powerbi.com/t5/Data-Stories-Gallery/Sales-amp-Returns-Sample-Report/m-p/876607).
-- Het PBIX-bestand downloaden en in detail verkennen. Een kijkje achter de schermen nemen om te zien hoe Miguel dit rapport heeft gemaakt. Als u deze koppeling selecteert, wordt het bestand automatisch gedownload: [Voorbeeldrapport Sales & Returns](https://go.microsoft.com/fwlink/?linkid=2113239).
+- Het PBIX-bestand downloaden en in detail verkennen. Een kijkje achter de schermen nemen om te zien hoe Miguel dit rapport heeft gemaakt. Als u deze koppeling selecteert, wordt het bestand automatisch gedownload: [Voorbeeldrapport Sales & Returns](https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Sales%20%26%20Returns%20Sample%20v201912.pbix).
 - Meer informatie over het rapport vindt u in het Power BI-blogbericht [Take a tour of the new Sales & Returns sample report](https://powerbi.microsoft.com/blog/take_a_tour_of_the_new_sales_returns_sample_report/) (Engelstalig).
 
 ## <a name="sample-app-from-appsource"></a>Voorbeeld-app van AppSource

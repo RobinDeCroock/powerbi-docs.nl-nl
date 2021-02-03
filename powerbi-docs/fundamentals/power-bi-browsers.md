@@ -7,18 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-fundamentals
 ms.topic: conceptual
-ms.date: 03/25/2020
+ms.date: 02/01/2021
 LocalizationGroup: Get started
-ms.openlocfilehash: 425a7561d33a96db7c9537a934d9707af6388f1e
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: c7f5f5769c5d4f29ba67b64c0e0fa646aa5d4ddb
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96416733"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495082"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Ondersteunde browsers voor Power BI
 
-Power BI kan worden gebruikt met al deze ondersteunde browsers, maar de prestaties kunnen per browser verschillen. Vooral als u Internet Explorer gebruikt, kan dat nadelig zijn voor de prestaties. We raden u ten zeerste aan om van Internet Explorer over te stappen op een moderne browser, zoals Microsoft Edge. Als u nog steeds onaanvaardbare prestaties ondervindt, voert u een test uit met andere ondersteunde moderne browsers om te ontdekken of deze betere resultaten bieden voor uw Power BI-oplossing.
+Power BI is ontworpen om te werken met een van de ondersteunde browsers die hieronder worden genoemd. De prestaties zijn echter afhankelijk van uw keuze van een browser. Vooral als u Internet Explorer gebruikt, kan dat nadelig zijn voor de prestaties. We raden u ten zeerste aan om van Internet Explorer over te stappen op een moderne browser, zoals Microsoft Edge. Als u nog steeds onaanvaardbare prestaties ondervindt, test u andere ondersteunde moderne browsers om te zien of ze betere resultaten bieden voor uw Power BI oplossing.
 
 Power BI biedt ondersteuning voor deze browsers op alle platforms waar ze beschikbaar zijn:
 
@@ -33,5 +33,5 @@ Power BI biedt ondersteuning voor deze browsers op alle platforms waar ze beschi
 
 ## <a name="next-steps"></a>Volgende stappen
 * [Wat is Power BI?](power-bi-overview.md)
-* [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+* Vraag de [Power Bi-community](https://community.powerbi.com/)
 * Nog steeds geen antwoord? Ga naar de [ondersteuningspagina van Power BI](https://powerbi.microsoft.com/support/)

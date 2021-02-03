@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 11/11/2020
+ms.date: 02/01/2021
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: ced239ba0ac8f34314caf559a04126bf64ca7c50
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 32ef0845c2482b4f8a71240f432071b44cb518ea
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412340"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494323"
 ---
 # <a name="managing-premium-capacities"></a>Premium-capaciteiten beheren
 
@@ -44,7 +44,7 @@ Er moet minstens één capaciteitsbeheerder worden aangewezen. Gebruikers die zi
 
 Capaciteitsbeheerders hebben geen toegang tot inhoud in werkruimten, tenzij er expliciet werkruimtemachtigingen zijn toegewezen. Ze hebben ook geen toegang tot alle Power BI-beheergedeelten (tenzij expliciet toegewezen), zoals metrische gegevens over het gebruik, auditlogboeken of tenantinstellingen. Belangrijker is dat capaciteitsbeheerders geen machtigingen hebben om nieuwe capaciteiten te maken of bestaande capaciteiten te schalen. Beheerders worden toegewezen op capaciteitsbasis, zodat ze alleen de capaciteiten waaraan ze zijn toegewezen kunnen bekijken en beheren.
 
-De capaciteitsgrootte wordt geselecteerd uit een beschikbare lijst SKU-opties die wordt beperkt door het aantal beschikbare v-cores in de pool. Het is mogelijk om meerdere capaciteiten te maken vanuit de pool, die kunnen worden gemaakt uit een of meer aangeschafte SKU's. Bijvoorbeeld een P3-SKU (32 v-cores) kan worden gebruikt om drie capaciteiten te maken: een P2 (16 v-cores) en twee keer een P1 (2 x 8 v-cores). Verbeterde prestaties en schaal kunnen worden bereikt door kleinere capaciteiten te maken, zoals wordt beschreven in het artikel [Premium-capaciteiten optimaliseren](service-premium-capacity-optimize.md). In de volgende afbeeldingen ziet u het voorbeeld van de fictieve organisatie Contoso, die bestaat uit vijf Premium-capaciteiten (drie keer P1 en twee keer P3). Elke capaciteit bevat werkruimten en verschillende werkruimten in een gedeelde capaciteit.
+De capaciteitsgrootte wordt geselecteerd uit een beschikbare lijst SKU-opties die wordt beperkt door het aantal beschikbare v-cores in de pool. Het is mogelijk om meerdere capaciteiten te maken vanuit de pool, die kunnen worden gemaakt uit een of meer aangeschafte SKU's. Bijvoorbeeld een P3-SKU (32 v-cores) kan worden gebruikt om drie capaciteiten te maken: een P2 (16 v-cores) en twee keer een P1 (2 x 8 v-cores). In de volgende afbeeldingen ziet u het voorbeeld van de fictieve organisatie Contoso, die bestaat uit vijf Premium-capaciteiten (drie keer P1 en twee keer P3). Elke capaciteit bevat werkruimten en verschillende werkruimten in een gedeelde capaciteit.
 
 ![Voorbeeld van de fictieve organisatie Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -63,6 +63,8 @@ Er zijn toewijzingsmachtigingen nodig om een werkruimte toe te wijzen aan een sp
 Standaard ondersteunen Premium-capaciteiten workloads die aan de uitvoering van Power BI-query's zijn gekoppeld. Premium-capaciteiten ondersteunen ook aanvullende workloads: **AI (Cognitive Services)** , **Gepagineerde rapporten** en **Gegevensstromen**. Voor elke workload moet u de maximale hoeveelheid geheugen configureren (als percentage van het totaal aan beschikbaar geheugen) die door de workload kan worden gebruikt. Het is belangrijk te begrijpen dat het verhogen van maximaal geheugen van invloed kan zijn op het aantal actieve modellen dat kan worden gehost en op de doorvoer van vernieuwingen. 
 
 Geheugen wordt dynamisch toegewezen aan gegevensstromen, maar in het geval van gepagineerde rapporten betreft het een statische toewijzing. De reden voor een statische toewijzing van het maximumgeheugen is dat gepagineerde rapporten worden uitgevoerd binnen een beveiligde ruimte van de capaciteit. Het geheugen van gepagineerde rapporten moet zorgvuldig worden ingesteld, aangezien dat het beschikbare geheugen voor het laden van modellen beperkt. Raadpleeg de [standaard geheugeninstellingen](service-admin-premium-workloads.md#default-memory-settings) voor meer informatie.
+
+Voor Premium-Gen2 zijn geen geheugen instellingen of updates vereist. Alle werk belastingen hebben alle benodigde geheugen, binnen de limieten van uw capaciteits-SKU.
 
 Het is mogelijk een Premium-capaciteit te verwijderen, dat leidt niet tot de verwijdering van de werkruimten en inhoud daarin. In plaats daarvan worden toegewezen werkruimten verplaatst naar een gedeelde capaciteit. Wanneer de Premium-capaciteit is gemaakt in een andere regio, wordt de werkruimte verplaatst naar de gedeelde capaciteit van de thuisregio.
 

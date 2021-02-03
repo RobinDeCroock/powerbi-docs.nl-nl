@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-premium
 ms.topic: conceptual
-ms.date: 01/18/2021
+ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: c89cf7b00d5167ffb68a491a9cfdcea21378dfd5
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 05f2523e468759444a731d5484e8ce17350a46ae
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565143"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494898"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -76,25 +76,15 @@ Momenteel zijn de volgende bekende beperkingen van toepassing op Premium Gen2:
 
 1.    Capaciteitsgebruik in Premium Gen2 kan niet worden bijgehouden in de app voor metrische gegevens.
 
-2.    De capaciteitsinstellingen voor Premium Gen2 voor specifieke werkbelastingen zijn nog niet zichtbaar op de pagina Premium Gen2-capaciteitsinstellingen in de beheerportal. Om de instellingen te wijzigen verplaatst u de capaciteit naar de oorspronkelijke versie van Premium, wijzigt u de instellingen en stelt u de capaciteit opnieuw in op het gebruik van Premium Gen2. De instellingen voor geheugentoewijzing zijn niet van toepassing op Premium Gen2-capaciteit.
+2.  Als u XMLA op Premium Gen2 wilt gebruiken, moet u ervoor zorgen dat u de meest recente versies van de [hulpprogramma’s voor gegevensmodellering en -beheer](service-premium-connect-tools.md#data-modeling-and-management-tools) gebruikt. 
 
-3.  Als u XMLA op Premium Gen2 wilt gebruiken, moet u ervoor zorgen dat u de meest recente versies van de [hulpprogramma’s voor gegevensmodellering en -beheer](service-premium-connect-tools.md#data-modeling-and-management-tools) gebruikt. 
-
-4.  Analysis Services-functies in Premium Gen2 worden alleen ondersteund in de meest recente clientbibliotheken. Geschatte releasedatums voor afhankelijke hulpprogramma's ter ondersteuning van deze vereiste zijn:
+3.  Analysis Services-functies in Premium Gen2 worden alleen ondersteund in de meest recente clientbibliotheken. Geschatte releasedatums voor afhankelijke hulpprogramma's ter ondersteuning van deze vereiste zijn:
 
     |Hulpprogramma|Minimumversie vereist|Geschatte releasedatum|
     |---|---|---|
     |SQL Server Management Studio (SSMS)|18,8|8 december 2020|
     |SQL Server Data Tools (SSDT)|2.9.15|Algemene beschikbaarheid 30 november 2020|
     | AS PowerShell| Hoger dan 21.1.18229|6 november 2020|
-
-5.  Het opnieuw toewijzen van een werkruimte met gegevensstromen van de ene Premium Gen2-capaciteit naar een andere Premium-capaciteit in een andere regio wordt niet ondersteund. Ook het verplaatsen van modellen die zijn opgemaakt met een grote opslagruimte van de ene naar de andere Premium-capaciteit wordt niet ondersteund. Als u al een migratie naar een capaciteit in een andere regio hebt uitgevoerd, voert u een van de volgende stappen uit om de functionaliteit te herstellen:
- 
-    1.  Een nieuwe werkruimte maken en de gegevensstromen kopiëren
-    2.  De werkruimte weer naar de capaciteit in de vorige regio migreren
-    3.  Terugschakelen naar Premium Gen 1
-
-Zodra Premium Gen 2 algemeen beschikbaar is, kan deze beperking worden verwijderd.
 
 
 ## <a name="subscriptions-and-licensing"></a>Abonnementen en licenties
@@ -126,11 +116,6 @@ Met Power BI Premium krijgt u *gereserveerde capaciteit*. In tegenstelling tot e
 Werkruimten bevinden zich in capaciteiten. Elke Power BI-gebruiker heeft een persoonlijke werkruimte die **Mijn werkruimte** heet. Er kunnen extra werkruimten worden gemaakt om samenwerking mogelijk te maken. Deze werkruimten worden overigens **werkruimten** genoemd. Werkruimten, met inbegrip van persoonlijke werkruimten, worden standaard gemaakt in de gedeelde capaciteit. Als u over Premium-capaciteiten beschikt, kunnen zowel Mijn werkruimten als werkruimten worden toegewezen aan Premium-capaciteiten.
 
 Mijn werkruimten van capaciteitsbeheerders worden automatisch toegewezen aan Premium-capaciteit.
-
-### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
-
-Premium Gen2-knooppunten gebruiken geen gereserveerde infrastructuur meer. In plaats daarvan zorgt de service ervoor dat er voldoende rekenkracht beschikbaar is voor elke werkbelasting die wordt uitgevoerd door voldoende resources uit een gedeelde groep van zeer geschikte rekenknooppunten toe te wijzen.
-
 
 ### <a name="capacity-nodes"></a>Capaciteitsknooppunten
 

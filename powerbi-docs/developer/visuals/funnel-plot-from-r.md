@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: f1f8c037a3ceb66d8ffb5abab6bccd4ec9bc7adc
-ms.sourcegitcommit: a5e98bc86915f7bea6a0ab5df282683840e63d2c
-ms.translationtype: HT
+ms.openlocfilehash: 3d618735f2783e0fce0be938fbdcac7beb5d399e
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "97969553"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99495105"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>Zelfstudie: Een trechtertekening bouwen van R-script naar R-visual
 In dit artikel wordt stap voor stap beschreven hoe u een trechtertekening bouwt met R-script in R visual.
@@ -270,7 +270,7 @@ Aangezien deze visual op PNG gebaseerd is, reageert het niet op muisaanwijzing, 
 
 * U hoeft geen R-visuals vanaf nul te ontwikkelen met code die beschikbaar is op [GitHub](https://github.com/Microsoft?utf8=%E2%9C%93&q=PowerBI&type=&language=R). U kunt de visual selecteren die u als sjabloon wilt gebruiken en de code naar een nieuw project kopiëren.
 
-   Gebruik bijvoorbeeld de[aangepaste spline-visual](https://github.com/PowerBi-Projects/PowerBI-visuals-spline).
+   Gebruik bijvoorbeeld de[aangepaste spline-visual](https://github.com/microsoft/PowerBI-visuals-spline).
 
 * Elke R Visual past de operator `unique` toe op de invoertabel. Als u wilt voorkomen dat identieke rijen worden verwijderd, moet u overwegen een extra invoerveld met een unieke id toe te voegen en deze te negeren in de R-code.   
 

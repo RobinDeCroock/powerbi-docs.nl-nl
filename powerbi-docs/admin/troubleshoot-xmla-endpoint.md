@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 01/13/2021
+ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 0753a9c3d5b832275f65ac11b87f90c38606f289
-ms.sourcegitcommit: ab28cf07b483cb4b01a42fa879b788932bba919d
-ms.translationtype: HT
+ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "98226980"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494460"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -221,6 +221,10 @@ In tegenstelling tot Azure Analysis Services worden de [aliassen](/azure/analysi
 ## <a name="dataset-refresh-through-the-xmla-endpoint"></a>Gegevenssets vernieuwen via het XMLA-eindpunt
 
 Op een aantal plekken in Power BI worden de datum en het tijdstip van de laatste vernieuwing weergegeven, zoals Vernieuwde kolommen in rapporten en lijsten, Details van de gegevensset, Gegevenssetinstellingen en Vernieuwingsgeschiedenis van de gegevensset. Momenteel bevatten de vernieuwingsdatums en -tijden in Power BI **geen** vernieuwingsbewerkingen die via het XMLA-eindpunt zijn uitgevoerd met behulp van TMSL/TOM, SSMS of externe hulpprogramma's.
+
+## <a name="discover_m_expressions"></a>DISCOVER_M_EXPRESSIONS 
+
+De DMV DISCOVER_M_EXPRESSIONS gegevens beheer weergave (DMV) wordt momenteel niet ondersteund in Power BI met behulp van het XMLA-eind punt. Toepassingen kunnen het Tabellaire object model (TOM) gebruiken om M-expressies te verkrijgen die worden gebruikt door het gegevens model.
 
 ## <a name="see-also"></a>Zie ook
 

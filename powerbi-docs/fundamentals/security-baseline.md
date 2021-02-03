@@ -8,12 +8,12 @@ ms.subservice: pbi-security
 ms.topic: conceptual
 ms.date: 11/20/2020
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: b99f6f53f64e57bc262ea5aa518efa529b73f44e
-ms.sourcegitcommit: fb529c4532fbbdfde7ce28e2b4b35f990e8f21d9
+ms.openlocfilehash: 04a971aa6d1e584866ff7740676ab35b2e0e17af
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "99088138"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494875"
 ---
 # <a name="azure-security-baseline-for-power-bi"></a>Azure-beveiligingsbasislijn voor Power BI
 
@@ -221,7 +221,7 @@ Zorg ervoor dat de referenties (zoals wachtwoord, certificaat of smartcard) voor
 **Richtlijnen**: Beveiligde, geïsoleerde werkstations zijn van cruciaal belang voor de beveiliging van gevoelige rollen als beheerders, ontwikkelaars en serviceoperators met vergaande bevoegdheden. Gebruik zeer goed beveiligde gebruikerswerkstations en/of Azure Bastion voor beheertaken voor Power BI. Gebruik Azure Active Directory, Microsoft Defender Advanced Threat Protection (ATP) en/of Microsoft Intune als u een beveiligd en beheerd gebruikerswerkstation voor beheertaken wilt implementeren. De beveiligde werkstations kunnen centraal worden beheerd en beveiligde configuraties afdwingen, waaronder krachtige verificatie, software- en hardwarebasislijnen, beperkte logische toegang en netwerktoegang.
 
 Inzicht in uitgebreide toegang
-- [werkstations](/azure/active-directory/devices/concept-azure-managed-workstation)
+- [werkstations](https://4sysops.com/archives/understand-the-microsoft-privileged-access-workstation-paw-security-model/)
 
 - [Een werkstation met uitgebreide toegang gebruiken](/azure/active-directory/devices/howto-azure-managed-workstation)
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 01/04/2021
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 00f78fef9f1abd11d7c553009db5541822c59c85
-ms.sourcegitcommit: 932f6856849c39e34229dc9a49fb9379c56a888a
-ms.translationtype: HT
+ms.openlocfilehash: 377ede2171a721a33aa0b70819ef511d721f2590
+ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97926380"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "99494438"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Verbinding maken met Snowflake in Power BI Desktop
 In Power BI Desktop kunt u verbinding maken met een **Snowflake** Computing-magazijn en gebruikmaken van de onderliggende gegevens, net zoals elke andere gegevensbron in Power BI Desktop. 
@@ -47,6 +47,10 @@ Als u verbinding hebt gemaakt, verschijnt er een **Navigator**-scherm waarin de 
 ![ODBC-fout 28000 veroorzaakt een fout bij het maken van een verbinding.](media/desktop-connect-snowflake/connect-snowflake-5.png)
 
 U kunt de geselecteerde tabel **laden**, waarna de hele tabel in **Power BI Desktop** wordt geladen. U kunt de query ook **bewerken**. Hiervoor wordt **Query Editor** geopend, zodat u de gewenste set gegevens kunt filteren en verfijnen, om deze verfijnde gegevensset vervolgens in **Power BI Desktop** te laden.
+
+## <a name="custom-roles"></a>Aangepaste rollen
+
+Momenteel wordt de ondersteuning voor ' aangepaste rol ' in de sneeuw-connector alleen gebruikt voor basis verificatie. Dit zal in de nabije toekomst worden opgelost.
 
 ## <a name="next-steps"></a>Volgende stappen
 Met Power BI Desktop kunt u verbinding maken met allerlei andere gegevens. Bekijk de volgende bronnen voor meer informatie over gegevensbronnen:
