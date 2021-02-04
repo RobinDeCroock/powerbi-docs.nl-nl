@@ -1,19 +1,19 @@
 ---
-title: Veelgestelde vragen over ingesloten analyses in Power BI om u te helpen betere ingesloten BI-inzichten mogelijk te maken
-description: Hier vindt u een lijst met veelgestelde vragen en antwoorden over ingesloten analyses in Power BI waarmee ingesloten BI-inzichten voor klanten worden verbeterd.
+title: Veelgestelde vragen over in Power BI ingesloten analyses
+description: Bladeren in een lijst met veelgestelde vragen en antwoorden over Power BI embedded Analytics
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/11/2020
-ms.openlocfilehash: d787dfbb926a3a1224d5b4949003e0b0d260260f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: e9487cc0cd799e925108163f729fdbf7da5d3ad5
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155636"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532999"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Veelgestelde vragen over Power BI Embedded
 
@@ -41,6 +41,10 @@ Microsoft heeft Power BI Embedded ontwikkeld voor ISV's die visuals in hun toepa
 Power BI Premium is qua capaciteit afgestemd op ondernemingen die de beschikking willen over een volledige BI-oplossing met één weergave van de organisatie, partners, klanten en leveranciers. Power BI Premium helpt uw organisatie bij het nemen van beslissingen. Power BI Premium is een SaaS-product waarmee gebruikers inhoud kunnen gebruiken via mobiele apps, en intern ontwikkelde apps en in de Power BI-portal.
 
 Power BI Embedded is bedoeld voor ISV's die visuals in hun toepassingen willen insluiten. Power BI Embedded helpt uw klanten bij de besluitvorming omdat Power BI Embedded is bedoeld voor ontwikkelaars van toepassingen en klanten van die toepassingen toegang hebben tot inhoud die is opgeslagen in capaciteit van Power BI Embedded, met inbegrip van iedereen binnen of buiten de organisatie. U kunt geen inhoud binnen de Power BI Embedded-capaciteit delen via publiceren met één klik op internet of via publiceren met één klik naar SharePoint.
+
+### <a name="what-is-power-bi-embedded-generation-2"></a>Wat is Power BI Embedded Generation 2?
+
+Er is van Power BI Embedded onlangs een nieuwe versie uitgebracht: **Embedded Gen2**. Met Embedded Gen2 wordt het beheer van ingesloten capaciteiten vereenvoudigd en wordt de Power BI Embedded-ervaring verbeterd. Zie [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md) voor meer informatie.
 
 ### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>Wat is de aanbeveling van Microsoft voor de keuze tussen Power BI Premium en Power BI Embedded?
 

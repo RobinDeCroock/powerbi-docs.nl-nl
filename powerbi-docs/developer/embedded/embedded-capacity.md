@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/06/2021
-ms.openlocfilehash: c27d95715fe436b59825390b1cc16111e83ffc1d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98564996"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533022"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capaciteit en SKU's in Power BI Embedded-analyses
 
@@ -37,6 +37,9 @@ Ingesloten analyse van Power BI bevat twee oplossingen:
 Power BI Embedded is bedoeld voor ISV's en ontwikkelaars die visuals in hun toepassingen willen insluiten.
 
 Toepassingen die gebruikmaken van Power BI Embedded staan gebruikers toe om inhoud te gebruiken die is opgeslagen op Power BI Embedded-capaciteit.
+
+>[!NOTE]
+>Er is van Power BI Embedded onlangs een nieuwe versie uitgebracht: **Embedded Gen2**. Met Embedded Gen2 wordt het beheer van ingesloten capaciteiten vereenvoudigd en wordt de Power BI Embedded-ervaring verbeterd. Zie [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md) voor meer informatie.
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -142,6 +145,10 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 | P4 | 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 | 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
+
+#### <a name="embedded-gen-2-memory-enhancements-preview"></a>Uitgebreide verbeteringen in het geheugen van gen 2 (preview-versie)
+
+Met [Power bi embedded Generation 2](power-bi-embedded-generation-2.md) (ook wel embedded gen 2 genoemd), wordt de hoeveelheid geheugen die beschikbaar is op elke knooppunt grootte, ingesteld op de geheugen limiet van één Power bi item (zoals een rapport of een dash board) en niet op het cumulatieve verbruik van het geheugen. In een Inge sloten Gen2 A4-capaciteit wordt slechts één gegevensset beperkt tot 25 GB, ten opzichte van de oorspronkelijke Power BI Embedded capaciteit, waarbij het totale geheugen verschil van de gegevens sets die tegelijkertijd worden verwerkt, beperkt is tot 25 GB.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 02/02/2021
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 98bc3da33f38974f3dfcb9e155111e7d16e6c069
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 0ae9a37d8d3a54d02811b9f3051d11cb1ab82ff8
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494460"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532562"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>Problemen met connectiviteit van XMLA-eindpunten oplossen
 
@@ -144,7 +144,7 @@ Met onderdrukkingen in de [opdracht Vernieuwen (TMSL)](/analysis-services/tmsl/r
 
 ### <a name="query-execution"></a>Queryuitvoering
 
-Wanneer SQL Server Management Studio is verbonden met een werkruimte in een capaciteit van [Premium Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview), kan de volgende fout worden weergegeven:
+Wanneer er verbinding wordt gemaakt met een werk ruimte in een [Premium-Gen2](service-premium-what-is.md#power-bi-premium-generation-2-preview) of een [Inge sloten Gen2](../developer/embedded/power-bi-embedded-generation-2.md) -capaciteit, wordt in SQL Server Management Studio mogelijk de volgende fout weer gegeven:
 
 ```
 Executing the query ...
@@ -155,7 +155,7 @@ Deze fout treedt op omdat de clientbibliotheken die zijn geïnstalleerd met SQL 
 
 ### <a name="refresh-operations"></a>Bewerkingen vernieuwen
 
-Als u SQL Server Management Studio v18.7.1 of lager gebruikt om een langdurige vernieuwingsbewerking (meer dan 1 minuut) uit te voeren op een gegevensset in een Premium Gen2-capaciteit, wordt er mogelijk een foutbericht vergelijkbaar met dat hieronder weergeven ondanks dat de vernieuwingsbewerking is voltooid:
+Als u SSMS v 18.7.1 of lager gebruikt om een langdurige vernieuwings bewerking (>1 min) uit te voeren op een gegevensset in een Premium-Gen2 of een [Inge sloten Gen2](../developer/embedded/power-bi-embedded-generation-2.md) -capaciteit, wordt er mogelijk een fout bericht weer gegeven zoals in het volgende hoewel de vernieuwings bewerking slaagt:
 
 ```
 Executing the query ...

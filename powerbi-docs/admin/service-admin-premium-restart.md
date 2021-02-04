@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 367195e0e09bbfb7de20acfa71b8da9742664ca2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: da6108927e9d6182c08db68972a5452514eedca7
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413559"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532953"
 ---
 # <a name="restart-a-power-bi-premium-capacity"></a>Een Power BI Premium-capaciteit opnieuw opstarten
 
@@ -30,6 +30,8 @@ In Power BI worden voortdurend verbeteringen aangebracht door om gebruikers van 
 
 > [!NOTE]
 > Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Voor Preview Gen2-capaciteiten is opnieuw opstarten niet vereist, dus deze functie is niet beschikbaar in Premium Gen2.
+>
+> Voor **Inge sloten Gen2** -capaciteit hoeft u ook niet opnieuw te worden opgestart. Raadpleeg [Power bi embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md)om de Power bi embedded verbeteringen van Gen2 te bekijken.
 
 ## <a name="is-the-restart-process-safe-will-i-lose-any-data"></a>Is het proces voor opnieuw opstarten veilig? Gaan er gegevens verloren?
 

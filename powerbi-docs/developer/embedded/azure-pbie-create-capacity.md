@@ -1,6 +1,6 @@
 ---
-title: Power BI Embedded-capaciteit maken in Azure Portal | Microsoft Docs
-description: Dit artikel biedt informatie over het maken van Power BI Embedded-capaciteit in Microsoft Azure.
+title: Power BI Embedded-capaciteit maken in Azure Portal voor uw ingesloten BI-oplossing voor ingesloten analyses in power BI
+description: Dit artikel biedt informatie over het maken van een Power BI Embedded-capaciteit in Microsoft Azure voor uw ingesloten BI-oplossing voor ingesloten analyses in Power BI.
 author: KesemSharabi
 ms.author: kesharab
 ms.service: powerbi
@@ -9,13 +9,13 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.custom: subject-armqs, devx-track-azurecli
-ms.date: 08/02/2020
-ms.openlocfilehash: 73be957feae7fb869cca0af7bce0eeeb8daab03f
-ms.sourcegitcommit: b4c457bfb4676381dc4a0d04d965e8dab0bc230e
-ms.translationtype: HT
+ms.date: 01/14/2021
+ms.openlocfilehash: e006d4fe23c85daf941ba7274027ee21b0f44eac
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98155710"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532654"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Power BI Embedded-capaciteit maken in Azure Portal
 
@@ -27,9 +27,9 @@ Voor deze snelstartgids hebt u heet volgende nodig:
 
 * **Azure-abonnement:** ga naar [Gratis proefversie van Azure](https://azure.microsoft.com/free/) om een account te maken.
 
-* **Azure Active Directory:** Uw abonnement moet zijn gekoppeld aan een Azure Active Directory-tenant (Azure AD). Bovendien *_moet u zijn aangemeld bij Azure met een account in deze tenant_*. Microsoft-accounts worden niet ondersteund. Zie [Verificatie en gebruikersmachtigingen](/azure/analysis-services/analysis-services-manage-users) voor meer informatie.
+* **Azure Active Directory:** Uw abonnement moet zijn gekoppeld aan een Azure Active Directory-tenant (Azure AD). U moet zich ook bij **_Azure aanmelden met een account in die Tenant_**. Microsoft-accounts worden niet ondersteund. Zie [Verificatie en gebruikersmachtigingen](/azure/analysis-services/analysis-services-manage-users) voor meer informatie.
 
-_ **Power BI-tenant:** ten minste één account in uw Azure AD-tenant moet zijn geregistreerd voor Power BI.
+* **Power BI-tenant:** ten minste één account in uw Azure AD-tenant moet zijn geregistreerd voor Power BI.
 
 * **Resourcegroep:** gebruik een resourcegroep die u al hebt of [maak een nieuwe](/azure/azure-resource-manager/resource-group-overview).
 
@@ -46,9 +46,9 @@ Voordat u een Power BI Embedded-capaciteit maakt, moet u controleren of u zich t
 3. In Power BI Embedded selecteert u **Toevoegen**.
 
 4. Vul de vereiste gegevens in en selecteer vervolgens **Beoordelen en maken**.
-
-    >[!div class="mx-imgBorder"]
-    >![Schermopname van het tabblad Basisprincipes van de pagina Power BI Embedded voor het maken van nieuwe capaciteit in Azure Portal.](media/azure-pbie-create-capacity/azure-create-capacity-old.png)
+    
+    > [!div class="mx-imgBorder"]
+    >![Schermopname van het tabblad Basisprincipes van de pagina Power BI Embedded voor het maken van nieuwe capaciteit in Azure Portal.](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **Abonnement**: het abonnement waarvoor u de capaciteit wilt maken.
 
@@ -66,7 +66,19 @@ Voordat u een Power BI Embedded-capaciteit maakt, moet u controleren of u zich t
         >* U kunt een andere gebruiker of service-principal als capaciteitsbeheerder kiezen.
         >* De capaciteitsbeheerder moet deel uitmaken van de tenant waarin de capaciteit wordt ingericht. Business-to-business-gebruikers (B2B) kunnen geen capaciteitsbeheerders zijn.
 
+    * **Resource modus** : Selecteer tussen deze twee Power bi Embedded Resource modi:
+
+        * **Embedded Generation 1** : de klassieke Power bi Embedded-Resource.
+
+        * **Geïntegreerde generatie 2** : de nieuwe Power bi Embedded Resource, met verbeterde ervaring. Zie [Power bi embedded Premium Generation 2](power-bi-embedded-generation-2.md)voor meer informatie.
+        
+        >[!IMPORTANT]
+        >Zodra u een capaciteits resource hebt gemaakt, kunt u geen andere generaties maken. Als u de generatie van Power BI Embedded wilt wijzigen, kunt u een andere resource maken met behulp van een andere generatie en uw werk ruimten hieraan toewijzen. U kunt dit proces ook automatiseren met Azure Resource Manager-Api's.
+
 # <a name="azure-cli"></a>[Azure-CLI](#tab/CLI)
+
+>[!NOTE]
+>Azure CLI wordt niet ondersteund voor [Power bi embedded Generation 2 (preview)](power-bi-embedded-generation-2.md).
 
 ### <a name="use-azure-cloud-shell"></a>Azure Cloud Shell gebruiken
 
@@ -128,7 +140,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>Een capaciteit verwijderen met Azure CLI
 
-Gebruik de opdracht [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) om een capaciteit te verwijderen met Azure CLI.
+Als u een capaciteit wilt verwijderen met behulp van Azure CLI, gebruikt u de [azure Power bi-opdracht voor het verwijderen van Inge sloten-capaciteit](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) .
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -137,7 +149,7 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>Uw capaciteit beheren met Azure CLI
 
-In [az powerbi](/cli/azure/ext/powerbidedicated/powerbi) kunt u alle Power BI Embedded Azure CLI-opdrachten zien.
+U kunt alle Power BI Embedded Azure CLI-opdrachten weer geven in [azure Power bi](/cli/azure/ext/powerbidedicated/powerbi).
 
 # <a name="arm-template"></a>[ARM-sjabloon](#tab/ARM-template)
 
@@ -149,7 +161,13 @@ Als u nog geen Azure-abonnement hebt, maakt u een [gratis account](https://azure
 
 ### <a name="review-the-template"></a>De sjabloon controleren
 
-De sjabloon die in deze quickstart wordt gebruikt, komt uit [Azure-quickstartsjablonen](https://azure.microsoft.com/resources/templates/101-power-bi-embedded).
+De sjablonen die in deze snelstart worden gebruikt, komen uit [Azure-snelstartsjablonen](https://azure.microsoft.com/resources/templates/101-power-bi-embedded).
+
+Zodra Azure resource is gedefinieerd in de sjabloon, kunt u [micro soft. PowerBIDedicated/capacity AZ](/azure/templates/microsoft.powerbidedicated/allversions) -een Power bi embedded capaciteit maken.
+
+#### <a name="embedded-gen1"></a>Inge sloten gen1
+
+Gebruik deze sjabloon om een klassieke Power BI Embedded resource te maken.
 
 ```json
 {
@@ -159,14 +177,14 @@ De sjabloon die in deze quickstart wordt gebruikt, komt uit [Azure-quickstartsja
         "name": {
             "type": "string",
             "metadata": {
-              "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
             }
         },
         "location": {
             "type": "string",
             "defaultValue": "[resourceGroup().location]",
             "metadata": {
-              "description": "The location where Power BI is hosted for your tenant"
+                "description": "The location where Power BI is hosted for your tenant"
             }
         },
         "sku": {
@@ -180,13 +198,13 @@ De sjabloon die in deze quickstart wordt gebruikt, komt uit [Azure-quickstartsja
                 "A6"
             ],
             "metadata": {
-              "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
             }
         },
         "admin": {
             "type": "string",
             "metadata": {
-              "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
             }
         }
     },
@@ -211,7 +229,70 @@ De sjabloon die in deze quickstart wordt gebruikt, komt uit [Azure-quickstartsja
 }
 ```
 
-In de sjabloon is één Azure-resource gedefinieerd: [Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - Een Power BI Embedded-capaciteit maken.
+#### <a name="embedded-gen2-preview"></a>Inge sloten Gen2 (preview-versie)
+
+Gebruik deze sjabloon om een [Inge sloten gen 2](power-bi-embedded-generation-2.md) -resource te maken.
+
+```json
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "type": "string",
+            "metadata": {
+                "description": "The capacity name, which is displayed in the Azure portal and the Power BI admin portal"
+            }
+        },
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]",
+            "metadata": {
+                "description": "The location where Power BI is hosted for your tenant"
+            }
+        },
+        "sku": {
+            "type": "string",
+            "allowedValues": [
+                "A1",
+                "A2",
+                "A3",
+                "A4",
+                "A5",
+                "A6"
+            ],
+            "metadata": {
+                "description": "The pricing tier, which determines the v-core count and memory size for the capacity"
+            }
+        },
+        "admin": {
+            "type": "string",
+            "metadata": {
+                "description": "A user within your Power BI tenant, who will serve as an admin for this capacity"
+            }
+        }
+    },
+    "resources": [
+        {
+            "type": "Microsoft.PowerBIDedicated/capacities",
+            "apiVersion": "2018-09-01-preview",
+            "name": "[parameters('name')]",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('sku')]"
+            },
+            "properties": {
+                "administration": {
+                    "members": [
+                        "[parameters('admin')]"
+                    ]
+                },
+                "mode": "Gen2"
+            }
+        }
+    ]
+}
+```
 
 ### <a name="deploy-the-template"></a>De sjabloon implementeren
 

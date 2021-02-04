@@ -9,12 +9,12 @@ ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 11/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 04340be9c7e3700630657306093e3d96e3e9e693
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.openlocfilehash: 62579a12588449e0119b96fb3a7c7da2ef7858e5
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491409"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532907"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Workloads configureren in een Premium-capaciteit
 
@@ -22,6 +22,8 @@ In dit artikel wordt het inschakelen en configureren van workloads voor Power BI
 
 > [!NOTE]
 > Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
+>
+>Raadpleeg [Power bi embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md)om de Power bi embedded verbeteringen van Gen2 te bekijken.
 
 ## <a name="default-memory-settings"></a>Standaardinstellingen voor geheugen
 

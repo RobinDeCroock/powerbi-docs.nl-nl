@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/01/2021
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 05f2523e468759444a731d5484e8ce17350a46ae
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: e226d70822e9462f376ec3b5d4d9fd5f36ade252
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494898"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532769"
 ---
 # <a name="what-is-power-bi-premium"></a>Wat is Power BI Premium?
 
@@ -38,6 +38,9 @@ In dit artikel worden belangrijke functies van Power BI Premium beschreven. In v
 ## <a name="power-bi-premium-generation-2-preview"></a>Power BI Premium Generation 2 (preview)
 
 Power BI Premium heeft onlangs een nieuwe versie van Power BI Premium uitgebracht: **Power BI Premium Generation 2**, gemakshalve aangeduid **Premium Gen2**. Premium Gen2 is momenteel beschikbaar als preview-versie en kan tijdens de preview-periode worden gebruikt door Premium-abonnees. U kunt de oorspronkelijke versie van Premium gebruiken of overschakelen naar het gebruik van Premium Gen2. U kunt slechts een van beide gebruiken voor uw Premium-capaciteit.
+
+>[!NOTE]
+>Raadpleeg [Power bi embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md)om de Power bi embedded verbeteringen van Gen2 te bekijken.
 
 Premium Gen2 biedt de volgende updates of verbeterde ervaring:
 
@@ -136,9 +139,9 @@ De resources en limieten van elke Premium-SKU (en A-SKU van een vergelijkbare om
 | EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1 | 8 | 4 | 25 | 4 | 30 | 6 |
-| P2 | 16 | 8 | 50 | 8 | 60 | 12 |
-| P3 | 32 | 16 | 100 | 16 | 120 | 24 |
+| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
+| P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | P4 <sup>[1](#limit)</sup>| 64 | 32 | 200 | 32 | 240 | 48 |
 | P5 <sup>[1](#limit)</sup>| 128 | 64 | 400 | 64 | 480 | 96 |
 | | | | | | | |
@@ -150,7 +153,7 @@ De resources en limieten van elke Premium-SKU (en A-SKU van een vergelijkbare om
 
 #### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
 
-Met **Premium Gen2** is de hoeveelheid geheugen die beschikbaar is op elke knooppuntgrootte ingesteld op de maximale geheugenruimte van één artefact en niet op het cumulatieve verbruik van het geheugen. In Premium Gen2 is bijvoorbeeld slechts één gegevensset beperkt tot 25 GB, terwijl in de oorspronkelijke Premium de totale geheugencapaciteit van de gegevenssets die op hetzelfde moment worden verwerkt was beperkt tot 25 GB.
+Met **Premium Gen2** en [embedded gen 2](../developer/embedded/power-bi-embedded-generation-2.md)wordt de hoeveelheid beschikbaar geheugen op elke knooppunt grootte ingesteld op de maximale geheugen ruimte van één artefact en niet op het cumulatieve verbruik van het geheugen. Bijvoorbeeld, in Premium Gen2 P1-capaciteit, is slechts één gegevensset beperkt tot 25 GB, in vergelijking met de oorspronkelijke Premium, waarbij de totale geheugen capaciteit van de gegevens sets die tegelijkertijd worden verwerkt, beperkt was tot 25 GB.
 
 ### <a name="capacity-workloads"></a>Workloads van capaciteit
 
@@ -186,7 +189,7 @@ Voor vernieuwen moet net als bij query's, het model in het geheugen worden gelad
 
 #### <a name="updates-for-premium-gen2-preview"></a>Updates voor Premium Gen2 (preview-versie)
 
-Voor Premium Gen2 zijn geen cumulatieve geheugenlimieten vereist, en daarom dragen gelijktijdige vernieuwingen van gegevenssets niet bij aan resourcebeperkingen. Bovendien geldt er geen limiet voor het aantal actieve vernieuwingen per v-core. Het vernieuwen van afzonderlijke gegevenssets wordt nog steeds bepaald door het bestaande geheugen- en CPU-limieten van de capaciteit. U kunt op elk gewenst moment zo veel vernieuwingen plannen en uitvoeren als nodig is, waarna de Power BI-service ze als een beste poging vernieuwt op het geplande tijdstip.
+Premium Gen2 en [embedded gen 2](../developer/embedded/power-bi-embedded-generation-2.md) vereisen geen cumulatieve geheugen limieten, waardoor gelijktijdige gegevensset-vernieuwingen geen bijdrage leveren aan resource beperkingen. Bovendien geldt er geen limiet voor het aantal actieve vernieuwingen per v-core. Het vernieuwen van afzonderlijke gegevenssets wordt nog steeds bepaald door het bestaande geheugen- en CPU-limieten van de capaciteit. U kunt op elk gewenst moment zo veel vernieuwingen plannen en uitvoeren als nodig is, waarna de Power BI-service ze als een beste poging vernieuwt op het geplande tijdstip.
 
 Opmerkingen bij de sectie:   
 <a name="endnote-1"></a>\[1\] kan worden gewijzigd.
@@ -290,10 +293,10 @@ Raadpleeg [Incremental refresh in Power BI Premium](service-premium-incremental-
 
 Gepagineerde rapporten, die worden ondersteund op P1-P3- en A4_A6-SKU's, zijn gebaseerd op RDL-technologie (RDL: Report Definition Language) in SQL Server Reporting Services. Hoewel deze zijn gebaseerd op RDL-technologie, werkt het niet hetzelfde als Power BI Report Server, een downloadbaar rapportageplatform dat u on-premises kunt installeren en ook is opgenomen in Power BI Premium. Gepagineerde rapporten zijn zo geformatteerd dat deze goed passen op een pagina, die kan worden afgedrukt of gedeeld. De gegevens worden in een tabel weergegeven, zelfs als de tabel meerdere pagina's omvat. Met behulp van de gratis Windows Desktop-toepassing [**Power BI Report Builder**](https://aka.ms/pbireportbuilder) stellen gebruikers gepagineerde rapporten op en publiceren deze naar de service.
 
-In Power BI Premium zijn gepagineerde rapporten een workload die voor een capaciteit moet worden ingeschakeld via de beheerportal. Capaciteitsbeheerders kunnen bij de inschakeling vervolgens de hoeveelheid geheugen opgeven als percentage van het totaal aan geheugenresources van de capaciteit. In tegenstelling tot andere typen workloads worden in Premium gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. De maximale hoeveelheid geheugen die u aan deze ruimte hebt toegewezen wordt gebruikt, ongeacht of de workload wel of niet actief is. De standaardwaarde is 20.
+In Power BI Premium zijn gepagineerde rapporten een workload die voor een capaciteit moet worden ingeschakeld via de beheerportal. Capaciteitsbeheerders kunnen bij de inschakeling vervolgens de hoeveelheid geheugen opgeven als percentage van het totaal aan geheugenresources van de capaciteit. In tegenstelling tot andere typen workloads worden in Premium gepagineerde rapporten in een ingesloten ruimte in de capaciteit uitgevoerd. De maximale hoeveelheid geheugen die u aan deze ruimte hebt toegewezen wordt gebruikt, ongeacht of de workload wel of niet actief is. De standaardwaarde is 20. 
 
 > [!NOTE]
-> **Premium Gen2 (preview-versie)** kent geen geheugenbeheer voor gepagineerde rapporten. In Premium Gen2 worden gepagineerde rapporten ondersteund op de EM1-EM3-SKU's.
+> In **Premium Gen2 (preview)** en [embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md)is er geen geheugen beheer voor gepagineerde rapporten. Met Premium Gen2 en embedded Gen2 worden gepagineerde rapporten ondersteund op de Sku's EM1-EM3 en a1-a3.
 
 ### <a name="paginated-reports-and-premium-gen2"></a>Gepagineerde rapporten en Premium Gen2
 
@@ -327,7 +330,7 @@ Zie [Power BI-licentieverlening](service-admin-licensing-organization.md) voor m
 
 ## <a name="analysis-services-in-power-bi-premium"></a>Analysis Services in Power BI Premium
 
-De voor zakelijke doeleinden beproefde Microsoft **Analysis Services Vertipaq-engine** is de drijvende kracht achter de Power BI Premium-werkruimten en -gegevenssets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Standaard bieden gegevenssetsworkloads op Power BI Premium-capaciteit ondersteuning voor *alleen-lezen* bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via een **XMLA-eindpunt**. Capaciteitsbeheerders kunnen er ook voor kiezen om *lees- en schrijf* bewerkingen via het eindpunt uit te schakelen of toe te staan.
+Onder de schermen worden de beproefde micro soft **Analysis Services VertiPaq-engine** bevoegdheden Power bi Premium werk ruimten en gegevens sets. Analysis Services biedt programmeerbaarheid en ondersteuning voor clienttoepassingen en hulpprogramma's via clientbibliotheken en API's die ondersteuning bieden voor het open-standaard XMLA-protocol. Standaard bieden gegevenssetsworkloads op Power BI Premium-capaciteit ondersteuning voor *alleen-lezen* bewerkingen van Microsoft en clienttoepassingen en hulpprogramma's van derden via een **XMLA-eindpunt**. Capaciteitsbeheerders kunnen er ook voor kiezen om *lees- en schrijf* bewerkingen via het eindpunt uit te schakelen of toe te staan.
 
 Met alleen-lezentoegang kunnen hulpprogramma's van Microsoft, zoals SQL Server Management Studio (SSMS) en SQL Server Profiler en apps van derden, zoals DAX Studio en toepassingen voor gegevensvisualisatie, verbinding maken met en query's uitvoeren op Premium-gegevenssets met behulp van XMLA-, DAX-, MDX-, DMV- en traceergebeurtenissen. Met lees-/schrijftoegang kunnen hulpprogramma's voor gegevensmodellering op bedrijfsniveau, zoals Visual Studio met de extensie voor Analysis Services-projecten of Tabular Editor (open source), tabellaire modellen implementeren als een gegevensset voor een Premium-werkruimte. Met hulpprogramma's zoals SSMS kunnen beheerders Tabular Model Scripting Language (TMSL) gebruiken om scripts voor het wijzigen van metagegevens en geavanceerde scenario's voor het vernieuwen van gegevens uit te voeren. 
 

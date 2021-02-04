@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 10/12/2020
-ms.openlocfilehash: 17e153528e45a52de7addf3563c58c2586600660
-ms.sourcegitcommit: 383d87841d2509131fac7cc02c5c37c6a868144f
-ms.translationtype: HT
+ms.date: 02/03/2021
+ms.openlocfilehash: 73c7e0b2256d4a45fb9f433a887827e772a32257
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92026002"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533068"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>Web Application Proxy en Active Directory Federated Services gebruiken - Power BI Report Server
 
@@ -85,7 +85,7 @@ Voer op de AD FS-server de volgende stappen uit met behulp van AD FS-beheer-app.
 
     ![Toegangsbeheer kiezen](media/connect-adfs-wap-report-server/report-server-adfs-choose-access-control.png)
     
-    Selecteer **Volgende**en selecteer **Voltooien** om de wizard **Vertrouwensrelatie van Relying Party toevoegen** te voltooien.
+    Selecteer **Volgende** en selecteer **Voltooien** om de wizard **Vertrouwensrelatie van Relying Party toevoegen** te voltooien.
 
     Wanneer dit is voltooid, moeten de eigenschappen van de vertrouwensrelaties van de Relying Party er als volgt uitzien.
 
@@ -93,7 +93,7 @@ Voer op de AD FS-server de volgende stappen uit met behulp van AD FS-beheer-app.
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3. WAP (Web Application Proxy) configureren
 
-Schakel de Windows-rol webtoepassingsproxy in op een server in uw omgeving. Dit moet op een Windows 2016-server gebeuren. Zie voor meer informatie [Webtoepassingsproxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) en [Toepassingen publiceren met behulp van AD FS-verificatie](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication).
+Schakel de Windows-rol webtoepassingsproxy in op een server in uw omgeving. Dit moet op een Windows 2016-server gebeuren. Zie voor meer informatie [Webtoepassingsproxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) en [Toepassingen publiceren met behulp van AD FS-verificatie](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication#BKMK_1.2).
 
 ### <a name="configure-constrained-delegation"></a>Beperkte delegering configureren
 
@@ -131,7 +131,7 @@ Voer de volgende stappen uit om beperkte delegering te configureren.
 
 1. Open op de Web Application Proxy-server de console voor **Beheer van externe toegang** en selecteer **Web Application Proxy** in het navigatiedeelvenster. 
 
-2. Selecteer **Publiceren**in het deelvenster **Taken**.
+2. Selecteer **Publiceren** in het deelvenster **Taken**.
 
 2. Selecteer **Volgende** op de welkomstpagina.
 

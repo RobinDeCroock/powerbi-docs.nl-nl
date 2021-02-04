@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/02/2019
-ms.openlocfilehash: 3d35df1c38a0a62325f88fa19ee7267a3b209647
-ms.sourcegitcommit: f7330dabb9cd8bce90bb2efec3e3273a11578f10
+ms.openlocfilehash: 28baefb80037d1f78d2a2fd51b3989aa5d2a1ebb
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "99494496"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533091"
 ---
 # <a name="scan-barcodes-from-the-mobile-app-to-get-filtered-data"></a>Streepjes codes scannen vanuit de mobiele app om gefilterde gegevens op te halen 
 Scan streepjes codes in de hele wereld om direct naar gefilterde BI-informatie te gaan in de mobiele app van Power BI.
@@ -73,7 +73,7 @@ Filteren van streepjes code wissen in een gefilterd rapport:
 * De mobiele apps ondersteunen het filteren van streepjes codes alleen voor rapporten die slechts één streepjescode kolom hebben in alle rapport gegevens tabellen. Als u een streepjes code scant voor een rapport met meer dan één streepjescode kolom, vindt er geen filters plaats.
 
 ## <a name="issues-with-scanning-a-barcode"></a>Problemen met het scannen van een streepjescode
-Hier volgen enkele Issus die u kunt tegen komen wanneer u een streepjes code op een item scant.
+Hier volgen enkele problemen die kunnen optreden wanneer u een streepjes code op een item scant.
 
 * U krijgt een bericht dat het **rapport niet kan worden gefilterd, omdat deze streepjes code niet bestaat in de rapport gegevens**: Dit betekent dat de waarde van de streepjes code die u hebt gescand niet wordt weer gegeven in de datamodel van het rapport dat u wilt filteren. Dit kan bijvoorbeeld het geval zijn als het product waarvan u de streepjes code hebt gescand, niet in het rapport is opgenomen. U kunt een ander product scannen, een ander rapport kiezen (als er meerdere rapporten beschikbaar zijn) of het rapport ongefilterd weergeven.
 

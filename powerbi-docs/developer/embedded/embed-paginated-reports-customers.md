@@ -1,6 +1,6 @@
 ---
-title: Gepagineerde rapporten insluiten in uw toepassing voor ingesloten analyses in Power BI voor betere ingesloten BI-inzichten voor uw klanten
-description: Informatie over het integreren of insluiten van een gepagineerd Power BI-rapport in een app met behulp van de Power BI-API's. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
+title: Gepagineerde Power BI-rapporten voor uw klanten insluiten in uw in Power BI ingesloten analysetoepassing
+description: Meer informatie over het integreren of insluiten van een Power BI gepagineerd rapport in een embedded Analytics-toepassing.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 01/04/2019
-ms.openlocfilehash: 1cbe656618e2d4240aebfe95ef4ebc2679616054
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 01/14/2021
+ms.openlocfilehash: 081c6c409a2aed7003952b30ff16dcb7f032ed40
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781629"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99533137"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>Zelfstudie: Gepagineerde Power BI-rapporten insluiten in een toepassing voor uw klanten
 
@@ -58,10 +58,16 @@ Voordat u een gepagineerd rapport importeert of uploadt om in te sluiten, moet d
 * **Power BI Premium**: voor het insluiten van een gepagineerd rapport is *P*-SKU vereist. Bij het insluiten van Power BI-inhoud wordt deze oplossing aangeduid als *insluiten van Power BI*. Zie [Wat is Power BI Premium?](../../admin/service-premium-what-is.md) voor meer informatie over dit abonnement
 * **Azure Power BI Embedded**: u kunt capaciteit kopen in de [Microsoft Azure-portal](https://portal.azure.com). Dit abonnement maakt gebruik van de *A*-SKU's. Voor het insluiten van gepagineerde rapporten hebt u minimaal een *A4*-abonnement nodig. Zie [Power BI Embedded-capaciteit maken in Azure Portal](azure-pbie-create-capacity.md) voor meer informatie over het maken van Power BI Embedded-capaciteit.
 
+    >[!NOTE]
+    >Er is van Power BI Embedded onlangs een nieuwe versie uitgebracht: **Embedded Gen2**. Met Embedded Gen2 wordt het beheer van ingesloten capaciteiten vereenvoudigd en wordt de Power BI Embedded-ervaring verbeterd. Zie [Power BI Embedded Generation 2](power-bi-embedded-generation-2.md) voor meer informatie.
+
 In de onderstaande tabel worden de resources en limieten van elke SKU beschreven. Als u wilt weten welke capaciteit het beste bij uw behoeften past, raadpleegt u de tabel [welke SKU moet ik kopen voor mijn scenario?](./embedded-faq.md#which-solution-should-i-choose).
 
 | Capaciteitsknooppunten | Totaal aantal v-cores | v-cores voor back-end | RAM (GB) | v-cores voor front-end | 
 | --- | --- | --- | --- | --- |
+| A1 met [Embedded Gen2](power-bi-embedded-generation-2.md) | 1 | 0,5 | 2.5 | 0,5 |
+| A2 met [Embedded Gen2](power-bi-embedded-generation-2.md) | 2 | 1 | 5 | 1 |
+| A3 met [Embedded Gen2](power-bi-embedded-generation-2.md) | 4 | 2 | 10 | 2 |
 | P1/A4 | 8 | 4 | 25 | 4 |
 | P2/A5 | 16 | 8 | 50 | 8 |
 | P3/A6 | 32 | 16 | 100 | 16 |
@@ -206,7 +212,7 @@ Hoewel de stappen voor het insluiten van uw gepagineerde Power BI-rapporten word
 
 Als u gepagineerde Power BI-rapporten voor uw klanten wilt insluiten in uw app, moet u een **Azure Active Directory**-[service-principal](embed-service-principal.md) hebben en zorgen dat u over een [Azure Active Directory-toegangstoken](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) beschikt voor uw Power BI-app, voordat u de [Power BI REST API's](/rest/api/power-bi/) kunt aanroepen.
 
-Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST API's](/rest/api/power-bi/). U maakt het Power BI-clientobject door het **AccessToken** te verpakken met het object **_Microsoft.Rest.TokenCredentials_* _.
+Als u de Power BI-client met uw **toegangstoken** wilt maken, maakt u uw Power BI-clientobject zodat u kunt communiceren met de [Power BI REST API's](/rest/api/power-bi/). U maakt het Power BI-client object door de **AccessToken** in te pakken met het object **_micro soft. rest. TokenCredentials_** .
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -228,7 +234,7 @@ U kunt het Power BI-clientobject gebruiken voor het ophalen van een verwijzing n
 
 Hier volgt een codevoorbeeld van hoe u het eerste rapport ophaalt uit een bepaalde werkruimte.
 
-_Een voorbeeld van het ophalen van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten, is beschikbaar in het bestand Services\EmbedService.cs in de [voorbeeldtoepassing](https://github.com/Microsoft/PowerBI-Developer-Samples).*
+*Een voorbeeld van het ophalen van een inhoudsitem voor een rapport, dashboard of tegel die u wilt insluiten is beschikbaar in het bestand Services\EmbedService.cs in de [voorbeeldtoepassing](https://github.com/Microsoft/PowerBI-Developer-Samples).*
 
 ```csharp
 using Microsoft.PowerBI.Api.V2;

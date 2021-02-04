@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/11/2020
 ms.custom: ''
 LocalizationGroup: Premium
-ms.openlocfilehash: 21ec2baf472d9650e550de8808ce3dc98b7cb49f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 0038cce77a62f32a5fb5ca32a49fd8f6337352a6
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96412294"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532746"
 ---
 # <a name="premium-capacity-scenarios"></a>Scenario's voor Premium-capaciteit
 
@@ -31,6 +31,8 @@ De stappen, samen met de grafiek- en tabelvoorbeelden, zijn afkomstig van de **a
 
 > [!NOTE]
 > Power BI Premium heeft onlangs een nieuwe versie van Premium uitgebracht, genaamd **Premium Gen2**, die momenteel beschikbaar is als preview. Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de overhead voor beheer. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
+>
+>Raadpleeg [Power bi embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md)om de Power bi embedded verbeteringen van Gen2 te bekijken.
 
 ## <a name="keeping-datasets-up-to-date"></a>Gegevenssets up-to-date houden
 
@@ -127,7 +129,7 @@ In een gezonde capaciteit ziet de visual er als volgt uit, waarbij een hiaat tus
 In het geval waarin een capaciteit geheugendruk ondervindt, wordt in dezelfde visual duidelijk aangegeven dat het actieve geheugen en het totale geheugen worden samengevoegd, wat betekent dat het onmogelijk is om extra gegevenssets in het geheugen te laden. In dit geval kan de Power BI-beheerder op **Capaciteit opnieuw opstarten** klikken (in **Geavanceerde opties** van het capaciteitsinstellingengebied van de beheerportal). Wanneer de capaciteit opnieuw wordt opgestart, worden alle gegevenssets uit het geheugen verwijderd en kunnen ze indien nodig opnieuw in het geheugen worden geladen (door query's of gegevensvernieuwing).
 
 > [!NOTE]
-> Voor Premium Gen2 hoeft het geheugenverbruik niet te worden bijgehouden. De enige beperking in Premium Gen2 is de geheugen-footprint van één artefact. De footprint kan niet groter zijn dan het geheugen dat beschikbaar is voor de capaciteit. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Premium Gen2.
+> Voor Premium Gen2 en [embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md)hoeft het geheugen verbruik niet te worden bijgehouden. De enige beperking in Premium Gen2 en embedded Gen2 is de geheugen ruimte van één artefact. De footprint kan niet groter zijn dan het geheugen dat beschikbaar is voor de capaciteit. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Premium Gen2.
 
 ![** Actief ** geheugen wordt samengevoegd met **Alle** geheugen](media/service-premium-capacity-scenarios/memory-unhealthy-capacity.png)
 
@@ -148,7 +150,7 @@ Dit effect kan bijzonder duidelijk zijn wanneer een gegevensset wordt gebruikt i
 In sommige gevallen kunnen Power BI-beheerders verzoeken dat gegevensseteigenaren een minder volatiele querybelasting maken door een dashboard te maken (dat periodiek query's uitvoert bij het vernieuwen van de gegevensset voor tegels in de cache) in plaats van een rapport. Dit kan helpen bij het voorkomen van pieken wanneer het dashboard wordt geladen. Deze oplossing is misschien niet altijd mogelijk voor bepaalde bedrijfsvereisten, maar dit kan een efficiënte manier zijn om CPU-verzadiging te voorkomen zonder dat u wijzigingen in de gegevensset hoeft aan te brengen.
 
 > [!NOTE]
-> Voor Premium-Gen2 wordt het gebruik van CPU-tijd per artefact bijgehouden en dit gebruik is zichtbaar in de app voor capaciteitsgebruik. Voor elk artefact wordt het totale gebruik van CPU-tijd voor een bepaalde duur weergegeven. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Premium Gen2.
+> Voor Premium Gen2 en [embedded Gen2](../developer/embedded/power-bi-embedded-generation-2.md)wordt CPU-tijd gebruik bijgehouden op basis van een niveau per artefact en zichtbaar in de app capaciteits gebruik. Voor elk artefact wordt het totale gebruik van CPU-tijd voor een bepaalde duur weergegeven. Zie [Power BI Premium Generation 2 (preview-versie)](service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie over Premium Gen2.
 
 ## <a name="acknowledgments"></a>Dankwoord
 

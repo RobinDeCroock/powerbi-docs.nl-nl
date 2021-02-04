@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8a09de5777332d69332cae6928022e7e99fe689e
-ms.sourcegitcommit: 2e81649476d5cb97701f779267be59e393460097
+ms.openlocfilehash: 7907242c3ef71b1b621820cbb66bd93e88ff1c99
+ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "99422278"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99532700"
 ---
 # <a name="using-microsoft-cloud-app-security-controls-in-power-bi"></a>Microsoft Cloud App Security-besturingselementen gebruiken in Power BI
 
@@ -63,7 +63,7 @@ U kunt het artikel over [vertrouwelijkheidslabels in Power BI](service-security-
 
 ## <a name="custom-policies-to-alert-on-suspicious-user-activity-in-power-bi"></a>Aangepaste beleids regels voor het melden van verdachte gebruikers activiteit in Power BI
 
-Met Cloud App Security-activiteiten beleid kunnen beheerders hun eigen aangepaste regels definiëren, om het gedrag van gebruikers te ontdekken dat afwijkt van de norm, en, als het te gevaarlijk lijkt te zijn. Bijvoorbeeld:
+Met Cloud App Security-activiteiten beleid kunnen beheerders hun eigen aangepaste regels definiëren voor het detecteren van gebruikers gedrag dat afwijkt van de norm, en kan het ook automatisch worden uitgevoerd als het te gevaarlijk lijkt. Bijvoorbeeld:
 
 * **Het verwijderen van een enorm gevoeligheids label.** Bijvoorbeeld: Waarschuw mij wanneer de labels voor de gevoeligheid worden verwijderd door één gebruiker uit 20 verschillende rapporten in een tijd venster van minder dan 5 minuten.
 
