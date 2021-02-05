@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: conceptual
 ms.date: 09/09/2020
-ms.openlocfilehash: 6ad81bc88ee559fa08400b5ed8a74dd1a9b6051f
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 74e99f42677c6adda73a8b5e2e3043e2d039f5b3
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410017"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569894"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Beperkingen van Power BI Q&A
 
@@ -34,8 +34,6 @@ In elk van deze configuraties wordt beveiliging op rijniveau ook ondersteund.
 **Ondersteuning van DirectQuery voor Q&A** (preview)
 
 In Q&A worden nu SQL DirectQuery-bronnen ondersteund, waaronder SQL Server 2019, Azure SQL Database en Azure Synapse Analytics. U kunt Q&A gebruiken om vragen in natuurlijke taal te stellen aan deze gegevensbronnen. Er is een kleine wijziging in het gedrag van Q&A in de DirectQuery-modus: Nadat u de vraag hebt getypt, selecteert u de knop **Verzenden**. Met deze wijziging wordt voorkomen dat de DirectQuery-bron wordt overbelast met onnodige query's terwijl u typt.
-
-Andere DirectQuery-bronnen worden niet ondersteund voor Q&A. Q&A wordt niet volledig geblokkeerd als uw gegevensset andere DirectQuery-bronnen bevat, maar sommige vragen worden mogelijk niet correct beantwoord of leveren foutberichten op.
 
 ### <a name="data-sources-not-supported"></a>Gegevensbronnen worden niet ondersteund
 

@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
-ms.date: 11/23/2020
-ms.openlocfilehash: 35bdaa8af06187767975126daa1f2445908fed9f
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/04/2021
+ms.openlocfilehash: 6a322d331dce9fd989a93545745cf7feb2d9eb70
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97886782"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569963"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-an-application-secret"></a>Power BI-inhoud insluiten met service-principal en een toepassingsgeheim
 
@@ -243,8 +243,8 @@ Als de inhoud is ingesloten, bent u klaar voor de [overgang naar de productieomg
 * Power BI-beheerdersrechten zijn vereist voor het inschakelen van de service-principal in instellingen voor ontwikkelaars in de Power BI-beheerportal.
 * Voor [Insluiten voor uw organisatie](embed-sample-for-your-organization.md)-toepassingen kan geen service-principal worden gebruikt.
 * Beheer van [gegevensstromen](../../transform-model/dataflows/dataflows-introduction-self-service.md) wordt niet ondersteund.
-* Service-principals bieden momenteel geen ondersteuning voor beheer-API's.
-* Wanneer u de service-principal gebruikt met een [Azure Analysis Services](/azure/analysis-services/analysis-services-overview)-gegevensbron, moet de service-principal zelf machtigingen hebben voor Azure Analysis Services-instanties. Het gebruik van een beveiligingsgroep die de service-principal voor dit doel bevat, werkt niet.
+* Service-Principal ondersteunt alleen bepaalde alleen-lezen beheer-Api's. Als u ondersteuning voor Service-Principal wilt inschakelen voor alleen-lezen-beheer Api's, moet u de Power BI-service beheerders instellingen inschakelen in uw Tenant. Zie Service-Principal- [verificatie inschakelen voor alleen-lezen-beheer api's](../../admin/read-only-apis-service-principal-authentication.md)voor meer informatie.
+* Wanneer u de service-principal gebruikt met een [Azure Analysis Services](/azure/analysis-services/analysis-services-overview)-gegevensbron, moet de service-principal zelf machtigingen hebben voor Azure Analysis Services. Het gebruik van een beveiligingsgroep die de service-principal voor dit doel bevat, werkt niet.
 
 ## <a name="next-steps"></a>Volgende stappen
 

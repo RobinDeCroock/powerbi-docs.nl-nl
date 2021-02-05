@@ -9,12 +9,12 @@ ms.subservice: pbi-transform-model
 ms.topic: conceptual
 ms.date: 01/19/2021
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cbf41315f6b33483b7fdd0797bf4dfbcebb605c3
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: 0601760392b9bac549ff683f4460a3681da16119
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597677"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99570009"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Samengestelde modellen in Power BI Desktop gebruiken
 
@@ -180,7 +180,7 @@ De volgende (multidimensionale) Live Connect-bronnen kunnen niet worden gebruikt
 
 Als u met behulp van DirectQuery verbinding maakt met deze multidimensionale bronnen, is het niet mogelijk om verbinding te maken met een andere DirectQuery-bron of deze te combineren met importgegevens.
 
-De bestaande beperkingen van DirectQuery gelden nog steeds wanneer u samengestelde modellen gebruikt. Veel van deze beperkingen gelden nu per tabel, al naargelang de opslagmodus van de tabel. Zo kan een berekende kolom in een importtabel verwijzen naar andere tabellen, maar kan een berekende kolom in een DirectQuery-tabel nog steeds alleen verwijzen naar kolommen in dezelfde tabel. Andere beperkingen gelden voor het model als geheel, als een van de tabellen in het model DirectQuery gebruikt. De functies Snelle inzichten en Q&A zijn bijvoorbeeld niet beschikbaar voor een model als een van de tabellen in het model de opslagmodus DirectQuery heeft.
+De bestaande beperkingen van DirectQuery gelden nog steeds wanneer u samengestelde modellen gebruikt. Veel van deze beperkingen gelden nu per tabel, al naargelang de opslagmodus van de tabel. Zo kan een berekende kolom in een importtabel verwijzen naar andere tabellen, maar kan een berekende kolom in een DirectQuery-tabel nog steeds alleen verwijzen naar kolommen in dezelfde tabel. Andere beperkingen gelden voor het model als geheel, als een van de tabellen in het model DirectQuery gebruikt. De functie QuickInsights is bijvoorbeeld niet beschikbaar in een model als een van de tabellen in de tabel een opslag modus van DirectQuery heeft.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -9,12 +9,12 @@ ms.subservice: pbi-data-sources
 ms.topic: conceptual
 ms.date: 12/14/2020
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 340f29394d0c6c83659d77f2545a4f76eef99a9a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: a35b8e127c008f78cb9348704b9e049f9fa3b46f
+ms.sourcegitcommit: afdc9d41da6a4fced63030648d3f976425131732
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597664"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "99569986"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Informatie over DirectQuery in Power BI
 
@@ -163,7 +163,6 @@ Wanneer u DirectQuery gebruikt, zijn er nog steeds mogelijkheden om het model te
 Bijna alle rapportagemogelijkheden worden ondersteund voor DirectQuery-modellen. Dit betekent dat zolang de onderliggende gegevensbron een geschikt prestatieniveau biedt, dezelfde set visualisaties kan worden gebruikt. Er gelden enkele belangrijke beperkingen voor een aantal van de andere mogelijkheden die worden aangeboden in de Power BI-service nadat een rapport is gepubliceerd:
 
 * **Snelle inzichten worden niet ondersteund:** Power BI Quick Insights doorzoekt verschillende subsets van uw gegevensset terwijl er tegelijkertijd geavanceerde algoritmen worden toegepast om potentieel interessante inzichten te detecteren. Gezien de noodzaak voor query's met een snelle respons, is deze mogelijkheid niet beschikbaar voor gegevenssets die DirectQuery gebruiken.
-* **Q&A wordt niet ondersteund:** Met Q&A van Power BI kunt u met behulp van intuïtieve, natuurlijke taal uw gegevens verkennen en antwoorden krijgen in de vorm van diagrammen en grafieken. Deze voorziening wordt momenteel echter niet ondersteund voor gegevenssets die DirectQuery gebruiken.
 * **Verkenning gebruiken in Excel leidt waarschijnlijk tot slechtere prestaties:** U kunt uw gegevens verkennen met de mogelijkheid Verkennen in Excel in een gegevensset. Door deze methode kunt u draaitabellen en -grafieken maken in Excel. Hoewel deze mogelijkheid wordt ondersteund voor gegevenssets die DirectQuery gebruiken, zijn de prestaties meestal minder dan bij het maken van visuals in Power BI. Als het gebruik van Excel belangrijk is voor uw scenario's, moet u hiermee rekening houden in uw beslissing om DirectQuery te gebruiken.
 * **Maximale lengte voor tekstkolommen:** De maximale lengte van de gegevens in een tekstkolom voor gegevenssets die DirectQuery gebruiken, is 32.764 tekens. Rapportage over langere teksten resulteert in een fout.
 
