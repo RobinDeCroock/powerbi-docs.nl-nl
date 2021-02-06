@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
+ms.custom: subject-monitoring
 ms.date: 01/14/2021
-ms.openlocfilehash: fc6b9dd4d50d665211324d1b6c05e62468fc034d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: 9c07e75736b3ccdb33bf76f79656a8982cddb6d8
+ms.sourcegitcommit: f17acb16018752c234db6bff1f51f5130be12c58
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98690752"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "99617014"
 ---
 # <a name="monitoring-power-bi-embedded-data-reference"></a>Power BI Embedded gegevens referentie bewaken
 
@@ -31,7 +32,7 @@ In deze sectie vindt u alle automatisch verzamelde platform gegevens die zijn ve
 
 Resource provider en-type: [micro soft. PowerBIDedicated/capaciteiten](/azure/azure-monitor/platform/metrics-supported#microsoftpowerbidedicatedcapacities)
 
-| Name | Metrisch | Eenheid | Beschrijving |
+| Name | Metrisch | Eenheid | Description |
 |:---|:-------|:-----|:------------|
 |Geheugen (gen1) |memory_metric               |Bytes        |Geheugen. Bereik 0-3 GB voor a1, 0-5 GB voor a2, 0-10 GB voor a3, 0-25 GB voor A4, 0-50 GB voor A5 en 0-100 GB voor A6. Wordt alleen ondersteund voor Power BI Embedded resources van de eerste generatie. |
 |Geheugen overbelasting (gegevens sets) (gen1) |memory_thrashing_metric     |Percentage      |Gemiddeld geheugen overbelasting. Wordt alleen ondersteund voor Power BI Embedded resources van de eerste generatie. |

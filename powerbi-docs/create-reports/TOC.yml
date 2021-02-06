@@ -312,6 +312,10 @@
               href: ../visuals/power-bi-visualization-scatter.md
             - name: High-densityspreidingsdiagrammen gebruiken
               href: ../visuals/desktop-high-density-scatter-charts.md
+            - name: Kleine veelvouden maken (preview)
+              href: ../visuals/power-bi-visualization-small-multiples.md
+            - name: Interactie met kleine veelvouden (preview-versie)
+              href: ../visuals/power-bi-visualization-small-multiples-interact.md
             - name: Shape-kaartvisuals (preview-versie)
               href: ../visuals/desktop-shape-map.md
             - name: Slimme verhalen
