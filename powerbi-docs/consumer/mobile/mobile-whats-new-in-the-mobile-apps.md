@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/17/2020
-ms.openlocfilehash: 4a50d35ee3aa25932537846a13fc2d75c6fa38df
-ms.sourcegitcommit: 1872a167d1e4d731ad00cf8a6d951c31aa54bcce
+ms.date: 02/10/2021
+ms.openlocfilehash: 83c7a778b6c799bd759443e7601e1f624ed5f9e5
+ms.sourcegitcommit: 5c943a05071efb69a17ca4c501c6b89f2f351f1a
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "98925802"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100089478"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Wat is er nieuw in de mobiele apps voor Power BI
 Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mogelijkheden:
@@ -24,6 +24,13 @@ Zie de volgende onderwerpen voor verwante informatie over nieuwe functies en mog
 
 >[!NOTE]
 >Power BI-ondersteuning voor mobiele apps voor **telefoons met Windows 10 Mobile** wordt stopgezet op 16 maart 2021. [Meer informatie](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
+
+## <a name="february-2021"></a>Februari 2021
+### <a name="support-for-power-bi-in-split-screens-android-tablets-only"></a>Ondersteuning voor Power BI in Split-schermen (alleen Android-tablets)
+
+Als uw Android-Tablet ondersteuning biedt voor meerdere vensters, kunt u uw gegevens naast elkaar weer geven en gebruiken met een andere app met de modus voor splitsen op het scherm. [Meer informatie.](mobile-apps-split-screen.md)
+
+![Scherm afbeelding van de mobiele app die wordt gebruikt in de modus Split-scherm.](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-split-screen.png)
 
 ## <a name="january-2021"></a>Januari 2021
 ### <a name="workspace-support-with-a-power-bi-free-license"></a>Ondersteuning voor werk ruimten met een gratis licentie voor Power BI

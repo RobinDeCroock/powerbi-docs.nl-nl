@@ -11,7 +11,7 @@
           href: mobile-whats-new-in-the-mobile-apps.md
         - name: De startpagina
           href: mobile-apps-home-page.md
-    - name: Snelstartgidsen
+    - name: Snelstarts
       expanded: true
       items:
         - name: Dashboards en rapporten verkennen
@@ -72,6 +72,8 @@
               href: mobile-apps-scan-barcode-iphone.md
             - name: Interactie-instellingen configureren
               href: mobile-app-interaction-settings.md
+            - name: Modus gesplitst scherm
+              href: mobile-apps-split-screen.md
             - name: Donkere modus
               href: mobile-apps-dark-mode.md
             - name: Configureren met Mobile Device Management

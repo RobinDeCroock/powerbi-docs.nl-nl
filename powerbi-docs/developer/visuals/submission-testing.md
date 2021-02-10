@@ -1,21 +1,21 @@
 ---
-title: Tests voor het indienen van een Power BI-visual in ingesloten analyses in Power BI voor betere ingesloten BI-inzichten
-description: In dit artikel worden de testcases beschreven waarvoor uw visual moet slagen voordat u de visual kunt publiceren in AppSource. Er zijn ook optionele testcases. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
+title: Tests voor het indienen van een Power BI-visual
+description: In dit artikel worden de testcases beschreven waarvoor uw visual moet slagen voordat u de visual kunt publiceren in AppSource. Er zijn ook optionele testcases.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
-ms.date: 04/15/2020
-ms.openlocfilehash: b5054d821dc797f1606fea8ec5d0bb43569a57e5
-ms.sourcegitcommit: eeaf607e7c1d89ef7312421731e1729ddce5a5cc
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: 391282b7868ba24b14c0859d431e6868b3fcbc2d
+ms.sourcegitcommit: 7e0cc3b1ed9cf38da134ef7221648cb758ceea98
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97888461"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100100828"
 ---
-# <a name="submission-testing-of-a-power-bi-visual"></a>Tests voor het indienen van een Power BI-visual
+# <a name="testing-a-power-bi-visual-before-submission"></a>Een Power BI-Visual testen voordat deze wordt verzonden
 
 Voordat u uw visual publiceert in [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), moet uw visual slagen voor de in dit artikel vermelde tests. Test uw visual voordat u deze indient. Als uw visual niet slaagt voor de verplichte testcases, wordt deze afgewezen.
 
@@ -23,7 +23,13 @@ Zie [Power BI-visuals publiceren in Partnercentrum](./office-store.md) voor meer
 
 ## <a name="testing-a-new-version-of-a-published-visual"></a>Een nieuwe versie van een gepubliceerde visual testen
 
-Als u een nieuwe versie van een al gepubliceerde visual wilt testen of fouten erin wilt opsporen, kunt u de AppSource-versie overschrijven met een lokale bestandsversie door de ontwikkelaarsmodus in Power BI Desktop in te schakelen.
+Power BI wordt standaard de meest recente gepubliceerde versie van het visuele element van AppSource geladen, zelfs als u het visuele element uit een lokaal bestand importeert.
+
+Als u een nieuwe versie van een al gepubliceerde Visual wilt testen of fouten wilt opsporen, kunt u de AppSource-versie overschrijven met een lokale bestands versie door de ontwikkelaars modus in te scha kelen in Power BI Desktop of Power BI-service.
+
+### <a name="enable-developer-mode-in-power-bi-desktop"></a>De ontwikkelaars modus in Power BI Desktop inschakelen
+
+In Power BI Desktop is de ontwikkelaarsmodus alleen geldig voor de duur van één sessie. Als u een nieuw Power BI Desktop-exemplaar voor het testen opent, moet u de ontwikkelaarsmodus weer inschakelen.
 
 Voer de volgende stappen uit om de ontwikkelaarsmodus in te schakelen:
 
@@ -37,8 +43,11 @@ Voer de volgende stappen uit om de ontwikkelaarsmodus in te schakelen:
 
 5. Selecteer in de ontwikkelaarsmodus de optie **Ontwikkelaarsmodus voor deze sessie inschakelen**.
 
->[!NOTE]
->In Power BI Desktop is de ontwikkelaarsmodus alleen geldig voor de duur van één sessie. Als u een nieuw Power BI Desktop-exemplaar voor het testen opent, moet u de ontwikkelaarsmodus weer inschakelen.
+### <a name="enable-developer-mode-in-power-bi-service"></a>De ontwikkelaars modus in Power BI-service inschakelen
+
+In Power BI-service wordt de ontwikkelaars modus bewaard per gebruikers account. Telkens wanneer een gebruiker het pakket uit het lokale bestand laadt, wordt de AppSource-versie van de Visual door Power BI genegeerd.
+
+Als u de ontwikkelaars modus in Power BI-service wilt inschakelen, volgt u de instructies in [instellen Power bi-service voor het ontwikkelen van een visueel element](environment-setup.md#set-up-power-bi-service-for-developing-a-visual).
 
 ## <a name="general-test-cases"></a>Algemene testcases
 
