@@ -1,20 +1,20 @@
 ---
 title: API voor het exporteren van gepagineerde, in Power BI ingesloten analyserapporten, voor betere ingesloten BI-statistieken
-description: Meer informatie over hoe u een ingesloten gepagineerd Power BI-rapport kunt exporteren. Maak betere geïntegreerde BI-inzichten mogelijk met geïntegreerde analytische gegevens voor Power BI.
+description: Meer informatie over hoe u een ingesloten gepagineerd Power BI-rapport kunt exporteren.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 04/05/2020
-ms.openlocfilehash: befb64ec85c02f8993d828202df06aafc5901482
-ms.sourcegitcommit: 84f0e7f31e62cae3bea2dcf2d62c2f023cc2d404
+ms.date: 02/09/2021
+ms.openlocfilehash: 9757b19e4faf4537cf4ff3c1e6f06dc9d499bc8c
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98781534"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013585"
 ---
-# <a name="export-paginated-report-to-file-preview"></a>Gepagineerd rapport exporteren naar een bestand (preview)
+# <a name="export-paginated-report-to-file"></a>Gepagineerd rapport exporteren naar een bestand
 
 Via de API `exportToFile` kunt u een gepagineerd Power BI-rapport exporteren met behulp van een REST-aanroep. De volgende bestandsindelingen worden ondersteund:
 * **.pptx** (PowerPoint)

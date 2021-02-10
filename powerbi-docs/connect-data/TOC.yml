@@ -257,6 +257,8 @@
           items:
             - name: Verbinding maken met services met apps
               href: service-connect-to-services.md
+            - name: Analyseer populaire aandelen met Power BI
+              href: service-connect-to-analyze-stocks.md
             - name: Traceringsrapport voor COVID-19 in de Verenigde Staten
               href: service-connect-to-covid-19-tracking.md
             - name: Aanwezigheidsrapport voor Crisis Communication

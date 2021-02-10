@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/19/2020
-ms.openlocfilehash: 7cba43ff6339ce890ca2f4f1744282648eaf877b
-ms.sourcegitcommit: ccf53e87ff7cba1fcd9d2cca761a561e62933f90
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
+ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93297895"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100013631"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -28,6 +28,13 @@ In dit artikel vindt u antwoorden op veelvoorkomende vragen over gepagineerde ra
 ### <a name="what-size-premium-capacity-do-i-need-for-paginated-reports"></a>Hoe groot moet de Premium-capaciteit zijn voor gepagineerde rapporten?
 
 De werkbelasting van gepagineerde rapporten is beschikbaar op P1 – P3 SKU's.  U kunt deze ook gebruiken voor test-/ontwikkelscenario's met A4 – A6-SKU's.
+
+> [!NOTE]
+> Power BI onlangs een nieuwe release van Premium uitgebracht, de zogeheten **Premium Gen2**, die momenteel als preview-versie beschikbaar is. In **Premium Gen2** is de werk belasting gepagineerde rapporten beschikbaar op P1-P3 Sku's en a1-A6 sku's. 
+>
+>Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de beheer overhead. Zie [Power BI Premium Generation 2 (preview-versie)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
+>
+>Raadpleeg [Power bi embedded Generation 2](../developer/embedded/power-bi-embedded-generation-2.md)om de Power bi embedded verbeteringen van Gen2 te bekijken.
 
 ### <a name="what-is-the-maximum-memory-threshold-i-can-put-for-paginated-reports-in-my-capacity"></a>Wat is de maximum drempelwaarde van het geheugen dat ik voor gepagineerde rapporten in mijn capaciteit kan reserveren?
 
@@ -74,13 +81,16 @@ U ontvangt een foutbericht en u kunt uw rapport pas weergeven als de werkbelasti
 
 Standaardgeheugenruimte in elke Premium-SKU voor gepagineerde rapporten:
 
-- **P1/A4** : standaard 20%; minimaal 10%
-- **P2/A5** : standaard 20%; minimaal 5%
-- **P3/A6** : standaard 20%; minimaal 2,5%
+- **P1/A4**: standaard 20%; minimaal 10%
+- **P2/A5**: standaard 20%; minimaal 5%
+- **P3/A6**: standaard 20%; minimaal 2,5%
 
 Power BI-beheerders kunnen het maximale standaardgeheugenpercentage wijzigen in de beheerportal. Zie het workloadgedeelte **Gepagineerde rapporten** onder **Power BI Premium** op het tabblad **Capaciteitsinstellingen**.
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="Tabblad Capaciteitsinstellingen voor gepagineerde rapporten":::
+
+> [!NOTE]
+> **Premium-Gen2**, die momenteel als preview-versie beschikbaar zijn, hoeven de geheugen instellingen niet te wijzigen. Het onderliggende systeem beheert automatisch het geheugen in Premium Gen2. De werk belasting voor gepagineerde rapporten is beschikbaar op P1-P3 Sku's en a1-A6 Sku's in **Premium Gen2**.
 
 ## <a name="general"></a>Algemeen
 
