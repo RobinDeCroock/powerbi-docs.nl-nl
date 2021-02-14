@@ -7,13 +7,13 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: pbi-deployment
 ms.custom: contperf-fy21q1
-ms.date: 11/11/2020
-ms.openlocfilehash: 9d0c10b80aeb1bf4745bb8a646933bcfea9bafc6
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: 53e6e7401caff5b4334af67f5de54a3669214851
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621206"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489987"
 ---
 # <a name="get-started-with-deployment-pipelines"></a>Aan de slag gaan met implementatiepijplijnen
 
@@ -143,6 +143,8 @@ Gegevenssetregels worden gedefinieerd in gegevensbronnen en parameters, in elke 
 
 ### <a name="create-a-dataset-rule"></a>Een gegevenssetregel maken
 
+Volg de stappen in deze sectie om een regel voor de gegevensset te maken. Nadat u alle gegevensset regels hebt gemaakt die u nodig hebt, implementeert u de gegevens sets met de zojuist gemaakte regels van de bron fase naar de doel fase waarin de regels zijn gemaakt. Uw regels worden pas toegepast wanneer u de gegevens sets van de bron naar de doel fase implementeert.
+
 1. Selecteer in de pijplijnfase waarvoor u een gegevenssetregel wilt maken de optie **Implementatie-instellingen**.
 
     ![Een schermopname van de knop implementatie-instellingen, bevindt zich in de rechterbovenhoek van elke fase van de implementatiepijplijn.](media/deployment-pipelines-get-started/deployment-settings.png)
@@ -222,6 +224,8 @@ Wanneer twee opeenvolgende fasen niet gelijk zijn, wordt een koppeling **Vergeli
 * **Nieuw**: een nieuw item in de bronfase. Dit is een item dat niet bestaat in de doelfase. Na de implementatie wordt dit item gekloond naar de doelfase.
 
 * **Verschilt**: een item dat zowel in de bron- als de doelfase voorkomt, waarbij een van de versies is gewijzigd sinds de laatste implementatie. Na de implementatie wordt het item in de doelfase overschreven met het item in de bronfase, ongeacht waar de wijziging is aangebracht.
+
+    Gegevens sets met geconfigureerde gegevensset-regels die nog niet zijn geïmplementeerd, worden ook als *verschillend* gemarkeerd. Dit komt doordat er geen regels voor de gegevensset worden toegepast totdat de gegevens sets vanuit de bron fase worden geïmplementeerd naar de doel fase die de geconfigureerde regels bevat.
 
 * **Ontbreekt in**: dit label geeft aan dat een item wordt weergegeven in de doelfase, maar niet in de bronfase.
 

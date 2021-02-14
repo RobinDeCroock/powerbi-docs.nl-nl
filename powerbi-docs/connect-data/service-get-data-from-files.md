@@ -10,12 +10,12 @@ ms.subservice: pbi-data-sources
 ms.topic: how-to
 ms.date: 05/08/2019
 LocalizationGroup: Data from files
-ms.openlocfilehash: 7807968bad989895fa60df122c0e31ba4b823aa2
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 2ed532986dd31e97e535f27d70c9f5cfd8c66fd5
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410155"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489872"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Gegevens uit bestanden ophalen voor Power BI
 ![Het Excel-, Power BI Desktop- en CSV-pictogram](media/service-get-data-from-files/file_icons.png)
@@ -43,7 +43,7 @@ We kunnen zelfs nog een stapje verder gaan. Een brandstoftank in een auto moet m
 ## <a name="where-your-file-is-saved-makes-a-difference"></a>Waar uw bestand wordt opgeslagen maakt het verschil
 **Lokaal**: Als u het bestand opslaat op een lokaal station op uw computer of op een andere locatie binnen uw organisatie, kunt het bestand *importeren* in Power BI. Het bestand blijft op het lokale station staan. Het bestand wordt dus eigenlijk niet echt geïmporteerd in Power BI. Wat er wel gebeurt, is dat er een nieuwe gegevensset wordt gemaakt in uw Power BI-site en dat de gegevens, en in sommige gevallen het gegevensmodel, in de gegevensset worden geladen. Als uw bestand rapporten bevat, worden deze weergegeven in de Power BI-site, onder Rapporten.
 
-**OneDrive voor Bedrijven**: Als u OneDrive voor Bedrijven hebt en zich aanmeldt met hetzelfde account als voor Power BI, is dit verreweg de meest efficiënte manier om uw werk in Excel Power BI Desktop te houden of om een CSV-bestand gesynchroniseerd te houden met uw gegevensset, rapporten en dashboards in Power BI. Omdat zowel Power BI als OneDrive zich in de cloud bevinden, maakt Power BI ongeveer om het uur verbinding met uw bestand in OneDrive. Als er wijzigingen worden gevonden, worden uw gegevensset, rapporten en dashboards in Power BI automatisch bijgewerkt.
+**Onedrive** voor bedrijven: als u Onedrive voor bedrijven hebt en zich aanmeldt met het account waarmee u zich aanmeldt bij Power bi, is dit de meest efficiënte manier om uw werk in Excel, Power bi desktop of een te houden. CSV-bestand en uw gegevensset, rapporten en dash boards in Power BI gesynchroniseerd. Omdat zowel Power BI als OneDrive zich in de cloud bevinden, Power BI via elk uur verbinding maken met uw bestand in OneDrive. Als er wijzigingen worden gevonden, worden uw gegevensset, rapporten en dashboards in Power BI automatisch bijgewerkt.
 
 **OneDrive - Persoonlijk** Als u de bestanden opslaat in uw eigen OneDrive-account, geniet u veelal dezelfde voordelen als met OneDrive voor Bedrijven. Het belangrijkste verschil is dat wanneer u voor het eerst verbinding maakt met het bestand (met Gegevens ophalen > Bestanden > OneDrive - Persoonlijk), u zich bij OneDrive moet aanmelden met uw Microsoft-account. Dit is doorgaans een ander account dan het account dat u gebruikt om u aan te melden bij Power BI. Wanneer u zich met uw Microsoft-account aanmeldt bij OneDrive, moet u ervoor zorgen dat u het selectievakje Aangemeld blijven inschakelt. Op deze manier kan er om het uur verbinding via Power BI worden gemaakt met uw bestand en zorgt u ervoor dat uw gegevensset in Power BI wordt gesynchroniseerd.
 

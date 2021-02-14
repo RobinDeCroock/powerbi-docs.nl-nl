@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: 0852fcb2c932680f6c20aeee94a89c68f473e46d
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 2ecb47513ada6ab2f4b81d5e26a1ca41717b7676
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565737"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490010"
 ---
 # <a name="automated-configuration-of-a-template-app-installation"></a>Automatische configuratie van de-installatie van een sjabloon-app
 
@@ -61,6 +61,7 @@ De volgende vereisten zijn vereist om een vooraf geconfigureerde installatie-erv
 * Een **geparametriseerde sjabloon-app** die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Azure AD. Zie [Tips voor sjabloon-apps](../../connect-data/service-template-apps-tips.md) of [Een sjabloon-app maken in Power BI](../../connect-data/service-template-apps-create.md) voor meer informatie. Noteer de volgende informatie uit de sjabloon-app voor de volgende stappen:
      * *App-id*, *Pakketsleutel* en *Eigenaar-id* zoals deze worden weergegeven in de installatie-URL aan het einde van het proces voor het [definiëren van de eigenschappen van de sjabloon-app](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) toen de app werd gemaakt. U kunt dezelfde koppeling ook verkrijgen door **Koppeling ophalen** te selecteren in het deelvenster [Releasebeheer](../../connect-data/service-template-apps-create.md#manage-the-template-app-release) van de sjabloon-app.
     * *Parameternamen* zoals deze in de gegevensset van de sjabloon-app zijn gedefinieerd. Parameternamen zijn hoofdlettergevoelige tekenreeksen en kunnen ook worden opgehaald van het tabblad **Parameterinstellingen** wanneer u [de eigenschappen van de sjabloon-app definieert](../../connect-data/service-template-apps-create.md#define-the-properties-of-the-template-app) of uit de instellingen van de gegevensset in Power BI.
+* Als u uw automatiserings werk stroom wilt testen, voegt u de Service-Principal toe aan de app-werk ruimte van de sjabloon als beheerder.
 
     >[!NOTE]
     >U kunt uw vooraf geconfigureerde installatietoepassing voor uw sjabloon-app testen als de sjabloon-app gereed is voor installatie, ook als deze nog niet openbaar beschikbaar is in AppSource. Als u wilt dat gebruikers buiten uw tenant de toepassing voor geautomatiseerde installatie kunnen gebruiken om uw sjabloon-app te installeren, moet de sjabloon-app openbaar beschikbaar zijn in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services). Voordat u uw sjabloon-app distribueert met behulp van de toepassing voor geautomatiseerde installatie die u maakt, moet u ervoor zorgen dat deze wordt gepubliceerd in [Partnercentrum](/azure/marketplace/partner-center-portal/create-power-bi-app-offer).

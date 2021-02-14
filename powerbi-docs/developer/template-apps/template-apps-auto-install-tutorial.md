@@ -7,12 +7,12 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/23/2020
-ms.openlocfilehash: a44bd7837e7605fd23e49a91e3e9eba106d5a933
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 9a652531b90d65df985c0698d3fade7927a1907b
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565768"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100490056"
 ---
 # <a name="tutorial-automate-configuration-of-template-app-installation-using-an-azure-function"></a>Zelfstudie: De configuratie van de installatie van sjabloon-apps automatiseren met een Azure-functie
 
@@ -62,6 +62,7 @@ In de volgende basisstroom wordt de werking van de app beschreven nadat de klant
 * Uw eigen Azure Active Directory-tenantinstelling (Azure AD). Zie [Een Azure AD-tenant maken](../embedded/create-an-azure-active-directory-tenant.md) voor instructies voor het instellen hiervan.
 * Een [service-principal (token voor uitsluitend de app)](../embedded/embed-service-principal.md) die is geregistreerd in de voorgaande tenant.
 * Een geparametriseerde [sjabloon-app](../../connect-data/service-template-apps-overview.md) die gereed is voor installatie. De sjabloon-app moet worden gemaakt in dezelfde tenant als waarin u uw app registreert in Azure AD. Zie [Tips voor-sjabloon apps](../../connect-data/service-template-apps-tips.md) of [Een sjabloon-app maken in Power BI](../../connect-data/service-template-apps-create.md) voor meer informatie.
+* Als u uw automatiserings werk stroom wilt testen, voegt u de Service-Principal toe aan de app-werk ruimte van de sjabloon als beheerder.
 * Een Power BI Pro-licentie. Als u zich niet hebt geregistreerd voor Power BI Pro, [kunt u zich hier aanmelden voor een gratis proefversie](https://powerbi.microsoft.com/pricing/) voordat u begint.
 
 ## <a name="set-up-your-template-apps-automation-development-environment"></a>Uw ontwikkelomgeving voor de automatisering van sjabloon-apps instellen
@@ -77,6 +78,8 @@ Zorg ervoor dat u de app registreert als een **web-app aan serverzijde**. U regi
 Sla de *toepassings-id* (ClientID) en het *toepassingsgeheim* (ClientSecret) op voor latere stappen.
 
 U kunt het [Installatieprogramma voor insluiten](https://aka.ms/embedsetup/AppOwnsData) uitvoeren om snel aan de slag te gaan met het maken van een app-registratie. Als u het [hulpprogramma voor app-registratie van Power BI](https://app.powerbi.com/embedsetup) gebruikt, selecteert u de optie **Insluiten voor uw klanten**.
+
+Voeg de Service-Principal toe aan de app-werk ruimte van de sjabloon als beheerder, zodat u uw automatiserings werk stroom kunt testen.
 
 ## <a name="template-app-preparation"></a>Voorbereiding sjabloon-app
 

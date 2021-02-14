@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: tutorial
-ms.date: 10/13/2020
+ms.date: 02/10/2021
 LocalizationGroup: Data from files
-ms.openlocfilehash: b984c0f6ebee6cdcc9982956701f3a112be74ab7
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: cf63c16822e04e160da2765ae0be20bd707e89da
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96413191"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489929"
 ---
 # <a name="tutorial-from-excel-workbook-to-stunning-report-in-power-bi-desktop"></a>Zelfstudie: Aantrekkelijke rapporten van Excel-werkmappen maken in Power BI Desktop
 
@@ -120,7 +120,9 @@ Het schrijven van *metingen* in de *DAX*-formuletaal is erg handig voor gegevens
 
 1. Typ deze meting om de tabel Kalender te genereren met alle datums tussen 1 januari 2013 en 31 december 2014.  
 
-    `Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))` 
+    ```dax
+    Calendar = CALENDAR(DATE(2013,01,01),Date(2014,12,31))    
+    ```
 
 2. Selecteer het vinkje om te bevestigen.
 
@@ -207,9 +209,23 @@ Maak een staafdiagram om te bepalen in welke bedrijven en segmenten u moet inves
 
 ### <a name="visual-5-year-slicer"></a>Visual 5: De slicer Jaar 
 
-Slicers zijn een nuttig hulpmiddel om de visuals op een rapportpagina tot een specifieke selectie te filteren. In dit geval maken we een slicer om in te zoomen op de prestaties per maand en jaar.  
+Slicers zijn een nuttig hulpmiddel om de visuals op een rapportpagina tot een specifieke selectie te filteren. In dit geval kunnen we twee verschillende Slicers maken om de prestaties voor elke maand en elk jaar te beperken. Een slicer gebruikt het datum veld in de oorspronkelijke tabel. De andere gebruiken de [datum tabel die u mogelijk hebt gemaakt voor ' extra tegoed '](#extra-credit-write-a-measure-in-dax) eerder in deze zelf studie.
 
-1. In het deelvenster Velden selecteert u het veld **Datum** en sleept u dit naar het lege gebied aan de linkerkant van het canvas. 
+
+**Datum slicer met behulp van de oorspronkelijke tabel**
+
+1. Selecteer in het deel venster velden het **datum** veld in de tabel Financials. Sleep het naar het lege gebied links van het canvas. 
+2. Kies **Slicer** in het deelvenster Visualisaties. 
+
+    Power BI maakt automatisch een slicer voor numeriek bereik. 
+
+    :::image type="content" source="media/desktop-excel-stunning-report/power-bi-date-numeric-range.png" alt-text="Scherm afbeelding van de slicer voor het numerieke bereik van de datum.":::
+
+1. U kunt de uiteinden slepen om te filteren of de pijl in de rechter bovenhoek selecteren en deze wijzigen in een ander type Slicer.
+
+**Datum slicer met behulp van de DAX-tabel**
+
+1. Selecteer in het deel venster velden het **datum** veld in de tabel kalender. Sleep het naar het lege gebied links van het canvas. 
 2. Kies **Slicer** in het deelvenster Visualisaties. 
 3. In de sectie Velden van het deelvenster Visualisaties selecteert u de vervolgkeuzelijst in **Velden**. Verwijder Kwartaal en Dag zodat alleen Jaar en Maand overblijven. 
 
@@ -219,7 +235,9 @@ Slicers zijn een nuttig hulpmiddel om de visuals op een rapportpagina tot een sp
 
     :::image type="content" source="media/desktop-excel-stunning-report/power-bi-hierarchy-date-slicer.png" alt-text="Schermopname van de slicer voor de datumhiërarchie.":::
 
-Als uw manager u nu vraagt om alleen de gegevens van 2013 te laten zien, kunt u de slicer gebruiken om tussen jaren, of specifieke maanden van elk jaar, te wisselen. 
+    Dit is de slicer die in het voltooide rapport wordt gebruikt.
+
+Als uw manager u nu vraagt om slechts 2013 gegevens te zien, kunt u de slicer gebruiken om jaren of specifieke maanden van elk jaar te selecteren.
 
 ### <a name="extra-credit-format-the-report"></a>Extra punten: Het rapport opmaken
 

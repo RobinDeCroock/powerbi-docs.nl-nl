@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 02/09/2021
-ms.openlocfilehash: d8460fe1a3eb199848f47181837225f1e540bb08
-ms.sourcegitcommit: de3b45cad5ae21c77692ce4490e21de01d21e6f3
+ms.openlocfilehash: 788f6cbd840b2c260b00033e27d39f56ed7ce964
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "100013631"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489826"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Gepagineerde rapporten in Power BI: Veelgestelde vragen 
 
@@ -30,7 +30,7 @@ In dit artikel vindt u antwoorden op veelvoorkomende vragen over gepagineerde ra
 De werkbelasting van gepagineerde rapporten is beschikbaar op P1 – P3 SKU's.  U kunt deze ook gebruiken voor test-/ontwikkelscenario's met A4 – A6-SKU's.
 
 > [!NOTE]
-> Power BI onlangs een nieuwe release van Premium uitgebracht, de zogeheten **Premium Gen2**, die momenteel als preview-versie beschikbaar is. In **Premium Gen2** is de werk belasting gepagineerde rapporten beschikbaar op P1-P3 Sku's en a1-A6 sku's. 
+> Power BI onlangs een nieuwe release van Premium uitgebracht, de zogeheten **Premium Gen2**, die momenteel als preview-versie beschikbaar is. In **Premium Gen2** is de werk belasting gepagineerde rapporten beschikbaar op EM1-EM3 Sku's, P1-P3 Sku's en a1-A6 sku's.  Het is ook beschikbaar op basis van een gebruiker met Premium per gebruiker, die is gebouwd op Premium Gen2 en ook in een open bare preview. 
 >
 >Premium Gen2 vereenvoudigt het beheer van Premium-capaciteiten en vermindert de beheer overhead. Zie [Power BI Premium Generation 2 (preview-versie)](../admin/service-premium-what-is.md#power-bi-premium-generation-2-preview) voor meer informatie.
 >

@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: pbi-deployment
-ms.date: 11/11/2020
-ms.openlocfilehash: 3787f1cb61262f9f1fa64e04487c7d6395b4e549
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.date: 02/09/2021
+ms.openlocfilehash: f502649c08a71dc1cc602f0f69f4134a10a5a879
+ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96417630"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100489895"
 ---
 # <a name="deployment-pipelines-troubleshooting"></a>Problemen met implementatiepijplijnen oplossen
 
@@ -146,6 +146,10 @@ Nadat u de pijplijn hebt gemaakt, gebruikt u de ontwikkelingsfase om uw inhoud t
 
 >[!NOTE]
 >Achterwaarts implementeren biedt alleen ondersteuning voor een [volledige implementatie](deployment-pipelines-get-started.md#deploying-all-content). Het biedt geen ondersteuning voor [selectieve implementatie](deployment-pipelines-get-started.md#selective-deployment)
+
+### <a name="why-do-i-need-to-deploy-after-configuring-dataset-rules"></a>Waarom moet ik implementeren na het configureren van de regels voor gegevensset?
+
+Dataset-regels worden niet onmiddellijk toegepast nadat ze zijn geconfigureerd. Als u regels voor de gegevensset wilt Toep assen, moet u de gegevens sets vanuit de bron fase implementeren naar de doel fase waarin de regels voor het maken van de gegevensset zijn opgenomen. Na het configureren van de regels voor gegevensset en voordat u implementeert, wordt de *verschillende* indicator weer gegeven naast de gegevensset met de geconfigureerde regels. Dit geeft aan dat u deze gegevensset vanuit de bron fase naar de doel fase moet implementeren. Wanneer u eenmaal hebt geïmplementeerd en er geen andere wijzigingen zijn aangebracht, verdwijnt de *verschillende* indicator, waardoor wordt weer gegeven dat de regels correct zijn toegepast.
 
 ### <a name="does-deployment-pipelines-support-multi-geo"></a>Bieden implementatiepijplijnen ondersteuning voor multi-geo?
 
