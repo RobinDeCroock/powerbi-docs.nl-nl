@@ -1,30 +1,30 @@
 ---
-title: Filters ontwerpen in Power BI-rapporten
-description: U hebt veel controle over het ontwerp en de functionaliteit van rapportfilters.
+title: Filters in Power BI rapporten opmaken
+description: U hebt veel controle over de indeling, het ontwerp en de functionaliteit van rapport filters.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 11/11/2020
+ms.date: 02/08/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: 2ddefcfa7a9381cf6d45466d5115045ea4274a16
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 6b509576a3fe76e3565f9c0c354155957d7ad069
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96415169"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531649"
 ---
-# <a name="design-filters-in-power-bi-reports"></a>Filters ontwerpen in Power BI-rapporten
+# <a name="format-filters-in-power-bi-reports"></a>Filters in Power BI rapporten opmaken
 
 [!INCLUDE [applies-to](../includes/applies-to.md)] [!INCLUDE [yes-desktop](../includes/yes-desktop.md)] [!INCLUDE [yes-service](../includes/yes-service.md)]
 
-Met de nieuwe filterervaring hebt u veel controle over het ontwerp en de functionaliteit van rapportfilters. U kunt het deelvenster Filters zo opmaken dat het eruitziet als de rest van het rapport. U kunt filters vergrendelen en zelfs verbergen. Bij het ontwerpen van uw rapport ziet u het oude deelvenster Filters helemaal niet meer in het deelvenster Visualisaties. Alle bewerkingen en opmaakaanpassingen van filters kunnen nu vanuit één deelvenster Filters worden gedaan. 
+U hebt veel controle over het ontwerp en de functionaliteit van rapportfilters. In dit artikel wordt uitgelegd hoe u het deel venster filters kunt opmaken zodat deze eruitziet als de rest van het rapport. U kunt filters vergrendelen en zelfs verbergen.
 
 ![De filterervaring](media/power-bi-report-filter/power-bi-filter-new-look.png)
 
-Hieronder staan enkele taken die u als rapportontwerper kunt uitvoeren met het nieuwe deelvenster Filters:
+De eerste stap is het [toevoegen van filters aan uw rapport](power-bi-report-add-filter.md). Als rapport ontwerper kunt u het deel venster filters op verschillende manieren opmaken:
 
 - Velden toevoegen en verwijderen om op te filteren. 
 - De filterstatus wijzigen.
@@ -38,50 +38,33 @@ Wanneer gebruikers een rapport lezen, kunnen ze een visualisatie aanwijzen om ee
 
 ![Lijst met filters voor een visualisatie](media/power-bi-report-filter/power-bi-filter-visual.png)
 
-Meer informatie over [hoe rapportlezers filters gebruiken](../consumer/end-user-report-filter.md) in uw rapport.
-
-## <a name="view-filters-for-a-visual-in-reading-mode"></a>Filters voor een visual bekijken in Leesmodus
-
-Wijs in de Leesmodus het filterpictogram voor een visual aan om een pop-upfilterlijst weer te geven met alle filters, slicers, enzovoort voor die visual. De indeling van de pop-upfilterlijst is gelijk aan de indeling van het deelvenster Filters.
-
-![Filters die invloed hebben op een visual](media/power-bi-report-filter/power-bi-filter-per-visual.png)
-
-Dit zijn de typen filters die in deze weergave worden weergegeven:
-
-- Standaardfilters
-- Slicers
-- Kruislings markeren 
-- Kruislings filteren
-- Geavanceerde filters
-- Top N-filters
-- Relatieve datumfilters
-- Synchroonslicers
-- Opname-/uitsluitingsfilters
-- Filters die via een URL zijn doorgegeven
-
-Meer informatie over [interactie met filters in de leesmodus](../consumer/end-user-report-filter.md).
+Meer informatie over [hoe rapport lezers filters gebruiken](../consumer/end-user-report-filter.md) in de Lees modus van het rapport.
 
 ## <a name="build-the-filters-pane"></a>Het deelvenster Filters samenstellen
 
-Nadat u het nieuwe deelvenster Filters hebt ingeschakeld, ziet u het rechts van de rapportpagina, standaard ingedeeld op basis van uw huidige rapportinstellingen. In het deelvenster Filters kunt u instellen welke filters u wilt gebruiken en kunt u bestaande filters bijwerken. Het deelvenster Filters ziet er hetzelfde uit voor de gebruikers van uw rapport wanneer u het rapport publiceert. 
+Standaard wordt het deel venster filters opgemaakt op basis van uw huidige rapport instellingen. In het deelvenster Filters kunt u instellen welke filters u wilt gebruiken en kunt u bestaande filters bijwerken. Het deel venster filters ziet er hetzelfde uit als uw rapport gebruikers wanneer u het rapport publiceert. 
 
-1. De standaardinstelling is dat rapportgebruikers het deelvenster Filters kunnen zien. Als u wilt dat gebruikers het venster niet zien, selecteert u het pictogram van een oog naast **Filters**.
+1. Wanneer u een visual toevoegt aan een rapportcanvas, wordt er automatisch voor elk veld in de visual een filter toegevoegd aan het deelvenster Filters.
 
-    ![Pictogram van oog naast Filters](media/power-bi-report-filter/power-bi-filter-eye-icon.png)
+2. Als u het deel venster filters wilt maken, sleept u andere velden van belang in het deel venster filters als visuele elementen, pagina's of filters op rapport niveau.
 
-2. Als u het deelvenster Filters wilt gaan indelen, sleept u de gewenste velden als filters op het niveau van de visualisatie, de pagina of het rapport naar het deelvenster Filters.
+## <a name="show-or-hide-the-filters-pane"></a>Het deel venster filters weer geven of verbergen
 
-Wanneer u een visual toevoegt aan een rapportcanvas, wordt er automatisch voor elk veld in de visual een filter toegevoegd aan het deelvenster Filters. 
+### <a name="hide-the-filters-pane-in-reading-mode"></a>Het deel venster filters verbergen in de Lees modus
 
-## <a name="hide-the-filters-pane-while-editing"></a>Het deelvenster Filters verbergen tijdens het bewerken
+Als u niet wilt dat uw rapport lezers het deel venster filters helemaal weer geven, selecteert u het **oogpictogram** naast **filters**.
 
-Power BI Desktop heeft een nieuw lint in de preview-versie. Met de wisselknop **Filters** op het tabblad **Weergave** kunt u het deelvenster Filters weergeven of verbergen. Deze functie is handig als u het deelvenster Filters niet gebruikt en u extra ruimte op het scherm nodig hebt. Hiermee wordt het deelvenster Filters uitgelijnd met de andere deelvensters die u kunt openen en sluiten, zoals de deelvensters Bladwijzers en Selectie. 
+![Oogpictogram](media/power-bi-report-filter/power-bi-filter-eye.png) 
+
+### <a name="hide-the-filters-pane-while-editing"></a>Het deelvenster Filters verbergen tijdens het bewerken
+
+U kunt het deel venster filters verbergen tijdens het bewerken van het rapport, wanneer u het deel venster filters niet gebruikt en er extra ruimte op het scherm nodig is. 
+
+- Op het tabblad **weer gave** kunt u op de knop **filters** klikken om het deel venster filters weer te geven of te verbergen.
 
 ![Het deelvenster Filters verbergen of weergeven tijdens het bewerken](media/power-bi-report-filter/power-bi-filter-hide.png)
 
-Met deze instelling wordt alleen het deelvenster Filters in Power BI Desktop verborgen. Als u het deelvenster Filters voor uw eindgebruikers wilt verbergen, selecteert u in plaats daarvan het pictogram van het **oog** naast **Filters**.
-
-![Oogpictogram](media/power-bi-report-filter/power-bi-filter-eye.png) 
+Met deze instelling wordt alleen het deelvenster Filters in Power BI Desktop verborgen. Er is geen equivalent in de bewerkings modus in de Power BI-service.
 
 ## <a name="lock-or-hide-filters"></a>Filters vergrendelen of verbergen
 
@@ -205,7 +188,7 @@ Er zijn mogelijkheden voor aangepast sorteren beschikbaar in het deelvenster Fil
 
 ![Sorteervolgorde van filters aanpassen](media/power-bi-report-filter/power-bi-filter-sort.gif)
 
-Filters worden standaard op alfabetische volgorde gesorteerd. U start de modus voor aangepast sorteren door een filter naar een andere positie te slepen. U kunt filters alleen sorteren op het niveau waarop ze van toepassing zijn, dus op niveau van de visualisatie, de pagina of het rapport.
+Filters worden standaard op alfabetische volgorde gesorteerd. U start de modus voor aangepast sorteren door een filter naar een andere positie te slepen. U kunt de volg orde van filters alleen wijzigen op het niveau waarop ze van toepassing zijn. U kunt bijvoorbeeld de volg orde van de filters op het niveau van het visuele element in de sectie op het niveau van het deel venster filters wijzigen.
 
 ## <a name="improved-filters-pane-accessibility"></a>Verbeterde toegankelijkheid van deelvenster Filters
 
@@ -275,7 +258,7 @@ Op dit moment kunt u bepaalde opmaakelementen van de tekst **Toepassen** instell
 
 ## <a name="considerations-and-limitations"></a>Overwegingen en beperkingen
 
-Het deelvenster Filters wordt niet weergegeven in Publiceren op internet. Als u van plan bent een rapport op internet te publiceren, kunt u slicers toevoegen voor filteren.
+Het deelvenster Filters wordt niet weergegeven in Publiceren op internet. Als u van plan bent een rapport naar het web te publiceren, kunt u in plaats daarvan Slicers voor filteren toevoegen.
 
 ## <a name="next-steps"></a>Volgende stappen
 

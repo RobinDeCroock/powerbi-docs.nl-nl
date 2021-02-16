@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 01/14/2021
-ms.openlocfilehash: b37182cbdf030e8b32fdfe307d0a652fef678b9b
-ms.sourcegitcommit: c33e53e1fab1f29872297524a7b4f5af6c806798
+ms.date: 02/15/2021
+ms.openlocfilehash: 0c6686b667f96e45fc1e21d4cb9512196053f288
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "99533022"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531948"
 ---
 # <a name="capacity-and-skus-in-power-bi-embedded-analytics"></a>Capaciteit en SKU's in Power BI Embedded-analyses
 
@@ -148,7 +148,7 @@ In de onderstaande tabel worden de resources en limieten van elke SKU beschreven
 
 #### <a name="embedded-gen-2-memory-enhancements-preview"></a>Uitgebreide verbeteringen in het geheugen van gen 2 (preview-versie)
 
-Met [Power bi embedded Generation 2](power-bi-embedded-generation-2.md) (ook wel embedded gen 2 genoemd), wordt de hoeveelheid geheugen die beschikbaar is op elke knooppunt grootte, ingesteld op de geheugen limiet van één Power bi item (zoals een rapport of een dash board) en niet op het cumulatieve verbruik van het geheugen. In een Inge sloten Gen2 A4-capaciteit wordt slechts één gegevensset beperkt tot 25 GB, ten opzichte van de oorspronkelijke Power BI Embedded capaciteit, waarbij het totale geheugen verschil van de gegevens sets die tegelijkertijd worden verwerkt, beperkt is tot 25 GB.
+De hoeveelheid beschikbaar geheugen op elke knooppunt grootte wordt beschreven in de kolom *RAM (GB)* in de Power tabel van het [SKU-geheugen en de computer](#sku-memory-and-computing-power) . Met [Power bi embedded Generation 2](power-bi-embedded-generation-2.md) (ook wel embedded gen 2 genoemd), wordt deze hoeveelheid geheugen ingesteld op de geheugen limiet van één Power bi item (zoals een gegevensset, rapport of dash board) en niet op basis van het cumulatieve verbruik van het geheugen. In een Inge sloten Gen2 A4-capaciteit wordt slechts één gegevensset beperkt tot 25 GB, ten opzichte van de oorspronkelijke Power BI Embedded capaciteit, waarbij het totale geheugen verschil van de gegevens sets die tegelijkertijd worden verwerkt, beperkt is tot 25 GB.
 
 ## <a name="next-steps"></a>Volgende stappen
 

@@ -7,95 +7,73 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
-ms.date: 01/20/2021
+ms.date: 02/12/2021
 LocalizationGroup: Reports
-ms.openlocfilehash: b9aecda1f4ec3dfd1a4ab65cb78fd2a8e577c01d
-ms.sourcegitcommit: 77912d4f6ef2a2b1ef8ffccc50691fe5b38ee97a
+ms.openlocfilehash: f7c17b810070a79c9f4a9f4a0756cbcaa8831f18
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "98687159"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531761"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Een filter toevoegen aan een rapport in Power BI
 
-In dit artikel wordt uitgelegd hoe u een paginafilter, visualisatiefilter, rapportfilter of drillthrough-filter toevoegt aan een rapport in Power BI. De voorbeelden in dit artikel hebben betrekking op de Power BI-service. De stappen zijn bijna identiek voor Power BI Desktop.
-
-**Wist u dat?** Power BI heeft een nieuwe filterervaring. Lees meer over de [nieuwe filterervaring in Power BI-rapporten](power-bi-report-filter.md).
+In dit artikel wordt uitgelegd hoe u een visualisatie filter, pagina filter of rapport filter kunt toevoegen aan een rapport in Power BI. U moet een rapport kunnen bewerken om filters toe te voegen. De voor beelden in dit artikel bevinden zich in de Power BI-service en de stappen zijn bijna identiek in Power BI Desktop. Zoekt u een overzicht? Bekijk eerst de [filters en markeer deze in Power bi rapporten](power-bi-reports-filters-and-highlighting.md) .
 
 ![Nieuwe filterfunctionaliteit](media/power-bi-report-add-filter/power-bi-filter-reading.png)
 
 Power BI biedt een aantal verschillende soorten filters, van handmatige en automatische filters tot drillthrough en passthrough. Lees hier meer over de [verschillende soorten filters](power-bi-report-filter-types.md).
 
+Nadat u filters hebt toegevoegd, kunt u [de filters in uw Power bi-rapporten zodanig indelen](power-bi-report-filter.md) dat deze eruitzien en op de gewenste manier reageren.
+
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filters in de bewerkingsweergave of leesweergave
-U kunt in twee verschillende weergaven werken met rapporten: leesweergave en bewerkingsweergave. De beschikbare filtermogelijkheden zijn afhankelijk van de weergave waarin u werkt. Zie [Over filters en markeren in Power BI-rapporten](power-bi-reports-filters-and-highlighting.md) voor uitgebreide informatie.
+U communiceert met rapporten in twee verschillende weer gaven: Lees weergave en bewerk weergave. In dit artikel wordt beschreven hoe u filters maakt in de **bewerkingsweergave** voor rapporten.  Zie [deze snelstartgids](../consumer/end-user-report-filter.md) voor meer informatie over filters in de leesweergave.
 
-In dit artikel wordt beschreven hoe u filters maakt in de **bewerkingsweergave** voor rapporten.  Zie [deze snelstartgids](../consumer/end-user-report-filter.md) voor meer informatie over filters in de leesweergave.
+Omdat filters *behouden blijven* wanneer het rapport niet meer de focus heeft, behoudt Power BI gemaakte wijzigingen in het filter, de slicer en andere gegevensweergaven. U kunt dus verdergaan waar u bent gebleven wanneer u terugkeert naar het rapport. Als u niet wilt dat uw filter wordt gewijzigd, selecteert u **opnieuw instellen op standaard waarden** in de bovenste menu balk.
 
-Omdat filters *behouden blijven* wanneer het rapport niet meer de focus heeft, behoudt Power BI gemaakte wijzigingen in het filter, de slicer en andere gegevensweergaven. U kunt dus verdergaan waar u bent gebleven wanneer u terugkeert naar het rapport. Als u uw filterwijzigingen niet wilt bewaren, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk.
+:::image type="content" source="../consumer/media/end-user-report-filter/power-bi-reset-icon.png" alt-text="Standaard pictogram opnieuw instellen.":::
 
-![de knop permanent filter](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
+Als de maker van het rapport, welke filters u met het rapport opslaat, worden de *Standaard filter status* voor al uw rapport lezers. Wanneer u **opnieuw instellen op standaard waarden** selecteert, keert dat terug naar.
 
 ## <a name="levels-of-filters-in-the-filters-pane"></a>Niveaus van filters in het deelvenster Filters
-Zowel in Power BI Desktop als in de Power BI-service wordt het deelvenster Filters weergegeven aan de rechterkant van het rapportcanvas. Als het deelvenster niet wordt weergegeven, selecteert u het symbool '>' in de rechterbovenhoek om het deelvenster uit te vouwen.
+Of u nu Power BI Desktop of Power BI-service gebruikt, het deel venster filters wordt weer gegeven aan de rechter kant van het rapport papier. Als het deelvenster niet wordt weergegeven, selecteert u het symbool '>' in de rechterbovenhoek om het deelvenster uit te vouwen.
 
-U kunt filters instellen op drie verschillende niveaus voor het rapport: visualisatie, pagina en rapport. U kunt ook drillthrough-filters instellen. In dit artikel worden de verschillende niveaus uitgelegd.
-
-![het deelvenster Filter in de leesweergave](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+U kunt filters instellen op drie verschillende niveaus voor het rapport: op het niveau van de visuele niveaus, op pagina niveau en op rapportniveau. In dit artikel wordt uitgelegd hoe u de verschillende niveaus kunt instellen.
 
 ## <a name="add-a-filter-to-a-visual"></a>Een filter aan een visualisatie toevoegen
-U kunt op twee manieren een filter op het niveau van een visualisatie toevoegen aan een specifieke visualisatie. 
+Visuele elementen hebben twee verschillende soorten filters.
+U kunt op twee verschillende manieren een filter op het niveau van een visueel element toevoegen aan een visueel element. 
 
-* Filter een veld dat al door de visualisatie wordt gebruikt.
-* Zoek een veld dat nog niet door de visualisatie wordt gebruikt en voeg dit veld rechtstreeks toe aan de bucket **Filters op niveau van visuele elementen**.
-
-
-In deze procedure wordt overigens het voorbeeld Retail Analysis gebruikt. U kunt dit voorbeeld downloaden om de stappen te volgen. Download het inhoudspakket [met voorbeeld van een Retail Analysis](sample-retail-analysis.md#get-the-content-pack-for-this-sample).
-
-### <a name="filter-the-fields-in-the-visual"></a>De velden in de visualisatie filteren
-
-1. Selecteer **Meer opties (...)**  > **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
-   
-   ![De knop Rapport bewerken](media/power-bi-report-add-filter/power-bi-edit-view.png)
-
-2. Open het deelvenster Visualisaties en filters en het deelvenster Velden (indien nog gesloten).
-   
-   ![De deelvensters Visualisaties, Filters en Velden](media/power-bi-report-add-filter/power-bi-display-panes.png)
-3. Selecteer een visueel element om het te activeren. Alle velden die door de visualisatie worden gebruikt, staan in het deelvenster **Velden** en ook in het deelvenster **Filters**, onder het kopje **Filters op niveau van visuele elementen**.
-   
-   ![Filters op visualisatieniveau selecteren](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
-4. We gaan nu een filter toevoegen aan een veld dat al door de visualisatie wordt gebruikt. 
-   
-    Schuif omlaag naar het gebied **Filters op niveau van visuele elementen** en selecteer de pijl om het te filteren veld uit te vouwen. In dit voorbeeld filteren we het veld **StoreNumberName**.
-     
-    ![De pijl breidt het filter uit](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-    
-    Stel het filtertype in op **Standaardfilters toepassen**, **Geavanceerd filteren** of **Populairste N**. In dit voorbeeld gebruiken we standaardfilters om te zoeken naar **cha** en die vijf winkels te selecteren.
-     
-    ![Zoeken in standaardfilters](media/power-bi-report-add-filter/power-bi-search-filter.png) 
-   
-    Het visuele element wordt overeenkomstig het nieuwe filter gewijzigd. Als u het rapport met het filter opslaat, zien lezers van het rapport de gefilterde visualisatie en kunnen ze met het filter werken in de leesweergave door waarden te selecteren of te wissen.
-     
-    ![Schermopname van een staafdiagram dat de gefilterde waarden weergeeft.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
-    
-    Wanneer u het filter gebruikt voor een veld dat wordt gebruikt in de visual, waarbij het veld wordt geaggregeerd (bijvoorbeeld een som, gemiddelde of aantal), filtert u op de *geaggregeerde* waarde in elk gegevenspunt. Dus betekent het vragen om te filteren op de visual hierboven waar **Verkoop dit jaar > 500000** dat u alleen het gegevenspunt **13 - Charleston Fashion Direct** in het resultaat ziet. Filters op [modelmetingen](../transform-model/desktop-measures.md) zijn altijd van toepassing op de geaggregeerde waarde van het gegevenspunt.
+* De velden in een visueel element worden automatisch gefilterd op het visuele element. 
+* Als Report Designer kunt u een veld identificeren dat nog niet het visuele element is en dit veld direct toevoegen aan de Bucket **filters op niveau van visuele elementen** .
+ 
+Op de manier maakt dit artikel gebruik van het voor beeld van een retail analyse, als u dit wilt installeren en wilt volgen. Installeer het voor beeld-inhouds pakket voor de [Retail analyse](sample-retail-analysis.md#get-the-content-pack-for-this-sample) .
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>Filteren met een veld dat niet is opgenomen in de visualisatie
 
-Nu gaan we een nieuw veld aan de visualisatie toevoegen, als een filter op het niveau van visuele elementen.
+1. Selecteer in de Power BI-service **meer opties (...)**  >  **Bewerk** om uw rapport te openen in de bewerkings weergave.
    
-1. Selecteer in het deelvenster Velden het veld dat u wilt toevoegen als een nieuw filter op het niveau van visuele elementen en sleep het veld naar het gebied **Filters op niveau van visuele elementen**.  In dit voorbeeld slepen we **District Manager** naar de bucket **Filters op niveau van visuele elementen**, zoeken we naar **an** en selecteren we die drie managers.
+   ![Knop rapport bewerken.](media/power-bi-report-add-filter/power-bi-edit-view.png)
+
+2. Open de deel Vensters visualisaties, filters en velden als deze nog niet zijn geopend.
+   
+   ![De deelvensters Visualisaties, Filters en Velden](media/power-bi-report-add-filter/power-bi-display-panes.png)
+
+3. Selecteer een visueel element om het te activeren. In dit geval is dit het spreidings diagram op de pagina overzicht. Alle velden in het visuele element bevinden zich in het deel venster **Visualisaties** . Ze worden ook weer gegeven in het deel venster **filters** , onder de **filters op deze Visual** -kop.
+   
+   ![Filters op visualisatieniveau selecteren](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
+  
+1. Selecteer in het deelvenster Velden het veld dat u wilt toevoegen als een nieuw filter op het niveau van visuele elementen en sleep het veld naar het gebied **Filters op niveau van visuele elementen**.  In dit voor beeld slepen we **categorie** om **gegevens velden hier** onder **filters in deze Visual** toe te voegen.
      
     ![Een veld toevoegen aan het deelvenster Filters](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
-    U ziet dat **District Manager** zelf *niet* aan de visualisatie wordt toegevoegd. De visualisatie bestaat nog steeds uit **WinkelNummerNaam** als de as en **Omzet van dit jaar** als de waarde.  
+    De **categorie** kennisgeving is *niet* toegevoegd aan de visualisatie zelf.
      
-    ![Het veld bevindt zich niet in de visualisatie](media/power-bi-report-add-filter/power-bi-visualization.png)
-
-    De visualisatie zelf wordt nu gefilterd om alleen de verkopen van de gefilterde managers voor de opgegeven winkels van dit jaar te laten zien.
+1. Selecteer **kinderen**. Het spreidings diagram wordt gefilterd, maar de andere visuele elementen blijven hetzelfde.
      
-    ![Schermopname van een staafdiagram dat de gefilterde waarden op basis van het nieuwe veld weergeeft.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![Scherm afbeelding toont een spreidings diagram met de gefilterde waarden op basis van het nieuwe veld.](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
-    Als u het rapport met dit filter opslaat, kunnen lezers van het rapport werken met het filter **District Manager** in de leesweergave door waarden te selecteren of te wissen.
+    Als u het rapport met dit filter opslaat, kunnen rapport lezers communiceren met het **categorie** filter in de Lees weergave, waarden selecteren of wissen.
     
     Als u een *numerieke kolom* naar het filtervenster sleept om een filter op visualniveau te maken, wordt het filter toegepast op de *onderliggende gegevensrijen*. Als u bijvoorbeeld een filter toevoegt voor het veld **UnitCost** en het instelt op **UnitCost** > 20, worden alleen gegevens weergegeven voor de productrijen waar de kosten per eenheid hoger zijn dan 20, ongeacht de totale kosten per eenheid voor de gegevenspunten die in de visual worden weergegeven.
 
@@ -108,48 +86,15 @@ U kunt ook een filter op paginaniveau toevoegen om een hele pagina te filteren.
 2. Selecteer **...**  > **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
    
    ![De knop Rapport bewerken](media/power-bi-report-add-filter/power-bi-edit-view.png)
-2. Open het deelvenster Visualisaties en filters en het deelvenster Velden (indien nog gesloten).
+
+2. Open de deel Vensters visualisaties, filters en velden als deze nog niet zijn geopend.
+
 3. Selecteer in het deelvenster Velden het veld dat u wilt toevoegen als een nieuw filter op paginaniveau en sleep het veld naar het gebied **Filters op paginaniveau**.  
 4. Selecteer de waarden die u wilt filteren en stel het filtertype in op **Standaardfilters toepassen** of **Geavanceerd filteren**.
    
    Alle visualisaties op de pagina worden opnieuw getekend om de wijziging te weerspiegelen.
    
-   ![Een filter toevoegen en waarden selecteren](media/power-bi-report-add-filter/filterpage.gif)
-
     Als u het rapport met het filter opslaat, kunnen lezers van het rapport met het filter werken in de leesweergave door waarden te selecteren of te wissen.
-
-## <a name="add-a-drillthrough-filter"></a>Een drillthrough-filter toevoegen
-Met drillthrough in Power BI-service en Power BI Desktop kunt u een *doelpagina* voor uw rapport maken die zich op een bepaalde entiteit richt, zoals een leverancier, klant of fabrikant. Gebruikers kunnen nu vanaf de andere rapportpagina's met de rechtermuisknop op een gegevenspunt voor die entiteit klikken en inzoomen op de betreffende pagina.
-
-### <a name="create-a-drillthrough-filter"></a>Een drillthrough-filter maken
-Als u de stappen zelf wilt uitvoeren, downloadt u het bestand [Customer Profitability Sample](sample-customer-profitability.md#get-the-content-pack-for-this-sample). Stel dat u een pagina wilt die zich richt op leidinggevende, zakelijke gebieden.
-
-1. Open in de Power BI-service het rapport Retail Analysis en ga vervolgens naar de pagina **District Monthly Sales**.
-
-2. Selecteer **Meer opties (...)**  > **Rapport bewerken** om het rapport in de bewerkingsweergave te openen.
-   
-   ![De knop Rapport bewerken](media/power-bi-report-add-filter/power-bi-edit-view.png)
-
-1. Voeg een nieuwe pagina aan het rapport toe en geef deze de naam **Leidinggevend team**. Deze pagina wordt het drillthrough-*doel*.
-2. Voeg visualisaties toe die belangrijke metrische gegevens voor de bedrijfstakken van het leidinggevend team volgen.    
-3. Sleep vanuit de tabel **Leidinggevenden** de optie **Leidinggevende** naar de drillthrough-filters.    
-   
-    ![Een waarde toevoegen aan drillthrough-filters](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
-   
-    Er wordt een pijl Vorige aan de rapportpagina toegevoegd.  Als een gebruiker deze pijl Vorige selecteert, wordt hij of zij teruggestuurd naar de *oorspronkelijke* rapportpagina - de pagina waarop voor drillthrough is gekozen. Houd in de bewerkingsweergave de CTRL-toets ingedrukt om de pijl-terug te selecteren
-   
-     ![De pijl Terug](media/power-bi-report-add-filter/power-bi-back-arrow.png)
-
-### <a name="use-the-drillthrough-filter"></a>Het drillthrough-filter gebruiken
-We gaan nu kijken hoe het drillthrough-filter werkt.
-
-1. Begin op de rapportpagina **Team Scorecard**.    
-2. Stel dat u Andrew Ma bent en u wilt de rapportpagina Leidinggevend team filteren met slechts uw eigen gegevens.  Klik in het diagram in het gebied linksboven met de rechter muistoets op een willekeurig groen gegevenspunt om de menuoptie Drillthrough te openen.
-   
-    ![De drillthrough-actie starten](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. Selecteer **Drillthrough > Leidinggevend team** om in te zoomen op de rapportpagina met de naam **Leidinggevend team**. De pagina wordt gefilterd en er wordt informatie weergegeven over het gegevenspunt waarop u met de rechtermuisknop hebt geklikt, in dit geval Andrew Ma. Alle filters op de bronpagina worden toegepast op de pagina met het drillthrough-rapport.  
-   
-    ![De drillthrough-actie selecteren](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-report-level-filter-to-filter-an-entire-report"></a>Een filter op rapportniveau toevoegen om een rapport volledig te filteren
 
@@ -167,14 +112,17 @@ We gaan nu kijken hoe het drillthrough-filter werkt.
 
 ## <a name="considerations-and-troubleshooting"></a>Aandachtspunten en probleemoplossing
 
-- Als u het deelvenster Velden niet ziet, controleer dan of u in de [bewerkingsweergave](service-interact-with-a-report-in-editing-view.md) voor rapporten zit    
-- Als u veel wijzigingen in de filters hebt aangebracht en wilt terugkeren naar de standaardinstellingen van de auteur van het rapport, selecteert u **Standaardinstelling herstellen** in de bovenste menubalk.
+- Als het deel venster velden niet wordt weer gegeven, controleert u of u zich in de [bewerkings weergave](service-interact-with-a-report-in-editing-view.md)van het rapport bevindt.
+- Als u een groot aantal wijzigingen hebt aangebracht in de filters en wilt terugkeren naar de standaard instellingen, selecteert u **opnieuw instellen op standaard waarden** in de bovenste menu balk. Houd er rekening mee dat de auteur van het rapport weet welke filters er zijn wanneer u *het rapport opslaat* als standaard instellingen voor het filter.
 
 ## <a name="next-steps"></a>Volgende stappen
+
+[De filters in uw Power BI-rapporten opmaken](power-bi-report-filter.md)
+
 [Rondleiding door het deelvenster Filters van het rapport](../consumer/end-user-report-filter.md)
 
 [Filters en markeren in rapporten](power-bi-reports-filters-and-highlighting.md)
 
 [Verschillende soorten filters in Power BI](power-bi-report-filter-types.md)
 
-Nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)
+Hebt u nog vragen? [Misschien dat de Power BI-community het antwoord weet](https://community.powerbi.com/)

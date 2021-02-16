@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 02/11/2021
-ms.openlocfilehash: edbb742cfb9d19e47c50ed7c43fa3ba4ba36f779
-ms.sourcegitcommit: 24887643bd3e1b3749ce325dc0ae407432d7fee4
+ms.openlocfilehash: 768e0e8a360c2434fdb66cf309d24857707b9d59
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "100489849"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531580"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Wijzigingenlogboek voor Power BI Report Server
 
@@ -24,7 +24,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
 
 ## <a name="january-2021"></a>Januari 2021
 - **Power BI Report Server**
-    - *Versie: 1.10.7698.27886 (build 15.0.1105.195), uitgebracht: 21 januari 2021*
+    - *Versie: 1.10.7698.27886 (build 15.0.1105.195), uitgebracht: 28 januari 2021*
         - Functies
             - Nieuwe pictogrammen releate Power BI en Power BI rapporten.
             - Aangepaste visuele API geleverd met release-version 3.5.0
@@ -35,7 +35,7 @@ Zie [Wat is er nieuw in Power BI Report Server](whats-new.md) voor meer informat
         - Beveiligingsupdates
 
 - **Power BI Report (geoptimaliseerd voor Power BI Report Server)**
-   - *Versie: 2.88.1382.0 (januari 2021), uitgebracht: 21 januari 2021* (nieuwe build en nieuwe versie)
+   - *Versie: 2.88.1382.0 (januari 2021), uitgebracht: 28 januari 2021* (nieuwe build en nieuwe versie)
         - Bevat wijzigingen die zijn vereist voor de verbinding met Power BI Report Server (januari 2021)        
    
 ## <a name="october-2020"></a>Oktober 2020

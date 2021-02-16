@@ -59,8 +59,6 @@
               href: desktop-ribbon.md
             - name: Werken met rapportweergave
               href: desktop-report-view.md
-            - name: Typen filters in rapporten
-              href: power-bi-report-filter-types.md
             - name: Filters en markeren in rapporten
               href: power-bi-reports-filters-and-highlighting.md
             - name: High-densitysampling van lijnen
@@ -142,6 +140,26 @@
               href: desktop-tooltips.md
             - name: Rapporten exporteren naar PDF-bestanden
               href: desktop-export-to-pdf.md
+            - name: Filters en Slicers in rapporten
+              items:
+                - name: Een filter aan een rapport toevoegen
+                  href: power-bi-report-add-filter.md
+                - name: Filters in rapporten opmaken
+                  href: power-bi-report-filter.md
+                - name: Typen filters in rapporten
+                  href: power-bi-report-filter-types.md
+                - name: Slicers
+                  href: ../visuals/power-bi-visualization-slicers.md
+                - name: Slicers voor numeriek bereik
+                  href: desktop-slicer-numeric-range.md
+                - name: Relatieve datumslicer en -filter gebruiken
+                  href: ../visuals/desktop-slicer-filter-date-range.md
+                - name: Relatieve tijdslicers en -filters
+                  href: slicer-filter-relative-time.md
+                - name: Een slicer maken waarvan u de grootte kunt wijzigen
+                  href: power-bi-slicer-filter-responsive.md
+                - name: Meerdere velden aan een slicer toevoegen
+                  href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Inzichten toepassen om schommelingen in visuals uit te leggen (preview-versie)
               href: desktop-insights.md
             - name: Inzichten gebruiken om te ontdekken hoe distributies variëren (preview-versie)
@@ -158,10 +176,6 @@
               href: desktop-bookmarks.md
             - name: Werken met rapportthema's
               href: desktop-report-themes.md
-            - name: Werken met filters in rapporten
-              href: power-bi-report-filter.md
-            - name: Een filter aan een rapport toevoegen
-              href: power-bi-report-add-filter.md
             - name: Groeperen en binning toepassen
               href: desktop-grouping-and-binning.md
             - name: Rasterlijnen en Uitlijnen op raster toepassen
@@ -174,18 +188,6 @@
               href: desktop-add-custom-column.md
             - name: Labels voor inlinehiërarchie gebruiken
               href: desktop-inline-hierarchy-labels.md
-            - name: Slicers
-              href: ../visuals/power-bi-visualization-slicers.md
-            - name: Slicers voor numeriek bereik
-              href: desktop-slicer-numeric-range.md
-            - name: Relatieve datumslicer en -filter gebruiken
-              href: ../visuals/desktop-slicer-filter-date-range.md
-            - name: Relatieve tijdslicers en -filters
-              href: slicer-filter-relative-time.md
-            - name: Een slicer maken waarvan u de grootte kunt wijzigen
-              href: power-bi-slicer-filter-responsive.md
-            - name: Meerdere velden aan een slicer toevoegen
-              href: power-bi-slicer-hierarchy-multiple-fields.md
             - name: Gegevenstoegang met beveiliging op rijniveau beperken
               href: desktop-rls.md
             - name: Knopinfo aanpassen

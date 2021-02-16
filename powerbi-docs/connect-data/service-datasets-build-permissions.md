@@ -7,20 +7,20 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: how-to
-ms.date: 10/21/2020
+ms.date: 02/12/2021
 LocalizationGroup: Share your work
-ms.openlocfilehash: 914477d8b4bed0b6f90f700afcbfdfbfc263bb1d
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: b646237bddeaae8b73ef809504ab3aea2257c0e6
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96410454"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531465"
 ---
 # <a name="build-permission-for-shared-datasets"></a>Build-machtiging voor gedeelde gegevenssets
 
 Wanneer u een rapport in Power BI Desktop maakt, worden de gegevens in dat rapport opgeslagen in een *gegevensmodel*. Wanneer u uw rapporten publiceert in de Power BI-service, publiceert u de gegevens ook als een *gegevensset*. U kunt anderen de *samenstellingsmachtiging* voor dat rapport geven zodat zij de gegevensset die u hebt gedeeld kunnen detecteren en hergebruiken. In dit artikel wordt uitgelegd hoe u toegang tot de gegevens beheert met behulp van de samenstellingsmachtiging.
 
-De samenstellingsmachtiging is van toepassing op gegevenssets. Met de samenstellingsmachtiging kunnen gebruikers nieuwe inhoud samenstellen op basis van uw gegevensset, zoals rapporten, dashboards, tegels die zijn vastgemaakt vanuit Q&A, en Inzichtdetectie. 
+De samenstellingsmachtiging is van toepassing op gegevenssets. Wanneer u gebruikers de mogelijkheid geeft om machtigingen te bouwen, kunnen ze nieuwe inhoud op uw gegevensset maken, zoals rapporten, Dash boards, vastgemaakte tegels van Q&A, gepagineerde rapporten en inzichten detectie. 
 
 Gebruikers moeten ook beschikken over samenstellingsmachtigingen om *buiten* Power BI met de gegevens te kunnen werken:
 

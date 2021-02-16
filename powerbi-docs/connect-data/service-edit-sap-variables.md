@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: pbi-data-sources
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 02/05/2021
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 179e8740bed71d3d295cfc2fe5f103744e9dbd07
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 1451b6812e9304eb1933de6cde2ed3cc681b7207
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96402726"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531902"
 ---
 # <a name="edit-sap-variables-in-the-power-bi-service"></a>SAP-variabelen bewerken in de Power BI-service
 
@@ -28,14 +28,9 @@ In dit document worden de vereisten beschreven voor het bewerken van variabelen 
 
 Er zijn een aantal vereisten voor het gebruik van de functie SAP-bewerkingsvariabelen. In de volgende lijst worden deze vereisten beschreven.
 
-**Nieuwe filterervaring vereist**: de [nieuwe filterervaring](../create-reports/power-bi-report-filter.md) moet voor uw rapport zijn ingeschakeld. U kunt deze ervaring als volgt inschakelen voor uw rapport in Power BI Desktop:
-- In Power BI Desktop selecteert u **Bestand** > **Opties en instellingen** > **Opties**
-- Selecteer in het navigatievenster onder **Huidig bestand** de optie **Rapportinstellingen**.
-- Onder **Filterervaring** selecteert u **Het bijgewerkte filtervenster inschakelen**.
-
 **DirectQuery-verbindingen vereist**: u moet verbinding maken met de SAP-gegevensbron met behulp van DirectQuery. Importverbindingen worden niet ondersteund.
 
-**Instelling van SSO vereist**: deze functie werkt alleen als eenmalige aanmelding (SSO) is geconfigureerd. Zie [Overzicht van eenmalige aanmelding (SSO)](service-gateway-sso-overview.md) voor meer informatie.
+**Installatie van SSO vereist** : voor een goede werking van deze functie moet eenmalige aanmelding (SSO) zijn geconfigureerd. Zie [Overzicht van eenmalige aanmelding (SSO)](service-gateway-sso-overview.md) voor meer informatie.
 
 **Nieuwe gatewaybits vereist**: download de meest recente gateway en werk uw bestaande gateway bij. Zie [servicegateway](service-gateway-onprem.md) voor meer informatie.
 
@@ -80,7 +75,7 @@ Wanneer u met een gepubliceerd rapport in de Power BI-service werkt waarvoor SAP
 
 Lees de volgende artikelen voor meer informatie over SAP HANA, SAP BW of DirectQuery:
 
-- [SAP HANA in Power BI Desktop gebruiken](desktop-sap-hana.md)
+- [SAP HANA gebruiken in Power BI Desktop](desktop-sap-hana.md)
 - [DirectQuery en SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md)
 - [DirectQuery en SAP HANA](desktop-directquery-sap-hana.md)
 - [DirectQuery gebruiken in Power BI](desktop-directquery-about.md)

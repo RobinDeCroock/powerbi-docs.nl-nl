@@ -9,12 +9,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 03/12/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: cec22acab7cc44b96f3137df04777671964707a8
-ms.sourcegitcommit: 653e18d7041d3dd1cf7a38010372366975a98eae
-ms.translationtype: HT
+ms.openlocfilehash: 134bce772ff9375e179efe966dfd69c9d257c8f0
+ms.sourcegitcommit: 00e3eb2ec4f18d48a73cfd020bb42d08e859ad06
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "96414226"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "100531304"
 ---
 # <a name="set-up-drill-through-in-power-bi-reports"></a>Analyseren instellen in Power BI-rapporten
 Met *analyseren* in Power BI-rapporten kunt u een pagina in uw rapport maken die zich richt op een bepaalde entiteit, zoals een leverancier, klant of fabrikant. Wanneer lezers van uw rapport analyseren gebruiken, klikken ze met de rechtermuisknop op een gegevenspunt in andere rapportpagina's en zoomen ze in op die specifieke pagina voor details die zijn gefilterd op die context. U kunt ook [een knop maken die inzoomt](desktop-drill-through-buttons.md) op details wanneer ze erop klikken.
@@ -37,7 +37,7 @@ U kunt analyseren instellen in uw rapporten in Power BI Desktop of de Power BI-s
     ![Analyseafbeelding](media/desktop-drillthrough/drillthrough_03.png)
 
 > [!IMPORTANT]
-> U kunt een drillthrough voor een pagina in hetzelfde rapport configureren en uitvoeren, maar niet voor een pagina in een ander rapport.  
+> U kunt een detail analyse op een pagina in hetzelfde rapport configureren en uitvoeren, maar u kunt geen details van een pagina in een ander rapport bekijken.  
 
 
 
