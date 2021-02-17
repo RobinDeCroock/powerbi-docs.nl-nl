@@ -9,12 +9,12 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/11/2021
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 0c6fb504cd985103d811b820cc85212aaa72bc76
-ms.sourcegitcommit: 9a00abaca80d0cdb2bd0cd9270f99db62df8a2ce
+ms.openlocfilehash: 9752eddb82fa8f612b9d740cf010c0649ba5b3f8
+ms.sourcegitcommit: 803653e8aa79ed38ec555c27c13b3b6835f98a5d
 ms.translationtype: MT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 02/17/2021
-ms.locfileid: "100569524"
+ms.locfileid: "100569734"
 ---
 # <a name="power-bi-security-white-paper"></a>Technisch document Power BI beveiliging
 
@@ -155,7 +155,7 @@ Met de Power BI-apps voor iOS en Android kunt u uw gegevens beveiligen door extr
 
 ## <a name="authentication-to-the-power-bi-service"></a>Verificatie voor de Power BI-service
 
-De gebruikersverificatie voor de Power BI-service bestaat uit een reeks aanvragen, antwoorden en omleidingen tussen de browser van de gebruiker en de Power BI-service of de Azure-services die worden gebruikt door Power BI. In deze reeks wordt het proces van verificatie van de gebruiker in Power BI beschreven, die de toewijzings stroom voor de [verificatie code van de Azure Active Directory](/azure/active-directory/develop/v2-oauth2-auth-code-flow)volgt. Zie [een aanmeldings model kiezen voor Microsoft 365](https://blogs.office.com/2014/05/13/choosing-a-sign-in-model-for-office-365/)voor meer informatie over de opties voor de gebruikers authenticatie modellen van een organisatie (aanmeld modellen).
+De gebruikersverificatie voor de Power BI-service bestaat uit een reeks aanvragen, antwoorden en omleidingen tussen de browser van de gebruiker en de Power BI-service of de Azure-services die worden gebruikt door Power BI. In deze reeks wordt het proces van verificatie van de gebruiker in Power BI beschreven, die de toewijzings stroom voor de [verificatie code van de Azure Active Directory](/azure/active-directory/develop/v2-oauth2-auth-code-flow)volgt. Zie [een aanmeldings model kiezen voor Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/blog/2014/05/13/choosing-a-sign-in-model-for-office-365/)voor meer informatie over de opties voor de gebruikers authenticatie modellen van een organisatie (aanmeld modellen).
 
 ### <a name="authentication-sequence"></a>Verificatiereeks
 
