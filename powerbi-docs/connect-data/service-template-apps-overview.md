@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 12/14/2020
-ms.openlocfilehash: f9a3558bd83f9c2e263d69ad37c3e985c2c6199a
-ms.sourcegitcommit: 96080432af4c8e3fe46c23274478ccffa0970efb
-ms.translationtype: HT
+ms.openlocfilehash: 4a7156259dbc1273ab14ce4e44d91b54794736e0
+ms.sourcegitcommit: bae5e9a37772360d0aae8624905d5f33951a187f
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/20/2021
-ms.locfileid: "98597588"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100560985"
 ---
 # <a name="what-are-power-bi-template-apps"></a>Wat zijn Power BI-sjabloon-apps?
 
@@ -23,11 +23,11 @@ Als Power BI-partner kunt u een set met out-of-the-box-inhoud voor uw klanten ma
 
 U bouwt sjabloon-apps waarmee uw klanten binnen hun eigen accounts verbinding kunnen maken en kunnen instantiëren. Als domeinexperts kunnen ze de gegevens zodanig ontgrendelen dat deze eenvoudig kunnen worden gebruikt door hun zakelijke gebruikers.  
 
-U dient een sjabloon-app in bij het Partnercentrum. De apps worden vervolgens openbaar beschikbaar in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services) en in [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). We besteden nu uitgebreid aandacht aan de ervaring van het maken van een openbare sjabloon-app.
+U dient een sjabloon-app in bij het Partnercentrum. De apps worden vervolgens openbaar beschikbaar in de [Marketplace voor Power BI-apps](https://app.powerbi.com/groups/me/getapps/apps) en in [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). We besteden nu uitgebreid aandacht aan de ervaring van het maken van een openbare sjabloon-app.
 
 ## <a name="power-bi-apps-marketplace"></a>Marketplace voor Power BI apps
 
-Met Power BI-sjabloon-apps kunnen gebruikers van Power BI Pro of Power BI Premium direct inzichten krijgen, via vooraf verpakte dashboards en rapporten die kunnen worden verbonden met livegegevensbronnen. Veel Power BI-apps zijn al beschikbaar in de [Marketplace voor Power BI-apps](https://app.powerbi.com/getdata/services).
+Met Power BI-sjabloon-apps kunnen gebruikers van Power BI Pro of Power BI Premium direct inzichten krijgen, via vooraf verpakte dashboards en rapporten die kunnen worden verbonden met livegegevensbronnen. Veel Power BI-apps zijn al beschikbaar in de [Marketplace voor Power BI-apps](https://app.powerbi.com/groups/me/getapps/apps).
 
 :::row:::
     :::column:::
@@ -118,6 +118,7 @@ Zie [Tips voor het ontwerpen van sjabloon-apps in Power BI](service-template-app
 | Gegevensbronnen | Gegevensbronnen die worden ondersteund voor via de cloud geplande gegevensvernieuwing zijn toegestaan. <br>Niet ondersteund: <li>Liveverbindingen (geen Azure AS)</li> <li>On-premises gegevensbronnen (persoonlijke gateways en bedrijfsgateways worden niet ondersteund)</li> <li>Realtime (geen ondersteuning voor pushgegevensset)</li> <li>Samengestelde modellen</li></ul> |
 | Gegevensset: voor meerdere werkruimten | Gegevenssets voor meerdere werkruimten zijn niet toegestaan  |
 | Queryparameters | Niet ondersteund: Parameters van het type Alle, Datum of Binair blokkeren het vernieuwen van de gegevensset |
+| Incrementeel vernieuwen | Sjabloon-apps ondersteunen incrementeel vernieuwen niet |
 | Power BI-visuals | Alleen de openbaar beschikbare Power BI-visuals worden ondersteund. [Power BI-organisatievisuals](../developer/visuals/power-bi-custom-visuals-organization.md) niet ondersteund |
 | Onafhankelijke clouds | Sjabloon-apps zijn niet beschikbaar in onafhankelijke clouds |
 

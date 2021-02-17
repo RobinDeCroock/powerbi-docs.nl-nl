@@ -10,12 +10,12 @@ ms.subservice: pbi-reports-dashboards
 ms.topic: how-to
 ms.date: 12/14/2020
 LocalizationGroup: Create reports
-ms.openlocfilehash: 67264868fdbba42856169ca586066f650fca5c38
-ms.sourcegitcommit: 7bf09116163afaae312eb2b232eb7967baee2c92
-ms.translationtype: HT
+ms.openlocfilehash: 61b909ba5c90c7ecf801b4ce448e73353d2334c4
+ms.sourcegitcommit: 9a00abaca80d0cdb2bd0cd9270f99db62df8a2ce
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97621965"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100569616"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Rapportthema's gebruiken in Power BI Desktop
 
@@ -171,7 +171,7 @@ Dit JSON-rapportthemabestand heeft de volgende regels:
 
 - **name**: De naam van het rapportthema. Dit veld is het enige vereiste veld.
 - **dataColors**: De lijst met hexadecimale kleurcodes die moeten worden gebruikt voor gegevens in Power BI Desktop-visuals. Deze lijst kan zo veel of zo weinig kleuren bevatten als u wilt.
-- **achtergrond**, **firstLevelElements** en **tableAccent** (enzovoort): Kleurklassen. Met kleurklassen kunt u een groot aantal structurele kleuren tegelijk instellen in het rapport.
+- **achtergrond**, voor **grond** en **tableAccent** (etc.): kleur klassen. Met kleurklassen kunt u een groot aantal structurele kleuren tegelijk instellen in het rapport.
 
 U kunt dit JSON-bestand gebruiken als basis voor het maken van uw eigen aangepaste rapportthemabestand om te importeren. Als u alleen de basiskleuren van uw rapport wilt aanpassen, wijzigt u de naam en hexadecimale codes in het bestand.
 
