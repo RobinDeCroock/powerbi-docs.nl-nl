@@ -9,12 +9,12 @@ ms.subservice: pbi-dataflows
 ms.topic: how-to
 ms.date: 12/10/2020
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf9740e0f4f6a2e25e1d5d0cc49671bd6eb90b37
-ms.sourcegitcommit: 1cad78595cca1175b82c04458803764ac36e5e37
-ms.translationtype: HT
+ms.openlocfilehash: 44e8af257bc4b4e2a83747f79505caed8f3cc72a
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "98565411"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655754"
 ---
 # <a name="configuring-dataflow-storage-to-use-azure-data-lake-gen-2"></a>Gegevensstroomopslag configureren voor gebruik van Azure Data Lake Gen 2 
 
@@ -24,7 +24,7 @@ Er zijn twee manieren om te configureren welk ADLS Gen2-archief u wilt gebruiken
 
 ## <a name="pre-requisites"></a>Vereisten
 
-Om uw eigen ADLS Gen2-account te kunnen gebruiken, moet u eigenaarsmachtigingen hebben voor het opslagaccount, de resourcegroep of de abonnementslaag. Als u een beheerder bent, moet u nog steeds eigenaarsmachtigingen aan uzelf toewijzen. 
+Om uw eigen ADLS Gen2-account te kunnen gebruiken, moet u eigenaarsmachtigingen hebben voor het opslagaccount, de resourcegroep of de abonnementslaag. Als u een beheerder bent, moet u nog steeds eigenaarsmachtigingen aan uzelf toewijzen.  **ADLS Gen2 opslag accounts worden momenteel niet ondersteund achter een firewall**
 
 Het opslagaccount moet worden gemaakt met de [hiërarchische naamruimte (HNS)](/azure/storage/blobs/create-data-lake-storage-account) ingeschakeld. 
 

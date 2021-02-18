@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 10/21/2020
+ms.date: 02/17/2021
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 3828a11f4b4447f6484e121fec84fb44d702c86a
-ms.sourcegitcommit: 8861dac6724202a5b3be456a6aff8f3584e0cccf
-ms.translationtype: HT
+ms.openlocfilehash: f9ac328df2f24ef9993b6f9bd9c86aa94ee017de
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "93136154"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655709"
 ---
 |Mogelijkheid   | Beheerder  | Lid  | Inzender  | Lezer |
 |---|---|---|---|---|
@@ -26,12 +26,12 @@ ms.locfileid: "93136154"
 | Een item of een app delen.<sup>2</sup> |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | Anderen toestaan items opnieuw te delen.<sup>2</sup> |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
 | Apps op de startpagina van collega's weergeven |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |   |
+| Machtigingen voor gegevensset beheren.<sup>3</sup> | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |  |  |
 | Dashboards en rapporten weergeven op de startpagina van collega's |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |   |
 | Inhoud in de werkruimte maken, bewerken en verwijderen.  |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | Rapporten publiceren naar de werkruimte, inhoud verwijderen.  |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | Een rapport in een andere werkruimte maken op basis van een gegevensset in deze werkruimte.<sup>2</sup> |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |   |
 | Een rapport kopiëren.<sup>3</sup> | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
-| Machtigingen voor gegevensset beheren.<sup>3</sup> | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | De vernieuwing van gegevens plannen via de on-premises gateway.<sup>4</sup> | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | Verbindingsinstellingen voor de gateway wijzigen.<sup>4</sup> | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) |  |
 | Een item bekijken en ermee werken.<sup>5</sup> |  ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png) | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![Ja, vinkje](media/power-bi-workspace-roles-table/green-checkmark.png)  |

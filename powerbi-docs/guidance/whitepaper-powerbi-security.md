@@ -9,18 +9,18 @@ ms.subservice: powerbi
 ms.topic: conceptual
 ms.date: 02/11/2021
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9752eddb82fa8f612b9d740cf010c0649ba5b3f8
-ms.sourcegitcommit: 803653e8aa79ed38ec555c27c13b3b6835f98a5d
+ms.openlocfilehash: 655fde0ef19c15f368cb2219498bb26d4411d5d3
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
 ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100569734"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655672"
 ---
 # <a name="power-bi-security-white-paper"></a>Technisch document Power BI beveiliging
 
 **Samen vatting:** Power BI is een online software service (*SaaS* of software als een service) van micro soft waarmee u eenvoudig en snel Self-Service Business Intelligence-Dash boards, rapporten, gegevens sets en visualisaties kunt maken. Met Power BI kunt u verbinding maken met veel verschillende gegevensbronnen, gegevens via deze verbindingen combineren en vormgeven, en vervolgens rapporten en dashboards maken die met anderen kunnen worden gedeeld.
 
-**Schrijvers:** Yitzhak Kesselman, padie Osborne, Matt Neely, Tony Bencic, Srinivasan Turuvekere, Cristian Petculescu, Adi Regev, Naveen Sivaraj, ben Glastein, Evgeny Tshiorny, Arthi Ramasubramanian Iyer, sid Jayadevan, Ronald Chang, ori Eduar, Anton Fritz, Idan Sheinberg, Loek Gilad, Sagiv Hadaya, Paul Inbar, Igor Uzhviev, Michael Roth, Janny Tarquino, Gennady PATS, Orion Lee, Yury Berezansky, Maya Shenhav, romit Chattopadhyay, Yariv Maimon, Bogdan Crivat
+**Schrijvers:** Yitzhak Kesselman, padie Osborne, Matt Neely, Tony Bencic, Srinivasan Turuvekere, Cristian Petculescu, Adi Regev, Naveen Sivaraj, ben Glastein, Evgeny Tshiorny, Arthi Ramasubramanian Iyer, sid Jayadevan, Ronald Chang, ori Eduar, Anton Fritz, Idan Sheinberg, Loek Gilad, Sagiv Hadaya, Paul Inbar, Igor Uzhviev, Michael Roth, Jaime Tarquino, Gennady PATS, Orion Lee, Yury Berezansky, Maya Shenhav, romit Chattopadhyay, Yariv Maimon, Bogdan Crivat
 
 **Technische revisoren:** Cristian Petculescu, Amir Netz, Sergei Gundorov
 

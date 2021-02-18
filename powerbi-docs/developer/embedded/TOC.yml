@@ -30,6 +30,8 @@
           href: embedded-capacity.md
         - name: Capaciteitsplanning
           href: embedded-capacity-planning.md
+        - name: Embedded Analytics-toepassings tokens
+          href: embed-tokens.md
         - name: Overwegingen voor het genereren van een insluittoken
           href: generate-embed-token.md
         - name: Aanbevolen procedures voor de prestaties

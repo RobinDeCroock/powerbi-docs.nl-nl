@@ -9,13 +9,13 @@ ms.topic: tutorial
 ms.author: samkemp
 author: samuel100
 ms.reviewer: sdgilley, maggies
-ms.date: 12/10/2020
-ms.openlocfilehash: 6c68fff575e4da0c9126904df2de5292747c209c
-ms.sourcegitcommit: 46cf62d9bb33ac7b7eae7910fbba6756f626c65f
-ms.translationtype: HT
+ms.date: 02/17/2021
+ms.openlocfilehash: 91ba29a09cfdd434c52794e83651736c2b796b1e
+ms.sourcegitcommit: fb408dfd39943dbec990a16bcf204671beb4f0aa
+ms.translationtype: MT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97491777"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "100655627"
 ---
 # <a name="tutorial-consume-azure-machine-learning-models-in-power-bi"></a>Zelfstudie: Azure Machine Learning-modellen gebruiken in Power BI
 
@@ -57,6 +57,10 @@ https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt
 
 Selecteer **OK**.
 
+Selecteer in **Internet inhoud** de optie **anonieme**  >  **verbinding**.
+
+:::image type="content" source="media/service-aml-integrate/anonymous-access-web-content.png" alt-text="Scherm afbeelding met anonieme toegang voor webinhoud.":::
+
 Selecteer **Gegevens transformeren** om het venster **Power Query-editor** te openen.
 
 Selecteert in de Home-lint van de Power Query-editor de knop **Azure Machine Learning**.
@@ -84,7 +88,9 @@ De gegevens die door de service worden geretourneerd, zijn een **lijst**.
 > [!NOTE]
 > Als u een speciaal ontworpen model hebt geïmplementeerd, ziet u een **record**.
 
-Als u de voorspellingen wilt weergeven, selecteert u op het lint **Transformeren** de knop **Kolom uitvouwen** > **Uitvouwen naar nieuwe rijen**.
+Als u de voor spellingen wilt ophalen, selecteert u de dubbele pijl in de **AzureML.my-diabetes-model** header > **uit te breiden naar nieuwe rijen**.
+
+:::image type="content" source="media/service-aml-integrate/expand-column.png" alt-text="Scherm afbeelding met het pictogram voor het uitbreiden van de kolom.":::
 
 Nadat u deze heeft uitgevouwen, ziet u de voorspellingen in de kolom AzureML.my-diabetes-model.
 
